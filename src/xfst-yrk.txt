@@ -1,0 +1,14 @@
+
+define GlottalToD ˮ -> д || _ %> м ;
+define GlottalToZERO ˮ -> 0 || _ %> к ;
+
+
+
+
+read regex [
+
+    GlottalToD
+.o. GlottalToZERO
+] ;
+
+
