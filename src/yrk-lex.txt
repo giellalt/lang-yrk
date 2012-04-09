@@ -1,0 +1,108 @@
+Multichar_Symbols
+
+! POS
++N +V +A 
++Adv +CC +CS +Interj +ProN +Num
+
+! Vербал MSP
++Prs +Fut +Prt +Prf +PrfIpf +HstPrf +PluPrf +HstPluPrf
++Ind +Imp +Cond +Opt
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Inf
++Pos +Neg
+
+! Nоминал MSP
++Sg +Pl
++Nom +Acc +Gen +Abl +Dat +Abe +Adc +Ins +Apr +Ine +Ill +Ela +Egr
++Prl
++Ord
++PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
++Qst
+
++Appr
++Advc
++Tra
++Ter
++Pro
++Car 
+
++Pers
++Dem
+
++PstI
++PstII
+
+
+
+! Kеы леъицон
+
+LEXICON Root
+AdjRoot ;
+AdvRoot ;
+NounRoot ;
+NumRoot ;
+VerbRoot ;
+CONJUNCTION ;
+SUBJUNCTION ;
+INTERJECTION ;
+NUMERAL ;
+PRONOUN ;
+POSTPOSITION ;
+PUNCTUATION ;
+
+
+
+! I INCLUDE SOME SMALL LEXICA HERE
+! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
+
+LEXICON CONJUNCTION 
+но CT ;
+нош CT ;
+
+LEXICON CT
++CS: # ;
+ 
+LEXICON SUBJUNCTION  
+# ;
+
+LEXICON INTERJECTION 
+# ;
+
+LEXICON NUMERAL
+#;
+
+LEXICON NUMBERSUF
++Num: K;
++Num:%> CASESUF ;
++Num:%> ORDINAL ;
+
+LEXICON ORDINAL
++Ord:этӥ K;
+
+
+
+LEXICON K
++Qst:а #;
+#; 
+
+
+LEXICON PUNCTUATION
+#; 
+LEXICON POSTPOSITION
+#; 
+LEXICON PRONOUN
+#; 
+LEXICON CADJ
+#; 
+LEXICON VADJ
+#; 
+LEXICON AdvEnd
+#; 
+LEXICON CASESUF
+#; 
+LEXICON PRON
+#; 
+LEXICON DEM
+#; 
+LEXICON PERS
+#; 
