@@ -35,7 +35,7 @@ SRC = yrk-lex.txt \
 # It is dependent upon yrk.save
 
 iyrk.fst: ../bin/iyrk.fst
-../bin/iyrk.fst: ../bin/yrk.fst
+../bin/iyrk.fst: ../bin/yrk.fst ../bin/yrk-num.fst
 	@echo
 	@echo "*** Building the inverse iyrk.fst ***"
 	@echo
@@ -119,6 +119,20 @@ xfst-yrk.bin: ../bin/xfst-yrk.bin
 	quit \n" > ../../tmp/xfst-yrk-script
 	$(XFST) < ../../tmp/xfst-yrk-script
 	@rm -f ../../tmp/xfst-yrk-script
+
+
+# And yes, the number generator.
+
+yrk-num.fst: ../bin/yrk-num.fst
+../bin/yrk-num.fst: yrk-num.txt
+	@echo
+	@echo "*** Building $(notdir $@) ***" ;
+	@echo
+	$(XFST) -e "read lexc < $< " \
+		-e "save stack   $@ " \
+		-stop
+
+
 
 clean:
 	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save
