@@ -5,6 +5,9 @@ LEXICON VNOUN
 LEXICON CNOUN
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
++N+Sg+Dat:%>анʼ K ;
++Sg+Loc:%>ахА1на K ;
++Sg+Pros:%>увна K ; 
 
 LEXICON DNOUN
 +N: SGNOMSUF ;
@@ -21,5 +24,38 @@ LEXICON SGNOMSUF
 LEXICON SGACCSUF
 +Sg+Acc:%>мʼ K ;
 
+LEXICON V-SGGENSUF
++Sg+Gen:%>ʼ K ;
+
+LEXICON V-SGDATSUF
++Sg+Dat:%>нʼ K ;
+
+LEXICON V-SGLOCSUF
++Sg+Loc:%>хА1на K ; !вэсакохона пэдарахана ӈамеэхэна
+
+LEXICON V-SGABLSUF
++Sg+Abl:%>хА1д K ; !вэсакоход пэдарахад ӈамеэхэд
+
+LEXICON V-SGPROSSUF
++Sg+Pros:%>вна K ; 
 
 
+
+
+!! Start Plural
+LEXICON V-PLNOMSUF
++Pl+Nom:ˮ K ;
+
+
+
+!! Conjugation of nouns and adjectives
+LEXICON NOMINAL-CONJUGATION
++Pred+Ind+Sx1Sg:%>дмʼ K ;
++Pred+Ind+Sx2Sg:%>н K ;
++Pred+Ind+Sx3Sg: K ;
++Pred+Ind+Sx1Du:%>ниʼ K ;
++Pred+Ind+Sx2Du:%>диʼ K ;
++Pred+Ind+Sx3Du:%>хаʼ K ;
++Pred+Ind+Sx1Pl:%>ваˮ K ;
++Pred+Ind+Sx2Pl:%>даˮ K ;
++Pred+Ind+Sx3Pl:%>ˮ K ;
