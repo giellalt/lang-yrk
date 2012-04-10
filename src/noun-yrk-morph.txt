@@ -5,7 +5,19 @@ LEXICON VNOUN
 +N:%> SGDATSUF ;
 +N:%> SGLOCSUF ;
 +N: SGABLSUF ;
-+N:%> SGPROSSUF ;
++N:%>в SGPROSSUF ;
+
++N: PLNOMSUF ;
++N: PLACCSUF ;
++N: PLGENSUF ;
++N: PLDATSUF ;
++N: PLLOCSUF ;
++N: PLABLSUF ;
++N: PLPROSSUF ;
+
++N: POSSESSOR-INDICES ;
++N: NOMINAL-CONJUGATION ;
+
 
 LEXICON CNOUN
 +N: SGNOMSUF ;
@@ -14,11 +26,16 @@ LEXICON CNOUN
 +N:%>а SGDATSUF ;
 +N:%>а SGLOCSUF ;
 +N: SGABLSUF ;
-+N:%>у SGPROSSUF ;
++N:%>ув SGPROSSUF ;
 
 LEXICON DNOUN
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
++N: SGGENSUF ;
++N:%> SGDATSUF ;
++N:%> SGLOCSUF ;
++N: SGABLSUF ;
++N:%>ˮма SGPROSSUF ;
 
 LEXICON NNOUN
 +N: SGNOMSUF ;
@@ -44,26 +61,211 @@ LEXICON SGABLSUF
 +Sg+Abl:%>хА1д K ; !вэсакоход пэдарахад ӈамгэхэд
 
 LEXICON SGPROSSUF
-+Sg+Pros:вна K ; 
-
++Sg+Pros:на K ; 
 
 
 
 !! Start Plural
-LEXICON V-PLNOMSUF
-+Pl+Nom:ˮ K ;
+LEXICON PLNOMSUF
++Pl+Nom:%>ˮ K ;
+
+LEXICON PLACCSUF
++Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
+
+LEXICON PLGENSUF
++Pl+Gen:%>Ы1ˮ K ; 
+
+LEXICON PLDATSUF
++Pl+Dat:%>хА1ˮ K ;
+
+LEXICON PLLOCSUF
++Pl+Loc:хА1ˮна K ;
+
+LEXICON PLABLSUF
++Pl+Abl:%>хА1т K ;
+
+LEXICON PLPROSSUF
++Pl+Pros:%>Ы1ˮмана K ;
+
+
+
+!! Possessor Indices
+LEXICON POSSESSOR-INDICES
++Nom+Sg+Px1Sg:%>в K ;
++Nom+Sg+Px2Sg:%>р K ;
++Nom+Sg+Px3Sg:%>да K ;
++Nom+Sg+Px1Du:%>миʼ K ;
++Nom+Sg+Px2Du:%>риʼ K ;
++Nom+Sg+Px3Du:%>диʼ K ;
++Nom+Sg+Px1Pl:%>ваˮ K ;
++Nom+Sg+Px2Pl:%>раˮ K ;
++Nom+Sg+Px3Pl:%>доʼ K ;
+
++Acc+Sg+Px1Sg:%>в K ;
++Acc+Sg+Px2Sg:%>мд K ;
++Acc+Sg+Px3Sg:%>мта K ; ! Should this be мда
++Acc+Sg+Px1Du:%>миʼ K ;
++Acc+Sg+Px2Du:%>мтиʼ K ;
++Acc+Sg+Px3Du:%>мтиʼ K ;
++Acc+Sg+Px1Pl:%>ваˮ K ;
++Acc+Sg+Px2Pl:%>мтаˮ K ;
++Acc+Sg+Px3Pl:%>мтоʼ K ;
+
++Gen+Sg+Px1Sg:%>н K ;
++Gen+Sg+Px2Sg:%>нд K ;
++Gen+Sg+Px3Sg:%>нта K ; ! Should this be нда
++Gen+Sg+Px1Du:%>ниʼ K ;
++Gen+Sg+Px2Du:%>нтиʼ K ;
++Gen+Sg+Px3Du:%>нтиʼ K ;
++Gen+Sg+Px1Pl:%>наˮ K ;
++Gen+Sg+Px2Pl:%>нтаˮ K ;
++Gen+Sg+Px3Pl:%>нтоʼ K ;
+
++Dat+Sg+Px1Sg:%>хА1н K ;
++Dat+Sg+Px2Sg:%>хА1нт K ;
++Dat+Sg+Px3Sg:%>хА1нта K ;
++Dat+Sg+Px1Du:%>хА1ниʼ K ;
++Dat+Sg+Px2Du:%>хА1нтиʼ K ;
++Dat+Sg+Px3Du:%>хА1нтиʼ K ;
++Dat+Sg+Px1Pl:%>хА1наˮ K ;
++Dat+Sg+Px2Pl:%>хА1нтаˮ K ;
++Dat+Sg+Px3Pl:%>хА1нтоʼ K ;
+
++Loc+Sg+Px1Sg:%>хА1нан K ;
++Loc+Sg+Px2Sg:%>хА1нант K ;
++Loc+Sg+Px3Sg:%>хА1нанта K ;
++Loc+Sg+Px1Du:%>хА1наниʼ K ;
++Loc+Sg+Px2Du:%>хА1нантиʼ K ;
++Loc+Sg+Px3Du:%>хА1нантиʼ K ;
++Loc+Sg+Px1Pl:%>хА1нанаˮ K ;
++Loc+Sg+Px2Pl:%>хА1нантаˮ K ;
++Loc+Sg+Px3Pl:%>хА1нантоʼ K ;
+
+!! Dual possessa
++Nom+Du+Px1Sg:%>хюн K ;
++Nom+Du+Px2Sg:%>хюд K ;
++Nom+Du+Px3Sg:%>хюда K ;
++Nom+Du+Px1Du:%>хюниʼ K ;
++Nom+Du+Px2Du:%>хюдиʼ K ;
++Nom+Du+Px3Du:%>хюдиʼ K ;
++Nom+Du+Px1Pl:%>хюнаˮ K ;
++Nom+Du+Px2Pl:%>хюдаˮ K ;
++Nom+Du+Px3Pl:%>хюдоʼ K ;
+
++Acc+Du+Px1Sg:%>хюн K ;
++Acc+Du+Px2Sg:%>хюд K ;
++Acc+Du+Px3Sg:%>хюда K ;
++Acc+Du+Px1Du:%>хюниʼ K ;
++Acc+Du+Px2Du:%>хюдиʼ K ;
++Acc+Du+Px3Du:%>хюдиʼ K ;
++Acc+Du+Px1Pl:%>хюнаˮ K ;
++Acc+Du+Px2Pl:%>хюдаˮ K ;
++Acc+Du+Px3Pl:%>хюдоʼ K ;
+
++Gen+Du+Px1Sg:%>хюн K ;
++Gen+Du+Px2Sg:%>хют K ;
++Gen+Du+Px3Sg:%>хюта K ;
++Gen+Du+Px1Du:%>хюниʼ K ;
++Gen+Du+Px2Du:%>хютиʼ K ;
++Gen+Du+Px3Du:%>хютиʼ K ;
++Gen+Du+Px1Pl:%>хюнаˮ K ;
++Gen+Du+Px2Pl:%>хютаˮ K ;
++Gen+Du+Px3Pl:%>хютоʼ K ;
+
+!! Plural Possessa
++Nom+Pl+Px1Sg:%>н K ;
++Nom+Pl+Px2Sg:%>д K ;
++Nom+Pl+Px3Sg:%>да K ;
++Nom+Pl+Px1Du:%>ниʼ K ;
++Nom+Pl+Px2Du:%>диʼ K ;
++Nom+Pl+Px3Du:%>диʼ K ;
++Nom+Pl+Px1Pl:%>наˮ K ;
++Nom+Pl+Px2Pl:%>даˮ K ;
++Nom+Pl+Px3Pl:%>доʼ K ;
+
++Acc+Pl+Px1Sg:%>н K ;
++Acc+Pl+Px2Sg:%>д K ;
++Acc+Pl+Px3Sg:%>да K ;
++Acc+Pl+Px1Du:%>ниʼ K ;
++Acc+Pl+Px2Du:%>диʼ K ;
++Acc+Pl+Px3Du:%>диʼ K ;
++Acc+Pl+Px1Pl:%>наˮ K ;
++Acc+Pl+Px2Pl:%>даˮ K ;
++Acc+Pl+Px3Pl:%>доʼ K ;
+
++Gen+Pl+Px1Sg:%>ˮн K ;
++Gen+Pl+Px2Sg:%>т K ; ! _*_ˮд : т_
++Gen+Pl+Px3Sg:%>та K ; ! _*_ˮд : т_
++Gen+Pl+Px1Du:%>ˮниʼ K ;
++Gen+Pl+Px2Du:%>тиʼ K ;! _*_ˮд : т_
++Gen+Pl+Px3Du:%>тиʼ K ; ! _*_ˮд : т_
++Gen+Pl+Px1Pl:%>ˮнаˮ K ;
++Gen+Pl+Px2Pl:%>таˮ K ; ! _*_ˮд : т_
++Gen+Pl+Px3Pl:%>тоʼ K ; ! _*_ˮд : т_
+
++Dat+Pl+Px1Sg:%>хА1ˮн K ;
++Dat+Pl+Px2Sg:%>хА1т K ;
++Dat+Pl+Px3Sg:%>хА1та K ;
++Dat+Pl+Px1Du:%>хА1ˮниʼ K ;
++Dat+Pl+Px2Du:%>хА1тиʼ K ;
++Dat+Pl+Px3Du:%>хА1тиʼ K ;
++Dat+Pl+Px1Pl:%>хА1ˮнаˮ K ;
++Dat+Pl+Px2Pl:%>хА1таˮ K ;
++Dat+Pl+Px3Pl:%>хА1тоʼ K ;
+
++Loc+Pl+Px1Sg:%>хА1ˮнан K ;
++Loc+Pl+Px2Sg:%>хА1ˮнат K ;
++Loc+Pl+Px3Sg:%>хА1ˮната K ;
++Loc+Pl+Px1Du:%>хА1ˮнаниʼ K ;
++Loc+Pl+Px2Du:%>хА1ˮнатиʼ K ;
++Loc+Pl+Px3Du:%>хА1ˮнатиʼ K ;
++Loc+Pl+Px1Pl:%>хА1ˮнанаˮ K ;
++Loc+Pl+Px2Pl:%>хА1ˮнатаˮ K ;
++Loc+Pl+Px3Pl:%>хА1ˮнатоʼ K ;
+
++Abl+Pl+Px1Sg:%>хА1тан K ;
++Abl+Pl+Px2Sg:%>хА1тат K ;
++Abl+Pl+Px3Sg:%>хА1тата K ;
++Abl+Pl+Px1Du:%>хА1таниʼ K ;
++Abl+Pl+Px2Du:%>хА1татиʼ K ;
++Abl+Pl+Px3Du:%>хА1татиʼ K ;
++Abl+Pl+Px1Pl:%>хА1танаˮ K ;
++Abl+Pl+Px2Pl:%>хА1татаˮ K ;
++Abl+Pl+Px3Pl:%>хА1татоʼ K ;
+
++Pros+Pl+Px1Sg:%>ˮманан K ;
++Pros+Pl+Px2Sg:%>ˮманат K ;
++Pros+Pl+Px3Sg:%>ˮманата K ;
++Pros+Pl+Px1Du:%>ˮмананиʼ K ;
++Pros+Pl+Px2Du:%>ˮманатиʼ K ;
++Pros+Pl+Px3Du:%>ˮманатиʼ K ;
++Pros+Pl+Px1Pl:%>ˮмананаˮ K ;
++Pros+Pl+Px2Pl:%>ˮманатаˮ K ;
++Pros+Pl+Px3Pl:%>ˮманатоʼ K ;
+
 
 
 
 
 !! Conjugation of nouns and adjectives
 LEXICON NOMINAL-CONJUGATION
-+Pred+Ind+Sx1Sg:%>дмʼ K ;
-+Pred+Ind+Sx2Sg:%>н K ;
-+Pred+Ind+Sx3Sg: K ;
-+Pred+Ind+Sx1Du:%>ниʼ K ;
-+Pred+Ind+Sx2Du:%>диʼ K ;
-+Pred+Ind+Sx3Du:%>хаʼ K ;
-+Pred+Ind+Sx1Pl:%>ваˮ K ;
-+Pred+Ind+Sx2Pl:%>даˮ K ;
-+Pred+Ind+Sx3Pl:%>ˮ K ;
++Pred+Ind+Aor+Sx1Sg:%>дмʼ K ;
++Pred+Ind+Aor+Sx2Sg:%>н K ;
++Pred+Ind+Aor+Sx3Sg: K ;
++Pred+Ind+Aor+Sx1Du:%>ниʼ K ;
++Pred+Ind+Aor+Sx2Du:%>диʼ K ;
++Pred+Ind+Aor+Sx3Du:%>хаʼ K ;
++Pred+Ind+Aor+Sx1Pl:%>ваˮ K ;
++Pred+Ind+Aor+Sx2Pl:%>даˮ K ;
++Pred+Ind+Aor+Sx3Pl:%>ˮ K ;
+
++Pred+Ind+Prt1+Sx1Sg:%>дамзь K ;
++Pred+Ind+Prt1+Sx2Sg:%>нась K ;
++Pred+Ind+Prt1+Sx3Sg:%>сь K ;
++Pred+Ind+Prt1+Sx1Du:%>нинзь K ;
++Pred+Ind+Prt1+Sx2Du:%>динзь K ;
++Pred+Ind+Prt1+Sx3Du:%>ханзь K ;
++Pred+Ind+Prt1+Sx1Pl:%>ваць K ;
++Pred+Ind+Prt1+Sx2Pl:%>даць K ;
++Pred+Ind+Prt1+Sx3Pl:%>ць K ;
+
