@@ -2,7 +2,14 @@
 define Dummy %> ;
 
 define GlottalToD ˮ -> д || _ %> м ;
+ !€ мяˮ>м:мядм
+
 define GlottalToZERO ˮ -> 0 || _ %> к ;
+
+define VowelCorrelation [ А1 -> а || а %> х _ ,,
+                          А1 -> о || о %> х _ ,,
+                          А1 -> э || э %> х _ ] ;
+
 define DummyDeletion Dummy -> 0 ;
 
 
@@ -11,6 +18,7 @@ read regex [
 
     GlottalToD
 .o. GlottalToZERO
+.o. VowelCorrelation
 .o. DummyDeletion
 ] ;
 
