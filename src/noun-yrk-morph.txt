@@ -1,13 +1,20 @@
 LEXICON VNOUN
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
++N: SGGENSUF ;
++N:%> SGDATSUF ;
++N:%> SGLOCSUF ;
++N: SGABLSUF ;
++N:%> SGPROSSUF ;
 
 LEXICON CNOUN
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
-+N+Sg+Dat:%>анʼ K ;
-+Sg+Loc:%>ахА1на K ;
-+Sg+Pros:%>увна K ; 
++N: SGGENSUF ;
++N:%>а SGDATSUF ;
++N:%>а SGLOCSUF ;
++N: SGABLSUF ;
++N:%>у SGPROSSUF ;
 
 LEXICON DNOUN
 +N: SGNOMSUF ;
@@ -24,20 +31,20 @@ LEXICON SGNOMSUF
 LEXICON SGACCSUF
 +Sg+Acc:%>мʼ K ;
 
-LEXICON V-SGGENSUF
+LEXICON SGGENSUF
 +Sg+Gen:%>ʼ K ;
 
-LEXICON V-SGDATSUF
-+Sg+Dat:%>нʼ K ;
+LEXICON SGDATSUF
++Sg+Dat:нʼ K ;
 
-LEXICON V-SGLOCSUF
-+Sg+Loc:%>хА1на K ; !вэсакохона пэдарахана ӈамеэхэна
+LEXICON SGLOCSUF
++Sg+Loc:хА1на K ; !вэсакохона пэдарахана ӈамеэхэна
 
-LEXICON V-SGABLSUF
-+Sg+Abl:%>хА1д K ; !вэсакоход пэдарахад ӈамеэхэд
+LEXICON SGABLSUF
++Sg+Abl:%>хА1д K ; !вэсакоход пэдарахад ӈамгэхэд
 
-LEXICON V-SGPROSSUF
-+Sg+Pros:%>вна K ; 
+LEXICON SGPROSSUF
++Sg+Pros:вна K ; 
 
 
 
@@ -45,6 +52,7 @@ LEXICON V-SGPROSSUF
 !! Start Plural
 LEXICON V-PLNOMSUF
 +Pl+Nom:ˮ K ;
+
 
 
 
