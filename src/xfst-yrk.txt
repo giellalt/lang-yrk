@@ -1,7 +1,9 @@
 
+define Dummy %> ;
+
 define GlottalToD ˮ -> д || _ %> м ;
 define GlottalToZERO ˮ -> 0 || _ %> к ;
-
+define DummyDeletion Dummy -> 0 ;
 
 
 
@@ -9,6 +11,7 @@ read regex [
 
     GlottalToD
 .o. GlottalToZERO
+.o. DummyDeletion
 ] ;
 
 
