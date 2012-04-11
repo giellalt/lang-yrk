@@ -6,6 +6,11 @@ LEXICON VNOUN
 +N:%> SGLOCSUF ;
 +N: SGABLSUF ;
 +N:%>в SGPROSSUF ;
++N: SGTRASUF ;
+
++N: DUNOMSUF ;
++N: DUACCSUF ;
++N: DUGENSUF ;
 
 +N: PLNOMSUF ;
 +N: PLACCSUF ;
@@ -27,7 +32,22 @@ LEXICON CNOUN
 +N:%>а SGLOCSUF ;
 +N: SGABLSUF ;
 +N:%>ув SGPROSSUF ;
++N: SGTRASUF ;
 
++N: DUNOMSUF ;
++N: DUACCSUF ;
++N: DUGENSUF ;
+
++N: PLNOMSUF ;
++N: PLACCSUF ;
++N: PLGENSUF ;
++N: PLDATSUF ;
++N:%> PLLOCSUF ;
++N: PLABLSUF ;
++N: PLPROSSUF ;
+
+
+! Non-nasal glottal stops
 LEXICON DNOUN
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
@@ -35,7 +55,131 @@ LEXICON DNOUN
 +N:%> SGDATSUF ;
 +N:%> SGLOCSUF ;
 +N: SGABLSUF ;
-+N:%>ˮма SGPROSSUF ;
++N:%>м SGPROSSUF ;
++N: SGTRASUF ;
+
++N: DUNOMSUF ;
++N: DUACCSUF ;
++N: DUGENSUF ;
+
++N: PLNOMSUF ;
++N: PLACCSUF ;
++N: PLGENSUF ;
++N: PLDATSUF ;
++N:%> PLLOCSUF ;
++N: PLABLSUF ;
++N: PLPROSSUF ;
+
+!Work required
+LEXICON teno-NOUN 
++N: SGNOMSUF ;
++N: SGACCSUF ;
++N: SGGENSUF ;
++N:%> SGDATSUF ;
++N:%> SGLOCSUF ;
++N: SGABLSUF ;
++N:%>м SGPROSSUF ;
++N: SGTRASUF ;
+
++N: DUNOMSUF ;
++N: DUACCSUF ;
++N: DUGENSUF ;
+
++N: PLNOMSUF ;
++N: PLACCSUF ;
++N: PLGENSUF ;
++N: PLDATSUF ;
++N:%> PLLOCSUF ;
++N: PLABLSUF ;
++N: PLPROSSUF ;
+
+LEXICON wyngo-NOUN
++N: SGNOMSUF ;
++N: SGACCSUF ;
++N: SGGENSUF ;
++N:%> SGDATSUF ;
++N:%> SGLOCSUF ;
++N: SGABLSUF ;
++N:%>м SGPROSSUF ;
++N: SGTRASUF ;
+
++N: PLNOMSUF ;
++N: PLACCSUF ;
++N: PLGENSUF ;
++N: PLDATSUF ;
++N:%> PLLOCSUF ;
++N: PLABLSUF ;
++N: PLPROSSUF ;
+
+LEXICON tojo-NOUN
++N: SGNOMSUF ;
++N:д SGACCSUF ;
++N:д SGGENSUF ;
++N:ˮ%> SGDATSUF ;
++N:ˮ%> SGLOCSUF ;
++N:ˮ SGABLSUF ;
++N:ˮ%>ма SGPROSSUF ;
++N: SGTRASUF ;
+
++N: DUNOMSUF ;
++N: DUACCSUF ;
++N: DUGENSUF ;
+
++N:д PLNOMSUF ;
++N:д PLACCSUF ;
++N:д PLGENSUF ;
++N: PLDATSUF ;
++N:ˮ%> PLLOCSUF ;
++N:ˮ PLABLSUF ;
++N:д PLPROSSUF ;
+
+LEXICON xawo-NOUN
++N: SGNOMSUF ;
++N:д SGACCSUF ;
++N:д SGGENSUF ;
++N:ˮ%> SGDATSUF ;
++N:ˮ%> SGLOCSUF ;
++N:ˮ SGABLSUF ;
++N:ˮ%>ма SGPROSSUF ;
++N: SGTRASUF ;
+
++N: DUNOMSUF ;
++N: DUACCSUF ;
++N: DUGENSUF ;
+
++N:д PLNOMSUF ;
++N:д PLACCSUF ;
++N:д PLGENSUF ;
++N: PLDATSUF ;
++N:ˮ%> PLLOCSUF ;
++N:ˮ PLABLSUF ;
++N:д PLPROSSUF ;
+
+LEXICON jam-NOUN
++N: SGNOMSUF ;
++N: SGACCSUF ;
++N: SGGENSUF ;
++N:%> SGDATSUF ;
++N:%> SGLOCSUF ;
++N: SGABLSUF ;
++N:%> SGPROSSUF ; ! Check this
++N: SGTRASUF ;
+
++N: DUNOMSUF ;
++N: DUACCSUF ;
++N: DUGENSUF ;
+
++N: PLNOMSUF ;
++N: PLACCSUF ;
++N: PLGENSUF ;
++N: PLDATSUF ;
++N: PLLOCSUF ;
++N: PLABLSUF ;
++N: PLPROSSUF ;
+
++N: POSSESSOR-INDICES ;
++N: NOMINAL-CONJUGATION ;
+
 
 LEXICON NNOUN
 +N: SGNOMSUF ;
@@ -55,7 +199,7 @@ LEXICON SGDATSUF
 +Sg+Dat:нʼ K ;
 
 LEXICON SGLOCSUF
-+Sg+Loc:хА1на K ; !вэсакохона пэдарахана ӈамеэхэна
++Sg+Loc:хА1на K ; !вэсакохона пэдарахана ӈамгэхэна
 
 LEXICON SGABLSUF
 +Sg+Abl:%>хА1д K ; !вэсакоход пэдарахад ӈамгэхэд
@@ -63,7 +207,18 @@ LEXICON SGABLSUF
 LEXICON SGPROSSUF
 +Sg+Pros:на K ; 
 
+LEXICON SGTRASUF 
++Sg+Tra:%>ӈэ K ;
 
+! These must be checked
+LEXICON DUNOMSUF 
++Du+Nom:%>хА1ʼ K ;
+
+LEXICON DUACCSUF 
++Du+Acc:%>хА1ʼ K ;
+
+LEXICON DUGENSUF 
++Du+Gen:%>хА1ʼ K ;
 
 !! Start Plural
 LEXICON PLNOMSUF
@@ -102,44 +257,73 @@ LEXICON POSSESSOR-INDICES
 +Nom+Sg+Px3Pl:%>доʼ K ;
 
 +Acc+Sg+Px1Sg:%>в K ;
++Acc+Sg+Px1Sg:%>ми K ;
 +Acc+Sg+Px2Sg:%>мд K ;
-+Acc+Sg+Px3Sg:%>мта K ; ! Should this be мда
++Acc+Sg+Px3Sg:%>мда K ;
 +Acc+Sg+Px1Du:%>миʼ K ;
-+Acc+Sg+Px2Du:%>мтиʼ K ;
-+Acc+Sg+Px3Du:%>мтиʼ K ;
++Acc+Sg+Px2Du:%>мдиʼ K ;
++Acc+Sg+Px3Du:%>мдиʼ K ;
 +Acc+Sg+Px1Pl:%>ваˮ K ;
-+Acc+Sg+Px2Pl:%>мтаˮ K ;
-+Acc+Sg+Px3Pl:%>мтоʼ K ;
++Acc+Sg+Px2Pl:%>мдаˮ K ;
++Acc+Sg+Px3Pl:%>мдоʼ K ;
 
 +Gen+Sg+Px1Sg:%>н K ;
++Gen+Sg+Px1Sg:%>ни K ;
 +Gen+Sg+Px2Sg:%>нд K ;
-+Gen+Sg+Px3Sg:%>нта K ; ! Should this be нда
++Gen+Sg+Px3Sg:%>нда K ;
 +Gen+Sg+Px1Du:%>ниʼ K ;
-+Gen+Sg+Px2Du:%>нтиʼ K ;
-+Gen+Sg+Px3Du:%>нтиʼ K ;
++Gen+Sg+Px2Du:%>ндиʼ K ;
++Gen+Sg+Px3Du:%>ндиʼ K ;
 +Gen+Sg+Px1Pl:%>наˮ K ;
-+Gen+Sg+Px2Pl:%>нтаˮ K ;
-+Gen+Sg+Px3Pl:%>нтоʼ K ;
++Gen+Sg+Px2Pl:%>ндаˮ K ;
++Gen+Sg+Px3Pl:%>ндоʼ K ;
 
 +Dat+Sg+Px1Sg:%>хА1н K ;
-+Dat+Sg+Px2Sg:%>хА1нт K ;
-+Dat+Sg+Px3Sg:%>хА1нта K ;
++Dat+Sg+Px1Sg:%>хА1ни K ;
++Dat+Sg+Px2Sg:%>хА1нд K ;
++Dat+Sg+Px3Sg:%>хА1нда K ;
 +Dat+Sg+Px1Du:%>хА1ниʼ K ;
-+Dat+Sg+Px2Du:%>хА1нтиʼ K ;
-+Dat+Sg+Px3Du:%>хА1нтиʼ K ;
++Dat+Sg+Px2Du:%>хА1ндиʼ K ;
++Dat+Sg+Px3Du:%>хА1ндиʼ K ;
 +Dat+Sg+Px1Pl:%>хА1наˮ K ;
-+Dat+Sg+Px2Pl:%>хА1нтаˮ K ;
-+Dat+Sg+Px3Pl:%>хА1нтоʼ K ;
++Dat+Sg+Px2Pl:%>хА1ндаˮ K ;
++Dat+Sg+Px3Pl:%>хА1ндоʼ K ;
 
 +Loc+Sg+Px1Sg:%>хА1нан K ;
-+Loc+Sg+Px2Sg:%>хА1нант K ;
-+Loc+Sg+Px3Sg:%>хА1нанта K ;
++Loc+Sg+Px1Sg:%>хА1нани K ;
++Loc+Sg+Px2Sg:%>хА1нанд K ;
++Loc+Sg+Px3Sg:%>хА1нанда K ;
 +Loc+Sg+Px1Du:%>хА1наниʼ K ;
-+Loc+Sg+Px2Du:%>хА1нантиʼ K ;
-+Loc+Sg+Px3Du:%>хА1нантиʼ K ;
++Loc+Sg+Px2Du:%>хА1нандиʼ K ;
++Loc+Sg+Px3Du:%>хА1нандиʼ K ;
 +Loc+Sg+Px1Pl:%>хА1нанаˮ K ;
-+Loc+Sg+Px2Pl:%>хА1нантаˮ K ;
-+Loc+Sg+Px3Pl:%>хА1нантоʼ K ;
++Loc+Sg+Px2Pl:%>хА1нандаˮ K ;
++Loc+Sg+Px3Pl:%>хА1нандоʼ K ;
+
++Abl+Sg+Px1Sg:%>хА1дан K ;
++Abl+Sg+Px1Sg:%>хА1дани K ;
++Abl+Sg+Px2Sg:%>хА1данд K ;
++Abl+Sg+Px3Sg:%>хА1данда K ;
++Abl+Sg+Px1Du:%>хА1даниʼ K ;
++Abl+Sg+Px2Du:%>хА1дандиʼ K ;
++Abl+Sg+Px3Du:%>хА1дандиʼ K ;
++Abl+Sg+Px1Pl:%>хА1данаˮ K ;
++Abl+Sg+Px2Pl:%>хА1дандаˮ K ;
++Abl+Sg+Px3Pl:%>хА1дандоʼ K ;
+
+ ! 2012-04-11 Check this for CNOUN and DNOUN
+ ! There might be reason for увна and мна varients
++Pros+Sg+Px1Sg:%>внан K ;
++Pros+Sg+Px1Sg:%>внани K ;
++Pros+Sg+Px2Sg:%>внанд K ;
++Pros+Sg+Px3Sg:%>внанда K ;
++Pros+Sg+Px1Du:%>внаниʼ K ;
++Pros+Sg+Px2Du:%>внандиʼ K ;
++Pros+Sg+Px3Du:%>внандиʼ K ;
++Pros+Sg+Px1Pl:%>внанаˮ K ;
++Pros+Sg+Px2Pl:%>внандаˮ K ;
++Pros+Sg+Px3Pl:%>внандоʼ K ;
+
 
 !! Dual possessa
 +Nom+Du+Px1Sg:%>хюн K ;
