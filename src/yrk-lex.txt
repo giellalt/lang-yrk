@@ -21,7 +21,7 @@ Multichar_Symbols
 
 ! Nоминал MSP
 +Sg +Pl
-+Nom +Acc +Gen +Abl +Dat +Loc +Pros +Abe +Adc +Ins +Apr +Ine +Ill +Ela +Egr
++Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Ins +Apr +Ine +Ill +Ela +Egr
 +Prl
 +Ord
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
@@ -29,7 +29,6 @@ Multichar_Symbols
 
 +Appr
 +Advc
-+Tra
 +Ter
 +Pro
 +Car 
@@ -42,7 +41,10 @@ Multichar_Symbols
 
 %>
 ! Protoletters for xfst
-А1 
+А1 ! This is the schwa or reduced vowel occurring after x in case endings
+ ! -хА1на -хА1д
+Д1 С1 Н1 Ӈ1 ! These are proto-glottals
+Г1 В1 Е1 Е2 Ы1 ! These are for developing underlying morphology rules
 
 ! Kеы леъицон
 
@@ -100,10 +102,14 @@ LEXICON PUNCTUATION
 #; 
 LEXICON POSTPOSITION
 #; 
+
 LEXICON CADJ
-#; 
++A: #; 
+LEXICON DADJ
++A: #; 
 LEXICON VADJ
-#; 
++A: #;
+ 
 LEXICON AdvEnd
 #; 
 LEXICON CASESUF
