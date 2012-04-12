@@ -46,6 +46,8 @@ LEXICON CNOUN
 +N: PLABLSUF ;
 +N: PLPROSSUF ;
 
+LEXICON LRNOUN
+ DNOUN ;
 
 ! Non-nasal glottal stops
 LEXICON DNOUN
@@ -69,6 +71,8 @@ LEXICON DNOUN
 +N:%> PLLOCSUF ;
 +N: PLABLSUF ;
 +N: PLPROSSUF ;
+
++N: POSSESSOR-INDICES ;
 
 !Work required
 LEXICON teno-NOUN 
@@ -247,17 +251,17 @@ LEXICON PLPROSSUF
 !! Possessor Indices
 LEXICON POSSESSOR-INDICES
 +Nom+Sg+Px1Sg:%>в K ;
-+Nom+Sg+Px2Sg:%>р K ;
++Nom+Sg+Px2Sg:%>р K ; ! (1961: 110) нюр, ӈэсял, мяˮал
 +Nom+Sg+Px3Sg:%>да K ;
 +Nom+Sg+Px1Du:%>миʼ K ;
 +Nom+Sg+Px2Du:%>риʼ K ;
 +Nom+Sg+Px3Du:%>диʼ K ;
 +Nom+Sg+Px1Pl:%>ваˮ K ;
-+Nom+Sg+Px2Pl:%>раˮ K ;
++Nom+Sg+Px2Pl:%>раˮ K ; ! (1961: 110) даˮ but л after Glots and schwa
 +Nom+Sg+Px3Pl:%>доʼ K ;
 
 +Acc+Sg+Px1Sg:%>в K ;
-+Acc+Sg+Px1Sg:%>ми K ;
++Acc+Sg+Px1Sg:%>ми K ;! (1961: 112) нюми, ӈэсями, мяˮми 
 +Acc+Sg+Px2Sg:%>мд K ;
 +Acc+Sg+Px3Sg:%>мда K ;
 +Acc+Sg+Px1Du:%>миʼ K ;
@@ -268,7 +272,7 @@ LEXICON POSSESSOR-INDICES
 +Acc+Sg+Px3Pl:%>мдоʼ K ;
 
 +Gen+Sg+Px1Sg:%>н K ;
-+Gen+Sg+Px1Sg:%>ни K ;
++Gen+Sg+Px1Sg:%>ни K ; ! (1961: 111) нюни, ӈэсяни, мяˮни
 +Gen+Sg+Px2Sg:%>нд K ;
 +Gen+Sg+Px3Sg:%>нда K ;
 +Gen+Sg+Px1Du:%>ниʼ K ;
