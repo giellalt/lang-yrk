@@ -141,7 +141,7 @@ generator.gt.xfst: raw.gt.xfst \
 #			.o. @\"common/bin/remove-variant-homonym-tags.fst\" \
 #			.o. @\"common/bin/usage-tags-remove.fst\" \
 #			.o. @\"$(GTLANG)/bin/$(GTLANG).save\" \
-#			.o. @\"common/bin/downcase-derived-proper.fst\" ; " \
+#			.o. @\"common/bin/downcase-derived-proper.fst\" ; "
 
 
 # This is a one-level, descriptive automaton - accepts/rejects without analysis:
