@@ -1,0 +1,194 @@
+! Divvun & Giellatekno - open source grammars for UNDEFINED language
+! Copyright © 2012 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+!! Morphology
+!! ----------
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+
+
+Multichar_Symbols
+!! Analysis symbols
+!! ----------------
+!! The morphological analyses of wordforms of UNDEFINED language are presented
+!! in this system in terms of following symbols.
+!! (It is highly suggested to follow existing standards when adding new tags).
+
+!! The parts-of-speech are:
+ +N +A +Adv +V
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num 
+
+!! The parts of speech are further split up into:
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+
+!! The Usage extents are marked using following tags:
+ +Use/Sub   
+ +Use/-Spell 
+
+!! The nominals are inflected in the following Case and Number
+ +Sg +Du +Pl
++Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Ins +Apr +Ine +Ill +Ela +Egr
++Prl
+
+!! The possession is marked as such:
+ +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+!! The comparative forms are:
++Pos +Comp +Superl
+!! Numerals are classified under:
+ +Attr +Card
+ +Ord 
+!! Verb moods are:
+ +Ind +Pot +Cond +Imprt
+!! Verb tenses are:
+ +Prs +Prt
+!!! +PstI +PstII
+ +Prt1 +Prt2
+!! Verb personal forms are:
+! Subject 
++Sc1Sg +Sc2Sg +Sc3Sg
++Sc1Du +Sc2Du +Sc3Du
++Sc1Pl +Sc2Pl +Sc3Pl
+! Object
++Oc1Sg +Oc2Sg +Oc3Sg
++Oc1Du +Oc2Du +Oc3Du
++Oc1Pl +Oc2Pl +Oc3Pl
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
+
+!! Other verb forms are
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+
+! Abbreviated words are classified with:
+ +ABBR +ACR 
+!! Special symbols are classified with:
++CLB +PUNCT +LEFT +RIGHT
+!! The verbs are syntactically split according to transitivity:
+ +TV +IV
+!! Special multiword units are analysed with:
+ +Multi
+!! Non-dictionary words can be recognised with:
+ +Guess
+
+!! Question and Focus particles:
+ +Qst +Foc
+
+
+!! Semantics are classified with
+ +Mal +Fem +Sur 
+ +Plc 
+ +Org
+ +Obj
+ +Ani
+ +Hum
+ +Plant
+ +Group
+ +Time 
+ +Txt
+ +Route
+ +Measr 
+ +Wthr
+ +Build 
+ +Edu
+ +Veh
+ +Clth
+
+
+!! Derivations are classified under the morphophonetic form of the suffix, the
+!! source and target part-of-speech.
+ +V→N +V→V +V→A
+ +Der/xxx
+
+
+!! Morphophonology
+!! ---------------
+!! To represent phonologic variations in word forms we use the following
+!! symbols in the lexicon files:
+ {aä} {oö} {uü}
+
+!! And following triggers to control variation
+ {front} {back}
+! Protoletters for xfst
+А1 ! This is the schwa or reduced vowel occurring after x in case endings
+ ! -хА1на -хА1д
+Д1 С1 Н1 Ӈ1 ! These are proto-glottals
+Г1 В1 Е1 Е2 Ы1 ! These are for developing underlying morphology rules
+
+%>
+
+!! We have manually optimised the structure of our lexicon using following
+!! flag diacritics to restrict morhpological combinatorics:
+@P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
+
+LEXICON Root
+!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! word classes, or optionally from prefixes:
+0   adjectives  ;
+0   adverbs  ;
+0   nouns   ;
+0   pronouns    ;
+0   quantifiers    ;
+0   verbs   ;
+
+0 Acronym ;
+0 Abbreviation ;
+
+CONJUNCTION ;
+SUBJUNCTION ;
+INTERJECTION ;
+NUMERAL ;
+POSTPOSITION ;
+PUNCTUATION ;
+
+
+! I INCLUDE SOME SMALL LEXICA HERE
+! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
+
+LEXICON CONJUNCTION 
+но CT ;
+нош CT ;
+
+LEXICON CT
++CS: # ;
+ 
+LEXICON SUBJUNCTION  
++CS: # ;
+
+LEXICON INTERJECTION 
+# ;
+
+LEXICON NUMERAL
+#;
+
+LEXICON NUMBERSUF
++Num: K;
++Num:%> CASESUF ;
++Num:%> ORDINAL ;
+
+LEXICON ORDINAL
++Ord:этӥ K;
+
+
+LEXICON PUNCTUATION
+#; 
+LEXICON POSTPOSITION
+#; 
+
+LEXICON CASESUF
+#; 
+LEXICON PRON
+#; 
+LEXICON DEM
+#; 
+LEXICON PERS
+#; 
+
+! vim: set ft=xfst-lexc:
