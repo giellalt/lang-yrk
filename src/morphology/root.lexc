@@ -39,6 +39,13 @@ Multichar_Symbols
  +Sg +Du +Pl
 +Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Ins +Apr +Ine +Ill +Ela +Egr
 +Prl
+!! are these needed
++Appr
++Advc
++Ter
++Pro
++Car
+
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -106,7 +113,7 @@ Multichar_Symbols
 !! source and target part-of-speech.
  +V→N +V→V +V→A
  +Der/xxx
-
+ +Der/Pred
 
 !! Morphophonology
 !! ---------------
@@ -140,6 +147,7 @@ LEXICON Root
 
 0 Acronym ;
 0 Abbreviation ;
+0 num ; ! word to Roman numeral conversion
 
 CONJUNCTION ;
 SUBJUNCTION ;
@@ -164,9 +172,6 @@ LEXICON SUBJUNCTION
 
 LEXICON INTERJECTION 
 # ;
-
-LEXICON NUMERAL
-#;
 
 LEXICON NUMBERSUF
 +Num: K;
