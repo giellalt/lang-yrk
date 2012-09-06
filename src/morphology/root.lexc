@@ -147,12 +147,11 @@ LEXICON Root
 
 0 Acronym ;
 0 Abbreviation ;
-0 num ; ! word to Roman numeral conversion
+0 wordToNumeral ; ! word to Roman numeral conversion
 
 CONJUNCTION ;
 SUBJUNCTION ;
 INTERJECTION ;
-NUMERAL ;
 POSTPOSITION ;
 PUNCTUATION ;
 
