@@ -1,0 +1,31 @@
+!! Verb inflection
+!! ---------------
+!! Nenets verbs inflect in persons.
+
+LEXICON VerbTag
++V+Ind+Aor+ScSg1:дмʼ K ;
++V+Ind+Aor+ScSg2:н K ;
++V+Ind+Aor+ScSg3: K ;
++V+Ind+Aor+ScDu1:ниʼ K ;
++V+Ind+Aor+ScDu2:диʼ K ;
++V+Ind+Aor+ScDu3:ӈахаʼ K ;
++V+Ind+Aor+ScPl1:вааˮ K ;
++V+Ind+Aor+ScPl2:даˮ K ;
++V+Ind+Aor+ScPl3:ˮ K ;
+
++V+Ind+Prt1+ScSg1:дамзь K ;
++Use/Sub+V+Ind+Prt1+ScSg1:даманзь K ;
++V+Ind+Prt1+ScSg2:нась K ;
++V+Ind+Prt1+ScSg3:сь K ;
++V+Ind+Prt1+ScDu1:нинзь K ;
++V+Ind+Prt1+ScDu2:динзь K ;
++V+Ind+Prt1+ScDu3:ӈаханзь K ;
++V+Ind+Prt1+ScPl1:ваць K ;
++V+Ind+Prt1+ScPl2:даць K ;
++V+Ind+Prt1+ScPl3:ць K ;
+
+
+
+
+! vim: set ft=xfst-lexc:
+
