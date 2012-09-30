@@ -148,12 +148,12 @@ LEXICON Root
 0 Acronym ;
 0 Abbreviation ;
 0 wordToNumeral ; ! word to Roman numeral conversion
+0 Punctuation ;
 
 CONJUNCTION ;
 SUBJUNCTION ;
 INTERJECTION ;
 POSTPOSITION ;
-PUNCTUATION ;
 
 
 ! I INCLUDE SOME SMALL LEXICA HERE
@@ -181,8 +181,7 @@ LEXICON ORDINAL
 +Ord:этӥ K;
 
 
-LEXICON PUNCTUATION
-#; 
+
 LEXICON POSTPOSITION
 #; 
 
