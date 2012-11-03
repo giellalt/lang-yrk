@@ -138,17 +138,17 @@ Multichar_Symbols
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   adjectives  ;
-0   adverbs  ;
-0   nouns   ;
-0   pronouns    ;
-0   quantifiers    ;
-0   verbs   ;
+   adjectives  ;
+   adverbs  ;
+   nouns   ;
+   pronouns    ;
+   quantifiers    ;
+   verbs   ;
 
-0 Acronym ;
-0 Abbreviation ;
-0 wordToNumeral ; ! word to Roman numeral conversion
-0 Punctuation ;
+ Acronym ;
+ Abbreviation ;
+ wordToNumeral ; ! word to Roman numeral conversion
+ Punctuation ;
 
 CONJUNCTION ;
 SUBJUNCTION ;
