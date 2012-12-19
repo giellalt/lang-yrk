@@ -2,21 +2,21 @@
 !! ---------------
 !! Nenets quantifiers ...
 
-LEXICON VNUM
+LEXICON Num-Vow
 +Qnt+Adn: K ;
-+Qnt+Der/MWN: VNOUN ;
++Qnt+Der/MWN: N-Vow ;
 
-LEXICON CNUM
+LEXICON Num-Cons
 +Qnt+Adn: K ;
-+Qnt+Der/MWN: CNOUN ;
++Qnt+Der/MWN: N-Cons ;
 
-LEXICON DNUM
+LEXICON Num-D
 +Qnt+Adn: K ;
-+Qnt+Der/MWN: DNOUN ;
++Qnt+Der/MWN: N-D ;
 
-LEXICON NNUM
+LEXICON Num-N
 +Qnt+Adn: K ;
-+Qnt+Der/MWN: NNOUN ;
++Qnt+Der/MWN: N-N ;
 
 ! vim: set ft=xfst-lexc:
 

@@ -1,13 +1,13 @@
 
 LEXICON quantifiers
 
-ӈопой:ӈопой CNUM  "one" ;
-сидя:сидя VNUM  "two" ;
-няхарʼ:няхарН1 NNUM  "three" ;
-тет:тет CNUM  "four" ;
-самляӈг:самляӈг CNUM  "five" ;
-матˮ:матД1 DNUM  "six" ;
-сиˮив:сиˮив CNUM  "seven" ;
-сидндет:сидндет CNUM  "eight" ;
-хасуюˮ:хасуюˮ DNUM  "nine" ;
-юˮ:юД1 DNUM  "ten" ;
+ӈопой:ӈопой Num-Cons  "one" ;
+сидя:сидя Num-Vow  "two" ;
+няхарʼ:няхарН1 Num-N  "three" ;
+тет:тет Num-Cons  "four" ;
+самляӈг:самляӈг Num-Cons  "five" ;
+матˮ:матД1 Num-D  "six" ;
+сиˮив:сиˮив Num-Cons  "seven" ;
+сидндет:сидндет Num-Cons  "eight" ;
+хасуюˮ:хасуюˮ Num-D  "nine" ;
+юˮ:юД1 Num-D  "ten" ;

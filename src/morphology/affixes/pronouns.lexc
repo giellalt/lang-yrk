@@ -1,62 +1,62 @@
-!! Noun inflection
+!! Pronoun inflection
 !! ---------------
 !! Nenets pronouns inflect in cases.
 
-LEXICON Sg1
+LEXICON PersSg1
 +Pron+Pers+Sg1+Nom: # ;
 
-LEXICON Sg2
+LEXICON PersSg2
 +Pron+Pers+Sg2+Nom: # ;
 
-LEXICON Sg3
+LEXICON PersSg3
 +Pron+Pers+Sg3+Nom: # ;
 
-LEXICON Du1
+LEXICON PersDu1
 +Pron+Pers+Du1+Nom: # ;
 
-LEXICON Du2
+LEXICON PersDu2
 +Pron+Pers+Du2+Nom: # ;
 
-LEXICON Du3
+LEXICON PersDu3
 +Pron+Pers+Du3+Nom: # ;
 
-LEXICON Pl1
+LEXICON PersPl1
 +Pron+Pers+Pl1+Nom: # ;
 
-LEXICON Pl2
+LEXICON PersPl2
 +Pron+Pers+Pl2+Nom: # ;
 
-LEXICON Pl3
+LEXICON PersPl3
 +Pron+Pers+Pl3+Nom: # ;
 
-LEXICON Sg1-CxAcc
+LEXICON PersSg1-CxAcc
 +Pron+Pers+Sg1+Acc: # ;
 
-LEXICON Sg2-CxAcc
+LEXICON PersSg2-CxAcc
 +Pron+Pers+Sg2+Acc: # ;
 
-LEXICON Sg3-CxAcc
+LEXICON PersSg3-CxAcc
 +Pron+Pers+Sg3+Acc: # ;
 
-LEXICON Du1-CxAcc
+LEXICON PersDu1-CxAcc
 +Pron+Pers+Du1+Acc: # ;
 
-LEXICON Du2-CxAcc
+LEXICON PersDu2-CxAcc
 +Pron+Pers+Du2+Acc: # ;
 
-LEXICON Du3-CxAcc
+LEXICON PersDu3-CxAcc
 +Pron+Pers+Du3+Acc: # ;
 
-LEXICON Pl1-CxAcc
+LEXICON PersPl1-CxAcc
 +Pron+Pers+Pl1+Acc: # ;
 
-LEXICON Pl2-CxAcc
+LEXICON PersPl2-CxAcc
 +Pron+Pers+Pl2+Acc: # ;
 
-LEXICON Pl3-CxAcc
+LEXICON PersPl3-CxAcc
 +Pron+Pers+Pl3+Acc: # ;
 
-LEXICON DemAdn
+LEXICON PronDemAdn
 +Pron+Dem: # ;
 
 LEXICON PronInterrHum
