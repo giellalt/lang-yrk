@@ -1,0 +1,148 @@
+! Nenets twol file
+
+Alphabet
+
+! Letters of the alphabet
+а б в г д е ё ж з и й к л м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+А Б В Г Д Е Ё Ж З И Й К Л М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+
+ ˮ ! Non-nasal glottal
+ ʼ ! Nasal glottal
+
+! other symbols
+   %- !0
+
+! Archiphonemes for vowels
+ А1 Ы1 
+
+! Archiphonemes for glottals
+ Н1 Ӈ1 Д1 С1
+
+
+
+! Boundary symbols
+
+ %>:0
+ %-
+
+Cx
+Cy
+X
+Y
+
+ ;
+
+
+
+Sets
+Vows =   о у ё ю О У Ё Ю ;
+Ve =   ӓ а е и э я Ӓ А Е И Э Я ;
+Vws =  Vo VO Ve ы Ы  ӹ Ӹ ; 
+
+CnsNotGlots = б в г д ж з й к л м н п р с т ф х ц
+              Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц
+              ч ш щ
+              Ч Ш Щ  ;
+Glots = ˮ ʼ ;
+
+Cns =  б в г д ж з к л м н ҥ п р с т ф х ц ч ш 
+       Б В Г Д Ж З К Л М Н Ҥ П Р С Т Ф Х Ц Ч Ш ;
+Cst =  к п т ф х ц ч ш с 
+       К П Т Ф Х Ц Ч Ш Ц ;
+
+Ltrs = Vws Cns  ъ ь Ъ Ь ;
+
+all =  Ltrs  %- ;
+
+
+
+
+Definitions
+
+LFV = [ е | ю | ё | и ] ;
+
+LBV = [ а | я | [ #: | CnsNotGlots ] [ у | о | э | ы ] ] ;
+
+
+Rules
+
+"й:0 when followed by vowel in VowelPalatalization"
+й:0 <=> _ %>: [ а: | у: ] ;
+
+"а:я VowelPalatalization"
+а:я <=> й: %>: _ ;
+
+"у:ю VowelPalatalization"
+у:ю <=> й: %>: _ ;
+
+"А1 -> а"
+А1:а <=> [[ м  ʼ | а | я | Cns ] %>: | %> а ] х _ ;
+
+"А1 -> о"
+А1:о <=> [ о | ё ]  %> х _ ;
+
+"А1 -> э"
+А1:э <=> [ ы | э | е ]  %> х _ ;
+
+
+"StemFinalYToE"
+ы:э <=> _ %>: х э  ;
+
+"Ы1:о"
+Ы1:о <=> LBV [ CnsNotGlots | Glots ] %>: _ ;
+
+"Ы1:е"
+Ы1:е <=> LFV [ CnsNotGlots | Glots]  %>: _ ; 
+
+"mToV"
+м:в <=> _ ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
+
+"nTod"
+н:д <=> м  ʼ %>: _ ʼ ;
+
+"ʼ:0"
+ʼ:0 <=> м  _ %>: [ Ы1: | ʼ | м ʼ| н ʼ | х А1: ] ;
+
+"х -> г"
+х:г <=> м  ʼ %>: _ А1: ;
+
+! Realization of glottal stops
+!! SURFACE CONSONANT
+"С1:с GlottalNonNasalToSurface"
+С1:с <=> _ %>: [ м #: | ʼ #: | ˮ #: | Ы1: ] ;
+
+"Д1:д GlottalNonNasalToSurface"
+Д1:д <=> _ %>: [ м ( ʼ ) #: | ʼ #: | ˮ #: | Ы1: ] ;
+
+"Н1:н GlottalNasalToSurface"
+Н1:н <=> _ %>: Ы1: ;
+
+"Ӈ1:ӈ GlottalNasalToSurface"
+Ӈ1:ӈ <=> _ %>: Ы1: ;
+
+!! LOSS
+"Н1:0 GlottalNasalToSurface"
+Cx:0 <=> _ %>: [ м | ʼ ] ;
+       where Cx in (Н1 Ӈ1) ;
+
+"Д1:0 GlottalNonNasalToZERO"
+Cx:Cy <=> _ %>: [ х | н ] ;
+        where Cx in (Д1 С1)
+              Cy in (0  0)
+                   matched ;
+
+
+"ь:0 with  GlottalNonNasalToZERO"
+ь:0 <=> С1: _ %>: [ х | н ] ;
+!!
+
+"С1:ˮ UnderlyingToGlottal"
+С1:ˮ <=> _ [ #: | %>: м н а ] ;
+
+"Д1:ˮ UnderlyingToGlottal"
+Д1:ˮ <=> _ [ #: | %> [ м н а | н и ]] ;
+
+"Н1:ʼ UnderlyingToGlottal"
+Cx:ʼ <=> _ #: ;
+       where Cx in (Н1 Ӈ1) ;
+
