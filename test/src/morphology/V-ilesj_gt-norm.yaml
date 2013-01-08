@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - илесь: # Verb 'to live' - full paradigm
+  Verb - илесь: # Verb 'to live' - partial paradigm
      илесь+V+Ind+Aor+ScSg1: иледмˮ
      илесь+V+Ind+Aor+ScSg2: илен
      илесь+V+Ind+Aor+ScSg3: иле
@@ -24,12 +24,12 @@ Tests:
      илесь+V+Ind+Aor+ScPl1: илеваˮ
      илесь+V+Ind+Aor+ScPl2: иледаˮ
      илесь+V+Ind+Aor+ScPl3: илеˮ
-     илесь+V+Ind+Prt+ScSg1: [иледамзь, илеманзь]
+     илесь+V+Ind+Prt+ScSg1: илеманзь
      илесь+V+Ind+Prt+ScSg2: иленась
      илесь+V+Ind+Prt+ScSg3: илесь
      илесь+V+Ind+Prt+ScDu1: иленинзь
      илесь+V+Ind+Prt+ScDu2: илединзь
-     илесь+V+Ind+Prt+ScDu3: [илеханзь, илеӈаханзь]
+     илесь+V+Ind+Prt+ScDu3: илеханзь
      илесь+V+Ind+Prt+ScPl1: илеваць
      илесь+V+Ind+Prt+ScPl2: иледаць
      илесь+V+Ind+Prt+ScPl3: илець
