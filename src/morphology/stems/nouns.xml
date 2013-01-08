@@ -1,1587 +1,2192 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>ваˮ</l>
-         <stg>
-            <st Contlex="N-D">ваД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>pen, padock</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>выʼ</l>
-         <stg>
-            <st Contlex="N-wyngo">выӇ1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>tundra</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>вэʼ</l>
-         <stg>
-            <st Contlex="N-N">вэН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>dog</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>вэсако</l>
-         <stg>
-            <st Contlex="N-Vow">вэсако</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>old man</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ентˮ</l>
-         <stg>
-            <st Contlex="N-D">ентД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>stream</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>есʼ</l>
-         <stg>
-            <st Contlex="N-N">есН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>snare</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ёльцьʼ</l>
-         <stg>
-            <st Contlex="N-N">ёльцьН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>time</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>и</l>
-         <stg>
-            <st Contlex="N-Vow">и</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>meaning</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>илебцьʼ</l>
-         <stg>
-            <st Contlex="N-N">илебцьН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>wild reindeer</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>илʼ</l>
-         <stg>
-            <st Contlex="N-N">илН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>life</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>имбытˮ</l>
-         <stg>
-            <st Contlex="N-D">имбытД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>shirt</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>иˮ</l>
-         <stg>
-            <st Contlex="N-D">иД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>water</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>класс</l>
-         <stg>
-            <st Contlex="N-Cons">класс</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>class</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>манзарана</l>
-         <stg>
-            <st Contlex="N-Vow">манзарана</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>worker</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>манˮ</l>
-         <stg>
-            <st Contlex="N-D">манС1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>shrub</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>марˮ</l>
-         <stg>
-            <st Contlex="N-D">марД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>city</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>муʼ</l>
-         <stg>
-            <st Contlex="N-N">муН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>sound</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!-- ! мунмʼ (Алмазова 1961: 104)  !!:!! Should this be муӇ1? -->
-   </e>
-   <e>
-      <lg>
-         <l>мяˮ</l>
-         <stg>
-            <st Contlex="N-D">мяД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>tent</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!-- ! мяˮамна -->
-   </e>
-   <e>
-      <lg>
-         <l>не</l>
-         <stg>
-            <st Contlex="N-Vow">не</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>woman</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ни</l>
-         <stg>
-            <st Contlex="N-Vow">ни</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>belt</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ненэцьʼ</l>
-         <stg>
-            <st Contlex="N-wyngo">ненэцьӇ1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>Nenets</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ненэця</l>
-         <stg>
-            <st Contlex="N-Vow">ненэця</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>Nenets</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>нумгы</l>
-         <stg>
-            <st Contlex="N-Vow">нумгы</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>star</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>нумʼ</l>
-         <stg>
-            <st Contlex="N-jam">нумʼ</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>sky</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ню</l>
-         <stg>
-            <st Contlex="N-Vow">ню</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>son</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>нюмʼ</l>
-         <stg>
-            <st Contlex="N-jam">нюмʼ</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>name</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ня</l>
-         <stg>
-            <st Contlex="N-Vow">ня</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>companion</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>няʼ</l>
-         <stg>
-            <st Contlex="N-teno">няН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>mouth</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈаворцьʼ</l>
-         <stg>
-            <st Contlex="N-N">ӈаворцьН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>dish</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈамдэˮ</l>
-         <stg>
-            <st Contlex="N-D">ӈамдэД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>grass</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈано</l>
-         <stg>
-            <st Contlex="N-Vow">ӈано</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>boat</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈартиʼ</l>
-         <stg>
-            <st Contlex="N-N">ӈартиН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>bearded seal</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈацекы</l>
-         <stg>
-            <st Contlex="N-Vow">ӈацекы</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>child</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈодя</l>
-         <stg>
-            <st Contlex="N-Vow">ӈодя</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>berry</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!-- ӈодяʼ%:ӈодяʼ% иˮ VNOUN ; ! What is this?   -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈумʼ</l>
-         <stg>
-            <st Contlex="N-jam">ӈумʼ</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>hay</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈуда</l>
-         <stg>
-            <st Contlex="N-Vow">ӈуда</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>hand; arm</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈуˮ</l>
-         <stg>
-            <st Contlex="N-D">ӈуД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>track</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈэдалёсьʼ</l>
-         <stg>
-            <st Contlex="N-N">ӈэдалёсьН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>light-weight sled</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈэсяʼ</l>
-         <stg>
-            <st Contlex="N-wyngo">ӈэсяӇ1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>bag</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>падарˮ</l>
-         <stg>
-            <st Contlex="N-D">падарД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>paper</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!-- ! падарˮмана (1961: 107)  пирибтя:пирибтя VNOUN ; ! What is this? Is it a _cook_? -->
-   </e>
-   <e>
-      <lg>
-         <l>пухуця</l>
-         <stg>
-            <st Contlex="N-Vow">пухуця</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>old woman</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>пэдара</l>
-         <stg>
-            <st Contlex="N-Vow">пэдара</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>forest</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>пэ</l>
-         <stg>
-            <st Contlex="N-Vow">пэ</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>rock</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>пя</l>
-         <stg>
-            <st Contlex="N-Vow">пя</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>tree</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>сехэры</l>
-         <stg>
-            <st Contlex="N-Vow">сехэры</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>road</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!-- сяй:сяй CNOUN ; ! What is this? сярка:сярка N-Vow ; ! What is this? сяˮ:сяД1 N-D "face" ;   -->
-   </e>
-   <e>
-      <lg>
-         <l>таˮ</l>
-         <stg>
-            <st Contlex="N-D">таС1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>side dish</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тенʼ</l>
-         <stg>
-            <st Contlex="N-N">тенН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>memory</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>толырˮ</l>
-         <stg>
-            <st Contlex="N-LR">толырД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>number</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>тоходанна</l>
-         <stg>
-            <st Contlex="N-Vow">тоходанна</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>student (большеземельский говор)</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тохолкода</l>
-         <stg>
-            <st Contlex="N-Vow">тохолкода</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>teacher (большеземельский говор)</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тохоˮ</l>
-         <stg>
-            <st Contlex="N-D">тохоС1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>material</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!-- !тохоˮомна (1961: 107) -->
-   </e>
-   <e>
-      <lg>
-         <l>ту</l>
-         <stg>
-            <st Contlex="N-Vow">ту</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>fire</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тубка</l>
-         <stg>
-            <st Contlex="N-Vow">тубка</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>ax</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ты</l>
-         <stg>
-            <st Contlex="N-Vow">ты</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>reindeer</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тынзяʼ</l>
-         <stg>
-            <st Contlex="N-N">тынзяН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>reindeer lassoo</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тэцяʼ</l>
-         <stg>
-            <st Contlex="N-wyngo">тэцяӇ1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>rag</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тэʼ</l>
-         <stg>
-            <st Contlex="N-teno">тэН1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>sinew</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тюˮ</l>
-         <stg>
-            <st Contlex="N-D">тюС1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>way-mark, trail-blaze</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>тямдэˮ</l>
-         <stg>
-            <st Contlex="N-D">тямдэД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>frog</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хаерˮ</l>
-         <stg>
-            <st Contlex="N-D">хаерД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>sun</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хамболˮ</l>
-         <stg>
-            <st Contlex="N-LR">ханболД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>rubbish</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ханзˮ</l>
-         <stg>
-            <st Contlex="N-D">ханзД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>sled runner</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хан</l>
-         <stg>
-            <st Contlex="N-Cons">хан</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>reindeer sled</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хар</l>
-         <stg>
-            <st Contlex="N-Cons">хар</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>knife</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>харад</l>
-         <stg>
-            <st Contlex="N-Cons">харад</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>home</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хард</l>
-         <stg>
-            <st Contlex="N-Cons">хард</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>home; village</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хасава</l>
-         <stg>
-            <st Contlex="N-Vow">хасава</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>man</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хо</l>
-         <stg>
-            <st Contlex="N-Vow">хо</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>birch</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>хой</l>
-         <stg>
-            <st Contlex="N-Cons">хой</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>hill</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>школа</l>
-         <stg>
-            <st Contlex="N-Vow">школа</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>school</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ямʼ</l>
-         <stg>
-            <st Contlex="N-jam">ямʼ</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>sea</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!-- !Should this be *javnN ~ *jamN -->
-   </e>
-   <e>
-      <lg>
-         <l>яха</l>
-         <stg>
-            <st Contlex="N-Vow">яха</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>river</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>ваˮ</l>
+
+      <stg>
+        <st Contlex="N-D">ваД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>pen, padock</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>выʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">выӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>tundra</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>вэʼ</l>
+
+      <stg>
+        <st Contlex="N-N">вэН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>dog</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>вэсако</l>
+
+      <stg>
+        <st Contlex="N-Vow">вэсако</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>old man</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ентˮ</l>
+
+      <stg>
+        <st Contlex="N-D">ентД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>stream</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>есʼ</l>
+
+      <stg>
+        <st Contlex="N-N">есН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>snare</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ёльцьʼ</l>
+
+      <stg>
+        <st Contlex="N-N">ёльцьН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>time</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>и</l>
+
+      <stg>
+        <st Contlex="N-Vow">и</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>meaning</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>илебцьʼ</l>
+
+      <stg>
+        <st Contlex="N-N">илебцьН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>wild reindeer</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>илʼ</l>
+
+      <stg>
+        <st Contlex="N-N">илН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>life</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>имбытˮ</l>
+
+      <stg>
+        <st Contlex="N-D">имбытД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>shirt</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>иˮ</l>
+
+      <stg>
+        <st Contlex="N-D">иД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>water</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>класс</l>
+
+      <stg>
+        <st Contlex="N-Cons">класс</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>class</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>манзарана</l>
+
+      <stg>
+        <st Contlex="N-Vow">манзарана</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>worker</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>манˮ</l>
+
+      <stg>
+        <st Contlex="N-D">манС1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>shrub</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>марˮ</l>
+
+      <stg>
+        <st Contlex="N-D">марД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>city</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>муʼ</l>
+
+      <stg>
+        <st Contlex="N-N">муН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>sound</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!-- ! мунмʼ (Алмазова 1961: 104)  !!:!! Should this be муӇ1? -->
+  </e>
+
+  <e>
+    <lg>
+      <l>мяˮ</l>
+
+      <stg>
+        <st Contlex="N-D">мяД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>tent</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!-- ! мяˮамна -->
+  </e>
+
+  <e>
+    <lg>
+      <l>не</l>
+
+      <stg>
+        <st Contlex="N-Vow">не</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>woman</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ни</l>
+
+      <stg>
+        <st Contlex="N-Vow">ни</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>belt</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ненэцьʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">ненэцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>Nenets</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ненэця</l>
+
+      <stg>
+        <st Contlex="N-Vow">ненэця</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>Nenets</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>нися</l>
+
+      <stg>
+        <st Contlex="N-Vow">нися</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>father</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>isä</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>нумгы</l>
+
+      <stg>
+        <st Contlex="N-Vow">нумгы</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>star</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>нумʼ</l>
+
+      <stg>
+        <st Contlex="N-jam">нумʼ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>sky</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ню</l>
+
+      <stg>
+        <st Contlex="N-Vow">ню</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>son</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>нюмʼ</l>
+
+      <stg>
+        <st Contlex="N-jam">нюмʼ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>name</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ня</l>
+
+      <stg>
+        <st Contlex="N-Vow">ня</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>companion</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>няʼ</l>
+
+      <stg>
+        <st Contlex="N-teno">няН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>mouth</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈаворцьʼ</l>
+
+      <stg>
+        <st Contlex="N-N">ӈаворцьН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>dish</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈамдэˮ</l>
+
+      <stg>
+        <st Contlex="N-D">ӈамдэД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>grass</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈано</l>
+
+      <stg>
+        <st Contlex="N-Vow">ӈано</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>boat</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈартиʼ</l>
+
+      <stg>
+        <st Contlex="N-N">ӈартиН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>bearded seal</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈацекы</l>
+
+      <stg>
+        <st Contlex="N-Vow">ӈацекы</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>child</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈодя</l>
+
+      <stg>
+        <st Contlex="N-Vow">ӈодя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>berry</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!-- ӈодяʼ%:ӈодяʼ% иˮ VNOUN ; ! What is this?   -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈумʼ</l>
+
+      <stg>
+        <st Contlex="N-jam">ӈумʼ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>hay</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈуда</l>
+
+      <stg>
+        <st Contlex="N-Vow">ӈуда</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>hand; arm</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈуˮ</l>
+
+      <stg>
+        <st Contlex="N-D">ӈуД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>track</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈэдалёсьʼ</l>
+
+      <stg>
+        <st Contlex="N-N">ӈэдалёсьН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>light-weight sled</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈэсяʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">ӈэсяӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>bag</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>падарˮ</l>
+
+      <stg>
+        <st Contlex="N-D">падарД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>paper</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!-- ! падарˮмана (1961: 107)  пирибтя:пирибтя VNOUN ; ! What is this? Is it a _cook_? -->
+  </e>
+
+  <e>
+    <lg>
+      <l>пухуця</l>
+
+      <stg>
+        <st Contlex="N-Vow">пухуця</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>old woman</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>пэдара</l>
+
+      <stg>
+        <st Contlex="N-Vow">пэдара</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>forest</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>пэ</l>
+
+      <stg>
+        <st Contlex="N-Vow">пэ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>rock</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>пя</l>
+
+      <stg>
+        <st Contlex="N-Vow">пя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>tree</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сехэры</l>
+
+      <stg>
+        <st Contlex="N-Vow">сехэры</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>road</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!-- сяй:сяй CNOUN ; ! What is this? сярка:сярка N-Vow ; ! What is this? сяˮ:сяД1 N-D "face" ;   -->
+  </e>
+
+  <e>
+    <lg>
+      <l>таˮ</l>
+
+      <stg>
+        <st Contlex="N-D">таС1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>side dish</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тенʼ</l>
+
+      <stg>
+        <st Contlex="N-N">тенН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>memory</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>толырˮ</l>
+
+      <stg>
+        <st Contlex="N-LR">толырД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>number</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тоходанна</l>
+
+      <stg>
+        <st Contlex="N-Vow">тоходанна</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>student (большеземельский говор)</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тохолкода</l>
+
+      <stg>
+        <st Contlex="N-Vow">тохолкода</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>teacher (большеземельский говор)</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тохоˮ</l>
+
+      <stg>
+        <st Contlex="N-D">тохоС1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>material</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!-- !тохоˮомна (1961: 107) -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ту</l>
+
+      <stg>
+        <st Contlex="N-Vow">ту</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>fire</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тубка</l>
+
+      <stg>
+        <st Contlex="N-Vow">тубка</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>ax</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ты</l>
+
+      <stg>
+        <st Contlex="N-Vow">ты</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>reindeer</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тынзяʼ</l>
+
+      <stg>
+        <st Contlex="N-N">тынзяН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>reindeer lassoo</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тэцяʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">тэцяӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>rag</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тэʼ</l>
+
+      <stg>
+        <st Contlex="N-teno">тэН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>sinew</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тюˮ</l>
+
+      <stg>
+        <st Contlex="N-D">тюС1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>way-mark, trail-blaze</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тямдэˮ</l>
+
+      <stg>
+        <st Contlex="N-D">тямдэД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>frog</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хаерˮ</l>
+
+      <stg>
+        <st Contlex="N-D">хаерД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>sun</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хамболˮ</l>
+
+      <stg>
+        <st Contlex="N-LR">ханболД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>rubbish</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ханзˮ</l>
+
+      <stg>
+        <st Contlex="N-D">ханзД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>sled runner</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хан</l>
+
+      <stg>
+        <st Contlex="N-Cons">хан</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>reindeer sled</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хар</l>
+
+      <stg>
+        <st Contlex="N-Cons">хар</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>knife</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>харад</l>
+
+      <stg>
+        <st Contlex="N-Cons">харад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>home</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хард</l>
+
+      <stg>
+        <st Contlex="N-Cons">хард</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>home; village</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хасава</l>
+
+      <stg>
+        <st Contlex="N-Vow">хасава</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>man</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хо</l>
+
+      <stg>
+        <st Contlex="N-Vow">хо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>birch</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хой</l>
+
+      <stg>
+        <st Contlex="N-Cons">хой</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>hill</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>школа</l>
+
+      <stg>
+        <st Contlex="N-Vow">школа</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>school</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ямʼ</l>
+
+      <stg>
+        <st Contlex="N-jam">ямʼ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>sea</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!-- !Should this be *javnN ~ *jamN -->
+  </e>
+
+  <e>
+    <lg>
+      <l>яха</l>
+
+      <stg>
+        <st Contlex="N-Vow">яха</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>river</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
 </r>
