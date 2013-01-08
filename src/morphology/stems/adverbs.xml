@@ -1,91 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>вэвавна</l>
-         <stg>
-            <st Contlex="AdvManner">вэвавна</st>
-         </stg>
-      </lg>
-      <pos>ADV</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>poorly</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>сававна</l>
-         <stg>
-            <st Contlex="AdvManner">сававна</st>
-         </stg>
-      </lg>
-      <pos>ADV</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>well</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>тедаʼ</l>
-         <stg>
-            <st Contlex="AdvTemp">тедаʼ</st>
-         </stg>
-      </lg>
-      <pos>ADV</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>now</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>тюку яляʼ</l>
-         <stg>
-            <st Contlex="AdvTemp">тюку яляʼ</st>
-         </stg>
-      </lg>
-      <pos>ADV</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>today</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>вэвавна</l>
+
+      <stg>
+        <st Contlex="AdvManner">вэвавна</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>poorly</t>
+      </tg>
+
+      <tg lang="est">
+        <t pos="ADV">kehvasti</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>huonosti</t>
+      </tg>
+
+      <tg lang="rus">
+        <t>плохо</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сававна</l>
+
+      <stg>
+        <st Contlex="AdvManner">сававна</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>well</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тедаʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">тедаʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>now</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тюку яляʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">тюку яляʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>today</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
 </r>
