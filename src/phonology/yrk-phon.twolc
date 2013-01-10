@@ -22,8 +22,9 @@ Alphabet
 
 ! Boundary symbols
 
-0 %>:0
+ %>
  %-
+ #
 
 Cx
 Cy
@@ -76,7 +77,7 @@ Rules
 у:ю <=> й: %>: _ ;
 
 "А1 -> а"
-А1:а <=> [[ м  ʼ | а | я | Cns ] %>: | %> а ] х _ ;
+А1:а <=> [[ м  ʼ | а | я | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
 
 "А1 -> о"
 А1:о <=> [ о | ё ]  %> х _ ;
@@ -106,6 +107,9 @@ Rules
 "х -> г"
 х:г <=> м  ʼ %>: _ А1: ;
 
+"х to к after non-nasal glottal"
+х:к <=> [ Д1: | С1: ] %>: _  ;
+
 ! Realization of glottal stops
 !! SURFACE CONSONANT
 "С1:с GlottalNonNasalToSurface"
@@ -126,14 +130,14 @@ Cx:0 <=> _ %>: [ м | ʼ ] ;
        where Cx in (Н1 Ӈ1) ;
 
 "Д1:0 GlottalNonNasalToZERO"
-Cx:Cy <=> _ %>: [ х | н ] ;
+Cx:Cy <=> _ %>: [ х: | н ] ;
         where Cx in (Д1 С1)
               Cy in (0  0)
                    matched ;
 
 
 "ь:0 with  GlottalNonNasalToZERO"
-ь:0 <=> С1: _ %>: [ х | н ] ;
+ь:0 <=> С1: _ %>: [ х: | н ] ;
 !!
 
 "С1:ˮ UnderlyingToGlottal"
