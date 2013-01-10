@@ -44,10 +44,36 @@ LEXICON V_refl
 +V+Ind+Aor+RcPl2:даˮ K ;
 +V+Ind+Aor+RcPl3:дˮ K ;
 
+LEXICON V_Interr
++V+Conj+ScSg2:сан K ;
++V+Conj+ScSg3:са K ;
++V+Conj+ScDu2:садиʼ K ;
++V+Conj+ScDu3:сахаʼ K ;
++V+Conj+ScPl2:садаˮ K ;
++V+Conj+ScPl3:саˮ K ;
++V+Conj+ScSg2+OcSg3:сар K ;
++V+Conj+ScSg3+OcSg3:сада K ;
++V+Conj+ScDu2+OcSg3:сариʼ K ;
++V+Conj+ScDu3+OcSg3:садиʼ K ;
++V+Conj+ScPl2+OcSg3:сараˮ K ;
++V+Conj+ScPl3+OcSg3:садоʼ K ;
++V+Conj+ScSg2+OcDu3:сахаюд K ;
++V+Conj+ScSg3+OcDu3:сахаюда K ;
++V+Conj+ScDu2+OcDu3:сахаюдиʼ K ;
++V+Conj+ScDu3+OcDu3:сахаюдиʼ K ;
++V+Conj+ScPl2+OcDu3:сахаюдаˮ K ;
++V+Conj+ScPl3+OcDu3:сахаюдоʼ K ;
++V+Conj+ScSg2+OcPl3:сад K ;
++V+Conj+ScSg3+OcPl3:сада K ;
++V+Conj+ScDu2+OcPl3:садиʼ K ;
++V+Conj+ScDu3+OcPl3:садиʼ K ;
++V+Conj+ScPl2+OcPl3:садаˮ K ;
++V+Conj+ScPl3+OcPl3:садоʼ K ;
 
 LEXICON VerbTag
  V_Obj ;
  V_refl ;
+ V_Interr ;
 +V+Ind+Aor+ScSg1:дмʼ K ;
 +Use/Sub+V+Ind+Aor+ScSg1:мʼ K ;
 +V+Ind+Aor+ScSg2:н K ;
@@ -79,7 +105,6 @@ LEXICON VerbTag
 +V+Conj+ScPl1:иваˮ K ;
 +V+Conj+ScPl2:идаˮ K ;
 +V+Conj+ScPl3:иˮ K ;
-
 
 
 
