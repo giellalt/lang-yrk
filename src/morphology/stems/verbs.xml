@@ -1,194 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>илесь</l>
-         <stg>
-            <st Contlex="VerbTag">иле</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to live</t>
-         </tg>
-         <tg lang="fin">
-            <t>elää</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>манзарась</l>
-         <stg>
-            <st Contlex="VerbTag">манзара</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to arrive</t>
-         </tg>
-         <tg lang="fin">
-            <t>saapua</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>мэсь</l>
-         <stg>
-            <st Contlex="VerbTag">мэ</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to be located ([anim])</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>ӈась</l>
-         <stg>
-            <st Contlex="VerbTag">ӈа</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to be located ([inanim])</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>тось</l>
-         <stg>
-            <st Contlex="VerbTag">то</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to arrive</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>тоходанась</l>
-         <stg>
-            <st Contlex="VerbTag">тоходана</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to study</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>тюсь</l>
-         <stg>
-            <st Contlex="VerbTag">тю</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to enter</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>хось</l>
-         <stg>
-            <st Contlex="VerbTag">хо</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to find</t>
-         </tg>
-         <tg lang="fin">
-            <t>löytää</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>ядабтась</l>
-         <stg>
-            <st Contlex="VerbTag">ядабта</st>
-         </stg>
-      </lg>
-      <pos>V</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>to meet</t>
-         </tg>
-         <tg lang="fin">
-            <t>tavata</t>
-         </tg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>ехэрась</l>
+
+      <stg>
+        <st Contlex="VerbTag">ехэра</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to not know</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>olla epätietoinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>илесь</l>
+
+      <stg>
+        <st Contlex="VerbTag">иле</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to live</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>elää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>манзарась</l>
+
+      <stg>
+        <st Contlex="VerbTag">манзара</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to arrive</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>saapua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>манзь</l>
+
+      <stg>
+        <st Contlex="VerbTag">маН1</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">say</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">sanoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>мэсь</l>
+
+      <stg>
+        <st Contlex="VerbTag">мэ</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to be located ([anim])</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈась</l>
+
+      <stg>
+        <st Contlex="VerbTag">ӈа</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to be located ([inanim])</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тось</l>
+
+      <stg>
+        <st Contlex="VerbTag">то</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to arrive</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тоходанась</l>
+
+      <stg>
+        <st Contlex="VerbTag">тоходана</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to study</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тюсь</l>
+
+      <stg>
+        <st Contlex="VerbTag">тю</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to enter</t>
+      </tg>
+
+      <tg lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хось</l>
+
+      <stg>
+        <st Contlex="VerbTag">хо</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to find</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>löytää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ядабтась</l>
+
+      <stg>
+        <st Contlex="VerbTag">ядабта</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>to meet</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>tavata</t>
+      </tg>
+    </mg>
+  </e>
 </r>
