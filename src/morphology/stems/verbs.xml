@@ -146,6 +146,28 @@
 
   <e>
     <lg>
+      <l>ӈаворць</l>
+
+      <stg>
+        <st Contlex="VerbTag">ӈавор</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t>syödä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>ӈась</l>
 
       <stg>
@@ -168,6 +190,28 @@
 
       <tg lang="fin">
         <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сертась</l>
+
+      <stg>
+        <st Contlex="VerbTag">серта</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t>tehdä</t>
       </tg>
     </mg>
   </e>
@@ -252,6 +296,66 @@
 
       <tg lang="fin">
         <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>харвась</l>
+
+      <stg>
+        <st Contlex="VerbTag">харва</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">want</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">haluta</t>
+
+        <t pos="PHRASE_V">mennä pois</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хэсь</l>
+
+      <stg>
+        <st Contlex="VerbTag">хэ</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">leave</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">poistua</t>
+
+        <t pos="PHRASE_V">mennä pois</t>
       </tg>
     </mg>
   </e>
