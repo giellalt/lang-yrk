@@ -13,23 +13,33 @@ Alphabet
    %- !0
 
 ! Archiphonemes for vowels
- А1 Ы1 
+ А1:а
+ А1:о
+ А1:э
+
+ Ы1:о 
+ Ы1:е
 
 ! Archiphonemes for glottals
- Н1 Ӈ1 Д1 С1
+ Н1:ʼ
+ Н1:н
+ Н1:0
+ Ӈ1:ʼ
+ Ӈ1:ӈ
+ Ӈ1:0
+ Д1:ˮ
+ Д1:д
+ Д1:0
+ С1:ˮ
+ С1:с
+ С1:0
 
 
 
 ! Boundary symbols
 
  %>
- %-
  #
-
-Cx
-Cy
-X
-Y
 
  ;
 
@@ -130,10 +140,10 @@ Cx:0 <=> _ %>: [ м | ʼ ] ;
        where Cx in (Н1 Ӈ1) ;
 
 "Д1:0 GlottalNonNasalToZERO"
-Cx:Cy <=> _ %>: [ х: | н ] ;
-        where Cx in (Д1 С1)
-              Cy in (0  0)
-                   matched ;
+Д1:0 <=> _ %>:  х:  ;
+
+"С1:0 GlottalNonNasalToZERO"
+С1:0 <=> _ %>: [ х: | н ] ;
 
 
 "ь:0 with  GlottalNonNasalToZERO"
