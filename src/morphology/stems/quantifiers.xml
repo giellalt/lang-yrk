@@ -209,7 +209,7 @@
       </tg>
 
       <tg lang="fin">
-        <t>seistsemän</t>
+        <t>seitsemän</t>
       </tg>
     </mg>
 
@@ -300,6 +300,126 @@
 
       <tg lang="fin">
         <t>kymmenen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>юрˮ</l>
+
+      <stg>
+        <st Contlex="Num-Cons">юр</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>hundred</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>sata</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ёнарˮ</l>
+
+      <stg>
+        <st Contlex="Num-Cons">ёнар</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>thousand</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>tuhat</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈобˮ яӈгня</l>
+
+      <stg>
+        <st Contlex="Num-Vow">ӈобˮ яӈгня</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>eleven</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>yksitoista</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сидя яӈгня</l>
+
+      <stg>
+        <st Contlex="Num-Vow">сидя яӈгня</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>twelve</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kaksitoista</t>
       </tg>
     </mg>
 
