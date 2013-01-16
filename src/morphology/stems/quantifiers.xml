@@ -366,7 +366,7 @@
     <!--  -->
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>ӈобˮ яӈгня</l>
 
@@ -396,7 +396,7 @@
     <!--  -->
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
       <l>сидя яӈгня</l>
 
@@ -420,6 +420,36 @@
 
       <tg lang="fin">
         <t>kaksitoista</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>яӈгня</l>
+
+      <stg>
+        <st Contlex="Num-Vow">яӈгня</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>-teen</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>-toista</t>
       </tg>
     </mg>
 
