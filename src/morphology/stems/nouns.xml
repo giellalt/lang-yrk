@@ -1219,7 +1219,7 @@
       <l>падарˮ</l>
 
       <stg>
-        <st Contlex="N-D">падарД1</st>
+        <st Contlex="N-LR">падар</st>
       </stg>
     </lg>
 
@@ -1370,6 +1370,92 @@
 
   <e>
     <lg>
+      <l>сармик</l>
+
+      <stg>
+        <st Contlex="N-Cons">сармик</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>wolf</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>susi</t>
+      </tg>
+    </mg>
+
+    <!--  dialectally villieläin-->
+  </e>
+
+  <e>
+    <lg>
+      <l>сарˮню</l>
+
+      <stg>
+        <st Contlex="N-Vow">сарˮню</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>egg</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>muna</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>серˮ</l>
+
+      <stg>
+        <st Contlex="N-LR">сер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>thing</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>asia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>сехэры</l>
 
       <stg>
@@ -1461,7 +1547,7 @@
       <l>толырˮ</l>
 
       <stg>
-        <st Contlex="N-LR">толырД1</st>
+        <st Contlex="N-LR">толыр</st>
       </stg>
     </lg>
 
@@ -1597,6 +1683,10 @@
       </tg>
 
       <tg lang="fin">
+        <t>tuli</t>
+      </tg>
+
+      <tg lang="est">
         <t>tuli</t>
       </tg>
     </mg>
@@ -2004,36 +2094,6 @@
 
   <e>
     <lg>
-      <l>сармик</l>
-
-      <stg>
-        <st Contlex="N-Cons">сармик</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg lang="eng">
-        <t>wolf</t>
-      </tg>
-
-      <tg lang="fin">
-        <t>susi</t>
-      </tg>
-    </mg>
-
-    <!--  dialectally villieläin-->
-  </e>
-
-  <e>
-    <lg>
       <l>хард</l>
 
       <stg>
@@ -2067,7 +2127,7 @@
       <l>хасава</l>
 
       <stg>
-        <st Contlex="N-Vow">хасава</st>
+        <st Contlex="N-Vow">хас</st>
       </stg>
     </lg>
 
@@ -2085,7 +2145,7 @@
       </tg>
 
       <tg lang="fin">
-        <t/>
+        <t>mies</t>
       </tg>
     </mg>
 
@@ -2219,7 +2279,7 @@
       <l>яха</l>
 
       <stg>
-        <st Contlex="N-Vow">яха</st>
+        <st Contlex="N-Vow">еси</st>
       </stg>
     </lg>
 
