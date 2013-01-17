@@ -1,0 +1,220 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - хо: # Noun 'birch' - partial paradigm
+     хо+N+Sg+Nom: хо
+     хо+N+Sg+Acc: хомʼ
+     хо+N+Sg+Gen: хоʼ
+     хо+N+Sg+Dat: хонʼ
+     хо+N+Sg+Loc: хохона
+     хо+N+Sg+Abl: хоход
+     хо+N+Sg+Pros: ховна
+     хо+N+Sg+Tra: хоӈэ
+     хо+N+Du+Nom: хохʼ
+     хо+N+Du+Acc: хохʼ
+     хо+N+Du+Gen: хохʼ
+     хо+N+Pl+Nom: хоˮ
+     хо+N+Pl+Acc: хо
+     хо+N+Pl+Gen: хоˮ
+     хо+N+Pl+Dat: хохоˮ
+     хо+N+Pl+Loc: хохˮна
+     хо+N+Pl+Abl: хохот
+     хо+N+Pl+Pros: хоˮмна
+     хо+N+Pl+Tra: хоˮӈэ
+
+# Possessive forms
+     хо+Sg+Nom+PxSg1:хов 
+     хо+Sg+Nom+PxSg2:хор  
+     хо+Sg+Nom+PxSg3:хода 
+     хо+Sg+Nom+PxDu1:хомиʼ
+     хо+Sg+Nom+PxDu2:хориʼ
+     хо+Sg+Nom+PxDu3:ходиʼ
+     хо+Sg+Nom+PxPl1:ховаˮ
+     хо+Sg+Nom+PxPl2:хораˮ
+     хо+Sg+Nom+PxPl3:ходоʼ
+     хо+Sg+Acc+PxSg1:хов   
+     хо+Sg+Acc+PxSg1:хоми  
+     хо+Sg+Acc+PxSg2:хомд  
+     хо+Sg+Acc+PxSg3:хомда 
+     хо+Sg+Acc+PxDu1:хомиʼ 
+     хо+Sg+Acc+PxDu2:хомдиʼ
+     хо+Sg+Acc+PxDu3:хомдиʼ
+     хо+Sg+Acc+PxPl1:ховаˮ 
+     хо+Sg+Acc+PxPl2:хомдаˮ
+     хо+Sg+Acc+PxPl3:хомдоʼ
+     хо+Sg+Gen+PxSg1:хон   
+     хо+Sg+Gen+PxSg1:хони  
+     хо+Sg+Gen+PxSg2:хонд  
+     хо+Sg+Gen+PxSg3:хонда 
+     хо+Sg+Gen+PxDu1:хониʼ 
+     хо+Sg+Gen+PxDu2:хондиʼ
+     хо+Sg+Gen+PxDu3:хондиʼ
+     хо+Sg+Gen+PxPl1:хонаˮ 
+     хо+Sg+Gen+PxPl2:хондаˮ
+     хо+Sg+Gen+PxPl3:хондоʼ
+     хо+Sg+Dat+PxSg1:хохон   
+     хо+Sg+Dat+PxSg1:хохони  
+     хо+Sg+Dat+PxSg2:хохонд  
+     хо+Sg+Dat+PxSg3:хохонда 
+     хо+Sg+Dat+PxDu1:хохониʼ 
+     хо+Sg+Dat+PxDu2:хохондиʼ
+     хо+Sg+Dat+PxDu3:хохондиʼ
+     хо+Sg+Dat+PxPl1:хохонаˮ 
+     хо+Sg+Dat+PxPl2:хохондаˮ
+     хо+Sg+Dat+PxPl3:хохондоʼ
+     хо+Sg+Loc+PxSg1:хохонан   
+     хо+Sg+Loc+PxSg1:хохонани  
+     хо+Sg+Loc+PxSg2:хохонанд  
+     хо+Sg+Loc+PxSg3:хохонанда 
+     хо+Sg+Loc+PxDu1:хохонаниʼ 
+     хо+Sg+Loc+PxDu2:хохонандиʼ
+     хо+Sg+Loc+PxDu3:хохонандиʼ
+     хо+Sg+Loc+PxPl1:хохонанаˮ 
+     хо+Sg+Loc+PxPl2:хохонандаˮ
+     хо+Sg+Loc+PxPl3:хохонандоʼ
+     хо+Sg+Abl+PxSg1:хоходан   
+     хо+Sg+Abl+PxSg1:хоходани  
+     хо+Sg+Abl+PxSg2:хоходанд  
+     хо+Sg+Abl+PxSg3:хоходанда 
+     хо+Sg+Abl+PxDu1:хоходаниʼ 
+     хо+Sg+Abl+PxDu2:хоходандиʼ
+     хо+Sg+Abl+PxDu3:хоходандиʼ
+     хо+Sg+Abl+PxPl1:хоходанаˮ 
+     хо+Sg+Abl+PxPl2:хоходандаˮ
+     хо+Sg+Abl+PxPl3:хоходандоʼ
+     хо+Sg+Pros+PxSg1:ховнан   
+     хо+Sg+Pros+PxSg1:ховнани  
+     хо+Sg+Pros+PxSg2:ховнанд  
+     хо+Sg+Pros+PxSg3:ховнанда 
+     хо+Sg+Pros+PxDu1:ховнаниʼ 
+     хо+Sg+Pros+PxDu2:ховнандиʼ
+     хо+Sg+Pros+PxDu3:ховнандиʼ
+     хо+Sg+Pros+PxPl1:ховнанаˮ 
+     хо+Sg+Pros+PxPl2:ховнандаˮ
+     хо+Sg+Pros+PxPl3:ховнандоʼ
+     хо+Du+Nom+PxSg1:хохюн  
+     хо+Du+Nom+PxSg2:хохюд  
+     хо+Du+Nom+PxSg3:хохюда 
+     хо+Du+Nom+PxDu1:хохюниʼ
+     хо+Du+Nom+PxDu2:хохюдиʼ
+     хо+Du+Nom+PxDu3:хохюдиʼ
+     хо+Du+Nom+PxPl1:хохюнаˮ
+     хо+Du+Nom+PxPl2:хохюдаˮ
+     хо+Du+Nom+PxPl3:хохюдоʼ;
+     хо+Du+Acc+PxSg1:хохюн  
+     хо+Du+Acc+PxSg2:хохюд  
+     хо+Du+Acc+PxSg3:хохюда 
+     хо+Du+Acc+PxDu1:хохюниʼ
+     хо+Du+Acc+PxDu2:хохюдиʼ
+     хо+Du+Acc+PxDu3:хохюдиʼ
+     хо+Du+Acc+PxPl1:хохюнаˮ
+     хо+Du+Acc+PxPl2:хохюдаˮ
+     хо+Du+Acc+PxPl3:хохюдоʼ
+     хо+Du+Gen+PxSg1:хохюн  
+     хо+Du+Gen+PxSg2:хохют  
+     хо+Du+Gen+PxSg3:хохюта 
+     хо+Du+Gen+PxDu1:хохюниʼ
+     хо+Du+Gen+PxDu2:хохютиʼ
+     хо+Du+Gen+PxDu3:хохютиʼ
+     хо+Du+Gen+PxPl1:хохюнаˮ
+     хо+Du+Gen+PxPl2:хохютаˮ
+     хо+Du+Gen+PxPl3:хохютоʼ
+     хо+Pl+Nom+PxSg1:хон   
+     хо+Pl+Nom+PxSg2:ход   
+     хо+Pl+Nom+PxSg3:хода  
+     хо+Pl+Nom+PxDu1:хониʼ 
+     хо+Pl+Nom+PxDu2:ходиʼ 
+     хо+Pl+Nom+PxDu3:ходиʼ 
+     хо+Pl+Nom+PxPl1:хонаˮ 
+     хо+Pl+Nom+PxPl2:ходаˮ 
+     хо+Pl+Nom+PxPl3:ходоʼ 
+     хо+Pl+Acc+PxSg1:хон   
+     хо+Pl+Acc+PxSg2:ход   
+     хо+Pl+Acc+PxSg3:хода  
+     хо+Pl+Acc+PxDu1:хониʼ 
+     хо+Pl+Acc+PxDu2:ходиʼ 
+     хо+Pl+Acc+PxDu3:ходиʼ 
+     хо+Pl+Acc+PxPl1:хонаˮ 
+     хо+Pl+Acc+PxPl2:ходаˮ 
+     хо+Pl+Acc+PxPl3:ходоʼ 
+     хо+Pl+Gen+PxSg1:хоˮн  
+     хо+Pl+Gen+PxSg1:хоˮни 
+     хо+Pl+Gen+PxSg2:хот   
+     хо+Pl+Gen+PxSg3:хота  
+     хо+Pl+Gen+PxDu1:хоˮниʼ
+     хо+Pl+Gen+PxDu2:хотиʼ 
+     хо+Pl+Gen+PxDu3:хотиʼ 
+     хо+Pl+Gen+PxPl1:хоˮнаˮ 
+     хо+Pl+Gen+PxPl2:хотаˮ 
+     хо+Pl+Gen+PxPl3:хотоʼ 
+     хо+Pl+Dat+PxSg1:хохоˮн 
+     хо+Pl+Dat+PxSg2:хохот 
+     хо+Pl+Dat+PxSg3:хохота 
+     хо+Pl+Dat+PxDu1:хохоˮниʼ 
+     хо+Pl+Dat+PxDu2:хохотиʼ 
+     хо+Pl+Dat+PxDu3:хохотиʼ 
+     хо+Pl+Dat+PxPl1:хохоˮнаˮ 
+     хо+Pl+Dat+PxPl2:хохотаˮ 
+     хо+Pl+Dat+PxPl3:хохотоʼ 
+     хо+Pl+Loc+PxSg1:хохоˮнан  
+     хо+Pl+Loc+PxSg2:хохоˮнат  
+     хо+Pl+Loc+PxSg3:хохоˮната 
+     хо+Pl+Loc+PxDu1:хохоˮнаниʼ
+     хо+Pl+Loc+PxDu2:хохоˮнатиʼ
+     хо+Pl+Loc+PxDu3:хохоˮнатиʼ
+     хо+Pl+Loc+PxPl1:хохоˮнанаˮ
+     хо+Pl+Loc+PxPl2:хохоˮнатаˮ
+     хо+Pl+Loc+PxPl3:хохоˮнатоʼ
+     хо+Pl+Abl+PxSg1:хохотан 
+     хо+Pl+Abl+PxSg2:хохотат 
+     хо+Pl+Abl+PxSg3:хохотата 
+     хо+Pl+Abl+PxDu1:хохотаниʼ
+     хо+Pl+Abl+PxDu2:хохотатиʼ
+     хо+Pl+Abl+PxDu3:хохотатиʼ
+     хо+Pl+Abl+PxPl1:хохотанаˮ
+     хо+Pl+Abl+PxPl2:хохотатаˮ
+     хо+Pl+Abl+PxPl3:хохотатоʼ
+     хо+Pl+Pros+PxSg1:хоˮманан  
+     хо+Pl+Pros+PxSg2:хоˮманат  
+     хо+Pl+Pros+PxSg3:хоˮманата 
+     хо+Pl+Pros+PxDu1:хоˮмананиʼ
+     хо+Pl+Pros+PxDu2:хоˮманатиʼ
+     хо+Pl+Pros+PxDu3:хоˮманатиʼ
+     хо+Pl+Pros+PxPl1:хоˮмананаˮ
+     хо+Pl+Pros+PxPl2:хоˮманатаˮ
+     хо+Pl+Pros+PxPl3:хоˮманатоʼ
+
+# Predestinative !Should be added
+# Predicative (Nominal conjugation)
+
+     хо+Der/Pr+Ind+Aor+Sc1Sg:ходмʼ
+     хо+Der/Pr+Ind+Aor+Sc2Sg:хон  
+     хо+Der/Pr+Ind+Aor+Sc3Sg:хо   
+     хо+Der/Pr+Ind+Aor+Sc1Du:хониʼ
+     хо+Der/Pr+Ind+Aor+Sc2Du:ходиʼ
+     хо+Der/Pr+Ind+Aor+Sc3Du:хохаʼ
+     хо+Der/Pr+Ind+Aor+Sc1Pl:ховаˮ
+     хо+Der/Pr+Ind+Aor+Sc2Pl:ходаˮ
+     хо+Der/Pr+Ind+Aor+Sc3Pl:хоˮ  
+     хо+Der/Pr+Ind+Prt1+Sc1Sg:ходамзь
+     хо+Der/Pr+Ind+Prt1+Sc2Sg:хонась 
+     хо+Der/Pr+Ind+Prt1+Sc3Sg:хось   
+     хо+Der/Pr+Ind+Prt1+Sc1Du:хонинзь
+     хо+Der/Pr+Ind+Prt1+Sc2Du:ходинзь
+     хо+Der/Pr+Ind+Prt1+Sc3Du:хоханзь
+     хо+Der/Pr+Ind+Prt1+Sc1Pl:ховаць 
+     хо+Der/Pr+Ind+Prt1+Sc2Pl:ходаць 
+     хо+Der/Pr+Ind+Prt1+Sc3Pl:хоць   
