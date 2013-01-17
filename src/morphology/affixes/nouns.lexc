@@ -29,7 +29,37 @@ LEXICON N-Vow_01
  PLPROSSUF ;
 
  POSSESSOR-INDICES ;
- NOMINAL-CONJUGATION ;
++Nom: NOMINAL-CONJUGATION ;
+
+LEXICON N-xo
+! хо:хо
++N: N-xo_01 ;
+
+LEXICON N-xo_01
+ SGNOMSUF ;
+ SGACCSUF ;
+ SGGENSUF ;
+:%> SGDATSUF ;
+:%> SGLOCSUF ;
+ SGABLSUF ;
+:%>в SGPROSSUF ;
+ SGTRASUF ;
+
+ DUNOMSUF ;
+ DUACCSUF ;
+ DUGENSUF ;
+
+ PLNOMSUF ;
+ PLACCSUF_Zero ; !
+ PLGENSUF_Zero ; !
+ PLDATSUF ;
+ PLLOCSUF ;
+ PLABLSUF ;
+ PLPROSSUF ;
+
+ POSSESSOR-INDICES ;
++Nom: NOMINAL-CONJUGATION ;
+
 
 
 LEXICON N-Cons
@@ -190,7 +220,7 @@ LEXICON N-jam
 +N: PLPROSSUF ;
 
 +N: POSSESSOR-INDICES ;
-+N: NOMINAL-CONJUGATION ;
++N+Nom: NOMINAL-CONJUGATION ;
 
 
 LEXICON N-N
@@ -224,23 +254,34 @@ LEXICON SGTRASUF
 
 ! These must be checked
 LEXICON DUNOMSUF 
-+Du+Nom:%>хА1ʼ K ;
+!+Du+Nom:%>хА1ʼ K ;
++Du+Nom:%>хʼ K ;
 
 LEXICON DUACCSUF 
-+Du+Acc:%>хА1ʼ K ;
+!+Du+Acc:%>хА1ʼ K ;
++Du+Acc:%>хʼ K ;
 
 LEXICON DUGENSUF 
-+Du+Gen:%>хА1ʼ K ;
+!+Du+Gen:%>хА1ʼ K ;
++Du+Gen:%>хʼ K ;
 
 !! Start Plural
 LEXICON PLNOMSUF
 +Pl+Nom:%>ˮ K ;
 
+
 LEXICON PLACCSUF
 +Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
 
+LEXICON PLACCSUF_Zero
+! This has zero ending
++Pl+Acc: K ; 
+
 LEXICON PLGENSUF
 +Pl+Gen:%>Ы1ˮ K ; 
+
+LEXICON PLGENSUF_Zero
++Pl+Gen:%>ˮ K ; 
 
 LEXICON PLDATSUF
 +Pl+Dat:%>хА1ˮ K ;
@@ -446,25 +487,25 @@ LEXICON POSSESSOR-INDICES
 
 !! Conjugation of nouns and adjectives
 LEXICON NOMINAL-CONJUGATION
-+Der/Pr+Ind+Aor+Sc1Sg:%>дмʼ K ;
-+Der/Pr+Ind+Aor+Sc2Sg:%>н   K ;
-+Der/Pr+Ind+Aor+Sc3Sg:      K ;
-+Der/Pr+Ind+Aor+Sc1Du:%>ниʼ K ;
-+Der/Pr+Ind+Aor+Sc2Du:%>диʼ K ;
-+Der/Pr+Ind+Aor+Sc3Du:%>хаʼ K ;
-+Der/Pr+Ind+Aor+Sc1Pl:%>ваˮ K ;
-+Der/Pr+Ind+Aor+Sc2Pl:%>даˮ K ;
-+Der/Pr+Ind+Aor+Sc3Pl:%>ˮ   K ;
++Der/Pr+Ind+Aor+ScSg1:%>дмʼ K ;
++Der/Pr+Ind+Aor+ScSg2:%>н   K ;
++Der/Pr+Ind+Aor+ScSg3:      K ;
++Der/Pr+Ind+Aor+ScDu1:%>ниʼ K ;
++Der/Pr+Ind+Aor+ScDu2:%>диʼ K ;
++Der/Pr+Ind+Aor+ScDu3:%>хаʼ K ;
++Der/Pr+Ind+Aor+ScPl1:%>ваˮ K ;
++Der/Pr+Ind+Aor+ScPl2:%>даˮ K ;
++Der/Pr+Ind+Aor+ScPl3:%>ˮ   K ;
 
-+Der/Pr+Ind+Prt1+Sc1Sg:%>дамзь K ;
-+Der/Pr+Ind+Prt1+Sc2Sg:%>нась  K ;
-+Der/Pr+Ind+Prt1+Sc3Sg:%>сь    K ;
-+Der/Pr+Ind+Prt1+Sc1Du:%>нинзь K ;
-+Der/Pr+Ind+Prt1+Sc2Du:%>динзь K ;
-+Der/Pr+Ind+Prt1+Sc3Du:%>ханзь K ;
-+Der/Pr+Ind+Prt1+Sc1Pl:%>ваць  K ;
-+Der/Pr+Ind+Prt1+Sc2Pl:%>даць  K ;
-+Der/Pr+Ind+Prt1+Sc3Pl:%>ць    K ;
++Der/Pr+Ind+Prt1+ScSg1:%>дамзь K ;
++Der/Pr+Ind+Prt1+ScSg2:%>нась  K ;
++Der/Pr+Ind+Prt1+ScSg3:%>сь    K ;
++Der/Pr+Ind+Prt1+ScDu1:%>нинзь K ;
++Der/Pr+Ind+Prt1+ScDu2:%>динзь K ;
++Der/Pr+Ind+Prt1+ScDu3:%>ханзь K ;
++Der/Pr+Ind+Prt1+ScPl1:%>ваць  K ;
++Der/Pr+Ind+Prt1+ScPl2:%>даць  K ;
++Der/Pr+Ind+Prt1+ScPl3:%>ць    K ;
 
 
 
