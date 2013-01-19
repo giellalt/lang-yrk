@@ -60,7 +60,30 @@ LEXICON N-xo_01
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
+LEXICON N-nAI
+ SGNOMSUF ;
+ SGACCSUF ;
+ SGGENSUF ;
+:%> SGDATSUF ;
+:%> SGLOCSUF ;
+ SGABLSUF ;
+:%>в SGPROSSUF ;
+ SGTRASUF ;
 
+ DUNOMSUF ;
+ DUACCSUF ;
+ DUGENSUF ;
+
+ PLNOMSUF ;
+ PLACCSUF_I ; !
+ PLGENSUF_I ; !
+ PLDATSUF ;
+ PLLOCSUF ;
+ PLABLSUF ;
+ PLPROSSUF ;
+
+ POSSESSOR-INDICES ;
++Nom: NOMINAL-CONJUGATION ;
 
 LEXICON N-Cons
 +N: SGNOMSUF ;
@@ -269,7 +292,6 @@ LEXICON DUGENSUF
 LEXICON PLNOMSUF
 +Pl+Nom:%>ˮ K ;
 
-
 LEXICON PLACCSUF
 +Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
 
@@ -277,11 +299,17 @@ LEXICON PLACCSUF_Zero
 ! This has zero ending
 +Pl+Acc: K ; 
 
+LEXICON PLACCSUF_I
++Pl+Acc:%>и  K ; 
+
 LEXICON PLGENSUF
 +Pl+Gen:%>Ы1ˮ K ; 
 
 LEXICON PLGENSUF_Zero
 +Pl+Gen:%>ˮ K ; 
+
+LEXICON PLGENSUF_I
++Pl+Acc:%>и  K ; 
 
 LEXICON PLDATSUF
 +Pl+Dat:%>хА1ˮ K ;
