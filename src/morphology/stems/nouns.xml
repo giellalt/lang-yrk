@@ -825,7 +825,7 @@
       <l>ня</l>
 
       <stg>
-        <st Contlex="N-Vow">ня</st>
+        <st Contlex="N-nAI">н</st>
       </stg>
     </lg>
 
@@ -936,6 +936,36 @@
 
       <tg lang="fin">
         <t>ruoho</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈамза</l>
+
+      <stg>
+        <st Contlex="N-Vow">ӈамза</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>meat</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>liha</t>
       </tg>
     </mg>
 
@@ -1178,6 +1208,66 @@
 
       <tg lang="fin">
         <t>jälki</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈэва</l>
+
+      <stg>
+        <st Contlex="N-Vow">ӈэва</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>head</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>pää</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈэвэй</l>
+
+      <stg>
+        <st Contlex="N-Cons">ӈэвэй</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>brain</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>aivot</t>
       </tg>
     </mg>
 
@@ -1464,6 +1554,96 @@
 
   <e>
     <lg>
+      <l>сава</l>
+
+      <stg>
+        <st Contlex="N-Vow">сава</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>hood</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>huppu</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>саля</l>
+
+      <stg>
+        <st Contlex="N-Vow">саля</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>cape</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>niemi</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сарё</l>
+
+      <stg>
+        <st Contlex="N-Vow">сарё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>rain</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>sade</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>сармик</l>
 
       <stg>
@@ -1604,6 +1784,62 @@
     </mg>
 
     <!-- сяй:сяй CNOUN ; ! What is this? сярка:сярка N-Vow ; ! What is this? сяˮ:сяД1 N-D "face" ;   -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сыв</l>
+
+      <stg>
+        <st Contlex="N-Cons">сыв</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>winter</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>talvi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сыра</l>
+
+      <stg>
+        <st Contlex="N-Vow">сыра</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>snow</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>lumi</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -2302,6 +2538,36 @@
 
   <e>
     <lg>
+      <l>хамба</l>
+
+      <stg>
+        <st Contlex="N-Vow">хамба</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t>aalto</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>хамболˮ</l>
 
       <stg>
@@ -2324,36 +2590,6 @@
 
       <tg lang="fin">
         <t>roska</t>
-      </tg>
-    </mg>
-
-    <!--  -->
-  </e>
-
-  <e>
-    <lg>
-      <l>ханзˮ</l>
-
-      <stg>
-        <st Contlex="N-D">ханзД1</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg lang="eng">
-        <t>sled runner</t>
-      </tg>
-
-      <tg lang="fin">
-        <t>jalas</t>
       </tg>
     </mg>
 
@@ -2386,6 +2622,36 @@
         <t>reki</t>
 
         <t>ahkio</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ханзˮ</l>
+
+      <stg>
+        <st Contlex="N-D">ханзД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>sled runner</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>jalas</t>
       </tg>
     </mg>
 
@@ -2518,6 +2784,36 @@
 
   <e>
     <lg>
+      <l>хаска</l>
+
+      <stg>
+        <st Contlex="N-Vow">хаска</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t>puuro</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>хо</l>
 
       <stg>
@@ -2632,6 +2928,64 @@
 
       <tg lang="fin">
         <t>koulu</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>я</l>
+
+      <stg>
+        <st Contlex="N-ao">я</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>country</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>maa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>яля</l>
+
+      <stg>
+        <st Contlex="N-Vow">яля</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>day</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>päivä</t>
       </tg>
     </mg>
 
