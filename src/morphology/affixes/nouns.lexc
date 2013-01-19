@@ -85,6 +85,31 @@ LEXICON N-nAI
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
+LEXICON N-ao
+ SGNOMSUF ;
+ SGACCSUF ;
+ SGGENSUF ;
+:%> SGDATSUF ;
+:%> SGLOCSUF ;
+ SGABLSUF ;
+:%>в SGPROSSUF ;
+ SGTRASUF ;
+
+ DUNOMSUF ;
+ DUACCSUF ;
+ DUGENSUF ;
+
+ PLNOMSUF ;
+ PLACCSUF_AO ; !
+ PLGENSUF_AO ; !
+ PLDATSUF ;
+ PLLOCSUF ;
+ PLABLSUF ;
+ PLPROSSUF ;
+
+ POSSESSOR-INDICES ;
++Nom: NOMINAL-CONJUGATION ;
+
 LEXICON N-Cons
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
@@ -300,7 +325,10 @@ LEXICON PLACCSUF_Zero
 +Pl+Acc: K ; 
 
 LEXICON PLACCSUF_I
-+Pl+Acc:%>и  K ; 
++Pl+Acc:%>и  K ; !Stem final е а я may change to и.
+
+LEXICON PLACCSUF_AO
++Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
 
 LEXICON PLGENSUF
 +Pl+Gen:%>Ы1ˮ K ; 
@@ -309,7 +337,10 @@ LEXICON PLGENSUF_Zero
 +Pl+Gen:%>ˮ K ; 
 
 LEXICON PLGENSUF_I
-+Pl+Acc:%>и  K ; 
++Pl+Acc:%>и  K ; !Stem final е а я may change to и.
+
+LEXICON PLGENSUF_AO
++Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
 
 LEXICON PLDATSUF
 +Pl+Dat:%>хА1ˮ K ;
