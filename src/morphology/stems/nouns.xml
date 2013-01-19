@@ -582,10 +582,10 @@
 
   <e>
     <lg>
-      <l>ни</l>
+      <l>нема</l>
 
       <stg>
-        <st Contlex="N-Vow">ни</st>
+        <st Contlex="N-Vow">нема</st>
       </stg>
     </lg>
 
@@ -599,11 +599,11 @@
       </m>
 
       <tg lang="eng">
-        <t>belt</t>
+        <t>sleep</t>
       </tg>
 
       <tg lang="fin">
-        <t>vyö</t>
+        <t>uni</t>
       </tg>
     </mg>
 
@@ -664,6 +664,36 @@
 
       <tg lang="fin">
         <t>nenetsi</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ни</l>
+
+      <stg>
+        <st Contlex="N-Vow">ни</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>belt</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>vyö</t>
       </tg>
     </mg>
 
@@ -825,7 +855,7 @@
       <l>ня</l>
 
       <stg>
-        <st Contlex="N-nAI">н</st>
+        <st Contlex="N-Vow">ня</st>
       </stg>
     </lg>
 
@@ -846,6 +876,96 @@
         <t>kumppani</t>
 
         <t>toveri</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>нява</l>
+
+      <stg>
+        <st Contlex="N-Vow">нява</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>hare</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>jänis</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>няк</l>
+
+      <stg>
+        <st Contlex="N-Cons">няк</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>seal</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>norppa</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>няка</l>
+
+      <stg>
+        <st Contlex="N-Vow">няка</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>older brother</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>vanhempi veli</t>
       </tg>
     </mg>
 
@@ -1398,6 +1518,36 @@
 
   <e>
     <lg>
+      <l>пися</l>
+
+      <stg>
+        <st Contlex="N-Vow">пися</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>mouse</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>hiiri</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>пухуця</l>
 
       <stg>
@@ -1784,6 +1934,36 @@
     </mg>
 
     <!-- сяй:сяй CNOUN ; ! What is this? сярка:сярка N-Vow ; ! What is this? сяˮ:сяД1 N-D "face" ;   -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сую</l>
+
+      <stg>
+        <st Contlex="N-Vow">сую</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>calf</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>vasikka</t>
+      </tg>
+    </mg>
+
+    <!--  -->
   </e>
 
   <e>
@@ -2326,6 +2506,36 @@
 
   <e>
     <lg>
+      <l>тэва</l>
+
+      <stg>
+        <st Contlex="N-Vow">тэва</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>tail</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>häntä</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>тэцяʼ</l>
 
       <stg>
@@ -2478,6 +2688,66 @@
 
   <e>
     <lg>
+      <l>хада</l>
+
+      <stg>
+        <st Contlex="N-Vow">хада</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>nail</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kynsi</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хада</l>
+
+      <stg>
+        <st Contlex="N-Аø">хада</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>older female relative</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>isoäiti; vanhempi naispuolinen sukulainen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>хаерˮ</l>
 
       <stg>
@@ -2541,7 +2811,7 @@
       <l>хамба</l>
 
       <stg>
-        <st Contlex="N-Vow">хамба</st>
+        <st Contlex="N-Аø">хамба</st>
       </stg>
     </lg>
 
@@ -2847,7 +3117,7 @@
       <l>хоба</l>
 
       <stg>
-        <st Contlex="N-Vow">хоба</st>
+        <st Contlex="N-Аø">хоба</st>
       </stg>
     </lg>
 
@@ -2958,6 +3228,34 @@
 
       <tg lang="fin">
         <t>maa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>яб</l>
+
+      <stg>
+        <st Contlex="N-Cons">яб</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>happiness</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>onni</t>
       </tg>
     </mg>
   </e>
