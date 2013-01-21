@@ -20,6 +20,7 @@ Alphabet
  Ы1:о 
  Ы1:е
 
+
 ! Archiphonemes for glottals
  Н1:ʼ
  Н1:н
@@ -34,7 +35,8 @@ Alphabet
  С1:с
  С1:0
 
-
+! triggers
+%^AO:0
 
 ! Boundary symbols
 
@@ -104,6 +106,11 @@ Rules
 
 "Ы1:е"
 Ы1:е <=> LFV [ CnsNotGlots | Glots]  %>: _ ; 
+
+"a:o in я"
+я:ё <=> _ %^AO:0 ;
+
+!! Consonant changes
 
 "mToV"
 м:в <=> _ ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
