@@ -1,115 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l>вэва</l>
-         <stg>
-            <st Contlex="Adj-Vow">вэва</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>poor</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>едэй</l>
-         <stg>
-            <st Contlex="Adj-Cons">едэй</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>new</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>ӈарка</l>
-         <stg>
-            <st Contlex="Adj-Vow">ӈарка</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>big</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>сава</l>
-         <stg>
-            <st Contlex="Adj-Vow">сава</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>good</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
-   <e>
-      <lg>
-         <l>сэрˮ</l>
-         <stg>
-            <st Contlex="Adj-D">сэрД1</st>
-         </stg>
-      </lg>
-      <pos>N</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative/>
-         </m>
-         <tg lang="eng">
-            <t>white</t>
-         </tg>
-         <tg lang="fin">
-            <t/>
-         </tg>
-      </mg>
-      <!--  -->
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l>вэва</l>
+
+      <stg>
+        <st Contlex="Adj-Vow">вэва</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>poor</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>huono</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>едэй</l>
+
+      <stg>
+        <st Contlex="Adj-Cons">едэй</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>new</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>uusi</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈарка</l>
+
+      <stg>
+        <st Contlex="Adj-Vow">ӈарка</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>big</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>iso</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сава</l>
+
+      <stg>
+        <st Contlex="Adj-Vow">сава</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>good</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>hyvä</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>сэрˮ</l>
+
+      <stg>
+        <st Contlex="Adj-D">сэрД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>white</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>valkoinen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
 </r>
