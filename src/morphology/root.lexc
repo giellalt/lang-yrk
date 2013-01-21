@@ -151,6 +151,10 @@ Multichar_Symbols
  ! -хА1на -хА1д
 Д1 С1 Н1 Ӈ1 ! These are proto-glottals
 Г1 В1 Е1 Е2 Ы1 ! These are for developing underlying morphology rules
+
+ ! Triggers
+%^AO ! Initially this is used for the noun "я" to enable a:o
+
 %-
 %>
 
