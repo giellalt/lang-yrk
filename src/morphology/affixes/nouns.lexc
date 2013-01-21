@@ -51,7 +51,7 @@ LEXICON N-xo_01
 
  PLNOMSUF ;
  PLACCSUF_Zero ; !
- PLGENSUF_Zero ; !
+ PLGENSUF_Glot ; !
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
@@ -86,6 +86,10 @@ LEXICON N-nAI
 +Nom: NOMINAL-CONJUGATION ;
 
 LEXICON N-ao
+! я:я
++N: N-ao_01 ;
+
+LEXICON N-ao_01
  SGNOMSUF ;
  SGACCSUF ;
  SGGENSUF ;
@@ -100,17 +104,22 @@ LEXICON N-ao
  DUGENSUF ;
 
  PLNOMSUF ;
- PLACCSUF_AO ; !
- PLGENSUF_AO ; !
+:%^AO PLACCSUF_Zero ; !
+:%^AO PLGENSUF_Glot ; !
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
  PLPROSSUF ;
 
- POSSESSOR-INDICES ;
+ POSSESSA-SINGULAR ;
+ POSSESSA-DUAL ;
+:%^AO POSSESSA-PL-NOMACCGEN ;
+ POSSESSA-PL-OTHER ;
 +Nom: NOMINAL-CONJUGATION ;
 
 LEXICON N-At
++N: N-At_01 ;
+LEXICON N-At_01
  SGNOMSUF ;
  SGACCSUF ;
  SGGENSUF ;
@@ -126,7 +135,7 @@ LEXICON N-At
 
  PLNOMSUF ;
  PLACCSUF_Zero ; !
- PLGENSUF_Zero ; !
+ PLGENSUF_Glot ; !
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
@@ -347,25 +356,25 @@ LEXICON PLACCSUF
 
 LEXICON PLACCSUF_Zero
 ! This has zero ending
-+Pl+Acc: K ; 
++Pl+Acc: K ;
 
 LEXICON PLACCSUF_I
 +Pl+Acc:%>и  K ; !Stem final е а я may change to и.
 
-LEXICON PLACCSUF_AO
-+Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
+!LEXICON PLACCSUF_AO
+!+Pl+Acc:  K ; ! The rule "a:o in я" This will be pointed to PLACCSUF_Zero
 
 LEXICON PLGENSUF
 +Pl+Gen:%>Ы1ˮ K ; 
 
-LEXICON PLGENSUF_Zero
+LEXICON PLGENSUF_Glot
 +Pl+Gen:%>ˮ K ; 
 
 LEXICON PLGENSUF_I
 +Pl+Acc:%>и  K ; !Stem final е а я may change to и.
 
-LEXICON PLGENSUF_AO
-+Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
+!LEXICON PLGENSUF_AO
+!+Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
 
 LEXICON PLDATSUF
 +Pl+Dat:%>хА1ˮ K ;
@@ -383,6 +392,12 @@ LEXICON PLPROSSUF
 
 !! Possessor Indices
 LEXICON POSSESSOR-INDICES
+
+ POSSESSA-SINGULAR ;
+ POSSESSA-DUAL ;
+ POSSESSA-PLURAL ;
+
+LEXICON POSSESSA-SINGULAR
 +Sg+Nom+PxSg1:%>в   K ;
 +Sg+Nom+PxSg2:%>р   K ; ! (1961: 110) нюр, ӈэсял, мяˮал
 +Sg+Nom+PxSg3:%>да  K ;
@@ -448,6 +463,7 @@ LEXICON POSSESSOR-INDICES
 +Sg+Abl+PxPl2:%>хА1дандаˮ K ;
 +Sg+Abl+PxPl3:%>хА1дандоʼ K ;
 
+
  ! 2012-04-11 Check this for N-Cons and N-D
  ! There might be reason for увна and мна varients
 +Sg+Pros+PxSg1:%>внан     K ;
@@ -462,6 +478,7 @@ LEXICON POSSESSOR-INDICES
 +Sg+Pros+PxPl3:%>внандоʼ  K ;
 
 
+LEXICON POSSESSA-DUAL
 !! Dual possessa
 +Du+Nom+PxSg1:%>хюн       K ;
 +Du+Nom+PxSg2:%>хюд       K ;
@@ -523,6 +540,11 @@ LEXICON POSSESSOR-INDICES
 +Du+Gen+PxPl2:%>хА1ютаˮ K ;
 +Du+Gen+PxPl3:%>хА1ютоʼ K ;
 
+LEXICON POSSESSA-PLURAL
+ POSSESSA-PL-NOMACCGEN ;
+ POSSESSA-PL-OTHER ;
+
+LEXICON POSSESSA-PL-NOMACCGEN
 !! Plural Possessa
 +Pl+Nom+PxSg1:%>н   K ;
 +Pl+Nom+PxSg2:%>д   K ;
@@ -555,6 +577,7 @@ LEXICON POSSESSOR-INDICES
 +Pl+Gen+PxPl2:%>таˮ  K ; ! _*_ˮд : т_
 +Pl+Gen+PxPl3:%>тоʼ  K ; ! _*_ˮд : т_
 
+LEXICON POSSESSA-PL-OTHER
 +Pl+Dat+PxSg1:%>хА1ˮн   K ;
 +Pl+Dat+PxSg2:%>хА1т    K ;
 +Pl+Dat+PxSg3:%>хА1та   K ;
@@ -584,7 +607,9 @@ LEXICON POSSESSOR-INDICES
 +Pl+Abl+PxPl1:%>хА1танаˮ K ;
 +Pl+Abl+PxPl2:%>хА1татаˮ K ;
 +Pl+Abl+PxPl3:%>хА1татоʼ K ;
+ POSSESSA-PLPROS ;
 
+LEXICON POSSESSA-PLPROS
 +Pl+Pros+PxSg1:%>ˮманан   K ;
 +Pl+Pros+PxSg2:%>ˮманат   K ;
 +Pl+Pros+PxSg3:%>ˮманата  K ;
