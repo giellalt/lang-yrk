@@ -203,7 +203,7 @@
       </m>
 
       <tg lang="eng">
-        <t>pen, padock</t>
+        <t>pen, padock, fence</t>
       </tg>
 
       <tg lang="fin">
@@ -308,6 +308,96 @@
 
   <e>
     <lg>
+      <l>е</l>
+
+      <stg>
+        <st Contlex="N-Vow">е</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>pine</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>mänty</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ебц</l>
+
+      <stg>
+        <st Contlex="N-Cons">ебц</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>cradle</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kehto</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ед</l>
+
+      <stg>
+        <st Contlex="N-Cons">ед</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>kettle</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>pata, kattila</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>ендˮ</l>
 
       <stg>
@@ -341,7 +431,7 @@
       <l>есʼ</l>
 
       <stg>
-        <st Contlex="N-N">есН1</st>
+        <st Contlex="N-wyngo">есӇ1</st>
       </stg>
     </lg>
 
@@ -373,7 +463,7 @@
       <l>ёльцьʼ</l>
 
       <stg>
-        <st Contlex="N-N">ёльцьН1</st>
+        <st Contlex="N-wyngo">ёльцьӇ1</st>
       </stg>
     </lg>
 
@@ -433,7 +523,7 @@
       <l>илебцьʼ</l>
 
       <stg>
-        <st Contlex="N-N">илебцьН1</st>
+        <st Contlex="N-wyngo">илебцьӇ1</st>
       </stg>
     </lg>
 
@@ -463,7 +553,7 @@
       <l>илʼ</l>
 
       <stg>
-        <st Contlex="N-N">илН1</st>
+        <st Contlex="N-wyngo">илӇ1</st>
       </stg>
     </lg>
 
@@ -516,6 +606,34 @@
     </mg>
 
     <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>индˮ</l>
+
+      <stg>
+        <st Contlex="N-D">индД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>breath</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>henkäys</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -632,6 +750,66 @@
 
       <tg lang="fin">
         <t>luokka</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>лабэˮ</l>
+
+      <stg>
+        <st Contlex="N-D">лабэС1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>room</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>huone</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>лабя</l>
+
+      <stg>
+        <st Contlex="N-Vow">лабя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>oar</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>airo</t>
       </tg>
     </mg>
 
@@ -882,6 +1060,36 @@
 
   <e>
     <lg>
+      <l>мо</l>
+
+      <stg>
+        <st Contlex="N-Vow">мо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>twig</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>havu</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>муʼ</l>
 
       <stg>
@@ -908,6 +1116,126 @@
     </mg>
 
     <!-- ! мунмʼ (Алмазова 1961: 104)  !!:!! Should this be муӇ1? -->
+  </e>
+
+  <e>
+    <lg>
+      <l>мы</l>
+
+      <stg>
+        <st Contlex="N-Vow">мы</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>food</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>ruoka</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>мыʼ</l>
+
+      <stg>
+        <st Contlex="N-teno">мыН1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>stomach</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>vatsa, täysimaha</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>мэва</l>
+
+      <stg>
+        <st Contlex="N-Vow">мэва</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>time</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kerta</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>мэсы”</l>
+
+      <stg>
+        <st Contlex="N-D">мэсыД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t/>
+      </tg>
+
+      <tg lang="fin">
+        <t>tapa</t>
+      </tg>
+    </mg>
+
+    <!--  -->
   </e>
 
   <e>
@@ -1054,6 +1382,36 @@
 
       <tg lang="fin">
         <t>nenetsi</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>нё</l>
+
+      <stg>
+        <st Contlex="N-Vow">нё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>door</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>ovi</t>
       </tg>
     </mg>
 
@@ -1607,7 +1965,7 @@
       <l>няʼ</l>
 
       <stg>
-        <st Contlex="N-teno">няН1</st>
+        <st Contlex="N-wyngo">няӇ1</st>
       </stg>
     </lg>
 
@@ -2176,6 +2534,36 @@
 
   <e>
     <lg>
+      <l>ӈэрё</l>
+
+      <stg>
+        <st Contlex="N-Vow">ӈэрё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>autumn</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>syksy</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>ӈэрм</l>
 
       <stg>
@@ -2198,6 +2586,36 @@
 
       <tg lang="fin">
         <t>pohjoinen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈэсоʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">ӈэсоӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>joint</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>nivel</t>
       </tg>
     </mg>
 
@@ -2328,6 +2746,36 @@
 
   <e>
     <lg>
+      <l>пеʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">пеӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>palm</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kämmen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>пибтяʼ</l>
 
       <stg>
@@ -2358,6 +2806,36 @@
 
   <e>
     <lg>
+      <l>пива</l>
+
+      <stg>
+        <st Contlex="N-Vow">пива</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>boot</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>saapas</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>пися</l>
 
       <stg>
@@ -2380,6 +2858,36 @@
 
       <tg lang="fin">
         <t>hiiri</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>по</l>
+
+      <stg>
+        <st Contlex="N-Vow">по</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>year</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>vuosi</t>
       </tg>
     </mg>
 
@@ -3040,6 +3548,36 @@
 
   <e>
     <lg>
+      <l>таʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">таӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>summer</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kesä</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>таˮ</l>
 
       <stg>
@@ -3061,7 +3599,7 @@
       </tg>
 
       <tg lang="fin">
-        <t/>
+        <t>lisuke</t>
       </tg>
     </mg>
 
@@ -3154,6 +3692,36 @@
 
       <tg lang="est">
         <t>hammas</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>тодабцьʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">тодабцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>campfire</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>nuotio</t>
       </tg>
     </mg>
 
@@ -3646,6 +4214,36 @@
 
   <e>
     <lg>
+      <l>хабцяʼ</l>
+
+      <stg>
+        <st Contlex="N-wyngo">хабцяӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>illness</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>sairaus</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l>хабэвко</l>
 
       <stg>
@@ -3668,6 +4266,36 @@
 
       <tg lang="fin">
         <t>riekko</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хад</l>
+
+      <stg>
+        <st Contlex="N-Cons">хад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>storm</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>myrsky</t>
       </tg>
     </mg>
 
@@ -3728,6 +4356,36 @@
 
       <tg lang="fin">
         <t>isoäiti; vanhempi naispuolinen sukulainen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l>хады</l>
+
+      <stg>
+        <st Contlex="N-Vow">хады</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t>spruce</t>
+      </tg>
+
+      <tg lang="fin">
+        <t>kuusi</t>
       </tg>
     </mg>
 
