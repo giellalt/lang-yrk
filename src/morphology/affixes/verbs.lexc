@@ -70,10 +70,23 @@ LEXICON V_Interr
 +V+Interr+ScPl2+OcPl3:садаˮ K ;
 +V+Interr+ScPl3+OcPl3:садоʼ K ;
 
+LEXICON V_Coni
++V+Conj+ScSg1:идмʼ K ;
++V+Conj+ScSg2:ин K ;
++V+Conj+ScSg3:и K ;
++V+Conj+ScDu1:иниʼ K ;
++V+Conj+ScDu2:идиʼ K ;
++V+Conj+ScDu3:иӈахаʼ K ;
++V+Conj+ScPl1:иваˮ K ;
++V+Conj+ScPl2:идаˮ K ;
++V+Conj+ScPl3:иˮ K ;
+
+
 LEXICON VerbTag
  V_Obj ;
  V_refl ;
  V_Interr ;
+ V_Coni ;
 +V+Ind+Aor+ScSg1:дмʼ K ;
 +Use/Sub+V+Ind+Aor+ScSg1:мʼ K ;
 +V+Ind+Aor+ScSg2:н K ;
@@ -98,15 +111,68 @@ LEXICON VerbTag
 +V+Ind+Prt1+ScPl2:даць K ;
 +V+Ind+Prt1+ScPl3:ць K ;
 
-+V+Conj+ScSg1:идмʼ K ;
-+V+Conj+ScSg2:ин K ;
-+V+Conj+ScSg3:и K ;
-+V+Conj+ScDu1:иниʼ K ;
-+V+Conj+ScDu2:идиʼ K ;
-+V+Conj+ScDu3:иӈахаʼ K ;
-+V+Conj+ScPl1:иваˮ K ;
-+V+Conj+ScPl2:идаˮ K ;
-+V+Conj+ScPl3:иˮ K ;
+LEXICON V-S
+ V_Obj ;
+ V_refl ;
+ V_Interr ;
+ V_Coni ;
++V+Ind+Aor+ScSg1:дмʼ K ;
++Use/Sub+V+Ind+Aor+ScSg1:мʼ K ;
++V+Ind+Aor+ScSg2:н K ;
++V+Ind+Aor+ScSg3:ӈа K ;
++V+Ind+Aor+ScDu1:ниʼ K ;
++V+Ind+Aor+ScDu2:диʼ K ;
++V+Ind+Aor+ScDu3:ӈахаʼ K ;
++V+Ind+Aor+ScPl1:ваˮ K ;
++V+Ind+Aor+ScPl2:даˮ K ;
++V+Ind+Aor+ScPl3:ˮ K ;
 
++V+Ind+Prt1+ScSg1:дамзь K ;
+!+Use/Sub+V+Ind+Prt1+ScSg1:манзь K ;
++V+Ind+Prt1+ScSg1:манзь K ;
++V+Ind+Prt1+ScSg2:нась K ;
++V+Ind+Prt1+ScSg3:сь K ;
++V+Ind+Prt1+ScDu1:нинзь K ;
++V+Ind+Prt1+ScDu2:динзь K ;
++V+Ind+Prt1+ScDu3:ӈаханзь K ;
++Dial/W+V+Ind+Prt1+ScDu3:ханзь K ;
++V+Ind+Prt1+ScPl1:ваць K ;
++V+Ind+Prt1+ScPl2:даць K ;
++V+Ind+Prt1+ScPl3:ць K ;
+
+LEXICON V-Ny
+ V_Obj ;
+ V_refl ;
+ V_Interr ;
+ V_Coni ;
++V+Ind+Aor+ScSg1:дмʼ K ;
++Use/Sub+V+Ind+Aor+ScSg1:мʼ K ; !assimilation:Н1+м=м
++V+Ind+Aor+ScSg2:н K ; !assimilation:Н1+н=н
++V+Ind+Aor+ScSg3:ӈа K ; !assimilation:Н1+ӈа=ӈа
++V+Ind+Aor+ScDu1:ниʼ K ; !assimilation:Н1+ни=ни
++V+Ind+Aor+ScDu2:диʼ K ;
++V+Ind+Aor+ScDu3:ӈахаʼ K ; !assimilation:Н1+ӈа=ӈа
++V+Ind+Aor+ScPl1:ваˮ K ;
++V+Ind+Aor+ScPl2:даˮ K ;
++V+Ind+Aor+ScPl3:ӈаˮ K ; !assimilation:Н1+ӈа=ӈа
+
++V+Ind+Prt1+ScSg1:дамзь K ;
+!+Use/Sub+V+Ind+Prt1+ScSg1:манзь K ;
++V+Ind+Prt1+ScSg1:манзь K ;
++V+Ind+Prt1+ScSg2:нась K ; !assimilation:Н1+н=н
++V+Ind+Prt1+ScSg3:зь K ;
++V+Ind+Prt1+ScDu1:нинзь K ; !assimilation:Н1+н=н
++V+Ind+Prt1+ScDu2:динзь K ;
++V+Ind+Prt1+ScDu3:ӈаханзь K ; !assimilation:Н1+ӈа=ӈа
++Dial/W+V+Ind+Prt1+ScDu3:ханзь K ;
++V+Ind+Prt1+ScPl1:ваць K ;
++V+Ind+Prt1+ScPl2:даць K ;
++V+Ind+Prt1+ScPl3:ць K ; !assimilation?
+
++V+Inf+Impеrf:ма K ; !assimilation:Н1+м=м
++V+Inf+Pеrf:йˮма K ; !Н1  > ø
++V+Part+Impеrf:да K ;
++V+Part+Pеrf:вы K ;
++V+Conneg:йˮ K ; !Н1  > ø
 ! vim: set ft=xfst-lexc:
 
