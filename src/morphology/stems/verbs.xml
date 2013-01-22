@@ -118,6 +118,62 @@
 
   <e>
     <lg>
+      <l>минзь</l>
+
+      <stg>
+        <st Contlex="V-Ny">миН1</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">go</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">mennä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>миць</l>
+
+      <stg>
+        <st Contlex="V-S">миС1</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">give</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">antaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>мэсь</l>
 
       <stg>
@@ -326,6 +382,34 @@
         <t pos="V">haluta</t>
 
         <t pos="PHRASE_V">mennä pois</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хыноць</l>
+
+      <stg>
+        <st Contlex="V-S">хыноС1</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">sing</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">laulaa</t>
       </tg>
     </mg>
   </e>
