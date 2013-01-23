@@ -169,6 +169,7 @@ LEXICON Root
    adverbs  ;
    nouns   ;
    pronouns    ;
+   postpositions    ;
    quantifiers    ;
    verbs   ;
 
@@ -197,6 +198,9 @@ LEXICON SUBJUNCTION
 
 LEXICON INTERJECTION 
 # ;
+
+LEXICON PoTag
++Po: K ;
 
 LEXICON NUMBERSUF
 +Num: K;
