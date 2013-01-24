@@ -89,7 +89,7 @@ Rules
 у:ю <=> й: %>: _ ;
 
 "А1 -> а"
-А1:а <=> [[ м  ʼ | а | я | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
+А1:а <=> [[ м  ʼ: | а | я | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
 
 "А1 -> о"
 А1:о <=> [ о | ё ]  %> х _ ;
@@ -112,17 +112,20 @@ Rules
 
 !! Consonant changes
 
-"mToV"
+"mToV" ! perhaps there should be a VtoM rule2013-01-23
 м:в <=> _ ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
 
+"r To l after nasal glottal"
+р:л <=> ʼ: %>: _ ;
+
 "nTod"
-н:д <=> м  ʼ %>: _ ʼ ;
+н:д <=> м  ʼ: %>: _ ʼ ;
 
 "ʼ:0"
-ʼ:0 <=> м  _ %>: [ Ы1: | ʼ | м ʼ| н ʼ | х А1: ] ;
+ʼ:0 <=> м:  _ %>: [ Ы1: | ʼ | м ( ʼ ) | н: ʼ | х: ( А1: ) | р: | в: | д ] ;
 
-"х -> г"
-х:г <=> м  ʼ %>: _ А1: ;
+"х -> г after nasal glottal"
+х:г <=> м  ʼ: %>: _ ( А1: ) ;
 
 "х to к after non-nasal glottal"
 х:к <=> [ Д1: | С1: ] %>: _  ;
@@ -142,6 +145,13 @@ Rules
 Ӈ1:ӈ <=> _ %>: Ы1: ;
 
 !! LOSS
+
+"v loss after m Nasal glottal"
+в:0 <=> м ʼ: %>: _ #: ;
+
+"m loss before Labial followed by nonglottal cons or vow "
+м:0 <=> _ ʼ: %>: [ м [ и | н | д ] | в а ] ;
+
 "Н1:0 GlottalNasalToSurface"
 Cx:0 <=> _ %>: [ м | ʼ ] ;
        where Cx in (Н1 Ӈ1) ;
