@@ -652,6 +652,12 @@ LEXICON POSSESSA-PL-NOMACCGEN
 +Pl+Gen+PxPl3:%>тоʼ  K ; ! _*_ˮд : т_
 
 LEXICON POSSESSA-PL-OTHER
+ POSSESSA-PL-ABL ;
+ POSSESSA-PL-DAT ;
+ POSSESSA-PL-LOC ;
+ POSSESSA-PL-PROS ;
+
+LEXICON POSSESSA-PL-DAT
 +Pl+Dat+PxSg1:%>хА1ˮн   K ;
 +Pl+Dat+PxSg2:%>хА1т    K ;
 +Pl+Dat+PxSg3:%>хА1та   K ;
@@ -662,6 +668,7 @@ LEXICON POSSESSA-PL-OTHER
 +Pl+Dat+PxPl2:%>хА1таˮ  K ;
 +Pl+Dat+PxPl3:%>хА1тоʼ  K ;
 
+LEXICON POSSESSA-PL-LOC
 +Pl+Loc+PxSg1:%>хА1ˮнан   K ;
 +Pl+Loc+PxSg2:%>хА1ˮнат   K ;
 +Pl+Loc+PxSg3:%>хА1ˮната  K ;
@@ -672,6 +679,7 @@ LEXICON POSSESSA-PL-OTHER
 +Pl+Loc+PxPl2:%>хА1ˮнатаˮ K ;
 +Pl+Loc+PxPl3:%>хА1ˮнатоʼ K ;
 
+LEXICON POSSESSA-PL-ABL
 +Pl+Abl+PxSg1:%>хА1тан   K ;
 +Pl+Abl+PxSg2:%>хА1тат   K ;
 +Pl+Abl+PxSg3:%>хА1тата  K ;
@@ -681,9 +689,8 @@ LEXICON POSSESSA-PL-OTHER
 +Pl+Abl+PxPl1:%>хА1танаˮ K ;
 +Pl+Abl+PxPl2:%>хА1татаˮ K ;
 +Pl+Abl+PxPl3:%>хА1татоʼ K ;
- POSSESSA-PLPROS ;
 
-LEXICON POSSESSA-PLPROS
+LEXICON POSSESSA-PL-PROS
 +Pl+Pros+PxSg1:%>ˮманан   K ;
 +Pl+Pros+PxSg2:%>ˮманат   K ;
 +Pl+Pros+PxSg3:%>ˮманата  K ;
