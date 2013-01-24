@@ -121,8 +121,14 @@ Rules
 "nTod"
 н:д <=> м  ʼ: %>: _ ʼ ;
 
+"d to t after non-nasal glottal"
+д:т <=> ˮ: %>: _ ;
+
 "ʼ:0"
 ʼ:0 <=> м:  _ %>: [ Ы1: | ʼ | м ( ʼ ) | н: ʼ | х: ( А1: ) | р: | в: | д ] ;
+
+"ˮ:0"
+ˮ:0 <=> _ %>: д: ;
 
 "х -> г after nasal glottal"
 х:г <=> м  ʼ: %>: _ ( А1: ) ;
@@ -150,7 +156,7 @@ Rules
 в:0 <=> м ʼ: %>: _ #: ;
 
 "m loss before Labial followed by nonglottal cons or vow "
-м:0 <=> _ ʼ: %>: [ м [ и | н | д ] | в а ] ;
+м:0 <=> _ ʼ: %>: [ м [ а | и | н | д ] | в а ] ;
 
 "Н1:0 GlottalNasalToSurface"
 Cx:0 <=> _ %>: [ м | ʼ ] ;
