@@ -257,7 +257,7 @@ LEXICON N-jam
 +N:в PLTRASUF ;
 
 +N:мʼ POSSESSOR-INDICES ;
-+N+Nom: NOMINAL-CONJUGATION ;
++N+Nom:мʼ NOMINAL-CONJUGATION ;
 
 
 LEXICON N-паны
@@ -424,25 +424,29 @@ LEXICON PLNOMSUF
 
 LEXICON PLACCSUF
 +Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
++Pl+Acc:%>Ы1 PL-ACC_POSSESSA ;
 
 LEXICON PLACCSUF_Zero
 ! This has zero ending
 +Pl+Acc: K ;
++Pl+Acc: PL-ACC_POSSESSA ;
 
 LEXICON PLACCSUF_I
 +Pl+Acc:%>и  K ; !Stem final е а я may change to и.
++Pl+Acc:%>и PL-ACC_POSSESSA ;
 
 !LEXICON PLACCSUF_AO
 !+Pl+Acc:  K ; ! The rule "a:o in я" This will be pointed to PLACCSUF_Zero
 
 LEXICON PLGENSUF
-+Pl+Gen:%>Ы1ˮ K ; 
++Pl+Gen:%>Ы1ˮ PL-GEN_POSSESSA ; 
 
 LEXICON PLGENSUF_Glot
++Pl+Gen:%>ˮ PL-GEN_POSSESSA ; 
 +Pl+Gen:%>ˮ K ; 
 
 LEXICON PLGENSUF_I
-+Pl+Acc:%>и  K ; !Stem final е а я may change to и.
++Pl+Gen:%>и  K ; !Stem final е а я may change to и.
 
 !LEXICON PLGENSUF_AO
 !+Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
@@ -459,6 +463,7 @@ LEXICON PLABLSUF
 LEXICON PLPROSSUF
 !+Pl+Pros:%>Ы1ˮмана K ;
 +Pl+Pros:%>ˮмана K ;
++Pl+Pros:%>ˮмана PL-PROS_POSSESSA ;
 +Pl+Pros:%>ˮмна K ; !явоˮмна
 
 LEXICON  PLTRASUF
@@ -630,6 +635,7 @@ LEXICON POSSESSA-PL-NOMACCGEN
 +Pl+Nom+PxPl2:%>даˮ K ;
 +Pl+Nom+PxPl3:%>доʼ K ;
 
+LEXICON PL-ACC_POSSESSA
 +Pl+Acc+PxSg1:%>н   K ;
 +Pl+Acc+PxSg2:%>д   K ;
 +Pl+Acc+PxSg3:%>да  K ;
@@ -640,16 +646,31 @@ LEXICON POSSESSA-PL-NOMACCGEN
 +Pl+Acc+PxPl2:%>даˮ K ;
 +Pl+Acc+PxPl3:%>доʼ K ;
 
-+Pl+Gen+PxSg1:%>ˮн   K ; ! Check 2013-01-09 %>н
-+Pl+Gen+PxSg1:%>ˮни  K ; ! Check 2013-01-09 %>н
-+Pl+Gen+PxSg2:%>т    K ; ! _*_ˮд : т_
-+Pl+Gen+PxSg3:%>та   K ; ! _*_ˮд : т_
-+Pl+Gen+PxDu1:%>ˮниʼ K ;! Check 2013-01-09 %>ниʼ
-+Pl+Gen+PxDu2:%>тиʼ  K ;! _*_ˮд : т_
-+Pl+Gen+PxDu3:%>тиʼ  K ; ! _*_ˮд : т_
-+Pl+Gen+PxPl1:%>ˮнаˮ K ; ! Check 2013-01-09 %>наˮ 
-+Pl+Gen+PxPl2:%>таˮ  K ; ! _*_ˮд : т_
-+Pl+Gen+PxPl3:%>тоʼ  K ; ! _*_ˮд : т_
+
+!!+Pl+Gen+PxSg1:%>ˮн   K ; ! Check 2013-01-09 %>н
+!!+Pl+Gen+PxSg1:%>ˮни  K ; ! Check 2013-01-09 %>н
+!!+Pl+Gen+PxSg2:%>т    K ; ! _*_ˮд : т_
+!!+Pl+Gen+PxSg3:%>та   K ; ! _*_ˮд : т_
+!!+Pl+Gen+PxDu1:%>ˮниʼ K ;! Check 2013-01-09 %>ниʼ
+!!+Pl+Gen+PxDu2:%>тиʼ  K ;! _*_ˮд : т_
+!!+Pl+Gen+PxDu3:%>тиʼ  K ; ! _*_ˮд : т_
+!!+Pl+Gen+PxPl1:%>ˮнаˮ K ; ! Check 2013-01-09 %>наˮ 
+!!+Pl+Gen+PxPl2:%>таˮ  K ; ! _*_ˮд : т_
+!!+Pl+Gen+PxPl3:%>тоʼ  K ; ! _*_ˮд : т_
+
+LEXICON PL-GEN_POSSESSA
+!word forms already have plural and genitive tags
++PxSg1:%>н   K ;
++PxSg2:%>д   K ;
++PxSg3:%>да  K ;
++PxDu1:%>ниʼ K ;
++PxDu2:%>диʼ K ;
++PxDu3:%>диʼ K ;
++PxPl1:%>наˮ K ;
++PxPl2:%>даˮ K ;
++PxPl3:%>доʼ K ;
+
+
 
 LEXICON POSSESSA-PL-OTHER
  POSSESSA-PL-ABL ;
@@ -700,6 +721,18 @@ LEXICON POSSESSA-PL-PROS
 +Pl+Pros+PxPl1:%>ˮмананаˮ K ;
 +Pl+Pros+PxPl2:%>ˮманатаˮ K ;
 +Pl+Pros+PxPl3:%>ˮманатоʼ K ;
+
+LEXICON PL-PROS_POSSESSA
+! -ˮмана 
++PxSg1:н   K ;
++PxSg2:т   K ;
++PxSg3:та  K ;
++PxDu1:ниʼ K ;
++PxDu2:тиʼ K ;
++PxDu3:тиʼ K ;
++PxPl1:наˮ K ;
++PxPl2:таˮ K ;
++PxPl3:тоʼ K ;
 
 
 
