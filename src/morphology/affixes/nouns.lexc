@@ -233,29 +233,30 @@ LEXICON N-D
 +N: POSSESSOR-INDICES ;
 
 LEXICON N-jam
-+N: SGNOMSUF ;
-+N: SGACCSUF ;
-+N: SGGENSUF ;
-+N:%> SGDATSUF ;
-+N:%> SGLOCSUF ;
-+N: SGABLSUF ;
-+N:%> SGPROSSUF ; ! Check this
-+N: SGTRASUF ;
+!ямʼ:я
++N:мʼ SGNOMSUF ;
++N:в SGACCSUF ;
++N:в SGGENSUF ;
++N:мʼ SGDATSUF ;
++N:мʼ SGLOCSUF ;
++N:мʼ SGABLSUF ;
++N:мʼ SGPROSSUF ; ! Check this
++N:м SGTRASUF ;
 
-+N: DUNOMSUF ;
-+N: DUACCSUF ;
++N:мʼ DUNOMSUF ;
++N:мʼ DUACCSUF ;
 +N: DUGENSUF ;
 
-+N: PLNOMSUF ;
-+N: PLACCSUF ;
-+N: PLGENSUF ;
-+N: PLDATSUF ;
-+N: PLLOCSUF ;
-+N: PLABLSUF ;
-+N: PLPROSSUF ;
-+N: PLTRASUF ;
++N:в PLNOMSUF ;
++N:во PLACCSUF_Zero ;
++N:во PLGENSUF_Glot ;
++N:мʼ PLDATSUF ;
++N:мʼ PLLOCSUF ;
++N:мʼ PLABLSUF ;
++N:во PLPROSSUF ;
++N:в PLTRASUF ;
 
-+N: POSSESSOR-INDICES ;
++N:мʼ POSSESSOR-INDICES ;
 +N+Nom: NOMINAL-CONJUGATION ;
 
 
@@ -390,16 +391,16 @@ LEXICON SGGENSUF
 +Sg+Gen:%>ʼ K ;
 
 LEXICON SGDATSUF
-+Sg+Dat:нʼ K ;
++Sg+Dat:%>нʼ K ;
 
 LEXICON SGLOCSUF
-+Sg+Loc:хА1на K ; !вэсакохона пэдарахана ӈамгэхэна
++Sg+Loc:%>хА1на K ; !вэсакохона пэдарахана ӈамгэхэна
 
 LEXICON SGABLSUF
 +Sg+Abl:%>хА1д K ; !вэсакоход пэдарахад ӈамгэхэд
 
 LEXICON SGPROSSUF
-+Sg+Pros:на K ; 
++Sg+Pros:%>мна K ; 
 
 LEXICON SGTRASUF 
 +Sg+Tra:%>ӈэ K ;
@@ -409,7 +410,7 @@ LEXICON DUNOMSUF
 !+Du+Nom:%>хА1ʼ K ;
 +Du+Nom:%>хʼ K ;
 
-LEXICON DUACCSUF 
+LEXICON DUACCSUF
 !+Du+Acc:%>хА1ʼ K ;
 +Du+Acc:%>хʼ K ;
 
@@ -450,7 +451,7 @@ LEXICON PLDATSUF
 +Pl+Dat:%>хА1ˮ K ;
 
 LEXICON PLLOCSUF
-+Pl+Loc:хА1ˮна K ;
++Pl+Loc:%>хА1ˮна K ;
 
 LEXICON PLABLSUF
 +Pl+Abl:%>хА1т K ;
@@ -458,9 +459,10 @@ LEXICON PLABLSUF
 LEXICON PLPROSSUF
 !+Pl+Pros:%>Ы1ˮмана K ;
 +Pl+Pros:%>ˮмана K ;
++Pl+Pros:%>ˮмна K ; !явоˮмна
 
 LEXICON  PLTRASUF
-+Pl+Tra:%>Ы1ˮмана K ;
++Pl+Tra:%>ˮӈэ K ;
 
 !! Possessor Indices
 LEXICON POSSESSOR-INDICES
