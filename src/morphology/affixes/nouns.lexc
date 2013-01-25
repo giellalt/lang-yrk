@@ -427,25 +427,25 @@ LEXICON PLNOMSUF
 
 LEXICON PLACCSUF
 +Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
-+Pl+Acc:%>Ы1 PL-ACC_POSSESSA ;
++Pl+Acc:%>Ы1 PL-ACCGEN_POSSESSA ;
 
 LEXICON PLACCSUF_Zero
 ! This has zero ending
 +Pl+Acc: K ;
-+Pl+Acc: PL-ACC_POSSESSA ;
++Pl+Acc: PL-ACCGEN_POSSESSA ;
 
 LEXICON PLACCSUF_I
 +Pl+Acc:%>и  K ; !Stem final е а я may change to и.
-+Pl+Acc:%>и PL-ACC_POSSESSA ;
++Pl+Acc:%>и PL-ACCGEN_POSSESSA ;
 
 !LEXICON PLACCSUF_AO
 !+Pl+Acc:  K ; ! The rule "a:o in я" This will be pointed to PLACCSUF_Zero
 
 LEXICON PLGENSUF
-+Pl+Gen:%>Ы1ˮ PL-GEN_POSSESSA ; 
++Pl+Gen:%>Ы1ˮ PL-ACCGEN_POSSESSA ; 
 
 LEXICON PLGENSUF_Glot
-+Pl+Gen:%>ˮ PL-GEN_POSSESSA ; 
++Pl+Gen:%>ˮ PL-ACCGEN_POSSESSA ; 
 +Pl+Gen:%>ˮ K ; 
 
 LEXICON PLGENSUF_I
@@ -638,18 +638,6 @@ LEXICON POSSESSA-PL-NOMACCGEN
 +Pl+Nom+PxPl2:%>даˮ K ;
 +Pl+Nom+PxPl3:%>доʼ K ;
 
-LEXICON PL-ACC_POSSESSA
-+Pl+Acc+PxSg1:%>н   K ;
-+Pl+Acc+PxSg2:%>д   K ;
-+Pl+Acc+PxSg3:%>да  K ;
-+Pl+Acc+PxDu1:%>ниʼ K ;
-+Pl+Acc+PxDu2:%>диʼ K ;
-+Pl+Acc+PxDu3:%>диʼ K ;
-+Pl+Acc+PxPl1:%>наˮ K ;
-+Pl+Acc+PxPl2:%>даˮ K ;
-+Pl+Acc+PxPl3:%>доʼ K ;
-
-
 !!+Pl+Gen+PxSg1:%>ˮн   K ; ! Check 2013-01-09 %>н
 !!+Pl+Gen+PxSg1:%>ˮни  K ; ! Check 2013-01-09 %>н
 !!+Pl+Gen+PxSg2:%>т    K ; ! _*_ˮд : т_
@@ -661,8 +649,8 @@ LEXICON PL-ACC_POSSESSA
 !!+Pl+Gen+PxPl2:%>таˮ  K ; ! _*_ˮд : т_
 !!+Pl+Gen+PxPl3:%>тоʼ  K ; ! _*_ˮд : т_
 
-LEXICON PL-GEN_POSSESSA
-!word forms already have plural and genitive tags
+
+LEXICON PL-ACCGEN_POSSESSA
 +PxSg1:%>н   K ;
 +PxSg2:%>д   K ;
 +PxSg3:%>да  K ;
