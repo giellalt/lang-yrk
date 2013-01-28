@@ -22,11 +22,11 @@ Alphabet
 
 
 ! Archiphonemes for glottals
- Н1:ʼ
- Н1:н
+! Н1:ʼ
+! Н1:н
  Н1:0
- Ӈ1:ʼ
- Ӈ1:ӈ
+! Ӈ1:ʼ
+! Ӈ1:ӈ
  Ӈ1:0
  Д1:ˮ
  Д1:д
@@ -89,7 +89,7 @@ Rules
 у:ю <=> й: %>: _ ;
 
 "А1 -> а"
-А1:а <=> [[ м  ʼ: | а | я | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
+А1:а <=> [[ Ӈ1: |  ʼ: | а | я | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
 
 "А1 -> о"
 А1:о <=> [ о | ё ]  %> х _ ;
@@ -102,10 +102,10 @@ Rules
 ы:э <=> _ %>: х э  ;
 
 "Ы1:о"
-Ы1:о <=> LBV [ CnsNotGlots | Glots ] %>: _ ;
+Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %>: _ ;
 
 "Ы1:е"
-Ы1:е <=> LFV [ CnsNotGlots | Glots]  %>: _ ; 
+Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %>: _ ; 
 
 "a:o in я"
 я:ё <=> _ %^AO:0 ;
@@ -115,14 +115,20 @@ Rules
 "mToV" ! perhaps there should be a VtoM rule2013-01-23
 м:в <=> _ ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
 
+"v To m "
+в:м <=> [ м: ʼ: | Ӈ1: ] %>: _ ;
+
 "r To l after nasal glottal"
-р:л <=> ʼ: %>: _ ;
+р:л <=> [ ʼ: | Ӈ1: ] %>: _ ;
 
 "nTod"
-н:д <=> м  ʼ: %>: _ ʼ ;
+н:д <=>  [ Ӈ1: | ʼ: ] %>: _ ʼ ;
 
 "d to t after non-nasal glottal"
 д:т <=> ˮ: %>: _ ;
+
+"с => з after nasal"
+с:з <=> [ м | н | Ӈ1: | ʼ: ] %>: _ ;
 
 "ʼ:0"
 ʼ:0 <=> м:  _ %>: [ Ы1: | ʼ | м ( ʼ ) | н: ( ʼ ) | ˮ: | х: ( А1: ) | р: | в: | д | ц ь | с: ь ] ;
@@ -131,7 +137,7 @@ Rules
 ˮ:0 <=> _ %>: д: ;
 
 "х -> г after nasal glottal"
-х:г <=> м  ʼ: %>: _ ( А1: ) ;
+х:г <=> [ ʼ: | Ӈ1: ] %>: _ ( А1: ) ;
 
 "х to к after non-nasal glottal"
 х:к <=> [ Д1: | С1: ] %>: _  ;
@@ -148,19 +154,23 @@ Rules
 Н1:н <=> _ %>: Ы1: ;
 
 "Ӈ1:ӈ GlottalNasalToSurface"
-Ӈ1:ӈ <=> _ %>: Ы1: ;
+Ӈ1:ӈ <=> _ %>: [ Ы1: | х: | о] ;
+
+"Ӈ1:н GlottalNasalToSurface"
+Ӈ1:н <=> _ %>: [ с: | н:д | д | ц: ] ;
+
 
 !! LOSS
 
-"v loss after m Nasal glottal"
-в:0 <=> м ʼ: %>: _ #: ;
+!"v loss after m Nasal glottal"
+!в:0 <=> м ʼ: %>: _ #: ;
 
 "m loss before Labial followed by nonglottal cons or vow "
-м:0 <=> _ ʼ: %>: [ м [ а | и | н | д ] | в а ] ;
+м:0 <=> _ ʼ: %>: [ м [ а | и | н | д ] | в: ] ;
 
-"Н1:0 GlottalNasalToSurface"
-Cx:0 <=> _ %>: [ м | ʼ ] ;
-       where Cx in (Н1 Ӈ1) ;
+!"Н1:0 GlottalNasalToSurface"
+!Cx:0 <=> _ %>: [ м | ʼ ] ;
+!       where Cx in (Н1 Ӈ1) ;
 
 "Д1:0 GlottalNonNasalToZERO"
 Д1:0 <=> _ %>:  х:  ;
