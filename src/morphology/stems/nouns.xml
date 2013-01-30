@@ -30,8 +30,6 @@
         <t>karsina</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -60,8 +58,6 @@
         <t>ääni, puhe</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -90,8 +86,6 @@
         <t>sana, puhe, kieli</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -120,8 +114,6 @@
         <t>loppu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -172,8 +164,6 @@
         <t>hymy</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -228,6 +218,28 @@
 
   <e>
     <lg>
+      <l>варе</l>
+
+      <stg>
+        <st Contlex="N_САВНЕ">варе</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">ponnistus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>варк</l>
 
       <stg>
@@ -252,8 +264,6 @@
         <t>karhu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -282,8 +292,6 @@
         <t>varis</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -334,8 +342,6 @@
         <t>tundra</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -408,8 +414,6 @@
         <t>koira</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -462,8 +466,6 @@
         <t>äijä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -514,8 +516,6 @@
         <t>mänty</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -544,8 +544,6 @@
         <t>kehto</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -574,8 +572,72 @@
         <t>pata, kattila</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ембдярˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ембдяр</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">vaate</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>енабтˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАДО">енабтД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">usko, toivo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>енабцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">енабцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">toivo</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -604,8 +666,6 @@
         <t>virta</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -658,8 +718,50 @@
         <t>loukku</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>есерˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">есер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">uudin, purje</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>еся</l>
+
+      <stg>
+        <st Contlex="N_ЕСЯ">еся</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">rauta, metalli</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -688,8 +790,6 @@
         <t>merkitys</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -718,8 +818,6 @@
         <t>vesi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -820,8 +918,6 @@
         <t>elämä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -850,8 +946,28 @@
         <t>villiporo</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>илнабцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">илнабцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">nostolaite</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -880,8 +996,6 @@
         <t>paita</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -938,8 +1052,6 @@
         <t>hihna, vyö</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -990,8 +1102,6 @@
         <t>kuu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1042,8 +1152,6 @@
         <t>luokka</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1094,8 +1202,6 @@
         <t>huone</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1124,8 +1230,6 @@
         <t>airo</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1220,8 +1324,28 @@
         <t>pöytä</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>лив</l>
+
+      <stg>
+        <st Contlex="N_Cons">лив</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">pehmeä lumi syksyllä</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -1250,8 +1374,6 @@
         <t>kotka</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1324,8 +1446,6 @@
         <t>venäläinen</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1354,8 +1474,6 @@
         <t>luu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1406,8 +1524,6 @@
         <t>ahven</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1428,6 +1544,50 @@
 
       <tg lang="fin">
         <t pos="N">hämähäkki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>мад</l>
+
+      <stg>
+        <st Contlex="N_Cons">мад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">ylitys, ylikulku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>мад</l>
+
+      <stg>
+        <st Contlex="N_Cons">мад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">haukunta</t>
       </tg>
     </mg>
   </e>
@@ -1512,8 +1672,6 @@
         <t>työläinen</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1608,8 +1766,6 @@
         <t>kaupunki</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1696,6 +1852,28 @@
 
       <tg lang="fin">
         <t pos="N">pesuhuone, pesulaite</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>матка</l>
+
+      <stg>
+        <st Contlex="N_Vow">матка</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kompassi</t>
       </tg>
     </mg>
   </e>
@@ -1858,8 +2036,6 @@
         <t>havu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1962,8 +2138,6 @@
         <t>ruoka</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1992,8 +2166,6 @@
         <t>vatsa, täysimaha</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2066,8 +2238,6 @@
         <t>kerta</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2096,8 +2266,6 @@
         <t>tapa</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2148,6 +2316,72 @@
 
       <tg lang="fin">
         <t pos="N">teltan paikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>набако</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">набако</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">koivun pahka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>надамʼ</l>
+
+      <stg>
+        <st Contlex="N_ЯМ">нада</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">räkä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>надо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">надо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kyty, lanko</t>
       </tg>
     </mg>
   </e>
@@ -2222,8 +2456,6 @@
         <t>nainen</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2252,6 +2484,160 @@
 
   <e>
     <lg>
+      <l>недарма</l>
+
+      <stg>
+        <st Contlex="N_Vow">недарма</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">leveä tie</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>недбя</l>
+
+      <stg>
+        <st Contlex="N_Vow">недбя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">ansio, palkka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>недватана</l>
+
+      <stg>
+        <st Contlex="N_Vow">недватана</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">muonamies</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>нека</l>
+
+      <stg>
+        <st Contlex="N_Vow">нека</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">vanhempi veli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>нелак</l>
+
+      <stg>
+        <st Contlex="N_Cons">нелак</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">pohje</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>нелева</l>
+
+      <stg>
+        <st Contlex="N_Vow">нелева</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">avioliitto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>нелтабцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">нелтабцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">höylä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>нема</l>
 
       <stg>
@@ -2276,8 +2662,6 @@
         <t>uni</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2306,8 +2690,6 @@
         <t>nenetsi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2336,8 +2718,6 @@
         <t>nenetsi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2410,8 +2790,6 @@
         <t>vyö</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2462,8 +2840,6 @@
         <t>isä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2492,8 +2868,6 @@
         <t>naali</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2522,8 +2896,6 @@
         <t>taivas</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2552,8 +2924,6 @@
         <t>tähti</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2582,8 +2952,6 @@
         <t>poika</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2612,8 +2980,28 @@
         <t>nimi</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>нюрцямʼ</l>
+
+      <stg>
+        <st Contlex="N_БЕ">нюрцямʼ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">nautinto, riemu</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -2644,8 +3032,6 @@
         <t>toveri</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2674,8 +3060,6 @@
         <t>suu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2726,8 +3110,6 @@
         <t>jänis</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2756,8 +3138,6 @@
         <t>jäkälä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2786,8 +3166,6 @@
         <t>norppa</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2816,8 +3194,6 @@
         <t>vanhempi veli</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2846,8 +3222,6 @@
         <t>sarvi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2876,8 +3250,6 @@
         <t>kieli</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2906,8 +3278,6 @@
         <t>terä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2936,8 +3306,6 @@
         <t>leipä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2966,8 +3334,28 @@
         <t>vaski</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>нярцо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">нярцо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">islanninjäkälä, tietty vedenalainen kasvi</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -2996,8 +3384,6 @@
         <t>savi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3026,8 +3412,6 @@
         <t>ovi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3048,6 +3432,72 @@
 
       <tg lang="fin">
         <t pos="N">made</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>павэ</l>
+
+      <stg>
+        <st Contlex="N_ЯКЭ">павэ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">takaraivo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>павэй</l>
+
+      <stg>
+        <st Contlex="N_Cons">павэй</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">takaraivo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>пад</l>
+
+      <stg>
+        <st Contlex="N_Cons">пад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">säkki</t>
       </tg>
     </mg>
   </e>
@@ -3086,6 +3536,28 @@
 
   <e>
     <lg>
+      <l>паднабцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">паднабцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kirjoitusväline, kynä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>пады</l>
 
       <stg>
@@ -3102,6 +3574,116 @@
 
       <tg lang="fin">
         <t pos="N">pussi naisten jalkineita varten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>падя</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">падя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">sappi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>пала</l>
+
+      <stg>
+        <st Contlex="N_Vow">пала</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">suoli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>палуторма</l>
+
+      <stg>
+        <st Contlex="N_Vow">палуторма</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">tyhjänpuhuminen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>палы</l>
+
+      <stg>
+        <st Contlex="N_ӇЭСЫ">палы</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">miekka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>палытана</l>
+
+      <stg>
+        <st Contlex="N_Vow">палытана</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">miliisi, poliisi</t>
       </tg>
     </mg>
   </e>
@@ -3134,8 +3716,28 @@
         <t>täi</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>пану</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">пану</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">reunus</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3164,8 +3766,28 @@
         <t>vaate</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>папа</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">папа</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">nuorempi sisko tai veli</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3186,6 +3808,28 @@
 
       <tg lang="fin">
         <t pos="N">parka, poronnahkapuku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>паӈглярˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">паӈгляр</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">palmikko</t>
       </tg>
     </mg>
   </e>
@@ -3216,8 +3860,6 @@
         <t>kämmen</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3238,6 +3880,50 @@
 
       <tg lang="fin">
         <t pos="N">puoli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>пензо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">пензо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">liito-orava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>пеӈгабцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">пеӈгабцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">rummun kurikka</t>
       </tg>
     </mg>
   </e>
@@ -3290,8 +3976,6 @@
         <t>alahuuli</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3320,8 +4004,6 @@
         <t>saapas</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3350,8 +4032,6 @@
         <t>pesä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3372,6 +4052,28 @@
 
       <tg lang="fin">
         <t pos="N">paarma</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>пирибтя</l>
+
+      <stg>
+        <st Contlex="N_Vow">пирибтя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">tyttö</t>
       </tg>
     </mg>
   </e>
@@ -3424,8 +4126,28 @@
         <t>hiiri</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>пичка</l>
+
+      <stg>
+        <st Contlex="N_Vow">пичка</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">tulitikku</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3454,8 +4176,6 @@
         <t>vuosi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3498,6 +4218,28 @@
 
       <tg lang="fin">
         <t pos="N">purje</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>пудё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">пудё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">tihkusade</t>
       </tg>
     </mg>
   </e>
@@ -3548,6 +4290,28 @@
 
   <e>
     <lg>
+      <l>пунзо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">пунзо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">poron polvirasva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>пуно</l>
 
       <stg>
@@ -3564,6 +4328,28 @@
 
       <tg lang="fin">
         <t pos="N">sammalkasvi jota käytetään rakennuksissa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>пурцо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">пурцо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">aortta</t>
       </tg>
     </mg>
   </e>
@@ -3616,8 +4402,28 @@
         <t>akka</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>пыдё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">пыдё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">tihkusade</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3694,8 +4500,28 @@
         <t>nina</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>пыӈга</l>
+
+      <stg>
+        <st Contlex="N_Vow">пыӈга</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">keinu</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3726,8 +4552,28 @@
         <t>kallio</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>пэв</l>
+
+      <stg>
+        <st Contlex="N_Cons">пэв</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">pimeys</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3778,8 +4624,6 @@
         <t>metsä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3808,8 +4652,6 @@
         <t>puu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3830,6 +4672,28 @@
 
       <tg lang="fin">
         <t pos="N">viini, nuolikotelo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сабць</l>
+
+      <stg>
+        <st Contlex="N_САБЦЬ">сабць</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">sylki</t>
       </tg>
     </mg>
   </e>
@@ -3860,8 +4724,72 @@
         <t>huppu</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>савне</l>
+
+      <stg>
+        <st Contlex="N_САВНЕ">савне</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">harakka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сад</l>
+
+      <stg>
+        <st Contlex="N_Cons">сад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">puutarha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сада</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">сада</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">rapakko, lammikko</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3890,8 +4818,6 @@
         <t>jää</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -3920,8 +4846,6 @@
         <t>niemi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4008,8 +4932,6 @@
         <t>polku</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4038,8 +4960,28 @@
         <t>sade</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>сеˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАДО">сеД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">pihka</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -4188,6 +5130,28 @@
 
   <e>
     <lg>
+      <l>серебя</l>
+
+      <stg>
+        <st Contlex="N_Vow">серебя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">arpa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>сесарё</l>
 
       <stg>
@@ -4204,6 +5168,28 @@
 
       <tg lang="fin">
         <t pos="N">kahina, rapina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сесо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">сесо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kahina</t>
       </tg>
     </mg>
   </e>
@@ -4286,8 +5272,6 @@
         <t>reikä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4316,8 +5300,50 @@
         <t>paha enne</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>сиˮив</l>
+
+      <stg>
+        <st Contlex="N_Cons">сиˮив</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">viikko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сибя</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">сибя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">pöly</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -4346,8 +5372,6 @@
         <t>lapio</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4374,6 +5398,50 @@
 
   <e>
     <lg>
+      <l>синю</l>
+
+      <stg>
+        <st Contlex="N_Vow">синю</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">lantio</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>синё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">синё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">utu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>сисьʼ</l>
 
       <stg>
@@ -4390,6 +5458,28 @@
 
       <tg lang="fin">
         <t pos="N">haka, nappi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сисё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">сисё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">vaahto</t>
       </tg>
     </mg>
   </e>
@@ -4440,6 +5530,28 @@
 
   <e>
     <lg>
+      <l>суик</l>
+
+      <stg>
+        <st Contlex="N_Cons">суик</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">munuainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>сую</l>
 
       <stg>
@@ -4464,8 +5576,6 @@
         <t>vasikka</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4598,6 +5708,28 @@
 
   <e>
     <lg>
+      <l>сэрˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">сэр</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">jää, suola</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>сэрабтˮ</l>
 
       <stg>
@@ -4644,8 +5776,28 @@
         <t>napa</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>сюдбя</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">сюдбя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">jättiläinen</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -4696,8 +5848,6 @@
         <t>kasvot</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4790,6 +5940,28 @@
 
   <e>
     <lg>
+      <l>сянако</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">сянако</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">leikki, leikkikalu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>сярка</l>
 
       <stg>
@@ -4812,6 +5984,50 @@
 
       <tg lang="fin">
         <t>viina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сё</l>
+
+      <stg>
+        <st Contlex="N_СЁ">сё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kurkku, laulu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>сёбя</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">сёбя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">huppu</t>
       </tg>
     </mg>
   </e>
@@ -4842,8 +6058,6 @@
         <t>sisu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4872,8 +6086,6 @@
         <t>kesä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4902,8 +6114,6 @@
         <t>lisuke</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -4946,6 +6156,50 @@
 
       <tg lang="fin">
         <t pos="N">ruoanpala hampaiden välissä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>талв</l>
+
+      <stg>
+        <st Contlex="N_Cons">талв</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">keskiyö</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тальбя</l>
+
+      <stg>
+        <st Contlex="N_Vow">тальбя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kallio</t>
       </tg>
     </mg>
   </e>
@@ -5012,6 +6266,50 @@
 
       <tg lang="fin">
         <t pos="N">orava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тато</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">тато</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kipinä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тебт</l>
+
+      <stg>
+        <st Contlex="N_Cons">тебт</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">mahla</t>
       </tg>
     </mg>
   </e>
@@ -5096,8 +6394,6 @@
         <t>hammas</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5146,6 +6442,28 @@
 
   <e>
     <lg>
+      <l>тидя</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">тидя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">setä, äidin nuorempi veli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>тин</l>
 
       <stg>
@@ -5184,6 +6502,50 @@
 
       <tg lang="fin">
         <t pos="N">pilvi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тирˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">тир</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">pinta, korkeampi paikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тиребя</l>
+
+      <stg>
+        <st Contlex="N_Vow">тиребя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kutu, mäti</t>
       </tg>
     </mg>
   </e>
@@ -5280,8 +6642,6 @@
         <t>huopa</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5302,6 +6662,72 @@
 
       <tg lang="fin">
         <t pos="N">kavio</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тобцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">тобцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">tuloaika, tulopaikka, tulosyy</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тобъёва</l>
+
+      <stg>
+        <st Contlex="N_Vow">тобъёва</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">peitattu nahka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>тод</l>
+
+      <stg>
+        <st Contlex="N_Cons">тод</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">oksennus</t>
       </tg>
     </mg>
   </e>
@@ -5332,8 +6758,6 @@
         <t>nuotio</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5486,8 +6910,6 @@
         <t>oppilas</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5516,8 +6938,6 @@
         <t>opettaja</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5550,8 +6970,6 @@
         <t>tuli</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5580,8 +6998,28 @@
         <t>kirves</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>тубкабцо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">тубкабцо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">tikka</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -5676,8 +7114,6 @@
         <t>poro</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5750,8 +7186,28 @@
         <t>suopunki</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>тыра</l>
+
+      <stg>
+        <st Contlex="N_Vow">тыра</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">nyrkki</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -5802,8 +7258,6 @@
         <t>jänne</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5832,8 +7286,6 @@
         <t>häntä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5884,8 +7336,6 @@
         <t>kauppa</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5938,8 +7388,6 @@
         <t>riepu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5968,8 +7416,6 @@
         <t>merkkipylväs</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -5998,8 +7444,6 @@
         <t>sammakko</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6028,8 +7472,6 @@
         <t>kettu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6058,8 +7500,94 @@
         <t>korva</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>хаˮмаре</l>
+
+      <stg>
+        <st Contlex="N_САВНЕ">хаˮмаре</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">huuhkaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хабарта</l>
+
+      <stg>
+        <st Contlex="N_Vow">хабарта</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">hirvi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хабдё</l>
+
+      <stg>
+        <st Contlex="N-Vow">хабдё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">uimarakko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хаберˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">хабер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">vartalo</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -6132,8 +7660,6 @@
         <t>sairaus</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6162,8 +7688,28 @@
         <t>riekko</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>хабя</l>
+
+      <stg>
+        <st Contlex="N_Vow">хабя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">hyöty</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -6192,8 +7738,6 @@
         <t>myrsky</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6222,8 +7766,6 @@
         <t>kynsi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6252,8 +7794,6 @@
         <t>isoäiti; vanhempi naispuolinen sukulainen</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6282,8 +7822,6 @@
         <t>kuusi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6312,8 +7850,6 @@
         <t>aurinko</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6408,8 +7944,6 @@
         <t>kala</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6512,8 +8046,6 @@
         <t>roska</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6566,8 +8098,6 @@
         <t>ahkio</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6588,6 +8118,28 @@
 
       <tg lang="fin">
         <t pos="N">haukka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ханебцо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">ханебцо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">metsästyskeino, pöllö</t>
       </tg>
     </mg>
   </e>
@@ -6640,8 +8192,72 @@
         <t>jalas</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ханырˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ханыр</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">työn alku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ханьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">ханьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kuura</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ханьзяре</l>
+
+      <stg>
+        <st Contlex="N_САВНЕ">ханьзяре</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">vanne</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -6670,8 +8286,6 @@
         <t>veitsi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6756,8 +8370,6 @@
         <t>kylä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6852,8 +8464,6 @@
         <t>mies</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6882,8 +8492,6 @@
         <t>puuro</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -6956,8 +8564,28 @@
         <t>koivu</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>хоˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАДО">хоД1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">yskä</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -6986,8 +8614,28 @@
         <t>turkki; kuori</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>хобцо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНО">хобцо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">helposti löydettävä, arvoitus</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -7040,8 +8688,6 @@
         <t>mäki</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7106,6 +8752,28 @@
 
       <tg lang="fin">
         <t pos="N">kurkku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хорова</l>
+
+      <stg>
+        <st Contlex="N_Vow">хорова</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">lehmä</t>
       </tg>
     </mg>
   </e>
@@ -7246,8 +8914,6 @@
         <t>taikina</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7268,6 +8934,50 @@
 
       <tg lang="fin">
         <t pos="N">jyske</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хутька</l>
+
+      <stg>
+        <st Contlex="N_Vow">хутька</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">käpy</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хыврё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">хыврё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">vikinä, vingahdus</t>
       </tg>
     </mg>
   </e>
@@ -7298,8 +9008,6 @@
         <t>kuppi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7460,8 +9168,6 @@
         <t>idoli</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7490,8 +9196,6 @@
         <t>koulu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7520,8 +9224,6 @@
         <t>solmu</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7686,6 +9388,28 @@
 
   <e>
     <lg>
+      <l>ютерˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ютер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">leikattu pala, möhkäle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>я</l>
 
       <stg>
@@ -7798,8 +9522,6 @@
         <t>omena</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7828,8 +9550,6 @@
         <t>hanhi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7858,8 +9578,6 @@
         <t>lämpö</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7888,8 +9606,6 @@
         <t>simpukankuori</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -7962,8 +9678,6 @@
         <t>kuumuus, lämpö</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8014,8 +9728,6 @@
         <t>päivä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8118,8 +9830,6 @@
         <t>joki</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8236,8 +9946,6 @@
         <t>aika</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8376,8 +10084,6 @@
         <t>haju</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8406,8 +10112,6 @@
         <t>myrkky</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8436,8 +10140,50 @@
         <t>tapa</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ӈавар</l>
+
+      <stg>
+        <st Contlex="N_Cons">ӈавар</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">ruoka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈавка</l>
+
+      <stg>
+        <st Contlex="N_Vow">ӈавка</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kesyporo</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -8466,8 +10212,6 @@
         <t>maku</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8496,8 +10240,50 @@
         <t>ruoka</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ӈадьбябцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">ӈадьбябцьӇ1</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kauneus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈай</l>
+
+      <stg>
+        <st Contlex="N_Cons">ӈай</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">suojasää</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -8526,8 +10312,6 @@
         <t>ruoho</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8556,8 +10340,6 @@
         <t>liha</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8586,8 +10368,6 @@
         <t>vene</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8616,8 +10396,28 @@
         <t>partahylje</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ӈатебя</l>
+
+      <stg>
+        <st Contlex="N_ИБЯ">ӈатебя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">velka</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -8668,8 +10468,28 @@
         <t>lapsi</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ӈо</l>
+
+      <stg>
+        <st Contlex="N_Vow">ӈо</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">saari</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -8732,6 +10552,50 @@
 
   <e>
     <lg>
+      <l>ӈокад</l>
+
+      <stg>
+        <st Contlex="N_Cons">ӈокад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">määrä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈолепя</l>
+
+      <stg>
+        <st Contlex="N_Vow">ӈолепя</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">väri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>ӈохоʼ</l>
 
       <stg>
@@ -8778,8 +10642,6 @@
         <t>jälki</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8808,8 +10670,6 @@
         <t>käsi</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8840,8 +10700,6 @@
         <t>heinä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8870,8 +10728,50 @@
         <t>ylähuuli</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ӈылад</l>
+
+      <stg>
+        <st Contlex="N_Cons">ӈылад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">pohja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈылека</l>
+
+      <stg>
+        <st Contlex="N_Vow">ӈылека</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">piru; myyttinen olento</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -8892,6 +10792,28 @@
 
       <tg lang="fin">
         <t pos="N">jousi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈэ</l>
+
+      <stg>
+        <st Contlex="N_Vow">ӈэ</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">jalka</t>
       </tg>
     </mg>
   </e>
@@ -8942,6 +10864,28 @@
 
   <e>
     <lg>
+      <l>ӈэв</l>
+
+      <stg>
+        <st Contlex="N_Cons">ӈэв</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kosija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l>ӈэва</l>
 
       <stg>
@@ -8966,8 +10910,6 @@
         <t>pää</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -8996,8 +10938,6 @@
         <t>aivot</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -9026,8 +10966,6 @@
         <t/>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -9078,8 +11016,6 @@
         <t>pohjoinen</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -9108,8 +11044,6 @@
         <t>syksy</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -9138,8 +11072,6 @@
         <t>nivel</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -9190,7 +11122,49 @@
         <t>säkki</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l>ӈэхэлма</l>
+
+      <stg>
+        <st Contlex="N_Vow">ӈэхелма</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">kulaus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>ӈэялˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ӈэял</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="fin">
+        <t pos="N">auer</t>
+      </tg>
+    </mg>
   </e>
 </r>
