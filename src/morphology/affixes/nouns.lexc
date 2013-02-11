@@ -32,26 +32,33 @@ LEXICON NMN_Vow
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-LEXICON N_ЕСЯ
+LEXICON N_ЕСЯ !!= @CODE@ 
 +N: NMN_Vow ;
 
-LEXICON	    N_БЕ
+LEXICON	    N_БЕ !!= @CODE@ 
 +N: NMN_Vow ;
 
-LEXICON	    N_САВНЕ
+LEXICON	    N_САВНЕ !!= @CODE@ 
 +N: NMN_Vow ;
 
-LEXICON	    N_СЁ
+LEXICON	    N_СЁ !!= @CODE@ 
 +N: NMN_Vow ;
 
-LEXICON	    N_ӇЭСЫ
+LEXICON	    N_ӇЭСЫ !!= @CODE@ ӈэсы:ӈэсы
 +N: NMN_Vow ;
 
-LEXICON	    N_ЯКЭ
+LEXICON	    N_ЯКЭ !!= @CODE@ якэ:якэ
 +N: NMN_Vow ;
 
-LEXICON	    N_САБЦЬ
+LEXICON	    N_ПЕНЗЕРЕ !!= @CODE@ пензерˮ:пензер
 +N: NMN_Vow ;
+
+LEXICON     N_ТАРЕ !!= @CODE@ тарˮ:тар
++N: NMN_Vow ;
+
+LEXICON	    N_САБЦЬ  !!= @CODE@ сабць:сабць
++N: NMN_Vow ;
+
 
 
 LEXICON N-xo
@@ -84,7 +91,7 @@ LEXICON N-xo_01
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-LEXICON N_ХАВО
+LEXICON N_ХАВО !!= @CODE@ 
 ! ха:ха
 +N: NMN_ХАВО ;
 
