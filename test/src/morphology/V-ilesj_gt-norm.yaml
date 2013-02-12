@@ -33,6 +33,42 @@ Tests:
      илесь+V+Ind+Prt1+ScPl1: илеваць
      илесь+V+Ind+Prt1+ScPl2: иледаць
      илесь+V+Ind+Prt1+ScPl3: илець
+     илесь+V+Hort+ScSg1: илехадмʼ
+     илесь+V+Impert+ScSg2: илеˮ
+     илесь+V+Opt+ScSg3: илея
+     илесь+V+Hort+ScDu1: илехэниʼ
+     илесь+V+Impert+ScDu2: иледиʼ
+     илесь+V+Opt+ScDu3: илеяхаʼ
+     илесь+V+Hort+ScPl1: илехэваˮ
+     илесь+V+Impert+ScPl2: иледаˮ
+     илесь+V+Opt+ScPl3: илеяˮ
+     илесь+V+Conj+Aor+ScSg1: илеидмʼ
+     илесь+V+Conj+Aor+ScSg2: илеин
+     илесь+V+Conj+Aor+ScSg3: илеи
+     илесь+V+Conj+Aor+ScDu1: илеиниʼ
+     илесь+V+Conj+Aor+ScDu2: илеидиʼ
+     илесь+V+Conj+Aor+ScDu3: илеихʼ
+     илесь+V+Conj+Aor+ScPl1: илеиваˮ
+     илесь+V+Conj+Aor+ScPl2: илеидаˮ
+     илесь+V+Conj+Aor+ScPl3: илеиˮ
+     илесь+V+Conj+Prt1+ScSg1: илеидамзь
+     илесь+V+Conj+Prt1+ScSg2: илеинась
+     илесь+V+Conj+Prt1+ScSg3: илеись
+     илесь+V+Conj+Prt1+ScDu1: илеининзь
+     илесь+V+Conj+Prt1+ScDu2: илеидинзь
+     илесь+V+Conj+Prt1+ScDu3: илеиханзь
+     илесь+V+Conj+Prt1+ScPl1: илеиваць
+     илесь+V+Conj+Prt1+ScPl2: илеидаць
+     илесь+V+Conj+Prt1+ScPl3: илеиць  
+     илесь+V+Mod/nec+ScSg1: илебцудмʼ
+     илесь+V+Mod/nec+ScSg2: илебцун
+     илесь+V+Mod/nec+ScSg3: илебцу
+     илесь+V+Mod/nec+ScDu1: илебцуниʼ
+     илесь+V+Mod/nec+ScDu2: илебцудиʼ
+     илесь+V+Mod/nec+ScDu3: илебцухаʼ
+     илесь+V+Mod/nec+ScPl1: илебцуваˮ
+     илесь+V+Mod/nec+ScPl2: илебцудаˮ
+     илесь+V+Mod/nec+ScPl3: илебцуˮ
      илесь+V+Mod/int+ScSg1: илесадмʼ
      илесь+V+Mod/int+ScSg2: илесан
      илесь+V+Mod/int+ScSg3: илеса
@@ -41,7 +77,61 @@ Tests:
      илесь+V+Mod/int+ScDu3: илесахаʼ
      илесь+V+Mod/int+ScPl1: илесаваˮ
      илесь+V+Mod/int+ScPl2: илесадаˮ
-     илесь+V+Mod/int+ScPl3: илесаˮ
+     илесь+V+Mod/int+ScPl3: илесаˮ     
+     илесь+V+Mod/narr+Aor+ScSg1: илевэдмʼ
+     илесь+V+Mod/narr+Aor+ScSg2: илевэн
+     илесь+V+Mod/narr+Aor+ScSg3: илевы
+     илесь+V+Mod/narr+Aor+ScDu1: илевэниʼ
+     илесь+V+Mod/narr+Aor+ScDu2: илевэдиʼ
+     илесь+V+Mod/narr+Aor+ScDu3: илевэхэʼ
+     илесь+V+Mod/narr+Aor+ScPl1: илевэваˮ
+     илесь+V+Mod/narr+Aor+ScPl2: илевэдаˮ
+     илесь+V+Mod/narr+Aor+ScPl3: илевыˮ
+     илесь+V+Mod/narr+Prt1+ScSg1: илевэдамзь
+     илесь+V+Mod/narr+Prt1+ScSg2: илевэнась
+     илесь+V+Mod/narr+Prt1+ScSg3: [илевысь, илевэсь]
+     илесь+V+Mod/narr+Prt1+ScDu1: иленинзь
+     илесь+V+Mod/narr+Prt1+ScDu2: илединзь
+     илесь+V+Mod/narr+Prt1+ScDu3: илевэханзь
+     илесь+V+Mod/narr+Prt1+ScPl1: илевэваць
+     илесь+V+Mod/narr+Prt1+ScPl2: илевэдаць
+     илесь+V+Mod/narr+Prt1+ScPl3: [илевыць, илевэць]
+     илесь+V+Mod/prob+Aor+ScSg1: иленакэдмʼ
+     илесь+V+Mod/prob+Aor+ScSg2: иленакэн
+     илесь+V+Mod/prob+Aor+ScSg3: иленакы
+     илесь+V+Mod/prob+Aor+ScDu1: иленакэниʼ
+     илесь+V+Mod/prob+Aor+ScDu2: иленакэдиʼ
+     илесь+V+Mod/prob+Aor+ScDu3: иленакэхэʼ
+     илесь+V+Mod/prob+Aor+ScPl1: иленакэваˮ
+     илесь+V+Mod/prob+Aor+ScPl2: иленакэдаˮ
+     илесь+V+Mod/prob+Aor+ScPl3: иленакыˮ
+     илесь+V+Mod/prob+Prt1+ScSg1: иленакэдамзь
+     илесь+V+Mod/prob+Prt1+ScSg2: иленакэнась
+     илесь+V+Mod/prob+Prt1+ScSg3: [иленакысь, иленакэсь]
+     илесь+V+Mod/prob+Prt1+ScDu1: иленакэнинзь
+     илесь+V+Mod/prob+Prt1+ScDu2: иленакэдинзь
+     илесь+V+Mod/prob+Prt1+ScDu3: иленакэханзь
+     илесь+V+Mod/prob+Prt1+ScPl1: иленакэваць
+     илесь+V+Mod/prob+Prt1+ScPl2: иленакэдаць
+     илесь+V+Mod/prob+Prt1+ScPl3: [иленакыць, иленакэць]
+     илесь+V+Mod/perfprob+ScSg1: илевэкэдмʼ
+     илесь+V+Mod/perfprob+ScSg2: илевэкэн
+     илесь+V+Mod/perfprob+ScSg3: илевэкы
+     илесь+V+Mod/perfprob+ScDu1: илевэкэниʼ
+     илесь+V+Mod/perfprob+ScDu2: илевэкэдиʼ
+     илесь+V+Mod/perfprob+ScDu3: илевэкэхэʼ
+     илесь+V+Mod/perfprob+ScPl1: илевэкэваˮ
+     илесь+V+Mod/perfprob+ScPl2: илевэкэдаˮ
+     илесь+V+Mod/perfprob+ScPl3: илевэкыˮ
+     илесь+V+Mod/obl+ScSg1: илебцакэдмʼ
+     илесь+V+Mod/obl+ScSg2: илебцакэн
+     илесь+V+Mod/obl+ScSg3: илебцакы
+     илесь+V+Mod/obl+ScDu1: илебцакэниʼ
+     илесь+V+Mod/obl+ScDu2: илебцакэдиʼ
+     илесь+V+Mod/obl+ScDu3: илебцакэхэʼ
+     илесь+V+Mod/obl+ScPl1: илебцакэваˮ
+     илесь+V+Mod/obl+ScPl2: илебцакэдаˮ
+     илесь+V+Mod/obl+ScPl3: илебцакыˮ
      илесь+V+Mod/appr+ScSg1: иленархадмʼ
      илесь+V+Mod/appr+ScSg2: иленархан
      илесь+V+Mod/appr+ScSg3: иленарха
@@ -51,6 +141,24 @@ Tests:
      илесь+V+Mod/appr+ScPl1: иленархаваˮ
      илесь+V+Mod/appr+ScPl2: иленархадаˮ
      илесь+V+Mod/appr+ScPl3: иленархаˮ
+     илесь+V+Mod/perfappr+ScSg1: илевэрхадмʼ
+     илесь+V+Mod/perfappr+ScSg2: илевэрхан
+     илесь+V+Mod/perfappr+ScSg3: илевэрха
+     илесь+V+Mod/perfappr+ScDu1: илевэрханиʼ
+     илесь+V+Mod/perfappr+ScDu2: илевэрхадиʼ
+     илесь+V+Mod/perfappr+ScDu3: илевэрхахаʼ
+     илесь+V+Mod/perfappr+ScPl1: илевэрхаваˮ
+     илесь+V+Mod/perfappr+ScPl2: илевэрхадаˮ
+     илесь+V+Mod/perfappr+ScPl3: илевэрхаˮ
+     илесь+V+Mod/futappr+ScSg1: илевндархадмʼ
+     илесь+V+Mod/futappr+ScSg2: илевндархан
+     илесь+V+Mod/futappr+ScSg3: илевндарха
+     илесь+V+Mod/futappr+ScDu1: илевндарханиʼ
+     илесь+V+Mod/futappr+ScDu2: илевндархадиʼ
+     илесь+V+Mod/futappr+ScDu3: илевндархахаʼ
+     илесь+V+Mod/futappr+ScPl1: илевндархаваˮ
+     илесь+V+Mod/futappr+ScPl2: илевндархадаˮ
+     илесь+V+Mod/futappr+ScPl3: илевндархаˮ
      илесь+V+Mod/sup+ScSg1: илеваӈгабядмʼ
      илесь+V+Mod/sup+ScSg2: илеваӈгабян
      илесь+V+Mod/sup+ScSg3: илеваӈгабя
@@ -60,6 +168,15 @@ Tests:
      илесь+V+Mod/sup+ScPl1: илеваӈгабяваˮ
      илесь+V+Mod/sup+ScPl2: илеваӈгабядаˮ
      илесь+V+Mod/sup+ScPl3: илеваӈгабяˮ
+     илесь+V+Mod/hyp+ScSg1: илерхавэдмʼ
+     илесь+V+Mod/hyp+ScSg2: илерхавэн
+     илесь+V+Mod/hyp+ScSg3: илерхавы
+     илесь+V+Mod/hyp+ScDu1: илерхавэниʼ
+     илесь+V+Mod/hyp+ScDu2: илерхавэдиʼ
+     илесь+V+Mod/hyp+ScDu3: илерхавэхэʼ
+     илесь+V+Mod/hyp+ScPl1: илерхавэваˮ
+     илесь+V+Mod/hyp+ScPl2: илерхавэдаˮ
+     илесь+V+Mod/hyp+ScPl3: илерхавыˮ
      илесь+V+Mod/rep+ScSg1: илевнадмʼ
      илесь+V+Mod/rep+ScSg2: илевнан
      илесь+V+Mod/rep+ScSg3: илевна
