@@ -45,30 +45,35 @@ LEXICON V_refl
 +V+Ind+Aor+RcPl3:дˮ K ;
 
 LEXICON V_Mod/int
-+V+Mod/int+ScSg2:сан K ;
-+V+Mod/int+ScSg3:са K ;
-+V+Mod/int+ScDu2:садиʼ K ;
-+V+Mod/int+ScDu3:сахаʼ K ;
-+V+Mod/int+ScPl2:садаˮ K ;
-+V+Mod/int+ScPl3:саˮ K ;
-+V+Mod/int+ScSg2+OcSg3:сар K ;
-+V+Mod/int+ScSg3+OcSg3:сада K ;
-+V+Mod/int+ScDu2+OcSg3:сариʼ K ;
-+V+Mod/int+ScDu3+OcSg3:садиʼ K ;
-+V+Mod/int+ScPl2+OcSg3:сараˮ K ;
-+V+Mod/int+ScPl3+OcSg3:садоʼ K ;
-+V+Mod/int+ScSg2+OcDu3:сахаюд K ;
-+V+Mod/int+ScSg3+OcDu3:сахаюда K ;
-+V+Mod/int+ScDu2+OcDu3:сахаюдиʼ K ;
-+V+Mod/int+ScDu3+OcDu3:сахаюдиʼ K ;
-+V+Mod/int+ScPl2+OcDu3:сахаюдаˮ K ;
-+V+Mod/int+ScPl3+OcDu3:сахаюдоʼ K ;
-+V+Mod/int+ScSg2+OcPl3:сад K ;
-+V+Mod/int+ScSg3+OcPl3:сада K ;
-+V+Mod/int+ScDu2+OcPl3:садиʼ K ;
-+V+Mod/int+ScDu3+OcPl3:садиʼ K ;
-+V+Mod/int+ScPl2+OcPl3:садаˮ K ;
-+V+Mod/int+ScPl3+OcPl3:садоʼ K ;
++Mod/int:са MUTUAL-PERSON ;
+
+!+V+Mod/int+ScSg2:сан K ;
+!+V+Mod/int+ScSg3:са K ;
+!+V+Mod/int+ScDu2:садиʼ K ;
+!+V+Mod/int+ScDu3:сахаʼ K ;
+!+V+Mod/int+ScPl2:садаˮ K ;
+!+V+Mod/int+ScPl3:саˮ K ;
+!+Mod/int+ScSg2+OcSg3:сар K ;
+!+Mod/int+ScSg3+OcSg3:сада K ;
+!+Mod/int+ScDu2+OcSg3:сариʼ K ;
+!+Mod/int+ScDu3+OcSg3:садиʼ K ;
+!+Mod/int+ScPl2+OcSg3:сараˮ K ;
+!+Mod/int+ScPl3+OcSg3:садоʼ K ;
+!+Mod/int+ScSg2+OcDu3:сахаюд K ;
+!+Mod/int+ScSg3+OcDu3:сахаюда K ;
+!+Mod/int+ScDu2+OcDu3:сахаюдиʼ K ;
+!+Mod/int+ScDu3+OcDu3:сахаюдиʼ K ;
+!+Mod/int+ScPl2+OcDu3:сахаюдаˮ K ;
+!+Mod/int+ScPl3+OcDu3:сахаюдоʼ K ;
+!+Mod/int+ScSg2+OcPl3:сад K ;
+!+Mod/int+ScSg3+OcPl3:сада K ;
+!+Mod/int+ScDu2+OcPl3:садиʼ K ;
+!+Mod/int+ScDu3+OcPl3:садиʼ K ;
+!+Mod/int+ScPl2+OcPl3:садаˮ K ;
+!+Mod/int+ScPl3+OcPl3:садоʼ K ;
+
+LEXICON V_Mod/nec
++Mod/nec:бцу MUTUAL-PERSON ;
 
 LEXICON V_Coni
 +V+Conj+Aor+ScSg1:идмʼ K ;
@@ -93,7 +98,7 @@ LEXICON V_Coni
 LEXICON VerbTag
  V_Obj ;
  V_refl ;
- V_Mod/int ;
++V: V_Mod/int ;
  V_Coni ;
 +V:	IND-AOR		;
 +V:  IND-AOR-SG3 	;
@@ -232,6 +237,114 @@ LEXICON IND-PRT1-PL2
 LEXICON IND-PRT1-PL3
 +Ind+Prt1+ScPl3:%>ць K ;
 
+!! Mutual person ending for nonindicative moods
+LEXICON MUTUAL-PERSON
+ MUTUAL-PERSON-1 ;
+ MUTUAL-PERSON-2 ;
+ MUTUAL-PERSON-3 ;
+
+LEXICON MUTUAL-PERSON-1
+ MUTUAL-SG1 ;
+ MUTUAL-DU1 ;
+ MUTUAL-PL1 ;
+   
+LEXICON MUTUAL-PERSON-2
+ MUTUAL-SG2 ;
+  MUTUAL-DU2 ;
+   MUTUAL-PL2 ;
+ MUTUAL-SCSG2-OCSG3 ;
+ MUTUAL-SCDU2-OCSG3 ;
+ MUTUAL-SCPL2-OCSG3 ;
+ MUTUAL-SCSG2-OCDU3 ;
+ MUTUAL-SCDU2-OCDU3 ;
+ MUTUAL-SCPL2-OCDU3 ;
+ MUTUAL-SCSG2-OCPL3 ;
+ MUTUAL-SCDU2-OCPL3 ;
+ MUTUAL-SCPL2-OCPL3 ;
+   
+LEXICON MUTUAL-PERSON-3
+ MUTUAL-SG3 ;
+ MUTUAL-DU3 ;
+ MUTUAL-PL3 ;
+ MUTUAL-SCSG3-OCSG3 ;
+ MUTUAL-SCDU3-OCSG3 ;
+ MUTUAL-SCPL3-OCSG3 ;
+ MUTUAL-SCSG3-OCDU3 ;
+ MUTUAL-SCDU3-OCDU3 ;
+ MUTUAL-SCPL3-OCDU3 ;
+ MUTUAL-SCSG3-OCPL3 ;
+ MUTUAL-SCDU3-OCPL3 ;
+ MUTUAL-SCPL3-OCPL3 ;
+
+!
+!
+
+
+LEXICON MUTUAL-SG1
++ScSg1:дмʼ K ;
+!+Use/Sub+ScSg1:мʼ K ;
+
+LEXICON MUTUAL-SG2
++ScSg2:н K ;
+
+LEXICON MUTUAL-SG3
++ScSg3: K ;
+
+LEXICON MUTUAL-DU1
++ScDu1:ниʼ K ;
+
+LEXICON MUTUAL-DU2
++ScDu2:диʼ K ;
+
+LEXICON MUTUAL-DU3
++ScDu3:ӈахаʼ K ;
+
+LEXICON MUTUAL-PL1
++ScPl1:ваˮ K ;
+
+LEXICON MUTUAL-PL2
++ScPl2:даˮ K ;
+
+LEXICON MUTUAL-PL3
++ScPl3:ˮ K ;
+
+!! Object
+LEXICON MUTUAL-SCSG2-OCSG3
++ScSg2+OcSg3:%>р K ;
+LEXICON MUTUAL-SCSG3-OCSG3
++ScSg3+OcSg3:%>да K ;
+LEXICON MUTUAL-SCDU2-OCSG3
++ScDu2+OcSg3:%>риʼ K ;
+LEXICON MUTUAL-SCDU3-OCSG3
++ScDu3+OcSg3:%>диʼ K ;
+LEXICON MUTUAL-SCPL2-OCSG3
++ScPl2+OcSg3:%>раˮ K ;
+LEXICON MUTUAL-SCPL3-OCSG3
++ScPl3+OcSg3:%>доʼ K ;
+LEXICON MUTUAL-SCSG2-OCDU3
++ScSg2+OcDu3:%>хаюд K ;
+LEXICON MUTUAL-SCSG3-OCDU3
++ScSg3+OcDu3:%>хаюда K ;
+LEXICON MUTUAL-SCDU2-OCDU3
++ScDu2+OcDu3:%>хаюдиʼ K ;
+LEXICON MUTUAL-SCDU3-OCDU3
++ScDu3+OcDu3:%>хаюдиʼ K ;
+LEXICON MUTUAL-SCPL2-OCDU3
++ScPl2+OcDu3:%>хаюдаˮ K ;
+LEXICON MUTUAL-SCPL3-OCDU3
++ScPl3+OcDu3:%>хаюдоʼ K ;
+LEXICON MUTUAL-SCSG2-OCPL3
++ScSg2+OcPl3:%>д K ;
+LEXICON MUTUAL-SCSG3-OCPL3
++ScSg3+OcPl3:%>да K ;
+LEXICON MUTUAL-SCDU2-OCPL3
++ScDu2+OcPl3:%>диʼ K ;
+LEXICON MUTUAL-SCDU3-OCPL3
++ScDu3+OcPl3:%>диʼ K ;
+LEXICON MUTUAL-SCPL2-OCPL3
++ScPl2+OcPl3:%>даˮ K ;
+LEXICON MUTUAL-SCPL3-OCPL3
++ScPl3+OcPl3:%>доʼ K ;
 
 
 ! vim: set ft=xfst-lexc:
