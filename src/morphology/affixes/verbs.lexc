@@ -44,43 +44,51 @@ LEXICON V_refl
 +V+Ind+Aor+RcPl2:даˮ K ;
 +V+Ind+Aor+RcPl3:дˮ K ;
 
-LEXICON V_Interr
-+V+Interr+ScSg2:сан K ;
-+V+Interr+ScSg3:са K ;
-+V+Interr+ScDu2:садиʼ K ;
-+V+Interr+ScDu3:сахаʼ K ;
-+V+Interr+ScPl2:садаˮ K ;
-+V+Interr+ScPl3:саˮ K ;
-+V+Interr+ScSg2+OcSg3:сар K ;
-+V+Interr+ScSg3+OcSg3:сада K ;
-+V+Interr+ScDu2+OcSg3:сариʼ K ;
-+V+Interr+ScDu3+OcSg3:садиʼ K ;
-+V+Interr+ScPl2+OcSg3:сараˮ K ;
-+V+Interr+ScPl3+OcSg3:садоʼ K ;
-+V+Interr+ScSg2+OcDu3:сахаюд K ;
-+V+Interr+ScSg3+OcDu3:сахаюда K ;
-+V+Interr+ScDu2+OcDu3:сахаюдиʼ K ;
-+V+Interr+ScDu3+OcDu3:сахаюдиʼ K ;
-+V+Interr+ScPl2+OcDu3:сахаюдаˮ K ;
-+V+Interr+ScPl3+OcDu3:сахаюдоʼ K ;
-+V+Interr+ScSg2+OcPl3:сад K ;
-+V+Interr+ScSg3+OcPl3:сада K ;
-+V+Interr+ScDu2+OcPl3:садиʼ K ;
-+V+Interr+ScDu3+OcPl3:садиʼ K ;
-+V+Interr+ScPl2+OcPl3:садаˮ K ;
-+V+Interr+ScPl3+OcPl3:садоʼ K ;
+LEXICON V_Mod/int
++V+Mod/int+ScSg2:сан K ;
++V+Mod/int+ScSg3:са K ;
++V+Mod/int+ScDu2:садиʼ K ;
++V+Mod/int+ScDu3:сахаʼ K ;
++V+Mod/int+ScPl2:садаˮ K ;
++V+Mod/int+ScPl3:саˮ K ;
++V+Mod/int+ScSg2+OcSg3:сар K ;
++V+Mod/int+ScSg3+OcSg3:сада K ;
++V+Mod/int+ScDu2+OcSg3:сариʼ K ;
++V+Mod/int+ScDu3+OcSg3:садиʼ K ;
++V+Mod/int+ScPl2+OcSg3:сараˮ K ;
++V+Mod/int+ScPl3+OcSg3:садоʼ K ;
++V+Mod/int+ScSg2+OcDu3:сахаюд K ;
++V+Mod/int+ScSg3+OcDu3:сахаюда K ;
++V+Mod/int+ScDu2+OcDu3:сахаюдиʼ K ;
++V+Mod/int+ScDu3+OcDu3:сахаюдиʼ K ;
++V+Mod/int+ScPl2+OcDu3:сахаюдаˮ K ;
++V+Mod/int+ScPl3+OcDu3:сахаюдоʼ K ;
++V+Mod/int+ScSg2+OcPl3:сад K ;
++V+Mod/int+ScSg3+OcPl3:сада K ;
++V+Mod/int+ScDu2+OcPl3:садиʼ K ;
++V+Mod/int+ScDu3+OcPl3:садиʼ K ;
++V+Mod/int+ScPl2+OcPl3:садаˮ K ;
++V+Mod/int+ScPl3+OcPl3:садоʼ K ;
 
 LEXICON V_Coni
-+V+Conj+ScSg1:идмʼ K ;
-+V+Conj+ScSg2:ин K ;
-+V+Conj+ScSg3:и K ;
-+V+Conj+ScDu1:иниʼ K ;
-+V+Conj+ScDu2:идиʼ K ;
-+V+Conj+ScDu3:иӈахаʼ K ;
-+V+Conj+ScPl1:иваˮ K ;
-+V+Conj+ScPl2:идаˮ K ;
-+V+Conj+ScPl3:иˮ K ;
-
++V+Conj+Aor+ScSg1:идмʼ K ;
++V+Conj+Aor+ScSg2:ин K ;
++V+Conj+Aor+ScSg3:и K ;
++V+Conj+Aor+ScDu1:иниʼ K ;
++V+Conj+Aor+ScDu2:идиʼ K ;
++V+Conj+Aor+ScDu3:ихʼ K ;
++V+Conj+Aor+ScPl1:иваˮ K ;
++V+Conj+Aor+ScPl2:идаˮ K ;
++V+Conj+Aor+ScPl3:иˮ K ;
++V+Conj+Prt1+ScSg1:идамзʼ K ;
++V+Conj+Prt1+ScSg2:инсь K ;
++V+Conj+Prt1+ScSg3:ись K ;
++V+Conj+Prt1+ScDu1:ининзь K ;
++V+Conj+Prt1+ScDu2:идинзь K ;
++V+Conj+Prt1+ScDu3:иханзь K ;
++V+Conj+Prt1+ScPl1:иваць K ;
++V+Conj+Prt1+ScPl2:идаць K ;
++V+Conj+Prt1+ScPl3:иць K ;
 
 LEXICON VerbTag
  V_Obj ;
