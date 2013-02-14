@@ -35,8 +35,11 @@ Alphabet
  С1:с
  С1:0
 
-! triggers
+!! !!triggers
 %^AO:0
+
+%^M2V:0 !! lenition
+
 
 ! Boundary symbols
 
@@ -113,7 +116,8 @@ Rules
 !! Consonant changes
 
 "mToV" ! perhaps there should be a VtoM rule2013-01-23
-м:в <=> _ ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
+м:в <=> _ %^M2V:0 ;
+!ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
 
 "v To m "
 в:м <=> [ Ӈ1: ] %>: _ ;
