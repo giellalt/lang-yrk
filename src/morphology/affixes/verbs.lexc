@@ -93,7 +93,7 @@ LEXICON V_Coni
 LEXICON VerbTag
  V_Obj ;
  V_refl ;
- V_Interr ;
+ V_Mod/int ;
  V_Coni ;
 +V:	IND-AOR		;
 +V:  IND-AOR-SG3 	;
@@ -115,7 +115,7 @@ LEXICON VerbTag
 LEXICON V-S
  V_Obj ;
  V_refl ;
- V_Interr ;
+ V_Mod/int ;
  V_Coni ;
 +V:     IND-AOR         ;
 +V+Ind+Aor+ScSg3:ӈа K ;
@@ -125,7 +125,7 @@ LEXICON V-S
 LEXICON V-Ny
  V_Obj ;
  V_refl ;
- V_Interr ;
+ V_Mod/int ;
  V_Coni ;
 +V:     IND-AOR         ;
 +V+Ind+Aor+ScSg3:ӈа K ; !assimilation:Н1+ӈа=ӈа
@@ -203,34 +203,34 @@ LEXICON IND-PRT1
  IND-PRT1-PL3	;
 
 LEXICON IND-PRT1-SG1
-+V+Ind+Prt1+ScSg1:дамзь K ;
++Ind+Prt1+ScSg1:%>дамзь K ;
 !+Use/Sub+V+Ind+Prt1+ScSg1:манзь K ;
-+V+Ind+Prt1+ScSg1:манзь K ;
++Ind+Prt1+ScSg1:%>манзь K ;
 
 LEXICON IND-PRT1-SG2
-+V+Ind+Prt1+ScSg2:нась K ;
++Ind+Prt1+ScSg2:%>нась K ;
 
 LEXICON IND-PRT1-SG3
-+V+Ind+Prt1+ScSg3:сь K ;
++Ind+Prt1+ScSg3:%>сь K ;
 
 LEXICON IND-PRT1-DU1
-+V+Ind+Prt1+ScDu1:нинзь K ;
++Ind+Prt1+ScDu1:%>нинзь K ;
 
 LEXICON IND-PRT1-DU2
-+V+Ind+Prt1+ScDu2:динзь K ;
++Ind+Prt1+ScDu2:%>динзь K ;
 
 LEXICON IND-PRT1-DU3
-+V+Ind+Prt1+ScDu3:ӈаханзь K ;
-+Dial/W+V+Ind+Prt1+ScDu3:ханзь K ;
++Ind+Prt1+ScDu3:%>ӈаханзь K ;
++Dial/W+Ind+Prt1+ScDu3:%>ханзь K ;
 
 LEXICON IND-PRT1-PL1
-+V+Ind+Prt1+ScPl1:ваць K ;
++Ind+Prt1+ScPl1:%>ваць K ;
 
 LEXICON IND-PRT1-PL2
-+V+Ind+Prt1+ScPl2:даць K ;
++Ind+Prt1+ScPl2:%>даць K ;
 
 LEXICON IND-PRT1-PL3
-+V+Ind+Prt1+ScPl3:ць K ;
++Ind+Prt1+ScPl3:%>ць K ;
 
 
 
