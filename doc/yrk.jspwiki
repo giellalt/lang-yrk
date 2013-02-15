@@ -66,7 +66,9 @@ symbols in the lexicon files:
 
 And following triggers to control variation
 
-
+Initially this is used for the noun "я" to enable a:o
+for я:и in пя
+м:в м:б
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
@@ -95,6 +97,152 @@ Noun inflection
 Nenets nouns inflect in cases.
 
 
+ LEXICON N_ӇЭ   ӈэ:ӈэ 1
+no change in stem
+zero marking in accusative plural
+
+ LEXICON N_Ё   я: 2
+[total=3]
+
+
+
+
+
+
+
+ LEXICON N_ПИ   пя: 3
+[total=3]
+
+ LEXICON N_ТЫ   ты: 4
+[total=4]
+
+ LEXICON N_ХАВО   ха: 5
+[total=1]
+
+
+
+
+
+
+ LEXICON N_СЁЁ   сё: 6
+[total=0]
+
+ LEXICON N_ИБЕ   и: 7
+[total=0]
+
+ LEXICON N_ХАБИЕ   хӑби:8
+[total=0]
+
+ LEXICON N_ПАНЫ   пӑны:пӑны 9
+[total=30]
+
+
+
+
+
+
+
+
+ LEXICON N_ХУСУВЭЙ   хусувэй: 10
+[total=17]
+
+ LEXICON N_ХАНО   хӑн: 11
+[total=27]
+
+ LEXICON N_ТИРЕ   тир: 12
+[total=3]
+
+ LEXICON N_ЕД   ед: 13
+[total=98]
+
+
+
+
+ LEXICON N_МАРАӇГЫ   мӑраӈга: 14
+[total=15]
+
+ LEXICON N_ӇУДИ   ӈуда: 15
+[total=53]
+
+ LEXICON N_ЕСИ   ая̆ха: 16
+[total=1]
+
+ LEXICON N_ӇОДИ   ӈодя: 17
+[total=28]
+
+
+
+ LEXICON N_ЯЛЭ   яля: 18
+[total=2]
+
+ LEXICON N_ХОБ   хоба: 19
+[total=25]
+
+ LEXICON N_ТЁН   тёня: 20
+[total=14]
+
+ LEXICON N_ПИСЬ   пися: 21
+[total=10]
+
+ LEXICON N_ХАСЕВ   хасава: 22
+[total=1]
+
+ LEXICON N_ӇАНУ   ӈӑно: 23
+[total=57]
+
+ LEXICON N_ЯКЫ   якэ: 24
+[total=4]
+
+ LEXICON N_ӇУВО   ӈумʼ:ӈум 25
+[total=3]
+25!ямʼ:я
+
+
+
+
+
+ LEXICON N_НЮБЕ   нюмʼ: 26
+[total=0]
+
+ LEXICON N_МУНО   муʼ: 27
+[total=2]
+
+ LEXICON N_ПОЁ   поʼ: 28
+[total=2]
+
+ LEXICON N_ВЫӇО   выʼ:вы 29
+[total=16]
+
+
+
+
+
+
+
+ LEXICON N_ИЛЪЕ   илʼ: 30
+[total=13]
+
+ LEXICON N_ПАХАЁ   пӑхӑʼ: 31
+[total=2]
+
+ LEXICON N_СЕРО   серˮ: 32
+[total=16]
+
+ LEXICON N_ТАРЕ   тӑрˮ:тар 33
+[total=0]
+
+
+ LEXICON N_МАНСО   мӑнˮ: 34
+[total=6]
+
+ LEXICON N_МЯДО   мяˮ:мя 35
+[total=18]
+
+ LEXICON N_ИДЕ   иˮ: 36
+[total=1]
+
+
+
 
 
 
@@ -113,36 +261,7 @@ Nenets nouns inflect in cases.
 
  LEXICON	    N_ПЕНЗЕРЕ  пензерˮ:пензер
 
- LEXICON     N_ТАРЕ  тарˮ:тар
-
  LEXICON	    N_САБЦЬ   сабць:сабць
-
-
-
-
-
-
-
-
- LEXICON N_ХАВО  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
