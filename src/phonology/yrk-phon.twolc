@@ -36,9 +36,9 @@ Alphabet
  С1:0
 
 !! !!triggers
-%^AO:0
-
-%^M2V:0 !! lenition
+%^A2O:0
+%^A2I:0 
+%^MLenition:0 !! lenition
 
 
 ! Boundary symbols
@@ -111,13 +111,21 @@ Rules
 Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %>: _ ; 
 
 "a:o in я"
-я:ё <=> _ %^AO:0 ;
+я:ё <=> _ %^A2O:0 ;
+
+"a:i in пя"
+я:и <=> _ %^A2I:0 ;
+
 
 !! Consonant changes
 
 "mToV" ! perhaps there should be a VtoM rule2013-01-23
-м:в <=> _ %^M2V:0 ;
+м:в <=> _ %^MLenition:0 [ # | %> [ о | м | ʼ | ˮ ] ] ;
 !ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
+
+"mTob" ! 
+м:б <=> _ %^MLenition:0 %> [ е ] ;
+
 
 "v To m "
 в:м <=> [ Ӈ1: ] %>: _ ;
