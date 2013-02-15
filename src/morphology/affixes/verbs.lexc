@@ -98,6 +98,7 @@ LEXICON V_Coni
 LEXICON VerbTag
  V_Obj ;
  V_refl ;
++V: V_Mod/nec ;
 +V: V_Mod/int ;
  V_Coni ;
 +V:	IND-AOR		;
@@ -297,7 +298,7 @@ LEXICON MUTUAL-DU2
 +ScDu2:диʼ K ;
 
 LEXICON MUTUAL-DU3
-+ScDu3:ӈахаʼ K ;
++ScDu3:хаʼ K ;
 
 LEXICON MUTUAL-PL1
 +ScPl1:ваˮ K ;
