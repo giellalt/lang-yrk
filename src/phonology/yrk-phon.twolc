@@ -39,7 +39,7 @@ Alphabet
 %^A2O:0
 %^A2I:0 
 %^MLenition:0 !! lenition
-
+%^VowRaise:0 !! vowel raising э:ы о:у
 
 ! Boundary symbols
 
@@ -115,6 +115,13 @@ Rules
 
 "a:i in пя"
 я:и <=> _ %^A2I:0 ;
+
+"о:у word-final position"
+о:у <=> _ %^VowRaise:0 ;
+
+"э:ы word-final position"
+э:ы <=>		_ %^VowRaise:0 ;
+
 
 
 !! Consonant changes
