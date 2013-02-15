@@ -8,10 +8,6 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1
 !! no change in stem
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 +N: NMN_ӇЭ ;
-+N: SGDATSUF ;
-+N: PLNOMSUF ;
-+N: PLACCSUF_Zero ; !! zero marking in accusative plural
-
 
 
 LEXICON N_Ё  !!= @CODE@ я: 2
@@ -45,8 +41,10 @@ LEXICON NMN_Ё
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-LEXICON N_ӇЭ/Ё
-+N: SGNOMSUF ;
+LEXICON N_ӇЭ/Ё !! та:та
+!! 
++N: NMN_ӇЭ ;
++N:%^A2O PLACCSUF_Zero ; !!
 
 LEXICON N_ПИ  !!= @CODE@ пя: 3
 !! [total=3]
@@ -79,7 +77,7 @@ LEXICON NMN_ХАВО
  DUGENSUF ;
 
  PLNOMSUF ;
- PLACCSUF_Zero ; !
+:в PLACCSUF_О ; !
  PLGENSUF_Glot ; !
  PLDATSUF ;
  PLLOCSUF ;
