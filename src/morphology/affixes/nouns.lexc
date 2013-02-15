@@ -6,13 +6,17 @@
 
 LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1
 !! no change in stem
-+N: SGNOMSUF ;
+!! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
++N: NMN_ӇЭ ;
 +N: SGDATSUF ;
 +N: PLNOMSUF ;
 +N: PLACCSUF_Zero ; !! zero marking in accusative plural
 
+
+
 LEXICON N_Ё  !!= @CODE@ я: 2
 !! [total=3]
+!! я ya	ян’ yan°h	я” yaq	ё yo
 +N: NMN_Ё ;
 
 LEXICON NMN_Ё
@@ -41,19 +45,23 @@ LEXICON NMN_Ё
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-
+LEXICON N_ӇЭ/Ё
++N: SGNOMSUF ;
 
 LEXICON N_ПИ  !!= @CODE@ пя: 3
 !! [total=3]
+!! пя pya	пян’ pyan°h	пя” pyaq	пи pyí
 +N: SGNOMSUF ;
 :%^A2I PLACCSUF_Zero ; !
 
 LEXICON N_ТЫ  !!= @CODE@ ты: 4
 !! [total=4]
+!! ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
 +N: SGNOMSUF ;
 
 LEXICON N_ХАВО  !!= @CODE@ ха: 5
 !! [total=1]
+!! ха xa	хан’ xan°h	ха” xaq	хаво xawo
 +N: NMN_ХАВО ;
 
 LEXICON NMN_ХАВО
@@ -85,18 +93,25 @@ LEXICON NMN_ХАВО
 
 LEXICON N_СЁЁ  !!= @CODE@ сё: 6
 !! [total=0]
+!! сё syo	сён’ syon°h	сё” syoq	сёё syoyo
 +N: SGNOMSUF ;
 
 LEXICON N_ИБЕ  !!= @CODE@ и: 7
 !! [total=0]
+!! и yí	ин’ yín°h	и” yíq	ибе yíbye
 +N: SGNOMSUF ;
 
 LEXICON N_ХАБИЕ  !!= @CODE@ хӑби:8
 !! [total=0]
+!! хӑби xəbyi	хӑбин’ xəbyin°h	хӑби” xəbyiq	хӑбие xəbyiy
++N: SGNOMSUF ;
+
+LEXICON N_ӇЭ/СЁЁ/ХАБИЕ
 +N: SGNOMSUF ;
 
 LEXICON N_ПАНЫ  !!= @CODE@ пӑны:пӑны 9
 !! [total=30]
+!! пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
 +N: NMN_ПАНЫ ;
 LEXICON NMN_ПАНЫ
  SGNOMSUF ;
@@ -131,20 +146,24 @@ LEXICON NMN_ПАНЫ
 
 LEXICON N_ХУСУВЭЙ  !!= @CODE@ хусувэй: 10
 !! [total=17]
+!! хусувэй xusuwey°	хусувэн’ xusuwen°h	хусувэй” xusuwey°q	хусувэй xusuwey°
 +N: SGNOMSUF ;
 
 LEXICON N_ХУСУВЭЙ/ЕД
 +N: SGNOMSUF ;
 LEXICON N_ХАНО  !!= @CODE@ хӑн: 11
 !! [total=27]
+!! хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
 +N: SGNOMSUF ;
 
 LEXICON N_ТИРЕ  !!= @CODE@ тир: 12
 !! [total=3]
+!! тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 +N: SGNOMSUF ;
 
 LEXICON N_ЕД  !!= @CODE@ ед: 13
 !! [total=98]
+!! ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
 +N: SGNOMSUF ;
 
 LEXICON N_ХАНО/ТИРЕ
@@ -160,56 +179,82 @@ LEXICON N_ХАНО/ТИРЕ/ЕД
 
 LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14
 !! [total=15]
+!! мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
 +N: SGNOMSUF ;
 
 LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15
 !! [total=53]
+!! ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
 +N: SGNOMSUF ;
 
 LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16
 !! [total=1]
+!! я̆ха yəxa	я̆хан’ yəxan°h	я̆ха” yəxaq	еси yesy
 +N: SGNOMSUF ;
 
 LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17
 !! [total=28]
+!! ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
 +N: SGNOMSUF ;
 
 LEXICON N_ӇОДИ/ТЁН
+!!
 +N: SGNOMSUF ;
 
 LEXICON N_ӇОДИ/ПИСЬ
+!!
 +N: SGNOMSUF ;
 
 LEXICON N_ЯЛЭ  !!= @CODE@ яля: 18
 !! [total=2]
+!! яля yalya	ялян’ yalyan°h	яля” yalyaq	ялэ yale
 +N: SGNOMSUF ;
 
 LEXICON N_ХОБ  !!= @CODE@ хоба: 19
 !! [total=25]
+!! хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
++N: SGNOMSUF ;
+
+LEXICON N_ӇУДИ/ХОБ
+!!
++N: SGNOMSUF ;
+
+
+LEXICON N_МАРАӇГЫ/ХОБ !!
+!!
 +N: SGNOMSUF ;
 
 LEXICON N_ТЁН  !!= @CODE@ тёня: 20
 !! [total=14]
+!!тёня tyonya	тёнян’ tyonyan°h	тёня” tyonyaq	тён tyon°
 +N: SGNOMSUF ;
 
 LEXICON N_ПИСЬ  !!= @CODE@ пися: 21
 !! [total=10]
+!! пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
 +N: SGNOMSUF ;
 
 LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22
 !! [total=1]
+!! хасава xasawa	хасаван’ xasawan°h	хасава” xasawaq	хасев xasyew°
 +N: SGNOMSUF ;
 
 LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23
 !! [total=57]
+!! ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
 +N: SGNOMSUF ;
 
 LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24
 !! [total=4]
+!! якэ yake	якэн’ yaken°h	якэ” yakeq	якы yaki
 +N: SGNOMSUF ;
++N: SGDATSUF ;
++N: PLNOMSUF ;
++N:%^VowRaise PLACCSUF_Zero ;
 
 LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25
 !! [total=3]
+!! ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
 !LEXICON N_ЯМ !! 25!ямʼ:я
 +N:ʼ SGNOMSUF ;
 +N:%^MLenition SGACCSUF ;
@@ -225,7 +270,7 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25
 +N:ʼ DUGENSUF ;
 
 +N:%^MLenition PLNOMSUF ;
-+N:%^MLenition%>о PLACCSUF_Zero ;
++N:%^MLenition PLACCSUF_О ;
 +N:%^MLenition%>о PLGENSUF_Glot ;
 +N:ʼ PLDATSUF ;
 +N:ʼ PLLOCSUF ;
@@ -241,18 +286,33 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25
 
 LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26
 !! [total=0]
-+N:ʼ SGNOMSUF ;
+!! нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
++N:Н1 SGNOMSUF ;
++N:Н1 SGDATSUF ;
++N:%^MLenition PLNOMSUF ;
++N:%^MLenition PLACCSUF_Е ;
+
 
 LEXICON N_МУНО  !!= @CODE@ муʼ: 27
-!! [total=2]
-+N: SGNOMSUF ;
+!! н [total=2]
+!! му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
++N:Н1 SGNOMSUF ;
++N:Н1 SGDATSUF ;
++N:Н1 PLNOMSUF ;
++N:Н1 PLACCSUF_О ;
 
 LEXICON N_ПОЁ  !!= @CODE@ поʼ: 28
-!! [total=2]
-+N: SGNOMSUF ;
+!! ң [total=2]
+!! по’(ң) poh	понд’ pont°h	пой” poy°q	поё poyo
++N:Ӈ1 SGNOMSUF ;
++N:Ӈ1 SGDATSUF ;
++N:й PLNOMSUF ;
++N: PLACCSUF_Ё ;
+
 
 LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29
-!! [total=16]
+!! ң [total=16]
+!! вы’(ң) wíh	вы̄нд’ wínt°h	вы” wí°q	выңо wíŋo
 +N:Ӈ1 NMN_ВЫӇО  ;
 
 LEXICON NMN_ВЫӇО
@@ -286,37 +346,59 @@ LEXICON NMN_ВЫӇО
 
 
 LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ: 30
-!! [total=13]
+!! ң [total=13]
+!! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
 +N: SGNOMSUF ;
 
 LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31
-!! [total=2]
-+N: SGNOMSUF ;
+!! ң [total=2]
+!! пӑхӑ’(ң) pəx°h	пӑхӑнд’ pəxənt°h	пӑха” pəxə°q	пӑхӑё pəx°yo
++N:Ӈ1 SGNOMSUF ;
++N:Ӈ1 SGDATSUF ;
++N:Ӈ1 PLNOMSUF ;
++N:Ӈ1 PLACCSUF_Ё ;
 
 LEXICON N_СЕРО  !!= @CODE@ серˮ: 32
 !! [total=16]
-+N: SGNOMSUF ;
+!! сер” syer	серт’ syert°h	сер” syer°q	серо syero
++N:Д1 SGNOMSUF ;
++N:Д1 SGDATSUF ;
++N:Д1 PLNOMSUF ;
++N:Д1 PLACCSUF_О ;
 
 LEXICON N_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33
 !! [total=0]
-+N:ˮ SGNOMSUF ;
-
+!! тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
++N:Д1 SGNOMSUF ;
++N:Д1 SGDATSUF ;
++N:Д1 PLNOMSUF ;
++N:Д1 PLACCSUF_Е ;
 
 LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34
 !! [total=6]
-+N: SGNOMSUF ;
+!! мӑн”(с) mən°q	мӑнӑт’ mənət°h	мӑнӑс” mənəs°q	мӑнсо mən°so
++N:С1 SGNOMSUF ;
 
 LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35
 !! [total=18]
+!! мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 +N:Д1 NMN_МЯДО ;
++N:Д1 SGDATSUF ;
++N:Д1 PLNOMSUF ;
++N:Д1 PLACCSUF_О ;
 
 LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36
 !! [total=1]
-+N: SGNOMSUF ;
+!! и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
++N:Д1 SGNOMSUF ;
++N:Д1 SGDATSUF ;
++N:Д1 PLNOMSUF ;
++N:Д1 PLACCSUF_Е ;
+
 
 
 LEXICON N_Vow
-+N: NMN_Vow ;
++TYÄ+N: NMN_Vow ;
 
 LEXICON NMN_Vow
  SGNOMSUF ;
@@ -344,37 +426,34 @@ LEXICON NMN_Vow
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-LEXICON N_ЕСЯ !!= @CODE@ 
-+N: NMN_Vow ;
+!LEXICON N_ЕСЯ !! >> N_ӇОДИ/ПИСЬ = @CODE@ 
+!+N: NMN_Vow ;
 
 LEXICON	    N_БЕ !!= @CODE@ 
-+N: NMN_Vow ;
++TYÄ+N: NMN_Vow ;
 
 LEXICON	    N_САВНЕ !!= @CODE@ 
-+N: NMN_Vow ;
++TYÄ+N: NMN_Vow ;
 
-LEXICON	    N_СЁ !!= @CODE@ 
-+N: NMN_Vow ;
+!LEXICON	    N_СЁ !! >> N_ӇЭ/СЁЁ/ХАБИЕ= @CODE@ 
+!+N: NMN_Vow ;
 
-LEXICON	    N_ӇЭСЫ !!= @CODE@ ӈэсы:ӈэсы
-+N: NMN_Vow ;
+!LEXICON	    N_ӇЭСЫ !! >> N_ӇЭ= @CODE@ ӈэсы:ӈэсы
+!+N: NMN_Vow ;
 
-LEXICON	    N_ЯКЭ !!= @CODE@ якэ:якэ
-+N: NMN_Vow ;
+!LEXICON	    N_ЯКЭ !! >> N_ЯКЫ
+!+N: NMN_Vow ;
 
 LEXICON	    N_ПЕНЗЕРЕ !!= @CODE@ пензерˮ:пензер
-+N: NMN_Vow ;
++TYÄ+N: NMN_Vow ;
 
 LEXICON	    N_САБЦЬ  !!= @CODE@ сабць:сабць
-+N: NMN_Vow ;
++TYÄ+N: NMN_Vow ;
 
 
+!!
 
-LEXICON N-xo
-! хо:хо
-+N: N-xo_01 ;
-
-LEXICON N-xo_01
+LEXICON NMN_ӇЭ
  SGNOMSUF ;
  SGACCSUF ;
  SGGENSUF ;
@@ -885,6 +964,14 @@ LEXICON PLACCSUF_Zero
 LEXICON PLACCSUF_I
 +Pl+Acc:%>и  K ; !Stem final е а я may change to и.
 +Pl+Acc:%>и PL-ACCGEN_POSSESSA ;
+
+LEXICON PLACCSUF_Е
++Pl+Acc:%>е K ;
++Pl+Acc:%>е PL-ACCGEN_POSSESSA ;
+
+LEXICON PLACCSUF_Ё
++Pl+Acc:%>ё K ;
++Pl+Acc:%>ё PL-ACCGEN_POSSESSA ;
 
 LEXICON PLACCSUF_О
 +Pl+Acc:%>о  K ; 
