@@ -96,6 +96,21 @@ LEXICON V_Mod/narr
 LEXICON V_Mod/sup
 +Mod/sup:ваӈгабя MUTUAL-PERSON ;
 
+LEXICON V_Mod/appr
++Mod/appr:нарха MUTUAL-PERSON ;
+
+LEXICON V_Mod/perfappr
++Mod/appr:вэрха MUTUAL-PERSON ;
+
+LEXICON V_Mod/futappr
++Mod/futappr:вндарха MUTUAL-PERSON ;
+
+LEXICON V_Mod/rep
++Mod/rep:вна MUTUAL-PERSON ;
+
+LEXICON V_Mod/des
++Mod/des:рва MUTUAL-PERSON ;
+
 LEXICON V_Coni
 +V+Conj+Aor+ScSg1:идмʼ K ;
 +V+Conj+Aor+ScSg2:ин K ;
@@ -122,11 +137,21 @@ LEXICON VerbTag
 +V: V_Hort ;
 +V: V_Imprt ;
 +V: V_Opt ;
+ V_Coni ;
 +V: V_Mod/nec ;
 +V: V_Mod/int ;
 +V: V_Mod/narr ;
++V: V_Mod/prob ;
++V: V_Mod/perfprob ;
++V: V_Mod/obl ;
++V: V_Mod/appr ;
++V: V_Mod/perfappr ;
++V: V_Mod/futappr ;
 +V: V_Mod/sup ;
- V_Coni ;
++V: V_Mod/hyp ;
++V: V_Mod/rep ;
++V: V_Mod/des ;
+
 +V:	IND-AOR		;
 +V:  IND-AOR-SG3 	;
 +V:  IND-PRT1		;
