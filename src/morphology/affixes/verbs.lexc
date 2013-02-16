@@ -72,6 +72,21 @@ LEXICON V_Mod/int
 !+Mod/int+ScPl2+OcPl3:садаˮ K ;
 !+Mod/int+ScPl3+OcPl3:садоʼ K ;
 
+LEXICON V_Hort
++Hort:ха MUTUAL-SG1 ;
++Hort:хэ MUTUAL-DU1 ;
++Hort:хэ MUTUAL-PL1 ;
+
+LEXICON V_Imprt
++Imprt:ˮ K ;
++Imprt: MUTUAL-DU2 ;
++Imprt: MUTUAL-PL2 ;
+
+LEXICON V_Opt
++Opt:я K ;
++Opt:я MUTUAL-DU3 ;
++Opt:я MUTUAL-PL3 ;
+
 LEXICON V_Mod/nec
 +Mod/nec:бцу MUTUAL-PERSON ;
 
@@ -104,6 +119,9 @@ LEXICON V_Coni
 LEXICON VerbTag
  V_Obj ;
  V_refl ;
++V: V_Hort ;
++V: V_Imprt ;
++V: V_Opt ;
 +V: V_Mod/nec ;
 +V: V_Mod/int ;
 +V: V_Mod/narr ;
