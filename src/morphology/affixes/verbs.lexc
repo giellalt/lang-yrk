@@ -78,6 +78,9 @@ LEXICON V_Mod/nec
 LEXICON V_Mod/narr
 +Mod/narr+Aor:вэ MUTUAL-PERSON ; !Sg3 and Pl3 should have вы
 
+LEXICON V_Mod/sup
++Mod/sup:ваӈгабя MUTUAL-PERSON ;
+
 LEXICON V_Coni
 +V+Conj+Aor+ScSg1:идмʼ K ;
 +V+Conj+Aor+ScSg2:ин K ;
@@ -104,6 +107,7 @@ LEXICON VerbTag
 +V: V_Mod/nec ;
 +V: V_Mod/int ;
 +V: V_Mod/narr ;
++V: V_Mod/sup ;
  V_Coni ;
 +V:	IND-AOR		;
 +V:  IND-AOR-SG3 	;
