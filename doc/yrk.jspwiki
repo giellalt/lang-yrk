@@ -69,6 +69,7 @@ And following triggers to control variation
 Initially this is used for the noun "я" to enable a:o
 for я:и in пя
 м:в м:б
+э:ы о:у
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
@@ -99,11 +100,14 @@ Nenets nouns inflect in cases.
 
  LEXICON N_ӇЭ   ӈэ:ӈэ 1
 no change in stem
+ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 zero marking in accusative plural
+
+
 
  LEXICON N_Ё   я: 2
 [total=3]
-
+я ya	ян’ yan°h	я” yaq	ё yo
 
 
 
@@ -112,12 +116,15 @@ zero marking in accusative plural
 
  LEXICON N_ПИ   пя: 3
 [total=3]
+пя pya	пян’ pyan°h	пя” pyaq	пи pyí
 
  LEXICON N_ТЫ   ты: 4
 [total=4]
+ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
 
  LEXICON N_ХАВО   ха: 5
 [total=1]
+ха xa	хан’ xan°h	ха” xaq	хаво xawo
 
 
 
@@ -126,15 +133,20 @@ zero marking in accusative plural
 
  LEXICON N_СЁЁ   сё: 6
 [total=0]
+сё syo	сён’ syon°h	сё” syoq	сёё syoyo
 
  LEXICON N_ИБЕ   и: 7
 [total=0]
+и yí	ин’ yín°h	и” yíq	ибе yíbye
 
  LEXICON N_ХАБИЕ   хӑби:8
 [total=0]
+хӑби xəbyi	хӑбин’ xəbyin°h	хӑби” xəbyiq	хӑбие xəbyiy
+
 
  LEXICON N_ПАНЫ   пӑны:пӑны 9
 [total=30]
+пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
 
 
 
@@ -145,56 +157,74 @@ zero marking in accusative plural
 
  LEXICON N_ХУСУВЭЙ   хусувэй: 10
 [total=17]
+хусувэй xusuwey°	хусувэн’ xusuwen°h	хусувэй” xusuwey°q	хусувэй xusuwey°
 
  LEXICON N_ХАНО   хӑн: 11
 [total=27]
+хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
 
  LEXICON N_ТИРЕ   тир: 12
 [total=3]
+тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 
  LEXICON N_ЕД   ед: 13
 [total=98]
+ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
 
 
 
 
  LEXICON N_МАРАӇГЫ   мӑраӈга: 14
 [total=15]
+мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
 
  LEXICON N_ӇУДИ   ӈуда: 15
 [total=53]
+ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
 
  LEXICON N_ЕСИ   ая̆ха: 16
 [total=1]
+я̆ха yəxa	я̆хан’ yəxan°h	я̆ха” yəxaq	еси yesy
 
  LEXICON N_ӇОДИ   ӈодя: 17
 [total=28]
+ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
 
 
 
  LEXICON N_ЯЛЭ   яля: 18
 [total=2]
+яля yalya	ялян’ yalyan°h	яля” yalyaq	ялэ yale
 
  LEXICON N_ХОБ   хоба: 19
 [total=25]
+хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
+
+
+
 
  LEXICON N_ТЁН   тёня: 20
 [total=14]
 
  LEXICON N_ПИСЬ   пися: 21
 [total=10]
+пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
 
  LEXICON N_ХАСЕВ   хасава: 22
 [total=1]
+хасава xasawa	хасаван’ xasawan°h	хасава” xasawaq	хасев xasyew°
 
  LEXICON N_ӇАНУ   ӈӑно: 23
 [total=57]
+ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
 
  LEXICON N_ЯКЫ   якэ: 24
 [total=4]
+якэ yake	якэн’ yaken°h	якэ” yakeq	якы yaki
 
  LEXICON N_ӇУВО   ӈумʼ:ӈум 25
 [total=3]
+ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
 25!ямʼ:я
 
 
@@ -203,15 +233,21 @@ zero marking in accusative plural
 
  LEXICON N_НЮБЕ   нюмʼ: 26
 [total=0]
+нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
+
 
  LEXICON N_МУНО   муʼ: 27
-[total=2]
+н [total=2]
+му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
 
  LEXICON N_ПОЁ   поʼ: 28
-[total=2]
+ң [total=2]
+по’(ң) poh	понд’ pont°h	пой” poy°q	поё poyo
+
 
  LEXICON N_ВЫӇО   выʼ:вы 29
-[total=16]
+ң [total=16]
+вы’(ң) wíh	вы̄нд’ wínt°h	вы” wí°q	выңо wíŋo
 
 
 
@@ -220,26 +256,32 @@ zero marking in accusative plural
 
 
  LEXICON N_ИЛЪЕ   илʼ: 30
-[total=13]
+ң [total=13]
+ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
 
  LEXICON N_ПАХАЁ   пӑхӑʼ: 31
-[total=2]
+ң [total=2]
+пӑхӑ’(ң) pəx°h	пӑхӑнд’ pəxənt°h	пӑха” pəxə°q	пӑхӑё pəx°yo
 
  LEXICON N_СЕРО   серˮ: 32
 [total=16]
+сер” syer	серт’ syert°h	сер” syer°q	серо syero
 
  LEXICON N_ТАРЕ   тӑрˮ:тар 33
 [total=0]
-
+тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
 
  LEXICON N_МАНСО   мӑнˮ: 34
 [total=6]
+мӑн”(с) mən°q	мӑнӑт’ mənət°h	мӑнӑс” mənəs°q	мӑнсо mən°so
 
  LEXICON N_МЯДО   мяˮ:мя 35
 [total=18]
+мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 
  LEXICON N_ИДЕ   иˮ: 36
 [total=1]
+и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
 
 
 
@@ -247,17 +289,18 @@ zero marking in accusative plural
 
 
 
- LEXICON N_ЕСЯ  
+
+>> N_ӇОДИ/ПИСЬ = LEXICON N_ИДЕ   
 
  LEXICON	    N_БЕ  
 
  LEXICON	    N_САВНЕ  
 
- LEXICON	    N_СЁ  
+>> N_ӇЭ/СЁЁ/ХАБИЕ= LEXICON	    N_САВНЕ  
 
- LEXICON	    N_ӇЭСЫ  ӈэсы:ӈэсы
+>> N_ӇЭ= LEXICON	    N_САВНЕ  ӈэсы:ӈэсы
 
- LEXICON	    N_ЯКЭ  якэ:якэ
+>> N_ЯКЫ
 
  LEXICON	    N_ПЕНЗЕРЕ  пензерˮ:пензер
 
@@ -355,8 +398,9 @@ zero marking in accusative plural
 
 
 
-
 Start Plural
+
+
 
 
 
