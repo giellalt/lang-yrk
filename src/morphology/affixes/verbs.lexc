@@ -289,6 +289,31 @@ LEXICON IND-PRT1-PL2
 LEXICON IND-PRT1-PL3
 +Ind+Prt1+ScPl3:%>ць K ;
 
+
+LEXICON V_Mod/hyp
++Mod/hyp:рхавэ MUTUAL-PERSON ;
+
+LEXICON V_Mod/obl
++Mod/obl:бцакэ MUTUAL-PERSON ;
+
+LEXICON V_Mod/perfprob
++Mod/perfprob вэкэ MUTUAL-PERSON ;
+
+LEXICON V_Mod/prob
++Mod/prob+Aor:накэ MUTUAL-PERSON ;
++Mod/prob+Prt1+ScSg1:накэдамзь
++Mod/prob+Prt1+ScSg2:накэнась
++Mod/prob+Prt1+ScSg3:накысь
++Mod/prob+Prt1+ScSg3:накэсь
++Mod/prob+Prt1+ScDu1:накэнинзь
++Mod/prob+Prt1+ScDu2:накэдинзь
++Mod/prob+Prt1+ScDu3:накэханзь
++Mod/prob+Prt1+ScPl1:накэваць
++Mod/prob+Prt1+ScPl2:накэдаць
++Mod/prob+Prt1+ScPl3:накыць
++Mod/prob+Prt1+ScPl3:накэць
+  
+
 !! Mutual person ending for nonindicative moods
 LEXICON MUTUAL-PERSON
  MUTUAL-PERSON-1 ;
@@ -340,7 +365,7 @@ LEXICON MUTUAL-SG2
 +ScSg2:н K ;
 
 LEXICON MUTUAL-SG3
-+ScSg3: K ;
++ScSg3:%^VowRaise K ;
 
 LEXICON MUTUAL-DU1
 +ScDu1:ниʼ K ;
@@ -358,7 +383,7 @@ LEXICON MUTUAL-PL2
 +ScPl2:даˮ K ;
 
 LEXICON MUTUAL-PL3
-+ScPl3:ˮ K ;
++ScPl3:%^VowRaiseˮ K ;
 
 !! Object
 LEXICON MUTUAL-SCSG2-OCSG3
