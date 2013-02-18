@@ -9,7 +9,6 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 +N: NMN_ӇЭ ;
 
-
 LEXICON N_Ё  !!= @CODE@ я: 2
 !! [total=3]
 !! я ya	ян’ yan°h	я” yaq	ё yo
@@ -310,24 +309,11 @@ LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29
 
 LEXICON NMN_ВЫӇО
  SGNOMSUF ;
- SGACCSUF ;
- SGGENSUF ;
- SGDATSUF ;
- SGLOCSUF ;
- SGABLSUF ;
+ SG-ACC-STEM ;
  SGPROSSUF ;
- SGTRASUF ;
-
- DUNOMSUF ;
- DUACCSUF ;
- DUGENSUF ;
 
  PLNOMSUF ;
  PLACCSUF_О ;
- PLDATSUF ;
- PLLOCSUF ;
- PLABLSUF ;
- PLTRASUF ;
 
 +Nom: NOMINAL-CONJUGATION ;
  POSSESSOR-INDICES ; !
@@ -420,24 +406,12 @@ LEXICON	    N_САБЦЬ  !!= @CODE@ сабць:сабць
 
 LEXICON NMN_ӇЭ
  SGNOMSUF ;
- SGACCSUF ;
- SGGENSUF ;
- SGDATSUF ;
- SGLOCSUF ;
- SGABLSUF ;
+ SG-ACC-STEM ;
 :%>в SGPROSSUF ;
- SGTRASUF ;
-
- DUNOMSUF ;
- DUACCSUF ;
- DUGENSUF ;
 
  PLNOMSUF ;
  PLACCSUF_Zero ; !
- PLDATSUF ;
- PLLOCSUF ;
- PLABLSUF ;
- PLTRASUF ;
+
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
@@ -761,6 +735,24 @@ LEXICON N-N
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
 
+!! The singular accusative stem
+LEXICON SG-ACC-STEM
+ SGACCSUF ;
+ SGGENSUF ;
+ SGDATSUF ;
+ SGLOCSUF ;
+ SGABLSUF ;
+ SGTRASUF ;
+
+ DUNOMSUF ;
+ DUACCSUF ;
+ DUGENSUF ;
+
+ PLDATSUF ;
+ PLLOCSUF ;
+ PLABLSUF ;
+ PLTRASUF ;
+
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
@@ -837,6 +829,7 @@ LEXICON PLACCSUF_О
 
 !! What is assumed on the basis of the plural accusative
 LEXICON PL-ACC_STEM
++Pl+Acc:	K	;
 +Pl+Gen:ˮ	K	;
 +Pl+Pros:ˮмана 	K	;
  POSSESSA-PL-NOM ;
