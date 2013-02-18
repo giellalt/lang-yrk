@@ -43,6 +43,7 @@ Alphabet
 %^VowLoss:0 !! stem-final vowel is lost in plural accusative
 %^VowFronting:0 !! хасава:хасев
 %^PalLoss:0 !! in combination with stem-final vowel loss тёня:тён
+%^HardFronting:0 !! яля:ялэ
 ! Boundary symbols
 
  %>
@@ -121,8 +122,19 @@ Rules
 "a:i in пя"
 я:и <=> _ %^A2I:0 ;
 
+"я:э in яля"
+я:э <=> _ %^HardFronting:0 ;
+"a:i in мараӈгы"
+а:ы <=> [ к | г ] _ %^A2I:0 ;
+
+"a:i in ӈуда"
+а:и <=> [ Cns - [ к | г ] ] _ %^A2I:0 ;
+
 "о:у word-final position"
 о:у <=> _ %^VowRaise:0 ;
+
+"ё:ю word-final position"
+ё:ю <=> _ %^VowRaise:0 ;
 
 "э:ы word-final position"
 э:ы <=>		_ %^VowRaise:0 ;
@@ -135,7 +147,10 @@ Rules
 а:0 <=> Cns _ (%^VowFronting) %^VowLoss:0 ;
 
 "я:ь Stem vowel loss in plural accusative"
-я:ь <=> _ (%^VowFronting) %^VowLoss:0 ;
+я:ь <=> Cns _ (%^VowFronting) %^VowLoss:0 ;
+
+"я:й Stem vowel loss in plural accusative"
+я:й <=> Vow _ (%^VowFronting) %^VowLoss:0 ;
 
 "я:0 Stem vowel loss in plural accusative"
 я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
@@ -175,7 +190,7 @@ Rules
 ˮ:0 <=> _ %>: д: ;
 
 "х -> г after nasal glottal"
-х:г <=> [ ʼ: | Ӈ1: ] %>: _ ( А1: ) ;
+х:г <=> [ ʼ: | Ӈ1: | Н1: | м ] %>: _ ( А1: ) ;
 
 "х to к after non-nasal glottal"
 х:к <=> [ Д1: | С1: ] %>: _  ;
@@ -192,10 +207,10 @@ Rules
 Н1:н <=> _ %>: Ы1: ;
 
 "Ӈ1:ӈ GlottalNasalToSurface"
-Ӈ1:ӈ <=> _ %>: [ Ы1: | х: | о] ;
+Ӈ1:ӈ <=> _ %>: [ Ы1: | х: | о ] ;
 
 "Ӈ1:н GlottalNasalToSurface"
-Ӈ1:н <=> _ %>: [ с: | н:д | д | ц: ] ;
+Ӈ1:н <=> _ %>: [ с: | н:д | д | ц: | ˮ ] ;
 
 
 !! LOSS
