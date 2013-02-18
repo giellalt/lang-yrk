@@ -44,117 +44,31 @@ LEXICON V_refl
 +V+Ind+Aor+RcPl2:даˮ K ;
 +V+Ind+Aor+RcPl3:дˮ K ;
 
-LEXICON V_Mod/int
-+Mod/int:са MUTUAL-PERSON ;
-
-!+V+Mod/int+ScSg2:сан K ;
-!+V+Mod/int+ScSg3:са K ;
-!+V+Mod/int+ScDu2:садиʼ K ;
-!+V+Mod/int+ScDu3:сахаʼ K ;
-!+V+Mod/int+ScPl2:садаˮ K ;
-!+V+Mod/int+ScPl3:саˮ K ;
-!+Mod/int+ScSg2+OcSg3:сар K ;
-!+Mod/int+ScSg3+OcSg3:сада K ;
-!+Mod/int+ScDu2+OcSg3:сариʼ K ;
-!+Mod/int+ScDu3+OcSg3:садиʼ K ;
-!+Mod/int+ScPl2+OcSg3:сараˮ K ;
-!+Mod/int+ScPl3+OcSg3:садоʼ K ;
-!+Mod/int+ScSg2+OcDu3:сахаюд K ;
-!+Mod/int+ScSg3+OcDu3:сахаюда K ;
-!+Mod/int+ScDu2+OcDu3:сахаюдиʼ K ;
-!+Mod/int+ScDu3+OcDu3:сахаюдиʼ K ;
-!+Mod/int+ScPl2+OcDu3:сахаюдаˮ K ;
-!+Mod/int+ScPl3+OcDu3:сахаюдоʼ K ;
-!+Mod/int+ScSg2+OcPl3:сад K ;
-!+Mod/int+ScSg3+OcPl3:сада K ;
-!+Mod/int+ScDu2+OcPl3:садиʼ K ;
-!+Mod/int+ScDu3+OcPl3:садиʼ K ;
-!+Mod/int+ScPl2+OcPl3:садаˮ K ;
-!+Mod/int+ScPl3+OcPl3:садоʼ K ;
-
-LEXICON V_Hort
-+Hort:ха MUTUAL-SG1 ;
-+Hort:хэ MUTUAL-DU1 ;
-+Hort:хэ MUTUAL-PL1 ;
-
-LEXICON V_Imprt
-+Imprt+ScSg2:ˮ K ;
-+Imprt: MUTUAL-DU2 ;
-+Imprt: MUTUAL-PL2 ;
-
-LEXICON V_Opt
-+Opt+ScSg3:я K ;
-+Opt:я MUTUAL-DU3 ;
-+Opt:я MUTUAL-PL3 ;
-
-LEXICON V_Mod/nec
-+Mod/nec:бцу MUTUAL-PERSON ;
-
-LEXICON V_Mod/narr
-+Mod/narr+Aor:вэ MUTUAL-PERSON ; !Sg3 and Pl3 should have вы
-
-LEXICON V_Mod/sup
-+Mod/sup:ваӈгабя MUTUAL-PERSON ;
-
-LEXICON V_Mod/appr
-+Mod/appr:нарха MUTUAL-PERSON ;
-
-LEXICON V_Mod/perfappr
-+Mod/perfappr:вэрха MUTUAL-PERSON ;
-
-LEXICON V_Mod/futappr
-+Mod/futappr:вндарха MUTUAL-PERSON ;
-
-LEXICON V_Mod/rep
-+Mod/rep:вна MUTUAL-PERSON ;
-
-LEXICON V_Mod/des
-+Mod/des:рва MUTUAL-PERSON ;
-
-LEXICON V_Coni
-+V+Conj+Aor+ScSg1:идмʼ K ;
-+V+Conj+Aor+ScSg2:ин K ;
-+V+Conj+Aor+ScSg3:и K ;
-+V+Conj+Aor+ScDu1:иниʼ K ;
-+V+Conj+Aor+ScDu2:идиʼ K ;
-+V+Conj+Aor+ScDu3:ихʼ K ;
-+V+Conj+Aor+ScPl1:иваˮ K ;
-+V+Conj+Aor+ScPl2:идаˮ K ;
-+V+Conj+Aor+ScPl3:иˮ K ;
-+V+Conj+Prt1+ScSg1:идамзь K ;
-+V+Conj+Prt1+ScSg2:инась K ;
-+V+Conj+Prt1+ScSg3:ись K ;
-+V+Conj+Prt1+ScDu1:ининзь K ;
-+V+Conj+Prt1+ScDu2:идинзь K ;
-+V+Conj+Prt1+ScDu3:иханзь K ;
-+V+Conj+Prt1+ScPl1:иваць K ;
-+V+Conj+Prt1+ScPl2:идаць K ;
-+V+Conj+Prt1+ScPl3:иць K ;
-
 LEXICON VerbTag
  V_Obj ;
  V_refl ;
 +V: V_Hort ;
 +V: V_Imprt ;
 +V: V_Opt ;
- V_Coni ;
-+V: V_Mod/nec ;
+ V_Conj ;
++V: V_Mod/appr ;
++V: V_Mod/des ;
++V: V_Mod/futappr ;
++V: V_Mod/hyp ;
 +V: V_Mod/int ;
 +V: V_Mod/narr ;
-+V: V_Mod/prob ;
++V: V_Mod/nec ;
 +V: V_Mod/perfprob ;
-+V: V_Mod/obl ;
-+V: V_Mod/appr ;
++V: V_Mod/prob ;
 +V: V_Mod/perfappr ;
-+V: V_Mod/futappr ;
-+V: V_Mod/sup ;
-+V: V_Mod/hyp ;
++V: V_Mod/obl ;
 +V: V_Mod/rep ;
-+V: V_Mod/des ;
++V: V_Mod/sup ;
 
 +V:	IND-AOR		;
 +V:  IND-AOR-SG3 	;
 +V:  IND-PRT1		;
++V: PRC ;
 
 !+V+Ind+Prt1+ScSg1:дамзь K ;
 !!+Use/Sub+V+Ind+Prt1+ScSg1:манзь K ;
@@ -173,7 +87,7 @@ LEXICON V-S
  V_Obj ;
  V_refl ;
  V_Mod/int ;
- V_Coni ;
+ V_Conj ;
 +V:     IND-AOR         ;
 +V+Ind+Aor+ScSg3:ӈа K ;
 +V:	IND-PRT1    ;
@@ -183,7 +97,7 @@ LEXICON V-Ny
  V_Obj ;
  V_refl ;
  V_Mod/int ;
- V_Coni ;
+ V_Conj ;
 +V:     IND-AOR         ;
 +V+Ind+Aor+ScSg3:ӈа K ; !assimilation:Н1+ӈа=ӈа
 
@@ -289,6 +203,94 @@ LEXICON IND-PRT1-PL2
 LEXICON IND-PRT1-PL3
 +Ind+Prt1+ScPl3:%>ць K ;
 
+!! Other moods
+LEXICON V_Mod/int
++Mod/int:са MUTUAL-PERSON ;
+
+!+V+Mod/int+ScSg2:сан K ;
+!+V+Mod/int+ScSg3:са K ;
+!+V+Mod/int+ScDu2:садиʼ K ;
+!+V+Mod/int+ScDu3:сахаʼ K ;
+!+V+Mod/int+ScPl2:садаˮ K ;
+!+V+Mod/int+ScPl3:саˮ K ;
+!+Mod/int+ScSg2+OcSg3:сар K ;
+!+Mod/int+ScSg3+OcSg3:сада K ;
+!+Mod/int+ScDu2+OcSg3:сариʼ K ;
+!+Mod/int+ScDu3+OcSg3:садиʼ K ;
+!+Mod/int+ScPl2+OcSg3:сараˮ K ;
+!+Mod/int+ScPl3+OcSg3:садоʼ K ;
+!+Mod/int+ScSg2+OcDu3:сахаюд K ;
+!+Mod/int+ScSg3+OcDu3:сахаюда K ;
+!+Mod/int+ScDu2+OcDu3:сахаюдиʼ K ;
+!+Mod/int+ScDu3+OcDu3:сахаюдиʼ K ;
+!+Mod/int+ScPl2+OcDu3:сахаюдаˮ K ;
+!+Mod/int+ScPl3+OcDu3:сахаюдоʼ K ;
+!+Mod/int+ScSg2+OcPl3:сад K ;
+!+Mod/int+ScSg3+OcPl3:сада K ;
+!+Mod/int+ScDu2+OcPl3:садиʼ K ;
+!+Mod/int+ScDu3+OcPl3:садиʼ K ;
+!+Mod/int+ScPl2+OcPl3:садаˮ K ;
+!+Mod/int+ScPl3+OcPl3:садоʼ K ;
+
+LEXICON V_Hort
++Hort:ха MUTUAL-SG1 ;
++Hort:хэ MUTUAL-DU1 ;
++Hort:хэ MUTUAL-PL1 ;
+
+LEXICON V_Imprt
++Imprt+ScSg2:ˮ K ;
++Imprt: MUTUAL-DU2 ;
++Imprt: MUTUAL-PL2 ;
+
+LEXICON V_Opt
++Opt+ScSg3:я K ;
++Opt:я MUTUAL-DU3 ;
++Opt:я MUTUAL-PL3 ;
+
+LEXICON V_Mod/nec
++Mod/nec:бцу MUTUAL-PERSON ;
+
+LEXICON V_Mod/narr
++Mod/narr+Aor:вэ MUTUAL-PERSON ; !Sg3 and Pl3 should have вы
+
+LEXICON V_Mod/sup
++Mod/sup:ваӈгабя MUTUAL-PERSON ;
+
+LEXICON V_Mod/appr
++Mod/appr:нарха MUTUAL-PERSON ;
+
+LEXICON V_Mod/perfappr
++Mod/perfappr:вэрха MUTUAL-PERSON ;
+
+LEXICON V_Mod/futappr
++Mod/futappr:вндарха MUTUAL-PERSON ;
+
+LEXICON V_Mod/rep
++Mod/rep:вна MUTUAL-PERSON ;
+
+LEXICON V_Mod/des
++Mod/des:рва MUTUAL-PERSON ;
+
+LEXICON V_Conj
++V+Conj+Aor+ScSg1:идмʼ K ;
++V+Conj+Aor+ScSg2:ин K ;
++V+Conj+Aor+ScSg3:и K ;
++V+Conj+Aor+ScDu1:иниʼ K ;
++V+Conj+Aor+ScDu2:идиʼ K ;
++V+Conj+Aor+ScDu3:ихʼ K ;
++V+Conj+Aor+ScPl1:иваˮ K ;
++V+Conj+Aor+ScPl2:идаˮ K ;
++V+Conj+Aor+ScPl3:иˮ K ;
++V+Conj+Prt1+ScSg1:идамзь K ;
++V+Conj+Prt1+ScSg2:инась K ;
++V+Conj+Prt1+ScSg3:ись K ;
++V+Conj+Prt1+ScDu1:ининзь K ;
++V+Conj+Prt1+ScDu2:идинзь K ;
++V+Conj+Prt1+ScDu3:иханзь K ;
++V+Conj+Prt1+ScPl1:иваць K ;
++V+Conj+Prt1+ScPl2:идаць K ;
++V+Conj+Prt1+ScPl3:иць K ;
+
 
 LEXICON V_Mod/hyp
 +Mod/hyp:рхавэ MUTUAL-PERSON ;
@@ -312,7 +314,9 @@ LEXICON V_Mod/prob
 +Mod/prob+Prt1+ScPl2:накэдаць
 +Mod/prob+Prt1+ScPl3:накыць
 +Mod/prob+Prt1+ScPl3:накэць
-  
+
+!LEXICON V_Subord
+!+Subord:  K ;
 
 !! Mutual person ending for nonindicative moods
 LEXICON MUTUAL-PERSON
@@ -422,6 +426,17 @@ LEXICON MUTUAL-SCPL2-OCPL3
 +ScPl2+OcPl3:%>даˮ K ;
 LEXICON MUTUAL-SCPL3-OCPL3
 +ScPl3+OcPl3:%>доʼ K ;
+
+!! Non-finites
+LEXICON PRC
++InfImprf:ва K ;
++PrcImpf:вдавэй K ;
++PrcFut:вында K ;
++GerFin:ванзь K ;
++Subord:бˮ    K	;
++Aud:воʼ      K	;
++Aud:ваноʼ      K	;
++Evas:воӈгад	K	;
 
 
 ! vim: set ft=xfst-lexc:
