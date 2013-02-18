@@ -50,6 +50,7 @@ LEXICON VerbTag
 +V: V_Hort ;
 +V: V_Imprt ;
 +V: V_Opt ;
++V: V_Subord ;
  V_Conj ;
 +V: V_Mod/appr ;
 +V: V_Mod/des ;
@@ -299,24 +300,25 @@ LEXICON V_Mod/obl
 +Mod/obl:бцакэ MUTUAL-PERSON ;
 
 LEXICON V_Mod/perfprob
-+Mod/perfprob вэкэ MUTUAL-PERSON ;
++Mod/perfprob:вэкэ MUTUAL-PERSON ;
 
 LEXICON V_Mod/prob
 +Mod/prob+Aor:накэ MUTUAL-PERSON ;
-+Mod/prob+Prt1+ScSg1:накэдамзь
-+Mod/prob+Prt1+ScSg2:накэнась
-+Mod/prob+Prt1+ScSg3:накысь
-+Mod/prob+Prt1+ScSg3:накэсь
-+Mod/prob+Prt1+ScDu1:накэнинзь
-+Mod/prob+Prt1+ScDu2:накэдинзь
-+Mod/prob+Prt1+ScDu3:накэханзь
-+Mod/prob+Prt1+ScPl1:накэваць
-+Mod/prob+Prt1+ScPl2:накэдаць
-+Mod/prob+Prt1+ScPl3:накыць
-+Mod/prob+Prt1+ScPl3:накэць
++Mod/prob+Prt1+ScSg1:накэдамзь K ;
++Mod/prob+Prt1+ScSg2:накэнась K ;
++Mod/prob+Prt1+ScSg3:накысь K ;
++Mod/prob+Prt1+ScSg3:накэсь K ;
++Mod/prob+Prt1+ScDu1:накэнинзь K ;
++Mod/prob+Prt1+ScDu2:накэдинзь K ;
++Mod/prob+Prt1+ScDu3:накэханзь K ;
++Mod/prob+Prt1+ScPl1:накэваць K ;
++Mod/prob+Prt1+ScPl2:накэдаць K ;
++Mod/prob+Prt1+ScPl3:накыць K ;
++Mod/prob+Prt1+ScPl3:накэць K ;
 
-!LEXICON V_Subord
-!+Subord:  K ;
+LEXICON V_Subord
++Subord+PxSg1:бˮнани  K ;
++Subord+PxSg1:баˮни  K ;
 
 !! Mutual person ending for nonindicative moods
 LEXICON MUTUAL-PERSON
@@ -362,32 +364,32 @@ LEXICON MUTUAL-PERSON-3
 
 
 LEXICON MUTUAL-SG1
-+ScSg1:дмʼ K ;
++ScSg1:%>дмʼ K ;
 !+Use/Sub+ScSg1:мʼ K ;
 
 LEXICON MUTUAL-SG2
-+ScSg2:н K ;
++ScSg2:%>н K ;
 
 LEXICON MUTUAL-SG3
 +ScSg3:%^VowRaise K ;
 
 LEXICON MUTUAL-DU1
-+ScDu1:ниʼ K ;
++ScDu1:%>ниʼ K ;
 
 LEXICON MUTUAL-DU2
-+ScDu2:диʼ K ;
++ScDu2:%>диʼ K ;
 
 LEXICON MUTUAL-DU3
-+ScDu3:хаʼ K ;
++ScDu3:%>хА1ʼ K ;
 
 LEXICON MUTUAL-PL1
-+ScPl1:ваˮ K ;
++ScPl1:%>ваˮ K ;
 
 LEXICON MUTUAL-PL2
-+ScPl2:даˮ K ;
++ScPl2:%>даˮ K ;
 
 LEXICON MUTUAL-PL3
-+ScPl3:%^VowRaiseˮ K ;
++ScPl3:%^VowRaise%>ˮ K ;
 
 !! Object
 LEXICON MUTUAL-SCSG2-OCSG3
@@ -430,6 +432,9 @@ LEXICON MUTUAL-SCPL3-OCPL3
 !! Non-finites
 LEXICON PRC
 +InfImprf:ва K ;
++InfPrf:ˮма K ;
++PrcImprf:на K ;
++PrcImprf:ня K ;
 +PrcImpf:вдавэй K ;
 +PrcFut:вында K ;
 +GerFin:ванзь K ;
