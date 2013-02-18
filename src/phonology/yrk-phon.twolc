@@ -40,7 +40,9 @@ Alphabet
 %^A2I:0 
 %^MLenition:0 !! lenition
 %^VowRaise:0 !! vowel raising э:ы о:у
-
+%^VowLoss:0 !! stem-final vowel is lost in plural accusative
+%^VowFronting:0 !! хасава:хасев
+%^PalLoss:0 !! in combination with stem-final vowel loss тёня:тён
 ! Boundary symbols
 
  %>
@@ -86,7 +88,7 @@ Rules
 й:0 <=> _ %>: [ а: | у: ] ;
 
 "а:я VowelPalatalization"
-а:я <=> й: %>: _ ;
+а:я <=> й:0 %>: _ ;
 
 "у:ю VowelPalatalization"
 у:ю <=> й: %>: _ ;
@@ -124,6 +126,19 @@ Rules
 
 "э:ы word-final position"
 э:ы <=>		_ %^VowRaise:0 ;
+
+"а:е хасава:хасев"
+а:е <=> Cns _ Cns а: %^VowFronting:0 ;
+
+!! Vowel loss
+"а:0 Stem vowel loss in plural accusative"
+а:0 <=> Cns _ (%^VowFronting) %^VowLoss:0 ;
+
+"я:ь Stem vowel loss in plural accusative"
+я:ь <=> _ (%^VowFronting) %^VowLoss:0 ;
+
+"я:0 Stem vowel loss in plural accusative"
+я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
 
 
 

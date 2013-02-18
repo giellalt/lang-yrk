@@ -220,16 +220,19 @@ LEXICON N_ТЁН  !!= @CODE@ тёня: 20
 !! [total=14]
 !!тёня tyonya	тёнян’ tyonyan°h	тёня” tyonyaq	тён tyon°
 +N: SGNOMSUF ;
++N:%^PalLoss PLACCSUF_Minus ;
 
 LEXICON N_ПИСЬ  !!= @CODE@ пися: 21
 !! [total=10]
 !! пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
 +N: SGNOMSUF ;
++N: PLACCSUF_Minus ;
 
 LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22
 !! [total=1]
 !! хасава xasawa	хасаван’ xasawan°h	хасава” xasawaq	хасев xasyew°
 +N: SGNOMSUF ;
++N:%^VowFronting PLACCSUF_Minus ;
 
 LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23
 !! [total=57]
@@ -803,6 +806,9 @@ LEXICON PLNOMSUF
 LEXICON PLACCSUF
 +Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
 +Pl+Acc:%>Ы1 PL-ACC_STEM ;
+
+LEXICON PLACCSUF_Minus
+:%^VowLoss PL-ACC_STEM ;
 
 LEXICON PLACCSUF_Zero
 ! This has zero ending
