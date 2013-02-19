@@ -1287,7 +1287,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="N">rauta, metalli</t>
+        <t pos="N">rauta, metalli, raha, koru</t>
       </tg>
     </mg>
   </e>
@@ -1997,7 +1997,7 @@
       <l>ламбарё</l>
 
       <stg>
-        <st Contlex="N_Vow">ламбарё</st>
+        <st Contlex="N_МЕРЁ">ламбарё</st>
       </stg>
     </lg>
 
@@ -2629,7 +2629,7 @@
       <l>лямба</l>
 
       <stg>
-        <st Contlex="N_Vow">лямба</st>
+        <st Contlex="N_ӇУДИ">лямба</st>
       </stg>
     </lg>
 
@@ -2655,7 +2655,7 @@
       <l>ляра</l>
 
       <stg>
-        <st Contlex="N_Vow">ляра</st>
+        <st Contlex="N_ИБЯ">ляра</st>
       </stg>
     </lg>
 
@@ -11691,7 +11691,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="N">aitta</t>
+        <t pos="N">aitta, vaja, varasto; maakellari</t>
       </tg>
     </mg>
   </e>
@@ -11743,7 +11743,7 @@
       </tg>
 
       <tg lang="fin">
-        <t pos="N">pinta, korkeampi paikka</t>
+        <t pos="N">pinta, harjanne, korkeampi paikka</t>
       </tg>
     </mg>
   </e>
@@ -15644,6 +15644,32 @@
 
       <tg lang="fin">
         <t pos="N">pituus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хурко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">хурко</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="N">köysi, naru</t>
       </tg>
     </mg>
   </e>
