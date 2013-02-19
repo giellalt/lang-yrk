@@ -70,6 +70,10 @@ Initially this is used for the noun "я" to enable a:o
 for я:и in пя
 м:в м:б
 э:ы о:у
+stem-final vowel is lost in plural accusative form
+хасава:хасев
+in combination with stem-final vowel loss
+яля:ялэ
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
@@ -101,17 +105,12 @@ Nenets nouns inflect in cases.
  LEXICON N_ӇЭ   ӈэ:ӈэ 1
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
-zero marking in accusative plural
-
-
 
  LEXICON N_Ё   я: 2
 [total=3]
 я ya	ян’ yan°h	я” yaq	ё yo
 
-
-
-
+та:та
 
 
  LEXICON N_ПИ   пя: 3
@@ -125,10 +124,6 @@ zero marking in accusative plural
  LEXICON N_ХАВО   ха: 5
 [total=1]
 ха xa	хан’ xan°h	ха” xaq	хаво xawo
-
-
-
-
 
 
  LEXICON N_СЁЁ   сё: 6
@@ -148,16 +143,10 @@ zero marking in accusative plural
 [total=30]
 пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
 
-
-
-
-
-
-
-
  LEXICON N_ХУСУВЭЙ   хусувэй: 10
 [total=17]
 хусувэй xusuwey°	хусувэн’ xusuwen°h	хусувэй” xusuwey°q	хусувэй xusuwey°
+
 
  LEXICON N_ХАНО   хӑн: 11
 [total=27]
@@ -170,6 +159,7 @@ zero marking in accusative plural
  LEXICON N_ЕД   ед: 13
 [total=98]
 ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
+
 
 
 
@@ -229,8 +219,6 @@ zero marking in accusative plural
 
 
 
-
-
  LEXICON N_НЮБЕ   нюмʼ: 26
 [total=0]
 нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
@@ -250,14 +238,10 @@ zero marking in accusative plural
 вы’(ң) wíh	вы̄нд’ wínt°h	вы” wí°q	выңо wíŋo
 
 
-
-
-
-
-
  LEXICON N_ИЛЪЕ   илʼ: 30
 ң [total=13]
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
+
 
  LEXICON N_ПАХАЁ   пӑхӑʼ: 31
 ң [total=2]
@@ -286,10 +270,6 @@ zero marking in accusative plural
 
 
 
-
-
-
-
 >> N_ӇОДИ/ПИСЬ = LEXICON N_ИДЕ   
 
  LEXICON	    N_БЕ  
@@ -306,8 +286,10 @@ zero marking in accusative plural
 
  LEXICON	    N_САБЦЬ   сабць:сабць
 
+ LEXICON N_МЕРЁ  мерё:мерё
 
 
+NMN
 
 
 
@@ -361,26 +343,7 @@ zero marking in accusative plural
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The singular accusative stem
 
 
 
@@ -405,6 +368,11 @@ Start Plural
 
 
 
+
+
+
+
+What is assumed on the basis of the plural accusative
 
 
 
@@ -438,6 +406,29 @@ Dual possessa
 
 
 Plural Possessa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
