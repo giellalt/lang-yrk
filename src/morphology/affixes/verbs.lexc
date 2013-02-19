@@ -44,9 +44,7 @@ LEXICON V_refl
 +V+Ind+Aor+RcPl2:даˮ K ;
 +V+Ind+Aor+RcPl3:дˮ K ;
 
-LEXICON VerbTag
- V_Obj ;
- V_refl ;
+LEXICON V_ИЛЕ
 +V: V_Hort ;
 +V: V_Imprt ;
 +V: V_Opt ;
@@ -83,6 +81,33 @@ LEXICON VerbTag
 !+V+Ind+Prt1+ScPl1:ваць K ;
 !+V+Ind+Prt1+ScPl2:даць K ;
 !+V+Ind+Prt1+ScPl3:ць K ;
+
+LEXICON V_ХАДА
+ V_Obj ;
++V: V_Hort ;
++V: V_Imprt ;
++V: V_Opt ;
++V: V_Subord ;
+ V_Conj ;
++V: V_Mod/appr ;
++V: V_Mod/des ;
++V: V_Mod/futappr ;
++V: V_Mod/hyp ;
++V: V_Mod/int ;
++V: V_Mod/narr ;
++V: V_Mod/nec ;
++V: V_Mod/perfprob ;
++V: V_Mod/prob ;
++V: V_Mod/perfappr ;
++V: V_Mod/obl ;
++V: V_Mod/rep ;
++V: V_Mod/sup ;
+
++V:	IND-AOR		;
++V:  IND-AOR-SG3 	;
++V:  IND-PRT1		;
++V: PRC ;
+
 
 LEXICON V-S
  V_Obj ;
