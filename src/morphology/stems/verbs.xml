@@ -247,7 +247,7 @@
       </tg>
 
       <tg lang="fin">
-        <t> olla (jossakin, elottomasta)</t>
+        <t>olla (jossakin, elottomasta)</t>
       </tg>
     </mg>
   </e>
@@ -354,6 +354,34 @@
 
       <tg lang="fin">
         <t>mennä sisään, käydä sisään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l>хадась</l>
+
+      <stg>
+        <st Contlex="V_ХАДА">хада</st>
+      </stg>
+    </lg>
+
+    <pos>V</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg lang="eng">
+        <t pos="V">kill</t>
+      </tg>
+
+      <tg lang="fin">
+        <t pos="V">tappaa</t>
       </tg>
     </mg>
   </e>
