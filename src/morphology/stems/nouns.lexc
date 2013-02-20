@@ -48,7 +48,7 @@ LEXICON nouns
 еркар:еркар N_Cons  "heimo, sukunimi, mittayksikkö" ;
 есʼ:ес N_ВЫӇО  "ansa" ;
 есерˮ:есер N_ВАР  "uudin, purje" ;
-еся:еся N_ӇОДИ/ПИСЬ  "rauta, metalli" ;
+еся:еся N_ӇОДИ/ПИСЬ  "rauta, metalli, raha, koru" ;
 ехэна:ехэна N_ӇУДИ  "sampi" ;
 еӈа:еӈа N_ИБЯ  "oja" ;
 еӈга:еӈга N_МАРАӇГЫ/ХОБ  "askel" ;
@@ -75,7 +75,7 @@ LEXICON nouns
 лабя:лабя N_ИБЯ  "airo" ;
 ладорабцьʼ:ладорабць N_ЁЛЬЦЕ  "lyöntiväline" ;
 ламба:ламба N_ӇУДИ  "suksi" ;
-ламбарё:ламбарё N_Vow  "perhonen" ;
+ламбарё:ламбарё N_МЕРЁ  "perhonen" ;
 лата:лата N_ХОБ  "pöytä" ;
 лив:лив N_Cons  "pehmeä lumi syksyllä" ;
 лидяӈг:лидяӈг N_ЕД  "majava" ;
@@ -99,8 +99,8 @@ LEXICON nouns
 лябт:лябт N_Cons  "sileäkorvainen koira" ;
 лябту:лябту N_ӇАНУ  "usein kompastuva poro" ;
 лядхэй:лядхэй N_Cons  "halkeama, pore" ;
-лямба:лямба N_Vow  "veto (ilman)" ;
-ляра:ляра N_Vow  "ahven" ;
+лямба:лямба N_ӇУДИ  "veto (ilman)" ;
+ляра:ляра N_ИБЯ  "ahven" ;
 лярцо:лярцо N_ӇАНУ  "hämähäkki" ;
 мад:мад N_Cons  "ylitys, ylikulku" ;
 мад:мад N_ЕД  "haukunta" ;
@@ -441,9 +441,9 @@ LEXICON nouns
 тивтей:тивтей N_ХУСУВЭЙ  "mursu" ;
 тид:тид N_Cons  "varjo" ;
 тидя:тидя N_ИБЯ  "setä, äidin nuorempi veli" ;
-тин:тин N_ХАНО/ТИРЕ  "aitta" ;
+тин:тин N_ХАНО/ТИРЕ  "aitta, vaja, varasto; maakellari" ;
 тир:тир N_ТИРЕ  "pilvi" ;
-тирˮ:тир N_ВАР  "pinta, korkeampi paikka" ;
+тирˮ:тир N_ВАР  "pinta, harjanne, korkeampi paikka" ;
 тиребя:тиребя N_ӇОДИ  "kutu, mäti" ;
 тиртя:тиртя N_Vow  "lintu" ;
 тирцьʼ:тирць N_ЁЛЬЦЕ  "kampa" ;
@@ -591,6 +591,7 @@ LEXICON nouns
 хулцоцьʼ:хулцоць N_ЁЛЬЦЕ  "mela ruoansekoitukseen" ;
 хулы:хулы N_Vow  "korppi" ;
 хун:хун N_ЕД  "pituus" ;
+хурко:хурко N_ӇАНУ  "köysi, naru" ;
 хуса:хуса N_ӇУДИ  "taikina" ;
 хутий:хутий N_Cons  "käki" ;
 хутрё:хутрё N_МЕРЁ  "jyske" ;
