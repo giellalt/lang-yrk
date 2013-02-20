@@ -344,6 +344,21 @@ LEXICON V_Mod/prob
 LEXICON V_Subord
 +Subord+PxSg1:бˮнани  K ;
 +Subord+PxSg1:баˮни  K ;
++Subord+PxSg2:бат  K ;
++Subord+PxSg3:бˮнанда  K ;
++Subord+PxSg3:бата  K ;
++Subord+PxDu1:бˮнаниʼ  K ;
++Subord+PxDu1:баˮниʼ  K ;
++Subord+PxDu2:бˮнандиʼ  K ;
++Subord+PxDu2:баˮтиʼ  K ;
++Subord+PxDu3:бˮнандиʼ  K ;
++Subord+PxDu3:баˮтиʼ  K ;
++Subord+PxPl1:бˮнанаˮ K ;
++Subord+PxPl1:баˮнаˮ K ;
++Subord+PxPl2:бˮнандаˮ  K ;
++Subord+PxPl2:батаˮ  K ;
++Subord+PxPl3:бˮнандоʼ  K ;
++Subord+PxPl3:батоʼ  K ;
 
 !! Mutual person ending for nonindicative moods
 LEXICON MUTUAL-PERSON
@@ -460,14 +475,16 @@ LEXICON PRC
 +InfPrf:ˮма K ;
 +PrcImprf:на K ;
 +PrcImprf:ня K ;
-+PrcImpf:вдавэй K ;
++PrcPrf:вы K ;
++PrcNeg:вдавэй K ;
 +PrcFut:вында K ;
++Ger: K ;
 +GerFin:ванзь K ;
 +Subord:бˮ    K	;
 +Aud:воʼ      K	;
-+Aud:ваноʼ      K	;
-+Evas:воӈгад	K	;
-
++Aud:ваноʼ    K	;
++Evas:воӈгад  K	;
++ConNeg:ˮ     K ;
 
 ! vim: set ft=xfst-lexc:
 
