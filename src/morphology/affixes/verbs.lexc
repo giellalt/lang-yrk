@@ -95,6 +95,7 @@ LEXICON V_ХАДА
 +V: V_Mod/hyp ;
 +V: V_Mod/int ;
 +V: V_Mod/narr ;
++V: V_Mod/narrPrt ;
 +V: V_Mod/nec ;
 +V: V_Mod/perfprob ;
 +V: V_Mod/prob ;
@@ -187,7 +188,7 @@ LEXICON IND-AOR-PL2
 LEXICON IND-AOR-PL3
 +Ind+Aor+ScPl3:ˮ K ;
 
-!! Preterite 1
+!! Preterite 1 # This should be for ConjPrt and NarrPrt also.
 LEXICON IND-PRT1
  IND-PRT1-SG1	;
  IND-PRT1-SG2	;
@@ -277,7 +278,20 @@ LEXICON V_Mod/nec
 +Mod/nec:бцу MUTUAL-PERSON ;
 
 LEXICON V_Mod/narr
-+Mod/narr+Aor:вэ MUTUAL-PERSON ; !Sg3 and Pl3 should have вы
++Mod/narr+Aor:вэ MUTUAL-PERSON ; 
+
+LEXICON V_Mod/narrPrt
++Mod/narr+Prt1+ScSg1:вэдамзь K ;
++Mod/narr+Prt1+ScSg2:вэнась K ;
++Mod/narr+Prt1+ScSg3:вэсь K ;
++Mod/narr+Prt1+ScSg3:высь K ;
++Mod/narr+Prt1+ScDu1:вэнинзь K ;
++Mod/narr+Prt1+ScDu2:вэдинзь K ;
++Mod/narr+Prt1+ScDu3:вэханзь K ;
++Mod/narr+Prt1+ScPl1:вэваць K ;
++Mod/narr+Prt1+ScPl2:вэдаць K ;
++Mod/narr+Prt1+ScPl3:вэць K ;
++Mod/narr+Prt1+ScPl3:выць K ;
 
 LEXICON V_Mod/sup
 +Mod/sup:ваӈгабя MUTUAL-PERSON ;
