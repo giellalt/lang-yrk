@@ -113,7 +113,7 @@ Tests:
      я+N+Du+Nom+PxDu3: яхюдиʼ
      я+N+Du+Nom+PxPl1: яхюнаˮ
      я+N+Du+Nom+PxPl2: яхюдаˮ
-     я+N+Du+Nom+PxPl3: яхюдоʼ;
+     я+N+Du+Nom+PxPl3: яхюдоʼ
      я+N+Du+Acc+PxSg1: яхюн  
      я+N+Du+Acc+PxSg2: яхюд  
      я+N+Du+Acc+PxSg3: яхюда 
@@ -132,7 +132,7 @@ Tests:
      я+N+Du+Gen+PxPl1: яхюнаˮ
      я+N+Du+Gen+PxPl2: яхютаˮ
      я+N+Du+Gen+PxPl3: яхютоʼ
-     я+N+Pl+Nom+PxSg1: ён   
+     я+N+Pl+Nom+PxSg1: [ён, ёни]   
      я+N+Pl+Nom+PxSg2: ёд   
      я+N+Pl+Nom+PxSg3: ёда  
      я+N+Pl+Nom+PxDu1: ёниʼ 
@@ -141,7 +141,7 @@ Tests:
      я+N+Pl+Nom+PxPl1: ёнаˮ 
      я+N+Pl+Nom+PxPl2: ёдаˮ 
      я+N+Pl+Nom+PxPl3: ёдоʼ 
-     я+N+Pl+Acc+PxSg1: ён   
+     я+N+Pl+Acc+PxSg1: [ён, ёни]   
      я+N+Pl+Acc+PxSg2: ёд   
      я+N+Pl+Acc+PxSg3: ёда  
      я+N+Pl+Acc+PxDu1: ёниʼ 
@@ -151,7 +151,6 @@ Tests:
      я+N+Pl+Acc+PxPl2: ёдаˮ 
      я+N+Pl+Acc+PxPl3: ёдоʼ 
      я+N+Pl+Gen+PxSg1: ёˮн  
-     я+N+Pl+Gen+PxSg1: ёˮни 
      я+N+Pl+Gen+PxSg2: ёт   
      я+N+Pl+Gen+PxSg3: ёта  
      я+N+Pl+Gen+PxDu1: ёˮниʼ
