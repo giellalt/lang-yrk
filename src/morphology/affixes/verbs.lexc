@@ -13,25 +13,25 @@ LEXICON V_Obj
 +V+Ind+Aor+ScPl2+OcSg3:раˮ K ;
 +V+Ind+Aor+ScPl3+OcSg3:доʼ K ;
 
-+V+Ind+Aor+ScSg1+OcDu3:н K ;
-+V+Ind+Aor+ScSg2+OcDu3:д K ;
-+V+Ind+Aor+ScSg3+OcDu3:да K ;
-+V+Ind+Aor+ScDu1+OcDu3:ниʼ K ;
-+V+Ind+Aor+ScDu2+OcDu3:диʼ K ;
-+V+Ind+Aor+ScDu3+OcDu3:диʼ K ;
-+V+Ind+Aor+ScPl1+OcDu3:наˮ K ;
-+V+Ind+Aor+ScPl2+OcDu3:даˮ K ;
-+V+Ind+Aor+ScPl3+OcDu3:доʼ K ;
++V+Ind+Aor+ScSg1+OcDu3:ӈахаюн K ;
++V+Ind+Aor+ScSg2+OcDu3:ӈахаюд K ;
++V+Ind+Aor+ScSg3+OcDu3:ӈахаюда K ;
++V+Ind+Aor+ScDu1+OcDu3:ӈахаюниʼ K ;
++V+Ind+Aor+ScDu2+OcDu3:ӈахаюдиʼ K ;
++V+Ind+Aor+ScDu3+OcDu3:ӈахаюдиʼ K ;
++V+Ind+Aor+ScPl1+OcDu3:ӈахаюнаˮ K ;
++V+Ind+Aor+ScPl2+OcDu3:ӈахаюдаˮ K ;
++V+Ind+Aor+ScPl3+OcDu3:ӈахаюдоʼ K ;
 
-+V+Ind+Aor+ScSg1+OcPl3:н K ;
-+V+Ind+Aor+ScSg2+OcPl3:д K ;
-+V+Ind+Aor+ScSg3+OcPl3:да K ;
-+V+Ind+Aor+ScDu1+OcPl3:ниʼ K ;
-+V+Ind+Aor+ScDu2+OcPl3:диʼ K ;
-+V+Ind+Aor+ScDu3+OcPl3:диʼ K ;
-+V+Ind+Aor+ScPl1+OcPl3:наˮ K ;
-+V+Ind+Aor+ScPl2+OcPl3:даˮ K ;
-+V+Ind+Aor+ScPl3+OcPl3:доʼ K ;
++V+Ind+Aor+ScSg1+OcPl3:ян K ;
++V+Ind+Aor+ScSg2+OcPl3:яд K ;
++V+Ind+Aor+ScSg3+OcPl3:яда K ;
++V+Ind+Aor+ScDu1+OcPl3:яниʼ K ;
++V+Ind+Aor+ScDu2+OcPl3:ядиʼ K ;
++V+Ind+Aor+ScDu3+OcPl3:ядиʼ K ;
++V+Ind+Aor+ScPl1+OcPl3:янаˮ K ;
++V+Ind+Aor+ScPl2+OcPl3:ядаˮ K ;
++V+Ind+Aor+ScPl3+OcPl3:ядоʼ K ;
 
 LEXICON V_refl
 +V+Ind+Aor+RcSg1:вˮ K ;
@@ -253,12 +253,12 @@ LEXICON V_Mod/int
 !+Mod/int+ScDu3+OcDu3:сахаюдиʼ K ;
 !+Mod/int+ScPl2+OcDu3:сахаюдаˮ K ;
 !+Mod/int+ScPl3+OcDu3:сахаюдоʼ K ;
-!+Mod/int+ScSg2+OcPl3:сад K ;
-!+Mod/int+ScSg3+OcPl3:сада K ;
-!+Mod/int+ScDu2+OcPl3:садиʼ K ;
-!+Mod/int+ScDu3+OcPl3:садиʼ K ;
-!+Mod/int+ScPl2+OcPl3:садаˮ K ;
-!+Mod/int+ScPl3+OcPl3:садоʼ K ;
+!+Mod/int+ScSg2+OcPl3:сяд K ;
+!+Mod/int+ScSg3+OcPl3:сяда K ;
+!+Mod/int+ScDu2+OcPl3:сядиʼ K ;
+!+Mod/int+ScDu3+OcPl3:сядиʼ K ;
+!+Mod/int+ScPl2+OcPl3:сядаˮ K ;
+!+Mod/int+ScPl3+OcPl3:сядоʼ K ;
 
 LEXICON V_Hort
 +Hort:ха MUTUAL-SG1 ;
@@ -304,7 +304,7 @@ LEXICON V_Mod/perfappr
 +Mod/perfappr:вэрха MUTUAL-PERSON ;
 
 LEXICON V_Mod/futappr
-+Mod/futappr:вндарха MUTUAL-PERSON ;
++Mod/futappr:вандарха MUTUAL-PERSON ;
 
 LEXICON V_Mod/rep
 +Mod/rep:вна MUTUAL-PERSON ;
@@ -386,7 +386,16 @@ LEXICON MUTUAL-PERSON-1
  MUTUAL-SG1 ;
  MUTUAL-DU1 ;
  MUTUAL-PL1 ;
-   
+ MUTUAL-SCSG1-OCSG3 ;
+ MUTUAL-SCDU1-OCSG3 ;
+ MUTUAL-SCPL1-OCSG3 ;
+ MUTUAL-SCSG1-OCDU3 ;
+ MUTUAL-SCDU1-OCDU3 ;
+ MUTUAL-SCPL1-OCDU3 ;
+ MUTUAL-SCSG1-OCPL3 ;
+ MUTUAL-SCDU1-OCPL3 ;
+ MUTUAL-SCPL1-OCPL3 ;
+    
 LEXICON MUTUAL-PERSON-2
  MUTUAL-SG2 ;
  MUTUAL-DU2 ;
@@ -485,23 +494,23 @@ LEXICON MUTUAL-SCPL2-OCDU3
 LEXICON MUTUAL-SCPL3-OCDU3
 +ScPl3+OcDu3:%>хаюдоʼ K ;
 LEXICON MUTUAL-SCSG1-OCPL3
-+ScSg1+OcPl3:%>н K ;
++ScSg1+OcPl3:%^VowRaise%>н K ;
 LEXICON MUTUAL-SCSG2-OCPL3
-+ScSg2+OcPl3:%>д K ;
++ScSg2+OcPl3:%^VowRaise%>д K ;
 LEXICON MUTUAL-SCSG3-OCPL3
-+ScSg3+OcPl3:%>да K ;
++ScSg3+OcPl3:%^VowRaise%>да K ;
 LEXICON MUTUAL-SCDU1-OCPL3
-+ScDu1+OcPl3:%>ниʼ K ;
++ScDu1+OcPl3:%^VowRaise%>ниʼ K ;
 LEXICON MUTUAL-SCDU2-OCPL3
-+ScDu2+OcPl3:%>диʼ K ;
++ScDu2+OcPl3:%^VowRaise%>диʼ K ;
 LEXICON MUTUAL-SCDU3-OCPL3
-+ScDu3+OcPl3:%>диʼ K ;
++ScDu3+OcPl3:%^VowRaise%>диʼ K ;
 LEXICON MUTUAL-SCPL1-OCPL3
-+ScPl1+OcPl3:%>наˮ K ;
++ScPl1+OcPl3:%^VowRaise%>наˮ K ;
 LEXICON MUTUAL-SCPL2-OCPL3
-+ScPl2+OcPl3:%>даˮ K ;
++ScPl2+OcPl3:%^VowRaise%>даˮ K ;
 LEXICON MUTUAL-SCPL3-OCPL3
-+ScPl3+OcPl3:%>доʼ K ;
++ScPl3+OcPl3:%^VowRaise%>доʼ K ;
 
 !! Non-finites
 LEXICON PRC
