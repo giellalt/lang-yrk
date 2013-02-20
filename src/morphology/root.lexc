@@ -156,8 +156,10 @@ Multichar_Symbols
 !! And following triggers to control variation
  {front} {back}
 ! Protoletters for xfst
-А1 ! This is the schwa or reduced vowel occurring after x in case endings
- ! -хА1на -хА1д
+А1 !! This is the schwa or reduced vowel occurring after x in case endings
+ !! -хА1на -хА1д
+А2 !! Alternating between zero and а
+
 Д1 С1 Н1 Ӈ1 ! These are proto-glottals
 Г1 В1 Е1 Е2 Ы1 ! These are for developing underlying morphology rules
 
