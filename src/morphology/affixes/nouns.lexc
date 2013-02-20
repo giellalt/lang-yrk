@@ -13,7 +13,7 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1
 +N:  PLNOMSUF ;
 +N:  PLACCSUF_Zero ;
 
-LEXICON N_Ё  !!= @CODE@ я: 2
+LEXICON N_Ё  !!= @CODE@ я:я 2
 !! [total=3]
 !! я ya	ян’ yan°h	я” yaq	ё yo
 +N:  SGNOMSUF ;
@@ -350,8 +350,8 @@ LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29
 +N:Ӈ1 SGNOMSUF ;
 +N:Ӈ1 SG-ACC-STEM ;
 +N:Ӈ1 SG-DAT-STEM ;
-+N:й PLNOMSUF ;
-+N: PLACCSUF_О ;
++N:Ӈ1 PLNOMSUF ;
++N:Ӈ1 PLACCSUF_О ;
 
 
 LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ: 30
@@ -726,7 +726,7 @@ LEXICON SG-DAT-STEM
  SGLOCSUF ;
  SGABLSUF ;
  SGTRASUF ;
-:%>в SGPROSSUF ;
+ SGPROSSUF ;
  DUNOMSUF ;
  DUACCSUF ;
  DUGENSUF ;
@@ -818,7 +818,7 @@ LEXICON PLACCSUF_О
 LEXICON PL-ACC_STEM
 +Pl+Acc:	K	;
 +Pl+Gen:ˮ	K	;
-+Pl+Pros:ˮмана 	K	;
++Pl+Pros:ˮмА2на 	K	;
  POSSESSA-PL-NOM ;
 +Pl+Acc: POSSESSA-PL-ACC ;
 +Pl+Gen:ˮ POSSESSA-PL-GEN ;
