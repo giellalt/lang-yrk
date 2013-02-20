@@ -17,6 +17,8 @@ Alphabet
  А1:о
  А1:э
 
+ А2:а
+
  Ы1:о 
  Ы1:е
 
@@ -94,9 +96,12 @@ Rules
 "у:ю VowelPalatalization"
 у:ю <=> й: %>: _ ;
 
+"А2:0 possible vowel loss as second syllable vowel"
+А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ м _ н а ; 
+
 "А1 -> а"
 А1:а <=> [[ Ӈ1: |  ʼ: | а | я | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
-
+         
 "А1 -> о"
 А1:о <=> [ о | ё ]  %> х _ ;
 
