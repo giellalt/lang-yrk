@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - хо: # Noun 'birch' - partial paradigm
+  Noun - хо: # Noun 'birch' - full paradigm
      хо+N+Sg+Nom: хо
      хо+N+Sg+Acc: хомʼ
      хо+N+Sg+Gen: хоʼ
@@ -22,7 +22,6 @@ Tests:
      хо+N+Sg+Loc: хохона
      хо+N+Sg+Abl: хоход
      хо+N+Sg+Pros: ховна
-     хо+N+Sg+Tra: хоӈэ
      хо+N+Du+Nom: хохʼ
      хо+N+Du+Acc: хохʼ
      хо+N+Du+Gen: хохʼ
@@ -33,6 +32,8 @@ Tests:
      хо+N+Pl+Loc: хохˮна
      хо+N+Pl+Abl: хохот
      хо+N+Pl+Pros: хоˮмна
+     
+     хо+N+Sg+Tra: хоӈэ
      хо+N+Pl+Tra: хоˮӈэ
 
 # Possessive forms 
@@ -196,7 +197,36 @@ Tests:
      хо+N+Pl+Pros+PxPl2: хоˮманатаˮ
      хо+N+Pl+Pros+PxPl3: хоˮманатоʼ
 
-# Predestinative !Should be added
+# Predestinative
+
+     хо+N+Pred+Nom+PxSg1: ходав 
+     хо+N+Pred+Nom+PxSg2: ходар  
+     хо+N+Pred+Nom+PxSg3: хода 
+     хо+N+Pred+Acc+PxSg1: ходав
+     хо+N+Pred+Acc+PxSg2: ходамд
+     хо+N+Pred+Acc+PxSg3: ходамда
+     хо+N+Pred+Gen+PxSg1: ходан
+     хо+N+Pred+Gen+PxSg2: ходанд
+     хо+N+Pred+Gen+PxSg3: ходанда
+     хо+N+Pred+Nom+PxDu1: ходамиʼ
+     хо+N+Pred+Nom+PxDu2: ходариʼ
+     хо+N+Pred+Nom+PxDu3: ходадиʼ
+     хо+N+Pred+Acc+PxDu1: ходамиʼ
+     хо+N+Pred+Acc+PxDu2: ходамдиʼ
+     хо+N+Pred+Acc+PxDu3: ходамдиʼ
+     хо+N+Pred+Gen+PxDu1: ходаниʼ
+     хо+N+Pred+Gen+PxDu2: ходандиʼ
+     хо+N+Pred+Gen+PxDu3: ходандиʼ
+     хо+N+Pred+Nom+PxPl1: ходаваˮ
+     хо+N+Pred+Nom+PxPl2: ходараˮ
+     хо+N+Pred+Nom+PxPl3: ходадоʼ
+     хо+N+Pred+Acc+PxPl1: ходаваˮ
+     хо+N+Pred+Acc+PxPl2: ходамдаˮ
+     хо+N+Pred+Acc+PxPl3: ходамдоʼ
+     хо+N+Pred+Gen+PxPl1: ходанаˮ
+     хо+N+Pred+Gen+PxPl2: ходандаˮ
+     хо+N+Pred+Gen+PxPl3: ходандоʼ
+     
 # Predicative (Nominal conjugation)
 
      хо+N+Nom+Der/Pr+Ind+Aor+ScSg1: [ходмʼ, хомʼ]
@@ -268,7 +298,7 @@ Tests:
      хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg1: хонась
      хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg2: ходась
      хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg3: ходась
-     хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu1: хон инзь
+     хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu1: хонинзь
      хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu2: ходинзь
      хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu3: ходинзь
      хо+N+Pl+Nom+Der/Pr+Ind+Prt1+PxPl1: хонаць
