@@ -65,6 +65,10 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
 And following triggers to control variation
+This is the schwa or reduced vowel occurring after x in case endings
+-хА1на -хА1д
+Alternating between zero and а
+
 
 Initially this is used for the noun "я" to enable a:o
 for я:и in пя
@@ -106,7 +110,7 @@ Nenets nouns inflect in cases.
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 
- LEXICON N_Ё   я: 2
+ LEXICON N_Ё   я:я 2
 [total=3]
 я ya	ян’ yan°h	я” yaq	ё yo
 
