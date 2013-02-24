@@ -6,7 +6,7 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l>вэвавна</l>
+      <l pos="ADV">вэвавна</l>
 
       <stg>
         <st Contlex="AdvManner">вэвавна</st>
@@ -22,19 +22,19 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>poorly</t>
       </tg>
 
-      <tg lang="est">
+      <tg xml:lang="est">
         <t pos="ADV">kehvasti</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>huonosti</t>
       </tg>
 
-      <tg lang="rus">
+      <tg xml:lang="rus">
         <t>плохо</t>
       </tg>
     </mg>
@@ -44,7 +44,7 @@
 
   <e>
     <lg>
-      <l>лакриʼ</l>
+      <l pos="ADV">лакриʼ</l>
 
       <stg>
         <st Contlex="AdvManner">лакриʼ</st>
@@ -60,11 +60,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>suddenly</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>äkkiä</t>
       </tg>
     </mg>
@@ -72,7 +72,7 @@
 
   <e>
     <lg>
-      <l>лэркабтʼ</l>
+      <l pos="ADV">лэркабтʼ</l>
 
       <stg>
         <st Contlex="AdvManner">лэркабтʼ</st>
@@ -88,11 +88,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>suddenly</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>äkkiä</t>
       </tg>
     </mg>
@@ -100,7 +100,7 @@
 
   <e>
     <lg>
-      <l>мерʼ</l>
+      <l pos="ADV">мерʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">мерʼ</st>
@@ -116,11 +116,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>early</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>aikaisin, pian</t>
       </tg>
     </mg>
@@ -128,7 +128,7 @@
 
   <e>
     <lg>
-      <l>минханда</l>
+      <l pos="ADV">минханда</l>
 
       <stg>
         <st Contlex="AdvTemp">минханда</st>
@@ -144,11 +144,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>at once</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>heti</t>
       </tg>
     </mg>
@@ -156,7 +156,7 @@
 
   <e>
     <lg>
-      <l>нябинзерʼ</l>
+      <l pos="ADV">нябинзерʼ</l>
 
       <stg>
         <st Contlex="AdvManner">нябинзерʼ</st>
@@ -172,11 +172,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>otherwise</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>toisin</t>
       </tg>
     </mg>
@@ -184,7 +184,7 @@
 
   <e>
     <lg>
-      <l>ӈаниʼ</l>
+      <l pos="ADV">ӈаниʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">ӈаниʼ</st>
@@ -200,11 +200,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>again</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>taas</t>
       </tg>
     </mg>
@@ -212,7 +212,7 @@
 
   <e>
     <lg>
-      <l>ӈобкад</l>
+      <l pos="ADV">ӈобкад</l>
 
       <stg>
         <st Contlex="AdvTemp">ӈобкад</st>
@@ -228,11 +228,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>often</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>usein</t>
       </tg>
     </mg>
@@ -240,7 +240,7 @@
 
   <e>
     <lg>
-      <l>ӈобпиняʼ</l>
+      <l pos="ADV">ӈобпиняʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">ӈобпиняʼ</st>
@@ -256,11 +256,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>continuously</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>jatkuvasti</t>
       </tg>
     </mg>
@@ -268,7 +268,7 @@
 
   <e>
     <lg>
-      <l>ӈодьˮ</l>
+      <l pos="ADV">ӈодьˮ</l>
 
       <stg>
         <st Contlex="AdvManner">ӈодьˮ</st>
@@ -284,11 +284,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>barely</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>tuskin</t>
       </tg>
     </mg>
@@ -296,7 +296,7 @@
 
   <e>
     <lg>
-      <l>ӈокавна</l>
+      <l pos="ADV">ӈокавна</l>
 
       <stg>
         <st Contlex="AdvManner">ӈокавна</st>
@@ -312,11 +312,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>a lot</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>paljon</t>
       </tg>
     </mg>
@@ -324,7 +324,7 @@
 
   <e>
     <lg>
-      <l>ӈокаʼ</l>
+      <l pos="ADV">ӈокаʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">ӈокаʼ</st>
@@ -340,11 +340,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>often</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>usein</t>
       </tg>
     </mg>
@@ -352,7 +352,7 @@
 
   <e>
     <lg>
-      <l>ӈоˮ</l>
+      <l pos="ADV">ӈоˮ</l>
 
       <stg>
         <st Contlex="AdvManner">ӈоˮ</st>
@@ -368,11 +368,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>too</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>myös</t>
       </tg>
     </mg>
@@ -380,7 +380,7 @@
 
   <e>
     <lg>
-      <l>ӈулиˮ</l>
+      <l pos="ADV">ӈулиˮ</l>
 
       <stg>
         <st Contlex="AdvManner">ӈулиˮ</st>
@@ -396,11 +396,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>totally</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>täysin, aivan</t>
       </tg>
     </mg>
@@ -408,7 +408,7 @@
 
   <e>
     <lg>
-      <l>пиʼ</l>
+      <l pos="ADV">пиʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">пиʼ</st>
@@ -424,11 +424,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>at night</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>yöllä</t>
       </tg>
     </mg>
@@ -436,7 +436,7 @@
 
   <e>
     <lg>
-      <l>пилиˮ</l>
+      <l pos="ADV">пилиˮ</l>
 
       <stg>
         <st Contlex="AdvTemp">пилиˮ</st>
@@ -452,11 +452,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>always</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>aina</t>
       </tg>
     </mg>
@@ -464,7 +464,7 @@
 
   <e>
     <lg>
-      <l>понʼ</l>
+      <l pos="ADV">понʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">понʼ</st>
@@ -480,11 +480,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>long</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kauan</t>
       </tg>
     </mg>
@@ -492,7 +492,7 @@
 
   <e>
     <lg>
-      <l>сабе</l>
+      <l pos="ADV">сабе</l>
 
       <stg>
         <st Contlex="AdvManner">сабе</st>
@@ -508,11 +508,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>very</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>erittäin</t>
       </tg>
     </mg>
@@ -520,7 +520,7 @@
 
   <e>
     <lg>
-      <l>сававна</l>
+      <l pos="ADV">сававна</l>
 
       <stg>
         <st Contlex="AdvManner">сававна</st>
@@ -536,11 +536,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>well</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>hyvin</t>
       </tg>
     </mg>
@@ -548,7 +548,7 @@
 
   <e>
     <lg>
-      <l>саць</l>
+      <l pos="ADV">саць</l>
 
       <stg>
         <st Contlex="AdvManner">саць</st>
@@ -564,11 +564,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>very</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>hyvin, erittäin</t>
       </tg>
     </mg>
@@ -576,7 +576,7 @@
 
   <e>
     <lg>
-      <l>сэвъилиˮ</l>
+      <l pos="ADV">сэвъилиˮ</l>
 
       <stg>
         <st Contlex="AdvManner">сэвъилиˮ</st>
@@ -592,11 +592,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>in vain</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>turhaan</t>
       </tg>
     </mg>
@@ -604,7 +604,7 @@
 
   <e>
     <lg>
-      <l>сяхаʼ</l>
+      <l pos="ADV">сяхаʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">сяхаʼ</st>
@@ -620,11 +620,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>when</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>milloin</t>
       </tg>
     </mg>
@@ -632,7 +632,7 @@
 
   <e>
     <lg>
-      <l>тале</l>
+      <l pos="ADV">тале</l>
 
       <stg>
         <st Contlex="AdvManner">тале</st>
@@ -648,11 +648,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>secretly</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>salaa</t>
       </tg>
     </mg>
@@ -660,7 +660,7 @@
 
   <e>
     <lg>
-      <l>тамна</l>
+      <l pos="ADV">тамна</l>
 
       <stg>
         <st Contlex="AdvTemp">тамна</st>
@@ -676,11 +676,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>still</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>vielä</t>
       </tg>
     </mg>
@@ -688,7 +688,7 @@
 
   <e>
     <lg>
-      <l>таняна</l>
+      <l pos="ADV">таняна</l>
 
       <stg>
         <st Contlex="AdvLoc">таняна</st>
@@ -704,11 +704,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>there</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>siellä</t>
       </tg>
     </mg>
@@ -716,7 +716,7 @@
 
   <e>
     <lg>
-      <l>таремʼ</l>
+      <l pos="ADV">таремʼ</l>
 
       <stg>
         <st Contlex="AdvManner">таремʼ</st>
@@ -732,11 +732,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>so</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>niin</t>
       </tg>
     </mg>
@@ -744,7 +744,7 @@
 
   <e>
     <lg>
-      <l>тедаʼ</l>
+      <l pos="ADV">тедаʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">тедаʼ</st>
@@ -760,11 +760,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>now</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>nyt</t>
       </tg>
     </mg>
@@ -772,7 +772,7 @@
 
   <e>
     <lg>
-      <l>теняна</l>
+      <l pos="ADV">теняна</l>
 
       <stg>
         <st Contlex="AdvTemp">теняна</st>
@@ -788,11 +788,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>yesterday</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>eilen</t>
       </tg>
     </mg>
@@ -800,7 +800,7 @@
 
   <e>
     <lg>
-      <l>тидпойˮ</l>
+      <l pos="ADV">тидпойˮ</l>
 
       <stg>
         <st Contlex="AdvLoc">тидпойˮ</st>
@@ -816,11 +816,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t/>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>suoraan</t>
       </tg>
     </mg>
@@ -828,7 +828,7 @@
 
   <e>
     <lg>
-      <l>тюкона</l>
+      <l pos="ADV">тюкона</l>
 
       <stg>
         <st Contlex="AdvLoc">тюкона</st>
@@ -844,11 +844,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>here</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>täällä</t>
       </tg>
     </mg>
@@ -856,7 +856,7 @@
 
   <e>
     <lg>
-      <l>тюкохона</l>
+      <l pos="ADV">тюкохона</l>
 
       <stg>
         <st Contlex="AdvLoc">тюкохона</st>
@@ -872,11 +872,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>here</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>täällä</t>
       </tg>
     </mg>
@@ -884,7 +884,7 @@
 
   <e>
     <lg>
-      <l>тюку яляʼ</l>
+      <l pos="ADV">тюку яляʼ</l>
 
       <stg>
         <st Contlex="AdvTemp">тюку яляʼ</st>
@@ -900,11 +900,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>today</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>tänään</t>
       </tg>
     </mg>
@@ -914,7 +914,7 @@
 
   <e>
     <lg>
-      <l>тэри</l>
+      <l pos="ADV">тэри</l>
 
       <stg>
         <st Contlex="AdvManner">тэри</st>
@@ -930,11 +930,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>just</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>pelkästään</t>
       </tg>
     </mg>
@@ -942,7 +942,7 @@
 
   <e>
     <lg>
-      <l>тянё</l>
+      <l pos="ADV">тянё</l>
 
       <stg>
         <st Contlex="AdvManner">тянё</st>
@@ -958,11 +958,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>few</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>vähän</t>
       </tg>
     </mg>
@@ -970,7 +970,7 @@
 
   <e>
     <lg>
-      <l>хадриʼ</l>
+      <l pos="ADV">хадриʼ</l>
 
       <stg>
         <st Contlex="AdvManner">хадриʼ</st>
@@ -986,11 +986,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>of course</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>tietysti</t>
       </tg>
     </mg>
@@ -998,7 +998,7 @@
 
   <e>
     <lg>
-      <l>ханзерˮ</l>
+      <l pos="ADV">ханзерˮ</l>
 
       <stg>
         <st Contlex="AdvManner">ханзерˮ</st>
@@ -1014,11 +1014,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>how</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>miten</t>
       </tg>
     </mg>
@@ -1026,7 +1026,7 @@
 
   <e>
     <lg>
-      <l>ханяна</l>
+      <l pos="ADV">ханяна</l>
 
       <stg>
         <st Contlex="AdvLoc">ханяна</st>
@@ -1042,11 +1042,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>where</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>missä</t>
       </tg>
     </mg>
@@ -1054,7 +1054,7 @@
 
   <e>
     <lg>
-      <l>хуняна</l>
+      <l pos="ADV">хуняна</l>
 
       <stg>
         <st Contlex="AdvTemp">хуняна</st>
@@ -1070,11 +1070,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>tomorrow</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>huomenna, aamulla</t>
       </tg>
     </mg>

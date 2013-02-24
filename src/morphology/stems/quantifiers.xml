@@ -6,7 +6,7 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l>ӈопой</l>
+      <l pos="NUM">ӈопой</l>
 
       <stg>
         <st Contlex="Num-Cons">ӈопой</st>
@@ -24,11 +24,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>one</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>yksi</t>
       </tg>
     </mg>
@@ -38,7 +38,7 @@
 
   <e>
     <lg>
-      <l>сидя</l>
+      <l pos="NUM">сидя</l>
 
       <stg>
         <st Contlex="Num-Vow">сидя</st>
@@ -54,11 +54,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>two</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kaksi</t>
       </tg>
     </mg>
@@ -68,7 +68,7 @@
 
   <e>
     <lg>
-      <l>няхарˮ</l>
+      <l pos="NUM">няхарˮ</l>
 
       <stg>
         <st Contlex="Num-N">няхар</st>
@@ -84,11 +84,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>three</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kolme</t>
       </tg>
     </mg>
@@ -98,7 +98,7 @@
 
   <e>
     <lg>
-      <l>тет</l>
+      <l pos="NUM">тет</l>
 
       <stg>
         <st Contlex="Num-Cons">тет</st>
@@ -114,11 +114,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>four</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>neljä</t>
       </tg>
     </mg>
@@ -128,7 +128,7 @@
 
   <e>
     <lg>
-      <l>самляӈг</l>
+      <l pos="NUM">самляӈг</l>
 
       <stg>
         <st Contlex="Num-Cons">самляӈг</st>
@@ -144,11 +144,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>five</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>viisi</t>
       </tg>
     </mg>
@@ -158,7 +158,7 @@
 
   <e>
     <lg>
-      <l>матˮ</l>
+      <l pos="NUM">матˮ</l>
 
       <stg>
         <st Contlex="Num-D">матД1</st>
@@ -174,11 +174,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>six</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kuusi</t>
       </tg>
     </mg>
@@ -188,7 +188,7 @@
 
   <e>
     <lg>
-      <l>сиˮив</l>
+      <l pos="NUM">сиˮив</l>
 
       <stg>
         <st Contlex="Num-Cons">сиˮив</st>
@@ -204,11 +204,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>seven</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>seitsemän</t>
       </tg>
     </mg>
@@ -218,7 +218,7 @@
 
   <e>
     <lg>
-      <l>сидндет</l>
+      <l pos="NUM">сидндет</l>
 
       <stg>
         <st Contlex="Num-Cons">сидндет</st>
@@ -234,11 +234,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>eight</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kahdeksan</t>
       </tg>
     </mg>
@@ -248,7 +248,7 @@
 
   <e>
     <lg>
-      <l>хасуюˮ</l>
+      <l pos="NUM">хасуюˮ</l>
 
       <stg>
         <st Contlex="Num-D">хасуюˮ</st>
@@ -264,11 +264,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>nine</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>yhdeksän</t>
       </tg>
     </mg>
@@ -278,7 +278,7 @@
 
   <e>
     <lg>
-      <l>юˮ</l>
+      <l pos="NUM">юˮ</l>
 
       <stg>
         <st Contlex="Num-D">юД1</st>
@@ -294,11 +294,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>ten</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kymmenen</t>
       </tg>
     </mg>
@@ -308,7 +308,7 @@
 
   <e>
     <lg>
-      <l>юрˮ</l>
+      <l pos="NUM">юрˮ</l>
 
       <stg>
         <st Contlex="Num-Cons">юр</st>
@@ -324,11 +324,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>hundred</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>sata</t>
       </tg>
     </mg>
@@ -338,7 +338,7 @@
 
   <e>
     <lg>
-      <l>ёнарˮ</l>
+      <l pos="NUM">ёнарˮ</l>
 
       <stg>
         <st Contlex="Num-Cons">ёнар</st>
@@ -354,11 +354,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>thousand</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>tuhat</t>
       </tg>
     </mg>
@@ -368,7 +368,7 @@
 
   <e exclude="fst">
     <lg>
-      <l>ӈобˮ яӈгня</l>
+      <l pos="NUM">ӈобˮ яӈгня</l>
 
       <stg>
         <st Contlex="Num-Vow">ӈобˮ яӈгня</st>
@@ -384,11 +384,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>eleven</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>yksitoista</t>
       </tg>
     </mg>
@@ -398,7 +398,7 @@
 
   <e exclude="fst">
     <lg>
-      <l>сидя яӈгня</l>
+      <l pos="NUM">сидя яӈгня</l>
 
       <stg>
         <st Contlex="Num-Vow">сидя яӈгня</st>
@@ -414,11 +414,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>twelve</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>kaksitoista</t>
       </tg>
     </mg>
@@ -428,7 +428,7 @@
 
   <e>
     <lg>
-      <l>яӈгня</l>
+      <l pos="NUM">яӈгня</l>
 
       <stg>
         <st Contlex="Num-Vow">яӈгня</st>
@@ -444,11 +444,11 @@
         <defNative/>
       </m>
 
-      <tg lang="eng">
+      <tg xml:lang="eng">
         <t>-teen</t>
       </tg>
 
-      <tg lang="fin">
+      <tg xml:lang="fin">
         <t>-toista</t>
       </tg>
     </mg>
