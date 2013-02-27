@@ -688,14 +688,14 @@
 
   <e>
     <lg>
-      <l pos="V">ехэрась</l>
+      <l pos="VT">ехэрась</l>
 
       <stg>
-        <st Contlex="V_ХАДА">ехэра</st>
+        <st Contlex="VT_ИЛЕ">ехэра</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>VT</pos>
 
     <mg>
       <m>
@@ -804,14 +804,14 @@
 
   <e>
     <lg>
-      <l pos="V">илесь</l>
+      <l pos="VI">илесь</l>
 
       <stg>
-        <st Contlex="VI_ИЛЕ">иле</st>
+        <st Contlex="VI_ИЛЕ-Pal/Var">иле</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>VI</pos>
 
     <mg>
       <m>
@@ -1405,42 +1405,14 @@
 
   <e>
     <lg>
-      <l pos="V">манзарась</l>
+      <l pos="VI">манзь</l>
 
       <stg>
-        <st Contlex="V_ИЛЕ">манзара</st>
+        <st Contlex="VI_МАН">маН1</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t>to arrive</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t>saapua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">манзь</l>
-
-      <stg>
-        <st Contlex="V_МАН">маН1</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
+    <pos>VI</pos>
 
     <mg>
       <m>
@@ -1454,7 +1426,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="V">sanoa</t>
+        <t pos="VI">sanoa</t>
       </tg>
     </mg>
   </e>
@@ -1725,10 +1697,10 @@
 
   <e>
     <lg>
-      <l pos="V">минзь</l>
+      <l pos="VI">минзь</l>
 
       <stg>
-        <st Contlex="V_МИН">миН1</st>
+        <st Contlex="VI_МИН-Pal/Var">миН1</st>
       </stg>
     </lg>
 
@@ -1901,34 +1873,6 @@
 
       <tg xml:lang="fin">
         <t pos="VT">antaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">миць</l>
-
-      <stg>
-        <st Contlex="V_МИС">миС1</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="V">give</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="V">antaa</t>
       </tg>
     </mg>
   </e>
@@ -2127,36 +2071,6 @@
 
       <tg xml:lang="fin">
         <t pos="VT">ottaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">мэсь</l>
-
-      <stg>
-        <st Contlex="V_МЭ">мэ</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t>to be located ([anim])</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t>olla (jossakin, elollisesta)</t>
-
-        <t>ottaa</t>
       </tg>
     </mg>
   </e>
@@ -4231,28 +4145,6 @@
 
   <e>
     <lg>
-      <l pos="V">сертась</l>
-
-      <stg>
-        <st Contlex="V_ХАДА">серта</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t>tehdä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="VI">сеӈгась</l>
 
       <stg>
@@ -5486,38 +5378,10 @@
 
   <e>
     <lg>
-      <l pos="V">тось</l>
+      <l pos="VI">тоходанась</l>
 
       <stg>
-        <st Contlex="V_ТО">то</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t>to arrive</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">тоходанась</l>
-
-      <stg>
-        <st Contlex="V_ЛАХАНА">тоходана</st>
+        <st Contlex="VI_ЛАХАНА">тоходана</st>
       </stg>
     </lg>
 
@@ -5535,7 +5399,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t>opiskella</t>
       </tg>
     </mg>
   </e>
@@ -6026,14 +5890,14 @@
 
   <e>
     <lg>
-      <l pos="V">тюсь</l>
+      <l pos="VI">тюсь</l>
 
       <stg>
-        <st Contlex="V_Е">тю</st>
+        <st Contlex="VI_НУ-Pal/Var">тю</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>VI</pos>
 
     <mg>
       <m>
@@ -6246,34 +6110,6 @@
 
       <tg xml:lang="fin">
         <t pos="VT">tappaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">хадась</l>
-
-      <stg>
-        <st Contlex="V_ХАДА">хада</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="V">kill</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="V">tappaa</t>
       </tg>
     </mg>
   </e>
@@ -6654,14 +6490,14 @@
 
   <e>
     <lg>
-      <l pos="V">харвась</l>
+      <l pos="VI">харвась</l>
 
       <stg>
-        <st Contlex="V_ИЛЕ">харва</st>
+        <st Contlex="VI_ИЛЕ">харва</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>VI</pos>
 
     <mg>
       <m>
@@ -6992,10 +6828,10 @@
 
   <e>
     <lg>
-      <l pos="V">хось</l>
+      <l pos="VT">хось</l>
 
       <stg>
-        <st Contlex="V_ХО">хо</st>
+        <st Contlex="VT_НУ">хо</st>
       </stg>
     </lg>
 
@@ -7086,14 +6922,14 @@
 
   <e>
     <lg>
-      <l pos="V">хыноць</l>
+      <l pos="VI">хыноць</l>
 
       <stg>
-        <st Contlex="V_САС">хыноС1</st>
+        <st Contlex="VI_САС">хыноС1</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>VI</pos>
 
     <mg>
       <m>
@@ -7136,14 +6972,14 @@
 
   <e>
     <lg>
-      <l pos="V">хэсь</l>
+      <l pos="VI">хэсь</l>
 
       <stg>
-        <st Contlex="V_ХЭ">хэ</st>
+        <st Contlex="VI_ХЭ">хэ</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>VI</pos>
 
     <mg>
       <m>
@@ -7157,7 +6993,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="V">poistua</t>
+        <t pos="VI">poistua</t>
 
         <t pos="PHRASE_V">mennä pois</t>
       </tg>
@@ -7380,34 +7216,6 @@
 
       <tg xml:lang="fin">
         <t pos="VT">tavata, kohdata</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V">ядабтась</l>
-
-      <stg>
-        <st Contlex="V_ХАДА">ядабта</st>
-      </stg>
-    </lg>
-
-    <pos>V</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t>to meet</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t>tavata</t>
       </tg>
     </mg>
   </e>
@@ -8646,14 +8454,14 @@
 
   <e>
     <lg>
-      <l pos="V">ӈэсь</l>
+      <l pos="VI">ӈэсь</l>
 
       <stg>
-        <st Contlex="V_ӇЭ">ӈэ</st>
+        <st Contlex="VI_ӇЭ">ӈэ</st>
       </stg>
     </lg>
 
-    <pos>V</pos>
+    <pos>VI</pos>
 
     <mg>
       <m>
