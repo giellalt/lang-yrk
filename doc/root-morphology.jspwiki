@@ -35,6 +35,10 @@ Other verb forms are
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
+auxilliary verb
+reflexive verbs
+
+
 Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
@@ -70,6 +74,10 @@ in combination with stem-final vowel loss
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
+
+Object conjugation
+
+
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
