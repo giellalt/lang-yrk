@@ -2,73 +2,14 @@
 !! ---------------
 !! Nenets verbs inflect in persons.
 
-LEXICON V_Obj
-+V+Ind+Aor+ScSg1+OcSg3:в K ;
-+V+Ind+Aor+ScSg2+OcSg3:р K ;
-+V+Ind+Aor+ScSg3+OcSg3:да K ;
-+V+Ind+Aor+ScDu1+OcSg3:миʼ K ;
-+V+Ind+Aor+ScDu2+OcSg3:риʼ K ;
-+V+Ind+Aor+ScDu3+OcSg3:диʼ K ;
-+V+Ind+Aor+ScPl1+OcSg3:ваˮ K ;
-+V+Ind+Aor+ScPl2+OcSg3:раˮ K ;
-+V+Ind+Aor+ScPl3+OcSg3:доʼ K ;
+LEXICON VI_ВАДЮ
++V+IV: V-01_ВАДЮ       ;
 
-+V+Ind+Aor+ScSg1+OcDu3:ӈахаюн K ;
-+V+Ind+Aor+ScSg2+OcDu3:ӈахаюд K ;
-+V+Ind+Aor+ScSg3+OcDu3:ӈахаюда K ;
-+V+Ind+Aor+ScDu1+OcDu3:ӈахаюниʼ K ;
-+V+Ind+Aor+ScDu2+OcDu3:ӈахаюдиʼ K ;
-+V+Ind+Aor+ScDu3+OcDu3:ӈахаюдиʼ K ;
-+V+Ind+Aor+ScPl1+OcDu3:ӈахаюнаˮ K ;
-+V+Ind+Aor+ScPl2+OcDu3:ӈахаюдаˮ K ;
-+V+Ind+Aor+ScPl3+OcDu3:ӈахаюдоʼ K ;
-
-+V+Ind+Aor+ScSg1+OcPl3:ян K ;
-+V+Ind+Aor+ScSg2+OcPl3:яд K ;
-+V+Ind+Aor+ScSg3+OcPl3:яда K ;
-+V+Ind+Aor+ScDu1+OcPl3:яниʼ K ;
-+V+Ind+Aor+ScDu2+OcPl3:ядиʼ K ;
-+V+Ind+Aor+ScDu3+OcPl3:ядиʼ K ;
-+V+Ind+Aor+ScPl1+OcPl3:янаˮ K ;
-+V+Ind+Aor+ScPl2+OcPl3:ядаˮ K ;
-+V+Ind+Aor+ScPl3+OcPl3:ядоʼ K ;
-
-LEXICON V_refl
-+V+Ind+Aor+RcSg1:вˮ K ;
-+V+Ind+Aor+RcSg2:н K ;
-+V+Ind+Aor+RcSg3:ˮ K ;
-+V+Ind+Aor+RcDu1:ниʼ K ;
-+V+Ind+Aor+RcDu2:диʼ K ;
-+V+Ind+Aor+RcDu3:хаʼ K ;
-+V+Ind+Aor+RcPl1:наˮ K ;
-+V+Ind+Aor+RcPl2:даˮ K ;
-+V+Ind+Aor+RcPl3:дˮ K ;
+LEXICON VI_Е
++V+IV: V-01_Е ;
 
 LEXICON VI_ИЛЕ
-+V: V_Hort ;
-+V: V_Imprt ;
-+V: V_Opt ;
-+V: V_Subord ;
- V_Conj ;
-+V: V_Mod/appr ;
-+V: V_Mod/des ;
-+V: V_Mod/futappr ;
-+V: V_Mod/hyp ;
-+V: V_Mod/int ;
-+V: V_Mod/narr ;
-+V: V_Mod/narrPrt ;
-+V: V_Mod/nec ;
-+V: V_Mod/perfprob ;
-+V: V_Mod/prob ;
-+V: V_Mod/perfappr ;
-+V: V_Mod/obl ;
-+V: V_Mod/rep ;
-+V: V_Mod/sup ;
-
-+V:	IND-AOR		;
-+V:  IND-AOR-SG3 	;
-+V:  IND-PRT1		;
-+V: PRC ;
++V+IV: V-01_ИЛЕ	;
 
 !+V+Ind+Prt1+ScSg1:дамзь K ;
 !!+Use/Sub+V+Ind+Prt1+ScSg1:манзь K ;
@@ -83,37 +24,188 @@ LEXICON VI_ИЛЕ
 !+V+Ind+Prt1+ScPl2:даць K ;
 !+V+Ind+Prt1+ScPl3:ць K ;
 
-LEXICON VT_ИЛЕ
- V_Obj ;
-+V: V_Hort ;
-+V: V_Imprt ;
-+V: V_Opt ;
-+V: V_Subord ;
- V_Conj ;
-+V: V_Mod/appr ;
-+V: V_Mod/des ;
-+V: V_Mod/futappr ;
-+V: V_Mod/hyp ;
-+V: V_Mod/int ;
-+V: V_Mod/narr ;
-+V: V_Mod/narrPrt ;
-+V: V_Mod/nec ;
-+V: V_Mod/perfprob ;
-+V: V_Mod/prob ;
-+V: V_Mod/perfappr ;
-+V: V_Mod/obl ;
-+V: V_Mod/rep ;
-+V: V_Mod/sup ;
+LEXICON VI_ИЛЕ-Pal/Var !! Work needed for variation 2013-03-04
++V+IV: V-01_ИЛЕ ;
 
-+V:	IND-AOR		;
-+V:  IND-AOR-SG3 	;
-+V:  IND-PRT1		;
-+V: PRC ;
+LEXICON VR_ИЛЕ
++V+VR: V-01_ИЛЕ-REFL	;
+
+LEXICON VT_ИЛЕ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ИЛЕ	;
+
+
+LEXICON VI_ЛАХАНА
++V+IV: V-01_ЛАХАНА       ;
+
+LEXICON VI_ЛАХАНА-Pal/Var
++V+IV: V-01_ЛАХАНА       ;
+
+LEXICON VR_ЛАХАНА
++V+VR: V-01_ЛАХАНА-REFL       ;
+
+LEXICON VT_ЛАХАНА
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
+
+LEXICON VT_ЛАХАНА-Pal/Var
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
+
+LEXICON VI_МАН
++V+IV: V-01_МАН       ;
+
+LEXICON VI_МИН
++V+IV: V-01_МИН       ;
+
+LEXICON VI_МИН-Pal/Var
++V+IV: V-01_МИН       ;
+
+LEXICON VT_МИН
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_МИН       ;
+
+LEXICON VI_МЭ
++V+IV: V-01_МЭ       ;
+
+LEXICON VI_МЫ
++V+IV: V-01_МЫ       ;
+
+LEXICON VT_МЫ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_МЫ       ;
+
+LEXICON VA_НЁ
++V+VA: V-01_НЁ       ;
+
+LEXICON VA_НИ
++V+VA: V-01_НИ       ;
+
+LEXICON VI_НИ
++V+IV: V-01_НИ       ;
+
+LEXICON VI_НО
++V+IV: V-01_НО       ;
+
+LEXICON VI_НУ
++V+IV: V-01_НУ       ;
+
+LEXICON VI_НУ-Pal/Var
++V+IV: V-01_НУ       ;
+
+LEXICON VR_НУ
++V+VR: V-01_НУ-REFL       ;
+
+LEXICON VR_НУ-Pal/Var
++V+VR: V-01_НУ-REFL       ;
+
+LEXICON VT_НУ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_НУ       ;
+
+LEXICON VI_НУ/ТУ
++V+IV: V-01_НУ/ТУ       ;
+
+LEXICON VI_НЭКАЛ
++V+IV: V-01_НЭКАЛ       ;
+
+LEXICON VI_ӇАДИМ
++V+IV: V-01_ӇАДИМ       ;
+
+LEXICON VR_ӇАРАМ
++V+VR: V-01_ӇАРАМ-REFL	;
+
+LEXICON VI_ӇАРАМ
++V+IV: V-01_ӇАРАМ       ;
+
+LEXICON VT_ӇАРАМ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ӇАРАМ	;
+
+LEXICON VI_ӇЭ
++V+IV: V-01_ӇЭ       ;
+
+LEXICON VI_ӇЭ-Pal/Var
++V+IV: V-01_ӇЭ       ;
+
+LEXICON VI_ӇЭСУ
++V+IV: V-01_ӇЭСУ       ;
+
+LEXICON VT_ӇЭСУ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ӇЭСУ       ;
+
+LEXICON VI_ПЭБЮ
++V+IV: V-01_ПЭБЮ       ;
+
+LEXICON VI_ПЭБЮ-Pal/Var
++V+IV: V-01_ПЭБЮ       ;
+
+LEXICON VT_ПЭБЮ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ПЭБЮ       ;
+
+LEXICON VI_САС
++V+IV: V-01_САС       ;
+
+LEXICON VR_САС
++V+VR: V-01_САС-REFL       ;
+
+LEXICON VT_САС
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_САС       ;
+
+LEXICON VT_САС-Pal/Var
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_САС       ;
+
+LEXICON VI_СЯНАКУ
++V+IV: V-01_СЯНАКУ       ;
+
+LEXICON VI_ТИР
++V+IV: V-01_ТИР       ;
+
+LEXICON VI_ТИР-Pal/Var
++V+IV: V-01_ТИР       ;
+
+LEXICON VR_ТИР
++V+VR: V-01_ТИР-REFL       ;
+
+LEXICON VT_ТИР
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТИР       ;
+
+LEXICON VT_ТИР-Pal/Var
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТИР       ;
+
+
+LEXICON VI_ТО
++V+IV: V-01_ТО       ;
+
+LEXICON VI_ТУ
++V+IV: V-01_ТУ       ;
+
+LEXICON VT_ТУ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТУ       ;
+
+LEXICON VI_ХАДА
++V+IV: V-01_ХАДА       ;
+
+LEXICON VI_ХЭ
++V+IV: V-01_ХЭ       ;
+
+LEXICON VI_ЮХУ
++V+IV: V-01_ЮХУ       ;
+
+LEXICON VT_ЮХУ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЮХУ       ;
+
+
+
+LEXICON VI_ЯˮАВЛУ
++V+IV: V-01_ЯˮАВЛУ      ;
+
+LEXICON VI_ЯˮАВЛУ-Pal/Var
++V+IV: V-01_ЯˮАВЛУ	; !! more work to be done with -Pal/Var 2013-03-04
+
+LEXICON VR_ЯˮАВЛУ
++V+VR: V-01_ЯˮАВЛУ-REFL      ;
+
+LEXICON VT_ЯˮАВЛУ
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
 
 LEXICON V-S
- V_Obj ;
- V_refl ;
+@R.CONJ.ObjAll@ V_Obj ;
+! V_refl ;
  V_Mod/int ;
  V_Conj ;
 +V:     IND-AOR         ;
@@ -123,7 +215,7 @@ LEXICON V-S
 
 LEXICON V-Ny
  V_Obj ;
- V_refl ;
+! V_refl ;
  V_Mod/int ;
  V_Conj ;
 +V:     IND-AOR         ;
@@ -148,6 +240,877 @@ LEXICON V-Ny
 +V+Part+Impеrf:да K ;
 +V+Part+Pеrf:вы K ;
 +V+Conneg:йˮ K ; !Н1  > ø
+
+
+!! after +TV, +IV, +VA, +VR
+LEXICON V-01_ВАДЮ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_Е
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+
+
+LEXICON V-01_ИЛЕ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+
+ IND-AOR		;
+  IND-AOR-SG3 	;
+  IND-PRT1		;
+  PRC ;
+
+LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
+LEXICON V-01_ЛАХАНА
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
+LEXICON V-01_МАН
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_МИН
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_МИС
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_МЭ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+
+LEXICON V-01_МИН
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_МЫ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_НЁ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_НИ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_НО
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_НУ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_НУ-REFL !! V_refl 2013-03-04
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
+LEXICON V-01_НУ/ТУ
+ V-01_НУ	;
+ V-01_ТУ	;
+
+LEXICON V-01_НЭКАЛ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ӇАДИМ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ӇАРАМ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ӇАРАМ-REFL !! V_refl 2013-03-04
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
+LEXICON V-01_ӇЭ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+
+LEXICON V-01_ӇЭСУ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ПЭБЮ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_САС
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_САС-REFL !! V_refl 2013-03-04
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
+
+LEXICON V-01_СЯНАКУ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ТИР
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
+LEXICON V-01_ТО
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ТУ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ХО
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ХАДА
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ХЭ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ЮХУ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ЯˮАВЛУ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
+
+LEXICON V-01_ЯˮАВЛУ-REFL !! V_refl 2013-03-04
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
+
 
 !! Mutual verbal conjugation
 LEXICON IND-AOR !! All except Sg3
@@ -188,6 +1151,124 @@ LEXICON IND-AOR-PL2
 
 LEXICON IND-AOR-PL3
 +Ind+Aor+ScPl3:ˮ K ;
+
+LEXICON IND-AOR-RCSG1
++Ind+Aor+RcSg1:вˮ K ;
+
+LEXICON IND-AOR-RCSG2
++Ind+Aor+RcSg2:н K ;
+
+LEXICON IND-AOR-RCSG3
++Ind+Aor+RcSg3:ˮ K ;
+
+LEXICON IND-AOR-RCDU1
++Ind+Aor+RcDu1:ниʼ K ;
+
+LEXICON IND-AOR-RCDU2
++Ind+Aor+RcDu2:диʼ K ;
+
+LEXICON IND-AOR-RCDU3
++Ind+Aor+RcDu3:хаʼ K ;
+
+LEXICON IND-AOR-RCPL1
++Ind+Aor+RcPl1:наˮ K ;
+
+LEXICON IND-AOR-RCPL2
++Ind+Aor+RcPl2:даˮ K ;
+
+LEXICON IND-AOR-RCPL3
++Ind+Aor+RcPl3:дˮ K ;
+
+LEXICON V_Obj
+ IND-AOR-SCSG1-OCSG3 ;
+ IND-AOR-SCSG2-OCSG3 ;
+ IND-AOR-SCSG3-OCSG3 ;
+ IND-AOR-SCDU1-OCSG3 ;
+ IND-AOR-SCDU2-OCSG3 ;
+ IND-AOR-SCDU3-OCSG3 ;
+ IND-AOR-SCPL1-OCSG3 ;
+ IND-AOR-SCPL2-OCSG3 ;
+ IND-AOR-SCPL3-OCSG3 ;
+
+ IND-AOR-SCSG1-OCDU3 ;
+ IND-AOR-SCSG2-OCDU3 ;
+ IND-AOR-SCSG3-OCDU3 ;
+ IND-AOR-SCDU1-OCDU3 ;
+ IND-AOR-SCDU2-OCDU3 ;
+ IND-AOR-SCDU3-OCDU3 ;
+ IND-AOR-SCPL1-OCDU3 ;
+ IND-AOR-SCPL2-OCDU3 ;
+ IND-AOR-SCPL3-OCDU3 ;
+
+ IND-AOR-SCSG1-OCPL3 ;
+ IND-AOR-SCSG2-OCPL3 ;
+ IND-AOR-SCSG3-OCPL3 ;
+ IND-AOR-SCDU1-OCPL3 ;
+ IND-AOR-SCDU2-OCPL3 ;
+ IND-AOR-SCDU3-OCPL3 ;
+ IND-AOR-SCPL1-OCPL3 ;
+ IND-AOR-SCPL2-OCPL3 ;
+ IND-AOR-SCPL3-OCPL3 ;
+
+LEXICON IND-AOR-SCSG1-OCSG3
++Ind+Aor+ScSg1+OcSg3:в K ;
+LEXICON IND-AOR-SCSG2-OCSG3
++Ind+Aor+ScSg2+OcSg3:р K ;
+LEXICON IND-AOR-SCSG3-OCSG3
++Ind+Aor+ScSg3+OcSg3:да K ;
+LEXICON IND-AOR-SCDU1-OCSG3
++Ind+Aor+ScDu1+OcSg3:миʼ K ;
+LEXICON IND-AOR-SCDU2-OCSG3
++Ind+Aor+ScDu2+OcSg3:риʼ K ;
+LEXICON IND-AOR-SCDU3-OCSG3
++Ind+Aor+ScDu3+OcSg3:диʼ K ;
+LEXICON IND-AOR-SCPL1-OCSG3
++Ind+Aor+ScPl1+OcSg3:ваˮ K ;
+LEXICON IND-AOR-SCPL2-OCSG3
++Ind+Aor+ScPl2+OcSg3:раˮ K ;
+LEXICON IND-AOR-SCPL3-OCSG3
++Ind+Aor+ScPl3+OcSg3:доʼ K ;
+
+
+LEXICON IND-AOR-SCSG1-OCDU3
++Ind+Aor+ScSg1+OcDu3:ӈахаюн K ;
+LEXICON IND-AOR-SCSG2-OCDU3
++Ind+Aor+ScSg2+OcDu3:ӈахаюд K ;
+LEXICON IND-AOR-SCSG3-OCDU3
++Ind+Aor+ScSg3+OcDu3:ӈахаюда K ;
+LEXICON IND-AOR-SCDU1-OCDU3
++Ind+Aor+ScDu1+OcDu3:ӈахаюниʼ K ;
+LEXICON IND-AOR-SCDU2-OCDU3
++Ind+Aor+ScDu2+OcDu3:ӈахаюдиʼ K ;
+LEXICON IND-AOR-SCDU3-OCDU3
++Ind+Aor+ScDu3+OcDu3:ӈахаюдиʼ K ;
+LEXICON IND-AOR-SCPL1-OCDU3
++Ind+Aor+ScPl1+OcDu3:ӈахаюнаˮ K ;
+LEXICON IND-AOR-SCPL2-OCDU3
++Ind+Aor+ScPl2+OcDu3:ӈахаюдаˮ K ;
+LEXICON IND-AOR-SCPL3-OCDU3
++Ind+Aor+ScPl3+OcDu3:ӈахаюдоʼ K ;
+
+LEXICON IND-AOR-SCSG1-OCPL3
++Ind+Aor+ScSg1+OcPl3:ян K ;
+LEXICON IND-AOR-SCSG2-OCPL3
++Ind+Aor+ScSg2+OcPl3:яд K ;
+LEXICON IND-AOR-SCSG3-OCPL3
++Ind+Aor+ScSg3+OcPl3:яда K ;
+LEXICON IND-AOR-SCDU1-OCPL3
++Ind+Aor+ScDu1+OcPl3:яниʼ K ;
+LEXICON IND-AOR-SCDU2-OCPL3
++Ind+Aor+ScDu2+OcPl3:ядиʼ K ;
+LEXICON IND-AOR-SCDU3-OCPL3
++Ind+Aor+ScDu3+OcPl3:ядиʼ K ;
+LEXICON IND-AOR-SCPL1-OCPL3
++Ind+Aor+ScPl1+OcPl3:янаˮ K ;
+LEXICON IND-AOR-SCPL2-OCPL3
++Ind+Aor+ScPl2+OcPl3:ядаˮ K ;
+LEXICON IND-AOR-SCPL3-OCPL3
++Ind+Aor+ScPl3+OcPl3:ядоʼ K ;
+
+
 
 !! Preterite 1 # This should be for ConjPrt and NarrPrt also.
 LEXICON IND-PRT1
