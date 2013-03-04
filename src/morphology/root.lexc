@@ -111,6 +111,11 @@ Multichar_Symbols
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
  +TV +IV
+!!
+ +VA !! auxilliary verb
+ +VR !! reflexive verbs
+
+
 !! Special multiword units are analysed with:
  +Multi
 !! Non-dictionary words can be recognised with:
@@ -178,6 +183,13 @@ Multichar_Symbols
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
+
+!! Object conjugation
+@P.CONJ.ObjAll@
+@R.CONJ.ObjAll@
+@C.CONJ@
+
+
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
