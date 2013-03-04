@@ -20,7 +20,7 @@
 я́ (->) я, # Russian long vowel, accept short
 #ё (->) е, # Russian long vowel, accept je pro jo
 ы́ (->) ы, # Russian long vowel, accept short
-ю́ (->) ,ю # Russian long vowel, accept short
+ю́ (->) ю, # Russian long vowel, accept short
 ӑ (->) а, # Cyrillic short vowel, accept normal
 ӑ (->) а, # Cyrillic short vowel (precomposed), accept normal
 ӗ (->) е, # Cyrillic short vowel, accept normal
@@ -31,7 +31,7 @@
 ў (->) у, # Cyrillic short vowel (precomposed), accept normal
 я̆ (->) я, # Cyrillic short vowel, accept normal
 ю̆ (->) ю, # Cyrillic short vowel, accept normal
-э˙ (->) э, # Cyrillic vowel with dot above, accept normal
+э˙ (->) э # Cyrillic vowel with dot above, accept normal
 ;
 
 # Explanation:
