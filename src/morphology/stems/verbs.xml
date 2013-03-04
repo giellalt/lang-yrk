@@ -6,6 +6,28 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="VT">ваˮнабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ваˮнабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <tf pos="VT">panna makuulle</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">ваˮнась</l>
 
       <stg>
@@ -21,7 +43,111 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VI">maata (eläimestä)</t>
+        <tCtn>
+          <t pos="VI">maata</t>
+
+          <re>eläimestä</re>
+        </tCtn>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ваˮныбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ваˮныбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <tf pos="VR">mennä levolle</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вабтарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вабтарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <tf pos="VT">kaataa kumoon</tf>
+
+        <tf pos="VT">kaataa ulos</tf>
+
+        <tf pos="VT">kaataa pois</tf>
+
+        <t pos="VT">valuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <tf pos="VT">kaataa kumoon</tf>
+
+        <tf pos="VT">kaataa ulos</tf>
+
+        <tf pos="VT">kaataa pois</tf>
+
+        <t pos="VT">valuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">вабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">вабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">kaatua kumoon</t>
       </tg>
     </mg>
   </e>
@@ -66,6 +192,34 @@
 
       <tg xml:lang="fin">
         <t pos="VT">kasvattaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ваделабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ваделабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">taivuttaa</t>
+
+        <t pos="VT">koukistaa</t>
+
+        <t pos="VT">käyristää</t>
+
+        <tf pos="VT">panna käpertymään</tf>
       </tg>
     </mg>
   </e>
@@ -138,6 +292,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ваерайбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ваерайбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">odotta loppuun asti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">ваерась</l>
 
       <stg>
@@ -154,6 +330,116 @@
 
       <tg xml:lang="fin">
         <t pos="VI">kulua, mennä ohi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ваклабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ваклабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">aiheuttaa silmäluomien turvotusta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вамболабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вамболабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tehdä ankaraksi (kasvot)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вапелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вапелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ajaa törölle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">варкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">варкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">voittaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">васабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">васабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">sanoa ylimääräistä</t>
       </tg>
     </mg>
   </e>
@@ -226,6 +512,94 @@
 
   <e>
     <lg>
+      <l pos="VT">ваӈгабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ваӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">likistää leväten kyljellä, sivuuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ваӈгабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ваӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">väistyä syrjään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ваӈголабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ваӈголабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tehdä kumpuiseksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вомдарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вомдарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pettää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">вомзь</l>
 
       <stg>
@@ -292,6 +666,28 @@
 
   <e>
     <lg>
+      <l pos="VT">выбелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">выбелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">heittää pauhulla, kolisten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">выдарась</l>
 
       <stg>
@@ -314,6 +710,226 @@
 
   <e>
     <lg>
+      <l pos="VT">вылмелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вылмелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tehdä karkeasti, epätasaisesti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">выркаˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">выркаˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tiukentaa kireästi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">выябтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">выябта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kävellä kauas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэˮмелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэˮмелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">panna kurottamaan kaulaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэˮмолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэˮмолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kurottaa kaulaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэвулкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэвулкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pitää huonoksi, rumaksi, kurjaksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэдлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэдлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">vääristää kasvoja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэлцлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэлцлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kosteuttaa, pitää kosteana</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэлцрибтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэлцрибта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">lähteä ulos sateseen; heittää ulos (jotain märkää)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэнабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэнабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">venäyttää hieman, virittää (laulua)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">вэнаць</l>
 
       <stg>
@@ -330,6 +946,50 @@
 
       <tg xml:lang="fin">
         <t pos="VT">venyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэнолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэнолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pelästyttää, säikäyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэрабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">siirtää, viedä yli</t>
       </tg>
     </mg>
   </e>
@@ -380,6 +1040,72 @@
 
   <e>
     <lg>
+      <l pos="VT">вэрнабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэрнабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">temmata, vetää ulos</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэробтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэробта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">temmata, vetää ulos</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">вэрцабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">вэрцабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">hypätä äkkiä ulos</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">вэсэймзь</l>
 
       <stg>
@@ -396,6 +1122,94 @@
 
       <tg xml:lang="fin">
         <t pos="VI">vanheta (miehestä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kytkeä, yhdistää, jatkaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">вэхэбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">вэхэбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">katsoa ulos</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">вэӈгабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">вэӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kurottaa, ojentaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">вэӈгабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">вэӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">kurottautua</t>
       </tg>
     </mg>
   </e>
@@ -440,6 +1254,138 @@
 
       <tg xml:lang="fin">
         <t pos="VR">venyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">еˮӈабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">еˮӈабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kallistaa, taivuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">еˮӈабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">еˮӈабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">kallistua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ебтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ебта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">sietää, kestää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">евэйлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">евэйлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ruokkia kalakeitolla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">едеˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">едеˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">yllättää (sairaudesta)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">едеˮлабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">едеˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">osoittautua sairastuneeksi</t>
       </tg>
     </mg>
   </e>
@@ -534,6 +1480,50 @@
 
   <e>
     <lg>
+      <l pos="VT">енабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">енабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">lyödä olantakaa, uskotella, uskottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">еналабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">еналабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">uskotella, uskottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">енарцясь</l>
 
       <stg>
@@ -622,6 +1612,50 @@
 
   <e>
     <lg>
+      <l pos="VT">ерцабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ерцабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ottaa ylös, laittaa pystyyn</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">есабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">есабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">leimahtaa, lieskahtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">есесь</l>
 
       <stg>
@@ -688,6 +1722,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ехэбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ехэбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kopsauttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ехэрась</l>
 
       <stg>
@@ -716,6 +1772,72 @@
 
   <e>
     <lg>
+      <l pos="VT">ехэрибтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ехэрибта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">helposti sälyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">еӈгрылабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">еӈгрылабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">opettaa kävelemään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ибалкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ибалкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pitää lämpimäksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">ибедорць</l>
 
       <stg>
@@ -732,6 +1854,117 @@
 
       <tg xml:lang="fin">
         <t pos="VI">tuumia, miettiä, ajatella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ибкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ибкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">lämmittää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ибкабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ибкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">lämmetä, lauhtua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ивлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ивлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pehmentää, pehmittää, tehdä laimeaksi, laittaa pois ja
+        unohtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">идилабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">идилабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">juottaa vedellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">идлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">идлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kuivattaa liikaa, juottaa vedellä</t>
       </tg>
     </mg>
   </e>
@@ -832,6 +2065,28 @@
 
   <e>
     <lg>
+      <l pos="VT">илыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">илыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kohautella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">инзелесь</l>
 
       <stg>
@@ -848,6 +2103,72 @@
 
       <tg xml:lang="fin">
         <t pos="VI">kuunnella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ирабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ирабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">narahtaa, narskahtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">иробтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">иробта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kaapata, kahmaista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VI">исябтась</l>
+
+      <stg>
+        <st Contlex="VI_ИЛЕ">исябта</st>
+      </stg>
+    </lg>
+
+    <pos>VI</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VI">kujeilla</t>
       </tg>
     </mg>
   </e>
@@ -876,6 +2197,138 @@
 
   <e>
     <lg>
+      <l pos="VT">лeхэбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лeхэбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">laittaa makuupaikka kuntoon</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">лeхэбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">лeхэбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">leijua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">лаˮнабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">лаˮнабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">nytkähtää, repäistä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лабобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лабобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">äkkiä poistua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">лабцабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">лабцабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">putoa lappeelleen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лабыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лабыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ravistaa, järisyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ладась</l>
 
       <stg>
@@ -898,6 +2351,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ладыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ладыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kolhaista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">ламбитась</l>
 
       <stg>
@@ -914,6 +2389,51 @@
 
       <tg xml:lang="fin">
         <t pos="VI">hiihtää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">латолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">латолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">lahjoittaa, olla antelias</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лахабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лахабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">järkyttää vapauttakseen, poistaa päällimmäinen
+        rasvakerros</t>
       </tg>
     </mg>
   </e>
@@ -986,6 +2506,50 @@
 
   <e>
     <lg>
+      <l pos="VT">лаёлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лаёлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">puhua kovalla äänellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лекабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лекабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pirstoa, lohkaista, erottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VR">лекась</l>
 
       <stg>
@@ -1002,6 +2566,94 @@
 
       <tg xml:lang="fin">
         <t pos="VR">särkyä, haljeta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лемзабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лемзабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tehdä hyvin hitaasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">леркабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">леркабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">istuutua päälle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ливлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ливлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pöyhentää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лиселабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лиселабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">laittaa lappelleen</t>
       </tg>
     </mg>
   </e>
@@ -1046,6 +2698,271 @@
 
       <tg xml:lang="fin">
         <t pos="VI">virrata nopeasti (vedestä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лоӈглабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лоӈглабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kuormata yhdellä tai parilla pienehköllä kääröllä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лыбабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лыбабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">moiskauttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лыбобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лыбобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">suudella nopeasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лыдабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лыдабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">sivuuttaa, unohtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">лыдабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">лыдабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">harhautua, joutua kadoksiin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лыдарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лыдарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">unohtaa kiireessä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лынзелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лынзелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">panna piiloutumaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">лыхыбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">лыхыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">irvistää, virnistää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лыӈгарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лыӈгарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">auttaa piiloutumaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лыӈгылабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лыӈгылабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">aiheuttaa piilouttumaan, välttämään tapamista,
+        taltuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лэбталабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лэбталабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ripustaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лэрабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лэрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pelottaa, säikyttää</t>
       </tg>
     </mg>
   </e>
@@ -1118,6 +3035,270 @@
 
   <e>
     <lg>
+      <l pos="VI">лябтась</l>
+
+      <stg>
+        <st Contlex="VI_ИЛЕ">лябта</st>
+      </stg>
+    </lg>
+
+    <pos>VI</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VI">olla matalana, lytyssä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">лябтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">лябта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">olla luppakorvainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лябтулабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лябтулабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">uuvuttaa poroja mahalle kaatumiseen asti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">лямбабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">лямбабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">lemahtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лямболабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лямболабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pöyhöttää, sekoittaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лярцоˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лярцоˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">mennä vaikeudella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лярцолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лярцолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">päästää ulos tai auki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">лясабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">лясабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kaataa selälleen, kumota</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ляхабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ляхабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ommella kaistale väliin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ляхалабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ляхалабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">levittää (haaransa)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ляӈгабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ляӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ripustaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ляӈгабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ляӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">riippua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">маˮламбась</l>
 
       <stg>
@@ -1156,6 +3337,50 @@
 
       <tg xml:lang="fin">
         <t pos="VT">kerätä, koota, poimia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">маˮлелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">маˮлелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kumartua, kyyristyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мабяребтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мабяребта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pidättää</t>
       </tg>
     </mg>
   </e>
@@ -1272,6 +3497,50 @@
 
   <e>
     <lg>
+      <l pos="VT">маилабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">маилабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">panna nopeasti liikkeelle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">майбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">майбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">riemastuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">маймбась</l>
 
       <stg>
@@ -1288,6 +3557,50 @@
 
       <tg xml:lang="fin">
         <t pos="VI">ilota</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">макабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">макабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">laittaa pystyyn</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">макабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">макабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">nousta pystyyn</t>
       </tg>
     </mg>
   </e>
@@ -1338,6 +3651,28 @@
 
   <e>
     <lg>
+      <l pos="VT">малибтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">малибта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">murtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">мальёсь</l>
 
       <stg>
@@ -1354,6 +3689,50 @@
 
       <tg xml:lang="fin">
         <t pos="VI">särkyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мандалабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мандалабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kerätä kasaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">манзабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">манзабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">liikuttaa</t>
       </tg>
     </mg>
   </e>
@@ -1399,6 +3778,28 @@
       <tg xml:lang="fin">
         <t pos="VI">liikkua, olla liikkeessä, tehdä työtä,
         työskennellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">манзелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">манзелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">paneutua laittaen pään alle</t>
       </tg>
     </mg>
   </e>
@@ -1521,6 +3922,28 @@
 
   <e>
     <lg>
+      <l pos="VT">манэˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">манэˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">näyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">манэць</l>
 
       <stg>
@@ -1537,6 +3960,74 @@
 
       <tg xml:lang="fin">
         <t pos="VT">nähdä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">марнабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">марнабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">meluta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">масыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">масыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">voidella, lahjoa?</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">матоˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">матоˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <tf pos="VT">jäädä alakynteen</tf>
+
+        <tf pos="VT">kärsiä tappio</tf>
       </tg>
     </mg>
   </e>
@@ -1624,7 +4115,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VI">olla köyhä, olla kurja</t>
+        <tf pos="VI">olla köyhä</tf>
+
+        <tf pos="VI">olla kurja</tf>
       </tg>
     </mg>
   </e>
@@ -1668,7 +4161,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VI">muuttua tuuliseksi</t>
+        <tf pos="VI">muuttua tuuliseksi</tf>
       </tg>
     </mg>
   </e>
@@ -1690,7 +4183,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VT">kantaa, raahata</t>
+        <t pos="VT">kantaa</t>
+
+        <t pos="VT">raahata</t>
       </tg>
     </mg>
   </e>
@@ -1740,7 +4235,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VT">viedä, kuljettaa</t>
+        <t pos="VT">viedä</t>
+
+        <t pos="VT">kuljettaa</t>
       </tg>
     </mg>
   </e>
@@ -1879,6 +4376,28 @@
 
   <e>
     <lg>
+      <l pos="VT">моˮнабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">моˮнабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kaataa (ihminen tai eläin)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VR">моˮнась</l>
 
       <stg>
@@ -1967,6 +4486,28 @@
 
   <e>
     <lg>
+      <l pos="VI">мунзябтась</l>
+
+      <stg>
+        <st Contlex="VI_ИЛЕ">мунзябта</st>
+      </stg>
+    </lg>
+
+    <pos>VI</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VI">olla vaiti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">мунзясь</l>
 
       <stg>
@@ -1983,6 +4524,138 @@
 
       <tg xml:lang="fin">
         <t pos="VI">olla ääneti, olla mykkä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">муртелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">муртелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">työntää esiin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">муртолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">муртолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kammata taakse</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">муӈголабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">муӈголабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">muljauttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мыртелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мыртелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">työntää esiin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мыртолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мыртолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kammata taakse</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мэˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мэˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">antaa käyttöön</t>
       </tg>
     </mg>
   </e>
@@ -2033,6 +4706,28 @@
 
   <e>
     <lg>
+      <l pos="VT">мэрабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мэрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">antaa takaisin aviomiehelle (nainen), tyrkyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">мэсь</l>
 
       <stg>
@@ -2071,6 +4766,28 @@
 
       <tg xml:lang="fin">
         <t pos="VT">ottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мэтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мэта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kiusata pahanteolla</t>
       </tg>
     </mg>
   </e>
@@ -2165,6 +4882,72 @@
 
   <e>
     <lg>
+      <l pos="VT">мядиˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мядиˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kestitä omaa avioitunutta tytärtä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мядиˮмялабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мядиˮмялабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tarjota, antaa lahja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мядолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мядолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tarjota, kestitä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">мядонзь</l>
 
       <stg>
@@ -2187,6 +4970,72 @@
 
   <e>
     <lg>
+      <l pos="VR">мялкабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">мялкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">vilataa, välähtää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">мярабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">мярабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">lietsoa, pullistaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">мярабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">мярабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">ojentua, löyhtyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">мярась</l>
 
       <stg>
@@ -2203,6 +5052,28 @@
 
       <tg xml:lang="fin">
         <t pos="VT">tehdä silmukka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">наˮволабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">наˮволабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">sotkea, valita erilaista</t>
       </tg>
     </mg>
   </e>
@@ -2297,6 +5168,50 @@
 
   <e>
     <lg>
+      <l pos="VT">нанзакабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нанзакабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">inhottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">нарыбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">нарыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">kivahtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">нарэймзь</l>
 
       <stg>
@@ -2335,6 +5250,94 @@
 
       <tg xml:lang="fin">
         <t pos="VI">olla palkkatyössä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нензабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нензабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">siirtää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">нензабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">нензабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">siirtyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нензалабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нензалабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">panna siirtymään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нензелкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нензелкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">luulla tai pitää helpoksi</t>
       </tg>
     </mg>
   </e>
@@ -2385,6 +5388,28 @@
 
   <e>
     <lg>
+      <l pos="VT">нермылабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нермылабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">vihastuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">нерць</l>
 
       <stg>
@@ -2407,14 +5432,14 @@
 
   <e>
     <lg>
-      <l pos="VA">нись</l>
+      <l pos="VT">нибкабтась</l>
 
       <stg>
-        <st Contlex="VA_НИ">ни</st>
+        <st Contlex="VT_ИЛЕ">нибкабта</st>
       </stg>
     </lg>
 
-    <pos>VA</pos>
+    <pos>VT</pos>
 
     <mg>
       <m>
@@ -2422,7 +5447,161 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VA">ei</t>
+        <t pos="VT">painaa (alas), kallistaa, taivuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">нибкабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">нибкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">painautua, painua, kallistua, taipua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">никабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">никабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">huoata, vetää syvään henkeä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">нинебтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">нинебта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">puhaltaa, puhallella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V-AUX">нись</l>
+
+      <stg>
+        <st Contlex="VA_НИ">ни</st>
+      </stg>
+    </lg>
+
+    <pos>V-AUX</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V-AUX">ei</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">нихибтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">нихибта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">ilmestyä äkkiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ниӈгыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ниӈгыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">nyhtää, nyppiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нохобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нохобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">temmata, kiskaista, riipaista</t>
       </tg>
     </mg>
   </e>
@@ -2495,6 +5674,50 @@
 
   <e>
     <lg>
+      <l pos="VT">ныдобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ныдобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">nyhtää, riistää, repiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ныкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ныкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pysäyttää, sesiauttaa, vetää (henkeä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ныкалць</l>
 
       <stg>
@@ -2561,6 +5784,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ныхыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ныхыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">vetää ulos, nyhtää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">нэкалпась</l>
 
       <stg>
@@ -2605,6 +5850,117 @@
 
   <e>
     <lg>
+      <l pos="VT">нэклабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нэклабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">vetää painolla, vetää yhteen puoleen, vetää puoleensa,
+        houkutella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нэлоˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нэлоˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">juosta nopeasti kahisuttaen risoilla, kantaa risaksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нэхобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нэхобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">temmata, kiskaista, riipaista</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нэхэбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нэхэбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">temmata, kiskaista, tiukentaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нюˮлилабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нюˮлилабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">aiheuttaa j-n päätä painuksiin, päänsä kumaraan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">нюбець</l>
 
       <stg>
@@ -2621,6 +5977,73 @@
 
       <tg xml:lang="fin">
         <t pos="VT">olla nimeltään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нюдилкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нюдилкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pitää pienemmäksi, pienennellä, pienentää, luulla
+        nuoremmaksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нюллабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нюллабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pehmentää, pehmittää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нюлрабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нюлрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pehmentää, pehmittää</t>
       </tg>
     </mg>
   </e>
@@ -2671,6 +6094,28 @@
 
   <e>
     <lg>
+      <l pos="VT">нюркабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нюркабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ilostuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">няˮамбась</l>
 
       <stg>
@@ -2687,6 +6132,50 @@
 
       <tg xml:lang="fin">
         <t pos="VT">pitää (kiinni)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">няˮамрабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няˮамрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">varustaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">няˮмарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няˮмарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">päästä, luvata ottamaan kiinni</t>
       </tg>
     </mg>
   </e>
@@ -2737,6 +6226,50 @@
 
   <e>
     <lg>
+      <l pos="VT">няˮмыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няˮмыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ottaa käsiin, ottaa kiinni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">няˮмялабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няˮмялабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tehdä kovaksi, kankeaksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">нявотась</l>
 
       <stg>
@@ -2781,6 +6314,28 @@
 
   <e>
     <lg>
+      <l pos="VT">нядэлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нядэлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tehdä kiinteäksi (elintavasta)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">нядэсь</l>
 
       <stg>
@@ -2803,6 +6358,161 @@
 
   <e>
     <lg>
+      <l pos="VT">няколабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няколабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">hajottaa, jakaa, levittää, puhua heikosti ja
+        epäselvasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нялабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нялабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">haukata välipala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нялолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нялолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">muljauttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нялпарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нялпарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">päästää käsistä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нямдолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нямдолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">näyttää j-kin, jota ennen ei ollut näkyvissä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">нямдолабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">нямдолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">pukeutua kunnolla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нямдыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нямдыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">hivellä hellästi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">няндоць</l>
 
       <stg>
@@ -2819,6 +6529,28 @@
 
       <tg xml:lang="fin">
         <t pos="VT">teroittaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нянзыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нянзыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">nuolaista, nuolla hieman</t>
       </tg>
     </mg>
   </e>
@@ -2891,6 +6623,72 @@
 
   <e>
     <lg>
+      <l pos="VT">няслабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няслабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">houkuttaa puolelleen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">няхабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няхабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pilata, pahentaa, tehdä huonosti, iskeä harhaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">няёлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">няёлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">asettaa, ottaa ison alan porolaumalla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">няӈоць</l>
 
       <stg>
@@ -2913,14 +6711,14 @@
 
   <e>
     <lg>
-      <l pos="VA">нё-</l>
+      <l pos="V-AUX">нё-</l>
 
       <stg>
         <st Contlex="VA_НЁ">нё</st>
       </stg>
     </lg>
 
-    <pos>VA</pos>
+    <pos>V-AUX</pos>
 
     <mg>
       <m>
@@ -2928,7 +6726,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VA">älä</t>
+        <t pos="V-AUX">älä</t>
       </tg>
     </mg>
   </e>
@@ -2951,6 +6749,73 @@
 
       <tg xml:lang="fin">
         <t pos="VT">ajaa takaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нётолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нётолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">panna seuraamaan (sulhasen perhettä morsiamen vanhempien
+        perään)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нёхобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нёхобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">panna hikoilemaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">нёхолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">нёхолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tahrata, liata</t>
       </tg>
     </mg>
   </e>
@@ -2995,6 +6860,28 @@
 
       <tg xml:lang="fin">
         <t pos="VI">vauhkoontua (räkän tähden)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">падилабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">падилабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kastaa, panna sukeltamaan</t>
       </tg>
     </mg>
   </e>
@@ -3067,6 +6954,50 @@
 
   <e>
     <lg>
+      <l pos="VT">падобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">падобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">tökätä, pujottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">падрабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">падрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kirjoituttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">пакалць</l>
 
       <stg>
@@ -3133,6 +7064,50 @@
 
   <e>
     <lg>
+      <l pos="VT">палабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">палабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kastaa, tartuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">палабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">палабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">liimautua, tarttua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">панаць</l>
 
       <stg>
@@ -3171,6 +7146,50 @@
 
       <tg xml:lang="fin">
         <t pos="VT">täyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">парабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">парабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">järisyttää, pudistaa, saattaa kävellen reen vieressä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">парабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">парабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">pyristellä</t>
       </tg>
     </mg>
   </e>
@@ -3243,6 +7262,28 @@
 
   <e>
     <lg>
+      <l pos="VT">партеˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">партеˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">nostaa korkealle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">парумбась</l>
 
       <stg>
@@ -3259,6 +7300,116 @@
 
       <tg xml:lang="fin">
         <t pos="VI">kiiruhtaa, kiirehtiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">парыбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">парыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">järisyttää, pudistaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">парыбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">парыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">pyristellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">паӈгабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">паӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pyörittää, kääntää, kääntää taaksepäin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">паӈгабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">паӈгабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">kääntyä jyrkästi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">паӈгрибтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">паӈгрибта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">puhkea, nousta</t>
       </tg>
     </mg>
   </e>
@@ -7618,6 +11769,72 @@
 
   <e>
     <lg>
+      <l pos="VT">ёˮлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ёˮлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kadottaa, antaa vastoin tahtoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ёбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ёбта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">sulkea, tukkia, kattaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ёбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ёбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">sulkeutua, peittäytyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ёльцесь</l>
 
       <stg>
@@ -7656,6 +11873,28 @@
 
       <tg xml:lang="fin">
         <t pos="VR">loppua, lakata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ёндалабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ёндалабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">lähettää poronvaellukselle</t>
       </tg>
     </mg>
   </e>
@@ -7728,6 +11967,50 @@
 
   <e>
     <lg>
+      <l pos="VT">ёхобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ёхобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">eksyttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ёхорабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ёхорабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">salailla, kätkeä, peittää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ёць</l>
 
       <stg>
@@ -7744,6 +12027,28 @@
 
       <tg xml:lang="fin">
         <t pos="VT">hukata, kadottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈаˮнобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈаˮнобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pureutua äkkiä</t>
       </tg>
     </mg>
   </e>
@@ -7860,6 +12165,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈадабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈадабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kohauttaa, korottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ӈадаць</l>
 
       <stg>
@@ -7970,6 +12297,51 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈалкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈалкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">olla iso, olla mahdoton, näyttää isolta, luulla isoksi,
+        pitää mahdottomana</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈамдарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈамдарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">sattumalta päästää syömään, houkutella syömään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VR">ӈамдась</l>
 
       <stg>
@@ -8008,6 +12380,28 @@
 
       <tg xml:lang="fin">
         <t pos="VT">istuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ӈамдыбтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ӈамдыбта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">istahtaa</t>
       </tg>
     </mg>
   </e>
@@ -8080,6 +12474,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈамнябтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈамнябта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">imettää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">ӈамнялась</l>
 
       <stg>
@@ -8102,6 +12518,51 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈанелабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈанелабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">aiheuttaa avautumisen (ison vesistön), tehdä aivan auki,
+        ottaa ammollaan kitaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈапарбтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈапрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pelästyttää kovasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">ӈарамзь</l>
 
       <stg>
@@ -8118,6 +12579,28 @@
 
       <tg xml:lang="fin">
         <t pos="VI">suurentua, laajentua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈаркалкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈаркалкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">luulla isoksi, näyttää isolta</t>
       </tg>
     </mg>
   </e>
@@ -8168,6 +12651,138 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈодабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈодабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">nostaa päänsä, nenäänsä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ӈодабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ӈодабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">kohottautua (päästä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈокалкабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈокалкабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">luulla liialliseksi, liian moneksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈонабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈонабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">kasata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈорцабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈорцабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">heittää päänsä taaksepäin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ӈорцабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ӈорцабта</st>
+      </stg>
+    </lg>
+
+    <pos>VR</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VR">heittäytyä taaksepäin (päästä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ӈорць</l>
 
       <stg>
@@ -8184,6 +12799,28 @@
 
       <tg xml:lang="fin">
         <t pos="VT">syödä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈыбабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈыбабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">nipistää</t>
       </tg>
     </mg>
   </e>
@@ -8234,6 +12871,50 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈыдобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈыдобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ripustaa, vetää äkkiä ylös</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈылабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈылабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">valmistaa alinta osaa, ommella anturaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VI">ӈыноць</l>
 
       <stg>
@@ -8272,6 +12953,50 @@
 
       <tg xml:lang="fin">
         <t pos="VT">käyttää jousena</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈытобтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈытобта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ripustaa nopeasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈытолабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈытолабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">laittaa korkealle</t>
       </tg>
     </mg>
   </e>
@@ -8322,6 +13047,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈэдабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈэдабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">lähettää, päästää, pistää, sujauttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VR">ӈэдалась</l>
 
       <stg>
@@ -8366,6 +13113,28 @@
 
   <e>
     <lg>
+      <l pos="VT">ӈэдарабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈэдарабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">päästää käsistä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="VT">ӈэдарамба</l>
 
       <stg>
@@ -8404,6 +13173,116 @@
 
       <tg xml:lang="fin">
         <t pos="VT">lähettää, toimittaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈэлабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈэлабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">juottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VI">ӈэликабтась</l>
+
+      <stg>
+        <st Contlex="VI_ПЭБЮ">ӈэликабта</st>
+      </stg>
+    </lg>
+
+    <pos>VI</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VI">ollaa outo, vieras</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈэликабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈэликабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">pitää oudoksi, vieraaksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈэнабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈэнабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">ihmetyttää, yllättää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VT">ӈэрабтась</l>
+
+      <stg>
+        <st Contlex="VT_ИЛЕ">ӈэрабта</st>
+      </stg>
+    </lg>
+
+    <pos>VT</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="VT">siemaista tarkastaen</t>
       </tg>
     </mg>
   </e>
