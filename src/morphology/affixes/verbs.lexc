@@ -2,13 +2,13 @@
 !! ---------------
 !! Nenets verbs inflect in persons.
 
-LEXICON VI_ВАДЮ
+LEXICON IV_ВАДЮ
 +V+IV: V-01_ВАДЮ       ;
 
-LEXICON VI_Е
+LEXICON IV_Е
 +V+IV: V-01_Е ;
 
-LEXICON VI_ИЛЕ
+LEXICON IV_ИЛЕ
 +V+IV: V-01_ИЛЕ	;
 
 !+V+Ind+Prt1+ScSg1:дамзь K ;
@@ -24,185 +24,185 @@ LEXICON VI_ИЛЕ
 !+V+Ind+Prt1+ScPl2:даць K ;
 !+V+Ind+Prt1+ScPl3:ць K ;
 
-LEXICON VI_ИЛЕ-Pal/Var !! Work needed for variation 2013-03-04
+LEXICON IV_ИЛЕ-Pal/Var !! Work needed for variation 2013-03-04
 +V+IV: V-01_ИЛЕ ;
 
 LEXICON VR_ИЛЕ
-+V+VR: V-01_ИЛЕ-REFL	;
++V+Refl: V-01_ИЛЕ-REFL	;
 
-LEXICON VT_ИЛЕ
+LEXICON TV_ИЛЕ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ИЛЕ	;
 
 
-LEXICON VI_ЛАХАНА
+LEXICON IV_ЛАХАНА
 +V+IV: V-01_ЛАХАНА       ;
 
-LEXICON VI_ЛАХАНА-Pal/Var
+LEXICON IV_ЛАХАНА-Pal/Var
 +V+IV: V-01_ЛАХАНА       ;
 
 LEXICON VR_ЛАХАНА
-+V+VR: V-01_ЛАХАНА-REFL       ;
++V+Refl: V-01_ЛАХАНА-REFL       ;
 
-LEXICON VT_ЛАХАНА
+LEXICON TV_ЛАХАНА
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
 
-LEXICON VT_ЛАХАНА-Pal/Var
+LEXICON TV_ЛАХАНА-Pal/Var
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
 
-LEXICON VI_МАН
+LEXICON IV_МАН
 +V+IV: V-01_МАН       ;
 
-LEXICON VI_МИН
+LEXICON IV_МИН
 +V+IV: V-01_МИН       ;
 
-LEXICON VI_МИН-Pal/Var
+LEXICON IV_МИН-Pal/Var
 +V+IV: V-01_МИН       ;
 
-LEXICON VT_МИН
+LEXICON TV_МИН
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_МИН       ;
 
-LEXICON VI_МЭ
+LEXICON IV_МЭ
 +V+IV: V-01_МЭ       ;
 
-LEXICON VI_МЫ
+LEXICON IV_МЫ
 +V+IV: V-01_МЫ       ;
 
-LEXICON VT_МЫ
+LEXICON TV_МЫ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_МЫ       ;
 
 LEXICON VA_НЁ
-+V+VA: V-01_НЁ       ;
++V+Aux: V-01_НЁ       ;
 
 LEXICON VA_НИ
-+V+VA: V-01_НИ       ;
++V+Aux: V-01_НИ       ;
 
-LEXICON VI_НИ
+LEXICON IV_НИ
 +V+IV: V-01_НИ       ;
 
-LEXICON VI_НО
+LEXICON IV_НО
 +V+IV: V-01_НО       ;
 
-LEXICON VI_НУ
+LEXICON IV_НУ
 +V+IV: V-01_НУ       ;
 
-LEXICON VI_НУ-Pal/Var
+LEXICON IV_НУ-Pal/Var
 +V+IV: V-01_НУ       ;
 
 LEXICON VR_НУ
-+V+VR: V-01_НУ-REFL       ;
++V+Refl: V-01_НУ-REFL       ;
 
 LEXICON VR_НУ-Pal/Var
-+V+VR: V-01_НУ-REFL       ;
++V+Refl: V-01_НУ-REFL       ;
 
-LEXICON VT_НУ
+LEXICON TV_НУ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_НУ       ;
 
-LEXICON VI_НУ/ТУ
+LEXICON IV_НУ/ТУ
 +V+IV: V-01_НУ/ТУ       ;
 
-LEXICON VI_НЭКАЛ
+LEXICON IV_НЭКАЛ
 +V+IV: V-01_НЭКАЛ       ;
 
-LEXICON VT_НЭКАЛ
+LEXICON TV_НЭКАЛ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_НЭКАЛ       ;
 
-LEXICON VI_ӇАДИМ
+LEXICON IV_ӇАДИМ
 +V+IV: V-01_ӇАДИМ       ;
 
 LEXICON VR_ӇАРАМ
-+V+VR: V-01_ӇАРАМ-REFL	;
++V+Refl: V-01_ӇАРАМ-REFL	;
 
-LEXICON VI_ӇАРАМ
+LEXICON IV_ӇАРАМ
 +V+IV: V-01_ӇАРАМ       ;
 
-LEXICON VT_ӇАРАМ
+LEXICON TV_ӇАРАМ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ӇАРАМ	;
 
-LEXICON VI_ӇЭ
+LEXICON IV_ӇЭ
 +V+IV: V-01_ӇЭ       ;
 
-LEXICON VI_ӇЭ-Pal/Var
+LEXICON IV_ӇЭ-Pal/Var
 +V+IV: V-01_ӇЭ       ;
 
-LEXICON VI_ӇЭСУ
+LEXICON IV_ӇЭСУ
 +V+IV: V-01_ӇЭСУ       ;
 
-LEXICON VT_ӇЭСУ
+LEXICON TV_ӇЭСУ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ӇЭСУ       ;
 
-LEXICON VI_ПЭБЮ
+LEXICON IV_ПЭБЮ
 +V+IV: V-01_ПЭБЮ       ;
 
-LEXICON VI_ПЭБЮ-Pal/Var
+LEXICON IV_ПЭБЮ-Pal/Var
 +V+IV: V-01_ПЭБЮ       ;
 
-LEXICON VT_ПЭБЮ
+LEXICON TV_ПЭБЮ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ПЭБЮ       ;
 
-LEXICON VI_САС
+LEXICON IV_САС
 +V+IV: V-01_САС       ;
 
 LEXICON VR_САС
-+V+VR: V-01_САС-REFL       ;
++V+Refl: V-01_САС-REFL       ;
 
-LEXICON VT_САС
+LEXICON TV_САС
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_САС       ;
 
-LEXICON VT_САС-Pal/Var
+LEXICON TV_САС-Pal/Var
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_САС       ;
 
-LEXICON VI_СЯНАКУ
+LEXICON IV_СЯНАКУ
 +V+IV: V-01_СЯНАКУ       ;
 
-LEXICON VI_ТИР
+LEXICON IV_ТИР
 +V+IV: V-01_ТИР       ;
 
-LEXICON VI_ТИР-Pal/Var
+LEXICON IV_ТИР-Pal/Var
 +V+IV: V-01_ТИР       ;
 
 LEXICON VR_ТИР
-+V+VR: V-01_ТИР-REFL       ;
++V+Refl: V-01_ТИР-REFL       ;
 
-LEXICON VT_ТИР
+LEXICON TV_ТИР
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТИР       ;
 
-LEXICON VT_ТИР-Pal/Var
+LEXICON TV_ТИР-Pal/Var
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТИР       ;
 
 
-LEXICON VI_ТО
+LEXICON IV_ТО
 +V+IV: V-01_ТО       ;
 
-LEXICON VI_ТУ
+LEXICON IV_ТУ
 +V+IV: V-01_ТУ       ;
 
-LEXICON VT_ТУ
+LEXICON TV_ТУ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТУ       ;
 
-LEXICON VI_ХАДА
+LEXICON IV_ХАДА
 +V+IV: V-01_ХАДА       ;
 
-LEXICON VI_ХЭ
+LEXICON IV_ХЭ
 +V+IV: V-01_ХЭ       ;
 
-LEXICON VI_ЮХУ
+LEXICON IV_ЮХУ
 +V+IV: V-01_ЮХУ       ;
 
-LEXICON VT_ЮХУ
+LEXICON TV_ЮХУ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЮХУ       ;
 
 
 
-LEXICON VI_ЯˮАВЛУ
+LEXICON IV_ЯˮАВЛУ
 +V+IV: V-01_ЯˮАВЛУ      ;
 
-LEXICON VI_ЯˮАВЛУ-Pal/Var
+LEXICON IV_ЯˮАВЛУ-Pal/Var
 +V+IV: V-01_ЯˮАВЛУ	; !! more work to be done with -Pal/Var 2013-03-04
 
 LEXICON VR_ЯˮАВЛУ
-+V+VR: V-01_ЯˮАВЛУ-REFL      ;
++V+Refl: V-01_ЯˮАВЛУ-REFL      ;
 
-LEXICON VT_ЯˮАВЛУ
+LEXICON TV_ЯˮАВЛУ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
 
@@ -245,7 +245,7 @@ LEXICON V-Ny
 +V+Conneg:йˮ K ; !Н1  > ø
 
 
-!! after +TV, +IV, +VA, +VR
+!! after +TV, +IV, +Aux, +Refl
 LEXICON V-01_ВАДЮ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
