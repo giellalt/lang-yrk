@@ -32,12 +32,12 @@ LEXICON verbs
 есесь:есе VT_ИЛЕ  "päällystää (kota porontaljoilla)" ;
 есесь:есе VR_ИЛЕ  "tulla päällystetyksi (kota porontaljoilla)" ;
 есь:е VI_ӇЭ-Pal/Var  "olla kipeä, sattua (ruumiinosasta); paimentaa" ;
-ехэрась:ехэра V_ХАДА  "olla epätietoinen" ;
+ехэрась:ехэра VT_ИЛЕ  "olla epätietoinen" ;
 ибедорць:ибедор VI_ТИР  "tuumia, miettiä, ajatella" ;
 илась:ила VT_ЛАХАНА  "nostaa, kohottaa" ;
 илась:ила VR_ЛАХАНА  "nousta, kohota" ;
 илелць:илел VR_ТИР  "alkaa elää" ;
-илесь:иле V_ИЛЕ  "elää" ;
+илесь:иле VI_ИЛЕ-Pal/Var  "elää" ;
 инзелесь:инзеле VI_ИЛЕ  "kuunnella" ;
 исясь:ис VI_ЯˮАВЛУ  "telmiä, temmeltää, hölmöillä" ;
 ладась:лада VT_ЛАХАНА  "lyödä, iskeä" ;
@@ -64,8 +64,7 @@ LEXICON verbs
 мальёсь:мальё VI_ВАДЮ  "särkyä" ;
 манзадась:манзада VI_ЛАХАНА  "liikahtaa" ;
 манзарась:манзара VI_ИЛЕ  "liikkua, olla liikkeessä, tehdä työtä, työskennellä" ;
-манзарась:манзара V_ИЛЕ  "saapua" ;
-манзь:маН1 V_МАН  "sanoa" ;
+манзь:маН1 VI_МАН  "sanoa" ;
 маниесь:мание VT_ИЛЕ  "nähdä" ;
 мантась:манта VT_ИЛЕ  "pudottaa" ;
 мантась:манта VR_ИЛЕ  "pudota" ;
@@ -78,7 +77,7 @@ LEXICON verbs
 мерець:мереС VI_САС  "olla nopea" ;
 мерцямзь:мерцям VI_ӇАРАМ  "muuttua tuuliseksi" ;
 минесь:мине VT_ИЛЕ  "kantaa, raahata" ;
-минзь:миН1 V_МИН  "mennä" ;
+минзь:миН1 VI_МИН-Pal/Var  "mennä" ;
 минресь:минре VT_ИЛЕ  "viedä, kuljettaa" ;
 мипась:мипа VT_ПЭБЮ  "antaa" ;
 мирдапась:мирдапа VT_ПЭБЮ  "myydä" ;
@@ -86,7 +85,6 @@ LEXICON verbs
 мирець:миреС VI_САС  "olla kallis" ;
 мирнась:мирна VI_ЛАХАНА  "rientää, kiitää" ;
 миць:миС VT_САС-Pal/Var  "antaa" ;
-миць:миС1 V_МИС  "antaa" ;
 моˮнась:моˮна VR_ИЛЕ  "kaatua" ;
 мось:мо VT_НУ  "heittää" ;
 моёпась:моёпа VT_ПЭБЮ  "heitellä" ;
@@ -96,7 +94,6 @@ LEXICON verbs
 мэнесь:мэне VT_ИЛЕ  "pitää (jostakin), rakastaa" ;
 мэсь:мэ VI_МЫ  "olla (jossakin, elollisesta)" ;
 мэсь:мэ VT_МЫ  "ottaa" ;
-мэсь:мэ V_МЭ  "olla (jossakin, elollisesta)" ;
 мэцъ:мэС VT_САС  "käyttää, pitää hallussaan" ;
 мюселць:мюсел VR_ТИР  "ähteä jutaamaan" ;
 мюсерць:мюсер VI_ТИР  "jutailla" ;
@@ -191,7 +188,6 @@ LEXICON verbs
 сероць:сероС VI_САС  "olla ovela, olla viekas" ;
 сертабась:сертаба VT_ПЭБЮ  "tehdä" ;
 сертась:серта VT_ИЛЕ  "tehdä" ;
-сертась:серта V_ХАДА  "tehdä" ;
 сеӈгась:сеӈга VI_ЛАХАНА-Pal/Var  "yöpyä" ;
 синдась:синда VT_ИЛЕ  "peittää" ;
 синдась:синда VR_ИЛЕ  "peittyä" ;
@@ -248,8 +244,7 @@ LEXICON verbs
 толаӈгось:толаӈго VI_СЯНАКУ  "lukea, laskea" ;
 тосась:тоса VI_ИЛЕ  "varoa, välttää, karttaa" ;
 тось:то VI_ТУ  "tulla" ;
-тось:то V_ТО  "" ;
-тоходанась:тоходана V_ЛАХАНА  "" ;
+тоходанась:тоходана VI_ЛАХАНА  "opiskella" ;
 тоходась:тохода VI_ЛАХАНА  "opiskella, opetella" ;
 тохоламбась:тохоламба VT_ПЭБЮ  "opiskella, opetella" ;
 тохолкось:тохолко VI_СЯНАКУ  "opettaa, opiskella" ;
@@ -272,7 +267,7 @@ LEXICON verbs
 тюлесь:тюле VT_ИЛЕ  "tuoda/viedä sisään" ;
 тюнесь:тюне VT_ИЛЕ  "nuuhkaista, sytyttää, virittää (tuli)" ;
 тюрыць:тюрыС VI_САС  "huudella" ;
-тюсь:тю V_Е  "mennä sisään, käydä sisään" ;
+тюсь:тю VI_НУ-Pal/Var  "mennä sisään, käydä sisään" ;
 тюхулць:тюхул VT_ТИР  "ottaa/vetää esiin" ;
 тяхамзь:тяхам VI_ӇАРАМ  "piiloutua (jonkin taakse/suojaan)" ;
 тёресь:тёре VR_ИЛЕ  "huutaa, huudahtaa" ;
@@ -282,7 +277,6 @@ LEXICON verbs
 хаˮморць:хаˮмор VI_ТИР  "askeutua, tulla alas, pudota" ;
 хадабась:хадаба VT_ПЭБЮ  "tappaa" ;
 хадась:хада VT_ИЛЕ  "tappaa" ;
-хадась:хада V_ХАДА  "tappaa" ;
 хадкэсь:хадкэ VI_ИЛЕ  "tapahtua, sattua" ;
 хадумзь:хадум VI_ӇАРАМ  "tulla lumimyrsky, alkaa pyryttää" ;
 хаепась:хаепась VI_ПЭБЮ  "olla naimisissa (naisesta)" ;
@@ -300,7 +294,7 @@ LEXICON verbs
 ханесь:хане VI_ИЛЕ  "metsästää" ;
 ханзь:хан VT_МИН  "kutsua" ;
 ханимзь:ханим VI_ӇАДИМ  "jäätyä" ;
-харвась:харва V_ИЛЕ  "haluta" ;
+харвась:харва VI_ИЛЕ  "haluta" ;
 харесь:харе VT_ИЛЕ  "pelästyttää, säikäyttää, horjuttaa, järkyttää" ;
 хась:ха VI_НУ  "kuolla" ;
 хахаясь:хахая VI_ЯˮАВЛУ  "olla lähellä" ;
@@ -315,13 +309,13 @@ LEXICON verbs
 хонась:хона VR_ИЛЕ  "mennä nukkumaan, panna maata" ;
 хонёсь:хонё VI_ВАДЮ  "nukkua" ;
 хосаясь:хосая VT_ИЛЕ  "hakea, noutaa" ;
-хось:хо V_ХО  "löytää" ;
+хось:хо VT_НУ  "löytää" ;
 хоць:хоС VT_САС  "hakea, noutaa" ;
 хунась:хуна VR_ЛАХАНА  "juosta pois (ihmisestä), paeta, karata" ;
 хурцась:хурца VI_ЯˮАВЛУ  "meluta" ;
-хыноць:хыноС1 V_САС  "laulaa" ;
+хыноць:хыноС1 VI_САС  "laulaa" ;
 хэˮнась:хэˮна VI_ИЛЕ  "tyyntyä (tuulesta)" ;
-хэсь:хэ V_ХЭ  "poistua" ;
+хэсь:хэ VI_ХЭ  "poistua" ;
 хэтась:хэта VT_ЛАХАНА  "kertoa" ;
 юнрась:юнра VI_ЛАХАНА  "kysyä" ;
 юрась:юра VT_ЛАХАНА  "unohtaa" ;
@@ -332,7 +326,6 @@ LEXICON verbs
 ябересь:ябере VI_ИЛЕ  "loistaa, säteillä, paistaa (taivaankappaleesta)" ;
 ябцась:ябца VT_ЛАХАНА  "leipoa, paistaa" ;
 ядабтась:ядабта VT_ИЛЕ  "tavata, kohdata" ;
-ядабтась:ядабта V_ХАДА  "tavata" ;
 ядась:яда VT_ИЛЕ  "ampua" ;
 ядась:яда VI_ЛАХАНА  "kävellä, astella" ;
 ядембась:ядемба VI_ПЭБЮ  "olla kuuma" ;
@@ -389,4 +382,4 @@ LEXICON verbs
 ӈэдарась:ӈэдара VT_ИЛЕ  "lähettää, toimittaa" ;
 ӈэсось:ӈэсо VI_ӇЭСУ  "leiriytyä" ;
 ӈэсурць:ӈэсур VI_ТИР  "leiriytyä" ;
-ӈэсь:ӈэ V_ӇЭ  "olla (jossakin, elottomasta)" ;
+ӈэсь:ӈэ VI_ӇЭ  "olla (jossakin, elottomasta)" ;
