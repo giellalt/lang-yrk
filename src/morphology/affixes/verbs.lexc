@@ -1388,7 +1388,7 @@ LEXICON V_Mod/perfappr
 +Mod/perfappr:вэрха MUTUAL-PERSON ;
 
 LEXICON V_Mod/futappr
-+Mod/futappr:вандарха MUTUAL-PERSON ;
++Mod/futappr:вандарха MUTUAL-PERSON ; !Shvavokaali voi joskus jäädä pois?
 
 LEXICON V_Mod/rep
 +Mod/rep:вна MUTUAL-PERSON ;
@@ -1397,24 +1397,24 @@ LEXICON V_Mod/des
 +Mod/des:рва MUTUAL-PERSON ;
 
 LEXICON V_Conj
-+V+Conj+Aor+ScSg1:идмʼ K ;
-+V+Conj+Aor+ScSg2:ин K ;
-+V+Conj+Aor+ScSg3:и K ;
-+V+Conj+Aor+ScDu1:иниʼ K ;
-+V+Conj+Aor+ScDu2:идиʼ K ;
-+V+Conj+Aor+ScDu3:ихʼ K ;
-+V+Conj+Aor+ScPl1:иваˮ K ;
-+V+Conj+Aor+ScPl2:идаˮ K ;
-+V+Conj+Aor+ScPl3:иˮ K ;
-+V+Conj+Prt1+ScSg1:идамзь K ;
-+V+Conj+Prt1+ScSg2:инась K ;
-+V+Conj+Prt1+ScSg3:ись K ;
-+V+Conj+Prt1+ScDu1:ининзь K ;
-+V+Conj+Prt1+ScDu2:идинзь K ;
-+V+Conj+Prt1+ScDu3:иханзь K ;
-+V+Conj+Prt1+ScPl1:иваць K ;
-+V+Conj+Prt1+ScPl2:идаць K ;
-+V+Conj+Prt1+ScPl3:иць K ;
++Conj+Aor+ScSg1:идмʼ K ;
++Conj+Aor+ScSg2:ин K ;
++Conj+Aor+ScSg3:и K ;
++Conj+Aor+ScDu1:иниʼ K ;
++Conj+Aor+ScDu2:идиʼ K ;
++Conj+Aor+ScDu3:ихʼ K ;
++Conj+Aor+ScPl1:иваˮ K ;
++Conj+Aor+ScPl2:идаˮ K ;
++Conj+Aor+ScPl3:иˮ K ;
++Conj+Prt1+ScSg1:идамзь K ;
++Conj+Prt1+ScSg2:инась K ;
++Conj+Prt1+ScSg3:ись K ;
++Conj+Prt1+ScDu1:ининзь K ;
++Conj+Prt1+ScDu2:идинзь K ;
++Conj+Prt1+ScDu3:иханзь K ;
++Conj+Prt1+ScPl1:иваць K ;
++Conj+Prt1+ScPl2:идаць K ;
++Conj+Prt1+ScPl3:иць K ;
 
 
 LEXICON V_Mod/hyp
