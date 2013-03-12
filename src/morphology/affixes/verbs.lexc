@@ -328,15 +328,15 @@ LEXICON V-01_ИЛЕ
   PRC ;
 
 LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
- IND-AOR-RCSG1	;
- IND-AOR-RCSG2	;
- IND-AOR-RCSG3	;
- IND-AOR-RCDU1	;
- IND-AOR-RCDU2 	;
- IND-AOR-RCDU3 	;
- IND-AOR-RCPL1 	;
- IND-AOR-RCPL2 	;
- IND-AOR-RCPL3 	;
++Ind:ю IND-AOR-RCSG1	;
++Ind:я IND-AOR-RCSG2	;
++Ind:й IND-AOR-RCSG3	;
++Ind:я IND-AOR-RCDU1	;
++Ind:я IND-AOR-RCDU2 	;
++Ind:я IND-AOR-RCDU3 	;
++Ind:й IND-AOR-RCPL1 	;
++Ind:я IND-AOR-RCPL2 	;
++Ind:я IND-AOR-RCPL3 	;
 
 LEXICON V-01_ЛАХАНА
 @R.CONJ.ObjAll@ V_Obj ;
@@ -1156,31 +1156,31 @@ LEXICON IND-AOR-PL3
 +Ind+Aor+ScPl3:ˮ K ;
 
 LEXICON IND-AOR-RCSG1
-+Ind+Aor+RcSg1:вˮ K ;
++Aor+RcSg1:вˮ K ;
 
 LEXICON IND-AOR-RCSG2
-+Ind+Aor+RcSg2:н K ;
++Aor+RcSg2:н K ;
 
 LEXICON IND-AOR-RCSG3
-+Ind+Aor+RcSg3:ˮ K ;
++Aor+RcSg3:ˮ K ;
 
 LEXICON IND-AOR-RCDU1
-+Ind+Aor+RcDu1:ниʼ K ;
++Aor+RcDu1:ниʼ K ;
 
 LEXICON IND-AOR-RCDU2
-+Ind+Aor+RcDu2:диʼ K ;
++Aor+RcDu2:диʼ K ;
 
 LEXICON IND-AOR-RCDU3
-+Ind+Aor+RcDu3:хаʼ K ;
++Aor+RcDu3:хаʼ K ;
 
 LEXICON IND-AOR-RCPL1
-+Ind+Aor+RcPl1:наˮ K ;
++Aor+RcPl1:наˮ K ;
 
 LEXICON IND-AOR-RCPL2
-+Ind+Aor+RcPl2:даˮ K ;
++Aor+RcPl2:даˮ K ;
 
 LEXICON IND-AOR-RCPL3
-+Ind+Aor+RcPl3:дˮ K ;
++Aor+RcPl3:дˮ K ;
 
 LEXICON V_Obj
  IND-AOR-SCSG1-OCSG3 ;
