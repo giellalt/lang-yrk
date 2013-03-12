@@ -1,0 +1,227 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - тёресь: # Verb 'to shout' - partial paradigm
+     тёресь+V+Refl+Ind+Aor+ScSg1: тёреювˮ
+     тёресь+V+Refl+Ind+Aor+ScSg2: тёреян
+     тёресь+V+Refl+Ind+Aor+ScSg3: тёрейˮ
+     тёресь+V+Refl+Ind+Aor+ScDu1: тёреяниʼ
+     тёресь+V+Refl+Ind+Aor+ScDu2: тёреядиʼ
+     тёресь+V+Refl+Ind+Aor+ScDu3: тёреяхаʼ
+     тёресь+V+Refl+Ind+Aor+ScPl1: тёрейнаˮ
+     тёресь+V+Refl+Ind+Aor+ScPl2: тёреядаˮ
+     тёресь+V+Refl+Ind+Aor+ScPl3: тёреядˮ
+     тёресь+V+Refl+Ind+Prt1+ScSg1: тёрейваць
+     тёресь+V+Refl+Ind+Prt1+ScSg2: тёрейнась
+     тёресь+V+Refl+Ind+Prt1+ScSg3: тёреяць
+     тёресь+V+Refl+Ind+Prt1+ScDu1: тёрейнинзь
+     тёресь+V+Refl+Ind+Prt1+ScDu2: тёрейдинзь
+     тёресь+V+Refl+Ind+Prt1+ScDu3: тёрейханзь
+     тёресь+V+Refl+Ind+Prt1+ScPl1: тёрейнаць
+     тёресь+V+Refl+Ind+Prt1+ScPl2: тёрейдаць
+     тёресь+V+Refl+Ind+Prt1+ScPl3: тёрейдаць
+     тёресь+V+Refl+Hort+ScSg1: тёрехавˮ !ваˮ if 3rd or 5th syllable
+     тёресь+V+Refl+Hort+ScDu1: тёреханиʼ
+     тёресь+V+Refl+Hort+ScPl1: тёреханаˮ
+     тёресь+V+Refl+Imprt+ScSg2: тёредˮ
+     тёресь+V+Refl+Imprt+ScDu2: тёрейдиʼ
+     тёресь+V+Refl+Imprt+ScPl2: тёрейдаˮ
+     тёресь+V+Refl+Opt+ScSg3: тёреямдˮ
+     тёресь+V+Refl+Opt+ScDu3: тёреяхамдˮ
+     тёресь+V+Refl+Opt+ScPl3: тёреядамдˮ
+     тёресь+V+Refl+Conj+Aor+ScSg1: тёреивˮ
+     тёресь+V+Refl+Conj+Aor+ScSg2: тёреин
+     тёресь+V+Refl+Conj+Aor+ScSg3: тёреиˮ
+     тёресь+V+Refl+Conj+Aor+ScDu1: тёреиниʼ
+     тёресь+V+Refl+Conj+Aor+ScDu2: тёреидиʼ
+     тёресь+V+Refl+Conj+Aor+ScDu3: тёреихаʼ
+     тёресь+V+Refl+Conj+Aor+ScPl1: тёреинаˮ
+     тёресь+V+Refl+Conj+Aor+ScPl2: тёреидаˮ
+     тёресь+V+Refl+Conj+Aor+ScPl3: тёреидˮ
+     тёресь+V+Refl+Conj+Prt1+ScSg1: тёреиваць
+     тёресь+V+Refl+Conj+Prt1+ScSg2: тёреинась
+     тёресь+V+Refl+Conj+Prt1+ScSg3: тёреиць
+     тёресь+V+Refl+Conj+Prt1+ScDu1: тёреининзь
+     тёресь+V+Refl+Conj+Prt1+ScDu2: тёреидинзь
+     тёресь+V+Refl+Conj+Prt1+ScDu3: тёреиханзь
+     тёресь+V+Refl+Conj+Prt1+ScPl1: тёреинаць
+     тёресь+V+Refl+Conj+Prt1+ScPl2: тёреидаць
+     тёресь+V+Refl+Conj+Prt1+ScPl3: тёреидаць
+     тёресь+V+Refl+Mod/nec+ScSg1: тёребцувˮ
+     тёресь+V+Refl+Mod/nec+ScSg2: тёребцун
+     тёресь+V+Refl+Mod/nec+ScSg3: тёребцуˮ
+     тёресь+V+Refl+Mod/nec+ScDu1: тёребцуниʼ
+     тёресь+V+Refl+Mod/nec+ScDu2: тёребцудиʼ
+     тёресь+V+Refl+Mod/nec+ScDu3: тёребцухуʼ
+     тёресь+V+Refl+Mod/nec+ScPl1: тёребцунаˮ
+     тёресь+V+Refl+Mod/nec+ScPl2: тёребцудаˮ
+     тёресь+V+Refl+Mod/nec+ScPl3: тёребцудˮ
+     тёресь+V+Refl+Mod/int+ScSg1: тёресявˮ
+     тёресь+V+Refl+Dial/W+Mod/int+ScSg1: тёресивˮ
+     тёресь+V+Refl+Mod/int+ScSg2: тёресян
+     тёресь+V+Refl+Dial/W+Mod/int+ScSg2: тёресин
+     тёресь+V+Refl+Mod/int+ScSg3: тёресяˮ
+     тёресь+V+Refl+Dial/W+Mod/int+ScSg3: тёресиˮ
+     тёресь+V+Refl+Mod/int+ScDu1: тёресяниʼ
+     тёресь+V+Refl+Dial/W+Mod/int+ScDu1: тёресиниʼ
+     тёресь+V+Refl+Mod/int+ScDu2: тёресядиʼ
+     тёресь+V+Refl+Dial/W+Mod/int+ScDu2: тёресидиʼ
+     тёресь+V+Refl+Mod/int+ScDu3: тёресяхаʼ
+     тёресь+V+Refl+Dial/W+Mod/int+ScDu3: тёресихаʼ
+     тёресь+V+Refl+Mod/int+ScPl1: тёресянаˮ
+     тёресь+V+Refl+Dial/W+Mod/int+ScPl1: тёресинаˮ
+     тёресь+V+Refl+Mod/int+ScPl2: тёресядаˮ
+     тёресь+V+Refl+Dial/W+Mod/int+ScPl2: тёресидаˮ
+     тёресь+V+Refl+Mod/int+ScPl3: тёресядˮ
+     тёресь+V+Refl+Dial/W+Mod/int+ScPl3: тёресидˮ   
+     тёресь+V+Refl+Mod/narr+Aor+ScSg1: тёревэвˮ
+     тёресь+V+Refl+Mod/narr+Aor+ScSg2: тёревэн
+     тёресь+V+Refl+Mod/narr+Aor+ScSg3: тёревыˮ
+     тёресь+V+Refl+Mod/narr+Aor+ScDu1: тёревэниʼ
+     тёресь+V+Refl+Mod/narr+Aor+ScDu2: тёревэдиʼ
+     тёресь+V+Refl+Mod/narr+Aor+ScDu3: тёревэхэʼ
+     тёресь+V+Refl+Mod/narr+Aor+ScPl1: тёревэнаˮ
+     тёресь+V+Refl+Mod/narr+Aor+ScPl2: тёревэдаˮ
+     тёресь+V+Refl+Mod/narr+Aor+ScPl3: тёревыдˮ
+     тёресь+V+Refl+Mod/narr+Prt1+ScSg1: тёревэваць
+     тёресь+V+Refl+Mod/narr+Prt1+ScSg2: тёревэнась
+     тёресь+V+Refl+Mod/narr+Prt1+ScSg3: тёревыць
+     тёресь+V+Refl+Mod/narr+Prt1+ScDu1: тёревэнинзь
+     тёресь+V+Refl+Mod/narr+Prt1+ScDu2: тёревэдинзь
+     тёресь+V+Refl+Mod/narr+Prt1+ScDu3: тёревэханзь
+     тёресь+V+Refl+Mod/narr+Prt1+ScPl1: тёревэнаць
+     тёресь+V+Refl+Mod/narr+Prt1+ScPl2: тёревэдаць
+     тёресь+V+Refl+Mod/narr+Prt1+ScPl3: тёревыдаць
+     тёресь+V+Refl+Mod/prob+Aor+ScSg1: тёренакэвˮ
+     тёресь+V+Refl+Mod/prob+Aor+ScSg2: тёренакэн
+     тёресь+V+Refl+Mod/prob+Aor+ScSg3: тёренакыˮ
+     тёресь+V+Refl+Mod/prob+Aor+ScDu1: тёренакэниʼ
+     тёресь+V+Refl+Mod/prob+Aor+ScDu2: тёренакэдиʼ
+     тёресь+V+Refl+Mod/prob+Aor+ScDu3: тёренакэхэʼ
+     тёресь+V+Refl+Mod/prob+Aor+ScPl1: тёренакэнаˮ
+     тёресь+V+Refl+Mod/prob+Aor+ScPl2: тёренакэдаˮ
+     тёресь+V+Refl+Mod/prob+Aor+ScPl3: тёренакыдˮ 
+     тёресь+V+Refl+Mod/prob+Prt1+ScSg1: тёренакэваць
+     тёресь+V+Refl+Mod/prob+Prt1+ScSg2: тёренакэнась
+     тёресь+V+Refl+Mod/prob+Prt1+ScSg3: тёренакыць
+     тёресь+V+Refl+Mod/prob+Prt1+ScDu1: тёренакэнинзь
+     тёресь+V+Refl+Mod/prob+Prt1+ScDu2: тёренакэдинзь
+     тёресь+V+Refl+Mod/prob+Prt1+ScDu3: тёренакэхэнзь
+     тёресь+V+Refl+Mod/prob+Prt1+ScPl1: тёренакэнаць
+     тёресь+V+Refl+Mod/prob+Prt1+ScPl2: тёренакэдаць
+     тёресь+V+Refl+Mod/prob+Prt1+ScPl3: тёренакыдаць
+     тёресь+V+Refl+Mod/perfprob+ScSg1: тёревэкэвˮ
+     тёресь+V+Refl+Mod/perfprob+ScSg2: тёревэкэн
+     тёресь+V+Refl+Mod/perfprob+ScSg3: тёревэкыˮ
+     тёресь+V+Refl+Mod/perfprob+ScDu1: тёревэкэниʼ
+     тёресь+V+Refl+Mod/perfprob+ScDu2: тёревэкэдиʼ
+     тёресь+V+Refl+Mod/perfprob+ScDu3: тёревэкэхэʼ
+     тёресь+V+Refl+Mod/perfprob+ScPl1: тёревэкэнаˮ
+     тёресь+V+Refl+Mod/perfprob+ScPl2: тёревэкэдаˮ
+     тёресь+V+Refl+Mod/perfprob+ScPl3: тёревэкыдˮ
+     тёресь+V+Refl+Mod/obl+ScSg1: тёребцакэвˮ
+     тёресь+V+Refl+Mod/obl+ScSg2: тёребцакэн
+     тёресь+V+Refl+Mod/obl+ScSg3: тёребцакыˮ
+     тёресь+V+Refl+Mod/obl+ScDu1: тёребцакэниʼ
+     тёресь+V+Refl+Mod/obl+ScDu2: тёребцакэдиʼ
+     тёресь+V+Refl+Mod/obl+ScDu3: тёребцакэхэʼ
+     тёресь+V+Refl+Mod/obl+ScPl1: тёребцакэнаˮ
+     тёресь+V+Refl+Mod/obl+ScPl2: тёребцакэдаˮ
+     тёресь+V+Refl+Mod/obl+ScPl3: тёребцакыдˮ
+     тёресь+V+Refl+Mod/appr+ScSg1: тёренархывˮ
+     тёресь+V+Refl+Mod/appr+ScSg2: тёренархын
+     тёресь+V+Refl+Mod/appr+ScSg3: тёренархыˮ
+     тёресь+V+Refl+Mod/appr+ScDu1: тёренархыниʼ
+     тёресь+V+Refl+Mod/appr+ScDu2: тёренархыдиʼ
+     тёресь+V+Refl+Mod/appr+ScDu3: тёренархыхаʼ
+     тёресь+V+Refl+Mod/appr+ScPl1: тёренархынаˮ
+     тёресь+V+Refl+Mod/appr+ScPl2: тёренархыдаˮ
+     тёресь+V+Refl+Mod/appr+ScPl3: тёренархыдˮ
+     тёресь+V+Refl+Mod/perfappr+ScSg1: тёревэрхывˮ
+     тёресь+V+Refl+Mod/perfappr+ScSg2: тёревэрхын
+     тёресь+V+Refl+Mod/perfappr+ScSg3: тёревэрхыˮ
+     тёресь+V+Refl+Mod/perfappr+ScDu1: тёревэрхыниʼ
+     тёресь+V+Refl+Mod/perfappr+ScDu2: тёревэрхыдиʼ
+     тёресь+V+Refl+Mod/perfappr+ScDu3: тёревэрхыхаʼ
+     тёресь+V+Refl+Mod/perfappr+ScPl1: тёревэрхынаˮ
+     тёресь+V+Refl+Mod/perfappr+ScPl2: тёревэрхыдаˮ
+     тёресь+V+Refl+Mod/perfappr+ScPl3: тёревэрхыдˮ
+     тёресь+V+Refl+Mod/futappr+ScSg1: тёревандархывˮ
+     тёресь+V+Refl+Mod/futappr+ScSg2: тёревандархын
+     тёресь+V+Refl+Mod/futappr+ScSg3: тёревандархыˮ
+     тёресь+V+Refl+Mod/futappr+ScDu1: тёревандархыниʼ
+     тёресь+V+Refl+Mod/futappr+ScDu2: тёревандархыдиʼ
+     тёресь+V+Refl+Mod/futappr+ScDu3: тёревандархыхаʼ
+     тёресь+V+Refl+Mod/futappr+ScPl1: тёревандархынаˮ
+     тёресь+V+Refl+Mod/futappr+ScPl2: тёревандархыдаˮ
+     тёресь+V+Refl+Mod/futappr+ScPl3: тёревандархыдˮ
+     тёресь+V+Refl+Mod/sup+ScSg1: тёреванӈгабивˮ
+     тёресь+V+Refl+Mod/sup+ScSg2: тёреванӈгабин
+     тёресь+V+Refl+Mod/sup+ScSg3: тёреванӈгабиˮ
+     тёресь+V+Refl+Mod/sup+ScDu1: тёреванӈгабиниʼ
+     тёресь+V+Refl+Mod/sup+ScDu2: тёреванӈгабидиʼ
+     тёресь+V+Refl+Mod/sup+ScDu3: тёреванӈгабихаʼ
+     тёресь+V+Refl+Mod/sup+ScPl1: тёреванӈгабинаˮ
+     тёресь+V+Refl+Mod/sup+ScPl2: тёреванӈгабидаˮ
+     тёресь+V+Refl+Mod/sup+ScPl3: тёреванӈгабидˮ
+     тёресь+V+Refl+Mod/hyp+ScSg1: тёрерахавэвˮ
+     тёресь+V+Refl+Mod/hyp+ScSg2: тёрерахавэн
+     тёресь+V+Refl+Mod/hyp+ScSg3: тёрерахавыˮ
+     тёресь+V+Refl+Mod/hyp+ScDu1: тёрерахавэниʼ
+     тёресь+V+Refl+Mod/hyp+ScDu2: тёрерахавэдиʼ
+     тёресь+V+Refl+Mod/hyp+ScDu3: тёрерахавэхэʼ
+     тёресь+V+Refl+Mod/hyp+ScPl1: тёрерахавэнаˮ
+     тёресь+V+Refl+Mod/hyp+ScPl2: тёрерахавэдаˮ
+     тёресь+V+Refl+Mod/hyp+ScPl3: тёрерахавыдˮ
+     тёресь+V+Refl+Mod/rep+ScSg1: тёревнавˮ
+     тёресь+V+Refl+Mod/rep+ScSg2: тёревнан
+     тёресь+V+Refl+Mod/rep+ScSg3: тёревнаˮ
+     тёресь+V+Refl+Mod/rep+ScDu1: тёревнаниʼ
+     тёресь+V+Refl+Mod/rep+ScDu2: тёревнадиʼ
+     тёресь+V+Refl+Mod/rep+ScDu3: тёревнахаʼ
+     тёресь+V+Refl+Mod/rep+ScPl1: тёревнанаˮ
+     тёресь+V+Refl+Mod/rep+ScPl2: тёревнадаˮ
+     тёресь+V+Refl+Mod/rep+ScPl3: тёревнадˮ
+     тёресь+V+Refl+Mod/des+ScSg1: тёрербивˮ
+     тёресь+V+Refl+Mod/des+ScSg2: тёрербин
+     тёресь+V+Refl+Mod/des+ScSg3: тёрербиˮ
+     тёресь+V+Refl+Mod/des+ScDu1: тёрербиниʼ
+     тёресь+V+Refl+Mod/des+ScDu2: тёрербидиʼ
+     тёресь+V+Refl+Mod/des+ScDu3: тёрербихаʼ
+     тёресь+V+Refl+Mod/des+ScPl1: тёрербинаˮ
+     тёресь+V+Refl+Mod/des+ScPl2: тёрербидаˮ
+     тёресь+V+Refl+Mod/des+ScPl3: тёрербидˮ
+     тёресь+V+Refl+InfImprf: тёрева  
+     тёресь+V+Refl+InfPrf: тёреˮма  
+     тёресь+V+Refl+PrcImprf: тёрена
+     тёресь+V+Refl+PrcPrf: тёревы
+     тёресь+V+Refl+PrcFut: тёреванда   
+     тёресь+V+Refl+PrcNeg: тёревдавэй
+     тёресь+V+Refl+Ger: [тёре, тёресь] 
+     тёресь+V+Refl+GerFin: тёреванзь      
+     тёресь+V+Refl+Subord: тёребˮ
+     тёресь+V+Refl+Aud: [тёревоʼ, тёреваноʼ]
+     тёресь+V+Refl+Evas: тёревоӈгад
+     тёресь+V+Refl+ConNeg: тёреˮ
+     тёресь+V+Refl+Subord+PxSg1: [тёребˮнани, тёребаˮни]
+     тёресь+V+Refl+Subord+PxSg2: [тёребˮнанд, тёребат]
+     тёресь+V+Refl+Subord+PxSg3: [тёребˮнанда, тёребата] 
+     тёресь+V+Refl+Subord+PxDu1: [тёребˮнаниʼ, тёребаˮниʼ]
+     тёресь+V+Refl+Subord+PxDu2: [тёребˮнандиʼ, тёребаˮтиʼ]
+     тёресь+V+Refl+Subord+PxDu3: [тёребˮнандиʼ, тёребаˮтиʼ]
+     тёресь+V+Refl+Subord+PxPl1: [тёребˮнанаˮ, тёребаˮнаˮ]
+     тёресь+V+Refl+Subord+PxPl2: [тёребˮнандаˮ, тёребатаˮ]
+     тёресь+V+Refl+Subord+PxPl3: [тёребˮнандоʼ, тёребатоʼ]
