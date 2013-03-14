@@ -312,6 +312,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/futappr ;
  V_Mod/hyp ;
  V_Mod/int ;
+ V_Mod/int-OPl ;
  V_Mod/narr ;
  V_Mod/narrPrt ;
  V_Mod/nec ;
@@ -330,26 +331,24 @@ LEXICON V-01_ИЛЕ
 LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_IND-Refl ;
  V_IND-Refl-PRT1 ;
- V_Hort ;
- V_Imprt ;
- V_Opt ;
- V_Subord ;
+ V_Hort-Refl ;
+ V_Imprt-Refl ;
+ V_Opt-Refl ;
  V_Conj-Refl ;
- V_Conj-Refl-PRT1 ;
- V_Mod/appr ;
- V_Mod/des-Refl ;
- V_Mod/futappr ;
- V_Mod/hyp ;
- V_Mod/int ;
- V_Mod/narr ;
- V_Mod/narrPrt ;
- V_Mod/nec ;
- V_Mod/perfprob ;
+ V_Mod/narr-Refl ;
+ V_Mod/appr-Refl ;
+ V_Mod/perfappr-Refl ;
+ V_Mod/futappr-Refl ;
+ V_Mod/hyp-Refl ;
+ V_Mod/int-Refl ;
+ V_Mod/nec-Refl ;
+ V_Mod/perfprob-Refl ;
  V_Mod/prob-Refl ;
- V_Mod/perfappr ;
- V_Mod/obl ;
- V_Mod/rep ;
- V_Mod/sup ;
+ V_Mod/obl-Refl ;
+ V_Mod/rep-Refl ;
+ V_Mod/sup-Refl ;
+ V_Mod/des-Refl ;
+ V_Subord ;
  PRC ;
   
 LEXICON V-01_ЛАХАНА
@@ -1363,6 +1362,13 @@ LEXICON V_IND-Refl
 LEXICON V_Mod/int
 +Mod/int:са MUTUAL-PERSON ;
 
+LEXICON V_Mod/int-Refl
++Mod/int:ся MUTUAL-PERSON-REFL ;
++Dial/W+Mod/int:си MUTUAL-PERSON-REFL ;
+
+LEXICON V_Mod/int-OPl
++Mod/int:ся MUTUAL-PERSON ;
+
 !+V+Mod/int+ScSg2:сан K ;
 !+V+Mod/int+ScSg3:са K ;
 !+V+Mod/int+ScDu2:садиʼ K ;
@@ -1392,6 +1398,8 @@ LEXICON V_Hort
 +Hort:ха MUTUAL-SG1 ;
 +Hort:хэ MUTUAL-DU1 ;
 +Hort:хэ MUTUAL-PL1 ;
+
+LEXICON V_Hort-Refl
 +Hort:ха MUTUAL-RCSG1 ;
 +Hort:ха MUTUAL-RCDU1 ;
 +Hort:ха MUTUAL-RCPL1 ;
@@ -1400,14 +1408,18 @@ LEXICON V_Imprt
 +Imprt+ScSg2:ˮ K ;
 +Imprt: MUTUAL-DU2 ;
 +Imprt: MUTUAL-PL2 ;
+
+LEXICON V_Imprt-Refl
 +Imprt+RcSg2:дˮ K ;
-+Imprt: MUTUAL-RCDU2 ;
-+Imprt: MUTUAL-RCPL2 ;
++Imprt:й MUTUAL-RCDU2 ;
++Imprt:й MUTUAL-RCPL2 ;
 
 LEXICON V_Opt
 +Opt+ScSg3:я K ;
 +Opt:я MUTUAL-DU3 ;
 +Opt:я MUTUAL-PL3 ;
+
+LEXICON V_Opt-Refl
 +Opt+RcSg3:ямдˮ K ;
 +Opt+RcDu3:яхамдˮ K ;
 +Opt+RcPl3:ядамдˮ K ;
@@ -1415,8 +1427,15 @@ LEXICON V_Opt
 LEXICON V_Mod/nec
 +Mod/nec:бцу MUTUAL-PERSON ;
 
+LEXICON V_Mod/nec-Refl
++Mod/nec:бцу MUTUAL-PERSON-REFL ;
+
 LEXICON V_Mod/narr
 +Mod/narr+Aor:вэ MUTUAL-PERSON ; 
+
+LEXICON V_Mod/narr-Refl
++Mod/narr+Aor:вэ MUTUAL-PERSON-REFL ; 
++Mod/narr:вэ MUTUAL-PERSON-REFL-PR ;
 
 LEXICON V_Mod/narrPrt
 +Mod/narr+Prt1+ScSg1:вэдамзь K ;
@@ -1430,36 +1449,42 @@ LEXICON V_Mod/narrPrt
 +Mod/narr+Prt1+ScPl2:вэдаць K ;
 +Mod/narr+Prt1+ScPl3:вэць K ;
 +Mod/narr+Prt1+ScPl3:выць K ;
-+Mod/narr:вэ MUTUAL-RCSG1-PR ;
-+Mod/narr:вэ MUTUAL-RCSG2-PR ;
-+Mod/narr:вэ MUTUAL-RCSG3-PR ;
-+Mod/narr:вэ MUTUAL-RCDU1-PR ;
-+Mod/narr:вэ MUTUAL-RCDU2-PR ;
-+Mod/narr:вэ MUTUAL-RCDU3-PR ;
-+Mod/narr:вэ MUTUAL-RCPL1-PR ;
-+Mod/narr:вэ MUTUAL-RCPL2-PR ;
-+Mod/narr:вэ MUTUAL-RCPL3-PR ;
-
-LEXICON V_Mod/sup
-+Mod/sup:ваӈгабя MUTUAL-PERSON ;
 
 LEXICON V_Mod/appr
 +Mod/appr:нарха MUTUAL-PERSON ;
 
+LEXICON V_Mod/appr-Refl
++Mod/appr:нархы MUTUAL-PERSON-REFL ;
+
 LEXICON V_Mod/perfappr
 +Mod/perfappr:вэрха MUTUAL-PERSON ;
+
+LEXICON V_Mod/perfappr-Refl
++Mod/perfappr:вэрхы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/futappr
 +Mod/futappr:вандарха MUTUAL-PERSON ; !Shvavokaali voi joskus jäädä pois?
 
+LEXICON V_Mod/futappr-Refl
++Mod/futappr:вандархы MUTUAL-PERSON-REFL ;
+
+LEXICON V_Mod/obl
++Mod/obl:бцакэ MUTUAL-PERSON ;
+
+LEXICON V_Mod/obl-Refl
++Mod/obl:бцакэ MUTUAL-PERSON-REFL ;
+
 LEXICON V_Mod/rep
 +Mod/rep:вна MUTUAL-PERSON ;
+
+LEXICON V_Mod/rep-Refl
++Mod/rep:вна MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/des
 +Mod/des:рва MUTUAL-PERSON ;
 
 LEXICON V_Mod/des-Refl
-+Mod/des:рби MUTUAL-PERSON ;
++Mod/des:рби MUTUAL-PERSON-REFL ;
 
 LEXICON V_Conj
 +Conj+Aor+ScSg1:идмʼ K ;
@@ -1482,35 +1507,26 @@ LEXICON V_Conj
 +Conj+Prt1+ScPl3:иць K ;
 
 LEXICON V_Conj-Refl
-+Conj:и IND-AOR-RCSG1 ;
-+Conj:и IND-AOR-RCSG2 ;
-+Conj:и IND-AOR-RCSG3 ;
-+Conj:и IND-AOR-RCDU1 ;
-+Conj:и IND-AOR-RCDU2 ;
-+Conj:и IND-AOR-RCDU3 ;
-+Conj:и IND-AOR-RCPL1 ;
-+Conj:и IND-AOR-RCPL2 ;
-+Conj:и IND-AOR-RCPL3 ;
++Conj+Aor:и MUTUAL-PERSON-REFL ;
++Conj:и MUTUAL-PERSON-REFL-PR ;
 
-LEXICON V_Conj-Refl-PRT1
-+Conj:и MUTUAL-RCSG1-PR ;
-+Conj:и MUTUAL-RCSG2-PR ;
-+Conj:и MUTUAL-RCSG3-PR ;
-+Conj:и MUTUAL-RCDU1-PR ;
-+Conj:и MUTUAL-RCDU2-PR ;
-+Conj:и MUTUAL-RCDU3-PR ;
-+Conj:и MUTUAL-RCPL1-PR ;
-+Conj:и MUTUAL-RCPL2-PR ;
-+Conj:и MUTUAL-RCPL3-PR ;
+LEXICON V_Mod/sup
++Mod/sup:ваӈгабя MUTUAL-PERSON ;
+
+LEXICON V_Mod/sup-Refl
++Mod/sup:ванӈгаби MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/hyp
 +Mod/hyp:рхавэ MUTUAL-PERSON ;
 
-LEXICON V_Mod/obl
-+Mod/obl:бцакэ MUTUAL-PERSON ;
+LEXICON V_Mod/hyp-Refl
++Mod/hyp:рахавэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/perfprob
 +Mod/perfprob:вэкэ MUTUAL-PERSON ;
+
+LEXICON V_Mod/perfprob-Refl
++Mod/perfprob:вэкэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/prob
 +Mod/prob+Aor:накэ MUTUAL-PERSON ;
@@ -1527,24 +1543,8 @@ LEXICON V_Mod/prob
 +Mod/prob+Prt1+ScPl3:накэць K ;
 
 LEXICON V_Mod/prob-Refl
-+Mod/prob+Aor:накэ MUTUAL-RCSG1 ;
-+Mod/prob+Aor:накэ MUTUAL-RCSG2 ;
-+Mod/prob+Aor:накэ MUTUAL-RCSG3 ;
-+Mod/prob+Aor:накэ MUTUAL-RCDU1 ;
-+Mod/prob+Aor:накэ MUTUAL-RCDU2 ;
-+Mod/prob+Aor:накэ MUTUAL-RCDU3 ;
-+Mod/prob+Aor:накэ MUTUAL-RCPL1 ;
-+Mod/prob+Aor:накэ MUTUAL-RCPL2 ;
-+Mod/prob+Aor:накэ MUTUAL-RCPL3 ;
-+Mod/prob:накэ MUTUAL-RCSG1-PR ;
-+Mod/prob:накэ MUTUAL-RCSG2-PR ;
-+Mod/prob:накэ MUTUAL-RCSG3-PR ;
-+Mod/prob:накэ MUTUAL-RCDU1-PR ;
-+Mod/prob:накэ MUTUAL-RCDU2-PR ;
-+Mod/prob:накэ MUTUAL-RCDU3-PR ;
-+Mod/prob:накэ MUTUAL-RCPL1-PR ;
-+Mod/prob:накэ MUTUAL-RCPL2-PR ;
-+Mod/prob:накэ MUTUAL-RCPL3-PR ;
++Mod/prob+Aor:накэ MUTUAL-PERSON-REFL ;
++Mod/prob:накэ MUTUAL-PERSON-REFL-PR ;
 
 LEXICON V_Subord
 +Subord+PxSg1:бˮнани  K ;
@@ -1572,6 +1572,11 @@ LEXICON MUTUAL-PERSON
  MUTUAL-PERSON-2 ;
  MUTUAL-PERSON-3 ;
 
+LEXICON MUTUAL-PERSON-REFL
+ MUTUAL-PERSON-REFL-1 ;
+ MUTUAL-PERSON-REFL-2 ;
+ MUTUAL-PERSON-REFL-3 ;
+
 LEXICON MUTUAL-PERSON-1
  MUTUAL-SG1 ;
  MUTUAL-DU1 ;
@@ -1585,6 +1590,8 @@ LEXICON MUTUAL-PERSON-1
  MUTUAL-SCSG1-OCPL3 ;
  MUTUAL-SCDU1-OCPL3 ;
  MUTUAL-SCPL1-OCPL3 ;
+
+LEXICON MUTUAL-PERSON-REFL-1
  MUTUAL-RCSG1 ;
  MUTUAL-RCDU1 ;
  MUTUAL-RCPL1 ;
@@ -1602,6 +1609,8 @@ LEXICON MUTUAL-PERSON-2
  MUTUAL-SCSG2-OCPL3 ;
  MUTUAL-SCDU2-OCPL3 ;
  MUTUAL-SCPL2-OCPL3 ;
+ 
+LEXICON MUTUAL-PERSON-REFL-2
  MUTUAL-RCSG2 ;
  MUTUAL-RCDU2 ;
  MUTUAL-RCPL2 ;
@@ -1619,6 +1628,8 @@ LEXICON MUTUAL-PERSON-3
  MUTUAL-SCSG3-OCPL3 ;
  MUTUAL-SCDU3-OCPL3 ;
  MUTUAL-SCPL3-OCPL3 ;
+ 
+LEXICON MUTUAL-PERSON-REFL-3
  MUTUAL-RCSG3 ;
  MUTUAL-RCDU3 ;
  MUTUAL-RCPL3 ;
@@ -1730,6 +1741,17 @@ LEXICON MUTUAL-RCPL2
 LEXICON MUTUAL-RCPL3
 +RcPl3:%^VowRaise%>дˮ K ;
 
+LEXICON MUTUAL-PERSON-REFL-PR
+MUTUAL-RCSG1-PR ;
+MUTUAL-RCSG2-PR ;
+MUTUAL-RCSG3-PR ;
+MUTUAL-RCDU1-PR ;
+MUTUAL-RCDU2-PR ;
+MUTUAL-RCDU3-PR ;
+MUTUAL-RCPL1-PR ;
+MUTUAL-RCPL2-PR ;
+MUTUAL-RCPL3-PR ;
+
 !! Reflexive Preterite
 LEXICON MUTUAL-RCSG1-PR
 +Prt1+RcSg1:%>ваць K ;
@@ -1760,6 +1782,7 @@ LEXICON PRC
 +PrcNeg:вдавэй K ;
 +PrcFut:ванда K ;
 +Ger: K ;
++Ger:сь K ;
 +GerFin:ванзь K ;
 +Subord:бˮ    K	;
 +Aud:воʼ      K	;
