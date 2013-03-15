@@ -199,6 +199,7 @@ Rules
 "d to t after non-nasal glottal"
 д:т <=> [ С1: | Д1: | ˮ: ] %>: _ ;
 
+
 "с => з after nasal"
 с:з <=> [ м | н | Н1: | Ӈ1: | ʼ: ] %>: _ ;
 
@@ -245,10 +246,10 @@ Rules
 !       where Cx in (Н1 Ӈ1) ;
 
 "Д1:0 GlottalNonNasalToZERO"
-Д1:0 <=> _ %>:  х:  ;
+Д1:0 <=> _ %>:  [ х: | н ʼ | ц ь | д: а ˮ | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
 
 "С1:0 GlottalNonNasalToZERO"
-С1:0 <=> _ %>: [ х: | н ] ;
+С1:0 <=> _ %>: [ х: | н | с: ь ] ;
 
 
 "ь:0 with  GlottalNonNasalToZERO"
@@ -259,7 +260,7 @@ Rules
 С1:ˮ <=> _ [ #: | %>: м н а ] ;
 
 "Д1:ˮ UnderlyingToGlottal"
-Д1:ˮ <=> _ [ #: | %> [ м н а | н и ]] ;
+Д1:ˮ <=> _ [ #: | %> [ и | м а | м н а | н [ и | # | %>: ] ] ] ;
 
 "Н1:ʼ UnderlyingToGlottal"
 Cx:ʼ <=> _ #: ;
