@@ -182,8 +182,11 @@ Rules
 "nTod"
 н:д <=>  [ Ӈ1: | ʼ: ] %>: _ ʼ ;
 
+"n to t after non-nasal glottal"
+н:т <=>  [ С1: | Д1: | ˮ: ] %>: _ ʼ ;
+
 "d to t after non-nasal glottal"
-д:т <=> ˮ: %>: _ ;
+д:т <=> [ С1: | Д1: | ˮ: ] %>: _ ;
 
 "с => з after nasal"
 с:з <=> [ м | н | Н1: | Ӈ1: | ʼ: ] %>: _ ;
