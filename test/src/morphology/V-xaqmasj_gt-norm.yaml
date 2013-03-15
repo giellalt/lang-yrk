@@ -1,0 +1,58 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - хаˮмась: # Verb 'to fall' - partial paradigm
+     хаˮмась+V+Refl+Ind+Aor+RcSg1: хаˮмывˮ
+     хаˮмась+V+Refl+Ind+Aor+RcSg2: хаˮмын
+     хаˮмась+V+Refl+Ind+Aor+RcSg3: хаˮмыˮ
+     хаˮмась+V+Refl+Ind+Aor+RcDu1: хаˮмыниʼ
+     хаˮмась+V+Refl+Ind+Aor+RcDu2: хаˮмыдиʼ
+     хаˮмась+V+Refl+Ind+Aor+RcDu3: хаˮмъяхаʼ
+     хаˮмась+V+Refl+Ind+Aor+RcPl1: хаˮмынаˮ
+     хаˮмась+V+Refl+Ind+Aor+RcPl2: хаˮмыдаˮ
+     хаˮмась+V+Refl+Ind+Aor+RcPl3: хаˮмыдˮ
+     хаˮмась+V+Refl+Ind+Prt1+RcSg1: хаˮмываць
+     хаˮмась+V+Refl+Ind+Prt1+RcSg2: хаˮмынась
+     хаˮмась+V+Refl+Ind+Prt1+RcSg3: хаˮмыць
+     хаˮмась+V+Refl+Ind+Prt1+RcDu1: хаˮмынинзь
+     хаˮмась+V+Refl+Ind+Prt1+RcDu2: хаˮмыдинзь
+     хаˮмась+V+Refl+Ind+Prt1+RcDu3: хаˮмъяханзъ
+     хаˮмась+V+Refl+Ind+Prt1+RcPl1: хаˮмынаць
+     хаˮмась+V+Refl+Ind+Prt1+RcPl2: хаˮмыдаць
+     хаˮмась+V+Refl+Ind+Prt1+RcPl3: хаˮмыдаць
+     
+     хаˮмась+V+Refl+InfImprf: хаˮамва  
+     хаˮмась+V+Refl+InfPrf: хаˮамˮма  
+     хаˮмась+V+Refl+PrcImprf: хаˮамна
+     хаˮмась+V+Refl+PrcPrf: хаˮамвы
+     хаˮмась+V+Refl+PrcFut: хаˮмаванда   
+     хаˮмась+V+Refl+PrcNeg: хаˮмавдавэй
+     хаˮмась+V+Refl+Ger: [хаˮма, хаˮмась] 
+     хаˮмась+V+Refl+GerFin: хаˮмаванзь      
+     хаˮмась+V+Refl+Subord: хаˮмабˮ
+     хаˮмась+V+Refl+Aud: [хаˮмавоʼ, хаˮмаваноʼ]
+     хаˮмась+V+Refl+Evas: хаˮмавоӈгад
+     хаˮмась+V+Refl+ConNeg: хаˮамˮ
+     хаˮмась+V+Refl+Subord+PxSg1: [хаˮмабˮнани, хаˮамбаˮни]
+     хаˮмась+V+Refl+Subord+PxSg2: [хаˮмабˮнанд, хаˮамбат]
+     хаˮмась+V+Refl+Subord+PxSg3: [хаˮмабˮнанда, хаˮамбата] 
+     хаˮмась+V+Refl+Subord+PxDu1: [хаˮмабˮнаниʼ, хаˮамбаˮниʼ]
+     хаˮмась+V+Refl+Subord+PxDu2: [хаˮмабˮнандиʼ, хаˮамбаˮтиʼ]
+     хаˮмась+V+Refl+Subord+PxDu3: [хаˮмабˮнандиʼ, хаˮамбаˮтиʼ]
+     хаˮмась+V+Refl+Subord+PxPl1: [хаˮмабˮнанаˮ, хаˮамбаˮнаˮ]
+     хаˮмась+V+Refl+Subord+PxPl2: [хаˮмабˮнандаˮ, хаˮамбатаˮ]
+     хаˮмась+V+Refl+Subord+PxPl3: [хаˮмабˮнандоʼ, хаˮамбатоʼ]
+     
