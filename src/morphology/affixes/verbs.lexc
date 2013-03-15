@@ -1447,13 +1447,13 @@ LEXICON V_Mod/narr
 
 LEXICON V_Mod/narr-Refl
 +Mod/narr+Aor:вэ MUTUAL-PERSON-REFL ; 
-+Mod/narr:вэ MUTUAL-PRT1-REFL-PERSON ;
++Mod/narr:вЫ2 MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
 +Mod/narr+Prt1+ScSg1:вэдамзь K ;
 +Mod/narr+Prt1+ScSg2:вэнась K ;
-+Mod/narr+Prt1+ScSg3:вэсь K ;
-+Mod/narr+Prt1+ScSg3:высь K ;
+!+Mod/narr+Prt1+ScSg3:вэсь K ;
++Mod/narr+Prt1+ScSg3:вЫ2сь K ;
 +Mod/narr+Prt1+ScDu1:вэнинзь K ;
 +Mod/narr+Prt1+ScDu2:вэдинзь K ;
 +Mod/narr+Prt1+ScDu3:вэханзь K ;
@@ -1745,7 +1745,7 @@ LEXICON MUTUAL-RCDU1
 LEXICON MUTUAL-RCDU2
 +RcDu2:%>диʼ K ;
 LEXICON MUTUAL-RCDU3
-+RcDu3:%>хаʼ K ;
++RcDu3:%>хА1ʼ K ;
 LEXICON MUTUAL-RCPL1
 +RcPl1:%>наˮ K ;
 LEXICON MUTUAL-RCPL2
@@ -1776,7 +1776,7 @@ LEXICON MUTUAL-PRT1-RCDU1
 LEXICON MUTUAL-PRT1-RCDU2
 +Prt1+RcDu2:%>динзь K ;
 LEXICON MUTUAL-PRT1-RCDU3
-+Prt1+RcDu3:%>ханзь K ; !хэнзь
++Prt1+RcDu3:%>хА1нзь K ; !+Mod/prob = хэнзь +Mod/narr = ханзь
 LEXICON MUTUAL-PRT1-RCPL1
 +Prt1+RcPl1:%>наць K ;
 LEXICON MUTUAL-PRT1-RCPL2
