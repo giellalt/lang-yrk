@@ -378,15 +378,27 @@ LEXICON V-01_ЛАХАНА
  PRC ;
 
 LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04
- IND-AOR-RCSG1	;
- IND-AOR-RCSG2	;
- IND-AOR-RCSG3	;
- IND-AOR-RCDU1	;
- IND-AOR-RCDU2 	;
- IND-AOR-RCDU3 	;
- IND-AOR-RCPL1 	;
- IND-AOR-RCPL2 	;
- IND-AOR-RCPL3 	;
+ V_IND-Refl ;
+ V_IND-Refl-PRT1 ;
+ V_Hort-Refl ;
+ V_Imprt-Refl ;
+ V_Opt-Refl ;
+ V_Conj-Refl ;
+ V_Mod/narr-Refl ;
+ V_Mod/appr-Refl ;
+ V_Mod/perfappr-Refl ;
+ V_Mod/futappr-Refl ;
+ V_Mod/hyp-Refl ;
+ V_Mod/int-Refl ;
+ V_Mod/nec-Refl ;
+ V_Mod/perfprob-Refl ;
+ V_Mod/prob-Refl ;
+ V_Mod/obl-Refl ;
+ V_Mod/rep-Refl ;
+ V_Mod/sup-Refl ;
+ V_Mod/des-Refl ;
+ V_Subord ;
+ PRC ;
 
 LEXICON V-01_МАН
 @R.CONJ.ObjAll@ V_Obj ;
@@ -1492,7 +1504,7 @@ LEXICON V_Conj
 +Conj+Aor+ScSg3:и K ;
 +Conj+Aor+ScDu1:иниʼ K ;
 +Conj+Aor+ScDu2:идиʼ K ;
-+Conj+Aor+ScDu3:ихʼ K ;
++Conj+Aor+ScDu3:ихаʼ K ;
 +Conj+Aor+ScPl1:иваˮ K ;
 +Conj+Aor+ScPl2:идаˮ K ;
 +Conj+Aor+ScPl3:иˮ K ;
