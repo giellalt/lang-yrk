@@ -90,6 +90,9 @@ LBV = [ а | я | [ #: | CnsNotGlots ] [ у | о | э | ы ] ] ;
 
 Rules
 
+"0:а between Д1: %> and  мна"
+0:а <=> Д1: %> _ м н а ;
+
 "й:0 when followed by vowel in VowelPalatalization"
 й:0 <=> _ %>: [ а: | у: ] ;
 
@@ -262,7 +265,7 @@ Rules
 С1:ˮ <=> _ [ #: | %>: м н а ] ;
 
 "Д1:ˮ UnderlyingToGlottal"
-Д1:ˮ <=> _ [ #: | %> [ и | м а | м н а | н а | н [ и | # | %>: ] ] ] ;
+Д1:ˮ <=> _ [ #: | %> [ и | м и | ӈ э | м а | ( 0: ) м н а | н а | н [ и | # | %>: ] ] ] ;
 
 "Н1:ʼ UnderlyingToGlottal"
 Cx:ʼ <=> _ #: ;
