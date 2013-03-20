@@ -25,7 +25,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ваˮнась</l>
@@ -51,7 +50,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ваˮныбтась</l>
@@ -73,7 +71,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вабтарабтась</l>
@@ -101,7 +98,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вабтась</l>
@@ -129,7 +125,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">вабтась</l>
@@ -151,7 +146,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вадабась</l>
@@ -173,7 +167,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вадась</l>
@@ -195,7 +188,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ваделабтась</l>
@@ -223,7 +215,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вадець</l>
@@ -241,11 +232,27 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">kertoa, sanoa</t>
+        <t pos="TV">kertoa</t><t pos="V">sanoa</t>
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">вадобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">вадобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">viedä pois kytkimellä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">вадёдась</l>
@@ -267,7 +274,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="IV">вадёйбтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">вадёйбта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">XX</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">вадёсь</l>
@@ -289,7 +312,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ваерайбтась</l>
@@ -311,7 +333,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ваерась</l>
@@ -329,11 +350,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">kulua, mennä ohi</t>
+        <t pos="IV">kulua</t><t pos="V">mennä ohi</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ваклабтась</l>
@@ -355,7 +375,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вамболабтась</l>
@@ -377,7 +396,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вапелабтась</l>
@@ -399,7 +417,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">варкабтась</l>
@@ -421,7 +438,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">васабтась</l>
@@ -443,7 +459,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ваторась</l>
@@ -461,11 +476,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">luvata, lupautua</t>
+        <t pos="IV">luvata</t><t pos="V">lupautua</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">вахалць</l>
@@ -483,11 +497,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VR">alkaa puhua, alkaa kertoa</t>
+        <t pos="VR">alkaa puhua</t><t pos="V">alkaa kertoa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ваць</l>
@@ -505,11 +518,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">olla liikaa, olla ylimääräinen</t>
+        <t pos="IV">olla liikaa</t><t pos="V">olla ylimääräinen</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ваӈгабтась</l>
@@ -527,11 +539,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">likistää leväten kyljellä, sivuuttaa</t>
+        <t pos="TV">likistää leväten kyljellä</t><t pos="V">sivuuttaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ваӈгабтась</l>
@@ -553,7 +564,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ваӈголабтась</l>
@@ -575,7 +585,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вомдарабтась</l>
@@ -597,7 +606,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">вомзь</l>
@@ -619,7 +627,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вунясь</l>
@@ -641,7 +648,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">вунясь</l>
@@ -663,7 +669,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">выбелабтась</l>
@@ -685,7 +690,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">выдарась</l>
@@ -703,11 +707,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">väsyä, nääntyä</t>
+        <t pos="IV">väsyä</t><t pos="V">nääntyä</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вылмелабтась</l>
@@ -729,7 +732,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">выркаˮлабтась</l>
@@ -751,7 +753,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">выябтась</l>
@@ -773,7 +774,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэˮмелабтась</l>
@@ -795,7 +795,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэˮмолабтась</l>
@@ -817,7 +816,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэвулкабтась</l>
@@ -839,7 +837,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэдлабтась</l>
@@ -861,7 +858,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэлцлабтась</l>
@@ -879,11 +875,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">kosteuttaa, pitää kosteana</t>
+        <t pos="TV">kosteuttaa</t><t pos="V">pitää kosteana</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэлцрибтась</l>
@@ -905,7 +900,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэнабтась</l>
@@ -927,7 +921,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэнаць</l>
@@ -949,7 +942,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэнолабтась</l>
@@ -967,11 +959,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">pelästyttää, säikäyttää</t>
+        <t pos="TV">pelästyttää</t><t pos="V">säikäyttää</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэрабтась</l>
@@ -989,11 +980,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">siirtää, viedä yli</t>
+        <t pos="TV">siirtää</t><t pos="V">viedä yli</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">вэресь</l>
@@ -1015,7 +1005,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэрець</l>
@@ -1037,7 +1026,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэрнабтась</l>
@@ -1059,7 +1047,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэробтась</l>
@@ -1081,7 +1068,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">вэрцабтась</l>
@@ -1103,7 +1089,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">вэсэймзь</l>
@@ -1125,7 +1110,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэтась</l>
@@ -1143,11 +1127,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">kytkeä, yhdistää, jatkaa</t>
+        <t pos="TV">kytkeä</t><t pos="V">yhdistää</t><t pos="V">jatkaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">вэхэбтась</l>
@@ -1169,7 +1152,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэӈгабтась</l>
@@ -1187,11 +1169,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">kurottaa, ojentaa</t>
+        <t pos="TV">kurottaa</t><t pos="V">ojentaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">вэӈгабтась</l>
@@ -1213,7 +1194,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">вэӈгалась</l>
@@ -1235,7 +1215,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">вэӈгалась</l>
@@ -1257,7 +1236,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">еˮӈабтась</l>
@@ -1275,11 +1253,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">kallistaa, taivuttaa</t>
+        <t pos="TV">kallistaa</t><t pos="V">taivuttaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">еˮӈабтась</l>
@@ -1301,7 +1278,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ебтась</l>
@@ -1319,11 +1295,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">sietää, kestää</t>
+        <t pos="TV">sietää</t><t pos="V">kestää</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">евэйлабтась</l>
@@ -1345,7 +1320,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">едеˮлабтась</l>
@@ -1367,7 +1341,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">едеˮлабтась</l>
@@ -1389,7 +1362,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">едейкось</l>
@@ -1411,7 +1383,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ембаць</l>
@@ -1433,7 +1404,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ембаць</l>
@@ -1455,7 +1425,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ембдёсь</l>
@@ -1477,7 +1446,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">енабтась</l>
@@ -1495,11 +1463,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">lyödä olantakaa, uskotella, uskottaa</t>
+        <t pos="TV">lyödä olantakaa</t><t pos="V">uskotella</t><t pos="V">uskottaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">еналабтась</l>
@@ -1517,11 +1484,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">uskotella, uskottaa</t>
+        <t pos="TV">uskotella</t><t pos="V">uskottaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">енарцясь</l>
@@ -1539,11 +1505,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">olla turha, olla tyhjänpäiväinen, olla vähäarvoinen</t>
+        <t pos="IV">olla turha</t><t pos="V">olla tyhjänpäiväinen</t><t pos="V">olla vähäarvoinen</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">енерць</l>
@@ -1565,7 +1530,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">епась</l>
@@ -1587,7 +1551,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">еремзь</l>
@@ -1609,7 +1572,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ерцабтась</l>
@@ -1627,11 +1589,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">ottaa ylös, laittaa pystyyn</t>
+        <t pos="TV">ottaa ylös</t><t pos="V">laittaa pystyyn</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">есабтась</l>
@@ -1649,11 +1610,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VR">leimahtaa, lieskahtaa</t>
+        <t pos="VR">leimahtaa</t><t pos="V">lieskahtaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">есесь</l>
@@ -1675,7 +1635,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">есесь</l>
@@ -1697,7 +1656,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">есь</l>
@@ -1719,7 +1677,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ехэбтась</l>
@@ -1741,7 +1698,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ехэрась</l>
@@ -1769,7 +1725,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ехэрибтась</l>
@@ -1791,7 +1746,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">еӈгрылабтась</l>
@@ -1813,7 +1767,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ибалкабтась</l>
@@ -1835,7 +1788,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ибедорць</l>
@@ -1853,11 +1805,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">tuumia, miettiä, ajatella</t>
+        <t pos="IV">tuumia</t><t pos="V">miettiä</t><t pos="V">ajatella</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ибкабтась</l>
@@ -1879,7 +1830,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ибкабтась</l>
@@ -1897,11 +1847,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VR">lämmetä, lauhtua</t>
+        <t pos="VR">lämmetä</t><t pos="V">lauhtua</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ивлабтась</l>
@@ -1919,12 +1868,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">pehmentää, pehmittää, tehdä laimeaksi, laittaa pois ja
+        <t pos="TV">pehmentää</t><t pos="V">pehmittää</t><t pos="V">tehdä laimeaksi</t><t pos="V">laittaa pois ja
         unohtaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">идилабтась</l>
@@ -1946,7 +1894,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">идлабтась</l>
@@ -1964,11 +1911,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">kuivattaa liikaa, juottaa vedellä</t>
+        <t pos="TV">kuivattaa liikaa</t><t pos="V">juottaa vedellä</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">илась</l>
@@ -1986,11 +1932,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">nostaa, kohottaa</t>
+        <t pos="TV">nostaa</t><t pos="V">kohottaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">илась</l>
@@ -2008,11 +1953,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VR">nousta, kohota</t>
+        <t pos="VR">nousta</t><t pos="V">kohota</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">илелць</l>
@@ -2034,7 +1978,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">илесь</l>
@@ -2062,7 +2005,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">илыбтась</l>
@@ -2084,7 +2026,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">илябтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">илябта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">XX</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">инзелесь</l>
@@ -2106,7 +2064,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ирабтась</l>
@@ -2124,11 +2081,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VR">narahtaa, narskahtaa</t>
+        <t pos="VR">narahtaa</t><t pos="V">narskahtaa</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">иробтась</l>
@@ -2146,11 +2102,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">kaapata, kahmaista</t>
+        <t pos="TV">kaapata</t><t pos="V">kahmaista</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">исябтась</l>
@@ -2172,7 +2127,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">исясь</l>
@@ -2190,11 +2144,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">telmiä, temmeltää, hölmöillä</t>
+        <t pos="IV">telmiä</t><t pos="V">temmeltää</t><t pos="V">hölmöillä</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лeхэбтась</l>
@@ -2216,7 +2169,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лeхэбтась</l>
@@ -2238,7 +2190,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лаˮнабтась</l>
@@ -2256,11 +2207,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="VR">nytkähtää, repäistä</t>
+        <t pos="VR">nytkähtää</t><t pos="V">repäistä</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лабобтась</l>
@@ -2282,7 +2232,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лабцабтась</l>
@@ -2304,7 +2253,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лабыбтась</l>
@@ -2322,11 +2270,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">ravistaa, järisyttää</t>
+        <t pos="TV">ravistaa</t><t pos="V">järisyttää</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ладась</l>
@@ -2344,11 +2291,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">lyödä, iskeä</t>
+        <t pos="TV">lyödä</t><t pos="V">iskeä</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ладыбтась</l>
@@ -2370,7 +2316,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ламбитась</l>
@@ -2392,7 +2337,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">латолабтась</l>
@@ -2410,11 +2354,10 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">lahjoittaa, olla antelias</t>
+        <t pos="TV">lahjoittaa</t><t pos="V">olla antelias</t>
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лахабтась</l>
@@ -2437,7 +2380,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">лаханакось</l>
@@ -2459,7 +2401,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">лаханакурць</l>
@@ -2481,7 +2422,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">лаханась</l>
@@ -2503,7 +2443,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лаёлабтась</l>
@@ -2525,7 +2464,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">левабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">левабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">olla notkolla</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">лекабтась</l>
@@ -2547,7 +2502,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лекась</l>
@@ -2569,7 +2523,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лемзабтась</l>
@@ -2591,7 +2544,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">леркабтась</l>
@@ -2613,7 +2565,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ливлабтась</l>
@@ -2635,7 +2586,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лиселабтась</l>
@@ -2657,7 +2607,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">лохомзь</l>
@@ -2679,7 +2628,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">лохорць</l>
@@ -2701,7 +2649,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лоӈглабтась</l>
@@ -2723,7 +2670,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лыбабтась</l>
@@ -2745,7 +2691,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лыбобтась</l>
@@ -2767,7 +2712,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лыдабтась</l>
@@ -2789,7 +2733,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лыдабтась</l>
@@ -2811,7 +2754,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лыдарабтась</l>
@@ -2833,7 +2775,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лынзелабтась</l>
@@ -2855,7 +2796,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лыхыбтась</l>
@@ -2877,7 +2817,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лыӈгарабтась</l>
@@ -2899,7 +2838,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лыӈгылабтась</l>
@@ -2922,7 +2860,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лэбталабтась</l>
@@ -2944,7 +2881,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лэрабтась</l>
@@ -2966,7 +2902,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лэтмбась</l>
@@ -2988,7 +2923,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лэтрамбась</l>
@@ -3010,7 +2944,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лэтрась</l>
@@ -3032,7 +2965,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">лябтась</l>
@@ -3054,7 +2986,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лябтась</l>
@@ -3076,7 +3007,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лябтулабтась</l>
@@ -3098,7 +3028,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">лямбабтась</l>
@@ -3120,7 +3049,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лямболабтась</l>
@@ -3142,7 +3070,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лярцоˮлабтась</l>
@@ -3164,7 +3091,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лярцолабтась</l>
@@ -3186,7 +3112,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">лясабтась</l>
@@ -3208,7 +3133,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ляхабтась</l>
@@ -3230,7 +3154,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ляхалабтась</l>
@@ -3252,7 +3175,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ляӈгабтась</l>
@@ -3274,7 +3196,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ляӈгабтась</l>
@@ -3296,7 +3217,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">маˮламбась</l>
@@ -3318,7 +3238,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">маˮлась</l>
@@ -3340,7 +3259,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">маˮлелабтась</l>
@@ -3362,7 +3280,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мабяребтась</l>
@@ -3384,7 +3301,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мадабась</l>
@@ -3406,7 +3322,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мадарць</l>
@@ -3428,7 +3343,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">мадарць</l>
@@ -3450,7 +3364,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мадарць</l>
@@ -3472,7 +3385,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мадась</l>
@@ -3494,7 +3406,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">маилабтась</l>
@@ -3516,7 +3427,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">майбтась</l>
@@ -3538,7 +3448,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">маймбась</l>
@@ -3560,7 +3469,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">макабтась</l>
@@ -3582,7 +3490,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">макабтась</l>
@@ -3604,7 +3511,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">малесь</l>
@@ -3626,7 +3532,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">малесь</l>
@@ -3648,7 +3553,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">малибтась</l>
@@ -3670,7 +3574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мальёсь</l>
@@ -3692,7 +3595,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мандалабтась</l>
@@ -3714,7 +3616,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">манзабтась</l>
@@ -3736,7 +3637,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">манзадась</l>
@@ -3758,7 +3658,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">манзарась</l>
@@ -3781,7 +3680,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">манзелабтась</l>
@@ -3803,7 +3701,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">манзь</l>
@@ -3831,7 +3728,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">маниесь</l>
@@ -3853,7 +3749,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мантась</l>
@@ -3875,7 +3770,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">мантась</l>
@@ -3897,7 +3791,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">манэˮлабтась</l>
@@ -3919,7 +3812,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">манэˮлабтась</l>
@@ -3941,7 +3833,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">манэць</l>
@@ -3963,7 +3854,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">марнабтась</l>
@@ -3985,7 +3875,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">марнибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">марнибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">lyödä hamaralla</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">масыбтась</l>
@@ -4007,7 +3913,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">матоˮлабтась</l>
@@ -4031,7 +3936,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">маторпась</l>
@@ -4053,7 +3957,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">маторць</l>
@@ -4075,7 +3978,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">маясь</l>
@@ -4097,7 +3999,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">маӈгбась</l>
@@ -4121,7 +4022,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мерець</l>
@@ -4143,7 +4043,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мерцямзь</l>
@@ -4165,7 +4064,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">минесь</l>
@@ -4189,7 +4087,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">минзь</l>
@@ -4217,7 +4114,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">минресь</l>
@@ -4241,7 +4137,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мипась</l>
@@ -4263,7 +4158,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мирдапась</l>
@@ -4285,7 +4179,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мирдаць</l>
@@ -4307,7 +4200,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мирець</l>
@@ -4329,7 +4221,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мирнась</l>
@@ -4351,7 +4242,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">миць</l>
@@ -4373,7 +4263,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">моˮнабтась</l>
@@ -4395,7 +4284,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">моˮнась</l>
@@ -4417,7 +4305,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мось</l>
@@ -4439,7 +4326,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">моёпась</l>
@@ -4461,7 +4347,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">моёцъ</l>
@@ -4483,7 +4368,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мунзябтась</l>
@@ -4505,7 +4389,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мунзясь</l>
@@ -4527,7 +4410,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">муртелабтась</l>
@@ -4549,7 +4431,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">муртолабтась</l>
@@ -4571,7 +4452,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">муӈголабтась</l>
@@ -4593,7 +4473,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мыртелабтась</l>
@@ -4615,7 +4494,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мыртолабтась</l>
@@ -4637,7 +4515,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мэˮлабтась</l>
@@ -4659,7 +4536,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мэбець</l>
@@ -4681,7 +4557,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мэнесь</l>
@@ -4703,7 +4578,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мэрабтась</l>
@@ -4725,7 +4599,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мэсь</l>
@@ -4747,7 +4620,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мэсь</l>
@@ -4769,7 +4641,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мэтась</l>
@@ -4791,7 +4662,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мэцъ</l>
@@ -4813,7 +4683,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">мюселць</l>
@@ -4835,7 +4704,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мюсерць</l>
@@ -4857,7 +4725,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мюсесь</l>
@@ -4879,7 +4746,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мядиˮлабтась</l>
@@ -4901,7 +4767,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мядиˮмялабтась</l>
@@ -4923,7 +4788,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">мядоˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">мядоˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">XX</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">мядолабтась</l>
@@ -4945,7 +4826,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">мядонзь</l>
@@ -4967,7 +4847,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">мялкабтась</l>
@@ -4989,7 +4868,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мярабтась</l>
@@ -5011,7 +4889,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">мярабтась</l>
@@ -5033,7 +4910,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">мярась</l>
@@ -5055,7 +4931,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">наˮволабтась</l>
@@ -5077,7 +4952,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">намдась</l>
@@ -5099,7 +4973,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">намдась</l>
@@ -5121,7 +4994,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">намдорць</l>
@@ -5143,7 +5015,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">намдорць</l>
@@ -5165,7 +5036,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">намдыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">намдыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kuunnella</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">нанзакабтась</l>
@@ -5187,7 +5074,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нарыбтась</l>
@@ -5209,7 +5095,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">нарэймзь</l>
@@ -5231,7 +5116,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">насабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">насабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">asettaa leveälti</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">недватась</l>
@@ -5253,7 +5154,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нензабтась</l>
@@ -5275,7 +5175,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нензабтась</l>
@@ -5297,7 +5196,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нензалабтась</l>
@@ -5319,7 +5217,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нензелкабтась</l>
@@ -5341,7 +5238,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">нензюмзь</l>
@@ -5363,7 +5259,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">нердесь</l>
@@ -5385,7 +5280,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нермылабтась</l>
@@ -5407,7 +5301,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">нерць</l>
@@ -5429,7 +5322,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нибкабтась</l>
@@ -5451,7 +5343,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нибкабтась</l>
@@ -5473,7 +5364,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">никабтась</l>
@@ -5495,7 +5385,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нинебтась</l>
@@ -5517,7 +5406,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="V-AUX">нись</l>
@@ -5539,7 +5427,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нихибтась</l>
@@ -5561,7 +5448,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ниӈгыбтась</l>
@@ -5583,7 +5469,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нохобтась</l>
@@ -5605,7 +5490,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нултась</l>
@@ -5627,7 +5511,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нулць</l>
@@ -5649,7 +5532,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">нусь</l>
@@ -5671,7 +5553,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ныдобтась</l>
@@ -5693,7 +5574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ныкабтась</l>
@@ -5715,7 +5595,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ныкалць</l>
@@ -5737,7 +5616,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ныланась</l>
@@ -5759,7 +5637,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нылась</l>
@@ -5781,7 +5658,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ныхыбтась</l>
@@ -5803,7 +5679,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нэкалпась</l>
@@ -5825,7 +5700,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нэкалць</l>
@@ -5847,7 +5721,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нэклабтась</l>
@@ -5870,7 +5743,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нэлоˮлабтась</l>
@@ -5892,7 +5764,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нэхобтась</l>
@@ -5914,7 +5785,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нэхэбтась</l>
@@ -5936,7 +5806,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нюˮлилабтась</l>
@@ -5958,7 +5827,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нюбець</l>
@@ -5980,7 +5848,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нюдилкабтась</l>
@@ -6003,7 +5870,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нюллабтась</l>
@@ -6025,7 +5891,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нюлрабтась</l>
@@ -6047,7 +5912,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нюмдесь</l>
@@ -6069,7 +5933,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нюмдесь</l>
@@ -6091,7 +5954,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нюркабтась</l>
@@ -6113,7 +5975,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няˮамбась</l>
@@ -6135,7 +5996,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няˮамрабтась</l>
@@ -6157,7 +6017,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няˮмарабтась</l>
@@ -6179,7 +6038,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няˮмась</l>
@@ -6201,7 +6059,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няˮмыбась</l>
@@ -6223,7 +6080,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няˮмыбтась</l>
@@ -6245,7 +6101,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няˮмялабтась</l>
@@ -6267,7 +6122,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">нявотась</l>
@@ -6289,7 +6143,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нявотась</l>
@@ -6311,7 +6164,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нядэлабтась</l>
@@ -6333,7 +6185,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">нядэсь</l>
@@ -6355,7 +6206,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няколабтась</l>
@@ -6378,7 +6228,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нялабтась</l>
@@ -6400,7 +6249,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">нялмабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">нялмабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">XX</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">нялолабтась</l>
@@ -6422,7 +6287,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">нялпалабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">нялпалабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pyryttää lumisohjolla</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">нялпарабтась</l>
@@ -6444,7 +6325,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нямдолабтась</l>
@@ -6466,7 +6346,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">нямдолабтась</l>
@@ -6488,7 +6367,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нямдыбтась</l>
@@ -6510,7 +6388,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няндоць</l>
@@ -6532,7 +6409,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нянзыбтась</l>
@@ -6554,7 +6430,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">няркнась</l>
@@ -6576,7 +6451,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">нярмабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">нярмабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">XX</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">нярхалась</l>
@@ -6598,7 +6489,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">няръясь</l>
@@ -6620,7 +6510,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няслабтась</l>
@@ -6642,7 +6531,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няхабтась</l>
@@ -6664,7 +6552,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">няёлабтась</l>
@@ -6686,7 +6573,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">няӈоць</l>
@@ -6708,7 +6594,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="V-AUX">нё-</l>
@@ -6730,7 +6615,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нёдась</l>
@@ -6752,7 +6636,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нётолабтась</l>
@@ -6775,7 +6658,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нёхобтась</l>
@@ -6797,7 +6679,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">нёхолабтась</l>
@@ -6819,7 +6700,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">паˮнолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">паˮнолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kurottaa (j-n lyhyttä)</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">падась</l>
@@ -6841,7 +6738,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">падесь</l>
@@ -6863,7 +6759,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">падилабтась</l>
@@ -6885,7 +6780,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">падирць</l>
@@ -6907,7 +6801,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">падирць</l>
@@ -6929,7 +6822,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">паднась</l>
@@ -6951,7 +6843,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">падобтась</l>
@@ -6973,7 +6864,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">падрабтась</l>
@@ -6995,7 +6885,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">пакалць</l>
@@ -7017,7 +6906,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">пакалць</l>
@@ -7039,7 +6927,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">паклесь</l>
@@ -7061,7 +6948,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">палабтась</l>
@@ -7083,7 +6969,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">палабтась</l>
@@ -7105,7 +6990,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">панаць</l>
@@ -7127,7 +7011,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">пандась</l>
@@ -7149,7 +7032,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">парабтась</l>
@@ -7171,7 +7053,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">парабтась</l>
@@ -7193,7 +7074,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">парась</l>
@@ -7215,7 +7095,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">паридесь</l>
@@ -7237,7 +7116,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">паромбась</l>
@@ -7259,7 +7137,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">партеˮлабтась</l>
@@ -7281,7 +7158,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">парумбась</l>
@@ -7303,7 +7179,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">парыбтась</l>
@@ -7325,7 +7200,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">парыбтась</l>
@@ -7347,7 +7221,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пасребтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пасребта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">XX</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пасрибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пасрибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">hölskyttää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">паӈгабтась</l>
@@ -7369,7 +7276,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">паӈгабтась</l>
@@ -7391,7 +7297,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">паӈгрибтась</l>
@@ -7413,7 +7318,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">пересь</l>
@@ -7435,7 +7339,74 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пиˮнабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пиˮнабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">iskeä, lyödä kovasti ja nopeasti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пиˮнэлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пиˮнэлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">läimäyttää, läiskäistä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пимолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пимолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ajaa sellaiseen paikkaan, johon toiset eivät pääsee</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пинабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пинабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">iskeä, lyödä kovasti ja nopeasti</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">пинась</l>
@@ -7457,7 +7428,24 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="IV">пиныбтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">пиныбта</st>
+        <st Contlex="IV_ИЛЕ">пинабта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">pelätä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">пираць</l>
@@ -7479,7 +7467,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">пиресь</l>
@@ -7501,7 +7488,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">письлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">письлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">naurattaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">письлась</l>
@@ -7523,7 +7526,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">писянзь</l>
@@ -7545,7 +7547,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">подерпась</l>
@@ -7567,7 +7568,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">подерць</l>
@@ -7589,7 +7589,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">подерць</l>
@@ -7611,7 +7610,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">поркабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">поркабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">nostaa pystyyn</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">поркабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">поркабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">nousta pystyyn, nousta esiin, kasvaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">посабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">посабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">puhaltaa pullolleen, pullistaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">поць</l>
@@ -7633,7 +7682,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">поёрць</l>
@@ -7655,7 +7703,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пуˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пуˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">viedä, kantaa puhalluksella, lautata</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">пубтась</l>
@@ -7677,7 +7741,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пудабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пудабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pudistaa, silputa, myöhästyä, olla poissa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">пудабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">пудабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">valahtaa, hajota murskaksi, myöhästyä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">пудась</l>
@@ -7699,7 +7796,91 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пуддэйбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пуддэйбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">vaihtaa risaiset kohdat uusiin</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пудэйбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пудэйбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">vetää sisään</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пулыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пулыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna polvilleen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">пулыбтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">пулыбта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">olla polvillaan, istua ristiistunnassa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пунрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пунрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna uskomaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">пунрёсь</l>
@@ -7721,7 +7902,142 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пусабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пусабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ihmetyttää, yllättää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">пухабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">пухабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">valahtaa, lentää esiin, tupsahtaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пыдабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пыдабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pudistaa, silputa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пынделабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пынделабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kaataa kumoon, alassuin, kasvot alas</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пысабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пысабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ihmetyttää, yllättää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пыӈгэлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пыӈгэлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">keinuttaa, kiikuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">пэбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пэбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kääriä, sotkea, rullata, vetää mukaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">пэбтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">пэбта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kääriytyä, sotkeutua, solmiutua, sekaantua, puuttua</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">пэвась</l>
@@ -7743,7 +8059,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">пэвсюмзь</l>
@@ -7765,7 +8080,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пэдабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пэдабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">uuvuttaa, rasittaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">пэдась</l>
@@ -7787,7 +8118,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">пэмбась</l>
@@ -7809,7 +8139,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">пэнзь</l>
@@ -7831,7 +8160,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">пэрць</l>
@@ -7853,7 +8181,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">пэсь</l>
@@ -7875,7 +8202,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пэсьребтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пэсьребта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sotkea</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">пэӈгабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">пэӈгабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">piilottua, peittäytyä nopeasti</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">пюрць</l>
@@ -7897,7 +8257,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пюръебтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пюръебта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">XX</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">пюсь</l>
@@ -7919,7 +8295,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">пярабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">пярабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">täyttää lemulla, löyhkällä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">пясь</l>
@@ -7941,7 +8333,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">пятась</l>
@@ -7963,7 +8354,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">пёдась</l>
@@ -7985,7 +8375,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="IV">пёдыбтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">пёдыбта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">XX</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">саˮнесь</l>
@@ -8007,7 +8413,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сабколабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сабколабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">aiheuttaa j-klle pöhöttynyt kasvot, rypistää, kurtistaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">саблабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">саблабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">heristää korviaan (eläimestä)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">савулкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">савулкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pitää hyvänä, luulla hyväksi</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">савумзь</l>
@@ -8029,7 +8485,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">садобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">садобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">heittää helposti</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сайнорць</l>
@@ -8051,7 +8523,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">салабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">салабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">silittää, paijata, tasata, tasoittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">салмыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">салмыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">silittää, vetää äkkiä ulos, välkähtää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">салць</l>
@@ -8073,7 +8578,108 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">салыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">салыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">paijata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">санабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">санабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">erottaa, häiritä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">санабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">санабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">loikata, pompahtaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">санайбтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">санайбта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">XX</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">саналабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">саналабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna hyppämään, karahtamaan, rikkoa normaali elämä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">санарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">санарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pakottaa hyppämään yli</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">санась</l>
@@ -8095,7 +8701,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">санась</l>
@@ -8117,7 +8722,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сапась</l>
@@ -8139,7 +8743,108 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сарвабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сарвабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kaapata kovasti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">саркабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">саркабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tukkia, kattaa, itkettää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">саркабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">саркабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">tukkiutua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">саркарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">саркарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">itkettää (pientä lasta)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сарцелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сарцелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">asettaa, panna eteen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сасабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сасабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">keinuttaa, viekoitella, viehättää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сахамзь</l>
@@ -8161,7 +8866,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сахарибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сахарибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">osoittaa huolensa, olla huolissaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">саць</l>
@@ -8183,7 +8904,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">саӈгабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">саӈгабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">vyöttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">саӈгабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">саӈгабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kohota korkealle, valmistautua</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">саӈговоць</l>
@@ -8205,7 +8959,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">севабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">севабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sulkea syliinsä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сеелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сеелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">laittaa koteloon</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сеетабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сеетабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">laittaa koteloon</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">серась</l>
@@ -8227,7 +9031,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сероˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сероˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sopeuttaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сероць</l>
@@ -8249,7 +9069,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сертабась</l>
@@ -8271,7 +9090,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сертась</l>
@@ -8293,7 +9111,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сесабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сесабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna kahisemaan, aiheuttaa kahinaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сеӈгась</l>
@@ -8315,7 +9149,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">симбейкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">симбейкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">olla syöläs</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">синдась</l>
@@ -8337,7 +9187,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">синдась</l>
@@ -8359,7 +9208,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">сисясь</l>
@@ -8381,7 +9229,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сиякабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сиякабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">valehdella, panetella</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">содась</l>
@@ -8403,7 +9267,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сопыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сопыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ammentaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">сорабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">сорабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">juosta ravia, juosta ontuen</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сось</l>
@@ -8425,7 +9322,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">соябтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">соябта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">synnyttää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">соясь</l>
@@ -8447,7 +9360,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">судабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">судабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">tärähtää, vavahtaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">сулорць</l>
@@ -8469,7 +9398,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">сулць</l>
@@ -8491,7 +9419,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">сумзь</l>
@@ -8513,7 +9440,108 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сухубтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сухубта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tuupata (kyynärpäällä)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сылабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сылабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna katsomaan, avata silmänsä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сыхыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сыхыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kääntää äkkiä, ruuvata kiinni, nyrjäyttää, muuttaa äkkiä suuntaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">сыхыбтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">сыхыбта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">vääntyä, nyrjähtää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сэвоˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сэвоˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tuijottaa, silmätä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сэдарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сэдарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ompeluttaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">сэдась</l>
@@ -8535,7 +9563,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сэдбась</l>
@@ -8557,7 +9584,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">сэдорась</l>
@@ -8579,7 +9605,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сэдыбась</l>
@@ -8601,7 +9626,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сэколабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сэколабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna lauluksi, sanoa käheällä äänellä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">сэратась</l>
@@ -8623,7 +9664,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">сэратась</l>
@@ -8645,7 +9685,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">сэясь</l>
@@ -8667,7 +9706,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">сюдабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">сюдабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">viheltää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сюрась</l>
@@ -8689,7 +9744,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">сюрбась</l>
@@ -8711,7 +9765,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сюрлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сюрлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pyörittää, kierittää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сюрмбась</l>
@@ -8733,7 +9803,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сюрць</l>
@@ -8755,7 +9824,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сябарць</l>
@@ -8777,7 +9845,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">сядоць</l>
@@ -8799,7 +9866,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сяйлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сяйлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">juottaa teellä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">сякалць</l>
@@ -8821,7 +9904,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">сякыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сякыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">näykkäistä, haukata</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">сянакось</l>
@@ -8843,7 +9942,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сянзь</l>
@@ -8865,7 +9963,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">сярась</l>
@@ -8887,7 +9984,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">сярась</l>
@@ -8909,7 +10005,193 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">сяркабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">сяркабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">vingahtaa, vinkaista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сярнабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сярнабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">vingahtuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">сярнабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">сярнабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">vingahtaa, vinkaista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сярнэлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сярнэлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">vinkuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сярыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сярыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sitoa yhteen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">сятолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">сятолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">antaa sattumalta näykkäistä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">сяхабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">сяхабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">antaa merkki, että ei nuku</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">таˮнебтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">таˮнебта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kiinteyttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">табелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">табелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">heikentää, koikkelehtaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">табкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">табкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">raapaista, koskettaa, hipoa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">табтакабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">табтакабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">olla ahdas, tiukka</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">табцась</l>
@@ -8931,7 +10213,91 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тадабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тадабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">liimata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">тадабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">тадабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">liimautua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тадрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тадрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">päästää liimautumaan, tarttumaan, takertumaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">талабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">талабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tunnistaa, määrätä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">талмолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">талмолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pimentää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">талрась</l>
@@ -8953,7 +10319,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тамбась</l>
@@ -8975,7 +10340,74 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тамдобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тамдобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kääriä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тамдыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тамдыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">taittaa vähän, kääriä ylös</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">танабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">танабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">nostaa, kohottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">танабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">танабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">nousta, kohota ylös</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">танась</l>
@@ -8997,7 +10429,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">танолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">танолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">siivota, siistiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">таньбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">таньбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tehdä tiheäksi</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">танясь</l>
@@ -9019,7 +10484,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">hypittää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">тарабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">тарабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">tärähtää, vavahtaa, hangoitella jaloilla vastaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">таралць</l>
@@ -9041,7 +10539,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тарась</l>
@@ -9063,7 +10560,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">таркабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">таркабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">koukata, laittaa kiila, sujauttaa poron etujalka ansaan, sekoittaa, sotkea mukaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">таркабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">таркабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kytkeytyä, tarttua, sekoittua, sotekutua</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">таркась</l>
@@ -9085,7 +10615,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тароць</l>
@@ -9107,7 +10636,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">тарпась</l>
@@ -9129,7 +10657,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">таслась</l>
@@ -9151,7 +10678,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тась</l>
@@ -9173,7 +10699,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тахабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тахабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">rikkoa, hajottaa, vaihtaa (rahaa)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тахалабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тахалабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">myöhentää, harventaa, levittää, heittää hajalle</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тахарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тахарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">rikkoa, hajottaa, särkeä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тахарась</l>
@@ -9195,7 +10771,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">таӈгабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">таӈгабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">olla toisen vaatteen päällä, olla tiheästi lähellä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">таӈгабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">таӈгабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ommella vuoria, pukea toisen vaatteen päälle, tuoda lähelle, laituroida</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тебась</l>
@@ -9217,7 +10826,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">теберць</l>
@@ -9239,7 +10847,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тебкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тебкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kolkata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тебыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тебыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">raapaista, koskettaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">теневась</l>
@@ -9261,7 +10902,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тенесь</l>
@@ -9283,7 +10923,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тензелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тензелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">rauhoittaa, lohduttaa, tehdä loppu</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">тензибтесь</l>
@@ -9305,7 +10961,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">терсясь</l>
@@ -9327,7 +10982,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тетӈэтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тетӈэта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna kontalleen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">тетӈэтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">тетӈэта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">nousta kontalleen</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тецясь</l>
@@ -9349,7 +11037,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тивкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тивкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pitää kauheana, karmaisevana</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тирсясь</l>
@@ -9371,7 +11075,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тирць</l>
@@ -9393,7 +11096,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">тись</l>
@@ -9416,7 +11118,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тоебтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тоебта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">koputtaa, taputtaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тоелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тоелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kovettaa, vahvistaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">толабась</l>
@@ -9438,7 +11173,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">толась</l>
@@ -9460,7 +11194,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">толаӈгось</l>
@@ -9482,7 +11215,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">торабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">торабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">lääkitä, parantaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тосакабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тосакабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">epäillä, luulla vaaralliseksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тосалкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тосалкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">epäillä, luulla vaaralliseksi</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тосась</l>
@@ -9504,7 +11287,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тосрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тосрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">saattaa levottomaksi</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тось</l>
@@ -9526,7 +11325,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тохобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тохобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pyryttää vähän päälle, kattaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тоходанась</l>
@@ -9554,7 +11369,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тоходась</l>
@@ -9576,7 +11390,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тохоламбась</l>
@@ -9598,7 +11411,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тохолкось</l>
@@ -9620,7 +11432,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тохорась</l>
@@ -9642,7 +11453,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тохорць</l>
@@ -9664,7 +11474,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тохось</l>
@@ -9686,7 +11495,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">туйбтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">туйбта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kumartua vähän</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">тумдась</l>
@@ -9708,7 +11533,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">турць</l>
@@ -9730,7 +11554,91 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">туселабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">туселабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tehdä himmeäksi, sameaksi, tehdä surulliseksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">туёлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">туёлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna kallistamaan päätään</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тыбелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тыбелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sirosti viimeistellä saappaiden etuosan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тырабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тырабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kuivattaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">тырабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">тырабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kuivua</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тырась</l>
@@ -9752,7 +11660,74 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">тыркабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">тыркабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">tulla liian pieneksi, tulla tarkuutta vaativaksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тырцолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тырцолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pörröttää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тыхыбтамбась</l>
+      <stg>
+        <st Contlex="TV_ПЭБЮ">тыхыбтамба</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">toistaa montaa kertaa sama asia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тыхыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тыхыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">toistaa montaa kertaa sama asia</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">тэвась</l>
@@ -9774,7 +11749,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">тэвась</l>
@@ -9796,7 +11770,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тэворць</l>
@@ -9818,7 +11791,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тэврась</l>
@@ -9840,7 +11812,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">тэдабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">тэдабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kantautua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тэдалабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тэдалабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">aiheuttaa kaikua, häiritä hiljaisuutta</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тэдорць</l>
@@ -9862,7 +11867,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тэмдабась</l>
@@ -9884,7 +11888,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тэмдась</l>
@@ -9906,7 +11909,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тэмзрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тэмзрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">aiheuttaa nopeaa häviämistä taikuudella</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">тэрась</l>
@@ -9928,7 +11947,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тэркабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тэркабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sijoittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">тэркабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">тэркабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kohottautua, ylentyä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тэсабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тэсабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna tippumaan, tiputella</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тэтнась</l>
@@ -9950,7 +12019,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тэхэбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тэхэбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">toistaa montaa kertaa sama asia</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">тэць</l>
@@ -9972,7 +12057,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тюлесь</l>
@@ -9994,7 +12078,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тюнесь</l>
@@ -10016,7 +12099,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тюрыць</l>
@@ -10038,7 +12120,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тюсь</l>
@@ -10066,7 +12147,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">тюхулць</l>
@@ -10088,7 +12168,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тябибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тябибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kyllästyttää, tulla vastenmieliseksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тянёлкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тянёлкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">luulla liian vähäksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">тяхабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тяхабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">jättää tekemättä määräaikana, tehdä enemmän, ajaa ohi, osua kauemmas määräpäästä, liioitella</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">тяхамзь</l>
@@ -10110,7 +12240,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">тёбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">тёбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ei lentää perille, päämäärään</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">тёресь</l>
@@ -10132,7 +12278,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">тёрыць</l>
@@ -10154,7 +12299,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">хахабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хахабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">hiljentyä, hiljetä vähäksi ajaksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хаˮаврабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хаˮаврабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pudottaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">хаˮаврась</l>
@@ -10176,7 +12354,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">хаˮмась</l>
@@ -10198,7 +12375,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хаˮмелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хаˮмелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ajaa rauhallisesti</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хаˮморць</l>
@@ -10220,7 +12413,91 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хабталабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хабталабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tehdä himmeäksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хабтарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хабтарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">päästää tulen sammumaan vastoin tahtoa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">toivoa kuolemaa, valmistaa etukäteen, sammuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хавалабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хавалабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tehdä laimeaksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хавоˮлэтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хавоˮлэта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna korvarengas</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">хадабась</l>
@@ -10242,7 +12519,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хадабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хадабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">koskettaa vähän, näykätä, syödä vastenmielisesti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">хадабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хадабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">valaistua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хадарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хадарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">antaa tappaa, tuhota</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">хадась</l>
@@ -10264,7 +12591,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хаделабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хаделабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">käpristää, kihartaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хадкэсь</l>
@@ -10286,7 +12629,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">хадумзь</l>
@@ -10308,7 +12650,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хадылабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хадылабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ruokkia, ravita, tehdä likaiseksi tervalla</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хаепась</l>
@@ -10330,7 +12688,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">хаесь</l>
@@ -10352,7 +12709,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">халакабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">халакабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">alkaa kutista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">халкаˮабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">халкаˮабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">levätä oikonaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">халкабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">халкабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">levätä oikonaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">халтась</l>
@@ -10374,7 +12781,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">халтась</l>
@@ -10396,7 +12802,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">халцабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">халцабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kaatua kumoon pään yli</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">халцрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">халцрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">päästä luisuva esine käsistä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хальмелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хальмелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">mennä ilman määränpäätä johonkin</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">хамадамбась</l>
@@ -10418,7 +12874,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">хамадась</l>
@@ -10440,7 +12895,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">хамадась</l>
@@ -10462,7 +12916,108 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хамбˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хамбˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna lainehtimaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хамбабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хамбабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kallistaa, taivuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">хамбабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хамбабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kallistua, kumartua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хамболабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хамболабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">roskata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хамдарабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хамдарабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">valaa, karistaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хамзрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хамзрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">imarrella</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">хамэдамбась</l>
@@ -10484,7 +13039,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">хамэдась</l>
@@ -10506,7 +13060,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">хамэдась</l>
@@ -10528,7 +13081,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ханась</l>
@@ -10550,7 +13102,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ханаць</l>
@@ -10572,7 +13123,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ханесь</l>
@@ -10594,7 +13144,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ханзь</l>
@@ -10616,7 +13165,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ханимзь</l>
@@ -10638,7 +13186,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">харабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">харабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">XX</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">харвабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">харвабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">haluta, himoita kiihkeästi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="IV">харварябтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">харварябта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">haluta, himoita kovasti</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">харвась</l>
@@ -10668,7 +13266,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">харвобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">харвобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">haluta, rakastaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">харелкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">харелкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">luulla sivussa olevaksi</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">харесь</l>
@@ -10690,7 +13321,125 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хармелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хармелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">viedä (isosta esineestä)</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">харобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">харобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">valaa nopeasti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">харцабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">харцабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">taivuttaa kovasti taakse</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">харябтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">харябта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pelottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хасабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хасабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kuivattaa vähän</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хаселабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хаселабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">rauhoittaa, tehdä loppu</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="IV">хасыбтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">хасыбта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">kuivua</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хась</l>
@@ -10712,7 +13461,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хатабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хатабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna pullahtamaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">хатабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хатабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">pullahtaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хатрибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хатрибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">valaa yli nopeasti, alkaa (nousuvedestä), saada runsaasti</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хахаясь</l>
@@ -10734,7 +13533,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">хацясь</l>
@@ -10756,7 +13554,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">хацясь</l>
@@ -10778,7 +13575,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">хаюпась</l>
@@ -10800,7 +13596,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">хаюрць</l>
@@ -10822,7 +13617,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">хаябтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хаябта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">vieriä alas</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хаёсь</l>
@@ -10844,7 +13655,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">хаӈгабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хаӈгабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">leimahtaa isolla liekilla</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хаӈгулабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хаӈгулабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sairastuttaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">хаӈгулась</l>
@@ -10866,7 +13710,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">хаӈгурць</l>
@@ -10888,7 +13731,125 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="IV">хаӈгуръябтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">хаӈгуръябта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">XX</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хоˮлелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хоˮлелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kallistaa vartaloa eteenpäin</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ripustaa kuivumaan, mainita</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">ходобтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">ходобта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">yskähtää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хойлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хойлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tehdö huolettomasti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хокабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хокабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">suututtaa, härnätä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">холкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">холкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">sulaa, panna lämpiämään, luoda ehdot kypsymiseen</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">хонарась</l>
@@ -10910,7 +13871,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">хонась</l>
@@ -10932,7 +13892,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">хонёсь</l>
@@ -10954,7 +13913,74 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хорабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хорабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kysyä, tiedustella</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хортабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хортабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ällistellä, sanoa raa'asti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хортелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хортелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">avata, laajentaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хортолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хортолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">avata suu ammolle, alkaa kiroilla</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">хосаясь</l>
@@ -10976,7 +14002,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">хось</l>
@@ -11004,7 +14029,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хохоˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хохоˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pingottaa, ruokkia liikaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хохолабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хохолабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pingottaa, ruokkia liikaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">хоць</l>
@@ -11026,7 +14084,108 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хуˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хуˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kantaa pois, päästää ujumaan, lautata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хубрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хубрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">XX</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хубтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хубта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tinata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хульнибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хульнибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">hölskyttää, keinuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хульнябтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хульнябта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">hölskyttää, keinuttaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хунабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хунабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ryöstää</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">хунась</l>
@@ -11048,7 +14207,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хунтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хунта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ryöstää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хурикабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хурикабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">pitää epäilyttäväksi, aiheuttaa pelkoa, epämiellyttävyyttä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хурцась</l>
@@ -11070,7 +14262,108 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хурцкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хурцкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">täyttää melulla</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хуӈгылабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хуӈгылабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ajaa pois, pelottaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хыйрибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хыйрибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kivahtaa, panna hiljaiseksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хылвабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хылвабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">panna liikkumaan</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">хынебтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хынебта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">huoata</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хыноˮлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хыноˮлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">täyttää laululla</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хыноць</l>
@@ -11098,7 +14391,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хынрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хынрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">päästää ohi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">хэˮнабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хэˮнабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kurottautua, ojentautua</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хэˮнась</l>
@@ -11120,7 +14446,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">хэдобтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хэдобта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">havaita yhtäkkiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">хэрнэлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">хэрнэлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">aiheuttaa voimakas kirskuna, natina, karskutus</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">хэртабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хэртабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kapsahtaa, karahtaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">хэсь</l>
@@ -11150,7 +14526,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">хэтась</l>
@@ -11172,7 +14547,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">хэӈгабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">хэӈгабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">tyyntyä, laantua, hiljentyä, hiljetä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">юебтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">юебта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kääntyä nopeasti, karahtaa pystyyn ja kätkeytyä, tukkeutua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">юйрибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">юйрибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kaapata ja piilottaa tai ottaa mukaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">юнрась</l>
@@ -11194,7 +14619,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">юрась</l>
@@ -11216,7 +14640,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">юркабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">юркабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">herättää, panna seisomaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="VR">юркась</l>
@@ -11238,7 +14678,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">юседась</l>
@@ -11260,7 +14699,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">юсибтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">юсибта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">laittaa levolle?</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">юсибтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">юсибта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">paneutua levolle</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">яˮавлась</l>
@@ -11282,7 +14754,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">яˮмась</l>
@@ -11304,7 +14775,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">яˮмыбтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">яˮмыбта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">ei kyetä, ei mahtaa, sairastaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">ябересь</l>
@@ -11326,7 +14813,40 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="IV">ябтадэйбтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">ябтадэйбта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">olla vähän ahdas, olla aika niukka</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="IV">ябтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">ябта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">kastua, liota</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">ябцась</l>
@@ -11348,7 +14868,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">ябцрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ябцрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">antaa leivontaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">ядабтась</l>
@@ -11370,7 +14906,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ядась</l>
@@ -11392,7 +14927,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ядась</l>
@@ -11414,7 +14948,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ядембась</l>
@@ -11436,7 +14969,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">ядрабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ядрабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">antaa takoa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">ядэлась</l>
@@ -11458,7 +15007,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ядэлась</l>
@@ -11480,7 +15028,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ядэрць</l>
@@ -11502,7 +15049,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">яебтамбась</l>
@@ -11524,7 +15070,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">яебтась</l>
@@ -11546,7 +15091,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">якабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">якабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">raapia, kutittaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">ялкабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">ялкабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">sävähtää, välähtää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">ялылабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ялылабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">kohottaa tuulen voimaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">ялэмзь</l>
@@ -11568,7 +15163,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ямдась</l>
@@ -11590,7 +15184,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">яноць</l>
@@ -11612,7 +15205,57 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">ярабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ярабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">itkeä (vainaajaa), kallistaa, asettaa nojalleen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="VR">ярабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">ярабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">kyyneltyä, kallistua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="TV">ярволабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ярволабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">tehdä uhkaava ulkonäkö, tehdä karheaksi</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">яркась</l>
@@ -11634,7 +15277,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ярумзь</l>
@@ -11656,7 +15298,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ярць</l>
@@ -11678,7 +15319,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="IV">яръебтась</l>
+      <stg>
+        <st Contlex="IV_ИЛЕ">яръебта</st>
+      </stg>
+    </lg>
+    <pos>IV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="IV">kyyneltyä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">ясясь</l>
@@ -11700,7 +15357,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">яёлабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">яёлабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">samentaa</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">яӈгась</l>
@@ -11722,7 +15395,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">яӈголкабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">яӈголкабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">huomata puuttuminen, poissaolo</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">яӈгось</l>
@@ -11744,7 +15433,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">яӈгумзь</l>
@@ -11766,7 +15454,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ёˮлабтась</l>
@@ -11788,7 +15475,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ёбтась</l>
@@ -11810,7 +15496,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ёбтась</l>
@@ -11832,7 +15517,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ёльцесь</l>
@@ -11854,7 +15538,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ёльцесь</l>
@@ -11876,7 +15559,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ёндалабтась</l>
@@ -11898,7 +15580,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ёндась</l>
@@ -11920,7 +15601,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ёрць</l>
@@ -11942,7 +15622,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ёхо</l>
@@ -11964,7 +15643,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ёхобтась</l>
@@ -11986,7 +15664,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ёхорабтась</l>
@@ -12008,7 +15685,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ёць</l>
@@ -12030,7 +15706,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="VR">ёӈгабтась</l>
+      <stg>
+        <st Contlex="VR_ИЛЕ">ёӈгабта</st>
+      </stg>
+    </lg>
+    <pos>VR</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="VR">katsahtaa taakseen</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">ӈаˮнобтась</l>
@@ -12052,7 +15744,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">ӈабларабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ӈабларабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">luvata tappaaš</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="IV">ӈабтесь</l>
@@ -12074,7 +15782,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈавламбась</l>
@@ -12096,7 +15803,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈавлась</l>
@@ -12118,7 +15824,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈаворць</l>
@@ -12140,7 +15845,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="V">ӈаворць</l>
@@ -12162,7 +15866,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈадабтась</l>
@@ -12184,7 +15887,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈадаць</l>
@@ -12206,7 +15908,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈадиберць</l>
@@ -12228,7 +15929,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈадимдесь</l>
@@ -12250,7 +15950,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈадимзь</l>
@@ -12272,7 +15971,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈадясь</l>
@@ -12294,7 +15992,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈалкабтась</l>
@@ -12317,7 +16014,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈамдарабтась</l>
@@ -12339,7 +16035,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈамдась</l>
@@ -12361,7 +16056,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈамдтась</l>
@@ -12383,7 +16077,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈамдыбтась</l>
@@ -12405,7 +16098,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈамдёсь</l>
@@ -12427,7 +16119,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈамзь</l>
@@ -12449,7 +16140,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈамзь</l>
@@ -12471,7 +16161,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈамнябтась</l>
@@ -12493,7 +16182,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈамнялась</l>
@@ -12515,7 +16203,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈанелабтась</l>
@@ -12538,7 +16225,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈапарбтась</l>
@@ -12560,7 +16246,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈарамзь</l>
@@ -12582,7 +16267,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈаркалкабтась</l>
@@ -12604,7 +16288,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈатенась</l>
@@ -12626,7 +16309,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈатесь</l>
@@ -12648,7 +16330,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈодабтась</l>
@@ -12670,7 +16351,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈодабтась</l>
@@ -12692,7 +16372,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈокалкабтась</l>
@@ -12714,7 +16393,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈонабтась</l>
@@ -12736,7 +16414,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">ӈонелабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ӈонелабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">laittaa kasaan</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">ӈорцабтась</l>
@@ -12758,7 +16452,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈорцабтась</l>
@@ -12780,7 +16473,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈорць</l>
@@ -12802,7 +16494,23 @@
       </tg>
     </mg>
   </e>
-
+  <e>
+    <lg>
+      <l pos="TV">ӈоселабтась</l>
+      <stg>
+        <st Contlex="TV_ИЛЕ">ӈоселабта</st>
+      </stg>
+    </lg>
+    <pos>TV</pos>
+    <mg>
+      <m>
+        <head/>
+      </m>
+      <tg xml:lang="fin">
+        <t pos="TV">hirttää nostetulla päällä</t>
+      </tg>
+    </mg>
+  </e>
   <e>
     <lg>
       <l pos="TV">ӈыбабтась</l>
@@ -12824,7 +16532,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈыдась</l>
@@ -12846,7 +16553,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈыдась</l>
@@ -12868,7 +16574,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈыдобтась</l>
@@ -12890,7 +16595,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈылабтась</l>
@@ -12912,7 +16616,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈыноць</l>
@@ -12934,7 +16637,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈыноць</l>
@@ -12956,7 +16658,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈытобтась</l>
@@ -12978,7 +16679,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈытолабтась</l>
@@ -13000,7 +16700,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэвадалась</l>
@@ -13022,7 +16721,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈэвадась</l>
@@ -13044,7 +16742,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэдабтась</l>
@@ -13066,7 +16763,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="VR">ӈэдалась</l>
@@ -13088,7 +16784,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈэдалёрць</l>
@@ -13110,7 +16805,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэдарабтась</l>
@@ -13132,7 +16826,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэдарамба</l>
@@ -13154,7 +16847,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэдарась</l>
@@ -13176,7 +16868,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэлабтась</l>
@@ -13198,7 +16889,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈэликабтась</l>
@@ -13220,7 +16910,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэликабтась</l>
@@ -13242,7 +16931,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэнабтась</l>
@@ -13264,7 +16952,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="TV">ӈэрабтась</l>
@@ -13286,7 +16973,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈэсось</l>
@@ -13308,7 +16994,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈэсурць</l>
@@ -13330,7 +17015,6 @@
       </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="IV">ӈэсь</l>
