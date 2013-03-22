@@ -32,6 +32,16 @@
 я̆ (->) я, # Cyrillic short vowel, accept normal
 ю̆ (->) ю, # Cyrillic short vowel, accept normal
 э˙ (->) э, # Cyrillic vowel with dot above, accept normal
+# glottal stops
+ˮ (->) ", #
+ˮ (->) “, #
+ˮ (->) ”, #
+ʼ (->) ', #
+ʼ (->) ‘, #
+ʼ (->) ’, #
+ʼ (->) %´, #
+ʼ (->) %`, #
+#
 ң (->) ӈ, # Cyrillic En with descender instead En with hook
 Ң (->) Ӈ # Cyrillic capital En with descender instead En with hook
 ;
