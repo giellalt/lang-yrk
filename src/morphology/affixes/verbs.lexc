@@ -348,6 +348,7 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
+ V_Fut ;
  V_Subord ;
  PRC ;
   
@@ -1532,6 +1533,9 @@ LEXICON V_Mod/prob-Refl
 +Mod/prob+Aor:накэ MUTUAL-PERSON-REFL ;
 +Mod/prob:накэ MUTUAL-PRT1-REFL-PERSON ;
 
+LEXICON V_Fut
++Fut+Ind+Aor:ӈгу MUTUAL-PERSON-REFL ;
+
 LEXICON V_Subord
 +Subord+PxSg1:бˮнани  K ;
 +Subord+PxSg1:баˮни  K ;
@@ -1539,6 +1543,7 @@ LEXICON V_Subord
 +Subord+PxSg2:бат  K ;
 +Subord+PxSg3:бˮнанда  K ;
 +Subord+PxSg3:бата  K ;
++Subord+PxSg3:батавʼ  K ; !particle
 +Subord+PxDu1:бˮнаниʼ  K ;
 +Subord+PxDu1:баˮниʼ  K ;
 +Subord+PxDu2:бˮнандиʼ  K ;
@@ -1775,6 +1780,7 @@ LEXICON PRC
 +Aud:ваноʼ    K	;
 +Evas:воӈгад  K	;
 +ConNeg:ˮ     K ;
++Fut+ConNeg:ӈгуˮ     K ;
 
 ! vim: set ft=xfst-lexc:
 
