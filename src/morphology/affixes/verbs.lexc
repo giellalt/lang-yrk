@@ -322,6 +322,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Fut ;
 
  IND-AOR		;
   IND-AOR-SG3 	;
@@ -348,7 +349,7 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
- V_Fut ;
+ V_Fut-Refl ;
  V_Subord ;
  PRC ;
   
@@ -1534,6 +1535,9 @@ LEXICON V_Mod/prob-Refl
 +Mod/prob:накэ MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Fut
++Fut+Ind+Aor:ӈгу MUTUAL-PERSON ;
+
+LEXICON V_Fut-Refl
 +Fut+Ind+Aor:ӈгу MUTUAL-PERSON-REFL ;
 
 LEXICON V_Subord
