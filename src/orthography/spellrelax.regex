@@ -33,15 +33,15 @@
 ю̆ (->) ю, # Cyrillic short vowel, accept normal
 э˙ (->) э, # Cyrillic vowel with dot above, accept normal
 # glottal stops
-ˮ (->) %", #
-ˮ (->) “, #
-ˮ (->) ”, #
-ʼ (->) ', #
-ʼ (->) ‘, #
-ʼ (->) ’, #
-ʼ (->) %´, #
-ʼ (->) %`, #
-#
+# ˮ (->) %", #
+# ˮ (->) “, #
+# ˮ (->) ”, #
+# ʼ (->) ', #
+# ʼ (->) ‘, #
+# ʼ (->) ’, #
+# ʼ (->) %´, #
+# ʼ (->) %`, #
+
 ӈ (->) ң, # Cyrillic En with descender instead En with hook
 Ӈ (->) Ң # Cyrillic capital En with descender instead En with hook
 ;
