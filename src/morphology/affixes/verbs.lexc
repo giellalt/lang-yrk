@@ -911,15 +911,46 @@ LEXICON V-01_ТИР
  PRC ;
 
 LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
- IND-AOR-RCSG1	;
- IND-AOR-RCSG2	;
- IND-AOR-RCSG3	;
- IND-AOR-RCDU1	;
- IND-AOR-RCDU2 	;
- IND-AOR-RCDU3 	;
- IND-AOR-RCPL1 	;
- IND-AOR-RCPL2 	;
- IND-AOR-RCPL3 	;
+
++Ind:ъю IND-AOR-RCSG1	;
++Ind:ъя IND-AOR-RCSG2	;
++Ind:й IND-AOR-RCSG3	;
++Ind:ъя IND-AOR-RCDU1	;
++Ind:ъя IND-AOR-RCDU2 	;
++Ind:ъя IND-AOR-RCDU3 	;
++Ind:ъя IND-AOR-RCPL1 	;
++Ind:ъя IND-AOR-RCPL2 	;
++Ind:ъя IND-AOR-RCPL3 	;
++Ind:ъю MUTUAL-PRT1-RCSG1 ;
++Ind:ъя MUTUAL-PRT1-RCSG2 ;
++Ind:ъя MUTUAL-PRT1-RCSG3 ;
++Ind:ъя MUTUAL-PRT1-RCDU1 ;
++Ind:ъя MUTUAL-PRT1-RCDU2 ;
++Ind:ъя MUTUAL-PRT1-RCDU3 ;
++Ind:ъя MUTUAL-PRT1-RCPL1 ;
++Ind:ъя MUTUAL-PRT1-RCPL2 ;
++Ind:ъя MUTUAL-PRT1-RCPL3 ;
+ V_Hort-Refl ;
+ V_Imprt-Refl ;
+ V_Opt-Refl ;
+:ъ V_Conj-Refl ;
+ V_Mod/narr-Refl ;
+ V_Mod/appr-Refl ;
+ V_Mod/perfappr-Refl ;
+ V_Mod/futappr-Refl ;
+ V_Mod/hyp-Refl ;
+ V_Mod/int-Refl ;
+ V_Mod/nec-Refl ;
+ V_Mod/perfprob-Refl ;
+ V_Mod/prob-Refl ;
+ V_Mod/obl-Refl ;
+ V_Mod/rep-Refl ;
+ V_Mod/sup-Refl ;
+ V_Mod/des-Refl ;
+ V_Fut-Refl ;
+ V_Subord ;
+ PRC ;
+
 
 LEXICON V-01_ТО
 @R.CONJ.ObjAll@ V_Obj ;
@@ -1336,7 +1367,9 @@ LEXICON IND-PRT1-PL3
 
 LEXICON V_IND-Refl
 +Ind:ю IND-AOR-RCSG1	;
++Ind+Aor+RcSg1:йв K ; 
 +Ind:я IND-AOR-RCSG2	;
++Ind:й IND-AOR-RCSG2	;
 +Ind:й IND-AOR-RCSG3	;
 +Ind:й IND-AOR-RCDU1	;
 +Ind:й IND-AOR-RCDU2 	;
@@ -1419,11 +1452,11 @@ LEXICON V_Mod/nec-Refl
 +Mod/nec:бцу MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/narr
-+Mod/narr+Aor:вэ MUTUAL-PERSON ; 
++Mod/narr+Aor:%^MLenition%>вэ MUTUAL-PERSON ; 
 
 LEXICON V_Mod/narr-Refl
-+Mod/narr+Aor:вэ MUTUAL-PERSON-REFL ; 
-+Mod/narr:вЫ2 MUTUAL-PRT1-REFL-PERSON ;
++Mod/narr+Aor:%^MLenition%>вэ MUTUAL-PERSON-REFL ; 
++Mod/narr:%^MLenition%>вЫ2 MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
 +Mod/narr+Prt1+ScSg1:вэдамзь K ;
@@ -1445,10 +1478,10 @@ LEXICON V_Mod/appr-Refl
 +Mod/appr:нархы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/perfappr
-+Mod/perfappr:вэрха MUTUAL-PERSON ;
++Mod/perfappr:%^MLenition%>вэрха MUTUAL-PERSON ;
 
 LEXICON V_Mod/perfappr-Refl
-+Mod/perfappr:вэрхы MUTUAL-PERSON-REFL ;
++Mod/perfappr:%^MLenition%>вэрхы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/futappr
 +Mod/futappr:вандарха MUTUAL-PERSON ; !Shvavokaali voi joskus jäädä pois?
