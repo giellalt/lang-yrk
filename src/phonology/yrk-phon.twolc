@@ -180,6 +180,7 @@ Rules
 
 "mToV" ! perhaps there should be a VtoM rule2013-01-23
 м:в <=> _ %^MLenition:0 [ # | %> [ о | м | ʼ | ˮ ] ] ;
+       Vow %^MLenition:0 %> _ [ э к | э р х | а н д а р х ] ;
 !ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
 
 "mTob" ! 
@@ -197,10 +198,13 @@ Rules
 н:д <=>  [ Ӈ1: | ʼ: ] %>: _ ʼ ;
 
 "n to t after non-nasal glottal"
-н:т <=>  [ С1: | Д1: | ˮ: ] %>: _ ʼ ;
+н:т <=>  [ С1: | Д1: | ˮ: ] %>: _ [ ʼ | а к ] ;
 
 "d to t after non-nasal glottal"
 д:т <=> [ С1: | Д1: | ˮ: ] %>: _ ;
+
+"b to p after non-nasal glottal"
+б:п <=> [ С1: | Д1: | ˮ: ] %>: _ ;
 
 "с => ц affrication after Stop"
 с:ц <=> [ Д1: ] %>: _ ь ;
@@ -251,10 +255,10 @@ Rules
 !       where Cx in (Н1 Ӈ1) ;
 
 "Д1:0 GlottalNonNasalToZERO"
-Д1:0 <=> _ %>:  [ х: | н: ʼ | с: ь | ц ь | д: а ˮ | д: а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
+Д1:0 <=> _ %>:  [ х: | н:  ʼ | с: ь | ц ь | д: а ˮ | д: а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
 
 "С1:0 GlottalNonNasalToZERO"
-С1:0 <=> _ %>: [ х: | н: | с: ь ] ;
+С1:0 <=> _ %>: [ х: | н: | б: | с: ь ] ;
 
 
 "ь:0 with  GlottalNonNasalToZERO"
