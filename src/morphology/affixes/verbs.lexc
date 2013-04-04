@@ -251,7 +251,6 @@ LEXICON V-01_ВАДЮ
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -267,10 +266,12 @@ LEXICON V-01_ВАДЮ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_Е
 @R.CONJ.ObjAll@ V_Obj ;
@@ -305,7 +306,6 @@ LEXICON V-01_ИЛЕ
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -323,11 +323,11 @@ LEXICON V-01_ИЛЕ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Fut ;
-
+ V_Subord ;
  IND-AOR		;
-  IND-AOR-SG3 	;
-  IND-PRT1		;
-  PRC ;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
 
 LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_IND-Refl ;
@@ -358,7 +358,6 @@ LEXICON V-01_ЛАХАНА
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -374,6 +373,7 @@ LEXICON V-01_ЛАХАНА
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
@@ -400,6 +400,7 @@ LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
  V_Subord ;
+ V_Fut-Refl ;
  PRC ;
 
 LEXICON V-01_МАН
@@ -407,7 +408,6 @@ LEXICON V-01_МАН
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -423,17 +423,18 @@ LEXICON V-01_МАН
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_МИН
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -449,17 +450,18 @@ LEXICON V-01_МИН
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_МИС
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -475,10 +477,12 @@ LEXICON V-01_МИС
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_МЭ
 @R.CONJ.ObjAll@ V_Obj ;
@@ -657,7 +661,6 @@ LEXICON V-01_НЭКАЛ
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -673,17 +676,18 @@ LEXICON V-01_НЭКАЛ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ӇАДИМ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -699,17 +703,18 @@ LEXICON V-01_ӇАДИМ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ӇАРАМ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -725,10 +730,12 @@ LEXICON V-01_ӇАРАМ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ӇАРАМ-REFL !! V_refl 2013-03-04
  IND-AOR-RCSG1	;
@@ -773,7 +780,6 @@ LEXICON V-01_ӇЭСУ
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -789,10 +795,12 @@ LEXICON V-01_ӇЭСУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ПЭБЮ
 @R.CONJ.ObjAll@ V_Obj ;
@@ -825,7 +833,6 @@ LEXICON V-01_САС
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -841,10 +848,12 @@ LEXICON V-01_САС
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_САС-REFL !! V_refl 2013-03-04
  IND-AOR-RCSG1	;
@@ -863,7 +872,6 @@ LEXICON V-01_СЯНАКУ
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -879,18 +887,19 @@ LEXICON V-01_СЯНАКУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ТИР
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
- V_Opt ;
- V_Subord ;
- V_Conj ;
+:ӈа V_Opt ;
+:ъ V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
  V_Mod/futappr ;
@@ -905,10 +914,12 @@ LEXICON V-01_ТИР
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- IND-AOR		;
- IND-AOR-SG3 	;
- IND-PRT1		;
- PRC ;
+ V_Fut2 ;
+ V_Subord ;
+:ӈа IND-AOR		;
+:ӈа IND-AOR-SG3 	;
+:ӈа IND-PRT1		;
+ PRC2 ;
 
 LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
 
@@ -947,17 +958,16 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
- V_Fut-Refl ;
+ V_Fut2-Refl ;
  V_Subord ;
- PRC ;
-
+ PRC2 ;
++Fut+ConNeg:тыˮ     K ;
 
 LEXICON V-01_ТО
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -973,17 +983,18 @@ LEXICON V-01_ТО
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Fut ;
+ V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ТУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -999,17 +1010,18 @@ LEXICON V-01_ТУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ХО
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1025,6 +1037,8 @@ LEXICON V-01_ХО
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
@@ -1035,7 +1049,6 @@ LEXICON V-01_ХАДА
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1051,6 +1064,8 @@ LEXICON V-01_ХАДА
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
@@ -1061,7 +1076,6 @@ LEXICON V-01_ХЭ
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1077,6 +1091,8 @@ LEXICON V-01_ХЭ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
@@ -1087,7 +1103,6 @@ LEXICON V-01_ЮХУ
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1103,17 +1118,18 @@ LEXICON V-01_ЮХУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Fut2 ;
+ V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
- PRC ;
+ PRC2 ;
 
 LEXICON V-01_ЯˮАВЛУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
  V_Imprt ;
  V_Opt ;
- V_Subord ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1129,6 +1145,8 @@ LEXICON V-01_ЯˮАВЛУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_Subord ;
+ V_Fut ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-PRT1		;
@@ -1570,8 +1588,14 @@ LEXICON V_Mod/prob-Refl
 LEXICON V_Fut
 +Fut+Ind+Aor:ӈгу MUTUAL-PERSON ;
 
+LEXICON V_Fut2
++Fut+Ind+Aor:та MUTUAL-PERSON ;
+
 LEXICON V_Fut-Refl
 +Fut+Ind+Aor:ӈгу MUTUAL-PERSON-REFL ;
+
+LEXICON V_Fut2-Refl
++Fut+Ind+Aor:та MUTUAL-PERSON-REFL ;
 
 LEXICON V_Subord
 +Subord+PxSg1:бˮнани  K ;
@@ -1818,6 +1842,24 @@ LEXICON PRC
 +Evas:воӈгад  K	;
 +ConNeg:ˮ     K ;
 +Fut+ConNeg:ӈгуˮ     K ;
+
+LEXICON PRC2
++InfImprf:ва K ;
++InfPrf:ˮма K ;
++PrcImprf:на K ;
++PrcImprf:ня K ;
++PrcPrf:вы K ;
++PrcNeg:вдавэй K ;
++PrcFut:ванда K ;
++Ger: K ;
++Ger:сь K ;
++GerFin:ванзь K ;
++Subord:бˮ    K	;
++Aud:воʼ      K	;
++Aud:ваноʼ    K	;
++Evas:воӈгад  K	;
++ConNeg:ˮ     K ;
++Fut+ConNeg:таˮ     K ;
 
 ! vim: set ft=xfst-lexc:
 
