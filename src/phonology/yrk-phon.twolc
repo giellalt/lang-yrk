@@ -194,6 +194,10 @@ Rules
 "r To l after nasal glottal"
 р:л <=> [ ʼ: | Ӈ1: ] %>: _ ;
 
+"r To 0 after л glottal"
+р:0 <=> [ л ] %>: _  ;
+
+
 "nTod"
 н:д <=>  [ Ӈ1: | ʼ: ] %>: _ ʼ ;
 
@@ -206,6 +210,11 @@ Rules
 "b to p after non-nasal glottal"
 б:п <=> [ С1: | Д1: | ˮ: ] %>: _ ;
 
+"b to 0 between mod/obl"
+б:0 <=> л %>: _ ц а к ;
+
+
+
 "с => ц affrication after Stop"
 с:ц <=> [ Д1: ] %>: _ ь ;
 
@@ -217,6 +226,7 @@ Rules
 
 "ˮ:0"
 ˮ:0 <=> _ %>: д: ;
+     %>: б:п _ ;
 
 "х -> г after nasal glottal"
 х:г <=> [ ʼ: | Ӈ1: | Н1: | м ] %>: _ ( А1: ) ;
