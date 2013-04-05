@@ -960,6 +960,7 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  V_Mod/des-Refl ;
  V_Fut2-Refl ;
 :С1 V_Subord ;
++Fut+Ind+Aor:ты MUTUAL-PERSON-REFL ;
  PRC2 ;
 +Fut+ConNeg:тыˮ     K ;
 
@@ -1508,22 +1509,22 @@ LEXICON V_Mod/futappr-Refl
 +Mod/futappr:%^MLenition%>мандархы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/obl
-+Mod/obl:бцакэ MUTUAL-PERSON ;
++Mod/obl:%>бцакэ MUTUAL-PERSON ;
 
 LEXICON V_Mod/obl-Refl
-+Mod/obl:бцакэ MUTUAL-PERSON-REFL ;
++Mod/obl:%>бцакэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/rep
-+Mod/rep:вна MUTUAL-PERSON ;
++Mod/rep:%>вна MUTUAL-PERSON ;
 
 LEXICON V_Mod/rep-Refl
-+Mod/rep:вна MUTUAL-PERSON-REFL ;
++Mod/rep:%>вана MUTUAL-PERSON-REFL ; ! вана vs вна
 
 LEXICON V_Mod/des
-+Mod/des:рва MUTUAL-PERSON ;
++Mod/des:%>рва MUTUAL-PERSON ;
 
 LEXICON V_Mod/des-Refl
-+Mod/des:рби MUTUAL-PERSON-REFL ;
++Mod/des:%>рби MUTUAL-PERSON-REFL ;
 
 LEXICON V_Conj
 +Conj+Aor+ScSg1:идмʼ K ;
@@ -1550,16 +1551,16 @@ LEXICON V_Conj-Refl
 +Conj:и MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/sup
-+Mod/sup:ванӈгабя MUTUAL-PERSON ;
++Mod/sup:%^MLenition%>манӈгабя MUTUAL-PERSON ;
 
 LEXICON V_Mod/sup-Refl
-+Mod/sup:ванӈгаби MUTUAL-PERSON-REFL ;
++Mod/sup:%^MLenition%>манӈгаби MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/hyp
-+Mod/hyp:рхавэ MUTUAL-PERSON ;
++Mod/hyp:%>рхавэ MUTUAL-PERSON ;
 
 LEXICON V_Mod/hyp-Refl
-+Mod/hyp:рахавэ MUTUAL-PERSON-REFL ;
++Mod/hyp:%>рахавэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/perfprob
 +Mod/perfprob:%^MLenition%>мэкэ MUTUAL-PERSON ;
@@ -1568,18 +1569,18 @@ LEXICON V_Mod/perfprob-Refl
 +Mod/perfprob:%^MLenition%>мэкэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/prob
-+Mod/prob+Aor:накэ MUTUAL-PERSON ;
-+Mod/prob+Prt1+ScSg1:накэдамзь K ;
-+Mod/prob+Prt1+ScSg2:накэнась K ;
-+Mod/prob+Prt1+ScSg3:накысь K ;
-+Mod/prob+Prt1+ScSg3:накэсь K ;
-+Mod/prob+Prt1+ScDu1:накэнинзь K ;
-+Mod/prob+Prt1+ScDu2:накэдинзь K ;
-+Mod/prob+Prt1+ScDu3:накэханзь K ;
-+Mod/prob+Prt1+ScPl1:накэваць K ;
-+Mod/prob+Prt1+ScPl2:накэдаць K ;
-+Mod/prob+Prt1+ScPl3:накыць K ;
-+Mod/prob+Prt1+ScPl3:накэць K ;
++Mod/prob+Aor:%>накэ MUTUAL-PERSON ;
++Mod/prob+Prt1+ScSg1:%>накэдамзь K ;
++Mod/prob+Prt1+ScSg2:%>накэнась K ;
++Mod/prob+Prt1+ScSg3:%>накысь K ;
++Mod/prob+Prt1+ScSg3:%>накэсь K ;
++Mod/prob+Prt1+ScDu1:%>накэнинзь K ;
++Mod/prob+Prt1+ScDu2:%>накэдинзь K ;
++Mod/prob+Prt1+ScDu3:%>накэханзь K ;
++Mod/prob+Prt1+ScPl1:%>накэваць K ;
++Mod/prob+Prt1+ScPl2:%>накэдаць K ;
++Mod/prob+Prt1+ScPl3:%>накыць K ;
++Mod/prob+Prt1+ScPl3:%>накэць K ;
 
 LEXICON V_Mod/prob-Refl
 +Mod/prob+Aor:%>накэ MUTUAL-PERSON-REFL ;
@@ -1785,7 +1786,7 @@ LEXICON MUTUAL-RCDU1
 LEXICON MUTUAL-RCDU2
 +RcDu2:%>диʼ K ;
 LEXICON MUTUAL-RCDU3
-+RcDu3:%>хА1ʼ K ;
++RcDu3:%>хА1ʼ K ; ! А1:ы is needed but elsewhere А1:а
 LEXICON MUTUAL-RCPL1
 +RcPl1:%>наˮ K ;
 LEXICON MUTUAL-RCPL2
@@ -1835,29 +1836,29 @@ LEXICON PRC
 +PrcFut:ванда K ;
 +Ger: K ;
 +Ger:сь K ;
-+GerFin:ванзь K ;
++GerFin:%^MLenition%>манзь K ;
 +Subord:бˮ    K	;
-+Aud:воʼ      K	;
-+Aud:ваноʼ    K	;
-+Evas:воӈгад  K	;
++Aud:%^MLenition%>моʼ      K	;
++Aud:%^MLenition%>маноʼ    K	;
++Evas:%^MLenition%>моӈгад  K	;
 +ConNeg:ˮ     K ;
 +Fut+ConNeg:ӈгуˮ     K ;
 
 LEXICON PRC2
-+InfImprf:ва K ;
++InfImprf:%^MLenition%>ма K ;
 +InfPrf:ˮма K ;
 +PrcImprf:на K ;
 +PrcImprf:ня K ;
-+PrcPrf:вы K ;
-+PrcNeg:вдавэй K ;
-+PrcFut:ванда K ;
++PrcPrf:%^MLenition%>мы K ;
++PrcNeg:%^MLenition%>мдавэй K ;
++PrcFut:%^MLenition%>манда K ;
 +Ger: K ;
 +Ger:сь K ;
-+GerFin:ванзь K ;
++GerFin:%^MLenition%>манзь K ;
 +Subord:бˮ    K	;
-+Aud:воʼ      K	;
-+Aud:ваноʼ    K	;
-+Evas:воӈгад  K	;
++Aud:%^MLenition%>моʼ      K	;
++Aud:%^MLenition%>маноʼ    K	;
++Evas:%^MLenition%>моӈгад  K	;
 +ConNeg:ˮ     K ;
 +Fut+ConNeg:таˮ     K ;
 
