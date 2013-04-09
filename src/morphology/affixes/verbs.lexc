@@ -249,6 +249,7 @@ LEXICON V-Ny
 LEXICON V-01_ВАДЮ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -276,6 +277,7 @@ LEXICON V-01_ВАДЮ
 LEXICON V-01_Е
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -304,6 +306,7 @@ LEXICON V-01_Е
 LEXICON V-01_ИЛЕ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -356,6 +359,7 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
 LEXICON V-01_ЛАХАНА
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -406,6 +410,7 @@ LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04
 LEXICON V-01_МАН
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -433,6 +438,7 @@ LEXICON V-01_МАН
 LEXICON V-01_МИН
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -460,6 +466,7 @@ LEXICON V-01_МИН
 LEXICON V-01_МИС
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -487,6 +494,7 @@ LEXICON V-01_МИС
 LEXICON V-01_МЭ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -514,6 +522,7 @@ LEXICON V-01_МЭ
 LEXICON V-01_МЫ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -540,6 +549,7 @@ LEXICON V-01_МЫ
 LEXICON V-01_НЁ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -566,6 +576,7 @@ LEXICON V-01_НЁ
 LEXICON V-01_НИ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -592,6 +603,7 @@ LEXICON V-01_НИ
 LEXICON V-01_НО
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -618,6 +630,7 @@ LEXICON V-01_НО
 LEXICON V-01_НУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -659,6 +672,7 @@ LEXICON V-01_НУ/ТУ
 LEXICON V-01_НЭКАЛ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -686,6 +700,7 @@ LEXICON V-01_НЭКАЛ
 LEXICON V-01_ӇАДИМ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -713,6 +728,7 @@ LEXICON V-01_ӇАДИМ
 LEXICON V-01_ӇАРАМ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -751,6 +767,7 @@ LEXICON V-01_ӇАРАМ-REFL !! V_refl 2013-03-04
 LEXICON V-01_ӇЭ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -778,6 +795,7 @@ LEXICON V-01_ӇЭ
 LEXICON V-01_ӇЭСУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -805,6 +823,7 @@ LEXICON V-01_ӇЭСУ
 LEXICON V-01_ПЭБЮ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -831,6 +850,7 @@ LEXICON V-01_ПЭБЮ
 LEXICON V-01_САС
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -870,6 +890,7 @@ LEXICON V-01_САС-REFL !! V_refl 2013-03-04
 LEXICON V-01_СЯНАКУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -897,6 +918,7 @@ LEXICON V-01_СЯНАКУ
 LEXICON V-01_ТИР
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
 :ӈа V_Opt ;
 :ъ V_Conj ; 
@@ -967,6 +989,7 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
 LEXICON V-01_ТО
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -994,6 +1017,7 @@ LEXICON V-01_ТО
 LEXICON V-01_ТУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -1021,6 +1045,7 @@ LEXICON V-01_ТУ
 LEXICON V-01_ХО
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -1048,6 +1073,7 @@ LEXICON V-01_ХО
 LEXICON V-01_ХАДА
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -1075,6 +1101,7 @@ LEXICON V-01_ХАДА
 LEXICON V-01_ХЭ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -1102,6 +1129,7 @@ LEXICON V-01_ХЭ
 LEXICON V-01_ЮХУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -1129,6 +1157,7 @@ LEXICON V-01_ЮХУ
 LEXICON V-01_ЯˮАВЛУ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
