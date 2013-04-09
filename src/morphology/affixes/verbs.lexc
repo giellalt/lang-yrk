@@ -33,7 +33,6 @@ LEXICON VR_ИЛЕ
 LEXICON TV_ИЛЕ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ИЛЕ	;
 
-
 LEXICON IV_ЛАХАНА
 +V+IV: V-01_ЛАХАНА       ;
 
@@ -279,7 +278,9 @@ LEXICON V-01_Е
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
+@R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
+@R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Subord ;
  V_Conj ;
  V_Mod/appr ;
@@ -308,7 +309,9 @@ LEXICON V-01_ИЛЕ
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
+@R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
+@R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1360,7 +1363,7 @@ LEXICON IND-AOR-SCPL3-OCDU3
 +Ind+Aor+ScPl3+OcDu3:ӈахаюдоʼ K ;
 
 LEXICON IND-AOR-SCSG1-OCPL3
-+Ind+Aor+ScSg1+OcPl3:йн K ;
++Ind+Aor+ScSg1+OcPl3:%>йн K ;
 LEXICON IND-AOR-SCSG2-OCPL3
 +Ind+Aor+ScSg2+OcPl3:йд K ;
 LEXICON IND-AOR-SCSG3-OCPL3
