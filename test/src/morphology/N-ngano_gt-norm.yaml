@@ -1,0 +1,39 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ӈано: # Noun 'boat' - full paradigm /Type 23/
+     ӈано+N+Sg+Nom: ӈано
+     ӈано+N+Sg+Acc: ӈаномʼ
+     ӈано+N+Sg+Gen: ӈаноʼ
+     ӈано+N+Sg+Dat: ӈанонʼ
+     ӈано+N+Sg+Loc: ӈанохона
+     ӈано+N+Sg+Abl: ӈаноход
+     ӈано+N+Sg+Pros: ӈаноховна
+     ӈано+N+Du+Nom: ӈанохоʼ
+     ӈано+N+Du+Acc: ӈанохоʼ
+     ӈано+N+Du+Gen: ӈанохоʼ
+     ӈано+N+Pl+Nom: ӈаноˮ
+     ӈано+N+Pl+Acc: ӈану
+     ӈано+N+Pl+Gen: ӈануˮ
+     ӈано+N+Pl+Dat: ӈанохоˮ
+     ӈано+N+Pl+Loc: ӈанохоˮна
+     ӈано+N+Pl+Abl: ӈанохот
+     ӈано+N+Pl+Pros: ӈануˮмана    
+
+     ӈано+N+Sg+Tra: ӈаноӈэ
+     ӈано+N+Pl+Tra: ӈаноˮӈэ
+
+# Possessive forms 
