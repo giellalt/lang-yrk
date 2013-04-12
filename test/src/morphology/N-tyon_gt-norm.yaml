@@ -19,18 +19,18 @@ Tests:
      тёня+N+Sg+Acc: тёнямʼ
      тёня+N+Sg+Gen: тёняʼ
      тёня+N+Sg+Dat: тёнянʼ
-     тёня+N+Sg+Loc: тёняхона
-     тёня+N+Sg+Abl: тёняход
+     тёня+N+Sg+Loc: тёняхана
+     тёня+N+Sg+Abl: тёняхад
      тёня+N+Sg+Pros: тёнявна
-     тёня+N+Du+Nom: тёняхоʼ
-     тёня+N+Du+Acc: тёняхоʼ
-     тёня+N+Du+Gen: тёняхоʼ
+     тёня+N+Du+Nom: тёняхаʼ
+     тёня+N+Du+Acc: тёняхаʼ
+     тёня+N+Du+Gen: тёняхаʼ
      тёня+N+Pl+Nom: тёняˮ
      тёня+N+Pl+Acc: тён
      тёня+N+Pl+Gen: тёнˮ
-     тёня+N+Pl+Dat: тёняхоˮ
-     тёня+N+Pl+Loc: тёняхоˮна
-     тёня+N+Pl+Abl: тёняхот
+     тёня+N+Pl+Dat: тёняхаˮ
+     тёня+N+Pl+Loc: тёняхаˮна
+     тёня+N+Pl+Abl: тёняхат
      тёня+N+Pl+Pros: тёнˮмана    
      
      тёня+N+Sg+Tra: тёняӈэ
@@ -143,16 +143,16 @@ Tests:
      тёня+N+Pl+Nom+PxPl1: тёнянаˮ 
      тёня+N+Pl+Nom+PxPl2: тёнядаˮ 
      тёня+N+Pl+Nom+PxPl3: тёнядоʼ 
-     тёня+N+Pl+Acc+PxSg1: тённ !?   
+     тёня+N+Pl+Acc+PxSg1: тённ   #?   
      тёня+N+Pl+Acc+PxSg2: тёнд   
      тёня+N+Pl+Acc+PxSg3: тёнда  
-     тёня+N+Pl+Acc+PxDu1: тённиʼ !?
+     тёня+N+Pl+Acc+PxDu1: тённиʼ #?
      тёня+N+Pl+Acc+PxDu2: тёндиʼ 
      тёня+N+Pl+Acc+PxDu3: тёндиʼ 
-     тёня+N+Pl+Acc+PxPl1: тённаˮ !?
+     тёня+N+Pl+Acc+PxPl1: тённаˮ #?
      тёня+N+Pl+Acc+PxPl2: тёндаˮ 
      тёня+N+Pl+Acc+PxPl3: тёндоʼ 
-     тёня+N+Pl+Gen+PxSg1: тёнˮн  !?
+     тёня+N+Pl+Gen+PxSg1: тёнˮн  #?
      тёня+N+Pl+Gen+PxSg2: тёнт   
      тёня+N+Pl+Gen+PxSg3: тёнта  
      тёня+N+Pl+Gen+PxDu1: тёнˮниʼ
@@ -161,33 +161,33 @@ Tests:
      тёня+N+Pl+Gen+PxPl1: тёнˮнаˮ 
      тёня+N+Pl+Gen+PxPl2: тёнтаˮ 
      тёня+N+Pl+Gen+PxPl3: тёнтоʼ 
-     тёня+N+Pl+Dat+PxSg1: тёняхaˮн 
-     тёня+N+Pl+Dat+PxSg2: тёняхaт 
-     тёня+N+Pl+Dat+PxSg3: тёняхaта 
-     тёня+N+Pl+Dat+PxDu1: тёняхaˮниʼ 
-     тёня+N+Pl+Dat+PxDu2: тёняхaтиʼ 
-     тёня+N+Pl+Dat+PxDu3: тёняхaтиʼ 
-     тёня+N+Pl+Dat+PxPl1: тёняхaˮнаˮ 
-     тёня+N+Pl+Dat+PxPl2: тёняхaтаˮ 
-     тёня+N+Pl+Dat+PxPl3: тёняхaтоʼ 
-     тёня+N+Pl+Loc+PxSg1: тёняхaˮнан  
-     тёня+N+Pl+Loc+PxSg2: тёняхaˮнат  
-     тёня+N+Pl+Loc+PxSg3: тёняхaˮната 
-     тёня+N+Pl+Loc+PxDu1: тёняхaˮнаниʼ
-     тёня+N+Pl+Loc+PxDu2: тёняхaˮнатиʼ
-     тёня+N+Pl+Loc+PxDu3: тёняхaˮнатиʼ
-     тёня+N+Pl+Loc+PxPl1: тёняхaˮнанаˮ
-     тёня+N+Pl+Loc+PxPl2: тёняхaˮнатаˮ
-     тёня+N+Pl+Loc+PxPl3: тёняхaˮнатоʼ
-     тёня+N+Pl+Abl+PxSg1: тёняхaтан 
-     тёня+N+Pl+Abl+PxSg2: тёняхaтат 
-     тёня+N+Pl+Abl+PxSg3: тёняхaтата 
-     тёня+N+Pl+Abl+PxDu1: тёняхaтаниʼ
-     тёня+N+Pl+Abl+PxDu2: тёняхaтатиʼ
-     тёня+N+Pl+Abl+PxDu3: тёняхaтатиʼ
-     тёня+N+Pl+Abl+PxPl1: тёняхaтанаˮ
-     тёня+N+Pl+Abl+PxPl2: тёняхaтатаˮ
-     тёня+N+Pl+Abl+PxPl3: тёняхaтатоʼ
+     тёня+N+Pl+Dat+PxSg1: тёняхаˮн 
+     тёня+N+Pl+Dat+PxSg2: тёняхат 
+     тёня+N+Pl+Dat+PxSg3: тёняхата 
+     тёня+N+Pl+Dat+PxDu1: тёняхаˮниʼ 
+     тёня+N+Pl+Dat+PxDu2: тёняхатиʼ 
+     тёня+N+Pl+Dat+PxDu3: тёняхатиʼ 
+     тёня+N+Pl+Dat+PxPl1: тёняхаˮнаˮ 
+     тёня+N+Pl+Dat+PxPl2: тёняхатаˮ 
+     тёня+N+Pl+Dat+PxPl3: тёняхатоʼ 
+     тёня+N+Pl+Loc+PxSg1: тёняхаˮнан  
+     тёня+N+Pl+Loc+PxSg2: тёняхаˮнат  
+     тёня+N+Pl+Loc+PxSg3: тёняхаˮната 
+     тёня+N+Pl+Loc+PxDu1: тёняхаˮнаниʼ
+     тёня+N+Pl+Loc+PxDu2: тёняхаˮнатиʼ
+     тёня+N+Pl+Loc+PxDu3: тёняхаˮнатиʼ
+     тёня+N+Pl+Loc+PxPl1: тёняхаˮнанаˮ
+     тёня+N+Pl+Loc+PxPl2: тёняхаˮнатаˮ
+     тёня+N+Pl+Loc+PxPl3: тёняхаˮнатоʼ
+     тёня+N+Pl+Abl+PxSg1: тёняхатан 
+     тёня+N+Pl+Abl+PxSg2: тёняхатат 
+     тёня+N+Pl+Abl+PxSg3: тёняхатата 
+     тёня+N+Pl+Abl+PxDu1: тёняхатаниʼ
+     тёня+N+Pl+Abl+PxDu2: тёняхататиʼ
+     тёня+N+Pl+Abl+PxDu3: тёняхататиʼ
+     тёня+N+Pl+Abl+PxPl1: тёняхатанаˮ
+     тёня+N+Pl+Abl+PxPl2: тёняхататаˮ
+     тёня+N+Pl+Abl+PxPl3: тёняхататоʼ
      тёня+N+Pl+Pros+PxSg1: тёнˮманан  
      тёня+N+Pl+Pros+PxSg2: тёнˮманат  
      тёня+N+Pl+Pros+PxSg3: тёнˮманата 
