@@ -971,14 +971,14 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  V_Opt-Refl ;
 :ъ V_Conj-Refl ;
  V_Mod/narr-Refl ;
- V_Mod/appr-Refl ;
+:С1 V_Mod/appr-Refl ;
+:С1 V_Mod/prob-Refl ;
  V_Mod/perfappr-Refl ;
  V_Mod/futappr-Refl ;
  V_Mod/hyp-Refl ;
  V_Mod/int-Refl ;
  V_Mod/nec-Refl ;
  V_Mod/perfprob-Refl ;
-:С1 V_Mod/prob-Refl ;
  V_Mod/obl-Refl ;
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
@@ -1647,6 +1647,11 @@ LEXICON V_Mod/appr
 
 LEXICON V_Mod/appr-Refl
 +Mod/appr:нархы MUTUAL-PERSON-REFL ;
++Mod/appr:%>нарахы MUTUAL-PERSON-REFL ; !for 1-syllable stems
+
+LEXICON V_Mod/prob-Refl
++Mod/prob+Aor:%>накэ MUTUAL-PERSON-REFL ;
++Mod/prob:%>накэ MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/perfappr
 +Mod/perfappr:%^MLenition%>мэрха MUTUAL-PERSON ;
@@ -1733,10 +1738,6 @@ LEXICON V_Mod/prob
 +Mod/prob+Prt1+ScPl2:%>накэдаць K ;
 +Mod/prob+Prt1+ScPl3:%>накыць K ;
 +Mod/prob+Prt1+ScPl3:%>накэць K ;
-
-LEXICON V_Mod/prob-Refl
-+Mod/prob+Aor:%>накэ MUTUAL-PERSON-REFL ;
-+Mod/prob:%>накэ MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Fut
 +Fut+Ind+Aor:ӈгу MUTUAL-PERSON ;
