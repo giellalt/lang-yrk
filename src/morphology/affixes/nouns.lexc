@@ -125,7 +125,7 @@ LEXICON N_ХАНО  !!= @CODE@ хӑн: 11
 !! [total=27]
 !! хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
 +N: SGNOMSUF ;
-+N:а  SG-ACC-STEM ;
++N:о  SG-ACC-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
@@ -292,7 +292,7 @@ LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23
 +N: SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
 +N: PLNOMSUF ;
-+N:%^VowRaise PLACCSUF_Zero ; 
++N:%^VowRaise PLACCSUF_Zero ;
 
 LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24
 !! [total=4]
@@ -553,7 +553,7 @@ LEXICON NMN_ИБЯ
  SGDATSUF ;
  SGLOCSUF ;
  SGABLSUF ;
-:%^MLenition SGPROSSUF ;
+:%>в SGPROSSUF ;
  SGTRASUF ;
 
  DUNOMSUF ;
@@ -767,15 +767,15 @@ LEXICON SGTRASUF
 
 ! These must be checked
 LEXICON DUNOMSUF 
-+Du+Nom:%>хА1ʼ K ;
+!+Du+Nom:%>хА1ʼ K ;
 +Du+Nom:%>хʼ K ;
 
 LEXICON DUACCSUF
-+Du+Acc:%>хА1ʼ K ;
+!+Du+Acc:%>хА1ʼ K ;
 +Du+Acc:%>хʼ K ;
 
 LEXICON DUGENSUF 
-+Du+Gen:%>хА1ʼ K ;
+!+Du+Gen:%>хА1ʼ K ;
 +Du+Gen:%>хʼ K ;
 
 !! Start Plural
