@@ -363,4 +363,124 @@
 
     <!--  -->
   </e>
+
+  <e>
+    <lg>
+      <l pos="A">ябта</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">ябта</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kapea</t>
+      </tg>
+    </mg>
+
+    <!--  toinen mahdollisuus on CONTELEX хоб-->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ябти</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">ябти</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kova</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ямб</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ямб</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>long</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pitkä</t>
+      </tg>
+    </mg>
+
+    <!--  toinen mahdollisuus on CONTELEX хан-->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">яна</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">яна</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>calm</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>rauhallinen</t>
+
+        <t>hiljainen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
 </r>
