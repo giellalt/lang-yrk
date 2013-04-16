@@ -31,7 +31,7 @@ Tests:
      пя+N+Pl+Dat: пяхаˮ
      пя+N+Pl+Loc: пяхаˮна
      пя+N+Pl+Abl: пяхат
-     пя+N+Pl+Pros: пиˮмана
+     пя+N+Pl+Pros: пяˮмана
      
      пя+N+Sg+Tra: пяӈэ     
      пя+N+Pl+Tra: пяˮӈэ
@@ -46,8 +46,7 @@ Tests:
      пя+N+Sg+Nom+PxPl1: пяваˮ
      пя+N+Sg+Nom+PxPl2: пяраˮ
      пя+N+Sg+Nom+PxPl3: пядоʼ
-     пя+N+Sg+Acc+PxSg1: пяв   
-     пя+N+Sg+Acc+PxSg1: пями  
+     пя+N+Sg+Acc+PxSg1: [пяв, пями]  
      пя+N+Sg+Acc+PxSg2: пямд  
      пя+N+Sg+Acc+PxSg3: пямда 
      пя+N+Sg+Acc+PxDu1: пямиʼ 
@@ -56,8 +55,7 @@ Tests:
      пя+N+Sg+Acc+PxPl1: пяваˮ 
      пя+N+Sg+Acc+PxPl2: пямдаˮ
      пя+N+Sg+Acc+PxPl3: пямдоʼ
-     пя+N+Sg+Gen+PxSg1: пян   
-     пя+N+Sg+Gen+PxSg1: пяни  
+     пя+N+Sg+Gen+PxSg1: [пян, пяни]  
      пя+N+Sg+Gen+PxSg2: пянд  
      пя+N+Sg+Gen+PxSg3: пянда 
      пя+N+Sg+Gen+PxDu1: пяниʼ 
@@ -66,8 +64,7 @@ Tests:
      пя+N+Sg+Gen+PxPl1: пянаˮ 
      пя+N+Sg+Gen+PxPl2: пяндаˮ
      пя+N+Sg+Gen+PxPl3: пяндоʼ
-     пя+N+Sg+Dat+PxSg1: пяхан   
-     пя+N+Sg+Dat+PxSg1: пяхани  
+     пя+N+Sg+Dat+PxSg1: [пяхан, пяхани]  
      пя+N+Sg+Dat+PxSg2: пяханд  
      пя+N+Sg+Dat+PxSg3: пяханда 
      пя+N+Sg+Dat+PxDu1: пяханиʼ 
@@ -76,8 +73,7 @@ Tests:
      пя+N+Sg+Dat+PxPl1: пяханаˮ 
      пя+N+Sg+Dat+PxPl2: пяхандаˮ
      пя+N+Sg+Dat+PxPl3: пяхандоʼ
-     пя+N+Sg+Loc+PxSg1: пяханан   
-     пя+N+Sg+Loc+PxSg1: пяханани  
+     пя+N+Sg+Loc+PxSg1: [пяханан, пяханани] 
      пя+N+Sg+Loc+PxSg2: пяхананд  
      пя+N+Sg+Loc+PxSg3: пяхананда 
      пя+N+Sg+Loc+PxDu1: пяхананиʼ 
@@ -86,8 +82,7 @@ Tests:
      пя+N+Sg+Loc+PxPl1: пяхананаˮ 
      пя+N+Sg+Loc+PxPl2: пяханандаˮ
      пя+N+Sg+Loc+PxPl3: пяханандоʼ
-     пя+N+Sg+Abl+PxSg1: пяхадан   
-     пя+N+Sg+Abl+PxSg1: пяхадани  
+     пя+N+Sg+Abl+PxSg1: [пяхадан, пяхадани] 
      пя+N+Sg+Abl+PxSg2: пяхаданд  
      пя+N+Sg+Abl+PxSg3: пяхаданда 
      пя+N+Sg+Abl+PxDu1: пяхаданиʼ 
@@ -96,8 +91,7 @@ Tests:
      пя+N+Sg+Abl+PxPl1: пяхаданаˮ 
      пя+N+Sg+Abl+PxPl2: пяхадандаˮ
      пя+N+Sg+Abl+PxPl3: пяхадандоʼ
-     пя+N+Sg+Pros+PxSg1: пявнан   
-     пя+N+Sg+Pros+PxSg1: пявнани  
+     пя+N+Sg+Pros+PxSg1: [пявнан, пявнани]
      пя+N+Sg+Pros+PxSg2: пявнанд  
      пя+N+Sg+Pros+PxSg3: пявнанда 
      пя+N+Sg+Pros+PxDu1: пявнаниʼ 
@@ -106,33 +100,33 @@ Tests:
      пя+N+Sg+Pros+PxPl1: пявнанаˮ 
      пя+N+Sg+Pros+PxPl2: пявнандаˮ
      пя+N+Sg+Pros+PxPl3: пявнандоʼ
-     пя+N+Du+Nom+PxSg1: пяхюн  
-     пя+N+Du+Nom+PxSg2: пяхюд  
-     пя+N+Du+Nom+PxSg3: пяхюда 
-     пя+N+Du+Nom+PxDu1: пяхюниʼ
-     пя+N+Du+Nom+PxDu2: пяхюдиʼ
-     пя+N+Du+Nom+PxDu3: пяхюдиʼ
-     пя+N+Du+Nom+PxPl1: пяхюнаˮ
-     пя+N+Du+Nom+PxPl2: пяхюдаˮ
-     пя+N+Du+Nom+PxPl3: пяхюдоʼ
-     пя+N+Du+Acc+PxSg1: пяхюн  
-     пя+N+Du+Acc+PxSg2: пяхюд  
-     пя+N+Du+Acc+PxSg3: пяхюда 
-     пя+N+Du+Acc+PxDu1: пяхюниʼ
-     пя+N+Du+Acc+PxDu2: пяхюдиʼ
-     пя+N+Du+Acc+PxDu3: пяхюдиʼ
-     пя+N+Du+Acc+PxPl1: пяхюнаˮ
-     пя+N+Du+Acc+PxPl2: пяхюдаˮ
-     пя+N+Du+Acc+PxPl3: пяхюдоʼ
-     пя+N+Du+Gen+PxSg1: пяхюн  
-     пя+N+Du+Gen+PxSg2: пяхют  
-     пя+N+Du+Gen+PxSg3: пяхюта 
-     пя+N+Du+Gen+PxDu1: пяхюниʼ
-     пя+N+Du+Gen+PxDu2: пяхютиʼ
-     пя+N+Du+Gen+PxDu3: пяхютиʼ
-     пя+N+Du+Gen+PxPl1: пяхюнаˮ
-     пя+N+Du+Gen+PxPl2: пяхютаˮ
-     пя+N+Du+Gen+PxPl3: пяхютоʼ
+     пя+N+Du+Nom+PxSg1: пяхаюн  
+     пя+N+Du+Nom+PxSg2: пяхаюд  
+     пя+N+Du+Nom+PxSg3: пяхаюда 
+     пя+N+Du+Nom+PxDu1: пяхаюниʼ
+     пя+N+Du+Nom+PxDu2: пяхаюдиʼ
+     пя+N+Du+Nom+PxDu3: пяхаюдиʼ
+     пя+N+Du+Nom+PxPl1: пяхаюнаˮ
+     пя+N+Du+Nom+PxPl2: пяхаюдаˮ
+     пя+N+Du+Nom+PxPl3: пяхаюдоʼ
+     пя+N+Du+Acc+PxSg1: пяхаюн  
+     пя+N+Du+Acc+PxSg2: пяхаюд  
+     пя+N+Du+Acc+PxSg3: пяхаюда 
+     пя+N+Du+Acc+PxDu1: пяхаюниʼ
+     пя+N+Du+Acc+PxDu2: пяхаюдиʼ
+     пя+N+Du+Acc+PxDu3: пяхаюдиʼ
+     пя+N+Du+Acc+PxPl1: пяхаюнаˮ
+     пя+N+Du+Acc+PxPl2: пяхаюдаˮ
+     пя+N+Du+Acc+PxPl3: пяхаюдоʼ
+     пя+N+Du+Gen+PxSg1: пяхаюн  
+     пя+N+Du+Gen+PxSg2: пяхают  
+     пя+N+Du+Gen+PxSg3: пяхаюта 
+     пя+N+Du+Gen+PxDu1: пяхаюниʼ
+     пя+N+Du+Gen+PxDu2: пяхаютиʼ
+     пя+N+Du+Gen+PxDu3: пяхаютиʼ
+     пя+N+Du+Gen+PxPl1: пяхаюнаˮ
+     пя+N+Du+Gen+PxPl2: пяхаютаˮ
+     пя+N+Du+Gen+PxPl3: пяхаютоʼ
      пя+N+Pl+Nom+PxSg1: [пин, пини]   
      пя+N+Pl+Nom+PxSg2: пид   
      пя+N+Pl+Nom+PxSg3: пида  
@@ -187,15 +181,15 @@ Tests:
      пя+N+Pl+Abl+PxPl1: пяхатанаˮ
      пя+N+Pl+Abl+PxPl2: пяхататаˮ
      пя+N+Pl+Abl+PxPl3: пяхататоʼ
-     пя+N+Pl+Pros+PxSg1: пиˮманан  
-     пя+N+Pl+Pros+PxSg2: пиˮманат  
-     пя+N+Pl+Pros+PxSg3: пиˮманата 
-     пя+N+Pl+Pros+PxDu1: пиˮмананиʼ
-     пя+N+Pl+Pros+PxDu2: пиˮманатиʼ
-     пя+N+Pl+Pros+PxDu3: пиˮманатиʼ
-     пя+N+Pl+Pros+PxPl1: пиˮмананаˮ
-     пя+N+Pl+Pros+PxPl2: пиˮманатаˮ
-     пя+N+Pl+Pros+PxPl3: пиˮманатоʼ
+     пя+N+Pl+Pros+PxSg1: пяˮманан  
+     пя+N+Pl+Pros+PxSg2: пяˮманат  
+     пя+N+Pl+Pros+PxSg3: пяˮманата 
+     пя+N+Pl+Pros+PxDu1: пяˮмананиʼ
+     пя+N+Pl+Pros+PxDu2: пяˮманатиʼ
+     пя+N+Pl+Pros+PxDu3: пяˮманатиʼ
+     пя+N+Pl+Pros+PxPl1: пяˮмананаˮ
+     пя+N+Pl+Pros+PxPl2: пяˮманатаˮ
+     пя+N+Pl+Pros+PxPl3: пяˮманатоʼ
 
 # Predestinative !Should be added
 # Predicative (Nominal conjugation)
