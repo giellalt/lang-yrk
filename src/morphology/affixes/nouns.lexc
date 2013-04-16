@@ -4,7 +4,7 @@
 !! Nenets nouns inflect in cases.
 
 
-LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1
+LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! no change in stem
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 +N:  SGNOMSUF ;
@@ -13,7 +13,7 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1
 +N:  PLNOMSUF ;
 +N:  PLACCSUF_Zero ;
 
-LEXICON N_Ё  !!= @CODE@ я:я 2
+LEXICON N_Ё  !!= @CODE@ я:я 2 !!ProsSg -вна
 !! [total=3]
 !! я ya	ян’ yan°h	я” yaq	ё yo
 +N:  SGNOMSUF ;
@@ -22,7 +22,7 @@ LEXICON N_Ё  !!= @CODE@ я:я 2
 +N:  PLNOMSUF ;
 +N:%^A2O PLACCSUF_Zero ; !
 
-LEXICON N_ӇЭ/Ё !! та:та
+LEXICON N_ӇЭ/Ё !! та:та 
 !! 
 +N:  SGNOMSUF ;
 +N:  SG-ACC-STEM ;
@@ -31,7 +31,7 @@ LEXICON N_ӇЭ/Ё !! та:та
 +N: PLACCSUF_Zero ; !!
 +N:%^A2O PLACCSUF_Zero ; !!
 
-LEXICON N_ПИ  !!= @CODE@ пя: 3
+LEXICON N_ПИ  !!= @CODE@ пя: 3 !!ProsSg -вна
 !! [total=3]
 !! пя pya	пян’ pyan°h	пя” pyaq	пи pyí
 +N:  SGNOMSUF ;
@@ -40,7 +40,7 @@ LEXICON N_ПИ  !!= @CODE@ пя: 3
 +N:  PLNOMSUF ;
 +N:%^A2I PLACCSUF_Zero ; !
 
-LEXICON N_ТЫ  !!= @CODE@ ты: 4
+LEXICON N_ТЫ  !!= @CODE@ ты: 4 !!ProsSg -вна
 !! [total=4]
 !! ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
 +N: SGNOMSUF ;
@@ -49,7 +49,7 @@ LEXICON N_ТЫ  !!= @CODE@ ты: 4
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_ХАВО  !!= @CODE@ ха: 5
+LEXICON N_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
 !! [total=1]
 !! ха xa	хан’ xan°h	ха” xaq	хаво xawo
 +N: SGNOMSUF ;
@@ -59,7 +59,7 @@ LEXICON N_ХАВО  !!= @CODE@ ха: 5
 +N:в PLACCSUF_О ; !
 
 
-LEXICON N_СЁЁ  !!= @CODE@ сё: 6
+LEXICON N_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
 !! [total=0]
 !! сё syo	сён’ syon°h	сё” syoq	сёё syoyo
 +N: SGNOMSUF ;
@@ -68,7 +68,7 @@ LEXICON N_СЁЁ  !!= @CODE@ сё: 6
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Ё ; !
 
-LEXICON N_ИБЕ  !!= @CODE@ и: 7
+LEXICON N_ИБЕ  !!= @CODE@ и: 7 !!ProsSg -вна
 !! [total=0]
 !! и yí	ин’ yín°h	и” yíq	ибе yíbye
 +N: SGNOMSUF ;
@@ -77,7 +77,7 @@ LEXICON N_ИБЕ  !!= @CODE@ и: 7
 +N:  PLNOMSUF ;
 +N:б PLACCSUF_Е ; !
 
-LEXICON N_ХАБИЕ  !!= @CODE@ хӑби:8
+LEXICON N_ХАБИЕ  !!= @CODE@ хӑби:8 !!ProsSg -вна
 !! [total=0]
 !! хӑби xəbyi	хӑбин’ xəbyin°h	хӑби” xəbyiq	хӑбие xəbyiy
 +N: SGNOMSUF ;
@@ -86,7 +86,7 @@ LEXICON N_ХАБИЕ  !!= @CODE@ хӑби:8
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Е ; !
 
-LEXICON N_ӇЭ/СЁЁ/ХАБИЕ
+LEXICON N_ӇЭ/СЁЁ/ХАБИЕ 
 +N: SGNOMSUF ;
 +N:  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
@@ -95,7 +95,7 @@ LEXICON N_ӇЭ/СЁЁ/ХАБИЕ
 +N: PLACCSUF_Ё ; !
 +N: PLACCSUF_Е ; !
 
-LEXICON N_ПАНЫ  !!= @CODE@ пӑны:пӑны 9
+LEXICON N_ПАНЫ  !!= @CODE@ пӑны:пӑны 9 !!ProsSg -(э)вна
 !! [total=30]
 !! пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
 +N: SGNOMSUF ;
@@ -104,7 +104,7 @@ LEXICON N_ПАНЫ  !!= @CODE@ пӑны:пӑны 9
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_ХУСУВЭЙ  !!= @CODE@ хусувэй: 10
+LEXICON N_ХУСУВЭЙ  !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
 !! [total=17]
 !! хусувэй xusuwey°	хусувэн’ xusuwen°h	хусувэй” xusuwey°q	хусувэй xusuwey°
 +N: SGNOMSUF ;
@@ -121,7 +121,7 @@ LEXICON N_ХУСУВЭЙ/ЕД
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_ХАНО  !!= @CODE@ хӑн: 11
+LEXICON N_ХАНО  !!= @CODE@ хӑн: 11 !!ProsSg -увна
 !! [total=27]
 !! хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
 +N: SGNOMSUF ;
@@ -129,7 +129,7 @@ LEXICON N_ХАНО  !!= @CODE@ хӑн: 11
 +N:  PLNOMSUF ;
 +N: PLACCSUF_О ; !
 
-LEXICON N_ТИРЕ  !!= @CODE@ тир: 12
+LEXICON N_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
 !! [total=3]
 !! тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 +N: SGNOMSUF ;
@@ -137,7 +137,7 @@ LEXICON N_ТИРЕ  !!= @CODE@ тир: 12
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Е ; !
 
-LEXICON N_ЕД  !!= @CODE@ ед: 13
+LEXICON N_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 !! [total=98]
 !! ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
 +N: SGNOMSUF ;
@@ -169,7 +169,7 @@ LEXICON N_ХАНО/ТИРЕ/ЕД
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14
+LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14 !!ProsSg -вна
 !! [total=15]
 !! мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
 +N: SGNOMSUF ;
@@ -178,7 +178,7 @@ LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14
 +N:  PLNOMSUF ;
 +N:%^A2I PLACCSUF_Zero ; !
 
-LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15
+LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
 !! [total=53]
 !! ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
 +N: SGNOMSUF ;
@@ -187,7 +187,7 @@ LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15
 +N:  PLNOMSUF ;
 +N:%^A2I PLACCSUF_Zero ; !
 
-LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16
+LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16 !!ProsSg -вна
 !! [total=1]
 !! я̆ха yəxa	я̆хан’ yəxan°h	я̆ха” yəxaq	еси yesy
 +N: SGNOMSUF ;
@@ -196,7 +196,7 @@ LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16
 +N:  PLNOMSUF ;
 !+N:%^A2I PLACCSUF_Zero ; !
 
-LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17
+LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17 !!ProsSg -вна
 !! [total=28]
 !! ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
 +N: SGNOMSUF ;
@@ -223,7 +223,7 @@ LEXICON N_ӇОДИ/ПИСЬ
 +N: PLACCSUF_I ;
 +N: PLACCSUF_Minus ;
 
-LEXICON N_ЯЛЭ  !!= @CODE@ яля: 18
+LEXICON N_ЯЛЭ  !!= @CODE@ яля: 18 !!ProsSg -вна
 !! [total=2]
 !! яля yalya	ялян’ yalyan°h	яля” yalyaq	ялэ yale
 +N: SGNOMSUF ;
@@ -232,7 +232,7 @@ LEXICON N_ЯЛЭ  !!= @CODE@ яля: 18
 +N: PLNOMSUF ;
 +N:%^HardFronting PLACCSUF_Zero ;
 
-LEXICON N_ХОБ  !!= @CODE@ хоба: 19
+LEXICON N_ХОБ  !!= @CODE@ хоба: 19 !!ProsSg -вна
 !! [total=25]
 !! хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
 +N: SGNOMSUF ;
@@ -258,7 +258,7 @@ LEXICON N_МАРАӇГЫ/ХОБ !!
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
 
-LEXICON N_ТЁН  !!= @CODE@ тёня: 20
+LEXICON N_ТЁН  !!= @CODE@ тёня: 20 !!ProsSg -вна
 !! [total=14]
 !!тёня tyonya	тёнян’ tyonyan°h	тёня” tyonyaq	тён tyon°
 +N: SGNOMSUF ;
@@ -267,7 +267,7 @@ LEXICON N_ТЁН  !!= @CODE@ тёня: 20
 +N: PLNOMSUF ;
 +N:%^PalLoss PLACCSUF_Minus ;
 
-LEXICON N_ПИСЬ  !!= @CODE@ пися: 21
+LEXICON N_ПИСЬ  !!= @CODE@ пися: 21 !!ProsSg -вна
 !! [total=10]
 !! пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
 +N: SGNOMSUF ;
@@ -276,7 +276,7 @@ LEXICON N_ПИСЬ  !!= @CODE@ пися: 21
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
 
-LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22
+LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 !! [total=1]
 !! хасава xasawa	хасаван’ xasawan°h	хасава” xasawaq	хасев xasyew°
 +N: SGNOMSUF ;
@@ -285,7 +285,7 @@ LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22
 +N: PLNOMSUF ;
 +N:%^VowFronting PLACCSUF_Minus ;
 
-LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23
+LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
 !! [total=57]
 !! ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
 +N: SGNOMSUF ;
@@ -294,7 +294,7 @@ LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23
 +N: PLNOMSUF ;
 +N:%^VowRaise PLACCSUF_Zero ;
 
-LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24
+LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24 !!ProsSg -вна
 !! [total=4]
 !! якэ yake	якэн’ yaken°h	якэ” yakeq	якы yaki
 +N: SGNOMSUF ;
@@ -303,7 +303,7 @@ LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24
 +N: PLNOMSUF ;
 +N:%^VowRaise PLACCSUF_Zero ;
 
-LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25
+LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 !!ProsSg -(м)на
 !! [total=3]
 !! ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
 !LEXICON N_ЯМ !! 25!ямʼ:я
@@ -315,7 +315,7 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25
 +N:%^MLenition PLACCSUF_О ;
 
 
-LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26
+LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26  !!ProsSg -(м)на
 !! [total=0]
 !! нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
 +N:Н1 SGNOMSUF ;
@@ -325,7 +325,7 @@ LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26
 +N:%^MLenition PLACCSUF_Е ;
 
 
-LEXICON N_МУНО  !!= @CODE@ муʼ: 27
+LEXICON N_МУНО  !!= @CODE@ муʼ: 27  !!ProsSg -мна
 !! н [total=2]
 !! му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
 +N:Н1 SGNOMSUF ;
@@ -334,7 +334,7 @@ LEXICON N_МУНО  !!= @CODE@ муʼ: 27
 +N:Н1 PLNOMSUF ;
 +N:Н1 PLACCSUF_О ;
 
-LEXICON N_ПОЁ  !!= @CODE@ поʼ: 28
+LEXICON N_ПОЁ  !!= @CODE@ поʼ: 28  !!ProsSg -мна
 !! ң [total=2]
 !! по’(ң) poh	понд’ pont°h	пой” poy°q	поё poyo
 +N:Ӈ1 SGNOMSUF ;
@@ -344,7 +344,7 @@ LEXICON N_ПОЁ  !!= @CODE@ поʼ: 28
 +N: PLACCSUF_Ё ;
 
 
-LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29
+LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29  !!ProsSg -мна /-мана
 !! ң [total=16]
 !! вы’(ң) wíh	вы̄нд’ wínt°h	вы” wí°q	выңо wíŋo
 +N:Ӈ1 SGNOMSUF ;
@@ -354,7 +354,7 @@ LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29
 +N:Ӈ1 PLACCSUF_О ;
 
 
-LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ: 30
+LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ: 30   !!ProsSg -мана
 !! ң [total=13]
 !! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
 +N:Ӈ1 SGNOMSUF ;
@@ -364,7 +364,7 @@ LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ: 30
 +N:ъ PLACCSUF_Е ;
 
 
-LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31
+LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31   !!ProsSg -мна
 !! ң [total=2]
 !! пӑхӑ’(ң) pəx°h	пӑхӑнд’ pəxənt°h	пӑха” pəxə°q	пӑхӑё pəx°yo
 +N:Ӈ1 SGNOMSUF ;
@@ -373,7 +373,7 @@ LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31
 +N:аӇ1 PLNOMSUF ;
 +N: PLACCSUF_Ё ;
 
-LEXICON N_СЕРО  !!= @CODE@ серˮ: 32
+LEXICON N_СЕРО  !!= @CODE@ серˮ: 32   !!ProsSg -мана / -мня
 !! [total=16]
 !! сер” syer	серт’ syert°h	сер” syer°q	серо syero
 +N:Д1 SGNOMSUF ;
@@ -382,7 +382,7 @@ LEXICON N_СЕРО  !!= @CODE@ серˮ: 32
 +N:Д1 PLNOMSUF ;
 +N:Д1 PLACCSUF_О ;
 
-LEXICON N_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33
+LEXICON N_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
 !! [total=0]
 !! тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
 +N:Д1 SGNOMSUF ;
@@ -391,7 +391,7 @@ LEXICON N_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33
 +N:Д1 PLNOMSUF ;
 +N:Д1 PLACCSUF_Е ;
 
-LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34
+LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34   !!ProsSg -мна
 !! [total=6]
 !! мӑн”(с) mən°q	мӑнӑт’ mənət°h	мӑнӑс” mənəs°q	мӑнсо mən°so
 +N:С1 SGNOMSUF ;
@@ -400,7 +400,7 @@ LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34
 +N:аС1 PLNOMSUF ;
 +N:С1 PLACCSUF_О ;
 
-LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35
+LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! [total=18]
 !! мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 +N:Д1 SGNOMSUF ;
@@ -409,7 +409,7 @@ LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35
 +N:Д1 PLNOMSUF ;
 +N:Д1 PLACCSUF_О ;
 
-LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36
+LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
 !! [total=1]
 !! и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
 +N:Д1 SGNOMSUF ;
@@ -635,14 +635,14 @@ LEXICON NMN_МЯДО
 
 
 !Work required
-LEXICON N_ТЭНО
+LEXICON N_ТЭНО 
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
 +N: SGGENSUF ;
 +N: SGDATSUF ;
 +N: SGLOCSUF ;
 +N: SGABLSUF ;
-+N:%> SGPROSSUF ;
++N:%> SGPROSSUF ; 
 +N: SGTRASUF ;
 
 +N: DUNOMSUF ;
@@ -760,7 +760,7 @@ LEXICON SGABLSUF
 +Sg+Abl:%>хА1д K ; !вэсакоход пэдарахад ӈамгэхэд
 
 LEXICON SGPROSSUF
-+Sg+Pros:%>мна K ; 
++Sg+Pros:%>вна K ; 
 
 LEXICON SGTRASUF 
 +Sg+Tra:%>ӈэ K ;
