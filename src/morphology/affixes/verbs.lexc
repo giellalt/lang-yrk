@@ -1643,10 +1643,10 @@ LEXICON V_Mod/narrPrt
 +Mod/narr+Prt1+ScPl3:выць K ;
 
 LEXICON V_Mod/appr
-+Mod/appr:нарха MUTUAL-PERSON ;
++Mod/appr:%>нарха MUTUAL-PERSON ;
 
 LEXICON V_Mod/appr-Refl
-+Mod/appr:нархы MUTUAL-PERSON-REFL ;
++Mod/appr:%>нархы MUTUAL-PERSON-REFL ;
 +Mod/appr:%>нарахы MUTUAL-PERSON-REFL ; !for 1-syllable stems
 
 LEXICON V_Mod/prob-Refl
