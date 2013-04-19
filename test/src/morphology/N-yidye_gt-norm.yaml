@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - иˮ: # Noun 'water' - partial paradigm /Type 36/
+  Noun - иˮ: # Noun 'water' - partial paradigm /Type 36 pal/
      иˮ+N+Sg+Nom: иˮ
      иˮ+N+Sg+Acc: идмʼ
      иˮ+N+Sg+Gen: идʼ
@@ -27,8 +27,8 @@ Tests:
      иˮ+N+Du+Acc: икʼ
      иˮ+N+Du+Gen: икʼ
      иˮ+N+Pl+Nom: идˮ
-     иˮ+N+Pl+Acc: иде
-     иˮ+N+Pl+Gen: идеˮ
+     иˮ+N+Pl+Acc: [иде, иди]
+     иˮ+N+Pl+Gen: [идеˮ, идиˮ]
      иˮ+N+Pl+Dat: икˮ
      иˮ+N+Pl+Loc: икаˮна
      иˮ+N+Pl+Abl: икат
