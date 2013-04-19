@@ -296,6 +296,34 @@
 
   <e>
     <lg>
+      <l pos="ADV">ӈобʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">ӈобʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>at once</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>heti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">ӈодьˮ</l>
 
       <stg>
@@ -318,6 +346,38 @@
 
       <tg xml:lang="fin">
         <t>tuskin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">ӈодˮ</l>
+
+      <stg>
+        <st Contlex="AdvManner">ӈодˮ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>myös</t>
+
+        <t>sekä</t>
+
+        <t>vaikka</t>
       </tg>
     </mg>
   </e>
