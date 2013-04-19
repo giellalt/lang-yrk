@@ -7,31 +7,95 @@
 !!+A+cmp:er       Cases   ;
 !!+A+sup:est      Cases   ;
 
-!!This has to be split into various sublexcons.
-LEXICON A_Cons
+LEXICON A_ВАДО
+ A_МЯДО ;
+
+LEXICON A_ӇЭ
++A:  SGNOMSUF ;
++A:  SG-ACC-STEM ;
++A:  SG-DAT-STEM ;
++A:  PLNOMSUF ;
++A:  PLACCSUF_Zero ;
+
+LEXICON A_ӇУДИ
++A: SGNOMSUF ;
++A:  SG-ACC-STEM ;
++A:  SG-DAT-STEM ;
++A:  PLNOMSUF ;
++A:%^A2I PLACCSUF_Zero ; !
+
+LEXICON A_ЕД
 +A: SGNOMSUF ;
 +A:а  SG-ACC-STEM ;
 +A:  PLNOMSUF ;
-+A: PLACCSUF_Zero ;
++A: PLACCSUF_Zero ; 
 
-LEXICON A_ВАДО
- A_МЯДО ;
- 
-LEXICON A_МЯДО
+LEXICON A_ӇОДИ  !!= @CODE@ ӈодя: 17 !!ProsSg -вна
++A: SGNOMSUF ;
++A:  SG-ACC-STEM ;
++A:  SG-DAT-STEM ;
++A:  PLNOMSUF ;
++A: PLACCSUF_I ;
+
+LEXICON A_ӇОДИ/ТЁН
+!!
++A: SGNOMSUF ;
++A: SG-ACC-STEM ;
++A:  SG-DAT-STEM ;
++A: PLNOMSUF ;
++A: PLACCSUF_I ;
++A:%^PalLoss PLACCSUF_Minus ;
+
+LEXICON A_МАРАӇГЫ !!
+!!
++A: SGNOMSUF ;
++A: SG-ACC-STEM	;
++A:  SG-DAT-STEM ;
++A: PLNOMSUF ;
++A: PLACCSUF_Minus ;
+
+LEXICON A_ХОБ  !!= @CODE@ хоба: 19 !!ProsSg -вна
++A: SGNOMSUF ;
++A: SG-ACC-STEM ;
++A:  SG-DAT-STEM ;
++A: PLNOMSUF ;
++A: PLACCSUF_Minus ;
+
+LEXICON A_МАРАӇГЫ/ХОБ !!
+!!
++A: SGNOMSUF ;
++A: SG-ACC-STEM	;
++A:  SG-DAT-STEM ;
++A: PLNOMSUF ;
++A: PLACCSUF_Minus ;
+
+LEXICON A_ТЁН  !!= @CODE@ тёня: 20 !!ProsSg -вна
++A: SGNOMSUF ;
++A: SG-ACC-STEM	;
++A:  SG-DAT-STEM ;
++A: PLNOMSUF ;
++A:%^PalLoss PLACCSUF_Minus ;
+
+LEXICON A_ПИСЬ  !!= @CODE@ пися: 21 !!ProsSg -вна
++A: SGNOMSUF ;
++A: SG-ACC-STEM	;
++A:  SG-DAT-STEM ;
++A: PLNOMSUF ;
++A: PLACCSUF_Minus ;
+
+LEXICON A_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 +A:Д1 SGNOMSUF ;
 +A:Д1 SG-ACC-STEM ;
 +A:Д1 SG-DAT-STEM ;
 +A:Д1 PLNOMSUF ;
 +A:Д1 PLACCSUF_О ;
 
-LEXICON A_ӇЭ
-+A: K ;
-
-LEXICON A_ӇУДИ
-+A: K ;
-
-LEXICON A_ЕД
-+A: K ;
+!!This has to be split into various sublexcons.
+LEXICON A_Cons
++A: SGNOMSUF ;
++A:а  SG-ACC-STEM ;
++A:  PLNOMSUF ;
++A: PLACCSUF_Zero ;
 
 !!This has to be split into various sublexcons.
 LEXICON A_Vow
