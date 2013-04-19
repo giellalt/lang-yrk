@@ -9,7 +9,7 @@
       <l pos="A">вэва</l>
 
       <stg>
-        <st Contlex="A_Vow">вэва</st>
+        <st Contlex="A_ХОБ">вэва</st>
       </stg>
     </lg>
 
@@ -39,7 +39,7 @@
       <l pos="A">едета</l>
 
       <stg>
-        <st Contlex="A_Vow">едета</st>
+        <st Contlex="A_ӇУДИ">едета</st>
       </stg>
     </lg>
 
@@ -61,7 +61,7 @@
       </tg>
     </mg>
 
-    <!--  -->
+    <!--  PartImperf of едець-->
   </e>
 
   <e>
@@ -69,7 +69,7 @@
       <l pos="A">едэй</l>
 
       <stg>
-        <st Contlex="A_Cons">едэй</st>
+        <st Contlex="A_ЕД">едэй</st>
       </stg>
     </lg>
 
@@ -99,7 +99,7 @@
       <l pos="A">ёӈота</l>
 
       <stg>
-        <st Contlex="A_Vow">ёӈота</st>
+        <st Contlex="A_ӇУДИ">ёӈота</st>
       </stg>
     </lg>
 
@@ -129,7 +129,7 @@
       <l pos="A">ёря</l>
 
       <stg>
-        <st Contlex="A_Vow">ёря</st>
+        <st Contlex="A_ӇОДИ/ТЁН">ёря</st>
       </stg>
     </lg>
 
@@ -159,7 +159,7 @@
       <l pos="A">иба</l>
 
       <stg>
-        <st Contlex="A_Vow">иба</st>
+        <st Contlex="A_ӇУДИ">иба</st>
       </stg>
     </lg>
 
@@ -189,7 +189,7 @@
       <l pos="A">ибета</l>
 
       <stg>
-        <st Contlex="A_Vow">ибета</st>
+        <st Contlex="A_ӇУДИ">ибета</st>
       </stg>
     </lg>
 
@@ -219,7 +219,7 @@
       <l pos="A">ибцика</l>
 
       <stg>
-        <st Contlex="A_Vow">ибцика</st>
+        <st Contlex="A_МАРАӇГЫ">ибцика</st>
       </stg>
     </lg>
 
@@ -246,10 +246,40 @@
 
   <e>
     <lg>
+      <l pos="A">илебей</l>
+
+      <stg>
+        <st Contlex="A_ЕД">илебей</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>fresh</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>tuore</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ӈарка</l>
 
       <stg>
-        <st Contlex="A_Vow">ӈарка</st>
+        <st Contlex="A_МАРАӇГЫ/ХОБ">ӈарка</st>
       </stg>
     </lg>
 
@@ -279,7 +309,7 @@
       <l pos="A">сава</l>
 
       <stg>
-        <st Contlex="A_Vow">сава</st>
+        <st Contlex="A_ӇУДИ">сава</st>
       </stg>
     </lg>
 
@@ -339,7 +369,7 @@
       <l pos="A">тей</l>
 
       <stg>
-        <st Contlex="A_Vow">тей</st>
+        <st Contlex="A_ЕД">тей</st>
       </stg>
     </lg>
 
