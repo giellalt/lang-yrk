@@ -141,9 +141,6 @@ Rules
 "a:o in та"
 а:о <=> Cns _ %^A2O:0 ;
 
-"a:i in пя"
-я:и <=> _ %^A2I:0 ;
-
 "я:э in яля"
 я:э <=> _ %^HardFronting:0 ;
 
@@ -162,6 +159,11 @@ Rules
 "э:ы word-final position"
 э:ы <=>		_ %^VowRaise:0 ;
 
+"я:и word-final position"
+я:и <=>		_ %^VowRaise:0 ;
+!"a:i in пя"
+     _ %^A2I:0 ;
+     
 "а:е хасава:хасев"
 а:е <=> Cns _ Cns а: %^VowFronting:0 ;
 
