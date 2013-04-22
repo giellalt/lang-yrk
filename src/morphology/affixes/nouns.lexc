@@ -47,7 +47,7 @@ LEXICON N_ТЫ  !!= @CODE@ ты: 4 !!ProsSg -вна
 +N:  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N:%> PLACCSUF_Zero ; !
 
 LEXICON N_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
 !! [total=1]
@@ -126,6 +126,7 @@ LEXICON N_ХАНО  !!= @CODE@ хӑн: 11 !!ProsSg -увна
 !! хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
++N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_О ; !
 
@@ -134,6 +135,7 @@ LEXICON N_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
 !! тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
++N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Е ; !
 
@@ -142,30 +144,35 @@ LEXICON N_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 !! ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
++N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
 LEXICON N_ХАНО/ТИРЕ
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
++N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
 LEXICON N_ХАНО/ЕД
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
++N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
 LEXICON N_ТИРЕ/ЕД
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
++N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
 LEXICON N_ХАНО/ТИРЕ/ЕД
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
++N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
@@ -764,16 +771,16 @@ LEXICON SGTRASUF
 
 ! These must be checked
 LEXICON DUNOMSUF 
-!+Du+Nom:%>хА1ʼ K ;
-+Du+Nom:%>хʼ K ;
++Du+Nom:%>хА1ʼ K ;
+!+Du+Nom:%>хʼ K ;
 
 LEXICON DUACCSUF
-!+Du+Acc:%>хА1ʼ K ;
-+Du+Acc:%>хʼ K ;
++Du+Acc:%>хА1ʼ K ;
+!+Du+Acc:%>хʼ K ;
 
 LEXICON DUGENSUF 
-!+Du+Gen:%>хА1ʼ K ;
-+Du+Gen:%>хʼ K ;
++Du+Gen:%>хА1ʼ K ;
+!+Du+Gen:%>хʼ K ;
 
 !! Start Plural
 LEXICON PLNOMSUF
@@ -849,9 +856,9 @@ LEXICON PLABLSUF
 +Pl+Abl:%>хА1т K ;
 
 
-!LEXICON PLPROSSUF
+LEXICON PLPROSSUF
 !+Pl+Pros:%>Ы1ˮмана K ;
-!+Pl+Pros:%>ˮмана K ;
++Pl+Pros:%>ˮмана K ;
 !+Pl+Pros:%>ˮмана PL-PROS_POSSESSA ;
 !+Pl+Pros:%>ˮмна K ; !явоˮмна
 
@@ -934,18 +941,18 @@ LEXICON POSSESSA-SINGULAR
 
  ! 2012-04-11 Check this for N_Cons and N-D
  ! There might be reason for увна and мна varients
-+Sg+Pros+PxSg1:%>мнан     K ;
-+Sg+Pros+PxSg1:%>мнани    K ;
-+Sg+Pros+PxSg2:%>мнанд    K ;
-+Sg+Pros+PxSg3:%>мнанда   K ;
-+Sg+Pros+PxDu1:%>мнаниʼ	  K ;
-+Sg+Pros+PxDu2:%>мнандиʼ	  K ;
-+Sg+Pros+PxDu3:%>мнандиʼ	  K ;
-+Sg+Pros+PxPl1:%>мнанаˮ   K ;
-+Sg+Pros+PxPl2:%>мнандаˮ  K ;
-+Sg+Pros+PxPl3:%>мнандоʼ  K ;
++Sg+Pros+PxSg1:%>внан     K ;
++Sg+Pros+PxSg1:%>внани    K ;
++Sg+Pros+PxSg2:%>внанд    K ;
++Sg+Pros+PxSg3:%>внанда   K ;
++Sg+Pros+PxDu1:%>внаниʼ	  K ;
++Sg+Pros+PxDu2:%>внандиʼ	  K ;
++Sg+Pros+PxDu3:%>внандиʼ	  K ;
++Sg+Pros+PxPl1:%>внанаˮ   K ;
++Sg+Pros+PxPl2:%>внандаˮ  K ;
++Sg+Pros+PxPl3:%>внандоʼ  K ;
 !! The next line in +Sg+Pros+PxDu2:%>внандиʼ must be removed
-+Sg+Pros+PxDu2:%>внандиʼ  K ; !! This line must be removed 2013-03-20
+!!+Sg+Pros+PxDu2:%>внандиʼ  K ; !! This line must be removed 2013-03-20
 
 
 
