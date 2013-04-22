@@ -358,8 +358,8 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_Fut-Refl ;
  V_Subord ;
  PRC ;
-  
-LEXICON V-01_ЛАХАНА
+
+LEXICON V-01_ЛАХАНА !! а > э in Pl Oc 
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -386,7 +386,7 @@ LEXICON V-01_ЛАХАНА
  IND-PRT1		;
  PRC ;
 
-LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04
+LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
  V_IND-Refl ;
  V_IND-Refl-PRT1 ;
  V_Hort-Refl ;
@@ -1362,6 +1362,7 @@ LEXICON IND-AOR-SCPL2-OCDU3
 LEXICON IND-AOR-SCPL3-OCDU3
 +Ind+Aor+ScPl3+OcDu3:ӈахаюдоʼ K ;
 
+!!after stem-final consonant и instead of й.
 LEXICON IND-AOR-SCSG1-OCPL3
 +Ind+Aor+ScSg1+OcPl3:%>йн K ;
 LEXICON IND-AOR-SCSG2-OCPL3
@@ -1623,11 +1624,11 @@ LEXICON V_Mod/nec-Refl
 +Mod/nec:бцу MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/narr
-+Mod/narr+Aor:%^MLenition%>вэ MUTUAL-PERSON ; 
++Mod/narr+Aor:%^MLenition%>мэ MUTUAL-PERSON ; 
 
 LEXICON V_Mod/narr-Refl
-+Mod/narr+Aor:%^MLenition%>вэ MUTUAL-PERSON-REFL ; 
-+Mod/narr:%^MLenition%>вЫ2 MUTUAL-PRT1-REFL-PERSON ;
++Mod/narr+Aor:%^MLenition%>мэ MUTUAL-PERSON-REFL ; 
++Mod/narr:%^MLenition%>мЫ2 MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
 +Mod/narr+Prt1+ScSg1:вэдамзь K ;
@@ -1684,24 +1685,25 @@ LEXICON V_Mod/des-Refl
 +Mod/des:%>рби MUTUAL-PERSON-REFL ;
 
 LEXICON V_Conj
-+Conj+Aor+ScSg1:идмʼ K ;
-+Conj+Aor+ScSg2:ин K ;
-+Conj+Aor+ScSg3:и K ;
-+Conj+Aor+ScDu1:иниʼ K ;
-+Conj+Aor+ScDu2:идиʼ K ;
-+Conj+Aor+ScDu3:ихаʼ K ;
-+Conj+Aor+ScPl1:иваˮ K ;
-+Conj+Aor+ScPl2:идаˮ K ;
-+Conj+Aor+ScPl3:иˮ K ;
-+Conj+Prt1+ScSg1:идамзь K ;
-+Conj+Prt1+ScSg2:инась K ;
-+Conj+Prt1+ScSg3:ись K ;
-+Conj+Prt1+ScDu1:ининзь K ;
-+Conj+Prt1+ScDu2:идинзь K ;
-+Conj+Prt1+ScDu3:иханзь K ;
-+Conj+Prt1+ScPl1:иваць K ;
-+Conj+Prt1+ScPl2:идаць K ;
-+Conj+Prt1+ScPl3:иць K ;
++Conj:%>и MUTUAL-PERSON ;
+!+Conj+Aor+ScSg1:идмʼ K ;
+!+Conj+Aor+ScSg2:ин K ;
+!+Conj+Aor+ScSg3:и K ;
+!+Conj+Aor+ScDu1:иниʼ K ;
+!+Conj+Aor+ScDu2:идиʼ K ;
+!+Conj+Aor+ScDu3:ихаʼ K ;
+!+Conj+Aor+ScPl1:иваˮ K ;
+!+Conj+Aor+ScPl2:идаˮ K ;
+!+Conj+Aor+ScPl3:иˮ K ;
+!+Conj+Prt1+ScSg1:идамзь K ;
+!+Conj+Prt1+ScSg2:инась K ;
+!+Conj+Prt1+ScSg3:ись K ;
+!+Conj+Prt1+ScDu1:ининзь K ;
+!+Conj+Prt1+ScDu2:идинзь K ;
+!+Conj+Prt1+ScDu3:иханзь K ;
+!+Conj+Prt1+ScPl1:иваць K ;
+!+Conj+Prt1+ScPl2:идаць K ;
+!+Conj+Prt1+ScPl3:иць K ;
 
 LEXICON V_Conj-Refl
 +Conj+Aor:и MUTUAL-PERSON-REFL ;
