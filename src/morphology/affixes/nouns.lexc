@@ -20,6 +20,7 @@ LEXICON N_Ё  !!= @CODE@ я:я 2 !!ProsSg -вна
 +N:  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
++N:  PLPROSSUF ;
 +N:%^A2O PLACCSUF_Zero ; !
 
 LEXICON N_ӇЭ/Ё !! та:та 
@@ -858,7 +859,7 @@ LEXICON PLABLSUF
 
 LEXICON PLPROSSUF
 !+Pl+Pros:%>Ы1ˮмана K ;
-+Pl+Pros:%>ˮмана K ;
++Pl+Pros:%>ˮмна K ;
 !+Pl+Pros:%>ˮмана PL-PROS_POSSESSA ;
 !+Pl+Pros:%>ˮмна K ; !явоˮмна
 
