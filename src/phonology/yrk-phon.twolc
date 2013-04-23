@@ -104,14 +104,14 @@ Rules
 "А2:0 possible vowel loss as second syllable vowel"
 А2:0 <= # Cns* :Vws [ %> | Cns | ˮ ]+ м: _ н а ; 
          :Vws %^MLenition:0 %> м: _ н а ; 
-         [ м | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
+         [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
 
 "А2:0 possible vowel loss as second syllable vowel"
 А2:0 =>  :Vws %^MLenition:0 %> м: _ н а ; 
-         [ м | н | р ] %^MLenition:0 %> 0:у м:в _ н а ; 
+         [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
 
 "0:U in sgprossuf"
-0:у <=> [ м (ʼ:) | н | р ] %^MLenition:0 %> _ м: А2: н а ;
+0:у <=> [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> _ м: А2: н а ;
 
 "А1 -> а"
 А1:а <=> [[ Ӈ1: |  ʼ: | а | я | й | и | ы | Ы2: | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
@@ -193,9 +193,10 @@ Rules
 !! Consonant changes
 
 "mToV" ! perhaps there should be a VtoM rule2013-01-23
-м:в <=> _ %^MLenition:0 [ # | %> [ о | м | ʼ | ˮ ] ] ;
+м:в <=> _  %^MLenition:0 [ # | %> [ о |  м | ʼ | ˮ ] ] ;
+        _ ʼ:0  %^MLenition:0 %>  0:  м: А2: ;
        :Vws %^MLenition:0 %> _ [ э к | э р х | а н д а р х | А2: н а ] ;
-       [ м | н | р ] %^MLenition:0 %> 0: _ [ А2:0 н а ] ;
+       [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
 !ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
 
 "mTob" ! 
@@ -238,6 +239,7 @@ Rules
 
 "ʼ:0"
 ʼ:0 <=> м:  _ %>: [ Ы1: | ʼ | м ( ʼ ) | н: ( ʼ ) | ˮ: | х: ( А1: ) | р: | в: | д | ц ь | с: ь ] ;
+       м:  _ %^MLenition:0 %>: 0:у м: А2: н а ;
 
 "ˮ:0"
 ˮ:0 <=> _ %>: д: ;
