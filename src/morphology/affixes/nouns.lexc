@@ -827,7 +827,8 @@ LEXICON PL-ACC_STEM
  POSSESSA-PL-NOM ;
 +Pl+Acc: POSSESSA-PL-ACC ;
 +Pl+Gen:ˮ POSSESSA-PL-GEN ;
-+Pl+Pros:ˮмана  POSSESSA-PL-PROS ;
+  POSSESSA-PL-PROS ;
+!2013-04-22!+Pl+Pros:ˮмана  POSSESSA-PL-PROS ;
 
 !LEXICON PLGENSUF
 !+Pl+Gen:%>Ы1ˮ PL-ACC_STEM ;
@@ -954,6 +955,18 @@ LEXICON POSSESSA-SINGULAR
 +Sg+Pros+PxPl3:%>внандоʼ  K ;
 !! The next line in +Sg+Pros+PxDu2:%>внандиʼ must be removed
 !!+Sg+Pros+PxDu2:%>внандиʼ  K ; !! This line must be removed 2013-03-20
+
+LEXICON POSSESSA-SG-PROS_увна
++Sg+Pros+PxSg1:%>увнан     K ;
++Sg+Pros+PxSg1:%>увнани    K ;
++Sg+Pros+PxSg2:%>увнанд    K ;
++Sg+Pros+PxSg3:%>увнанда   K ;
++Sg+Pros+PxDu1:%>увнаниʼ   K ;
++Sg+Pros+PxDu2:%>увнандиʼ          K ;
++Sg+Pros+PxDu3:%>увнандиʼ          K ;
++Sg+Pros+PxPl1:%>увнанаˮ   K ;
++Sg+Pros+PxPl2:%>увнандаˮ  K ;
++Sg+Pros+PxPl3:%>увнандоʼ  K ;
 
 
 
