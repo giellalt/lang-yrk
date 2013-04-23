@@ -13,24 +13,24 @@ Alphabet
    %- !0
 
 ! Archiphonemes for vowels
- А1:а
- А1:у
- А1:о
- А1:э
+А1:а
+А1:у
+А1:о
+А1:э
 
- А2:а
+А2:а
 !А2:0
 
- Ы1:о 
- Ы1:е
+Ы1:о 
+Ы1:е
 
- Ы2:э
+Ы2:э
 
 
 ! Archiphonemes for glottals
 ! Н1:ʼ
 ! Н1:н
- Н1:0
+Н1:0
 ! Ӈ1:ʼ
 ! Ӈ1:ӈ
  Ӈ1:0
@@ -60,7 +60,8 @@ Alphabet
 
 
 Sets
-Vws =   а е ё и о у ы э ю я А Е Ё И О У Ы Э Ю Я ;
+Vws =   а е ё и о у ы э ю я
+        А Е Ё И О У Ы Э Ю Я ;
 
 CnsNotGlots = б в г д ж з й к л м н п р с т ф х ц
               Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц
@@ -195,7 +196,7 @@ Rules
 "mToV" ! perhaps there should be a VtoM rule2013-01-23
 м:в <=> _  %^MLenition:0 [ # | %> [ о |  м | ʼ | ˮ ] ] ;
         _ ʼ:0  %^MLenition:0 %>  0:  м: А2: ;
-       :Vws %^MLenition:0 %> _ [ э к | э р х | а н д а р х | А2: н а ] ;
+       :Vws %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
        [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
 !ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
 
@@ -209,9 +210,10 @@ Rules
 
 "r To l after nasal glottal"
 р:л <=> [ ʼ: | Ӈ1: ] %>: _ ;
+        Vws _  %>: р: [ в | х ] а ;
 
 "r To 0 after л glottal"
-р:0 <=> [ л ] %>: _  ;
+р:0 <=> Vws [ л | р: ] %>: _  ;
 
 
 "nTod"
@@ -227,12 +229,15 @@ Rules
 б:п <=> [ С1: | Д1: | ˮ: ] %>: _ ;
 
 "b to 0 between mod/obl"
-б:0 <=> л %>: _ ц а к ;
+б:0 <=> [ л | р ] %>: _ ц а к ;
 
 
+"ъ:0 with Conj after vowels"
+ъ:0 <=> Vws %>: _ и ;
 
 "с => ц affrication after Stop"
 с:ц <=> [ Д1: ] %>: _ ь ;
+         р %>: _ [ а | я | и ] ;
 
 "с => з after nasal"
 с:з <=> [ м | н | Н1: | Ӈ1: | ʼ: ] %>: _ ;
