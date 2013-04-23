@@ -19,6 +19,7 @@ Alphabet
  А1:э
 
  А2:а
+!А2:0
 
  Ы1:о 
  Ы1:е
@@ -59,9 +60,7 @@ Alphabet
 
 
 Sets
-Vows =   о у ё ю О У Ё Ю ;
-Ve =   ӓ а е и э я Ӓ А Е И Э Я ;
-Vws =  Vo VO Ve ы Ы  ӹ Ӹ ; 
+Vws =   а е ё и о у ы э ю я А Е Ё И О У Ы Э Ю Я ;
 
 CnsNotGlots = б в г д ж з й к л м н п р с т ф х ц
               Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц
@@ -103,7 +102,16 @@ Rules
 у:ю <=> й: %>: _ ;
 
 "А2:0 possible vowel loss as second syllable vowel"
-А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ м _ н а ; 
+А2:0 <= # Cns* :Vws [ %> | Cns | ˮ ]+ м: _ н а ; 
+         :Vws %^MLenition:0 %> м: _ н а ; 
+         [ м | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
+
+"А2:0 possible vowel loss as second syllable vowel"
+А2:0 =>  :Vws %^MLenition:0 %> м: _ н а ; 
+         [ м | н | р ] %^MLenition:0 %> 0:у м:в _ н а ; 
+
+"0:U in sgprossuf"
+0:у <=> [ м (ʼ:) | н | р ] %^MLenition:0 %> _ м: А2: н а ;
 
 "А1 -> а"
 А1:а <=> [[ Ӈ1: |  ʼ: | а | я | й | и | ы | Ы2: | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
@@ -175,7 +183,7 @@ Rules
 я:ь <=> Cns _ (%^VowFronting) %^VowLoss:0 ;
 
 "я:й Stem vowel loss in plural accusative"
-я:й <=> Vow _ (%^VowFronting) %^VowLoss:0 ;
+я:й <=> Vws _ (%^VowFronting) %^VowLoss:0 ;
 
 "я:0 Stem vowel loss in plural accusative"
 я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
@@ -186,7 +194,8 @@ Rules
 
 "mToV" ! perhaps there should be a VtoM rule2013-01-23
 м:в <=> _ %^MLenition:0 [ # | %> [ о | м | ʼ | ˮ ] ] ;
-       Vow %^MLenition:0 %> _ [ э к | э р х | а н д а р х ] ;
+       :Vws %^MLenition:0 %> _ [ э к | э р х | а н д а р х | А2: н а ] ;
+       [ м | н | р ] %^MLenition:0 %> 0: _ [ А2:0 н а ] ;
 !ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
 
 "mTob" ! 
@@ -263,7 +272,7 @@ Rules
 !"v loss after m Nasal glottal"
 !в:0 <=> м ʼ: %>: _ #: ;
 
-"m loss before Labial followed by nonglottal cons or vow "
+"m loss before Labial followed by nonglottal cons or vows "
 м:0 <=> _ ʼ: %>: [ м [ а | и | н | д ] | в: ] ;
 
 !"Н1:0 GlottalNasalToSurface"
