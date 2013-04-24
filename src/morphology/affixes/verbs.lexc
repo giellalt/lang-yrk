@@ -11,18 +11,18 @@ LEXICON IV_Е
 LEXICON IV_ИЛЕ
 +V+IV: V-01_ИЛЕ	;
 
-!+V+Ind+Prt1+ScSg1:дамзь K ;
-!!+Use/Sub+V+Ind+Prt1+ScSg1:манзь K ;
-!+V+Ind+Prt1+ScSg1:манзь K ;
-!+V+Ind+Prt1+ScSg2:нась K ;
-!+V+Ind+Prt1+ScSg3:сь K ;
-!+V+Ind+Prt1+ScDu1:нинзь K ;
-!+V+Ind+Prt1+ScDu2:динзь K ;
-!+V+Ind+Prt1+ScDu3:ӈаханзь K ;
-!+Dial/W+V+Ind+Prt1+ScDu3:ханзь K ;
-!+V+Ind+Prt1+ScPl1:ваць K ;
-!+V+Ind+Prt1+ScPl2:даць K ;
-!+V+Ind+Prt1+ScPl3:ць K ;
+!+V+Ind+Prt1+ScSg1:%>дамзь K ;
+!!+Use/Sub+V+Ind+Prt1+ScSg1:%>манзь K ;
+!+V+Ind+Prt1+ScSg1:%>манзь K ;
+!+V+Ind+Prt1+ScSg2:%>нась K ;
+!+V+Ind+Prt1+ScSg3:%>сь K ;
+!+V+Ind+Prt1+ScDu1:%>нинзь K ;
+!+V+Ind+Prt1+ScDu2:%>динзь K ;
+!+V+Ind+Prt1+ScDu3:%>ӈаханзь K ;
+!+Dial/W+V+Ind+Prt1+ScDu3:%>ханзь K ;
+!+V+Ind+Prt1+ScPl1:%>ваць K ;
+!+V+Ind+Prt1+ScPl2:%>даць K ;
+!+V+Ind+Prt1+ScPl3:%>ць K ;
 
 LEXICON IV_ИЛЕ-Pal/Var !! Work needed for variation 2013-03-04
 +V+IV: V-01_ИЛЕ ;
@@ -211,7 +211,7 @@ LEXICON V-S
  V_Mod/int ;
  V_Conj ;
 +V:     IND-AOR         ;
-+V+Ind+Aor+ScSg3:ӈа K ;
++V+Ind+Aor+ScSg3:%>ӈа K ;
 +V:	IND-PRT1    ;
 
 
@@ -221,27 +221,27 @@ LEXICON V-Ny
  V_Mod/int ;
  V_Conj ;
 +V:     IND-AOR         ;
-+V+Ind+Aor+ScSg3:ӈа K ; !assimilation:Н1+ӈа=ӈа
++V+Ind+Aor+ScSg3:%>ӈа K ; !assimilation:Н1+ӈа=ӈа
 
-!+V+Ind+Aor+ScSg1:дмʼ K ;
-!+Use/Sub+V+Ind+Aor+ScSg1:мʼ K ; !assimilation:Н1+м=м
-!+V+Ind+Aor+ScSg2:н K ; !assimilation:Н1+н=н
-!+V+Ind+Aor+ScDu1:ниʼ K ; !assimilation:Н1+ни=ни
-!+V+Ind+Aor+ScDu2:диʼ K ;
-!+V+Ind+Aor+ScDu3:ӈахаʼ K ; !assimilation:Н1+ӈа=ӈа
-!+V+Ind+Aor+ScPl1:ваˮ K ;
-!+V+Ind+Aor+ScPl2:даˮ K ;
-!+V+Ind+Aor+ScPl3:ӈаˮ K ; !assimilation:Н1+ӈа=ӈа
+!+V+Ind+Aor+ScSg1:%>дмʼ K ;
+!+Use/Sub+V+Ind+Aor+ScSg1:%>мʼ K ; !assimilation:Н1+м=м
+!+V+Ind+Aor+ScSg2:%>н K ; !assimilation:Н1+н=н
+!+V+Ind+Aor+ScDu1:%>ниʼ K ; !assimilation:Н1+ни=ни
+!+V+Ind+Aor+ScDu2:%>диʼ K ;
+!+V+Ind+Aor+ScDu3:%>ӈахаʼ K ; !assimilation:Н1+ӈа=ӈа
+!+V+Ind+Aor+ScPl1:%>ваˮ K ;
+!+V+Ind+Aor+ScPl2:%>даˮ K ;
+!+V+Ind+Aor+ScPl3:%>ӈаˮ K ; !assimilation:Н1+ӈа=ӈа
 
-!+V+Ind+Prt1+ScSg3:зь K ; ! This is dealt with in twolc с:з
+!+V+Ind+Prt1+ScSg3:%>зь K ; ! This is dealt with in twolc с:з
 
-!+V+Ind+Prt1+ScPl3:ць K ; !assimilation?
+!+V+Ind+Prt1+ScPl3:%>ць K ; !assimilation?
 
-+V+Inf+Impеrf:ма K ; !assimilation:Н1+м=м
-+V+Inf+Pеrf:ёˮма K ; !Н1  > ø
-+V+Part+Impеrf:да K ;
-+V+Part+Pеrf:вы K ;
-+V+Conneg:йˮ K ; !Н1  > ø
++V+Inf+Impеrf:%>ма K ; !assimilation:Н1+м=м
++V+Inf+Pеrf:%>ёˮма K ; !Н1  > ø
++V+Part+Impеrf:%>да K ;
++V+Part+Pеrf:%>вы K ;
++V+Conneg:%>йˮ K ; !Н1  > ø
 
 
 !! after +TV, +IV, +Aux, +Refl
@@ -923,7 +923,7 @@ LEXICON V-01_ТИР
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
-:ӈа V_Opt ;
+:%>ӈа V_Opt ;
  V_Conj ; 
  V_Mod/int ;
  V_Mod/narr ;
@@ -941,31 +941,31 @@ LEXICON V-01_ТИР
  V_Mod/sup ;
  V_Fut2 ;
 :С1 V_Subord ;
-:ӈа IND-AOR		;
-:ӈа IND-AOR-SG3 	;
-:ӈа IND-PRT1		;
+:%>ӈа IND-AOR		;
+:%>ӈа IND-AOR-SG3 	;
+:%>ӈа IND-PRT1		;
  PRC2 ;
 
 LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
 
-+Ind:ъю IND-AOR-RCSG1	;
-+Ind:ъя IND-AOR-RCSG2	;
-+Ind:й IND-AOR-RCSG3	;
-+Ind:ъя IND-AOR-RCDU1	;
-+Ind:ъя IND-AOR-RCDU2 	;
-+Ind:ъя IND-AOR-RCDU3 	;
-+Ind:ъя IND-AOR-RCPL1 	;
-+Ind:ъя IND-AOR-RCPL2 	;
-+Ind:ъя IND-AOR-RCPL3 	;
-+Ind:ъю MUTUAL-PRT1-RCSG1 ;
-+Ind:ъя MUTUAL-PRT1-RCSG2 ;
-+Ind:ъя MUTUAL-PRT1-RCSG3 ;
-+Ind:ъя MUTUAL-PRT1-RCDU1 ;
-+Ind:ъя MUTUAL-PRT1-RCDU2 ;
-+Ind:ъя MUTUAL-PRT1-RCDU3 ;
-+Ind:ъя MUTUAL-PRT1-RCPL1 ;
-+Ind:ъя MUTUAL-PRT1-RCPL2 ;
-+Ind:ъя MUTUAL-PRT1-RCPL3 ;
++Ind:%>ъю IND-AOR-RCSG1	;
++Ind:%>ъя IND-AOR-RCSG2	;
++Ind:%>й IND-AOR-RCSG3	;
++Ind:%>ъя IND-AOR-RCDU1	;
++Ind:%>ъя IND-AOR-RCDU2 	;
++Ind:%>ъя IND-AOR-RCDU3 	;
++Ind:%>ъя IND-AOR-RCPL1 	;
++Ind:%>ъя IND-AOR-RCPL2 	;
++Ind:%>ъя IND-AOR-RCPL3 	;
++Ind:%>ъю MUTUAL-PRT1-RCSG1 ;
++Ind:%>ъя MUTUAL-PRT1-RCSG2 ;
++Ind:%>ъя MUTUAL-PRT1-RCSG3 ;
++Ind:%>ъя MUTUAL-PRT1-RCDU1 ;
++Ind:%>ъя MUTUAL-PRT1-RCDU2 ;
++Ind:%>ъя MUTUAL-PRT1-RCDU3 ;
++Ind:%>ъя MUTUAL-PRT1-RCPL1 ;
++Ind:%>ъя MUTUAL-PRT1-RCPL2 ;
++Ind:%>ъя MUTUAL-PRT1-RCPL3 ;
 :С1 V_Hort-Refl ; !2013-4-5 adding Glotal for х:к after л
  V_Imprt-Refl ;
  V_Opt-Refl ;
@@ -985,9 +985,9 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  V_Mod/des-Refl ;
  V_Fut2-Refl ;
 :С1 V_Subord ;
-+Fut+Ind+Aor:ты MUTUAL-PERSON-REFL ;
++Fut+Ind+Aor:%>ты MUTUAL-PERSON-REFL ;
  PRC2 ;
-+Fut+ConNeg:тыˮ     K ;
++Fut+ConNeg:%>тыˮ     K ;
 
 LEXICON V-01_ТО
 @R.CONJ.ObjAll@ V_Obj ;
@@ -1209,59 +1209,59 @@ LEXICON IND-AOR !! All except Sg3
  IND-AOR-PL3 ;
 
 LEXICON IND-AOR-SG1
-+Ind+Aor+ScSg1:дмʼ K ;
-+Use/Sub+Ind+Aor+ScSg1:мʼ K ;
++Ind+Aor+ScSg1:%>дмʼ K ;
++Use/Sub+Ind+Aor+ScSg1:%>мʼ K ;
 
 LEXICON IND-AOR-SG2
-+Ind+Aor+ScSg2:н K ;
++Ind+Aor+ScSg2:%>н K ;
 
 LEXICON IND-AOR-SG3
-+Ind+Aor+ScSg3: K ;
++Ind+Aor+ScSg3:%> K ;
 
 LEXICON IND-AOR-DU1
-+Ind+Aor+ScDu1:ниʼ K ;
++Ind+Aor+ScDu1:%>ниʼ K ;
 
 LEXICON IND-AOR-DU2
-+Ind+Aor+ScDu2:диʼ K ;
++Ind+Aor+ScDu2:%>диʼ K ;
 
 LEXICON IND-AOR-DU3
-+Ind+Aor+ScDu3:ӈахаʼ K ;
++Ind+Aor+ScDu3:%>ӈахаʼ K ;
 
 LEXICON IND-AOR-PL1
-+Ind+Aor+ScPl1:ваˮ K ;
++Ind+Aor+ScPl1:%>ваˮ K ;
 
 LEXICON IND-AOR-PL2
-+Ind+Aor+ScPl2:даˮ K ;
++Ind+Aor+ScPl2:%>даˮ K ;
 
 LEXICON IND-AOR-PL3
-+Ind+Aor+ScPl3:ˮ K ;
++Ind+Aor+ScPl3:%>ˮ K ;
 
 LEXICON IND-AOR-RCSG1
-+Aor+RcSg1:вˮ K ;
++Aor+RcSg1:%>вˮ K ;
 
 LEXICON IND-AOR-RCSG2
-+Aor+RcSg2:н K ;
++Aor+RcSg2:%>н K ;
 
 LEXICON IND-AOR-RCSG3
-+Aor+RcSg3:ˮ K ;
++Aor+RcSg3:%>ˮ K ;
 
 LEXICON IND-AOR-RCDU1
-+Aor+RcDu1:ниʼ K ;
++Aor+RcDu1:%>ниʼ K ;
 
 LEXICON IND-AOR-RCDU2
-+Aor+RcDu2:диʼ K ;
++Aor+RcDu2:%>диʼ K ;
 
 LEXICON IND-AOR-RCDU3
-+Aor+RcDu3:хаʼ K ;
++Aor+RcDu3:%>хаʼ K ;
 
 LEXICON IND-AOR-RCPL1
-+Aor+RcPl1:наˮ K ;
++Aor+RcPl1:%>наˮ K ;
 
 LEXICON IND-AOR-RCPL2
-+Aor+RcPl2:даˮ K ;
++Aor+RcPl2:%>даˮ K ;
 
 LEXICON IND-AOR-RCPL3
-+Aor+RcPl3:дˮ K ;
++Aor+RcPl3:%>дˮ K ;
 
 LEXICON V_Obj
  IND-AOR-SCSG1-OCSG3 ;
@@ -1325,119 +1325,119 @@ LEXICON V_Obj
  IND-PRT1-SCPL3-OCPL3 ;
  
 LEXICON IND-AOR-SCSG1-OCSG3
-+Ind+Aor+ScSg1+OcSg3:в K ;
++Ind+Aor+ScSg1+OcSg3:%>в K ;
 LEXICON IND-AOR-SCSG2-OCSG3
-+Ind+Aor+ScSg2+OcSg3:р K ;
++Ind+Aor+ScSg2+OcSg3:%>р K ;
 LEXICON IND-AOR-SCSG3-OCSG3
-+Ind+Aor+ScSg3+OcSg3:да K ;
++Ind+Aor+ScSg3+OcSg3:%>да K ;
 LEXICON IND-AOR-SCDU1-OCSG3
-+Ind+Aor+ScDu1+OcSg3:миʼ K ;
++Ind+Aor+ScDu1+OcSg3:%>миʼ K ;
 LEXICON IND-AOR-SCDU2-OCSG3
-+Ind+Aor+ScDu2+OcSg3:риʼ K ;
++Ind+Aor+ScDu2+OcSg3:%>риʼ K ;
 LEXICON IND-AOR-SCDU3-OCSG3
-+Ind+Aor+ScDu3+OcSg3:диʼ K ;
++Ind+Aor+ScDu3+OcSg3:%>диʼ K ;
 LEXICON IND-AOR-SCPL1-OCSG3
-+Ind+Aor+ScPl1+OcSg3:ваˮ K ;
++Ind+Aor+ScPl1+OcSg3:%>ваˮ K ;
 LEXICON IND-AOR-SCPL2-OCSG3
-+Ind+Aor+ScPl2+OcSg3:раˮ K ;
++Ind+Aor+ScPl2+OcSg3:%>раˮ K ;
 LEXICON IND-AOR-SCPL3-OCSG3
-+Ind+Aor+ScPl3+OcSg3:доʼ K ;
++Ind+Aor+ScPl3+OcSg3:%>доʼ K ;
 
 LEXICON IND-AOR-SCSG1-OCDU3
-+Ind+Aor+ScSg1+OcDu3:ӈахаюн K ;
++Ind+Aor+ScSg1+OcDu3:%>ӈахаюн K ;
 LEXICON IND-AOR-SCSG2-OCDU3
-+Ind+Aor+ScSg2+OcDu3:ӈахаюд K ;
++Ind+Aor+ScSg2+OcDu3:%>ӈахаюд K ;
 LEXICON IND-AOR-SCSG3-OCDU3
-+Ind+Aor+ScSg3+OcDu3:ӈахаюда K ;
++Ind+Aor+ScSg3+OcDu3:%>ӈахаюда K ;
 LEXICON IND-AOR-SCDU1-OCDU3
-+Ind+Aor+ScDu1+OcDu3:ӈахаюниʼ K ;
++Ind+Aor+ScDu1+OcDu3:%>ӈахаюниʼ K ;
 LEXICON IND-AOR-SCDU2-OCDU3
-+Ind+Aor+ScDu2+OcDu3:ӈахаюдиʼ K ;
++Ind+Aor+ScDu2+OcDu3:%>ӈахаюдиʼ K ;
 LEXICON IND-AOR-SCDU3-OCDU3
-+Ind+Aor+ScDu3+OcDu3:ӈахаюдиʼ K ;
++Ind+Aor+ScDu3+OcDu3:%>ӈахаюдиʼ K ;
 LEXICON IND-AOR-SCPL1-OCDU3
-+Ind+Aor+ScPl1+OcDu3:ӈахаюнаˮ K ;
++Ind+Aor+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
 LEXICON IND-AOR-SCPL2-OCDU3
-+Ind+Aor+ScPl2+OcDu3:ӈахаюдаˮ K ;
++Ind+Aor+ScPl2+OcDu3:%>ӈахаюдаˮ K ;
 LEXICON IND-AOR-SCPL3-OCDU3
-+Ind+Aor+ScPl3+OcDu3:ӈахаюдоʼ K ;
++Ind+Aor+ScPl3+OcDu3:%>ӈахаюдоʼ K ;
 
 !!after stem-final consonant и instead of й.
 LEXICON IND-AOR-SCSG1-OCPL3
-+Ind+Aor+ScSg1+OcPl3:%>йн K ;
++Ind+Aor+ScSg1+OcPl3:%>%>йн K ;
 LEXICON IND-AOR-SCSG2-OCPL3
-+Ind+Aor+ScSg2+OcPl3:йд K ;
++Ind+Aor+ScSg2+OcPl3:%>йд K ;
 LEXICON IND-AOR-SCSG3-OCPL3
-+Ind+Aor+ScSg3+OcPl3:йда K ;
++Ind+Aor+ScSg3+OcPl3:%>йда K ;
 LEXICON IND-AOR-SCDU1-OCPL3
-+Ind+Aor+ScDu1+OcPl3:йниʼ K ;
++Ind+Aor+ScDu1+OcPl3:%>йниʼ K ;
 LEXICON IND-AOR-SCDU2-OCPL3
-+Ind+Aor+ScDu2+OcPl3:йдиʼ K ;
++Ind+Aor+ScDu2+OcPl3:%>йдиʼ K ;
 LEXICON IND-AOR-SCDU3-OCPL3
-+Ind+Aor+ScDu3+OcPl3:йдиʼ K ;
++Ind+Aor+ScDu3+OcPl3:%>йдиʼ K ;
 LEXICON IND-AOR-SCPL1-OCPL3
-+Ind+Aor+ScPl1+OcPl3:йнаˮ K ;
++Ind+Aor+ScPl1+OcPl3:%>йнаˮ K ;
 LEXICON IND-AOR-SCPL2-OCPL3
-+Ind+Aor+ScPl2+OcPl3:йдаˮ K ;
++Ind+Aor+ScPl2+OcPl3:%>йдаˮ K ;
 LEXICON IND-AOR-SCPL3-OCPL3
-+Ind+Aor+ScPl3+OcPl3:йдоʼ K ;
++Ind+Aor+ScPl3+OcPl3:%>йдоʼ K ;
 
 LEXICON IND-PRT1-SCSG1-OCSG3
-+Ind+Prt1+ScSg1+OcSg3:вась K ;
++Ind+Prt1+ScSg1+OcSg3:%>вась K ;
 LEXICON IND-PRT1-SCSG2-OCSG3
-+Ind+Prt1+ScSg2+OcSg3:рась K ;
++Ind+Prt1+ScSg2+OcSg3:%>рась K ;
 LEXICON IND-PRT1-SCSG3-OCSG3
-+Ind+Prt1+ScSg3+OcSg3:дась K ;
++Ind+Prt1+ScSg3+OcSg3:%>дась K ;
 LEXICON IND-PRT1-SCDU1-OCSG3
-+Ind+Prt1+ScDu1+OcSg3:минзь K ;
++Ind+Prt1+ScDu1+OcSg3:%>минзь K ;
 LEXICON IND-PRT1-SCDU2-OCSG3
-+Ind+Prt1+ScDu2+OcSg3:ринзь K ;
++Ind+Prt1+ScDu2+OcSg3:%>ринзь K ;
 LEXICON IND-PRT1-SCDU3-OCSG3
-+Ind+Prt1+ScDu3+OcSg3:динзь K ;
++Ind+Prt1+ScDu3+OcSg3:%>динзь K ;
 LEXICON IND-PRT1-SCPL1-OCSG3
-+Ind+Prt1+ScPl1+OcSg3:ваць K ;
++Ind+Prt1+ScPl1+OcSg3:%>ваць K ;
 LEXICON IND-PRT1-SCPL2-OCSG3
-+Ind+Prt1+ScPl2+OcSg3:раць K ;
++Ind+Prt1+ScPl2+OcSg3:%>раць K ;
 LEXICON IND-PRT1-SCPL3-OCSG3
-+Ind+Prt1+ScPl3+OcSg3:донзь K ;
++Ind+Prt1+ScPl3+OcSg3:%>донзь K ;
 
 LEXICON IND-PRT1-SCSG1-OCDU3
-+Ind+Prt1+ScSg1+OcDu3:ӈахаюнась K ;
++Ind+Prt1+ScSg1+OcDu3:%>ӈахаюнась K ;
 LEXICON IND-PRT1-SCSG2-OCDU3
-+Ind+Prt1+ScSg2+OcDu3:ӈахаюдась K ;
++Ind+Prt1+ScSg2+OcDu3:%>ӈахаюдась K ;
 LEXICON IND-PRT1-SCSG3-OCDU3
-+Ind+Prt1+ScSg3+OcDu3:ӈахаюдась K ;
++Ind+Prt1+ScSg3+OcDu3:%>ӈахаюдась K ;
 LEXICON IND-PRT1-SCDU1-OCDU3
-+Ind+Prt1+ScDu1+OcDu3:ӈахаюнинзь K ;
++Ind+Prt1+ScDu1+OcDu3:%>ӈахаюнинзь K ;
 LEXICON IND-PRT1-SCDU2-OCDU3
-+Ind+Prt1+ScDu2+OcDu3:ӈахаюдинзь K ;
++Ind+Prt1+ScDu2+OcDu3:%>ӈахаюдинзь K ;
 LEXICON IND-PRT1-SCDU3-OCDU3
-+Ind+Prt1+ScDu3+OcDu3:ӈахаюдинзь K ;
++Ind+Prt1+ScDu3+OcDu3:%>ӈахаюдинзь K ;
 LEXICON IND-PRT1-SCPL1-OCDU3
-+Ind+Prt1+ScPl1+OcDu3:ӈахаюнаць K ;
++Ind+Prt1+ScPl1+OcDu3:%>ӈахаюнаць K ;
 LEXICON IND-PRT1-SCPL2-OCDU3
-+Ind+Prt1+ScPl2+OcDu3:ӈахаюдаць K ;
++Ind+Prt1+ScPl2+OcDu3:%>ӈахаюдаць K ;
 LEXICON IND-PRT1-SCPL3-OCDU3
-+Ind+Prt1+ScPl3+OcDu3:ӈахаюдонзь K ;
++Ind+Prt1+ScPl3+OcDu3:%>ӈахаюдонзь K ;
 
 LEXICON IND-PRT1-SCSG1-OCPL3
-+Ind+Prt1+ScSg1+OcDu3:йнась K ;
++Ind+Prt1+ScSg1+OcDu3:%>йнась K ;
 LEXICON IND-PRT1-SCSG2-OCPL3
-+Ind+Prt1+ScSg2+OcDu3:йдась K ;
++Ind+Prt1+ScSg2+OcDu3:%>йдась K ;
 LEXICON IND-PRT1-SCSG3-OCPL3
-+Ind+Prt1+ScSg3+OcDu3:йдась K ;
++Ind+Prt1+ScSg3+OcDu3:%>йдась K ;
 LEXICON IND-PRT1-SCDU1-OCPL3
-+Ind+Prt1+ScDu1+OcDu3:йнинзь K ;
++Ind+Prt1+ScDu1+OcDu3:%>йнинзь K ;
 LEXICON IND-PRT1-SCDU2-OCPL3
-+Ind+Prt1+ScDu2+OcDu3:йдинзь K ;
++Ind+Prt1+ScDu2+OcDu3:%>йдинзь K ;
 LEXICON IND-PRT1-SCDU3-OCPL3
-+Ind+Prt1+ScDu3+OcDu3:йдинзь K ;
++Ind+Prt1+ScDu3+OcDu3:%>йдинзь K ;
 LEXICON IND-PRT1-SCPL1-OCPL3
-+Ind+Prt1+ScPl1+OcDu3:йнаць K ;
++Ind+Prt1+ScPl1+OcDu3:%>йнаць K ;
 LEXICON IND-PRT1-SCPL2-OCPL3
-+Ind+Prt1+ScPl2+OcDu3:йдаць K ;
++Ind+Prt1+ScPl2+OcDu3:%>йдаць K ;
 LEXICON IND-PRT1-SCPL3-OCPL3
-+Ind+Prt1+ScPl3+OcDu3:йдонзь K ;
++Ind+Prt1+ScPl3+OcDu3:%>йдонзь K ;
 
 !! Preterite 1 # This should be for ConjPrt and NarrPrt also.
 LEXICON IND-PRT1
@@ -1461,15 +1461,15 @@ LEXICON IND-PRT1
 !2013-03-15! IND-PRT1-RCPL3	;
 
 LEXICON V_IND-Refl-PRT1
-+Ind:й MUTUAL-PRT1-RCSG1 ;
-+Ind:й MUTUAL-PRT1-RCSG2 ;
-+Ind:я MUTUAL-PRT1-RCSG3 ;
-+Ind:й MUTUAL-PRT1-RCDU1 ;
-+Ind:й MUTUAL-PRT1-RCDU2 ;
-+Ind:й MUTUAL-PRT1-RCDU3 ;
-+Ind:й MUTUAL-PRT1-RCPL1 ;
-+Ind:й MUTUAL-PRT1-RCPL2 ;
-+Ind:й MUTUAL-PRT1-RCPL3 ;
++Ind:%>й MUTUAL-PRT1-RCSG1 ;
++Ind:%>й MUTUAL-PRT1-RCSG2 ;
++Ind:%>я MUTUAL-PRT1-RCSG3 ;
++Ind:%>й MUTUAL-PRT1-RCDU1 ;
++Ind:%>й MUTUAL-PRT1-RCDU2 ;
++Ind:%>й MUTUAL-PRT1-RCDU3 ;
++Ind:%>й MUTUAL-PRT1-RCPL1 ;
++Ind:%>й MUTUAL-PRT1-RCPL2 ;
++Ind:%>й MUTUAL-PRT1-RCPL3 ;
  
 LEXICON IND-PRT1-SG1
 +Ind+Prt1+ScSg1:%>дамзь K ;
@@ -1502,18 +1502,18 @@ LEXICON IND-PRT1-PL3
 +Ind+Prt1+ScPl3:%>ць K ;
 
 LEXICON V_IND-Refl
-+Ind:ю IND-AOR-RCSG1	;
-+Ind+Aor+RcSg1:йв K ; 
-+Ind:я IND-AOR-RCSG2	;
-+Ind:й IND-AOR-RCSG2	;
-+Ind:й IND-AOR-RCSG3	;
-+Ind:й IND-AOR-RCDU1	;
-+Ind:й IND-AOR-RCDU2 	;
-+Ind:й IND-AOR-RCDU3 	;
-+Ind:й IND-AOR-RCPL1 	;
-+Ind:й IND-AOR-RCPL2 	;
-+Ind:я IND-AOR-RCPL3 	;
-+Ind:й IND-AOR-RCPL3 	;
++Ind:%>ю IND-AOR-RCSG1	;
++Ind+Aor+RcSg1:%>йв K ; 
++Ind:%>я IND-AOR-RCSG2	;
++Ind:%>й IND-AOR-RCSG2	;
++Ind:%>й IND-AOR-RCSG3	;
++Ind:%>й IND-AOR-RCDU1	;
++Ind:%>й IND-AOR-RCDU2 	;
++Ind:%>й IND-AOR-RCDU3 	;
++Ind:%>й IND-AOR-RCPL1 	;
++Ind:%>й IND-AOR-RCPL2 	;
++Ind:%>я IND-AOR-RCPL3 	;
++Ind:%>й IND-AOR-RCPL3 	;
 
 !! Other moods
 LEXICON V_Mod/int
@@ -1526,46 +1526,46 @@ LEXICON V_Mod/int-Refl
 LEXICON V_Mod/int-OPl
 +Mod/int:%>ся MUTUAL-PERSON ;
 
-!+V+Mod/int+ScSg2:сан K ;
-!+V+Mod/int+ScSg3:са K ;
-!+V+Mod/int+ScDu2:садиʼ K ;
-!+V+Mod/int+ScDu3:сахаʼ K ;
-!+V+Mod/int+ScPl2:садаˮ K ;
-!+V+Mod/int+ScPl3:саˮ K ;
-!+Mod/int+ScSg2+OcSg3:сар K ;
-!+Mod/int+ScSg3+OcSg3:сада K ;
-!+Mod/int+ScDu2+OcSg3:сариʼ K ;
-!+Mod/int+ScDu3+OcSg3:садиʼ K ;
-!+Mod/int+ScPl2+OcSg3:сараˮ K ;
-!+Mod/int+ScPl3+OcSg3:садоʼ K ;
-!+Mod/int+ScSg2+OcDu3:сахаюд K ;
-!+Mod/int+ScSg3+OcDu3:сахаюда K ;
-!+Mod/int+ScDu2+OcDu3:сахаюдиʼ K ;
-!+Mod/int+ScDu3+OcDu3:сахаюдиʼ K ;
-!+Mod/int+ScPl2+OcDu3:сахаюдаˮ K ;
-!+Mod/int+ScPl3+OcDu3:сахаюдоʼ K ;
-!+Mod/int+ScSg2+OcPl3:сяд K ;
-!+Mod/int+ScSg3+OcPl3:сяда K ;
-!+Mod/int+ScDu2+OcPl3:сядиʼ K ;
-!+Mod/int+ScDu3+OcPl3:сядиʼ K ;
-!+Mod/int+ScPl2+OcPl3:сядаˮ K ;
-!+Mod/int+ScPl3+OcPl3:сядоʼ K ;
+!+V+Mod/int+ScSg2:%>сан K ;
+!+V+Mod/int+ScSg3:%>са K ;
+!+V+Mod/int+ScDu2:%>садиʼ K ;
+!+V+Mod/int+ScDu3:%>сахаʼ K ;
+!+V+Mod/int+ScPl2:%>садаˮ K ;
+!+V+Mod/int+ScPl3:%>саˮ K ;
+!+Mod/int+ScSg2+OcSg3:%>сар K ;
+!+Mod/int+ScSg3+OcSg3:%>сада K ;
+!+Mod/int+ScDu2+OcSg3:%>сариʼ K ;
+!+Mod/int+ScDu3+OcSg3:%>садиʼ K ;
+!+Mod/int+ScPl2+OcSg3:%>сараˮ K ;
+!+Mod/int+ScPl3+OcSg3:%>садоʼ K ;
+!+Mod/int+ScSg2+OcDu3:%>сахаюд K ;
+!+Mod/int+ScSg3+OcDu3:%>сахаюда K ;
+!+Mod/int+ScDu2+OcDu3:%>сахаюдиʼ K ;
+!+Mod/int+ScDu3+OcDu3:%>сахаюдиʼ K ;
+!+Mod/int+ScPl2+OcDu3:%>сахаюдаˮ K ;
+!+Mod/int+ScPl3+OcDu3:%>сахаюдоʼ K ;
+!+Mod/int+ScSg2+OcPl3:%>сяд K ;
+!+Mod/int+ScSg3+OcPl3:%>сяда K ;
+!+Mod/int+ScDu2+OcPl3:%>сядиʼ K ;
+!+Mod/int+ScDu3+OcPl3:%>сядиʼ K ;
+!+Mod/int+ScPl2+OcPl3:%>сядаˮ K ;
+!+Mod/int+ScPl3+OcPl3:%>сядоʼ K ;
 
 LEXICON V_Hort
-+Hort:ха MUTUAL-SG1 ;
-+Hort:хэ MUTUAL-DU1 ;
-+Hort:хэ MUTUAL-PL1 ;
++Hort:%>ха MUTUAL-SG1 ;
++Hort:%>хэ MUTUAL-DU1 ;
++Hort:%>хэ MUTUAL-PL1 ;
 
 LEXICON V_Hort-Obj
-+Hort+ScSg1+OcSg3:хав K ;
-+Hort+ScSg1+OcDu3:хаюн K ;
-+Hort+ScSg1+OcPl3:хан K ;
-+Hort+ScDu1+OcSg3:хамиʼ K ;
-+Hort+ScDu1+OcDu3:хахаюниʼ K ;
-+Hort+ScDu1+OcPl3:ханиʼ K ;
-+Hort+ScPl1+OcSg3:хаваˮ K ;
-+Hort+ScPl1+OcDu3:ӈахаюнаˮ K ;
-+Hort+ScPl1+OcPl3:ханаˮ K ;
++Hort+ScSg1+OcSg3:%>хав K ;
++Hort+ScSg1+OcDu3:%>хаюн K ;
++Hort+ScSg1+OcPl3:%>хан K ;
++Hort+ScDu1+OcSg3:%>хамиʼ K ;
++Hort+ScDu1+OcDu3:%>хахаюниʼ K ;
++Hort+ScDu1+OcPl3:%>ханиʼ K ;
++Hort+ScPl1+OcSg3:%>хаваˮ K ;
++Hort+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
++Hort+ScPl1+OcPl3:%>ханаˮ K ;
 
 LEXICON V_Hort-Refl
 +Hort:%>ха MUTUAL-RCSG1 ;
@@ -1573,55 +1573,55 @@ LEXICON V_Hort-Refl
 +Hort:%>ха MUTUAL-RCPL1 ;
 
 LEXICON V_Imprt
-+Imprt+ScSg2:ˮ K ;
++Imprt+ScSg2:%>ˮ K ;
 +Imprt: MUTUAL-DU2 ;
 +Imprt: MUTUAL-PL2 ;
 
 LEXICON V_Imprt-Obj
-+Imprt+ScSg2+OcSg3:д K ;
-+Imprt+ScSg2+OcDu3:хаюнˮ K ;
-+Imprt+ScSg2+OcPl3:нˮ K ;
-+Imprt+ScDu2+OcSg3:риʼ K ;
-+Imprt+ScDu2+OcDu3:ӈахаюдиʼ K ;
-+Imprt+ScDu2+OcPl3:йдиʼ K ;
-+Imprt+ScPl2+OcSg3:раˮ K ;
-+Imprt+ScPl2+OcDu3:ӈахаюдаˮ K ;
-+Imprt+ScPl2+OcPl3:йдаˮ K ;
++Imprt+ScSg2+OcSg3:%>д K ;
++Imprt+ScSg2+OcDu3:%>хаюнˮ K ;
++Imprt+ScSg2+OcPl3:%>нˮ K ;
++Imprt+ScDu2+OcSg3:%>риʼ K ;
++Imprt+ScDu2+OcDu3:%>ӈахаюдиʼ K ;
++Imprt+ScDu2+OcPl3:%>йдиʼ K ;
++Imprt+ScPl2+OcSg3:%>раˮ K ;
++Imprt+ScPl2+OcDu3:%>ӈахаюдаˮ K ;
++Imprt+ScPl2+OcPl3:%>йдаˮ K ;
 
 LEXICON V_Imprt-Refl
-+Imprt+RcSg2:дˮ K ;
-+Imprt:й MUTUAL-RCDU2 ;
-+Imprt:й MUTUAL-RCPL2 ;
++Imprt+RcSg2:%>дˮ K ;
++Imprt:%>й MUTUAL-RCDU2 ;
++Imprt:%>й MUTUAL-RCPL2 ;
 
 LEXICON V_Opt
-+Opt+ScSg3:я K ;
-+Opt:я MUTUAL-DU3 ;
-+Opt:я MUTUAL-PL3 ;
++Opt+ScSg3:%>я K ;
++Opt:%>я MUTUAL-DU3 ;
++Opt:%>я MUTUAL-PL3 ;
 
 LEXICON V_Opt-Obj
-+Opt+ScSg3+OcSg3:мда K ;
-+Opt+ScSg3+OcDu3:ӈахаюдамда K ;
-+Opt+ScSg3+OcPl3:ядамда K ;
-+Opt+ScDu3+OcSg3:мдиʼ K ;
-+Opt+ScDu3+OcDu3:ӈахаюдамдиʼ K ;
-+Opt+ScDu3+OcPl3:ядамдиʼ K ;
-+Opt+ScPl3+OcSg3:мдоʼ K ;
-+Opt+ScPl3+OcDu3:ӈахаюдамдоʼ K ;
-+Opt+ScPl3+OcPl3:ядамдоʼ K ;
++Opt+ScSg3+OcSg3:%>мда K ;
++Opt+ScSg3+OcDu3:%>ӈахаюдамда K ;
++Opt+ScSg3+OcPl3:%>ядамда K ;
++Opt+ScDu3+OcSg3:%>мдиʼ K ;
++Opt+ScDu3+OcDu3:%>ӈахаюдамдиʼ K ;
++Opt+ScDu3+OcPl3:%>ядамдиʼ K ;
++Opt+ScPl3+OcSg3:%>мдоʼ K ;
++Opt+ScPl3+OcDu3:%>ӈахаюдамдоʼ K ;
++Opt+ScPl3+OcPl3:%>ядамдоʼ K ;
 
 LEXICON V_Opt-Refl
-+Opt+RcSg3:ямдˮ K ;
-+Opt+RcDu3:яхамдˮ K ;
-+Opt+RcPl3:ядамдˮ K ;
++Opt+RcSg3:%>ямдˮ K ;
++Opt+RcDu3:%>яхамдˮ K ;
++Opt+RcPl3:%>ядамдˮ K ;
 
 LEXICON V_Mod/nec
-+Mod/nec:бцу MUTUAL-PERSON ;
++Mod/nec:%>бцу MUTUAL-PERSON ;
 
 LEXICON V_Mod/nec_ass
-+Mod/nec:цу MUTUAL-PERSON ;
++Mod/nec:%>цу MUTUAL-PERSON ;
 
 LEXICON V_Mod/nec-Refl
-+Mod/nec:бцу MUTUAL-PERSON-REFL ;
++Mod/nec:%>бцу MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/narr
 +Mod/narr+Aor:%^MLenition%>мЫ2 MUTUAL-PERSON ; 
@@ -2014,21 +2014,21 @@ LEXICON PRC
 
 LEXICON PRC2
 +InfImprf:%^MLenition%>ма K ;
-+InfPrf:ˮма K ;
-+PrcImprf:на K ;
-+PrcImprf:ня K ;
++InfPrf:%>ˮма K ;
++PrcImprf:%>на K ;
++PrcImprf:%>ня K ;
 +PrcPrf:%^MLenition%>мы K ;
 +PrcNeg:%^MLenition%>мдавэй K ;
 +PrcFut:%^MLenition%>манда K ;
 +Ger: K ;
-+Ger:сь K ;
++Ger:%>сь K ;
 +GerFin:%^MLenition%>манзь K ;
-+Subord:бˮ    K	;
++Subord:%>бˮ    K	;
 +Aud:%^MLenition%>моʼ      K	;
 +Aud:%^MLenition%>маноʼ    K	;
 +Evas:%^MLenition%>моӈгад  K	;
-+ConNeg:ˮ     K ;
-+Fut+ConNeg:таˮ     K ;
++ConNeg:%>ˮ     K ;
++Fut+ConNeg:%>таˮ     K ;
 
 ! vim: set ft=xfst-lexc:
 
