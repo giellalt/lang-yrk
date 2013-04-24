@@ -227,17 +227,18 @@ Rules
 
 "b to p after non-nasal glottal"
 б:п <=> [ С1: | Д1: | ˮ: ] %>: _ ;
+        %> _ ˮ # ;
 
 "b to 0 between mod/obl"
-б:0 <=> [ л | р ] %>: _ ц а к ;
+б:0 <=> [ л | р ] %>: _ ц [ а к | у ];
 
 
 "ъ:0 with Conj after vowels"
 ъ:0 <=> Vws %>: _ и ;
 
 "с => ц affrication after Stop"
-с:ц <=> [ Д1: ] %>: _ ь ;
-         р %>: _ [ а | я | и ] ;
+с:ц <=> [ Д1: | л ] %>: _ ь ;
+        [ л | р ] %>: _ [ а | я | и ] ;
 
 "с => з after nasal"
 с:з <=> [ м | н | Н1: | Ӈ1: | ʼ: ] %>: _ ;
