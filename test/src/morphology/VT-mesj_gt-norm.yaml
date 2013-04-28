@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - мэсь: # Verb 'to take' - partial paradigm
+     мэсь+V+TV+Ind+Aor+ScSg1+OcSg3: мэв
+     мэсь+V+TV+Ind+Aor+ScSg2+OcSg3: мэр
+     мэсь+V+TV+Ind+Aor+ScSg3+OcSg3: мэда
+     мэсь+V+TV+Ind+Aor+ScDu1+OcSg3: мэмиʼ
+     мэсь+V+TV+Ind+Aor+ScDu2+OcSg3: мэриʼ
+     мэсь+V+TV+Ind+Aor+ScDu3+OcSg3: мэдиʼ
+     мэсь+V+TV+Ind+Aor+ScPl1+OcSg3: мэнаˮ
+     мэсь+V+TV+Ind+Aor+ScPl2+OcSg3: мэраˮ
+     мэсь+V+TV+Ind+Aor+ScPl3+OcSg3: мэдоʼ
+     мэсь+V+TV+Fut+Ind+Aor+ScSg3: мэӈгуда
+     мэсь+V+TV+ConNeg: мыˮ

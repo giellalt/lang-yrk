@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - тось: # Verb 'to come' - partial paradigm
+     тось+V+IV+Ind+Aor+ScSg1: тодмʼ
+     тось+V+IV+Ind+Aor+ScSg2: тон
+     тось+V+IV+Ind+Aor+ScSg3: то
+     тось+V+IV+Ind+Aor+ScDu1: тониʼ
+     тось+V+IV+Ind+Aor+ScDu2: тодиʼ
+     тось+V+IV+Ind+Aor+ScDu3: тоӈахаʼ
+     тось+V+IV+Ind+Aor+ScPl1: товаˮ
+     тось+V+IV+Ind+Aor+ScPl2: тодаˮ
+     тось+V+IV+Ind+Aor+ScPl3: тоˮ
+     тось+V+IV+Fut+Ind+Aor+ScSg3: тута
+     тось+V+IV+ConNeg: туˮ

@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - нусь: # Verb 'to stand' - partial paradigm
+     нусь+V+IV+Ind+Aor+ScSg1: нудмʼ
+     нусь+V+IV+Ind+Aor+ScSg2: нун
+     нусь+V+IV+Ind+Aor+ScSg3: ну
+     нусь+V+IV+Ind+Aor+ScDu1: нуниʼ
+     нусь+V+IV+Ind+Aor+ScDu2: нудиʼ
+     нусь+V+IV+Ind+Aor+ScDu3: нуӈахаʼ
+     нусь+V+IV+Ind+Aor+ScPl1: нуваˮ
+     нусь+V+IV+Ind+Aor+ScPl2: нудаˮ
+     нусь+V+IV+Ind+Aor+ScPl3: нуˮ
+     нусь+V+IV+Fut+Ind+Aor+ScSg3: нуӈгу
+     нусь+V+IV+ConNeg: нуˮ
