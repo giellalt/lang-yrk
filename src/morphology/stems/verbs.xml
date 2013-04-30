@@ -22148,7 +22148,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla turhaaksi</t>
+
+        <t pos="IV">menettää tarkoituksensa</t>
       </tg>
     </mg>
   </e>
@@ -22214,7 +22216,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">mennä ulos</t>
+
+        <t pos="IV">nousta</t>
       </tg>
     </mg>
   </e>
@@ -22236,7 +22240,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">muuttua (kohtalaiseksi)</t>
       </tg>
     </mg>
   </e>
@@ -22258,17 +22262,17 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla karvattomaksi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="IV">тасалкорць</l>
+      <l pos="IV">тасалкурць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">тасалкор</st>
+        <st Contlex="IV_ТИР">тасалкур</st>
       </stg>
     </lg>
 
@@ -22280,7 +22284,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">keskustella</t>
+
+        <t pos="IV">pohdiskella</t>
       </tg>
     </mg>
   </e>
@@ -22302,7 +22308,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kellastua</t>
       </tg>
     </mg>
   </e>
@@ -22353,10 +22359,10 @@
 
   <e>
     <lg>
-      <l pos="IV">тасяторць</l>
+      <l pos="IV">тасьторць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">тасятор</st>
+        <st Contlex="IV_ТИР">тасьтор</st>
       </stg>
     </lg>
 
@@ -22368,7 +22374,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ähistä</t>
+
+        <t pos="IV">ähkiä</t>
       </tg>
     </mg>
   </e>
@@ -22390,7 +22398,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kipinöidä</t>
       </tg>
     </mg>
   </e>
@@ -22500,7 +22508,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">sekoittua</t>
+
+        <t pos="IV">sekaantua</t>
+
+        <t pos="IV">sotkeutua</t>
       </tg>
     </mg>
   </e>
@@ -24180,7 +24192,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">lyödä kaviolla</t>
+
+        <t pos="IV">kiroilla</t>
       </tg>
     </mg>
   </e>
@@ -24202,7 +24216,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">lyödä etujaloilla (kaviolla)</t>
       </tg>
     </mg>
   </e>
@@ -24224,7 +24238,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla ahtaaksi</t>
+
+        <t pos="IV">tulla litteäksi</t>
       </tg>
     </mg>
   </e>
@@ -24860,7 +24876,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"> riittää</t>
+        <t pos="IV">riittää</t>
       </tg>
     </mg>
   </e>
@@ -25060,7 +25076,35 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">myydä</t>
+
+        <t pos="TV">kaupata</t>
+
+        <t pos="TV">käydä kauppaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">тэмзась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">тэмза</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">hävitä taikomalla</t>
+
+        <t pos="IV">hävitä</t>
       </tg>
     </mg>
   </e>
@@ -25082,7 +25126,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">hävitä taikomalla</t>
+
+        <t pos="IV">hävitä</t>
       </tg>
     </mg>
   </e>
