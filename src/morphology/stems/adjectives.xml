@@ -276,6 +276,126 @@
 
   <e>
     <lg>
+      <l pos="A">нарэй</l>
+
+      <stg>
+        <st Contlex="A_ЕД">нарэй</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>keväinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ненза</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">ненза</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>straight</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>suora</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ненэй</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ненэй</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>real</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>oikea</t>
+
+        <t>todellinen</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нер</l>
+
+      <stg>
+        <st Contlex="A_ЕД">нер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>etu-</t>
+
+        <t>esi-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ӈарка</l>
 
       <stg>
@@ -302,6 +422,36 @@
     </mg>
 
     <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пальˮ</l>
+
+      <stg>
+        <st Contlex="A_МЯДО"> паль</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">tiheä</t>
+
+        <t pos="A">sankka</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
