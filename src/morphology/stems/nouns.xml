@@ -1972,6 +1972,34 @@
 
   <e>
     <lg>
+      <l pos="N">лад</l>
+
+      <stg>
+        <st Contlex="N_ЕД">лад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N">body</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">vartalo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ладорабцьʼ</l>
 
       <stg>
@@ -2425,7 +2453,7 @@
       <l pos="N">лымбад</l>
 
       <stg>
-        <st Contlex="N_Cons">лымбад</st>
+        <st Contlex="N_ЕД">лымбад</st>
       </stg>
     </lg>
 
@@ -2808,6 +2836,34 @@
 
       <tg xml:lang="fin">
         <t pos="N">ilonlähde</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">малик</l>
+
+      <stg>
+        <st Contlex="N_ЕД">малик</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">pää</t>
+
+        <t pos="N">kärki</t>
       </tg>
     </mg>
   </e>
@@ -3616,6 +3672,34 @@
 
   <e>
     <lg>
+      <l pos="N">мун</l>
+
+      <stg>
+        <st Contlex="N_ЕД">мун</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">pala</t>
+
+        <t pos="N">kappale</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">муноцьʼ</l>
 
       <stg>
@@ -3636,6 +3720,34 @@
 
       <tg xml:lang="fin">
         <t pos="N">parta viikseineen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">муӈг</l>
+
+      <stg>
+        <st Contlex="N_ХАНО">муӈг</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N">arrow</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">luoti</t>
+
+        <t pos="N">nuoli</t>
       </tg>
     </mg>
   </e>
@@ -4124,6 +4236,32 @@
 
   <e>
     <lg>
+      <l pos="N">мярёй</l>
+
+      <stg>
+        <st Contlex="N_ЕД">мярёй</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">säämiskä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мяроʼ</l>
 
       <stg>
@@ -4228,6 +4366,34 @@
 
   <e>
     <lg>
+      <l pos="N">наны</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ">наны</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">poika</t>
+
+        <t pos="N">nuorukainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">нара</l>
 
       <stg>
@@ -4248,6 +4414,8 @@
 
       <tg xml:lang="fin">
         <t pos="N">kevät</t>
+
+        <t>hankikanto</t>
       </tg>
     </mg>
   </e>
@@ -4351,7 +4519,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">nahka miehen reellä, jolla istutaan</t>
+        <t pos="N">turkis miehen reellä, jolla istutaan</t>
+
+        <t>reen turkisistuin</t>
       </tg>
     </mg>
   </e>
@@ -16542,6 +16712,32 @@
 
   <e>
     <lg>
+      <l pos="N">юсна</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">юсна</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">(vyön tai valjaiden metalli)rengas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ютек</l>
 
       <stg>
@@ -17070,7 +17266,7 @@
 
   <e>
     <lg>
-      <l pos="N">ялэумдˮ</l>
+      <l pos="N">ялумдˮ</l>
 
       <stg>
         <st Contlex="N_МЯДО">ялумд</st>
@@ -17103,7 +17299,7 @@
       <l pos="N">ялэмдˮ</l>
 
       <stg>
-        <st Contlex="N_МЯДО">ялемд</st>
+        <st Contlex="N_МЯДО">ялэмд</st>
       </stg>
     </lg>
 
@@ -17208,6 +17404,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">havupuun oksa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">яр</l>
+
+      <stg>
+        <st Contlex="N_ЕД">яр</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">itku</t>
       </tg>
     </mg>
   </e>
