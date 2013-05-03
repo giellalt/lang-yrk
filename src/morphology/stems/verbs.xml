@@ -23818,7 +23818,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">opiskella</t>
+
+        <t pos="IV">opetella</t>
+
+        <t pos="IV">opettaa</t>
       </tg>
     </mg>
   </e>
@@ -23841,28 +23845,6 @@
 
       <tg xml:lang="fin">
         <t pos="TV">täyttää (lumella, hiekalla)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="IV">тохорць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">тохор</st>
-      </stg>
-    </lg>
-
-    <pos>IV</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="IV"/>
       </tg>
     </mg>
   </e>
@@ -23928,7 +23910,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">työskennellä kirveellä</t>
       </tg>
     </mg>
   </e>
@@ -23950,7 +23932,31 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">syttyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">тудондась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">тудонда</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">pyytää porontalia</t>
+
+        <t pos="IV">etsiä porontalia</t>
       </tg>
     </mg>
   </e>
@@ -23972,7 +23978,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pyytää porontalia</t>
+
+        <t pos="IV">etsiä porontalia</t>
       </tg>
     </mg>
   </e>
@@ -24038,7 +24046,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">tuntea</t>
+
+        <t pos="TV">tunnistaa</t>
       </tg>
     </mg>
   </e>
@@ -24060,7 +24070,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ampua</t>
       </tg>
     </mg>
   </e>
@@ -24262,7 +24272,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla tungokseen, ahtaaseen paikkaan</t>
       </tg>
     </mg>
   </e>
@@ -24291,6 +24301,28 @@
 
   <e>
     <lg>
+      <l pos="IV">тындась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">тында</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">pyytää poroa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">тындорць</l>
 
       <stg>
@@ -24306,7 +24338,51 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pyytää poroa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">тынзь</l>
+
+      <stg>
+        <st Contlex="IV_МИН">тын</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">pyydystää poroja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">тынзяндась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">тынзянда</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">pyytää suopunkeja</t>
       </tg>
     </mg>
   </e>
@@ -24328,7 +24404,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pyytää suopunkeja</t>
       </tg>
     </mg>
   </e>
@@ -24350,7 +24426,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">rypistyä</t>
+
+        <t pos="IV">kurtistua</t>
       </tg>
     </mg>
   </e>
@@ -24438,7 +24516,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">lyödä nyrkillä</t>
       </tg>
     </mg>
   </e>
