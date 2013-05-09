@@ -360,6 +360,34 @@
 
   <e>
     <lg>
+      <l pos="A">мэё</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">мэё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>luja, vahva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">нарэй</l>
 
       <stg>
@@ -530,6 +558,36 @@
 
       <tg xml:lang="fin">
         <t>edellinen, entinen, etummainen, etu-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нюлак</l>
+
+      <stg>
+        <st Contlex="A_ЕД">нюлак</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pehmeä</t>
+
+        <t/>
       </tg>
     </mg>
   </e>
