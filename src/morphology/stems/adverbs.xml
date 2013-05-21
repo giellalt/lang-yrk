@@ -6,6 +6,36 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="ADV">вадриʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">вадриʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>little by little</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>vähitellen</t>
+
+        <t>joskus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">вэвавна</l>
 
       <stg>
@@ -94,6 +124,90 @@
 
       <tg xml:lang="fin">
         <t>vaikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">итревʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">итревʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>like water</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kuten vesi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">итремʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">итремʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>like water</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kuten vesi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">ициˮ</l>
+
+      <stg>
+        <st Contlex="AdvManner">ициˮ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>without water</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ilman vettä</t>
       </tg>
     </mg>
   </e>
@@ -190,6 +304,34 @@
 
   <e>
     <lg>
+      <l pos="ADV">малриʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">малриʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>arviokaupalla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">масиˮ</l>
 
       <stg>
@@ -218,6 +360,96 @@
 
   <e>
     <lg>
+      <l pos="ADV">мербявна</l>
+
+      <stg>
+        <st Contlex="AdvTemp">мербявна</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pikaisesti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">мербяриʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">мербяриʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pikaisesti</t>
+
+        <t>yhtäkkiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">мервана</l>
+
+      <stg>
+        <st Contlex="AdvTemp">мервана</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pikaisesti</t>
+
+        <t>nopeasti</t>
+
+        <t>aikaisin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">меркуʼ</l>
 
       <stg>
@@ -240,6 +472,34 @@
 
       <tg xml:lang="fin">
         <t>nopeammin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">мерриʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">мерриʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kiireisesti, aikaisin</t>
       </tg>
     </mg>
   </e>
@@ -476,6 +736,34 @@
 
   <e>
     <lg>
+      <l pos="ADV">нявриʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">нявриʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>vähitellen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">нярˮ</l>
 
       <stg>
@@ -498,6 +786,34 @@
 
       <tg xml:lang="fin">
         <t>poikittain</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">няхарˮӈэ</l>
+
+      <stg>
+        <st Contlex="AdvManner">няхарˮӈэ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kolmestaan, kolmin</t>
       </tg>
     </mg>
   </e>
@@ -672,6 +988,90 @@
 
       <tg xml:lang="fin">
         <t>usein</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">ӈоблад</l>
+
+      <stg>
+        <st Contlex="AdvManner">ӈоблад</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yksitellen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">ӈобˮладˮ</l>
+
+      <stg>
+        <st Contlex="AdvManner">ӈобˮладˮ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yksitellen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">ӈобӈгуна</l>
+
+      <stg>
+        <st Contlex="AdvTemp">ӈобӈгуна</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kerran, joskus</t>
       </tg>
     </mg>
   </e>
@@ -878,6 +1278,34 @@
 
   <e>
     <lg>
+      <l pos="ADV">ӈопориӈэ</l>
+
+      <stg>
+        <st Contlex="AdvManner">ӈопориӈэ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yksikseen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">ӈоˮ</l>
 
       <stg>
@@ -928,6 +1356,62 @@
 
       <tg xml:lang="fin">
         <t>täysin, aivan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">ӈэломʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">ӈэломʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>soon</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pian</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">ӈэлоримʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">ӈэлоримʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>soon</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pian</t>
       </tg>
     </mg>
   </e>
@@ -1102,6 +1586,34 @@
 
   <e>
     <lg>
+      <l pos="ADV">пырдариʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">пырдариʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>päinvastoin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">сабе</l>
 
       <stg>
@@ -1186,6 +1698,90 @@
 
   <e>
     <lg>
+      <l pos="ADV">серевʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">серевʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>according to</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>vastaavasti, mukaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">сертревʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">сертревʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>according to</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>vastaavasti, mukaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">сидяӈэ</l>
+
+      <stg>
+        <st Contlex="AdvManner">сидяӈэ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kaksin, kahden kesken</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">сэвъилиˮ</l>
 
       <stg>
@@ -1264,6 +1860,38 @@
 
       <tg xml:lang="fin">
         <t>ei koskaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">сяхариʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">сяхариʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>aina, koko ajan</t>
+
+        <t>koska -kaan</t>
+
+        <t>joskus, koskaan</t>
       </tg>
     </mg>
   </e>
@@ -1434,6 +2062,36 @@
 
       <tg xml:lang="fin">
         <t>vielä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">тандаяриʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">тандаяриʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>juuri</t>
+
+        <t>äsken</t>
       </tg>
     </mg>
   </e>
@@ -1772,6 +2430,34 @@
 
       <tg xml:lang="fin">
         <t>suoraan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">тотревʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">тотревʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>like</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kuten, tavalla</t>
       </tg>
     </mg>
   </e>
@@ -2236,6 +2922,34 @@
 
   <e>
     <lg>
+      <l pos="ADV">хунари</l>
+
+      <stg>
+        <st Contlex="AdvTemp">хунари</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>whenever</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>milloin tahansa, missä tahansa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">хунатʼ</l>
 
       <stg>
@@ -2318,6 +3032,62 @@
 
       <tg xml:lang="fin">
         <t>huomenna, aamulla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">хырприʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">хырприʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>sivumennen, ohi, ohitse</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">хэˮлиʼ</l>
+
+      <stg>
+        <st Contlex="AdvTemp">хэˮлиʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>often</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>usein</t>
       </tg>
     </mg>
   </e>
