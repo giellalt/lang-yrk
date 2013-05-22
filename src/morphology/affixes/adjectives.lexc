@@ -7,28 +7,29 @@
 !!+A+cmp:er       Cases   ;
 !!+A+sup:est      Cases   ;
 
-LEXICON A_ВАДО
- A_МЯДО ;
-
-LEXICON A_ӇЭ
+LEXICON A_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  
 +A:  SGNOMSUF ;
 +A+Der/MWN: N_ӇЭ ;
 
+LEXICON A_ПАНЫ  !!= @CODE@ пӑны:пӑны 9 
++A:  SGNOMSUF ;
++A+Der/MWN: NMN_ПАНЫ ;
+
 LEXICON A_ХУСУВЭЙ  !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
 +A: SGNOMSUF ;
-+A+Der/MWN: N_ХУСУВЭЙ ;
++A+Der/MWN: NMN_ХУСУВЭЙ ;
 
 LEXICON A_ХУСУВЭЙ/ЕД
 +A: SGNOMSUF ;
-+A+Der/MWN: N_ХУСУВЭЙ/ЕД ;
++A+Der/MWN: NMN_ХУСУВЭЙ/ЕД ;
 
-LEXICON A_ӇУДИ
+LEXICON A_ЕД !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 +A: SGNOMSUF ;
-+A+Der/MWN: N_ӇУДИ ;
++A+Der/MWN: NMN_ЕД ;
 
-LEXICON A_ЕД
+LEXICON A_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
 +A: SGNOMSUF ;
-+A+Der/MWN: N_ЕД ;
++A+Der/MWN: NMN_ӇУДИ ;
 
 LEXICON A_ӇОДИ  !!= @CODE@ ӈодя: 17 !!ProsSg -вна
 +A: SGNOMSUF ;
@@ -61,9 +62,22 @@ LEXICON A_ПИСЬ  !!= @CODE@ пися: 21 !!ProsSg -вна
 +A: SGNOMSUF ;
 +A+Der/MWN: N_ПИСЬ ;
 
+LEXICON A_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
+!! [total=57]
+!! ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑно” ŋənoq    ңӑну ŋənu
++A: SGNOMSUF ;
++A+Der/MWN: NMN_ӇАНУ ;
+
+
 LEXICON A_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 +A:Д1 SGNOMSUF ;
-+A+Der/MWN: N_МЯДО ;
++A+Der/MWN: NMN_МЯДО ;
+
+LEXICON A_САБЦЬ  !!= @CODE@ сабць:сабць!!= @CODE@ тир: 12 !!ProsSg -увна
+!! What makes this different from N_ТИРЕ?
++A: SGNOMSUF ;
++A+Der/MWN: NMN_ТИРЕ ;
+
 
 !!This has to be split into various sublexcons.
 LEXICON A_Cons
