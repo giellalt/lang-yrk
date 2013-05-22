@@ -7,48 +7,32 @@
 LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! no change in stem
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
-+N:  SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N:  PLACCSUF_Zero ;
++N: NMN_ӇЭ ;
+
+LEXICON N_ӇЭ/ХАБИЕ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
+ !!= @CODE@ хӑби:8 !!ProsSg -вна
++N: NMN_ӇЭ ;
++N: PLACCSUF_Е ; !
 
 LEXICON N_Ё  !!= @CODE@ я:я 2 !!ProsSg -вна
 !! [total=3]
 !! я ya	ян’ yan°h	я” yaq	ё yo
-+N:  SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N:  PLPROSSUF ;
-+N:%^A2O PLACCSUF_Zero ; !
++N: NMN_Ё ;
 
 LEXICON N_ӇЭ/Ё !! та:та 
-!! 
-+N:  SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !!
-+N:%^A2O PLACCSUF_Zero ; !!
+!!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
+!!= @CODE@ я:я 2 !!ProsSg -вна
++N: NMN_ӇЭ/Ё ;
 
 LEXICON N_ПИ  !!= @CODE@ пя: 3 !!ProsSg -вна
 !! [total=3]
 !! пя pya	пян’ pyan°h	пя” pyaq	пи pyí
-+N:  SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N:%^A2I PLACCSUF_Zero ; !
++N: NMN_ПИ ;
 
 LEXICON N_ТЫ  !!= @CODE@ ты: 4 !!ProsSg -вна
 !! [total=4]
 !! ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
-+N: SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N:%> PLACCSUF_Zero ; !
++N: NMN_ТЫ ;
 
 LEXICON N_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
 !! [total=1]
@@ -99,28 +83,37 @@ LEXICON N_ӇЭ/СЁЁ/ХАБИЕ
 LEXICON N_ПАНЫ  !!= @CODE@ пӑны:пӑны 9 !!ProsSg -(э)вна
 !! [total=30]
 !! пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
-+N: SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N: NMN_ПАНЫ ;
+
+LEXICON NMN_ПАНЫ !! 9
+  SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+  PLACCSUF_Zero ; !
 
 LEXICON N_ХУСУВЭЙ  !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
 !! [total=17]
 !! хусувэй xusuwey°	хусувэн’ xusuwen°h	хусувэй” xusuwey°q	хусувэй xusuwey°
-+N: SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N: NMN_ХУСУВЭЙ ;
+
+LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
+  SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+  PLACCSUF_Zero ; !
 
 LEXICON N_ХУСУВЭЙ/ЕД
-+N: SGNOMSUF ;
-+N:%^JLoss SG-ACC-STEM ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N: NMN_ХУСУВЭЙ/ЕД ;
+
+LEXICON NMN_ХУСУВЭЙ/ЕД
+ SGNOMSUF ;
+:%^JLoss SG-ACC-STEM ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+  PLACCSUF_Zero ; !
 
 LEXICON N_ХАНО  !!= @CODE@ хӑн: 11 !!ProsSg -увна
 !! [total=27]
@@ -134,20 +127,26 @@ LEXICON N_ХАНО  !!= @CODE@ хӑн: 11 !!ProsSg -увна
 LEXICON N_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
 !! [total=3]
 !! тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
-+N: SGNOMSUF ;
-+N:а  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Е ; !
++N: NMN_ТИРЕ ;
+
+LEXICON NMN_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
+SGNOMSUF ;
+:а  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+  PLACCSUF_Е ; !
 
 LEXICON N_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 !! [total=98]
 !! ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
-+N: SGNOMSUF ;
-+N:а  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N: NMN_ЕД ;
+
+LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
+    SGNOMSUF ;
+:а  SG-ACC-STEM ;
+    SG-DAT-STEM ;
+    PLNOMSUF ;
+    PLACCSUF_Zero ; !
 
 LEXICON N_ХАНО/ТИРЕ
 +N: SGNOMSUF ;
@@ -189,11 +188,14 @@ LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14 !!ProsSg -вна
 LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
 !! [total=53]
 !! ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
-+N: SGNOMSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N:%^A2I PLACCSUF_Zero ; !
++N: NMN_ӇУДИ ;
+
+LEXICON NMN_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
+    SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+:%^A2I PLACCSUF_Zero ; !
 
 LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16 !!ProsSg -вна
 !! [total=1]
@@ -296,11 +298,14 @@ LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
 !! [total=57]
 !! ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
-+N: SGNOMSUF ;
-+N: SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N: PLNOMSUF ;
-+N:%^VowRaise PLACCSUF_Zero ;
++N: NMN_ӇАНУ ;
+
+LEXICON NMN_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
+  SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+:%^VowRaise PLACCSUF_Zero ;
 
 LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24 !!ProsSg -вна
 !! [total=4]
@@ -394,11 +399,14 @@ LEXICON N_СЕРО  !!= @CODE@ серˮ: 32   !!ProsSg -мана / -мня
 LEXICON N_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
 !! [total=0]
 !! тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
-+N:Д1 SGNOMSUF ;
-+N:Д1 SG-ACC-STEM ;
-+N:Д1 SG-DAT-STEM ;
-+N:Д1 PLNOMSUF ;
-+N:Д1 PLACCSUF_Е ;
++N: NMN_ТАРЕ ;
+
+LEXICON NMN_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
+:Д1 SGNOMSUF ;
+:Д1 SG-ACC-STEM ;
+:Д1 SG-DAT-STEM ;
+:Д1 PLNOMSUF ;
+:Д1 PLACCSUF_Е ;
 
 LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34   !!ProsSg -мна
 !! [total=6]
@@ -412,11 +420,19 @@ LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34   !!ProsSg -мна
 LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! [total=18]
 !! мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
-+N:Д1 SGNOMSUF ;
-+N:Д1 SG-ACC-STEM ;
-+N:Д1 SG-DAT-STEM ;
-+N:Д1 PLNOMSUF ;
-+N:Д1 PLACCSUF_О ;
++N: NMN_МЯДО ;
+
+LEXICON N_ТАРЕ/ВАР  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
+!!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
+    N_МЯДО ;
+:Д1 PLACCSUF_Е ;
+
+LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
+:Д1 SGNOMSUF ;
+:Д1 SG-ACC-STEM ;
+:Д1 SG-DAT-STEM ;
+:Д1 PLNOMSUF ;
+:Д1 PLACCSUF_О ;
 
 LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
 !! [total=1]
@@ -426,7 +442,6 @@ LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
 +N:аС1 SG-DAT-STEM ;
 +N:Д1 PLNOMSUF ;
 +N:Д1 PLACCSUF_Е ;
-
 
 
 LEXICON N_Vow
@@ -458,8 +473,45 @@ LEXICON N_МЕРЁ !!= @CODE@ мерё:мерё
 
 
 !! NMN
+LEXICON NMN_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
+  SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+  PLACCSUF_Zero ;
+
+LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
+  SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+  PLPROSSUF ;
+:%^A2O PLACCSUF_Zero ; !
+
+LEXICON NMN_ӇЭ/Ё
+  SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+ PLACCSUF_Zero ; !!
+:%^A2O PLACCSUF_Zero ; !!
+
+LEXICON NMN_ПИ !!= @CODE@ пя: 3 !!ProsSg -вна
+  SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+:%^A2I PLACCSUF_Zero ; !
+
+LEXICON NMN_ТЫ
+ SGNOMSUF ;
+  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+:%> PLACCSUF_Zero ; !
 
 
+!!
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
@@ -615,26 +667,26 @@ LEXICON N_ВАР
  N_МЯДО ;
 
 ! Non-nasal glottal stops
-LEXICON NMN_МЯДО
- SGNOMSUF ;
- SGACCSUF ;
- SGGENSUF ;
- SGDATSUF ;
- SGLOCSUF ;
- SGABLSUF ;
- SGPROSSUF ;
- SGTRASUF ;
-
- DUNOMSUF ;
- DUACCSUF ;
- DUGENSUF ;
-
- PLNOMSUF ;
- PLACCSUF ;
- PLDATSUF ;
- PLLOCSUF ;
- PLABLSUF ;
- PLTRASUF ;
+!2013-05-22!LEXICON NMN_МЯДО
+!2013-05-22! SGNOMSUF ;
+!2013-05-22! SGACCSUF ;
+!2013-05-22! SGGENSUF ;
+!2013-05-22! SGDATSUF ;
+!2013-05-22! SGLOCSUF ;
+!2013-05-22! SGABLSUF ;
+!2013-05-22! SGPROSSUF ;
+!2013-05-22! SGTRASUF ;
+!2013-05-22!
+!2013-05-22! DUNOMSUF ;
+!2013-05-22! DUACCSUF ;
+!2013-05-22! DUGENSUF ;
+!2013-05-22!
+!2013-05-22! PLNOMSUF ;
+!2013-05-22! PLACCSUF ;
+!2013-05-22! PLDATSUF ;
+!2013-05-22! PLLOCSUF ;
+!2013-05-22! PLABLSUF ;
+!2013-05-22! PLTRASUF ;
 
 ! POSSESSOR-INDICES ;
 
