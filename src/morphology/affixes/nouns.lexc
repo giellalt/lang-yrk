@@ -341,11 +341,14 @@ LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26  !!ProsSg -(м)на
 LEXICON N_МУНО  !!= @CODE@ муʼ: 27  !!ProsSg -мна
 !! н [total=2]
 !! му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
-+N:Н1 SGNOMSUF ;
-+N:Н1 SG-ACC-STEM ;
-+N:Н1 SG-DAT-STEM ;
-+N:Н1 PLNOMSUF ;
-+N:Н1 PLACCSUF_О ;
++N: NMN_МУНО ;
+
+LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  !!ProsSg -мна
+:Н1 SGNOMSUF ;
+:Н1 SG-ACC-STEM ;
+:Н1 SG-DAT-STEM ;
+:Н1 PLNOMSUF ;
+:Н1 PLACCSUF_О ;
 
 LEXICON N_ПОЁ  !!= @CODE@ поʼ: 28  !!ProsSg -мна
 !! ң [total=2]

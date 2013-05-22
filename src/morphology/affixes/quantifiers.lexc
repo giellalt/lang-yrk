@@ -2,19 +2,23 @@
 !! ---------------
 !! Nenets quantifiers ...
 
-LEXICON Num-Vow
+LEXICON NUM_ХУСУВЭЙ
++Qnt+Adn: K ;
++Qnt+Der/MWN: NMN_ХУСУВЭЙ ;
+
+LEXICON NUM_VOW
 +Qnt+Adn: K ;
 +Qnt+Der/MWN: N_Vow ;
 
-LEXICON Num-Cons
+LEXICON NUM_CONS
 +Qnt+Adn: K ;
 +Qnt+Der/MWN: N_Cons ;
 
-LEXICON Num-D
+LEXICON NUM_D
 +Qnt+Adn: K ;
-+Qnt+Der/MWN: N_МЯДО ;
++Qnt+Der/MWN: NMN_МЯДО ;
 
-LEXICON Num-N
+LEXICON NUM_N
 +Qnt+Adn: K ;
 +Qnt+Der/MWN: N_ТЭНО ;
 
