@@ -5040,7 +5040,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">lyödä, iskeä, juntata</t>
       </tg>
     </mg>
   </e>
@@ -5062,7 +5062,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">lyödä, hakata, kolhia, kuohita</t>
       </tg>
     </mg>
   </e>
@@ -5128,7 +5128,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">suksia</t>
+        <t pos="IV">hiihtää</t>
       </tg>
     </mg>
   </e>
@@ -5150,7 +5150,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">hiihtää (pitkään)</t>
       </tg>
     </mg>
   </e>
@@ -5172,7 +5172,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">alentua, laskea, taantua, pudota</t>
       </tg>
     </mg>
   </e>
@@ -5216,7 +5216,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tyyntyä, raueta, laantua, hidastua</t>
       </tg>
     </mg>
   </e>
@@ -5238,7 +5238,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">muuttua leveäksi, levitä, tulvia</t>
       </tg>
     </mg>
   </e>
@@ -5284,7 +5284,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">muuttua leveäksi, levetä</t>
       </tg>
     </mg>
   </e>
@@ -5351,28 +5351,6 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="IV">лаханакурць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">лаханакур</st>
-      </stg>
-    </lg>
-
-    <pos>IV</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
         <t pos="IV">jutella</t>
       </tg>
     </mg>
@@ -5417,17 +5395,17 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">puhua, höpistä, porista</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="IV">лахворць</l>
+      <l pos="IV">лахаворць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">лахвор</st>
+        <st Contlex="IV_ТИР">лахавор</st>
       </stg>
     </lg>
 
@@ -5439,7 +5417,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">epävakaistua, järkkyä, heikentyä</t>
       </tg>
     </mg>
   </e>
@@ -5842,6 +5820,30 @@
 
   <e>
     <lg>
+      <l pos="IV">лыбнась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">лыбна</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">kohista, hyrskytä</t>
+
+        <t pos="IV">puhua nopeasti ja kovalla äänellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">лыбнорць</l>
 
       <stg>
@@ -5857,7 +5859,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kohista, hyrskytä</t>
+
+        <t pos="IV">puhua nopeasti ja kovalla äänellä</t>
       </tg>
     </mg>
   </e>
@@ -5901,7 +5905,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">luutua, koveta</t>
       </tg>
     </mg>
   </e>
@@ -6166,7 +6170,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kangistua, tulla kömpelöksi</t>
       </tg>
     </mg>
   </e>
@@ -6254,7 +6258,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">leimahtaa, syttyä</t>
       </tg>
     </mg>
   </e>
@@ -6276,7 +6280,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ilmestyä (liekista)</t>
       </tg>
     </mg>
   </e>
@@ -6298,7 +6302,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">erkaantua, haarautua</t>
+
+        <t pos="IV">palata</t>
+
+        <t pos="IV">irtisanoa, kieltäytyä</t>
       </tg>
     </mg>
   </e>
@@ -11312,6 +11320,8 @@
 
       <tg xml:lang="fin">
         <t pos="IV">seistä</t>
+
+        <t pos="IV">maksaa, olla hintainen</t>
       </tg>
     </mg>
   </e>
@@ -32029,10 +32039,10 @@
 
   <e>
     <lg>
-      <l pos="IV">якэхаворць</l>
+      <l pos="IV">якэхэворць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">якэхавор</st>
+        <st Contlex="IV_ТИР">якэхэвор</st>
       </stg>
     </lg>
 
@@ -32044,7 +32054,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla savuiseksi</t>
       </tg>
     </mg>
   </e>
@@ -32088,7 +32098,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">vaalentua, valjeta, harmaantua, haalistua</t>
       </tg>
     </mg>
   </e>
@@ -32110,7 +32120,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">olla mustasukkainen, lähettää epäonnea (šamaanista)</t>
       </tg>
     </mg>
   </e>
@@ -32154,7 +32164,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">sarastaa, koittaa, valaistautua, ujostella</t>
       </tg>
     </mg>
   </e>
@@ -32176,7 +32186,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">vilkkua</t>
       </tg>
     </mg>
   </e>
@@ -32220,7 +32230,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ujostella, ujoilla</t>
       </tg>
     </mg>
   </e>
