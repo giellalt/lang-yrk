@@ -542,6 +542,34 @@
 
   <e>
     <lg>
+      <l pos="NUM">няхаромдей</l>
+
+      <stg>
+        <st Contlex="NUM_ХУСУВЭЙ">няхаромдей</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>third</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kolmas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="NUM">тетимдей</l>
 
       <stg>
@@ -854,6 +882,62 @@
 
       <stg>
         <st Contlex="NUM_ХУСУВЭЙ">ёнрадимдей</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>thousandth</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>tuhannes</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="NUM">ёнримдей</l>
+
+      <stg>
+        <st Contlex="NUM_ХУСУВЭЙ">ёнримдей</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>thousandth</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>tuhannes</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="NUM">ёнромдей</l>
+
+      <stg>
+        <st Contlex="NUM_ХУСУВЭЙ">ёнромдей</st>
       </stg>
     </lg>
 
