@@ -525,7 +525,7 @@
       <l pos="N">вылаб</l>
 
       <stg>
-        <st Contlex="N_Cons">вылаб</st>
+        <st Contlex="N_ХАНО/ЕД">вылаб</st>
       </stg>
     </lg>
 
@@ -542,6 +542,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">tapetun kiusaava henki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">вындер</l>
+
+      <stg>
+        <st Contlex="N_ЕД">вындер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">tundran asukas</t>
       </tg>
     </mg>
   </e>
@@ -7285,7 +7311,7 @@
       <l pos="N">пед</l>
 
       <stg>
-        <st Contlex="N_Cons">пед</st>
+        <st Contlex="N_ЕД">пед</st>
       </stg>
     </lg>
 
@@ -7311,7 +7337,7 @@
       <l pos="N">педак</l>
 
       <stg>
-        <st Contlex="N_Cons">педак</st>
+        <st Contlex="N_ЕД">педак</st>
       </stg>
     </lg>
 
@@ -11099,7 +11125,7 @@
       <l pos="N">сэври</l>
 
       <stg>
-        <st Contlex="N_Vow">сэври</st>
+        <st Contlex="N_ӇЭ">сэври</st>
       </stg>
     </lg>
 
@@ -11335,7 +11361,7 @@
       <l pos="N">сюд</l>
 
       <stg>
-        <st Contlex="N_Cons">сюд</st>
+        <st Contlex="N_ЕД">сюд</st>
       </stg>
     </lg>
 
@@ -11387,7 +11413,7 @@
       <l pos="N">сюлак</l>
 
       <stg>
-        <st Contlex="N_Cons">сюлак</st>
+        <st Contlex="N_ЕД">сюлак</st>
       </stg>
     </lg>
 
@@ -12913,7 +12939,7 @@
       <l pos="N">тид</l>
 
       <stg>
-        <st Contlex="N_Cons">тид</st>
+        <st Contlex="N_ЕД/ТИРЕ">тид</st>
       </stg>
     </lg>
 
@@ -12930,6 +12956,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">varjo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">тид</l>
+
+      <stg>
+        <st Contlex="N_ЕД">тид</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kateus, pahastuminen</t>
       </tg>
     </mg>
   </e>
@@ -16341,7 +16393,7 @@
       <l pos="N">хибяри</l>
 
       <stg>
-        <st Contlex="N_Vow">хибяри</st>
+        <st Contlex="N_ӇЭ">хибяри</st>
       </stg>
     </lg>
 
@@ -17157,7 +17209,7 @@
       <l pos="N">хутий</l>
 
       <stg>
-        <st Contlex="N_Cons">хутий</st>
+        <st Contlex="N_ЕД">хутий</st>
       </stg>
     </lg>
 
@@ -19271,7 +19323,7 @@
       <l pos="N">ӈай</l>
 
       <stg>
-        <st Contlex="N_Cons">ӈай</st>
+        <st Contlex="N_ХАНО">ӈай</st>
       </stg>
     </lg>
 
@@ -19655,7 +19707,7 @@
       <l pos="N">ӈокад</l>
 
       <stg>
-        <st Contlex="N_Cons">ӈокад</st>
+        <st Contlex="N_ЕД">ӈокад</st>
       </stg>
     </lg>
 
@@ -19845,7 +19897,7 @@
       <l pos="N">ӈухуд</l>
 
       <stg>
-        <st Contlex="N_Cons">ӈухуд</st>
+        <st Contlex="N_ЕД">ӈухуд</st>
       </stg>
     </lg>
 
