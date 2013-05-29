@@ -20,7 +20,8 @@ LEXICON nouns
 выʼ:вы N_ВЫӇО  "tundra" ;
 выд:выд N_Cons  "sinnikyys" ;
 вык:вык N_ConsO  "sinnikäs anominen" ;
-вылаб:вылаб N_Cons  "tapetun kiusaava henki" ;
+вылаб:вылаб N_ХАНО/ЕД  "tapetun kiusaava henki" ;
+вындер:вындер N_ЕД  "tundran asukas" ;
 выра:выра N_Vow  "itsepäisyys" ;
 вырна:вырна N_Vow  "kahina" ;
 выцьʼ:выць N_ЁЛЬЦЕ  "viisaus" ;
@@ -274,8 +275,8 @@ LEXICON nouns
 паӈглярˮ:паӈгляр N_ВАР  "palmikko" ;
 пеʼ:пе N_ИЛЪЕ  "kämmen" ;
 пебя:пебя N_Vow  "nuorempi sisko tai veli" ;
-пед:пед N_Cons  "lautanen" ;
-педак:педак N_Cons  "lautanen" ;
+пед:пед N_ЕД  "lautanen" ;
+педак:педак N_ЕД  "lautanen" ;
 пеля:пеля N_ИБЯ  "puoli" ;
 пена:пена N_ӇУДИ  "poron koipinahka" ;
 пензерˮ:пензер N_ПЕНЗЕРЕ  "šamaanirumpu" ;
@@ -418,7 +419,7 @@ LEXICON nouns
 сыӈгрё:сыӈгрё N_МЕРЁ  "huhu" ;
 сэв:сэв N_ЕД  "silmä" ;
 сэванцьʼ:сэванць N_ЁЛЬЦЕ  "aurinkolasit" ;
-сэври:сэври N_Vow  "silli" ;
+сэври:сэври N_ӇЭ  "silli" ;
 сэдоʼ:сэдо N_ВЫӇО  "pisto, ommel" ;
 сэлʼ:сэл N_ВЫӇО  "kuivuus, pouta" ;
 сэрˮ:сэр N_ВАР  "jää, suola" ;
@@ -427,9 +428,9 @@ LEXICON nouns
 сэрад:сэрад N_ЕД  "nälänhätä" ;
 сэрадˮ:сэрад N_МЯДО  "harmi, epämiellytävyys" ;
 сюʼ:сю N_ВЫӇО  "napa" ;
-сюд:сюд N_Cons  "vihellys" ;
+сюд:сюд N_ЕД  "vihellys" ;
 сюдбя:сюдбя N_ТЁН  "jättiläinen" ;
-сюлак:сюлак N_Cons  "sukka" ;
+сюлак:сюлак N_ЕД  "sukka" ;
 сюлм:сюлм N_Cons  "toisten antama suunta" ;
 сюмб:сюмб N_Cons  "tylppä otsa" ;
 сюмбак:сюмбак N_Cons  "muksunsiika" ;
@@ -487,7 +488,8 @@ LEXICON nouns
 тибя:тибя N_ӇОДИ  "syli (pituusmitta)" ;
 тибя:тибя N_ТЁН  "hammas" ;
 тивтей:тивтей N_ХУСУВЭЙ  "mursu" ;
-тид:тид N_Cons  "varjo" ;
+тид:тид N_ЕД/ТИРЕ  "varjo" ;
+тид:тид N_ЕД  "kateus, pahastuminen" ;
 тидя:тидя N_ТЁН  "eno, äidin nuorempi veli" ;
 тин:тин N_ХАНО/ТИРЕ  "aitta, vaja, varasto; maakellari" ;
 тир:тир N_ТИРЕ  "pilvi" ;
@@ -616,7 +618,7 @@ LEXICON nouns
 хасрё:хасрё N_МЕРЁ  "suostunut järvi" ;
 хаце:хаце N_Vow  "häkä, lumipyry" ;
 хаял:хаял N_ЕД  "kyynel" ;
-хибяри:хибяри N_Vow  "ihminen" ;
+хибяри:хибяри N_ӇЭ  "ihminen" ;
 хо:хо N_ӇЭ  "koivu" ;
 хоˮ:хо N_МЯДО  "yskä" ;
 хоˮниʼ:хоˮни N_ВЫӇО  "tanko kojassa makodan vieressä" ;
@@ -647,7 +649,7 @@ LEXICON nouns
 хун:хун N_ЕД  "pituus" ;
 хурко:хурко N_ӇАНУ  "köysi, naru" ;
 хуса:хуса N_ӇУДИ  "taikina" ;
-хутий:хутий N_Cons  "käki" ;
+хутий:хутий N_ЕД  "käki" ;
 хутрё:хутрё N_МЕРЁ  "jyske" ;
 хуты:хуты N_ӇЭ  "saapas" ;
 хутька:хутька N_Vow  "käpy" ;
@@ -725,7 +727,7 @@ LEXICON nouns
 ӈавоˮ:ӈаво N_МЯДО  "maku" ;
 ӈаворцьʼ:ӈаворць N_ЁЛЬЦЕ  "ruoka" ;
 ӈадьбябцьʼ:ӈадьбябць N_ЁЛЬЦЕ  "kauneus" ;
-ӈай:ӈай N_Cons  "suojasää" ;
+ӈай:ӈай N_ХАНО  "suojasää" ;
 ӈамдыˮ:ӈамды N_МЯДО  "istuutumisen hetki" ;
 ӈамдэˮ:ӈамдэ N_МЯДО  "ruoho, kasvi" ;
 ӈамза:ӈамза N_ӇУДИ  "liha" ;
@@ -739,14 +741,14 @@ LEXICON nouns
 ӈо:ӈо N_ӇЭ  "saari" ;
 ӈоба:ӈоба N_ИБЯ  "rukkanen" ;
 ӈодя:ӈодя N_ӇОДИ  "marja" ;
-ӈокад:ӈокад N_Cons  "määrä" ;
+ӈокад:ӈокад N_ЕД  "määrä" ;
 ӈолепя:ӈолепя N_Vow  "väri" ;
 ӈохоʼ:ӈохо N_ВЫӇО  "kupu (riekon)" ;
 ӈу:ӈу N_ӇЭ  "kodan tukiseiväs" ;
 ӈуˮ:ӈу N_МЯДО  "jälki" ;
 ӈуда:ӈуда N_ӇУДИ  "käsi" ;
 ӈумʼ:ӈум N_ӇУВО  "ruoho" ;
-ӈухуд:ӈухуд N_Cons  "ylähuuli" ;
+ӈухуд:ӈухуд N_ЕД  "ylähuuli" ;
 ӈухуко:ӈухуко N_ӇАНУ  "nukke" ;
 ӈылад:ӈылад N_ХАНО/ЕД  "pohja" ;
 ӈылека:ӈылека N_Vow  "piru; myyttinen olento" ;
