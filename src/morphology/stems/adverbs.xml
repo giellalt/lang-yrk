@@ -652,6 +652,34 @@
 
   <e>
     <lg>
+      <l pos="ADV">несэйвана</l>
+
+      <stg>
+        <st Contlex="AdvManner">несэйвана</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>again</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>uudestaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="ADV">нёвриʼ</l>
 
       <stg>
@@ -1468,6 +1496,176 @@
 
       <tg xml:lang="fin">
         <t>aina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">пинсиˮ</l>
+
+      <stg>
+        <st Contlex="AdvManner">пинсиˮ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>rohkeasti, pelottomasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">пиняд</l>
+
+      <stg>
+        <st Contlex="AdvLoc">пиняд</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>from outside</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ulosta, ulkopuolelta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">пинякуна</l>
+
+      <stg>
+        <st Contlex="AdvLoc">пинякуна</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>behind</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>takana</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">пиняна</l>
+
+      <stg>
+        <st Contlex="AdvLoc">пиняна</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>outside</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ulkona, ulkopuolella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">пиняʼ</l>
+
+      <stg>
+        <st Contlex="AdvLoc">пиняʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>out</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ulos, ulkopuolelle</t>
+
+        <t>kauemmalle, etäämmälle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="ADV">пинʼ</l>
+
+      <stg>
+        <st Contlex="AdvLoc">пинʼ</st>
+      </stg>
+    </lg>
+
+    <pos>ADV</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ulos</t>
       </tg>
     </mg>
   </e>
