@@ -166,14 +166,14 @@ LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
     PLNOMSUF ;
     PLACCSUF_Zero ; !
 
-LEXICON N_ХАНО/ТИРЕ
+LEXICON N_ТИРЕ/ХАНО
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_ХАНО/ЕД
+LEXICON N_ЕД/ХАНО
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
@@ -187,7 +187,7 @@ LEXICON N_ЕД/ТИРЕ
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_ХАНО/ЕД/ТИРЕ
+LEXICON N_ЕД/ТИРЕ/ХАНО
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
