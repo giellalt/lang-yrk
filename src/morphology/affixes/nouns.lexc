@@ -9,6 +9,11 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 +N: NMN_ӇЭ ;
 
+LEXICON N_ӇЭ-PAL/VAR  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
+!! no change in stem
+!! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
++N: NMN_ӇЭ ;
+
 LEXICON N_ӇЭ/ХАБИЕ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
  !!= @CODE@ хӑби:8 !!ProsSg -вна
 +N: NMN_ӇЭ ;
@@ -118,11 +123,24 @@ LEXICON NMN_ХУСУВЭЙ/ЕД
 LEXICON N_ХАНО  !!= @CODE@ хӑн: 11 !!ProsSg -увна
 !! [total=27]
 !! хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
-+N: SGNOMSUF ;
-+N:а  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_О ; !
+ N_ХАНО-SG ;
+ N_ХАНО-PL ;
+
+LEXICON N_ХАНО-SG
++N: NMN_ХАНО-SG ;
+LEXICON N_ХАНО-PL
++N: NMN_ХАНО-PL ;
+
+LEXICON NMN_ХАНО
+	NMN_ХАНО-SG ;
+	NMN_ХАНО-PL ;
+LEXICON NMN_ХАНО-SG
+ SGNOMSUF ;
+:а  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+LEXICON NMN_ХАНО-PL
+  PLNOMSUF ;
+ PLACCSUF_О ; !
 
 LEXICON N_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
 !! [total=3]
@@ -162,14 +180,14 @@ LEXICON N_ХАНО/ЕД
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_ТИРЕ/ЕД
+LEXICON N_ЕД/ТИРЕ
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
-LEXICON N_ХАНО/ТИРЕ/ЕД
+LEXICON N_ХАНО/ЕД/ТИРЕ
 +N: SGNOMSUF ;
 +N:а  SG-ACC-STEM ;
 +N:  SG-DAT-STEM ;
@@ -425,7 +443,7 @@ LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 +N: NMN_МЯДО ;
 
-LEXICON N_ТАРЕ/ВАР  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
+LEXICON N_ВАР/ТАРЕ  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
     N_МЯДО ;
 :Д1 PLACCSUF_Е ;
