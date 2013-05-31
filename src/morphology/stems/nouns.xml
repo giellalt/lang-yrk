@@ -9087,7 +9087,7 @@
       <l pos="N">пыяк</l>
 
       <stg>
-        <st Contlex="N_Cons">пыяк</st>
+        <st Contlex="N_ЕД">пыяк</st>
       </stg>
     </lg>
 
@@ -9169,7 +9169,7 @@
       <l pos="N">пэв</l>
 
       <stg>
-        <st Contlex="N_Cons">пэв</st>
+        <st Contlex="N_ЕД">пэв</st>
       </stg>
     </lg>
 
@@ -12085,7 +12085,7 @@
       <l pos="N">сюмб</l>
 
       <stg>
-        <st Contlex="N_Cons">сюмб</st>
+        <st Contlex="N_ТИРЕ">сюмб</st>
       </stg>
     </lg>
 
@@ -12111,7 +12111,7 @@
       <l pos="N">сюмбак</l>
 
       <stg>
-        <st Contlex="N_Cons">сюмбак</st>
+        <st Contlex="N_ЕД">сюмбак</st>
       </stg>
     </lg>
 
@@ -13083,7 +13083,7 @@
       <l pos="N">танз</l>
 
       <stg>
-        <st Contlex="N_ConsO">танз</st>
+        <st Contlex="N_ХАНО">танз</st>
       </stg>
     </lg>
 
@@ -13267,7 +13267,7 @@
       <l pos="N">тасик</l>
 
       <stg>
-        <st Contlex="N_Cons">тасик</st>
+        <st Contlex="N_ЕД">тасик</st>
       </stg>
     </lg>
 
@@ -13319,7 +13319,7 @@
       <l pos="N">тебт</l>
 
       <stg>
-        <st Contlex="N_Cons">тебт</st>
+        <st Contlex="N_ТИРЕ/ХАНО">тебт</st>
       </stg>
     </lg>
 
@@ -13371,7 +13371,7 @@
       <l pos="N">тен</l>
 
       <stg>
-        <st Contlex="N_Cons">тен</st>
+        <st Contlex="N_ЕД">тен</st>
       </stg>
     </lg>
 
@@ -14271,7 +14271,7 @@
       <l pos="N">тос</l>
 
       <stg>
-        <st Contlex="N_Cons">тос</st>
+        <st Contlex="N_ЕД">тос</st>
       </stg>
     </lg>
 
@@ -15581,7 +15581,7 @@
       <l pos="N">тёб</l>
 
       <stg>
-        <st Contlex="N_Cons">тёб</st>
+        <st Contlex="N_ЕД">тёб</st>
       </stg>
     </lg>
 
@@ -17872,6 +17872,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">korppi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">хумб</l>
+
+      <stg>
+        <st Contlex="N_ЕД">хумб</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kohoama</t>
       </tg>
     </mg>
   </e>
