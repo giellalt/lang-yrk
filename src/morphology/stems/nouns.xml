@@ -529,7 +529,7 @@
       <l pos="N">выд</l>
 
       <stg>
-        <st Contlex="N_Cons">выд</st>
+        <st Contlex="N_ЕД">выд</st>
       </stg>
     </lg>
 
@@ -555,7 +555,7 @@
       <l pos="N">вык</l>
 
       <stg>
-        <st Contlex="N_ConsO">вык</st>
+        <st Contlex="N_ХАНО">вык</st>
       </stg>
     </lg>
 
@@ -1835,7 +1835,7 @@
       <l pos="N">илʼ</l>
 
       <stg>
-        <st Contlex="N_ИЛЪЕ">ил</st>
+        <st Contlex="N_ВЫӇО">ил</st>
       </stg>
     </lg>
 
@@ -2801,7 +2801,7 @@
       <l pos="N">лук</l>
 
       <stg>
-        <st Contlex="N_Cons">лук</st>
+        <st Contlex="N_ХАНО">лук</st>
       </stg>
     </lg>
 
@@ -2978,6 +2978,8 @@
 
       <tg xml:lang="fin">
         <t pos="N">suo</t>
+
+        <t pos="N">savi</t>
       </tg>
     </mg>
   </e>
@@ -3169,7 +3171,7 @@
       <l pos="N">лядхэй</l>
 
       <stg>
-        <st Contlex="N_Cons">лядхэй</st>
+        <st Contlex="N_ХУСУВЭЙ/ЕД">лядхэй</st>
       </stg>
     </lg>
 
@@ -4505,7 +4507,7 @@
       <l pos="N">мыд</l>
 
       <stg>
-        <st Contlex="N_Cons">мыд</st>
+        <st Contlex="N_ЕД">мыд</st>
       </stg>
     </lg>
 
@@ -4609,7 +4611,7 @@
       <l pos="N">мэбц</l>
 
       <stg>
-        <st Contlex="N_Cons">мэбц</st>
+        <st Contlex="N_ЕД">мэбц</st>
       </stg>
     </lg>
 
@@ -7131,7 +7133,7 @@
       <l pos="N">паер</l>
 
       <stg>
-        <st Contlex="N_Cons">паер</st>
+        <st Contlex="N_ЕД">паер</st>
       </stg>
     </lg>
 
@@ -9407,7 +9409,7 @@
       <l pos="N">пюӈгабц</l>
 
       <stg>
-        <st Contlex="N_Cons">пюӈгабц</st>
+        <st Contlex="N_ЕД">пюӈгабц</st>
       </stg>
     </lg>
 
@@ -9591,7 +9593,7 @@
       <l pos="N">сабк</l>
 
       <stg>
-        <st Contlex="N_Cons">сабк</st>
+        <st Contlex="N_ХАНО">сабк</st>
       </stg>
     </lg>
 
@@ -11187,7 +11189,7 @@
       <l pos="N">сир</l>
 
       <stg>
-        <st Contlex="N_Cons">сир</st>
+        <st Contlex="N_ЕД">сир</st>
       </stg>
     </lg>
 
@@ -12163,7 +12165,7 @@
       <l pos="N">сюр</l>
 
       <stg>
-        <st Contlex="N_Cons">сюр</st>
+        <st Contlex="N_ЕД">сюр</st>
       </stg>
     </lg>
 
@@ -12425,7 +12427,7 @@
       <l pos="N">сянакобц</l>
 
       <stg>
-        <st Contlex="N_Cons">сянакобц</st>
+        <st Contlex="N_ЕД">сянакобц</st>
       </stg>
     </lg>
 
@@ -13005,7 +13007,7 @@
       <l pos="N">талв</l>
 
       <stg>
-        <st Contlex="N_Cons">талв</st>
+        <st Contlex="N_ЕД">талв</st>
       </stg>
     </lg>
 
@@ -13100,6 +13102,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">sisilisko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">танзер</l>
+
+      <stg>
+        <st Contlex="N_ЕД">танзер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">lumipyry, lumimyrsky, tuisku</t>
       </tg>
     </mg>
   </e>
@@ -14007,7 +14035,7 @@
       <l pos="N">тод</l>
 
       <stg>
-        <st Contlex="N_Cons">тод</st>
+        <st Contlex="N_ЕД">тод</st>
       </stg>
     </lg>
 
@@ -18441,7 +18469,7 @@
       <l pos="N">юд</l>
 
       <stg>
-        <st Contlex="N_Cons">юд</st>
+        <st Contlex="N_ЕД">юд</st>
       </stg>
     </lg>
 
@@ -18773,7 +18801,7 @@
       <l pos="N">яб</l>
 
       <stg>
-        <st Contlex="N_Cons">яб</st>
+        <st Contlex="N_ЕД/ХАНО">яб</st>
       </stg>
     </lg>
 
@@ -18801,7 +18829,7 @@
       <l pos="N">ябехад</l>
 
       <stg>
-        <st Contlex="N_Cons">ябехад</st>
+        <st Contlex="N_ЕД">ябехад</st>
       </stg>
     </lg>
 
@@ -18911,7 +18939,7 @@
       <l pos="N">ябц</l>
 
       <stg>
-        <st Contlex="N_Cons">ябц</st>
+        <st Contlex="N_ЕД">ябц</st>
       </stg>
     </lg>
 
@@ -19935,7 +19963,7 @@
       <l pos="N">ӈабц</l>
 
       <stg>
-        <st Contlex="N_Cons">ӈабц</st>
+        <st Contlex="N_ЕД">ӈабц</st>
       </stg>
     </lg>
 
