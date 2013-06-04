@@ -977,6 +977,15 @@ LEXICON POSSESSOR-INDICES
  POSSESSA-PLURAL ;
 
 LEXICON POSSESSA-SINGULAR
+	POSSESSA-SG-NOM ;
+	POSSESSA-SG-ACC ;
+	POSSESSA-SG-GEN ;
+	POSSESSA-SG-DAT ;
+	POSSESSA-SG-LOC ;
+	POSSESSA-SG-ABL ;
+	POSSESSA-SG-PROS ;
+
+LEXICON POSSESSA-SG-NOM
 +Sg+Nom+PxSg1:%>в   K ;
 +Sg+Nom+PxSg2:%>р   K ; ! (1961: 110) нюр, ӈэсял, мяˮал
 +Sg+Nom+PxSg3:%>да  K ;
@@ -987,6 +996,7 @@ LEXICON POSSESSA-SINGULAR
 +Sg+Nom+PxPl2:%>раˮ K ; ! (1961: 110) даˮ but л after Glots and schwa
 +Sg+Nom+PxPl3:%>доʼ K ;
 
+LEXICON POSSESSA-SG-ACC
 +Sg+Acc+PxSg1:%>в    K ;
 +Sg+Acc+PxSg1:%>ми   K ;! (1961: 112) нюми, ӈэсями, мяˮми 
 +Sg+Acc+PxSg2:%>мд   K ;
@@ -998,6 +1008,7 @@ LEXICON POSSESSA-SINGULAR
 +Sg+Acc+PxPl2:%>мдаˮ K ;
 +Sg+Acc+PxPl3:%>мдоʼ K ;
 
+LEXICON POSSESSA-SG-GEN
 +Sg+Gen+PxSg1:%>н    K ;
 +Sg+Gen+PxSg1:%>ни   K ; ! (1961: 111) нюни, ӈэсяни, мяˮни
 +Sg+Gen+PxSg2:%>нд   K ;
@@ -1009,6 +1020,7 @@ LEXICON POSSESSA-SINGULAR
 +Sg+Gen+PxPl2:%>ндаˮ K ;
 +Sg+Gen+PxPl3:%>ндоʼ K ;
 
+LEXICON POSSESSA-SG-DAT
 +Sg+Dat+PxSg1:%>хА1н    K ;
 +Sg+Dat+PxSg1:%>хА1ни   K ;
 +Sg+Dat+PxSg2:%>хА1нд   K ;
@@ -1020,6 +1032,7 @@ LEXICON POSSESSA-SINGULAR
 +Sg+Dat+PxPl2:%>хА1ндаˮ K ;
 +Sg+Dat+PxPl3:%>хА1ндоʼ K ;
 
+LEXICON POSSESSA-SG-LOC
 +Sg+Loc+PxSg1:%>хА1нан    K ;
 +Sg+Loc+PxSg1:%>хА1нани   K ;
 +Sg+Loc+PxSg2:%>хА1нанд   K ;
@@ -1031,6 +1044,7 @@ LEXICON POSSESSA-SINGULAR
 +Sg+Loc+PxPl2:%>хА1нандаˮ K ;
 +Sg+Loc+PxPl3:%>хА1нандоʼ K ;
 
+LEXICON POSSESSA-SG-ABL
 +Sg+Abl+PxSg1:%>хА1дан    K ;
 +Sg+Abl+PxSg1:%>хА1дани   K ;
 +Sg+Abl+PxSg2:%>хА1данд   K ;
@@ -1042,7 +1056,7 @@ LEXICON POSSESSA-SINGULAR
 +Sg+Abl+PxPl2:%>хА1дандаˮ K ;
 +Sg+Abl+PxPl3:%>хА1дандоʼ K ;
 
-
+LEXICON POSSESSA-SG-PROS
  ! 2012-04-11 Check this for N_Cons and N-D
  ! There might be reason for увна and мна varients
 +Sg+Pros+PxSg1:%^MLenition%>мА2нан     K ;
@@ -1290,6 +1304,7 @@ LEXICON POSSESSA-PL-LOC
 
 LEXICON POSSESSA-PL-ABL
 +Pl+Abl+PxSg1:%>хА1тан   K ;
++Pl+Abl+PxSg1:%>хА1тани   K ;
 +Pl+Abl+PxSg2:%>хА1тат   K ;
 +Pl+Abl+PxSg3:%>хА1тата  K ;
 +Pl+Abl+PxDu1:%>хА1таниʼ K ;
