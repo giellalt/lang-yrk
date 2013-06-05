@@ -25747,6 +25747,28 @@
 
   <e>
     <lg>
+      <l pos="IV">тэць</l>
+
+      <stg>
+        <st Contlex="VR_САС">тэС</st>
+      </stg>
+    </lg>
+
+    <pos>TV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">pyyhkiytyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="TV">тэць</l>
 
       <stg>
@@ -25762,7 +25784,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">pyyhkiä, omistaa poroja</t>
+        <t pos="TV">pyyhkiä, omistaa poroja, poimia marjoja</t>
       </tg>
     </mg>
   </e>
@@ -25784,7 +25806,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">keittää tuohta</t>
       </tg>
     </mg>
   </e>
@@ -25813,6 +25835,28 @@
 
   <e>
     <lg>
+      <l pos="IV">тюнартась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">тюнарта</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">nuuskia, haistella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">тюнарторць</l>
 
       <stg>
@@ -25828,7 +25872,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">nuuskia, haistella</t>
       </tg>
     </mg>
   </e>
@@ -28046,6 +28090,28 @@
 
   <e>
     <lg>
+      <l pos="IV">ханиберць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">ханибер</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">jäätyä, kohmettua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">ханиворць</l>
 
       <stg>
@@ -28061,7 +28127,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">jäätyä, kohmettua</t>
       </tg>
     </mg>
   </e>
@@ -28105,7 +28171,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">valmistella rekiä</t>
+
+        <t pos="IV">purkaa rekien kuormaa</t>
       </tg>
     </mg>
   </e>
@@ -28127,7 +28195,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">valmistella rekiä</t>
+
+        <t pos="IV">pyytää rekeä</t>
       </tg>
     </mg>
   </e>
@@ -28149,7 +28219,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pyytää lainaa</t>
       </tg>
     </mg>
   </e>
@@ -28171,17 +28241,17 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kostua</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="IV">ханяторць</l>
+      <l pos="IV">ханьторць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">ханятор</st>
+        <st Contlex="IV_ТИР">ханьтор</st>
       </stg>
     </lg>
 
@@ -28193,7 +28263,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">palella</t>
       </tg>
     </mg>
   </e>
@@ -28215,7 +28285,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">XX</t>
+        <t pos="TV">kaataa ulos</t>
       </tg>
     </mg>
   </e>
@@ -28377,7 +28447,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">taipua</t>
       </tg>
     </mg>
   </e>
@@ -28406,6 +28476,28 @@
 
   <e>
     <lg>
+      <l pos="V-Refl">хармерць</l>
+
+      <stg>
+        <st Contlex="VR_ТИР">хармер</st>
+      </stg>
+    </lg>
+
+    <pos>V-Refl</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">täysin koukistua, käyristyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V-Refl">харморць</l>
 
       <stg>
@@ -28421,7 +28513,29 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">täysin koukistua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V-Refl">харнерць</l>
+
+      <stg>
+        <st Contlex="VR_ТИР">харнер</st>
+      </stg>
+    </lg>
+
+    <pos>V-Refl</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">vääntyä</t>
       </tg>
     </mg>
   </e>
@@ -28443,7 +28557,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">vääntyä</t>
       </tg>
     </mg>
   </e>
@@ -28472,6 +28586,28 @@
 
   <e>
     <lg>
+      <l pos="IV">харпарць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">харпар</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">loimuta, liekehtiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">харпорць</l>
 
       <stg>
@@ -28487,7 +28623,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">loimuta, liekehtiä</t>
       </tg>
     </mg>
   </e>
@@ -28509,7 +28645,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">käyttää veistä</t>
+
+        <t pos="IV">uhata veitsellä</t>
       </tg>
     </mg>
   </e>
@@ -28531,7 +28669,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">taipua vähän ylös</t>
       </tg>
     </mg>
   </e>
@@ -28575,7 +28713,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">istuutua (ottaen paljon tilaa)</t>
       </tg>
     </mg>
   </e>
@@ -28707,7 +28845,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla korvattomaksi, menettää kuulonsa</t>
       </tg>
     </mg>
   </e>
@@ -28773,7 +28911,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kellua vedessä</t>
       </tg>
     </mg>
   </e>
@@ -28795,7 +28933,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">nousta pinnalle, pullahtaa</t>
       </tg>
     </mg>
   </e>
@@ -28817,7 +28955,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">nousta pinnalle, pullahtaa</t>
       </tg>
     </mg>
   </e>
@@ -33769,7 +33907,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">olla näkyvissä, näyttäytyä</t>
+        <t pos="IV">olla näkyvissä, näyttäytyä, tulla näkyviin</t>
       </tg>
     </mg>
   </e>
@@ -33791,7 +33929,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">olla näkyvissä, näyttäytyä, tulla näkyviin</t>
       </tg>
     </mg>
   </e>
@@ -33842,6 +33980,28 @@
 
   <e>
     <lg>
+      <l pos="IV">ӈадтась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">ӈадта</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">repiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">ӈадторць</l>
 
       <stg>
@@ -33857,7 +34017,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">repiä</t>
       </tg>
     </mg>
   </e>
@@ -34232,7 +34392,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV">maistua hyvältä</t>
+        <t pos="IV">maistua hyvältä, maistua makealta</t>
       </tg>
     </mg>
   </e>
@@ -34959,17 +35119,17 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">valmistaa noja tai kannake, sulkea tie</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="IV">ӈохалюрць</l>
+      <l pos="IV">ӈохолюрць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">ӈохалюр</st>
+        <st Contlex="IV_ТИР">ӈохолюр</st>
       </stg>
     </lg>
 
@@ -34981,7 +35141,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">uida</t>
       </tg>
     </mg>
   </e>
@@ -35003,7 +35163,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">uida</t>
       </tg>
     </mg>
   </e>
@@ -35025,17 +35185,17 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">löystyä, vapautua, päästä vapaaksi</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="IV">ӈухакурць</l>
+      <l pos="IV">ӈухукось</l>
 
       <stg>
-        <st Contlex="IV_ТИР">ӈухакур</st>
+        <st Contlex="IV_СЯНАКУ">ӈухуко</st>
       </stg>
     </lg>
 
@@ -35047,7 +35207,29 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">leikkiä nukeilla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">ӈухукурць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">ӈухукур</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">leikkiä nukeilla</t>
       </tg>
     </mg>
   </e>
@@ -35201,7 +35383,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">peittyä, joutua riippuvaiseksi</t>
       </tg>
     </mg>
   </e>
@@ -35267,7 +35449,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ampua jousta</t>
       </tg>
     </mg>
   </e>
@@ -35333,7 +35515,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ripustaa</t>
       </tg>
     </mg>
   </e>
@@ -35355,7 +35537,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla korkeaan paikkaan, tulla pitkäjalkaiseksi</t>
       </tg>
     </mg>
   </e>
@@ -35443,7 +35625,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kosia, kosiskella</t>
       </tg>
     </mg>
   </e>
@@ -35531,7 +35713,29 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">puolustautua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">ӈэданась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">ӈэдана</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">jarruttaa</t>
       </tg>
     </mg>
   </e>
@@ -35553,7 +35757,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">jarruttaa</t>
       </tg>
     </mg>
   </e>
