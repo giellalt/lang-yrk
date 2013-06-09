@@ -1995,13 +1995,13 @@ LEXICON MUTUAL-PRT1-RCPL3
 
 !! Non-finites
 LEXICON PRC
-+InfImprf:ва K ;
-+InfPrf:ˮма K ;
-+PrcImprf:на K ;
-+PrcImprf:ня K ;
-+PrcPrf:вы K ;
-+PrcNeg:вдавэй K ;
-+PrcFut:ванда K ;
++InfImprf:ва NMN_ӇУДИ ;
++InfPrf:ˮма NMN_ӇУДИ ;
++PrcImprf:да NMN_ӇУДИ ;
+!+PrcImprf:ня K ;
++PrcPrf:вы NMN_ПАНЫ ;
++PrcNeg:вдавэй NMN_ХУСУВЭЙ ;
++PrcFut:ванда NMN_ӇУДИ ;
 +Ger: K ;
 +Ger:%>сь K ;
 +GerFin:%^MLenition%>манзь K ;
@@ -2013,13 +2013,14 @@ LEXICON PRC
 +Fut+ConNeg:ӈгуˮ     K ;
 
 LEXICON PRC2
-+InfImprf:%^MLenition%>ма K ;
-+InfPrf:%>ˮма K ;
-+PrcImprf:%>на K ;
-+PrcImprf:%>ня K ;
-+PrcPrf:%^MLenition%>мы K ;
-+PrcNeg:%^MLenition%>мдавэй K ;
-+PrcFut:%^MLenition%>манда K ;
++InfImprf:%^MLenition%>ма NMN_ӇУДИ ;
++InfPrf:%>ˮма NMN_ӇУДИ ;
++PrcImprf:%>да NMN_ӇУДИ ;
+!+PrcImprf:%>ня K ;
+!+PrcImprf:%>на K ;
++PrcPrf:%^MLenition%>мы NMN_ПАНЫ ;
++PrcNeg:%^MLenition%>мдавэй NMN_ХУСУВЭЙ ;
++PrcFut:%^MLenition%>манда NMN_ӇУДИ ;
 +Ger: K ;
 +Ger:%>сь K ;
 +GerFin:%^MLenition%>манзь K ;
