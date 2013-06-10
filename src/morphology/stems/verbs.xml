@@ -13162,6 +13162,28 @@
 
   <e>
     <lg>
+      <l pos="TV">нярмабтарась</l>
+
+      <stg>
+        <st Contlex="TV_ИЛЕ">нярмабтара</st>
+      </stg>
+    </lg>
+
+    <pos>TV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="TV">punastua hieman</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="TV">нярмабтась</l>
 
       <stg>
@@ -13309,7 +13331,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">olla suhteessa, olla jonkun puolella</t>
+
+        <t pos="IV">riisua</t>
       </tg>
     </mg>
   </e>
@@ -13375,7 +13399,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">avata, aukaista (suun tai nokan)</t>
       </tg>
     </mg>
   </e>
@@ -13397,7 +13421,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">riisuutua</t>
       </tg>
     </mg>
   </e>
@@ -13463,7 +13487,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pussailla</t>
       </tg>
     </mg>
   </e>
@@ -13706,7 +13730,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">hourailla</t>
       </tg>
     </mg>
   </e>
@@ -13728,7 +13752,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">teroittua, kärjistyä, tulla teräväksi</t>
       </tg>
     </mg>
   </e>
@@ -14676,7 +14700,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pyristellä</t>
       </tg>
     </mg>
   </e>
@@ -14698,7 +14722,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">musteta, mustua</t>
       </tg>
     </mg>
   </e>
@@ -14742,7 +14766,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">paljastua</t>
+
+        <t pos="IV">köyhistyä</t>
       </tg>
     </mg>
   </e>
@@ -35692,6 +35718,28 @@
 
       <tg xml:lang="fin">
         <t pos="IV">matkustaa (ajoreellä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">ӈэдалёсь</l>
+
+      <stg>
+        <st Contlex="IV_ВАДЮ">ӈэдалё</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">ajaa (ajoreellä)</t>
       </tg>
     </mg>
   </e>
