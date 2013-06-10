@@ -14102,6 +14102,32 @@
 
   <e>
     <lg>
+      <l pos="N">сяв</l>
+
+      <stg>
+        <st Contlex="N_ЕД/ХАНО">сяв</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">suomu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сявта</l>
 
       <stg>
@@ -23707,7 +23733,7 @@
       <l pos="N">ӈэв</l>
 
       <stg>
-        <st Contlex="N_Cons">ӈэв</st>
+        <st Contlex="N_ЕД">ӈэв</st>
       </stg>
     </lg>
 
