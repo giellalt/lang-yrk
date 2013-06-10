@@ -25,6 +25,9 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 
+Adv
+referential
+
 The Usage extents are marked using following tags:
 
 Dialects
@@ -121,6 +124,10 @@ Nenets nouns inflect in cases.
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 
+ LEXICON N_ӇЭ-PAL/VAR   ӈэ:ӈэ 1  !!ProsSg -вна
+no change in stem
+ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
+
  LEXICON N_ӇЭ/ХАБИЕ   ӈэ:ӈэ 1  !!ProsSg -вна
    хӑби:8 !!ProsSg -вна
 
@@ -162,31 +169,23 @@ no change in stem
 [total=30]
 пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
 
-9
-
  LEXICON N_ХУСУВЭЙ   хусувэй: 10 !!ProsSg -ювна
 [total=17]
 хусувэй xusuwey°	хусувэн’ xusuwen°h	хусувэй” xusuwey°q	хусувэй xusuwey°
-
- LEXICON NMN_ХУСУВЭЙ  хусувэй: 10 !!ProsSg -ювна
-
 
 
  LEXICON N_ХАНО   хӑн: 11 !!ProsSg -увна
 [total=27]
 хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
 
+
  LEXICON N_ТИРЕ   тир: 12 !!ProsSg -увна
 [total=3]
 тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 
- LEXICON NMN_ТИРЕ   тир: 12 !!ProsSg -увна
-
  LEXICON N_ЕД   ед: 13 !!ProsSg -увна /-ювна
 [total=98]
 ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
-
- LEXICON NMN_ЕД   ед: 13 !!ProsSg -увна /-ювна
 
 
 
@@ -273,7 +272,7 @@ Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
 вы’(ң) wíh	вы̄нд’ wínt°h	вы” wí°q	выңо wíŋo
 
 
- LEXICON N_ИЛЪЕ   илʼ: 30   !!ProsSg -мана
+ LEXICON N_ИЛЪЕ   илʼ:ил 30   !!ProsSg -мана
 ң [total=13]
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
 
@@ -300,7 +299,7 @@ Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
 [total=18]
 мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 
- LEXICON N_ТАРЕ/ВАР   мяˮ:мя 35   !!ProsSg -мна
+ LEXICON N_ВАР/ТАРЕ   мяˮ:мя 35   !!ProsSg -мна
   тӑрˮ:тар 33   !!ProsSg -мня
 
  LEXICON NMN_МЯДО   мяˮ:мя 35   !!ProsSg -мна
@@ -335,6 +334,38 @@ NMN
 
 
  LEXICON NMN_ПИ  пя: 3 !!ProsSg -вна
+
+ LEXICON NMN_ТЫ   ты: 4 !!ProsSg -вна
+[total=4]
+ты ti        тэ̇н’ ten°h     ты” tiq ты tí
+
+ LEXICON NMN_ХАВО   ха: 5 !!ProsSg -вна
+[total=1]
+ха xa        хан’ xan°h      ха” xaq хаво xawo
+
+ LEXICON NMN_СЁЁ   сё: 6 !!ProsSg -вна
+[total=0]
+сё syo       сён’ syon°h     сё” syoq        сёё syoyo
+
+ LEXICON NMN_ИБЕ   и: 7 !!ProsSg -вна
+[total=0]
+и yí ин’ yín°h       и” yíq  ибе yíbye
+
+ LEXICON NMN_ХАБИЕ   хӑби:8 !!ProsSg -вна
+[total=0]
+хӑби xəbyi  хӑбин’ xəbyin°h        хӑби” xəbyiq   хӑбие xəbyiy
+
+
+9
+
+ LEXICON NMN_ХУСУВЭЙ  хусувэй: 10 !!ProsSg -ювна
+
+
+
+ LEXICON NMN_ТИРЕ   тир: 12 !!ProsSg -увна
+
+ LEXICON NMN_ЕД   ед: 13 !!ProsSg -увна /-ювна
+
 
 
 
