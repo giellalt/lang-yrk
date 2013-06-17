@@ -3041,7 +3041,7 @@
       <l pos="N">лив</l>
 
       <stg>
-        <st Contlex="N_Cons">лив</st>
+        <st Contlex="N_ЕД">лив</st>
       </stg>
     </lg>
 
@@ -18408,6 +18408,32 @@
 
   <e>
     <lg>
+      <l pos="N">халэӈгад</l>
+
+      <stg>
+        <st Contlex="N_ЕД">халэӈгад</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">koskelo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">халя</l>
 
       <stg>
@@ -20378,6 +20404,32 @@
 
   <e>
     <lg>
+      <l pos="N">хыберˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">хыбер</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kalan veri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">хыврё</l>
 
       <stg>
@@ -20454,6 +20506,32 @@
 
   <e>
     <lg>
+      <l pos="N">хэбирˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">хэбир</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kalan veri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">хэбцьʼ</l>
 
       <stg>
@@ -20493,32 +20571,6 @@
       <m>
         <head/>
       </m>
-
-      <tg xml:lang="fin">
-        <t pos="N">synti</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">хэбяха</l>
-
-      <stg>
-        <st Contlex="N_Vow">хэбяха</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N"/>
-      </tg>
 
       <tg xml:lang="fin">
         <t pos="N">synti</t>
@@ -21239,7 +21291,7 @@
       <l pos="N">ябцнолава</l>
 
       <stg>
-        <st Contlex="N_Vow">ябцнолава</st>
+        <st Contlex="N_ӇУДИ">ябцнолава</st>
       </stg>
     </lg>
 
@@ -21293,7 +21345,7 @@
       <l pos="N">ява</l>
 
       <stg>
-        <st Contlex="N_Vow">ява</st>
+        <st Contlex="N_ХОБ">ява</st>
       </stg>
     </lg>
 
@@ -21321,7 +21373,7 @@
       <l pos="N">явӈга</l>
 
       <stg>
-        <st Contlex="N_Vow">явӈга</st>
+        <st Contlex="N_МАРАӇГЫ">явӈга</st>
       </stg>
     </lg>
 
