@@ -1170,34 +1170,6 @@
 
   <e>
     <lg>
-      <l pos="N">едя</l>
-
-      <stg>
-        <st Contlex="N_ӇОДИ">едя</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N"/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">kipu</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">едё</l>
 
       <stg>
@@ -10140,7 +10112,7 @@
       <l pos="N">пул</l>
 
       <stg>
-        <st Contlex="N_Cons">пул</st>
+        <st Contlex="N_ЕД/ХАНО">пул</st>
       </stg>
     </lg>
 
@@ -13084,6 +13056,84 @@
 
   <e>
     <lg>
+      <l pos="N">сород</l>
+
+      <stg>
+        <st Contlex="N_ЕД">сород</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">heinäkuhilas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сорок</l>
+
+      <stg>
+        <st Contlex="N_ЕД">сорок</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">reisi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сотабцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">сотабць</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kauha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сохо</l>
 
       <stg>
@@ -13138,6 +13188,32 @@
 
   <e>
     <lg>
+      <l pos="N">соябцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">соябць</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">synnyn määräaika</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">суˮляко</l>
 
       <stg>
@@ -13167,7 +13243,7 @@
       <l pos="N">суд</l>
 
       <stg>
-        <st Contlex="N_Cons">суд</st>
+        <st Contlex="N_ЕД">суд</st>
       </stg>
     </lg>
 
@@ -13258,6 +13334,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">poronvasan talja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сул</l>
+
+      <stg>
+        <st Contlex="N_ЕД/ХАНО">сул</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">poron kaulanahka</t>
       </tg>
     </mg>
   </e>
