@@ -89,7 +89,7 @@
       <l pos="N">ваˮал</l>
 
       <stg>
-        <st Contlex="N_Cons">ваˮал</st>
+        <st Contlex="N_ЕД">ваˮал</st>
       </stg>
     </lg>
 
@@ -101,7 +101,7 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="N"/>
+        <t pos="N">legend</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -1251,7 +1251,7 @@
       <l pos="N">ен</l>
 
       <stg>
-        <st Contlex="N_Cons">ен</st>
+        <st Contlex="N_ЕД/ТИРЕ">ен</st>
       </stg>
     </lg>
 
@@ -1267,7 +1267,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">hamppu, jänne</t>
+        <t pos="N">hamppu</t>
+
+        <t pos="N">jänne</t>
       </tg>
     </mg>
   </e>
@@ -2883,7 +2885,7 @@
       <l pos="N">лахарё</l>
 
       <stg>
-        <st Contlex="N_ӇАНУ">лахарё</st>
+        <st Contlex="N_МЕРЁ">лахарё</st>
       </stg>
     </lg>
 
@@ -3542,6 +3544,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">rinta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">лэмбарё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">лэмбарё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">perhonen</t>
       </tg>
     </mg>
   </e>
@@ -7148,7 +7176,7 @@
       <l pos="N">нулӈгалава</l>
 
       <stg>
-        <st Contlex="N_Vow">нулӈгалава</st>
+        <st Contlex="N_ӇУДИ">нулӈгалава</st>
       </stg>
     </lg>
 
@@ -9860,7 +9888,7 @@
       <l pos="N">поёлава</l>
 
       <stg>
-        <st Contlex="N_Vow">поёлава</st>
+        <st Contlex="N_ӇУДИ">поёлава</st>
       </stg>
     </lg>
 
@@ -10155,6 +10183,34 @@
 
       <tg xml:lang="fin">
         <t pos="N">polvi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">пун</l>
+
+      <stg>
+        <st Contlex="N_ХАНО">пун</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">usko</t>
+
+        <t pos="N">tunnus, tuntomerkki</t>
       </tg>
     </mg>
   </e>
@@ -12038,6 +12094,32 @@
 
   <e>
     <lg>
+      <l pos="N">саӈг</l>
+
+      <stg>
+        <st Contlex="N_ХАНО">саӈг</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">siitin, penis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">саӈо</l>
 
       <stg>
@@ -12855,7 +12937,7 @@
       <l pos="N">синё</l>
 
       <stg>
-        <st Contlex="N_ӇАНУ">синё</st>
+        <st Contlex="N_МЕРЁ">синё</st>
       </stg>
     </lg>
 
@@ -12871,7 +12953,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">utu</t>
+        <t pos="N">sumu, utu</t>
       </tg>
     </mg>
   </e>
@@ -14732,6 +14814,32 @@
 
   <e>
     <lg>
+      <l pos="N">таˮнё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">таˮнё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">letti, palmikko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">таˮнёʼ</l>
 
       <stg>
@@ -16245,7 +16353,7 @@
       <l pos="N">торава</l>
 
       <stg>
-        <st Contlex="N_Vow">торава</st>
+        <st Contlex="N_ӇУДИ">торава</st>
       </stg>
     </lg>
 
@@ -16349,7 +16457,7 @@
       <l pos="N">тосаля</l>
 
       <stg>
-        <st Contlex="N_Vow">тосаля</st>
+        <st Contlex="N_ӇОДИ">тосаля</st>
       </stg>
     </lg>
 
@@ -16651,7 +16759,7 @@
       <l pos="N">туи</l>
 
       <stg>
-        <st Contlex="N_Vow">туи</st>
+        <st Contlex="N_ӇЭ">туи</st>
       </stg>
     </lg>
 
@@ -17920,10 +18028,32 @@
 
   <e>
     <lg>
+      <l pos="N"> хаˮнё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">хаˮнё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">kova nauru, veden loiske</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">хабарта</l>
 
       <stg>
-        <st Contlex="N_Vow">хабарта</st>
+        <st Contlex="N_ӇУДИ">хабарта</st>
       </stg>
     </lg>
 
@@ -18409,7 +18539,7 @@
       <l pos="N">халтаӈголава</l>
 
       <stg>
-        <st Contlex="N_Vow">халтаӈголава</st>
+        <st Contlex="N_ӇУДИ">халтаӈголава</st>
       </stg>
     </lg>
 
@@ -19755,7 +19885,7 @@
       <l pos="N">хонёлава</l>
 
       <stg>
-        <st Contlex="N_Vow">хонёлава</st>
+        <st Contlex="N_ӇУДИ">хонёлава</st>
       </stg>
     </lg>
 
@@ -19911,7 +20041,7 @@
       <l pos="N">хорова</l>
 
       <stg>
-        <st Contlex="N_Vow">хорова</st>
+        <st Contlex="N_ӇУДИ">хорова</st>
       </stg>
     </lg>
 
@@ -19937,7 +20067,7 @@
       <l pos="N">хоска</l>
 
       <stg>
-        <st Contlex="N_Vow">хоска</st>
+        <st Contlex="N_МАРАӇГЫ">хоска</st>
       </stg>
     </lg>
 
@@ -20011,7 +20141,7 @@
       <l pos="N">ху</l>
 
       <stg>
-        <st Contlex="N_Vow">ху</st>
+        <st Contlex="N_ӇЭ">ху</st>
       </stg>
     </lg>
 
@@ -20219,7 +20349,7 @@
       <l pos="N">хулы</l>
 
       <stg>
-        <st Contlex="N_Vow">хулы</st>
+        <st Contlex="N_ӇЭ">хулы</st>
       </stg>
     </lg>
 
@@ -21557,7 +21687,7 @@
       <l pos="N">ядэлава</l>
 
       <stg>
-        <st Contlex="N_Vow">ядэлава</st>
+        <st Contlex="N_ӇУДИ">ядэлава</st>
       </stg>
     </lg>
 
@@ -22988,6 +23118,28 @@
 
       <tg xml:lang="fin">
         <t pos="N">liha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ӈаˮнё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">ӈаˮнё</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">melu, kohina, pauhu</t>
       </tg>
     </mg>
   </e>
