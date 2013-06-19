@@ -2969,10 +2969,10 @@
 
   <e>
     <lg>
-      <l pos="IV">енамбюрць</l>
+      <l pos="IV">енбюрць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">енамбюр</st>
+        <st Contlex="IV_ТИР">енбюр</st>
       </stg>
     </lg>
 
@@ -2984,7 +2984,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">järkkyä (kouristuksessa)</t>
       </tg>
     </mg>
   </e>
@@ -7318,7 +7318,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pudota ulos, humpsahtaa</t>
       </tg>
     </mg>
   </e>
@@ -7347,6 +7347,28 @@
 
   <e>
     <lg>
+      <l pos="IV">мандалёсь</l>
+
+      <stg>
+        <st Contlex="IV_ВАДЮ">мандалё</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">olla kasassa, parveilla, tungeksia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">мандалюрць</l>
 
       <stg>
@@ -7362,7 +7384,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">olla kasassa, parveilla, tungeksia</t>
       </tg>
     </mg>
   </e>
@@ -7523,7 +7545,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">koveta, kovettua</t>
       </tg>
     </mg>
   </e>
@@ -7589,7 +7611,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">lojua, lekotella</t>
       </tg>
     </mg>
   </e>
@@ -11898,7 +11920,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">suudella, pussailla</t>
       </tg>
     </mg>
   </e>
@@ -11964,7 +11986,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tarttua, tarrautua</t>
       </tg>
     </mg>
   </e>
@@ -11986,7 +12008,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tarttua, tarrautua (ihmisestä)</t>
       </tg>
     </mg>
   </e>
@@ -12030,7 +12052,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">napata, siepata</t>
       </tg>
     </mg>
   </e>
@@ -14524,7 +14546,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ommella helmaa</t>
       </tg>
     </mg>
   </e>
@@ -14546,7 +14568,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">kehrätä, punoa, kutoa</t>
       </tg>
     </mg>
   </e>
@@ -14568,7 +14590,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">ommella vaatteita, pyytää vaatteita</t>
       </tg>
     </mg>
   </e>
@@ -14590,7 +14612,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">nimittää nuoremmaksi sisarukseksi</t>
       </tg>
     </mg>
   </e>
@@ -14907,6 +14929,28 @@
 
   <e>
     <lg>
+      <l pos="TV">пасресь</l>
+
+      <stg>
+        <st Contlex="TV_ИЛЕ">пасре</st>
+      </stg>
+    </lg>
+
+    <pos>TV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="TV">loruta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="TV">пасребтась</l>
 
       <stg>
@@ -14988,7 +15032,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kouluttaa (eläimiä)</t>
       </tg>
     </mg>
   </e>
@@ -15010,29 +15054,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V-Refl">паёрць</l>
-
-      <stg>
-        <st Contlex="VR_ТИР">паёр</st>
-      </stg>
-    </lg>
-
-    <pos>V-Refl</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">hankkia leppää</t>
       </tg>
     </mg>
   </e>
