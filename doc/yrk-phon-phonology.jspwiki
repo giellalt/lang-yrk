@@ -1,0 +1,173 @@
+
+
+
+
+
+
+
+
+
+
+
+!!triggers
+lenition
+vowel raising э:ы о:у
+stem-final vowel is lost in plural accusative
+хасава:хасев
+in combination with stem-final vowel loss тёня:тён
+яля:ялэ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__0:а between Д1: %> and  мна__
+
+__й:0 when followed by vowel in VowelPalatalization__
+
+__а:я VowelPalatalization__
+
+__у:ю VowelPalatalization__
+
+__А2:0 possible vowel loss as second syllable vowel__
+
+__А2:0 possible vowel loss as second syllable vowel__
+
+__0:U in sgprossuf__
+
+__А1 -> а__
+
+__А1 -> у__
+
+__А1 -> о__
+
+__А1 -> э__
+
+
+__StemFinalYToE__
+
+__а:э in final position of polysyllable verb stems__
+
+__Ы1:о__
+
+__Ы1:е__
+
+__Ы2:ы__
+
+__a:o in я__
+
+__a:o in та__
+
+__я:э in яля__
+
+__a:i in мараӈгы__
+
+__a:i in ӈуда__
+
+__о:у word-final position__
+
+__ё:ю word-final position__
+
+__э:ы word-final position__
+
+__я:и word-final position__
+
+__а:е хасава:хасев__
+
+!!Vowel loss
+
+__а:0 Stem vowel loss in plural accusative__
+
+__я:ь Stem vowel loss in plural accusative__
+
+__я:й Stem vowel loss in plural accusative__
+
+__я:0 Stem vowel loss in plural accusative__
+
+
+
+!!Consonant changes
+
+__mToV__, perhaps there should be a VtoM rule2013-01-23
+
+__mTob __
+
+
+__v To m __
+
+__r To l after nasal glottal__
+
+__r To 0 after л glottal__
+
+
+__nTod__
+
+__n to t after non-nasal glottal__
+
+__d to t after non-nasal glottal__
+
+__b to p after non-nasal glottal__
+
+__b to 0 between mod/obl__
+
+
+__ъ:0 with Conj after vowels__
+
+__с => ц affrication after Stop__
+
+__с => з after nasal__
+
+__ʼ:0__
+
+__ˮ:0__
+
+__х -> г after nasal glottal__
+
+__х to к after non-nasal glottal__
+
+!!Realization of glottal stops
+!SURFACE CONSONANT
+
+__С1:с GlottalNonNasalToSurface__
+
+__Д1:д GlottalNonNasalToSurface__
+
+__Н1:н GlottalNasalToSurface__
+
+__Ӈ1:ӈ GlottalNasalToSurface__
+
+__Ӈ1:н GlottalNasalToSurface__
+
+
+!LOSS
+
+
+__m loss before Labial followed by nonglottal cons or vows __
+
+
+__Д1:0 GlottalNonNasalToZERO__
+
+__С1:0 GlottalNonNasalToZERO__
+
+
+__ь:0 with  GlottalNonNasalToZERO__
+
+__С1:ˮ UnderlyingToGlottal__
+
+__Д1:ˮ UnderlyingToGlottal__
+
+__Н1:ʼ UnderlyingToGlottal__
+
