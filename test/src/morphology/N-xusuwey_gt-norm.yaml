@@ -1,0 +1,219 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - хусувэй: # Pronoun 'every' - partial paradigm /Type 10/
+     хусувэй+N+Sg+Nom: хусувэй
+     хусувэй+N+Sg+Acc: хусувэймʼ
+     хусувэй+N+Sg+Gen: хусувэйʼ
+     хусувэй+N+Sg+Dat: хусувэнʼ
+     хусувэй+N+Sg+Loc: хусувэхэна
+     хусувэй+N+Sg+Abl: хусувэхэд
+     хусувэй+N+Sg+Pros: хусувэювна
+     хусувэй+N+Sg+Tra: хусувэйӈэ
+     хусувэй+N+Du+Nom: хусувэхэʼ
+     хусувэй+N+Du+Acc: хусувэхэʼ
+     хусувэй+N+Du+Gen: хусувэхэʼ
+     хусувэй+N+Pl+Nom: хусувэйˮ
+     хусувэй+N+Pl+Acc: хусувэй
+     хусувэй+N+Pl+Gen: хусувэйˮ
+     хусувэй+N+Pl+Dat: хусувэхэˮ
+     хусувэй+N+Pl+Loc: хусувэхэˮна
+     хусувэй+N+Pl+Abl: хусувэхэт
+     хусувэй+N+Pl+Pros:хусувэˮмна
+     хусувэй+N+Pl+Tra: хусувэйˮӈэ
+
+# Possessive forms 
+     хусувэй+N+Sg+Nom+PxSg1: хусувэв 
+     хусувэй+N+Sg+Nom+PxSg2: хусувэр  
+     хусувэй+N+Sg+Nom+PxSg3: хусувэда 
+     хусувэй+N+Sg+Nom+PxDu1: хусувэмиʼ
+     хусувэй+N+Sg+Nom+PxDu2: хусувэриʼ
+     хусувэй+N+Sg+Nom+PxDu3: хусувэдиʼ
+     хусувэй+N+Sg+Nom+PxPl1: хусувэваˮ
+     хусувэй+N+Sg+Nom+PxPl2: хусувэраˮ
+     хусувэй+N+Sg+Nom+PxPl3: хусувэдоʼ
+     хусувэй+N+Sg+Acc+PxSg1: хусувэв   
+     хусувэй+N+Sg+Acc+PxSg1: хусувэми  
+     хусувэй+N+Sg+Acc+PxSg2: хусувэмд  
+     хусувэй+N+Sg+Acc+PxSg3: хусувэмда 
+     хусувэй+N+Sg+Acc+PxDu1: хусувэмиʼ 
+     хусувэй+N+Sg+Acc+PxDu2: хусувэмдиʼ
+     хусувэй+N+Sg+Acc+PxDu3: хусувэмдиʼ
+     хусувэй+N+Sg+Acc+PxPl1: хусувэваˮ 
+     хусувэй+N+Sg+Acc+PxPl2: хусувэмдаˮ
+     хусувэй+N+Sg+Acc+PxPl3: хусувэмдоʼ
+     хусувэй+N+Sg+Gen+PxSg1: хусувэн   
+     хусувэй+N+Sg+Gen+PxSg1: хусувэни  
+     хусувэй+N+Sg+Gen+PxSg2: хусувэнд  
+     хусувэй+N+Sg+Gen+PxSg3: хусувэнда 
+     хусувэй+N+Sg+Gen+PxDu1: хусувэниʼ 
+     хусувэй+N+Sg+Gen+PxDu2: хусувэндиʼ
+     хусувэй+N+Sg+Gen+PxDu3: хусувэндиʼ
+     хусувэй+N+Sg+Gen+PxPl1: хусувэнаˮ 
+     хусувэй+N+Sg+Gen+PxPl2: хусувэндаˮ
+     хусувэй+N+Sg+Gen+PxPl3: хусувэндоʼ
+     хусувэй+N+Sg+Dat+PxSg1: хусувэхэн   
+     хусувэй+N+Sg+Dat+PxSg1: хусувэхэни  
+     хусувэй+N+Sg+Dat+PxSg2: хусувэхэнд  
+     хусувэй+N+Sg+Dat+PxSg3: хусувэхэнда 
+     хусувэй+N+Sg+Dat+PxDu1: хусувэхэниʼ 
+     хусувэй+N+Sg+Dat+PxDu2: хусувэхэндиʼ
+     хусувэй+N+Sg+Dat+PxDu3: хусувэхэндиʼ
+     хусувэй+N+Sg+Dat+PxPl1: хусувэхэнаˮ 
+     хусувэй+N+Sg+Dat+PxPl2: хусувэхэндаˮ
+     хусувэй+N+Sg+Dat+PxPl3: хусувэхэндоʼ
+     хусувэй+N+Sg+Loc+PxSg1: хусувэхэнан   
+     хусувэй+N+Sg+Loc+PxSg1: хусувэхэнани  
+     хусувэй+N+Sg+Loc+PxSg2: хусувэхэнанд  
+     хусувэй+N+Sg+Loc+PxSg3: хусувэхэнанда 
+     хусувэй+N+Sg+Loc+PxDu1: хусувэхэнаниʼ 
+     хусувэй+N+Sg+Loc+PxDu2: хусувэхэнандиʼ
+     хусувэй+N+Sg+Loc+PxDu3: хусувэхэнандиʼ
+     хусувэй+N+Sg+Loc+PxPl1: хусувэхэнанаˮ 
+     хусувэй+N+Sg+Loc+PxPl2: хусувэхэнандаˮ
+     хусувэй+N+Sg+Loc+PxPl3: хусувэхэнандоʼ
+     хусувэй+N+Sg+Abl+PxSg1: хусувэхэдан   
+     хусувэй+N+Sg+Abl+PxSg1: хусувэхэдани  
+     хусувэй+N+Sg+Abl+PxSg2: хусувэхэданд  
+     хусувэй+N+Sg+Abl+PxSg3: хусувэхэданда 
+     хусувэй+N+Sg+Abl+PxDu1: хусувэхэданиʼ 
+     хусувэй+N+Sg+Abl+PxDu2: хусувэхэдандиʼ
+     хусувэй+N+Sg+Abl+PxDu3: хусувэхэдандиʼ
+     хусувэй+N+Sg+Abl+PxPl1: хусувэхэданаˮ 
+     хусувэй+N+Sg+Abl+PxPl2: хусувэхэдандаˮ
+     хусувэй+N+Sg+Abl+PxPl3: хусувэхэдандоʼ
+     хусувэй+N+Sg+Pros+PxSg1:хусувэвнан   
+     хусувэй+N+Sg+Pros+PxSg1:хусувэвнани  
+     хусувэй+N+Sg+Pros+PxSg2:хусувэвнанд  
+     хусувэй+N+Sg+Pros+PxSg3:хусувэвнанда 
+     хусувэй+N+Sg+Pros+PxDu1:хусувэвнаниʼ 
+     хусувэй+N+Sg+Pros+PxDu2:хусувэвнандиʼ
+     хусувэй+N+Sg+Pros+PxDu3:хусувэвнандиʼ
+     хусувэй+N+Sg+Pros+PxPl1:хусувэвнанаˮ 
+     хусувэй+N+Sg+Pros+PxPl2:хусувэвнандаˮ
+     хусувэй+N+Sg+Pros+PxPl3:хусувэвнандоʼ
+     хусувэй+N+Du+Nom+PxSg1: хусувэхэюн  
+     хусувэй+N+Du+Nom+PxSg2: хусувэхэюд  
+     хусувэй+N+Du+Nom+PxSg3: хусувэхэюда 
+     хусувэй+N+Du+Nom+PxDu1: хусувэхэюниʼ
+     хусувэй+N+Du+Nom+PxDu2: хусувэхэюдиʼ
+     хусувэй+N+Du+Nom+PxDu3: хусувэхэюдиʼ
+     хусувэй+N+Du+Nom+PxPl1: хусувэхэюнаˮ
+     хусувэй+N+Du+Nom+PxPl2: хусувэхэюдаˮ
+     хусувэй+N+Du+Nom+PxPl3: хусувэхэюдоʼ;
+     хусувэй+N+Du+Acc+PxSg1: хусувэхэюн  
+     хусувэй+N+Du+Acc+PxSg2: хусувэхэюд  
+     хусувэй+N+Du+Acc+PxSg3: хусувэхэюда 
+     хусувэй+N+Du+Acc+PxDu1: хусувэхэюниʼ
+     хусувэй+N+Du+Acc+PxDu2: хусувэхэюдиʼ
+     хусувэй+N+Du+Acc+PxDu3: хусувэхэюдиʼ
+     хусувэй+N+Du+Acc+PxPl1: хусувэхэюнаˮ
+     хусувэй+N+Du+Acc+PxPl2: хусувэхэюдаˮ
+     хусувэй+N+Du+Acc+PxPl3: хусувэхэюдоʼ
+     хусувэй+N+Du+Gen+PxSg1: хусувэхэюн  
+     хусувэй+N+Du+Gen+PxSg2: хусувэхэют  
+     хусувэй+N+Du+Gen+PxSg3: хусувэхэюта 
+     хусувэй+N+Du+Gen+PxDu1: хусувэхэюниʼ
+     хусувэй+N+Du+Gen+PxDu2: хусувэхэютиʼ
+     хусувэй+N+Du+Gen+PxDu3: хусувэхэютиʼ
+     хусувэй+N+Du+Gen+PxPl1: хусувэхэюнаˮ
+     хусувэй+N+Du+Gen+PxPl2: хусувэхэютаˮ
+     хусувэй+N+Du+Gen+PxPl3: хусувэхэютоʼ
+     хусувэй+N+Pl+Nom+PxSg1: хусувэн   
+     хусувэй+N+Pl+Nom+PxSg2: хусувэд   
+     хусувэй+N+Pl+Nom+PxSg3: хусувэда  
+     хусувэй+N+Pl+Nom+PxDu1: хусувэниʼ 
+     хусувэй+N+Pl+Nom+PxDu2: хусувэдиʼ 
+     хусувэй+N+Pl+Nom+PxDu3: хусувэдиʼ 
+     хусувэй+N+Pl+Nom+PxPl1: хусувэнаˮ 
+     хусувэй+N+Pl+Nom+PxPl2: хусувэдаˮ 
+     хусувэй+N+Pl+Nom+PxPl3: хусувэдоʼ 
+     хусувэй+N+Pl+Acc+PxSg1: хусувэн   
+     хусувэй+N+Pl+Acc+PxSg2: хусувэд   
+     хусувэй+N+Pl+Acc+PxSg3: хусувэда  
+     хусувэй+N+Pl+Acc+PxDu1: хусувэниʼ 
+     хусувэй+N+Pl+Acc+PxDu2: хусувэдиʼ 
+     хусувэй+N+Pl+Acc+PxDu3: хусувэдиʼ 
+     хусувэй+N+Pl+Acc+PxPl1: хусувэнаˮ 
+     хусувэй+N+Pl+Acc+PxPl2: хусувэдаˮ 
+     хусувэй+N+Pl+Acc+PxPl3: хусувэдоʼ 
+     хусувэй+N+Pl+Gen+PxSg1: хусувэˮн  
+     хусувэй+N+Pl+Gen+PxSg1: хусувэˮни 
+     хусувэй+N+Pl+Gen+PxSg2: хусувэт   
+     хусувэй+N+Pl+Gen+PxSg3: хусувэта  
+     хусувэй+N+Pl+Gen+PxDu1: хусувэˮниʼ
+     хусувэй+N+Pl+Gen+PxDu2: хусувэтиʼ 
+     хусувэй+N+Pl+Gen+PxDu3: хусувэтиʼ 
+     хусувэй+N+Pl+Gen+PxPl1: хусувэˮнаˮ 
+     хусувэй+N+Pl+Gen+PxPl2: хусувэтаˮ 
+     хусувэй+N+Pl+Gen+PxPl3: хусувэтоʼ 
+     хусувэй+N+Pl+Dat+PxSg1: хусувэхэˮн 
+     хусувэй+N+Pl+Dat+PxSg2: хусувэхэт 
+     хусувэй+N+Pl+Dat+PxSg3: хусувэхэта 
+     хусувэй+N+Pl+Dat+PxDu1: хусувэхэˮниʼ 
+     хусувэй+N+Pl+Dat+PxDu2: хусувэхэтиʼ 
+     хусувэй+N+Pl+Dat+PxDu3: хусувэхэтиʼ 
+     хусувэй+N+Pl+Dat+PxPl1: хусувэхэˮнаˮ 
+     хусувэй+N+Pl+Dat+PxPl2: хусувэхэтаˮ 
+     хусувэй+N+Pl+Dat+PxPl3: хусувэхэтоʼ 
+     хусувэй+N+Pl+Loc+PxSg1: хусувэхэˮнан  
+     хусувэй+N+Pl+Loc+PxSg2: хусувэхэˮнат  
+     хусувэй+N+Pl+Loc+PxSg3: хусувэхэˮната 
+     хусувэй+N+Pl+Loc+PxDu1: хусувэхэˮнаниʼ
+     хусувэй+N+Pl+Loc+PxDu2: хусувэхэˮнатиʼ
+     хусувэй+N+Pl+Loc+PxDu3: хусувэхэˮнатиʼ
+     хусувэй+N+Pl+Loc+PxPl1: хусувэхэˮнанаˮ
+     хусувэй+N+Pl+Loc+PxPl2: хусувэхэˮнатаˮ
+     хусувэй+N+Pl+Loc+PxPl3: хусувэхэˮнатоʼ
+     хусувэй+N+Pl+Abl+PxSg1: хусувэхэтан 
+     хусувэй+N+Pl+Abl+PxSg2: хусувэхэтат 
+     хусувэй+N+Pl+Abl+PxSg3: хусувэхэтата 
+     хусувэй+N+Pl+Abl+PxDu1: хусувэхэтаниʼ
+     хусувэй+N+Pl+Abl+PxDu2: хусувэхэтатиʼ
+     хусувэй+N+Pl+Abl+PxDu3: хусувэхэтатиʼ
+     хусувэй+N+Pl+Abl+PxPl1: хусувэхэтанаˮ
+     хусувэй+N+Pl+Abl+PxPl2: хусувэхэтатаˮ
+     хусувэй+N+Pl+Abl+PxPl3: хусувэхэтатоʼ
+     хусувэй+N+Pl+Pros+PxSg1: хусувэˮманан  
+     хусувэй+N+Pl+Pros+PxSg2: хусувэˮманат  
+     хусувэй+N+Pl+Pros+PxSg3: хусувэˮманата 
+     хусувэй+N+Pl+Pros+PxDu1: хусувэˮмананиʼ
+     хусувэй+N+Pl+Pros+PxDu2: хусувэˮманатиʼ
+     хусувэй+N+Pl+Pros+PxDu3: хусувэˮманатиʼ
+     хусувэй+N+Pl+Pros+PxPl1: хусувэˮмананаˮ
+     хусувэй+N+Pl+Pros+PxPl2: хусувэˮманатаˮ
+     хусувэй+N+Pl+Pros+PxPl3: хусувэˮманатоʼ
+
+# Predestinative !Should be added
+# Predicative (Nominal conjugation)
+
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScSg1: хусувэдмʼ
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScSg2: хусувэн  
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScSg3: хусувэй   
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScDu1: хусувэниʼ
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScDu2: хусувэдиʼ
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScDu3: хусувэхаʼ
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScPl1: хусувэваˮ
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScPl2: хусувэдаˮ
+     хусувэй+N+Nom+Der/Pr+Ind+Aor+ScPl3: хусувэйˮ  
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScSg1: хусувэдамзь
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScSg2: хусувэнась 
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScSg3: хусувэсь   
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScDu1: хусувэнинзь
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScDu2: хусувэдинзь
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScDu3: хусувэханзь
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScPl1: хусувэваць 
+     хусувэй+N+Nom+Der/Pr+Ind+Prt1+ScPl2: хусувэдаць 
