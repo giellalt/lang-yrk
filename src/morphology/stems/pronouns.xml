@@ -96,6 +96,36 @@
 
   <e>
     <lg>
+      <l pos="Pron">сямян</l>
+
+      <stg>
+        <st Contlex="PronInterrQnt">сямян</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>everybody</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kaikki</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">сяхаʼ</l>
 
       <stg>
@@ -606,6 +636,36 @@
 
   <e>
     <lg>
+      <l pos="Pron">худ</l>
+
+      <stg>
+        <st Contlex="PronInterr-CxAbl">худ</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>where (from), whence</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>mistä</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">
 тюку</l>
 
@@ -659,6 +719,36 @@
 
       <tg xml:lang="fin">
         <t>tämä</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">сямянхат</l>
+
+      <stg>
+        <st Contlex="PronDemAdn">сямянхат</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>most</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kaikkein</t>
       </tg>
     </mg>
 
