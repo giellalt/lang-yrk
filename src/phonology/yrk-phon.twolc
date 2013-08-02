@@ -262,7 +262,12 @@ Rules
 
 "d to t after non-nasal glottal"
 !! __@RULENAME@__
-д:т <=> [ С1: | Д1: | ˮ: ] %>: _ ;
+д:т <=> [ С1:0 | Д1:0 | ˮ:0 ] %>: _ ;
+
+"d to l after non-nasal glottal"
+!! __@RULENAME@__
+д:л <=> [ Д1:ˮ | ˮ:ˮ  ] %>: _ а ц ь ;
+
 
 "b to p after non-nasal glottal"
 !! __@RULENAME@__
@@ -344,7 +349,7 @@ Rules
 
 "Д1:0 GlottalNonNasalToZERO"
 !! __@RULENAME@__
-Д1:0 <=> _ %>:  [ х: | н:  ʼ | с: ь | ц ь | д: а ˮ | д: а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
+Д1:0 <=> _ %>:  [ х: | н:  ʼ | с: ь | ц ь | д: а ˮ | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
 
 "С1:0 GlottalNonNasalToZERO"
 !! __@RULENAME@__
@@ -362,7 +367,7 @@ Rules
 
 "Д1:ˮ UnderlyingToGlottal"
 !! __@RULENAME@__
-Д1:ˮ <=> _ [ #: | %> [ и | м и | ӈ э | м а | ( 0: ) м н а | н а | н [ и | # | %>: ] ] ] ;
+Д1:ˮ => _ [ #: | %> [ д:л а ц ь | и | м и | ӈ э | м а | ( 0: ) м н а | н а | н [ и | # | %>: ] ] ] ;
 
 "Н1:ʼ UnderlyingToGlottal"
 !! __@RULENAME@__
