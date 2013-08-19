@@ -934,6 +934,34 @@
 
   <e>
     <lg>
+      <l pos="Adv">ныхыˮмасиˮ</l>
+
+      <stg>
+        <st Contlex="AdvManner">ныхыˮмасиˮ</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>xx</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>heikosti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">ныхыриʼ</l>
 
       <stg>
@@ -1152,6 +1180,64 @@
 
       <tg xml:lang="fin">
         <t>aikaisemmin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ӈавхана</l>
+
+      <stg>
+        <st Contlex="AdvTemp">ӈавхана</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>aikaisemmin, ennestään, kauan sitten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ӈавхат</l>
+
+      <stg>
+        <st Contlex="AdvTemp">ӈавхат</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>vanhastaan</t>
+
+        <t>etäältä</t>
       </tg>
     </mg>
   </e>
@@ -2116,6 +2202,34 @@
 
       <tg xml:lang="fin">
         <t>kuluttua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">пирсувна</l>
+
+      <stg>
+        <st Contlex="AdvManner">пирсувна</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yhtä paljon</t>
       </tg>
     </mg>
   </e>
