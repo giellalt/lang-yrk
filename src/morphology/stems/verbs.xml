@@ -37025,6 +37025,28 @@
 
   <e>
     <lg>
+      <l pos="IV">ябтаворць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">ябтавор</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">kaventua, ohentua, hienontua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">ябтадась</l>
 
       <stg>
@@ -37129,28 +37151,6 @@
 
       <tg xml:lang="fin">
         <t pos="IV">kastua, liota</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="IV">ябтворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">ябтвор</st>
-      </stg>
-    </lg>
-
-    <pos>IV</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="IV"/>
       </tg>
     </mg>
   </e>
@@ -38105,6 +38105,28 @@
 
   <e>
     <lg>
+      <l pos="V-Refl">япась</l>
+
+      <stg>
+        <st Contlex="VR_ЛАХАНА">япа</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">tarttua, liimautua, peittää kokonaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">япхаворць</l>
 
       <stg>
@@ -38120,7 +38142,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">jäähtyä, kylmetä</t>
       </tg>
     </mg>
   </e>
@@ -38318,7 +38340,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">muuttua hiililla varustetuksi</t>
       </tg>
     </mg>
   </e>
@@ -38340,7 +38362,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">muuttua rosoiseksi, kyhmyiseksi</t>
       </tg>
     </mg>
   </e>
@@ -38450,7 +38472,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">erota, erkaantua</t>
       </tg>
     </mg>
   </e>
@@ -38494,7 +38516,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">erottautua, erkaantua</t>
       </tg>
     </mg>
   </e>
@@ -38560,7 +38582,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">pyytää raudoilla</t>
       </tg>
     </mg>
   </e>
@@ -38582,7 +38604,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">kolkuttaa lunta vaatteilta</t>
       </tg>
     </mg>
   </e>
@@ -38604,7 +38626,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tuhoutua, kuolla</t>
       </tg>
     </mg>
   </e>
@@ -38692,7 +38714,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">peittyä noella</t>
       </tg>
     </mg>
   </e>
