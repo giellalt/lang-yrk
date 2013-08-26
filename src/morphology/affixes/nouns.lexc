@@ -98,11 +98,7 @@ LEXICON N_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 +N: NMN_ЕД ;
 
 LEXICON N_ТИРЕ/ХАНО
-+N: SGNOMSUF ;
-+N:а  SG-ACC-STEM ;
-+N:  SG-DAT-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N: NMN_ТИРЕ/ХАНО ;
 
 LEXICON N_ЕД/ХАНО
 +N: SGNOMSUF ;
@@ -353,6 +349,9 @@ LEXICON N_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
 !! тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
 +N: NMN_ТАРЕ ;
 
+LEXICON N_ТАРЕ-Pal/Var !! Where is the variation?
++N: NMN_ТАРЕ ;
+
 LEXICON NMN_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
 :Д1 SGNOMSUF ;
 :Д1 SG-ACC-STEM ;
@@ -374,10 +373,20 @@ LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 +N: NMN_МЯДО ;
 
+LEXICON N_ВАР/МЯДО
+ N_МЯДО ;
+
 LEXICON N_ВАР/ТАРЕ  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
     N_МЯДО ;
 :Д1 PLACCSUF_Е ;
+
+LEXICON NMN_ВАР  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
+:Д1 SGNOMSUF ;
+:Д1 SG-ACC-STEM ;
+:Д1 SG-DAT-STEM ;
+:Д1 PLNOMSUF ;
+:Д1 PLACCSUF_О ;
 
 LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 SGNOMSUF ;
@@ -425,6 +434,14 @@ LEXICON N_МЕРЁ !!= @CODE@ мерё:мерё
 
 
 !! NMN
+LEXICON NMN_ТИРЕ/ХАНО
+ SGNOMSUF ;
+:а  SG-ACC-STEM ;
+  SG-DAT-STEM ;
+  PLNOMSUF ;
+ PLACCSUF_Zero ; !
+
+
 LEXICON NMN_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
   SGNOMSUF ;
   SG-ACC-STEM ;
@@ -713,7 +730,7 @@ LEXICON N_ConsO
 
 LEXICON N_ВАР
 ! варˮ:вар
- N_МЯДО ;
+ NMN_ВАР ;
 
 ! Non-nasal glottal stops
 !2013-05-22!LEXICON NMN_МЯДО
