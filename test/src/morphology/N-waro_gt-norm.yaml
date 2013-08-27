@@ -1,0 +1,214 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - варˮ: # Noun 'dirt' - partial paradigm /Type 32/
+     варˮ+N+Sg+Nom: варˮ
+     варˮ+N+Sg+Acc: вармʼ
+     варˮ+N+Sg+Gen: варʼ
+     варˮ+N+Sg+Dat: вартʼ
+     варˮ+N+Sg+Loc: варкана
+     варˮ+N+Sg+Abl: варкад
+     варˮ+N+Sg+Pros: вармна
+     варˮ+N+Sg+Tra: варˮӈэ
+     варˮ+N+Du+Nom: варкʼ
+     варˮ+N+Du+Acc: варкʼ
+     варˮ+N+Du+Gen: варкʼ
+     варˮ+N+Pl+Nom: варˮ
+     варˮ+N+Pl+Acc: варо
+     варˮ+N+Pl+Gen: вароˮ
+     варˮ+N+Pl+Dat: варкˮ
+     варˮ+N+Pl+Loc: варкаˮна
+     варˮ+N+Pl+Abl: варкат
+     варˮ+N+Pl+Pros: вароˮмана
+     варˮ+N+Pl+Tra: варˮӈэ
+
+# Possessive forms !Local case forms need to be checked!
+     варˮ+N+Sg+Nom+PxSg1: варм
+     варˮ+N+Sg+Nom+PxSg2: вал  
+     варˮ+N+Sg+Nom+PxSg3: варта 
+     варˮ+N+Sg+Nom+PxDu1: вармиʼ
+     варˮ+N+Sg+Nom+PxDu2: валиʼ
+     варˮ+N+Sg+Nom+PxDu3: вартиʼ
+     варˮ+N+Sg+Nom+PxPl1: вармаˮ
+     варˮ+N+Sg+Nom+PxPl2: валаˮ
+     варˮ+N+Sg+Nom+PxPl3: вартоʼ
+     варˮ+N+Sg+Acc+PxSg1: варми  
+     варˮ+N+Sg+Acc+PxSg2: варт  
+     варˮ+N+Sg+Acc+PxSg3: варта 
+     варˮ+N+Sg+Acc+PxDu1: вармиʼ 
+     варˮ+N+Sg+Acc+PxDu2: вартиʼ
+     варˮ+N+Sg+Acc+PxDu3: вартиʼ
+     варˮ+N+Sg+Acc+PxPl1: вармаˮ 
+     варˮ+N+Sg+Acc+PxPl2: вартаˮ
+     варˮ+N+Sg+Acc+PxPl3: вартоʼ
+     варˮ+N+Sg+Gen+PxSg1: варни   
+     варˮ+N+Sg+Gen+PxSg2: варт 
+     варˮ+N+Sg+Gen+PxSg3: варта 
+     варˮ+N+Sg+Gen+PxDu1: варниʼ 
+     варˮ+N+Sg+Gen+PxDu2: вартиʼ
+     варˮ+N+Sg+Gen+PxDu3: вартиʼ
+     варˮ+N+Sg+Gen+PxPl1: варнаˮ 
+     варˮ+N+Sg+Gen+PxPl2: вартаˮ
+     варˮ+N+Sg+Gen+PxPl3: вартоʼ  
+     варˮ+N+Sg+Dat+PxSg1: [варкан, варкани]  
+     варˮ+N+Sg+Dat+PxSg2: варканд  
+     варˮ+N+Sg+Dat+PxSg3: варканда 
+     варˮ+N+Sg+Dat+PxDu1: варканиʼ 
+     варˮ+N+Sg+Dat+PxDu2: варкандиʼ
+     варˮ+N+Sg+Dat+PxDu3: варкандиʼ
+     варˮ+N+Sg+Dat+PxPl1: варканаˮ 
+     варˮ+N+Sg+Dat+PxPl2: варкандаˮ
+     варˮ+N+Sg+Dat+PxPl3: варкандоʼ
+     варˮ+N+Sg+Loc+PxSg1: [варканан, варканани]
+     варˮ+N+Sg+Loc+PxSg2: варкананд  
+     варˮ+N+Sg+Loc+PxSg3: варкананда 
+     варˮ+N+Sg+Loc+PxDu1: варкананиʼ 
+     варˮ+N+Sg+Loc+PxDu2: варканандиʼ
+     варˮ+N+Sg+Loc+PxDu3: варканандиʼ
+     варˮ+N+Sg+Loc+PxPl1: варкананаˮ 
+     варˮ+N+Sg+Loc+PxPl2: варканандаˮ
+     варˮ+N+Sg+Loc+PxPl3: варканандоʼ
+     варˮ+N+Sg+Abl+PxSg1: [варкадан, варкадани]  
+     варˮ+N+Sg+Abl+PxSg2: варкаданд  
+     варˮ+N+Sg+Abl+PxSg3: варкаданда 
+     варˮ+N+Sg+Abl+PxDu1: варкаданиʼ 
+     варˮ+N+Sg+Abl+PxDu2: варкадандиʼ
+     варˮ+N+Sg+Abl+PxDu3: варкадандиʼ
+     варˮ+N+Sg+Abl+PxPl1: варкаданаˮ 
+     варˮ+N+Sg+Abl+PxPl2: варкадандаˮ
+     варˮ+N+Sg+Abl+PxPl3: варкадандоʼ
+     варˮ+N+Sg+Pros+PxSg1: [вармнан, вармнани]
+     варˮ+N+Sg+Pros+PxSg2: вармнанд  
+     варˮ+N+Sg+Pros+PxSg3: вармнанда 
+     варˮ+N+Sg+Pros+PxDu1: вармнаниʼ 
+     варˮ+N+Sg+Pros+PxDu2: вармнандиʼ
+     варˮ+N+Sg+Pros+PxDu3: вармнандиʼ
+     варˮ+N+Sg+Pros+PxPl1: вармнанаˮ 
+     варˮ+N+Sg+Pros+PxPl2: вармнандаˮ
+     варˮ+N+Sg+Pros+PxPl3: вармнандоʼ
+     варˮ+N+Du+Nom+PxSg1: варкаюн  
+     варˮ+N+Du+Nom+PxSg2: варкаюд  
+     варˮ+N+Du+Nom+PxSg3: варкаюда 
+     варˮ+N+Du+Nom+PxDu1: варкаюниʼ
+     варˮ+N+Du+Nom+PxDu2: варкаюдиʼ
+     варˮ+N+Du+Nom+PxDu3: варкаюдиʼ
+     варˮ+N+Du+Nom+PxPl1: варкаюнаˮ
+     варˮ+N+Du+Nom+PxPl2: варкаюдаˮ
+     варˮ+N+Du+Nom+PxPl3: варкаюдоʼ
+     варˮ+N+Du+Acc+PxSg1: варкаюн  
+     варˮ+N+Du+Acc+PxSg2: варкаюд  
+     варˮ+N+Du+Acc+PxSg3: варкаюда 
+     варˮ+N+Du+Acc+PxDu1: варкаюниʼ
+     варˮ+N+Du+Acc+PxDu2: варкаюдиʼ
+     варˮ+N+Du+Acc+PxDu3: варкаюдиʼ
+     варˮ+N+Du+Acc+PxPl1: варкаюнаˮ
+     варˮ+N+Du+Acc+PxPl2: варкаюдаˮ
+     варˮ+N+Du+Acc+PxPl3: варкаюдоʼ
+     варˮ+N+Du+Gen+PxSg1: варкаюн  
+     варˮ+N+Du+Gen+PxSg2: варкают  
+     варˮ+N+Du+Gen+PxSg3: варкаюта 
+     варˮ+N+Du+Gen+PxDu1: варкаюниʼ
+     варˮ+N+Du+Gen+PxDu2: варкаютиʼ
+     варˮ+N+Du+Gen+PxDu3: варкаютиʼ
+     варˮ+N+Du+Gen+PxPl1: варкаюнаˮ
+     варˮ+N+Du+Gen+PxPl2: варкаютаˮ
+     варˮ+N+Du+Gen+PxPl3: варкаютоʼ
+     варˮ+N+Pl+Nom+PxSg1: [варон, варони]
+     варˮ+N+Pl+Nom+PxSg2: варод   
+     варˮ+N+Pl+Nom+PxSg3: варода  
+     варˮ+N+Pl+Nom+PxDu1: варониʼ 
+     варˮ+N+Pl+Nom+PxDu2: вародиʼ 
+     варˮ+N+Pl+Nom+PxDu3: вародиʼ 
+     варˮ+N+Pl+Nom+PxPl1: варонаˮ 
+     варˮ+N+Pl+Nom+PxPl2: вародаˮ 
+     варˮ+N+Pl+Nom+PxPl3: вародоʼ 
+     варˮ+N+Pl+Acc+PxSg1: [варон, варони]
+     варˮ+N+Pl+Acc+PxSg2: варод   
+     варˮ+N+Pl+Acc+PxSg3: варода  
+     варˮ+N+Pl+Acc+PxDu1: варониʼ 
+     варˮ+N+Pl+Acc+PxDu2: вародиʼ 
+     варˮ+N+Pl+Acc+PxDu3: вародиʼ 
+     варˮ+N+Pl+Acc+PxPl1: варонаˮ 
+     варˮ+N+Pl+Acc+PxPl2: вародаˮ 
+     варˮ+N+Pl+Acc+PxPl3: вародоʼ 
+     варˮ+N+Pl+Gen+PxSg1: [вароˮн, вароˮни] 
+     варˮ+N+Pl+Gen+PxSg2: варот   
+     варˮ+N+Pl+Gen+PxSg3: варота  
+     варˮ+N+Pl+Gen+PxDu1: вароˮниʼ
+     варˮ+N+Pl+Gen+PxDu2: варотиʼ 
+     варˮ+N+Pl+Gen+PxDu3: варотиʼ 
+     варˮ+N+Pl+Gen+PxPl1: вароˮнаˮ 
+     варˮ+N+Pl+Gen+PxPl2: варотаˮ 
+     варˮ+N+Pl+Gen+PxPl3: варотоʼ 
+     варˮ+N+Pl+Dat+PxSg1: варкаˮн 
+     варˮ+N+Pl+Dat+PxSg1: варкаˮн
+     варˮ+N+Pl+Dat+PxSg2: варкат 
+     варˮ+N+Pl+Dat+PxSg3: варката 
+     варˮ+N+Pl+Dat+PxDu1: варкаˮниʼ 
+     варˮ+N+Pl+Dat+PxDu2: варкатиʼ 
+     варˮ+N+Pl+Dat+PxDu3: варкатиʼ 
+     варˮ+N+Pl+Dat+PxPl1: варкаˮнаˮ 
+     варˮ+N+Pl+Dat+PxPl2: варкатаˮ 
+     варˮ+N+Pl+Dat+PxPl3: варкатоʼ 
+     варˮ+N+Pl+Loc+PxSg1: варкаˮнан  
+     варˮ+N+Pl+Loc+PxSg2: варкаˮнат
+     варˮ+N+Pl+Loc+PxSg3: варкаˮната 
+     варˮ+N+Pl+Loc+PxDu1: варкаˮнаниʼ
+     варˮ+N+Pl+Loc+PxDu2: варкаˮнатиʼ
+     варˮ+N+Pl+Loc+PxDu3: варкаˮнатиʼ
+     варˮ+N+Pl+Loc+PxPl1: варкаˮнанаˮ
+     варˮ+N+Pl+Loc+PxPl2: варкаˮнатаˮ
+     варˮ+N+Pl+Loc+PxPl3: варкаˮнатоʼ
+     варˮ+N+Pl+Abl+PxSg1: варкатан 
+     варˮ+N+Pl+Abl+PxSg2: варкатат 
+     варˮ+N+Pl+Abl+PxSg3: варкатата 
+     варˮ+N+Pl+Abl+PxDu1: варкатаниʼ
+     варˮ+N+Pl+Abl+PxDu2: варкататиʼ
+     варˮ+N+Pl+Abl+PxDu3: варкататиʼ
+     варˮ+N+Pl+Abl+PxPl1: варкатанаˮ
+     варˮ+N+Pl+Abl+PxPl2: варкататаˮ
+     варˮ+N+Pl+Abl+PxPl3: варкататоʼ
+     варˮ+N+Pl+Pros+PxSg1: вароˮманан  
+     варˮ+N+Pl+Pros+PxSg2: вароˮманат  
+     варˮ+N+Pl+Pros+PxSg3: вароˮманата 
+     варˮ+N+Pl+Pros+PxDu1: вароˮмананиʼ
+     варˮ+N+Pl+Pros+PxDu2: вароˮманатиʼ
+     варˮ+N+Pl+Pros+PxDu3: вароˮманатиʼ
+     варˮ+N+Pl+Pros+PxPl1: вароˮмананаˮ
+     варˮ+N+Pl+Pros+PxPl2: вароˮманатаˮ
+     варˮ+N+Pl+Pros+PxPl3: вароˮманатоʼ
+
+# Predestinative !Should be added
+# Predicative (Nominal conjugation)
+
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg1: вармʼ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg2: варн  
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg3: варˮ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScDu1: варниʼ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScDu2: вартиʼ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScDu3: варкаʼ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScPl1: вармаˮ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScPl2: [вартаˮ, валаˮ] 
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScPl3: варˮ 
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: вартамзь
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: варнась 
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: варць   
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: варнинзь
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: вартинзь
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: варканзь
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: вармаць 
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: [ватаць, валаць]
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: варць
