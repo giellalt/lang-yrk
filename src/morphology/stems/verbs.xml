@@ -1669,10 +1669,10 @@
 
   <e>
     <lg>
-      <l pos="IV">вероˮлюрць</l>
+      <l pos="IV">вэроˮлюрць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">вероˮлюр</st>
+        <st Contlex="IV_ТИР">вэроˮлюр</st>
       </stg>
     </lg>
 
@@ -2736,7 +2736,7 @@
       <l pos="IV">вэрдурць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">вердур</st>
+        <st Contlex="IV_ТИР">вэрдур</st>
       </stg>
     </lg>
 
@@ -8810,7 +8810,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">istua paikalla</t>
       </tg>
     </mg>
   </e>
@@ -13434,7 +13434,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">hehkuttua, hehkuuntua</t>
       </tg>
     </mg>
   </e>
@@ -13522,7 +13522,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">heittäytyä</t>
       </tg>
     </mg>
   </e>
@@ -13566,7 +13566,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">puhua epäselvästi, ymmärtämättömästi</t>
       </tg>
     </mg>
   </e>
@@ -14182,29 +14182,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="TV">rakastaa, tykätä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="TV">мэнесь</l>
-
-      <stg>
-        <st Contlex="TV_ИЛЕ">мэне</st>
-      </stg>
-    </lg>
-
-    <pos>TV</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="TV">pitää (jostakin), rakastaa</t>
+        <t pos="TV">pitää (jostakin), rakastaa, tykätä</t>
       </tg>
     </mg>
   </e>
@@ -19493,7 +19471,8 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">olla pukeutunut epäsopivasti, olla ilman sopivia
+        vaatteita</t>
       </tg>
     </mg>
   </e>
@@ -24309,7 +24288,7 @@
       <l pos="TV">пасресь</l>
 
       <stg>
-        <st Contlex="TV_ИЛЕ">пасре</st>
+        <st Contlex="IV_ИЛЕ">пасре</st>
       </stg>
     </lg>
 
@@ -31066,7 +31045,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">olla kunnossa, ei sekava, ei sotkuinen</t>
       </tg>
     </mg>
   </e>
@@ -31088,7 +31067,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">keventyä, parantua</t>
       </tg>
     </mg>
   </e>
@@ -31155,6 +31134,28 @@
 
       <tg xml:lang="fin">
         <t pos="IV"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">сивартась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">сиварта</st>
+      </stg>
+    </lg>
+
+    <pos>IV</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="IV">kaivella, penkoa</t>
       </tg>
     </mg>
   </e>
@@ -38469,7 +38470,7 @@
       <l pos="IV">тирцидесь</l>
 
       <stg>
-        <st Contlex="IV_ИЛЕ">тирциде</st>
+        <st Contlex="TV_ИЛЕ">тирциде</st>
       </stg>
     </lg>
 
@@ -53987,10 +53988,10 @@
 
   <e>
     <lg>
-      <l pos="TV">ӈамгэхэртсялмдембась</l>
+      <l pos="TV">ӈамгэхэртасялмдембась</l>
 
       <stg>
-        <st Contlex="TV_ПЭБЮ">ӈамгэхэртсялмдемба</st>
+        <st Contlex="TV_ПЭБЮ">ӈамгэхэртасялмдемба</st>
       </stg>
     </lg>
 
@@ -54009,10 +54010,10 @@
 
   <e>
     <lg>
-      <l pos="TV">ӈамгэхэртсялмдесь</l>
+      <l pos="TV">ӈамгэхэртасялмдесь</l>
 
       <stg>
-        <st Contlex="TV_ИЛЕ">ӈамгэхэртсялмде</st>
+        <st Contlex="TV_ИЛЕ">ӈамгэхэртасялмде</st>
       </stg>
     </lg>
 
