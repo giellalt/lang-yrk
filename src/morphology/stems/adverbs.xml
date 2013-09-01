@@ -36,6 +36,34 @@
 
   <e>
     <lg>
+      <l pos="Adv">варцавэйʼ</l>
+
+      <stg>
+        <st Contlex="AdvManner">варцавэйʼ</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>likaisesti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">вэвавна</l>
 
       <stg>
@@ -4300,6 +4328,34 @@
 
       <tg xml:lang="fin">
         <t>vastapäätä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ямбувна</l>
+
+      <stg>
+        <st Contlex="AdvTemp">ямбувна</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kauan, pitkään, jatkuvasti</t>
       </tg>
     </mg>
   </e>
