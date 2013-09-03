@@ -241,7 +241,7 @@ LEXICON V-Ny
 +V+Inf+Pеrf:%>ёˮма K ; !Н1  > ø
 +V+Part+Impеrf:%>да K ;
 +V+Part+Pеrf:%>вы K ;
-+V+Conneg:%>йˮ K ; !Н1  > ø
++V+ConNeg:%>йˮ K ; !Н1  > ø
 
 
 !! after +TV, +IV, +Aux, +Refl
@@ -530,6 +530,7 @@ LEXICON V-01_МЫ
  V_Opt ;
  V_Subord ;
  V_Conj ;
+ V_Fut ;
  V_Mod/appr ;
  V_Mod/des ;
  V_Mod/futappr ;
@@ -548,6 +549,7 @@ LEXICON V-01_МЫ
  IND-AOR-SG3 	;
  IND-PRT1		;
  PRC ;
++ConNeg:%^VowRaise%>ˮ     K ;
 
 LEXICON V-01_НЁ
 @R.CONJ.ObjAll@ V_Obj ;
