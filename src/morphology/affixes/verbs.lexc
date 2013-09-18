@@ -73,6 +73,9 @@ LEXICON IV_МЫ
 LEXICON TV_МЫ
 +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_МЫ       ;
 
+LEXICON IV_НЕНЫ
++V+IV: V-01_НЕНЫ       ;
+
 LEXICON VA_НЁ
 +V+Aux: V-01_НЁ       ;
 
@@ -527,6 +530,35 @@ LEXICON V-01_МЭ
 
 
 LEXICON V-01_МЫ
+@R.CONJ.ObjAll@ V_Obj ;
+ V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt ;
+ V_Opt ;
+ V_Subord ;
+ V_Conj ;
+ V_Fut ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-PRT1		;
+ PRC ;
++ConNeg:%^VowRaise%>ˮ     K ;
+
+LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
 @R.CONJ.ObjAll@ V_Obj ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
