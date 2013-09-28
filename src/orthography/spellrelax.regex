@@ -1,68 +1,17 @@
-ӯ (->) ӯ, # Cyrillic у + U+0304 (->) precomposed
-ӣ (->) ӣ, # Cyrillic и + U+0304 (->) precomposed
-у (->) ӯ, # Cyrillic у + U+0304 (->) basic
-и (->) ӣ, # Cyrillic и + U+0304 (->) basic
-          # We use composing letters, may get precomposed input
-          # (No other long Cyrillic vowels precomposed)
-а (->) а̄, # Cyrillic for sjd
-е (->) е̄, # Cyrillic for sjd
-о (->) о̄, # Cyrillic for sjd
-ӯ (->) у, # Cyrillic for sjd
-ы (->) ы̄, # Cyrillic for sjd
-ю (->) ю̄, # Cyrillic for sjd
-я (->) я̄, # Cyrillic for sjd
-и (->) ӣ, # Cyrillic for sjd
-а (->) а́, # Russian long vowel, accept short
-е́ (->) е, # Russian long vowel, accept short
-и (->) и́, # Russian long vowel, accept short
-о (->) о́, # Russian long vowel, accept short
-у (->) у́, # Russian long vowel, accept short
-я (->) я́, # Russian long vowel, accept short
-#ё (->) е, # Russian long vowel, accept je pro jo
-ы (->) ы́, # Russian long vowel, accept short
-ю (->) ю́, # Russian long vowel, accept short
-а (->) ӑ, # Cyrillic short vowel, accept normal
-а (->) ӑ, # Cyrillic short vowel (precomposed), accept normal
-е (->) ӗ, # Cyrillic short vowel, accept normal
-е (->) ӗ, # Cyrillic short vowel (precomposed), accept normal
-и (->) й, # Cyrillic short vowel, accept normal
-#й (->) и, # Cyrillic short vowel (precomposed), identical to i-kratkoe - separate letter
-у (->) ў, # Cyrillic short vowel, accept normal
-у (->) ў, # Cyrillic short vowel (precomposed), accept normal
-я (->) я̆, # Cyrillic short vowel, accept normal
-ю (->) ю̆, # Cyrillic short vowel, accept normal
-э (->) э˙, # Cyrillic vowel with dot above, accept normal
-# glottal stops
-# ˮ (->) %", #
-# ˮ (->) “, #
-# ˮ (->) ”, #
-# ʼ (->) ', #
-# ʼ (->) ‘, #
-# ʼ (->) ’, #
-# ʼ (->) %´, #
-# ʼ (->) %`, #
+# Tundra Nenets
 
-ӈ (->) ң, # Cyrillic En with descender instead En with hook
-Ӈ (->) Ң # Cyrillic capital En with descender instead En with hook
+# Glottal stop spellrelax
+
+%ˮ (->) %", # 02EE not quot " 
+%ˮ (->) %”, # 02EE not double high-9
+ ʼ (->)  ', # 02BC not apostr
+ ʼ (->)  ‘, # 02BC not high-6
+ ʼ (->)  ’, # 02BC not high-9
+ ʼ (->) %´, # 02BC not acute
+ ʼ (->) %`  #  02BC not grave
 ;
 
 # Explanation:
 # lexical side (->) input 
-
-# Future thought:
-# A posible change is to split this file into lg-specific files.
-# As the number of language grow, this might be more relevant.
-# Especially conflicting rules a -> b, b -> a in different lgs
-# might force a split of this file.
-
-# Note:
-# Some of the lines above seem to contain identical letters, 
-# and in some cases the same right-hand letter seems to occure twice.
-# In each case, the __second__ of these is a non-precomposed letter.
-# In order to check which one is which one, open this file in emacs
-# and read through the line with the arrow key. The letters who span over
-# two characters (press arrow twice) are the precomposed ones.
-
-# Note that the ï/Ï letters are there for sma.
-# They are probably substandard, and should be relegated to sma.fst
-# but removed from a sma.norm.fst.
+# or:
+# correct (->) out there
