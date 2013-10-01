@@ -6596,14 +6596,14 @@
 
   <e>
     <lg>
-      <l pos="N">пударюк</l>
+      <l pos="A">пударюк</l>
 
       <stg>
-        <st Contlex="N_ЕД">пударюк</st>
+        <st Contlex="A_ЕД">пударюк</st>
       </stg>
     </lg>
 
-    <pos>N</pos>
+    <pos>A</pos>
 
     <mg>
       <m>
@@ -6611,7 +6611,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="N">sirote-</t>
+        <t pos="A">sirote-</t>
       </tg>
     </mg>
   </e>
@@ -7344,6 +7344,32 @@
 
   <e>
     <lg>
+      <l pos="A">пярв</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">пярв</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">tosi kova, luja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">пярцавэй</l>
 
       <stg>
@@ -7388,14 +7414,14 @@
 
   <e>
     <lg>
-      <l pos="N">пяӈгуй</l>
+      <l pos="A">пяӈгуй</l>
 
       <stg>
-        <st Contlex="N_ЕД">пяӈгуй</st>
+        <st Contlex="A_ЕД">пяӈгуй</st>
       </stg>
     </lg>
 
-    <pos>N</pos>
+    <pos>A</pos>
 
     <mg>
       <m>
@@ -7403,7 +7429,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="N">epämiellyttävä, vihollis-</t>
+        <t pos="A">epämiellyttävä, vihollis-</t>
       </tg>
     </mg>
   </e>
@@ -8561,7 +8587,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="A">(hauraksi) kuivunut</t>
+        <t pos="A">(hauraaksi) kuivunut</t>
       </tg>
     </mg>
   </e>
@@ -9678,6 +9704,28 @@
 
       <tg xml:lang="fin">
         <t pos="A"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тахарув</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тахарув</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">erilainen, sekoitettu</t>
       </tg>
     </mg>
   </e>
