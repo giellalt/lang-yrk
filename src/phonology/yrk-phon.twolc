@@ -110,11 +110,7 @@ Rules
 !! __@RULENAME@__
 А2:0 <= # Cns* :Vws [ %> | Cns | ˮ ]+ м: _ н а ; 
          :Vws %^MLenition:0 %> м: _ н а ; 
-         [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
-
-"А2:0 possible vowel loss as second syllable vowel"
-!! __@RULENAME@__
-А2:0 =>  :Vws %^MLenition:0 %> м: _ н а ; 
+         # Cns:* Vws:+ Ӈ1: %^MLenition:0 %> м: _ н а ; !! поʼ:помна
          [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
 
 "0:U in sgprossuf"
@@ -331,7 +327,7 @@ Rules
 
 "Ӈ1:н GlottalNasalToSurface"
 !! __@RULENAME@__
-Ӈ1:н <=> _ %>: [ с: | н:д | д | ц: | ˮ ] ;
+Ӈ1:н <=> _ %>: [ с: | н:д | д | ц: | ˮ | м: д ] ;
 
 
 !! !LOSS
@@ -342,6 +338,7 @@ Rules
 "m loss before Labial followed by nonglottal cons or vows "
 !! __@RULENAME@__
 м:0 <=> _ ʼ: %>: [ м [ а | и | н | д ] | в: ] ;
+        Ӈ1: %> _ д ; !! * @CODE@ поʼ+N+Sg+Acc+PxSg2:понд 
 
 !"Н1:0 GlottalNasalToSurface"
 !Cx:0 <=> _ %>: [ м | ʼ ] ;
