@@ -139,7 +139,8 @@ no change in stem
   ӈэ:ӈэ 1  !!ProsSg -вна
   я:я 2 !!ProsSg -вна
 
- LEXICON N_ПИ   пя: 3 !!ProsSg -вна
+ LEXICON N_ПИ   пя:пя 3 !!ProsSg -вна
+* Yaml: __pyi__
 [total=3]
 пя pya	пян’ pyan°h	пя” pyaq	пи pyí
 
@@ -261,7 +262,8 @@ no change in stem
 
  LEXICON NMN_МУНО   муʼ: 27  !!ProsSg -мна
 
- LEXICON N_ПОЁ   поʼ: 28  !!ProsSg -мна
+ LEXICON N_ПОЁ   поʼ:по 28  !!ProsSg -мна
+* Yaml: __poyo__
 ң [total=2]
 по’(ң) poh	понд’ pont°h	пой” poy°q	поё poyo
 Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
@@ -583,8 +585,7 @@ __а:я VowelPalatalization__
 __у:ю VowelPalatalization__
 
 __А2:0 possible vowel loss as second syllable vowel__
-
-__А2:0 possible vowel loss as second syllable vowel__
+поʼ:помна
 
 __0:U in sgprossuf__
 
@@ -699,6 +700,7 @@ __Ӈ1:н GlottalNasalToSurface__
 
 
 __m loss before Labial followed by nonglottal cons or vows __
+* @NO CODE@ поʼ+N+Sg+Acc+PxSg2:понд 
 
 
 __Д1:0 GlottalNonNasalToZERO__
