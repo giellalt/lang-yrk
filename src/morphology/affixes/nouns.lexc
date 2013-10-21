@@ -7,6 +7,7 @@
 LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! no change in stem
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
+!! * Yaml: __xo__
 +N: NMN_ӇЭ ;
 
 LEXICON N_ӇЭ-PAL/VAR  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
@@ -869,6 +870,7 @@ LEXICON SG-DAT-STEM
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
+PRED-POSSESSA ; ! This is perhaps a derivation
 
 LEXICON SGACCSUF
 +Sg+Acc:%>мʼ K ;
@@ -1183,6 +1185,49 @@ LEXICON POSSESSA-PL-NOM
  PL-NOM-PXPL2 ;
  PL-NOM-PXPL3 ;
 
+LEXICON PRED-POSSESSA
+!!= * @CODE@ Could +Sg+Nom+PxSg3:%>да be the basis?
+ PRED-ACC-POSSESSA ;
+ PRED-GEN-POSSESSA ;
+ PRED-NOM-POSSESSA ;
+
+LEXICON PRED-NOM-POSSESSA
++Pred+Nom+PxSg1:%>да%>в   K ;
++Pred+Nom+PxSg2:%>да%>р   K ;
++Pred+Nom+PxSg3:%>да  K ;
++Pred+Nom+PxDu1:%>да%>миʼ K ;
++Pred+Nom+PxDu2:%>да%>риʼ K ;
++Pred+Nom+PxDu3:%>да%>диʼ K ;
++Pred+Nom+PxPl1:%>да%>ваˮ K ;
++Pred+Nom+PxPl2:%>да%>раˮ K ;
++Pred+Nom+PxPl3:%>да%>доʼ K ;
+
+LEXICON PRED-ACC-POSSESSA
++Pred+Acc+PxSg1:%>да%>в    K ;
++Pred+Acc+PxSg1:%>да%>ми   K ;
++Pred+Acc+PxSg2:%>да%>мд   K ;
++Pred+Acc+PxSg3:%>да%>мда  K ;
++Pred+Acc+PxDu1:%>да%>миʼ  K ;
++Pred+Acc+PxDu2:%>да%>мдиʼ K ;
++Pred+Acc+PxDu3:%>да%>мдиʼ K ;
++Pred+Acc+PxPl1:%>да%>ваˮ  K ;
++Pred+Acc+PxPl2:%>да%>мдаˮ K ;
++Pred+Acc+PxPl3:%>да%>мдоʼ K ;
+
+LEXICON PRED-GEN-POSSESSA
++Pred+Gen+PxSg1:%>да%>н    K ;
++Pred+Gen+PxSg1:%>да%>ни   K ;
++Pred+Gen+PxSg2:%>да%>нд   K ;
++Pred+Gen+PxSg3:%>да%>нда  K ;
++Pred+Gen+PxDu1:%>да%>ниʼ  K ;
++Pred+Gen+PxDu2:%>да%>ндиʼ K ;
++Pred+Gen+PxDu3:%>да%>ндиʼ K ;
++Pred+Gen+PxPl1:%>да%>наˮ  K ;
++Pred+Gen+PxPl2:%>да%>ндаˮ K ;
++Pred+Gen+PxPl3:%>да%>ндоʼ K ;
+
+
+
 LEXICON PL-NOM-PXSG1
 +Pl+Nom+PxSg1:%>н   K ;
 +Pl+Nom+PxSg1:%>ни   K ;
@@ -1363,6 +1408,7 @@ LEXICON POSSESSA-PL-PROS
 !! Conjugation of nouns and adjectives
 LEXICON NOMINAL-CONJUGATION
 +Der/Pr+Ind+Aor+ScSg1:%>дмʼ K ;
++Der/Pr+Ind+Aor+ScSg1:%>мʼ K ; !хомʼ
 +Der/Pr+Ind+Aor+ScSg2:%>н   K ;
 +Der/Pr+Ind+Aor+ScSg3:      K ;
 +Der/Pr+Ind+Aor+ScDu1:%>ниʼ K ;
@@ -1373,6 +1419,7 @@ LEXICON NOMINAL-CONJUGATION
 +Der/Pr+Ind+Aor+ScPl3:%>ˮ   K ;
 
 +Der/Pr+Ind+Prt1+ScSg1:%>дамзь K ;
++Der/Pr+Ind+Prt1+ScSg1:%>манзь K ; !хоманзь
 +Der/Pr+Ind+Prt1+ScSg2:%>нась  K ;
 +Der/Pr+Ind+Prt1+ScSg3:%>сь    K ;
 +Der/Pr+Ind+Prt1+ScDu1:%>нинзь K ;
