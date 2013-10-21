@@ -202,15 +202,15 @@ Rules
 
 "а:0 Stem vowel loss in plural accusative"
 !! __@RULENAME@__
-а:0 <=> Cns _ (%^VowFronting) %^VowLoss:0 ;
+а:0 <=> Cns _ (%^VowFronting:) %^VowLoss:0 ;
 
 "я:ь Stem vowel loss in plural accusative"
 !! __@RULENAME@__
-я:ь <=> Cns _ (%^VowFronting) %^VowLoss:0 ;
+я:ь <=> Cns _ (%^VowFronting:) %^VowLoss:0 ;
 
 "я:й Stem vowel loss in plural accusative"
 !! __@RULENAME@__
-я:й <=> Vws _ (%^VowFronting) %^VowLoss:0 ;
+я:й <=> Vws _ (%^VowFronting:) %^VowLoss:0 ;
 
 "я:0 Stem vowel loss in plural accusative"
 !! __@RULENAME@__
