@@ -9,6 +9,7 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 !! * Yaml: __xo__
 +N: NMN_ӇЭ ;
++N+Pl+Pros:%>ˮА1мна	K ; !2013-10-22
 
 LEXICON N_ӇЭ-PAL/VAR  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! no change in stem
@@ -1017,6 +1018,26 @@ LEXICON POSSESSA-SG-NOM
 +Sg+Nom+PxPl2:%>раˮ K ; ! (1961: 110) даˮ but л after Glots and schwa
 +Sg+Nom+PxPl3:%>доʼ K ;
 
++Sg+Nom+PxSg1+Der/Pr+Ind+Aor:%>в   K ; !!= @CODE@ 2013-10-22 Should this also have +ScSg3 marking
++Sg+Nom+PxSg2+Der/Pr+Ind+Aor:%>р   K ;
++Sg+Nom+PxSg3+Der/Pr+Ind+Aor:%>да  K ;
++Sg+Nom+PxDu1+Der/Pr+Ind+Aor:%>миʼ K ;
++Sg+Nom+PxDu2+Der/Pr+Ind+Aor:%>риʼ K ;
++Sg+Nom+PxDu3+Der/Pr+Ind+Aor:%>диʼ K ;
++Sg+Nom+PxPl1+Der/Pr+Ind+Aor:%>ваˮ K ;
++Sg+Nom+PxPl2+Der/Pr+Ind+Aor:%>раˮ K ;
++Sg+Nom+PxPl3+Der/Pr+Ind+Aor:%>доʼ K ;
+
++Sg+Nom+PxSg1+Der/Pr+Ind+Prt1:%>вась   K ;
++Sg+Nom+PxSg2+Der/Pr+Ind+Prt1:%>рась   K ;
++Sg+Nom+PxSg3+Der/Pr+Ind+Prt1:%>дась  K ;
++Sg+Nom+PxDu1+Der/Pr+Ind+Prt1:%>минзь K ;
++Sg+Nom+PxDu2+Der/Pr+Ind+Prt1:%>ринзь K ;
++Sg+Nom+PxDu3+Der/Pr+Ind+Prt1:%>динзь K ;
++Sg+Nom+PxPl1+Der/Pr+Ind+Prt1:%>ваць K ;
++Sg+Nom+PxPl2+Der/Pr+Ind+Prt1:%>раць K ;
++Sg+Nom+PxPl3+Der/Pr+Ind+Prt1:%>донзь K ;
+
 LEXICON POSSESSA-SG-ACC
 +Sg+Acc+PxSg1:%>в    K ;
 +Sg+Acc+PxSg1:%>ми   K ;! (1961: 112) нюми, ӈэсями, мяˮми 
@@ -1129,6 +1150,26 @@ LEXICON POSSESSA-DUAL
 +Du+Nom+PxPl2:%>хА1юдаˮ     K ;
 +Du+Nom+PxPl3:%>хА1юдоʼ     K  ;
 
++Du+Nom+PxSg1+Der/Pr+Ind+Aor:%>хА1юн       K ;
++Du+Nom+PxSg2+Der/Pr+Ind+Aor:%>хА1юд       K ;
++Du+Nom+PxSg3+Der/Pr+Ind+Aor:%>хА1юда      K ;
++Du+Nom+PxDu1+Der/Pr+Ind+Aor:%>хА1юниʼ     K ;
++Du+Nom+PxDu2+Der/Pr+Ind+Aor:%>хА1юдиʼ     K ;
++Du+Nom+PxDu3+Der/Pr+Ind+Aor:%>хА1юдиʼ     K ;
++Du+Nom+PxPl1+Der/Pr+Ind+Aor:%>хА1юнаˮ     K ;
++Du+Nom+PxPl2+Der/Pr+Ind+Aor:%>хА1юдаˮ     K ;
++Du+Nom+PxPl3+Der/Pr+Ind+Aor:%>хА1юдоʼ     K  ;
+
++Du+Nom+PxSg1+Der/Pr+Ind+Prt1:%>хА1юнась       K ;
++Du+Nom+PxSg2+Der/Pr+Ind+Prt1:%>хА1юдась       K ;
++Du+Nom+PxSg3+Der/Pr+Ind+Prt1:%>хА1юдась      K ;
++Du+Nom+PxDu1+Der/Pr+Ind+Prt1:%>хА1юнинзь     K ;
++Du+Nom+PxDu2+Der/Pr+Ind+Prt1:%>хА1юдинзь     K ;
++Du+Nom+PxDu3+Der/Pr+Ind+Prt1:%>хА1юдинзь     K ;
++Du+Nom+PxPl1+Der/Pr+Ind+Prt1:%>хА1юнаць     K ;
++Du+Nom+PxPl2+Der/Pr+Ind+Prt1:%>хА1юдаць     K ;
++Du+Nom+PxPl3+Der/Pr+Ind+Prt1:%>хА1юдонзь     K  ;
+
 +Du+Acc+PxSg1:%>хюн   K ;
 +Du+Acc+PxSg2:%>хюд   K ;
 +Du+Acc+PxSg3:%>хюда  K ;
@@ -1231,30 +1272,48 @@ LEXICON PRED-GEN-POSSESSA
 LEXICON PL-NOM-PXSG1
 +Pl+Nom+PxSg1:%>н   K ;
 +Pl+Nom+PxSg1:%>ни   K ;
++Pl+Nom+PxSg1+Der/Pr+Ind+Aor:%>н   K ;
++Pl+Nom+PxSg1+Der/Pr+Ind+Prt1:%>нась   K ;
 
 LEXICON PL-NOM-PXSG2
 +Pl+Nom+PxSg2:%>д   K ;
++Pl+Nom+PxSg2+Der/Pr+Ind+Aor:%>д   K ;
++Pl+Nom+PxSg2+Der/Pr+Ind+Prt1:%>дась   K ;
 
 LEXICON PL-NOM-PXSG3
 +Pl+Nom+PxSg3:%>да  K ;
++Pl+Nom+PxSg3+Der/Pr+Ind+Aor:%>да  K ;
++Pl+Nom+PxSg3+Der/Pr+Ind+Prt1:%>дась  K ;
 
 LEXICON PL-NOM-PXDU1
 +Pl+Nom+PxDu1:%>ниʼ K ;
++Pl+Nom+PxDu1+Der/Pr+Ind+Aor:%>ниʼ K ;
++Pl+Nom+PxDu1+Der/Pr+Ind+Prt1:%>нинзь K ;
 
 LEXICON PL-NOM-PXDU2
 +Pl+Nom+PxDu2:%>диʼ K ;
++Pl+Nom+PxDu2+Der/Pr+Ind+Aor:%>диʼ K ;
++Pl+Nom+PxDu2+Der/Pr+Ind+Prt1:%>динзь K ;
 
 LEXICON PL-NOM-PXDU3
 +Pl+Nom+PxDu3:%>диʼ K ;
++Pl+Nom+PxDu3+Der/Pr+Ind+Aor:%>диʼ K ;
++Pl+Nom+PxDu3+Der/Pr+Ind+Prt1:%>динзь K ;
 
 LEXICON PL-NOM-PXPL1
 +Pl+Nom+PxPl1:%>наˮ K ;
++Pl+Nom+PxPl1+Der/Pr+Ind+Aor:%>наˮ K ;
++Pl+Nom+PxPl1+Der/Pr+Ind+Prt1:%>наць K ;
 
 LEXICON PL-NOM-PXPL2
 +Pl+Nom+PxPl2:%>даˮ K ;
++Pl+Nom+PxPl2+Der/Pr+Ind+Aor:%>даˮ K ;
++Pl+Nom+PxPl2+Der/Pr+Ind+Prt1:%>даць K ;
 
 LEXICON PL-NOM-PXPL3
 +Pl+Nom+PxPl3:%>доʼ K ;
++Pl+Nom+PxPl3+Der/Pr+Ind+Aor:%>доʼ K ;
++Pl+Nom+PxPl3+Der/Pr+Ind+Prt1:%>донзь K ;
 
 !!+Pl+Gen+PxSg1:%>ˮн   K ; ! Check 2013-01-09 %>н
 !!+Pl+Gen+PxSg1:%>ˮни  K ; ! Check 2013-01-09 %>н
