@@ -321,11 +321,13 @@ LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29  !!ProsSg -мна /-мана
 
 
 LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ:ил 30   !!ProsSg -мана
+!! * Yaml: __ilje__
 !! ң [total=13]
 !! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
 +N:Ӈ1 SGNOMSUF ;
 +N:аӇ1 SG-ACC-STEM ;
-+N:аӇ1 SG-DAT-STEM ;
+!+N:аӇ1 SG-DAT-STEM ; !!= @CODE@ 2013-10-25
++N:Ӈ1 SG-DAT-STEM ; !!= @CODE@ 
 +N:а PLNOMSUF ;
 +N:ъ PLACCSUF_Е ;
 
@@ -448,10 +450,10 @@ LEXICON NMN_ТИРЕ/ХАНО
 
 LEXICON NMN_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
   SGNOMSUF ;
-  SG-ACC-STEM ;
-  SG-DAT-STEM ;
-  PLNOMSUF ;
-  PLACCSUF_Zero ;
+  SG-ACC-STEM ; !!= @CODE@ SGACCSUF, SGGENSUF
+  SG-DAT-STEM ; !!= @CODE@ SG[DAT,LOC, ABL,TRA,PRO] DU[NOM,ACC,GEN] PL[DAT,LOC,ABL,TRA] PX-s, NOMINAL-CONJUGATION
+  PLNOMSUF ;  !!= @CODE@ 
+  PLACCSUF_Zero ; !!= @CODE@ => PL-ACC_STEM
 
 LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
   SGNOMSUF ;
