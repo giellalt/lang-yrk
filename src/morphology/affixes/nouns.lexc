@@ -133,6 +133,7 @@ LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14 !!ProsSg -вна
 +N:  SG-NOM-STEM ;
 +N:  PLNOMSUF ;
 +N:%^A2I PLACCSUF_Zero ; !
++N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
 !! [total=53]
@@ -239,6 +240,7 @@ LEXICON N_ПИСЬ  !!= @CODE@ пися: 21 !!ProsSg -вна
 +N:  SG-NOM-STEM ;
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
++N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 !! [total=1]
@@ -342,7 +344,7 @@ LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ:ил 30   !!ProsSg -мана
 +N:Ӈ1 SG-NOM-STEM ; !!= @CODE@ 
 +N:а PLNOMSUF ;
 +N:ъ PLACCSUF_Е ;
-
++N:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31   !!ProsSg -мна
 !! ң [total=2]
@@ -414,6 +416,7 @@ LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 SG-NOM-STEM ;
 :Д1 PLNOMSUF ;
 :Д1 PLACCSUF_О ;
+:Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
 !! [total=1]
