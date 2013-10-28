@@ -204,6 +204,7 @@ LEXICON N_ХОБ  !!= @CODE@ хоба:хоба 19 !!ProsSg -вна
 +N:  SG-NOM-STEM ;
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
++N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ӇУДИ/ХОБ
 !!
@@ -231,6 +232,7 @@ LEXICON N_ТЁН  !!= @CODE@ тёня: 20 !!ProsSg -вна
 +N:  SG-NOM-STEM ;
 +N: PLNOMSUF ;
 +N:%^PalLoss PLACCSUF_Minus ;
++N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ПИСЬ  !!= @CODE@ пися: 21 !!ProsSg -вна
 !! [total=10]
@@ -250,6 +252,7 @@ LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 +N:  SG-NOM-STEM ;
 +N: PLNOMSUF ;
 +N:%^VowFronting PLACCSUF_Minus ;
++N:   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
 !! * Yaml: __nano__
@@ -279,6 +282,7 @@ LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24 !!ProsSg -вна
 +N:%^VowRaise PLACCSUF_Zero ;
 
 LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 !!ProsSg -(м)на
+!! * Yaml: __yam__
 !! [total=3]
 !! ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
 !LEXICON N_ЯМ !! 25!ямʼ:я
@@ -288,7 +292,7 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 !!ProsSg -(м)на
 
 +N:%^MLenition PLNOMSUF ;
 +N:%^MLenition PLACCSUF_О ;
-
++N:ʼ  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26  !!ProsSg -(м)на
 !! [total=0]
@@ -332,7 +336,7 @@ LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29  !!ProsSg -мна /-мана
 +N:Ӈ1 SG-NOM-STEM ;
 +N:Ӈ1 PLNOMSUF ;
 +N:Ӈ1 PLACCSUF_О ;
-
++N:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ:ил 30   !!ProsSg -мана
 !! * Yaml: __ilje__
@@ -408,6 +412,7 @@ LEXICON NMN_ВАР  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 SG-NOM-STEM ;
 :Д1 PLNOMSUF ;
  PLACCSUF_О ;
+:Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! * Yaml: __myado__
@@ -419,6 +424,7 @@ LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
+!! * Yaml: __yidye__
 !! [total=1]
 !! и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
 +N:Д1 SGDATSUF ;
@@ -426,7 +432,7 @@ LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
 +N:аС1 SG-NOM-STEM ;
 +N:Д1 PLNOMSUF ;
 +N:Д1 PLACCSUF_Е ;
-
++N:Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_Vow
 +TYÄ+N: K ;
@@ -471,6 +477,7 @@ LEXICON NMN_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
   SG-NOM-STEM ; !!= @CODE@ SG[DAT,LOC, ABL,TRA,PRO] DU[NOM,ACC,GEN] PL[DAT,LOC,ABL,TRA] PX-s, NOMINAL-CONJUGATION
   PLNOMSUF ;  !!= @CODE@ 
   PLACCSUF_Zero ; !!= @CODE@ => PL-ACC_STEM
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
   SGDATSUF ;
@@ -479,6 +486,7 @@ LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
   PLNOMSUF ;
   PLPROSSUF ;
 :%^A2O PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_ӇЭ/Ё
   SGDATSUF ;
@@ -504,6 +512,7 @@ LEXICON NMN_ТЫ  !!= @CODE@ ты: 4 !!ProsSg -вна
   SG-NOM-STEM ;
   PLNOMSUF ;
 :%> PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
 !! [total=1]
@@ -513,6 +522,7 @@ LEXICON NMN_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
   SG-NOM-STEM ;
   PLNOMSUF ;
 :в PLACCSUF_О ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
 !! [total=0]
@@ -522,6 +532,7 @@ LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
   SG-NOM-STEM ;
   PLNOMSUF ;
  PLACCSUF_Ё ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_ИБЕ  !!= @CODE@ и: 7 !!ProsSg -вна
 !! [total=0]
@@ -563,6 +574,7 @@ LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
   SG-NOM-STEM ;
   PLNOMSUF ;
   PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_ЕД/ХУСУВЭЙ
  SGDATSUF ;
@@ -591,14 +603,16 @@ SGDATSUF ;
   SG-NOM-STEM ;
   PLNOMSUF ;
   PLACCSUF_Е ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
+!! * Yaml: __yed__
     SGDATSUF ;
 :а  SG-ACC-STEM ;
     SG-NOM-STEM ;
     PLNOMSUF ;
     PLACCSUF_Zero ; !
-
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
