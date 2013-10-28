@@ -10,9 +10,9 @@ LEXICON NUM_ТИРЕ/ХАНО
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТИРЕ/ХАНО ;
 
-LEXICON NUM_ХУСУВЭЙ
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ХУСУВЭЙ ;
+LEXICON QNT_ХУСУВЭЙ
++Qnt+Adn: K ;
++Qnt+Der/MWN+N: NMN_ХУСУВЭЙ ;
 
 !! we need to get away from these: NUM_VOW and NUM_CONS
 LEXICON NUM_VOW
