@@ -2,15 +2,19 @@
 !! ---------------
 !! Nenets quantifiers ...
 
+LEXICON NUM_ТАРЕ
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ТАРЕ ;
+
 LEXICON NUM_ТИРЕ/ХАНО
-+Qnt+Adn: K ;
-+Qnt+Der/MWN: NMN_ТИРЕ/ХАНО ;
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ТИРЕ/ХАНО ;
 
 LEXICON NUM_ХУСУВЭЙ
-+Qnt+Adn: K ;
-+Qnt+Der/MWN: NMN_ХУСУВЭЙ ;
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ХУСУВЭЙ ;
 
-
+!! we need to get away from these: NUM_VOW and NUM_CONS
 LEXICON NUM_VOW
 +Qnt+Adn: K ;
 +Qnt+Der/MWN: N_Vow ;

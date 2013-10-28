@@ -5,6 +5,9 @@
 LEXICON IV_ВАДЮ
 +V+IV: V-01_ВАДЮ       ;
 
+LEXICON TV_ВАДЮ
++V+TV@P.CONJ.ObjAll:00@P.CONJ.ObjAll V-01_ВАДЮ       ;
+
 LEXICON IV_Е
 +V+IV: V-01_Е ;
 
@@ -35,7 +38,7 @@ LEXICON VR_ИЛЕ-Pal/Var !! Work needed for variation 2013-09-05
 
 
 LEXICON TV_ИЛЕ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ИЛЕ	;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ИЛЕ	;
 
 LEXICON IV_ЛАХАНА
 +V+IV: V-01_ЛАХАНА       ;
@@ -47,10 +50,10 @@ LEXICON VR_ЛАХАНА
 +V+Refl: V-01_ЛАХАНА-REFL       ;
 
 LEXICON TV_ЛАХАНА
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
 
 LEXICON TV_ЛАХАНА-Pal/Var
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
 
 LEXICON IV_МАН
 +V+IV: V-01_МАН       ;
@@ -62,7 +65,7 @@ LEXICON IV_МИН-Pal/Var
 +V+IV: V-01_МИН       ;
 
 LEXICON TV_МИН
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_МИН       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МИН       ;
 
 LEXICON IV_МЭ
 +V+IV: V-01_МЭ       ;
@@ -71,7 +74,7 @@ LEXICON IV_МЫ
 +V+IV: V-01_МЫ       ;
 
 LEXICON TV_МЫ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_МЫ       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МЫ       ;
 
 LEXICON IV_НЕНЫ
 +V+IV: V-01_НЕНЫ       ;
@@ -101,7 +104,7 @@ LEXICON VR_НУ-Pal/Var
 +V+Refl: V-01_НУ-REFL       ;
 
 LEXICON TV_НУ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_НУ       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НУ       ;
 
 LEXICON IV_НУ/ТУ
 +V+IV: V-01_НУ/ТУ       ;
@@ -110,7 +113,7 @@ LEXICON IV_НЭКАЛ
 +V+IV: V-01_НЭКАЛ       ;
 
 LEXICON TV_НЭКАЛ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_НЭКАЛ       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НЭКАЛ       ;
 
 LEXICON IV_ӇАДИМ
 +V+IV: V-01_ӇАДИМ       ;
@@ -122,7 +125,7 @@ LEXICON IV_ӇАРАМ
 +V+IV: V-01_ӇАРАМ       ;
 
 LEXICON TV_ӇАРАМ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ӇАРАМ	;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ӇАРАМ	;
 
 LEXICON IV_ӇЭ
 +V+IV: V-01_ӇЭ       ;
@@ -134,7 +137,7 @@ LEXICON IV_ӇЭСУ
 +V+IV: V-01_ӇЭСУ       ;
 
 LEXICON TV_ӇЭСУ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ӇЭСУ       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ӇЭСУ       ;
 
 LEXICON IV_ПЭБЮ
 +V+IV: V-01_ПЭБЮ       ;
@@ -143,7 +146,7 @@ LEXICON IV_ПЭБЮ-Pal/Var
 +V+IV: V-01_ПЭБЮ       ;
 
 LEXICON TV_ПЭБЮ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ПЭБЮ       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ПЭБЮ       ;
 
 LEXICON IV_САС
 +V+IV: V-01_САС       ;
@@ -152,10 +155,10 @@ LEXICON VR_САС
 +V+Refl: V-01_САС-REFL       ;
 
 LEXICON TV_САС
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_САС       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_САС       ;
 
 LEXICON TV_САС-Pal/Var
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_САС       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_САС       ;
 
 LEXICON IV_СЯНАКУ
 +V+IV: V-01_СЯНАКУ       ;
@@ -170,10 +173,10 @@ LEXICON VR_ТИР
 +V+Refl: V-01_ТИР-REFL       ;
 
 LEXICON TV_ТИР
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТИР       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТИР       ;
 
 LEXICON TV_ТИР-Pal/Var
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТИР       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТИР       ;
 
 
 LEXICON IV_ТО
@@ -183,7 +186,7 @@ LEXICON IV_ТУ
 +V+IV: V-01_ТУ       ;
 
 LEXICON TV_ТУ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ТУ       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТУ       ;
 
 LEXICON IV_ХАДА
 +V+IV: V-01_ХАДА       ;
@@ -195,7 +198,7 @@ LEXICON IV_ЮХУ
 +V+IV: V-01_ЮХУ       ;
 
 LEXICON TV_ЮХУ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЮХУ       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЮХУ       ;
 
 
 
@@ -209,7 +212,7 @@ LEXICON VR_ЯˮАВЛУ
 +V+Refl: V-01_ЯˮАВЛУ-REFL      ;
 
 LEXICON TV_ЯˮАВЛУ
-+V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
 
 LEXICON V-S
