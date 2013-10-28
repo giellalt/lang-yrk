@@ -80,6 +80,7 @@ LEXICON N_ЕД/ХУСУВЭЙ
 +N: NMN_ЕД/ХУСУВЭЙ ;
 
 LEXICON N_ХАНО  !!= @CODE@ хӑн: 11 !!ProsSg -увна
+!! * Yaml: __xano__
 !! [total=27]
 !! хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
  N_ХАНО-SG ;
@@ -563,7 +564,7 @@ LEXICON NMN_ХАНО
 	NMN_ХАНО-PL ;
 LEXICON NMN_ХАНО-SG
  SGNOMSUF ;
-:а  SG-ACC-STEM ;
+  SG-ACC-STEM ;
   SG-DAT-STEM ;
 LEXICON NMN_ХАНО-PL
   PLNOMSUF ;
