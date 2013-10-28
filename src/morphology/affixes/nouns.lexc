@@ -320,7 +320,7 @@ LEXICON N_ПОЁ  !!= @CODE@ поʼ:по 28  !!ProsSg -мна
 +N:Ӈ1 SG-NOM-STEM ;
 +N:й PLNOMSUF ;
 +N: PLACCSUF_Ё ;
-
++N:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29  !!ProsSg -мна /-мана
 !! ң [total=16]
@@ -491,6 +491,7 @@ LEXICON NMN_ПИ !!= @CODE@ пя: 3 !!ProsSg -вна
   SG-NOM-STEM ;
   PLNOMSUF ;
 :%^A2I PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON NMN_ТЫ  !!= @CODE@ ты: 4 !!ProsSg -вна
 !! [total=4]
