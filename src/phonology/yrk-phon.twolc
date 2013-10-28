@@ -34,8 +34,8 @@ Alphabet
 ! Ӈ1:ʼ
 ! Ӈ1:ӈ
  Ӈ1:0
- Д1:ˮ
- Д1:д
+! Д1:ˮ
+! Д1:д
  Д1:0
  С1:ˮ
  С1:с
@@ -317,7 +317,7 @@ Rules
 
 "Д1:д GlottalNonNasalToSurface"
 !! __@RULENAME@__
-Д1:д <=> _ %>: [ м ( ʼ ) #: | ʼ #: | ˮ #: | о | е | ё ] ;
+Д1:д <=> Vws: _ %>: [ м ( ʼ ) #: | ʼ #: | ˮ [ # | ӈ э ] | о | е | ё ] ;
 
 "Н1:н GlottalNasalToSurface"
 !! __@RULENAME@__
@@ -349,6 +349,7 @@ Rules
 "Д1:0 GlottalNonNasalToZERO"
 !! __@RULENAME@__
 Д1:0 <=> _ %>:  [ х: | н:  ʼ | с: ь | ц ь | д: а ˮ | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
+ Cns:  _ %>:  [ (м) ʼ | ˮ ]  ;
 
 "С1:0 GlottalNonNasalToZERO"
 !! __@RULENAME@__

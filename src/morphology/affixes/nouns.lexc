@@ -190,7 +190,8 @@ LEXICON N_ЯЛЭ  !!= @CODE@ яля: 18 !!ProsSg -вна
 +N: PLNOMSUF ;
 +N:%^HardFronting PLACCSUF_Zero ;
 
-LEXICON N_ХОБ  !!= @CODE@ хоба: 19 !!ProsSg -вна
+LEXICON N_ХОБ  !!= @CODE@ хоба:хоба 19 !!ProsSg -вна
+!! * Yaml: __xob__
 !! [total=25]
 !! хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
 +N: SGNOMSUF ;
@@ -217,6 +218,7 @@ LEXICON N_МАРАӇГЫ/ХОБ !!
 +N: PLACCSUF_Minus ;
 
 LEXICON N_ТЁН  !!= @CODE@ тёня: 20 !!ProsSg -вна
+!! * Yaml: __tyon__
 !! [total=14]
 !!тёня tyonya	тёнян’ tyonyan°h	тёня” tyonyaq	тён tyon°
 +N: SGNOMSUF ;
@@ -388,13 +390,15 @@ LEXICON N_ВАР/ТАРЕ  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 PLACCSUF_Е ;
 
 LEXICON NMN_ВАР  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
+!! * Yaml: __waro__
 :Д1 SGNOMSUF ;
 :Д1 SG-ACC-STEM ;
 :Д1 SG-DAT-STEM ;
 :Д1 PLNOMSUF ;
-:Д1 PLACCSUF_О ;
+ PLACCSUF_О ;
 
 LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
+!! * Yaml: __myado__
 :Д1 SGNOMSUF ;
 :Д1 SG-ACC-STEM ;
 :Д1 SG-DAT-STEM ;
@@ -855,7 +859,6 @@ LEXICON SG-DAT-STEM
  SGDATSUF ;
  SGLOCSUF ;
  SGABLSUF ;
- SGTRASUF ;
  SGPROSSUF ;
  DUNOMSUF ;
  DUACCSUF ;
@@ -864,7 +867,6 @@ LEXICON SG-DAT-STEM
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
- PLTRASUF ;
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
@@ -874,6 +876,7 @@ LEXICON SG-DAT-STEM
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
 PRED-POSSESSA ; ! This is perhaps a derivation
+ SGTRASUF ;
 
 LEXICON SGACCSUF
 +Sg+Acc:%>мʼ K ;
@@ -912,6 +915,7 @@ LEXICON DUGENSUF
 !! Start Plural
 LEXICON PLNOMSUF
 +Pl+Nom:%>ˮ K ;
+ PLTRASUF ;
 
 LEXICON PLACCSUF
 +Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
@@ -949,7 +953,7 @@ LEXICON PLACCSUF_О
 LEXICON PL-ACC_STEM
 +Pl+Acc:	K	;
 +Pl+Gen:ˮ	K	;
-+Pl+Pros:ˮмА2на 	K	;
++Pl+Pros:ˮмА2на 	K	; !!= @CODE@ When does this take a vowel хоˮомна
  POSSESSA-PL-NOM ;
 +Pl+Acc: POSSESSA-PL-ACC ;
 +Pl+Gen:ˮ POSSESSA-PL-GEN ;
