@@ -247,16 +247,22 @@ LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 +N:%^VowFronting PLACCSUF_Minus ;
 
 LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
+!! * Yaml: __nano__
 !! [total=57]
 !! ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
 +N: NMN_ӇАНУ ;
 
 LEXICON NMN_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
+	NMN_ӇАНУ-SG ;
+	NMN_ӇАНУ-PL ;
+LEXICON NMN_ӇАНУ-SG  
   SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
+LEXICON NMN_ӇАНУ-PL  
   PLNOMSUF ;
 :%^VowRaise PLACCSUF_Zero ;
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24 !!ProsSg -вна
 !! [total=4]
@@ -569,6 +575,8 @@ LEXICON NMN_ХАНО-SG
 LEXICON NMN_ХАНО-PL
   PLNOMSUF ;
  PLACCSUF_О ; !
+:%>о  POSSESSA-PLURAL ;
+
 
 LEXICON NMN_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
 SGDATSUF ;
@@ -961,7 +969,7 @@ LEXICON PL-ACC_STEM
 +Pl+Gen:ˮ POSSESSA-PL-GEN ;
   POSSESSA-PL-PROS ;
 !2013-04-22!+Pl+Pros:ˮмана  POSSESSA-PL-PROS ;
-  POSSESSA-PLURAL ;
+
 
 
 !LEXICON PLGENSUF
