@@ -41,6 +41,9 @@ Alphabet
  С1:с
  С1:0
 
+ %{вм%}:0	   !!= @CODE@ +N+Sg+Nom+PxSg1
+ %{рл%}:0	   !!= @CODE@ +N+Sg+Nom+PxSg2
+
 !! !!triggers
 %^A2O:0
 %^A2I:0 
@@ -60,7 +63,7 @@ Alphabet
 
 
 Sets
-Vws =   а е ё и о у ы э ю я
+Vow =   а е ё и о у ы э ю я
         А Е Ё И О У Ы Э Ю Я ;
 
 CnsNotGlots = б в г д ж з й к л м н п р с т ф х ц
@@ -74,7 +77,7 @@ Cns =  б в г д ж з к л м н ҥ п р с т ф х ц ч ш
 Cst =  к п т ф х ц ч ш с 
        К П Т Ф Х Ц Ч Ш С ;
 
-Ltrs = Vws Cns  ъ ь Ъ Ь ;
+Ltrs = Vow Cns  ъ ь Ъ Ь ;
 
 all =  Ltrs  %- ;
 
@@ -96,21 +99,21 @@ Rules
 
 "й:0 when followed by vowel in VowelPalatalization"
 !! __@RULENAME@__
-й:0 <=> _ %>: [ а: | у: ] ;
+й:0 <=> _ %> [ а: | у: ] ;
 
 "а:я VowelPalatalization"
 !! __@RULENAME@__
-а:я <=> й:0 %>: _ ;
+а:я <=> [ й:0 | ь:0 ] %> _ ;
 
 "у:ю VowelPalatalization"
 !! __@RULENAME@__
-у:ю <=> й: %>: _ ;
+у:ю <=> й: %> _ ;
 
 "А2:0 possible vowel loss as second syllable vowel"
 !! __@RULENAME@__
-А2:0 <= # Cns* :Vws [ %> | Cns | ˮ ]+ м: _ н а ; 
-         :Vws %^MLenition:0 %> м: _ н а ; 
-         # Cns:* Vws:+ Ӈ1: %^MLenition:0 %> м: _ н а ; !! поʼ:помна
+А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ м: _ н а ; 
+         :Vow %^MLenition:0 %> м: _ н а ; 
+         # Cns:* Vow:+ Ӈ1: %^MLenition:0 %> м: _ н а ; !! поʼ:помна
          [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
 
 "0:U in sgprossuf"
@@ -119,7 +122,7 @@ Rules
 
 "А1 -> а"
 !! __@RULENAME@__
-А1:а <=> [[ Ӈ1: |  ʼ: | а | я | й | и | ы | Ы2: | Cns | Д1: | С1: ] %>: х: | %> а х ] _ ;
+А1:а <=> [[ Ӈ1: |  ʼ: | а | я | й | и | ы | Ы2: | Cns | Д1: | С1: ] %> х: | %> а х ] _ ;
 !2013-03-15! adding и | ы | й | Ы2: for тёресь+V+Refl+Mod/appr+RcDu3
 
 "А1 -> у"
@@ -140,7 +143,7 @@ Rules
 
 "StemFinalYToE"
 !! __@RULENAME@__
-ы:э <=> _ %>: х э  ;
+ы:э <=> _ %> х э  ;
 
 "а:э in final position of polysyllable verb stems"
 !! __@RULENAME@__
@@ -148,15 +151,15 @@ Rules
 
 "Ы1:о"
 !! __@RULENAME@__
-Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %>: _ ;
+Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %> _ ;
 
 "Ы1:е"
 !! __@RULENAME@__
-Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %>: _ ; 
+Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %> _ ; 
 
 "Ы2:ы"
 !! __@RULENAME@__
-Ы2:ы <= в _ [ ц | с ] ь [ # | %>: ] ; 
+Ы2:ы <= в _ [ ц | с ] ь [ # | %> ] ; 
 
 "a:o in я"
 !! __@RULENAME@__
@@ -212,7 +215,7 @@ Rules
 
 "я:й Stem vowel loss in plural accusative"
 !! __@RULENAME@__
-я:й <=> Vws _ (%^VowFronting:) %^VowLoss:0 ;
+я:й <=> Vow _ (%^VowFronting:) %^VowLoss:0 ;
 
 "я:0 Stem vowel loss in plural accusative"
 !! __@RULENAME@__
@@ -226,9 +229,9 @@ Rules
 !! __@RULENAME@__, perhaps there should be a VtoM rule2013-01-23
 м:в <=> _  %^MLenition:0 [ # | %> [ о |  м | ʼ | ˮ ] ] ;
         _ ʼ:0  %^MLenition:0 %>  0:  м: А2: ;
-       :Vws %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
+       :Vow %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
        [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
-!ʼ %>: [ Ы1: | ʼ | м ʼ ] ;
+!ʼ %> [ Ы1: | ʼ | м ʼ ] ;
 
 "mTob" 
 !! __@RULENAME@__
@@ -237,137 +240,162 @@ Rules
 
 "v To m "
 !! __@RULENAME@__
-в:м <=> [ Ӈ1: ] %>: _ ;
-! [ м: ʼ: | Ӈ1: ] %>: _ ;
+в:м <=> [ Ӈ1: ] %> _ ;
+! [ м: ʼ: | Ӈ1: ] %> _ ;
 
 "r To l after nasal glottal"
 !! __@RULENAME@__
-р:л <=> [ ʼ: | Ӈ1: ] %>: _ ;
-        Vws _  %>: р: [ в | х ] а ;
+р:л <=> [ ʼ: | Ӈ1: ] %> _ ;
+        Vow _  %> р: [ в | х ] а ;
 
 "r To 0 after л glottal"
 !! __@RULENAME@__
-р:0 <=> Vws [ л | р: ] %>: _  ;
+р:0 <=> Vow [ л | р: ] %> _  ;
 
 
 "nTod"
 !! __@RULENAME@__
-н:д <=>  [ Ӈ1: | ʼ: ] %>: _ ʼ ;
+н:д <=>  [ Ӈ1: | ʼ: ] %> _ ʼ ;
 
 "n to t after non-nasal glottal"
 !! __@RULENAME@__
-н:т <=>  [ С1: | Д1: | ˮ: ] %>: _ [ ʼ | а к  | а р ] ;
+н:т <=>  [ С1: | Д1: | ˮ: ] %> _ [ ʼ | а к  | а р ] ;
 
 "d to t after non-nasal glottal"
 !! __@RULENAME@__
-д:т <=> [ С1:0 | Д1:0 | ˮ:0 ] %>: _ ;
+д:т <=> [ С1:0 | Д1:0 | ˮ:0 ] %> _ ;
 
 "d to l after non-nasal glottal"
 !! __@RULENAME@__
-д:л <=> [ Д1:ˮ | ˮ:ˮ  ] %>: _ а ц ь ;
+д:л <=> [ Д1:ˮ | ˮ:ˮ  ] %> _ а ц ь ;
 
 
 "b to p after non-nasal glottal"
 !! __@RULENAME@__
-б:п <=> [ С1: | Д1: | ˮ: ] %>: _ ;
+б:п <=> [ С1: | Д1: | ˮ: ] %> _ ;
         %> _ ˮ # ;
 
 "b to 0 between mod/obl"
 !! __@RULENAME@__
-б:0 <=> [ л | р ] %>: _ ц [ а к | у ];
+б:0 <=> [ л | р ] %> _ ц [ а к | у ];
 
 
 "ъ:0 with Conj after vowels"
 !! __@RULENAME@__
-ъ:0 <=> Vws %>: _ и ;
+ъ:0 <=> Vow %> _ и ;
 
 "с => ц affrication after Stop"
 !! __@RULENAME@__
-с:ц <=> [ Д1: | л ] %>: _ ь ;
-        [ л | р ] %>: _ [ а | я | и ] ;
+с:ц <=> [ Д1: | л ] %> _ ь ;
+        [ л | р ] %> _ [ а | я | и ] ;
 
 "с => з after nasal"
 !! __@RULENAME@__
-с:з <=> [ м | н | Н1: | Ӈ1: | ʼ: ] %>: _ ;
+с:з <=> [ м | н | Н1: | Ӈ1: | ʼ: ] %> _ ;
 
 "ʼ:0"
 !! __@RULENAME@__
-ʼ:0 <=> м:  _ %>: [ Ы1: | ʼ | м ( ʼ ) | н: ( ʼ ) | ˮ: | х: ( А1: ) | р: | в: | д | ц ь | с: ь ] ;
-       м:  _ %^MLenition:0 %>: 0:у м: А2: н а ;
+ʼ:0 <=> м:  _ %> [ Ы1: | ʼ | м ( ʼ ) | н: ( ʼ ) | ˮ: | х: ( А1: ) | р: | в: | д | ц ь | с: ь ] ;
+       м:  _ %^MLenition:0 %> 0:у м: А2: н а ;
+    _ %> [ %{рл%}: | %{вм%}: ] ;
 
 "ˮ:0"
 !! __@RULENAME@__
-ˮ:0 <=> _ %>: д: ;
-     %>: б:п _ ;
+ˮ:0 <=> _ %> д: ;
+     %> б:п _ ;
+    _ %> [ %{рл%}: | %{вм%}: ] ;
 
 "х -> г after nasal glottal"
 !! __@RULENAME@__
-х:г <=> [ ʼ: | Ӈ1: | Н1: | м ] %>: _ ( А1: ) ;
+х:г <=> [ ʼ: | Ӈ1: | Н1: | м ] %> _ ( А1: ) ;
 
 "х to к after non-nasal glottal"
 !! __@RULENAME@__
-х:к <=> [ Д1: | С1: ] %>: _  ;
+х:к <=> [ Д1: | С1: ] %> _  ;
 
 !! !!Realization of glottal stops
 !! !SURFACE CONSONANT
 
+"%{вм%}:м"
+!! __@RULENAME@__
+ %{вм%}:м <=> [ Ӈ1: | Д1: | С1: | ʼ: | ˮ: ] %> _  ;
+
+"%{рл%}:л"
+!! __@RULENAME@__
+ %{рл%}:л <=> [ Ӈ1: | Д1: | С1: | ʼ: | ˮ: ] %> _  ;
+
+"%{вм%}:в"
+!! __@RULENAME@__
+ %{вм%}:в <=> [ Vow | Cns: ] %> _  ;
+
+"%{рл%}:р"
+!! __@RULENAME@__
+ %{рл%}:р <=> [ Vow | Cns: ] %> _  ;
+
+
+
 "С1:с GlottalNonNasalToSurface"
 !! __@RULENAME@__
-С1:с <=> _ %>: [ м #: | ʼ #: | ˮ #: | Ы1: ] ;
+С1:с <=> _ %> [ м #: | ʼ #: | ˮ #: | Ы1: ] ;
 
 "Д1:д GlottalNonNasalToSurface"
 !! __@RULENAME@__
-Д1:д <=> Vws: _ %>: [ м ( ʼ ) #: | ʼ #: | ˮ [ # | ӈ э ] | о | е | ё ] ;
+Д1:д <=> Vow: _ %> [ м ( ʼ ) #: | ʼ #: | ˮ [ # | ӈ э ] | о | е | ё ] ;
 
 "Н1:н GlottalNasalToSurface"
 !! __@RULENAME@__
-Н1:н <=> _ %>: Ы1: ;
+Н1:н <=> _ %> Ы1: ;
 
 "Ӈ1:ӈ GlottalNasalToSurface"
 !! __@RULENAME@__
-Ӈ1:ӈ <=> _ %>: [ Ы1: | х: | о ] ;
+Ӈ1:ӈ <=> _ %> [ Ы1: | х: | о ] ;
 
 "Ӈ1:н GlottalNasalToSurface"
 !! __@RULENAME@__
-Ӈ1:н <=> _ %>: [ с: | н:д | д | ц: | ˮ | м: д ] ;
+Ӈ1:н <=> _ %> [ с: | н:д | д | ц: | ˮ | м: д ] ;
 
 
 !! !LOSS
 
+"л:0"
+!! __@RULENAME@__
+ л:0 <=> _ [ ʼ: | ˮ: ] %> %{рл%}:л ;
+
 !"v loss after m Nasal glottal"
-!в:0 <=> м ʼ: %>: _ #: ;
+!в:0 <=> м ʼ: %> _ #: ;
 
 "m loss before Labial followed by nonglottal cons or vows "
 !! __@RULENAME@__
-м:0 <=> _ ʼ: %>: [ м [ а | и | н | д ] | в: ] ;
+м:0 <=> _ ʼ: %> [ м [ а | и | н | д ] | в: ] ;
         Ӈ1: %> _ д ; !! * @CODE@ поʼ+N+Sg+Acc+PxSg2:понд 
 
 !"Н1:0 GlottalNasalToSurface"
-!Cx:0 <=> _ %>: [ м | ʼ ] ;
+!Cx:0 <=> _ %> [ м | ʼ ] ;
 !       where Cx in (Н1 Ӈ1) ;
 
 "Д1:0 GlottalNonNasalToZERO"
 !! __@RULENAME@__
-Д1:0 <=> _ %>:  [ х: | н:  ʼ | с: ь | ц ь | д: а ˮ | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
- Cns:  _ %>:  [ (м) ʼ | ˮ ]  ;
+Д1:0 <=> _ %>  [ х: | н:  ʼ | с: ь | ц ь | д: а ˮ | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
+ Cns:  _ %>  [ (м) ʼ | ˮ ]  ;
 
 "С1:0 GlottalNonNasalToZERO"
 !! __@RULENAME@__
-С1:0 <=> _ %>: [ х: | н: | б: | с: ь ] ;
+С1:0 <=> _ %> [ х: | н: | б: | с: ь ] ;
 
 
 "ь:0 with  GlottalNonNasalToZERO"
 !! __@RULENAME@__
-ь:0 <=> С1: _ %>: [ х: | н ] ;
+ь:0 <=> С1: _ %> [ х: | н ] ;
+     _ %> [ а: | и ] ;
 !!
 
 "С1:ˮ UnderlyingToGlottal"
 !! __@RULENAME@__
-С1:ˮ <=> _ [ #: | %>: м н а ] ;
+С1:ˮ <=> _ [ #: | %> м н а ] ;
 
 "Д1:ˮ UnderlyingToGlottal"
 !! __@RULENAME@__
-Д1:ˮ => _ [ #: | %> [ д:л а ц ь | и | м и | ӈ э | м а | ( 0: ) м н а | н а | н [ и | # | %>: ] ] ] ;
+Д1:ˮ => _ [ #: | %> [ д:л а ц ь | и | м и | ӈ э | м а | ( 0: ) м н а | н а | н [ и | # | %> ] ] ] ;
 
 "Н1:ʼ UnderlyingToGlottal"
 !! __@RULENAME@__
