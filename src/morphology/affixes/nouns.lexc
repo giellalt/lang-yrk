@@ -342,13 +342,26 @@ LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ:ил 30   !!ProsSg -мана
 !! * Yaml: __ilje__
 !! ң [total=13]
 !! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
-+N:Ӈ1 SGDATSUF ;
-+N:аӇ1 SG-ACC-STEM ;
++N:%>аӇ1 SGDATSUF ;
++N:Ӈ1 SG-ACC-STEM ;
 !+N:аӇ1 SG-NOM-STEM ; !!= @CODE@ 2013-10-25
++N:Ӈ1 SGNOMSUF ; !!= @CODE@ 
 +N:Ӈ1 SG-NOM-STEM ; !!= @CODE@ 
 +N:а PLNOMSUF ;
 +N:ъ PLACCSUF_Е ;
 +N:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+LEXICON N_НЕНЭЦИЕ  !!= @CODE@ ненэцьʼ:ненэць 30   !!ProsSg -мана
+!! * Yaml: __nyenecyh__
+!! ң [total=13]
+!! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
++N:%>аӇ1 SGDATSUF ;
++N:%>аӇ1 SG-ACC-STEM ;
++N:Ӈ1 SGNOMSUF ; !!= @CODE@ 
++N:%>аӇ1 SG-NOM-STEM ; !!= @CODE@ 
++N:%>а PLNOMSUF ;
++N:%>и PLACCSUF_Е ;
++N:%>аӇ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31   !!ProsSg -мна
 !! ң [total=2]
@@ -1046,14 +1059,15 @@ LEXICON POSSESSA-SINGULAR
 	POSSESSA-SG-PROS ;
 
 LEXICON POSSESSA-SG-NOM
-+Sg+Nom+PxSg1:%>в   K ;
-+Sg+Nom+PxSg2:%>р   K ; ! (1961: 110) нюр, ӈэсял, мяˮал
++Sg+Nom+PxSg1:%>%{вм%}   K ;
++Sg+Nom+PxSg1:%>ми   K ;
++Sg+Nom+PxSg2:%>%{рл%}   K ; ! (1961: 110) нюр, ӈэсял, мяˮал
 +Sg+Nom+PxSg3:%>да  K ;
 +Sg+Nom+PxDu1:%>миʼ K ;
-+Sg+Nom+PxDu2:%>риʼ K ;
++Sg+Nom+PxDu2:%>%{рл%}иʼ K ;
 +Sg+Nom+PxDu3:%>диʼ K ;
-+Sg+Nom+PxPl1:%>ваˮ K ;
-+Sg+Nom+PxPl2:%>раˮ K ; ! (1961: 110) даˮ but л after Glots and schwa
++Sg+Nom+PxPl1:%>%{вм%}аˮ K ;
++Sg+Nom+PxPl2:%>%{рл%}аˮ K ; ! (1961: 110) даˮ but л after Glots and schwa
 +Sg+Nom+PxPl3:%>доʼ K ;
 
 +Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor:%>в   K ; !!= @CODE@ 2013-10-22 Should this also have +ScSg3 marking
@@ -1084,7 +1098,7 @@ LEXICON POSSESSA-SG-ACC
 +Sg+Acc+PxDu1:%>миʼ  K ;
 +Sg+Acc+PxDu2:%>мдиʼ K ;
 +Sg+Acc+PxDu3:%>мдиʼ K ;
-+Sg+Acc+PxPl1:%>ваˮ  K ;
++Sg+Acc+PxPl1:%>%{вм%}аˮ  K ;
 +Sg+Acc+PxPl2:%>мдаˮ K ;
 +Sg+Acc+PxPl3:%>мдоʼ K ;
 
