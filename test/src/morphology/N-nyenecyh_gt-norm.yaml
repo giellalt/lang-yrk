@@ -1,0 +1,213 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ненэцьʼ: # Noun 'life' - partial paradigm /Type 30/
+     ненэцьʼ+N+Sg+Nom: ненэцьʼ
+     ненэцьʼ+N+Sg+Acc: ненэцямʼ
+     ненэцьʼ+N+Sg+Gen: ненэцяʼ
+     ненэцьʼ+N+Sg+Dat: ненэцяндʼ
+     ненэцьʼ+N+Sg+Loc: ненэцяӈгана
+     ненэцьʼ+N+Sg+Abl: ненэцяӈгад
+     ненэцьʼ+N+Sg+Pros: ненэцямна
+     ненэцьʼ+N+Du+Nom: ненэцяӈгʼ
+     ненэцьʼ+N+Du+Acc: ненэцяӈгʼ
+     ненэцьʼ+N+Du+Gen: ненэцяӈгʼ
+     ненэцьʼ+N+Pl+Nom: ненэцяˮ
+     ненэцьʼ+N+Pl+Acc: ненэцье
+     ненэцьʼ+N+Pl+Gen: ненэцьеˮ
+     ненэцьʼ+N+Pl+Dat: ненэцяӈгˮ
+     ненэцьʼ+N+Pl+Loc: ненэцяӈгаˮна
+     ненэцьʼ+N+Pl+Abl: ненэцяӈгат
+     ненэцьʼ+N+Pl+Pros: ненэцьеˮмна    
+
+     ненэцьʼ+N+Sg+Tra: ненэцяӈэ
+
+# Possessive forms 
+     ненэцьʼ+N+Sg+Nom+PxSg1: [ненэцям, ненэцями]
+     ненэцьʼ+N+Sg+Nom+PxSg2: ненэцял
+     ненэцьʼ+N+Sg+Nom+PxSg3: ненэцянда 
+     ненэцьʼ+N+Sg+Nom+PxDu1: ненэцямиʼ
+     ненэцьʼ+N+Sg+Nom+PxDu2: ненэцялиʼ
+     ненэцьʼ+N+Sg+Nom+PxDu3: ненэцяндиʼ
+     ненэцьʼ+N+Sg+Nom+PxPl1: ненэцямаˮ
+     ненэцьʼ+N+Sg+Nom+PxPl2: ненэцялаˮ
+     ненэцьʼ+N+Sg+Nom+PxPl3: ненэцяндоʼ
+     ненэцьʼ+N+Sg+Acc+PxSg1: ненэцями  
+     ненэцьʼ+N+Sg+Acc+PxSg2: ненэцянд  
+     ненэцьʼ+N+Sg+Acc+PxSg3: ненэцянда 
+     ненэцьʼ+N+Sg+Acc+PxDu1: ненэцямиʼ 
+     ненэцьʼ+N+Sg+Acc+PxDu2: ненэцяндиʼ
+     ненэцьʼ+N+Sg+Acc+PxDu3: ненэцяндиʼ
+     ненэцьʼ+N+Sg+Acc+PxPl1: ненэцямаˮ 
+     ненэцьʼ+N+Sg+Acc+PxPl2: ненэцяндаˮ
+     ненэцьʼ+N+Sg+Acc+PxPl3: ненэцяндоʼ
+     ненэцьʼ+N+Sg+Gen+PxSg1: [ненэцян, ненэцяни] 
+     ненэцьʼ+N+Sg+Gen+PxSg2: ненэцянд  
+     ненэцьʼ+N+Sg+Gen+PxSg3: ненэцянда 
+     ненэцьʼ+N+Sg+Gen+PxDu1: ненэцяниʼ 
+     ненэцьʼ+N+Sg+Gen+PxDu2: ненэцяндиʼ
+     ненэцьʼ+N+Sg+Gen+PxDu3: ненэцяндиʼ
+     ненэцьʼ+N+Sg+Gen+PxPl1: ненэцянаˮ 
+     ненэцьʼ+N+Sg+Gen+PxPl2: ненэцяндаˮ
+     ненэцьʼ+N+Sg+Gen+PxPl3: ненэцяндоʼ  
+     ненэцьʼ+N+Sg+Dat+PxSg1: [ненэцяӈган, ненэцяӈгани] 
+     ненэцьʼ+N+Sg+Dat+PxSg2: ненэцяӈганд  
+     ненэцьʼ+N+Sg+Dat+PxSg3: ненэцяӈганда 
+     ненэцьʼ+N+Sg+Dat+PxDu1: ненэцяӈганиʼ 
+     ненэцьʼ+N+Sg+Dat+PxDu2: ненэцяӈгандиʼ
+     ненэцьʼ+N+Sg+Dat+PxDu3: ненэцяӈгандиʼ
+     ненэцьʼ+N+Sg+Dat+PxPl1: ненэцяӈганаˮ 
+     ненэцьʼ+N+Sg+Dat+PxPl2: ненэцяӈгандаˮ
+     ненэцьʼ+N+Sg+Dat+PxPl3: ненэцяӈгандоʼ
+     ненэцьʼ+N+Sg+Loc+PxSg1: [ненэцяӈганан, ненэцяӈганани]
+     ненэцьʼ+N+Sg+Loc+PxSg2: ненэцяӈгананд  
+     ненэцьʼ+N+Sg+Loc+PxSg3: ненэцяӈгананда 
+     ненэцьʼ+N+Sg+Loc+PxDu1: ненэцяӈгананиʼ 
+     ненэцьʼ+N+Sg+Loc+PxDu2: ненэцяӈганандиʼ
+     ненэцьʼ+N+Sg+Loc+PxDu3: ненэцяӈганандиʼ
+     ненэцьʼ+N+Sg+Loc+PxPl1: ненэцяӈгананаˮ 
+     ненэцьʼ+N+Sg+Loc+PxPl2: ненэцяӈганандаˮ
+     ненэцьʼ+N+Sg+Loc+PxPl3: ненэцяӈганандоʼ
+     ненэцьʼ+N+Sg+Abl+PxSg1: [ненэцяӈгадан, ненэцяӈгадани]
+     ненэцьʼ+N+Sg+Abl+PxSg2: ненэцяӈгаданд  
+     ненэцьʼ+N+Sg+Abl+PxSg3: ненэцяӈгаданда 
+     ненэцьʼ+N+Sg+Abl+PxDu1: ненэцяӈгаданиʼ 
+     ненэцьʼ+N+Sg+Abl+PxDu2: ненэцяӈгадандиʼ
+     ненэцьʼ+N+Sg+Abl+PxDu3: ненэцяӈгадандиʼ
+     ненэцьʼ+N+Sg+Abl+PxPl1: ненэцяӈгаданаˮ 
+     ненэцьʼ+N+Sg+Abl+PxPl2: ненэцяӈгадандаˮ
+     ненэцьʼ+N+Sg+Abl+PxPl3: ненэцяӈгадандоʼ
+     ненэцьʼ+N+Sg+Pros+PxSg1: [ненэцямнан, ненэцялмнани]
+     ненэцьʼ+N+Sg+Pros+PxSg2: ненэцямнанд  
+     ненэцьʼ+N+Sg+Pros+PxSg3: ненэцямнанда 
+     ненэцьʼ+N+Sg+Pros+PxDu1: ненэцямнаниʼ 
+     ненэцьʼ+N+Sg+Pros+PxDu2: ненэцямнандиʼ
+     ненэцьʼ+N+Sg+Pros+PxDu3: ненэцямнандиʼ
+     ненэцьʼ+N+Sg+Pros+PxPl1: ненэцямнанаˮ 
+     ненэцьʼ+N+Sg+Pros+PxPl2: ненэцямнандаˮ
+     ненэцьʼ+N+Sg+Pros+PxPl3: ненэцямнандоʼ
+     ненэцьʼ+N+Du+Nom+PxSg1: ненэцяӈгаюн  
+     ненэцьʼ+N+Du+Nom+PxSg2: ненэцяӈгаюд  
+     ненэцьʼ+N+Du+Nom+PxSg3: ненэцяӈгаюда 
+     ненэцьʼ+N+Du+Nom+PxDu1: ненэцяӈгаюниʼ
+     ненэцьʼ+N+Du+Nom+PxDu2: ненэцяӈгаюдиʼ
+     ненэцьʼ+N+Du+Nom+PxDu3: ненэцяӈгаюдиʼ
+     ненэцьʼ+N+Du+Nom+PxPl1: ненэцяӈгаюнаˮ
+     ненэцьʼ+N+Du+Nom+PxPl2: ненэцяӈгаюдаˮ
+     ненэцьʼ+N+Du+Nom+PxPl3: ненэцяӈгаюдоʼ
+     ненэцьʼ+N+Du+Acc+PxSg1: ненэцяӈгаюн  
+     ненэцьʼ+N+Du+Acc+PxSg2: ненэцяӈгаюд  
+     ненэцьʼ+N+Du+Acc+PxSg3: ненэцяӈгаюда 
+     ненэцьʼ+N+Du+Acc+PxDu1: ненэцяӈгаюниʼ
+     ненэцьʼ+N+Du+Acc+PxDu2: ненэцяӈгаюдиʼ
+     ненэцьʼ+N+Du+Acc+PxDu3: ненэцяӈгаюдиʼ
+     ненэцьʼ+N+Du+Acc+PxPl1: ненэцяӈгаюнаˮ
+     ненэцьʼ+N+Du+Acc+PxPl2: ненэцяӈгаюдаˮ
+     ненэцьʼ+N+Du+Acc+PxPl3: ненэцяӈгаюдоʼ
+     ненэцьʼ+N+Du+Gen+PxSg1: ненэцяӈгаюн  
+     ненэцьʼ+N+Du+Gen+PxSg2: ненэцяӈгают  
+     ненэцьʼ+N+Du+Gen+PxSg3: ненэцяӈгаюта 
+     ненэцьʼ+N+Du+Gen+PxDu1: ненэцяӈгаюниʼ
+     ненэцьʼ+N+Du+Gen+PxDu2: ненэцяӈгаютиʼ
+     ненэцьʼ+N+Du+Gen+PxDu3: ненэцяӈгаютиʼ
+     ненэцьʼ+N+Du+Gen+PxPl1: ненэцяӈгаюнаˮ
+     ненэцьʼ+N+Du+Gen+PxPl2: ненэцяӈгаютаˮ
+     ненэцьʼ+N+Du+Gen+PxPl3: ненэцяӈгаютоʼ
+     ненэцьʼ+N+Pl+Nom+PxSg1: [ненэцьен, ненэцьени] 
+     ненэцьʼ+N+Pl+Nom+PxSg2: ненэцьед   
+     ненэцьʼ+N+Pl+Nom+PxSg3: ненэцьеда  
+     ненэцьʼ+N+Pl+Nom+PxDu1: ненэцьениʼ 
+     ненэцьʼ+N+Pl+Nom+PxDu2: ненэцьедиʼ 
+     ненэцьʼ+N+Pl+Nom+PxDu3: ненэцьедиʼ 
+     ненэцьʼ+N+Pl+Nom+PxPl1: ненэцьенаˮ 
+     ненэцьʼ+N+Pl+Nom+PxPl2: ненэцьедаˮ 
+     ненэцьʼ+N+Pl+Nom+PxPl3: ненэцьедоʼ 
+     ненэцьʼ+N+Pl+Acc+PxSg1: [ненэцьен, ненэцьени]   
+     ненэцьʼ+N+Pl+Acc+PxSg2: ненэцьед   
+     ненэцьʼ+N+Pl+Acc+PxSg3: ненэцьеда  
+     ненэцьʼ+N+Pl+Acc+PxDu1: ненэцьениʼ 
+     ненэцьʼ+N+Pl+Acc+PxDu2: ненэцьедиʼ 
+     ненэцьʼ+N+Pl+Acc+PxDu3: ненэцьедиʼ 
+     ненэцьʼ+N+Pl+Acc+PxPl1: ненэцьенаˮ 
+     ненэцьʼ+N+Pl+Acc+PxPl2: ненэцьедаˮ 
+     ненэцьʼ+N+Pl+Acc+PxPl3: ненэцьедоʼ 
+     ненэцьʼ+N+Pl+Gen+PxSg1: ненэцьеˮн  
+     ненэцьʼ+N+Pl+Gen+PxSg2: ненэцьет   
+     ненэцьʼ+N+Pl+Gen+PxSg3: ненэцьета  
+     ненэцьʼ+N+Pl+Gen+PxDu1: ненэцьеˮниʼ
+     ненэцьʼ+N+Pl+Gen+PxDu2: ненэцьетиʼ 
+     ненэцьʼ+N+Pl+Gen+PxDu3: ненэцьетиʼ 
+     ненэцьʼ+N+Pl+Gen+PxPl1: ненэцьеˮнаˮ 
+     ненэцьʼ+N+Pl+Gen+PxPl2: ненэцьетаˮ 
+     ненэцьʼ+N+Pl+Gen+PxPl3: ненэцьетоʼ 
+     ненэцьʼ+N+Pl+Dat+PxSg1: ненэцяӈгаˮн 
+     ненэцьʼ+N+Pl+Dat+PxSg2: ненэцяӈгат 
+     ненэцьʼ+N+Pl+Dat+PxSg3: ненэцяӈгата 
+     ненэцьʼ+N+Pl+Dat+PxDu1: ненэцяӈгаˮниʼ 
+     ненэцьʼ+N+Pl+Dat+PxDu2: ненэцяӈгатиʼ 
+     ненэцьʼ+N+Pl+Dat+PxDu3: ненэцяӈгатиʼ 
+     ненэцьʼ+N+Pl+Dat+PxPl1: ненэцяӈгаˮнаˮ 
+     ненэцьʼ+N+Pl+Dat+PxPl2: ненэцяӈгатаˮ 
+     ненэцьʼ+N+Pl+Dat+PxPl3: ненэцяӈгатоʼ 
+     ненэцьʼ+N+Pl+Loc+PxSg1: ненэцяӈгаˮнан  
+     ненэцьʼ+N+Pl+Loc+PxSg2: ненэцяӈгаˮнат
+     ненэцьʼ+N+Pl+Loc+PxSg3: ненэцяӈгаˮната 
+     ненэцьʼ+N+Pl+Loc+PxDu1: ненэцяӈгаˮнаниʼ
+     ненэцьʼ+N+Pl+Loc+PxDu2: ненэцяӈгаˮнатиʼ
+     ненэцьʼ+N+Pl+Loc+PxDu3: ненэцяӈгаˮнатиʼ
+     ненэцьʼ+N+Pl+Loc+PxPl1: ненэцяӈгаˮнанаˮ
+     ненэцьʼ+N+Pl+Loc+PxPl2: ненэцяӈгаˮнатаˮ
+     ненэцьʼ+N+Pl+Loc+PxPl3: ненэцяӈгаˮнатоʼ
+     ненэцьʼ+N+Pl+Abl+PxSg1: ненэцяӈгатан 
+     ненэцьʼ+N+Pl+Abl+PxSg2: ненэцяӈгатат 
+     ненэцьʼ+N+Pl+Abl+PxSg3: ненэцяӈгатата 
+     ненэцьʼ+N+Pl+Abl+PxDu1: ненэцяӈгатаниʼ
+     ненэцьʼ+N+Pl+Abl+PxDu2: ненэцяӈгататиʼ
+     ненэцьʼ+N+Pl+Abl+PxDu3: ненэцяӈгататиʼ
+     ненэцьʼ+N+Pl+Abl+PxPl1: ненэцяӈгатанаˮ
+     ненэцьʼ+N+Pl+Abl+PxPl2: ненэцяӈгататаˮ
+     ненэцьʼ+N+Pl+Abl+PxPl3: ненэцяӈгататоʼ
+     ненэцьʼ+N+Pl+Pros+PxSg1: ненэцьеˮманан       
+     ненэцьʼ+N+Pl+Pros+PxSg2: ненэцьеˮманат  
+     ненэцьʼ+N+Pl+Pros+PxSg3: ненэцьеˮманата 
+     ненэцьʼ+N+Pl+Pros+PxDu1: ненэцьеˮмананиʼ
+     ненэцьʼ+N+Pl+Pros+PxDu2: ненэцьеˮманатиʼ
+     ненэцьʼ+N+Pl+Pros+PxDu3: ненэцьеˮманатиʼ
+     ненэцьʼ+N+Pl+Pros+PxPl1: ненэцьеˮмананаˮ
+     ненэцьʼ+N+Pl+Pros+PxPl2: ненэцьеˮманатаˮ
+     ненэцьʼ+N+Pl+Pros+PxPl3: ненэцьеˮманатоʼ
+
+# Predestinative !Should be added
+# Predicative (Nominal conjugation)
+
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScSg1: ненэцяндамʼ
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: ненэцян  
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScSg3: ненэцьʼ
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScDu1: ненэцяниʼ
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: ненэцяндиʼ
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: ненэцяӈгʼ
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScPl1: ненэцямаˮ
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: ненэцяндаˮ
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: ненэцяˮ  
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: ненэцяндамзь
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: ненэцянась 
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: ненэцянзь 
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: ненэцянинзь
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: ненэцяндинзь
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: ненэцяӈганзь
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: ненэцямаць 
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: ненэцяндаць 
+     ненэцьʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: ненэцяць   
