@@ -4902,6 +4902,36 @@
 
   <e>
     <lg>
+      <l pos="A">нюдя</l>
+
+      <stg>
+        <st Contlex="A_ӇОДИ">нюдя</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>small</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>pieni</t>
+
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">нюлак</l>
 
       <stg>
@@ -6568,6 +6598,28 @@
 
       <tg xml:lang="fin">
         <t pos="A">tiivis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пудана</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">пудана</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">viimeinen</t>
       </tg>
     </mg>
   </e>
@@ -14880,6 +14932,28 @@
 
       <tg xml:lang="fin">
         <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈыхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">ӈыхы</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">etäinen, kaukainen, ammoinen</t>
       </tg>
     </mg>
   </e>
