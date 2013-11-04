@@ -91,11 +91,16 @@ LEXICON N_ХАНО-SG
 LEXICON N_ХАНО-PL
 +N: NMN_ХАНО-PL ;
 
+LEXICON N_ТИРЕ-RUS  
++Rus: N_ТИРЕ ;
+
 LEXICON N_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
 !! [total=3]
 !! тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 +N: NMN_ТИРЕ ;
 
+LEXICON N_ЕД-RUS
++Rus: N_ЕД ;
 LEXICON N_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 !! [total=98]
 !! ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
@@ -254,6 +259,8 @@ LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 +N:%^VowFronting PLACCSUF_Minus ;
 +N:   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+LEXICON N_ӇАНУ-RUS
++Rus: N_ӇАНУ ; 
 LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
 !! * Yaml: __nano__
 !! [total=57]
