@@ -9,6 +9,9 @@
 
 
 
+  %{вм%}:0	    +N+Sg+Nom+PxSg1
+  %{рл%}:0	    +N+Sg+Nom+PxSg2
+
 !!triggers
 lenition
 vowel raising э:ы о:у
@@ -144,6 +147,16 @@ __х to к after non-nasal glottal__
 !!Realization of glottal stops
 !SURFACE CONSONANT
 
+__%{вм%}:м__
+
+__%{рл%}:л__
+
+__%{вм%}:в__
+
+__%{рл%}:р__
+
+
+
 __С1:с GlottalNonNasalToSurface__
 
 __Д1:д GlottalNonNasalToSurface__
@@ -156,6 +169,8 @@ __Ӈ1:н GlottalNasalToSurface__
 
 
 !LOSS
+
+__л:0__
 
 
 __m loss before Labial followed by nonglottal cons or vows __
