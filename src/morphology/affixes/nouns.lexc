@@ -130,6 +130,8 @@ LEXICON N_ЕД/ТИРЕ/ХАНО
 +N:  PLNOMSUF ;
 +N: PLACCSUF_Zero ; !
 
+LEXICON N_МАРАӇГЫ-RUS
++Rus: N_МАРАӇГЫ ;
 LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14 !!ProsSg -вна
 !! [total=15]
 !! мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
@@ -140,6 +142,8 @@ LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14 !!ProsSg -вна
 +N:%^A2I PLACCSUF_Zero ; !
 +N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+LEXICON N_ӇУДИ-RUS 
++Rus: N_ӇУДИ ;
 LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
 !! [total=53]
 !! ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
@@ -199,6 +203,9 @@ LEXICON N_ЯЛЭ  !!= @CODE@ яля: 18 !!ProsSg -вна
 +N:  SG-NOM-STEM ;
 +N: PLNOMSUF ;
 +N:%^HardFronting PLACCSUF_Zero ;
+
+LEXICON N_ХОБ-RUS
++Rus: N_ХОБ ;
 
 LEXICON N_ХОБ  !!= @CODE@ хоба:хоба 19 !!ProsSg -вна
 !! * Yaml: __xob__
