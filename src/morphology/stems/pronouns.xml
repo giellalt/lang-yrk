@@ -66,6 +66,36 @@
 
   <e>
     <lg>
+      <l pos="Pron">сямбир</l>
+
+      <stg>
+        <st Contlex="PronInterrQnt">сямбир</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>how many</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>montako, kuinka paljon</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">сян</l>
 
       <stg>
@@ -636,6 +666,36 @@
 
   <e>
     <lg>
+      <l pos="Pron">ханяӈы</l>
+
+      <stg>
+        <st Contlex="PronInterr">ханяӈы</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>mones</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">худ</l>
 
       <stg>
@@ -701,6 +761,36 @@
 
       <stg>
         <st Contlex="PronDemAdn">тикы</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>that</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>tämä</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">такы</l>
+
+      <stg>
+        <st Contlex="PronDemAdn">такы</st>
       </stg>
     </lg>
 

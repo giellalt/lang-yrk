@@ -990,6 +990,34 @@
 
   <e>
     <lg>
+      <l pos="Adv">нерня</l>
+
+      <stg>
+        <st Contlex="AdvLoc">нерня</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>edessä, alussa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">нерˮ</l>
 
       <stg>
@@ -2118,6 +2146,34 @@
 
       <tg xml:lang="fin">
         <t>syksyllä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">паромбари</l>
+
+      <stg>
+        <st Contlex="AdvManner">паромбари</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kiirehtien</t>
       </tg>
     </mg>
   </e>
