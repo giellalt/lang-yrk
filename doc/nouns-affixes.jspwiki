@@ -61,8 +61,10 @@ no change in stem
 
 
  LEXICON N_ХАНО   хӑн: 11 !!ProsSg -увна
+* Yaml: __xano__
 [total=27]
 хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
+
 
 
  LEXICON N_ТИРЕ   тир: 12 !!ProsSg -увна
@@ -80,12 +82,15 @@ no change in stem
  LEXICON N_МАРАӇГЫ   мӑраӈга: 14 !!ProsSg -вна
 [total=15]
 мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
+ +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ӇУДИ   ӈуда: 15 !!ProsSg -вна
 [total=53]
 ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
 
  LEXICON NMN_ӇУДИ   ӈуда: 15 !!ProsSg -вна
+* Yaml: __ngudi__
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ЕСИ   ая̆ха: 16 !!ProsSg -вна
 [total=1]
@@ -94,6 +99,7 @@ no change in stem
  LEXICON N_ӇОДИ   ӈодя: 17 !!ProsSg -вна
 [total=28]
 ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
+ +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
@@ -101,40 +107,49 @@ no change in stem
 [total=2]
 яля yalya	ялян’ yalyan°h	яля” yalyaq	ялэ yale
 
- LEXICON N_ХОБ   хоба: 19 !!ProsSg -вна
+ LEXICON N_ХОБ   хоба:хоба 19 !!ProsSg -вна
+* Yaml: __xob__
 [total=25]
 хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
+ +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
 
  LEXICON N_ТЁН   тёня: 20 !!ProsSg -вна
+* Yaml: __tyon__
 [total=14]
+ +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ПИСЬ   пися: 21 !!ProsSg -вна
 [total=10]
 пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
+ +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ХАСЕВ   хасава: 22 !!ProsSg -вна
 [total=1]
 хасава xasawa	хасаван’ xasawan°h	хасава” xasawaq	хасев xasyew°
+ +N:   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ӇАНУ   ӈӑно: 23 !!ProsSg -вна
+* Yaml: __nano__
 [total=57]
 ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
 
  LEXICON NMN_ӇАНУ   ӈӑно: 23 !!ProsSg -вна
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ЯКЫ   якэ: 24 !!ProsSg -вна
 [total=4]
 якэ yake	якэн’ yaken°h	якэ” yakeq	якы yaki
 
  LEXICON N_ӇУВО   ӈумʼ:ӈум 25 !!ProsSg -(м)на
+* Yaml: __yam__
 [total=3]
 ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
 25!ямʼ:я
 
-
+ +N:ʼ  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_НЮБЕ   нюмʼ: 26  !!ProsSg -(м)на
 [total=0]
@@ -152,17 +167,29 @@ no change in stem
 ң [total=2]
 по’(ң) poh	понд’ pont°h	пой” poy°q	поё poyo
 Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
-
+ +N:Ӈ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ВЫӇО   выʼ:вы 29  !!ProsSg -мна /-мана
 ң [total=16]
 вы’(ң) wíh	вы̄нд’ wínt°h	вы” wí°q	выңо wíŋo
-
+ +N:Ӈ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ИЛЪЕ   илʼ:ил 30   !!ProsSg -мана
+* Yaml: __ilje__
 ң [total=13]
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
+ !+N:аӇ1 SG-NOM-STEM ;  2013-10-25
+ +N:Ӈ1 SGNOMSUF ;  
+ +N:Ӈ1 SG-NOM-STEM ;  
+ +N:Ӈ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+ LEXICON N_НЕНЭЦИЕ   ненэцьʼ:ненэць 30   !!ProsSg -мана
+* Yaml: __nyenecyh__
+ң [total=13]
+ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
+ +N:Ӈ1 SGNOMSUF ;  
+ +N:%>аӇ1 SG-NOM-STEM ;  
+ +N:%>аӇ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ПАХАЁ   пӑхӑʼ: 31   !!ProsSg -мна
 ң [total=2]
@@ -193,16 +220,21 @@ Where is the variation?
   тӑрˮ:тар 33   !!ProsSg -мня
 
  LEXICON NMN_ВАР   мяˮ:мя 35   !!ProsSg -мна
+* Yaml: __waro__
+ :Д1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_МЯДО   мяˮ:мя 35   !!ProsSg -мна
+* Yaml: __myado__
+ :Д1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ИДЕ   иˮ: 36   !!ProsSg -мна
+* Yaml: __yidye__
 [total=1]
 и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
+ +N:Д1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
-
->> N_ӇОДИ/ПИСЬ = LEXICON N_ИДЕ   
+>> N_ӇОДИ/ПИСЬ = +N:Д1  POSSESSA-PLURAL ;  
 
  LEXICON	    N_САВНЕ  
 
@@ -223,23 +255,33 @@ NMN
 
 
  LEXICON NMN_ӇЭ  ӈэ:ӈэ 1  !!ProsSg -вна
+   SG-ACC-STEM ;  SGACCSUF, SGGENSUF
+   SG-NOM-STEM ;  SG[DAT,LOC, ABL,TRA,PRO] DU[NOM,ACC,GEN] PL[DAT,LOC,ABL,TRA] PX-s, NOMINAL-CONJUGATION
+   PLNOMSUF ;   
+   PLACCSUF_Zero ;  => PL-ACC_STEM
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_Ё    я:я 2 !!ProsSg -вна
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
  LEXICON NMN_ПИ  пя: 3 !!ProsSg -вна
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_ТЫ   ты: 4 !!ProsSg -вна
 [total=4]
 ты ti        тэ̇н’ ten°h     ты” tiq ты tí
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_ХАВО   ха: 5 !!ProsSg -вна
 [total=1]
 ха xa        хан’ xan°h      ха” xaq хаво xawo
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_СЁЁ   сё: 6 !!ProsSg -вна
 [total=0]
 сё syo       сён’ syon°h     сё” syoq        сёё syoyo
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_ИБЕ   и: 7 !!ProsSg -вна
 [total=0]
@@ -253,13 +295,17 @@ NMN
 9
 
  LEXICON NMN_ХУСУВЭЙ  хусувэй: 10 !!ProsSg -ювна
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
 
 
 
  LEXICON NMN_ТИРЕ   тир: 12 !!ProsSg -увна
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_ЕД   ед: 13 !!ProsSg -увна /-ювна
-
+* Yaml: __yed__
+   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
@@ -343,6 +389,9 @@ Start Plural
 
 
 What is assumed on the basis of the plural accusative
+ +Pl+Pros:ˮмА2на 	K	;  When does this take a vowel хоˮомна
+
+
 
 
 

@@ -19,7 +19,11 @@ referential
 
 The Usage extents are marked using following tags:
 
+  +Rus  100% Russian homograph
+
+
 Dialects
+
 
 The nominals are inflected in the following Case and Number
  *  +Pred	 = predestinative
@@ -64,7 +68,8 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-
+  %{вм%}	    +N+Sg+Nom+PxSg1
+  %{рл%}	    +N+Sg+Nom+PxSg2
 And following triggers to control variation
 This is the schwa or reduced vowel occurring after x in case endings
 -хА1на -хА1д
