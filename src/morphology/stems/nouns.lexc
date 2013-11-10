@@ -74,7 +74,12 @@ LEXICON nouns
 вэсуˮ:вэсуС1 N_ТАСО  "mies, aviomies" ;
 вэцькэця:вэцькэця N_ӇОДИ  "kärki, puolikas" ;
 вэя:вэя N_ӇОДИ  "veri" ;
+газета:газета N_ХОБ-RUS  "sanomalehti" ;
+геолог:геолог N_ЕД-RUS  "geologi" ;
+герб:герб N_ЕД-RUS  "vaakuna" ;
+государства:государства N_ХОБ-RUS  "valtio" ;
 декабрь:декабрь N_ЕД-RUS  "joulukuu" ;
+документ:документ N_ЕД-RUS  "asiapaperi" ;
 е:е N_ӇЭ  "mänty" ;
 еˮэй:еˮэй N_ЕД  "osa, osuus, oma, omaisuus" ;
 ебц:ебц N_ХАНО  "kehto" ;
@@ -119,6 +124,7 @@ LEXICON nouns
 еӈа:еӈа N_ХОБ  "oja" ;
 еӈга:еӈга N_МАРАӇГЫ/ХОБ  "askel" ;
 закон:закон N_ЕД-RUS  "laki" ;
+журнал:журнал N_ЕД-RUS  "aikakauslehti" ;
 и:и N_ИБЕ  "merkitys" ;
 иˮ:и N_ИДЕ  "vesi" ;
 ибад:ибад N_ЕД  "lämmin aika" ;
@@ -169,8 +175,8 @@ LEXICON nouns
 килограмм:килограмм N_ЕД-RUS  "kilogramma" ;
 километр:километр N_ТИРЕ-RUS  "kilometri" ;
 кино:кино N_ӇАНУ-RUS  "elokuvateatteri" ;
-класс:класс N_ЕД  "luokka" ;
-книга:книга N_МАРАӇГЫ  "kirja" ;
+класс:класс N_ЕД-RUS  "luokka" ;
+книга:книга N_ӇУДИ/ӇЭ  "kirja" ;
 культура:культура N_МАРАӇГЫ  "kulttuuri" ;
 лаˮнарё:лаˮнарё N_МЕРЁ  "natina, kopina" ;
 лаб:лаб N_ЕД  "lohkare, pirstale, lainehtimisen ääni" ;
@@ -343,6 +349,7 @@ LEXICON nouns
 меӈга:меӈга N_ХОБ  "koste, syvä paikka vedessä" ;
 минарцьʼ:минарць N_ЁЛЬЦЕ  "kantopaarit" ;
 минзьʼ:минзь N_ЁЛЬЦЕ  "tie, liikuntasuunta" ;
+минут:минут N_ЕД-RUS  "minuutti" ;
 минюй:минюй N_ЕД  "kantamus" ;
 миплава:миплава N_ӇУДИ  "luovutuspiste" ;
 мирˮ:мир N_ТАРЕ-Pal/Var  "tavara, hinta" ;
@@ -860,6 +867,7 @@ LEXICON nouns
 сей:сей N_ЕД  "sydän" ;
 сейрё:сейрё N_МЕРЁ  "kalina" ;
 сейха:сейха N_МАРАӇГЫ  "tupakan haju" ;
+секунда:секунда N_ӇУДИ-RUS  "sekunti" ;
 селас:селас N_ЕД  "veljien vaimot, sisarusten miehet" ;
 селв:селв N_СЕЛВ  "hyytynyt veri" ;
 селковэй:селковэй N_ХУСУВЭЙ  "rupla" ;
@@ -1026,6 +1034,7 @@ LEXICON nouns
 сёнзя:сёнзя N_ПИСЬ  "sisu, sisukset, sisälmykset, mieliala" ;
 сёр:сёр N_ЕД  "syvin paikka meressä" ;
 сёрецьʼ:сёрець N_ЁЛЬЦЕ  "kaksi yhdistettyä rekeä tavaroiden säilytystä varten" ;
+сёрт:сёрт N_ЕД  "paholainen, piru" ;
 та:та N_ӇЭ/Ё  "vaihto" ;
 таʼ:та N_ВЫӇО  "kesä" ;
 таˮ:таС1 N_ТАСО  "lisuke" ;
@@ -1178,7 +1187,7 @@ LEXICON nouns
 туёцьʼ:туёць N_ЁЛЬЦЕ  "risti, jumalankuva, ikoni" ;
 туёцьʼ:туёць N_ЁЛЬЦЕ  "risti, ikoni" ;
 туӈгоˮ:туӈгоС1 N_ТАСО  "tunguusi" ;
-ты:ты N_ТЫ  "poro" ;
+ты:тэ N_ТЫ  "poro" ;
 тыбыёва:тыбыёва N_ӇУДИ  "tammi" ;
 тыдна:тыдна N_ӇУДИ  "natina, kitinä" ;
 тыдрё:тыдрё N_МЕРЁ  "natina, räsähdys" ;
@@ -1374,6 +1383,7 @@ LEXICON nouns
 хонде:хонде N_Vow  "peltopyy" ;
 хонёбцьʼ:хонёбць N_ЁЛЬЦЕ  "sänky" ;
 хонёлава:хонёлава N_ӇУДИ  "makuuhuone" ;
+хор:хор N_ЕД  "uuni" ;
 хорˮ:хор N_ВАР  "tynnyri" ;
 хора:хора N_ХОБ  "uros" ;
 хорака:хорака N_МАРАӇГЫ  "kurkku" ;

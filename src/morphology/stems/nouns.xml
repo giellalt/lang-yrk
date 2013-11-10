@@ -1764,6 +1764,86 @@
 
   <e>
     <lg>
+      <l pos="N">газета</l>
+
+      <stg>
+        <st Contlex="N_ХОБ-RUS">газета</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">sanomalehti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">геолог</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">геолог</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">geologi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">герб</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">герб</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">vaakuna</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">государства</l>
+
+      <stg>
+        <st Contlex="N_ХОБ-RUS">государства</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">valtio</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">декабрь</l>
 
       <stg>
@@ -1778,6 +1858,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">joulukuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">документ</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">документ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">asiapaperi</t>
       </tg>
     </mg>
   </e>
@@ -2866,6 +2966,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">laki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">журнал</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">журнал</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">aikakauslehti</t>
       </tg>
     </mg>
   </e>
@@ -4071,7 +4191,7 @@
       <l pos="N">класс</l>
 
       <stg>
-        <st Contlex="N_ЕД">класс</st>
+        <st Contlex="N_ЕД-RUS">класс</st>
       </stg>
     </lg>
 
@@ -4092,8 +4212,6 @@
         <t pos="N">luokka</t>
       </tg>
     </mg>
-
-    <!-- !Salminenil pole-->
   </e>
 
   <e>
@@ -4101,7 +4219,7 @@
       <l pos="N">книга</l>
 
       <stg>
-        <st Contlex="N_МАРАӇГЫ">книга</st>
+        <st Contlex="N_ӇУДИ/ӇЭ">книга</st>
       </stg>
     </lg>
 
@@ -8191,6 +8309,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">tie, liikuntasuunta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">минут</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">минут</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">minuutti</t>
       </tg>
     </mg>
   </e>
@@ -15726,7 +15864,9 @@
 
       <stg>
         <st Contlex="N_ЕД">паӈгод</st>
-      </stg><!--(+Dial/E)-->
+      </stg>
+
+      <!--(+Dial/E)-->
     </lg>
 
     <mg>
@@ -20632,6 +20772,26 @@
 
   <e>
     <lg>
+      <l pos="N">секунда</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ-RUS">секунда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">sekunti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">селас</l>
 
       <stg>
@@ -20892,7 +21052,9 @@
 
       <stg>
         <st Contlex="N_ӇОДИ">сеня</st>
-      </stg><!--(+Dial/W)-->
+      </stg>
+
+      <!--(+Dial/W)-->
     </lg>
 
     <mg>
@@ -24648,6 +24810,28 @@
 
   <e>
     <lg>
+      <l pos="N">сёрт</l>
+
+      <stg>
+        <st Contlex="N_ЕД">сёрт</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">paholainen, piru</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">та</l>
 
       <stg>
@@ -28351,7 +28535,7 @@
       <l pos="N">ты</l>
 
       <stg>
-        <st Contlex="N_ТЫ">ты</st>
+        <st Contlex="N_ТЫ">тэ</st>
       </stg>
     </lg>
 
@@ -30741,7 +30925,9 @@
 
       <stg>
         <st Contlex="N_ӇУДИ">хяепя</st>
-      </stg><!--(+Dial/W)-->
+      </stg>
+
+      <!--(+Dial/W)-->
     </lg>
 
     <mg>
@@ -33089,6 +33275,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">makuuhuone</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">хор</l>
+
+      <stg>
+        <st Contlex="N_ЕД">хор</st>
+      </stg>
+    </lg>
+
+    <pos>N</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">uuni</t>
       </tg>
     </mg>
   </e>
