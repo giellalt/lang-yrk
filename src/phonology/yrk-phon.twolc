@@ -41,6 +41,8 @@ Alphabet
  С1:с
  С1:0
 
+ %{увм%}:0	   !!= @CODE@ +N+Sg+Pros
+
  %{вм%}:0	   !!= @CODE@ +N+Sg+Nom+PxSg1
  %{рл%}:0	   !!= @CODE@ +N+Sg+Nom+PxSg2
 
@@ -48,7 +50,8 @@ Alphabet
 %^A2O:0
 %^A2I:0 
 %^MLenition:0 !! lenition
-%^VowRaise:0 !! vowel raising э:ы о:у
+%^VowLower:0 !!= @CODE@ vowel lowering ы:э у:о
+%^VowRaise:0 !!= @CODE@ vowel raising э:ы о:у
 %^VowLoss:0 !! stem-final vowel is lost in plural accusative
 %^VowFronting:0 !! хасава:хасев
 %^PalLoss:0 !! in combination with stem-final vowel loss тёня:тён
@@ -72,8 +75,8 @@ CnsNotGlots = б в г д ж з й к л м н п р с т ф х ц
               Ч Ш Щ  ;
 Glots = ˮ ʼ ;
 
-Cns =  б в г д ж з к л м н ҥ п р с т ф х ц ч ш 
-       Б В Г Д Ж З К Л М Н Ҥ П Р С Т Ф Х Ц Ч Ш ;
+Cns =  б в г д ж з к л м н ӈ п р с т ф х ц ч ш 
+       Б В Г Д Ж З К Л М Н Ӈ П Р С Т Ф Х Ц Ч Ш ;
 Cst =  к п т ф х ц ч ш с 
        К П Т Ф Х Ц Ч Ш С ;
 
@@ -111,14 +114,14 @@ Rules
 
 "А2:0 possible vowel loss as second syllable vowel"
 !! __@RULENAME@__
-А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ м: _ н а ; 
-         :Vow %^MLenition:0 %> м: _ н а ; 
-         # Cns:* Vow:+ Ӈ1: %^MLenition:0 %> м: _ н а ; !! поʼ:помна
-         [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: м: _ н а ; 
+А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ %{увм%}: _ н а ; 
+         :Vow %^MLenition:0 %> %{увм%}: _ н а ; 
+         # Cns:* Vow:+ Ӈ1: %^MLenition:0 %> %{увм%}: _ н а ; !! поʼ:помна
+         [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: %{увм%}: _ н а ; 
 
 "0:U in sgprossuf"
 !! __@RULENAME@__
-0:у <=> [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> _ м: А2: н а ;
+0:у <=> [ д | м: (ʼ: ) | н | р ] %> _ %{увм%}: А2: н а ;
 
 "А1 -> а"
 !! __@RULENAME@__
@@ -132,19 +135,19 @@ Rules
 "А1 -> о"
 !! __@RULENAME@__
 !!{{{
-А1:о <=> [ о | ё ]  %> [ х | ˮ ] _ ; !!= @CODE@ 2013-10-22 хоˮомна
+А1:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ; !!= @CODE@ 2013-10-22 хоˮомна
 !!}}}
 
 "А1 -> э"
 !! __@RULENAME@__
-А1:э <=> [ э | е ]  %> х _ ;
+А1:э <=> [ ы:э | э | :е ] (%^VowLower:0) %> х _ ;
 !2013-03-15!![ ы | э | е ]  %> х _ ;
 
-
+!! !VOWEL LOWERING
 "StemFinalYToE"
 !! __@RULENAME@__
-ы:э <=> _ %> х э  ;
-
+ы:э <=> _ [ %^VowLower:0 %> (ˮ) :CnsNotGlots | %> х э ]  ;
+        
 "а:э in final position of polysyllable verb stems"
 !! __@RULENAME@__
 а:э <=>  [ ӈ | т | л | р | д | н ] _ [ %^VowelFronting:0 | %> й [н|д] ] ;
@@ -228,10 +231,23 @@ Rules
 "mToV"
 !! __@RULENAME@__, perhaps there should be a VtoM rule2013-01-23
 м:в <=> _  %^MLenition:0 [ # | %> [ о |  м | ʼ | ˮ ] ] ;
-        _ ʼ:0  %^MLenition:0 %>  0:  м: А2: ;
+        _ ʼ:0  %^MLenition:0 %>  0:  %{увм%}: А2: ;
        :Vow %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
-       [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
+
+"%{увм%} ToV"
+!! __@RULENAME@__,
+%{увм%}:в <=>
+        :Vow (%^VowLower:) %>  _  А2: н а  ;
+        н %> 0:у  _  А2: н а  ;
+!       :Vow %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
+!       [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
 !ʼ %> [ Ы1: | ʼ | м ʼ ] ;
+
+"%{увм%} ToM"
+!! __@RULENAME@__,
+%{увм%}:м <=>
+        [ :Vow|Vow:] (%^VowLower:|%^VowRaise:|%^A2I:|(%^PalLoss:)%^VowLoss:) %> [ ˮ | Д1: ]  _  А2: н а  ;
+
 
 "mTob" 
 !! __@RULENAME@__
@@ -326,11 +342,11 @@ Rules
 
 "%{вм%}:в"
 !! __@RULENAME@__
- %{вм%}:в <=> [ Vow | Cns: ] %> _  ;
+ %{вм%}:в <=> [ :Vow | Cns: ] (%^VowLower:0) %> _  ;
 
 "%{рл%}:р"
 !! __@RULENAME@__
- %{рл%}:р <=> [ Vow | Cns: ] %> _  ;
+ %{рл%}:р <=> [ :Vow | Cns: ] (%^VowLower:0) %> _  ;
 
 
 
