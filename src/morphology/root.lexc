@@ -177,6 +177,7 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
+ %{увм%}	   !!= @CODE@ +N+Sg+Pros
  %{вм%}	   !!= @CODE@ +N+Sg+Nom+PxSg1
  %{рл%}	   !!= @CODE@ +N+Sg+Nom+PxSg2
 !! And following triggers to control variation
@@ -193,6 +194,7 @@ Multichar_Symbols
 %^A2O !! Initially this is used for the noun "я" to enable a:o
 %^A2I !! for я:и in пя
 %^MLenition !! м:в м:б
+%^VowLower !!= @CODE@ vowel lowering ы:э у:о
 %^VowRaise !! э:ы о:у
 %^VowLoss !! stem-final vowel is lost in plural accusative form
 %^VowFronting !! хасава:хасев
