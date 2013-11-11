@@ -10,6 +10,7 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! * Yaml: __xo__
 +N: NMN_ӇЭ ;
 +N+Pl+Pros:%>ˮА1мна	K ; !2013-10-22
++N: POSSESSA-PL-PROS_ˮмана ;
 
 LEXICON N_ӇЭ-PAL/VAR  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! no change in stem
@@ -22,6 +23,7 @@ LEXICON N_ӇЭ/ХАБИЕ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 +N: PLACCSUF_Е ; !
 
 LEXICON N_Ё  !!= @CODE@ я:я 2 !!ProsSg -вна
+!! * Yaml: __ya__
 !! [total=3]
 !! я ya	ян’ yan°h	я” yaq	ё yo
 +N: NMN_Ё ;
@@ -516,8 +518,10 @@ LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
   SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
-  PLNOMSUF ;
+  PLNOMSUF ; 
   PLPROSSUF ;
+  POSSESSA-PL-PROS_ˮмана ;
++Pl+Pros:%^A2O%>ˮмна K ;
 :%^A2O PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
@@ -544,6 +548,7 @@ LEXICON NMN_ТЫ  !!= @CODE@ ты:ты 4 !!ProsSg -вна
   SG-ACC-STEM ;
 :%^VowLower  SG-NOM-STEM ;
   PLNOMSUF ;
++Pl+Pros:%^VowLower%>ˮэмна K ; !!= @CODE@ This will need schwa to surface
  PLACCSUF_Zero ; !
 :%^VowLower  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
@@ -1060,6 +1065,8 @@ LEXICON PLPROSSUF
 !+Pl+Pros:%>ˮмана PL-PROS_POSSESSA ;
 !+Pl+Pros:%>ˮмна K ; !явоˮмна
 
+
+
 LEXICON  PLTRASUF
 +Pl+Tra:%>ˮӈэ K ;
 
@@ -1520,17 +1527,17 @@ LEXICON POSSESSA-PL-PROS
 +Pl+Pros+PxPl2:%>ˮ%{увм%}А2натаˮ K ;
 +Pl+Pros+PxPl3:%>ˮ%{увм%}А2натоʼ K ;
 
-!LEXICON PL-PROS_POSSESSA
-! -ˮмана 
-!+PxSg1:н   K ;
-!+PxSg2:т   K ;
-!+PxSg3:та  K ;
-!+PxDu1:ниʼ K ;
-!+PxDu2:тиʼ K ;
-!+PxDu3:тиʼ K ;
-!+PxPl1:наˮ K ;
-!+PxPl2:таˮ K ;
-!+PxPl3:тоʼ K ;
+LEXICON POSSESSA-PL-PROS_ˮмана
+!!+Pl+Pros:ˮмана
++Pl+Pros+PxSg1:ˮмана%>н   K ;
++Pl+Pros+PxSg2:ˮмана%>т   K ;
++Pl+Pros+PxSg3:ˮмана%>та  K ;
++Pl+Pros+PxDu1:ˮмана%>ниʼ K ;
++Pl+Pros+PxDu2:ˮмана%>тиʼ K ;
++Pl+Pros+PxDu3:ˮмана%>тиʼ K ;
++Pl+Pros+PxPl1:ˮмана%>наˮ K ;
++Pl+Pros+PxPl2:ˮмана%>таˮ K ;
++Pl+Pros+PxPl3:ˮмана%>тоʼ K ;
 
 
 
