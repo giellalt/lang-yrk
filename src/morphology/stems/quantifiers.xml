@@ -101,7 +101,7 @@
       <l pos="Num">тет</l>
 
       <stg>
-        <st Contlex="NUM_CONS">тет</st>
+        <st Contlex="NUM_ЕД">тет</st>
       </stg>
     </lg>
 
@@ -131,7 +131,37 @@
       <l pos="Num">самляӈг</l>
 
       <stg>
-        <st Contlex="NUM_CONS">самляӈг</st>
+        <st Contlex="NUM_ЕД/ХАНО">самляӈг</st>
+      </stg>
+    </lg>
+
+    <pos>Qnt</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>five</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>viisi</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num">самляӈг</l>
+
+      <stg>
+        <st Contlex="NUM_ЕД/ХАНО">самбляӈг</st>
       </stg>
     </lg>
 
