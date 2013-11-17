@@ -6,6 +6,14 @@ LEXICON NUM_ТАРЕ
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТАРЕ ;
 
+LEXICON NUM_ЕД !!= @CODE@ ед: 13 
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ЕД ;
+
+LEXICON NUM_ЕД/ХАНО
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ЕД/ХАНО ;
+
 LEXICON NUM_ТИРЕ/ХАНО
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТИРЕ/ХАНО ;

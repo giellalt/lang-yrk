@@ -614,6 +614,18 @@ LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
   PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+LEXICON NMN_ЕД/ХАНО
+ SGDATSUF ;
+:а SGDATSUF ;
+ SG-ACC-STEM ;
+  SG-ACC-STEM ;
+  SG-NOM-STEM ;
+  PLNOMSUF ;
+  PLACCSUF_Zero ; !
+  PLACCSUF_О ; !
+  POSSESSA-PLURAL ;
+:%>о  POSSESSA-PLURAL ;
+
 LEXICON NMN_ЕД/ХУСУВЭЙ
  SGDATSUF ;
 :%^JLoss SG-ACC-STEM ;
