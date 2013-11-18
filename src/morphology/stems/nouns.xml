@@ -10044,6 +10044,26 @@
 
   <e>
     <lg>
+      <l pos="N">мядоˮмярцэй</l>
+
+      <stg>
+        <st Contlex="N_ЕД/ХУСУВЭЙ">мядоˮмярцэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">lahja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мядонзэй</l>
 
       <stg>
@@ -24905,6 +24925,26 @@
 
   <e>
     <lg>
+      <l pos="N">сяторэй</l>
+
+      <stg>
+        <st Contlex="N_ХУСУВЭЙ">сяторэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="N">hauki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сяхарё</l>
 
       <stg>
@@ -36879,7 +36919,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">katu</t>
+        <t pos="N">katu, läpikulku</t>
       </tg>
     </mg>
   </e>
@@ -36901,7 +36941,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">hyvä kulkija, vetelehtijä</t>
       </tg>
     </mg>
   </e>
@@ -36923,35 +36963,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="N">kuumuus, helle, kuume</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">ядё</l>
-
-      <stg>
-        <st Contlex="N_МЕРЁ">ядё</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">kuumuus, lämpö</t>
+        <t pos="N">kuumuus, lämpö, helle, kuume</t>
       </tg>
     </mg>
   </e>
@@ -37427,7 +37439,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">pieni nahka</t>
       </tg>
     </mg>
   </e>
