@@ -2423,12 +2423,13 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">jäntevä, notkea</t>
       </tg>
     </mg>
   </e>
   <e>
     <lg>
+
       <l pos="A">лэмнёй</l>
       <stg>
         <st Contlex="A_ЕД">лэмнёй</st>
@@ -2456,6 +2457,26 @@
       </m>
       <tg xml:lang="fin">
         <t pos="A">pelokas, arka</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+
+      <l pos="A">лэрад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">лэрад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">säikky, pelokas</t>
       </tg>
     </mg>
   </e>
@@ -4966,7 +4987,7 @@
     </mg>
   </e>
   <e>
-    <lg>
+   <lg>
       <l pos="A">нюляӈг</l>
       <stg>
         <st Contlex="A_ЕД">нюляӈг</st>
@@ -4983,6 +5004,27 @@
   </e>
   <e>
     <lg>
+      <l pos="A">нюнабцо</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">нюнабцо</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">rasittava, väsyttävä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+
       <l pos="A">нюнбэй</l>
 
       <stg>
@@ -14035,6 +14077,26 @@
       </tg>
     </mg>
   </e>
+  <e>
+    <lg>
+      <l pos="A">ӈадибцо</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">ӈадябцо</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="A">hyvin näkyvä</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="A">ӈадимдебэй</l>
