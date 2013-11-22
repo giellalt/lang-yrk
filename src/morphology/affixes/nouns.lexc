@@ -120,11 +120,13 @@ LEXICON N_ЕД/ХАНО
 +N: PLACCSUF_Zero ; !
 
 LEXICON N_ЕД/ТИРЕ
-+N: SGDATSUF ;
-+N:а  SG-ACC-STEM ;
-+N:  SG-NOM-STEM ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N: NMN_ЕД/ТИРЕ ;
+LEXICON NMN_ЕД/ТИРЕ
+ SGDATSUF ;
+:а  SG-ACC-STEM ;
+  SG-NOM-STEM ;
+  PLNOMSUF ;
+ PLACCSUF_Zero ; !
 
 LEXICON N_ЕД/ТИРЕ/ХАНО
 +N: SGDATSUF ;
