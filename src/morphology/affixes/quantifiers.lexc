@@ -2,6 +2,10 @@
 !! ---------------
 !! Nenets quantifiers ...
 
+LEXICON NUM_МЯДО
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_МЯДО ;
+
 LEXICON NUM_ТАРЕ
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТАРЕ ;
@@ -9,6 +13,10 @@ LEXICON NUM_ТАРЕ
 LEXICON NUM_ЕД !!= @CODE@ ед: 13 
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ЕД ;
+
+LEXICON NUM_ЕД/ТИРЕ
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ЕД/ТИРЕ ;
 
 LEXICON NUM_ЕД/ХАНО
 +Qnt+Num+Adn: K ;
