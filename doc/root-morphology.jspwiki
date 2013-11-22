@@ -68,6 +68,7 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+  %{увм%}	    +N+Sg+Pros
   %{вм%}	    +N+Sg+Nom+PxSg1
   %{рл%}	    +N+Sg+Nom+PxSg2
 And following triggers to control variation
@@ -79,6 +80,7 @@ Alternating between zero and а
 Initially this is used for the noun "я" to enable a:o
 for я:и in пя
 м:в м:б
+ %^VowLower  vowel lowering ы:э у:о
 э:ы о:у
 stem-final vowel is lost in plural accusative form
 хасава:хасев
