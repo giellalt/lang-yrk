@@ -17,6 +17,7 @@ no change in stem
    хӑби:8 !!ProsSg -вна
 
  LEXICON N_Ё   я:я 2 !!ProsSg -вна
+* Yaml: __ya__
 [total=3]
 я ya	ян’ yan°h	я” yaq	ё yo
 
@@ -30,6 +31,7 @@ no change in stem
 пя pya	пян’ pyan°h	пя” pyaq	пи pyí
 
  LEXICON N_ТЫ   ты: 4 !!ProsSg -вна
+* Yaml: __ty__
 [total=4]
 ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
 
@@ -84,6 +86,8 @@ no change in stem
 мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
  +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+
+
  LEXICON N_ӇУДИ   ӈуда: 15 !!ProsSg -вна
 [total=53]
 ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
@@ -117,7 +121,7 @@ no change in stem
 
 
 
- LEXICON N_ТЁН   тёня: 20 !!ProsSg -вна
+ LEXICON N_ТЁН   тёня:тёня 20 !!ProsSg -вна
 * Yaml: __tyon__
 [total=14]
  +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
@@ -269,10 +273,11 @@ NMN
  LEXICON NMN_ПИ  пя: 3 !!ProsSg -вна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_ТЫ   ты: 4 !!ProsSg -вна
+ LEXICON NMN_ТЫ   ты:ты 4 !!ProsSg -вна
 [total=4]
 ты ti        тэ̇н’ ten°h     ты” tiq ты tí
-   POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+ +Pl+Pros:%^VowLower%>ˮэмна K ;  This will need schwa to surface
+ :%^VowLower  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_ХАВО   ха: 5 !!ProsSg -вна
 [total=1]
@@ -297,6 +302,7 @@ NMN
 
  LEXICON NMN_ХУСУВЭЙ  хусувэй: 10 !!ProsSg -ювна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
 
 
 
@@ -390,7 +396,9 @@ Start Plural
 
 
 What is assumed on the basis of the plural accusative
- +Pl+Pros:ˮмА2на 	K	;  When does this take a vowel хоˮомна
+ +Pl+Pros:%>ˮ%{увм%}А2на 	K	;  When does this take a vowel хоˮомна
+
+
 
 
 
@@ -410,7 +418,7 @@ Possessor Indices
 
 
 
- +Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor:%>в   K ;  2013-10-22 Should this also have +ScSg3 marking
+ +Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg:%>в   K ;  2013-10-22 Should this also have +ScSg3 marking
 
 
 
@@ -418,7 +426,7 @@ Possessor Indices
 
 
 
-The next line in +Sg+Pros+PxDu2:%^MLenition%>мА2нандиʼ must be removed
+The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
 This line must be removed 2013-03-20
 
 
