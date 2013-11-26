@@ -44,7 +44,9 @@ __0:а between Д1: %> and  мна__
 
 __й:0 when followed by vowel in VowelPalatalization__
 
-__а:я VowelPalatalization__
+__а:я VowelPalatalization left__
+
+__а:я VowelPalatalization right__
 
 __у:ю VowelPalatalization__
 
@@ -97,6 +99,8 @@ __а:е хасава:хасев__
 
 __а:0 Stem vowel loss in plural accusative__
 
+__ӈ:0 NOT мэсь+V+IV+Ind+Aor+ScDu3: мэӈахаʼ__
+
 __я:ь Stem vowel loss in plural accusative__
 
 __я:й Stem vowel loss in plural accusative__
@@ -139,6 +143,10 @@ __b to 0 between mod/obl__
 
 
 __ъ:0 with Conj after vowels__
+{{{
+         Vow %> _ я: [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
+}}}
+
 
 __с => ц affrication after Stop__
 
@@ -182,7 +190,7 @@ __л:0__
 
 
 __m loss before Labial followed by nonglottal cons or vows __
-* А1:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  поʼ+N+Sg+Acc+PxSg2:понд 
+*         Vow %> _ я: [ н | д ] ;  поʼ+N+Sg+Acc+PxSg2:понд 
 
 
 __Д1:0 GlottalNonNasalToZERO__

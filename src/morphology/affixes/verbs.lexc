@@ -109,7 +109,7 @@ LEXICON TV_НУ
 LEXICON IV_НУ/ТУ
 +V+IV: V-01_НУ/ТУ       ;
 
-LEXICON IV_НЭКАЛ
+LEXICON IV_НЭКАЛ !!= @CODE@ 
 +V+IV: V-01_НЭКАЛ       ;
 
 LEXICON TV_НЭКАЛ
@@ -1405,23 +1405,23 @@ LEXICON IND-AOR-SCPL3-OCDU3
 
 !!after stem-final consonant и instead of й.
 LEXICON IND-AOR-SCSG1-OCPL3
-+Ind+Aor+ScSg1+OcPl3:%>йн K ;
++Ind+Aor+ScSg1+OcPl3:%>ъян K ;
 LEXICON IND-AOR-SCSG2-OCPL3
-+Ind+Aor+ScSg2+OcPl3:%>йд K ;
++Ind+Aor+ScSg2+OcPl3:%>ъяд K ;
 LEXICON IND-AOR-SCSG3-OCPL3
-+Ind+Aor+ScSg3+OcPl3:%>йда K ;
++Ind+Aor+ScSg3+OcPl3:%>ъяда K ;
 LEXICON IND-AOR-SCDU1-OCPL3
-+Ind+Aor+ScDu1+OcPl3:%>йниʼ K ;
++Ind+Aor+ScDu1+OcPl3:%>ъяниʼ K ;
 LEXICON IND-AOR-SCDU2-OCPL3
-+Ind+Aor+ScDu2+OcPl3:%>йдиʼ K ;
++Ind+Aor+ScDu2+OcPl3:%>ъядиʼ K ;
 LEXICON IND-AOR-SCDU3-OCPL3
-+Ind+Aor+ScDu3+OcPl3:%>йдиʼ K ;
++Ind+Aor+ScDu3+OcPl3:%>ъядиʼ K ;
 LEXICON IND-AOR-SCPL1-OCPL3
-+Ind+Aor+ScPl1+OcPl3:%>йнаˮ K ;
++Ind+Aor+ScPl1+OcPl3:%>ъянаˮ K ;
 LEXICON IND-AOR-SCPL2-OCPL3
-+Ind+Aor+ScPl2+OcPl3:%>йдаˮ K ;
++Ind+Aor+ScPl2+OcPl3:%>ъядаˮ K ;
 LEXICON IND-AOR-SCPL3-OCPL3
-+Ind+Aor+ScPl3+OcPl3:%>йдоʼ K ;
++Ind+Aor+ScPl3+OcPl3:%>ъядоʼ K ;
 
 LEXICON IND-PRT1-SCSG1-OCSG3
 +Ind+Prt1+ScSg1+OcSg3:%>вась K ;
@@ -1462,23 +1462,23 @@ LEXICON IND-PRT1-SCPL3-OCDU3
 +Ind+Prt1+ScPl3+OcDu3:%>ӈахаюдонзь K ;
 
 LEXICON IND-PRT1-SCSG1-OCPL3
-+Ind+Prt1+ScSg1+OcDu3:%>йнась K ;
++Ind+Prt1+ScSg1+OcDu3:%>ъянась K ;
 LEXICON IND-PRT1-SCSG2-OCPL3
-+Ind+Prt1+ScSg2+OcDu3:%>йдась K ;
++Ind+Prt1+ScSg2+OcDu3:%>ъядась K ;
 LEXICON IND-PRT1-SCSG3-OCPL3
-+Ind+Prt1+ScSg3+OcDu3:%>йдась K ;
++Ind+Prt1+ScSg3+OcDu3:%>ъядась K ;
 LEXICON IND-PRT1-SCDU1-OCPL3
-+Ind+Prt1+ScDu1+OcDu3:%>йнинзь K ;
++Ind+Prt1+ScDu1+OcDu3:%>ъянинзь K ;
 LEXICON IND-PRT1-SCDU2-OCPL3
-+Ind+Prt1+ScDu2+OcDu3:%>йдинзь K ;
++Ind+Prt1+ScDu2+OcDu3:%>ъядинзь K ;
 LEXICON IND-PRT1-SCDU3-OCPL3
-+Ind+Prt1+ScDu3+OcDu3:%>йдинзь K ;
++Ind+Prt1+ScDu3+OcDu3:%>ъядинзь K ;
 LEXICON IND-PRT1-SCPL1-OCPL3
-+Ind+Prt1+ScPl1+OcDu3:%>йнаць K ;
++Ind+Prt1+ScPl1+OcDu3:%>ъянаць K ;
 LEXICON IND-PRT1-SCPL2-OCPL3
-+Ind+Prt1+ScPl2+OcDu3:%>йдаць K ;
++Ind+Prt1+ScPl2+OcDu3:%>ъядаць K ;
 LEXICON IND-PRT1-SCPL3-OCPL3
-+Ind+Prt1+ScPl3+OcDu3:%>йдонзь K ;
++Ind+Prt1+ScPl3+OcDu3:%>ъядонзь K ;
 
 !! Preterite 1 # This should be for ConjPrt and NarrPrt also.
 LEXICON IND-PRT1
@@ -1665,24 +1665,24 @@ LEXICON V_Mod/nec-Refl
 +Mod/nec:%>бцу MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/narr
-+Mod/narr+Aor:%^MLenition%>мЫ2 MUTUAL-PERSON ; 
++Mod/narr+Aor:%>%{вм%}Ы2 MUTUAL-PERSON ; 
 
 LEXICON V_Mod/narr-Refl
-+Mod/narr+Aor:%^MLenition%>мэ MUTUAL-PERSON-REFL ; 
-+Mod/narr:%^MLenition%>мЫ2 MUTUAL-PRT1-REFL-PERSON ;
++Mod/narr+Aor:%>%{вм%}э MUTUAL-PERSON-REFL ; 
++Mod/narr:%>%{вм%}Ы2 MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
-+Mod/narr+Prt1+ScSg1:%^MLenition%>мэдамзь K ;
-+Mod/narr+Prt1+ScSg2:%^MLenition%>мэнась K ;
-!+Mod/narr+Prt1+ScSg3:%^MLenition%>мэсь K ;
-+Mod/narr+Prt1+ScSg3:%^MLenition%>мЫ2сь K ;
-+Mod/narr+Prt1+ScDu1:%^MLenition%>мэнинзь K ;
-+Mod/narr+Prt1+ScDu2:%^MLenition%>мэдинзь K ;
-+Mod/narr+Prt1+ScDu3:%^MLenition%>мэханзь K ;
-+Mod/narr+Prt1+ScPl1:%^MLenition%>мэваць K ;
-+Mod/narr+Prt1+ScPl2:%^MLenition%>мэдаць K ;
-+Mod/narr+Prt1+ScPl3:%^MLenition%>мэць K ;
-+Mod/narr+Prt1+ScPl3:%^MLenition%>мыць K ;
++Mod/narr+Prt1+ScSg1:%>%{вм%}эдамзь K ;
++Mod/narr+Prt1+ScSg2:%>%{вм%}энась K ;
+!+Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ;
++Mod/narr+Prt1+ScSg3:%>%{вм%}Ы2сь K ;
++Mod/narr+Prt1+ScDu1:%>%{вм%}энинзь K ;
++Mod/narr+Prt1+ScDu2:%>%{вм%}эдинзь K ;
++Mod/narr+Prt1+ScDu3:%>%{вм%}эханзь K ;
++Mod/narr+Prt1+ScPl1:%>%{вм%}эваць K ;
++Mod/narr+Prt1+ScPl2:%>%{вм%}эдаць K ;
++Mod/narr+Prt1+ScPl3:%>%{вм%}эць K ;
++Mod/narr+Prt1+ScPl3:%>%{вм%}ыць K ;
 
 
 LEXICON V_Mod/appr
@@ -1697,16 +1697,16 @@ LEXICON V_Mod/prob-Refl
 +Mod/prob:%>накэ MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/perfappr
-+Mod/perfappr:%^MLenition%>мэрха MUTUAL-PERSON ;
++Mod/perfappr:%>%{вм%}эрха MUTUAL-PERSON ;
 
 LEXICON V_Mod/perfappr-Refl
-+Mod/perfappr:%^MLenition%>мэрхы MUTUAL-PERSON-REFL ;
++Mod/perfappr:%>%{вм%}эрхы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/futappr
-+Mod/futappr:%^MLenition%>мандарха MUTUAL-PERSON ; !Shvavokaali voi joskus jäädä pois?
++Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON ; !Shvavokaali voi joskus jäädä pois?
 
 LEXICON V_Mod/futappr-Refl
-+Mod/futappr:%^MLenition%>мандархы MUTUAL-PERSON-REFL ;
++Mod/futappr:%>%{вм%}андархы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/obl
 +Mod/obl:%>бцакэ MUTUAL-PERSON ;
@@ -1715,10 +1715,10 @@ LEXICON V_Mod/obl-Refl
 +Mod/obl:%>бцакэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/rep
-+Mod/rep:%^MLenition%>мна MUTUAL-PERSON ;
++Mod/rep:%>%{вм%}на MUTUAL-PERSON ;
 
 LEXICON V_Mod/rep-Refl
-+Mod/rep:%^MLenition%>мана MUTUAL-PERSON-REFL ; ! вана vs вна
++Mod/rep:%>%{вм%}ана MUTUAL-PERSON-REFL ; ! вана vs вна
 
 LEXICON V_Mod/des
 +Mod/des:%>рва MUTUAL-PERSON ;
@@ -1753,10 +1753,10 @@ LEXICON V_Conj-Refl
 +Conj:%>ъи MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/sup
-+Mod/sup:%^MLenition%>манӈгабя MUTUAL-PERSON ;
++Mod/sup:%>%{вм%}анӈгабя MUTUAL-PERSON ;
 
 LEXICON V_Mod/sup-Refl
-+Mod/sup:%^MLenition%>манӈгаби MUTUAL-PERSON-REFL ;
++Mod/sup:%>%{вм%}анӈгаби MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/hyp
 +Mod/hyp:%>рхавэ MUTUAL-PERSON ;
@@ -1765,10 +1765,10 @@ LEXICON V_Mod/hyp-Refl
 +Mod/hyp:%>рахавэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/perfprob
-+Mod/perfprob:%^MLenition%>мэкэ MUTUAL-PERSON ;
++Mod/perfprob:%>%{вм%}экэ MUTUAL-PERSON ;
 
 LEXICON V_Mod/perfprob-Refl
-+Mod/perfprob:%^MLenition%>мэкэ MUTUAL-PERSON-REFL ;
++Mod/perfprob:%>%{вм%}экэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/prob
 +Mod/prob+Aor:%>накэ MUTUAL-PERSON ;
@@ -2036,39 +2036,45 @@ LEXICON MUTUAL-PRT1-RCPL3
 
 !! Non-finites
 LEXICON PRC
++InfImprf:ва K ; !!= @CODE@ Should this form be here 2013-11-25
++InfPrf:ˮма K ; !!= @CODE@ Should this	form be	here 2013-11-25
++PrcImprf:на K ; !!= @CODE@ Should this	form be	here 2013-11-25
 +InfImprf:ва NMN_ӇУДИ ;
 +InfPrf:ˮма NMN_ӇУДИ ;
-+PrcImprf:да NMN_ӇУДИ ;
++PrcImprf:на NMN_ӇУДИ ;
 !+PrcImprf:ня K ;
++PrcPrf:вы K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcNeg:вдавэй K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcFut:ванда K ; !!= @CODE@ Should this form be here 2013-11-25
 +PrcPrf:вы NMN_ПАНЫ ;
 +PrcNeg:вдавэй NMN_ХУСУВЭЙ ;
 +PrcFut:ванда NMN_ӇУДИ ;
 +Ger: K ;
 +Ger:%>сь K ;
-+GerFin:%^MLenition%>манзь K ;
++GerFin:%>%{вм%}анзь K ;
 +Subord:%>бˮ    K	;
-+Aud:%^MLenition%>моʼ      K	;
-+Aud:%^MLenition%>маноʼ    K	;
-+Evas:%^MLenition%>моӈгад  K	;
++Aud:%>%{вм%}оʼ      K	;
++Aud:%>%{вм%}аноʼ    K	;
++Evas:%>%{вм%}оӈгад  K	;
 +ConNeg:ˮ     K ;
 +Fut+ConNeg:ӈгуˮ     K ;
 
 LEXICON PRC2
-+InfImprf:%^MLenition%>ма NMN_ӇУДИ ;
++InfImprf:%>%{вм%}а NMN_ӇУДИ ;
 +InfPrf:%>ˮма NMN_ӇУДИ ;
 +PrcImprf:%>да NMN_ӇУДИ ;
 !+PrcImprf:%>ня K ;
 !+PrcImprf:%>на K ;
-+PrcPrf:%^MLenition%>мы NMN_ПАНЫ ;
-+PrcNeg:%^MLenition%>мдавэй NMN_ХУСУВЭЙ ;
-+PrcFut:%^MLenition%>манда NMN_ӇУДИ ;
++PrcPrf:%>%{вм%}ы NMN_ПАНЫ ;
++PrcNeg:%>%{вм%}давэй NMN_ХУСУВЭЙ ;
++PrcFut:%>%{вм%}анда NMN_ӇУДИ ;
 +Ger: K ;
 +Ger:%>сь K ;
-+GerFin:%^MLenition%>манзь K ;
++GerFin:%>%{вм%}анзь K ;
 +Subord:%>бˮ    K	;
-+Aud:%^MLenition%>моʼ      K	;
-+Aud:%^MLenition%>маноʼ    K	;
-+Evas:%^MLenition%>моӈгад  K	;
++Aud:%>%{вм%}оʼ      K	;
++Aud:%>%{вм%}аноʼ    K	;
++Evas:%>%{вм%}оӈгад  K	;
 +ConNeg:%>ˮ     K ;
 +Fut+ConNeg:%>таˮ     K ;
 
