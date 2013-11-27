@@ -787,7 +787,10 @@ LEXICON V-01_ПЭБЮ
 
 LEXICON V-01_ХАДА
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
++Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
++Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
++Ind00@R.CONJ.ObjAll@:%>ъи@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+!+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
@@ -1212,8 +1215,8 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
 +Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
++Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
++Ind00@R.CONJ.ObjAll@:%>ъя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
 
 !00@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ V_IND-OCSG3 ;
 !@R.CONJ.ObjAll@ V_IND-OCDU3 ;
@@ -1402,7 +1405,7 @@ LEXICON V_IND-4-AOR-OC
 LEXICON V_IND-4-PRT1-OC
  MUTUAL-V_4-PRT1-OCSG3 ;
  MUTUAL-V_4-PRT1-OCDU3 ;
- MUTUAL-V_4-PRT1-OCPL3 ;
+:%>ъя MUTUAL-V_4-PRT1-OCPL3 ;
 
 LEXICON MUTUAL-V_AOR-4-OCSG3
  IND-AOR-SCSG1-OCSG3 ;
@@ -1548,42 +1551,42 @@ LEXICON MUTUAL-V_4-PRT1-SCPL3-OCSG3
 +Prt1+ScPl3+OcSg3:%>донзь K ;
 
 LEXICON MUTUAL-V_4-PRT1-SCSG1-OCDU3
-+Prt1+ScSg1+OcDu3:%>ӈахаюнась K ;
++Prt1+ScSg1+OcDu3:%>хаюнась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG2-OCDU3
-+Prt1+ScSg2+OcDu3:%>ӈахаюдась K ;
++Prt1+ScSg2+OcDu3:%>хаюдась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG3-OCDU3
-+Prt1+ScSg3+OcDu3:%>ӈахаюдась K ;
++Prt1+ScSg3+OcDu3:%>хаюдась K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU1-OCDU3
-+Prt1+ScDu1+OcDu3:%>ӈахаюнинзь K ;
++Prt1+ScDu1+OcDu3:%>хаюнинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU2-OCDU3
-+Prt1+ScDu2+OcDu3:%>ӈахаюдинзь K ;
++Prt1+ScDu2+OcDu3:%>хаюдинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU3-OCDU3
-+Prt1+ScDu3+OcDu3:%>ӈахаюдинзь K ;
++Prt1+ScDu3+OcDu3:%>хаюдинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL1-OCDU3
-+Prt1+ScPl1+OcDu3:%>ӈахаюнаць K ;
++Prt1+ScPl1+OcDu3:%>хаюнаць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL2-OCDU3
-+Prt1+ScPl2+OcDu3:%>ӈахаюдаць K ;
++Prt1+ScPl2+OcDu3:%>хаюдаць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL3-OCDU3
-+Prt1+ScPl3+OcDu3:%>ӈахаюдонзь K ;
++Prt1+ScPl3+OcDu3:%>хаюдонзь K ;
 
 LEXICON MUTUAL-V_4-PRT1-SCSG1-OCPL3
-+Prt1+ScSg1+OcPl3:%>ъянась K ;
++Prt1+ScSg1+OcPl3:%>нась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG2-OCPL3
-+Prt1+ScSg2+OcPl3:%>ъядась K ;
++Prt1+ScSg2+OcPl3:%>дась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG3-OCPL3
-+Prt1+ScSg3+OcPl3:%>ъядась K ;
++Prt1+ScSg3+OcPl3:%>дась K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU1-OCPL3
-+Prt1+ScDu1+OcPl3:%>ъянинзь K ;
++Prt1+ScDu1+OcPl3:%>нинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU2-OCPL3
-+Prt1+ScDu2+OcPl3:%>ъядинзь K ;
++Prt1+ScDu2+OcPl3:%>динзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU3-OCPL3
-+Prt1+ScDu3+OcPl3:%>ъядинзь K ;
++Prt1+ScDu3+OcPl3:%>динзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL1-OCPL3
-+Prt1+ScPl1+OcPl3:%>ъянаць K ;
++Prt1+ScPl1+OcPl3:%>наць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL2-OCPL3
-+Prt1+ScPl2+OcPl3:%>ъядаць K ;
++Prt1+ScPl2+OcPl3:%>даць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL3-OCPL3
-+Prt1+ScPl3+OcPl3:%>ъядонзь K ;
++Prt1+ScPl3+OcPl3:%>донзь K ;
 
 !! Preterite 1 # This should be for ConjPrt and NarrPrt also.
 LEXICON IND-4-PRT1
@@ -1783,6 +1786,7 @@ LEXICON V_Mod/narr-Refl
 +Mod/narr:%>%{вм%}Ы2 MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
++Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-PRT1-PERSON-OC ;
 +Mod/narr+Prt1+ScSg1:%>%{вм%}эдамзь K ;
 +Mod/narr+Prt1+ScSg2:%>%{вм%}энась K ;
 !+Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ;
@@ -1798,6 +1802,7 @@ LEXICON V_Mod/narrPrt
 
 LEXICON V_Mod/appr
 +Mod/appr:%>нарха MUTUAL-PERSON ;
++Mod/appr:%>нарха MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Mod/appr-Refl
 +Mod/appr:%>нархы MUTUAL-PERSON-REFL ;
@@ -1840,24 +1845,6 @@ LEXICON V_Mod/des-Refl
 LEXICON V_Conj
 +Conj+Aor:%>ъи MUTUAL-PERSON ;
 +Conj:%>ъи MUTUAL-PRT1-PERSON ;
-!+Conj+Aor+ScSg1:идмʼ K ;
-!+Conj+Aor+ScSg2:ин K ;
-!+Conj+Aor+ScSg3:и K ;
-!+Conj+Aor+ScDu1:иниʼ K ;
-!+Conj+Aor+ScDu2:идиʼ K ;
-!+Conj+Aor+ScDu3:ихаʼ K ;
-!+Conj+Aor+ScPl1:иваˮ K ;
-!+Conj+Aor+ScPl2:идаˮ K ;
-!+Conj+Aor+ScPl3:иˮ K ;
-!+Conj+Prt1+ScSg1:идамзь K ;
-!+Conj+Prt1+ScSg2:инась K ;
-!+Conj+Prt1+ScSg3:ись K ;
-!+Conj+Prt1+ScDu1:ининзь K ;
-!+Conj+Prt1+ScDu2:идинзь K ;
-!+Conj+Prt1+ScDu3:иханзь K ;
-!+Conj+Prt1+ScPl1:иваць K ;
-!+Conj+Prt1+ScPl2:идаць K ;
-!+Conj+Prt1+ScPl3:иць K ;
 
 LEXICON V_Conj-Refl
 +Conj+Aor:%>ъи MUTUAL-PERSON-REFL ;
@@ -1940,6 +1927,7 @@ LEXICON MUTUAL-PERSON-REFL
  MUTUAL-PERSON-REFL-3 ;
 
 LEXICON MUTUAL-PRT1-PERSON !! This need separating 2013-04-23
+@R.CONJ.ObjAll@ MUTUAL-PRT1-PERSON-OC ;
 +Prt1+ScSg1:%>дамзь K ;
 +Prt1+ScSg2:%>нась K ;
 +Prt1+ScSg3:%>сь K ;
