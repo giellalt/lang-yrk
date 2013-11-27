@@ -30,6 +30,30 @@
 
   <e>
     <lg>
+      <l pos="Interj">калэй</l>
+
+      <stg>
+        <st Contlex="INTERJ_">калэй</st>
+      </stg>
+    </lg>
+
+    <pos>Interj</pos>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>wow</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>oho, oi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Interj">кукуй-кукуй</l>
 
       <stg>
@@ -168,6 +192,30 @@
 
       <tg xml:lang="fin">
         <t>hyh, hyi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">тидаˮ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">тидаˮ</st>
+      </stg>
+    </lg>
+
+    <pos>Interj</pos>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>aivan, juuri</t>
       </tg>
     </mg>
   </e>
