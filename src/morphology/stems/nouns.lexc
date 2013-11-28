@@ -20,6 +20,7 @@ LEXICON nouns
 вадюлава:вадюлава N_ӇУДИ  "kasvupaikka" ;
 валак:валак N_ЕД  "loppu" ;
 валтаˮма:валтаˮма N_ӇУДИ  "testamentti" ;
+валыˮ:валы N_МЯДО  "lupaus" ;
 вамня:вамня N_ӇОДИ  "pieni nelma" ;
 вандад:вандад N_ЕД/ХАНО  "ajoreki matalilla poikkipuolilla" ;
 вано:вано N_ӇАНУ  "juuri" ;
@@ -463,7 +464,6 @@ LEXICON nouns
 мэнева:мэнева N_ӇУДИ  "rakkaus, mieltymys" ;
 мэсана:мэсана N_ӇУДИ  "käytettävä esine" ;
 мэсыˮ:мэсы N_МЯДО  "tapa, taipumus, erikoisuus" ;
-мэсы”:мэсы N_МЯДО  "tapa" ;
 мэцод:мэцод N_ЕД  "käyttöön tarkoitettu esine" ;
 мэцэнёй:мэцэнёй N_ЕД  "keikailija, keikari" ;
 мэёва:мэёва N_ӇУДИ  "vahvuus, kestävyys" ;
@@ -482,6 +482,7 @@ LEXICON nouns
 мядорцэй:мядорцэй N_ЕД/ХУСУВЭЙ  "antaminen, armopala" ;
 мяды:мяды N_ПАНЫ  "teltan paikka" ;
 мядырма:мядырма N_ӇУДИ  "pysyvä kodankohta" ;
+мярˮ:мяр N_МЯДО  "asennuksen laatu" ;
 мяра:мяра N_ХОБ  "ympyrän pinta, ansa" ;
 мяроʼ:мяро N_ВЫӇО  "ihmisen kuolinpaikkaan pystytetty pieni kota" ;
 мярё:мярё N_МЕРЁ  "säämiskä" ;
@@ -630,6 +631,8 @@ LEXICON nouns
 няˮав:няˮав N_ХАНО  "aukko, (joen/pullon) suu" ;
 няˮамтабц:няˮамтабц N_ЕД  "ote" ;
 няˮморцьʼ:няˮморць N_ЁЛЬЦЕ  "tarttumisväline, esim. pihdit, haukkari" ;
+няˮмыˮ:няˮмы N_МЯДО  "kädenpuristus, ote" ;
+няˮмырˮ:няˮмыр N_ВАР  "vieraalle annetava lahja" ;
 няба:няба N_ХОБ  "äitipuoli" ;
 няблюй:няблюй N_ЕД  "syksyinen poronvasikka, syyskuussa otettu maalitsaksi sopiva vasikannahka" ;
 нява:нява N_ХОБ  "jänis" ;
@@ -936,6 +939,7 @@ LEXICON nouns
 пя:пя N_ПИ  "puu" ;
 пяˮла:пяˮла N_ӇУДИ  "puusta luotta taljojen pingotusta varten" ;
 пяй:пяй N_ЕД  "viini, nuolikotelo" ;
+пяныˮ:пяны N_МЯДО  "lähentyminen, käsitys, tapa, luonne" ;
 пясик:пясик N_ЕД  "haka, nappi" ;
 пясэй:пясэй N_ЕД/ХУСУВЭЙ  "osuus" ;
 пятабцо:пятабцо N_ӇАНУ  "vaikea hengitys" ;
@@ -1193,6 +1197,7 @@ LEXICON nouns
 сярнё:сярнё N_МЕРЁ  "vikinä" ;
 сяродабцьʼ:сяродабць N_ЁЛЬЦЕ  "pitkä naru, jolla poroja sidotaan yhteen" ;
 сяролава:сяролава N_ӇУДИ  "kytkinpaikka, sitomispaikka" ;
+сярыˮ:сяры N_МЯДО  "vyön sitomistapa" ;
 сяс:сяс N_ЕД  "tunti" ;
 сято:сято N_ӇАНУ  "kasvattina oleva turkiseläin" ;
 сятолаˮма:сятолаˮма N_ӇУДИ  "purema, puraisu" ;
@@ -1249,6 +1254,8 @@ LEXICON nouns
 танзер:танзер N_ЕД  "lumipyry, lumimyrsky, tuisku" ;
 танзерˮ:танзер N_ВАР  "maanpinnan lähellä kulkeva tuisku" ;
 танзерˮ:танзер N_ТАРЕ  "sinerrys, siinto" ;
+таныˮ:таны N_МЯДО  "paikka josta voi nousta, nousuhetki" ;
+таныˮ:таны N_МЯДО  "paikka johon voi asettaa jalan, astunta" ;
 танырцьʼ:танырць N_ЁЛЬЦЕ  "ajokoira" ;
 танё:танё N_МЕРЁ  "järveen laskeva joki" ;
 тарˮ:тар N_ТАРЕ  "karva, asento" ;
@@ -1263,6 +1270,7 @@ LEXICON nouns
 таро:таро N_ӇАНУ  "hyöty" ;
 тарпабцьʼ:тарпабць N_ЁЛЬЦЕ  "uloskäynti" ;
 тарполава:тарполава N_ӇУДИ  "uloskäynti" ;
+тарпыˮ:тарпы N_МЯДО  "ulosmenohetki, uloskäynti" ;
 тарэнзя:тарэнзя N_ӇОДИ  "ulkomuoto, ulkonäkö" ;
 таряв:таряв N_ЕД  "orava" ;
 таряха:таряха N_МАРАӇГЫ  "orava" ;
@@ -1278,9 +1286,10 @@ LEXICON nouns
 таӈодалава:таӈодалава N_ӇУДИ  "kesäinen leiripaikka" ;
 таӈоцьʼ:таӈоць N_ЁЛЬЦЕ  "kesäkota" ;
 теб:теб N_ЕД/ТИРЕ  "naula, painoyksikkö (nykyään kg), kohtaus" ;
+тебкабтˮ:тебкабт N_МЯДО  "pölkky satimessa" ;
 тебкамбабцо:тебкамбабцо N_ӇАНУ  "pyörtymys, taintumus" ;
 тебт:тебт N_ТИРЕ/ХАНО  "mahla" ;
-тебъиˮ:тебъи N_МЯДО  "osuman hetki" ;
+тебыˮ:тебы N_МЯДО  "osuman hetki, kohtauksen hetki" ;
 тедˮма:тедˮма N_ӇУДИ  "vedestä ulostulon paikka" ;
 теднорцьʼ:теднорць N_ЁЛЬЦЕ  "puuhaarukka" ;
 тен:тен N_ЕД  "muisti" ;
@@ -1450,6 +1459,7 @@ LEXICON nouns
 тянёмдаˮма:тянёмдаˮма N_ӇУДИ  "vähennys, hupeneminen" ;
 тярорцьʼ:тярорць N_ЁЛЬЦЕ  "jaotteluväline" ;
 тяроцьʼ:тяроць N_ЁЛЬЦЕ  "jaotteluväline, mitta-astia" ;
+тярыˮ:тяры N_МЯДО  "jako, erittely" ;
 тяхасобцо:тяхасобцо N_ӇАНУ  "perusteellisuus" ;
 тяӈгад:тяӈгад N_ЕД  "hauislihas, paljas käsi" ;
 тёб:тёб N_ЕД  "huolellisuus, täsmällisyys" ;
