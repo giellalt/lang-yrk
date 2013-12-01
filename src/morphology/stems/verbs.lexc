@@ -907,7 +907,7 @@ LEXICON verbs
 мальюрць:мальюр IV_ТИР  "" ;
 мальёсь:мальё IV_ВАДЮ  "särkyä" ;
 мамзадась:мамзада TV_ИЛЕ  "haalia, ottaa huolettomasti, ympäröidä" ;
-мамзэдась:мамзэда TV_ИЛЕ  "tehdä kiiressä huolettomasti" ;
+мамзэдась:мамзэда TV_ИЛЕ  "tehdä kiireessä huolettomasti" ;
 манамзь:манам VR_ӇАРАМ  "valahtaa, kaatua" ;
 манамламбась:манамламба TV_ПЭБЮ  "valaa, kaataa nopeasti" ;
 манамлась:манамла TV_ИЛЕ  "valaa, kaataa nopeasti" ;
@@ -1766,7 +1766,7 @@ LEXICON verbs
 паднась:падна IV_ЛАХАНА  "kirjoittaa" ;
 паднорць:паднор IV_ТИР  "kirjoittaa" ;
 падобтась:падобта TV_ИЛЕ  "tökätä, pujottaa" ;
-падорць:падор VR_ТИР  "" ;
+падорць:падор VR_ТИР  "muljottaa, tuijottaa" ;
 падрабтабась:падрабтаба TV_ПЭБЮ  "" ;
 падрабтась:падрабта TV_ИЛЕ  "kirjoituttaa" ;
 падрембась:падремба TV_ПЭБЮ  "kastaa" ;
@@ -1774,8 +1774,8 @@ LEXICON verbs
 падротамбась:падротамба TV_ПЭБЮ  "ommella koristekuviota" ;
 падротась:падрота TV_ИЛЕ  "ommella koristekuviota" ;
 падтамбась:падтамба TV_ПЭБЮ  "tehdä kirjavaksi, kirjailla, piirtää" ;
-падтамборць:падтамбор IV_ТИР  "" ;
-падтамбюрць:падтамбюр TV_ТИР  "" ;
+падтамборць:падтамбор IV_ТИР  "harrastaa piirtämistä" ;
+падтамбюрць:падтамбюр TV_ТИР  "kirjailla, piirustaa, piirtää" ;
 падтась:падта TV_ИЛЕ  "tehdä kirjavaksi, kirjailla, piirtää" ;
 падтаӈгурць:падтаӈгур IV_ТИР  "tehdä kirjavaksi, piirtää" ;
 паерамзь:паерам IV_ӇАРАМ  "muuttua näppyläiseksi" ;
@@ -1860,14 +1860,12 @@ LEXICON verbs
 паркасялворць:паркасялвор IV_ТИР  "paljastua" ;
 паркасялмдембась:паркасялмдемба TV_ПЭБЮ  "paljastaa, riisua" ;
 паркасялмдесь:паркасялмде TV_ИЛЕ  "paljastaa, riisua" ;
-паркорць:паркор TV_ТИР  "" ;
+паркорць:паркор TV_ТИР  "leikata (vaatteenpaloja)" ;
 пармаӈгась:пармаӈга IV_ЛАХАНА  "tummua" ;
 парминесь:пармине IV_ИЛЕ  "häämöttää mustana, musteta" ;
 пармнась:пармна IV_ЛАХАНА  "muuttua mustaksi" ;
-пармрембась:пармремба TV_ПЭБЮ  "mustuttaa" ;
-пармрембась:пармремба TV_ПЭБЮ  "mustata, tehdä mustaksi" ;
-пармресь:пармре TV_ИЛЕ  "mustuttaa" ;
-пармресь:пармре TV_ИЛЕ  "mustata, tehdä mustaksi" ;
+пармрембась:пармремба TV_ПЭБЮ  "mustata, tehdä mustaksi, mustuttaa" ;
+пармресь:пармре TV_ИЛЕ  "mustata, tehdä mustaksi, mustuttaa" ;
 пармсясь:пармся IV_ЯˮАВЛУ  "olla ilman naapureita" ;
 парнась:парна IV_ЛАХАНА  "narahtaa" ;
 паромбась:паромба IV_ПЭБЮ  "kiiruhtaa, kiirehtiä" ;
@@ -2078,7 +2076,7 @@ LEXICON verbs
 поёларёмбась:поёларёмба IV_ПЭБЮ  "olla riidassa" ;
 поёлтамбась:поёлтамба TV_ПЭБЮ  "sotkea, sekoittaa, riitaantua" ;
 поёлтась:поёлта TV_ИЛЕ  "sotkea, sekoittaa, riitaantua" ;
-поёлтаӈгурць:поёлтаӈгур IV_ТИР  "" ;
+поёлтаӈгурць:поёлтаӈгур IV_ТИР  "piestä suuta, piestä kieltä, lörpötellä" ;
 поёлць:поёл VR_ТИР  "sekaantua, sotkeutua" ;
 поёлць:поёл TV_ТИР  "sekaannuttaa, sekavoittaa" ;
 поёлць:поёл VR_ТИР  "sekaantua, sotkeutua" ;
@@ -3909,7 +3907,7 @@ LEXICON verbs
 холмрамбась:холмрамба TV_ПЭБЮ  "lämmittää, sulattaa" ;
 холмрась:холмра TV_ИЛЕ  "lämmittää, sulattaa" ;
 хомбась:хомба TV_ПЭБЮ  "löytää, tavata, arvata" ;
-хомбюрць:хомбюр TV_ТИР  "" ;
+хомбюрць:хомбюр TV_ТИР  "oivaltaa, arvata, kokea" ;
 хомзелась:хомзела VR_ЛАХАНА  "alkaa hyöriä" ;
 хонарась:хонара VR_ИЛЕ  "nukahtaa" ;
 хонаркурць:хонаркур IV_ТИР  "ilmoittaa, tiedottaa; kysyä" ;
@@ -3933,7 +3931,7 @@ LEXICON verbs
 хортамлась:хортамла TV_ИЛЕ  "aukaista, avata" ;
 хортелабтась:хортелабта TV_ИЛЕ  "avata, laajentaa" ;
 хортолабтась:хортолабта TV_ИЛЕ  "avata suu ammolle, alkaa kiroilla" ;
-хорць:хор TV_ТИР  "yrittää" ;
+хорць:хор TV_ТИР  "yrittää, kokeilla, koetella" ;
 хосаясь:хосая TV_ИЛЕ  "hakea, noutaa" ;
 хосомбась:хосомба IV_ПЭБЮ  "katsoa korteista" ;
 хось:хо TV_НУ  "löytää" ;
@@ -4566,9 +4564,9 @@ LEXICON verbs
 ӈамгэхэртасялмдембась:ӈамгэхэртасялмдемба TV_ПЭБЮ  "ottaa pois omaisuutensa, köyhdyttää, jättää orvoksi" ;
 ӈамгэхэртасялмдесь:ӈамгэхэртасялмде TV_ИЛЕ  "ottaa pois omaisuutensa, köyhdyttää, jättää orvoksi" ;
 ӈамдадась:ӈамдада VR_ИЛЕ  "istahtaa" ;
-ӈамдалколась:ӈамдалкола VR_ЛАХАНА  "ruveta metsästämään peltopyitä soitimen aikana hokutuslinnun avulla" ;
-ӈамдалкорць:ӈамдалкор IV_ТИР  "metsästää peltopyitä soitimen aikana hokutuslinnun avulla" ;
-ӈамдалкось:ӈамдалко IV_СЯНАКУ  "metsästää peltopyitä soitimen aikana hokutuslinnun avulla" ;
+ӈамдалколась:ӈамдалкола VR_ЛАХАНА  "ruveta metsästämään riekkoja soitimen aikana hokutuslinnun avulla" ;
+ӈамдалкорць:ӈамдалкор IV_ТИР  "metsästää riekkoja soitimen aikana hokutuslinnun avulla" ;
+ӈамдалкось:ӈамдалко IV_СЯНАКУ  "metsästää riekkoja soitimen aikana hokutuslinnun avulla" ;
 ӈамдарабтась:ӈамдарабта TV_ИЛЕ  "sattumalta päästää syömään, houkutella syömään" ;
 ӈамдась:ӈамда VR_ЛАХАНА  "istuutua" ;
 ӈамдорць:ӈамдор IV_ТИР  "istuutua" ;
