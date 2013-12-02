@@ -16,7 +16,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>who</t>
@@ -26,8 +26,30 @@
         <t>kuka</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l pos="Pron">хибяхарт</l>
+
+      <stg>
+        <st Contlex="Pron_">хибяхарт</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>no one</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ei kukaan</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -42,7 +64,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>what</t>
@@ -52,8 +74,6 @@
         <t>mikä</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -68,7 +88,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>how many</t>
@@ -78,8 +98,6 @@
         <t>montako, kuinka paljon</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -94,7 +112,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>how many</t>
@@ -104,8 +122,6 @@
         <t>montako</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -120,7 +136,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>everybody</t>
@@ -146,7 +162,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>when</t>
@@ -162,6 +178,36 @@
 
   <e>
     <lg>
+      <l pos="Pron">тарця</l>
+
+      <stg>
+        <st Contlex="Pron_">тарця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>such</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>sellainen</t>
+
+        <t>tälläinen</t>
+      </tg>
+    </mg>
+
+    <!--  N_ПИСЬ-->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">ханзерʼ</l>
 
       <stg>
@@ -172,7 +218,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>how</t>
@@ -182,8 +228,6 @@
         <t>miten</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -198,7 +242,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>what kind of</t>
@@ -208,8 +252,30 @@
         <t>millainen</t>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l pos="Pron">хуркари</l>
+
+      <stg>
+        <st Contlex="Pron_">хуркари</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>what ever</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>mikä tahansa</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -224,7 +290,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>me</t>
@@ -234,8 +300,6 @@
         <t>minua</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -250,7 +314,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>you (sg.)</t>
@@ -260,8 +324,6 @@
         <t>sinua</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -276,7 +338,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>him, her, it</t>
@@ -302,7 +364,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>us (du.)</t>
@@ -328,7 +390,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>you (du.)</t>
@@ -354,7 +416,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>them (du.)</t>
@@ -380,7 +442,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>us (pl.)</t>
@@ -406,7 +468,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>you (pl.)</t>
@@ -432,7 +494,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>them (pl.)</t>
@@ -458,7 +520,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>where</t>
@@ -484,7 +546,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>here</t>
@@ -510,7 +572,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>there</t>
@@ -536,7 +598,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>where (to), whither</t>
@@ -562,7 +624,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>where (from), whence</t>
@@ -588,7 +650,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t/>
@@ -614,7 +676,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>where (from), whence</t>
@@ -641,7 +703,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>this</t>
@@ -667,7 +729,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>that</t>
@@ -693,7 +755,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>that</t>
@@ -719,7 +781,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>most</t>
@@ -745,7 +807,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>I (1Sg.)</t>
@@ -771,7 +833,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>you (2Sg.)</t>
@@ -797,7 +859,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>he, she, it (3Sg.)</t>
@@ -823,7 +885,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>we (1Pl.)</t>
@@ -849,7 +911,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>you (2Pl.)</t>
@@ -875,7 +937,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>they (3Pl.)</t>
@@ -901,7 +963,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>we (1Du.)</t>
@@ -911,8 +973,6 @@
         <t>me (1Du.)</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -927,18 +987,16 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>you (2Du.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>sinä (2Du.)</t>
+        <t>te (2Du.)</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -953,7 +1011,7 @@
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>they (3Du.)</t>
@@ -963,8 +1021,6 @@
         <t>he (3Du.)</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -973,14 +1029,14 @@
 хусавэй</l>
 
       <stg>
-        <st Contlex="PronDemAdn">хусавэй</st>
+        <st Contlex="QNT_ХУСУВЭЙ">хусавэй</st>
       </stg>
     </lg>
 
     <pos>Pron</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>every</t>
@@ -990,8 +1046,6 @@
         <t>joka</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -1006,7 +1060,7 @@
     <pos>Qnt</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="eng">
         <t>every</t>
@@ -1016,7 +1070,5 @@
         <t>joka</t>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 </r>
