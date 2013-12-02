@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="Prop">Лабцуй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Лабцуй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Laptsui</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Лабцуй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Лапцуй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Laptsui</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Москва</l>
+
+      <stg>
+        <st Contlex="PROP_">Москва</st>
+      </stg>
+
+      <stress>Москва</stress>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Moskova</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Пырерка</l>
+
+      <stg>
+        <st Contlex="PROP_МАРАӇГЫ">Пырерка</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Pyrerka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Россия</l>
+
+      <stg>
+        <st Contlex="PROP_">Россия</st>
+      </stg>
+
+      <stress>Росси•я</stress>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Venäjä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сибирь</l>
+
+      <stg>
+        <st Contlex="PROP_">Сибирь</st>
+      </stg>
+
+      <stress>Сиби•рь</stress>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Siperia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Явтысый</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Явтысый</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <pos>Prop</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Javtysyi</t>
+      </tg>
+    </mg>
+  </e>
+</r>
