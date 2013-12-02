@@ -4780,6 +4780,24 @@
 
   <e>
     <lg>
+      <l pos="N">лека</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">лека</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sorkkatauti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">лекарцо</l>
 
       <stg>
@@ -9051,11 +9069,33 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">teltta</t>
+        <t pos="N">teltta, kota</t>
       </tg>
     </mg>
 
     <!-- ! мяˮамна -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">мядеко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">мядеко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">pieni kota, teltta, kodanmuotoinen koristekuvio</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -18519,6 +18559,24 @@
 
   <e>
     <lg>
+      <l pos="N">самб</l>
+
+      <stg>
+        <st Contlex="N_ЕД">самб</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hitaus, liike hitauksen takias</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">самбадабц</l>
 
       <stg>
@@ -18530,7 +18588,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">šamaanilaulu šamaanirummun säestyksellä</t>
       </tg>
     </mg>
   </e>
@@ -18602,7 +18660,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">poron kavioiden alta lentävä tiera tai kokkare</t>
+        <t pos="N">poron sorkkien alta lentävä tiera tai kokkare</t>
       </tg>
     </mg>
   </e>
@@ -20579,6 +20637,24 @@
         <t pos="N">tunturi, vaara</t>
 
         <t pos="N">mahdollisuus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сохова</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">сохова</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">enemmistö</t>
       </tg>
     </mg>
   </e>
@@ -24900,7 +24976,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">kavion jälki</t>
+        <t pos="N">sorkan jälki, kavion jälki</t>
       </tg>
     </mg>
   </e>
@@ -24918,7 +24994,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">kavio</t>
+        <t pos="N">sorkka, kavio</t>
       </tg>
     </mg>
   </e>
@@ -33854,6 +33930,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">tammikuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">яндава</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">яндава</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">puusta keittokuppi</t>
       </tg>
     </mg>
   </e>

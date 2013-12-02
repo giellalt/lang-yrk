@@ -249,6 +249,7 @@ LEXICON nouns
 лаӈг:лаӈг N_ХАНО  "jyrkänne" ;
 лаӈгаˮма:лаӈгаˮма N_ӇУДИ  "reunassa oleva paikka" ;
 ледак:ледак N_ЕД  "hyytelö" ;
+лека:лека N_МАРАӇГЫ  "sorkkatauti" ;
 лекарцо:лекарцо N_ӇАНУ  "lääke" ;
 лекарцё:лекарцё N_МЕРЁ  "lääke" ;
 лембтя:лембтя N_ӇОДИ  "sormus" ;
@@ -479,7 +480,8 @@ LEXICON nouns
 мюсана:мюсана N_ӇУДИ  "sopiva paikka" ;
 мюселава:мюселава N_ӇУДИ  "paimentolaisleiri, pysäkinväli" ;
 мюяк:мюяк N_ЕД  "täyte" ;
-мяˮ:мя N_МЯДО  "teltta" ;
+мяˮ:мя N_МЯДО  "teltta, kota" ;
+мядеко:мядеко N_ӇАНУ  "pieni kota, teltta, kodanmuotoinen koristekuvio" ;
 мядиˮмярцьʼ:мядиˮмярць N_ЁЛЬЦЕ  "kestityspaikka, kestittäjä" ;
 мядиˮмярцэй:мядиˮмярцэй N_ЕД/ХУСУВЭЙ  "kestitys, tarjoilu" ;
 мядинзэй:мядинзэй N_ЕД/ХУСУВЭЙ  "lahja vanhemmilta" ;
@@ -993,11 +995,12 @@ LEXICON nouns
 салкосэй:салкосэй N_ЕД/ХУСУВЭЙ  "maksu" ;
 сальня:сальня N_ӇОДИ  "poronnahka jota käytetään tyynyliinana" ;
 саля:саля N_ИБЯ  "niemi" ;
-самбадабц:самбадабц N_ЕД  "" ;
+самб:самб N_ЕД  "hitaus, liike hitauksen takias" ;
+самбадабц:самбадабц N_ЕД  "šamaanilaulu šamaanirummun säestyksellä" ;
 самбана:самбана N_ӇУДИ  "šamaani" ;
 самлянзимдаˮма:самлянзимдаˮма N_ӇУДИ  "viidesosa" ;
 самлянзимдаˮма:самблянзимдаˮма N_ӇУДИ  "viidesosa" ;
-самолˮ:самол N_МЯДО  "poron kavioiden alta lentävä tiera tai kokkare" ;
+самолˮ:самол N_МЯДО  "poron sorkkien alta lentävä tiera tai kokkare" ;
 сан:сан N_ЕД  "porahtelu, polskinta, signaali" ;
 сана:сана N_ӇУДИ  "hyppy" ;
 санала:санала N_ӇУДИ  "hyppääjä" ;
@@ -1105,6 +1108,7 @@ LEXICON nouns
 сосна:сосна N_ӇУДИ-RUS  "mänty" ;
 сотабцьʼ:сотабць N_ЁЛЬЦЕ  "kauha" ;
 сохо:сохо N_ӇУДИ/ХОБ  "tunturi, vaara" ;
+сохова:сохова N_ӇУДИ  "enemmistö" ;
 сояˮма:сояˮма N_ӇУДИ  "syntymäpaikka tai -aika, lähin sukulainen äidin suvusta" ;
 соябцьʼ:соябць N_ЁЛЬЦЕ  "synnyn määräaika" ;
 соёлё:соёлё N_МЕРЁ  "verso, kantovesa, tanko" ;
@@ -1341,8 +1345,8 @@ LEXICON nouns
 то:то N_ӇЭ  "järvi; siipi" ;
 тоʼ:то N_ВЫӇО  "huopa" ;
 тоˮлаха:тоˮлаха N_МАРАӇГЫ  "tapainen, kaltainen" ;
-тобˮма:тобˮма N_ӇУДИ  "kavion jälki" ;
-тоба:тоба N_ХОБ  "kavio" ;
+тобˮма:тобˮма N_ӇУДИ  "sorkan jälki, kavion jälki" ;
+тоба:тоба N_ХОБ  "sorkka, kavio" ;
 тобак:тобак N_ЕД  "turkiksesta talvisaapas" ;
 тобрё:тобрё N_МЕРЁ  "kopina, kopse" ;
 тобцьʼ:тобць N_ЁЛЬЦЕ  "tuloaika, tulopaikka, tulosyy" ;
@@ -1824,6 +1828,7 @@ LEXICON nouns
 ямдё:ямдё N_МЕРЁ  "nahasta tai säämiskästä koriste poronvaljakolla" ;
 ямкад:ямкад N_ЕД  "pieni nahka" ;
 январь:январь N_ЕД-RUS  "tammikuu" ;
+яндава:яндава N_ӇУДИ  "puusta keittokuppi" ;
 янутабцьʼ:янутабць N_ЁЛЬЦЕ  "saalin kolkkauskurikka" ;
 япыка:япыка N_МАРАӇГЫ  "viileys" ;
 яр:яр N_ЕД  "itku" ;
