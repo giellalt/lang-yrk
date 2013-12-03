@@ -13,6 +13,8 @@ Tests:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
 
+# In case of stem-final й AccPl ending is ё (not йо).
+
 
   Noun - хан: # Noun 'sledge' - full paradigm /Type 11/
      хан+N+Sg+Nom: хан
