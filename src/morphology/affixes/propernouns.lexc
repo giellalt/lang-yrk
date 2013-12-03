@@ -3,14 +3,22 @@
 !! Nenets proper nouns inflect in the same cases as regular
 !! nouns, but with a XXX as separator.
 
-LEXICON PropTag
+LEXICON PROP_
 +TYÄ+N+Prop: K ; ! This will need to be elaborated to other noun types.
 
+!! !ONE-SYLLABLE CONSONANT-FINAL STEM
+LEXICON PROP_ЕД
++N+Prop: NMN_ЕД ;
+
+!! !THREE-SYLLABLE VOWEL-FINAL STEM
+LEXICON PROP_МАРАӇГЫ
++N+Prop: NMN_МАРАӇГЫ ;
+
 LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
-    PropTag ;
-:%: PropTag ;
-:%- PropTag ;
-:%' PropTag ;
+    PROP_ ;
+:%: PROP_ ;
+:%- PROP_ ;
+:%' PROP_ ;
 
 
 
