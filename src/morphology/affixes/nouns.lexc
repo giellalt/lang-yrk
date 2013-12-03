@@ -140,12 +140,13 @@ LEXICON N_МАРАӇГЫ-RUS
 LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14 !!ProsSg -вна
 !! [total=15]
 !! мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
-+N: SGDATSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-NOM-STEM ;
-+N:  PLNOMSUF ;
-+N:%^A2I PLACCSUF_Zero ; !
-+N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ N_МАРАӇГЫ-SG ;
+ N_МАРАӇГЫ-PL ;
+
+LEXICON N_МАРАӇГЫ-SG
++N:	NMN_МАРАӇГЫ-SG ;
+LEXICON N_МАРАӇГЫ-PL
++N:	NMN_МАРАӇГЫ-PL ;
 
 LEXICON N_ӇУДИ-RUS 
 +Rus: N_ӇУДИ ;
@@ -664,6 +665,21 @@ LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
     SG-NOM-STEM ;
     PLNOMSUF ;
     PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+!! !NOMINALS "NMN"
+!! !THREE-SYLLABLE VOWEL-FINAL STEMS
+LEXICON    NMN_МАРАӇГЫ
+    NMN_МАРАӇГЫ-SG ;
+    NMN_МАРАӇГЫ-PL ;
+LEXICON NMN_МАРАӇГЫ-SG
+ SGDATSUF ;
+  SG-ACC-STEM ;
+  SG-NOM-STEM ;
+LEXICON NMN_МАРАӇГЫ-PL
+  PLNOMSUF ;
+:%^A2I PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
