@@ -9,6 +9,9 @@ LEXICON IV_Е
 LEXICON IV_МЭ
 +V+IV: V-01_МЭ       ;
 
+LEXICON TV_МЭ
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МЭ       ;
+
 LEXICON IV_МЫ
 +V+IV: V-01_МЫ       ;
 
@@ -254,6 +257,7 @@ LEXICON V-01_МЭ
  V_Opt ;
  V_Subord ;
  V_Conj ;
+ V_Fut ;
  V_Mod/appr ;
  V_Mod/des ;
  V_Mod/futappr ;
@@ -270,10 +274,11 @@ LEXICON V-01_МЭ
  V_Mod/sup ;
  IND-AOR		;
  IND-AOR-SG3 	;
- IND-AOR-DU3 	;
+:%>ӈа IND-AOR-DU3 	;
 +Ind: IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC ;
++ConNeg:%^VowRaise%>ˮ     K ;
 
 
 LEXICON V-01_МЫ
