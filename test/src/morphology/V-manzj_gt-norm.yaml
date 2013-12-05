@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - манзь: # Verb 'to say' - partial paradigm
+     манзь+V+IV+Ind+Aor+ScSg1: мадмʼ
+     манзь+V+IV+Ind+Aor+ScSg2: ман
+     манзь+V+IV+Ind+Aor+ScSg3: ма
+     манзь+V+IV+Ind+Aor+ScDu1: маниʼ
+     манзь+V+IV+Ind+Aor+ScDu2: мадиʼ
+     манзь+V+IV+Ind+Aor+ScDu3: маӈахаʼ
+     манзь+V+IV+Ind+Aor+ScPl1: маваˮ
+     манзь+V+IV+Ind+Aor+ScPl2: мадаˮ
+     манзь+V+IV+Ind+Aor+ScPl3: маˮ
+     манзь+V+IV+InfImprf: мава  
+     манзь+V+IV+InfPrf: маˮма  
+     манзь+V+IV+PrcImprf: [мана, маня]
+     манзь+V+IV+PrcPrf: мавы
+     манзь+V+IV+PrcFut: маванда   
+     манзь+V+IV+PrcNeg: мавдавэй
+     манзь+V+IV+Ger: ма 
+     манзь+V+IV+GerFin: маванзь      
+     манзь+V+IV+Subord: мабˮ
+     манзь+V+IV+Aud: [мамоʼ, маманоʼ]
+     манзь+V+IV+Evas: мавоӈгад
+     манзь+V+IV+ConNeg: манˮ
+     манзь+V+IV+Fut+ConNeg: мандаˮ
+     манзь+V+IV+Subord+PxSg1: [мабˮнани, мабаˮни]
+     манзь+V+IV+Subord+PxSg2: [мабˮнанд, мабат]
+     манзь+V+IV+Subord+PxSg3: [мабˮнанда, мабата] 
+     манзь+V+IV+Subord+PxDu1: [мабˮнаниʼ, мабаˮниʼ]
+     манзь+V+IV+Subord+PxDu2: [мабˮнандиʼ, мабаˮтиʼ]
+     манзь+V+IV+Subord+PxDu3: [мабˮнандиʼ, мабаˮтиʼ]
+     манзь+V+IV+Subord+PxPl1: [мабˮнанаˮ, мабаˮнаˮ]
+     манзь+V+IV+Subord+PxPl2: [мабˮнандаˮ, мабатаˮ]
+     манзь+V+IV+Subord+PxPl3: [мабˮнандоʼ, мабатоʼ]
+     манзь+V+IV+Fut+Ind+Aor+ScSg1: мандадмʼ
+     манзь+V+IV+Fut+Ind+Aor+ScSg2: мандан
+     манзь+V+IV+Fut+Ind+Aor+ScSg3: манда
+     манзь+V+IV+Fut+Ind+Aor+ScDu1: манданиʼ
+     манзь+V+IV+Fut+Ind+Aor+ScDu2: мандадиʼ
+     манзь+V+IV+Fut+Ind+Aor+ScDu3: мандахаʼ #or мандаӈгахаʼ?
+     манзь+V+IV+Fut+Ind+Aor+ScPl1: мандаваˮ
+     манзь+V+IV+Fut+Ind+Aor+ScPl2: мандадаˮ
+     манзь+V+IV+Fut+Ind+Aor+ScPl3: мандаˮ            
