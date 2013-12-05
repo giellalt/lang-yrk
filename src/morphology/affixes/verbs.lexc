@@ -1902,6 +1902,7 @@ LEXICON V_Fut2-Refl
 +Fut+Ind+Aor:та MUTUAL-PERSON-REFL ;
 
 LEXICON V_Subord
++Subord:%>бˮ  K ;
 +Subord+PxSg1:%>бˮнани  K ;
 +Subord+PxSg1:%>баˮни  K ;
 +Subord+PxSg2:%>бˮнанд  K ;
@@ -2176,10 +2177,14 @@ LEXICON PRC
 LEXICON PRC2
 +InfImprf:%>%{вм%}а K ;
 +InfImprf:%>%{вм%}а NMN_ӇУДИ ;
++InfPrf:%>ˮма K ;
 +InfPrf:%>ˮма NMN_ӇУДИ ;
 +PrcImprf:%>да NMN_ӇУДИ ;
 !+PrcImprf:%>ня K ;
 !+PrcImprf:%>на K ;
++PrcPrf:%>%{вм%}ы K ;
++PrcNeg:%>%{вм%}давэй K ;
++PrcFut:%>%{вм%}анда K ;
 +PrcPrf:%>%{вм%}ы NMN_ПАНЫ ;
 +PrcNeg:%>%{вм%}давэй NMN_ХУСУВЭЙ ;
 +PrcFut:%>%{вм%}анда NMN_ӇУДИ ;
