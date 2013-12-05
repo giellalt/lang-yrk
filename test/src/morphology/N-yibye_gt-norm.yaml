@@ -1,0 +1,214 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - и: # Noun 'mind, meaning' - partial paradigm /Type 7/
+     и+N+Sg+Nom: иˮ
+     и+N+Sg+Acc: имʼ
+     и+N+Sg+Gen: иʼ
+     и+N+Sg+Dat: инʼ
+     и+N+Sg+Loc: [ихина, ихиня]
+     и+N+Sg+Abl: ихид
+     и+N+Sg+Pros: [ивна, ивня]
+     и+N+Sg+Tra: иӈэ
+     и+N+Du+Nom: ихиʼ
+     и+N+Du+Acc: ихиʼ
+     и+N+Du+Gen: ихиʼ
+     и+N+Pl+Nom: иˮ
+     и+N+Pl+Acc: ибе
+     и+N+Pl+Gen: ибеˮ
+     и+N+Pl+Dat: ихиˮ
+     и+N+Pl+Loc: [ихиˮна, ихиˮня]
+     и+N+Pl+Abl: ихит
+     и+N+Pl+Pros: ибеˮмана
+
+# Possessive forms 
+     иˮ+N+Sg+Nom+PxSg1: ив
+     иˮ+N+Sg+Nom+PxSg2: иˮл  
+     иˮ+N+Sg+Nom+PxSg3: [итя, ита] 
+     иˮ+N+Sg+Nom+PxDu1: иˮмиʼ
+     иˮ+N+Sg+Nom+PxDu2: иˮлиʼ
+     иˮ+N+Sg+Nom+PxDu3: итиʼ
+     иˮ+N+Sg+Nom+PxPl1: иˮмаˮ
+     иˮ+N+Sg+Nom+PxPl2: иˮлаˮ
+     иˮ+N+Sg+Nom+PxPl3: итоʼ
+     иˮ+N+Sg+Acc+PxSg1: ив  
+     иˮ+N+Sg+Acc+PxSg2: ит  
+     иˮ+N+Sg+Acc+PxSg3: [итя, ита]  
+     иˮ+N+Sg+Acc+PxDu1: иˮмиʼ 
+     иˮ+N+Sg+Acc+PxDu2: итиʼ
+     иˮ+N+Sg+Acc+PxDu3: итиʼ
+     иˮ+N+Sg+Acc+PxPl1: иˮмаˮ 
+     иˮ+N+Sg+Acc+PxPl2: [итяˮ, итаˮ]
+     иˮ+N+Sg+Acc+PxPl3: идоʼ
+     иˮ+N+Sg+Gen+PxSg1: ин  
+     иˮ+N+Sg+Gen+PxSg2: ит 
+     иˮ+N+Sg+Gen+PxSg3: [итя, ита]  
+     иˮ+N+Sg+Gen+PxDu1: иˮниʼ 
+     иˮ+N+Sg+Gen+PxDu2: итиʼ
+     иˮ+N+Sg+Gen+PxDu3: итиʼ
+     иˮ+N+Sg+Gen+PxPl1: иˮнаˮ 
+     иˮ+N+Sg+Gen+PxPl2: [итяˮ, итаˮ]
+     иˮ+N+Sg+Gen+PxPl3: итоʼ  
+     иˮ+N+Sg+Dat+PxSg1: ихин
+     иˮ+N+Sg+Dat+PxSg2: ихинд  
+     иˮ+N+Sg+Dat+PxSg3: ихинда 
+     иˮ+N+Sg+Dat+PxDu1: ихиниʼ 
+     иˮ+N+Sg+Dat+PxDu2: ихиндиʼ
+     иˮ+N+Sg+Dat+PxDu3: ихиндиʼ
+     иˮ+N+Sg+Dat+PxPl1: ихинаˮ 
+     иˮ+N+Sg+Dat+PxPl2: ихиндаˮ
+     иˮ+N+Sg+Dat+PxPl3: ихиндоʼ
+     иˮ+N+Sg+Loc+PxSg1: [ихинан, ихинян]   
+     иˮ+N+Sg+Loc+PxSg2: [ихинанд, ихинянд]
+     иˮ+N+Sg+Loc+PxSg3: ихинанда 
+     иˮ+N+Sg+Loc+PxDu1: ихинаниʼ 
+     иˮ+N+Sg+Loc+PxDu2: ихинандиʼ
+     иˮ+N+Sg+Loc+PxDu3: ихинандиʼ
+     иˮ+N+Sg+Loc+PxPl1: ихинанаˮ 
+     иˮ+N+Sg+Loc+PxPl2: ихинандаˮ
+     иˮ+N+Sg+Loc+PxPl3: ихинандоʼ
+     иˮ+N+Sg+Abl+PxSg1: ихидан   
+     иˮ+N+Sg+Abl+PxSg1: ихидани  
+     иˮ+N+Sg+Abl+PxSg2: ихиданд
+     иˮ+N+Sg+Abl+PxSg3: ихиданда 
+     иˮ+N+Sg+Abl+PxDu1: ихиданиʼ 
+     иˮ+N+Sg+Abl+PxDu2: ихидандиʼ
+     иˮ+N+Sg+Abl+PxDu3: ихидандиʼ
+     иˮ+N+Sg+Abl+PxPl1: ихиданаˮ 
+     иˮ+N+Sg+Abl+PxPl2: ихидандаˮ
+     иˮ+N+Sg+Abl+PxPl3: ихидандоʼ
+     иˮ+N+Sg+Pros+PxSg1: ивнан   
+     иˮ+N+Sg+Pros+PxSg1: ивнани  
+     иˮ+N+Sg+Pros+PxSg2: [ивнанд, ивнянд]
+     иˮ+N+Sg+Pros+PxSg3: ивнанда 
+     иˮ+N+Sg+Pros+PxDu1: ивнаниʼ 
+     иˮ+N+Sg+Pros+PxDu2: ивнандиʼ
+     иˮ+N+Sg+Pros+PxDu3: ивнандиʼ
+     иˮ+N+Sg+Pros+PxPl1: ивнанаˮ 
+     иˮ+N+Sg+Pros+PxPl2: ивнандаˮ
+     иˮ+N+Sg+Pros+PxPl3: ивнандоʼ
+     иˮ+N+Du+Nom+PxSg1: ихиюн  
+     иˮ+N+Du+Nom+PxSg2: ихиюд  
+     иˮ+N+Du+Nom+PxSg3: ихиюда 
+     иˮ+N+Du+Nom+PxDu1: ихиюниʼ
+     иˮ+N+Du+Nom+PxDu2: ихиюдиʼ
+     иˮ+N+Du+Nom+PxDu3: ихиюдиʼ
+     иˮ+N+Du+Nom+PxPl1: ихиюнаˮ
+     иˮ+N+Du+Nom+PxPl2: ихиюдаˮ
+     иˮ+N+Du+Nom+PxPl3: ихиюдоʼ
+     иˮ+N+Du+Acc+PxSg1: ихиюн  
+     иˮ+N+Du+Acc+PxSg2: ихиюд  
+     иˮ+N+Du+Acc+PxSg3: ихиюда 
+     иˮ+N+Du+Acc+PxDu1: ихиюниʼ
+     иˮ+N+Du+Acc+PxDu2: ихиюдиʼ
+     иˮ+N+Du+Acc+PxDu3: ихиюдиʼ
+     иˮ+N+Du+Acc+PxPl1: ихиюнаˮ
+     иˮ+N+Du+Acc+PxPl2: ихиюдаˮ
+     иˮ+N+Du+Acc+PxPl3: ихиюдоʼ
+     иˮ+N+Du+Gen+PxSg1: ихиюн  
+     иˮ+N+Du+Gen+PxSg2: ихиют  
+     иˮ+N+Du+Gen+PxSg3: ихиюта 
+     иˮ+N+Du+Gen+PxDu1: ихиюниʼ
+     иˮ+N+Du+Gen+PxDu2: ихиютиʼ
+     иˮ+N+Du+Gen+PxDu3: ихиютиʼ
+     иˮ+N+Du+Gen+PxPl1: ихиюнаˮ
+     иˮ+N+Du+Gen+PxPl2: ихиютаˮ
+     иˮ+N+Du+Gen+PxPl3: ихиютоʼ
+     иˮ+N+Pl+Nom+PxSg1: ибен
+     иˮ+N+Pl+Nom+PxSg2: ибед   
+     иˮ+N+Pl+Nom+PxSg3: ибеда  
+     иˮ+N+Pl+Nom+PxDu1: ибениʼ 
+     иˮ+N+Pl+Nom+PxDu2: ибедиʼ 
+     иˮ+N+Pl+Nom+PxDu3: ибедиʼ 
+     иˮ+N+Pl+Nom+PxPl1: ибенаˮ 
+     иˮ+N+Pl+Nom+PxPl2: ибедаˮ 
+     иˮ+N+Pl+Nom+PxPl3: ибедоʼ 
+     иˮ+N+Pl+Acc+PxSg1: ибени 
+     иˮ+N+Pl+Acc+PxSg2: ибед   
+     иˮ+N+Pl+Acc+PxSg3: ибеда  
+     иˮ+N+Pl+Acc+PxDu1: ибениʼ 
+     иˮ+N+Pl+Acc+PxDu2: ибедиʼ 
+     иˮ+N+Pl+Acc+PxDu3: ибедиʼ 
+     иˮ+N+Pl+Acc+PxPl1: ибенаˮ 
+     иˮ+N+Pl+Acc+PxPl2: ибедаˮ 
+     иˮ+N+Pl+Acc+PxPl3: ибедоʼ 
+     иˮ+N+Pl+Gen+PxSg1: ибеˮн  
+     иˮ+N+Pl+Gen+PxSg2: ибет   
+     иˮ+N+Pl+Gen+PxSg3: ибета  
+     иˮ+N+Pl+Gen+PxDu1: ибеˮниʼ
+     иˮ+N+Pl+Gen+PxDu2: ибетиʼ 
+     иˮ+N+Pl+Gen+PxDu3: ибетиʼ 
+     иˮ+N+Pl+Gen+PxPl1: ибеˮнаˮ 
+     иˮ+N+Pl+Gen+PxPl2: ибетаˮ 
+     иˮ+N+Pl+Gen+PxPl3: ибетоʼ 
+     иˮ+N+Pl+Dat+PxSg1: ихиˮн 
+     иˮ+N+Pl+Dat+PxSg2: ихит 
+     иˮ+N+Pl+Dat+PxSg3: ихита 
+     иˮ+N+Pl+Dat+PxDu1: ихиˮниʼ 
+     иˮ+N+Pl+Dat+PxDu2: ихитиʼ 
+     иˮ+N+Pl+Dat+PxDu3: ихитиʼ 
+     иˮ+N+Pl+Dat+PxPl1: ихиˮнаˮ 
+     иˮ+N+Pl+Dat+PxPl2: ихитаˮ 
+     иˮ+N+Pl+Dat+PxPl3: ихитоʼ 
+     иˮ+N+Pl+Loc+PxSg1: ихиˮнан  
+     иˮ+N+Pl+Loc+PxSg2: ихиˮнат
+     иˮ+N+Pl+Loc+PxSg3: ихиˮната 
+     иˮ+N+Pl+Loc+PxDu1: ихиˮнаниʼ
+     иˮ+N+Pl+Loc+PxDu2: ихиˮнатиʼ
+     иˮ+N+Pl+Loc+PxDu3: ихиˮнатиʼ
+     иˮ+N+Pl+Loc+PxPl1: ихиˮнанаˮ
+     иˮ+N+Pl+Loc+PxPl2: ихиˮнатаˮ
+     иˮ+N+Pl+Loc+PxPl3: ихиˮнатоʼ
+     иˮ+N+Pl+Abl+PxSg1: ихитан 
+     иˮ+N+Pl+Abl+PxSg2: ихитат 
+     иˮ+N+Pl+Abl+PxSg3: ихитата 
+     иˮ+N+Pl+Abl+PxDu1: ихитаниʼ
+     иˮ+N+Pl+Abl+PxDu2: ихитатиʼ
+     иˮ+N+Pl+Abl+PxDu3: ихитатиʼ
+     иˮ+N+Pl+Abl+PxPl1: ихитанаˮ
+     иˮ+N+Pl+Abl+PxPl2: ихитатаˮ
+     иˮ+N+Pl+Abl+PxPl3: ихитатоʼ
+     иˮ+N+Pl+Pros+PxSg1: ибеˮманан  
+     иˮ+N+Pl+Pros+PxSg2: ибеˮманат  
+     иˮ+N+Pl+Pros+PxSg3: ибеˮманата 
+     иˮ+N+Pl+Pros+PxDu1: ибеˮмананиʼ
+     иˮ+N+Pl+Pros+PxDu2: ибеˮманатиʼ
+     иˮ+N+Pl+Pros+PxDu3: ибеˮманатиʼ
+     иˮ+N+Pl+Pros+PxPl1: ибеˮмананаˮ
+     иˮ+N+Pl+Pros+PxPl2: ибеˮманатаˮ
+     иˮ+N+Pl+Pros+PxPl3: ибеˮманатоʼ
+
+# Predestinative !Should be added
+# Predicative (Nominal conjugation)
+
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScSg1: идмʼ
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScSg2: ин  
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScSg3: и
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScDu1: иниʼ
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScDu2: идиʼ
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScDu3: ихиʼ
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScPl1: иваˮ
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScPl2: идаˮ 
+     иˮ+N+Nom+Der/Pr+Ind+Aor+ScPl3: иˮ 
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: идамзь
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: инась 
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: ись   
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: ининзь
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: идинзь
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: ихинзь
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: иваць 
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: идаць  
+     иˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: иць  
