@@ -152,7 +152,8 @@ LEXICON TV_ЯˮАВЛУ
 
 
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON IV_МАН
+LEXICON IV_МАН  !!= @CODE@ манзь:маН1
+!! * Yaml: __manzj__
 +V+IV: V-01_МАН       ;
 
 LEXICON IV_МИН
@@ -994,7 +995,8 @@ LEXICON V-01_ЯˮАВЛУ-REFL !! V_refl 2013-03-04
  IND-AOR-RCPL3 	;
 
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON V-01_МАН
+LEXICON V-01_МАН   !!= @CODE@ манзь:маН1
+!! * Yaml: __manzj__
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_Hort ;
@@ -1022,7 +1024,7 @@ LEXICON V-01_МАН
  V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
- IND-AOR-DU3 	;
+:%>ӈа IND-AOR-DU3 	;
 +Ind: IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC2 ;
@@ -1888,13 +1890,13 @@ LEXICON V_Mod/prob
 +Mod/prob+Prt1+ScPl3:%>накэць K ;
 
 LEXICON V_Fut
-+Fut+Ind+Aor:ӈгу MUTUAL-PERSON ;
++Fut+Ind+Aor:%>ӈгу MUTUAL-PERSON ;
 
 LEXICON V_Fut2
-+Fut+Ind+Aor:та MUTUAL-PERSON ;
++Fut+Ind+Aor:%>та MUTUAL-PERSON ;
 
 LEXICON V_Fut-Refl
-+Fut+Ind+Aor:ӈгу MUTUAL-PERSON-REFL ;
++Fut+Ind+Aor:%>ӈгу MUTUAL-PERSON-REFL ;
 
 LEXICON V_Fut2-Refl
 +Fut+Ind+Aor:та MUTUAL-PERSON-REFL ;
@@ -2172,6 +2174,7 @@ LEXICON PRC
 +Fut+ConNeg:ӈгуˮ     K ;
 
 LEXICON PRC2
++InfImprf:%>%{вм%}а K ;
 +InfImprf:%>%{вм%}а NMN_ӇУДИ ;
 +InfPrf:%>ˮма NMN_ӇУДИ ;
 +PrcImprf:%>да NMN_ӇУДИ ;
