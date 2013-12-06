@@ -12,7 +12,7 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 +N+Pl+Pros:%>ˮА1мна	K ; !2013-10-22
 +N: POSSESSA-PL-PROS_ˮмана ;
 
-LEXICON N_ӇЭ-PAL/VAR  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
+LEXICON N_ӇЭ-Pal/Var  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! no change in stem
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 +N: NMN_ӇЭ ;
@@ -322,12 +322,17 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 !!ProsSg -(м)на
 LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26  !!ProsSg -(м)на
 !! [total=0]
 !! нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
++N: NMN_НЮБЕ ;
+
+LEXICON N_НЮБЕ-Pal/Var
++N: NMN_НЮБЕ ;
+
+LEXICON NMN_НЮБЕ  !!= @CODE@ нюмʼ: 26
 +N:Н1 SGDATSUF ;
 +N:Н1 SG-ACC-STEM ;
 +N:Н1 SG-NOM-STEM ;
 +N:%^MLenition PLNOMSUF ;
 +N:%^MLenition PLACCSUF_Е ;
-
 
 LEXICON N_МУНО  !!= @CODE@ муʼ: 27  !!ProsSg -мна
 !! н [total=2]
@@ -367,6 +372,12 @@ LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ:ил 30   !!ProsSg -мана
 !! * Yaml: __ilje__
 !! ң [total=13]
 !! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
++N: NMN_ИЛЪЕ ;
+
+LEXICON N_ИЛЪЕ-Pal/Var
++N: NMN_ИЛЪЕ ;
+
+LEXICON NMN_ИЛЪЕ
 +N:%>аӇ1 SGDATSUF ;
 +N:Ӈ1 SG-ACC-STEM ;
 !+N:аӇ1 SG-NOM-STEM ; !!= @CODE@ 2013-10-25
@@ -465,12 +476,32 @@ LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
 !! * Yaml: __yidye__
 !! [total=1]
 !! и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
++N: NMN_ИДЕ ;
+
+LEXICON N_ИДЕ-Pal/Var !! Where is the variation?
++N: NMN_ИДЕ ;
+
+LEXICON NMN_ИДЕ !! Where is the variation?
 +N:Д1 SGDATSUF ;
 +N:аС1 SG-ACC-STEM ;
 +N:аС1 SG-NOM-STEM ;
 +N:Д1 PLNOMSUF ;
 +N:Д1 PLACCSUF_Е ;
 +N:Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+LEXICON N_ИДЕ/МЯДО
+ N_ИДЕ ;
+ N_МЯДО ;
+ 
+LEXICON N_ТЮСЕ  !!= @CODE@ тюˮ:тюсе 
++N:С1 SG-ACC-STEM ;
++N:С1 SG-NOM-STEM ;
++N:С1 PLNOMSUF ;
++N:С1 PLACCSUF_Е ;
+
+LEXICON N_ТАСО/ТЮСЕ
+ N_ТАСО ;
+ N_ТЮСЕ ;
 
 LEXICON N_Vow
 +TYÄ+N: K ;
