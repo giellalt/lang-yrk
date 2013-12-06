@@ -62,6 +62,24 @@
 
   <e>
     <lg>
+      <l pos="A">вадисей</l>
+
+      <stg>
+        <st Contlex="A_ХУСУВЭЙ">вадисей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">vasen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вадумбэй</l>
 
       <stg>
@@ -850,6 +868,7 @@
         <st Contlex="N_ЕД">евалцёй</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
 
@@ -1919,6 +1938,24 @@
 
   <e>
     <lg>
+      <l pos="A">лакамбухы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">лакамбухы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tilapäinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ланзьдобэй</l>
 
       <stg>
@@ -2861,6 +2898,24 @@
 
   <e>
     <lg>
+      <l pos="A">мальӈгыхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">мальӈгыхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">jonkin aikainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">мандалюй</l>
 
       <stg>
@@ -2993,6 +3048,7 @@
         <st Contlex="N_ХУСУВЭЙ">марай</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
 
@@ -9814,6 +9870,24 @@
 
   <e>
     <lg>
+      <l pos="A">тикыхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">тикыхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">silloinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">тилтюй</l>
 
       <stg>
@@ -11414,6 +11488,7 @@
         <st Contlex="N_ЕД">халэв</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
 
@@ -14341,6 +14416,7 @@
         <st Contlex="A_ВАР">ӈынёл</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
 
@@ -14358,11 +14434,12 @@
         <st Contlex="A_ПАНЫ">ӈыхы</st>
       </stg>
     </lg>
+
     <mg>
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">etäinen, kaukainen, ammoinen</t>
+        <t pos="N">etäinen, kaukainen, muinainen, ammoinen</t>
       </tg>
     </mg>
   </e>
