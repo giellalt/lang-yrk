@@ -322,10 +322,10 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 !!ProsSg -(м)на
 LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26  !!ProsSg -(м)на
 !! [total=0]
 !! нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
-+N: NMN_НЮБЕ ;
+NMN_НЮБЕ ;
 
 LEXICON N_НЮБЕ-Pal/Var
-+N: NMN_НЮБЕ ;
+NMN_НЮБЕ ;
 
 LEXICON NMN_НЮБЕ  !!= @CODE@ нюмʼ: 26
 +N:Н1 SGDATSUF ;
@@ -372,20 +372,20 @@ LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ:ил 30   !!ProsSg -мана
 !! * Yaml: __ilje__
 !! ң [total=13]
 !! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
-+N: NMN_ИЛЪЕ ;
++N:NMN_ИЛЪЕ ;
 
 LEXICON N_ИЛЪЕ-Pal/Var
-+N: NMN_ИЛЪЕ ;
++N:NMN_ИЛЪЕ ;
 
 LEXICON NMN_ИЛЪЕ
-+N:%>аӇ1 SGDATSUF ;
-+N:Ӈ1 SG-ACC-STEM ;
+:%>аӇ1 SGDATSUF ;
+:Ӈ1 SG-ACC-STEM ;
 !+N:аӇ1 SG-NOM-STEM ; !!= @CODE@ 2013-10-25
-+N:Ӈ1 SGNOMSUF ; !!= @CODE@ 
-+N:Ӈ1 SG-NOM-STEM ; !!= @CODE@ 
-+N:а PLNOMSUF ;
-+N:ъ PLACCSUF_Е ;
-+N:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:Ӈ1 SGNOMSUF ; !!= @CODE@ 
+:Ӈ1 SG-NOM-STEM ; !!= @CODE@ 
+:а PLNOMSUF ;
+:ъ PLACCSUF_Е ;
+:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_НЕНЭЦИЕ  !!= @CODE@ ненэцьʼ:ненэць 30   !!ProsSg -мана
 !! * Yaml: __nyenecyh__
@@ -482,12 +482,12 @@ LEXICON N_ИДЕ-Pal/Var !! Where is the variation?
 +N: NMN_ИДЕ ;
 
 LEXICON NMN_ИДЕ !! Where is the variation?
-+N:Д1 SGDATSUF ;
-+N:аС1 SG-ACC-STEM ;
-+N:аС1 SG-NOM-STEM ;
-+N:Д1 PLNOMSUF ;
-+N:Д1 PLACCSUF_Е ;
-+N:Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:Д1 SGDATSUF ;
+:аС1 SG-ACC-STEM ;
+:аС1 SG-NOM-STEM ;
+:Д1 PLNOMSUF ;
+:Д1 PLACCSUF_Е ;
+:Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON N_ИДЕ/МЯДО
  N_ИДЕ ;
