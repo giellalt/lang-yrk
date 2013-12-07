@@ -34,7 +34,7 @@ Tests:
      сё+N+Pl+Pros: сёёˮмана
          
      сё+N+Sg+Tra: сёӈэ
-     сё+N+Pl+Tra: сёˮӈэ
+#    сё+N+Pl+Tra: сёˮӈэ
 
 # Possessive forms 
 
@@ -152,7 +152,7 @@ Tests:
      сё+N+Pl+Acc+PxPl1: сёёнаˮ
      сё+N+Pl+Acc+PxPl2: сёёдаˮ 
      сё+N+Pl+Acc+PxPl3: сёёдоʼ 
-     сё+N+Pl+Gen+PxSg1: сёёˮн  #?
+     сё+N+Pl+Gen+PxSg1: сёёˮн
      сё+N+Pl+Gen+PxSg2: сёёт   
      сё+N+Pl+Gen+PxSg3: сёёта  
      сё+N+Pl+Gen+PxDu1: сёёˮниʼ
@@ -197,3 +197,34 @@ Tests:
      сё+N+Pl+Pros+PxPl1: сёёˮмананаˮ
      сё+N+Pl+Pros+PxPl2: сёёˮманатаˮ
      сё+N+Pl+Pros+PxPl3: сёёˮманатоʼ
+     
+# Predestinative 
+
+     сё+N+Pred+Nom+PxSg1: сёдав
+     сё+N+Pred+Nom+PxSg2: сёдар
+     сё+N+Pred+Nom+PxSg3: сёдда
+     сё+N+Pred+Nom+PxDu1: сёдамиʼ
+     сё+N+Pred+Nom+PxDu2: сёдариʼ
+     сё+N+Pred+Nom+PxDu3: сёддиʼ
+     сё+N+Pred+Nom+PxPl1: сёдаваˮ
+     сё+N+Pred+Nom+PxPl2: сёдараˮ
+     сё+N+Pred+Nom+PxPl3: сёддоʼ
+     сё+N+Pred+Acc+PxSg1: сёдав
+     сё+N+Pred+Acc+PxSg2: сёдамд
+     сё+N+Pred+Acc+PxSg3: сёдамда
+     сё+N+Pred+Acc+PxDu1: сёдамиʼ
+     сё+N+Pred+Acc+PxDu2: сёдамдиʼ
+     сё+N+Pred+Acc+PxDu3: сёдамдиʼ
+     сё+N+Pred+Acc+PxPl1: сёдаваˮ
+     сё+N+Pred+Acc+PxPl2: сёдамдаˮ
+     сё+N+Pred+Acc+PxPl3: сёдамдоʼ    
+     сё+N+Pred+Gen+PxSg1: сёдан
+     сё+N+Pred+Gen+PxSg2: сёданд
+     сё+N+Pred+Gen+PxSg3: сёданда
+     сё+N+Pred+Gen+PxDu1: сёданиʼ
+     сё+N+Pred+Gen+PxDu2: сёдандиʼ
+     сё+N+Pred+Gen+PxDu3: сёдандиʼ
+     сё+N+Pred+Gen+PxPl1: сёданаˮ
+     сё+N+Pred+Gen+PxPl2: сёдандаˮ
+     сё+N+Pred+Gen+PxPl3: сёдандоʼ
+
