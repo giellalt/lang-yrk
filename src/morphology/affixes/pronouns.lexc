@@ -63,7 +63,12 @@ LEXICON PronDemAdn
 +Pron+Dem: # ;
 
 LEXICON PronInterrHum
-+Pron+Interr+Hum: # ;
++Pron+Interr+Hum:  SG-NOM-STEM ;
++Pron+Interr+Hum:  SG-ACC-STEM ;
++Pron+Interr+Hum:  SGDATSUF ;
++Pron+Interr+Hum:  PLNOMSUF ;
++Pron+Interr+Hum:%^A2I PLACCSUF_Zero ;
++Pron+Interr+Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON PronInterr
 +Pron+Interr: # ;
@@ -80,9 +85,6 @@ LEXICON PronInterrManner
 LEXICON PronInterrA
 +Pron+Interr+A: # ;
 
-
-
-
 LEXICON PronInterr-CxAbl
 +Pron+Interr+Spat+Abl: # ;
 
@@ -94,9 +96,6 @@ LEXICON PronInterr-CxLoc
 
 LEXICON AdvSpat-CxLoc
 +Adv+Spat+Loc: # ;
-
-
-
 
 ! vim: set ft=xfst-lexc:
 
