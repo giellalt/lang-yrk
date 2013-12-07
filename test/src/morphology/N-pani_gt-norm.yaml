@@ -1,0 +1,300 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - паны: # Noun 'clothing' - full paradigm /Type 9/
+     паны+N+Sg+Nom: паны
+     паны+N+Sg+Acc: панымʼ
+     паны+N+Sg+Gen: паныʼ
+     паны+N+Sg+Dat: панэнʼ
+     паны+N+Sg+Loc: панэхэна
+     паны+N+Sg+Abl: панэхэд
+     паны+N+Sg+Pros: панэвна
+     паны+N+Du+Nom: панэхэʼ
+     паны+N+Du+Acc: панэхэʼ
+     паны+N+Du+Gen: панэхэʼ
+     паны+N+Pl+Nom: паныˮ
+     паны+N+Pl+Acc: паны
+     паны+N+Pl+Gen: паныˮ
+     паны+N+Pl+Dat: панэхэˮ
+     паны+N+Pl+Loc: панэхэˮна
+     паны+N+Pl+Abl: панэхэт
+     паны+N+Pl+Pros: паныˮмана    
+          
+     паны+N+Tra: панэӈэ
+     паны+N+Car: панэсиˮ
+     паны+N+Equ: панэдаремʼ
+
+# Possessive forms 
+
+     паны+N+Sg+Nom+PxSg1: панэв 
+     паны+N+Sg+Nom+PxSg2: панэр  
+     паны+N+Sg+Nom+PxSg3: панэда 
+     паны+N+Sg+Nom+PxDu1: панэмиʼ
+     паны+N+Sg+Nom+PxDu2: панэриʼ
+     паны+N+Sg+Nom+PxDu3: панэдиʼ
+     паны+N+Sg+Nom+PxPl1: панэваˮ
+     паны+N+Sg+Nom+PxPl2: панэраˮ
+     паны+N+Sg+Nom+PxPl3: панэдоʼ
+     паны+N+Sg+Acc+PxSg1: панэв
+     паны+N+Sg+Acc+PxSg2: панэмд  
+     паны+N+Sg+Acc+PxSg3: панэмда 
+     паны+N+Sg+Acc+PxDu1: панэмиʼ 
+     паны+N+Sg+Acc+PxDu2: панэмдиʼ
+     паны+N+Sg+Acc+PxDu3: панэмдиʼ
+     паны+N+Sg+Acc+PxPl1: панэваˮ 
+     паны+N+Sg+Acc+PxPl2: панэмдаˮ
+     паны+N+Sg+Acc+PxPl3: панэмдоʼ
+     паны+N+Sg+Gen+PxSg1: [панэн, панэни]
+     паны+N+Sg+Gen+PxSg2: панэнд
+     паны+N+Sg+Gen+PxSg3: панэнда 
+     паны+N+Sg+Gen+PxDu1: панэниʼ 
+     паны+N+Sg+Gen+PxDu2: панэндиʼ
+     паны+N+Sg+Gen+PxDu3: панэндиʼ
+     паны+N+Sg+Gen+PxPl1: панэнаˮ 
+     паны+N+Sg+Gen+PxPl2: панэндаˮ
+     паны+N+Sg+Gen+PxPl3: панэндоʼ
+     паны+N+Sg+Dat+PxSg1: [панэхэн, панэхэни]
+     паны+N+Sg+Dat+PxSg2: панэхэнд
+     паны+N+Sg+Dat+PxSg3: панэхэнда
+     паны+N+Sg+Dat+PxDu1: панэхэниʼ
+     паны+N+Sg+Dat+PxDu2: панэхэндиʼ
+     паны+N+Sg+Dat+PxDu3: панэхэндиʼ
+     паны+N+Sg+Dat+PxPl1: панэхэнаˮ
+     паны+N+Sg+Dat+PxPl2: панэхэндаˮ
+     паны+N+Sg+Dat+PxPl3: панэхэндоʼ
+     паны+N+Sg+Loc+PxSg1: [панэхэнан, панэхэнани]
+     паны+N+Sg+Loc+PxSg2: панэхэнанд
+     паны+N+Sg+Loc+PxSg3: панэхэнанда 
+     паны+N+Sg+Loc+PxDu1: панэхэнаниʼ
+     паны+N+Sg+Loc+PxDu2: панэхэнандиʼ
+     паны+N+Sg+Loc+PxDu3: панэхэнандиʼ
+     паны+N+Sg+Loc+PxPl1: панэхэнанаˮ 
+     паны+N+Sg+Loc+PxPl2: панэхэнандаˮ
+     паны+N+Sg+Loc+PxPl3: панэхэнандоʼ
+     паны+N+Sg+Abl+PxSg1: [панэхэдан, панэхэдани]  
+     паны+N+Sg+Abl+PxSg2: панэхэданд  
+     паны+N+Sg+Abl+PxSg3: панэхэданда 
+     паны+N+Sg+Abl+PxDu1: панэхэданиʼ 
+     паны+N+Sg+Abl+PxDu2: панэхэдандиʼ
+     паны+N+Sg+Abl+PxDu3: панэхэдандиʼ
+     паны+N+Sg+Abl+PxPl1: панэхэданаˮ 
+     паны+N+Sg+Abl+PxPl2: панэхэдандаˮ
+     паны+N+Sg+Abl+PxPl3: панэхэдандоʼ
+     паны+N+Sg+Pros+PxSg1: [панэвнан, панэвнани]
+     паны+N+Sg+Pros+PxSg2: панэвнанд  
+     паны+N+Sg+Pros+PxSg3: панэвнанда 
+     паны+N+Sg+Pros+PxDu1: панэвнаниʼ 
+     паны+N+Sg+Pros+PxDu2: панэвнандиʼ
+     паны+N+Sg+Pros+PxDu3: панэвнандиʼ
+     паны+N+Sg+Pros+PxPl1: панэвнанаˮ 
+     паны+N+Sg+Pros+PxPl2: панэвнандаˮ
+     паны+N+Sg+Pros+PxPl3: панэвнандоʼ
+     паны+N+Du+Nom+PxSg1: панэхэюн  
+     паны+N+Du+Nom+PxSg2: панэхэюд  
+     паны+N+Du+Nom+PxSg3: панэхэюда 
+     паны+N+Du+Nom+PxDu1: панэхэюниʼ
+     паны+N+Du+Nom+PxDu2: панэхэюдиʼ
+     паны+N+Du+Nom+PxDu3: панэхэюдиʼ
+     паны+N+Du+Nom+PxPl1: панэхэюнаˮ
+     паны+N+Du+Nom+PxPl2: панэхэюдаˮ
+     паны+N+Du+Nom+PxPl3: панэхэюдоʼ
+     паны+N+Du+Acc+PxSg1: панэхэюн  
+     паны+N+Du+Acc+PxSg2: панэхэюд  
+     паны+N+Du+Acc+PxSg3: панэхэюда 
+     паны+N+Du+Acc+PxDu1: панэхэюниʼ
+     паны+N+Du+Acc+PxDu2: панэхэюдиʼ
+     паны+N+Du+Acc+PxDu3: панэхэюдиʼ
+     паны+N+Du+Acc+PxPl1: панэхэюнаˮ
+     паны+N+Du+Acc+PxPl2: панэхэюдаˮ
+     паны+N+Du+Acc+PxPl3: панэхэюдоʼ
+     паны+N+Du+Gen+PxSg1: панэхэюн  
+     паны+N+Du+Gen+PxSg2: панэхэют  
+     паны+N+Du+Gen+PxSg3: панэхэюта 
+     паны+N+Du+Gen+PxDu1: панэхэюниʼ
+     паны+N+Du+Gen+PxDu2: панэхэютиʼ
+     паны+N+Du+Gen+PxDu3: панэхэютиʼ
+     паны+N+Du+Gen+PxPl1: панэхэюнаˮ
+     паны+N+Du+Gen+PxPl2: панэхэютаˮ
+     паны+N+Du+Gen+PxPl3: панэхэютоʼ
+     паны+N+Pl+Nom+PxSg1: панын
+     паны+N+Pl+Nom+PxSg2: паныд   
+     паны+N+Pl+Nom+PxSg3: паныда  
+     паны+N+Pl+Nom+PxDu1: паныниʼ 
+     паны+N+Pl+Nom+PxDu2: паныдиʼ 
+     паны+N+Pl+Nom+PxDu3: паныдиʼ 
+     паны+N+Pl+Nom+PxPl1: панынаˮ 
+     паны+N+Pl+Nom+PxPl2: паныдаˮ 
+     паны+N+Pl+Nom+PxPl3: паныдоʼ 
+     паны+N+Pl+Acc+PxSg1: панын 
+     паны+N+Pl+Acc+PxSg2: паныд   
+     паны+N+Pl+Acc+PxSg3: паныда 
+     паны+N+Pl+Acc+PxDu1: паныниʼ
+     паны+N+Pl+Acc+PxDu2: паныдиʼ 
+     паны+N+Pl+Acc+PxDu3: паныдиʼ 
+     паны+N+Pl+Acc+PxPl1: панынаˮ
+     паны+N+Pl+Acc+PxPl2: паныдаˮ 
+     паны+N+Pl+Acc+PxPl3: паныдоʼ 
+     паны+N+Pl+Gen+PxSg1: паныˮн
+     паны+N+Pl+Gen+PxSg2: паныт   
+     паны+N+Pl+Gen+PxSg3: паныта  
+     паны+N+Pl+Gen+PxDu1: паныˮниʼ
+     паны+N+Pl+Gen+PxDu2: панытиʼ 
+     паны+N+Pl+Gen+PxDu3: панытиʼ 
+     паны+N+Pl+Gen+PxPl1: паныˮнаˮ 
+     паны+N+Pl+Gen+PxPl2: панытаˮ 
+     паны+N+Pl+Gen+PxPl3: панытоʼ 
+     паны+N+Pl+Dat+PxSg1: панэхэˮн 
+     паны+N+Pl+Dat+PxSg2: панэхэт 
+     паны+N+Pl+Dat+PxSg3: панэхэта 
+     паны+N+Pl+Dat+PxDu1: панэхэˮниʼ 
+     паны+N+Pl+Dat+PxDu2: панэхэтиʼ 
+     паны+N+Pl+Dat+PxDu3: панэхэтиʼ 
+     паны+N+Pl+Dat+PxPl1: панэхэˮнаˮ 
+     паны+N+Pl+Dat+PxPl2: панэхэтаˮ 
+     паны+N+Pl+Dat+PxPl3: панэхэтоʼ 
+     паны+N+Pl+Loc+PxSg1: панэхэˮнан  
+     паны+N+Pl+Loc+PxSg2: панэхэˮнат  
+     паны+N+Pl+Loc+PxSg3: панэхэˮната 
+     паны+N+Pl+Loc+PxDu1: панэхэˮнаниʼ
+     паны+N+Pl+Loc+PxDu2: панэхэˮнатиʼ
+     паны+N+Pl+Loc+PxDu3: панэхэˮнатиʼ
+     паны+N+Pl+Loc+PxPl1: панэхэˮнанаˮ
+     паны+N+Pl+Loc+PxPl2: панэхэˮнатаˮ
+     паны+N+Pl+Loc+PxPl3: панэхэˮнатоʼ
+     паны+N+Pl+Abl+PxSg1: панэхэтан
+     паны+N+Pl+Abl+PxSg2: панэхэтат 
+     паны+N+Pl+Abl+PxSg3: панэхэтата 
+     паны+N+Pl+Abl+PxDu1: панэхэтаниʼ
+     паны+N+Pl+Abl+PxDu2: панэхэтатиʼ
+     паны+N+Pl+Abl+PxDu3: панэхэтатиʼ
+     паны+N+Pl+Abl+PxPl1: панэхэтанаˮ
+     паны+N+Pl+Abl+PxPl2: панэхэтатаˮ
+     паны+N+Pl+Abl+PxPl3: панэхэтатоʼ
+     паны+N+Pl+Pros+PxSg1: паныˮманан  
+     паны+N+Pl+Pros+PxSg2: паныˮманат  
+     паны+N+Pl+Pros+PxSg3: паныˮманата 
+     паны+N+Pl+Pros+PxDu1: паныˮмананиʼ
+     паны+N+Pl+Pros+PxDu2: паныˮманатиʼ
+     паны+N+Pl+Pros+PxDu3: паныˮманатиʼ
+     паны+N+Pl+Pros+PxPl1: паныˮмананаˮ
+     паны+N+Pl+Pros+PxPl2: паныˮманатаˮ
+     паны+N+Pl+Pros+PxPl3: паныˮманатоʼ
+     
+# Predestinative 
+
+     паны+N+Pred+Nom+PxSg1: панэдав
+     паны+N+Pred+Nom+PxSg2: панэдар
+     паны+N+Pred+Nom+PxSg3: панэдда
+     паны+N+Pred+Nom+PxDu1: панэдамиʼ
+     паны+N+Pred+Nom+PxDu2: панэдариʼ
+     паны+N+Pred+Nom+PxDu3: панэддиʼ
+     паны+N+Pred+Nom+PxPl1: панэдваˮ
+     паны+N+Pred+Nom+PxPl2: панэдраˮ
+     паны+N+Pred+Nom+PxPl3: панэддоʼ
+     паны+N+Pred+Acc+PxSg1: панэдав
+     паны+N+Pred+Acc+PxSg2: панэдамд
+     паны+N+Pred+Acc+PxSg3: панэдамда
+     паны+N+Pred+Acc+PxDu1: панэдамиʼ
+     паны+N+Pred+Acc+PxDu2: панэдамдиʼ
+     паны+N+Pred+Acc+PxDu3: панэдамдиʼ
+     паны+N+Pred+Acc+PxPl1: панэдваˮ
+     паны+N+Pred+Acc+PxPl2: панэдамдаˮ
+     паны+N+Pred+Acc+PxPl3: панэдамдоʼ    
+     паны+N+Pred+Gen+PxSg1: панэдан
+     паны+N+Pred+Gen+PxSg2: панэданд
+     паны+N+Pred+Gen+PxSg3: панэданда
+     паны+N+Pred+Gen+PxDu1: панэданиʼ
+     паны+N+Pred+Gen+PxDu2: панэдандиʼ
+     паны+N+Pred+Gen+PxDu3: панэдандиʼ
+     паны+N+Pred+Gen+PxPl1: панэднаˮ
+     паны+N+Pred+Gen+PxPl2: панэдандаˮ
+     паны+N+Pred+Gen+PxPl3: панэдандоʼ
+     
+# Predicative (Nominal conjugation)
+
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: панэдмʼ
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: панэн  
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: паны   
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: панэниʼ
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: панэдиʼ
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: панэхэʼ
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: панэваˮ
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: панэдаˮ
+     паны+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: паныˮ  
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: панэдамзь
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: панэнась  
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: [панэсь, панысь] 
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: панэнинзь
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: панэдинзь
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: панэхэнзь
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: панэваць 
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: панэдаць 
+     паны+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: [панэць, паныць]
+     паны+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg: панэв
+     паны+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg: панэр   
+     паны+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg: панэда   
+     паны+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg: панэмиʼ  
+     паны+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg: панэриʼ  
+     паны+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg: панэдиʼ 
+     паны+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg: панэваˮ
+     паны+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg: панэраˮ
+     паны+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg: панэдоʼ  
+     паны+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu: панэхэюн
+     паны+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu: панэхэюд
+     паны+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu: панэхэюда   
+     паны+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu: панэхэюниʼ  
+     паны+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu: панэхэюдиʼ  
+     паны+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu: панэхэюдиʼ 
+     паны+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu: панэхэюнаˮ
+     паны+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu: панэхэюдаˮ
+     паны+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu: панэхэюдоʼ
+     паны+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl: панын
+     паны+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl: паныд   
+     паны+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl: паныда   
+     паны+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl: паныниʼ  
+     паны+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl: паныдиʼ  
+     паны+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl: паныдиʼ 
+     паны+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl: панынаˮ
+     паны+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl: паныдаˮ
+     паны+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl: паныдоʼ 
+     паны+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg: панэвась
+     паны+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg: панэрась
+     паны+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg: панэдась 
+     паны+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg: панэминзь 
+     паны+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg: панэринзь
+     паны+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg: панэдинзь
+     паны+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg: панэваць
+     паны+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg: панэраць
+     паны+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg: панэдонзь 
+     паны+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu: панэхэюнась
+     паны+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu: панэхэюдась
+     паны+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu: панэхэюдась 
+     паны+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu: панэхэюнинзь 
+     паны+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu: панэхэюдинзь
+     паны+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu: панэхэюдинзь
+     паны+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu: панэхэюнаць
+     паны+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu: панэхэюдаць
+     паны+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu: панэхэюдонзь
+     паны+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl: панынась
+     паны+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl: паныдась
+     паны+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl: паныдась 
+     паны+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl: панынинзь 
+     паны+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl: паныдинзь
+     паны+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl: паныдинзь
+     паны+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl: панынаць
+     паны+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl: паныдаць
+     паны+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl: паныдонзь
+     
