@@ -494,10 +494,15 @@ LEXICON N_ИДЕ/МЯДО
  N_МЯДО ;
  
 LEXICON N_ТЮСЕ  !!= @CODE@ тюˮ:тюсе 
-+N:С1 SG-ACC-STEM ;
-+N:С1 SG-NOM-STEM ;
-+N:С1 PLNOMSUF ;
-+N:С1 PLACCSUF_Е ;
++N: NMN_ТЮСЕ ;
+
+LEXICON NMN_ТЮСЕ
+:С1 SGDATSUF ;
+:С1 SG-ACC-STEM ;
+:С1 SG-NOM-STEM ;
+:С1 PLNOMSUF ;
+:с PLACCSUF_Е ;
+:С1 POSSESSA-PLURAL ;
 
 LEXICON N_ТАСО/ТЮСЕ
  N_ТАСО ;
