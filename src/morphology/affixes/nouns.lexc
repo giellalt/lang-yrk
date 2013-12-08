@@ -511,13 +511,13 @@ LEXICON N_ТАСО/ТЮСЕ
 LEXICON N_ӇАВО 
 +N: NMN_ӇАВО ;
 
-LEXICON NMN_ӇАВО
+LEXICON NMN_ӇАВО !!Provisional solution
 :мгэ SGDATSUF ;
 :мгэ SG-ACC-STEM ;
 :мгэ SG-NOM-STEM ;
 :мгэ PLNOMSUF ;
 :в PLACCSUF_О ; !
-  POSSESSA-PLURAL ;
+:мгэ POSSESSA-PLURAL ;
 
 LEXICON N_Vow
 +TYÄ+N: K ;
