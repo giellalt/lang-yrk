@@ -1,0 +1,64 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Postposition - пу-: # Noun 'after' - full paradigm 
+
+     пуна+POSTP_Dat: пуʼ
+     пуна+POSTP_Loc: пуна
+     пуна+POSTP_Abl: пуд
+     пуна+POSTP_Pros: пумна
+
+# Possessive forms 
+
+     пуна+POSTP_Dat+PxSg1: пун
+     пуна+POSTP_Dat+PxSg2: пунд
+     пуна+POSTP_Dat+PxSg3: пунда 
+     пуна+POSTP_Dat+PxDu1: пуниʼ
+     пуна+POSTP_Dat+PxDu2: пундиʼ
+     пуна+POSTP_Dat+PxDu3: пундиʼ
+     пуна+POSTP_Dat+PxPl1: пунаˮ
+     пуна+POSTP_Dat+PxPl2: пундаˮ
+     пуна+POSTP_Dat+PxPl3: пундоʼ
+     
+     пуна+POSTP_Loc+PxSg1: пунан
+     пуна+POSTP_Loc+PxSg2: пунанд 
+     пуна+POSTP_Loc+PxSg3: пунанда 
+     пуна+POSTP_Loc+PxDu1: пунаниʼ
+     пуна+POSTP_Loc+PxDu2: пунариʼ
+     пуна+POSTP_Loc+PxDu3: пунадиʼ
+     пуна+POSTP_Loc+PxPl1: пунаваˮ
+     пуна+POSTP_Loc+PxPl2: пунараˮ
+     пуна+POSTP_Loc+PxPl3: пунадоʼ
+     
+     пуна+POSTP_Abl+PxSg1: пудан
+     пуна+POSTP_Abl+PxSg2: пуданд 
+     пуна+POSTP_Abl+PxSg3: пуданда 
+     пуна+POSTP_Abl+PxDu1: пуданиʼ
+     пуна+POSTP_Abl+PxDu2: пудандиʼ
+     пуна+POSTP_Abl+PxDu3: пудандиʼ
+     пуна+POSTP_Abl+PxPl1: пуданаˮ
+     пуна+POSTP_Abl+PxPl2: пудандаˮ
+     пуна+POSTP_Abl+PxPl3: пудадоʼ
+     
+     пуна+POSTP_Pros+PxSg1: пумнан
+     пуна+POSTP_Pros+PxSg2: пумнанд 
+     пуна+POSTP_Pros+PxSg3: пумнанда 
+     пуна+POSTP_Pros+PxDu1: пумнаниʼ
+     пуна+POSTP_Pros+PxDu2: пумнандиʼ
+     пуна+POSTP_Pros+PxDu3: пумнандиʼ
+     пуна+POSTP_Pros+PxPl1: пумнанаˮ
+     пуна+POSTP_Pros+PxPl2: пумнандаˮ
+     пуна+POSTP_Pros+PxPl3: пумнадоʼ
