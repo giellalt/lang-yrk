@@ -3,7 +3,7 @@
 !! Nenets verbs inflect in persons.
 
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-LEXICON IV_Е
+LEXICON IV_Е !!= @CODE@ есь:е
 +V+IV: V-01_Е ;
 
 LEXICON IV_МЭ
@@ -48,7 +48,7 @@ LEXICON TV_НУ
 LEXICON IV_НУ/ТУ
 +V+IV: V-01_НУ/ТУ       ;
 
-LEXICON IV_ӇЭ
+LEXICON IV_ӇЭ !!= @CODE@ ӈэсь:ӈэ
 +V+IV: V-01_ӇЭ       ;
 
 LEXICON IV_ӇЭ-Pal/Var
