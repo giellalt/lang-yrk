@@ -15076,8 +15076,25 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">järkyttää vapauttakseen, poistaa päällimmäinen
-        rasvakerros</t>
+        <t pos="TV">järkyttää vapauttakseen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="TV">лахабтась</l>
+
+      <stg>
+        <st Contlex="TV_ИЛЕ">лахабта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">poistaa päällimmäinen rasvakerros</t>
       </tg>
     </mg>
   </e>
@@ -34955,7 +34972,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">tulla teräväksi, tulla laihaksi</t>
       </tg>
     </mg>
   </e>
@@ -36323,25 +36340,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">aueta, avautua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="IV">няӈгаворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">няӈгавор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="IV">avata, aukaista (suun tai nokan)</t>
+        <t pos="IV">aueta, avautua (suu tai nokka)</t>
       </tg>
     </mg>
   </e>
@@ -58394,7 +58393,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">aiheuttaa karskunaa, karskuntaa, vikinää, viuhuntaa</t>
+        <t pos="TV">aiheuttaa vikinää, aiheuttaa viuhuntaa</t>
       </tg>
     </mg>
   </e>
@@ -58466,7 +58465,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">panna kihisemään tai karskumaan, kaataa hulinalla</t>
+        <t pos="TV">panna kihisemään tai kirskumaan, kaataa hulinalla</t>
       </tg>
     </mg>
   </e>
@@ -58484,7 +58483,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">panna kihisemään tai karskumaan, kaataa hulinalla</t>
+        <t pos="TV">panna kihisemään tai kirskumaan, kaataa hulinalla</t>
       </tg>
     </mg>
   </e>
@@ -58502,7 +58501,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">kihistä, sihistä, karskua</t>
+        <t pos="IV">kihistä, sihistä</t>
       </tg>
     </mg>
   </e>
@@ -84122,7 +84121,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">karskuttaa, kirskuttaa, kitistä</t>
+        <t pos="IV">kirskuttaa, kitistä</t>
       </tg>
     </mg>
   </e>
@@ -84140,8 +84139,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">aiheuttaa voimakas kirskuna, aiheuttaa natinaа, aiheuttaa
-        karskutusta</t>
+        <t pos="TV">aiheuttaa voimakas kirskuna, aiheuttaa natinaа</t>
       </tg>
     </mg>
   </e>
@@ -84159,7 +84157,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">aiheuttaa voimakas kirskuna, natina, karskutus</t>
+        <t pos="TV">aiheuttaa voimakasta kirskuntaa, aiheuttaa voimakasta
+        natinaa</t>
       </tg>
     </mg>
   </e>
@@ -84177,7 +84176,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="VR">alkaa karskuttaa, alkaa kirskuttaa, alkaa kitistä</t>
+        <t pos="VR">alkaa kirskuttaa, alkaa kitistä</t>
       </tg>
     </mg>
   </e>
@@ -84213,7 +84212,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">hävetä, kainostella</t>
       </tg>
     </mg>
   </e>
@@ -96501,7 +96500,25 @@
 
   <e>
     <lg>
-      <l pos="TV">ӈэвадалабась</l>
+      <l pos="TV">ӈэвадаламбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">ӈэвадаламба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">lopettaa, päättää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="TV">ӈэвадаламбась</l>
 
       <stg>
         <st Contlex="TV_ПЭБЮ">ӈэвадалаба</st>
@@ -96512,7 +96529,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">lopettaa, päättää</t>
       </tg>
     </mg>
 
