@@ -9,7 +9,7 @@ no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 * Yaml: __xo__
 
- LEXICON N_ӇЭ-PAL/VAR   ӈэ:ӈэ 1  !!ProsSg -вна
+ LEXICON N_ӇЭ-Pal/Var   ӈэ:ӈэ 1  !!ProsSg -вна
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 
@@ -161,6 +161,8 @@ no change in stem
 нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
 
 
+ LEXICON NMN_НЮБЕ   нюмʼ: 26
+
  LEXICON N_МУНО   муʼ: 27  !!ProsSg -мна
 н [total=2]
 му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
@@ -183,10 +185,12 @@ Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
 * Yaml: __ilje__
 ң [total=13]
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
+
+
  !+N:аӇ1 SG-NOM-STEM ;  2013-10-25
- +N:Ӈ1 SGNOMSUF ;  
- +N:Ӈ1 SG-NOM-STEM ;  
- +N:Ӈ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+ :Ӈ1 SGNOMSUF ;  
+ :Ӈ1 SG-NOM-STEM ;  
+ :Ӈ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_НЕНЭЦИЕ   ненэцьʼ:ненэць 30   !!ProsSg -мана
 * Yaml: __nyenecyh__
@@ -236,10 +240,21 @@ Where is the variation?
 * Yaml: __yidye__
 [total=1]
 и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
- +N:Д1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+Where is the variation?
+ :Д1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
->> N_ӇОДИ/ПИСЬ = +N:Д1  POSSESSA-PLURAL ;  
+ LEXICON N_ТЮСЕ   тюˮ:тюсе 
+
+
+
+
+
+
+>> N_ӇОДИ/ПИСЬ = LEXICON N_ТЮСЕ   
 
  LEXICON	    N_САВНЕ  
 
