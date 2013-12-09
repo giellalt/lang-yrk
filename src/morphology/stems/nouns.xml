@@ -730,6 +730,28 @@
 
   <e>
     <lg>
+      <l pos="N">варты</l>
+
+      <stg>
+        <st Contlex="N_ПАНЫ">варты</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">small finger</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">pikkusormi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">варё</l>
 
       <stg>
@@ -5172,6 +5194,24 @@
 
   <e>
     <lg>
+      <l pos="N">либорˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">либор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">liehureuna</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">либярабцо</l>
 
       <stg>
@@ -5247,6 +5287,24 @@
 
   <e>
     <lg>
+      <l pos="N">лидарˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">лидар</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">liehureuna</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">лидяӈг</l>
 
       <stg>
@@ -5305,6 +5363,24 @@
 
   <e>
     <lg>
+      <l pos="N">литра</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">литра</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">litra</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">лорца</l>
 
       <stg>
@@ -5343,6 +5419,42 @@
 
   <e>
     <lg>
+      <l pos="N">лорцэ</l>
+
+      <stg>
+        <st Contlex="N_ЯКЫ">лорцэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kahlaaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">лорцэ</l>
+
+      <stg>
+        <st Contlex="N_ЯКЫ">лорцэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">yksinäinen ruohomätäs kummulla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">лорцэв</l>
 
       <stg>
@@ -5354,7 +5466,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">kahlaaja</t>
+        <t pos="N">kahlaaja, suokukko</t>
       </tg>
     </mg>
   </e>
