@@ -14,6 +14,7 @@
 
       <stress/>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -37,6 +38,7 @@
 
       <stress/>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -52,6 +54,54 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ленин</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ленин</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Lenin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ленинград</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ленинград</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Leningrad</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Москва</l>
 
       <stg>
@@ -60,6 +110,7 @@
 
       <stress>Москва</stress>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -83,6 +134,7 @@
 
       <stress/>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -106,6 +158,7 @@
 
       <stress>Росси•я</stress>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -129,6 +182,7 @@
 
       <stress>Сиби•рь</stress>
     </lg>
+
     <mg>
       <m>
         <head/>
@@ -144,6 +198,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Финляндия</l>
+
+      <stg>
+        <st Contlex="PROP_">Финляндия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Suomi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Явтысый</l>
 
       <stg>
@@ -152,6 +228,7 @@
 
       <stress/>
     </lg>
+
     <mg>
       <m>
         <head/>
