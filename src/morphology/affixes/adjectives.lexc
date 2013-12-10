@@ -75,9 +75,15 @@ LEXICON A_ӇАНУ  !!= @CODE@ ӈӑно: 23 !!ProsSg -вна
 +A+Der/MWN: NMN_ӇАНУ ;
 
 LEXICON A_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 !!ProsSg -(м)на
-+A:ʼ SGDATSUF ;
-+A:%^MLenition SG-ACC-STEM ;
-+A:ʼ SG-NOM-STEM ;
+!! ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
++A:ʼ SGNOMSUF ;
++A+Der/MWN: NMN_ӇУВО ;
+
+
+LEXICON A_НЮБЕ-Pal/Var  !!= @CODE@ нюмʼ:нюм 26
+!! нюм’ nyum    нюмд’ nyumt°h   нюв” nyuw°q     нюбе nyubye
++A:ʼ SGNOMSUF ;
++A+Der/MWN: NMN_НЮБЕ ;
 
 LEXICON A_МЕРЁ !! Check this
 +A: SGNOMSUF ;
