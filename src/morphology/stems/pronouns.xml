@@ -53,7 +53,7 @@
       <l pos="Pron">хибяхава</l>
 
       <stg>
-        <st Contlex="PRON_">хибяхава</st>
+        <st Contlex="PRON_ӇУДИ">хибяхава</st>
       </stg>
     </lg>
 
@@ -75,7 +75,7 @@
       <l pos="Pron">хибяхарт</l>
 
       <stg>
-        <st Contlex="PRON_">хибяхарт</st>
+        <st Contlex="PRON_ЕД">хибяхарт</st>
       </stg>
     </lg>
 
@@ -141,7 +141,7 @@
       <l pos="Pron">ӈамгэхэва</l>
 
       <stg>
-        <st Contlex="PRON_">ӈамгэхэва</st>
+        <st Contlex="PRON_ӇУДИ">ӈамгэхэва</st>
       </stg>
     </lg>
 
@@ -163,7 +163,7 @@
       <l pos="Pron">ӈамгэхэрт</l>
 
       <stg>
-        <st Contlex="PRON_">ӈамгэхэрт</st>
+        <st Contlex="PRON_ЕД">ӈамгэхэрт</st>
       </stg>
     </lg>
 
@@ -373,7 +373,7 @@
       <l pos="Pron">хуркахава</l>
 
       <stg>
-        <st Contlex="PRON_">хуркахава</st>
+        <st Contlex="PRON_ӇУДИ">хуркахава</st>
       </stg>
     </lg>
 
@@ -395,7 +395,7 @@
       <l pos="Pron">хуркахарт</l>
 
       <stg>
-        <st Contlex="PRON_">хуркахарт</st>
+        <st Contlex="PRON_ЕД">хуркахарт</st>
       </stg>
     </lg>
 
@@ -696,6 +696,30 @@
 
       <stg>
         <st Contlex="PronInterr-CxLat">ханяʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>where (to), whither</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>mihin</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">хуʼ</l>
+
+      <stg>
+        <st Contlex="PronInterr-CxLat">хуʼ</st>
       </stg>
     </lg>
 
