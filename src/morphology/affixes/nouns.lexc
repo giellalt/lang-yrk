@@ -311,6 +311,9 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 !!ProsSg -(м)на
 !! [total=3]
 !! ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
 !LEXICON N_ЯМ !! 25!ямʼ:я
++N: NMN_ӇУВО ;
+
+LEXICON NMN_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 
 +N:ʼ SGDATSUF ;
 +N:%^MLenition SG-ACC-STEM ;
 +N:ʼ SG-NOM-STEM ;
@@ -326,6 +329,10 @@ NMN_НЮБЕ ;
 
 LEXICON N_НЮБЕ-Pal/Var
 NMN_НЮБЕ ;
+
+LEXICON N_НЮБЕ-Pal/Var/ӇУВО 
+ N_НЮБЕ-Pal/Var ;
+ N_ӇУВО ;
 
 LEXICON NMN_НЮБЕ  !!= @CODE@ нюмʼ: 26
 +N:Н1 SGDATSUF ;
