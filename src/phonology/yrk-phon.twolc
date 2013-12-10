@@ -130,7 +130,7 @@ Rules
 
 "А1 -> а"
 !! __@RULENAME@__
-А1:а <=> [[ Ӈ1: |  ʼ: | а | я | й | и | ы | Ы2: | Cns | Д1: | С1: ] %> х: | %> а х ] _ ;
+А1:а <=> [[ Ӈ1: | Н1: |  ʼ: | а | я | й | и | ы | Ы2: | Cns | Д1: | С1: ] %> х: | %> а х ] _ ;
 !2013-03-15! adding и | ы | й | Ы2: for тёресь+V+Refl+Mod/appr+RcDu3
 
 "А1 -> у"
@@ -285,7 +285,7 @@ Rules
 
 "nTod"
 !! __@RULENAME@__
-н:д <=>  [ Ӈ1: | ʼ: ] %> _ ʼ ;
+н:д <=>  [ Ӈ1: | Н1: | ʼ: ] %> _ ʼ ;
 
 "tTod"
 !! __@RULENAME@__
@@ -360,7 +360,7 @@ Rules
 
 "%{рл%}:л"
 !! __@RULENAME@__
- %{рл%}:л <=> [ Ӈ1: | Д1: | С1: | ʼ: | ˮ: ] %> _  ;
+ %{рл%}:л <=> [ Ӈ1: | Д1: | С1: | Н1: | ʼ: | ˮ: ] %> _  ;
 
 "%{вм%}:в"
 !! __@RULENAME@__
@@ -382,7 +382,11 @@ Rules
 
 "Н1:н GlottalNasalToSurface"
 !! __@RULENAME@__
-Н1:н <=> _ %> [ Ы1: | с: ь | т: | ˮ ] ;
+Н1:н <=> _ %> [ Ы1: | с: ь | т: | д: | ˮ | м: д [ # | %> | а ] | м ʼ | о | ʼ | н: ʼ ] ;
+
+"Н1:ӈ GlottalNasalToSurface"
+!! __@RULENAME@__
+Н1:ӈ <=> _ %> [ х: ] ;
 
 "Ӈ1:ӈ GlottalNasalToSurface"
 !! __@RULENAME@__
@@ -405,7 +409,7 @@ Rules
 "m loss before Labial followed by nonglottal cons or vows "
 !! __@RULENAME@__
 м:0 <=> _ ʼ: %> [ м [ а | и | н | д ] | в: ] ;
-        Ӈ1: %> _ д ; !! * @CODE@ поʼ+N+Sg+Acc+PxSg2:понд 
+       [ Ӈ1: | Н1: ] %> _ д ; !! * @CODE@ поʼ+N+Sg+Acc+PxSg2:понд 
 
 !"Н1:0 GlottalNasalToSurface"
 !Cx:0 <=> _ %> [ м | ʼ ] ;
