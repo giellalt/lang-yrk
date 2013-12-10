@@ -83,7 +83,8 @@ symbols in the lexicon files:
   %{вм%}	    +N+Sg+Nom+PxSg1
   %{рл%}	    +N+Sg+Nom+PxSg2
 And following triggers to control variation
-This is the schwa or reduced vowel occurring after x in case endings
+ %{ауоэ%0%}   А1:а А1:у А1:о А1:э schwa
+   This is the schwa or reduced vowel occurring after x in case endings
 -хА1на -хА1д
 Alternating between zero and а
 
@@ -945,6 +946,8 @@ Non-finites
 
 
 
+  %{ауоэ%0%}:а   А1:а А1:у А1:о А1:э SCHWA
+
 
 
 
@@ -996,14 +999,20 @@ __А2:0 possible vowel loss as second syllable vowel__
 
 __0:U in sgprossuf__
 
-__А1 -> а__
+__%{ауоэ%0%} -> 0 right__
 
-__А1 -> у__
+__%{ауоэ%0%} <- 0 left__
 
-__А1 -> о__
- А1:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
+__%{ауоэ%0%} -> а right__
 
-__А1 -> э__
+__%{ауоэ%0%} <- а left__
+
+__%{ауоэ%0%} -> у__
+
+__%{ауоэ%0%} -> о__
+ %{ауоэ%0%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
+
+__%{ауоэ%0%} -> э__
 
 !VOWEL LOWERING
 __StemFinalYToE__
