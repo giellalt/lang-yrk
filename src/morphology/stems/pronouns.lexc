@@ -3,12 +3,12 @@ LEXICON pronouns
 
 хибя:хибя PronInterrHum  "kuka" ;
 хибяри:хибяри PRON_  "joku" ;
-хибяхава:хибяхава PRON_  "joku" ;
-хибяхарт:хибяхарт PRON_  "ei kukaan" ;
+хибяхава:хибяхава PRON_ӇУДИ  "joku" ;
+хибяхарт:хибяхарт PRON_ЕД  "ei kukaan" ;
 ӈамгэ:ӈа PronInterr  "mikä" ;
 ӈамгдикы:ӈамгэдикы PRON_  "jotain, jonkinlainen" ;
-ӈамгэхэва:ӈамгэхэва PRON_  "jotain, jonkinlainen" ;
-ӈамгэхэрт:ӈамгэхэрт PRON_  "ei mitään" ;
+ӈамгэхэва:ӈамгэхэва PRON_ӇУДИ  "jotain, jonkinlainen" ;
+ӈамгэхэрт:ӈамгэхэрт PRON_ЕД  "ei mitään" ;
 сямбир:сямбир PronInterrQnt  "montako, kuinka paljon" ;
 сян:сян PronInterrQnt  "montako" ;
 сямян:сямян PronInterrQnt  "kaikki" ;
@@ -17,8 +17,8 @@ LEXICON pronouns
 ханзерʼ:ханзерʼ PronInterrManner  "miten" ;
 хурка:хурка PronInterrA  "millainen" ;
 хуркари:хуркари PRON_  "mikä tahansa" ;
-хуркахава:хуркахава PRON_  "jonkinlainen" ;
-хуркахарт:хуркахарт PRON_  "ei minkäänlainen" ;
+хуркахава:хуркахава PRON_ӇУДИ  "jonkinlainen" ;
+хуркахарт:хуркахарт PRON_ЕД  "ei minkäänlainen" ;
 сиˮми:сиˮми PersSg1-CxAcc  "minua" ;
 сит:сит PersSg2-CxAcc  "sinua" ;
 сита:сита PersSg3-CxAcc  "häntä" ;
@@ -32,6 +32,7 @@ LEXICON pronouns
 тюкона:тюкона AdvSpat-CxLoc  "täällä" ;
 таняна:таняна AdvSpat-CxLoc  "siellä" ;
 ханяʼ:ханяʼ PronInterr-CxLat  "mihin" ;
+хуʼ:хуʼ PronInterr-CxLat  "mihin" ;
 ханяд:ханяд PronInterr-CxAbl  "mistä" ;
 ханяӈы:ханяӈы PronInterr  "mones" ;
 худ:худ PronInterr-CxAbl  "mistä" ;
