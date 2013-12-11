@@ -28,6 +28,9 @@ LEXICON nouns
 валыˮ:валы N_МЯДО  "lupaus" ;
 вамня:вамня N_ӇОДИ  "pieni nelma" ;
 вандад:вандад N_ЕД/ХАНО  "ajoreki matalilla poikkipuolilla" ;
+вандарˮ:вандар N_ВАР  "lommo, itkupilli" ;
+вандеˮэ:вандеˮэ N_ЕД  "iso ajoreki" ;
+вандеˮэ:ванде N_ЕД  "iso ajoreki" ;
 вано:вано N_ӇАНУ  "juuri" ;
 ванорˮ:ванор N_ВАР  "verso, vesa, nuori juuri" ;
 ванотана:ванотана N_ӇУДИ  "tynnyri" ;
@@ -56,6 +59,8 @@ LEXICON nouns
 вовар:вовар N_ЕД  "poro, joka riutuu nopeasti" ;
 вомдˮма:вомдˮма N_ӇУДИ  "haikeus, suru" ;
 вомдар:вомдар N_ЕД  "nopeasti kuihtuva poro" ;
+вомдарˮ:вомдар N_ВАР  "syy" ;
+вомдарˮ:вомдар N_ВАР  "puolikulunut vaate, ryysy" ;
 вомдарабцо:вомдарабцо N_ӇАНУ  "syy" ;
 враг:враг N_ЕД-RUS  "vihollinen" ;
 выʼ:вы N_ВЫӇО  "tundra" ;
@@ -92,6 +97,7 @@ LEXICON nouns
 вэцькэця:вэцькэця N_ӇОДИ  "kärki" ;
 вэя:вэя N_ӇОДИ  "veri" ;
 вэӈго:вэӈго N_ӇАНУ  "autio paikka" ;
+газ:газ N_ЕД-RUS  "kaasu" ;
 газета:газета N_ХОБ-RUS  "sanomalehti" ;
 геолог:геолог N_ЕД-RUS  "geologi" ;
 герб:герб N_ЕД-RUS  "vaakuna" ;
@@ -488,11 +494,13 @@ LEXICON nouns
 мэдабцо:мэдабцо N_ӇАНУ  "onnunnan syy" ;
 мэдо:мэдо N_ӇАНУ  "toukka" ;
 мэдондабцо:мэдондабцо N_ӇАНУ  "toukka" ;
+мэидарˮ:мэидар N_ВАР  "käsittely, muokkaus" ;
 мэлава:мэлава N_ӇУДИ  "olinpaikka, oleskelupaikka" ;
 мэнана:мэнана N_ӇУДИ  "se, jota täytyy ottaa" ;
 мэнева:мэнева N_ӇУДИ  "rakkaus, mieltymys" ;
 мэсана:мэсана N_ӇУДИ  "käytettävä esine" ;
 мэсыˮ:мэсы N_МЯДО  "tapa, taipumus, erikoisuus" ;
+мэтерˮ:мэтер N_ВАР  "sitkeys (kiusallinen)" ;
 мэцод:мэцод N_ЕД  "käyttöön tarkoitettu esine" ;
 мэцэнёй:мэцэнёй N_ЕД  "keikailija, keikari" ;
 мэёва:мэёва N_ӇУДИ  "vahvuus, kestävyys" ;
@@ -594,8 +602,10 @@ LEXICON nouns
 нерденя:нерденя N_ӇУДИ  "alku" ;
 нерка:нерка N_ӇУДИ  "paju" ;
 нермбэртя:нермбэртя N_ӇОДИ  "johtaja, esimies" ;
+неро:неро N_ӇАНУ  "pajupensaikko" ;
 нероˮмэй:нероˮмэй N_ХУСУВЭЙ  "korkea, hauras ja kuiva kasvi joka kasvaa kostealla pinnalla" ;
 нес:нес N_ЕД  "mies ja vaimo" ;
+нефть:нефть N_ЕД-RUS  "nafta, öljy, raakaöljy" ;
 нея:нея N_ПИСЬ  "täti, äidin nuorempi sisko" ;
 неӈг:неӈг N_ЕД  "sisäosa, rajoitettu ala" ;
 ни:ни N_ӇЭ  "vyö, hihna, remmi" ;
@@ -816,6 +826,7 @@ LEXICON nouns
 пахаʼ:паха N_ПАХАЁ  "(puun) tyvi, juuri" ;
 пахакоця:пахакоця N_ӇОДИ  "lahdeke, lahdelma, poukama" ;
 пахалаˮма:пахалаˮма N_ӇУДИ  "kesyporo joka laitetaan yhteen valjakkoon kesyttämätön poron kanssa" ;
+пахарярˮ:пахаряр N_ВАР  "vaatimus, pakottava käsky" ;
 паяк:паяк N_ЕД  "täi, joka on äsken saivaresta tullut" ;
 паё:паё N_МЕРЁ  "leppä" ;
 паёлава:паёлава N_ӇУДИ  "paikka, josta otetaan leppää" ;
@@ -846,7 +857,7 @@ LEXICON nouns
 песка:песка N_МАРАӇГЫ  "tamminappula" ;
 петензьʼ:петензь N_ЁЛЬЦЕ  "mattopiiska, pölytyspieska" ;
 пеӈгабцьʼ:пеӈгабць N_ЁЛЬЦЕ  "rummun kurikka" ;
-пи:пи N_ӇЭ  "yö" ;
+пи:пи N_ӇЭ-Pal/Var  "yö" ;
 пиˮморта:пиˮморта N_ӇУДИ  "karkuri, pakolainen" ;
 пиˮмя:пиˮмя N_ТЁН  "housut" ;
 пиˮна:пиˮна N_ӇУДИ  "läiske, loiske, läiskäys" ;
@@ -1195,6 +1206,9 @@ LEXICON nouns
 сэрабтˮ:сэрабт N_МЯДО  "kaljama" ;
 сэрад:сэрад N_ЕД  "nälänhätä" ;
 сэрадˮ:сэрад N_МЯДО  "harmi, epämiellytävyys" ;
+сэратирˮ:сэратир N_ВАР  "suolaus" ;
+сэрерˮ:сэрер N_ВАР  "ikuinen routa" ;
+сэроко:сэроко N_ӇАНУ  "kaihi" ;
 сэромзо:сэромзо N_ӇАНУ  "kaihi" ;
 сэхэдабцо:сэхэдабцо N_ӇАНУ  "vihan syy" ;
 сюʼ:сю N_ВЫӇО  "napa" ;
@@ -1395,12 +1409,13 @@ LEXICON nouns
 товар:товар N_ЕД  "kauppatavara" ;
 тод:тод N_ЕД  "oksennus" ;
 тодабцьʼ:тодабць N_ИЛЪЕ  "nuotio" ;
+тоерˮ:тоер N_ВАР  "kovike" ;
 тойрё:тойрё N_МЕРЁ  "kopina, sydämen tykytys" ;
 тол:тол N_ЕД  "pöytä" ;
 тол:толь N_ЕД  "pöytä" ;
 толаˮма:толаˮма N_ӇУДИ  "laskenta" ;
 толаӈгобцьʼ:толаӈгобць N_ЁЛЬЦЕ  "pirkka, pykäläpuu" ;
-толырˮ:толыр N_ВАР  "numero" ;
+толырˮ:толыр N_ВАР  "lukumäärä, numero" ;
 тондˮма:тондˮма N_ӇУДИ  "se jonka avulla on kääritty, päällysrengas" ;
 тондерˮ:тондер N_ВАР  "penger" ;
 тора:тора N_ХОБ  "uimaevä" ;
@@ -1493,6 +1508,7 @@ LEXICON nouns
 тэс:тэс N_ЕД  "tippa, tilkka" ;
 тэсавэй:тэсавэй N_ХУСУВЭЙ  "poronhoitaja" ;
 тэскэця:тэскэця N_ӇОДИ  "tippanen, pisara" ;
+тэсрярˮ:тэсряр N_ВАР  "suoja, sula" ;
 тэта:тэта N_ӇУДИ  "suurporonhoitaja, rikas poronhoitaja" ;
 тэцяʼ:тэця N_ВЫӇО  "pyyhe" ;
 тэёлˮ:тэёл N_ВАР  "tuhrija, tuhrimus" ;
@@ -1504,6 +1520,7 @@ LEXICON nouns
 тюиˮ:тюи N_МЯДО  "sisääntulon hetki" ;
 тюлава:тюлава N_ӇУДИ  "häät" ;
 тюмю:тюмю N_ӇЭ  "liesi" ;
+тюн:тюн N_ЕД  "hajuaisti" ;
 тюнд:тюнд N_ТИРЕ  "kunnas, töyräs" ;
 тюня:тюня N_ТЁН  "häät" ;
 тюр:тюр N_ЕД  "pitkä porojen ajoseiväs" ;
@@ -1525,7 +1542,7 @@ LEXICON nouns
 тёб:тёб N_ЕД  "huolellisuus, täsmällisyys" ;
 тёб:тёб N_ЕД  "tarkkuus, huolellisuus" ;
 тёнанзьʼ:тёнанзь N_ЁЛЬЦЕ  "kuivausteline" ;
-тёндерˮ:тёндер N_ВАР  "reen juko" ;
+тёндерˮ:тёндер N_ВАР  "(reen) sepä ja selkäosa, (reen) juko" ;
 тёнзьʼ:тёнзь N_ЁЛЬЦЕ  "kuivausteline" ;
 тёня:тёня N_ТЁН  "kettu" ;
 тёхо:тёхо N_ӇАНУ  "ison vesistön matalavesinen haarake" ;
@@ -1687,6 +1704,7 @@ LEXICON nouns
 хорна:хорна N_ӇУДИ  "korskuna, korskunta" ;
 хорова:хорова N_ӇУДИ  "lehmä" ;
 хород:хород N_ЕД  "kyykkä" ;
+хорти:хорти N_ӇЭ  "käheällä äänellä haukkuva koira" ;
 хосарˮ:хосар N_ВАР  "pelikortti" ;
 хоска:хоска N_МАРАӇГЫ  "kissa" ;
 хосэй:хосэй N_ЕД/ХУСУВЭЙ  "löytö" ;
@@ -1715,6 +1733,7 @@ LEXICON nouns
 хунад:хунад N_ЕД  "pituus, etäisyys" ;
 хупейка:хупейка N_МАРАӇГЫ  "kopeekka" ;
 хурабцо:хурабцо N_ӇАНУ  "huvi, ajanviete" ;
+хурерˮ:хурер N_ВАР  "iso mytty, nippu" ;
 хурко:хурко N_ӇАНУ  "köysi, naru" ;
 хурна:хурна N_ӇУДИ  "kurina, horina" ;
 хуроˮла:хуроˮла N_ӇУДИ  "riuku jolla lyömällä vettä pelotetaan kaloja" ;
@@ -1730,6 +1749,7 @@ LEXICON nouns
 хутрё:хутрё N_МЕРЁ  "jyske" ;
 хуты:хуты N_ӇЭ  "saapas" ;
 хутька:хутька N_МАРАӇГЫ  "käpy" ;
+хутю:хутю N_ӇЭ  "nuori koira, pentu" ;
 хухурˮ:хухур N_ВАР  "rako, kauha" ;
 хуӈг:хуӈг N_ХАНО  "venen kaareva osa" ;
 хуӈгля:хуӈгля N_ӇОДИ  "etukäpälä, (eläimen) etujalka" ;
@@ -1776,6 +1796,8 @@ LEXICON nouns
 школа:школа N_ХОБ-RUS  "koulu" ;
 экзамен:экзамен N_ЕД-RUS  "koe, tentti" ;
 экономика:экономика N_ХОБ-RUS  "talous" ;
+экран:экран N_ЕД-RUS  "kuvaruutu" ;
+электричество:электричество N_ЕД-RUS  "sähkö" ;
 ю:ю N_ӇЭ  "solmu" ;
 юд:юд N_ЕД  "musta-valkoinen ruutukuvio naisten laukulla" ;
 юдак:юдак N_ЕД  "mustat tai valkeat juovat, merkki puikolla" ;
@@ -1784,8 +1806,10 @@ LEXICON nouns
 юдэ:юдэ N_ЯКЫ  "unnenäkö" ;
 юдэˮма:юдэˮма N_ӇУДИ  "unennäkö, ennusuni" ;
 юдэбцо:юдэбцо N_ӇАНУ  "unennäkö" ;
-юй:юй N_ЕД  "" ;
+юй:юй N_ЕД  "naava" ;
+юмб:юмб N_ЕД  "merkki maastossa, kokkare, suoturve" ;
 юн:юн N_ТИРЕ/ХАНО  "viesti" ;
+юн:юн N_ТИРЕ/ХАНО  "pudas" ;
 юнеталава:юнеталава N_ӇУДИ  "ratsastuspaikka" ;
 юно:юна N_ӇУДИ  "hevonen" ;
 юно:юно N_ӇАНУ  "hevonen" ;
@@ -1875,6 +1899,7 @@ LEXICON nouns
 ямбё:ямбё N_МЕРЁ  "kylmä ilma, mikä tule sisään kun ovi on auki" ;
 ямд:ямд N_ХАНО  "havupuun oksa" ;
 ямдё:ямдё N_МЕРЁ  "nahasta tai säämiskästä koriste poronvaljakolla" ;
+ямзярˮ:ямзяр N_ВАР  "kylmän takia kyyhöttävä ihminen" ;
 ямкад:ямкад N_ЕД  "pieni nahka" ;
 январь:январь N_ЕД-RUS  "tammikuu" ;
 яндава:яндава N_ӇУДИ  "puusta keittokuppi" ;
@@ -1943,6 +1968,7 @@ LEXICON nouns
 ёрцэй:ёрцэй N_ЕД/ХУСУВЭЙ  "kalansaalis" ;
 ёръя:ёръя N_ӇОДИ  "kalastus" ;
 ёря:ёря N_ӇОДИ/ТЁН  "syvyys" ;
+ёсерˮ:ёсер N_ВАР  "kostea alue joen rannalla jossa on paljon rapakkoja" ;
 ёӈг:ёӈг N_ХАНО  "takaraivo, kaulan yläosa" ;
 ӈаˮня:ӈаˮня N_ӇОДИ  "kova jyske, läähätys" ;
 ӈаˮнё:ӈаˮнё N_МЕРЁ  "melu, kohina, pauhu" ;
