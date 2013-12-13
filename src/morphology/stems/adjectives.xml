@@ -18,6 +18,8 @@
         <t pos="A">viekas, mutkikas, konstikas</t>
       </tg>
     </mg>
+
+    <!---->
   </e>
 
   <e>
@@ -3614,6 +3616,8 @@
         <t pos="A">joenpolvien välisillä kuivilla tasanteillä</t>
       </tg>
     </mg>
+
+    <!--substantiivi?-->
   </e>
 
   <e>
@@ -3926,6 +3930,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">sisäisellä teltankattotaljalla, täytetty, täytteellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мюмз</l>
+
+      <stg>
+        <st Contlex="A_ЕД">мюмз</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kapea, ahdas, tuskin näkyvä</t>
       </tg>
     </mg>
   </e>
@@ -5428,6 +5450,42 @@
 
       <tg xml:lang="fin">
         <t pos="A">laiha, luiseva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нянз</l>
+
+      <stg>
+        <st Contlex="A_ЕД">нянз</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pehmeä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нянзарˮ</l>
+
+      <stg>
+        <st Contlex="A_ВАР">нянзар</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">läpimärkä</t>
       </tg>
     </mg>
   </e>
@@ -8575,7 +8633,7 @@
       <l pos="A">сэрˮ</l>
 
       <stg>
-        <st Contlex="A_МЯДО">сэр</st>
+        <st Contlex="A_ВАР">сэр</st>
       </stg>
     </lg>
 
@@ -9882,6 +9940,24 @@
         <t pos="A">kateellinen</t>
 
         <t pos="A">herkkä, loukkaantuva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тидхад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тидхад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kateellinen</t>
       </tg>
     </mg>
   </e>
@@ -11858,6 +11934,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">kuivunut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хасерˮ</l>
+
+      <stg>
+        <st Contlex="A_ВАР">хасер</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">rauhallinen, tyyni, nöyrä</t>
       </tg>
     </mg>
   </e>
