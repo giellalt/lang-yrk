@@ -2342,6 +2342,24 @@
 
   <e>
     <lg>
+      <l pos="N">ейʼ</l>
+
+      <stg>
+        <st Contlex="N_ВЫӇО/ИЛЪЕ">ей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pehmeä kohta kylkiluiden ja lanteen välissä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ембдярˮ</l>
 
       <stg>
@@ -3913,6 +3931,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
+        <t pos="N">ritinä</t>
+
         <t pos="N">narske</t>
 
         <t pos="N">natina</t>
@@ -4570,6 +4590,8 @@
 
       <tg xml:lang="fin">
         <t pos="N">airo</t>
+
+        <t pos="N">mela</t>
       </tg>
     </mg>
   </e>
@@ -4883,11 +4905,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="N">table</t>
+        <t pos="N">board</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">pöytä</t>
+        <t pos="N">lauta</t>
 
         <t pos="N">lattia</t>
       </tg>
@@ -12414,6 +12436,28 @@
 
   <e>
     <lg>
+      <l pos="N">нюмʼ</l>
+
+      <stg>
+        <st Contlex="N_НЮБЕ-Pal/Var">ним</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">name</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">nimi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">нюмдерˮ</l>
 
       <stg>
@@ -16570,6 +16614,28 @@
 
   <e>
     <lg>
+      <l pos="N">пир</l>
+
+      <stg>
+        <st Contlex="N_ЕД">пир</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">korkeus</t>
+
+        <t pos="N">määrältä sama</t>
+
+        <t pos="N">vertainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">пирˮ</l>
 
       <stg>
@@ -16952,6 +17018,42 @@
 
   <e>
     <lg>
+      <l pos="N">план</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">план</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">suunnitelma, kaava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">плат</l>
+
+      <stg>
+        <st Contlex="N_ЕД">плат</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">huivi, liina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">по</l>
 
       <stg>
@@ -16986,6 +17088,25 @@
 
       <tg xml:lang="fin">
         <t pos="N">väli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">под</l>
+
+      <stg>
+        <st Contlex="N_ЕД/ХАНО">под</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">metsätie jonka puunoksat yhdistyvät ylhäällä, alikäytävä,
+        tunneli</t>
       </tg>
     </mg>
   </e>
@@ -17347,6 +17468,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">pyörremyrsky</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">преми</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ">преми</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">palkinto, bonus</t>
       </tg>
     </mg>
   </e>
@@ -18751,6 +18890,24 @@
 
   <e>
     <lg>
+      <l pos="N">пят</l>
+
+      <stg>
+        <st Contlex="N_ЕД">пят</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">läähätys, raskas hengitys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">пятабцо</l>
 
       <stg>
@@ -18762,7 +18919,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">vaikea hengitys</t>
+        <t pos="N">raskas hengitys</t>
       </tg>
     </mg>
   </e>
@@ -27317,24 +27474,6 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">risti, ikoni</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">туёцьʼ</l>
-
-      <stg>
-        <st Contlex="N_ЁЛЬЦЕ">туёць</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
         <t pos="N">risti, jumalankuva, ikoni</t>
       </tg>
     </mg>
@@ -29118,6 +29257,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">härkä, kuohittu hirvas; ??sonni</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">хабтеӈг</l>
+
+      <stg>
+        <st Contlex="N_ЕД">хабтеӈг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pikkuhirvas</t>
       </tg>
     </mg>
   </e>
