@@ -122,6 +122,7 @@ LEXICON nouns
 едя:едя N_ӇОДИ  "kipu" ;
 едё:едё N_МЕРЁ  "suoli" ;
 едёй:едёй N_ЕД  "rinne" ;
+ейʼ:ей N_ВЫӇО/ИЛЪЕ  "pehmeä kohta kylkiluiden ja lanteen välissä" ;
 ембдярˮ:ембдяр N_ВАР  "vaate" ;
 ен:ен N_ЕД/ТИРЕ  "hamppu" ;
 енаˮма:енаˮма N_ӇУДИ  "naarmu, piirto, paikka jossa on piirretty" ;
@@ -203,7 +204,7 @@ LEXICON nouns
 ирий:ирий N_ЕД  "kuu" ;
 ирикэ:ирикэ N_ЯКЫ  "isoisä" ;
 иркадё:иркадё N_МЕРЁ  "kirskahdus" ;
-ирна:ирна N_ӇУДИ  "narske" ;
+ирна:ирна N_ӇУДИ  "ritinä" ;
 ирнё:ирнё N_МЕРЁ  "kitinä" ;
 ицьʼ:иць N_ЁЛЬЦЕ  "naru risuja varten" ;
 июль:июль N_ЕД-RUS  "heinäkuu" ;
@@ -254,7 +255,7 @@ LEXICON nouns
 лансяк:лансяк N_ЕД  "saippua" ;
 лапа:лапа N_ХОБ  "käpälä" ;
 ларь:ларь N_ЕД  "iso laatikko" ;
-лата:лата N_ХОБ  "pöytä" ;
+лата:лата N_ХОБ  "lauta" ;
 латабцо:латабцо N_ӇАНУ  "myrkyllinen kasvi leveillä lehdillä" ;
 латако:латако N_ӇАНУ  "pöytä" ;
 латха:латха N_МАРАӇГЫ  "risatauti" ;
@@ -662,6 +663,7 @@ LEXICON nouns
 нюкця:нюкця N_ӇОДИ  "lapsonen, pentu" ;
 нюл:нюл N_ЕД  "liete, lieju" ;
 нюмʼ:нюм N_НЮБЕ-Pal/Var  "nimi" ;
+нюмʼ:ним N_НЮБЕ-Pal/Var  "nimi" ;
 нюмдерˮ:нюмдер N_ВАР/ТАРЕ  "nimitys" ;
 нюмдерабц:нюмдерабц N_ЕД  "lisänimi, pilkkanimi" ;
 нюнбярцо:нюнбярцо N_ӇАНУ  "mutinan syy" ;
@@ -888,6 +890,7 @@ LEXICON nouns
 пинзарма:пинзарма N_ӇУДИ  "lehtopöllö" ;
 пионер:пионер N_ЕД-RUS  "pioneeri" ;
 пионерˮ:пионер N_ВАР  "pioneeri" ;
+пир:пир N_ЕД  "korkeus" ;
 пирˮ:пир N_ВАР  "koivun jälsi, kova kasvain, kovettunut kuori" ;
 пирад:пирад N_ЕД  "korkeus" ;
 пирамдаˮма:пирамдаˮма N_ӇУДИ  "kohoke, koroke, alus" ;
@@ -909,8 +912,11 @@ LEXICON nouns
 пицяʼ:пиця N_ВЫӇО  "(reen) puikko" ;
 пичка:пичка N_МАРАӇГЫ  "tulitikku" ;
 пия:пия N_ӇОДИ/ПИСЬ  "kärppä" ;
+план:план N_ЕД-RUS  "suunnitelma, kaava" ;
+плат:плат N_ЕД  "huivi, liina" ;
 по:по N_ӇЭ  "vuosi" ;
 поʼ:по N_ПОЁ  "väli" ;
+под:под N_ЕД/ХАНО  "metsätie jonka puunoksat yhdistyvät ylhäällä, alikäytävä, tunneli" ;
 подерˮ:подер N_ВАР  "olkahihna" ;
 пойдаˮма:пойдаˮма N_ӇУДИ  "se jonka avulla painetaan lähelle" ;
 пондаˮма:пондаˮма N_ӇУДИ  "erottava esine" ;
@@ -931,6 +937,7 @@ LEXICON nouns
 поёмбабцо:поёмбабцо N_ӇАНУ  "erottaja, kiista, riita" ;
 поӈга:поӈга N_ХОБ  "verkko" ;
 поӈгэй:поӈгэй N_ЕД  "pyörremyrsky" ;
+преми:преми N_ӇЭ  "palkinto, bonus" ;
 пуˮлабтˮ:пуˮлабт N_МЯДО  "purje" ;
 пуˮлё:пуˮлё N_МЕРЁ  "matalalla kulkeva pilvi" ;
 пуд:пуд N_ХАНО  "(verkon) paula" ;
@@ -1007,7 +1014,8 @@ LEXICON nouns
 пяныˮ:пяны N_МЯДО  "lähentyminen, käsitys, tapa, luonne" ;
 пясик:пясик N_ЕД  "haka, nappi" ;
 пясэй:пясэй N_ЕД/ХУСУВЭЙ  "osuus" ;
-пятабцо:пятабцо N_ӇАНУ  "vaikea hengitys" ;
+пят:пят N_ЕД  "läähätys, raskas hengitys" ;
+пятабцо:пятабцо N_ӇАНУ  "raskas hengitys" ;
 пятабцьʼ:пятабць N_ЁЛЬЦЕ  "18-20 m pitkä salko verkon jään alle asennusta varten" ;
 пяяха:пяяха N_МАРАӇГЫ  "puun tuoksu" ;
 пяӈгуй:пяӈгуй N_ЕД  "vihollinen" ;
@@ -1473,7 +1481,6 @@ LEXICON nouns
 туёˮлава:туёˮлава N_ӇУДИ  "rukoilupaikka" ;
 туёˮма:туёˮма N_ӇУДИ  "rukous" ;
 туёс:туёс N_ЕД  "koppa, kori" ;
-туёцьʼ:туёць N_ЁЛЬЦЕ  "risti, ikoni" ;
 туёцьʼ:туёць N_ЁЛЬЦЕ  "risti, jumalankuva, ikoni" ;
 туӈгоˮ:туӈгоС1 N_ТАСО  "tunguusi" ;
 ты:ты N_ТЫ  "poro" ;
@@ -1571,6 +1578,7 @@ LEXICON nouns
 хаберˮ:хабер N_ВАР  "vartalo" ;
 хаби:хаби N_ӇЭ/ХАБИЕ  "vieraaseen heimoon kuuluva" ;
 хабт:хабт N_ЕД/ХАНО  "härkä, kuohittu hirvas; ??sonni" ;
+хабтеӈг:хабтеӈг N_ЕД  "pikkuhirvas" ;
 хабцяʼ:хабця N_ВЫӇО  "sairaus" ;
 хабэвко:хабэвко N_ӇАНУ  "riekko" ;
 хабя:хабя N_ӇОДИ  "hyöty" ;
