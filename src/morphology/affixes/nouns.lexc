@@ -237,7 +237,6 @@ LEXICON N_ӇУДИ/ХОБ
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
 
-
 LEXICON N_МАРАӇГЫ/ХОБ !!
 !!
 +N: SGDATSUF ;
@@ -245,6 +244,10 @@ LEXICON N_МАРАӇГЫ/ХОБ !!
 +N:  SG-NOM-STEM ;
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
+
+LEXICON N_ВЫӇО/ИЛЪЕ
+ N_ВЫӇО ;
+ N_ИЛЪЕ ;
 
 LEXICON N_ТЁН  !!= @CODE@ тёня:тёня 20 !!ProsSg -вна
 !! * Yaml: __tyon__
