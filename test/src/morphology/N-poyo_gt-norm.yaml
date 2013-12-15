@@ -16,28 +16,27 @@ Tests:
 
   Noun - поʼ: # Noun 'distance, period' - partial paradigm /Type 28/
      поʼ+N+Sg+Nom: поʼ
-     поʼ+N+Sg+Acc: помʼ
-     поʼ+N+Sg+Gen: поʼ
+     поʼ+N+Sg+Acc: поймʼ
+     поʼ+N+Sg+Gen: пойʼ
      поʼ+N+Sg+Dat: пондʼ
-     поʼ+N+Sg+Loc: поӈгана
+     поʼ+N+Sg+Loc: [поӈгана, поӈгна]
      поʼ+N+Sg+Abl: поӈгад
      поʼ+N+Sg+Pros: помна
-     поʼ+N+Du+Nom: поӈгаʼ
-     поʼ+N+Du+Acc: поӈгаʼ
-     поʼ+N+Du+Gen: поӈгаʼ
+     поʼ+N+Du+Nom: поӈгʼ
+     поʼ+N+Du+Acc: поӈгʼ
+     поʼ+N+Du+Gen: поӈгʼ
      поʼ+N+Pl+Nom: пойˮ
      поʼ+N+Pl+Acc: поё
      поʼ+N+Pl+Gen: поёˮ
-     поʼ+N+Pl+Dat: поӈгаˮ
-     поʼ+N+Pl+Loc: поӈгаˮна
+     поʼ+N+Pl+Dat: поӈгˮ
+     поʼ+N+Pl+Loc: [поӈгаˮна, поӈгˮна]
      поʼ+N+Pl+Abl: поӈгат
      поʼ+N+Pl+Pros: поёˮмана
      
      поʼ+N+Sg+Tra: поӈэ
-     поʼ+N+Pl+Tra: поˮӈэ
 
 # Possessive forms !Local case forms need to be checked!
-     поʼ+N+Sg+Nom+PxSg1: поми
+     поʼ+N+Sg+Nom+PxSg1: пом
      поʼ+N+Sg+Nom+PxSg2: пол  
      поʼ+N+Sg+Nom+PxSg3: понда 
      поʼ+N+Sg+Nom+PxDu1: помиʼ
@@ -46,7 +45,7 @@ Tests:
      поʼ+N+Sg+Nom+PxPl1: помаˮ
      поʼ+N+Sg+Nom+PxPl2: полаˮ
      поʼ+N+Sg+Nom+PxPl3: пондоʼ
-     поʼ+N+Sg+Acc+PxSg1: поми  
+     поʼ+N+Sg+Acc+PxSg1: пом
      поʼ+N+Sg+Acc+PxSg2: понд  
      поʼ+N+Sg+Acc+PxSg3: понда 
      поʼ+N+Sg+Acc+PxDu1: помиʼ 
@@ -74,7 +73,7 @@ Tests:
      поʼ+N+Sg+Dat+PxPl1: поӈганаˮ 
      поʼ+N+Sg+Dat+PxPl2: поӈгандаˮ
      поʼ+N+Sg+Dat+PxPl3: поӈгандоʼ
-     поʼ+N+Sg+Loc+PxSg1: [поӈганан, поӈганани]
+     поʼ+N+Sg+Loc+PxSg1: [поӈганан, поӈгнан]
      поʼ+N+Sg+Loc+PxSg2: поӈгананд  
      поʼ+N+Sg+Loc+PxSg3: поӈгананда 
      поʼ+N+Sg+Loc+PxDu1: поӈгананиʼ 
@@ -83,7 +82,7 @@ Tests:
      поʼ+N+Sg+Loc+PxPl1: поӈгананаˮ 
      поʼ+N+Sg+Loc+PxPl2: поӈганандаˮ
      поʼ+N+Sg+Loc+PxPl3: поӈганандоʼ
-     поʼ+N+Sg+Abl+PxSg1: [поӈгадан, поӈгадани]
+     поʼ+N+Sg+Abl+PxSg1: [поӈгадан, поӈгдан]
      поʼ+N+Sg+Abl+PxSg2: поӈгаданд  
      поʼ+N+Sg+Abl+PxSg3: поӈгаданда 
      поʼ+N+Sg+Abl+PxDu1: поӈгаданиʼ 
@@ -92,7 +91,7 @@ Tests:
      поʼ+N+Sg+Abl+PxPl1: поӈгаданаˮ 
      поʼ+N+Sg+Abl+PxPl2: поӈгадандаˮ
      поʼ+N+Sg+Abl+PxPl3: поӈгадандоʼ
-     поʼ+N+Sg+Pros+PxSg1: [помнан, помнани]
+     поʼ+N+Sg+Pros+PxSg1: помнан
      поʼ+N+Sg+Pros+PxSg2: помнанд  
      поʼ+N+Sg+Pros+PxSg3: помнанда 
      поʼ+N+Sg+Pros+PxDu1: помнаниʼ 
@@ -101,7 +100,7 @@ Tests:
      поʼ+N+Sg+Pros+PxPl1: помнанаˮ 
      поʼ+N+Sg+Pros+PxPl2: помнандаˮ
      поʼ+N+Sg+Pros+PxPl3: помнандоʼ
-     поʼ+N+Du+Nom+PxSg1: поӈгюн  
+     поʼ+N+Du+Nom+PxSg1: [поӈгюн, поӈгаюн]  
      поʼ+N+Du+Nom+PxSg2: поӈгюд  
      поʼ+N+Du+Nom+PxSg3: поӈгюда 
      поʼ+N+Du+Nom+PxDu1: поӈгюниʼ
@@ -110,7 +109,7 @@ Tests:
      поʼ+N+Du+Nom+PxPl1: поӈгюнаˮ
      поʼ+N+Du+Nom+PxPl2: поӈгюдаˮ
      поʼ+N+Du+Nom+PxPl3: поӈгюдоʼ
-     поʼ+N+Du+Acc+PxSg1: поӈгюн  
+     поʼ+N+Du+Acc+PxSg1: [поӈгюн, поӈгаюн]   
      поʼ+N+Du+Acc+PxSg2: поӈгюд  
      поʼ+N+Du+Acc+PxSg3: поӈгюда 
      поʼ+N+Du+Acc+PxDu1: поӈгюниʼ
@@ -119,7 +118,7 @@ Tests:
      поʼ+N+Du+Acc+PxPl1: поӈгюнаˮ
      поʼ+N+Du+Acc+PxPl2: поӈгюдаˮ
      поʼ+N+Du+Acc+PxPl3: поӈгюдоʼ
-     поʼ+N+Du+Gen+PxSg1: поӈгюн  
+     поʼ+N+Du+Gen+PxSg1: [поӈгюн, поӈгаюн] 
      поʼ+N+Du+Gen+PxSg2: поӈгют  
      поʼ+N+Du+Gen+PxSg3: поӈгюта 
      поʼ+N+Du+Gen+PxDu1: поӈгюниʼ
@@ -128,7 +127,7 @@ Tests:
      поʼ+N+Du+Gen+PxPl1: поӈгюнаˮ
      поʼ+N+Du+Gen+PxPl2: поӈгютаˮ
      поʼ+N+Du+Gen+PxPl3: поӈгютоʼ
-     поʼ+N+Pl+Nom+PxSg1: [поён, поёни] 
+     поʼ+N+Pl+Nom+PxSg1: поён 
      поʼ+N+Pl+Nom+PxSg2: поёд   
      поʼ+N+Pl+Nom+PxSg3: поёда  
      поʼ+N+Pl+Nom+PxDu1: поёниʼ 
@@ -137,7 +136,7 @@ Tests:
      поʼ+N+Pl+Nom+PxPl1: поёнаˮ 
      поʼ+N+Pl+Nom+PxPl2: поёдаˮ 
      поʼ+N+Pl+Nom+PxPl3: поёдоʼ 
-     поʼ+N+Pl+Acc+PxSg1: [поён, поёни]   
+     поʼ+N+Pl+Acc+PxSg1: поён   
      поʼ+N+Pl+Acc+PxSg2: поёд   
      поʼ+N+Pl+Acc+PxSg3: поёда  
      поʼ+N+Pl+Acc+PxDu1: поёниʼ 
@@ -164,24 +163,24 @@ Tests:
      поʼ+N+Pl+Dat+PxPl1: поӈгаˮнаˮ 
      поʼ+N+Pl+Dat+PxPl2: поӈгатаˮ 
      поʼ+N+Pl+Dat+PxPl3: поӈгатоʼ 
-     поʼ+N+Pl+Loc+PxSg1: поӈгаˮнан  
-     поʼ+N+Pl+Loc+PxSg2: поӈгаˮнат
-     поʼ+N+Pl+Loc+PxSg3: поӈгаˮната 
-     поʼ+N+Pl+Loc+PxDu1: поӈгаˮнаниʼ
-     поʼ+N+Pl+Loc+PxDu2: поӈгаˮнатиʼ
-     поʼ+N+Pl+Loc+PxDu3: поӈгаˮнатиʼ
-     поʼ+N+Pl+Loc+PxPl1: поӈгаˮнанаˮ
-     поʼ+N+Pl+Loc+PxPl2: поӈгаˮнатаˮ
-     поʼ+N+Pl+Loc+PxPl3: поӈгаˮнатоʼ
-     поʼ+N+Pl+Abl+PxSg1: поӈгатан 
-     поʼ+N+Pl+Abl+PxSg2: поӈгатат 
-     поʼ+N+Pl+Abl+PxSg3: поӈгатата 
-     поʼ+N+Pl+Abl+PxDu1: поӈгатаниʼ
-     поʼ+N+Pl+Abl+PxDu2: поӈгататиʼ
-     поʼ+N+Pl+Abl+PxDu3: поӈгататиʼ
-     поʼ+N+Pl+Abl+PxPl1: поӈгатанаˮ
-     поʼ+N+Pl+Abl+PxPl2: поӈгататаˮ
-     поʼ+N+Pl+Abl+PxPl3: поӈгататоʼ
+     поʼ+N+Pl+Loc+PxSg1: [поӈгаˮнан, поӈгˮнан]
+     поʼ+N+Pl+Loc+PxSg2: [поӈгаˮнат, поӈгˮнат]
+     поʼ+N+Pl+Loc+PxSg3: [поӈгаˮната, поӈгˮната]
+     поʼ+N+Pl+Loc+PxDu1: [поӈгаˮнаниʼ, поӈгˮнаниʼ]
+     поʼ+N+Pl+Loc+PxDu2: [поӈгаˮнатиʼ, поӈгˮнатиʼ]
+     поʼ+N+Pl+Loc+PxDu3: [поӈгаˮнатиʼ, поӈгˮнатиʼ]
+     поʼ+N+Pl+Loc+PxPl1: [поӈгаˮнанаˮ, поӈгˮнанаˮ]
+     поʼ+N+Pl+Loc+PxPl2: [поӈгаˮнатаˮ, поӈгˮнатаˮ]
+     поʼ+N+Pl+Loc+PxPl3: [поӈгаˮнатоʼ, поӈгˮнатоʼ]
+     поʼ+N+Pl+Abl+PxSg1: [поӈгатан, поӈгтан]
+     поʼ+N+Pl+Abl+PxSg2: [поӈгатат, поӈгтат]
+     поʼ+N+Pl+Abl+PxSg3: [поӈгатата, поӈгтата]
+     поʼ+N+Pl+Abl+PxDu1: [поӈгатаниʼ, поӈгтаниʼ]
+     поʼ+N+Pl+Abl+PxDu2: [поӈгататиʼ, поӈгтатиʼ]
+     поʼ+N+Pl+Abl+PxDu3: [поӈгататиʼ, поӈгтатиʼ]
+     поʼ+N+Pl+Abl+PxPl1: [поӈгатанаˮ, поӈгтанаˮ]
+     поʼ+N+Pl+Abl+PxPl2: [поӈгататаˮ, поӈгтатаˮ]
+     поʼ+N+Pl+Abl+PxPl3: [поӈгататоʼ, поӈгтатоʼ]
      поʼ+N+Pl+Pros+PxSg1: поёˮманан  
      поʼ+N+Pl+Pros+PxSg2: поёˮманат  
      поʼ+N+Pl+Pros+PxSg3: поёˮманата 
@@ -196,20 +195,20 @@ Tests:
 # Predicative (Nominal conjugation)
 
      поʼ+N+Nom+Der/Pr+Ind+Aor+ScSg1: пондмʼ
-     поʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: пон  
+     поʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: понд
      поʼ+N+Nom+Der/Pr+Ind+Aor+ScSg3: поʼ
      поʼ+N+Nom+Der/Pr+Ind+Aor+ScDu1: пониʼ
      поʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: пондиʼ
-     поʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: поӈгаʼ
+     поʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: поӈгʼ
      поʼ+N+Nom+Der/Pr+Ind+Aor+ScPl1: помаˮ
      поʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: пондаˮ
      поʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: пойˮ  
      поʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: пондамзь
-     поʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: понась 
+     поʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: пондась 
      поʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: понзь   
      поʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: понинзь
      поʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: пондинзь
      поʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: поӈганзь
      поʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: помаць 
      поʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: пондаць 
-     поʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: пойць   
+     поʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: пояць   
