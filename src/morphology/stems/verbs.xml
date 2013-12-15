@@ -37054,6 +37054,26 @@
 
   <e>
     <lg>
+      <l pos="TV">нёхось</l>
+
+      <stg>
+        <st Contlex="TV_ИЛЕ">нёхо</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">hikoilla, hikeentyä</t>
+      </tg>
+    </mg>
+
+    <!--phonetically nyoxa- (нёха-)-->
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">паˮвонормасяламзь</l>
 
       <stg>
@@ -89300,6 +89320,42 @@
 
   <e>
     <lg>
+      <l pos="TV">яркбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">яркба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">lassota</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="TV">яркбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">яркыба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">lassota</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="IV">ярккось</l>
 
       <stg>
@@ -89312,6 +89368,24 @@
 
       <tg xml:lang="fin">
         <t pos="IV">lassota (leikissä)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">ярколась</l>
+
+      <stg>
+        <st Contlex="TV_ЛАХАНА">яркола</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">lassota</t>
       </tg>
     </mg>
   </e>
