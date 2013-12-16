@@ -45,6 +45,9 @@ LEXICON VR_НУ-Pal/Var
 LEXICON TV_НУ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НУ       ;
 
+LEXICON TV_НУ-Pal/Var
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НУ       ;
+
 LEXICON IV_НУ/ТУ
 +V+IV: V-01_НУ/ТУ       ;
 
@@ -199,6 +202,14 @@ LEXICON IV_НЭКАЛ !!= @CODE@
 
 LEXICON TV_НЭКАЛ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НЭКАЛ       ;
+
+LEXICON IV_ӇАДИМ/ӇАРАМ !!= @CODE@ 2013-12-16
++V+IV: V-01_ӇАДИМ       ;
++V+IV: V-01_ӇАРАМ       ;
+
+
+LEXICON IV_ӇАДИМ-Pal/Var
++V+IV: V-01_ӇАДИМ       ;
 
 LEXICON IV_ӇАДИМ
 +V+IV: V-01_ӇАДИМ       ;
