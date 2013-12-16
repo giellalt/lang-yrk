@@ -70300,6 +70300,24 @@
 
   <e>
     <lg>
+      <l pos="TV">тэсабтамбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">тэсабтамба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">panna tippumaan, tiputella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="TV">тэсабтась</l>
 
       <stg>
@@ -70312,6 +70330,24 @@
 
       <tg xml:lang="fin">
         <t pos="TV">panna tippumaan, tiputella</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">тэсамбась</l>
+
+      <stg>
+        <st Contlex="IV_ПЭБЮ">тэсамба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="IV">tippua, herua</t>
       </tg>
     </mg>
   </e>
@@ -70366,6 +70402,42 @@
 
       <tg xml:lang="fin">
         <t pos="TV">tiputtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="TV">тэсрась</l>
+
+      <stg>
+        <st Contlex="TV_ИЛЕ">тэсра</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">tiputtaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">тэсрась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">тэсра</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="VR">kastua tipoista, levittäytyä</t>
       </tg>
     </mg>
   </e>
@@ -70552,7 +70624,7 @@
 
   <e>
     <lg>
-      <l pos="IV">тэць</l>
+      <l pos="VR">тэць</l>
 
       <stg>
         <st Contlex="VR_САС">тэС</st>
