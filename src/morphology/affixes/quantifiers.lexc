@@ -6,6 +6,14 @@ LEXICON NUM_МЯДО
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_МЯДО ;
 
+LEXICON NUM_ВАР
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ВАР ;
+
+LEXICON NUM_ӇУДИ
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: NMN_ӇУДИ ;
+
 LEXICON NUM_ТАРЕ
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТАРЕ ;
@@ -22,6 +30,10 @@ LEXICON NUM_ЕД/ХАНО
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ЕД/ХАНО ;
 
+LEXICON NUM_ӇОДИ/ТЁН
++Qnt+Num+Adn: K ;
++Qnt+Num+Der/MWN: N_ӇОДИ/ТЁН ;
+
 LEXICON NUM_ТИРЕ/ХАНО
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТИРЕ/ХАНО ;
@@ -35,21 +47,22 @@ LEXICON QNT_ХУСУВЭЙ
 +Qnt+Der/MWN+N: NMN_ХУСУВЭЙ ;
 
 !! we need to get away from these: NUM_VOW and NUM_CONS
-LEXICON NUM_VOW
-+Qnt+Adn: K ;
-+Qnt+Der/MWN: N_Vow ;
-
-LEXICON NUM_CONS
-+Qnt+Adn: K ;
-+Qnt+Der/MWN: N_Cons ;
-
-LEXICON NUM_D
-+Qnt+Adn: K ;
-+Qnt+Der/MWN: NMN_МЯДО ;
-
-LEXICON NUM_N
-+Qnt+Adn: K ;
-+Qnt+Der/MWN: N_ТЭНО ;
+!! it's done
+!!LEXICON NUM_VOW
+!!+Qnt+Adn: K ;
+!!+Qnt+Der/MWN: N_Vow ;
+!!
+!!LEXICON NUM_CONS
+!!+Qnt+Adn: K ;
+!!+Qnt+Der/MWN: N_Cons ;
+!!
+!!LEXICON NUM_D
+!!+Qnt+Adn: K ;
+!!+Qnt+Der/MWN: NMN_МЯДО ;
+!!
+!!LEXICON NUM_N
+!!+Qnt+Adn: K ;
+!!+Qnt+Der/MWN: N_ТЭНО ;
 
 ! vim: set ft=xfst-lexc:
 
