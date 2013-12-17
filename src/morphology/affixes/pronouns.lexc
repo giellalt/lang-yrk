@@ -59,10 +59,10 @@ LEXICON PersPl2-CxAcc
 LEXICON PersPl3-CxAcc
 +Pron+Pers+Pl3+Acc: # ;
 
-LEXICON PronDemAdn
+LEXICON PRON-DEM-ADN_
 +Pron+Dem: # ;
 
-LEXICON PronInterrHum
+LEXICON PRON-INTERR-HUM_
 +Pron+Interr+Hum:  SG-NOM-STEM ;
 +Pron+Interr+Hum:  SG-ACC-STEM ;
 +Pron+Interr+Hum:  SGDATSUF ;
@@ -70,7 +70,7 @@ LEXICON PronInterrHum
 +Pron+Interr+Hum:%^A2I PLACCSUF_Zero ;
 +Pron+Interr+Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
-LEXICON PronInterr
+LEXICON PRON-INTERR_
 +Pron+Interr: NMN_ӇАВО ;
 
 LEXICON PRON_ЕД
@@ -79,28 +79,28 @@ LEXICON PRON_ЕД
 LEXICON PRON_ӇУДИ
 +Pron: NMN_ӇУДИ ;
 
-LEXICON PronInterrTemp
+LEXICON PRON-INTERR-TEMP_
 +Pron+Interr+Temp: # ;
 
-LEXICON PronInterrQnt
+LEXICON PRON-INTERR-QNT_
 +Pron+Interr+Qnt: # ;
 
-LEXICON PronInterrManner
+LEXICON PRON-INTERR-MANNER_
 +Pron+Interr+Manner: # ;
 
-LEXICON PronInterrA
+LEXICON PRON-INTERR-A_
 +Pron+Interr+A: # ;
 
-LEXICON PronInterr-CxAbl
+LEXICON PRON-INTERR_-CXABL
 +Pron+Interr+Spat+Abl: # ;
 
-LEXICON PronInterr-CxLat
+LEXICON PRON-INTERR_-CXLAT
 +Pron+Interr+Spat+Lat: # ;
 
-LEXICON PronInterr-CxLoc
+LEXICON PRON-INTERR_-CXLOC
 +Pron+Interr+Spat+Loc: # ;
 
-LEXICON AdvSpat-CxLoc
+LEXICON ADV-SPAT_-CXLOC
 +Adv+Spat+Loc: # ;
 
 ! vim: set ft=xfst-lexc:
