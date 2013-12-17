@@ -4,16 +4,16 @@
 
 
  
-LEXICON AdvTag
+LEXICON ADV_
 +Adv: # ; 
 
-LEXICON AdvLoc
+LEXICON ADV-LOC_
++Adv+Loc: # ;
+
+LEXICON ADV-TEMP_
 +Adv+Temp: # ;
 
-LEXICON AdvTemp
-+Adv+Temp: # ;
-
-LEXICON AdvManner
+LEXICON ADV-MANNER_
 +Adv+Manner: # ;
 
 
