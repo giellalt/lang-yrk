@@ -672,6 +672,26 @@
         <t pos="A"/>
       </tg>
     </mg>
+
+    <!--L61b!-->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">вэлдой</l>
+
+      <stg>
+        <st Contlex="A_ХУСУВЭЙ">вэлдой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">puhdas, puhdistettu</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3766,6 +3786,24 @@
 
   <e>
     <lg>
+      <l pos="A">мынˮмюй</l>
+
+      <stg>
+        <st Contlex="A_ЕД">мынˮмюй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kohdussa oleva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">мындёй</l>
 
       <stg>
@@ -3814,24 +3852,6 @@
 
       <tg xml:lang="fin">
         <t pos="A">lumisohjoinen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">мэй</l>
-
-      <stg>
-        <st Contlex="A_ЕД">мэй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A"/>
       </tg>
     </mg>
   </e>
@@ -11468,6 +11488,32 @@
 
   <e>
     <lg>
+      <l pos="A">халей</l>
+
+      <stg>
+        <st Contlex="A_ЕД">халей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kuivattamaton</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">халкадёй</l>
 
       <stg>
@@ -12482,6 +12528,24 @@
 
   <e>
     <lg>
+      <l pos="A">хылей</l>
+
+      <stg>
+        <st Contlex="A_ЕД">хылей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">hyvä, kaunis (lastenkiel.)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хылтуй</l>
 
       <stg>
@@ -13278,6 +13342,32 @@
 
       <tg xml:lang="fin">
         <t pos="A">savuinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ялей</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ялей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>daily</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>päiväinen</t>
       </tg>
     </mg>
   </e>
