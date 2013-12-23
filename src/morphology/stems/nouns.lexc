@@ -5,6 +5,7 @@ LEXICON nouns
 абэй:абэй N_ЕД  "paha haamu" ;
 август:август N_ЕД-RUS  "elokuu" ;
 автобус:автобус N_ЕД-RUS  "bussi" ;
+автомат:автомат N_ЕД-RUS  "konepistooli" ;
 адрес:адрес N_ЕД-RUS  "osoite" ;
 азбука:азбука N_МАРАӇГЫ-RUS  "aapinen" ;
 алфавит:алфавит N_ЕД-RUS  "aakkoset" ;
@@ -433,8 +434,8 @@ LEXICON nouns
 марць:марць N_ЕД/ТИРЕ/ХАНО  "hartia, olka" ;
 марцёта:марцёта N_ӇУДИ  "sijainen, varamies" ;
 масˮма:масˮма N_ӇУДИ  "voide" ;
-масерˮ:масер N_ТАРЕ  "alhaalle ripustettava koriste" ;
-масерˮ:мэсяр N_ТАРЕ  "alhaalle ripustettava koriste" ;
+масерˮ:масер N_ТАРЕ  "tupsu, alhaalle ripustettava koriste" ;
+масерˮ:мэсяр N_ТАРЕ  "tupsu, alhaalle ripustettava koriste" ;
 матабцьʼ:матабць N_ЁЛЬЦЕ  "pesuhuone, pesulaite" ;
 матдомдаˮма:матдамдаˮма N_ӇУДИ  "kuudesosa" ;
 матдомдаˮма:матдомдаˮма N_ӇУДИ  "kuudesosa" ;
@@ -954,8 +955,10 @@ LEXICON nouns
 пойдаˮма:пойдаˮма N_ӇУДИ  "se jonka avulla painetaan lähelle" ;
 пондаˮма:пондаˮма N_ӇУДИ  "erottava esine" ;
 пораха:пораха N_МАРАӇГЫ  "ruuti" ;
+порт:порт N_ЕД-RUS  "satama" ;
 порца:порца N_ХОБ  "kalakeitto" ;
 пос:пос N_ЕД  "tuulahdus, hengähdys" ;
+поса:поса N_ӇУДИ  "kolera" ;
 посабинзьʼ:посабинзь N_ЁЛЬЦЕ  "kaksi poroa jotka sulhasen vanhemmat lahjottavat morsiamen vanhemmille" ;
 посабцо:посабцо N_ӇАНУ  "rutto" ;
 посахэй:посахэй N_ЕД/ХУСУВЭЙ  "paisuma, kasvain" ;
@@ -986,6 +989,7 @@ LEXICON nouns
 пук:пук N_ХАНО  "koiven lihakas osa" ;
 пул:пул N_ЕД/ХАНО  "silta" ;
 пулдаˮма:пулдаˮма N_ӇУДИ  "jotain pehmeää johon on kääritty" ;
+пулемёт:пулемёт N_ЕД-RUS  "konekivääri" ;
 пулка:пулка N_МАРАӇГЫ  "pulla" ;
 пулка:булка N_МАРАӇГЫ  "pulla" ;
 пулы:пулы N_ПАНЫ  "polvi" ;
@@ -1012,6 +1016,8 @@ LEXICON nouns
 пырдатё:пырдатё N_МЕРЁ  "heikko pörrökarvainen poro" ;
 пыркабтˮ:пыркабт N_МЯДО  "päänalus, tyyny" ;
 пыря:пыря N_ӇОДИ  "hauki" ;
+пыса:пыса N_ӇУДИ  "ihmettely, ihmetys" ;
+пыса:пуса N_ӇУДИ  "ihmettely, ihmetys" ;
 пысабцо:пусабцо N_ӇАНУ  "yllättävä asia, yllätys" ;
 пысабцо:пысабцо N_ӇАНУ  "yllättävä asia, yllätys" ;
 пыхыд:пыд N_ЕД  "vartalo, itse" ;
@@ -1679,6 +1685,7 @@ LEXICON nouns
 ханзо:ханзо N_ӇАНУ  "viileys" ;
 ханзуй:ханзуй N_ЕД  "vaihto" ;
 хани:хани N_ӇЭ  "(linnun)poikanen" ;
+ханий:ханий N_ЕД  "(linnun)poikanen" ;
 ханопэй:ханопэй N_ХУСУВЭЙ  "tappaja, murhaaja" ;
 ханырˮ:ханыр N_ВАР  "työn alku" ;
 ханьʼ:хань N_ЁЛЬЦЕ  "kuura" ;
