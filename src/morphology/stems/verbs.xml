@@ -26663,7 +26663,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">heittää, jättää</t>
       </tg>
     </mg>
   </e>
@@ -26681,7 +26681,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">nousta, tupruta</t>
       </tg>
     </mg>
   </e>
@@ -26807,7 +26807,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">höpistä, mumista, mutista</t>
       </tg>
     </mg>
   </e>
@@ -29821,7 +29821,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">olla valmiina</t>
       </tg>
     </mg>
   </e>
@@ -39650,8 +39650,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">vuorata raudalla tai uudella puukerroksella, ehkäistä
-        vauriolta</t>
+        <t pos="TV">raudoittaa, päällystää raudalla tai uudella
+        puukerroksella, ehkäistä vauriolta</t>
       </tg>
     </mg>
   </e>
@@ -60524,7 +60524,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">olla ehjä</t>
+        <t pos="IV">olla ehjä, olla kokonainen, olla täydellinen, olla tiheä,
+        olla sankka</t>
       </tg>
     </mg>
   </e>
@@ -60906,7 +60907,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">kytkeä, kiskoa</t>
+        <t pos="TV">kytkeä</t>
+
+        <t pos="TV">kiskoa</t>
       </tg>
     </mg>
   </e>
@@ -60924,7 +60927,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">kytkeä, vetäistä</t>
+        <t pos="TV">kytkeä</t>
+
+        <t pos="TV">vetäistä</t>
       </tg>
     </mg>
   </e>
@@ -61068,7 +61073,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">juosta ravia, juosta ontuen</t>
+        <t pos="IV">juosta ravia</t>
+
+        <t pos="IV">juosta ontuen</t>
       </tg>
     </mg>
   </e>
@@ -61104,7 +61111,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">muuttua tunteettomaksi, muuttua kuulumattomaksi</t>
+        <t pos="IV">muuttua tunteettomaksi</t>
+
+        <t pos="IV">muuttua kuulumattomaksi</t>
       </tg>
     </mg>
   </e>
@@ -61611,7 +61620,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">korjata (puuesineitä)</t>
       </tg>
     </mg>
   </e>
@@ -88524,7 +88533,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV"/>
+        <t pos="TV">sytyttää</t>
       </tg>
     </mg>
   </e>
@@ -99441,7 +99450,25 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">itkeä (vainaajaa), kallistaa, asettaa nojalleen</t>
+        <t pos="TV">kallistaa, asettaa nojalleen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="TV">ярабтась</l>
+
+      <stg>
+        <st Contlex="TV_ИЛЕ">ярабта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="TV">itkeä (vainaajaa)</t>
       </tg>
     </mg>
   </e>
@@ -99459,7 +99486,25 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">kyyneltyä, kallistua</t>
+        <t pos="IV">kyyneltyä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="VR">ярабтась</l>
+
+      <stg>
+        <st Contlex="VR_ИЛЕ">ярабта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="IV">kallistua</t>
       </tg>
     </mg>
   </e>
@@ -101151,7 +101196,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">peittää noella, karstalla</t>
+        <t pos="TV">peittää noella, peittää karstalla</t>
       </tg>
     </mg>
   </e>
@@ -101169,7 +101214,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">peittää noella, karstalla</t>
+        <t pos="TV">peittää noella, peittää karstalla</t>
       </tg>
     </mg>
   </e>
@@ -101223,7 +101268,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">antta tarkoituksella, että sitä ei kadoteta</t>
+        <t pos="TV">antta tarkoituksella että sitä ei kadoteta</t>
       </tg>
     </mg>
   </e>
