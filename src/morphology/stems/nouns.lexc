@@ -15,6 +15,7 @@ LEXICON nouns
 аптека:аптека N_МАРАӇГЫ-RUS  "apteekki" ;
 арифметика:арифметика N_МАРАӇГЫ-RUS  "aritmetiikka" ;
 армия:армия N_ӇУДИ-RUS  "armeija" ;
+ас:ас N_ЕД  "lammas" ;
 аэропорт:аэропорт N_ЕД-RUS  "lentoasema" ;
 банка:банка N_МАРАӇГЫ-RUS  "purkki, tölkki" ;
 барабан:барабан N_ЕД-RUS  "rumpu" ;
@@ -26,6 +27,7 @@ LEXICON nouns
 бомба:бомба N_МАРАӇГЫ-RUS  "pommi" ;
 ботинка:ботинка N_МАРАӇГЫ-RUS  "varsikenkä" ;
 бригада:бригада N_МАРАӇГЫ-RUS  "työprikaati" ;
+бригадир:бригадир N_ЕД-RUS  "työprikaatin johtaja, prikatiiri" ;
 ваˮ:ва N_МЯДО  "(reistä tehty poro)aitaus, karsina" ;
 ваˮав:ваˮав N_ХАНО  "makuupaikka" ;
 ваˮал:ваˮал N_ЕД  "tarina" ;
@@ -35,6 +37,7 @@ LEXICON nouns
 вабц:вабц N_ХАНО  "ääni" ;
 вада:вада N_ӇУДИ  "sana" ;
 вадабалава:вадабалава N_ӇУДИ  "kasvattamo" ;
+вадако:вадако N_ӇАНУ  "satu, taru" ;
 вадеˮла:вадеˮла N_ӇУДИ  "tarinankertoja, kansanrunoilija" ;
 вадебярабцо:вадебярабцо N_ӇАНУ  "nurinan aihe, tyytymättömyyden syy" ;
 вадецо:вадецо N_ӇАНУ  "keskustelun aihe" ;
@@ -237,7 +240,8 @@ LEXICON nouns
 кино:кино N_ӇАНУ-RUS  "elokuvateatteri" ;
 класс:класс N_ЕД-RUS  "luokka" ;
 книга:книга N_ӇУДИ/ӇЭ  "kirja" ;
-культура:культура N_МАРАӇГЫ  "kulttuuri" ;
+комитет:комитет N_ЕД-RUS  "komitea" ;
+культура:культура N_МАРАӇГЫ-RUS  "kulttuuri" ;
 лаˮна:лаˮна N_ӇУДИ  "natina, narske, karskuna" ;
 лаˮнарё:лаˮнарё N_МЕРЁ  "natina" ;
 лаб:лаб N_ЕД  "lohkare" ;
@@ -730,6 +734,7 @@ LEXICON nouns
 нялп:нялп N_ЕД  "märkä lumi, räntä" ;
 нялпэй:нялпэй N_ХУСУВЭЙ  "avoin matalarantainen vesistö" ;
 няльку:няльку N_ӇЭ  "kauha" ;
+няльцик:няльцик N_ЕД  "kyynärpää" ;
 няльцьʼ:няльць N_ЁЛЬЦЕ  "sade ja sulalumi, räntä" ;
 нялэдяв:нялэдяв N_ЕД  "silmämuna" ;
 нямба:нямба N_ӇУДИ  "päälaki" ;
@@ -1094,6 +1099,7 @@ LEXICON nouns
 сал:сал N_ХАНО  "kanto" ;
 салˮма:салˮма N_ӇУДИ  "se joka täytyy palauttaa" ;
 салаба:салаба N_ӇУДИ  "jää" ;
+салик:салик N_ЕД  "kanto, paalu, pylväs" ;
 салкосэй:салкосэй N_ЕД/ХУСУВЭЙ  "maksu" ;
 сальня:сальня N_ӇОДИ  "poronnahka jota käytetään tyynyliinana" ;
 саля:саля N_ТЁН  "niemi" ;
@@ -1662,6 +1668,8 @@ LEXICON nouns
 хама:хама N_ӇУДИ  "kutsu" ;
 хамба:хамба N_ХОБ  "aalto" ;
 хамба:хаба N_ХОБ  "aalto" ;
+халесь:халесь N_ЕД  "rinkilä" ;
+халесь:хэлесь N_ЕД  "rinkilä" ;
 хамбала:хамбала N_ӇУДИ  "kampela" ;
 хамбка:хамбка N_МАРАӇГЫ  "silkki" ;
 хамболˮ:ханбол N_ВАР  "roska" ;
@@ -1744,7 +1752,7 @@ LEXICON nouns
 хобцоко:хобцоко N_ӇАНУ  "arvoitus" ;
 ходомбабцо:ходомбабцо N_ӇАНУ  "yskä" ;
 хой:хой N_ЕД/ХАНО  "vuori" ;
-хойрё:хойрё N_МЕРЁ  "varpusenpoika" ;
+хойрё:хойрё N_МЕРЁ  "varpusenpoika, untuvikko" ;
 холецька:холецька N_МАРАӇГЫ  "rengas" ;
 хонабцьʼ:хонабць N_ЁЛЬЦЕ  "makuupaikka" ;
 хонана:хонана A_ӇУДИ  "löytävä" ;
@@ -1822,6 +1830,7 @@ LEXICON nouns
 хынабц:хынабц N_ЕД  "laulu" ;
 хыноˮла:хыноˮла N_ӇУДИ  "laulaja" ;
 хынё:хынё N_МЕРЁ  "epätyytyväisyys" ;
+хырбись:хырбись N_ЕД  "tiili, tiiliskivi" ;
 хыри:хыри N_ӇЭ  "pieni sampi" ;
 хыркадё:хыркадё N_МЕРЁ  "kirskuna" ;
 хырна:хырна N_ӇУДИ  "pauhina" ;
@@ -2032,6 +2041,7 @@ LEXICON nouns
 ёря:ёря N_ӇОДИ/ТЁН  "syvyys" ;
 ёсерˮ:ёсер N_ВАР  "kostea alue joen rannalla jossa on paljon rapakkoja" ;
 ёӈг:ёӈг N_ХАНО  "takaraivo, kaulan yläosa" ;
+ӈа:ӈа N_ӇЭ  "manalan jumala" ;
 ӈаˮня:ӈаˮня N_ӇОДИ  "kova jyske, läähätys" ;
 ӈаˮнё:ӈаˮнё N_МЕРЁ  "melu, kohina, pauhu" ;
 ӈаˮӈо:ӈаˮӈо N_ӇАНУ  "alli" ;
