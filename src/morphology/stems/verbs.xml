@@ -52643,7 +52643,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">leikkiä pienillä kivillä</t>
       </tg>
     </mg>
   </e>
@@ -97862,6 +97862,24 @@
 
   <e>
     <lg>
+      <l pos="IV">яйсялворць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">яйсялвор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="IV">tulla hangatuksi (poron rinnasta valjaiden alla)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="TV">якабтась</l>
 
       <stg>
@@ -98054,6 +98072,24 @@
 
       <tg xml:lang="fin">
         <t pos="TV">käryttää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">яленась</l>
+
+      <stg>
+        <st Contlex="IV_ИЛЕ">ялена</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="IV">olla harmaa, olla vaalea, olla valkeatukkainen</t>
       </tg>
     </mg>
   </e>
@@ -100309,24 +100345,6 @@
 
       <tg xml:lang="fin">
         <t pos="TV">käyttää maata, vallata, ottaa käyttöönsä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="IV">яясялворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">яясялвор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="IV"/>
       </tg>
     </mg>
   </e>
@@ -102817,6 +102835,24 @@
 
   <e>
     <lg>
+      <l pos="IV">ӈабтсялворць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">ӈабтсялвор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="IV">muuttua hajuttomaksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" type="I">ӈабтъясь</l>
 
       <stg>
@@ -103500,7 +103536,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">rasvoittua, ihroittua</t>
       </tg>
     </mg>
   </e>
@@ -104230,7 +104266,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">purra</t>
       </tg>
     </mg>
   </e>
@@ -104830,7 +104866,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">velkaantua, tulla velalliseksi</t>
       </tg>
     </mg>
   </e>
@@ -105323,24 +105359,6 @@
 
   <e>
     <lg>
-      <l pos="IV">ӈобтсялворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">ӈобтсялвор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="IV"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="IV">ӈоворць</l>
 
       <stg>
@@ -105749,7 +105767,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">liittyä, liittoutua</t>
       </tg>
     </mg>
   </e>
@@ -106507,7 +106525,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="R"/>
+        <t pos="V" type="R">löystyä, vapautua, päästä vapaaksi</t>
       </tg>
     </mg>
   </e>
@@ -106831,7 +106849,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">pistää</t>
       </tg>
     </mg>
   </e>
@@ -107560,7 +107578,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">tuntea rauhallisena, rauhoittua, pysähtyä pitkäksi
+        ajaksi</t>
       </tg>
     </mg>
   </e>
@@ -107688,7 +107707,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">kosiskella, olla lähetti</t>
       </tg>
     </mg>
   </e>
@@ -108765,7 +108784,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">lävistää, tuikkia, pistää</t>
       </tg>
     </mg>
   </e>
@@ -108790,24 +108809,6 @@
 
   <e>
     <lg>
-      <l pos="V" type="I">ӈэхадась</l>
-
-      <stg>
-        <st Contlex="IV_ЛАХАНА">ӈэхада</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="I"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="IV">ӈэхэбтёсь</l>
 
       <stg>
@@ -108824,6 +108825,25 @@
     </mg>
 
     <!-- !Т90 -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" type="I">ӈэхэдась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">ӈэхэда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" type="I">heittäytyä, syöksyä, rynnätä, ilmestyä äkkiä,
+        lemahtaa</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
