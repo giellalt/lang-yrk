@@ -44,6 +44,7 @@ LEXICON verbs
 вадасялворць:вадасялвор IV_ТИР  "vaieta, kadottaa huomionsa" ;
 вадеˮлась:вадеˮла TV_ЛАХАНА  "alkaa kertoa, alkaa sanoa" ;
 вадебярць:вадебяр TV_ТИР  "nureksia, nyreksiä, napista, moittia" ;
+вадебяръебтесь:вадебяръебте TV_ИЛЕ  "nureksia, napista" ;
 ваделабтабась:ваделабтаба TV_ПЭБЮ  "kivertää, kipertää" ;
 ваделабтась:ваделабта TV_ИЛЕ  "taivuttaa" ;
 ваделтась:ваделта IV_ЛАХАНА  "olla koukussa" ;
@@ -84,6 +85,7 @@ LEXICON verbs
 валибтембась:валибтемба TV_ПЭБЮ  "mainita, vihjailla, vihjata" ;
 валнась:вална IV_ЛАХАНА  "kulua, haalistua" ;
 валотась:валота IV_ИЛЕ  "aikoa kostaa" ;
+валоць:валоС TV_САС  "pyytää apua (hengiltä)" ;
 валурць:валур VR_ТИР  "haalistua nopeasti" ;
 валыторць:валытор IV_ТИР  "vannoa, luvata" ;
 валэбтёсь:валэбтё IV_ВАДЮ  "pulista, anoa armoa" ;
@@ -131,16 +133,21 @@ LEXICON verbs
 варисесь:варисе IV_ИЛЕ  "repiä, riistää" ;
 варкабтась:варкабта TV_ИЛЕ  "voittaa" ;
 варкабтёсь:варкабтё IV_ВАДЮ  "kilpailla" ;
+варкоць:варкоС IV_САС  "olla karhurikas" ;
+варкоць:варкуС IV_САС  "olla karhurikas" ;
 варнакось:варнако IV_СЯНАКУ  "vikittää, kipittää" ;
 варналтамбась:варналтамба TV_ПЭБЮ  "tikittää, kipittää" ;
 варналтась:варналта TV_ИЛЕ  "tikittää, kipittää" ;
 варналць:варнал VR_ТИР  "alkaa tikittää, kipittää" ;
 варнась:варна IV_ЛАХАНА  "kipittää, vikittää" ;
 варнелась:варнела VR_ЛАХАНА  "alkaa juosta, alkaa tikittää" ;
+варнерць:варнер IV_ТИР  "juosta pienin askelin, kipittää" ;
+варнеръебтесь:варнеръебте IV_ИЛЕ  "juosta pienin askelin" ;
 варнисесь:варнисе IV_ИЛЕ  "vastaa tylysti" ;
 варнэлась:варнэла VR_ЛАХАНА  "alkaa näyttää tyytymättömyyttä, alkaa jupista" ;
 вароворць:варовор IV_ТИР  "likaantua, saastua" ;
 варомзь:варом IV_ӇАРАМ  "likaantua, tahraantua, saastua" ;
+вароць:вароС TV_САС  "liata, tahrata" ;
 варпадесь:варпаде TV_ИЛЕ  "jättää vaille" ;
 варпась:варпа VR_ЛАХАНА  "luiskahtaa, lipsahtaa" ;
 варпась:варпа TV_ПЭБЮ  "ajaa ohi, sivuuttaa (poronlaumaa)" ;
@@ -171,6 +178,7 @@ LEXICON verbs
 васалась:васала VR_ЛАХАНА  "alkaa kääntyillä, alkaa pälyillä" ;
 васарць:васар IV_ТИР  "pälyillä, valpastua" ;
 васкуймдась:васкуймда TV_ИЛЕ  "tehdä kauppiaaksi" ;
+васоць:васоС TV_САС  "saada osuudensa" ;
 ватабась:ватаба TV_ПЭБЮ  "salvata, estää pääsy, sulkea, tukkia" ;
 ватабась:ватаба TV_ПЭБЮ  "vetää vedestä, karistaa (verkkoa)" ;
 ватабюрць:ватабюр TV_ТИР  "seurata, varjostaa" ;
@@ -179,6 +187,8 @@ LEXICON verbs
 ваторась:ватора IV_ЛАХАНА  "luvata" ;
 ваторпась:ваторпа TV_ПЭБЮ  "luvata" ;
 ваторць:ватор TV_ТИР  "luvata" ;
+ватоць:ватоС TV_САС  "olla rajana, olla määräaikana" ;
+ватоць:ватоС IV_САС  "olla tarkoitettu johonkin" ;
 ватёсь:ватё IV_ВАДЮ  "olla aitauksella ympäröity, olla suljettu, olla tukittu" ;
 вахалць:вахал VR_ТИР  "alkaa puhua" ;
 вахарць:вахар IV_ТИР  "kilpailla" ;
@@ -200,6 +210,7 @@ LEXICON verbs
 ваӈгортась:ваӈгорта VR_ЛАХАНА  "olla reikäinen" ;
 ваӈгортась:ваӈгортана IV_ЛАХАНА  "laihtua" ;
 ваӈгорць:ваӈгор VR_ТИР  "reikiintyä, laihtua, tuntea poissaoloa, jäädä tyhjäksi" ;
+ваӈгоць:ваӈгоС IV_САС  "olla reiällinen, asua kolossa" ;
 ваӈумзь:ваӈум IV_ӇАРАМ  "viisastua" ;
 ваӈурць:ваӈур IV_ТИР  "viisastua, tulla viisaaksi" ;
 ваӈымдамбась:ваӈымдамба TV_ПЭБЮ  "manata, lähettää rangaistuksen" ;
@@ -222,8 +233,10 @@ LEXICON verbs
 вунясь:вуня VR_ЯˮАВЛУ  "eihän…" ;
 выˮлась:выˮла IV_ИЛЕ  "horjua edestakaisin" ;
 выбелабтась:выбелабта TV_ИЛЕ  "heittää pauhulla, kolisten" ;
+выберць:выбер IV_ТИР  "viheltää, ulvoa, surista" ;
 выварць:вывар IV_ТИР  "viheltää, ulvoa, surista" ;
 выдарась:выдара IV_ЛАХАНА  "väsyä" ;
+выдась:выда TV_ЛАХАНА  "tulla toimeen" ;
 выдутась:выдута IV_ЛАХАНА  "olla korkeimman luokan šamaani" ;
 выебтёсь:выебтё IV_ВАДЮ  "koukistua" ;
 выйналтамбась:выйналтамба TV_ПЭБЮ  "kävellä kauas" ;
@@ -253,6 +266,7 @@ LEXICON verbs
 выркадась:выркада IV_ЛАХАНА  "luiskahtaa, lipsahtaa, mennä nopeasti kahisten" ;
 выркадтамбась:выркадтамба TV_ПЭБЮ  "nyhtää" ;
 выркадтась:выркадта TV_ИЛЕ  "nyhjäistä, raapaista (tuli tikkuun)" ;
+вырмабарць:вырмабар IV_ТИР  "avautua vaivoin" ;
 вырмабась:вырмаба TV_ПЭБЮ  "aukaista silmät ponnistaen" ;
 вырналтамбась:вырналтамба TV_ПЭБЮ  "vierittää alas kahinalla, pyörittää kahinalla" ;
 вырналтась:вырналта TV_ИЛЕ  "vierittää alas kahinalla, pyörittää kahinalla" ;
@@ -271,12 +285,14 @@ LEXICON verbs
 выяртась:выярта TV_ИЛЕ  "taivuttaa, koukistaa" ;
 выярць:выяр TV_ТИР  "koukistaa, taivuttaa" ;
 выярць:выяр VR_ТИР  "koukistua, taipua" ;
+выяръебтесь:выяръебте TV_ИЛЕ  "taivuttaa vähän" ;
 выёˮлась:выёˮла TV_ИЛЕ  "alkaa lyödä, aikoa lyödä" ;
 вэˮламзь:вэˮлам VR_ӇАРАМ  "katsahtaa ulos" ;
 вэˮлась:вэˮла IV_ИЛЕ  "pistää päänsä ulos, katsoa hetkeksi ulos" ;
 вэˮмартась:вэˮмарта IV_ЛАХАНА  "olla ojentunut" ;
 вэˮмелабтась:вэˮмелабта TV_ИЛЕ  "panna kurottamaan kaulaa" ;
 вэˮмолабтась:вэˮмолабта TV_ИЛЕ  "kurottaa kaulaa" ;
+вэбакуць:вэбакуС IV_САС  "olla lehdekäs, olla lehtevä" ;
 вэбасяламзь:вэбасялам IV_ӇАРАМ  "menettää lehdensä" ;
 вэбасялворць:вэбасялвор IV_ТИР  "tulla lehdettömäksi" ;
 вэбитась:вэбита IV_ЛАХАНА  "olla tiheälehtinen" ;
@@ -288,10 +304,12 @@ LEXICON verbs
 вэварахамдамбась:вэварахамдамба TV_ПЭБЮ  "häpäistä, saattaa hämmennyksiin, häkellyttää, oudostuttaa" ;
 вэварахамдась:вэварахамда TV_ИЛЕ  "häpäistä, saattaa hämmennyksiin, häkellyttää" ;
 вэвулкабтась:вэвулкабта TV_ИЛЕ  "pitää huonoksi, rumaksi, kurjaksi" ;
+вэвуць:вэвуС TV_САС  "morkata, moittia" ;
 вэдамбась:вэдамба TV_ПЭБЮ  "silmätä, tulla käymään, tarkkailla" ;
 вэдамзь:вэдам TV_ӇАРАМ  "tulla käymään, käydä jonkun luona" ;
 вэдамзь:вэдам VR_ӇАРАМ  "katsahtaa taakseen" ;
 вэдекурць:вэдекур IV_ТИР  "tulla käymään, vierailla" ;
+вэдекуць:вэдекуС TV_САС  "vierailla, seurata" ;
 вэденесь:вэдене IV_ИЛЕ  "kieriä, pyöriä" ;
 вэдесь:вэде IV_ИЛЕ  "pyörittää päätä, käyttäytyä kevytmielisesti" ;
 вэдеторць:вэдетор IV_ТИР  "tarkastaa, seurata, tarkkailla" ;
@@ -309,7 +327,10 @@ LEXICON verbs
 вэлкадарць:вэлкадар IV_ТИР  "tulla nopeasti ulos, luisua ulos" ;
 вэлкадась:вэлкада IV_ЛАХАНА  "lipsahtaa äännettömästi, livahtaa ulos" ;
 вэлкадась:вэлкада IV_ЛАХАНА  "kastua" ;
+вэлкарць:вэлкар VR_ТИР  "vettyä, kastua kovasti" ;
 вэлрамбась:вэлрамба TV_ПЭБЮ  "liottaa liikaa, venytellä, pidätellä" ;
+вэлрась:вэлра VR_ИЛЕ  "pitkittyä, pidättyä" ;
+вэлрась:вэлра IV_ЯˮАВЛУ  "olla läpimärkä, olla lionnut" ;
 вэлцартась:вэлцарта IV_ЛАХАНА  "olla läpimärkä" ;
 вэлцлабтась:вэлцлабта TV_ИЛЕ  "kosteuttaa" ;
 вэлцрибтась:вэлцрибта TV_ИЛЕ  "lähteä ulos sateseen; heittää ulos (jotain märkää)" ;
@@ -375,6 +396,8 @@ LEXICON verbs
 вэхэбтась:вэхэбта VR_ИЛЕ  "katsoa ulos" ;
 вэхэдалась:вэхэдала VR_ЛАХАНА  "alkaa ilmestyä" ;
 вэхэлюрць:вэхэлюр IV_ТИР  "venyä (poronkuormastosta)" ;
+вэхэнась:вэхэна IV_ИЛЕ  "katsoa ulos" ;
+вэхэрась:вэхэра IV_ЛАХАНА  "kulua, päättyä, häipyä äkkiä" ;
 вэхэртамбась:вэхэртамба TV_ПЭБЮ  "poistaa, riisua, jättää vaille, tuhota" ;
 вэхэртась:вэхэрта IV_ЛАХАНА  "olla tuhottu" ;
 вэхэртась:вэхэрта TV_ИЛЕ  "poistaa, kiskaista, riisua, nylkeä, tuhota" ;
@@ -407,6 +430,8 @@ LEXICON verbs
 еˮэлдембась:еˮэлдемба TV_ПЭБЮ  "kytkeä, sitoa yhteen" ;
 еˮэлдесь:еˮэлде TV_ИЛЕ  "kytkeä, sitoa yhteen" ;
 еˮэлрамбась:еˮэлрамба TV_ПЭБЮ  "yhdistää, sitoa yhteen" ;
+еˮэлроць:еˮэлроС IV_САС  "olla kiemurainen, olla mutkikas, olla monimutkainen, olla sekainen" ;
+еˮэлроць:елроС IV_САС  "olla kiemurainen, olla mutkikas, olla monimutkainen, olla sekainen" ;
 еˮӈабтась:еˮӈабта TV_ИЛЕ  "kallistaa" ;
 еˮӈабтась:еˮӈабта VR_ИЛЕ  "kallistua" ;
 еˮӈабтёсь:еˮӈабтё IV_ВАДЮ  "olla vinossa, olla kallellaan" ;
@@ -502,6 +527,7 @@ LEXICON verbs
 ендёсь:ендё IV_ВАДЮ  "olla jänteellä" ;
 енелась:енела VR_ЛАХАНА  "alkaa ampua" ;
 енерць:енер IV_ТИР  "ampua" ;
+енеръебтесь:енеръебте IV_ИЛЕ  "ammuskella jonkun aikaa" ;
 енесь:ене TV_ИЛЕ  "viivoittaa, piirtää" ;
 енеторць:енетор IV_ТИР  "piirtää" ;
 ензарабтёсь:ензарабтё IV_ВАДЮ  "olla läpäisevä, olla häämöttävä, olla läpinäkyvä" ;
@@ -559,6 +585,7 @@ LEXICON verbs
 есебась:есеба TV_ПЭБЮ  "päällystää kota porontaljoilla, saavuttaa, saada kiinni" ;
 еседёсь:еседё IV_ВАДЮ  "olla pingotettu" ;
 есерць:есер IV_ТИР  "kahlata vedessä, ylittää kahlaamalla" ;
+есеръебтесь:есеръебте IV_ИЛЕ  "kahlata vedessä" ;
 есесь:есе TV_ИЛЕ  "päällystää (kota porontaljoilla)" ;
 есесь:есе VR_ИЛЕ  "tulla päällystetyksi (kota porontaljoilla)" ;
 есетась:есета IV_ЛАХАНА  "olla koristettu" ;
@@ -665,6 +692,7 @@ LEXICON verbs
 идрамдамбась:идрамдамба TV_ПЭБЮ  "aiheuttaa rakkuloita" ;
 идрамдась:идрамда TV_ИЛЕ  "hieroa rakkuloille" ;
 идрамзь:идрам IV_ӇАРАМ  "mennä rakolle, rakottua" ;
+идрась:идра IV_ЯˮАВЛУ  "näyttää uljuutta" ;
 идындорць:идындор IV_ТИР  "ommella liepeitä" ;
 идяхалембась:идяхалемба TV_ПЭБЮ  "vierottaa" ;
 идяхалесь:идяхале TV_ИЛЕ  "vierottaa" ;
@@ -688,7 +716,9 @@ LEXICON verbs
 илесь:иле IV_ИЛЕ-Pal/Var  "elää" ;
 илесь:иле VR_ИЛЕ-Pal/Var  "selvitä, toipua, elpyä, piristyä, pelastua" ;
 илнась:илна IV_ЛАХАНА  "nousta, kohota" ;
+илрась:илра IV_ЯˮАВЛУ  "nostaa, kohottaa" ;
 илрорць:илрор IV_ТИР  "kohottaa" ;
+илтась:илта IV_ЛАХАНА  "šamanoida parantaen sairaudesta" ;
 илъебтембась:илъебтемба TV_ПЭБЮ  "kohottaa hieman" ;
 илыбтась:илыбта TV_ИЛЕ  "kohautella" ;
 илябтась:илябта TV_ИЛЕ  "" ;
@@ -751,6 +781,7 @@ LEXICON verbs
 иётась:иёта TV_ИЛЕ  "olla vävyllä, kutsua vävykseen" ;
 иёць:иёС IV_САС  "olla vävynä, nimittää vävyksi" ;
 иӈгдесь:иӈгде TV_ИЛЕ  "arvostaa, sääliä, kieltää" ;
+иӈудоць:иӈудоС IV_САС  "olla viisas, olla ymmärtävä" ;
 лаˮамдярцяламзь:лаˮамдярцялам IV_ӇАРАМ  "muuttua kärsimättömäksi" ;
 лаˮамдярцялворць:лаˮамдярцялвор IV_ТИР  "muuttua kärsivälliseksi" ;
 лаˮамдёсь:лаˮамдё IV_ВАДЮ  "olla kärsivällinen" ;
@@ -772,12 +803,14 @@ LEXICON verbs
 лабадаӈгось:лабадаӈго IV_СЯНАКУ  "lohkoa, erottaa" ;
 лабакось:лабако IV_СЯНАКУ  "lohkoa, kaivella" ;
 лабакурць:лабакур IV_ТИР  "lohkoa, kaivella" ;
+лабакуць:лабакуС TV_САС  "lohkoa" ;
 лабамзь:лабам VR_ӇАРАМ  "hievahtaa, liikahtaa" ;
 лабамлаӈгось:лабамлаӈго IV_СЯНАКУ  "hyllyä, notkua" ;
 лабанась:лабана IV_ИЛЕ  "hyllyä, lepatella, myllertää, puhua nopeasti ja äänekäästi" ;
 лабарась:лабара IV_ЛАХАНА  "sortua" ;
 лабартамбась:лабартамба TV_ПЭБЮ  "lohkaista, murtaa, repiä, murskata" ;
 лабартась:лабарта TV_ИЛЕ  "lohkaista, murtaa, repiä, hakata muruiksi" ;
+лабарць:лабар IV_ТИР  "mutustaa, mutustella, puhua äänekkäästi" ;
 лабворць:лабвор IV_ТИР  "heilua, lainehtia, räpyttää siipiään" ;
 лабдембась:лабдемба TV_ПЭБЮ  "karistaa, ravistaa, rauhoittaa" ;
 лабдесь:лабде TV_ИЛЕ  "karistaa, ravistaa, rauhoittaa" ;
@@ -805,6 +838,7 @@ LEXICON verbs
 лабцадесь:лабцаде TV_ИЛЕ  "astua linttaan" ;
 лабцамзь:лабцам VR_ӇАРАМ  "putoa lappeelleen" ;
 лабцарамбась:лабцарамба TV_ПЭБЮ  "tallata, juntata" ;
+лабцарась:лабцара TV_ИЛЕ  "polkea (kovaksi), juntata, litistää" ;
 лабцартамбась:лабцартамба TV_ПЭБЮ  "polkea (kovaksi), juntata, litistää" ;
 лабцартась:лабцарта IV_ЛАХАНА  "olla tallattu" ;
 лабцартась:лабцарта TV_ИЛЕ  "polkea (kovaksi), juntata, litistää" ;
@@ -833,6 +867,7 @@ LEXICON verbs
 лабыбтась:лабыбта TV_ИЛЕ  "ravistaa" ;
 лабыбтёсь:лабыбтё IV_ВАДЮ  "leiskua, liehua" ;
 лабэдась:лабэда TV_ИЛЕ  "lohkaistaa, murtaa" ;
+лабэсоць:лабэсоС IV_САС  "olla erillisillä osilla" ;
 лавдембась:лавдемба TV_ПЭБЮ  "ohjata, suunnata, kovistella" ;
 лавдесь:лавде TV_ИЛЕ  "ohjata, suunnata, kovistaa" ;
 лавоˮлась:лавоˮла TV_ИЛЕ  "haitata, estää" ;
@@ -849,6 +884,7 @@ LEXICON verbs
 ладорторць:ладортор IV_ТИР  "lyödä, iskeä, juntata" ;
 ладорць:ладор TV_ТИР  "lyödä, hakata, kolhia, kuohita" ;
 ладыбтась:ладыбта TV_ИЛЕ  "kolhaista" ;
+лайкуць:лайкуС TV_САС  "heittää (kevyesti)" ;
 лакадалась:лакадала VR_ЛАХАНА  "alkaa napsahtaa, alkaa niksahtaa, alkaa kalista" ;
 лакадалась:лакадала VR_ЛАХАНА  "alkaa kolahtaa, alkaa kopsahtaa" ;
 лакадарць:лакадар IV_ТИР  "kolauttaa, kopsaa" ;
@@ -867,6 +903,7 @@ LEXICON verbs
 ламдумдась:ламдумда TV_ИЛЕ  "laskea, alentaa" ;
 ламнэлась:ламнэла VR_ЛАХАНА  "alkaa tömistä, alkaa kolista" ;
 ланворць:ланвор IV_ТИР  "" ;
+ландароць:ландароС IV_САС  "saada hyytelöä" ;
 ландартась:ландарта IV_ЛАХАНА  "olla hyytelömäinen" ;
 ланзидембась:ланзидемба TV_ПЭБЮ  "erottaa, siirtää" ;
 ланзидесь:ланзиде TV_ИЛЕ  "erottaa, siirtää, kiskaista" ;
@@ -911,6 +948,7 @@ LEXICON verbs
 лаёлабтась:лаёлабта TV_ИЛЕ  "puhua kovalla äänellä" ;
 лаёрць:лаёр IV_ТИР  "" ;
 лаӈгадась:лаӈгада TV_ИЛЕ  "erottaa, riistää, ottaa pois" ;
+лаӈгоць:лаӈгоС IV_САС  "olla jyrkkärantainen" ;
 леˮмрембась:леˮмремба TV_ПЭБЮ  "läkähdyttää" ;
 леˮмресь:леˮмре TV_ИЛЕ  "läkähdyttää" ;
 левабтась:левабта VR_ИЛЕ  "olla notkolla" ;
@@ -955,6 +993,7 @@ LEXICON verbs
 лисенась:лисена IV_ИЛЕ  "maata kasvoillaan" ;
 лискуˮлась:лискуˮла TV_ЛАХАНА  "alkaa laittaa (jotakin leveätä)" ;
 лисорць:лисор VR_ТИР  "" ;
+лисоць:лисоС TV_САС  "levittää käsiä" ;
 ломбхалабась:ломбхалаба TV_ПЭБЮ  "tyrkätä kevyesti" ;
 ломбхалась:ломбхала TV_ИЛЕ  "tyrkätä kevyesti" ;
 лоховорць:лоховор IV_ТИР  "" ;
@@ -967,9 +1006,11 @@ LEXICON verbs
 лоӈглабтась:лоӈглабта TV_ИЛЕ  "kuormata yhdellä tai parilla pienehköllä kääröllä" ;
 лудембась:лудемба TV_ПЭБЮ  "lasittaa tinalla" ;
 лудесь:луде TV_ИЛЕ  "lasittaa tinalla" ;
+лурцрась:лурцра IV_ИЛЕ  "hyllyä, hytkyä" ;
 лусартась:лусарта IV_ЛАХАНА  "olla käyrä, olla liian vähän tiukennettu, olla nyrpeä" ;
 лусарць:лусар VR_ТИР  "käyristyä" ;
 лыбабтась:лыбабта TV_ИЛЕ  "moiskauttaa" ;
+лыбарць:лыбар IV_ТИР  "maiskuttaa" ;
 лыбнась:лыбна IV_ЛАХАНА  "kohista, hyrskytä" ;
 лыбнорць:лыбнор IV_ТИР  "kohista, hyrskytä" ;
 лыбобтась:лыбобта TV_ИЛЕ  "suudella nopeasti" ;
@@ -978,6 +1019,8 @@ LEXICON verbs
 лыбцартась:лыбцарта IV_ЛАХАНА  "olla laimea, olla vaivalloinen, olla heikko" ;
 лыбцоˮлась:лыбцоˮла TV_ИЛЕ  "päästä nuokalleen, rytyyttää" ;
 лыбцоˮлась:лыбцоˮла VR_ЛАХАНА  "nuokahtaa" ;
+лыбцрась:лыбцара TV_ИЛЕ  "hoippua, horjua, olla epävakaa, olla häilyvä" ;
+лыбцрась:лыбцра TV_ИЛЕ  "hoippua, horjua, olla epävakaa, olla häilyvä" ;
 лыворць:лывор IV_ТИР  "luutua, koveta" ;
 лыдабтась:лыдабта TV_ИЛЕ  "sivuuttaa, unohtaa" ;
 лыдабтась:лыдабта VR_ИЛЕ  "harhautua, joutua kadoksiin" ;
@@ -1009,6 +1052,7 @@ LEXICON verbs
 лэˮлась:лэˮла VR_ИЛЕ  "olla ummella (lakoista)" ;
 лэбадась:лэбада IV_ИЛЕ  "jäädä riippumaan, puhallella" ;
 лэбартась:лэбарта IV_ЛАХАНА  "olla riipuksissa, pukeutua leväperäisesti, olla ikävä" ;
+лэбарць:лэбар VR_ТИР  "lerpattaa, pukeutua liian isoihin vaatteisiin" ;
 лэбдембась:лэбде TV_ПЭБЮ  "kovistaa" ;
 лэбдесь:лэбде TV_ИЛЕ  "kovistaa" ;
 лэбталабтамбась:лэбталабтамба TV_ПЭБЮ  "ripustaa" ;
@@ -1018,17 +1062,22 @@ LEXICON verbs
 лэбтась:лэбта IV_ЛАХАНА  "olla riipuksissa, riippua" ;
 лэдась:лэда TV_ИЛЕ  "viimeistellä luulla" ;
 лэибалась:лэибала VR_ЛАХАНА  "alkaa leimahtaa" ;
+лэибарць:лэибар IV_ТИР  "loimuta, palaa suurella liekillä" ;
 лэкумданась:лэкумдана IV_ЛАХАНА  "muuttua laiskaksi" ;
 лэкумдась:лэкомда TV_ИЛЕ  "tehdä laiskaksi" ;
 лэкумдась:лэкумда TV_ИЛЕ  "tehdä laiskaksi" ;
 лэкумзь:лэком IV_ӇАРАМ  "laiskistua" ;
 лэкумзь:лэкум IV_ӇАРАМ  "laiskistua" ;
+лэмданась:лэмдана IV_ИЛЕ  "olla joustava, olla taipuisa, horjua" ;
+лэндуць:лындуС TV_САС  "käyttää halkaisukirveenä" ;
+лэндуць:лэндуС TV_САС  "käyttää halkaisukirveenä" ;
 лэнзадтамбась:лэнзадтамба TV_ПЭБЮ  "soinnuttaa, viekoitella" ;
 лэнзадтась:лэнзадта TV_ИЛЕ  "virittää, viekoitella" ;
 лэнзадтась:лэнзадта VR_ИЛЕ  "virittäytyä" ;
 лэнзась:лэнза VR_ИЛЕ  "ojentautua, suorentaa, päättää äkkiä, aikoa" ;
 лэрабтась:лэрабта TV_ИЛЕ  "pelottaa, säikyttää" ;
 лэрорць:лэрор IV_ТИР  "" ;
+лэруць:лэруС IV_САС  "pelästyä" ;
 лэсяламзь:лэсялам IV_ӇАРАМ  "muuttua luuttomaksi, muuttua joustavaksi" ;
 лэсялмдамбась:лэсялмдамба TV_ПЭБЮ  "vetää luita esiin" ;
 лэсялмдась:лэсялмда TV_ИЛЕ  "vetää luut esiin" ;
@@ -1043,6 +1092,7 @@ LEXICON verbs
 лэхэрась:лэхэра IV_ЛАХАНА  "ohittaa, kulua, syrjäytyä" ;
 лэхэрпась:лэхэрпа TV_ПЭБЮ  "vähentää nopeutta, repiä pois" ;
 лэхэрць:лэхэр TV_ТИР  "vähentää nopeutta, hidastaa, repiä pois" ;
+лэябарць:лэябар IV_ТИР  "liekehtiä, surista" ;
 лэёˮлась:лэёˮла TV_ИЛЕ  "sytyttää" ;
 лэёворць:лэёвор IV_ТИР  "leimahtaa, syttyä" ;
 лэёлась:лэёла TV_ИЛЕ  "lietsoa tulta" ;
@@ -1064,6 +1114,7 @@ LEXICON verbs
 лябтарць:лябтар VR_ТИР  "kaatua vatsalle, istahtaa" ;
 лябтась:лябта IV_ИЛЕ  "olla matalana" ;
 лябтась:лябта VR_ИЛЕ  "olla luppakorvainen" ;
+лябтоць:лябтоС TV_САС  "kumartua alas taakan alla" ;
 лябтулабтась:лябтулабта TV_ИЛЕ  "uuvuttaa poroja mahalle kaatumiseen asti" ;
 лядось:лядо IV_ӇЭСУ  "lohkeilla, pilkkoutua, pakahtua, haarautua, erkaantua, erota" ;
 лядтась:лядта IV_ЛАХАНА  "halkoa, pilkkoa" ;
@@ -1080,6 +1131,7 @@ LEXICON verbs
 лямбортась:лямборта IV_ЛАХАНА  "olla pörheä, olla pitkä ja tiheä, olla tilava" ;
 лямборць:лямбор VR_ТИР  "pörhistyä, tulla pitkäksi ja tiheäksi, asettautua, levitä" ;
 лямботорць:лямботор IV_ТИР  "räpyttää siipiään paikalla, alkaa kavuta" ;
+лямбоць:лямбоС IV_САС  "räpyttää siipiään, pudota silmien eteen" ;
 лямбэдась:лямбэда TV_ИЛЕ  "aiheuttaa tuulta liikahduksella" ;
 лямбэдась:лямбэда VR_ИЛЕ  "hyökätä, heittäytyä" ;
 лярцинесь:лярцине IV_ИЛЕ  "olla levällään" ;
@@ -1098,6 +1150,7 @@ LEXICON verbs
 лясамламбась:лясамламба TV_ПЭБЮ  "kaataa helposti selälleen" ;
 лясамлась:лясамла TV_ИЛЕ  "kaataa helposti selälleen" ;
 лясарабтёсь:лясарабтё IV_ВАДЮ  "olla puolimakuulla" ;
+лясась:ляса VR_ИЛЕ  "kaatua selälleen" ;
 лясмлэдась:лясмлэда TV_ИЛЕ  "kaataa selälleen" ;
 лясэдась:лясэда VR_ИЛЕ  "kaatua selälleen" ;
 лясёсь:лясё IV_ВАДЮ  "levätä selällään" ;
@@ -1147,8 +1200,12 @@ LEXICON verbs
 мадибась:мадиба TV_ПЭБЮ  "syödä reikäiseksi, rei'ittää, ajaa (poroja)" ;
 мадинесь:мадине IV_ИЛЕ  "pysyä paikallaan" ;
 мадлась:мадла VR_ЛАХАНА  "alkaa haukkua" ;
+мадрась:мадара IV_ЯˮАВЛУ  "olla teroitettu" ;
+мадрась:мадра IV_ЯˮАВЛУ  "olla teroitettu" ;
 мадтембась:мадтемба TV_ПЭБЮ  "pidättää" ;
 мадтесь:мадте TV_ИЛЕ  "pidättää, pysyttää" ;
+мадюць:мадюС IV_САС  "olla epätasaisella pinnalla" ;
+мадюць:мадёС IV_САС  "olla epätasaisella pinnalla" ;
 мадёрць:мадюр VR_ТИР  "muuttua epätasaiseksi, muuttua kurttupintaiseksi" ;
 мадёрць:мадёр VR_ТИР  "muuttua epätasaiseksi, muuttua kurttupintaiseksi" ;
 маилабтась:маилабта TV_ИЛЕ  "panna nopeasti liikkeelle" ;
@@ -1169,6 +1226,7 @@ LEXICON verbs
 макабтёсь:макабтё IV_ВАДЮ  "seisoa pystyssä" ;
 макась:мака VR_ИЛЕ  "nousta seisomaan, nousta pystyyn" ;
 макылтась:макылта IV_ЛАХАНА  "olla väsynyt" ;
+макэбарць:макэбар IV_ТИР  "vuotaa kyyneliä" ;
 малалась:малала VR_ЛАХАНА  "alkaa siristä" ;
 маламбась:маламба TV_ПЭБЮ  "viettää aikaa mitään erikoista tekemättä" ;
 маламзь:малам VR_ӇАРАМ  "muuttua seisovaksi (vedestä, järvestä)" ;
@@ -1192,6 +1250,7 @@ LEXICON verbs
 малндась:малнда TV_ИЛЕ  "kattaa, peittää" ;
 малндась:малнда VR_ИЛЕ  "peittyä, kattautua" ;
 малтась:малта TV_ИЛЕ  "pyydystää" ;
+малтась:малта IV_ЛАХАНА  "olla päätteellä, kävellä päästä päähän, etsiä sormituntumalla" ;
 малторць:малтор IV_ТИР  "olla otsalla" ;
 малумзь:малум VR_ӇАРАМ  "muuttua seisovaksi (vedestä, järvestä)" ;
 мальебтембась:мальебтемба TV_ПЭБЮ  "murtaa, taittaa" ;
@@ -1246,6 +1305,8 @@ LEXICON verbs
 мантась:манта VR_ИЛЕ  "pudota" ;
 мантылабась:мантылаба TV_ПЭБЮ  "vierittää" ;
 мантылась:мантыла IV_ЛАХАНА  "alkaa vieriä" ;
+мантырць:мантыр IV_ТИР  "kaatua, vieriä nurinniskoin, kupsahtaa" ;
+мантыръебтесь:мантыръебте IV_ИЛЕ  "vieriä nurinniskoin" ;
 манъёлась:манъёла TV_ИЛЕ  "alkaa lojua, alkaa lekotella" ;
 манъёрць:манъёр IV_ТИР  "lojua, lekotella, olla raskas ylisyömisen takia" ;
 манэˮлабтабась:манэˮлабтаба TV_ПЭБЮ  "ilmaista, näyttää" ;
@@ -1254,6 +1315,8 @@ LEXICON verbs
 манэˮларась:манэˮлара VR_ИЛЕ  "ilmetä, tulla esille" ;
 манэворць:манэвор IV_ТИР  "koveta, kovettua" ;
 манэсарць:манэсар TV_ТИР  "katsoa" ;
+манэсодоць:манэсодоС IV_САС  "olla tehty näytettäväksi" ;
+манэсыдоць:манэсыдоС IV_САС  "olla silmille miellyttävä" ;
 манэць:манэС TV_САС  "nähdä" ;
 манэцяламзь:манэцялам IV_ӇАРАМ  "muuttua epätavalliseksi" ;
 манэцялмдембась:манэцялмдемба TV_ПЭБЮ  "tehdä ennennäkemättömäksi" ;
@@ -1334,6 +1397,7 @@ LEXICON verbs
 маторпась:маторпа TV_ПЭБЮ  "leikata" ;
 маторць:матор TV_ТИР  "leikata" ;
 матотась:матота IV_ЛАХАНА  "pelata rahasta, voittaa pelissä" ;
+матоць:матоС TV_САС  "voittaa" ;
 матюймдамбась:матюймдамба TV_ПЭБЮ  "typistää sarvia" ;
 матюймдась:матюймда IV_ЛАХАНА  "olla typistetty" ;
 матюймдась:матюймда TV_ИЛЕ  "typistää" ;
@@ -1382,6 +1446,7 @@ LEXICON verbs
 мечкось:мечко IV_СЯНАКУ  "palloilla" ;
 мечресь:мечре IV_ИЛЕ  "vieriä kuin pallo" ;
 мимбась:мимба TV_ПЭБЮ  "valmistaa, rakentaa" ;
+минеръебтесь:минеръебте IV_ИЛЕ  "seistä paikallaan jonkun aikaa, pysähtyä" ;
 минесь:мине TV_ИЛЕ  "kantaa" ;
 минзь:миН1 IV_МИН-Pal/Var  "mennä" ;
 минзяламзь:минзялам IV_ӇАРАМ  "ryhtyä hitaasti kävelemään" ;
@@ -1391,6 +1456,8 @@ LEXICON verbs
 минлембась:минлемба TV_ПЭБЮ  "pysäyttää (jutaamasta), panna kiinteään elintapaan" ;
 минлесь:минле TV_ИЛЕ  "pysäyttää (jutaamasta), panna kiinteään elintapaan" ;
 минресь:минре TV_ИЛЕ  "viedä" ;
+минтанась:минтана IV_ЛАХАНА  "tulla raskaaksi" ;
+минтась:минта IV_ЛАХАНА  "olla raskaana, synnyttää, saada lapsi" ;
 минтась:минта VR_ИЛЕ  "lisätä vauhtia, voimistua" ;
 минтембась:минтемба TV_ПЭБЮ  "antaa poroille lepoaikaa" ;
 минтесь:минте TV_ИЛЕ  "antaa poroille lepoaikaa" ;
@@ -1413,6 +1480,7 @@ LEXICON verbs
 мирертась:мирерта IV_ЛАХАНА  "kallistua" ;
 мирертась:мирертана IV_ЛАХАНА  "kallistua" ;
 мирець:миреС IV_САС  "olla kallis" ;
+миридоць:миридоС IV_САС  "olla kaunis ulkonäöltä, olla tyylikäs" ;
 мирилембась:мирилемба TV_ПЭБЮ  "kysyä kallista hintaa" ;
 мирилесь:мириле TV_ИЛЕ  "kysyä kallista hintaa" ;
 мирилибтембась:мирилибтемба TV_ПЭБЮ  "heitellä nopeasti, lingota" ;
@@ -1457,6 +1525,7 @@ LEXICON verbs
 мохокабтась:мохокабта IV_ЯˮАВЛУ  "olla tukahduttava" ;
 мохокабтёсь:мохокабтё IV_ВАДЮ  "olla tukahduttava, olla tukala" ;
 моёкуˮлась:моёкуˮла TV_ЛАХАНА  "ryhtyä heittämään" ;
+моёкуць:моёкуС TV_САС  "heittää" ;
 моёпась:моёпа TV_ПЭБЮ  "heitellä" ;
 моётась:моёта IV_ЛАХАНА  "heittää" ;
 моёторць:моётор IV_ТИР  "heittäytyä" ;
@@ -1487,6 +1556,7 @@ LEXICON verbs
 муноˮлась:муноˮла TV_ИЛЕ  "täyttää hulinalla, kytkeä (laitteesta)" ;
 муноˮлась:муноˮла VR_ЛАХАНА  "alkaa äännellä, alkaa hälistä, alkaa helistä" ;
 муноциетась:муноциета IV_ЛАХАНА  "olla parrakas" ;
+муноць:муноС IV_САС  "kohista, hälistä" ;
 муноцянзясь:муноцянзя IV_ЯˮАВЛУ  "olla parraton" ;
 муртелабтась:муртелабта TV_ИЛЕ  "työntää esiin" ;
 муртолабтась:муртолабта TV_ИЛЕ  "kammata taakse" ;
@@ -1521,6 +1591,7 @@ LEXICON verbs
 мыхыбась:мыхыба TV_ПЭБЮ  "kyhnyttää" ;
 мыхыбтэсь:мыхыбтэ VR_ИЛЕ  "syyhyttää" ;
 мыхыбтёсь:мыхыбтё IV_ВАДЮ  "kyhnyttää" ;
+мыхырась:мыхыра IV_ИЛЕ  "kihistä, kuhista, hyöriä" ;
 мыёмзь:мыём IV_ӇАРАМ  "" ;
 мэˮлабтась:мэˮлабта TV_ИЛЕ  "antaa käyttöön" ;
 мэˮлась:мэˮла TV_ИЛЕ  "alkaa käyttää" ;
@@ -1531,9 +1602,11 @@ LEXICON verbs
 мэбертанась:мэберта IV_ЛАХАНА  "vahvistua" ;
 мэбертанась:мэбертана IV_ЛАХАНА  "vahvistua" ;
 мэбець:мэбеС IV_САС  "olla voimakas" ;
+мэдась:мэда IV_ЛАХАНА  "nilkuttaa, ontua" ;
 мэдралтамбась:мэдралтамба TV_ПЭБЮ  "tehdä kauniiksi, tehdä loistavaksi" ;
 мэдралтась:мэдралта TV_ИЛЕ  "tehdä kauniiksi, tehdä loistavaksi" ;
 мэдрась:мэдра IV_ИЛЕ  "olla kaunis" ;
+мэдрась:мэдра IV_ИЛЕ  "olla kaunis, olla kirjava, olla loistava" ;
 мэйрабтембась:мэйрабтемба TV_ПЭБЮ  "vahvistaa, lujittaa" ;
 мэйрабтесь:мэйрабте TV_ИЛЕ  "vahvistaa, lujittaa" ;
 мэйрамбась:мэйрамба TV_ПЭБЮ  "vahvistaa, lujittaa, kiinnittää" ;
@@ -1553,8 +1626,10 @@ LEXICON verbs
 мэрабтась:мэрабта TV_ИЛЕ  "antaa takaisin aviomiehelle (nainen), tyrkyttää" ;
 мэрась:мэра VR_ИЛЕ  "palata aviomiehen luokse (vaimosta), soveltua taas, pidättyä" ;
 мэсыдорць:мэсыдор IV_ТИР  "muuttua käteväksi, mukavaksi" ;
+мэсыдоць:мэсыдоС IV_САС  "olla kätevä, olla helppokäyttöinen" ;
 мэсь:мэ IV_МЭ  "olla (jossakin, elollisesta)" ;
 мэсь:мэ TV_МЭ  "ottaa" ;
+мэсяроць:мэсяроС TV_САС  "olla tupsuilla koristettu" ;
 мэтабась:мэтаба TV_ПЭБЮ  "ahdistaa epämiellytävyyksillä, kiusata" ;
 мэтась:мэта TV_ИЛЕ  "kiusata pahanteolla" ;
 мэтеромзь:мэтером IV_ӇАРАМ  "" ;
@@ -1597,6 +1672,7 @@ LEXICON verbs
 мядонзь:мядон IV_МИН  "vierailla, kyläillä" ;
 мядорць:мядор IV_ТИР  "kerjätä" ;
 мядоциеˮлась:мядоциеˮла TV_ЛАХАНА  "ryhtyä väliaikaisesti asumaan vieraiden luona" ;
+мядоць:мядоС TV_САС  "käyttää asuinpaikkana, asua kodassa" ;
 мядоёкурць:мядоёкур IV_ТИР  "kyläillä, vierailla" ;
 мялкабтась:мялкабта VR_ИЛЕ  "vilataa, välähtää" ;
 мялкадарць:мялкадар IV_ТИР  "näyttäytyä hetkeksi" ;
@@ -1614,6 +1690,7 @@ LEXICON verbs
 мяртась:мярта TV_ИЛЕ  "vetää sivuun, leventää" ;
 мяртась:мярта VR_ИЛЕ  "harittaa, laajentua, leventyä, pullistua" ;
 мяртёсь:мяртё IV_ВАДЮ  "olla leveästi asetettu, olla pullistunut, olla levitetty" ;
+мяханась:мяхана IV_ИЛЕ  "läähättää, puhkua" ;
 мяхартась:мяхарта IV_ЛАХАНА  "olla paksu ja isomahainen" ;
 наˮамторць:наˮамтор IV_ТИР  "ponnistaa" ;
 наˮамхалесь:наˮамхале TV_ИЛЕ  "survaista, tyrkätä" ;
@@ -1628,13 +1705,17 @@ LEXICON verbs
 наˮмась:наˮма TV_ИЛЕ  "lykätä, puskea, työntää" ;
 набакунзь:набакун IV_МИН  "" ;
 наболтась:наболта IV_ЛАХАНА  "olla likainen" ;
+навороць:навороС TV_САС  "panna sekaisin, sotkea" ;
 надалтась:надалта IV_ЛАХАНА  "olla likainen" ;
 надоˮлась:надоˮла TV_ЛАХАНА  "alkaa pitää lankona" ;
 надорць:надор TV_ТИР  "peitota (nahkaa)" ;
 надоторць:надотор IV_ТИР  "nimittää kytyksi tai langoksi" ;
+надоць:надоС TV_САС  "kutsua kydyksi" ;
 надӈорць:наднор IV_ТИР  "niistää" ;
 надӈорць:надӈор IV_ТИР  "niistää" ;
 накрамбась:накрамба TV_ПЭБЮ  "varata, hankkia, valmistaa ennakolta" ;
+накрась:накра TV_ИЛЕ  "hankkia, valmistaa" ;
+накрась:накра VR_ИЛЕ  "valmistautua" ;
 накрась:накра IV_ЯˮАВЛУ  "olla valmiina" ;
 налабась:налаба TV_ПЭБЮ  "saada, hankkia" ;
 налдамбась:налдамба TV_ПЭБЮ  "saada paljon saalista, kovasti kolhia" ;
@@ -1675,6 +1756,7 @@ LEXICON verbs
 нарнесесь:нанрнесе IV_ИЛЕ  "" ;
 нарондась:наронда TV_ИЛЕ  "olla pahnoilla, pehkuilla" ;
 нароӈотась:нароӈота TV_ИЛЕ  "panna pehkuja" ;
+нароӈоць:нароӈоС TV_САС  "käyttää pahnojen sijaan" ;
 нарыˮлась:нарыˮла VR_ЛАХАНА  "alkaa karjua, alkaa huutaa, alkaa kiljua" ;
 нарыбтась:нарыбта VR_ИЛЕ  "kivahtaa" ;
 нарыбтёсь:нарыбтё IV_ВАДЮ  "olla sekasortoinen, olla kasassa" ;
@@ -1723,6 +1805,7 @@ LEXICON verbs
 нелась:нела VR_ЛАХАНА  "siletä" ;
 нелесь:неле TV_ИЛЕ  "naittaa" ;
 нелесь:неле VR_ИЛЕ  "mennä naimisiin" ;
+нелтась:нелта IV_ЛАХАНА  "silittää" ;
 нелторць:нелтор IV_ТИР  "" ;
 немасялбась:немасялба IV_ПЭБЮ  "valvoa, olla jalkeilla" ;
 немглась:немгла VR_ИЛЕ  "uinahtaa" ;
@@ -1730,7 +1813,9 @@ LEXICON verbs
 ненадумдамбась:ненадумдаба TV_ПЭБЮ  "panna merkille, huomioida" ;
 ненадумдамбась:ненадумдамба TV_ПЭБЮ  "panna merkille, huomioida, panna muistiin" ;
 ненадумдась:ненадумда TV_ИЛЕ  "panna merkille, huomata, panna muistiin" ;
+ненадумдоць:ненадумдоС TV_САС  "käyttää tienviittana" ;
 ненадумзь:ненадум IV_ӇАРАМ  "tulla näkyväksi, tulla merkilliseksi" ;
+ненась:нена IV_ЯˮАВЛУ  "olla vihainen, suuttua" ;
 нендорць:нендор IV_ТИР  "" ;
 нензабтась:нензабта TV_ИЛЕ  "siirtää" ;
 нензабтась:нензабта VR_ИЛЕ  "siirtyä" ;
@@ -1766,12 +1851,15 @@ LEXICON verbs
 ненэсяворць:ненэсявор IV_ТИР  "toteutua, käydä toteen" ;
 ненэсямдембась:ненэсямдемба TV_ПЭБЮ  "toteuttaa" ;
 ненэсямдесь:ненэсямде TV_ИЛЕ  "toteuttaa" ;
+ненэсямзь:ненэсям IV_ӇАРАМ  "käydä toteen, toeutua" ;
 нердесь:нерде IV_ИЛЕ  "olla edessä" ;
 нермылабтабась:нермылабтаба TV_ПЭБЮ  "kiukuttaa" ;
 нермылабтась:нермылабта TV_ИЛЕ  "vihastuttaa" ;
+нермыръебтесь:нермыръебте IV_ИЛЕ  "kimmastua, kimpaantua" ;
 нертембась:нертемба TV_ПЭБЮ  "ohitella, mennä edelle, ajella ohi, keskeytellä" ;
 нертесь:нерте TV_ИЛЕ  "ohittaa, mennä edelle, ajaa ohi, keskeyttää" ;
 нертеӈгось:нертеӈго IV_СЯНАКУ  "ohittaa, ajaa ohi, kilpailla juoksussa, ylittää" ;
+неруць:неруС IV_САС  "olla täynnä pajupensaikkoa" ;
 нерцирць:нерцир IV_ТИР  "kiukutella, hermoilla" ;
 нерць:нер IV_ТИР  "hakea vettä, käydä vettä hankkimassa" ;
 нерцькабтась:нерцькабта IV_ЯˮАВЛУ  "olla vihaa aiheuttava, olla sietämätön" ;
@@ -1782,6 +1870,7 @@ LEXICON verbs
 несарць:несар TV_ТИР  "ryvettää, sotkea, liata" ;
 несотась:несота IV_ЛАХАНА  "levittää, voidella, rettelöidä" ;
 несоторць:несотор IV_ТИР  "levittää, voidella, rettelöidä" ;
+несоць:несоС TV_САС  "voidella, tahrata" ;
 несрась:несра IV_ЯˮАВЛУ  "likaantua, tahraantua" ;
 несрурць:несрур IV_ТИР  "likaantua, tahraantua" ;
 несьдалтабась:несьдалтаба TV_ПЭБЮ  "aiheuttaa koiraa hännystelemään" ;
@@ -1806,6 +1895,7 @@ LEXICON verbs
 нибклась:нибкла VR_ИЛЕ  "nuokkua, kallistua, torkahtaa" ;
 нибкоˮлась:нибкоˮла TV_ИЛЕ  "nyökyttää (päätään)" ;
 нибкоˮлась:нибкоˮла VR_ЛАХАНА  "alkaa nuokahtaa, alkaa torkkua" ;
+нибкоць:нибкоС IV_САС  "nyökätä" ;
 нибтарць:нибтар TV_ТИР  "puhdistaa riivatusta" ;
 нибтесь:нибте TV_ИЛЕ  "pelastaa, vapauttaa" ;
 нибтесь:нибте VR_ИЛЕ  "pelastua, päästä, vapautua" ;
@@ -1827,6 +1917,7 @@ LEXICON verbs
 нинебтёсь:нинебтё IV_ВАДЮ  "puhaltaa" ;
 нинересь:нинере IV_ИЛЕ  "puhaltaa heikosti" ;
 нинрець:нинреС IV_САС  "olla monikerroks(ell)inen" ;
+нинрець:нинроС IV_САС  "olla monikerroks(ell)inen" ;
 ниресь:нире TV_ИЛЕ  "eiköhän, ilmeisesti" ;
 ниресь:нире VR_ИЛЕ  "eiköhän, ilmeisesti" ;
 ниретась:нирета IV_ЛАХАНА  "olla kädensijalla" ;
@@ -1919,6 +2010,7 @@ LEXICON verbs
 нэлоˮлабтась:нэлоˮлабта TV_ИЛЕ  "juosta nopeasti kahisuttaen risoilla, kantaa risaksi" ;
 нэлортась:нэлорта IV_ЛАХАНА  "olla resuinen, olla repaleinen" ;
 нэлорць:нэлор VR_ТИР  "kulua repaleiksi" ;
+нэлоць:нэлоС IV_САС  "kahista (vaatteista)" ;
 нэрналць:нэрнал VR_ТИР  "alkaa korista, muuttua käheäksi" ;
 нэрнась:нэрна IV_ЛАХАНА  "korista, kähistä, korskua" ;
 нэрцамзь:нэрцам VR_ӇАРАМ  "lysähtää, mätkähtää, kuukahtaa" ;
@@ -1939,9 +2031,12 @@ LEXICON verbs
 нюˮлерць:нюˮлер VR_ТИР  "tulla nuokalleen ja kyyryyn, tulla alakuloiseksi" ;
 нюˮлилабтась:нюˮлилабта TV_ИЛЕ  "aiheuttaa j-n päätä painuksiin, päänsä kumaraan" ;
 нюбеˮлась:нюбеˮла TV_ЛАХАНА  "alkaa nimittää" ;
+нюбебтадоць:нибебтадоС TV_САС  "olla nimeltään, olla nimitetty" ;
+нюбебтадоць:нюбебтадоС TV_САС  "olla nimeltään, olla nimitetty" ;
 нюбець:нюбеС TV_САС  "olla nimeltään" ;
 нюделась:нюдела VR_ЛАХАНА  "ryhtyä raahaamaan" ;
 нюдерць:нюдер TV_ТИР  "hinata, raahata" ;
+нюдецюць:нюдецюС TV_САС  "raahata perässään" ;
 нюдиворць:нюдивор IV_ТИР  "pienentyä, vähetä, aleta, laskea" ;
 нюдиворць:нюдивор IV_ТИР  "" ;
 нюдилебтембась:нюдилебтемба TV_ПЭБЮ  "kasvaa (vaattensa pieniksi)" ;
@@ -1997,12 +2092,15 @@ LEXICON verbs
 нюхуймданась:нюхуймда IV_ЛАХАНА  "muuttua epäsiistiksi" ;
 нюхуймданась:нюхуймдана IV_ЛАХАНА  "muuttua epäsiistiksi" ;
 нюхуймдась:нюхуймда TV_ИЛЕ  "tehdä epäsiistiksi" ;
+нюхуймзь:нюхуйм IV_ӇАРАМ  "muuttua epäsiistiksi" ;
 нюхулембась:нюхулемба TV_ПЭБЮ  "hinata, raahata, vetää esiin" ;
 нюхулересь:нюхулере VR_ИЛЕ  "raahautua" ;
 нюхулесь:нюхуле TV_ИЛЕ  "vetäistä, raahata" ;
 нюхулеӈгось:нюхулеӈго IV_СЯНАКУ  "hinata, raahata" ;
 нюхулюрць:нюхулюр IV_ТИР  "laahautua" ;
 нюхулёсь:нюхулё IV_ВАДЮ  "raahautua" ;
+нюць:нюС TV_САС-Pal/Var  "vetäistä" ;
+нюць:нюС TV_САС-Pal/Var  "pitää lapsekseen" ;
 нюцярць:нюцяр TV_ТИР  "suudella (paljon ja kovasti)" ;
 нюцясь:нюця TV_ИЛЕ  "suudella" ;
 нюцяӈгось:нюцяӈго IV_СЯНАКУ  "pussailla" ;
@@ -2027,6 +2125,7 @@ LEXICON verbs
 няˮмыбась:няˮмыба TV_ПЭБЮ  "pitää (kiinni)" ;
 няˮмыбтась:няˮмыбта TV_ИЛЕ  "ottaa käsiin, ottaa kiinni" ;
 няˮмыдорць:няˮмыдор IV_ТИР  "saada vahva ote, tulla vahvaotteiseksi" ;
+няˮмыдоць:няˮмыдоС IV_САС  "olla tukevalla otteella, olla kokenut, olla taitava" ;
 няˮмялабтабась:няˮмялабтаба TV_ПЭБЮ  "kovettaa, koventaa, tehdä kovaluonteiseksi" ;
 няˮмялабтась:няˮмялабта TV_ИЛЕ  "tehdä kovaksi, kankeaksi" ;
 няˮмялць:няˮмял VR_ТИР  "kovettua, jäykistyä" ;
@@ -2034,6 +2133,7 @@ LEXICON verbs
 нябакумдась:нябакумда TV_ИЛЕ  "kutsua vanhemmaksi siskoksi" ;
 нябакутась:нябакута IV_ЛАХАНА  "puhutella jotakuta isosiskoksi" ;
 нябакуторць:нябакутор IV_ТИР  "kutsua vanhemmaksi siskoksi" ;
+нябакуць:нябакуС TV_САС  "nimittää tai pitää isosiskoksi" ;
 няворць:нявор IV_ТИР  "lihota" ;
 нявоталаӈгось:нявоталаӈго IV_СЯНАКУ  "laukata, juosta laukkaa" ;
 нявоталць:нявотал VR_ТИР  "lähteä juoksuun" ;
@@ -2103,6 +2203,8 @@ LEXICON verbs
 нялпоˮлась:нялпоˮла TV_ИЛЕ  "pudottaa" ;
 нялпорць:нялпор IV_ТИР  "luisua" ;
 нялрамбась:нялрамба TV_ПЭБЮ  "saada mahtumaan, tunkea, pujottaa, uuvuttaa" ;
+нялрась:нялра TV_ИЛЕ  "saada mahtumaan, tunkea, sujauttaa" ;
+нялрась:нялра VR_ИЛЕ  "sopia, mahtua" ;
 нялтамбась:нялтамба TV_ПЭБЮ  "lävistää, pujottaa, viedä esinettä uhriporon ympäri" ;
 нялтась:нялта IV_ЛАХАНА  "lävistää, päästä ohi, tunkea läpi, laittaa jotain uhriporon kaulan ympäri" ;
 нялтась:нялта TV_ИЛЕ  "lävistää, pujottaa, viedä esinettä uhriporon ympäri" ;
@@ -2147,6 +2249,7 @@ LEXICON verbs
 нянакось:нянако IV_СЯНАКУ  "tehdä jotain muun tehtävän puutteessa, laiskotella" ;
 нянамзь:нянам TV_ӇАРАМ  "anoa, pyytää" ;
 нянамзь:нянам VR_ӇАРАМ  "anoa, pyytää" ;
+няндероць:няндероС TV_САС  "ajatella jostakin, olla käsityksellä, vierailla jutellakseen" ;
 няндолась:няндола TV_ИЛЕ  "teroittaa" ;
 няндортась:няндорта IV_ЛАХАНА  "olla esiinpistävillä kylkiluilla" ;
 няндорць:няндор VR_ТИР  "tulla teräväksi, tulla laihaksi" ;
@@ -2178,6 +2281,7 @@ LEXICON verbs
 нянёндорць:нянёндор IV_ТИР  "pyytää leipää" ;
 нярабась:няраба TV_ПЭБЮ  "raudoittaa, päällystää raudalla tai uudella puukerroksella, ehkäistä vauriolta" ;
 нярамзь:нярам IV_ӇАРАМ  "punastua, punertua" ;
+нярась:няра TV_ИЛЕ  "raudoittaa, kiskoittaa" ;
 няраёрць:няраёр IV_ТИР  "" ;
 нярворць:нярвор IV_ТИР  "" ;
 нярдырць:нярдыр IV_ТИР  "vastustella, hangoitella" ;
@@ -2245,6 +2349,8 @@ LEXICON verbs
 няӈговорць:няӈговор IV_ТИР  "riisuutua" ;
 няӈгомбась:няӈгомба TV_ПЭБЮ  "riisua, poistaa niintä puusta" ;
 няӈгомзь:няӈгом IV_ӇАРАМ  "" ;
+няӈгоць:няӈгоС TV_САС  "purkaa" ;
+няӈгоць:няӈгоС VR_САС  "paljastua, riisuutua" ;
 няӈгэдась:няӈгэда TV_ИЛЕ  "avata" ;
 няӈгэрць:няӈгэр IV_ТИР  "haukotella" ;
 няӈомбась:няӈомба IV_ПЭБЮ  "kärsiä hammaskivusta" ;
@@ -2262,6 +2368,7 @@ LEXICON verbs
 нёдарамбась:нёдарамба TV_ПЭБЮ  "seurata, mennä perässä" ;
 нёдась:нёда TV_ИЛЕ  "ajaa takaa" ;
 нёракуˮлась:нёракуˮла TV_ЛАХАНА  "lähteä ajamaan takaa, alkaa saavuttaa" ;
+нёракуць:нёракуС TV_САС  "ajaa takaa, seurata jonkun jäljessä" ;
 нёталць:нётал VR_ТИР  "seurata, noudattaa, juosta perässä" ;
 нётась:нётась IV_ЛАХАНА  "ajaa takaa, saada lahjoja äidin sukulaisilta" ;
 нётлаˮмитась:нётлаˮмита IV_ЛАХАНА  "olla morsian, josta osa maksusta on maksettu etumaksuna" ;
@@ -2274,6 +2381,7 @@ LEXICON verbs
 нёхолабтась:нёхолабта TV_ИЛЕ  "tahrata, liata" ;
 нёхоловорць:нёхоловор IV_ТИР  "" ;
 нёхоломзь:нёхолом IV_ӇАРАМ  "" ;
+нёхолоць:нёхолоС TV_САС  "tahria, tuhria" ;
 нёхолтась:нёхолта IV_ЛАХАНА  "olla likainen" ;
 нёхолць:нёхол VR_ТИР  "likaantua, tahraantua" ;
 нёхолцяламзь:нёхолцялам IV_ӇАРАМ  "puhdistua" ;
@@ -2325,6 +2433,7 @@ LEXICON verbs
 падротамбась:падротамба TV_ПЭБЮ  "ommella koristekuviota" ;
 падротась:падрота TV_ИЛЕ  "ommella koristekuviota" ;
 падротаӈгось:падротаӈго IV_СЯНАКУ  "ommella koristekuvioita" ;
+падроць:падроС TV_САС  "olla kuviollinen, olla raidoituksella" ;
 падтамбась:падтамба TV_ПЭБЮ  "tehdä kirjavaksi, kirjailla, piirtää" ;
 падтамборць:падтамбор IV_ТИР  "harrastaa piirtämistä" ;
 падтамбюрць:падтамбюр TV_ТИР  "kirjailla, piirustaa, piirtää" ;
@@ -2374,6 +2483,7 @@ LEXICON verbs
 палмарабтёсь:палмарабтё IV_ВАДЮ  "olla kevytmielinen" ;
 палмэсь:палмэ IV_ИЛЕ  "" ;
 палнась:пална IV_ЛАХАНА  "laverrella, höpistä" ;
+палоць:палоС TV_САС  "sotkea, sekoittaa, sopertaa, jokeltaa" ;
 палсуворць:палсувор IV_ТИР  "nuoleskella, nuolla itseään" ;
 палсуворць:палэсувор IV_ТИР  "nuoleskella, nuolla itseään" ;
 палтась:палта TV_ИЛЕ  "kastaa" ;
@@ -2406,6 +2516,7 @@ LEXICON verbs
 панондорць:панондор IV_ТИР  "ommella helmaa" ;
 панорць:панор TV_ТИР  "kehrätä, punoa, kutoa" ;
 панындорць:панындор IV_ТИР  "ommella vaatteita, pyytää vaatteita" ;
+паныроць:паныроС IV_САС  "olla kovasti punottu" ;
 панытась:паныта IV_ЛАХАНА  "olla pukeutunut, käyttää vaatteita, käyttää uusia vaatteita joka talvi, olla naisten päällystakissa" ;
 панэдась:панэда TV_ИЛЕ  "varustaa vaatteilla" ;
 панэсяламзь:панэсялам IV_ӇАРАМ  "riisuutua, köyhistyä" ;
@@ -2414,6 +2525,7 @@ LEXICON verbs
 папамдамбась:папамдамба TV_ПЭБЮ  "pitää pikkuveljeksi" ;
 папамдась:папамда IV_ЛАХАНА  "olla nuorempi veli" ;
 папамдась:папамда TV_ИЛЕ  "pitää pikkuveljeksi" ;
+паптась:папта IV_ЛАХАНА  "nimittää nuoremmaksi sisarukseksi" ;
 папторць:паптор IV_ТИР  "nimittää nuoremmaksi sisarukseksi" ;
 парабтась:парабта TV_ИЛЕ  "järisyttää, pudistaa, saattaa kävellen reen vieressä" ;
 парабтась:парабта VR_ИЛЕ  "pyristellä" ;
@@ -2458,6 +2570,7 @@ LEXICON verbs
 паромдась:парумда TV_ИЛЕ  "patistaa" ;
 паромдась:парумла TV_ИЛЕ  "patistaa" ;
 паромзь:паром IV_ӇАРАМ  "kiirehtiä, rientää" ;
+пароць:пароС TV_САС  "ohittaa, ylittää oikoteitse" ;
 парпась:парпа TV_ПЭБЮ  "karistaa, varistaa, pyristää, ravistaa" ;
 партаˮламбась:партаˮламба TV_ПЭБЮ  "nostaa, kohottaa, kääriä ylös, ajaa koirilla, omistaa" ;
 партаˮламбась:партэˮламба TV_ПЭБЮ  "nostaa, kohottaa, kääriä ylös, ajaa koirilla, omistaa" ;
@@ -2479,10 +2592,12 @@ LEXICON verbs
 парэӈомзь:парэӈом IV_ӇАРАМ  "tulla poratuksi" ;
 парэӈотамбась:парэӈотамва TV_ПЭБЮ  "porata" ;
 парэӈотась:парэӈота TV_ИЛЕ  "porata" ;
+парэӈоць:парэӈоС TV_САС  "porata, kairata" ;
 пасдембась:пасдемба TV_ПЭБЮ  "lörpötellä (salaisuutta)" ;
 пасдесь:пасде TV_ИЛЕ  "lörpötellä (salaisuutta)" ;
 паскоймдамбась:паскоймдамба TV_ПЭБЮ  "tehdä kauniiksi" ;
 паскоймдась:паскоймда TV_ИЛЕ  "tehdä kauniiksi" ;
+паскоймзь:паскойм IV_ӇАРАМ  "muuttua kauniiksi" ;
 пасребтабась:пасребтаба TV_ПЭБЮ  "höpistä, lörpötellä" ;
 пасребтась:пасребта TV_ИЛЕ  "hölskyttää, ravistella, lörpötellä" ;
 пасребтембась:пасребтемба TV_ПЭБЮ  "hölskyttää, ravistella, lörpötellä" ;
@@ -2490,6 +2605,7 @@ LEXICON verbs
 пасресь:пасре IV_ИЛЕ  "loruta" ;
 пасрибтась:пасрибта TV_ИЛЕ  "hölskyttää" ;
 пасьресь:пасьре IV_ИЛЕ  "olla ylväällä astunnalla" ;
+патдась:патда TV_ИЛЕ  "tehdä koteloa, panna koteloon" ;
 патюмбюрць:патюмбюр IV_ТИР  "" ;
 пахабтэдамбась:пахабтэдамба TV_ПЭБЮ  "avata äkkiä, temmata auki" ;
 пахабтэдась:пахабтэда TV_ИЛЕ  "avata äkkiä, temmata auki" ;
@@ -2505,12 +2621,15 @@ LEXICON verbs
 паӈгабтась:паӈгабта VR_ИЛЕ  "kääntyä jyrkästi" ;
 паӈгабтёсь:паӈгабтё IV_ВАДЮ  "olla kiero, olla käyrä" ;
 паӈгалутась:паӈгалута IV_ЛАХАНА  "olla vaurioituneilla pikkuaivoilla" ;
+паӈгаляроць:паӈгаляроС IV_САС  "olla paksulla keinotekoisella letillä" ;
 паӈгамзь:паӈгам VR_ӇАРАМ  "kääntyä" ;
 паӈгворць:паӈгвор IV_ТИР  "kääntyä äkkiä poispäin" ;
 паӈгдёсь:паӈгдё IV_ВАДЮ  "olla sukua, olla peräisin" ;
 паӈгдёсь:паӈгдё IV_ВАДЮ  "olla jalustalla, olla pukilla" ;
 паӈговорць:паӈговор IV_ТИР  "nousta jalkoilleen vaivallisesti" ;
 паӈгомзь:паӈгом IV_ӇАРАМ  "vaivoin nousta jaloille" ;
+паӈгоць:паӈгоС IV_САС  "olla juurilla" ;
+паӈгоць:паӈгоС VR_САС  "nousta jaloille tuen avulla, alkaa kävellä pitkän sairauden jälkeen" ;
 паӈгрибтась:паӈгрибта TV_ИЛЕ  "puhkea, nousta" ;
 паӈгуймдамбась:паӈгуймдамба TV_ПЭБЮ  "karsastaa" ;
 паӈгуймдась:паӈгуймда TV_ИЛЕ  "karsastaa" ;
@@ -2610,6 +2729,7 @@ LEXICON verbs
 пилкабтёсь:пилкабтё IV_ВАДЮ  "olla hirveä, olla kamala" ;
 пилкабтёсь:пинкабтё IV_ВАДЮ  "olla hirveä, olla kamala" ;
 пильнзясь:пильнзя IV_ЯˮАВЛУ  "olla peloton" ;
+пилюць:пилюС TV_САС  "pelätä, kammota" ;
 пимолабтась:пимолабта TV_ИЛЕ  "ajaa sellaiseen paikkaan, johon toiset eivät pääsee" ;
 пинабтась:пинабта TV_ИЛЕ  "iskeä, lyödä kovasti ja nopeasti" ;
 пинабцянзясь:пинабцянзя IV_ЯˮАВЛУ  "olla peloton" ;
@@ -2671,7 +2791,9 @@ LEXICON verbs
 повабась:поваба TV_ПЭБЮ  "nokkia" ;
 подадась:подада TV_ИЛЕ  "kastella" ;
 подарамбась:подарамба TV_ПЭБЮ  "ampua lennosta" ;
+подарась:подара TV_ИЛЕ  "ampua alas lennolta" ;
 подеромбась:подеромба TV_ПЭБЮ  "riisua (ajokas)" ;
+подероць:подероС TV_САС  "riisua (ajokas)" ;
 подерпась:подерпа TV_ПЭБЮ  "valjastaa" ;
 подерць:подер TV_ТИР  "valjastaa" ;
 подерць:подер VR_ТИР  "tulla valjastetuksi" ;
@@ -2699,6 +2821,7 @@ LEXICON verbs
 посадась:посада IV_ЛАХАНА  "alkaa puhaltaa voimakkaasti" ;
 посадась:посада TV_ИЛЕ  "lävistää monessa paikassa" ;
 посанась:посана IV_ЛАХАНА  "puhailla" ;
+посась:поса VR_ИЛЕ  "paisua, pöhöttyä" ;
 посдембась:посдемба TV_ПЭБЮ  "kovistaa" ;
 посдесь:посде TV_ИЛЕ  "kovistaa" ;
 посерць:посер VR_ТИР  "paisua" ;
@@ -2707,6 +2830,8 @@ LEXICON verbs
 посэдась:посэда TV_ИЛЕ  "pullistaa, lietsoa" ;
 посёсь:посё IV_ВАДЮ  "olla pöhöttynyt, olla pullea" ;
 похорамбась:похорамба TV_ПЭБЮ  "olla loppumaisillaan" ;
+похорась:похора TV_ИЛЕ  "lähentää loppua" ;
+похорась:похора VR_ИЛЕ  "lähentyä päätöstään" ;
 похоталтабась:похоталтаба TV_ПЭБЮ  "hellitellä, lellitellä" ;
 похоталтамбась:похоталтамба TV_ПЭБЮ  "lellitellä" ;
 похоталтась:похоталта TV_ИЛЕ  "lellitellä" ;
@@ -2754,6 +2879,7 @@ LEXICON verbs
 пудомбась:пудомба TV_ПЭБЮ  "vetää sisään nuotanköyttä, tappaa katkaisemalla selkäytimen" ;
 пудомзь:пудом IV_ӇАРАМ  "" ;
 пудрурць:пудрур IV_ТИР  "" ;
+пудсясь:пудся IV_ЯˮАВЛУ  "olla ilman verkonpaulaa, olla ilman selkäydintä, olla raivotautinen" ;
 пудтамбась:пудтамба TV_ПЭБЮ  "sirotella, varistella, murentaa, pirstoa" ;
 пудтась:пудта TV_ИЛЕ  "sirotella, varistaa, murentaa, pirstoa" ;
 пудуётабась:пудуётаба TV_ПЭБЮ  "" ;
@@ -2780,6 +2906,7 @@ LEXICON verbs
 пуномдамбась:пуномдамба TV_ПЭБЮ  "selvittää, ottaa selville, tarkentaa" ;
 пуномдась:пуномда TV_ИЛЕ  "selvittää, ottaa selville, tarkentaa" ;
 пуномзь:пуном IV_ӇАРАМ  "" ;
+пуноць:пуноС TV_САС  "käyttää suuntapisteenä" ;
 пунрабтась:пунрабта TV_ИЛЕ  "panna uskomaan" ;
 пунралтамбась:пунралтамба TV_ПЭБЮ  "uskotella, vakuutella" ;
 пунралтась:пунралта TV_ИЛЕ  "uskottaa, vakuuttaa" ;
@@ -2811,6 +2938,9 @@ LEXICON verbs
 пухубтэсь:пухубтэ VR_ИЛЕ  "lentää hajalleen, lentää, törmätä" ;
 пухумдамбась:пухумдамба TV_ПЭБЮ  "vanhentaa" ;
 пухумдась:пухумда TV_ИЛЕ  "vanhentaa" ;
+пуць:пуС TV_САС  "käyttää pehkuina nahanmuokkauksessa" ;
+пуць:пуС TV_САС  "puhaltaa, lietsoa" ;
+пуць:пуС VR_САС  "puutua" ;
 пуютась:пуюта IV_ЛАХАНА  "kiivetä sinne, minne ei pitäisi" ;
 пуӈытамбась:пуӈытамба TV_ПЭБЮ  "pyydystää suopungilla takajalasta" ;
 пуӈытась:пуӈыта TV_ИЛЕ  "pyydystää suopungilla takajalasta" ;
@@ -2852,16 +2982,24 @@ LEXICON verbs
 пырдатась:пырдата VR_ИЛЕ  "pörhistyä, suuttua" ;
 пырдатёсь:пырдатё IV_ВАДЮ  "olla pörröinen, olla pörhöllään" ;
 пырдярць:пырдяр TV_ТИР  "piruilla, inttää" ;
+пыркабтадоць:пыркабтадоС TV_САС  "käyttää tyynynä" ;
 пыръёрць:пыръёр IV_ТИР  "" ;
+пысабтамбась:пысабтамба TV_ПЭБЮ  "ihmetyttää, yllättää" ;
 пысабтась:пысабта TV_ИЛЕ  "ihmetyttää, yllättää" ;
 пысабцуць:пысабцуС TV_САС  "pitää ihmettelyn arvoisena" ;
 пысакабтась:пусакабта IV_ЯˮАВЛУ  "olla ihmettelyn arvoinen" ;
 пысакабтась:пысакабта IV_ЯˮАВЛУ  "olla ihmettelyn arvoinen" ;
 пысакабтёсь:пусакабтё IV_ВАДЮ  "olla hämmästyttävä" ;
 пысакабтёсь:пысакабтё IV_ВАДЮ  "olla hämmästyttävä" ;
+пысамбась:пысамба VR_ПЭБЮ  "yllättyä, ihmetyttää" ;
+пысась:пуса VR_ИЛЕ  "yllättyä, ihmetyttää" ;
+пысась:пыса VR_ИЛЕ  "yllättyä, ihmetyttää" ;
 пытерць:пытер TV_ТИР  "pujottaa langalle" ;
 пыторць:пытор TV_ТИР  "" ;
 пыхыˮлась:пыхыˮла VR_ИЛЕ  "alkaa kiistellä, alkaa väitellä" ;
+пыхынась:пыхына IV_ИЛЕ  "piehtaroida (unta saamatta)" ;
+пыядарць:пыядар IV_ТИР  "aivastella, pärskiä" ;
+пыядась:пыяда VR_ЛАХАНА  "aivastaa, pärskiä, korskua" ;
 пыядорць:пыядор IV_ТИР  "" ;
 пыӈгэлабтабась:пыӈгэлабтаба TV_ПЭБЮ  "" ;
 пыӈгэлабтась:пыӈгэлабта TV_ИЛЕ  "keinuttaa, kiikuttaa" ;
@@ -2886,6 +3024,7 @@ LEXICON verbs
 пэдась:пэда VR_ИЛЕ  "väsyä, uupua" ;
 пэдаӈгась:пэдаӈга IV_ЛАХАНА  "väsyä, uupua" ;
 пэдютась:пэдюта IV_ЛАХАНА  "hengittää raskaasti" ;
+пэдюць:пэдюС TV_САС  "tuntea väsymystä" ;
 пэмбась:пэмба TV_ПЭБЮ  "panna, asettaa, lastata" ;
 пэнзь:пэн TV_МИН  "panna, asettaa, lastata" ;
 пэрць:пэр TV_ТИР-Pal/Var  "tehdä, harjoittaa, harrastaa" ;
@@ -2906,11 +3045,13 @@ LEXICON verbs
 пэӈгабалась:пэӈгабала VR_ЛАХАНА  "ryhtyä nopeasti viemään pois" ;
 пэӈгабалтамбась:пэӈгабалтамба TV_ПЭБЮ  "työntää liikkeelle, panna heilumaan, heilauttaa" ;
 пэӈгабалтась:пэӈгабалта TV_ИЛЕ  "työntää liikkeelle, panna heilumaan, heilauttaa" ;
+пэӈгабарць:пэӈгабар IV_ТИР  "horjua vähän, heilua vähän" ;
 пэӈгабтадась:пэӈгабтада TV_ИЛЕ  "piilottaa nopeasti" ;
 пэӈгабтась:пэӈгабта VR_ИЛЕ  "piilottua, peittäytyä nopeasti" ;
 пэӈгабтась:пэӈгабтэ VR_ИЛЕ  "piilottua, peittäytyä nopeasti" ;
 пэӈгамзь:пэӈгам VR_ӇАРАМ  "notkahtaa, letkahtaa" ;
 пюбартась:пюбарта IV_ЛАХАНА  "olla roiskuttamassa" ;
+пюбарць:пюбар TV_ТИР  "pärskiä, pirskauttaa" ;
 пюлась:пюла TV_ЛАХАНА  "alkaa etsiä, ryhtyä etsimään" ;
 пюлась:пюла VR_ЛАХАНА  "ikävystyä" ;
 пюрдембась:пюрдемба TV_ПЭБЮ  "suoltaa pauhaten, pauhata" ;
@@ -2932,6 +3073,7 @@ LEXICON verbs
 пядабась:пядаба TV_ПЭБЮ  "panna kahvalle" ;
 пядабась:пядаба TV_ПЭБЮ  "panna pensaita tai havuja tien varrelle" ;
 пядась:пяда TV_ИЛЕ  "laittaa kahvalle" ;
+пяныдоць:пяныдоС IV_САС  "olla käsityksellä, olla mukava, olla totunnainen" ;
 пярабтась:пярабта TV_ИЛЕ  "täyttää lemulla, löyhkällä" ;
 пярдембась:пярдемба TV_ПЭБЮ  "paloitella sikin sokin, halkaistaa" ;
 пярдесь:пярде TV_ИЛЕ  "paloittaa sikin sokin, halkaistaa, syödä paljon valikoimattona" ;
@@ -2959,6 +3101,8 @@ LEXICON verbs
 саˮладась:саˮлада IV_ИЛЕ  "olla tyhmä" ;
 саˮлимдембась:саˮлимдемба TV_ПЭБЮ  "tyhmentää" ;
 саˮлимдесь:саˮлимде TV_ИЛЕ  "tyhmentää, rikkoa luonteensa" ;
+саˮнабарць:саˮнабар IV_ТИР  "lerpattaa, roikkua" ;
+саˮнабарць:санабар IV_ТИР  "lerpattaa, roikkua" ;
 саˮнесь:саˮне IV_ИЛЕ  "kastua" ;
 саˮнибтембась:саˮнибтемба TV_ПЭБЮ  "kastella, liottaa" ;
 саˮнибтесь:саˮнибте TV_ИЛЕ  "kastella, liottaa" ;
@@ -2971,15 +3115,21 @@ LEXICON verbs
 сабадась:сабада VR_ИЛЕ  "työntäytyä" ;
 сабамзь:сабам VR_ӇАРАМ  "murtautua" ;
 сабартась:сабарта IV_ЛАХАНА  "olla syvä" ;
+сабарць:сабар VR_ТИР  "syventyä, tulla syväksi" ;
+сабась:саба TV_ЛАХАНА  "ahtaa, ladata" ;
 сабелтась:сабелта IV_ЛАХАНА  "vetelehtiä" ;
 сабитась:сабита IV_ЛАХАНА  "olla pukeutunut huppuun" ;
+сабкабарць:сабкабар IV_ТИР  "rämpiä, liikkua vaivallisesti" ;
+сабкабарць:собкабар IV_ТИР  "rämpiä, liikkua vaivallisesti" ;
 сабкабась:сабкаба TV_ПЭБЮ  "kaivaa" ;
 сабканорць:сабканор IV_ТИР  "kaivaa, kaivella" ;
 сабкась:сабка TV_ИЛЕ  "kaivaa" ;
 сабколабтабась:сабколабтаба TV_ПЭБЮ  "" ;
 сабколабтась:сабколабта TV_ИЛЕ  "aiheuttaa j-klle pöhöttynyt kasvot, rypistää, kurtistaa" ;
+сабколоць:сабколоС IV_САС  "olla epätasainen" ;
 сабколтась:сабколта IV_ЛАХАНА  "olla epätasainen" ;
 сабкоторць:сабкотор IV_ТИР  "rämpiä, liikkua vaivallisesti" ;
+сабкоць:сабкоС VR_САС  "jäädä kiinni, takertua, vajota" ;
 саблабтабась:саблабтаба TV_ПЭБЮ  "" ;
 саблабтась:саблабта TV_ИЛЕ  "heristää korviaan (eläimestä)" ;
 сабнимбюрцъ:сабнимбюр IV_ТИР  "selittää, selostaa" ;
@@ -3011,6 +3161,7 @@ LEXICON verbs
 савумдаӈгурць:савумдаӈгур IV_ТИР  "parantaa, harrastaa korjausta" ;
 савумзь:савум IV_ӇАРАМ  "parantua" ;
 савутась:савута IV_ЛАХАНА  "olla hyvä" ;
+савуць:савуС TV_САС  "laskea hyväksi, nimittää hyväksi" ;
 савыкось:савыко IV_СЯНАКУ  "leikkiä pulikalla" ;
 савымдамбась:савымдамба TV_ПЭБЮ  "teroittaa, hioa" ;
 савымдась:савымда TV_ИЛЕ  "teroittaa, hioa" ;
@@ -3022,6 +3173,7 @@ LEXICON verbs
 садкось:садко IV_СЯНАКУ  "läimiä, ropsia" ;
 садоˮлась:садоˮла TV_ИЛЕ  "pyöritellä, heilutella" ;
 садобтась:садобта TV_ИЛЕ  "heittää helposti" ;
+садоць:садоС TV_САС  "roiskia, viskata, latkia" ;
 садторць:садтор IV_ТИР  "kuluttaa" ;
 сайнорць:сайнор IV_ТИР  "sotia" ;
 сакадарць:сакадар IV_ТИР  "liikkua nopeasti edestakaisin, heiluttaa häntäänsä" ;
@@ -3068,6 +3220,7 @@ LEXICON verbs
 санабтаресь:санабтаре TV_ИЛЕ  "erottaa, erillistää" ;
 санабтась:санабта TV_ИЛЕ  "erottaa, häiritä" ;
 санабтась:санабта VR_ИЛЕ  "loikata, pompahtaa" ;
+санабтыръебтесь:санабтыръебте IV_ИЛЕ  "juosta jonkun aikaa hyppien" ;
 санабтэсь:санабтэ VR_ИЛЕ  "hypähtää" ;
 санабтёсь:санабтё IV_ВАДЮ  "olla riippuva" ;
 санайбтась:санайбта VR_ИЛЕ  "hypähtää" ;
@@ -3080,13 +3233,16 @@ LEXICON verbs
 сандорць:сандор VR_ТИР  "oppia pukeutumaan" ;
 санлась:санла VR_ЛАХАНА  "alkaa hypätä, alkaa loikata" ;
 санорць:санор IV_ТИР  "loiskia, molskia" ;
+саноць:саноС TV_САС  "vyyhtiä, kääriä, keriä" ;
 сансумбась:сансумба IV_ПЭБЮ  "jaloitella, kävellä" ;
 санъёрць:санъёр IV_ТИР  "olla vailla pysyvää asuntoa, vaeltaa" ;
 санэрць:санэр IV_ТИР  "hyppiä, hypätä" ;
 сапась:сапа TV_ЛАХАНА  "hakata, kaataa, katkaista" ;
 саппась:саппа TV_ПЭБЮ  "halkoa, paloittaa" ;
+сарабарць:сарабар IV_ТИР  "olla osaamaton, olla saamaton" ;
 сарадась:сарада TV_ИЛЕ  "lävistää" ;
 сарвабтась:сарвабта TV_ИЛЕ  "kaapata kovasti" ;
+сарванась:сарвана IV_ИЛЕ  "kopeloida, kourata" ;
 сарвоˮлась:сарвоˮла TV_ИЛЕ  "ojentaa kättä" ;
 сарвоць:сарвоС TV_САС  "" ;
 сардалембась:сардалемба TV_ПЭБЮ  "sanoa tai tehdä oikeanmuotoisena, oivaltaa vaikeata tai tuntematonta" ;
@@ -3165,13 +3321,18 @@ LEXICON verbs
 саӈготамбась:саӈготамба TV_ПЭБЮ  "vyöttää korkealta" ;
 саӈготась:саӈгота TV_ИЛЕ  "vyöttää korkealta" ;
 саӈготась:саӈгота VR_ИЛЕ  "kohota korkealle" ;
+саӈоць:саӈоС IV_САС  "olla ilmeikkäällä katseella" ;
+саӈоць:саӈоС TV_САС  "seurata katseellaan" ;
+себекуць:себекуС TV_САС  "kiinnittää liian kauan huomiotaan" ;
 севабтась:севабта TV_ИЛЕ  "sulkea syliinsä" ;
 севолпась:севолпа TV_ПЭБЮ  "sulkea syliinsä, syleillä" ;
 севолюрць:севолюр IV_ТИР  "" ;
+седась:седа TV_ЛАХАНА  "kiinnittää lasta kehtoon nahkapeitteeseen käärittynä" ;
 седотамбась:седотамба TV_ПЭБЮ  "valmistaa pientä peitettä porontaljasta kehtoa varten" ;
 седотась:седота TV_ИЛЕ  "valmistaa pientä peitettä porontaljasta kehtoa varten" ;
 седяӈоворць:седяӈовор IV_ТИР  "" ;
 седяӈомзь:седяӈом IV_ӇАРАМ  "" ;
+седяӈоць:седяӈоС TV_САС  "peittää huurteella" ;
 сеелабтабась:сеелабтаба TV_ПЭБЮ  "laittaa koteloon" ;
 сеелабтась:сеелабта TV_ИЛЕ  "laittaa koteloon" ;
 сеетабтась:сеетабта TV_ИЛЕ  "laittaa koteloon" ;
@@ -3224,6 +3385,7 @@ LEXICON verbs
 сертабась:сертаба TV_ПЭБЮ  "tehdä" ;
 сертась:серта TV_ИЛЕ  "tehdä" ;
 серцяламзь:серцялам IV_ӇАРАМ  "menettää, hätääntyä, muuttua syyttömäksi" ;
+сесабарць:сесабар IV_ТИР  "kahistella, nahista" ;
 сесабтась:сесабта TV_ИЛЕ  "panna kahisemaan, aiheuttaa kahinaa" ;
 сесадась:сесада IV_ЛАХАНА  "alkaa kahistaa, nahistaa" ;
 сесадась:сесада TV_ИЛЕ  "kouraista, kaapata äkkiä" ;
@@ -3358,6 +3520,7 @@ LEXICON verbs
 сомдась:сомда TV_ИЛЕ  "täyttää pyyntö vain silmänlumeeksi" ;
 сопыбтась:сопыбта TV_ИЛЕ  "ammentaa" ;
 сорабтась:сорабта VR_ИЛЕ  "juosta ravia" ;
+сороць:сороС IV_САС  "mennä ontuen" ;
 сось:со IV_НУ/ТУ  "kuulua" ;
 сосяламзь:сосялам IV_ӇАРАМ  "muuttua tunteettomaksi" ;
 сосялворць:сосялвор IV_ТИР  "" ;
@@ -3366,10 +3529,12 @@ LEXICON verbs
 сохомдась:сохомда TV_ИЛЕ  "tukahduttaa" ;
 сохортась:сохорта IV_ЛАХАНА  "olla iso" ;
 сохорць:сохор IV_ТИР  "ammentaa" ;
+соць:соС TV_САС  "viskata, hankkia, poimia, syödä kaiken" ;
 соябась:сояба TV_ПЭБЮ  "saada, saavuttaa, suorittaa" ;
 соябтась:соябта TV_ИЛЕ  "synnyttää" ;
 соядась:сояда IV_ИЛЕ  "märehtiä" ;
 соямдась:соямда TV_ИЛЕ  "parantaa" ;
+соярась:сояра VR_ИЛЕ  "peittyä kasveilla, kasvaa täyteen" ;
 сояртась:соярта TV_ИЛЕ  "kasvattaa yhteen" ;
 соясь:соя IV_ИЛЕ  "syntyä" ;
 суворць:сувор IV_ТИР  "parantua, tervehtyä" ;
@@ -3383,6 +3548,7 @@ LEXICON verbs
 судралтабась:судралтаба TV_ПЭБЮ  "hytkyttää" ;
 судралтамбась:судралтамба TV_ПЭБЮ  "hytkyttää" ;
 судралтась:судралта TV_ИЛЕ  "hytkyttää" ;
+судрась:судра IV_ИЛЕ  "hytkyä, nytkyä" ;
 сулабась:сулаба TV_ПЭБЮ  "tasaannuttaa nahkoja kiiloilla" ;
 суламзь:сулам VR_ӇАРАМ  "kaatua etuosalle" ;
 сулась:сула TV_ИЛЕ  "tasata porontaljaa leikkaamalla ja ompelemalla" ;
@@ -3391,6 +3557,7 @@ LEXICON verbs
 сулортась:сулорта IV_ЛАХАНА  "korjata, kunnostaa, remontoida" ;
 сулорць:сулор TV_ТИР  "korjata (puuesineitä)" ;
 сулорць:сулор TV_ТИР  "korjata, kunnostaa, paikata" ;
+сулоць:сулоС IV_САС  "kyyristyä painon alla" ;
 сулць:сул VR_ТИР  "alkaa kuulua" ;
 сумгадась:сумгада IV_ЛАХАНА  "upota, upottautua" ;
 сумгадтамбась:сумгадтамба TV_ПЭБЮ  "laskea, upottaa" ;
@@ -3399,8 +3566,10 @@ LEXICON verbs
 сумдась:сумда TV_ИЛЕ  "parantaa" ;
 сумзь:сум IV_ӇАРАМ  "parantua" ;
 сумкадалтабась:сумкадалтаба TV_ПЭБЮ  "" ;
+сурабарць:сурабар IV_ТИР  "onnahdella, liikata vähän" ;
 суръясь:суръя IV_ИЛЕ  "näkyä korkeana istuessaan" ;
 сусадась:сусада TV_ИЛЕ  "kuluttaa, tuhlata" ;
+сусась:суса IV_ИЛЕ  "kulua, loppua" ;
 сухубтась:сухубта TV_ИЛЕ  "tuupata (kyynärpäällä)" ;
 сухудаӈгось:сухудаӈго IV_СЯНАКУ  "tuuppia, töniä" ;
 суюдась:суюда IV_ИЛЕ  "ei kasvaa täysikäiseksi poroksi" ;
@@ -3452,6 +3621,7 @@ LEXICON verbs
 сыӈгосялмдесь:сыӈгосялмде TV_ИЛЕ  "tehdä sanattomaksi, äänettömäksi, sammuttaa" ;
 сэберуймдась:сэберуймдась TV_ИЛЕ  "tehdä itsepäiseksi" ;
 сэбинесь:сэбине IV_ИЛЕ  "olla itsepäinen" ;
+сэбтероць:сэбтероС IV_САС  "olla liian jäykkäluontoinen" ;
 сэвоˮлабтабась:сэвоˮлабтаба TV_ПЭБЮ  "" ;
 сэвоˮлабтась:сэвоˮлабта TV_ИЛЕ  "tuijottaa, silmätä" ;
 сэвсяламдеӈгось:сэвсяламдеӈго IV_СЯНАКУ  "sokaista, häikäistä, aiheuttaa silmäsairautta" ;
@@ -3463,6 +3633,8 @@ LEXICON verbs
 сэдакось:сэдако IV_СЯНАКУ  "ommella pikkuesineitä" ;
 сэдакурць:сэдакур IV_ТИР  "ommella pikkuesineitä" ;
 сэдакурць:сэдокур IV_ТИР  "ommella pikkuesineitä" ;
+сэдакуць:сэдакуС TV_САС  "ommella, kirjailla" ;
+сэдакуць:сэдокуС TV_САС  "ommella, kirjailla" ;
 сэдарабтась:сэдарабта TV_ИЛЕ  "ompeluttaa" ;
 сэдась:сэда TV_ЛАХАНА  "ommella" ;
 сэдбась:сэдба TV_ПЭБЮ  "ommella" ;
@@ -3501,6 +3673,8 @@ LEXICON verbs
 сэхэдась:сэхэда TV_ЛАХАНА  "vihata" ;
 сэхэкабтась:сэхэкабта IV_ЯˮАВЛУ  "olla iljettävä, olla vihattu" ;
 сэхэкось:сэхэко IV_СЯНАКУ  "osoittaa vihaa" ;
+сэхэкуць:сэхэкуС TV_САС  "olla vihamielinen" ;
+сэхэнась:сэхэна IV_ИЛЕ  "korista, kähistä" ;
 сэясь:сэя IV_ЛАХАНА  "upota veteen" ;
 сэӈгаёрць:сэӈгаёр IV_ТИР  "" ;
 сюˮлабтёсь:сюˮлабтё IV_ВАДЮ  "kuohua, kohista" ;
@@ -3512,6 +3686,7 @@ LEXICON verbs
 сюрбась:сюрба VR_ЛАХАНА  "lähteä juoksuun (ihmisestä)" ;
 сюрбелась:сюрбела VR_ЛАХАНА  "ryhtyä juoksemaan" ;
 сюрбелась:сюрмбела VR_ЛАХАНА  "ryhtyä juoksemaan" ;
+сюрберъебтесь:сюрберъебте IV_ИЛЕ  "juosta vähän aikaa" ;
 сюрбялесь:сюрбяле TV_ИЛЕ  "juosta nopeasti, käväistä juosten" ;
 сюреˮлесь:сюреˮле TV_ИЛЕ  "kierittää, pyörittää, käydä ympäri" ;
 сюредесь:сюреде IV_ИЛЕ  "kääntyä eri suuntiin" ;
@@ -3551,6 +3726,7 @@ LEXICON verbs
 сядолась:сядола TV_ИЛЕ  "hioa kiveä sieraksi,viimistellä sormuksen leveää osaa" ;
 сядорць:сядор IV_ТИР  "kaunistua, sieventyä, valmistua, kypsyä" ;
 сядоць:сядоС IV_САС  "olla kaunis" ;
+сядоць:сядоС TV_САС  "omistaa rantana" ;
 сядхалабась:сядхалаба TV_ПЭБЮ  "kammeta" ;
 сядхалебась:сядхалеба TV_ПЭБЮ  "kammeta" ;
 сядхалесь:сядхале TV_ИЛЕ  "kammeta" ;
@@ -3573,17 +3749,22 @@ LEXICON verbs
 сялкадтась:сялкадта TV_ИЛЕ  "heittää kilinällä, sulattaa" ;
 сялнась:сялна IV_ЛАХАНА  "siristä, sirkuttaa" ;
 сялрамбась:сялрамба TV_ПЭБЮ  "vääntää, kiertää kovasti" ;
+сялрась:сялра TV_ИЛЕ  "vääntää liikaa" ;
+сялрась:сялра VR_ИЛЕ  "helkkyä, helistä" ;
 сямбилтась:сямбилта IV_ЛАХАНА  "olla ilmeetön" ;
 сямдрамбась:сямдрамба TV_ПЭБЮ  "savustaa, palvata" ;
 сямдрась:сямдра TV_ИЛЕ  "savustaa, palvata" ;
+сямдъясь:сямдъя IV_ЯˮАВЛУ  "tuoksua savustetulle" ;
 сянакось:сянако IV_СЯНАКУ  "leikkiä" ;
 сянакуˮлась:сянакуˮла TV_ЛАХАНА  "alkaa leikkiä" ;
 сянакултамбась:сянакултамба TV_ПЭБЮ  "panna pelamaan, ottaa peliin" ;
 сянакултась:сянакулта TV_ИЛЕ  "panna pelamaan, ottaa peliin" ;
 сянакурць:сянакур IV_ТИР  "leikkiä, pelata" ;
+сянакуць:сянакуС TV_САС  "leikkiä, huvitella" ;
 сянзиресь:сянзире VR_ИЛЕ  "paleltua" ;
 сянзь:сян TV_МИН  "sääliä" ;
 сянорць:сянор IV_ТИР  "sääliä" ;
+сяноць:сяноС IV_САС  "olla luisilla levyillä" ;
 сярась:сяра IV_ЯˮАВЛУ  "olla sidottuna" ;
 сярась:сяра TV_ЛАХАНА  "sitoa" ;
 сяркабтась:сяркабта VR_ИЛЕ  "vingahtaa, vinkaista" ;
@@ -3613,14 +3794,17 @@ LEXICON verbs
 сятакабтась:сятакабта IV_ЯˮАВЛУ  "olla epämukava, olla häpeällinen" ;
 сятакабтёсь:сятакабтё IV_ВАДЮ  "olla epämukava, olla häpeällinen" ;
 сятокуˮлась:сятокуˮла TV_ЛАХАНА  "ryhtyä heittämään" ;
+сятокуць:сятокуС TV_САС  "purra, kaluta" ;
 сятолабтась:сятолабта TV_ИЛЕ  "antaa sattumalta näykkäistä" ;
 сяторорць:сяторор IV_ТИР  "pistellä, purra" ;
 сяторпась:сяторпась TV_ПЭБЮ  "purra" ;
 сяторць:сятор TV_ТИР  "purra" ;
+сяхабарць:сяхабар IV_ТИР  "helistä, helskyä, kilistä" ;
 сяхабтась:сяхабта VR_ИЛЕ  "antaa merkki, että ei nuku" ;
 сяхабтёсь:сяхабтё IV_ВАДЮ  "helisyttää, helskyttää" ;
 сяхаворць:сяхавор IV_ТИР  "antaa merkki, että ei nuku" ;
 сяхалтась:сяхалта IV_ЛАХАНА  "olla kulunut" ;
+сяханась:сяхана IV_ИЛЕ  "helistä, helskyä, kilistä" ;
 сяхаребтембась:сяхаребтемба TV_ПЭБЮ  "pidentää, venytellä" ;
 сяхаребтесь:сяхаребте TV_ИЛЕ  "pidentää, venytellä" ;
 сяхарибтембась:сяхарибтемба TV_ПЭБЮ  "kaataa nopeasti ulos helkkyviä esineitä" ;
@@ -3653,14 +3837,17 @@ LEXICON verbs
 таˮнесь:таˮне VR_ИЛЕ  "sakeutua, tiivistyä" ;
 таˮньрембась:таˮньремба TV_ПЭБЮ  "tiivistää, sakeuttaa, tyynnyttää" ;
 таˮньресь:таˮньре TV_ИЛЕ  "tiivistää, sakeuttaa, tyynnyttää" ;
+таˮнёӈоць:таˮнёӈоС IV_САС  "olla palmikolla" ;
 табˮлась:табˮла TV_ИЛЕ  "kytkeä, pidättää, pysäyttää" ;
 табˮлась:табˮла VR_ИЛЕ  "tarttua, kytkeytyä" ;
 табадась:табада TV_ИЛЕ  "näyttää, osoittaa, käskeä, vaatia, neuvoa" ;
+табарць:табар IV_ТИР  "peuhata, pelehtiä" ;
 табдюрць:табдюр IV_ТИР  "olla koukussa, pysähtyä" ;
 табдёсь:табдё IV_ВАДЮ  "olla koukussa, pysähtyä" ;
 табекось:табеко IV_СЯНАКУ  "näyttää, osoittaa, käskeä, sallia, suoda, neuvoa" ;
 табекурць:табекур IV_ТИР  "näyttää, osoittaa, käskeä" ;
 табекутась:табекута IV_ЛАХАНА  "näyttää, osoittaa, käskeä" ;
+табекуць:табекуС TV_САС  "toivoa hyvää matkaa" ;
 табелабтась:табелабта TV_ИЛЕ  "heikentää, koikkelehtaa" ;
 табелтась:табелта IV_ЛАХАНА  "olla laskettu alas" ;
 табкабтась:табкабта IV_ЯˮАВЛУ  "olla esine johon kosketaan" ;
@@ -3672,6 +3859,7 @@ LEXICON verbs
 табороворць:таборовор IV_ТИР  "muuttua roskaiseksi, umpeutua" ;
 таборомбась:таборомба TV_ПЭБЮ  "siivota, siistiä" ;
 таборомзь:табором IV_ӇАРАМ  "" ;
+табороць:табороС TV_САС  "roskata" ;
 таборцяламзь:таборцялам IV_ӇАРАМ  "muuttua siistiksi, roskattomaksi" ;
 таботамбась:таботамба TV_ПЭБЮ  "täyttää hiekalla" ;
 таботась:табота TV_ИЛЕ  "täyttää hiekalla" ;
@@ -3690,6 +3878,7 @@ LEXICON verbs
 табцась:табца VR_ЛАХАНА  "syttyä (palamaan)" ;
 табцорць:табцор IV_ТИР  "syttyä" ;
 табэдась:табэда TV_ИЛЕ  "näyttää, osoittaa, käskeä, vaatia, neuvoa" ;
+тавабарць:тавабар IV_ТИР  "hidastella, olla verkkainen" ;
 тавабтёсь:тавабтё IV_ВАДЮ  "olla pitkäveteinen, olla verkkainen" ;
 тавдась:тавда TV_ИЛЕ  "voidella, tahria" ;
 тавдась:тавда TV_ИЛЕ  "siistiä, pakata" ;
@@ -3773,6 +3962,7 @@ LEXICON verbs
 талмомзь:талмом IV_ӇАРАМ  "" ;
 талмортась:талморта IV_ЛАХАНА  "olla pilvinen" ;
 талморць:талмор VR_ТИР  "pimetä, pimentyä" ;
+талмоць:талмоС IV_САС  "sumentua ja seljetä" ;
 талмэдась:талмэда VR_ИЛЕ  "synkistyä, varjostua" ;
 талорць:талор IV_ТИР  "varastaa" ;
 талрась:талра IV_ЛАХАНА  "järjestää naalijahti" ;
@@ -3780,6 +3970,7 @@ LEXICON verbs
 талтась:талта TV_ИЛЕ  "paistaa" ;
 талтаӈгось:талтаӈго IV_СЯНАКУ  "paistaa, paahtaa" ;
 тамбась:тамба TV_ПЭБЮ  "tuoda, antaa" ;
+тамдабарць:тамдабар IV_ТИР  "kiemurrella" ;
 тамдалъебтембась:тамдалъебтемба TV_ПЭБЮ  "päärmätä, taivuttaa" ;
 тамдалъебтесь:тамдалъебте TV_ИЛЕ  "päärmätä, taivuttaa" ;
 тамдапась:тамдапа TV_ПЭБЮ  "ruhjoa, rutistaa, rypistää" ;
@@ -3873,6 +4064,7 @@ LEXICON verbs
 тарпрамбась:тарпрамба TV_ПЭБЮ  "viedä ulos, poistaa" ;
 тарпыцяламзь:тарпыцялам IV_ӇАРАМ  "muuttua sisäänkäynnittömäksi" ;
 таруˮлась:таруˮла TV_ИЛЕ  "" ;
+таруць:таруС TV_САС  "käyttää" ;
 тарцяворць:тарцявор IV_ТИР  "muuttua (kohtalaiseksi)" ;
 тарцяламзь:тарцялам IV_ӇАРАМ  "muuttua karvavieruksi, menettää karvansa" ;
 тарцялворць:тарцялвор IV_ТИР  "tulla karvattomaksi" ;
@@ -3884,11 +4076,13 @@ LEXICON verbs
 тасехэймдась:тасехэймда TV_ИЛЕ  "kellata, kellastaa, kellastuttaa" ;
 тасламбась:тасламба TV_ПЭБЮ  "päättää, ratkaista, harkita" ;
 таслась:тасла TV_ИЛЕ  "päättää, ratkaista, harkita" ;
+тасоць:тасоС TV_САС  "syödä" ;
 тась:та TV_НУ  "tuoda, antaa" ;
 тасьторць:тасьтор IV_ТИР  "ähistä" ;
 тасяхалутась:тасяхаˮлюта IV_ЛАХАНА  "ei haluta ryhtyä mitään tekemään" ;
 тасяхалутась:тасяхалута IV_ЛАХАНА  "ei haluta ryhtyä mitään tekemään" ;
 татурць:татур IV_ТИР  "kipinöidä" ;
+татуць:татуС IV_САС  "kipinöidä, säkenöidä" ;
 тахабтась:тахабта TV_ИЛЕ  "rikkoa, hajottaa, vaihtaa (rahaa)" ;
 тахалабтабась:тахалабтаба TV_ПЭБЮ  "möyhentää, harventaa, levittää" ;
 тахалабтась:тахалабта TV_ИЛЕ  "myöhentää, harventaa, levittää, heittää hajalle" ;
@@ -3903,6 +4097,7 @@ LEXICON verbs
 тахарумдась:тахарумда TV_ИЛЕ  "sekoittaa, tehdä erilaiseksi" ;
 тахарумзь:тахарум IV_ӇАРАМ  "" ;
 таютась:таюта IV_ЛАХАНА  "ei viitsiä" ;
+таюць:тaюС TV_САС  "kammota, pelätä" ;
 таяртамбась:таяртамба TV_ПЭБЮ  "halkaista, ajaa tieltä, ajaa erikseen" ;
 таяртась:таярта TV_ИЛЕ  "halkaista, ajaa tieltä" ;
 таётась:таёта IV_ЛАХАНА  "olla koivuntuohesta suojakerroksella" ;
@@ -3923,8 +4118,10 @@ LEXICON verbs
 таӈгумдась:таӈгумда TV_ИЛЕ  "tehdä laveaksi, laventaa, vapauttaa, perata, puhdistaa" ;
 таӈгумзь:таӈгум IV_ӇАРАМ  "" ;
 таӈомзь:таӈом IV_ӇАРАМ  "" ;
+таӈоць:таӈоС IV_САС  "asua kesäleirissä" ;
 таӈумзь:таӈум IV_ӇАРАМ  "" ;
 таӈурць:таӈур IV_ТИР  "kulua, hankautua" ;
+тебарць:тебар TV_ТИР  "naulata" ;
 тебась:теба IV_ЛАХАНА  "törmätä, osua" ;
 тебась:теба TV_ПЭБЮ  "naulita, tukkia" ;
 тебдембась:тебдемба TV_ПЭБЮ  "naulata, kiinnittää, napittaa" ;
@@ -3945,6 +4142,8 @@ LEXICON verbs
 тебыбтась:тебыбта TV_ИЛЕ  "raapaista, koskettaa" ;
 тебэсь:тебэ IV_ИЛЕ  "olla oikullinen, olla juonikas" ;
 тедамбась:тедамба TV_ПЭБЮ  "vetää esiin" ;
+тедась:теда TV_ЛАХАНА  "vetää esiin (vedestä)" ;
+тедась:теда VR_ЛАХАНА  "poistua vedestä" ;
 тедкуˮлась:тедкуˮла TV_ЛАХАНА  "alkaa vetää esiin" ;
 теднась:тедна VR_ЛАХАНА  "tulla vedestä ulos" ;
 теднорць:теднор IV_ТИР  "tulla vedestä ulos" ;
@@ -3982,6 +4181,8 @@ LEXICON verbs
 тецьхамдембась:тецьхамдемба TV_ПЭБЮ  "kylmentää" ;
 тецьхамдесь:тецьхамде TV_ИЛЕ  "kylmentää" ;
 тецясь:теця IV_ЯˮАВЛУ  "olla kylmä" ;
+тибарць:тибар TV_ТИР  "pyydellä, anella" ;
+тибась:тиба TV_ЛАХАНА  "suostutella, pyydellä" ;
 тибтарць:тибтар TV_ТИР  "pelottaa lentoon, nostaa jaloille, panna poistumaan" ;
 тибтарць:тибтар IV_ТИР  "syöksyä ylös, karata pystyyn" ;
 тибтворць:тибтвор IV_ТИР  "lennellä, ampaista" ;
@@ -4009,6 +4210,7 @@ LEXICON verbs
 тидхалембась:тидхалемба TV_ПЭБЮ  "ohjata, suunnata, oikaista" ;
 тидхалесь:тидхале TV_ИЛЕ  "ohjata, suunnata, oikaista" ;
 тидхалесь:тидхале VR_ИЛЕ  "ohjautua, suuntautua" ;
+тидцюць:тидцюС TV_САС  "olla pahastumisen syyksi" ;
 тидютась:тидюта IV_ЛАХАНА  "olla kateellinen" ;
 тийбтембась:тийбтемба TV_ПЭБЮ  "kammata" ;
 тийбтесь:тийбте TV_ИЛЕ  "kammata" ;
@@ -4068,6 +4270,7 @@ LEXICON verbs
 тобкалась:тобкала IV_ЯˮАВЛУ  "olla nöyryytetty" ;
 тобкалась:тобкала TV_ИЛЕ  "nöyryyttää" ;
 тобндорць:тобндор IV_ТИР  "kyhnyttää kaviolla" ;
+тоброць:тоброС TV_САС  "omistaa poronnahkasaappaita" ;
 тодакось:тодако IV_СЯНАКУ  "kuivua, lämmitä" ;
 тодалаӈгось:тодалаӈго IV_СЯНАКУ  "lämmittää" ;
 тоднолтась:тоднолта TV_ИЛЕ  "oksennuttaa" ;
@@ -4094,6 +4297,8 @@ LEXICON verbs
 тондабась:тондаба TV_ПЭБЮ  "peittää, kattaa" ;
 тондась:тонда TV_ИЛЕ  "peittää" ;
 тондась:тонда VR_ИЛЕ  "peittyä, piilottua" ;
+тоноць:тоноС IV_САС  "puhua jokaiselle erikseen samaa asiaa" ;
+торабтадоць:торабтадоС TV_САС  "olla puhditusesineenä" ;
 торабтась:торабта TV_ИЛЕ  "lääkitä, parantaa" ;
 торамданась:торамдана IV_ЛАХАНА  "maatua, mataloitua" ;
 торамзь:торам IV_ӇАРАМ  "mataloitua" ;
@@ -4139,6 +4344,7 @@ LEXICON verbs
 тохось:тохо IV_ЮХУ  "oppia" ;
 тоцесь:тоце TV_ИЛЕ  "" ;
 тоярць:тояр IV_ТИР  "kolkuttaa, kalista, tykyttää, pomppia" ;
+тояръебтесь:тояръебте IV_ИЛЕ  "kalkutella, kalkuttaa, kopistella, koputella" ;
 тоётась:тоёта IV_ЛАХАНА  "olla naistenvaatteissa" ;
 тоёць:тоёС TV_САС  "käyttää peitteenä" ;
 туˮлелась:туˮлела VR_ЛАХАНА  "alkaa valjeta, alkaa vaaleta" ;
@@ -4151,6 +4357,7 @@ LEXICON verbs
 тудакунзь:тудакун IV_МИН  "kerätä sieniä, sienestää" ;
 тудондась:тудонда IV_ЛАХАНА  "pyytää porontalia" ;
 тудондорць:тудондор IV_ТИР  "pyytää porontalia" ;
+тудоць:тудоС IV_САС  "olla rasvainen" ;
 туйбтась:туйбта VR_ИЛЕ  "kumartua vähän" ;
 туйкумбась:туйкумба IV_ПЭБЮ  "kumarrella, kumartaa" ;
 туйкумзь:туйкум IV_ӇАРАМ  "kumartaa" ;
@@ -4175,6 +4382,7 @@ LEXICON verbs
 туселтась:туселта IV_ЛАХАНА  "olla himmeä, samea" ;
 тусьлабтабась:тусьлабтаба TV_ПЭБЮ  "surra, murehtia" ;
 тутась:тута IV_ЛАХАНА  "tulla (Fut)" ;
+туць:туС IV_САС  "loimuta, palaa" ;
 туёлабтась:туёлабта TV_ИЛЕ  "panna kallistamaan päätään" ;
 туёмзь:туём VR_ӇАРАМ  "kallistaa päätään, rukoilla" ;
 туёць:туёС IV_САС  "kallistaa päätään, rukoilla" ;
@@ -4309,6 +4517,7 @@ LEXICON verbs
 тэнидесь:тэниде VR_ИЛЕ  "kiskaista itsensä irti, nytkähtää" ;
 тэрабась:тэраба TV_ПЭБЮ  "valita, siivilöidä" ;
 тэрась:тэра TV_ИЛЕ  "valita" ;
+тэрась:тэра VR_ИЛЕ  "laskeutua, erottautua" ;
 тэраӈгось:тэраӈго IV_СЯНАКУ  "valita, siilata" ;
 тэркабтабась:тэркабтаба TV_ПЭБЮ  "" ;
 тэркабтась:тэркабта TV_ИЛЕ  "sijoittaa" ;
@@ -4430,6 +4639,7 @@ LEXICON verbs
 тяӈгадасялворць:тяӈгадасялвор IV_ТИР  "souketa, heikentyä, muuttua hinteläksi, laihaksi" ;
 тёбидесь:тёбиде TV_ИЛЕ  "repäistä" ;
 тёбсяламзь:тёбсялам IV_ӇАРАМ  "muuttua epämukavaksi, karkeaksi, kömpelöksi" ;
+тёбсясь:тёбся IV_ЯˮАВЛУ  "olla epämukava, olla karkeatekoinen" ;
 тёбтась:тёбта TV_ИЛЕ  "ei lentää perille, lentää ohi päämäärästään" ;
 тёбяртембась:тёбяртемба TV_ПЭБЮ  "riisua aukaisematta" ;
 тёбяртесь:тёбярте TV_ИЛЕ  "riisua aukaisematta" ;
@@ -4438,6 +4648,7 @@ LEXICON verbs
 тёмбёдась:тёмбёда IV_ИЛЕ  "olla huolellinen, olla täsmällinen" ;
 тёнась:тёна IV_ЯˮАВЛУ  "kuivua, riippua kuivumassa" ;
 тёндеротабась:тёндеротаба TV_ИЛЕ  "" ;
+тёндероць:тёндероС TV_САС  "olla jukolla ja selkäosalla" ;
 тёрдесь:тёрде TV_ИЛЕ  "ärjyä, huutaa" ;
 тёреˮлесь:тёреˮле TV_ИЛЕ  "kutsua" ;
 тёренорць:тёренор IV_ТИР  "kirkua, kiljua" ;
@@ -4473,7 +4684,9 @@ LEXICON verbs
 хаˮябтарамбась:хаˮябтарамба TV_ПЭБЮ  "pakottaa jäämään" ;
 хабˮлортась:хабˮлорта IV_ЛАХАНА  "olla pullistettu" ;
 хабартась:хабарта IV_ЛАХАНА  "nylkeä, kuoria" ;
+хабарць:хабар TV_ТИР  "kuoria, nylkeä" ;
 хабензахамдась:хабензахамда TV_ИЛЕ  "" ;
+хабероць:хабероС IV_САС  "olla jäntterä, olla tanakka" ;
 хабидембась:хабидемба TV_ПЭБЮ  "kiskaista, raapia, kuoria" ;
 хабидесь:хабиде TV_ИЛЕ  "kiskaista, raapia, kuoria" ;
 хабилась:хабила VR_ЛАХАНА  "rapistua, laskeutua" ;
@@ -4501,6 +4714,7 @@ LEXICON verbs
 хабтёсь:хабтё IV_ВАДЮ  "sammua, tukehtua" ;
 хабтёсь:хабтё IV_ВАДЮ  "olla hautomasaa, olla haudutuksessa" ;
 хабцянзяламзь:хабцянзялам IV_ӇАРАМ  "parantua, tulla terveeksi" ;
+хабцяӈоць:хабцяӈоС IV_САС  "olla sairas, sairastaa" ;
 хабэвкунзь:хабэвкун IV_МИН  "metsästää riekkoja" ;
 хабякабтась:хабякабта IV_ЯˮАВЛУ  "olla kunnollinen" ;
 хабякабтёсь:хабякабтё IV_ВАДЮ  "olla kunnollinen" ;
@@ -4522,6 +4736,7 @@ LEXICON verbs
 хадабтась:хадабта VR_ИЛЕ  "valaistua" ;
 хадабтёсь:хадабтё IV_ВАДЮ  "olla valaistu" ;
 хадабтёсь:хадабтё IV_ВАДЮ  "syödä vastenmielisesti, syödä haarukalla" ;
+хадалоць:хадалоС TV_САС  "rasvata" ;
 хадамбась:хадамба IV_ПЭБЮ  "olla isoäiti" ;
 хадамбась:хадамба IV_ПЭБЮ  "tuntea epämiellyttävää makua rasvaisen ruoan jälkeen" ;
 хадамзь:хадам IV_ӇАРАМ  "tulla isoäidiksi" ;
@@ -4539,6 +4754,7 @@ LEXICON verbs
 хадехорць:хадехор IV_ТИР  "liimautua, takeltua, tarttua" ;
 хадиторць:хадитор IV_ТИР  "" ;
 хадкэсь:хадкэ IV_ИЛЕ  "tapahtua, sattua" ;
+хадсясь:хадся IV_ЯˮАВЛУ  "оlla ilman lumimyrskyä, olla selkeä" ;
 хадумзь:хадум IV_ӇАРАМ  "tulla lumimyrsky, alkaa pyryttää" ;
 хадылабтабась:хадылабтаба TV_ПЭБЮ  "" ;
 хадылабтамбась:хадылабтамба TV_ПЭБЮ  "ruokkia, ravita" ;
@@ -4644,8 +4860,10 @@ LEXICON verbs
 хамбась:хамба IV_ПЭБЮ  "olla tajuton, olla pyörtynyt" ;
 хамбиˮлесь:хамбиˮле TV_ИЛЕ  "kääntää, kiertää" ;
 хамбидесь:хамбиде VR_ИЛЕ  "pyörähtää, käännähtää" ;
+хамбикуць:хамбикуС TV_САС  "katsoa joka puolelta, perehtyä, tutustua" ;
 хамбинесь:хамбине IV_ИЛЕ  "kieriä, pyöriä, hyöriä" ;
 хамболабтась:хамболабта TV_ИЛЕ  "roskata" ;
+хамболоць:хамболоС TV_САС  "roskata" ;
 хамболтась:хамболта IV_ЛАХАНА  "olla roskainen" ;
 хамбхалебась:хамбхалеба TV_ПЭБЮ  "" ;
 хамбхалесь:хамбхале TV_ИЛЕ  "kääntää (jotain painavaa), kaataa kumoon" ;
@@ -4677,6 +4895,7 @@ LEXICON verbs
 ханерць:ханер IV_ТИР  "liikkua vapaasti ja helposti, juosta, tuumailla" ;
 ханерцяламбась:ханерцяламба IV_ПЭБЮ  "olla tietämätön, ei olla asiantunteva" ;
 ханерцяламзь:ханерцялам IV_ӇАРАМ  "muuttua tietämättömäksi" ;
+ханеръебтесь:ханеръебте IV_ИЛЕ  "liikkua jonkun aikaa vapaasti (poroista)" ;
 ханесь:хане IV_ИЛЕ  "metsästää" ;
 ханзебтембась:ханзебтемба TV_ПЭБЮ  "hyydyttää, jäähdyttää, lakkauttaa" ;
 ханзебтесь:ханзебте TV_ИЛЕ  "hyydyttää, jäähdyttää, lakkauttaa, taltuttaa" ;
@@ -4704,6 +4923,10 @@ LEXICON verbs
 ханондаӈгурць:ханондаӈгур IV_ТИР  "valmistella rekiä" ;
 ханондорць:ханондор IV_ТИР  "valmistella rekiä" ;
 ханорць:ханор IV_ТИР  "pyytää lainaa" ;
+ханоць:ханоС TV_САС  "käyttää nartan sijasta" ;
+ханоць:ханоС TV_САС  "tuoda veriuhri, murhata" ;
+хансясь:ханся IV_ЯˮАВЛУ  "olla ilman rekeä, olla kiinteä (elintavalta)" ;
+хантась:ханта IV_ЛАХАНА  "mennä (fut.)" ;
 хануйˮларамбась:хануйˮларамба IV_ПЭБЮ  "sairastaa, potea" ;
 хануйˮларась:хануйˮлара VR_ИЛЕ  "sairastua" ;
 ханьторць:ханьтор IV_ТИР  "palella" ;
@@ -4714,6 +4937,7 @@ LEXICON verbs
 хапелась:хапела VR_ЛАХАНА  "alkaa laiskotella" ;
 харабтась:харабта TV_ИЛЕ  "kaataa ulos" ;
 харабтёсь:харабтё IV_ВАДЮ  "valua, tihkua, herua, juosta" ;
+харакуць:харакуС TV_САС  "ylittää kaikki joenpolvet, kertoa yksityiskohtaisesti" ;
 харбелась:харбела VR_ЛАХАНА  "tahtoa, alkaa toivoa" ;
 харбёдась:харбёда IV_ИЛЕ  "olla ahkera, olla työteliäs" ;
 харбёмзь:харбём IV_ӇАДИМ/ӇАРАМ  "muuttua ahkeraksi, tulla työteliääksi, tulla ahneeksi" ;
@@ -4724,9 +4948,11 @@ LEXICON verbs
 харвобтась:харвобта TV_ИЛЕ  "haluta, rakastaa" ;
 харвэдась:харвэда TV_ИЛЕ  "valmistaa paljon kauneita asioita" ;
 хардасяламзь:хардасялам IV_ӇАРАМ  "jäädä kodittomaksi" ;
+хардасясь:хардася IV_ЯˮАВЛУ  "olla koditon" ;
 хардатась:хардата IV_ЛАХАНА  "omistaa taloa" ;
 хардатась:хардата TV_ИЛЕ  "suoda talo" ;
 хардярць:хардяр TV_ТИР  "valmistaa uusi koristettu vyö" ;
+хардёйм:хардёймзь IV_ӇАРАМ  "muuttua hyvin ahnaaksi" ;
 харебась:хареба TV_ПЭБЮ  "pelottaa, ajaa" ;
 харейбтембась:харейбтемба TV_ПЭБЮ  "pelottaa, ajaa" ;
 харейбтесь:харейбте TV_ИЛЕ  "pelottaa, ajaa" ;
@@ -4757,6 +4983,7 @@ LEXICON verbs
 хароˮлась:хароˮла TV_ЛАХАНА  "alkaa käyttää veitsenä" ;
 харобтась:харобта TV_ИЛЕ  "valaa nopeasti" ;
 хароць:хароС TV_САС  "käyttää veitsenä" ;
+хароць:хароС TV_САС  "käyttää veitsenä" ;
 харпарць:харпар IV_ТИР  "loimuta, liekehtiä" ;
 харпорць:харпор IV_ТИР  "loimuta, liekehtiä" ;
 харпэдась:харпэда TV_ИЛЕ  "pestää puhtaaksi" ;
@@ -4781,6 +5008,7 @@ LEXICON verbs
 харябтась:харябта TV_ИЛЕ  "pelottaa" ;
 харёймдембась:харёймдемба TV_ПЭБЮ  "koukistaa" ;
 хасабалась:хасабала VR_ЛАХАНА  "alkaa kuiskata" ;
+хасабарць:хасабар IV_ТИР  "kuiskata, tehdä hitaasti" ;
 хасабтась:хасабта TV_ИЛЕ  "kuivattaa vähän" ;
 хасалтамбась:хасалтамбась TV_ПЭБЮ  "haihduttaa, kuluttaa" ;
 хасалтась:хасалта IV_ЛАХАНА  "pudota, vähetä, aleta, loppua" ;
@@ -4798,7 +5026,7 @@ LEXICON verbs
 хасимдась:хасимда IV_ИЛЕ  "viettää koeaikaa morsiamen vanhempien luona" ;
 хаскось:хаско IV_СЯНАКУ  "palloilla" ;
 хаснась:хасна IV_ЛАХАНА  "kuivua, kuihtua" ;
-хасотась:xaсота IV_ЛАХАНА  "saada ansiota šamanoinnista" ;
+хасотась:хасота IV_ЛАХАНА  "saada ansiota šamanoinnista" ;
 хасъясь:хасъя IV_ИЛЕ  "olla ketterä" ;
 хасыбтась:хасыбта IV_ИЛЕ  "kuivua" ;
 хась:ха IV_НУ  "kuolla" ;
@@ -4832,6 +5060,7 @@ LEXICON verbs
 хаюпась:хаюпа IV_ПЭБЮ  "olla naimisissa (naisesta)" ;
 хаюрць:хаюр IV_ТИР  "jäädä, jättäytyä, jäädä jälkeen" ;
 хаюрць:хаюр IV_ТИР  "pysyä, säilyä" ;
+хаюць:хаюС TV_САС  "ei pitää, ei haluta" ;
 хаябарць:хайбяр IV_ТИР  "liikkua hitaasti peräkkäin, puhua pitkäveteisesti" ;
 хаябарць:хаябар IV_ТИР  "liikkua hitaasti peräkkäin, puhua pitkäveteisesti" ;
 хаябтась:хаябта VR_ИЛЕ  "vieriä alas" ;
@@ -4868,6 +5097,7 @@ LEXICON verbs
 хаӈоворць:хаӈовор IV_ТИР  "leimahtaa" ;
 хаӈомдась:хаӈомда TV_ИЛЕ  "sytyttää" ;
 хаӈомзь:хаӈом IV_ӇАРАМ  "leimahtaa" ;
+хаӈороць:хаӈороС TV_САС  "tehdä veretön uhri, jättää haudalle ruokaa" ;
 хибимдась:хибимда IV_ИЛЕ  "käyttää puuttuvan sijasta" ;
 хибярисяламзь:хибярисялам IV_ӇАРАМ  "jäädä autioksi, asumattomaksi, jäädä ilman läheisiä, jäädä ilman aviomiestä" ;
 хибярисялворць:хибярисялвор IV_ТИР  "muuttua väettömäksi, autioksi, jäädä ilman aviomiestä" ;
@@ -4884,6 +5114,7 @@ LEXICON verbs
 хоˮлесадась:хоˮлесада IV_ЛАХАНА  "seisoa kumarassa" ;
 хобакунзь:хобакун TV_МИН  "leikata leivänkuorta" ;
 хобанорцяламзь:хобанорцялам IV_ӇАРАМ  "muuttua pilvettömäksi, selkeäksi, vaihtua ulkonäöstään" ;
+хобарць:хобар IV_ТИР  "peittyä nahalla tai kalvolla tai kedellä" ;
 хобасяламзь:хобасялам IV_ӇАРАМ  "jäädä ilman nahkaa, peitettä" ;
 хобмбась:хобмба TV_ПЭБЮ  "kuoria" ;
 хобндась:хобнда IV_ЛАХАНА  "pyytää taljaa" ;
@@ -4973,7 +5204,10 @@ LEXICON verbs
 хуˮмарць:хуˮмар IV_ТИР  "juosta ylittäen esteitä" ;
 хубаралтамбась:хубаралтамба TV_ПЭБЮ  "nostaa, pyöristää" ;
 хубаралтась:хубаралта TV_ИЛЕ  "nostaa, pyöristää" ;
+хубарась:хубара VR_ЯˮАВЛУ  "tulla vähän kuperaksi" ;
 хубартась:хубарта IV_ЛАХАНА  "olla kupera" ;
+хубарць:хубар IV_ТИР  "kaikua (kalkutuksesta)" ;
+хубарць:хубар VR_ТИР  "nousta vähän, pyöristyä" ;
 хубкадарць:хубкадар IV_ТИР  "mätkähtää, lätsähtää" ;
 хубкадась:хубкада IV_ЛАХАНА  "kaatua romahtaen, mätkähtää" ;
 хубкадтамбась:хубкадтамба TV_ПЭБЮ  "pudotella kolauksella, romahtaa" ;
@@ -5008,6 +5242,8 @@ LEXICON verbs
 хурабась:хураба TV_ПЭБЮ  "sitoa kiinni" ;
 хурабтёсь:хурабтё IV_ВАДЮ  "olla lystikäs" ;
 хурамбась:хурамба TV_ПЭБЮ  "häiritä, vaivata" ;
+хурдамбась:хурдамба TV_ПЭБЮ  "juoda nopeasti" ;
+хурдась:хурда TV_ИЛЕ  "juoda nopeasti" ;
 хуресь:хуре TV_ИЛЕ  "ei ihan sietää, ei luottaa" ;
 хуреӈгось:хуреӈго IV_СЯНАКУ  "tupakoida, polttaa tupakkaa" ;
 хурикабтамбась:хурикабтамба TV_ПЭБЮ  "pitää epäilyttäväksi, pitää pelottavana" ;
@@ -5051,6 +5287,7 @@ LEXICON verbs
 хуторць:хутор IV_ТИР  "karkottaa" ;
 хутытась:хутыта IV_ЛАХАНА  "olla saapasjalkainen" ;
 хухурамбась:хухурамба TV_ПЭБЮ  "häiritä, vaivata" ;
+хуць:хуС TV_САС-Pal/Var  "karkottaa, hätistää" ;
 хуӈгартась:хуӈгарта IV_ЛАХАНА  "olla kääräisty" ;
 хуӈгарторць:хуӈгартор IV_ТИР  "rullata, latoa, tehdä nopeasti" ;
 хуӈглятабась:хуӈглятаба TV_ПЭБЮ  "pyydystää etujalasta" ;
@@ -5069,13 +5306,17 @@ LEXICON verbs
 хыберць:хывар IV_ТИР  "kitistä, inistä, ynistä" ;
 хывнорць:хывнор IV_ТИР  "" ;
 хыдартась:хыдарта IV_ЛАХАНА  "olla vähän kohotettu" ;
+хыдась:хыда IV_ЛАХАНА  "haalistua, kuihtua" ;
 хыдортась:хыдорта IV_ЛАХАНА  "olla virttynyt" ;
 хыдорць:хыдор VR_ТИР  "haalistua" ;
+хыдрась:хыдра IV_ЯˮАВЛУ  "olla nostetuilla silmäluomilla, olla unisilla silmillä" ;
 хыдылась:хыдыла IV_ЯˮАВЛУ  "olla vastatuulessa, mennä vastatuuleen" ;
 хыйворць:хыйвор IV_ТИР  "kääntää katseensa pois" ;
 хыйрибтась:хыйрибта TV_ИЛЕ  "kivahtaa, panna hiljaiseksi" ;
 хылвабтась:хылвабта TV_ИЛЕ  "panna liikkumaan" ;
 хылвабтэсь:хылвабтэ VR_ИЛЕ  "alkaa notkesti liikkua, olla mukava ja pehmeä (vaatteista)" ;
+хылванась:хулвана IV_ИЛЕ  "kiemurrella, ajaa kiemurrellen, keinua aalloilla" ;
+хылванась:хылвана IV_ИЛЕ  "kiemurrella, ajaa kiemurrellen, keinua aalloilla" ;
 хылтадась:хылтада VR_ИЛЕ  "kaatua kasvoilleen, kumartua alhaalle" ;
 хылтоˮлась:хылтоˮла TV_ИЛЕ  "kallistaa, taivuttaa" ;
 хынебтабась:хынебтаба IV_ПЭБЮ  "huokailla raskaasti" ;
@@ -5103,6 +5344,7 @@ LEXICON verbs
 хыӈгадтась:хыӈгадта TV_ИЛЕ  "kalistää (tyhjiä astioita)" ;
 хыӈгартась:хыӈгарта IV_ЛАХАНА  "olla löyhä" ;
 хыӈгнась:хыӈгна IV_ЛАХАНА  "kilistä, kalista" ;
+хыӈгоць:хыӈгоС IV_САС  "olla tilava" ;
 хэˮлабась:хэˮлаба TV_ПЭБЮ  "ottaa takaisin" ;
 хэˮлась:хэˮла VR_ИЛЕ  "vakiintua, vakiutua, alkaa ummeta" ;
 хэˮлась:хэˮла TV_ИЛЕ  "ottaa takaisin, palauttaa" ;
@@ -5129,6 +5371,7 @@ LEXICON verbs
 хэвдалесь:хэвдале VR_ИЛЕ  "kaatua kyljelleen" ;
 хэвдяротамбась:хэвдяротамба TV_ПЭБЮ  "valmistaa sivupinnoilla, ommella naisten pussin sivua" ;
 хэвдяротась:хэвдярота TV_ИЛЕ  "valmistaa sivupinnoilla, ommella naisten pussin sivua" ;
+хэвдяроць:хэвдяроС TV_САС  "olla sivupinnalla tai laitapuulla" ;
 хэвоворць:хэвовор IV_ТИР  "veristyä, tulla veriseksi" ;
 хэволамбась:хэволамба TV_ПЭБЮ  "tahrata verellä" ;
 хэволась:хэвола TV_ИЛЕ  "tahrata verellä" ;
@@ -5184,7 +5427,9 @@ LEXICON verbs
 хэткуˮлась:хэткуˮла TV_ЛАХАНА  "alkaa matkia" ;
 хэткурць:хэткур IV_ТИР  "matkia" ;
 хэткутась:хэткута IV_ЛАХАНА  "harrastaa matkimista" ;
+хэткуць:хэткуС TV_САС  "matkia" ;
 хэтнась:хэтна IV_ЛАХАНА  "vastata" ;
+хэтыдоць:хэтыдоС TV_САС  "matkia, jäljitellä" ;
 хэхэвтась:хэхэвта IV_ЛАХАНА  "olla idolilla" ;
 хэхэвтась:хэхэта IV_ЛАХАНА  "olla idolilla" ;
 хэхэдась:хэхэда IV_ЛАХАНА  "olla härkäpäinen, itsepäinen" ;
@@ -5195,6 +5440,7 @@ LEXICON verbs
 хэхэтамбась:хэхэтамба TV_ПЭБЮ  "kutsua kirouksen" ;
 хэхэтась:хэхэта TV_ИЛЕ  "kutsua kirous" ;
 хэхэтаӈгось:хэхэтаӈго IV_СЯНАКУ  "olla idolilla" ;
+хэцабарць:хэцабар IV_ТИР  "olla liian iso, olla kömpelö" ;
 хэцелтась:хэцелта IV_ЛАХАНА  "olla kankea" ;
 хэцяламбась:хэцяламба IV_ПЭБЮ  "olla uuvutettu, olla nääntynyt" ;
 хэцяламзь:хэцялам IV_ӇАРАМ  "väsyä, uupua" ;
@@ -5211,6 +5457,7 @@ LEXICON verbs
 хэӈомданась:хэӈомдана IV_ЛАХАНА  "jyristä, jymistä" ;
 хэӈомдась:хэӈомда IV_ЛАХАНА  "jylistä, jymistä" ;
 хэӈомзь:хэӈом IV_ӇАРАМ  "ukkostaa, jymistä" ;
+хэӈороць:хэӈороС IV_САС  "olla pyäläinen, olla hammaslaitainen" ;
 юдабась:юдаба TV_ПЭБЮ  "lämmittää, kuumentaa" ;
 юдабась:юдаба TV_ПЭБЮ  "panna verkkoja" ;
 юдартась:юдарта IV_ЛАХАНА  "sahamainen, pykäläinen" ;
@@ -5225,6 +5472,7 @@ LEXICON verbs
 юдтась:юдта TV_ИЛЕ  "hakata sisään, tehdä pilkkoja" ;
 юдэбцуць:юдэбцуС TV_САС  "uneksia" ;
 юдэсь:юдэ TV_ИЛЕ  "uneksia, nähdä unta jostakin" ;
+юебарць:юебар IV_ТИР  "mennä epäröiden tai ujoillen" ;
 юебтась:юебта VR_ИЛЕ  "kääntyä nopeasti, karahtaa pystyyn ja kätkeytyä, tukkeutua" ;
 юебтэсь:юебтэ VR_ИЛЕ  "lämmitellä, kuumeta, sulata" ;
 юебтюрць:юебтюр IV_ТИР  "kävellä levottomasti" ;
@@ -5254,6 +5502,8 @@ LEXICON verbs
 юнекуць:юнекуС TV_САС  "kysellä, tutkia" ;
 юнеламбась:юнеламба TV_ПЭБЮ  "tulla tunnetuksi" ;
 юнелась:юнела TV_ИЛЕ  "tulla tunnetuksi" ;
+юнець:юнеС IV_САС  "olla tunnettu, olla kuuluisa" ;
+юнець:юноС IV_САС  "olla tunnettu, olla kuuluisa" ;
 юнрась:юнра IV_ЛАХАНА  "kysyä" ;
 юнсумбась:юнсумба IV_ПЭБЮ  "kuulla viestiä" ;
 юнсяламзь:юнсялам IV_ӇАРАМ  "tulla sellaiseksi, josta ei ole tietoa, menettää kuuluisuutensa" ;
@@ -5322,6 +5572,7 @@ LEXICON verbs
 ябсялворць:ябсялвор IV_ТИР  "tulla onnettomaksi" ;
 ябсялмдембась:ябсялмдемба TV_ПЭБЮ  "tehdä onnettomaksi" ;
 ябсялмдесь:ябсялмде TV_ИЛЕ  "tehdä onnettomaksi" ;
+ябсясь:ябся IV_ЯˮАВЛУ  "olla onneton, olla epäonnistuva" ;
 ябтаворць:ябтавор IV_ТИР  "kaventua, ohentua, hienontua" ;
 ябтадась:ябтада IV_ЛАХАНА  "olla kostea" ;
 ябтадась:ябтада IV_ИЛЕ  "olla ohut" ;
@@ -5339,8 +5590,13 @@ LEXICON verbs
 ябцрабтамбась:ябцрабтамба TV_ПЭБЮ  "antaa leivontaan" ;
 ябцрабтась:ябцрабта TV_ИЛЕ  "antaa leivontaan" ;
 ябцрамбась:ябцрамба TV_ПЭБЮ  "leipoa" ;
+ябцрась:ябцра TV_ИЛЕ  "leipoa" ;
 ябэдась:ябэда TV_ИЛЕ  "tukkia kodan sisäpuoli tuulelta" ;
 ябэдась:ябэда VR_ИЛЕ  "tukkiutua (oven luona tuulelta)" ;
+явонзь:явон IV_МИН  "lähteä merieläimiä saalistamaan" ;
+явуць:явуС TV_САС  "käyttää lämmönlähteenä" ;
+явъясь:явъя IV_ЯˮАВЛУ  "haisea kuselle" ;
+явэнзь:явэн IV_МИН  "metsästää jääkarhuja" ;
 явэсь:явэ IV_ИЛЕ  "olla kallistettu" ;
 ядабась:ядаба TV_ПЭБЮ  "ampua" ;
 ядабтась:ядабта TV_ИЛЕ  "tavata, kohdata" ;
@@ -5348,6 +5604,9 @@ LEXICON verbs
 ядабтёсь:ядабтё IV_ВАДЮ  "seisoa vinossa, tehdä päinvastoin" ;
 ядась:яда IV_ЛАХАНА  "kävellä, astella" ;
 ядась:яда TV_ИЛЕ  "ampua" ;
+ядась:яда IV_ЛАХАНА  "jäädä sairaaksi pitkän kävelyn takia" ;
+ядась:яда TV_ЛАХАНА  "takoa, raudoittaa" ;
+ядась:яда VR_ЛАХАНА  "liittyä takomalla" ;
 ядембась:ядемба IV_ПЭБЮ  "aiheuttaa kipua" ;
 ядембась:ядемба IV_ПЭБЮ  "olla kuuma" ;
 ядемдамбась:ядемдамба TV_ПЭБЮ  "lämmittää, kuumentaa" ;
@@ -5360,11 +5619,13 @@ LEXICON verbs
 ядрабтамбась:ядрабтамба TV_ПЭБЮ  "antaa takoa, takoa uudestaan" ;
 ядрабтась:ядрабта TV_ИЛЕ  "antaa takoa" ;
 ядрамбась:ядрамба TV_ПЭБЮ  "antaa takoa, takoa uudestaan" ;
+ядрась:ядра TV_ИЛЕ  "antaa takoa" ;
 ядтась:ядта TV_ИЛЕ  "tehdä jalkakipua liikakävelyn takia" ;
 ядхалабась:ядхалаба TV_ПЭБЮ  "kallistaa" ;
 ядэлась:ядэла TV_ИЛЕ  "kuljettaa" ;
 ядэлась:ядэла VR_ЛАХАНА  "lähteä kävelemään" ;
 ядэрць:ядэр IV_ТИР  "käydä, kävellä" ;
+ядэръебтесь:ядэръебте IV_ИЛЕ  "kävellä vähän, kuljeksia vähän, ajella vähän" ;
 ядэсумбась:ядэсумба IV_ПЭБЮ  "kävellä, käyskennellä" ;
 ядюворць:ядювор IV_ТИР  "vaipua, tulla hiljaiseksi" ;
 ядюлесь:ядюле TV_ИЛЕ  "rauhoittaa, totuttaa" ;
@@ -5379,8 +5640,11 @@ LEXICON verbs
 яебтась:яебта TV_ИЛЕ  "koskea, sekoittaa" ;
 яебтаӈгось:яебтаӈго IV_СЯНАКУ  "koskea, häiritä" ;
 яебтёсь:яебтё IV_ВАДЮ  "puuhata, touhuta" ;
+яесь:яе IV_ИЛЕ  "olla sekainen, olla samea" ;
 яйсялворць:яйсялвор IV_ТИР  "tulla hangatuksi (poron rinnasta valjaiden alla)" ;
+якабтамбась:якабтамба TV_ПЭБЮ  "raapia, kutittaa" ;
 якабтась:якабта TV_ИЛЕ  "raapia, kutittaa" ;
+якась:яка IV_ЯКУ  "kihelmöidä, kutista" ;
 якдаˮлембась:якдаˮлемба TV_ПЭБЮ  "aiheuttaa kutinaa" ;
 якдаˮлесь:якдаˮле TV_ИЛЕ  "aiheuttaa kutinaa" ;
 якдасяламзь:якдасялам IV_ӇАРАМ  "lakata kihelmöimästä" ;
@@ -5391,6 +5655,7 @@ LEXICON verbs
 якэхэворць:якэхэвор IV_ТИР  "tulla savuiseksi" ;
 якэхэмдамбась:якэхэмдамба TV_ПЭБЮ  "käryttää, täyttää sumulla, savuttaa" ;
 якэхэмдась:якэхэмда TV_ИЛЕ  "käryttää" ;
+ялабарць:ялабар IV_ТИР  "vilkkua" ;
 яленась:ялена IV_ИЛЕ  "olla harmaa, olla vaalea, olla valkeatukkainen" ;
 ялибелась:ялибела VR_ЛАХАНА  "alkaa jylistä, alkaa jymistä" ;
 ялидесь:ялиде VR_ИЛЕ  "katsoa pikapuolin jatkaen omaa asiaa" ;
@@ -5401,12 +5666,14 @@ LEXICON verbs
 ялкадась:ялкада IV_ЛАХАНА  "välähtää" ;
 ялмортась:ялморта IV_ЛАХАНА  "olla vaalea" ;
 ялморць:ялмор VR_ТИР  "vaalentua, valjeta, harmaantua, haalistua" ;
+ялмоць:ялмоС IV_САС  "ilmestyä (valonpilkahdusesta), pilkottaa" ;
 ялмрамбась:ялмрамба TV_ПЭБЮ  "puhdistaa, tehdä kiiltäväksi" ;
 ялмрась:ялмра TV_ИЛЕ  "puhdistaa, tehdä kiiltäväksi" ;
 ялнась:ялна IV_ЛАХАНА  "jylistä, jymistä" ;
 ялнась:ялна IV_ЛАХАНА  "olla mustasukkainen" ;
 ялнорць:ялнор IV_ТИР  "olla mustasukkainen, lähettää epäonnea (šamaanista)" ;
 ялресь:ялре IV_ИЛЕ  "pauhua liikkuen" ;
+ялтась:ялта IV_ЛАХАНА  "taikoa terveyttä ja onnea tuhoten" ;
 ялторць:ялтор IV_ТИР  "olla mustasukkainen" ;
 ялуворць:ялувор IV_ТИР  "sarastaa, koittaa, valaistautua, ujostella" ;
 ялумдамбась:ялумдамба TV_ПЭБЮ  "valaista" ;
@@ -5436,6 +5703,7 @@ LEXICON verbs
 ямбумзь:ямбум IV_ӇАРАМ  "pidentyä, venyä" ;
 ямдась:ямда VR_ИЛЕ  "muuttaa, vaihtaa asuinpaikkaa" ;
 ямдонзь:ямдон IV_МИН  "hakata hakoja" ;
+ямдъясь:ямдъя IV_ЯˮАВЛУ  "tuoksua havulle" ;
 ямдюворць:ямдювор IV_ТИР  "kuvottaa" ;
 ямдюмдамбась:ямдюмдамба TV_ПЭБЮ  "aiheuttaa kuvotusta, vihastuttaa" ;
 ямдюмдась:ямдюмда TV_ИЛЕ  "aiheuttaa kuvotusta, vihastuttaa" ;
@@ -5460,12 +5728,16 @@ LEXICON verbs
 янпась:янпа TV_ПЭБЮ  "lyhentää, supistaa, saavuttaa" ;
 янэдомдась:янэдомда TV_ИЛЕ  "tehdä sukulaiseksi" ;
 янэдомзь:янэдом IV_ӇАРАМ  "tulla sukulaiseksi, tulla kosijaksi" ;
+янэдоць:янэдоС TV_САС  "omistaa sukulaista, omistaa kosijaa, nimittää sukulaiseksi" ;
 япась:япа IV_ЛАХАНА  "olla kylmä" ;
 япась:япа VR_ЛАХАНА  "tarttua, liimautua, peittää kokonaan" ;
 япхаворць:япхавор IV_ТИР  "jäähtyä, kylmetä" ;
 япхамдабась:япхамдаба TV_ПЭБЮ  "jäähdyttää, kylmentää" ;
 япхамдамбась:япхамдамба TV_ПЭБЮ  "jäähdyttää, kylmentää" ;
+япхамданась:япхамда IV_ЛАХАНА  "kylmetä" ;
+япхамданась:япхамдана IV_ЛАХАНА  "kylmetä" ;
 япхамдась:япхамда TV_ИЛЕ  "jäähdyttää, kylmentää" ;
+япхамзь:япхам IV_ӇАРАМ  "kylmetä" ;
 ярабась:яраба TV_ПЭБЮ  "kallistaa, kallistaa päätä" ;
 ярабтамбась:ярабтамба TV_ПЭБЮ  "kallistaa, asettaa nojalleen" ;
 ярабтась:ярабта TV_ИЛЕ  "kallistaa, asettaa nojalleen" ;
@@ -5474,6 +5746,8 @@ LEXICON verbs
 ярабтась:ярабта VR_ИЛЕ  "kallistua" ;
 ярабтёсь:ярабтё IV_ВАДЮ  "olla vinossa, olla vähän sivuun kalteva" ;
 ярамзь:ярам VR_ӇАРАМ  "kumoutua, kellahtaa" ;
+ярась:яра TV_ИЛЕ  "kallistaa" ;
+ярась:яра VR_ИЛЕ  "kallistua" ;
 ярволабтамбась:ярволабтамба TV_ПЭБЮ  "tehdä uhkaava ulkonäkö, tehdä karheaksi" ;
 ярволабтась:ярволабта TV_ИЛЕ  "tehdä uhkaava ulkonäkö, tehdä karheaksi" ;
 ярвомдась:ярвомда TV_ИЛЕ  "tehdä kestäväksi, sitkeäksi" ;
@@ -5489,6 +5763,8 @@ LEXICON verbs
 ярккось:ярко IV_СЯНАКУ  "lassota (leikissä)" ;
 ярколась:яркола TV_ЛАХАНА  "lassota" ;
 ярколпась:ярколпа TV_ПЭБЮ  "pyydystää suopungilla" ;
+яркоць:яркоС TV_САС  "lassota (nopeasti monia peräkkäin)" ;
+ярмадамбась:ярмадамба TV_ПЭБЮ  "pahastuttaa, loukata" ;
 ярмадась:ярмада TV_ИЛЕ  "pahastuttaa, loukata" ;
 ярмесь:ярме IV_ИЛЕ  "ei tietää" ;
 ярмидесь:ярмиде TV_ИЛЕ  "pahastuttaa, loukata" ;
@@ -5502,6 +5778,7 @@ LEXICON verbs
 ярцортась:ярцорта IV_ЛАХАНА  "olla iso ja selvästi näkyvä kaukaa" ;
 ярць:яр IV_ТИР  "itkeä" ;
 яръебтась:яръебта IV_ИЛЕ  "kyyneltyä" ;
+яръебтесь:яръебте IV_ИЛЕ  "itkeä vähän aikaa" ;
 ясавэймбась:ясавэймба IV_ПЭБЮ  "olla paikallinen ja tuntea hyvin paikkaa" ;
 ясавэймзь:ясавэйм IV_ӇАРАМ  "tulla paikalliseksi, oppia tuntemaan hyvin paikkaa" ;
 ясидась:ясида IV_ИЛЕ  "olla selvästi näkyvä, kiiltää" ;
@@ -5512,9 +5789,12 @@ LEXICON verbs
 ясоць:ясоС IV_САС  "olla hiilillä varustettu, omistaa hiiliä" ;
 ясясь:яся IV_ЯˮАВЛУ  "olla maaton" ;
 ятнорць:ятнор IV_ТИР  "aikoa tehdä" ;
+яхабась:яхаба TV_ПЭБЮ  "nylkeä, paloitella ruhoa, operoida, leikata" ;
 яхалтамбась:яхалтамба TV_ПЭБЮ  "poistaa veitsellä päällimmäinen kerros, leikata avauksen reunoja" ;
 яхалтась:яхалта IV_ЛАХАНА  "leikata, paloittaa, tehdä reikiä" ;
 яхалтась:яхалта TV_ИЛЕ  "poistaa veitsellä päällimmäinen kerros, leikata avauksen reunoja" ;
+яхалць:яхал TV_ТИР  "paloittaa, katkaista, leikata reikää" ;
+яхась:яха TV_ЛАХАНА  "nylkeä, paloitella ruhoa, operoida, leikata" ;
 яць:яС TV_САС  "käyttää maata, vallata, ottaa käyttöönsä" ;
 яёлабтабась:яёлабтаба TV_ПЭБЮ  "samentaa" ;
 яёлабтамбась:яёлабтамба TV_ПЭБЮ  "samentaa" ;
@@ -5532,6 +5812,7 @@ LEXICON verbs
 яӈгартась:яӈгарта IV_ЛАХАНА  "olla häikäisevän valkoinen" ;
 яӈгартась:яӈгарта TV_ИЛЕ  "repiä, erottaa" ;
 яӈгась:яӈга IV_ЛАХАНА-Pal/Var  "erota" ;
+яӈгась:яӈга TV_ИЛЕ  "hakata reikää, uurtaa" ;
 яӈгахалтась:яӈгахалта IV_ЛАХАНА  "tehdä reikiä reenkaplaita varten" ;
 яӈгворць:яӈгвор IV_ТИР  "erottautua, erkaantua" ;
 яӈголкабтамбась:яӈголкабтамба TV_ПЭБЮ  "huomata poissaolo" ;
@@ -5561,10 +5842,13 @@ LEXICON verbs
 яӈгэмлась:яӈгэмла TV_ИЛЕ  "vilkuttaa silmää" ;
 яӈоворць:яӈовор IV_ТИР  "peittyä noella" ;
 яӈомзь:яӈом IV_ӇАРАМ  "peittyä noella" ;
+яӈороць:яӈороС IV_САС  "koostua kerroksista, olla sarjalla, olla rivillä" ;
 яӈортась:яӈорта TV_ИЛЕ  "panna riviin, rivistää, toistaa, uusia, uudistaa" ;
 яӈортась:яӈорта VR_ИЛЕ  "toistua, vaikeutua" ;
+яӈосоць:яӈосоС IV_САС  "olla osastoilla" ;
 яӈотамбась:яӈотамба TV_ПЭБЮ  "peittää noella, peittää karstalla" ;
 яӈотась:яӈота TV_ИЛЕ  "peittää noella, peittää karstalla" ;
+яӈоць:яӈоС TV_САС  "tahrata noella" ;
 ёˮлабтамбась:ёˮлабтамба TV_ПЭБЮ  "kadottaa, antaa vastoin tahtoa" ;
 ёˮлабтамбась:ёлабтамба TV_ПЭБЮ  "kadottaa, menettää" ;
 ёˮлабтарамбась:ёˮлабтарамба TV_ПЭБЮ  "antta tarkoituksella että sitä ei kadoteta" ;
@@ -5600,6 +5884,7 @@ LEXICON verbs
 ёнекось:ёнеко IV_СЯНАКУ  "hupailla, laskea leikkiä" ;
 ёнитембась:ёнитемба TV_ПЭБЮ  "leikata, tehdä leikkeitä, piirtää viivoja" ;
 ёнретась:ёнрета IV_ЛАХАНА  "olla reunustettu (esim. sädekehällä)" ;
+ёнроць:ёнроС TV_САС  "olla reunuksella, olla sädekehällä, käyttää erivärisiä kaistaleita" ;
 ёпась:ёпа TV_ПЭБЮ  "hukata, kadottaa" ;
 ёрамдамбась:ёрамдамба TV_ПЭБЮ  "syventää, tehdä tuuheaksi" ;
 ёрамданась:ёрамдана IV_ЛАХАНА  "syventyä, tuuheutua" ;
@@ -5611,10 +5896,12 @@ LEXICON verbs
 ёремдесь:ёремде TV_ИЛЕ  "syventää" ;
 ёрокутась:ёрокута IV_ЛАХАНА  "pilailla kiusoitellen" ;
 ёротась:ёрота IV_ЛАХАНА  "pilailla, hupailla" ;
+ёроць:ёроС TV_САС  "kiusata, härnätä" ;
 ёртембась:ёртемба TV_ПЭБЮ  "mitata syvyyttä" ;
 ёртеӈгось:ёртеӈго IV_СЯНАКУ  "mitata syvyyttä" ;
 ёрць:ёр IV_ТИР-Pal/Var  "kalastaa nuotalla" ;
 ёрякутась:ёрякута IV_ЛАХАНА  "olla pukeutunut lämpimiin turkisvaatteisiin" ;
+ёсероць:ёсероС IV_САС  "olla laakealla rannikkolla ja rapakoilla" ;
 ёторць:ётор IV_ТИР  "täyttää maha, anastaa toisen omaa" ;
 ёхо:ёхо IV_ЮХУ  "kadota, hävitä" ;
 ёхоборць:ёхобор IV_ТИР  "kadota, harhailla, sotkeutua" ;
@@ -5624,9 +5911,11 @@ LEXICON verbs
 ёхорабтась:ёхорабта TV_ИЛЕ  "salailla, kätkeä, peittää" ;
 ёхорамбась:ёхорамба TV_ПЭБЮ  "piilottaa" ;
 ёхорась:ёхора TV_ИЛЕ  "piilottaa" ;
+ёхородоць:ёхородоС IV_САС  "olla lämpimällä esinellä jalkoja varten, olla leveällä punaisella reunuksella" ;
 ёхоротась:ёхорота TV_ИЛЕ  "kääriä jaloista vyötäröön" ;
 ёхоротась:ёхорота VR_ИЛЕ  "kääriytyä jaloista vyötäröön" ;
 ёхоротембась:ёхоротемба TV_ПЭБЮ  "kääriä jalat vyötäröön asti lämpimillä vaatteilla" ;
+ёхороць:ёхороС TV_САС  "käyttää jalkojen peittämiseen ja lämmitykseen" ;
 ёхорць:ёхор IV_ТИР  "kadota, häipyä, harhailla (väliaikaisesti)" ;
 ёць:ёС TV_САС  "hukata, kadottaa" ;
 ёӈгабтась:ёӈгабта VR_ИЛЕ  "katsahtaa taakseen" ;
@@ -5640,8 +5929,10 @@ LEXICON verbs
 ёӈгомбюрць:ёӈгомбюр TV_ТИР  "pyydystää suopungilla kaulasta" ;
 ёӈгэдась:ёӈгэда VR_ИЛЕ  "katsahtaa taakseen, kääntyä" ;
 ёӈгэсь:ёӈгэ IV_ИЛЕ  "pälyillä ympärilleen" ;
+ёӈоць:ёӈоС TV_САС  "olla kulmikas" ;
 ӈаˮлекадась:ӈаˮлекада IV_ЛАХАНА  "olla pöyhöllään" ;
 ӈаˮнобтась:ӈаˮнобта TV_ИЛЕ  "pureutua äkkiä" ;
+ӈабарць:ӈабар IV_ТИР  "ahmia maiskuttaen" ;
 ӈабларабтась:ӈабларабта TV_ИЛЕ  "luvata tappaa" ;
 ӈабтаˮлабась:ӈабтаˮлаба TV_ПЭБЮ  "myrkyttää" ;
 ӈабтаˮламбась:ӈабтаˮламба TV_ПЭБЮ  "myrkyttää" ;
@@ -5655,6 +5946,7 @@ LEXICON verbs
 ӈабтсяламзь:ӈабтсялам IV_ӇАРАМ  "muuttua hajuttomaksi" ;
 ӈабтсялворць:ӈабтсялвор IV_ТИР  "muuttua hajuttomaksi" ;
 ӈабтъясь:ӈабтъя IV_ИЛЕ  "olla voimakkaan hajuinen, tuoksua voimakkaasti" ;
+ӈавадасясь:ӈавадася IV_ЯˮАВЛУ  "olla lantiosta sairas, olla vaurioituneella peräpuolella" ;
 ӈаварондась:ӈаваронда IV_ЛАХАНА  "pyytää ruokaa" ;
 ӈаварондорць:ӈаварондор IV_ТИР  "pyytää ruokaa" ;
 ӈавламбась:ӈавламба TV_ПЭБЮ  "syöttää, ruokkia" ;
@@ -5671,6 +5963,8 @@ LEXICON verbs
 ӈаврандась:ӈавранда IV_ЛАХАНА  "pyytää ruokaa" ;
 ӈаврандорць:ӈаврандор IV_ТИР  "pyytää ruokaa" ;
 ӈавуворць:ӈавувор IV_ТИР  "kärventyä" ;
+ӈавыдоць:ӈаводоС IV_САС  "olla maukas" ;
+ӈавыдоць:ӈавыдоС IV_САС  "olla maukas" ;
 ӈавэмдась:ӈавэмда TV_ИЛЕ  "ottaa tarvittava" ;
 ӈадабтась:ӈадабта TV_ИЛЕ  "kohauttaa, korottaa" ;
 ӈадабтёсь:ӈадабтё IV_ВАДЮ  "olla korotettu" ;
@@ -5690,6 +5984,7 @@ LEXICON verbs
 ӈадыхымдась:ӈадыхымда TV_ИЛЕ  "vieraannuttaa" ;
 ӈадыхымзь:ӈадыхым IV_ӇАРАМ  "vieraantua" ;
 ӈадыхымзь:ӈадахым IV_ӇАРАМ  "vieraantua" ;
+ӈадьӈоць:ӈадьӈоС IV_САС  "olla kekseliäs, olla valehtelija" ;
 ӈадясь:ӈадя IV_ЯˮАВЛУ-Pal/Var  "näkyä" ;
 ӈайбадась:ӈайбада TV_ИЛЕ  "syödä raakana" ;
 ӈайворць:ӈайвор IV_ТИР  "rasvoittua, ihroittua" ;
@@ -5841,6 +6136,7 @@ LEXICON verbs
 ӈудеӈгось:ӈудеӈго IV_СЯНАКУ  "onkia" ;
 ӈудикось:ӈудико IV_СЯНАКУ  "kyhätä, näperrellä" ;
 ӈудомбась:ӈудомба TV_ПЭБЮ  "seurata pitkin jälkiä" ;
+ӈудоць:ӈудоС TV_САС  "jättää jälkiä, tarkistaa" ;
 ӈуйворць:ӈуйвор IV_ТИР  "löystyä, vapautua, päästä vapaaksi" ;
 ӈумдась:ӈумдась TV_ИЛЕ  "laittaa kuivaa ruohoa jalkineihin" ;
 ӈуребась:ӈуреба TV_ПЭБЮ  "kasata, täyttää" ;
@@ -5885,6 +6181,7 @@ LEXICON verbs
 ӈыламзь:ӈылам IV_ӇАРАМ  "hautaantua, hautautua, peittyä" ;
 ӈылась:ӈыла TV_ИЛЕ  "palttaa jalkineita" ;
 ӈылворць:ӈылвор IV_ТИР  "peittyä, joutua riippuvaiseksi" ;
+ӈылдасясь:ӈылдася IV_ЯˮАВЛУ  "olla pohjaton" ;
 ӈылдатамбась:ӈылдатамба TV_ПЭБЮ  "valmistaa alimpaa osaa, pohjaa, anturaa" ;
 ӈылдатась:ӈылдата IV_ЛАХАНА  "olla pohjalla, omistaa pohjaa" ;
 ӈылдатась:ӈылдата TV_ИЛЕ  "valmistaa alimpaa osaa, pohjaa, anturaa" ;
@@ -5894,6 +6191,7 @@ LEXICON verbs
 ӈылтаӈгось:ӈылтаӈго IV_СЯНАКУ  "ampua tai heittää maalin alle" ;
 ӈынабалтамбась:ӈынабалтамба TV_ПЭБЮ  "tehdä lyödyksi, tehdä nöyrytetyksi" ;
 ӈынабалтась:ӈынабалта TV_ИЛЕ  "tehdä lyödyksi, tehdä nöyrytetyksi" ;
+ӈынабарць:ӈынабар IV_ТИР  "olla nöyryytetty, tuntea syyllisyyttä" ;
 ӈыноць:ӈыноС IV_САС  "omistaa jousta" ;
 ӈыноць:ӈыноС TV_САС  "käyttää jousena" ;
 ӈынторць:ӈынтор IV_ТИР  "ampua jousta" ;
@@ -5908,6 +6206,7 @@ LEXICON verbs
 ӈыцялтась:ӈыцялта IV_ЛАХАНА  "olla arka, arkailla" ;
 ӈыёмдамбась:ӈыёмдамба TV_ПЭБЮ  "rauhoitella, houkutella puolelleensa" ;
 ӈыёмдась:ӈыёмда TV_ИЛЕ  "rauhoittaa, houkutella puolelleensa" ;
+ӈэбтоць:ӈэбтоС IV_САС  "olla hiuksilla" ;
 ӈэвабась:ӈэваба TV_ПЭБЮ  "kerjätä" ;
 ӈэвадаламбась:ӈэвадалаба TV_ПЭБЮ  "lopettaa, päättää" ;
 ӈэвадаламбась:ӈэвадаламба TV_ПЭБЮ  "lopettaa, päättää" ;
@@ -5951,6 +6250,7 @@ LEXICON verbs
 ӈэдендась:ӈэденда TV_ИЛЕ  "tukkia suojatakseen" ;
 ӈэдехорць:ӈэдехор IV_ТИР  "juosta vieressä, uskoa kaikkea, mitä sanotaan, panetella" ;
 ӈэдеӈотась:ӈэдеӈота TV_ИЛЕ  "olla suojallinen" ;
+ӈэдеӈоць:ӈэдеӈоС IV_САС  "käyttää suojana" ;
 ӈэдоˮлась:ӈэдоˮла TV_ИЛЕ  "lähettää, päästää, päästellä" ;
 ӈэдтась:ӈэдта IV_ЛАХАНА  "riisua (ajokas), vapauttaa valjaista" ;
 ӈэдторць:ӈэдтор IV_ТИР  "riisua (ajokas), riisua valjaista" ;
@@ -5963,12 +6263,14 @@ LEXICON verbs
 ӈэликабтась:ӈэликабта TV_ИЛЕ  "pitää oudoksi, vieraaksi" ;
 ӈэлинзадась:ӈэлинзада IV_ЛАХАНА  "olla kumma, eriskummallinen, outo" ;
 ӈэлинзадась:ӈэлинзада IV_ЛАХАНА  "olla kumma" ;
+ӈэмоӈоць:ӈэмоӈоС IV_САС  "olla näkyvä, olla komea" ;
 ӈэнабтась:ӈэнабта TV_ИЛЕ  "ihmetyttää, yllättää" ;
 ӈэрабтась:ӈэрабта TV_ИЛЕ  "siemaista tarkastaen" ;
 ӈэрваналтабась:ӈэрваналтаба TV_ПЭБЮ  "liekuttaa, keinuttaa isoilla aalloilla" ;
 ӈэрваналтась:ӈэрваналта TV_ИЛЕ  "liekuttaa, keinuttaa isoilla aalloilla" ;
 ӈэрмась:ӈэрма IV_ИЛЕ  "viiletä" ;
 ӈэрокуˮлась:ӈэрокуˮла TV_ЛАХАНА  "alkaa ryypätä" ;
+ӈэрокуць:ӈэрокуС TV_САС  "juoda, ryypiskellä" ;
 ӈэртайбтембась:ӈэртайбтемба TV_ПЭБЮ  "juottaa juovuksiin" ;
 ӈэртайбтесь:ӈэртайбте TV_ИЛЕ  "juottaa juovuksiin" ;
 ӈэртамбась:ӈэртамба TV_ПЭБЮ  "juottaa" ;
@@ -5976,6 +6278,7 @@ LEXICON verbs
 ӈэрёдась:ӈэрёда IV_ИЛЕ  "asua syksyleirissä" ;
 ӈэрёйворць:ӈэрёйвор IV_ТИР  "alkaa (syksystä)" ;
 ӈэсось:ӈэсо IV_ӇЭСУ  "leiriytyä" ;
+ӈэсоӈоць:ӈэсоӈоС IV_САС  "olla jäsennetty, olla isoilla nivelillä" ;
 ӈэсурць:ӈэсур IV_ТИР  "pysähtyä kodalla, pysähtyä pystyttäen kodan" ;
 ӈэсурць:ӈэсур IV_ТИР  "leiriytyä" ;
 ӈэсь:ӈэ IV_ӇЭ  "olla (jossakin, elottomasta)" ;
