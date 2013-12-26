@@ -76,6 +76,9 @@ LEXICON IV_ВАДЮ
 LEXICON TV_ВАДЮ
 +V+TV@P.CONJ.ObjAll:00@P.CONJ.ObjAll V-01_ВАДЮ       ;
 
+LEXICON IV_ЯКУ !!= @CODE@ якась:яка
++V+IV: V-01_ЯКУ       ;
+
 LEXICON IV_ИЛЕ
 +V+IV: V-01_ИЛЕ	;
 
@@ -108,6 +111,9 @@ LEXICON IV_ПЭБЮ-Pal/Var
 
 LEXICON TV_ПЭБЮ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ПЭБЮ       ;
+
+LEXICON VR_ПЭБЮ
++V+Refl: V-01_ПЭБЮ-REFL ;
 
 LEXICON IV_ХАДА !!= @CODE@ хадась:хада
 +V+IV: V-01_ХАДА       ;
@@ -647,6 +653,38 @@ LEXICON V-01_ВАДЮ
 +Ind: IND-4-PRT1		;
  PRC2 ;
 
+LEXICON V-01_ЯКУ !!= @CODE@ якась:яка
++Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
++Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+ V_Hort ;
+@R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt ;
+ V_Opt ;
+ V_Conj ;
+ V_Mod/appr ;
+ V_Mod/des ;
+ V_Mod/futappr ;
+ V_Mod/hyp ;
+ V_Mod/int ;
+ V_Mod/narr ;
+ V_Mod/narrPrt ;
+ V_Mod/nec ;
+ V_Mod/perfprob ;
+ V_Mod/prob ;
+ V_Mod/perfappr ;
+ V_Mod/obl ;
+ V_Mod/rep ;
+ V_Mod/sup ;
+ V_Subord ;
+ V_Fut2 ;
+ IND-AOR		;
+ IND-AOR-SG3 	;
+ IND-AOR-DU3 	;
++Ind: IND-4-PRT1-DU3 ;
++Ind: IND-4-PRT1		;
+ PRC2 ;
+
+
 LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
@@ -801,6 +839,31 @@ LEXICON V-01_ПЭБЮ
 +Ind: IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC ;
+
+LEXICON V-01_ПЭБЮ-REFL !! V_refl 
+ V_IND-Refl ;
+ V_IND-Refl-PRT1 ;
+ V_Hort-Refl ;
+ V_Imprt-Refl ;
+ V_Opt-Refl ;
+ V_Conj-Refl ;
+ V_Mod/narr-Refl ;
+ V_Mod/appr-Refl ;
+ V_Mod/perfappr-Refl ;
+ V_Mod/futappr-Refl ;
+ V_Mod/hyp-Refl ;
+ V_Mod/int-Refl ;
+ V_Mod/nec-Refl ;
+ V_Mod/perfprob-Refl ;
+ V_Mod/prob-Refl ;
+ V_Mod/obl-Refl ;
+ V_Mod/rep-Refl ;
+ V_Mod/sup-Refl ;
+ V_Mod/des-Refl ;
+ V_Subord ;
+ V_Fut-Refl ;
+ PRC ;
+
 
 LEXICON V-01_ХАДА
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
