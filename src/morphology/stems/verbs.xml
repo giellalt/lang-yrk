@@ -23776,10 +23776,10 @@
 
   <e>
     <lg>
-      <l pos="IV">мантылась</l>
+      <l pos="VR">мантылась</l>
 
       <stg>
-        <st Contlex="IV_ЛАХАНА">мантыла</st>
+        <st Contlex="VR_ЛАХАНА">мантыла</st>
       </stg>
     </lg>
 
@@ -23787,7 +23787,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV">alkaa vieriä</t>
+        <t pos="VR">alkaa vieriä</t>
       </tg>
     </mg>
 
@@ -23960,7 +23960,7 @@
 
   <e>
     <lg>
-      <l pos="IV">манэсарць</l>
+      <l pos="TV">манэсарць</l>
 
       <stg>
         <st Contlex="TV_ТИР">манэсар</st>
@@ -63073,7 +63073,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">tulla sumuiseksi</t>
       </tg>
     </mg>
   </e>
@@ -63167,7 +63167,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">ivailla, nauraa</t>
+
+        <t pos="V" type="I">kurtistua kymän takia</t>
       </tg>
     </mg>
   </e>
@@ -70122,7 +70124,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">peittyä hiekalla, tahraantua hiekalla</t>
       </tg>
     </mg>
   </e>
@@ -70176,7 +70178,25 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">peittyä roskalla, umpeutua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" type="T">таборонзь</l>
+
+      <stg>
+        <st Contlex="TV_МИН">таборон</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" type="T">puhdistaa roskasta</t>
       </tg>
     </mg>
   </e>
@@ -70434,7 +70454,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">puristua, kutistua, pysähtyä, menettää
+        malttinsa</t>
       </tg>
     </mg>
   </e>
@@ -70740,7 +70761,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">tukkeutua, umpeutua</t>
       </tg>
     </mg>
   </e>
@@ -104226,7 +104247,7 @@
       <l pos="IV">япась</l>
 
       <stg>
-        <st Contlex="IV_ЛАХАНА">япа</st>
+        <st Contlex="IV_ЯˮАВЛУ">япа</st>
       </stg>
     </lg>
 
