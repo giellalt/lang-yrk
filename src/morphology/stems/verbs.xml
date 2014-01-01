@@ -69315,7 +69315,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">paikata, korjata</t>
       </tg>
     </mg>
   </e>
@@ -69369,7 +69369,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="TV">upottaa, syödä hyvin nopeasti, juoda tainnoksiin</t>
+        <t pos="TV">upottaa, syödä hyvin nopeasti, juottaa tainnoksiin</t>
       </tg>
     </mg>
   </e>
@@ -69387,7 +69387,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">upottaa, syödä hyvin nopeasti, juottaa
+        tainnoksiin</t>
       </tg>
     </mg>
   </e>
@@ -69623,7 +69624,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">vahingoittaa</t>
       </tg>
     </mg>
   </e>
@@ -69749,7 +69750,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">olla nälkäinen, kärsiä nälkää</t>
       </tg>
     </mg>
 
@@ -70022,7 +70023,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="IV"/>
+        <t pos="IV">liikkua horjuen</t>
       </tg>
     </mg>
   </e>
@@ -70202,7 +70203,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">juosta</t>
       </tg>
     </mg>
   </e>
@@ -70310,7 +70311,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">kutistaa tiheästi, kaventaa</t>
       </tg>
     </mg>
   </e>
@@ -71088,7 +71089,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="T"/>
+        <t pos="V" type="T">haukata, puraista</t>
       </tg>
     </mg>
   </e>
@@ -73304,7 +73305,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="R"/>
+        <t pos="V" type="R">peittyä hiekalla, tahraantua hiekalla</t>
       </tg>
     </mg>
   </e>
@@ -74123,7 +74124,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="R"/>
+        <t pos="V" type="R">seota, mennä järjiltään, hurjistua</t>
       </tg>
     </mg>
   </e>
@@ -76425,7 +76426,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">tehdä epäröivä askel</t>
       </tg>
     </mg>
   </e>
@@ -79716,6 +79717,42 @@
 
   <e>
     <lg>
+      <l pos="IV">тиберць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">тибер</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="IV">lahota, mädätä, hapantua, hapata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="IV">тиберць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">тивор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="IV">lahota, mädätä, hapantua, hapata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" type="T">тибтарць</l>
 
       <stg>
@@ -79818,7 +79855,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="I"/>
+        <t pos="V" type="I">istua</t>
       </tg>
     </mg>
   </e>
@@ -79911,24 +79948,6 @@
 
       <tg xml:lang="fin">
         <t pos="IV">syyhytä (ikenistä lapsilla)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="IV">тиворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">тивор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="IV"/>
       </tg>
     </mg>
   </e>
