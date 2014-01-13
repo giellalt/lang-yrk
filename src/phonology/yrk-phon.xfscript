@@ -9,7 +9,7 @@
 
 ! To test: in kt/yrk/src, do:
 ! xfst -e "source xfst-yrk.txt"
-! invert net
+! 
 ! save s
 ! quit
 ! cat xfst-yrk.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
