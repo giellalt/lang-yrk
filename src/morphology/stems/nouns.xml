@@ -5762,6 +5762,22 @@
     </mg>
   </e>
 
+   <e>
+      <lg>
+         <l pos="N">лекэхэй</l>
+         <stg>
+            <st Contlex="N_ЕД/ХУСУВЭЙ">лекэхэй</st>
+            <st Contlex="N_ЕД/ХУСУВЭЙ">лекахэй</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">särö</t>
+            <t pos="N">halkeama</t>
+         </tg>
+      </mg>
+   </e>
   <e>
     <lg>
       <l pos="N">лембтя</l>
@@ -23938,7 +23954,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">vaalea poro</t>
+        <t pos="N">vaalea poro, valkko</t>
       </tg>
     </mg>
   </e>
@@ -25953,6 +25969,24 @@
 
       <stg>
         <st Contlex="N_ӇУДИ">тадтаˮма</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">valokuva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">тадтаˮма</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">тадма</st>
       </stg>
     </lg>
 
