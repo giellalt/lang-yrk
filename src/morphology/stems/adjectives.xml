@@ -1726,36 +1726,6 @@
    </e>
    <e>
       <lg>
-         <l pos="A">лекахэй</l>
-         <stg>
-            <st Contlex="A_ЕД/ХУСУВЭЙ">лекахэй</st>
-         </stg>
-      </lg>
-      <mg>
-         <defNative/>
-         <tg xml:lang="fin">
-            <t pos="A">särö</t>
-            <t pos="A">halkeama</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="A">лекэхэй</l>
-         <stg>
-            <st Contlex="A_ЕД/ХУСУВЭЙ">лекэхэй</st>
-         </stg>
-      </lg>
-      <mg>
-         <defNative/>
-         <tg xml:lang="fin">
-            <t pos="A">särö</t>
-            <t pos="A">halkeama</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
          <l pos="A">ленюй</l>
          <stg>
             <st Contlex="A_ЕД">ленюй</st>
@@ -3401,7 +3371,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">täys, koko</t>
+            <t pos="A">täys-</t><t pos="A">koko</t>
          </tg>
       </mg>
    </e>
@@ -3415,7 +3385,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">täys, koko</t>
+            <t pos="A">täys-</t><t pos="A">koko</t>
          </tg>
       </mg>
    </e>
@@ -4237,7 +4207,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">toinen, seuraava, ja, sekä</t>
+            <t pos="A">toinen</t><t pos="A">seuraava</t><t pos="CC">ja</t><t pos="CC">sekä</t>
          </tg>
       </mg>
    </e>
