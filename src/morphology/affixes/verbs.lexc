@@ -936,7 +936,7 @@ LEXICON V-01_ЮХУ
 
 !! !THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON V-01_ЛАХАНА !! а > э in Pl Oc 
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
++Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -963,8 +963,10 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
+ :%>ӈа IND-AOR-DU3 	;
++Ind:%>ӈа IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
+ V_Fut ;
  PRC ;
 
 LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
@@ -1976,7 +1978,7 @@ LEXICON V_Fut2-Refl
 +Fut+Ind+Aor:та MUTUAL-PERSON-REFL ;
 
 LEXICON V_Subord
-+Subord:%>бˮ  K ;
++Subord+Abs:%>бˮ K ;
 +Subord+PxSg1:%>бˮнани  K ;
 +Subord+PxSg1:%>баˮни  K ;
 +Subord+PxSg2:%>бˮнанд  K ;
@@ -2233,19 +2235,19 @@ LEXICON PRC
 !+PrcImprf:ня K ;
 +PrcPrf:вы K ; !!= @CODE@ Should this form be here 2013-11-25
 +PrcNeg:вдавэй K ; !!= @CODE@ Should this form be here 2013-11-25
-+PrcFut:ванда K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcFut:внда K ; !!= @CODE@ Should this form be here 2013-11-25
 +PrcPrf:вы NMN_ПАНЫ ;
 +PrcNeg:вдавэй NMN_ХУСУВЭЙ ;
-+PrcFut:ванда NMN_ӇУДИ ;
++PrcFut:внда NMN_ӇУДИ ;
 +Ger: K ;
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
-+Subord:%>бˮ    K	;
+!+Subord:%>бˮ K	;
 +Aud:%>%{вм%}оʼ      K	;
 +Aud:%>%{вм%}аноʼ    K	;
 +Evas:%>%{вм%}оӇ1     POSSESSA-SG-4-EVAS	;
-!+Evas:%>%{вм%}оӈгад  K	;
-+ConNeg:ˮ     K ;
++Evas+Abs:%>%{вм%}оӈгад  K	;
++ConNeg:ˮ K ;
 +Fut+ConNeg:ӈгуˮ     K ;
 
 LEXICON PRC2
@@ -2261,16 +2263,16 @@ LEXICON PRC2
 +PrcFut:%>%{вм%}анда K ;
 +PrcPrf:%>%{вм%}ы NMN_ПАНЫ ;
 +PrcNeg:%>%{вм%}давэй NMN_ХУСУВЭЙ ;
-+PrcFut:%>%{вм%}анда NMN_ӇУДИ ;
++PrcFut:%>%{вм%}нда NMN_ӇУДИ ;
 +Ger: K ;
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
-+Subord:%>бˮ    K	;
+!+Subord:%>бˮ K ;
 +Aud:%>%{вм%}оʼ      K	;
 +Aud:%>%{вм%}аноʼ    K	;
 +Evas:%>%{вм%}оӇ1     POSSESSA-SG-4-EVAS	;
-!+Evas:%>%{вм%}оӈгад  K	;
-+ConNeg:%>ˮ     K ;
++Evas+Abs:%>%{вм%}оӈгад  K	;
++ConNeg:%>ˮ K ;
 +Fut+ConNeg:%>таˮ     K ;
 
 ! vim: set ft=xfst-lexc:
