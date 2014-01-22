@@ -33,8 +33,10 @@ Tests:
      мараӈга+N+Pl+Abl: мараӈгахат
      мараӈга+N+Pl+Pros: мараӈгыˮмана    
 
-     мараӈга+N+Sg+Tra: мараӈгаӈэ
-     мараӈга+N+Pl+Tra: мараӈгаˮӈэ
+     мараӈга+N+Tra: мараӈгаӈэ
+     мараӈга+N+Car: мараӈгасиˮ
+     мараӈга+N+Equ: мараӈгадремʼ
+     мараӈга+N+Equ+Lat: мараӈгадревʼ
      
 # Possessive forms 
      мараӈга+N+Sg+Nom+PxSg1: мараӈгав 
@@ -195,10 +197,10 @@ Tests:
      мараӈга+N+Pl+Pros+PxPl3: мараӈгыˮмнатоʼ
 
 # Predestinative
-
+     мараӈга+N+Pred+Abs: мараӈгад
      мараӈга+N+Pred+Nom+PxSg1: мараӈгадав 
      мараӈга+N+Pred+Nom+PxSg2: мараӈгадар  
-     мараӈга+N+Pred+Nom+PxSg3: мараӈгада 
+     мараӈга+N+Pred+Nom+PxSg3: мараӈгадада
      мараӈга+N+Pred+Acc+PxSg1: мараӈгадав
      мараӈга+N+Pred+Acc+PxSg2: мараӈгадамд
      мараӈга+N+Pred+Acc+PxSg3: мараӈгадамда
@@ -223,3 +225,5 @@ Tests:
      мараӈга+N+Pred+Gen+PxPl1: мараӈгаданаˮ
      мараӈга+N+Pred+Gen+PxPl2: мараӈгадандаˮ
      мараӈга+N+Pred+Gen+PxPl3: мараӈгадандоʼ
+     
+# Predicative (Nominal conjugation)

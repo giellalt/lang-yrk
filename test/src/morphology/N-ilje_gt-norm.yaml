@@ -16,29 +16,31 @@ Tests:
 
   Noun - илʼ: # Noun 'life' - partial paradigm /Type 30/
      илʼ+N+Sg+Nom: илʼ
-     илʼ+N+Sg+Acc: илмʼ
-     илʼ+N+Sg+Gen: илʼ
+     илʼ+N+Sg+Acc: иламʼ
+     илʼ+N+Sg+Gen: илаʼ
      илʼ+N+Sg+Dat: иландʼ
      илʼ+N+Sg+Loc: илӈгана
      илʼ+N+Sg+Abl: илӈгад
      илʼ+N+Sg+Pros: илмана
-     илʼ+N+Du+Nom: [илӈгʼ, илаӈгʼ]
-     илʼ+N+Du+Acc: [илӈгʼ, илаӈгʼ]
-     илʼ+N+Du+Gen: [илӈгʼ, илаӈгʼ]
+     илʼ+N+Du+Nom: илаӈгʼ
+     илʼ+N+Du+Acc: илаӈгʼ
+     илʼ+N+Du+Gen: илаӈгʼ
      илʼ+N+Pl+Nom: илаˮ
      илʼ+N+Pl+Acc: илъе
      илʼ+N+Pl+Gen: илъеˮ
-     илʼ+N+Pl+Dat: илӈгˮ
+     илʼ+N+Pl+Dat: илаӈгˮ
      илʼ+N+Pl+Loc: илӈгаˮна
      илʼ+N+Pl+Abl: илӈгат
      илʼ+N+Pl+Pros: илъеˮмна    
 
-     илʼ+N+Sg+Tra: илӈэ
-     илʼ+N+Pl+Tra: илˮӈэ
+     илʼ+N+Tra: илӈэ
+     илʼ+N+Car: иланзиˮ
+     илʼ+N+Equ: иландаремʼ
+     илʼ+N+Equ+Lat: иландаревʼ
 
 # Possessive forms !Local case forms need to be checked!
-     илʼ+N+Sg+Nom+PxSg1: [илм, илми]
-     илʼ+N+Sg+Nom+PxSg2: ил  
+     илʼ+N+Sg+Nom+PxSg1: илам
+     илʼ+N+Sg+Nom+PxSg2: илал
      илʼ+N+Sg+Nom+PxSg3: иланда 
      илʼ+N+Sg+Nom+PxDu1: иламиʼ
      илʼ+N+Sg+Nom+PxDu2: илиʼ
@@ -46,7 +48,7 @@ Tests:
      илʼ+N+Sg+Nom+PxPl1: иламаˮ
      илʼ+N+Sg+Nom+PxPl2: илалаˮ
      илʼ+N+Sg+Nom+PxPl3: иландоʼ
-     илʼ+N+Sg+Acc+PxSg1: илами  
+     илʼ+N+Sg+Acc+PxSg1: илам  
      илʼ+N+Sg+Acc+PxSg2: иланд  
      илʼ+N+Sg+Acc+PxSg3: иланда 
      илʼ+N+Sg+Acc+PxDu1: иламиʼ 
@@ -55,7 +57,7 @@ Tests:
      илʼ+N+Sg+Acc+PxPl1: иламаˮ 
      илʼ+N+Sg+Acc+PxPl2: иландаˮ
      илʼ+N+Sg+Acc+PxPl3: иландоʼ
-     илʼ+N+Sg+Gen+PxSg1: [илан, илани] 
+     илʼ+N+Sg+Gen+PxSg1: илан
      илʼ+N+Sg+Gen+PxSg2: иланд  
      илʼ+N+Sg+Gen+PxSg3: иланда 
      илʼ+N+Sg+Gen+PxDu1: иланиʼ 
@@ -64,7 +66,7 @@ Tests:
      илʼ+N+Sg+Gen+PxPl1: иланаˮ 
      илʼ+N+Sg+Gen+PxPl2: иландаˮ
      илʼ+N+Sg+Gen+PxPl3: иландоʼ  
-     илʼ+N+Sg+Dat+PxSg1: [илӈган, илӈгани] 
+     илʼ+N+Sg+Dat+PxSg1: илӈган
      илʼ+N+Sg+Dat+PxSg2: илӈганд  
      илʼ+N+Sg+Dat+PxSg3: илӈганда 
      илʼ+N+Sg+Dat+PxDu1: илӈганиʼ 
@@ -73,7 +75,7 @@ Tests:
      илʼ+N+Sg+Dat+PxPl1: илӈганаˮ 
      илʼ+N+Sg+Dat+PxPl2: илӈгандаˮ
      илʼ+N+Sg+Dat+PxPl3: илӈгандоʼ
-     илʼ+N+Sg+Loc+PxSg1: [илӈганан, илӈганани]
+     илʼ+N+Sg+Loc+PxSg1: илӈганан
      илʼ+N+Sg+Loc+PxSg2: илӈгананд  
      илʼ+N+Sg+Loc+PxSg3: илӈгананда 
      илʼ+N+Sg+Loc+PxDu1: илӈгананиʼ 
@@ -82,7 +84,7 @@ Tests:
      илʼ+N+Sg+Loc+PxPl1: илӈгананаˮ 
      илʼ+N+Sg+Loc+PxPl2: илӈганандаˮ
      илʼ+N+Sg+Loc+PxPl3: илӈганандоʼ
-     илʼ+N+Sg+Abl+PxSg1: [илӈгадан, илӈгадани]
+     илʼ+N+Sg+Abl+PxSg1: илӈгадан
      илʼ+N+Sg+Abl+PxSg2: илӈгаданд  
      илʼ+N+Sg+Abl+PxSg3: илӈгаданда 
      илʼ+N+Sg+Abl+PxDu1: илӈгаданиʼ 
@@ -91,15 +93,15 @@ Tests:
      илʼ+N+Sg+Abl+PxPl1: илӈгаданаˮ 
      илʼ+N+Sg+Abl+PxPl2: илӈгадандаˮ
      илʼ+N+Sg+Abl+PxPl3: илӈгадандоʼ
-     илʼ+N+Sg+Pros+PxSg1: [илмнан, илмнани]
-     илʼ+N+Sg+Pros+PxSg2: илмнанд  
-     илʼ+N+Sg+Pros+PxSg3: илмнанда 
-     илʼ+N+Sg+Pros+PxDu1: илмнаниʼ 
-     илʼ+N+Sg+Pros+PxDu2: илмнандиʼ
-     илʼ+N+Sg+Pros+PxDu3: илмнандиʼ
-     илʼ+N+Sg+Pros+PxPl1: илмнанаˮ 
-     илʼ+N+Sg+Pros+PxPl2: илмнандаˮ
-     илʼ+N+Sg+Pros+PxPl3: илмнандоʼ
+     илʼ+N+Sg+Pros+PxSg1: илманан
+     илʼ+N+Sg+Pros+PxSg2: илмананд  
+     илʼ+N+Sg+Pros+PxSg3: илмананда 
+     илʼ+N+Sg+Pros+PxDu1: илмананиʼ 
+     илʼ+N+Sg+Pros+PxDu2: илманандиʼ
+     илʼ+N+Sg+Pros+PxDu3: илманандиʼ
+     илʼ+N+Sg+Pros+PxPl1: илмананаˮ 
+     илʼ+N+Sg+Pros+PxPl2: илманандаˮ
+     илʼ+N+Sg+Pros+PxPl3: илманандоʼ
      илʼ+N+Du+Nom+PxSg1: илӈгаюн  
      илʼ+N+Du+Nom+PxSg2: илӈгаюд  
      илʼ+N+Du+Nom+PxSg3: илӈгаюда 
@@ -127,7 +129,7 @@ Tests:
      илʼ+N+Du+Gen+PxPl1: илӈгаюнаˮ
      илʼ+N+Du+Gen+PxPl2: илӈгаютаˮ
      илʼ+N+Du+Gen+PxPl3: илӈгаютоʼ
-     илʼ+N+Pl+Nom+PxSg1: [илъен, илъени] 
+     илʼ+N+Pl+Nom+PxSg1: илъен
      илʼ+N+Pl+Nom+PxSg2: илъед   
      илʼ+N+Pl+Nom+PxSg3: илъеда  
      илʼ+N+Pl+Nom+PxDu1: илъениʼ 
@@ -136,7 +138,7 @@ Tests:
      илʼ+N+Pl+Nom+PxPl1: илъенаˮ 
      илʼ+N+Pl+Nom+PxPl2: илъедаˮ 
      илʼ+N+Pl+Nom+PxPl3: илъедоʼ 
-     илʼ+N+Pl+Acc+PxSg1: [илъен, илъени]   
+     илʼ+N+Pl+Acc+PxSg1: илъен   
      илʼ+N+Pl+Acc+PxSg2: илъед   
      илʼ+N+Pl+Acc+PxSg3: илъеда  
      илʼ+N+Pl+Acc+PxDu1: илъениʼ 
@@ -181,34 +183,36 @@ Tests:
      илʼ+N+Pl+Abl+PxPl1: илӈгатанаˮ
      илʼ+N+Pl+Abl+PxPl2: илӈгататаˮ
      илʼ+N+Pl+Abl+PxPl3: илӈгататоʼ
-     илʼ+N+Pl+Pros+PxSg1: илъеˮманан       
-     илʼ+N+Pl+Pros+PxSg2: илъеˮманат  
-     илʼ+N+Pl+Pros+PxSg3: илъеˮманата 
-     илʼ+N+Pl+Pros+PxDu1: илъеˮмананиʼ
-     илʼ+N+Pl+Pros+PxDu2: илъеˮманатиʼ
-     илʼ+N+Pl+Pros+PxDu3: илъеˮманатиʼ
-     илʼ+N+Pl+Pros+PxPl1: илъеˮмананаˮ
-     илʼ+N+Pl+Pros+PxPl2: илъеˮманатаˮ
-     илʼ+N+Pl+Pros+PxPl3: илъеˮманатоʼ
+     илʼ+N+Pl+Pros+PxSg1: илъеˮмнан       
+     илʼ+N+Pl+Pros+PxSg2: илъеˮмнат  
+     илʼ+N+Pl+Pros+PxSg3: илъеˮмната 
+     илʼ+N+Pl+Pros+PxDu1: илъеˮмнаниʼ
+     илʼ+N+Pl+Pros+PxDu2: илъеˮмнатиʼ
+     илʼ+N+Pl+Pros+PxDu3: илъеˮмнатиʼ
+     илʼ+N+Pl+Pros+PxPl1: илъеˮмнанаˮ
+     илʼ+N+Pl+Pros+PxPl2: илъеˮмнатаˮ
+     илʼ+N+Pl+Pros+PxPl3: илъеˮмнатоʼ
 
 # Predestinative !Should be added
+     илʼ+N+Pred+Abs: иланд
+     
 # Predicative (Nominal conjugation)
 
-     илʼ+N+Nom+Der/Pr+Ind+Aor+ScSg1: илндамʼ
-     илʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: илн  
+     илʼ+N+Nom+Der/Pr+Ind+Aor+ScSg1: иландмʼ
+     илʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: иланд  
      илʼ+N+Nom+Der/Pr+Ind+Aor+ScSg3: илʼ
      илʼ+N+Nom+Der/Pr+Ind+Aor+ScDu1: илниʼ
-     илʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: илндиʼ
-     илʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: илӈгʼ
+     илʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: иландиʼ
+     илʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: илаӈгʼ
      илʼ+N+Nom+Der/Pr+Ind+Aor+ScPl1: илмаˮ
-     илʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: илндаˮ
+     илʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: иландаˮ
      илʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: илаˮ  
-     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: илндамзь
-     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: илнась 
-     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: [илнзь, иланзь]   
-     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: илндинзь
-     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: илдинзь
+     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: иландамзь
+     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: иландась 
+     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: иланзь   
+     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: илнинзь
+     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: иландинзь
      илʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: илӈганзь
      илʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: илмаць 
-     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: илндаць 
+     илʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: иландаць 
      илʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: илаць   

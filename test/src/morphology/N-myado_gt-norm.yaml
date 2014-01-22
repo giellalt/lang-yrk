@@ -19,10 +19,9 @@ Tests:
      мяˮ+N+Sg+Acc: мядмʼ
      мяˮ+N+Sg+Gen: мядʼ
      мяˮ+N+Sg+Dat: мятʼ
-     мяˮ+N+Sg+Loc: мякана
+     мяˮ+N+Sg+Loc: [мякана, мякна]
      мяˮ+N+Sg+Abl: мякад
      мяˮ+N+Sg+Pros: мяˮамна
-     мяˮ+N+Sg+Tra: мяˮӈэ
      мяˮ+N+Du+Nom: мякʼ
      мяˮ+N+Du+Acc: мякʼ
      мяˮ+N+Du+Gen: мякʼ
@@ -30,13 +29,17 @@ Tests:
      мяˮ+N+Pl+Acc: мядо
      мяˮ+N+Pl+Gen: мядоˮ
      мяˮ+N+Pl+Dat: мякˮ
-     мяˮ+N+Pl+Loc: мякаˮна
+     мяˮ+N+Pl+Loc: [мякаˮна, мякˮна]
      мяˮ+N+Pl+Abl: мякат
      мяˮ+N+Pl+Pros: мядоˮмана
-     мяˮ+N+Pl+Tra: мядˮӈэ
+     
+     мяˮ+N+Tra: мяˮӈэ
+     мяˮ+N+Car: мяциˮ
+     мяˮ+N+Equ: мятремʼ
+     мяˮ+N+Equ+Lat: мятревʼ
 
-# Possessive forms !Local case forms need to be checked!
-     мяˮ+N+Sg+Nom+PxSg1: [мяˮам, мяˮми]
+# Possessive forms 
+     мяˮ+N+Sg+Nom+PxSg1: мяˮам
      мяˮ+N+Sg+Nom+PxSg2: мяˮал  
      мяˮ+N+Sg+Nom+PxSg3: мята 
      мяˮ+N+Sg+Nom+PxDu1: мяˮмиʼ
@@ -45,7 +48,7 @@ Tests:
      мяˮ+N+Sg+Nom+PxPl1: мяˮмаˮ
      мяˮ+N+Sg+Nom+PxPl2: мяˮлаˮ
      мяˮ+N+Sg+Nom+PxPl3: мятоʼ
-     мяˮ+N+Sg+Acc+PxSg1: мяˮми  
+     мяˮ+N+Sg+Acc+PxSg1: мяˮам  
      мяˮ+N+Sg+Acc+PxSg2: мят  
      мяˮ+N+Sg+Acc+PxSg3: мята 
      мяˮ+N+Sg+Acc+PxDu1: мяˮмиʼ 
@@ -54,7 +57,7 @@ Tests:
      мяˮ+N+Sg+Acc+PxPl1: мяˮмаˮ 
      мяˮ+N+Sg+Acc+PxPl2: мятаˮ
      мяˮ+N+Sg+Acc+PxPl3: мятоʼ
-     мяˮ+N+Sg+Gen+PxSg1: мяˮни   
+     мяˮ+N+Sg+Gen+PxSg1: мяˮан   
      мяˮ+N+Sg+Gen+PxSg2: мят 
      мяˮ+N+Sg+Gen+PxSg3: мята 
      мяˮ+N+Sg+Gen+PxDu1: мяˮниʼ 
@@ -63,7 +66,7 @@ Tests:
      мяˮ+N+Sg+Gen+PxPl1: мяˮнаˮ 
      мяˮ+N+Sg+Gen+PxPl2: мятаˮ
      мяˮ+N+Sg+Gen+PxPl3: мятоʼ  
-     мяˮ+N+Sg+Dat+PxSg1: [мякан, мякани]  
+     мяˮ+N+Sg+Dat+PxSg1: мякан  
      мяˮ+N+Sg+Dat+PxSg2: мяканд  
      мяˮ+N+Sg+Dat+PxSg3: мяканда 
      мяˮ+N+Sg+Dat+PxDu1: мяканиʼ 
@@ -72,25 +75,25 @@ Tests:
      мяˮ+N+Sg+Dat+PxPl1: мяканаˮ 
      мяˮ+N+Sg+Dat+PxPl2: мякандаˮ
      мяˮ+N+Sg+Dat+PxPl3: мякандоʼ
-     мяˮ+N+Sg+Loc+PxSg1: [мяканан, мяканани]
-     мяˮ+N+Sg+Loc+PxSg2: мякананд  
-     мяˮ+N+Sg+Loc+PxSg3: мякананда 
-     мяˮ+N+Sg+Loc+PxDu1: мякананиʼ 
-     мяˮ+N+Sg+Loc+PxDu2: мяканандиʼ
-     мяˮ+N+Sg+Loc+PxDu3: мяканандиʼ
-     мяˮ+N+Sg+Loc+PxPl1: мякананаˮ 
-     мяˮ+N+Sg+Loc+PxPl2: мяканандаˮ
-     мяˮ+N+Sg+Loc+PxPl3: мяканандоʼ
-     мяˮ+N+Sg+Abl+PxSg1: [мякадан, мякадани]  
-     мяˮ+N+Sg+Abl+PxSg2: мякаданд  
-     мяˮ+N+Sg+Abl+PxSg3: мякаданда 
-     мяˮ+N+Sg+Abl+PxDu1: мякаданиʼ 
-     мяˮ+N+Sg+Abl+PxDu2: мякадандиʼ
-     мяˮ+N+Sg+Abl+PxDu3: мякадандиʼ
-     мяˮ+N+Sg+Abl+PxPl1: мякаданаˮ 
-     мяˮ+N+Sg+Abl+PxPl2: мякадандаˮ
-     мяˮ+N+Sg+Abl+PxPl3: мякадандоʼ
-     мяˮ+N+Sg+Pros+PxSg1: [мяˮамнан, мяˮамнани]
+     мяˮ+N+Sg+Loc+PxSg1: [мяканан, мякнан]
+     мяˮ+N+Sg+Loc+PxSg2: [мякананд, мякнанд]  
+     мяˮ+N+Sg+Loc+PxSg3: [мякананда, мякнанда] 
+     мяˮ+N+Sg+Loc+PxDu1: [мякананиʼ, мякнаниʼ]
+     мяˮ+N+Sg+Loc+PxDu2: [мяканандиʼ, мякнандиʼ]
+     мяˮ+N+Sg+Loc+PxDu3: [мяканандиʼ, мякнандиʼ]
+     мяˮ+N+Sg+Loc+PxPl1: [мякананаˮ, мякнанаˮ]
+     мяˮ+N+Sg+Loc+PxPl2: [мяканандаˮ, мякнандаˮ]
+     мяˮ+N+Sg+Loc+PxPl3: [мяканандоʼ, мякнандоʼ]
+     мяˮ+N+Sg+Abl+PxSg1: [мякадан, мякдан]  
+     мяˮ+N+Sg+Abl+PxSg2: [мякаданд, мякнанд]
+     мяˮ+N+Sg+Abl+PxSg3: [мякаданда, мякнанда] 
+     мяˮ+N+Sg+Abl+PxDu1: [мякаданиʼ, мякданиʼ]
+     мяˮ+N+Sg+Abl+PxDu2: [мякадандиʼ, мякдандиʼ]
+     мяˮ+N+Sg+Abl+PxDu3: [мякадандиʼ, мякдандиʼ]
+     мяˮ+N+Sg+Abl+PxPl1: [мякаданаˮ, мякданаˮ]
+     мяˮ+N+Sg+Abl+PxPl2: [мякадандаˮ, мякдандаˮ]
+     мяˮ+N+Sg+Abl+PxPl3: [мякадандоʼ, мякдандоʼ]
+     мяˮ+N+Sg+Pros+PxSg1: мяˮамнан
      мяˮ+N+Sg+Pros+PxSg2: мяˮамнанд  
      мяˮ+N+Sg+Pros+PxSg3: мяˮамнанда 
      мяˮ+N+Sg+Pros+PxDu1: мяˮамнаниʼ 
@@ -99,34 +102,34 @@ Tests:
      мяˮ+N+Sg+Pros+PxPl1: мяˮамнанаˮ 
      мяˮ+N+Sg+Pros+PxPl2: мяˮамнандаˮ
      мяˮ+N+Sg+Pros+PxPl3: мяˮамнандоʼ
-     мяˮ+N+Du+Nom+PxSg1: мякаюн  
-     мяˮ+N+Du+Nom+PxSg2: мякаюд  
-     мяˮ+N+Du+Nom+PxSg3: мякаюда 
-     мяˮ+N+Du+Nom+PxDu1: мякаюниʼ
-     мяˮ+N+Du+Nom+PxDu2: мякаюдиʼ
-     мяˮ+N+Du+Nom+PxDu3: мякаюдиʼ
-     мяˮ+N+Du+Nom+PxPl1: мякаюнаˮ
-     мяˮ+N+Du+Nom+PxPl2: мякаюдаˮ
-     мяˮ+N+Du+Nom+PxPl3: мякаюдоʼ
-     мяˮ+N+Du+Acc+PxSg1: мякаюн  
-     мяˮ+N+Du+Acc+PxSg2: мякаюд  
-     мяˮ+N+Du+Acc+PxSg3: мякаюда 
-     мяˮ+N+Du+Acc+PxDu1: мякаюниʼ
-     мяˮ+N+Du+Acc+PxDu2: мякаюдиʼ
-     мяˮ+N+Du+Acc+PxDu3: мякаюдиʼ
-     мяˮ+N+Du+Acc+PxPl1: мякаюнаˮ
-     мяˮ+N+Du+Acc+PxPl2: мякаюдаˮ
-     мяˮ+N+Du+Acc+PxPl3: мякаюдоʼ
-     мяˮ+N+Du+Gen+PxSg1: мякаюн  
-     мяˮ+N+Du+Gen+PxSg2: мякают  
-     мяˮ+N+Du+Gen+PxSg3: мякаюта 
-     мяˮ+N+Du+Gen+PxDu1: мякаюниʼ
-     мяˮ+N+Du+Gen+PxDu2: мякаютиʼ
-     мяˮ+N+Du+Gen+PxDu3: мякаютиʼ
-     мяˮ+N+Du+Gen+PxPl1: мякаюнаˮ
-     мяˮ+N+Du+Gen+PxPl2: мякаютаˮ
-     мяˮ+N+Du+Gen+PxPl3: мякаютоʼ
-     мяˮ+N+Pl+Nom+PxSg1: [мядон, мядони]
+     мяˮ+N+Du+Nom+PxSg1: [мякаюн, мякюн]  
+     мяˮ+N+Du+Nom+PxSg2: [мякаюд, мякюд]  
+     мяˮ+N+Du+Nom+PxSg3: [мякаюда, мякюда]
+     мяˮ+N+Du+Nom+PxDu1: [мякаюниʼ, мякюниʼ]
+     мяˮ+N+Du+Nom+PxDu2: [мякаюдиʼ, мякюдиʼ]
+     мяˮ+N+Du+Nom+PxDu3: [мякаюдиʼ, мякюдиʼ]
+     мяˮ+N+Du+Nom+PxPl1: [мякаюнаˮ, мякюнаˮ]
+     мяˮ+N+Du+Nom+PxPl2: [мякаюдаˮ, мякюдаˮ]
+     мяˮ+N+Du+Nom+PxPl3: [мякаюдоʼ, мякюдоʼ]
+     мяˮ+N+Du+Acc+PxSg1: [мякаюн, мякюн]
+     мяˮ+N+Du+Acc+PxSg2: [мякаюд, мякюд]
+     мяˮ+N+Du+Acc+PxSg3: [мякаюда, мякюда] 
+     мяˮ+N+Du+Acc+PxDu1: [мякаюниʼ, мякюниʼ]
+     мяˮ+N+Du+Acc+PxDu2: [мякаюдиʼ, мякюдиʼ]
+     мяˮ+N+Du+Acc+PxDu3: [мякаюдиʼ, мякюдиʼ]
+     мяˮ+N+Du+Acc+PxPl1: [мякаюнаˮ, мякюнаˮ]
+     мяˮ+N+Du+Acc+PxPl2: [мякаюдаˮ, мякюдаˮ]
+     мяˮ+N+Du+Acc+PxPl3: [мякаюдоʼ, мякюдоʼ]
+     мяˮ+N+Du+Gen+PxSg1: [мякаюн, мякюн] 
+     мяˮ+N+Du+Gen+PxSg2: [мякают, мякют] 
+     мяˮ+N+Du+Gen+PxSg3: [мякаюта, мякюта] 
+     мяˮ+N+Du+Gen+PxDu1: [мякаюниʼ, мякюниʼ]
+     мяˮ+N+Du+Gen+PxDu2: [мякаютиʼ, мякютиʼ]
+     мяˮ+N+Du+Gen+PxDu3: [мякаютиʼ, мякютиʼ]
+     мяˮ+N+Du+Gen+PxPl1: [мякаюнаˮ, мякюнаˮ]
+     мяˮ+N+Du+Gen+PxPl2: [мякаютаˮ, мякютаˮ]
+     мяˮ+N+Du+Gen+PxPl3: [мякаютоʼ, мякюдоʼ]
+     мяˮ+N+Pl+Nom+PxSg1: мядон
      мяˮ+N+Pl+Nom+PxSg2: мядод   
      мяˮ+N+Pl+Nom+PxSg3: мядода  
      мяˮ+N+Pl+Nom+PxDu1: мядониʼ 
@@ -135,7 +138,7 @@ Tests:
      мяˮ+N+Pl+Nom+PxPl1: мядонаˮ 
      мяˮ+N+Pl+Nom+PxPl2: мядодаˮ 
      мяˮ+N+Pl+Nom+PxPl3: мядодоʼ 
-     мяˮ+N+Pl+Acc+PxSg1: [мядон, мядони]
+     мяˮ+N+Pl+Acc+PxSg1: мядон
      мяˮ+N+Pl+Acc+PxSg2: мядод   
      мяˮ+N+Pl+Acc+PxSg3: мядода  
      мяˮ+N+Pl+Acc+PxDu1: мядониʼ 
@@ -144,7 +147,7 @@ Tests:
      мяˮ+N+Pl+Acc+PxPl1: мядонаˮ 
      мяˮ+N+Pl+Acc+PxPl2: мядодаˮ 
      мяˮ+N+Pl+Acc+PxPl3: мядодоʼ 
-     мяˮ+N+Pl+Gen+PxSg1: [мядоˮн, мядоˮни] 
+     мяˮ+N+Pl+Gen+PxSg1: мядоˮн
      мяˮ+N+Pl+Gen+PxSg2: мядот   
      мяˮ+N+Pl+Gen+PxSg3: мядота  
      мяˮ+N+Pl+Gen+PxDu1: мядоˮниʼ
@@ -154,33 +157,32 @@ Tests:
      мяˮ+N+Pl+Gen+PxPl2: мядотаˮ 
      мяˮ+N+Pl+Gen+PxPl3: мядотоʼ 
      мяˮ+N+Pl+Dat+PxSg1: мякаˮн 
-     мяˮ+N+Pl+Dat+PxSg1: мякаˮн
      мяˮ+N+Pl+Dat+PxSg2: мякат 
-     мяˮ+N+Pl+Dat+PxSg3: мяката 
-     мяˮ+N+Pl+Dat+PxDu1: мякаˮниʼ 
-     мяˮ+N+Pl+Dat+PxDu2: мякатиʼ 
-     мяˮ+N+Pl+Dat+PxDu3: мякатиʼ 
-     мяˮ+N+Pl+Dat+PxPl1: мякаˮнаˮ 
-     мяˮ+N+Pl+Dat+PxPl2: мякатаˮ 
-     мяˮ+N+Pl+Dat+PxPl3: мякатоʼ 
-     мяˮ+N+Pl+Loc+PxSg1: мякаˮнан  
-     мяˮ+N+Pl+Loc+PxSg2: мякаˮнат
-     мяˮ+N+Pl+Loc+PxSg3: мякаˮната 
-     мяˮ+N+Pl+Loc+PxDu1: мякаˮнаниʼ
-     мяˮ+N+Pl+Loc+PxDu2: мякаˮнатиʼ
-     мяˮ+N+Pl+Loc+PxDu3: мякаˮнатиʼ
-     мяˮ+N+Pl+Loc+PxPl1: мякаˮнанаˮ
-     мяˮ+N+Pl+Loc+PxPl2: мякаˮнатаˮ
-     мяˮ+N+Pl+Loc+PxPl3: мякаˮнатоʼ
-     мяˮ+N+Pl+Abl+PxSg1: мякатан 
-     мяˮ+N+Pl+Abl+PxSg2: мякатат 
-     мяˮ+N+Pl+Abl+PxSg3: мякатата 
-     мяˮ+N+Pl+Abl+PxDu1: мякатаниʼ
-     мяˮ+N+Pl+Abl+PxDu2: мякататиʼ
-     мяˮ+N+Pl+Abl+PxDu3: мякататиʼ
-     мяˮ+N+Pl+Abl+PxPl1: мякатанаˮ
-     мяˮ+N+Pl+Abl+PxPl2: мякататаˮ
-     мяˮ+N+Pl+Abl+PxPl3: мякататоʼ
+     мяˮ+N+Pl+Dat+PxSg3: [мяката, мякта] 
+     мяˮ+N+Pl+Dat+PxDu1: [мякаˮниʼ, мякниʼ] 
+     мяˮ+N+Pl+Dat+PxDu2: [мякатиʼ, мяктиʼ]
+     мяˮ+N+Pl+Dat+PxDu3: [мякатиʼ, мяктиʼ]
+     мяˮ+N+Pl+Dat+PxPl1: [мякаˮнаˮ, мякˮнаˮ] 
+     мяˮ+N+Pl+Dat+PxPl2: [мякатаˮ, мяктаˮ]
+     мяˮ+N+Pl+Dat+PxPl3: [мякатоʼ, мяктоʼ]
+     мяˮ+N+Pl+Loc+PxSg1: [мякаˮнан, мякˮнан] 
+     мяˮ+N+Pl+Loc+PxSg2: [мякаˮнат, мякˮнат]
+     мяˮ+N+Pl+Loc+PxSg3: [мякаˮната, мякˮната] 
+     мяˮ+N+Pl+Loc+PxDu1: [мякаˮнаниʼ, мякˮнаниʼ]
+     мяˮ+N+Pl+Loc+PxDu2: [мякаˮнатиʼ, мякˮнатиʼ]
+     мяˮ+N+Pl+Loc+PxDu3: [мякаˮнатиʼ, мякˮнатиʼ]
+     мяˮ+N+Pl+Loc+PxPl1: [мякаˮнанаˮ, мякˮнанаˮ]
+     мяˮ+N+Pl+Loc+PxPl2: [мякаˮнатаˮ, мякˮнатаˮ]
+     мяˮ+N+Pl+Loc+PxPl3: [мякаˮнатоʼ, мякˮнатоʼ]
+     мяˮ+N+Pl+Abl+PxSg1: [мякатан, мяктан] 
+     мяˮ+N+Pl+Abl+PxSg2: [мякатат, мяктат] 
+     мяˮ+N+Pl+Abl+PxSg3: [мякатата, мяктата] 
+     мяˮ+N+Pl+Abl+PxDu1: [мякатаниʼ, мяктаниʼ]
+     мяˮ+N+Pl+Abl+PxDu2: [мякататиʼ, мяктатиʼ]
+     мяˮ+N+Pl+Abl+PxDu3: [мякататиʼ, мяктатиʼ]
+     мяˮ+N+Pl+Abl+PxPl1: [мякатанаˮ, мяктанаˮ]
+     мяˮ+N+Pl+Abl+PxPl2: [мякататаˮ, мяктатаˮ]
+     мяˮ+N+Pl+Abl+PxPl3: [мякататоʼ, мяктатоʼ]
      мяˮ+N+Pl+Pros+PxSg1: мядоˮманан  
      мяˮ+N+Pl+Pros+PxSg2: мядоˮманат  
      мяˮ+N+Pl+Pros+PxSg3: мядоˮманата 
@@ -191,24 +193,30 @@ Tests:
      мяˮ+N+Pl+Pros+PxPl2: мядоˮманатаˮ
      мяˮ+N+Pl+Pros+PxPl3: мядоˮманатоʼ
 
-# Predestinative !Should be added
+# Predestinative 
+
+     мяˮ+N+Pred+Abs: мят
+     мяˮ+N+Pred+Nom+PxSg1: [мятав, мятув]
+     мяˮ+N+Pred+Nom+PxSg2: мятар
+     мяˮ+N+Pred+Nom+PxSg3: [мятада, мятда]
+               
 # Predicative (Nominal conjugation)
 
      мяˮ+N+Nom+Der/Pr+Ind+Aor+ScSg1: мятмʼ
-     мяˮ+N+Nom+Der/Pr+Ind+Aor+ScSg2: мяˮн  
+     мяˮ+N+Nom+Der/Pr+Ind+Aor+ScSg2: мят  
      мяˮ+N+Nom+Der/Pr+Ind+Aor+ScSg3: мяˮ
      мяˮ+N+Nom+Der/Pr+Ind+Aor+ScDu1: мяˮниʼ
      мяˮ+N+Nom+Der/Pr+Ind+Aor+ScDu2: мятиʼ
-     мяˮ+N+Nom+Der/Pr+Ind+Aor+ScDu3: мякаʼ
+     мяˮ+N+Nom+Der/Pr+Ind+Aor+ScDu3: мякʼ
      мяˮ+N+Nom+Der/Pr+Ind+Aor+ScPl1: мяˮмаˮ
-     мяˮ+N+Nom+Der/Pr+Ind+Aor+ScPl2: [мятаˮ, мяˮлаˮ]  # or ? мяˮлаˮ T919
+     мяˮ+N+Nom+Der/Pr+Ind+Aor+ScPl2: мятаˮ  # or ? мяˮлаˮ T919
      мяˮ+N+Nom+Der/Pr+Ind+Aor+ScPl3: мядˮ     # or ?  мяˮ 
      мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: мятамзь
-     мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: мяˮнась 
+     мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: мятась 
      мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: мяць   
      мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: мяˮнинзь
      мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: мятинзь
      мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: мяканзь
      мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: мяˮмаць 
-     мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: [мятаць, мяˮлаць]  # or ? мятаць
-     мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: мяць      # or ? мятёнзь  
+     мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: мятаць  # or ? мяˮлаць
+     мяˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: мядаць      # or ? мятёнзь  
