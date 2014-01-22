@@ -26,16 +26,13 @@ Tests:
      хоба+N+Du+Acc: хобахаʼ
      хоба+N+Du+Gen: хобахаʼ
      хоба+N+Pl+Nom: хобаˮ
-     хоба+N+Pl+Acc: хоба
-     хоба+N+Pl+Gen: хобаˮ
+     хоба+N+Pl+Acc: хоб
+     хоба+N+Pl+Gen: хобˮ
      хоба+N+Pl+Dat: хобахаˮ
      хоба+N+Pl+Loc: хобахаˮна
      хоба+N+Pl+Abl: хобахат
-     хоба+N+Pl+Pros: хобаˮмана
-         
-     хоба+N+Sg+Tra: хобаӈэ
-     хоба+N+Pl+Tra: хобаˮӈэ
-
+     хоба+N+Pl+Pros: хобˮмана
+     
 # Possessive forms 
      хоба+N+Sg+Nom+PxSg1: хобав 
      хоба+N+Sg+Nom+PxSg2: хобар  
@@ -73,8 +70,7 @@ Tests:
      хоба+N+Sg+Dat+PxPl1: хобаханаˮ 
      хоба+N+Sg+Dat+PxPl2: хобахандаˮ
      хоба+N+Sg+Dat+PxPl3: хобахандоʼ
-     хоба+N+Sg+Loc+PxSg1: хобаханан   
-     хоба+N+Sg+Loc+PxSg1: хобаханани  
+     хоба+N+Sg+Loc+PxSg1: хобаханан 
      хоба+N+Sg+Loc+PxSg2: хобахананд  
      хоба+N+Sg+Loc+PxSg3: хобахананда 
      хоба+N+Sg+Loc+PxDu1: хобахананиʼ 
@@ -83,8 +79,7 @@ Tests:
      хоба+N+Sg+Loc+PxPl1: хобахананаˮ 
      хоба+N+Sg+Loc+PxPl2: хобаханандаˮ
      хоба+N+Sg+Loc+PxPl3: хобаханандоʼ
-     хоба+N+Sg+Abl+PxSg1: хобахадан   
-     хоба+N+Sg+Abl+PxSg1: хобахадани  
+     хоба+N+Sg+Abl+PxSg1: хобахадан 
      хоба+N+Sg+Abl+PxSg2: хобахаданд  
      хоба+N+Sg+Abl+PxSg3: хобахаданда 
      хоба+N+Sg+Abl+PxDu1: хобахаданиʼ 
@@ -130,8 +125,8 @@ Tests:
      хоба+N+Du+Gen+PxPl1: хобахаюнаˮ
      хоба+N+Du+Gen+PxPl2: хобахаютаˮ
      хоба+N+Du+Gen+PxPl3: хобахаютоʼ
-     хоба+N+Pl+Nom+PxSg1: хобн   
-     хоба+N+Pl+Nom+PxSg2: хобд   
+     хоба+N+Pl+Nom+PxSg1: хобан   
+     хоба+N+Pl+Nom+PxSg2: хобад   
      хоба+N+Pl+Nom+PxSg3: хобда  
      хоба+N+Pl+Nom+PxDu1: хобниʼ 
      хоба+N+Pl+Nom+PxDu2: хобдиʼ 
@@ -139,8 +134,8 @@ Tests:
      хоба+N+Pl+Nom+PxPl1: хобнаˮ 
      хоба+N+Pl+Nom+PxPl2: хобдаˮ 
      хоба+N+Pl+Nom+PxPl3: хобдоʼ 
-     хоба+N+Pl+Acc+PxSg1: хобн   
-     хоба+N+Pl+Acc+PxSg2: хобд   
+     хоба+N+Pl+Acc+PxSg1: хобан   
+     хоба+N+Pl+Acc+PxSg2: хобад   
      хоба+N+Pl+Acc+PxSg3: хобда  
      хоба+N+Pl+Acc+PxDu1: хобниʼ 
      хоба+N+Pl+Acc+PxDu2: хобдиʼ 
@@ -148,8 +143,8 @@ Tests:
      хоба+N+Pl+Acc+PxPl1: хобнаˮ 
      хоба+N+Pl+Acc+PxPl2: хобдаˮ 
      хоба+N+Pl+Acc+PxPl3: хобдоʼ 
-     хоба+N+Pl+Gen+PxSg1: хобˮн  
-     хоба+N+Pl+Gen+PxSg2: хобт   
+     хоба+N+Pl+Gen+PxSg1: хобаˮн  
+     хоба+N+Pl+Gen+PxSg2: хобат   
      хоба+N+Pl+Gen+PxSg3: хобта  
      хоба+N+Pl+Gen+PxDu1: хобˮниʼ
      хоба+N+Pl+Gen+PxDu2: хобтиʼ 
@@ -157,33 +152,33 @@ Tests:
      хоба+N+Pl+Gen+PxPl1: хобˮнаˮ 
      хоба+N+Pl+Gen+PxPl2: хобтаˮ 
      хоба+N+Pl+Gen+PxPl3: хобтоʼ 
-     хоба+N+Pl+Dat+PxSg1: хобахоˮн 
-     хоба+N+Pl+Dat+PxSg2: хобахот 
-     хоба+N+Pl+Dat+PxSg3: хобахота 
-     хоба+N+Pl+Dat+PxDu1: хобахоˮниʼ 
-     хоба+N+Pl+Dat+PxDu2: хобахотиʼ 
-     хоба+N+Pl+Dat+PxDu3: хобахотиʼ 
-     хоба+N+Pl+Dat+PxPl1: хобахоˮнаˮ 
-     хоба+N+Pl+Dat+PxPl2: хобахотаˮ 
-     хоба+N+Pl+Dat+PxPl3: хобахотоʼ 
-     хоба+N+Pl+Loc+PxSg1: хобахоˮнан  
-     хоба+N+Pl+Loc+PxSg2: хобахоˮнат  
-     хоба+N+Pl+Loc+PxSg3: хобахоˮната 
-     хоба+N+Pl+Loc+PxDu1: хобахоˮнаниʼ
-     хоба+N+Pl+Loc+PxDu2: хобахоˮнатиʼ
-     хоба+N+Pl+Loc+PxDu3: хобахоˮнатиʼ
-     хоба+N+Pl+Loc+PxPl1: хобахоˮнанаˮ
-     хоба+N+Pl+Loc+PxPl2: хобахоˮнатаˮ
-     хоба+N+Pl+Loc+PxPl3: хобахоˮнатоʼ
-     хоба+N+Pl+Abl+PxSg1: хобахотан 
-     хоба+N+Pl+Abl+PxSg2: хобахотат 
-     хоба+N+Pl+Abl+PxSg3: хобахотата 
-     хоба+N+Pl+Abl+PxDu1: хобахотаниʼ
-     хоба+N+Pl+Abl+PxDu2: хобахотатиʼ
-     хоба+N+Pl+Abl+PxDu3: хобахотатиʼ
-     хоба+N+Pl+Abl+PxPl1: хобахотанаˮ
-     хоба+N+Pl+Abl+PxPl2: хобахотатаˮ
-     хоба+N+Pl+Abl+PxPl3: хобахотатоʼ
+     хоба+N+Pl+Dat+PxSg1: хобахаˮн 
+     хоба+N+Pl+Dat+PxSg2: хобахат 
+     хоба+N+Pl+Dat+PxSg3: хобахата 
+     хоба+N+Pl+Dat+PxDu1: хобахаˮниʼ 
+     хоба+N+Pl+Dat+PxDu2: хобахатиʼ 
+     хоба+N+Pl+Dat+PxDu3: хобахатиʼ 
+     хоба+N+Pl+Dat+PxPl1: хобахаˮнаˮ 
+     хоба+N+Pl+Dat+PxPl2: хобахатаˮ 
+     хоба+N+Pl+Dat+PxPl3: хобахатоʼ 
+     хоба+N+Pl+Loc+PxSg1: хобахаˮнан  
+     хоба+N+Pl+Loc+PxSg2: хобахаˮнат  
+     хоба+N+Pl+Loc+PxSg3: хобахаˮната 
+     хоба+N+Pl+Loc+PxDu1: хобахаˮнаниʼ
+     хоба+N+Pl+Loc+PxDu2: хобахаˮнатиʼ
+     хоба+N+Pl+Loc+PxDu3: хобахаˮнатиʼ
+     хоба+N+Pl+Loc+PxPl1: хобахаˮнанаˮ
+     хоба+N+Pl+Loc+PxPl2: хобахаˮнатаˮ
+     хоба+N+Pl+Loc+PxPl3: хобахаˮнатоʼ
+     хоба+N+Pl+Abl+PxSg1: хобахатан 
+     хоба+N+Pl+Abl+PxSg2: хобахатат 
+     хоба+N+Pl+Abl+PxSg3: хобахатата 
+     хоба+N+Pl+Abl+PxDu1: хобахатаниʼ
+     хоба+N+Pl+Abl+PxDu2: хобахататиʼ
+     хоба+N+Pl+Abl+PxDu3: хобахататиʼ
+     хоба+N+Pl+Abl+PxPl1: хобахатанаˮ
+     хоба+N+Pl+Abl+PxPl2: хобахататаˮ
+     хоба+N+Pl+Abl+PxPl3: хобахататоʼ
      хоба+N+Pl+Pros+PxSg1: хобˮманан  
      хоба+N+Pl+Pros+PxSg2: хобˮманат  
      хоба+N+Pl+Pros+PxSg3: хобˮманата 
@@ -195,10 +190,10 @@ Tests:
      хоба+N+Pl+Pros+PxPl3: хобˮманатоʼ
 
 # Predestinative
-
+     хоба+N+Pred+Abs: хобад
      хоба+N+Pred+Nom+PxSg1: хобадав 
      хоба+N+Pred+Nom+PxSg2: хобадар  
-     хоба+N+Pred+Nom+PxSg3: хобада 
+     хоба+N+Pred+Nom+PxSg3: хобадада
      хоба+N+Pred+Acc+PxSg1: хобадав
      хоба+N+Pred+Acc+PxSg2: хобадамд
      хоба+N+Pred+Acc+PxSg3: хобадамда
@@ -267,13 +262,13 @@ Tests:
      хоба+N+Du+Nom+Der/Pr+Ind+Aor+PxPl3: хобахаюдоʼ
      хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxSg1: хобан   
      хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxSg2: хобад   
-     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxSg3: хобада  
-     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxDu1: хобаниʼ 
-     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxDu2: хобадиʼ 
-     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxDu3: хобадиʼ 
-     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxPl1: хобанаˮ 
-     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxPl2: хобадаˮ 
-     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxPl3: хобадоʼ 
+     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxSg3: хобда  
+     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxDu1: хобниʼ 
+     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxDu2: хобдиʼ 
+     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxDu3: хобдиʼ 
+     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxPl1: хобнаˮ 
+     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxPl2: хобдаˮ 
+     хоба+N+Pl+Nom+Der/Pr+Ind+Aor+PxPl3: хобдоʼ 
      хоба+N+Sg+Nom+Der/Pr+Ind+Prt1+PxSg1: хобавась
      хоба+N+Sg+Nom+Der/Pr+Ind+Prt1+PxSg2: хобарась
      хоба+N+Sg+Nom+Der/Pr+Ind+Prt1+PxSg3: хобадась
@@ -292,12 +287,17 @@ Tests:
      хоба+N+Du+Nom+Der/Pr+Ind+Prt1+PxPl1: хобахаюнаць
      хоба+N+Du+Nom+Der/Pr+Ind+Prt1+PxPl2: хобахаюдаць
      хоба+N+Du+Nom+Der/Pr+Ind+Prt1+PxPl3: хобахаюдонзь
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg1: хобанась
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg2: хобадась
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg3: хобадась
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu1: хобанинзь
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu2: хобадинзь
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu3: хобадинзь
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxPl1: хобанаць
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxPl2: хобадаць
-     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxPl3: хобадонзь
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg1: хобнась
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg2: хобдась
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxSg3: хобдась
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu1: хобнинзь
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu2: хобдинзь
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxDu3: хобдинзь
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxPl1: хобнаць
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxPl2: хобдаць
+     хоба+N+Pl+Nom+Der/Pr+Ind+Prt1+PxPl3: хобдонзь
+     
+     хоба+N+Tra: хобаӈэ
+     хоба+N+Car: хобасиˮ
+     хоба+N+Equ: хобадаремʼ
+     хоба+N+Equ+Lat: хобадаревʼ
