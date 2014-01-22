@@ -9,7 +9,7 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 !! * Yaml: __xo__
 +N: NMN_ӇЭ ;
-+N+Pl+Pros:%>ˮ%{ауоэ%0%}мна	K ; !2013-10-22
++N+Pl+Pros:%>ˮ%{ауоэØ%}мна	K ; !2013-10-22
 +N: POSSESSA-PL-PROS_ˮмана ;
 
 LEXICON N_ӇЭ-Pal/Var  !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
@@ -1048,10 +1048,10 @@ LEXICON SGDATSUF
 +Sg+Dat:%>нʼ K ;
 
 LEXICON SGLOCSUF
-+Sg+Loc:%>х%{ауоэ%0%}на K ; !вэсакохона пэдарахана ӈамгэхэна
++Sg+Loc:%>х%{ауоэØ%}на K ; !вэсакохона пэдарахана ӈамгэхэна
 
 LEXICON SGABLSUF
-+Sg+Abl:%>х%{ауоэ%0%}д K ; !вэсакоход пэдарахад ӈамгэхэд
++Sg+Abl:%>х%{ауоэØ%}д K ; !вэсакоход пэдарахад ӈамгэхэд
 
 LEXICON SGPROSSUF
 +Sg+Pros:%>%{увм%}А2на K ; 
@@ -1061,15 +1061,15 @@ LEXICON SGTRASUF
 
 ! These must be checked
 LEXICON DUNOMSUF 
-+Du+Nom:%>х%{ауоэ%0%}ʼ K ;
++Du+Nom:%>х%{ауоэØ%}ʼ K ;
 !+Du+Nom:%>хʼ K ;
 
 LEXICON DUACCSUF
-+Du+Acc:%>х%{ауоэ%0%}ʼ K ;
++Du+Acc:%>х%{ауоэØ%}ʼ K ;
 !+Du+Acc:%>хʼ K ;
 
 LEXICON DUGENSUF 
-+Du+Gen:%>х%{ауоэ%0%}ʼ K ;
++Du+Gen:%>х%{ауоэØ%}ʼ K ;
 !+Du+Gen:%>хʼ K ;
 
 !! Start Plural
@@ -1140,14 +1140,14 @@ LEXICON PL-ACC_STEM
 !+Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
 
 LEXICON PLDATSUF
-+Pl+Dat:%>х%{ауоэ%0%}ˮ K ;
++Pl+Dat:%>х%{ауоэØ%}ˮ K ;
 +Pl+Dat:%>хˮ K ;
 
 LEXICON PLLOCSUF
-+Pl+Loc:%>х%{ауоэ%0%}ˮна K ;
++Pl+Loc:%>х%{ауоэØ%}ˮна K ;
 
 LEXICON PLABLSUF
-+Pl+Abl:%>х%{ауоэ%0%}т K ;
++Pl+Abl:%>х%{ауоэØ%}т K ;
 
 
 LEXICON PLPROSSUF
@@ -1233,52 +1233,52 @@ LEXICON POSSESSA-SG-GEN
 +Sg+Gen+PxPl3:%>ндоʼ K ;
 
 LEXICON POSSESSA-SG-DAT
-+Sg+Dat+PxSg1:%>х%{ауоэ%0%}н    K ;
-+Sg+Dat+PxSg1:%>х%{ауоэ%0%}ни   K ;
-+Sg+Dat+PxSg2:%>х%{ауоэ%0%}нд   K ;
-+Sg+Dat+PxSg3:%>х%{ауоэ%0%}нда  K ;
-+Sg+Dat+PxDu1:%>х%{ауоэ%0%}ниʼ  K ;
-+Sg+Dat+PxDu2:%>х%{ауоэ%0%}ндиʼ K ;
-+Sg+Dat+PxDu3:%>х%{ауоэ%0%}ндиʼ K ;
-+Sg+Dat+PxPl1:%>х%{ауоэ%0%}наˮ  K ;
-+Sg+Dat+PxPl2:%>х%{ауоэ%0%}ндаˮ K ;
-+Sg+Dat+PxPl3:%>х%{ауоэ%0%}ндоʼ K ;
++Sg+Dat+PxSg1:%>х%{ауоэØ%}н    K ;
++Sg+Dat+PxSg1:%>х%{ауоэØ%}ни   K ;
++Sg+Dat+PxSg2:%>х%{ауоэØ%}нд   K ;
++Sg+Dat+PxSg3:%>х%{ауоэØ%}нда  K ;
++Sg+Dat+PxDu1:%>х%{ауоэØ%}ниʼ  K ;
++Sg+Dat+PxDu2:%>х%{ауоэØ%}ндиʼ K ;
++Sg+Dat+PxDu3:%>х%{ауоэØ%}ндиʼ K ;
++Sg+Dat+PxPl1:%>х%{ауоэØ%}наˮ  K ;
++Sg+Dat+PxPl2:%>х%{ауоэØ%}ндаˮ K ;
++Sg+Dat+PxPl3:%>х%{ауоэØ%}ндоʼ K ;
 
 LEXICON POSSESSA-SG-LOC
-+Sg+Loc+PxSg1:%>х%{ауоэ%0%}нан    K ;
-+Sg+Loc+PxSg1:%>х%{ауоэ%0%}нани   K ;
-+Sg+Loc+PxSg2:%>х%{ауоэ%0%}нанд   K ;
-+Sg+Loc+PxSg3:%>х%{ауоэ%0%}нанда  K ;
-+Sg+Loc+PxDu1:%>х%{ауоэ%0%}наниʼ  K ;
-+Sg+Loc+PxDu2:%>х%{ауоэ%0%}нандиʼ K ;
-+Sg+Loc+PxDu3:%>х%{ауоэ%0%}нандиʼ K ;
-+Sg+Loc+PxPl1:%>х%{ауоэ%0%}нанаˮ  K ;
-+Sg+Loc+PxPl2:%>х%{ауоэ%0%}нандаˮ K ;
-+Sg+Loc+PxPl3:%>х%{ауоэ%0%}нандоʼ K ;
++Sg+Loc+PxSg1:%>х%{ауоэØ%}нан    K ;
++Sg+Loc+PxSg1:%>х%{ауоэØ%}нани   K ;
++Sg+Loc+PxSg2:%>х%{ауоэØ%}нанд   K ;
++Sg+Loc+PxSg3:%>х%{ауоэØ%}нанда  K ;
++Sg+Loc+PxDu1:%>х%{ауоэØ%}наниʼ  K ;
++Sg+Loc+PxDu2:%>х%{ауоэØ%}нандиʼ K ;
++Sg+Loc+PxDu3:%>х%{ауоэØ%}нандиʼ K ;
++Sg+Loc+PxPl1:%>х%{ауоэØ%}нанаˮ  K ;
++Sg+Loc+PxPl2:%>х%{ауоэØ%}нандаˮ K ;
++Sg+Loc+PxPl3:%>х%{ауоэØ%}нандоʼ K ;
 
 LEXICON POSSESSA-SG-ABL
-+Sg+Abl+PxSg1:%>х%{ауоэ%0%}дан    K ;
-+Sg+Abl+PxSg1:%>х%{ауоэ%0%}дани   K ;
-+Sg+Abl+PxSg2:%>х%{ауоэ%0%}данд   K ;
-+Sg+Abl+PxSg3:%>х%{ауоэ%0%}данда  K ;
-+Sg+Abl+PxDu1:%>х%{ауоэ%0%}даниʼ  K ;
-+Sg+Abl+PxDu2:%>х%{ауоэ%0%}дандиʼ K ;
-+Sg+Abl+PxDu3:%>х%{ауоэ%0%}дандиʼ K ;
-+Sg+Abl+PxPl1:%>х%{ауоэ%0%}данаˮ  K ;
-+Sg+Abl+PxPl2:%>х%{ауоэ%0%}дандаˮ K ;
-+Sg+Abl+PxPl3:%>х%{ауоэ%0%}дандоʼ K ;
++Sg+Abl+PxSg1:%>х%{ауоэØ%}дан    K ;
++Sg+Abl+PxSg1:%>х%{ауоэØ%}дани   K ;
++Sg+Abl+PxSg2:%>х%{ауоэØ%}данд   K ;
++Sg+Abl+PxSg3:%>х%{ауоэØ%}данда  K ;
++Sg+Abl+PxDu1:%>х%{ауоэØ%}даниʼ  K ;
++Sg+Abl+PxDu2:%>х%{ауоэØ%}дандиʼ K ;
++Sg+Abl+PxDu3:%>х%{ауоэØ%}дандиʼ K ;
++Sg+Abl+PxPl1:%>х%{ауоэØ%}данаˮ  K ;
++Sg+Abl+PxPl2:%>х%{ауоэØ%}дандаˮ K ;
++Sg+Abl+PxPl3:%>х%{ауоэØ%}дандоʼ K ;
 
 LEXICON POSSESSA-SG-4-EVAS !!= @CODE@ ABL
-+PxSg1:%>х%{ауоэ%0%}дан    K ;
-+PxSg1:%>х%{ауоэ%0%}дани   K ;
-+PxSg2:%>х%{ауоэ%0%}данд   K ;
-+PxSg3:%>х%{ауоэ%0%}данда  K ;
-+PxDu1:%>х%{ауоэ%0%}даниʼ  K ;
-+PxDu2:%>х%{ауоэ%0%}дандиʼ K ;
-+PxDu3:%>х%{ауоэ%0%}дандиʼ K ;
-+PxPl1:%>х%{ауоэ%0%}данаˮ  K ;
-+PxPl2:%>х%{ауоэ%0%}дандаˮ K ;
-+PxPl3:%>х%{ауоэ%0%}дандоʼ K ;
++PxSg1:%>х%{ауоэØ%}дан    K ;
++PxSg1:%>х%{ауоэØ%}дани   K ;
++PxSg2:%>х%{ауоэØ%}данд   K ;
++PxSg3:%>х%{ауоэØ%}данда  K ;
++PxDu1:%>х%{ауоэØ%}даниʼ  K ;
++PxDu2:%>х%{ауоэØ%}дандиʼ K ;
++PxDu3:%>х%{ауоэØ%}дандиʼ K ;
++PxPl1:%>х%{ауоэØ%}данаˮ  K ;
++PxPl2:%>х%{ауоэØ%}дандаˮ K ;
++PxPl3:%>х%{ауоэØ%}дандоʼ K ;
 
 LEXICON POSSESSA-SG-PROS
  ! 2012-04-11 Check this for N_Cons and N-D
@@ -1322,35 +1322,35 @@ LEXICON POSSESSA-DUAL
 +Du+Nom+PxPl2:%>хюдаˮ     K ;
 +Du+Nom+PxPl3:%>хюдоʼ     K  ;
 
-+Du+Nom+PxSg1:%>х%{ауоэ%0%}юн       K ;!хасавахаюн
-+Du+Nom+PxSg2:%>х%{ауоэ%0%}юд       K ; !хасавахаюд
-+Du+Nom+PxSg3:%>х%{ауоэ%0%}юда      K ;
-+Du+Nom+PxDu1:%>х%{ауоэ%0%}юниʼ     K ;
-+Du+Nom+PxDu2:%>х%{ауоэ%0%}юдиʼ     K ;
-+Du+Nom+PxDu3:%>х%{ауоэ%0%}юдиʼ     K ;
-+Du+Nom+PxPl1:%>х%{ауоэ%0%}юнаˮ     K ;
-+Du+Nom+PxPl2:%>х%{ауоэ%0%}юдаˮ     K ;
-+Du+Nom+PxPl3:%>х%{ауоэ%0%}юдоʼ     K  ;
++Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;!хасавахаюн
++Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; !хасавахаюд
++Du+Nom+PxSg3:%>х%{ауоэØ%}юда      K ;
++Du+Nom+PxDu1:%>х%{ауоэØ%}юниʼ     K ;
++Du+Nom+PxDu2:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxDu3:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxPl1:%>х%{ауоэØ%}юнаˮ     K ;
++Du+Nom+PxPl2:%>х%{ауоэØ%}юдаˮ     K ;
++Du+Nom+PxPl3:%>х%{ауоэØ%}юдоʼ     K  ;
 
-+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юн       K ;
-+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юд       K ;
-+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юда      K ;
-+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юниʼ     K ;
-+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юдиʼ     K ;
-+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юдиʼ     K ;
-+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юнаˮ     K ;
-+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юдаˮ     K ;
-+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэ%0%}юдоʼ     K  ;
++Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юн       K ;
++Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юд       K ;
++Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юда      K ;
++Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юниʼ     K ;
++Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юнаˮ     K ;
++Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдаˮ     K ;
++Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдоʼ     K  ;
 
-+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юнась       K ;
-+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юдась       K ;
-+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юдась      K ;
-+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юнинзь     K ;
-+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юдинзь     K ;
-+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юдинзь     K ;
-+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юнаць     K ;
-+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юдаць     K ;
-+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэ%0%}юдонзь     K  ;
++Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юнась       K ;
++Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдась       K ;
++Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдась      K ;
++Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юнинзь     K ;
++Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдинзь     K ;
++Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдинзь     K ;
++Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юнаць     K ;
++Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдаць     K ;
++Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдонзь     K  ;
 
 +Du+Acc+PxSg1:%>хюн   K ;
 +Du+Acc+PxSg2:%>хюд   K ;
@@ -1362,15 +1362,15 @@ LEXICON POSSESSA-DUAL
 +Du+Acc+PxPl2:%>хюдаˮ K ;
 +Du+Acc+PxPl3:%>хюдоʼ K ;
 
-+Du+Acc+PxSg1:%>х%{ауоэ%0%}юн   K ; !хасавахаюн
-+Du+Acc+PxSg2:%>х%{ауоэ%0%}юд   K ;
-+Du+Acc+PxSg3:%>х%{ауоэ%0%}юда  K ;
-+Du+Acc+PxDu1:%>х%{ауоэ%0%}юниʼ K ;
-+Du+Acc+PxDu2:%>х%{ауоэ%0%}юдиʼ K ;
-+Du+Acc+PxDu3:%>х%{ауоэ%0%}юдиʼ K ;
-+Du+Acc+PxPl1:%>х%{ауоэ%0%}юнаˮ K ;
-+Du+Acc+PxPl2:%>х%{ауоэ%0%}юдаˮ K ;
-+Du+Acc+PxPl3:%>х%{ауоэ%0%}юдоʼ K ;
++Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; !хасавахаюн
++Du+Acc+PxSg2:%>х%{ауоэØ%}юд   K ;
++Du+Acc+PxSg3:%>х%{ауоэØ%}юда  K ;
++Du+Acc+PxDu1:%>х%{ауоэØ%}юниʼ K ;
++Du+Acc+PxDu2:%>х%{ауоэØ%}юдиʼ K ;
++Du+Acc+PxDu3:%>х%{ауоэØ%}юдиʼ K ;
++Du+Acc+PxPl1:%>х%{ауоэØ%}юнаˮ K ;
++Du+Acc+PxPl2:%>х%{ауоэØ%}юдаˮ K ;
++Du+Acc+PxPl3:%>х%{ауоэØ%}юдоʼ K ;
 
 +Du+Gen+PxSg1:%>хюн   K ;
 +Du+Gen+PxSg2:%>хют   K ;
@@ -1382,15 +1382,15 @@ LEXICON POSSESSA-DUAL
 +Du+Gen+PxPl2:%>хютаˮ K ;
 +Du+Gen+PxPl3:%>хютоʼ K ;
 
-+Du+Gen+PxSg1:%>х%{ауоэ%0%}юн   K ;! хасавахаюн
-+Du+Gen+PxSg2:%>х%{ауоэ%0%}ют   K ;
-+Du+Gen+PxSg3:%>х%{ауоэ%0%}юта  K ;
-+Du+Gen+PxDu1:%>х%{ауоэ%0%}юниʼ K ;
-+Du+Gen+PxDu2:%>х%{ауоэ%0%}ютиʼ K ;
-+Du+Gen+PxDu3:%>х%{ауоэ%0%}ютиʼ K ;
-+Du+Gen+PxPl1:%>х%{ауоэ%0%}юнаˮ K ;
-+Du+Gen+PxPl2:%>х%{ауоэ%0%}ютаˮ K ;
-+Du+Gen+PxPl3:%>х%{ауоэ%0%}ютоʼ K ;
++Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;! хасавахаюн
++Du+Gen+PxSg2:%>х%{ауоэØ%}ют   K ;
++Du+Gen+PxSg3:%>х%{ауоэØ%}юта  K ;
++Du+Gen+PxDu1:%>х%{ауоэØ%}юниʼ K ;
++Du+Gen+PxDu2:%>х%{ауоэØ%}ютиʼ K ;
++Du+Gen+PxDu3:%>х%{ауоэØ%}ютиʼ K ;
++Du+Gen+PxPl1:%>х%{ауоэØ%}юнаˮ K ;
++Du+Gen+PxPl2:%>х%{ауоэØ%}ютаˮ K ;
++Du+Gen+PxPl3:%>х%{ауоэØ%}ютоʼ K ;
 
 LEXICON POSSESSA-PLURAL
  POSSESSA-PL-NOM ;
@@ -1586,38 +1586,38 @@ LEXICON POSSESSA-PL-OTHER
  POSSESSA-PL-PROS ;
 
 LEXICON POSSESSA-PL-DAT
-+Pl+Dat+PxSg1:%>х%{ауоэ%0%}ˮн   K ;
-+Pl+Dat+PxSg2:%>х%{ауоэ%0%}т    K ;
-+Pl+Dat+PxSg3:%>х%{ауоэ%0%}та   K ;
-+Pl+Dat+PxDu1:%>х%{ауоэ%0%}ˮниʼ K ;
-+Pl+Dat+PxDu2:%>х%{ауоэ%0%}тиʼ  K ;
-+Pl+Dat+PxDu3:%>х%{ауоэ%0%}тиʼ  K ;
-+Pl+Dat+PxPl1:%>х%{ауоэ%0%}ˮнаˮ K ;
-+Pl+Dat+PxPl2:%>х%{ауоэ%0%}таˮ  K ;
-+Pl+Dat+PxPl3:%>х%{ауоэ%0%}тоʼ  K ;
++Pl+Dat+PxSg1:%>х%{ауоэØ%}ˮн   K ;
++Pl+Dat+PxSg2:%>х%{ауоэØ%}т    K ;
++Pl+Dat+PxSg3:%>х%{ауоэØ%}та   K ;
++Pl+Dat+PxDu1:%>х%{ауоэØ%}ˮниʼ K ;
++Pl+Dat+PxDu2:%>х%{ауоэØ%}тиʼ  K ;
++Pl+Dat+PxDu3:%>х%{ауоэØ%}тиʼ  K ;
++Pl+Dat+PxPl1:%>х%{ауоэØ%}ˮнаˮ K ;
++Pl+Dat+PxPl2:%>х%{ауоэØ%}таˮ  K ;
++Pl+Dat+PxPl3:%>х%{ауоэØ%}тоʼ  K ;
 
 LEXICON POSSESSA-PL-LOC
-+Pl+Loc+PxSg1:%>х%{ауоэ%0%}ˮнан   K ;
-+Pl+Loc+PxSg2:%>х%{ауоэ%0%}ˮнат   K ;
-+Pl+Loc+PxSg3:%>х%{ауоэ%0%}ˮната  K ;
-+Pl+Loc+PxDu1:%>х%{ауоэ%0%}ˮнаниʼ K ;
-+Pl+Loc+PxDu2:%>х%{ауоэ%0%}ˮнатиʼ K ;
-+Pl+Loc+PxDu3:%>х%{ауоэ%0%}ˮнатиʼ K ;
-+Pl+Loc+PxPl1:%>х%{ауоэ%0%}ˮнанаˮ K ;
-+Pl+Loc+PxPl2:%>х%{ауоэ%0%}ˮнатаˮ K ;
-+Pl+Loc+PxPl3:%>х%{ауоэ%0%}ˮнатоʼ K ;
++Pl+Loc+PxSg1:%>х%{ауоэØ%}ˮнан   K ;
++Pl+Loc+PxSg2:%>х%{ауоэØ%}ˮнат   K ;
++Pl+Loc+PxSg3:%>х%{ауоэØ%}ˮната  K ;
++Pl+Loc+PxDu1:%>х%{ауоэØ%}ˮнаниʼ K ;
++Pl+Loc+PxDu2:%>х%{ауоэØ%}ˮнатиʼ K ;
++Pl+Loc+PxDu3:%>х%{ауоэØ%}ˮнатиʼ K ;
++Pl+Loc+PxPl1:%>х%{ауоэØ%}ˮнанаˮ K ;
++Pl+Loc+PxPl2:%>х%{ауоэØ%}ˮнатаˮ K ;
++Pl+Loc+PxPl3:%>х%{ауоэØ%}ˮнатоʼ K ;
 
 LEXICON POSSESSA-PL-ABL
-+Pl+Abl+PxSg1:%>х%{ауоэ%0%}тан   K ;
-+Pl+Abl+PxSg1:%>х%{ауоэ%0%}тани   K ;
-+Pl+Abl+PxSg2:%>х%{ауоэ%0%}тат   K ;
-+Pl+Abl+PxSg3:%>х%{ауоэ%0%}тата  K ;
-+Pl+Abl+PxDu1:%>х%{ауоэ%0%}таниʼ K ;
-+Pl+Abl+PxDu2:%>х%{ауоэ%0%}татиʼ K ;
-+Pl+Abl+PxDu3:%>х%{ауоэ%0%}татиʼ K ;
-+Pl+Abl+PxPl1:%>х%{ауоэ%0%}танаˮ K ;
-+Pl+Abl+PxPl2:%>х%{ауоэ%0%}татаˮ K ;
-+Pl+Abl+PxPl3:%>х%{ауоэ%0%}татоʼ K ;
++Pl+Abl+PxSg1:%>х%{ауоэØ%}тан   K ;
++Pl+Abl+PxSg1:%>х%{ауоэØ%}тани   K ;
++Pl+Abl+PxSg2:%>х%{ауоэØ%}тат   K ;
++Pl+Abl+PxSg3:%>х%{ауоэØ%}тата  K ;
++Pl+Abl+PxDu1:%>х%{ауоэØ%}таниʼ K ;
++Pl+Abl+PxDu2:%>х%{ауоэØ%}татиʼ K ;
++Pl+Abl+PxDu3:%>х%{ауоэØ%}татиʼ K ;
++Pl+Abl+PxPl1:%>х%{ауоэØ%}танаˮ K ;
++Pl+Abl+PxPl2:%>х%{ауоэØ%}татаˮ K ;
++Pl+Abl+PxPl3:%>х%{ауоэØ%}татоʼ K ;
 
 LEXICON POSSESSA-PL-PROS
 +Pl+Pros+PxSg1:%>ˮ%{увм%}А2нан   K ;
@@ -1654,7 +1654,7 @@ LEXICON NOMINAL-CONJUGATION
 +Der/Pr+V+Ind+Aor+ScSg3:      K ;
 +Der/Pr+V+Ind+Aor+ScDu1:%>ниʼ K ;
 +Der/Pr+V+Ind+Aor+ScDu2:%>диʼ K ;
-+Der/Pr+V+Ind+Aor+ScDu3:%>х%{ауоэ%0%}ʼ K ;
++Der/Pr+V+Ind+Aor+ScDu3:%>х%{ауоэØ%}ʼ K ;
 +Der/Pr+V+Ind+Aor+ScPl1:%>ваˮ K ;
 +Der/Pr+V+Ind+Aor+ScPl2:%>даˮ K ;
 +Der/Pr+V+Ind+Aor+ScPl3:%>ˮ   K ;
@@ -1665,7 +1665,7 @@ LEXICON NOMINAL-CONJUGATION
 +Der/Pr+V+Ind+Prt1+ScSg3:%>сь    K ;
 +Der/Pr+V+Ind+Prt1+ScDu1:%>нинзь K ;
 +Der/Pr+V+Ind+Prt1+ScDu2:%>динзь K ;
-+Der/Pr+V+Ind+Prt1+ScDu3:%>х%{ауоэ%0%}нзь K ;
++Der/Pr+V+Ind+Prt1+ScDu3:%>х%{ауоэØ%}нзь K ;
 +Der/Pr+V+Ind+Prt1+ScPl1:%>ваць  K ;
 +Der/Pr+V+Ind+Prt1+ScPl2:%>даць  K ;
 +Der/Pr+V+Ind+Prt1+ScPl3:%>ць    K ;
