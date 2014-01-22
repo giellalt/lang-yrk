@@ -32,9 +32,12 @@ Tests:
      ха+N+Pl+Loc: хахаˮна
      ха+N+Pl+Abl: хахат
      ха+N+Pl+Pros: хаˮамна
-     ха+N+Sg+Tra: хаӈэ
-     ха+N+Pl+Tra: хаˮӈэ
-
+     
+     ха+N+Tra: хаӈэ
+     ха+N+Car: хасиˮ
+     ха+N+Equ: хадремʼ
+     ха+N+Equ+Lat: хадревʼ
+     
 # Possessive forms 
      ха+N+Sg+Nom+PxSg1: хав 
      ха+N+Sg+Nom+PxSg2: хар  
@@ -198,6 +201,7 @@ Tests:
 
 # Predestinative
 
+     ха+N+Pred+Abs: хад 
      ха+N+Pred+Nom+PxSg1: хадав 
      ха+N+Pred+Nom+PxSg2: хадар  
      ха+N+Pred+Nom+PxSg3: хада 

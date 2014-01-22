@@ -22,7 +22,6 @@ Tests:
      хусувэй+Qnt+Der/MWN+N+Sg+Loc: хусувэхэна
      хусувэй+Qnt+Der/MWN+N+Sg+Abl: хусувэхэд
      хусувэй+Qnt+Der/MWN+N+Sg+Pros: хусувэювна
-     хусувэй+Qnt+Der/MWN+N+Sg+Tra: хусувэйӈэ
      хусувэй+Qnt+Der/MWN+N+Du+Nom: хусувэхэʼ
      хусувэй+Qnt+Der/MWN+N+Du+Acc: хусувэхэʼ
      хусувэй+Qnt+Der/MWN+N+Du+Gen: хусувэхэʼ
@@ -33,7 +32,11 @@ Tests:
      хусувэй+Qnt+Der/MWN+N+Pl+Loc: хусувэхэˮна
      хусувэй+Qnt+Der/MWN+N+Pl+Abl: хусувэхэт
      хусувэй+Qnt+Der/MWN+N+Pl+Pros: хусувэˮмна
-     хусувэй+Qnt+Der/MWN+N+Pl+Tra: хусувэйˮӈэ
+
+     хусувэй+Qnt+Der/MWN+N+Sg+Tra: хусувэӈэ
+     хусувэй+Qnt+Der/MWN+N+Sg+Tra: хусувэсиˮ
+     хусувэй+Qnt+Der/MWN+N+Sg+Tra: хусувэдремʼ
+     хусувэй+Qnt+Der/MWN+N+Sg+Tra: хусувэдревʼ
 
 # Possessive forms 
      хусувэй+Qnt+Der/MWN+N+Sg+Nom+PxSg1: хусувэв 
@@ -198,6 +201,9 @@ Tests:
      хусувэй+Qnt+Der/MWN+N+Pl+Pros+PxPl3: хусувэˮманатоʼ
 
 # Predestinative !Should be added
+
+     хусувэй+Qnt+Der/MWN+N+Pred+Abs: хусувэд
+     
 # Predicative (Nominal conjugation)
 
      хусувэй+Qnt+Der/MWN+N+Nom+Der/Pr+Ind+Aor+ScSg1: хусувэдмʼ

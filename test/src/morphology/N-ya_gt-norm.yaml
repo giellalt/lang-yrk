@@ -22,7 +22,6 @@ Tests:
      я+N+Sg+Loc: яхана
      я+N+Sg+Abl: яхад
      я+N+Sg+Pros: явна
-     я+N+Sg+Tra: яӈэ
      я+N+Du+Nom: яхаʼ
      я+N+Du+Acc: яхаʼ
      я+N+Du+Gen: яхаʼ
@@ -33,7 +32,12 @@ Tests:
      я+N+Pl+Loc: яхаˮна
      я+N+Pl+Abl: яхат
      я+N+Pl+Pros: [ёˮмна, яˮмна]
-     я+N+Pl+Tra: яˮӈэ
+
+     я+N+Tra: яӈэ
+     я+N+Car: ясиˮ
+     я+N+Equ: ядремʼ
+     я+N+Equ+Lat: ядревʼ
+
 
 # Possessive forms 
      я+N+Sg+Nom+PxSg1: яв 
@@ -197,6 +201,35 @@ Tests:
      я+N+Pl+Pros+PxPl3: яˮманатоʼ #ёˮманан
 
 # Predestinative !Should be added
+     я+N+Pred+Abs: яд
+     я+N+Pred+Nom+PxSg1: ядав 
+     я+N+Pred+Nom+PxSg2: ядар  
+     я+N+Pred+Nom+PxSg3: ядада
+     я+N+Pred+Acc+PxSg1: ядав
+     я+N+Pred+Acc+PxSg2: ядамд
+     я+N+Pred+Acc+PxSg3: ядамда
+     я+N+Pred+Gen+PxSg1: ядан
+     я+N+Pred+Gen+PxSg2: яданд
+     я+N+Pred+Gen+PxSg3: яданда
+     я+N+Pred+Nom+PxDu1: ядамиʼ
+     я+N+Pred+Nom+PxDu2: ядариʼ
+     я+N+Pred+Nom+PxDu3: ядадиʼ
+     я+N+Pred+Acc+PxDu1: ядамиʼ
+     я+N+Pred+Acc+PxDu2: ядамдиʼ
+     я+N+Pred+Acc+PxDu3: ядамдиʼ
+     я+N+Pred+Gen+PxDu1: яданиʼ
+     я+N+Pred+Gen+PxDu2: ядандиʼ
+     я+N+Pred+Gen+PxDu3: ядандиʼ
+     я+N+Pred+Nom+PxPl1: ядаваˮ
+     я+N+Pred+Nom+PxPl2: ядараˮ
+     я+N+Pred+Nom+PxPl3: ядадоʼ
+     я+N+Pred+Acc+PxPl1: ядаваˮ
+     я+N+Pred+Acc+PxPl2: ядамдаˮ
+     я+N+Pred+Acc+PxPl3: ядамдоʼ
+     я+N+Pred+Gen+PxPl1: яданаˮ
+     я+N+Pred+Gen+PxPl2: ядандаˮ
+     я+N+Pred+Gen+PxPl3: ядандоʼ
+     
 # Predicative (Nominal conjugation)
 
      я+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ядмʼ

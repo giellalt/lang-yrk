@@ -22,7 +22,6 @@ Tests:
      варˮ+N+Sg+Loc: варкана
      варˮ+N+Sg+Abl: варкад
      варˮ+N+Sg+Pros: вармна
-     варˮ+N+Sg+Tra: варˮӈэ
      варˮ+N+Du+Nom: варкʼ
      варˮ+N+Du+Acc: варкʼ
      варˮ+N+Du+Gen: варкʼ
@@ -33,7 +32,11 @@ Tests:
      варˮ+N+Pl+Loc: варкаˮна
      варˮ+N+Pl+Abl: варкат
      варˮ+N+Pl+Pros: вароˮмана
-     варˮ+N+Pl+Tra: варˮӈэ
+
+     варˮ+N+Tra: [варˮӈэ, варӈэ]
+     варˮ+N+Car: варциˮ
+     варˮ+N+Equ: вартремʼ
+     варˮ+N+Equ+Lat: вартревʼ
 
 # Possessive forms !Local case forms need to be checked!
      варˮ+N+Sg+Nom+PxSg1: варм
@@ -45,7 +48,7 @@ Tests:
      варˮ+N+Sg+Nom+PxPl1: вармаˮ
      варˮ+N+Sg+Nom+PxPl2: валаˮ
      варˮ+N+Sg+Nom+PxPl3: вартоʼ
-     варˮ+N+Sg+Acc+PxSg1: варми  
+     варˮ+N+Sg+Acc+PxSg1: варм 
      варˮ+N+Sg+Acc+PxSg2: варт  
      варˮ+N+Sg+Acc+PxSg3: варта 
      варˮ+N+Sg+Acc+PxDu1: вармиʼ 
@@ -54,7 +57,7 @@ Tests:
      варˮ+N+Sg+Acc+PxPl1: вармаˮ 
      варˮ+N+Sg+Acc+PxPl2: вартаˮ
      варˮ+N+Sg+Acc+PxPl3: вартоʼ
-     варˮ+N+Sg+Gen+PxSg1: варни   
+     варˮ+N+Sg+Gen+PxSg1: варн 
      варˮ+N+Sg+Gen+PxSg2: варт 
      варˮ+N+Sg+Gen+PxSg3: варта 
      варˮ+N+Sg+Gen+PxDu1: варниʼ 
@@ -194,21 +197,21 @@ Tests:
 # Predestinative !Should be added
 # Predicative (Nominal conjugation)
 
-     варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg1: вармʼ
-     варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg2: варн  
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg1: вартмʼ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg2: варт  
      варˮ+N+Nom+Der/Pr+Ind+Aor+ScSg3: варˮ
      варˮ+N+Nom+Der/Pr+Ind+Aor+ScDu1: варниʼ
      варˮ+N+Nom+Der/Pr+Ind+Aor+ScDu2: вартиʼ
-     варˮ+N+Nom+Der/Pr+Ind+Aor+ScDu3: варкаʼ
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScDu3: варкʼ
      варˮ+N+Nom+Der/Pr+Ind+Aor+ScPl1: вармаˮ
-     варˮ+N+Nom+Der/Pr+Ind+Aor+ScPl2: [вартаˮ, валаˮ] 
+     варˮ+N+Nom+Der/Pr+Ind+Aor+ScPl2: вартаˮ # валаˮ ?
      варˮ+N+Nom+Der/Pr+Ind+Aor+ScPl3: варˮ 
      варˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: вартамзь
-     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: варнась 
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: вартась 
      варˮ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: варць   
      варˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: варнинзь
      варˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: вартинзь
      варˮ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: варканзь
      варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: вармаць 
-     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: [ватаць, валаць]
-     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: варць
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: вартаць # валаць ?
+     варˮ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: вараць

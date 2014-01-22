@@ -33,8 +33,10 @@ Tests:
      ӈано+N+Pl+Abl: ӈанохот
      ӈано+N+Pl+Pros: ӈануˮмана    
 
-     ӈано+N+Sg+Tra: ӈаноӈэ
-     ӈано+N+Pl+Tra: ӈаноˮӈэ
+     ӈано+N+Tra: ӈаноӈэ
+     ӈано+N+Car: ӈаносиˮ
+     ӈано+N+Equ: ӈанодаремʼ
+     ӈано+N+Equ+Lat: ӈанодаревʼ
 
 # Possessive forms 
 
@@ -197,3 +199,33 @@ Tests:
      ӈано+N+Pl+Pros+PxPl1: ӈануˮмананаˮ
      ӈано+N+Pl+Pros+PxPl2: ӈануˮманатаˮ
      ӈано+N+Pl+Pros+PxPl3: ӈануˮманатоʼ
+
+# Predestinative
+     ӈано+N+Pred+Abs: ӈанод
+     ӈано+N+Pred+Nom+PxSg1: ӈанодав 
+     ӈано+N+Pred+Nom+PxSg2: ӈанодар  
+     ӈано+N+Pred+Nom+PxSg3: ӈанодада
+     ӈано+N+Pred+Acc+PxSg1: ӈанодав
+     ӈано+N+Pred+Acc+PxSg2: ӈанодамд
+     ӈано+N+Pred+Acc+PxSg3: ӈанодамда
+     ӈано+N+Pred+Gen+PxSg1: ӈанодан
+     ӈано+N+Pred+Gen+PxSg2: ӈаноданд
+     ӈано+N+Pred+Gen+PxSg3: ӈаноданда
+     ӈано+N+Pred+Nom+PxDu1: ӈанодамиʼ
+     ӈано+N+Pred+Nom+PxDu2: ӈанодариʼ
+     ӈано+N+Pred+Nom+PxDu3: ӈанодадиʼ
+     ӈано+N+Pred+Acc+PxDu1: ӈанодамиʼ
+     ӈано+N+Pred+Acc+PxDu2: ӈанодамдиʼ
+     ӈано+N+Pred+Acc+PxDu3: ӈанодамдиʼ
+     ӈано+N+Pred+Gen+PxDu1: ӈаноданиʼ
+     ӈано+N+Pred+Gen+PxDu2: ӈанодандиʼ
+     ӈано+N+Pred+Gen+PxDu3: ӈанодандиʼ
+     ӈано+N+Pred+Nom+PxPl1: ӈанодаваˮ
+     ӈано+N+Pred+Nom+PxPl2: ӈанодараˮ
+     ӈано+N+Pred+Nom+PxPl3: ӈанодадоʼ
+     ӈано+N+Pred+Acc+PxPl1: ӈанодаваˮ
+     ӈано+N+Pred+Acc+PxPl2: ӈанодамдаˮ
+     ӈано+N+Pred+Acc+PxPl3: ӈанодамдоʼ
+     ӈано+N+Pred+Gen+PxPl1: ӈаноданаˮ
+     ӈано+N+Pred+Gen+PxPl2: ӈанодандаˮ
+     ӈано+N+Pred+Gen+PxPl3: ӈанодандоʼ

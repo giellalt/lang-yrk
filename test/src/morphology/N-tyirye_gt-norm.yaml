@@ -34,8 +34,10 @@ Tests:
      тир+N+Pl+Abl: тирхат
      тир+N+Pl+Pros: тиреˮмана        
      
-     тир+N+Sg+Tra: тирӈэ
-     тир+N+Pl+Tra: тирˮӈэ
+     тир+N+Tra: тирӈэ
+     тир+N+Car: тирсиˮ
+     тир+N+Equ: тирдаремʼ
+     тир+N+Equ+Lat: тирдаревʼ
 
 # Possessive forms 
 
@@ -198,3 +200,31 @@ Tests:
      тир+N+Pl+Pros+PxPl1: тиреˮмананаˮ
      тир+N+Pl+Pros+PxPl2: тиреˮманатаˮ
      тир+N+Pl+Pros+PxPl3: тиреˮманатоʼ
+     
+# Predestinative 
+               
+     тир+N+Pred+Abs: тирад
+     тир+N+Pred+Nom+PxSg1: [тирдав, тирдув]
+     тир+N+Pred+Nom+PxSg2: тирдар
+     тир+N+Pred+Nom+PxSg3: тирдада
+
+# Predicative (Nominal conjugation)
+
+     тир+N+Nom+Der/Pr+Ind+Aor+ScSg1: тирадмʼ
+     тир+N+Nom+Der/Pr+Ind+Aor+ScSg2: тиран 
+     тир+N+Nom+Der/Pr+Ind+Aor+ScSg3: тир
+     тир+N+Nom+Der/Pr+Ind+Aor+ScDu1: тирниʼ
+     тир+N+Nom+Der/Pr+Ind+Aor+ScDu2: тирдиʼ
+     тир+N+Nom+Der/Pr+Ind+Aor+ScDu3: тирхаʼ
+     тир+N+Nom+Der/Pr+Ind+Aor+ScPl1: тирваˮ
+     тир+N+Nom+Der/Pr+Ind+Aor+ScPl2: тирдаˮ 
+     тир+N+Nom+Der/Pr+Ind+Aor+ScPl3: тирˮ  
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScSg1: тирдамзь
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScSg2: тирнась 
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScSg3: тирась   
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScDu1: тирнинзь
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScDu2: тирдинзь
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScDu3: тирханзь
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScPl1: тирваць 
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScPl2: тирдаць  
+     тир+N+Nom+Der/Pr+Ind+Prt1+ScPl3: тираць  

@@ -19,10 +19,9 @@ Tests:
      выʼ+N+Sg+Acc: вымʼ
      выʼ+N+Sg+Gen: выʼ
      выʼ+N+Sg+Dat: вындʼ
-     выʼ+N+Sg+Loc: выӈгана
+     выʼ+N+Sg+Loc: [выӈгана, выӈгна]
      выʼ+N+Sg+Abl: выӈгад
      выʼ+N+Sg+Pros: вымна
-     выʼ+N+Sg+Tra: выӈэ
      выʼ+N+Du+Nom: выӈгʼ
      выʼ+N+Du+Acc: выӈгʼ
      выʼ+N+Du+Gen: выӈгʼ
@@ -30,10 +29,14 @@ Tests:
      выʼ+N+Pl+Acc: выӈо
      выʼ+N+Pl+Gen: выӈоˮ
      выʼ+N+Pl+Dat: выӈгˮ
-     выʼ+N+Pl+Loc: выӈгаˮна
+     выʼ+N+Pl+Loc: [выӈгаˮна, выӈгˮна]
      выʼ+N+Pl+Abl: выӈгат
      выʼ+N+Pl+Pros: выӈоˮмана
-     выʼ+N+Pl+Tra: выˮӈэ
+     
+     выʼ+N+Tra: выӈэ
+     выʼ+N+Car: вынзиˮ
+     выʼ+N+Equ: вындремʼ
+     выʼ+N+Equ+Lat: вындревʼ
 
 # Possessive forms !Local case forms need to be checked!
      выʼ+N+Sg+Nom+PxSg1: выми
@@ -199,7 +202,7 @@ Tests:
 # Predicative (Nominal conjugation)
 
      выʼ+N+Nom+Der/Pr+Ind+Aor+ScSg1: вындмʼ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: вын  
+     выʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: вынд  
      выʼ+N+Nom+Der/Pr+Ind+Aor+ScSg3: выʼ
      выʼ+N+Nom+Der/Pr+Ind+Aor+ScDu1: выниʼ
      выʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: вындиʼ
@@ -208,11 +211,11 @@ Tests:
      выʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: вындаˮ
      выʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: выˮ  
      выʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: вындамзь
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: вынась 
+     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: вындась 
      выʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: вынзь   
      выʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: вынинзь
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: выдинзь
+     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: вындинзь
      выʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: выӈганзь
      выʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: вымаць 
      выʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: вындаць 
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: вынць   
+     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: выць   
