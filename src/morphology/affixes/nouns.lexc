@@ -770,7 +770,7 @@ LEXICON NMN_ЯЙ
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
- PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
@@ -799,7 +799,7 @@ LEXICON NMN_СЕЛВ
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
- PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
@@ -854,7 +854,7 @@ LEXICON NMN_ИБЯ
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
- PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
@@ -880,7 +880,7 @@ LEXICON NMN_ТАСО
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
- PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
@@ -943,7 +943,7 @@ LEXICON N_ТЭНО
 +N: PLDATSUF ;
 +N: PLLOCSUF ;
 +N: PLABLSUF ;
-+N: PLTRASUF ;
+!+N: PLTRASUF ;
 
 +N: POSSESSOR-INDICES ; ! 
 +N+Nom: NOMINAL-CONJUGATION ;
@@ -993,7 +993,7 @@ LEXICON N_ЁЛЬЦЕ
 +N: PLDATSUF ;
 +N: PLLOCSUF ;
 +N: PLABLSUF ;
-+N: PLTRASUF ;
+!+N: PLTRASUF ;
 
 +N+Nom: NOMINAL-CONJUGATION ;
 +N: POSSESSOR-INDICES ; !
@@ -1025,7 +1025,11 @@ LEXICON SG-NOM-STEM
  PLABLSUF ;
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
++Pred+Abs:д K ;
 PRED-POSSESSA ; ! This is perhaps a derivation
++Car:сиˮ K ;
++Equ:даремʼ K ; !дремʼ for non-even-syllable stems
++Equ+Lat:даревʼ K ; !древʼ for non-even-syllable stems
  SGTRASUF ;
 
 
@@ -1053,7 +1057,7 @@ LEXICON SGPROSSUF
 +Sg+Pros:%>%{увм%}А2на K ; 
 
 LEXICON SGTRASUF 
-+Sg+Tra:%>ӈэ K ;
++Tra:%>ӈэ K ;
 
 ! These must be checked
 LEXICON DUNOMSUF 
@@ -1071,7 +1075,7 @@ LEXICON DUGENSUF
 !! Start Plural
 LEXICON PLNOMSUF
 +Pl+Nom:%>ˮ K ;
- PLTRASUF ;
+! PLTRASUF ;
 
 LEXICON PLACCSUF
 +Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
@@ -1154,8 +1158,8 @@ LEXICON PLPROSSUF
 
 
 
-LEXICON  PLTRASUF
-+Pl+Tra:%>ˮӈэ K ;
+!LEXICON  PLTRASUF
+!+Pl+Tra:%>ˮӈэ K ;
 
 !! Possessor Indices
 LEXICON POSSESSOR-INDICES
@@ -1413,7 +1417,7 @@ LEXICON PRED-POSSESSA
 LEXICON PRED-NOM-POSSESSA
 +Pred+Nom+PxSg1:%>да%>в   K ;
 +Pred+Nom+PxSg2:%>да%>р   K ;
-+Pred+Nom+PxSg3:%>да  K ;
++Pred+Nom+PxSg3:%>да%>да  K ;
 +Pred+Nom+PxDu1:%>да%>миʼ K ;
 +Pred+Nom+PxDu2:%>да%>риʼ K ;
 +Pred+Nom+PxDu3:%>да%>диʼ K ;
