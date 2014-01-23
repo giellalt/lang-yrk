@@ -92,7 +92,7 @@ Alternating between zero and а
 Initially this is used for the noun "я" to enable a:o
 for я:и in пя
 м:в м:б
- %^VowLower  vowel lowering ы:э у:о
+  %^VowLower  vowel lowering ы:э у:о
 э:ы о:у
 stem-final vowel is lost in plural accusative form
 хасава:хасев
@@ -974,8 +974,8 @@ Non-finites
 
 !!triggers
 lenition
- %^VowLower:0  vowel lowering ы:э у:о
- %^VowRaise:0  vowel raising э:ы о:у
+  %^VowLower:0  vowel lowering ы:э у:о
+  %^VowRaise:0  vowel raising э:ы о:у
 stem-final vowel is lost in plural accusative
 хасава:хасев
 in combination with stem-final vowel loss тёня:тён
@@ -1024,7 +1024,7 @@ __%{ауоэØ%} <- а left__
 __%{ауоэØ%} -> у__
 
 __%{ауоэØ%} -> о__
- %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
+  %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
 
 __%{ауоэØ%} -> э__
 
