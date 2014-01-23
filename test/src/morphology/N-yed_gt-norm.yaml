@@ -42,32 +42,30 @@ Tests:
      
 # Possessive forms 
      
-     ед+N+Sg+Nom+PxSg1: едв 
-     ед+N+Sg+Nom+PxSg2: едд
+     ед+N+Sg+Nom+PxSg1: [едав, едув] 
+     ед+N+Sg+Nom+PxSg2: едар
      ед+N+Sg+Nom+PxSg3: едда 
      ед+N+Sg+Nom+PxDu1: едмиʼ
-     ед+N+Sg+Nom+PxDu2: едиʼ
+     ед+N+Sg+Nom+PxDu2: [едриʼ, едариʼ]
      ед+N+Sg+Nom+PxDu3: еддиʼ
      ед+N+Sg+Nom+PxPl1: едваˮ
      ед+N+Sg+Nom+PxPl2: еддаˮ
      ед+N+Sg+Nom+PxPl3: еддоʼ
-     ед+N+Sg+Acc+PxSg1: едв   
-     ед+N+Sg+Acc+PxSg1: едми  
-     ед+N+Sg+Acc+PxSg2: едмд  
-     ед+N+Sg+Acc+PxSg3: едмда 
+     ед+N+Sg+Acc+PxSg1: [едав, едув]  
+     ед+N+Sg+Acc+PxSg2: едамд  
+     ед+N+Sg+Acc+PxSg3: едамда 
      ед+N+Sg+Acc+PxDu1: едмиʼ 
-     ед+N+Sg+Acc+PxDu2: едмдиʼ
-     ед+N+Sg+Acc+PxDu3: едмдиʼ
+     ед+N+Sg+Acc+PxDu2: едамдиʼ
+     ед+N+Sg+Acc+PxDu3: едамдиʼ
      ед+N+Sg+Acc+PxPl1: едваˮ 
      ед+N+Sg+Acc+PxPl2: едмдаˮ
      ед+N+Sg+Acc+PxPl3: едмдоʼ
-     ед+N+Sg+Gen+PxSg1: едн   
-     ед+N+Sg+Gen+PxSg1: едни  
-     ед+N+Sg+Gen+PxSg2: еднд  
-     ед+N+Sg+Gen+PxSg3: еднда 
+     ед+N+Sg+Gen+PxSg1: едан   
+     ед+N+Sg+Gen+PxSg2: еданд  
+     ед+N+Sg+Gen+PxSg3: еданда 
      ед+N+Sg+Gen+PxDu1: едниʼ 
-     ед+N+Sg+Gen+PxDu2: едндиʼ
-     ед+N+Sg+Gen+PxDu3: едндиʼ
+     ед+N+Sg+Gen+PxDu2: едандиʼ
+     ед+N+Sg+Gen+PxDu3: едандиʼ
      ед+N+Sg+Gen+PxPl1: еднаˮ 
      ед+N+Sg+Gen+PxPl2: едндаˮ
      ед+N+Sg+Gen+PxPl3: едндоʼ
@@ -82,7 +80,6 @@ Tests:
      ед+N+Sg+Dat+PxPl2: едхандаˮ
      ед+N+Sg+Dat+PxPl3: едхандоʼ
      ед+N+Sg+Loc+PxSg1: едханан   
-     ед+N+Sg+Loc+PxSg1: едханани  
      ед+N+Sg+Loc+PxSg2: едхананд  
      ед+N+Sg+Loc+PxSg3: едхананда 
      ед+N+Sg+Loc+PxDu1: едхананиʼ 
@@ -91,8 +88,7 @@ Tests:
      ед+N+Sg+Loc+PxPl1: едхананаˮ 
      ед+N+Sg+Loc+PxPl2: едханандаˮ
      ед+N+Sg+Loc+PxPl3: едханандоʼ
-     ед+N+Sg+Abl+PxSg1: едхадан   
-     ед+N+Sg+Abl+PxSg1: едхадани  
+     ед+N+Sg+Abl+PxSg1: едхадан    
      ед+N+Sg+Abl+PxSg2: едхаданд  
      ед+N+Sg+Abl+PxSg3: едхаданда 
      ед+N+Sg+Abl+PxDu1: едхаданиʼ 
@@ -101,8 +97,7 @@ Tests:
      ед+N+Sg+Abl+PxPl1: едхаданаˮ 
      ед+N+Sg+Abl+PxPl2: едхадандаˮ
      ед+N+Sg+Abl+PxPl3: едхадандоʼ
-     ед+N+Sg+Pros+PxSg1: едувнан   
-     ед+N+Sg+Pros+PxSg1: едувнани  
+     ед+N+Sg+Pros+PxSg1: едувнан    
      ед+N+Sg+Pros+PxSg2: едувнанд  
      ед+N+Sg+Pros+PxSg3: едувнанда 
      ед+N+Sg+Pros+PxDu1: едувнаниʼ 
@@ -138,26 +133,26 @@ Tests:
      ед+N+Du+Gen+PxPl1: едхаюнаˮ
      ед+N+Du+Gen+PxPl2: едхаютаˮ
      ед+N+Du+Gen+PxPl3: едхаютоʼ
-     ед+N+Pl+Nom+PxSg1: едн   
-     ед+N+Pl+Nom+PxSg2: едд   
-     ед+N+Pl+Nom+PxSg3: едда  
+     ед+N+Pl+Nom+PxSg1: едан   
+     ед+N+Pl+Nom+PxSg2: едад   
+     ед+N+Pl+Nom+PxSg3: [едда, едада]  
      ед+N+Pl+Nom+PxDu1: едниʼ 
      ед+N+Pl+Nom+PxDu2: еддиʼ 
      ед+N+Pl+Nom+PxDu3: еддиʼ 
      ед+N+Pl+Nom+PxPl1: еднаˮ 
      ед+N+Pl+Nom+PxPl2: еддаˮ 
      ед+N+Pl+Nom+PxPl3: еддоʼ 
-     ед+N+Pl+Acc+PxSg1: едн   
-     ед+N+Pl+Acc+PxSg2: едд   
-     ед+N+Pl+Acc+PxSg3: едда  
+     ед+N+Pl+Acc+PxSg1: едан   
+     ед+N+Pl+Acc+PxSg2: едад   
+     ед+N+Pl+Acc+PxSg3: [едда, едада]  
      ед+N+Pl+Acc+PxDu1: едниʼ 
      ед+N+Pl+Acc+PxDu2: еддиʼ 
      ед+N+Pl+Acc+PxDu3: еддиʼ 
      ед+N+Pl+Acc+PxPl1: еднаˮ 
      ед+N+Pl+Acc+PxPl2: еддаˮ 
      ед+N+Pl+Acc+PxPl3: еддоʼ 
-     ед+N+Pl+Gen+PxSg1: едˮн  
-     ед+N+Pl+Gen+PxSg2: едт   
+     ед+N+Pl+Gen+PxSg1: едаˮн  
+     ед+N+Pl+Gen+PxSg2: едат   
      ед+N+Pl+Gen+PxSg3: едта  
      ед+N+Pl+Gen+PxDu1: едˮниʼ
      ед+N+Pl+Gen+PxDu2: едтиʼ 
@@ -166,7 +161,7 @@ Tests:
      ед+N+Pl+Gen+PxPl2: едтаˮ 
      ед+N+Pl+Gen+PxPl3: едтоʼ 
      ед+N+Pl+Dat+PxSg1: едхаˮн 
-     ед+N+Pl+Dat+PxSg2: едхат 
+     ед+N+Pl+Dat+PxSg2: едхаˮнат 
      ед+N+Pl+Dat+PxSg3: едхата 
      ед+N+Pl+Dat+PxDu1: едхаˮниʼ 
      ед+N+Pl+Dat+PxDu2: едхатиʼ 
@@ -201,3 +196,112 @@ Tests:
      ед+N+Pl+Pros+PxPl1: едˮмананаˮ
      ед+N+Pl+Pros+PxPl2: едˮманатаˮ
      ед+N+Pl+Pros+PxPl3: едˮманатоʼ
+
+# Predestinative
+
+     ед+N+Pred+Abs: едад
+     ед+N+Pred+Nom+PxSg1: едадав 
+     ед+N+Pred+Nom+PxSg2: едадар  
+     ед+N+Pred+Nom+PxSg3: едадада 
+     ед+N+Pred+Acc+PxSg1: едадав
+     ед+N+Pred+Acc+PxSg2: едадамд
+     ед+N+Pred+Acc+PxSg3: едадамда
+     ед+N+Pred+Gen+PxSg1: едадан
+     ед+N+Pred+Gen+PxSg2: едаданд
+     ед+N+Pred+Gen+PxSg3: едаданда
+     ед+N+Pred+Nom+PxDu1: едадамиʼ
+     ед+N+Pred+Nom+PxDu2: едадариʼ
+     ед+N+Pred+Nom+PxDu3: едададиʼ
+     ед+N+Pred+Acc+PxDu1: едадамиʼ
+     ед+N+Pred+Acc+PxDu2: едадамдиʼ
+     ед+N+Pred+Acc+PxDu3: едадамдиʼ
+     ед+N+Pred+Gen+PxDu1: едаданиʼ
+     ед+N+Pred+Gen+PxDu2: едадандиʼ
+     ед+N+Pred+Gen+PxDu3: едадандиʼ
+     ед+N+Pred+Nom+PxPl1: едадаваˮ
+     ед+N+Pred+Nom+PxPl2: едадараˮ
+     ед+N+Pred+Nom+PxPl3: едададоʼ
+     ед+N+Pred+Acc+PxPl1: едадаваˮ
+     ед+N+Pred+Acc+PxPl2: едадамдаˮ
+     ед+N+Pred+Acc+PxPl3: едадамдоʼ
+     ед+N+Pred+Gen+PxPl1: едаданаˮ
+     ед+N+Pred+Gen+PxPl2: едадандаˮ
+     ед+N+Pred+Gen+PxPl3: едадандоʼ
+     
+# Predicative (Nominal conjugation)
+
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: едадмʼ
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: едан  
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ед
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: еданиʼ
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: едадиʼ
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: едхаʼ
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: едаваˮ
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: едадаˮ
+     ед+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: едˮ  
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: едадамзь
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: еданась 
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: едась   
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: еданинзь
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: едадинзь
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: едханзь
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: едаваць 
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: едадаць 
+     ед+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: едаць   
+                    
+# Predicative Possessive forms 
+
+     ед+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg: едав 
+     ед+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg: едар  
+     ед+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg: едада 
+     ед+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg: едамиʼ
+     ед+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg: едариʼ
+     ед+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg: едадиʼ
+     ед+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg: едаваˮ
+     ед+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg: едараˮ
+     ед+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg: едадоʼ
+     ед+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu: едхаюн  
+     ед+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu: едхаюд  
+     ед+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu: едхаюда 
+     ед+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu: едхаюниʼ
+     ед+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu: едхаюдиʼ
+     ед+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu: едхаюдиʼ
+     ед+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu: едхаюнаˮ
+     ед+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu: едхаюдаˮ
+     ед+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu: едхаюдоʼ
+     ед+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl: едан   
+     ед+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl: едад   
+     ед+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl: едада  
+     ед+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl: еданиʼ 
+     ед+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl: едадиʼ 
+     ед+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl: едадиʼ 
+     ед+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl: еданаˮ 
+     ед+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl: едадаˮ 
+     ед+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl: едадоʼ 
+     ед+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg: едавась
+     ед+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg: едарась
+     ед+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg: едадась
+     ед+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg: едаминзь
+     ед+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg: едаринзь
+     ед+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg: едадинзь
+     ед+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg: едаваць
+     ед+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg: едараць
+     ед+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg: едадонзь
+     ед+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu: едхаюнась
+     ед+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu: едхаюдась
+     ед+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu: едхаюдась
+     ед+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu: едхаюнинзь
+     ед+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu: едхаюдинзь
+     ед+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu: едхаюдинзь
+     ед+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu: едхаюнаць
+     ед+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu: едхаюдаць
+     ед+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu: едхаюдонзь
+     ед+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl: еданась
+     ед+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl: едадась
+     ед+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl: едадась
+     ед+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl: еданинзь
+     ед+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl: едадинзь
+     ед+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl: едадинзь
+     ед+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl: еданаць
+     ед+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl: едадаць
+     ед+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl: едадонзь
