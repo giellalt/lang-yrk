@@ -201,6 +201,7 @@ Tests:
      ӈано+N+Pl+Pros+PxPl3: ӈануˮманатоʼ
 
 # Predestinative
+
      ӈано+N+Pred+Abs: ӈанод
      ӈано+N+Pred+Nom+PxSg1: ӈанодав 
      ӈано+N+Pred+Nom+PxSg2: ӈанодар  
@@ -229,3 +230,81 @@ Tests:
      ӈано+N+Pred+Gen+PxPl1: ӈаноданаˮ
      ӈано+N+Pred+Gen+PxPl2: ӈанодандаˮ
      ӈано+N+Pred+Gen+PxPl3: ӈанодандоʼ
+     
+# Predicative (Nominal conjugation)
+
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ӈанодмʼ
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ӈанон  
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ӈано   
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: ӈанониʼ
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: ӈанодиʼ
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: ӈанохоʼ
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: ӈановаˮ
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: ӈанодаˮ
+     ӈано+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: ӈаноˮ  
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: ӈанодамзь
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: ӈанонась 
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: ӈанось   
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: ӈанонинзь
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: ӈанодинзь
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: ӈанохонзь
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: ӈановаць 
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: ӈанодаць 
+     ӈано+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: ӈаноць   
+                    
+# Predicative Possessive forms 
+
+     ӈано+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg: ӈанов 
+     ӈано+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg: ӈанор  
+     ӈано+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg: ӈанода 
+     ӈано+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg: ӈаномиʼ
+     ӈано+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg: ӈанориʼ
+     ӈано+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg: ӈанодиʼ
+     ӈано+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg: ӈановаˮ
+     ӈано+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg: ӈанораˮ
+     ӈано+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg: ӈанодоʼ
+     ӈано+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюн  
+     ӈано+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюд  
+     ӈано+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюда 
+     ӈано+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюниʼ
+     ӈано+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюдиʼ
+     ӈано+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюдиʼ
+     ӈано+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюнаˮ
+     ӈано+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюдаˮ
+     ӈано+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu: ӈанохоюдоʼ
+     ӈано+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl: ӈанун   
+     ӈано+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl: ӈануд   
+     ӈано+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl: ӈануда  
+     ӈано+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl: ӈануниʼ 
+     ӈано+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl: ӈанудиʼ 
+     ӈано+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl: ӈанудиʼ 
+     ӈано+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl: ӈанунаˮ 
+     ӈано+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl: ӈанудаˮ 
+     ӈано+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl: ӈанудоʼ 
+     ӈано+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg: ӈановась
+     ӈано+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg: ӈанорась
+     ӈано+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg: ӈанодась
+     ӈано+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg: ӈаноминзь
+     ӈано+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg: ӈаноринзь
+     ӈано+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg: ӈанодинзь
+     ӈано+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg: ӈановаць
+     ӈано+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg: ӈанораць
+     ӈано+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg: ӈанодонзь
+     ӈано+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюнась
+     ӈано+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюдась
+     ӈано+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюдась
+     ӈано+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюнинзь
+     ӈано+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюдинзь
+     ӈано+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюдинзь
+     ӈано+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюнаць
+     ӈано+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюдаць
+     ӈано+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu: ӈанохоюдонзь
+     ӈано+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl: ӈанунась
+     ӈано+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl: ӈанудась
+     ӈано+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl: ӈанудась
+     ӈано+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl: ӈанунинзь
+     ӈано+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl: ӈанудинзь
+     ӈано+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl: ӈанудинзь
+     ӈано+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl: ӈанунаць
+     ӈано+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl: ӈанудаць
+     ӈано+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl: ӈанудонзь
