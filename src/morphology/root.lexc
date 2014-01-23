@@ -193,15 +193,15 @@ Multichar_Symbols
 Г1 В1 Е1 Е2 Ы1 Ы2 ! These are for developing underlying morphology rules
 
  ! Triggers
-%^A2O !! Initially this is used for the noun "я" to enable a:o
-%^A2I !! for я:и in пя
-%^MLenition !! м:в м:б
-%^VowLower !!= @CODE@ vowel lowering ы:э у:о
-%^VowRaise !! э:ы о:у
-%^VowLoss !! stem-final vowel is lost in plural accusative form
-%^VowFronting !! хасава:хасев
-%^PalLoss !! in combination with stem-final vowel loss
-%^HardFronting !! яля:ялэ
+ %^A2O !! Initially this is used for the noun "я" to enable a:o
+ %^A2I !! for я:и in пя
+ %^MLenition !! м:в м:б
+ %^VowLower !!= @CODE@ vowel lowering ы:э у:о
+ %^VowRaise !! э:ы о:у
+ %^VowLoss !! stem-final vowel is lost in plural accusative form
+ %^VowFronting !! хасава:хасев
+ %^PalLoss !! in combination with stem-final vowel loss
+ %^HardFronting !! яля:ялэ
 %-
 %>
 
