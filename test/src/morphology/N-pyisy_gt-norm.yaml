@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - пися: # Noun 'mouse' - partial paradigm /Type 21/
+  Noun - пися: # Noun 'mouse' - full paradigm /Type 21/
      пися+N+Sg+Nom: пися
      пися+N+Sg+Acc: писямʼ
      пися+N+Sg+Gen: писяʼ
@@ -49,8 +49,7 @@ Tests:
      пися+N+Sg+Nom+PxPl1: писяваˮ
      пися+N+Sg+Nom+PxPl2: писяраˮ
      пися+N+Sg+Nom+PxPl3: писядоʼ
-     пися+N+Sg+Acc+PxSg1: писяв   
-     пися+N+Sg+Acc+PxSg1: писями  
+     пися+N+Sg+Acc+PxSg1: [писяв, писями]
      пися+N+Sg+Acc+PxSg2: писямд  
      пися+N+Sg+Acc+PxSg3: писямда 
      пися+N+Sg+Acc+PxDu1: писямиʼ 
@@ -59,8 +58,7 @@ Tests:
      пися+N+Sg+Acc+PxPl1: писяваˮ 
      пися+N+Sg+Acc+PxPl2: писямдаˮ
      пися+N+Sg+Acc+PxPl3: писямдоʼ
-     пися+N+Sg+Gen+PxSg1: писян   
-     пися+N+Sg+Gen+PxSg1: писяни  
+     пися+N+Sg+Gen+PxSg1: [писян, писяни] 
      пися+N+Sg+Gen+PxSg2: писянд  
      пися+N+Sg+Gen+PxSg3: писянда 
      пися+N+Sg+Gen+PxDu1: писяниʼ 
@@ -69,8 +67,7 @@ Tests:
      пися+N+Sg+Gen+PxPl1: писянаˮ 
      пися+N+Sg+Gen+PxPl2: писяндаˮ
      пися+N+Sg+Gen+PxPl3: писяндоʼ
-     пися+N+Sg+Dat+PxSg1: писяхан   
-     пися+N+Sg+Dat+PxSg1: писяхани  
+     пися+N+Sg+Dat+PxSg1: [писяхан, писяхани]
      пися+N+Sg+Dat+PxSg2: писяханд  
      пися+N+Sg+Dat+PxSg3: писяханда 
      пися+N+Sg+Dat+PxDu1: писяханиʼ 
@@ -79,8 +76,7 @@ Tests:
      пися+N+Sg+Dat+PxPl1: писяханаˮ 
      пися+N+Sg+Dat+PxPl2: писяхандаˮ
      пися+N+Sg+Dat+PxPl3: писяхандоʼ
-     пися+N+Sg+Loc+PxSg1: писяханан   
-     пися+N+Sg+Loc+PxSg1: писяханани  
+     пися+N+Sg+Loc+PxSg1: [писяханан, писяханани] 
      пися+N+Sg+Loc+PxSg2: писяхананд  
      пися+N+Sg+Loc+PxSg3: писяхананда 
      пися+N+Sg+Loc+PxDu1: писяхананиʼ 
@@ -89,8 +85,7 @@ Tests:
      пися+N+Sg+Loc+PxPl1: писяхананаˮ 
      пися+N+Sg+Loc+PxPl2: писяханандаˮ
      пися+N+Sg+Loc+PxPl3: писяханандоʼ
-     пися+N+Sg+Abl+PxSg1: писяхадан   
-     пися+N+Sg+Abl+PxSg1: писяхадани  
+     пися+N+Sg+Abl+PxSg1: [писяхадан, писяхадани]  
      пися+N+Sg+Abl+PxSg2: писяхаданд  
      пися+N+Sg+Abl+PxSg3: писяхаданда 
      пися+N+Sg+Abl+PxDu1: писяхаданиʼ 
@@ -99,8 +94,7 @@ Tests:
      пися+N+Sg+Abl+PxPl1: писяхаданаˮ 
      пися+N+Sg+Abl+PxPl2: писяхадандаˮ
      пися+N+Sg+Abl+PxPl3: писяхадандоʼ
-     пися+N+Sg+Pros+PxSg1: писявнан   
-     пися+N+Sg+Pros+PxSg1: писявнани  
+     пися+N+Sg+Pros+PxSg1: [писявнан, писявнани]
      пися+N+Sg+Pros+PxSg2: писявнанд  
      пися+N+Sg+Pros+PxSg3: писявнанда 
      пися+N+Sg+Pros+PxDu1: писявнаниʼ 
@@ -199,3 +193,113 @@ Tests:
      пися+N+Pl+Pros+PxPl1: письˮмананаˮ
      пися+N+Pl+Pros+PxPl2: письˮманатаˮ
      пися+N+Pl+Pros+PxPl3: письˮманатоʼ
+     
+# Predestinative
+
+     пися+N+Pred+Abs: писяд
+     пися+N+Pred+Nom+PxSg1: писядав 
+     пися+N+Pred+Nom+PxSg2: писядар  
+     пися+N+Pred+Nom+PxSg3: писядада 
+     пися+N+Pred+Acc+PxSg1: писядав
+     пися+N+Pred+Acc+PxSg2: писядамд
+     пися+N+Pred+Acc+PxSg3: писядамда
+     пися+N+Pred+Gen+PxSg1: писядан
+     пися+N+Pred+Gen+PxSg2: писяданд
+     пися+N+Pred+Gen+PxSg3: писяданда
+     пися+N+Pred+Nom+PxDu1: писядамиʼ
+     пися+N+Pred+Nom+PxDu2: писядариʼ
+     пися+N+Pred+Nom+PxDu3: писядадиʼ
+     пися+N+Pred+Acc+PxDu1: писядамиʼ
+     пися+N+Pred+Acc+PxDu2: писядамдиʼ
+     пися+N+Pred+Acc+PxDu3: писядамдиʼ
+     пися+N+Pred+Gen+PxDu1: писяданиʼ
+     пися+N+Pred+Gen+PxDu2: писядандиʼ
+     пися+N+Pred+Gen+PxDu3: писядандиʼ
+     пися+N+Pred+Nom+PxPl1: писядаваˮ
+     пися+N+Pred+Nom+PxPl2: писядараˮ
+     пися+N+Pred+Nom+PxPl3: писядадоʼ
+     пися+N+Pred+Acc+PxPl1: писядаваˮ
+     пися+N+Pred+Acc+PxPl2: писядамдаˮ
+     пися+N+Pred+Acc+PxPl3: писядамдоʼ
+     пися+N+Pred+Gen+PxPl1: писяданаˮ
+     пися+N+Pred+Gen+PxPl2: писядандаˮ
+     пися+N+Pred+Gen+PxPl3: писядандоʼ
+
+# Predicative (Nominal conjugation)
+
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: писядмʼ
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: писян  
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: пися   
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: писяниʼ
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: писядиʼ
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: писяхаʼ
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: писяваˮ
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: писядаˮ
+     пися+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: писяˮ  
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: писядамзь
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: писянась 
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: писясь   
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: писянинзь
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: писядинзь
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: писяханзь
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: писяваць 
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: писядаць 
+     пися+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: писяць   
+
+# Predicative Possessive forms 
+
+     пися+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg: писяв 
+     пися+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg: писяр  
+     пися+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg: писяда 
+     пися+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg: писямиʼ
+     пися+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg: писяриʼ
+     пися+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg: писядиʼ
+     пися+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg: писяваˮ
+     пися+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg: писяраˮ
+     пися+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg: писядоʼ
+     пися+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu: писяхаюн  
+     пися+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu: писяхаюд  
+     пися+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu: писяхаюда 
+     пися+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu: писяхаюниʼ
+     пися+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu: писяхаюдиʼ
+     пися+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu: писяхаюдиʼ
+     пися+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu: писяхаюнаˮ
+     пися+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu: писяхаюдаˮ
+     пися+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu: писяхаюдоʼ
+     пися+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl: писян   
+     пися+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl: писяд   
+     пися+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl: письда  
+     пися+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl: письниʼ 
+     пися+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl: письдиʼ 
+     пися+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl: письдиʼ 
+     пися+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl: письнаˮ 
+     пися+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl: письдаˮ 
+     пися+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl: письдоʼ 
+     пися+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg: писявась
+     пися+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg: писярась
+     пися+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg: писядась
+     пися+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg: писяминзь
+     пися+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg: писяринзь
+     пися+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg: писядинзь
+     пися+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg: писяваць
+     пися+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg: писяраць
+     пися+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg: писядонзь
+     пися+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu: писяхаюнась
+     пися+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu: писяхаюдась
+     пися+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu: писяхаюдась
+     пися+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu: писяхаюнинзь
+     пися+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu: писяхаюдинзь
+     пися+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu: писяхаюдинзь
+     пися+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu: писяхаюнаць
+     пися+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu: писяхаюдаць
+     пися+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu: писяхаюдонзь
+     пися+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl: письнась
+     пися+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl: письдась
+     пися+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl: письдась
+     пися+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl: письнинзь
+     пися+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl: письдинзь
+     пися+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl: письдинзь
+     пися+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl: письнаць
+     пися+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl: письдаць
+     пися+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl: письдонзь
+

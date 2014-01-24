@@ -31,7 +31,7 @@ Tests:
      пя+N+Pl+Dat: пяхаˮ
      пя+N+Pl+Loc: пяхаˮна
      пя+N+Pl+Abl: пяхат
-     пя+N+Pl+Pros: пяˮмана
+     пя+N+Pl+Pros: пяˮамна  #TNI:123
      
      пя+N+Tra: пяӈэ     
      пя+N+Car: пясиˮ
@@ -147,7 +147,7 @@ Tests:
      пя+N+Pl+Acc+PxPl1: пинаˮ 
      пя+N+Pl+Acc+PxPl2: пидаˮ 
      пя+N+Pl+Acc+PxPl3: пидоʼ 
-     пя+N+Pl+Gen+PxSg1: пиˮн  
+     пя+N+Pl+Gen+PxSg1: пиˮин  
      пя+N+Pl+Gen+PxSg2: пит   
      пя+N+Pl+Gen+PxSg3: пита  
      пя+N+Pl+Gen+PxDu1: пиˮниʼ
@@ -183,17 +183,47 @@ Tests:
      пя+N+Pl+Abl+PxPl1: пяхатанаˮ
      пя+N+Pl+Abl+PxPl2: пяхататаˮ
      пя+N+Pl+Abl+PxPl3: пяхататоʼ
-     пя+N+Pl+Pros+PxSg1: пяˮманан  
-     пя+N+Pl+Pros+PxSg2: пяˮманат  
-     пя+N+Pl+Pros+PxSg3: пяˮманата 
-     пя+N+Pl+Pros+PxDu1: пяˮмананиʼ
-     пя+N+Pl+Pros+PxDu2: пяˮманатиʼ
-     пя+N+Pl+Pros+PxDu3: пяˮманатиʼ
-     пя+N+Pl+Pros+PxPl1: пяˮмананаˮ
-     пя+N+Pl+Pros+PxPl2: пяˮманатаˮ
-     пя+N+Pl+Pros+PxPl3: пяˮманатоʼ
+     пя+N+Pl+Pros+PxSg1: пяˮамнан  
+     пя+N+Pl+Pros+PxSg2: пяˮамнат  
+     пя+N+Pl+Pros+PxSg3: пяˮамната 
+     пя+N+Pl+Pros+PxDu1: пяˮамнаниʼ
+     пя+N+Pl+Pros+PxDu2: пяˮамнатиʼ
+     пя+N+Pl+Pros+PxDu3: пяˮамнатиʼ
+     пя+N+Pl+Pros+PxPl1: пяˮамнанаˮ
+     пя+N+Pl+Pros+PxPl2: пяˮамнатаˮ
+     пя+N+Pl+Pros+PxPl3: пяˮамнатоʼ
 
-# Predestinative !Should be added
+# Predestinative
+
+     пя+N+Pred+Abs: пяд
+     пя+N+Pred+Nom+PxSg1: пядав 
+     пя+N+Pred+Nom+PxSg2: пядар  
+     пя+N+Pred+Nom+PxSg3: [пядада, пядда] 
+     пя+N+Pred+Acc+PxSg1: пядав
+     пя+N+Pred+Acc+PxSg2: пядамд
+     пя+N+Pred+Acc+PxSg3: пядамда
+     пя+N+Pred+Gen+PxSg1: пядан
+     пя+N+Pred+Gen+PxSg2: пяданд
+     пя+N+Pred+Gen+PxSg3: пяданда
+     пя+N+Pred+Nom+PxDu1: [пядамиʼ, пядмиʼ]
+     пя+N+Pred+Nom+PxDu2: [пядариʼ, пядриʼ]
+     пя+N+Pred+Nom+PxDu3: [пядадиʼ, пяддиʼ]
+     пя+N+Pred+Acc+PxDu1: [пядамиʼ, пядмиʼ]
+     пя+N+Pred+Acc+PxDu2: пядамдиʼ
+     пя+N+Pred+Acc+PxDu3: пядамдиʼ
+     пя+N+Pred+Gen+PxDu1: [пяданиʼ, пядниʼ]
+     пя+N+Pred+Gen+PxDu2: пядандиʼ
+     пя+N+Pred+Gen+PxDu3: пядандиʼ
+     пя+N+Pred+Nom+PxPl1: [пядаваˮ, пядваˮ]
+     пя+N+Pred+Nom+PxPl2: [пядараˮ, пядраˮ]
+     пя+N+Pred+Nom+PxPl3: [пядадоʼ, пяддоʼ]
+     пя+N+Pred+Acc+PxPl1: [пядаваˮ, пядваˮ]
+     пя+N+Pred+Acc+PxPl2: пядамдаˮ
+     пя+N+Pred+Acc+PxPl3: пядамдоʼ
+     пя+N+Pred+Gen+PxPl1: [пяданаˮ, пяднаˮ]
+     пя+N+Pred+Gen+PxPl2: пядандаˮ
+     пя+N+Pred+Gen+PxPl3: пядандоʼ
+
 # Predicative (Nominal conjugation)
 
      пя+N+Nom+Der/Pr+Ind+Aor+ScSg1: пядмʼ
