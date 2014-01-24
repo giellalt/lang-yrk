@@ -31,7 +31,7 @@ Tests:
      я+N+Pl+Dat: яхаˮ
      я+N+Pl+Loc: яхаˮна
      я+N+Pl+Abl: яхат
-     я+N+Pl+Pros: [ёˮмна, яˮмна]
+     я+N+Pl+Pros: [ёˮомна, яˮамна]
 
      я+N+Tra: яӈэ
      я+N+Car: ясиˮ
@@ -49,8 +49,7 @@ Tests:
      я+N+Sg+Nom+PxPl1: яваˮ
      я+N+Sg+Nom+PxPl2: яраˮ
      я+N+Sg+Nom+PxPl3: ядоʼ
-     я+N+Sg+Acc+PxSg1: яв   
-     я+N+Sg+Acc+PxSg1: ями  
+     я+N+Sg+Acc+PxSg1: [яв, ями]
      я+N+Sg+Acc+PxSg2: ямд  
      я+N+Sg+Acc+PxSg3: ямда 
      я+N+Sg+Acc+PxDu1: ямиʼ 
@@ -59,8 +58,7 @@ Tests:
      я+N+Sg+Acc+PxPl1: яваˮ 
      я+N+Sg+Acc+PxPl2: ямдаˮ
      я+N+Sg+Acc+PxPl3: ямдоʼ
-     я+N+Sg+Gen+PxSg1: ян   
-     я+N+Sg+Gen+PxSg1: яни  
+     я+N+Sg+Gen+PxSg1: [ян, яни]
      я+N+Sg+Gen+PxSg2: янд  
      я+N+Sg+Gen+PxSg3: янда 
      я+N+Sg+Gen+PxDu1: яниʼ 
@@ -69,8 +67,7 @@ Tests:
      я+N+Sg+Gen+PxPl1: янаˮ 
      я+N+Sg+Gen+PxPl2: яндаˮ
      я+N+Sg+Gen+PxPl3: яндоʼ
-     я+N+Sg+Dat+PxSg1: яхан   
-     я+N+Sg+Dat+PxSg1: яхани  
+     я+N+Sg+Dat+PxSg1: [яхан, яхани]  
      я+N+Sg+Dat+PxSg2: яханд  
      я+N+Sg+Dat+PxSg3: яханда 
      я+N+Sg+Dat+PxDu1: яханиʼ 
@@ -79,8 +76,7 @@ Tests:
      я+N+Sg+Dat+PxPl1: яханаˮ 
      я+N+Sg+Dat+PxPl2: яхандаˮ
      я+N+Sg+Dat+PxPl3: яхандоʼ
-     я+N+Sg+Loc+PxSg1: яханан   
-     я+N+Sg+Loc+PxSg1: яханани  
+     я+N+Sg+Loc+PxSg1: [яханан, яханани]
      я+N+Sg+Loc+PxSg2: яхананд  
      я+N+Sg+Loc+PxSg3: яхананда 
      я+N+Sg+Loc+PxDu1: яхананиʼ 
@@ -89,8 +85,7 @@ Tests:
      я+N+Sg+Loc+PxPl1: яхананаˮ 
      я+N+Sg+Loc+PxPl2: яханандаˮ
      я+N+Sg+Loc+PxPl3: яханандоʼ
-     я+N+Sg+Abl+PxSg1: яхадан   
-     я+N+Sg+Abl+PxSg1: яхадани  
+     я+N+Sg+Abl+PxSg1: [яхадан, яхадани]   
      я+N+Sg+Abl+PxSg2: яхаданд  
      я+N+Sg+Abl+PxSg3: яхаданда 
      я+N+Sg+Abl+PxDu1: яхаданиʼ 
@@ -99,8 +94,7 @@ Tests:
      я+N+Sg+Abl+PxPl1: яхаданаˮ 
      я+N+Sg+Abl+PxPl2: яхадандаˮ
      я+N+Sg+Abl+PxPl3: яхадандоʼ
-     я+N+Sg+Pros+PxSg1: явнан   
-     я+N+Sg+Pros+PxSg1: явнани  
+     я+N+Sg+Pros+PxSg1: [явнан, явнани]
      я+N+Sg+Pros+PxSg2: явнанд  
      я+N+Sg+Pros+PxSg3: явнанда 
      я+N+Sg+Pros+PxDu1: явнаниʼ 
@@ -109,33 +103,33 @@ Tests:
      я+N+Sg+Pros+PxPl1: явнанаˮ 
      я+N+Sg+Pros+PxPl2: явнандаˮ
      я+N+Sg+Pros+PxPl3: явнандоʼ
-     я+N+Du+Nom+PxSg1: яхюн  
-     я+N+Du+Nom+PxSg2: яхюд  
-     я+N+Du+Nom+PxSg3: яхюда 
-     я+N+Du+Nom+PxDu1: яхюниʼ
-     я+N+Du+Nom+PxDu2: яхюдиʼ
-     я+N+Du+Nom+PxDu3: яхюдиʼ
-     я+N+Du+Nom+PxPl1: яхюнаˮ
-     я+N+Du+Nom+PxPl2: яхюдаˮ
-     я+N+Du+Nom+PxPl3: яхюдоʼ
-     я+N+Du+Acc+PxSg1: яхюн  
-     я+N+Du+Acc+PxSg2: яхюд  
-     я+N+Du+Acc+PxSg3: яхюда 
-     я+N+Du+Acc+PxDu1: яхюниʼ
-     я+N+Du+Acc+PxDu2: яхюдиʼ
-     я+N+Du+Acc+PxDu3: яхюдиʼ
-     я+N+Du+Acc+PxPl1: яхюнаˮ
-     я+N+Du+Acc+PxPl2: яхюдаˮ
-     я+N+Du+Acc+PxPl3: яхюдоʼ
-     я+N+Du+Gen+PxSg1: яхюн  
-     я+N+Du+Gen+PxSg2: яхют  
-     я+N+Du+Gen+PxSg3: яхюта 
-     я+N+Du+Gen+PxDu1: яхюниʼ
-     я+N+Du+Gen+PxDu2: яхютиʼ
-     я+N+Du+Gen+PxDu3: яхютиʼ
-     я+N+Du+Gen+PxPl1: яхюнаˮ
-     я+N+Du+Gen+PxPl2: яхютаˮ
-     я+N+Du+Gen+PxPl3: яхютоʼ
+     я+N+Du+Nom+PxSg1: яхаюн  
+     я+N+Du+Nom+PxSg2: яхаюд  
+     я+N+Du+Nom+PxSg3: яхаюда 
+     я+N+Du+Nom+PxDu1: яхаюниʼ
+     я+N+Du+Nom+PxDu2: яхаюдиʼ
+     я+N+Du+Nom+PxDu3: яхаюдиʼ
+     я+N+Du+Nom+PxPl1: яхаюнаˮ
+     я+N+Du+Nom+PxPl2: яхаюдаˮ
+     я+N+Du+Nom+PxPl3: яхаюдоʼ
+     я+N+Du+Acc+PxSg1: яхаюн  
+     я+N+Du+Acc+PxSg2: яхаюд  
+     я+N+Du+Acc+PxSg3: яхаюда 
+     я+N+Du+Acc+PxDu1: яхаюниʼ
+     я+N+Du+Acc+PxDu2: яхаюдиʼ
+     я+N+Du+Acc+PxDu3: яхаюдиʼ
+     я+N+Du+Acc+PxPl1: яхаюнаˮ
+     я+N+Du+Acc+PxPl2: яхаюдаˮ
+     я+N+Du+Acc+PxPl3: яхаюдоʼ
+     я+N+Du+Gen+PxSg1: яхаюн  
+     я+N+Du+Gen+PxSg2: яхают  
+     я+N+Du+Gen+PxSg3: яхаюта 
+     я+N+Du+Gen+PxDu1: яхаюниʼ
+     я+N+Du+Gen+PxDu2: яхаютиʼ
+     я+N+Du+Gen+PxDu3: яхаютиʼ
+     я+N+Du+Gen+PxPl1: яхаюнаˮ
+     я+N+Du+Gen+PxPl2: яхаютаˮ
+     я+N+Du+Gen+PxPl3: яхаютоʼ
      я+N+Pl+Nom+PxSg1: [ён, ёни]   
      я+N+Pl+Nom+PxSg2: ёд   
      я+N+Pl+Nom+PxSg3: ёда  
@@ -154,7 +148,7 @@ Tests:
      я+N+Pl+Acc+PxPl1: ёнаˮ 
      я+N+Pl+Acc+PxPl2: ёдаˮ 
      я+N+Pl+Acc+PxPl3: ёдоʼ 
-     я+N+Pl+Gen+PxSg1: ёˮн  
+     я+N+Pl+Gen+PxSg1: ёˮон  
      я+N+Pl+Gen+PxSg2: ёт   
      я+N+Pl+Gen+PxSg3: ёта  
      я+N+Pl+Gen+PxDu1: ёˮниʼ
@@ -190,15 +184,15 @@ Tests:
      я+N+Pl+Abl+PxPl1: яхатанаˮ
      я+N+Pl+Abl+PxPl2: яхататаˮ
      я+N+Pl+Abl+PxPl3: яхататоʼ
-     я+N+Pl+Pros+PxSg1: яˮманан   #ёˮманан
-     я+N+Pl+Pros+PxSg2: яˮманат   #ёˮманан
-     я+N+Pl+Pros+PxSg3: яˮманата  #ёˮманан
-     я+N+Pl+Pros+PxDu1: яˮмананиʼ #ёˮманан
-     я+N+Pl+Pros+PxDu2: яˮманатиʼ #ёˮманан
-     я+N+Pl+Pros+PxDu3: яˮманатиʼ #ёˮманан
-     я+N+Pl+Pros+PxPl1: яˮмананаˮ #ёˮманан
-     я+N+Pl+Pros+PxPl2: яˮманатаˮ #ёˮманан
-     я+N+Pl+Pros+PxPl3: яˮманатоʼ #ёˮманан
+     я+N+Pl+Pros+PxSg1: [яˮамнан, ёˮомнан]
+     я+N+Pl+Pros+PxSg2: [яˮамнат, ёˮомнан]
+     я+N+Pl+Pros+PxSg3: [яˮамната, ёˮомнан]
+     я+N+Pl+Pros+PxDu1: [яˮамнаниʼ, ёˮомнан]
+     я+N+Pl+Pros+PxDu2: [яˮамнатиʼ, ёˮомнан]
+     я+N+Pl+Pros+PxDu3: [яˮамнатиʼ, ёˮомнан]
+     я+N+Pl+Pros+PxPl1: [яˮамнанаˮ, ёˮомнан]
+     я+N+Pl+Pros+PxPl2: [яˮамнатаˮ, ёˮомнан]
+     я+N+Pl+Pros+PxPl3: [яˮамнатоʼ, ёˮомнан]
 
 # Predestinative !Should be added
      я+N+Pred+Abs: яд
