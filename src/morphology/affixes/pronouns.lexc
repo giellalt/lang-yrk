@@ -79,6 +79,12 @@ LEXICON PRON_ЕД
 LEXICON PRON_ӇУДИ
 +Pron: NMN_ӇУДИ ;
 
+LEXICON PRON_ТИКЫ
++Pron: NMN_ПАНЫ ;
+
+LEXICON PRON-DEM-ADN_ТИКЫ
++Pron: NMN_ПАНЫ ;
+
 LEXICON PRON-INTERR-TEMP_
 +Pron+Interr+Temp: # ;
 
@@ -88,7 +94,7 @@ LEXICON PRON-INTERR-QNT_
 LEXICON PRON-INTERR-MANNER_
 +Pron+Interr+Manner: # ;
 
-LEXICON PRON-INTERR-A_
+LEXICON PRON-INTERR_ӇУДИ
 +Pron+Interr+A: # ;
 
 LEXICON PRON-INTERR_-CXABL
