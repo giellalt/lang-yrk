@@ -5526,6 +5526,24 @@
 
   <e>
     <lg>
+      <l pos="N">лат</l>
+
+      <stg>
+        <st Contlex="N_ЕД">лат</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">leveys</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">лата</l>
 
       <stg>
@@ -5562,6 +5580,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">myrkyllinen kasvi leveillä lehdillä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">латад</l>
+
+      <stg>
+        <st Contlex="N_ЕД">латад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">leveys</t>
       </tg>
     </mg>
   </e>
@@ -7867,6 +7903,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">umpisuoli</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">мало</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">мало</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">oravanmarja</t>
+
+        <t pos="N">sudenmarja</t>
       </tg>
     </mg>
   </e>
@@ -23002,6 +23058,46 @@
 
   <e>
     <lg>
+      <l pos="N">сиʼ</l>
+
+      <stg>
+        <st Contlex="N_ИЛЪЕ">си</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">(poro)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сиʼ</l>
+
+      <stg>
+        <st Contlex="N_ИЛЪЕ">си</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kansi</t>
+
+        <t pos="N">korkki</t>
+
+        <t pos="N">tulppa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сиˮ</l>
 
       <stg>
@@ -23662,6 +23758,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">nuori puu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">солдат</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">солдат</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sotilas</t>
       </tg>
     </mg>
   </e>
