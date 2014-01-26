@@ -453,6 +453,7 @@ LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34   !!ProsSg -мна
 
 LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! [total=18]
+!! * Yaml: __myado__
 !! мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 +N: NMN_МЯДО ;
 
@@ -478,6 +479,7 @@ LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 SGDATSUF ;
 :Д1 SG-ACC-STEM ;
 :Д1 SG-NOM-STEM ;
+:Д1 SGLOCSUF_Хна ; !!= @CODE@ мякна
 :Д1 PLNOMSUF ;
 :Д1 PLACCSUF_О ;
 :Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
@@ -1049,6 +1051,9 @@ LEXICON SGDATSUF
 
 LEXICON SGLOCSUF
 +Sg+Loc:%>х%{ауоэØ%}на K ; !вэсакохона пэдарахана ӈамгэхэна
+
+LEXICON SGLOCSUF_Хна !!= @CODE@ мякна
++Sg+Loc:%>хна K ;
 
 LEXICON SGABLSUF
 +Sg+Abl:%>х%{ауоэØ%}д K ; !вэсакоход пэдарахад ӈамгэхэд
