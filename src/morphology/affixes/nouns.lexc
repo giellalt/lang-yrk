@@ -493,6 +493,7 @@ LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 SG-ACC-STEM ;
 :Д1 SG-NOM-STEM ;
 :Д1 SGLOCSUF_Хна ; !!= @CODE@ мякна
+:Д1 SGPROSSUF_АМНА ;
 :Д1 PLNOMSUF ;
 :Д1 PLACCSUF_О ;
 :Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
@@ -1089,6 +1090,10 @@ LEXICON SGABLSUF
 LEXICON SGPROSSUF
 +Sg+Pros:%>%{увм%}А2на K ; 
 
+LEXICON SGPROSSUF_АМНА
++Sg+Pros:%>амна K ;
+ POSSESSA-SG-PROS_АМНА ;
+
 LEXICON SGTRASUF 
 +Tra:%>ӈэ K ;
 
@@ -1339,6 +1344,18 @@ LEXICON POSSESSA-SG-PROS_увна
 +Sg+Pros+PxPl1:%>увнанаˮ   K ;
 +Sg+Pros+PxPl2:%>увнандаˮ  K ;
 +Sg+Pros+PxPl3:%>увнандоʼ  K ;
+
+LEXICON POSSESSA-SG-PROS_АМНА
++Sg+Pros+PxSg1:%>амнан     K ;
++Sg+Pros+PxSg1:%>амнани    K ;
++Sg+Pros+PxSg2:%>амнанд    K ;
++Sg+Pros+PxSg3:%>амнанда   K ;
++Sg+Pros+PxDu1:%>амнаниʼ   K ;
++Sg+Pros+PxDu2:%>амнандиʼ          K ;
++Sg+Pros+PxDu3:%>амнандиʼ          K ;
++Sg+Pros+PxPl1:%>амнанаˮ   K ;
++Sg+Pros+PxPl2:%>амнандаˮ  K ;
++Sg+Pros+PxPl3:%>амнандоʼ  K ;
 
 
 LEXICON POSSESSA-DUAL
