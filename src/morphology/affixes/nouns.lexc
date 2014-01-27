@@ -719,8 +719,8 @@ SGDATSUF ;
 
 LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 !! * Yaml: __yed__
-    SGDATSUF ;
-:а  SG-ACC-STEM ;
+:а  SGDATSUF ;
+    SG-ACC-STEM ;
     SG-NOM-STEM ;
     PLNOMSUF ;
     PLACCSUF_Zero ; !
@@ -1314,18 +1314,17 @@ LEXICON POSSESSA-SG-PROS_увна
 +Sg+Pros+PxPl3:%>увнандоʼ  K ;
 
 
-
 LEXICON POSSESSA-DUAL
 !! Dual possessa
-+Du+Nom+PxSg1:%>хюн       K ;
-+Du+Nom+PxSg2:%>хюд       K ;
-+Du+Nom+PxSg3:%>хюда      K ;
-+Du+Nom+PxDu1:%>хюниʼ     K ;
-+Du+Nom+PxDu2:%>хюдиʼ     K ;
-+Du+Nom+PxDu3:%>хюдиʼ     K ;
-+Du+Nom+PxPl1:%>хюнаˮ     K ;
-+Du+Nom+PxPl2:%>хюдаˮ     K ;
-+Du+Nom+PxPl3:%>хюдоʼ     K  ;
+!+Du+Nom+PxSg1:%>хюн       K ;
+!+Du+Nom+PxSg2:%>хюд       K ;
+!+Du+Nom+PxSg3:%>хюда      K ;
+!+Du+Nom+PxDu1:%>хюниʼ     K ;
+!+Du+Nom+PxDu2:%>хюдиʼ     K ;
+!+Du+Nom+PxDu3:%>хюдиʼ     K ;
+!+Du+Nom+PxPl1:%>хюнаˮ     K ;
+!+Du+Nom+PxPl2:%>хюдаˮ     K ;
+!+Du+Nom+PxPl3:%>хюдоʼ     K  ;
 
 +Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;!хасавахаюн
 +Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; !хасавахаюд
@@ -1357,15 +1356,15 @@ LEXICON POSSESSA-DUAL
 +Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдаць     K ;
 +Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдонзь     K  ;
 
-+Du+Acc+PxSg1:%>хюн   K ;
-+Du+Acc+PxSg2:%>хюд   K ;
-+Du+Acc+PxSg3:%>хюда  K ;
-+Du+Acc+PxDu1:%>хюниʼ K ;
-+Du+Acc+PxDu2:%>хюдиʼ K ;
-+Du+Acc+PxDu3:%>хюдиʼ K ;
-+Du+Acc+PxPl1:%>хюнаˮ K ;
-+Du+Acc+PxPl2:%>хюдаˮ K ;
-+Du+Acc+PxPl3:%>хюдоʼ K ;
+!+Du+Acc+PxSg1:%>хюн   K ;
+!+Du+Acc+PxSg2:%>хюд   K ;
+!+Du+Acc+PxSg3:%>хюда  K ;
+!+Du+Acc+PxDu1:%>хюниʼ K ;
+!+Du+Acc+PxDu2:%>хюдиʼ K ;
+!+Du+Acc+PxDu3:%>хюдиʼ K ;
+!+Du+Acc+PxPl1:%>хюнаˮ K ;
+!+Du+Acc+PxPl2:%>хюдаˮ K ;
+!+Du+Acc+PxPl3:%>хюдоʼ K ;
 
 +Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; !хасавахаюн
 +Du+Acc+PxSg2:%>х%{ауоэØ%}юд   K ;
@@ -1377,15 +1376,15 @@ LEXICON POSSESSA-DUAL
 +Du+Acc+PxPl2:%>х%{ауоэØ%}юдаˮ K ;
 +Du+Acc+PxPl3:%>х%{ауоэØ%}юдоʼ K ;
 
-+Du+Gen+PxSg1:%>хюн   K ;
-+Du+Gen+PxSg2:%>хют   K ;
-+Du+Gen+PxSg3:%>хюта  K ;
-+Du+Gen+PxDu1:%>хюниʼ K ;
-+Du+Gen+PxDu2:%>хютиʼ K ;
-+Du+Gen+PxDu3:%>хютиʼ K ;
-+Du+Gen+PxPl1:%>хюнаˮ K ;
-+Du+Gen+PxPl2:%>хютаˮ K ;
-+Du+Gen+PxPl3:%>хютоʼ K ;
+!+Du+Gen+PxSg1:%>хюн   K ;
+!+Du+Gen+PxSg2:%>хют   K ;
+!+Du+Gen+PxSg3:%>хюта  K ;
+!+Du+Gen+PxDu1:%>хюниʼ K ;
+!+Du+Gen+PxDu2:%>хютиʼ K ;
+!+Du+Gen+PxDu3:%>хютиʼ K ;
+!+Du+Gen+PxPl1:%>хюнаˮ K ;
+!+Du+Gen+PxPl2:%>хютаˮ K ;
+!+Du+Gen+PxPl3:%>хютоʼ K ;
 
 +Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;! хасавахаюн
 +Du+Gen+PxSg2:%>х%{ауоэØ%}ют   K ;
