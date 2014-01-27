@@ -460,7 +460,6 @@ NMN
 * Yaml: __yed__
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
-
 !NOMINALS "NMN"
 !THREE-SYLLABLE VOWEL-FINAL STEMS
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
@@ -583,6 +582,14 @@ Possessor Indices
 
 The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
 This line must be removed 2013-03-20
+
+
+
+Dual possessa
+
+
+
+
 
 
 
@@ -1018,10 +1025,11 @@ __А2:0 possible vowel loss as second syllable vowel__
 __0:U in sgprossuf__
 
 __%{ауоэØ%} -> 0 right__
-
+  # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
 __%{ауоэØ%} <- 0 left__
 
 __%{ауоэØ%} -> а right__
+  # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
 
 __%{ауоэØ%} <- а left__
 
@@ -1086,7 +1094,6 @@ __mToV__, perhaps there should be a VtoM rule2013-01-23
 __%{увм%} ToV__,
 
 __%{увм%} ToM__,
-
 
 __mTob __
 
@@ -1156,6 +1163,8 @@ __Н1:ӈ GlottalNasalToSurface__
 __Ӈ1:ӈ GlottalNasalToSurface__
 
 __Ӈ1:н GlottalNasalToSurface__
+
+__Ӈ1:й GlottalNasalToSurface__
 
 
 !LOSS

@@ -168,6 +168,7 @@ LEXICON NMN_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
   PLNOMSUF ;
 :%^A2I PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16 !!ProsSg -вна
 !! [total=1]
@@ -187,6 +188,7 @@ LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17 !!ProsSg -вна
 +N:  PLNOMSUF ;
 +N:%^A2I PLACCSUF_Zero ;
 +N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N: POSSESSA-DUAL ;
 
 LEXICON N_ӇОДИ/ТЁН
 !!
@@ -228,6 +230,7 @@ LEXICON N_ХОБ  !!= @CODE@ хоба:хоба 19 !!ProsSg -вна
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
 +N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N: POSSESSA-DUAL ;
 
 LEXICON N_ӇУДИ/ХОБ
 !!
@@ -259,6 +262,7 @@ LEXICON N_ТЁН  !!= @CODE@ тёня:тёня 20 !!ProsSg -вна
 +N: PLNOMSUF ;
 +N:%^PalLoss PLACCSUF_Minus ;
 +N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N: POSSESSA-DUAL ;
 
 LEXICON N_ПИСЬ  !!= @CODE@ пися: 21 !!ProsSg -вна
 !! [total=10]
@@ -269,6 +273,7 @@ LEXICON N_ПИСЬ  !!= @CODE@ пися: 21 !!ProsSg -вна
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
 +N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N: POSSESSA-DUAL ;
 
 LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 !! [total=1]
@@ -279,6 +284,7 @@ LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 !!ProsSg -вна
 +N: PLNOMSUF ;
 +N:%^VowFronting PLACCSUF_Minus ;
 +N:   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N: POSSESSA-DUAL ;
 
 LEXICON N_ӇАНУ-RUS
 +Rus: N_ӇАНУ ; 
@@ -299,6 +305,7 @@ LEXICON NMN_ӇАНУ-PL
   PLNOMSUF ;
 :%^VowRaise PLACCSUF_Zero ;
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON N_ЯКЫ  !!= @CODE@ якэ: 24 !!ProsSg -вна
 !! [total=4]
@@ -324,6 +331,7 @@ LEXICON NMN_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25
 +N:%^MLenition PLNOMSUF ;
 +N:%^MLenition PLACCSUF_О ;
 +N:ʼ  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N:ʼ POSSESSA-DUAL ;
 
 LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26  !!ProsSg -(м)на
 !! [total=0]
@@ -367,6 +375,7 @@ LEXICON N_ПОЁ  !!= @CODE@ поʼ:по 28  !!ProsSg -мна
 +N:й PLNOMSUF ;
 +N: PLACCSUF_Ё ;
 +N:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N:Ӈ1  POSSESSA-DUAL ;
 
 LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29  !!ProsSg -мна /-мана
 !! ң [total=16]
@@ -377,6 +386,7 @@ LEXICON N_ВЫӇО  !!= @CODE@ выʼ:вы 29  !!ProsSg -мна /-мана
 +N:Ӈ1 PLNOMSUF ;
 +N:Ӈ1 PLACCSUF_О ;
 +N:Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N:Ӈ1 POSSESSA-DUAL ;
 
 LEXICON N_ИЛЪЕ  !!= @CODE@ илʼ:ил 30   !!ProsSg -мана
 !! * Yaml: __ilje__
@@ -396,6 +406,7 @@ LEXICON NMN_ИЛЪЕ
 :а PLNOMSUF ;
 :ъ PLACCSUF_Е ;
 :Ӈ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:Ӈ1 POSSESSA-DUAL ;
 
 LEXICON N_НЕНЭЦИЕ  !!= @CODE@ ненэцьʼ:ненэць 30   !!ProsSg -мана
 !! * Yaml: __nyenecyh__
@@ -408,6 +419,7 @@ LEXICON N_НЕНЭЦИЕ  !!= @CODE@ ненэцьʼ:ненэць 30   !!ProsSg -
 +N:%>а PLNOMSUF ;
 +N:%>и PLACCSUF_Е ;
 +N:%>аӇ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N:%>аӇ1 POSSESSA-DUAL ;
 
 LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31   !!ProsSg -мна
 !! ң [total=2]
@@ -473,6 +485,7 @@ LEXICON NMN_ВАР  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 PLNOMSUF ;
  PLACCSUF_О ;
 :Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:Д1 POSSESSA-DUAL ;
 
 LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! * Yaml: __myado__
@@ -483,6 +496,7 @@ LEXICON NMN_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 PLNOMSUF ;
 :Д1 PLACCSUF_О ;
 :Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:Д1 POSSESSA-DUAL ;
 
 LEXICON N_ИДЕ  !!= @CODE@ иˮ: 36   !!ProsSg -мна
 !! * Yaml: __yidye__
@@ -500,6 +514,7 @@ LEXICON NMN_ИДЕ !! Where is the variation?
 :Д1 PLNOMSUF ;
 :Д1 PLACCSUF_Е ;
 :Д1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:Д1 POSSESSA-DUAL ;
 
 LEXICON N_ИДЕ/МЯДО
  N_ИДЕ ;
@@ -515,6 +530,7 @@ LEXICON NMN_ТЮСЕ
 :С1 PLNOMSUF ;
 :с PLACCSUF_Е ;
 :С1 POSSESSA-PLURAL ;
+:С1 POSSESSA-DUAL ;
 
 LEXICON N_ТАСО/ТЮСЕ
  N_ТАСО ;
@@ -530,6 +546,7 @@ LEXICON NMN_ӇАВО !!Provisional solution
 :мгэ PLNOMSUF ;
 :в PLACCSUF_О ; !
 :мгэ POSSESSA-PLURAL ;
+:мгэ POSSESSA-DUAL ;
 
 LEXICON N_Vow
 +TYÄ+N: K ;
@@ -575,6 +592,7 @@ LEXICON NMN_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  !!ProsSg -вна
   PLNOMSUF ;  !!= @CODE@ 
   PLACCSUF_Zero ; !!= @CODE@ => PL-ACC_STEM
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
   SGDATSUF ;
@@ -586,6 +604,7 @@ LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
 +Pl+Pros:%^A2O%>ˮмна K ;
 :%^A2O PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON NMN_ӇЭ/Ё
   SGDATSUF ;
@@ -602,6 +621,7 @@ LEXICON NMN_ПИ !!= @CODE@ пя: 3 !!ProsSg -вна
   PLNOMSUF ;
 :%^A2I PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON NMN_ТЫ  !!= @CODE@ ты:ты 4 !!ProsSg -вна
 !! [total=4]
@@ -613,6 +633,7 @@ LEXICON NMN_ТЫ  !!= @CODE@ ты:ты 4 !!ProsSg -вна
 +Pl+Pros:%^VowLower%>ˮэмна K ; !!= @CODE@ This will need schwa to surface
  PLACCSUF_Zero ; !
 :%^VowLower  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%^VowLower POSSESSA-DUAL ;
 
 LEXICON NMN_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
 !! [total=1]
@@ -623,6 +644,7 @@ LEXICON NMN_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
   PLNOMSUF ;
 :в PLACCSUF_О ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
 !! [total=0]
@@ -633,6 +655,7 @@ LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
   PLNOMSUF ;
  PLACCSUF_Ё ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON NMN_ИБЕ  !!= @CODE@ и: 7 !!ProsSg -вна
 !! [total=0]
@@ -675,6 +698,7 @@ LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
   PLNOMSUF ;
   PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД/ХАНО
  SGDATSUF ;
@@ -687,6 +711,7 @@ LEXICON NMN_ЕД/ХАНО
   PLACCSUF_О ; !
   POSSESSA-PLURAL ;
 :%>о  POSSESSA-PLURAL ;
+ POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД/ХУСУВЭЙ
  SGDATSUF ;
@@ -707,6 +732,7 @@ LEXICON NMN_ХАНО-PL
   PLNOMSUF ;
  PLACCSUF_О ; !
  POSSESSA-PLURAL ;
+ POSSESSA-DUAL ;
 
 
 LEXICON NMN_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
@@ -716,6 +742,7 @@ SGDATSUF ;
   PLNOMSUF ;
   PLACCSUF_Е ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 !! * Yaml: __yed__
@@ -725,7 +752,7 @@ LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
     PLNOMSUF ;
     PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
+ POSSESSA-DUAL_ХАЮН ;
 
 !! !NOMINALS "NMN"
 !! !THREE-SYLLABLE VOWEL-FINAL STEMS
@@ -740,6 +767,7 @@ LEXICON NMN_МАРАӇГЫ-PL
   PLNOMSUF ;
 :%^A2I PLACCSUF_Zero ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 
 
@@ -1170,7 +1198,6 @@ LEXICON PLPROSSUF
 LEXICON POSSESSOR-INDICES
 
  POSSESSA-SINGULAR ;
- POSSESSA-DUAL ;
 
 LEXICON POSSESSA-SINGULAR
 	POSSESSA-SG-NOM ;
@@ -1316,15 +1343,15 @@ LEXICON POSSESSA-SG-PROS_увна
 
 LEXICON POSSESSA-DUAL
 !! Dual possessa
-!+Du+Nom+PxSg1:%>хюн       K ;
-!+Du+Nom+PxSg2:%>хюд       K ;
-!+Du+Nom+PxSg3:%>хюда      K ;
-!+Du+Nom+PxDu1:%>хюниʼ     K ;
-!+Du+Nom+PxDu2:%>хюдиʼ     K ;
-!+Du+Nom+PxDu3:%>хюдиʼ     K ;
-!+Du+Nom+PxPl1:%>хюнаˮ     K ;
-!+Du+Nom+PxPl2:%>хюдаˮ     K ;
-!+Du+Nom+PxPl3:%>хюдоʼ     K  ;
++Du+Nom+PxSg1:%>хюн       K ;
++Du+Nom+PxSg2:%>хюд       K ;
++Du+Nom+PxSg3:%>хюда      K ;
++Du+Nom+PxDu1:%>хюниʼ     K ;
++Du+Nom+PxDu2:%>хюдиʼ     K ;
++Du+Nom+PxDu3:%>хюдиʼ     K ;
++Du+Nom+PxPl1:%>хюнаˮ     K ;
++Du+Nom+PxPl2:%>хюдаˮ     K ;
++Du+Nom+PxPl3:%>хюдоʼ     K  ;
 
 +Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;!хасавахаюн
 +Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; !хасавахаюд
@@ -1356,15 +1383,15 @@ LEXICON POSSESSA-DUAL
 +Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдаць     K ;
 +Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдонзь     K  ;
 
-!+Du+Acc+PxSg1:%>хюн   K ;
-!+Du+Acc+PxSg2:%>хюд   K ;
-!+Du+Acc+PxSg3:%>хюда  K ;
-!+Du+Acc+PxDu1:%>хюниʼ K ;
-!+Du+Acc+PxDu2:%>хюдиʼ K ;
-!+Du+Acc+PxDu3:%>хюдиʼ K ;
-!+Du+Acc+PxPl1:%>хюнаˮ K ;
-!+Du+Acc+PxPl2:%>хюдаˮ K ;
-!+Du+Acc+PxPl3:%>хюдоʼ K ;
++Du+Acc+PxSg1:%>хюн   K ;
++Du+Acc+PxSg2:%>хюд   K ;
++Du+Acc+PxSg3:%>хюда  K ;
++Du+Acc+PxDu1:%>хюниʼ K ;
++Du+Acc+PxDu2:%>хюдиʼ K ;
++Du+Acc+PxDu3:%>хюдиʼ K ;
++Du+Acc+PxPl1:%>хюнаˮ K ;
++Du+Acc+PxPl2:%>хюдаˮ K ;
++Du+Acc+PxPl3:%>хюдоʼ K ;
 
 +Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; !хасавахаюн
 +Du+Acc+PxSg2:%>х%{ауоэØ%}юд   K ;
@@ -1376,15 +1403,15 @@ LEXICON POSSESSA-DUAL
 +Du+Acc+PxPl2:%>х%{ауоэØ%}юдаˮ K ;
 +Du+Acc+PxPl3:%>х%{ауоэØ%}юдоʼ K ;
 
-!+Du+Gen+PxSg1:%>хюн   K ;
-!+Du+Gen+PxSg2:%>хют   K ;
-!+Du+Gen+PxSg3:%>хюта  K ;
-!+Du+Gen+PxDu1:%>хюниʼ K ;
-!+Du+Gen+PxDu2:%>хютиʼ K ;
-!+Du+Gen+PxDu3:%>хютиʼ K ;
-!+Du+Gen+PxPl1:%>хюнаˮ K ;
-!+Du+Gen+PxPl2:%>хютаˮ K ;
-!+Du+Gen+PxPl3:%>хютоʼ K ;
++Du+Gen+PxSg1:%>хюн   K ;
++Du+Gen+PxSg2:%>хют   K ;
++Du+Gen+PxSg3:%>хюта  K ;
++Du+Gen+PxDu1:%>хюниʼ K ;
++Du+Gen+PxDu2:%>хютиʼ K ;
++Du+Gen+PxDu3:%>хютиʼ K ;
++Du+Gen+PxPl1:%>хюнаˮ K ;
++Du+Gen+PxPl2:%>хютаˮ K ;
++Du+Gen+PxPl3:%>хютоʼ K ;
 
 +Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;! хасавахаюн
 +Du+Gen+PxSg2:%>х%{ауоэØ%}ют   K ;
@@ -1395,6 +1422,61 @@ LEXICON POSSESSA-DUAL
 +Du+Gen+PxPl1:%>х%{ауоэØ%}юнаˮ K ;
 +Du+Gen+PxPl2:%>х%{ауоэØ%}ютаˮ K ;
 +Du+Gen+PxPl3:%>х%{ауоэØ%}ютоʼ K ;
+
+LEXICON POSSESSA-DUAL_ХАЮН
+!! Dual possessa
+
++Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;!хасавахаюн
++Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; !хасавахаюд
++Du+Nom+PxSg3:%>х%{ауоэØ%}юда      K ;
++Du+Nom+PxDu1:%>х%{ауоэØ%}юниʼ     K ;
++Du+Nom+PxDu2:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxDu3:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxPl1:%>х%{ауоэØ%}юнаˮ     K ;
++Du+Nom+PxPl2:%>х%{ауоэØ%}юдаˮ     K ;
++Du+Nom+PxPl3:%>х%{ауоэØ%}юдоʼ     K  ;
+
++Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юн       K ;
++Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юд       K ;
++Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юда      K ;
++Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юниʼ     K ;
++Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдиʼ     K ;
++Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юнаˮ     K ;
++Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдаˮ     K ;
++Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu:%>х%{ауоэØ%}юдоʼ     K  ;
+
++Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юнась       K ;
++Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдась       K ;
++Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдась      K ;
++Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юнинзь     K ;
++Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдинзь     K ;
++Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдинзь     K ;
++Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юнаць     K ;
++Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдаць     K ;
++Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдонзь     K  ;
+
++Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; !хасавахаюн
++Du+Acc+PxSg2:%>х%{ауоэØ%}юд   K ;
++Du+Acc+PxSg3:%>х%{ауоэØ%}юда  K ;
++Du+Acc+PxDu1:%>х%{ауоэØ%}юниʼ K ;
++Du+Acc+PxDu2:%>х%{ауоэØ%}юдиʼ K ;
++Du+Acc+PxDu3:%>х%{ауоэØ%}юдиʼ K ;
++Du+Acc+PxPl1:%>х%{ауоэØ%}юнаˮ K ;
++Du+Acc+PxPl2:%>х%{ауоэØ%}юдаˮ K ;
++Du+Acc+PxPl3:%>х%{ауоэØ%}юдоʼ K ;
+
++Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;! хасавахаюн
++Du+Gen+PxSg2:%>х%{ауоэØ%}ют   K ;
++Du+Gen+PxSg3:%>х%{ауоэØ%}юта  K ;
++Du+Gen+PxDu1:%>х%{ауоэØ%}юниʼ K ;
++Du+Gen+PxDu2:%>х%{ауоэØ%}ютиʼ K ;
++Du+Gen+PxDu3:%>х%{ауоэØ%}ютиʼ K ;
++Du+Gen+PxPl1:%>х%{ауоэØ%}юнаˮ K ;
++Du+Gen+PxPl2:%>х%{ауоэØ%}ютаˮ K ;
++Du+Gen+PxPl3:%>х%{ауоэØ%}ютоʼ K ;
+
+
 
 LEXICON POSSESSA-PLURAL
  POSSESSA-PL-NOM ;
