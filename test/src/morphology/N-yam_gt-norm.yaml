@@ -19,7 +19,7 @@ Tests:
      ямʼ+N+Sg+Acc: явмʼ
      ямʼ+N+Sg+Gen: явʼ
      ямʼ+N+Sg+Dat: ямдʼ
-     ямʼ+N+Sg+Loc: ямгана
+     ямʼ+N+Sg+Loc: [ямгана, ямгна]
      ямʼ+N+Sg+Abl: ямгад
      ямʼ+N+Sg+Pros: ямна
      ямʼ+N+Du+Nom: ямгʼ
@@ -29,7 +29,7 @@ Tests:
      ямʼ+N+Pl+Acc: яво
      ямʼ+N+Pl+Gen: явоˮ
      ямʼ+N+Pl+Dat: ямгаˮ
-     ямʼ+N+Pl+Loc: ямгаˮна
+     ямʼ+N+Pl+Loc: [ямгаˮна, ямгˮна]
      ямʼ+N+Pl+Abl: ямгат
      ямʼ+N+Pl+Pros: явоˮмана
      
@@ -57,8 +57,7 @@ Tests:
      ямʼ+N+Sg+Acc+PxPl1: ямваˮ 
      ямʼ+N+Sg+Acc+PxPl2: ямдаˮ
      ямʼ+N+Sg+Acc+PxPl3: ямдоʼ
-     ямʼ+N+Sg+Gen+PxSg1: ямн   
-     ямʼ+N+Sg+Gen+PxSg1: ямни  
+     ямʼ+N+Sg+Gen+PxSg1: [ямн, ямни] 
      ямʼ+N+Sg+Gen+PxSg2: ямнд  
      ямʼ+N+Sg+Gen+PxSg3: ямнда 
      ямʼ+N+Sg+Gen+PxDu1: ямниʼ 
@@ -67,36 +66,34 @@ Tests:
      ямʼ+N+Sg+Gen+PxPl1: ямнаˮ 
      ямʼ+N+Sg+Gen+PxPl2: ямндаˮ
      ямʼ+N+Sg+Gen+PxPl3: ямндоʼ
-     ямʼ+N+Sg+Dat+PxSg1: ямган   
-     ямʼ+N+Sg+Dat+PxSg1: ямгани  
+     ямʼ+N+Sg+Dat+PxSg1: [ямган, ямгани] 
      ямʼ+N+Sg+Dat+PxSg2: ямганд  
      ямʼ+N+Sg+Dat+PxSg3: ямганда 
-     ямʼ+N+Sg+Dat+PxDu1: ямганиʼ 
-     ямʼ+N+Sg+Dat+PxDu2: ямгандиʼ
-     ямʼ+N+Sg+Dat+PxDu3: ямгандиʼ
-     ямʼ+N+Sg+Dat+PxPl1: ямганаˮ 
-     ямʼ+N+Sg+Dat+PxPl2: ямгандаˮ
-     ямʼ+N+Sg+Dat+PxPl3: ямгандоʼ
-     ямʼ+N+Sg+Loc+PxSg1: ямганан   
-     ямʼ+N+Sg+Loc+PxSg1: ямганани  
-     ямʼ+N+Sg+Loc+PxSg2: ямгананд  
-     ямʼ+N+Sg+Loc+PxSg3: ямгананда 
-     ямʼ+N+Sg+Loc+PxDu1: ямгананиʼ 
-     ямʼ+N+Sg+Loc+PxDu2: ямганандиʼ
-     ямʼ+N+Sg+Loc+PxDu3: ямганандиʼ
-     ямʼ+N+Sg+Loc+PxPl1: ямгананаˮ 
-     ямʼ+N+Sg+Loc+PxPl2: ямганандаˮ
-     ямʼ+N+Sg+Loc+PxPl3: ямганандоʼ
-     ямʼ+N+Sg+Abl+PxSg1: ямгадан   
-     ямʼ+N+Sg+Abl+PxSg1: ямгадани  
-     ямʼ+N+Sg+Abl+PxSg2: ямгаданд  
-     ямʼ+N+Sg+Abl+PxSg3: ямгаданда 
-     ямʼ+N+Sg+Abl+PxDu1: ямгаданиʼ 
-     ямʼ+N+Sg+Abl+PxDu2: ямгадандиʼ
-     ямʼ+N+Sg+Abl+PxDu3: ямгадандиʼ
-     ямʼ+N+Sg+Abl+PxPl1: ямгаданаˮ 
-     ямʼ+N+Sg+Abl+PxPl2: ямгадандаˮ
-     ямʼ+N+Sg+Abl+PxPl3: ямгадандоʼ
+     ямʼ+N+Sg+Dat+PxDu1: [ямганиʼ, ямгниʼ] 
+     ямʼ+N+Sg+Dat+PxDu2: [ямгандиʼ, ямгндиʼ]
+     ямʼ+N+Sg+Dat+PxDu3: [ямгандиʼ, ямгндиʼ]
+     ямʼ+N+Sg+Dat+PxPl1: [ямганаˮ, ямгнаˮ]
+     ямʼ+N+Sg+Dat+PxPl2: [ямгандаˮ, ямгндаˮ]
+     ямʼ+N+Sg+Dat+PxPl3: [ямгандоʼ, ямгндоʼ]
+     ямʼ+N+Sg+Loc+PxSg1: [ямганан, ямгнан, ямганани, ямгнани]
+     ямʼ+N+Sg+Loc+PxSg2: [ямгананд, ямгнанд]  
+     ямʼ+N+Sg+Loc+PxSg3: [ямгананда, ямгнанда]
+     ямʼ+N+Sg+Loc+PxDu1: [ямгананиʼ, ямгнаниʼ]
+     ямʼ+N+Sg+Loc+PxDu2: [ямганандиʼ, ямгнандиʼ]
+     ямʼ+N+Sg+Loc+PxDu3: [ямганандиʼ, ямгнандиʼ]
+     ямʼ+N+Sg+Loc+PxPl1: [ямгананаˮ, ямгнанаˮ] 
+     ямʼ+N+Sg+Loc+PxPl2: [ямганандаˮ, ямгнандаˮ]
+     ямʼ+N+Sg+Loc+PxPl3: [ямганандоʼ, ямгнандоʼ]
+     ямʼ+N+Sg+Abl+PxSg1: [ямгадан, ямгдан]   
+     ямʼ+N+Sg+Abl+PxSg1: [ямгадани, ямгдани]  
+     ямʼ+N+Sg+Abl+PxSg2: [ямгаданд, ямгданд]  
+     ямʼ+N+Sg+Abl+PxSg3: [ямгаданда, ямгданда] 
+     ямʼ+N+Sg+Abl+PxDu1: [ямгаданиʼ, ямгданиʼ]
+     ямʼ+N+Sg+Abl+PxDu2: [ямгадандиʼ, ямгдандиʼ]
+     ямʼ+N+Sg+Abl+PxDu3: [ямгадандиʼ, ямгдандиʼ]
+     ямʼ+N+Sg+Abl+PxPl1: [ямгаданаˮ, ямгданаˮ] 
+     ямʼ+N+Sg+Abl+PxPl2: [ямгадандаˮ, ямгдандаˮ]
+     ямʼ+N+Sg+Abl+PxPl3: [ямгадандоʼ, ямгдандоʼ]
      ямʼ+N+Sg+Pros+PxSg1: явувнан   
      ямʼ+N+Sg+Pros+PxSg1: явувнани  
      ямʼ+N+Sg+Pros+PxSg2: явувнанд  
@@ -107,33 +104,33 @@ Tests:
      ямʼ+N+Sg+Pros+PxPl1: явувнанаˮ 
      ямʼ+N+Sg+Pros+PxPl2: явувнандаˮ
      ямʼ+N+Sg+Pros+PxPl3: явувнандоʼ
-     ямʼ+N+Du+Nom+PxSg1: ямгаюн  
-     ямʼ+N+Du+Nom+PxSg2: ямгаюд  
-     ямʼ+N+Du+Nom+PxSg3: ямгаюда 
-     ямʼ+N+Du+Nom+PxDu1: ямгаюниʼ
-     ямʼ+N+Du+Nom+PxDu2: ямгаюдиʼ
-     ямʼ+N+Du+Nom+PxDu3: ямгаюдиʼ
-     ямʼ+N+Du+Nom+PxPl1: ямгаюнаˮ
-     ямʼ+N+Du+Nom+PxPl2: ямгаюдаˮ
-     ямʼ+N+Du+Nom+PxPl3: ямгаюдоʼ
-     ямʼ+N+Du+Acc+PxSg1: ямгаюн  
-     ямʼ+N+Du+Acc+PxSg2: ямгаюд  
-     ямʼ+N+Du+Acc+PxSg3: ямгаюда 
-     ямʼ+N+Du+Acc+PxDu1: ямгаюниʼ
-     ямʼ+N+Du+Acc+PxDu2: ямгаюдиʼ
-     ямʼ+N+Du+Acc+PxDu3: ямгаюдиʼ
-     ямʼ+N+Du+Acc+PxPl1: ямгаюнаˮ
-     ямʼ+N+Du+Acc+PxPl2: ямгаюдаˮ
-     ямʼ+N+Du+Acc+PxPl3: ямгаюдоʼ
-     ямʼ+N+Du+Gen+PxSg1: ямгаюн  
-     ямʼ+N+Du+Gen+PxSg2: ямгают  
-     ямʼ+N+Du+Gen+PxSg3: ямгаюта 
-     ямʼ+N+Du+Gen+PxDu1: ямгаюниʼ
-     ямʼ+N+Du+Gen+PxDu2: ямгаютиʼ
-     ямʼ+N+Du+Gen+PxDu3: ямгаютиʼ
-     ямʼ+N+Du+Gen+PxPl1: ямгаюнаˮ
-     ямʼ+N+Du+Gen+PxPl2: ямгаютаˮ
-     ямʼ+N+Du+Gen+PxPl3: ямгаютоʼ
+     ямʼ+N+Du+Nom+PxSg1: [ямгаюн, ямгюн]
+     ямʼ+N+Du+Nom+PxSg2: [ямгаюд, ямгюд]
+     ямʼ+N+Du+Nom+PxSg3: [ямгаюда, ямгюда]
+     ямʼ+N+Du+Nom+PxDu1: [ямгаюниʼ, ямгюниʼ]
+     ямʼ+N+Du+Nom+PxDu2: [ямгаюдиʼ, ямгюдиʼ]
+     ямʼ+N+Du+Nom+PxDu3: [ямгаюдиʼ, ямгюдиʼ]
+     ямʼ+N+Du+Nom+PxPl1: [ямгаюнаˮ, ямгюнаˮ]
+     ямʼ+N+Du+Nom+PxPl2: [ямгаюдаˮ, ямгюдаˮ]
+     ямʼ+N+Du+Nom+PxPl3: [ямгаюдоʼ, ямгюдоʼ]
+     ямʼ+N+Du+Acc+PxSg1: [ямгаюн, ямгюн]
+     ямʼ+N+Du+Acc+PxSg2: [ямгаюд, ямгюд]
+     ямʼ+N+Du+Acc+PxSg3: [ямгаюда , ямгюда]
+     ямʼ+N+Du+Acc+PxDu1: [ямгаюниʼ, ямгюниʼ]
+     ямʼ+N+Du+Acc+PxDu2: [ямгаюдиʼ, ямгюдиʼ]
+     ямʼ+N+Du+Acc+PxDu3: [ямгаюдиʼ, ямгюдиʼ]
+     ямʼ+N+Du+Acc+PxPl1: [ямгаюнаˮ, ямгюнаˮ]
+     ямʼ+N+Du+Acc+PxPl2: [ямгаюдаˮ, ямгюдаˮ]
+     ямʼ+N+Du+Acc+PxPl3: [ямгаюдоʼ, ямгюдоʼ]
+     ямʼ+N+Du+Gen+PxSg1: [ямгаюн, ямгюн]
+     ямʼ+N+Du+Gen+PxSg2: [ямгают, ямгют]
+     ямʼ+N+Du+Gen+PxSg3: [ямгаюта, ямгюта]
+     ямʼ+N+Du+Gen+PxDu1: [ямгаюниʼ, ямгюниʼ]
+     ямʼ+N+Du+Gen+PxDu2: [ямгаютиʼ, ямгютиʼ]
+     ямʼ+N+Du+Gen+PxDu3: [ямгаютиʼ, ямгютиʼ]
+     ямʼ+N+Du+Gen+PxPl1: [ямгаюнаˮ, ямгюнаˮ]
+     ямʼ+N+Du+Gen+PxPl2: [ямгаютаˮ, ямгютаˮ]
+     ямʼ+N+Du+Gen+PxPl3: [ямгаютоʼ, ямгютоʼ]
      ямʼ+N+Pl+Nom+PxSg1: [явон, явони]
      ямʼ+N+Pl+Nom+PxSg2: явод   
      ямʼ+N+Pl+Nom+PxSg3: явода  
@@ -161,33 +158,33 @@ Tests:
      ямʼ+N+Pl+Gen+PxPl1: явоˮнаˮ 
      ямʼ+N+Pl+Gen+PxPl2: явотаˮ 
      ямʼ+N+Pl+Gen+PxPl3: явотоʼ 
-     ямʼ+N+Pl+Dat+PxSg1: ямгаˮн 
-     ямʼ+N+Pl+Dat+PxSg2: ямгат 
-     ямʼ+N+Pl+Dat+PxSg3: ямгата 
-     ямʼ+N+Pl+Dat+PxDu1: ямгаˮниʼ 
-     ямʼ+N+Pl+Dat+PxDu2: ямгатиʼ 
-     ямʼ+N+Pl+Dat+PxDu3: ямгатиʼ 
-     ямʼ+N+Pl+Dat+PxPl1: ямгаˮнаˮ 
-     ямʼ+N+Pl+Dat+PxPl2: ямгатаˮ 
-     ямʼ+N+Pl+Dat+PxPl3: ямгатоʼ 
-     ямʼ+N+Pl+Loc+PxSg1: ямгаˮнан  
-     ямʼ+N+Pl+Loc+PxSg2: ямгаˮнат  
-     ямʼ+N+Pl+Loc+PxSg3: ямгаˮната 
-     ямʼ+N+Pl+Loc+PxDu1: ямгаˮнаниʼ
-     ямʼ+N+Pl+Loc+PxDu2: ямгаˮнатиʼ
-     ямʼ+N+Pl+Loc+PxDu3: ямгаˮнатиʼ
-     ямʼ+N+Pl+Loc+PxPl1: ямгаˮнанаˮ
-     ямʼ+N+Pl+Loc+PxPl2: ямгаˮнатаˮ
-     ямʼ+N+Pl+Loc+PxPl3: ямгаˮнатоʼ
-     ямʼ+N+Pl+Abl+PxSg1: ямгатан 
-     ямʼ+N+Pl+Abl+PxSg2: ямгатат 
-     ямʼ+N+Pl+Abl+PxSg3: ямгатата 
-     ямʼ+N+Pl+Abl+PxDu1: ямгатаниʼ
-     ямʼ+N+Pl+Abl+PxDu2: ямгататиʼ
-     ямʼ+N+Pl+Abl+PxDu3: ямгататиʼ
-     ямʼ+N+Pl+Abl+PxPl1: ямгатанаˮ
-     ямʼ+N+Pl+Abl+PxPl2: ямгататаˮ
-     ямʼ+N+Pl+Abl+PxPl3: ямгататоʼ
+     ямʼ+N+Pl+Dat+PxSg1: ямгаˮн
+     ямʼ+N+Pl+Dat+PxSg2: ямгат
+     ямʼ+N+Pl+Dat+PxSg3: [ямгата, ямгта]
+     ямʼ+N+Pl+Dat+PxDu1: [ямгаˮниʼ, ямгˮниʼ]
+     ямʼ+N+Pl+Dat+PxDu2: [ямгатиʼ, ямгтиʼ]
+     ямʼ+N+Pl+Dat+PxDu3: [ямгатиʼ, ямгтиʼ]
+     ямʼ+N+Pl+Dat+PxPl1: [ямгаˮнаˮ, ямгˮнаˮ]
+     ямʼ+N+Pl+Dat+PxPl2: [ямгатаˮ, ямгтаˮ]
+     ямʼ+N+Pl+Dat+PxPl3: [ямгатоʼ, ямгтоʼ]
+     ямʼ+N+Pl+Loc+PxSg1: [ямгаˮнан, ямгˮнан]
+     ямʼ+N+Pl+Loc+PxSg2: [ямгаˮнат, ямгˮнат]
+     ямʼ+N+Pl+Loc+PxSg3: [ямгаˮната, ямгˮната]
+     ямʼ+N+Pl+Loc+PxDu1: [ямгаˮнаниʼ, ямгˮнаниʼ]
+     ямʼ+N+Pl+Loc+PxDu2: [ямгаˮнатиʼ, ямгˮнатиʼ]
+     ямʼ+N+Pl+Loc+PxDu3: [ямгаˮнатиʼ, ямгˮнатиʼ]
+     ямʼ+N+Pl+Loc+PxPl1: [ямгаˮнанаˮ, ямгˮнанаˮ]
+     ямʼ+N+Pl+Loc+PxPl2: [ямгаˮнатаˮ, ямгˮнатаˮ]
+     ямʼ+N+Pl+Loc+PxPl3: [ямгаˮнатоʼ, ямгˮнатоʼ]
+     ямʼ+N+Pl+Abl+PxSg1: [ямгатан, ямгтан]
+     ямʼ+N+Pl+Abl+PxSg2: [ямгатат, ямгтат]
+     ямʼ+N+Pl+Abl+PxSg3: [ямгатата, ямгтата]
+     ямʼ+N+Pl+Abl+PxDu1: [ямгатаниʼ, ямгтаниʼ]
+     ямʼ+N+Pl+Abl+PxDu2: [ямгататиʼ, ямгтатиʼ]
+     ямʼ+N+Pl+Abl+PxDu3: [ямгататиʼ, ямгтатиʼ]
+     ямʼ+N+Pl+Abl+PxPl1: [ямгатанаˮ, ямгтанаˮ]
+     ямʼ+N+Pl+Abl+PxPl2: [ямгататаˮ, ямгтатаˮ]
+     ямʼ+N+Pl+Abl+PxPl3: [ямгататоʼ, ямгтатоʼ]
      ямʼ+N+Pl+Pros+PxSg1: явоˮманан  
      ямʼ+N+Pl+Pros+PxSg2: явоˮманат  
      ямʼ+N+Pl+Pros+PxSg3: явоˮманата 
@@ -198,24 +195,54 @@ Tests:
      ямʼ+N+Pl+Pros+PxPl2: явоˮманатаˮ
      ямʼ+N+Pl+Pros+PxPl3: явоˮманатоʼ
 
-# Predestinative !Should be added
+# Predestinative
+
+     ямʼ+N+Pred+Abs: ямд
+     ямʼ+N+Pred+Nom+PxSg1: ямдав 
+     ямʼ+N+Pred+Nom+PxSg2: ямдар  
+     ямʼ+N+Pred+Nom+PxSg3: ямдада
+     ямʼ+N+Pred+Acc+PxSg1: ямдав
+     ямʼ+N+Pred+Acc+PxSg2: ямдамд
+     ямʼ+N+Pred+Acc+PxSg3: ямдамда
+     ямʼ+N+Pred+Gen+PxSg1: ямдан
+     ямʼ+N+Pred+Gen+PxSg2: ямданд
+     ямʼ+N+Pred+Gen+PxSg3: ямданда
+     ямʼ+N+Pred+Nom+PxDu1: ямдамиʼ
+     ямʼ+N+Pred+Nom+PxDu2: ямдариʼ
+     ямʼ+N+Pred+Nom+PxDu3: ямдадиʼ
+     ямʼ+N+Pred+Acc+PxDu1: ямдамиʼ
+     ямʼ+N+Pred+Acc+PxDu2: ямдамдиʼ
+     ямʼ+N+Pred+Acc+PxDu3: ямдамдиʼ
+     ямʼ+N+Pred+Gen+PxDu1: ямданиʼ
+     ямʼ+N+Pred+Gen+PxDu2: ямдандиʼ
+     ямʼ+N+Pred+Gen+PxDu3: ямдандиʼ
+     ямʼ+N+Pred+Nom+PxPl1: ямдаваˮ
+     ямʼ+N+Pred+Nom+PxPl2: ямдараˮ
+     ямʼ+N+Pred+Nom+PxPl3: ямдадоʼ
+     ямʼ+N+Pred+Acc+PxPl1: ямдаваˮ
+     ямʼ+N+Pred+Acc+PxPl2: ямдамдаˮ
+     ямʼ+N+Pred+Acc+PxPl3: ямдамдоʼ
+     ямʼ+N+Pred+Gen+PxPl1: ямданаˮ
+     ямʼ+N+Pred+Gen+PxPl2: ямдандаˮ
+     ямʼ+N+Pred+Gen+PxPl3: ямдандоʼ
+     
 # Predicative (Nominal conjugation)
 
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScSg1: ямдмʼ
-     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: ямн  
+     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: ямд  
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScSg3: ямʼ 
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScDu1: ямниʼ
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: ямдиʼ
-     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: ямгаʼ
+     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: ямгʼ
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl1: ямваˮ
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: ямдаˮ
-     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: ямˮ  
+     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: явˮ  
      ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: ямдамзь
-     ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: ямнась 
+     ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: ямдась 
      ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: ямзь   
      ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: ямнинзь
      ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: ямдинзь
      ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: ямганзь
-     ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: ямваць 
+     ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: ямаць 
      ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: ямдаць 
-     ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: ямць   
+     ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: яваць   
