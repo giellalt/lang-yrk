@@ -5,11 +5,14 @@
 
 
   %{ауоэØ%}:а   А1:а А1:у А1:о А1:э SCHWA
+ %{ауоэиыØ%}:0  before pros
 
 
 
 
 
+
+  %{ая%}:а          in Pros
 
   %{увм%}:0	    +N+Sg+Pros
 
@@ -50,6 +53,9 @@ __а:я VowelPalatalization left__
 
 __а:я VowelPalatalization right__
 
+__%{ая%}:я VowelPalatalization right__
+
+
 __у:ю VowelPalatalization__
 
 __А2:0 possible vowel loss as second syllable vowel__
@@ -66,12 +72,25 @@ __%{ауоэØ%} -> а right__
 
 __%{ауоэØ%} <- а left__
 
-__%{ауоэØ%} -> у__
+__%{ауоэØ%} <-> у__
 
 __%{ауоэØ%} -> о__
   %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
 
 __%{ауоэØ%} -> э__
+
+__%{ауоэиыØ%} <-> а__
+
+__%{ауоэиыØ%} <-> ы__
+
+__%{ауоэиыØ%} <-> и__
+
+__%{ауоэиыØ%} <-> о__
+
+__%{ауоэиыØ%} <-> у__
+
+__%{ауоэиыØ%} <-> э__
+
 
 !VOWEL LOWERING
 __StemFinalYToE__
@@ -125,6 +144,7 @@ __я:0 Stem vowel loss in plural accusative__
 __mToV__, perhaps there should be a VtoM rule2013-01-23
 
 __%{увм%} ToV__,
+
 
 __%{увм%} ToM__,
 
