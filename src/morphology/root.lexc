@@ -177,14 +177,16 @@ Multichar_Symbols
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
+
+ %{ая%}         !!= @CODE@ in Pros
  %{увм%}	   !!= @CODE@ +N+Sg+Pros
  %{вм%}	   !!= @CODE@ +N+Sg+Nom+PxSg1
  %{рл%}	   !!= @CODE@ +N+Sg+Nom+PxSg2
 !! And following triggers to control variation
  {front} {back}
 ! Protoletters for xfst
-%{ауоэØ%} !!= @CODE@  А1:а А1:у А1:о А1:э schwa
+ %{ауоэØ%} !!= @CODE@  А1:а А1:у А1:о А1:э schwa
+ %{ауоэиыØ%} !!= @CODE@ before pros
  !!= @CODE@ This is the schwa or reduced vowel occurring after x in case endings
  !! -хА1на -хА1д
 А2 !! Alternating between zero and а
