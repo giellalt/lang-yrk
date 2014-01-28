@@ -79,11 +79,14 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+
+  %{ая%}          in Pros
   %{увм%}	    +N+Sg+Pros
   %{вм%}	    +N+Sg+Nom+PxSg1
   %{рл%}	    +N+Sg+Nom+PxSg2
 And following triggers to control variation
- %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
+  %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
+  %{ауоэиыØ%}  before pros
    This is the schwa or reduced vowel occurring after x in case endings
 -хА1на -хА1д
 Alternating between zero and а
@@ -281,7 +284,6 @@ no change in stem
 25!ямʼ:я
 
  LEXICON NMN_ӇУВО   ӈумʼ:ӈум 25 
-
  +N:ʼ  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_НЮБЕ   нюмʼ: 26  !!ProsSg -(м)на
@@ -451,6 +453,8 @@ NMN
 
 
 
+ * LEXICON NMN_ХАНО  11
+
 
 
  LEXICON NMN_ТИРЕ   тир: 12 !!ProsSg -увна
@@ -462,6 +466,7 @@ NMN
 
 !NOMINALS "NMN"
 !THREE-SYLLABLE VOWEL-FINAL STEMS
+
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
@@ -550,6 +555,7 @@ Start Plural
 
 What is assumed on the basis of the plural accusative
  +Pl+Pros:%>ˮ%{увм%}А2на 	K	;  When does this take a vowel хоˮомна
+
 
 
 
@@ -974,11 +980,14 @@ Non-finites
 
 
   %{ауоэØ%}:а   А1:а А1:у А1:о А1:э SCHWA
+ %{ауоэиыØ%}:0  before pros
 
 
 
 
 
+
+  %{ая%}:а          in Pros
 
   %{увм%}:0	    +N+Sg+Pros
 
@@ -1019,6 +1028,9 @@ __а:я VowelPalatalization left__
 
 __а:я VowelPalatalization right__
 
+__%{ая%}:я VowelPalatalization right__
+
+
 __у:ю VowelPalatalization__
 
 __А2:0 possible vowel loss as second syllable vowel__
@@ -1035,12 +1047,25 @@ __%{ауоэØ%} -> а right__
 
 __%{ауоэØ%} <- а left__
 
-__%{ауоэØ%} -> у__
+__%{ауоэØ%} <-> у__
 
 __%{ауоэØ%} -> о__
   %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
 
 __%{ауоэØ%} -> э__
+
+__%{ауоэиыØ%} <-> а__
+
+__%{ауоэиыØ%} <-> ы__
+
+__%{ауоэиыØ%} <-> и__
+
+__%{ауоэиыØ%} <-> о__
+
+__%{ауоэиыØ%} <-> у__
+
+__%{ауоэиыØ%} <-> э__
+
 
 !VOWEL LOWERING
 __StemFinalYToE__
@@ -1094,6 +1119,7 @@ __я:0 Stem vowel loss in plural accusative__
 __mToV__, perhaps there should be a VtoM rule2013-01-23
 
 __%{увм%} ToV__,
+
 
 __%{увм%} ToM__,
 

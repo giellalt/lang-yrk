@@ -68,11 +68,14 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+
+  %{ая%}          in Pros
   %{увм%}	    +N+Sg+Pros
   %{вм%}	    +N+Sg+Nom+PxSg1
   %{рл%}	    +N+Sg+Nom+PxSg2
 And following triggers to control variation
- %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
+  %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
+  %{ауоэиыØ%}  before pros
    This is the schwa or reduced vowel occurring after x in case endings
 -хА1на -хА1д
 Alternating between zero and а
