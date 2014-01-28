@@ -614,6 +614,26 @@
 
   <e>
     <lg>
+      <l pos="N">вабтˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">вабт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kallistuma</t>
+
+        <t pos="N">myötämäki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">вабтпалава</l>
 
       <stg>
@@ -9164,7 +9184,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">kiinteällä elintavalla ihminen, haukka</t>
+        <t pos="N">kiinteällä elintavalla ihminen</t>
+
+        <t pos="N">haukka</t>
       </tg>
     </mg>
   </e>
@@ -17572,6 +17594,8 @@
 
       <stg>
         <st Contlex="N_ТАРЕ">пензер</st>
+
+        <st Contlex="N_ТАРЕ">пензяр</st>
       </stg>
     </lg>
 
@@ -18711,7 +18735,9 @@
       <tg xml:lang="fin">
         <t pos="N">metsätie jonka puunoksat yhdistyvät ylhäällä</t>
 
-        <t pos="N">alikäytävä, tunneli</t>
+        <t pos="N">alikäytävä</t>
+
+        <t pos="N">tunneli</t>
       </tg>
     </mg>
   </e>
@@ -37376,8 +37402,24 @@
 
         <t pos="N">hiili</t>
 
-        <t>tulikekäle</t>
+        <t pos="N">tulikekäle</t>
+      </tg>
+    </mg>
+  </e>
 
+  <e>
+    <lg>
+      <l pos="N">яˮ</l>
+
+      <stg>
+        <st Contlex="N_ТАСО">яС1</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
         <t pos="N">karva</t>
 
         <t pos="N">pii</t>
