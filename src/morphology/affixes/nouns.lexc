@@ -478,6 +478,8 @@ LEXICON NMN_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   !!ProsSg -мня
 :Д1 SG-ACC-STEM ;
 :Д1 SG-NOM-STEM ;
 :Д1 SGPROSSUF ;
+:Д1 SGLOCSUF_Хна ; 
+:Д1 SGLOCSUF_Хана ;
 :Д1 PLNOMSUF ;
 :Д1 PLACCSUF_Е ;
 
@@ -510,6 +512,8 @@ LEXICON NMN_ВАР  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 :Д1 SGDATSUF ;
 :Д1 SG-ACC-STEM ;
 :Д1 SG-NOM-STEM ;
+:Д1 SGLOCSUF_Хна ; 
+:Д1 SGLOCSUF_Хана ;
  SGPROSSUF ;
 :Д1 PLNOMSUF ;
  PLACCSUF_О ;
@@ -1132,6 +1136,9 @@ LEXICON SGLOCSUF
 
 LEXICON SGLOCSUF_Хна !!= @CODE@ мякна
 +Sg+Loc:%>хна K ;
+
+LEXICON SGLOCSUF_Хана !!= @CODE@ серкана
++Sg+Loc:%>хана K ;
 
 LEXICON SGABLSUF
 +Sg+Abl:%>х%{ауоэØ%}д K ; !вэсакоход пэдарахад ӈамгэхэд
