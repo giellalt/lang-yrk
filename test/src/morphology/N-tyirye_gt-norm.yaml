@@ -207,24 +207,48 @@ Tests:
      тир+N+Pred+Nom+PxSg1: [тирдав, тирдув]
      тир+N+Pred+Nom+PxSg2: тирдар
      тир+N+Pred+Nom+PxSg3: тирдада
+     тир+N+Pred+Acc+PxSg1: [тирдав, тирдув]
+     тир+N+Pred+Acc+PxSg2: тирдамд
+     тир+N+Pred+Acc+PxSg3: тирдамда
+     тир+N+Pred+Gen+PxSg1: тирдан
+     тир+N+Pred+Gen+PxSg2: тирданд
+     тир+N+Pred+Gen+PxSg3: тирданда
+     тир+N+Pred+Nom+PxDu1: тирдамиʼ
+     тир+N+Pred+Nom+PxDu2: тирдариʼ
+     тир+N+Pred+Nom+PxDu3: тирдадиʼ
+     тир+N+Pred+Acc+PxDu1: тирдамиʼ
+     тир+N+Pred+Acc+PxDu2: тирдамдиʼ
+     тир+N+Pred+Acc+PxDu3: тирдамдиʼ
+     тир+N+Pred+Gen+PxDu1: тирданиʼ
+     тир+N+Pred+Gen+PxDu2: тирдандиʼ
+     тир+N+Pred+Gen+PxDu3: тирдандиʼ
+     тир+N+Pred+Nom+PxPl1: тирдаваˮ
+     тир+N+Pred+Nom+PxPl2: тирдараˮ
+     тир+N+Pred+Nom+PxPl3: тирдадоʼ
+     тир+N+Pred+Acc+PxPl1: тирдаваˮ
+     тир+N+Pred+Acc+PxPl2: тирдамдаˮ
+     тир+N+Pred+Acc+PxPl3: тирдамдоʼ
+     тир+N+Pred+Gen+PxPl1: тирданаˮ
+     тир+N+Pred+Gen+PxPl2: тирдандаˮ
+     тир+N+Pred+Gen+PxPl3: тирдандоʼ
 
 # Predicative (Nominal conjugation)
 
-     тир+N+Nom+Der/Pr+Ind+Aor+ScSg1: тирадмʼ
-     тир+N+Nom+Der/Pr+Ind+Aor+ScSg2: тиран 
-     тир+N+Nom+Der/Pr+Ind+Aor+ScSg3: тир
-     тир+N+Nom+Der/Pr+Ind+Aor+ScDu1: тирниʼ
-     тир+N+Nom+Der/Pr+Ind+Aor+ScDu2: тирдиʼ
-     тир+N+Nom+Der/Pr+Ind+Aor+ScDu3: тирхаʼ
-     тир+N+Nom+Der/Pr+Ind+Aor+ScPl1: тирваˮ
-     тир+N+Nom+Der/Pr+Ind+Aor+ScPl2: тирдаˮ 
-     тир+N+Nom+Der/Pr+Ind+Aor+ScPl3: тирˮ  
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScSg1: тирдамзь
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScSg2: тирнась 
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScSg3: тирась   
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScDu1: тирнинзь
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScDu2: тирдинзь
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScDu3: тирханзь
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScPl1: тирваць 
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScPl2: тирдаць  
-     тир+N+Nom+Der/Pr+Ind+Prt1+ScPl3: тираць  
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: тирадмʼ
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: тиран 
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: тир
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: тирниʼ
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: тирдиʼ
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: тирхаʼ
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: тирваˮ
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: тирдаˮ 
+     тир+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: тирˮ  
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: тирдамзь
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: тирнась 
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: тирась   
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: тирнинзь
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: тирдинзь
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: тирханзь
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: тирваць 
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: тирдаць  
+     тир+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: тираць  
