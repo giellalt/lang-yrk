@@ -198,24 +198,54 @@ Tests:
      выʼ+N+Pl+Pros+PxPl2: выӈоˮманатаˮ
      выʼ+N+Pl+Pros+PxPl3: выӈоˮманатоʼ
 
-# Predestinative !Should be added
+# Predestinative  
+
+     выʼ+N+Pred+Abs: вынд
+     выʼ+N+Pred+Nom+PxSg1: [вындав, вындув]
+     выʼ+N+Pred+Nom+PxSg2: вындар  
+     выʼ+N+Pred+Nom+PxSg3: [вындада, вындда] 
+     выʼ+N+Pred+Acc+PxSg1: [вындав, вындув]
+     выʼ+N+Pred+Acc+PxSg2: вындамд
+     выʼ+N+Pred+Acc+PxSg3: вындамда, вындмда
+     выʼ+N+Pred+Gen+PxSg1: вындан
+     выʼ+N+Pred+Gen+PxSg2: вынданд
+     выʼ+N+Pred+Gen+PxSg3: [вынданда, вынднда]
+     выʼ+N+Pred+Nom+PxDu1: [вындамиʼ, вындмиʼ]
+     выʼ+N+Pred+Nom+PxDu2: вындриʼ
+     выʼ+N+Pred+Nom+PxDu3: [вындадиʼ, вынддиʼ]
+     выʼ+N+Pred+Acc+PxDu1: [вындамиʼ, вындмиʼ]
+     выʼ+N+Pred+Acc+PxDu2: [вындамдиʼ, вындмдиʼ]
+     выʼ+N+Pred+Acc+PxDu3: [вындамдиʼ, вындмдиʼ]
+     выʼ+N+Pred+Gen+PxDu1: [вынданиʼ, вындниʼ]
+     выʼ+N+Pred+Gen+PxDu2: [вындандиʼ, вындндиʼ]
+     выʼ+N+Pred+Gen+PxDu3: [вындандиʼ, вындндиʼ]
+     выʼ+N+Pred+Nom+PxPl1: вындваˮ
+     выʼ+N+Pred+Nom+PxPl2: вындраˮ
+     выʼ+N+Pred+Nom+PxPl3: [вындадоʼ, вынддоʼ]
+     выʼ+N+Pred+Acc+PxPl1: вындваˮ
+     выʼ+N+Pred+Acc+PxPl2: [вындамдаˮ, вындмдаˮ]
+     выʼ+N+Pred+Acc+PxPl3: [вындамдоʼ, вындмдоʼ]
+     выʼ+N+Pred+Gen+PxPl1: [вынданаˮ, вынднаˮ]
+     выʼ+N+Pred+Gen+PxPl2: [вындандаˮ, вындндаˮ]
+     выʼ+N+Pred+Gen+PxPl3: [вындандоʼ, вындндоʼ]
+     
 # Predicative (Nominal conjugation)
 
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScSg1: вындмʼ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScSg2: вынд  
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScSg3: выʼ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScDu1: выниʼ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: вындиʼ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: выӈгʼ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScPl1: вымаˮ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: вындаˮ
-     выʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: выˮ  
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: вындамзь
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg2: вындась 
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg3: вынзь   
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu1: вынинзь
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu2: вындинзь
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScDu3: выӈганзь
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl1: вымаць 
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl2: вындаць 
-     выʼ+N+Nom+Der/Pr+Ind+Prt1+ScPl3: выць   
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: вындмʼ
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: вынд  
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: выʼ
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: выниʼ
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: вындиʼ
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: выӈгʼ
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: вымаˮ
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: вындаˮ
+     выʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: выˮ  
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: вындамзь
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: вындась 
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: вынзь   
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: вынинзь
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: вындинзь
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: выӈганзь
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: вымаць 
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: вындаць 
+     выʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: выць   
