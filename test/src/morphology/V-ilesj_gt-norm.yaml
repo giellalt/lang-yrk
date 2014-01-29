@@ -30,7 +30,7 @@ Tests:
      илесь+V+IV+Ind+Prt1+ScDu1: иленинзь
      илесь+V+IV+Ind+Prt1+ScDu2: илединзь
      илесь+V+IV+Ind+Prt1+ScDu3: илеӈаханзь
-     илесь+V+IV+Dial/W+Ind+Prt1+ScDu3: илеханзь
+#    илесь+V+IV+Dial/W+Ind+Prt1+ScDu3: илеханзь
      илесь+V+IV+Ind+Prt1+ScPl1: илеваць
      илесь+V+IV+Ind+Prt1+ScPl2: иледаць
      илесь+V+IV+Ind+Prt1+ScPl3: илець
@@ -209,21 +209,32 @@ Tests:
      илесь+V+IV+Evas: илевоӈгад
      илесь+V+IV+ConNeg: илеˮ
      илесь+V+IV+Fut+ConNeg: илеӈгуˮ
-     илесь+V+IV+Subord+PxSg1: [илебˮнани, илебаˮни]
-     илесь+V+IV+Subord+PxSg2: [илебˮнанд, илебат]
-     илесь+V+IV+Subord+PxSg3: [илебˮнанда, илебата] 
-     илесь+V+IV+Subord+PxDu1: [илебˮнаниʼ, илебаˮниʼ]
-     илесь+V+IV+Subord+PxDu2: [илебˮнандиʼ, илебаˮтиʼ]
-     илесь+V+IV+Subord+PxDu3: [илебˮнандиʼ, илебаˮтиʼ]
-     илесь+V+IV+Subord+PxPl1: [илебˮнанаˮ, илебаˮнаˮ]
-     илесь+V+IV+Subord+PxPl2: [илебˮнандаˮ, илебатаˮ]
-     илесь+V+IV+Subord+PxPl3: [илебˮнандоʼ, илебатоʼ]
+     илесь+V+IV+Subord+Abs: илебˮ  
+     илесь+V+IV+Subord+PxSg1: [илебˮнан, илебаˮнан, илебаˮн]
+     илесь+V+IV+Subord+PxSg2: [илебˮнанд, илебаˮнанд, илебат]
+     илесь+V+IV+Subord+PxSg3: [илебˮнанда, илебаˮнанда, илебата, илебта] 
+     илесь+V+IV+Subord+PxDu1: [илебˮнаниʼ, илебаˮнаниʼ, илебаˮниʼ, илебˮниʼ]
+     илесь+V+IV+Subord+PxDu2: [илебˮнандиʼ, илебаˮнандиʼ, илебаˮтиʼ, илебтиʼ]
+     илесь+V+IV+Subord+PxDu3: [илебˮнандиʼ, илебаˮнандиʼ, илебаˮтиʼ, илебтиʼ]
+     илесь+V+IV+Subord+PxPl1: [илебˮнанаˮ, илебаˮнанаˮ, илебаˮнаˮ, илебˮнаˮ]
+     илесь+V+IV+Subord+PxPl2: [илебˮнандаˮ, илебаˮнандаˮ, илебатаˮ, илебтаˮ]
+     илесь+V+IV+Subord+PxPl3: [илебˮнандоʼ, илебаˮнандоʼ, илебатоʼ, илебтоʼ]
      илесь+V+IV+Fut+Ind+Aor+ScSg1: илеӈгудмʼ
      илесь+V+IV+Fut+Ind+Aor+ScSg2: илеӈгун
      илесь+V+IV+Fut+Ind+Aor+ScSg3: илеӈгу
      илесь+V+IV+Fut+Ind+Aor+ScDu1: илеӈгуниʼ
      илесь+V+IV+Fut+Ind+Aor+ScDu2: илеӈгудиʼ
-     илесь+V+IV+Fut+Ind+Aor+ScDu3: илеӈгухуʼ #or илеӈгуӈгахаʼ?
+     илесь+V+IV+Fut+Ind+Aor+ScDu3: илеӈгухуʼ 
      илесь+V+IV+Fut+Ind+Aor+ScPl1: илеӈгуваˮ
      илесь+V+IV+Fut+Ind+Aor+ScPl2: илеӈгудаˮ
      илесь+V+IV+Fut+Ind+Aor+ScPl3: илеӈгуˮ            
+     илесь+V+IV+Fut+Ind+Prt1+ScSg1: илеӈгудамзь
+     илесь+V+IV+Fut+Ind+Prt1+ScSg2: илеӈгунась
+     илесь+V+IV+Fut+Ind+Prt1+ScSg3: илеӈгусь
+     илесь+V+IV+Fut+Ind+Prt1+ScDu1: илеӈгунинзь
+     илесь+V+IV+Fut+Ind+Prt1+ScDu2: илеӈгудинзь
+     илесь+V+IV+Fut+Ind+Prt1+ScDu3: илеӈгухунзь 
+     илесь+V+IV+Fut+Ind+Prt1+ScPl1: илеӈгуваць
+     илесь+V+IV+Fut+Ind+Prt1+ScPl2: илеӈгудаць
+     илесь+V+IV+Fut+Ind+Prt1+ScPl3: илеӈгуць
+     
