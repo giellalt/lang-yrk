@@ -553,8 +553,8 @@ LEXICON V-01_ТУ
  V_Fut ;
  IND-AOR		;
  IND-AOR-SG3 	;
- IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
+:%>ӈа IND-AOR-DU3 	;
++Ind:%>ӈа IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC2 ;
 
@@ -746,8 +746,8 @@ LEXICON V-01_ИЛЕ
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
- IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
+:%>ӈа IND-AOR-DU3 	;
++Ind:%>ӈа IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC ;
 
