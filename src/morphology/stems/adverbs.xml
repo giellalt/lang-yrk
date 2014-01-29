@@ -30,6 +30,34 @@
 
   <e>
     <lg>
+      <l pos="Adv">валакада</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">валакада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">only</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">vain</t>
+
+        <t pos="Adv">ainoastaan</t>
+
+        <t pos="Adv">mutta</t>
+
+        <t pos="Adv">sen pituinen se</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">варцавэйʼ</l>
 
       <stg>
@@ -95,11 +123,35 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>don't know</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Adv">en tiedä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ецˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ецˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">läpi</t>
+
+        <t pos="Adv">lävitse</t>
       </tg>
     </mg>
   </e>
@@ -804,6 +856,8 @@
 
       <stg>
         <st Contlex="ADV-TEMP_">невхэна</st>
+
+        <st Contlex="ADV-TEMP_">невхэхэна</st>
       </stg>
     </lg>
 
@@ -2598,6 +2652,8 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">tahallaan</t>
+
+        <t pos="Adv">tarkoituksella</t>
       </tg>
     </mg>
   </e>
@@ -2620,6 +2676,8 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">tahallaan</t>
+
+        <t pos="Adv">tarkoituksella</t>
       </tg>
     </mg>
   </e>
@@ -2664,6 +2722,8 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">tahallaan</t>
+
+        <t pos="Adv">tieten taiten</t>
       </tg>
     </mg>
   </e>
