@@ -10209,6 +10209,24 @@
 
   <e>
     <lg>
+      <l pos="N">мыла</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">мыла</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">saippua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мылъя</l>
 
       <stg>
@@ -33703,6 +33721,26 @@
         <t pos="N">paloöljykeitin</t>
 
         <t pos="N">petrolikeitin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">харбас</l>
+
+      <stg>
+        <st Contlex="N_ЕД">харбас</st>
+
+        <st Contlex="N_ЕД">харпас</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
       </tg>
     </mg>
   </e>
