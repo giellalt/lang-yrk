@@ -196,22 +196,23 @@ Tests:
      
 # Predestinative 
 
-     паны+N+Pred+Nom+PxSg1: панэдав
+     паны+N+Pred+Abs: панэд
+     паны+N+Pred+Nom+PxSg1: [панэдав, панэдув]
      паны+N+Pred+Nom+PxSg2: панэдар
-     паны+N+Pred+Nom+PxSg3: панэдда
+     паны+N+Pred+Nom+PxSg3: панэдада
      паны+N+Pred+Nom+PxDu1: панэдамиʼ
      паны+N+Pred+Nom+PxDu2: панэдариʼ
-     паны+N+Pred+Nom+PxDu3: панэддиʼ
-     паны+N+Pred+Nom+PxPl1: панэдваˮ
-     паны+N+Pred+Nom+PxPl2: панэдраˮ
-     паны+N+Pred+Nom+PxPl3: панэддоʼ
-     паны+N+Pred+Acc+PxSg1: панэдав
+     паны+N+Pred+Nom+PxDu3: панэдадиʼ
+     паны+N+Pred+Nom+PxPl1: панэдаваˮ
+     паны+N+Pred+Nom+PxPl2: панэдараˮ
+     паны+N+Pred+Nom+PxPl3: панэдадоʼ
+     паны+N+Pred+Acc+PxSg1: [панэдав, панэдув]
      паны+N+Pred+Acc+PxSg2: панэдамд
      паны+N+Pred+Acc+PxSg3: панэдамда
      паны+N+Pred+Acc+PxDu1: панэдамиʼ
      паны+N+Pred+Acc+PxDu2: панэдамдиʼ
      паны+N+Pred+Acc+PxDu3: панэдамдиʼ
-     паны+N+Pred+Acc+PxPl1: панэдваˮ
+     паны+N+Pred+Acc+PxPl1: панэдаваˮ
      паны+N+Pred+Acc+PxPl2: панэдамдаˮ
      паны+N+Pred+Acc+PxPl3: панэдамдоʼ    
      паны+N+Pred+Gen+PxSg1: панэдан
@@ -220,7 +221,7 @@ Tests:
      паны+N+Pred+Gen+PxDu1: панэданиʼ
      паны+N+Pred+Gen+PxDu2: панэдандиʼ
      паны+N+Pred+Gen+PxDu3: панэдандиʼ
-     паны+N+Pred+Gen+PxPl1: панэднаˮ
+     паны+N+Pred+Gen+PxPl1: панэданаˮ
      паны+N+Pred+Gen+PxPl2: панэдандаˮ
      паны+N+Pred+Gen+PxPl3: панэдандоʼ
      
