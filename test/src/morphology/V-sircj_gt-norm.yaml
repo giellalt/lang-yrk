@@ -24,13 +24,13 @@ Tests:
      сырць+V+IV+Ind+Aor+ScPl1: сырӈаваˮ
      сырць+V+IV+Ind+Aor+ScPl2: сырӈадаˮ
      сырць+V+IV+Ind+Aor+ScPl3: сырӈаˮ
-     сырць+V+IV+Ind+Prt1+ScSg1: [сырӈаманзь, сырӈадамзь]
+     сырць+V+IV+Ind+Prt1+ScSg1: сырӈадамзь # сырӈаманзь
      сырць+V+IV+Ind+Prt1+ScSg2: сырӈанась
      сырць+V+IV+Ind+Prt1+ScSg3: сырӈась
      сырць+V+IV+Ind+Prt1+ScDu1: сырӈанинзь
      сырць+V+IV+Ind+Prt1+ScDu2: сырӈадинзь
-     сырць+V+IV+Ind+Prt1+ScDu3: сырӈаӈаханзь
-     сырць+V+IV+Dial/W+Ind+Prt1+ScDu3: сырӈаханзь
+#    сырць+V+IV+Ind+Prt1+ScDu3: сырӈаӈаханзь
+     сырць+V+IV+Ind+Prt1+ScDu3: сырӈаханзь
      сырць+V+IV+Ind+Prt1+ScPl1: сырӈаваць
      сырць+V+IV+Ind+Prt1+ScPl2: сырӈадаць
      сырць+V+IV+Ind+Prt1+ScPl3: сырӈаць
@@ -38,10 +38,10 @@ Tests:
      сырць+V+IV+Imprt+ScSg2: сырˮ
      сырць+V+IV+Opt+ScSg3: сырӈая
      сырць+V+IV+Hort+ScDu1: сырканиʼ
-     сырць+V+IV+Imprt+ScDu2: сырдиʼ # or сыртиʼ
+     сырць+V+IV+Imprt+ScDu2: сырӈадиʼ # or сыртиʼ
      сырць+V+IV+Opt+ScDu3: сырӈаяхаʼ
      сырць+V+IV+Hort+ScPl1: сыркаваˮ
-     сырць+V+IV+Imprt+ScPl2: сырдаˮ # or сыртаˮ
+     сырць+V+IV+Imprt+ScPl2: сырӈадаˮ # or сыртаˮ
      сырць+V+IV+Opt+ScPl3: сырӈаяˮ
      сырць+V+IV+Conj+Aor+ScSg1: сыръидмʼ
      сырць+V+IV+Conj+Aor+ScSg2: сыръин
@@ -133,24 +133,33 @@ Tests:
      сырць+V+IV+Mod/obl+ScPl1: сырцакэваˮ
      сырць+V+IV+Mod/obl+ScPl2: сырцакэдаˮ
      сырць+V+IV+Mod/obl+ScPl3: сырцакыˮ
-     сырць+V+IV+Mod/appr+ScSg1: сыртархадмʼ
-     сырць+V+IV+Mod/appr+ScSg2: сыртархан
-     сырць+V+IV+Mod/appr+ScSg3: сыртарха
-     сырць+V+IV+Mod/appr+ScDu1: сыртарханиʼ
-     сырць+V+IV+Mod/appr+ScDu2: сыртархадиʼ
-     сырць+V+IV+Mod/appr+ScDu3: сыртархахаʼ
-     сырць+V+IV+Mod/appr+ScPl1: сыртархаваˮ
-     сырць+V+IV+Mod/appr+ScPl2: сыртархадаˮ
-     сырць+V+IV+Mod/appr+ScPl3: сыртархаˮ
-     сырць+V+IV+Mod/perfappr+ScSg1: сырмэрхадмʼ
-     сырць+V+IV+Mod/perfappr+ScSg2: сырмэрхан
-     сырць+V+IV+Mod/perfappr+ScSg3: сырмэрха
-     сырць+V+IV+Mod/perfappr+ScDu1: сырмэрханиʼ
-     сырць+V+IV+Mod/perfappr+ScDu2: сырмэрхадиʼ
-     сырць+V+IV+Mod/perfappr+ScDu3: сырмэрхахаʼ
-     сырць+V+IV+Mod/perfappr+ScPl1: сырмэрхаваˮ
-     сырць+V+IV+Mod/perfappr+ScPl2: сырмэрхадаˮ
-     сырць+V+IV+Mod/perfappr+ScPl3: сырмэрхаˮ
+     сырць+V+IV+Mod/appr+Aor+ScSg1: сыртарахадмʼ
+     сырць+V+IV+Mod/appr+Aor+ScSg2: сыртарахан
+     сырць+V+IV+Mod/appr+Aor+ScSg3: сыртараха
+     сырць+V+IV+Mod/appr+Aor+ScDu1: сыртараханиʼ
+     сырць+V+IV+Mod/appr+Aor+ScDu2: сыртарахадиʼ
+     сырць+V+IV+Mod/appr+Aor+ScDu3: сыртарахахаʼ
+     сырць+V+IV+Mod/appr+Aor+ScPl1: сыртарахаваˮ
+     сырць+V+IV+Mod/appr+Aor+ScPl2: сыртарахадаˮ
+     сырць+V+IV+Mod/appr+Aor+ScPl3: сыртарахаˮ
+     сырць+V+IV+Mod/appr+Prt1+ScSg1: сыртарахадамзʼ
+     сырць+V+IV+Mod/appr+Prt1+ScSg2: сыртараханась
+     сырць+V+IV+Mod/appr+Prt1+ScSg3: сыртарахась
+     сырць+V+IV+Mod/appr+Prt1+ScDu1: сыртараханинзʼ
+     сырць+V+IV+Mod/appr+Prt1+ScDu2: сыртарахадинзʼ
+     сырць+V+IV+Mod/appr+Prt1+ScDu3: сыртарахаханзʼ
+     сырць+V+IV+Mod/appr+Prt1+ScPl1: сыртарахаваць
+     сырць+V+IV+Mod/appr+Prt1+ScPl2: сыртарахадаць
+     сырць+V+IV+Mod/appr+Prt1+ScPl3: сыртарахаць
+     сырць+V+IV+Mod/perfappr+ScSg1: сырмэрахадмʼ
+     сырць+V+IV+Mod/perfappr+ScSg2: сырмэрахан
+     сырць+V+IV+Mod/perfappr+ScSg3: сырмэраха
+     сырць+V+IV+Mod/perfappr+ScDu1: сырмэраханиʼ
+     сырць+V+IV+Mod/perfappr+ScDu2: сырмэрахадиʼ
+     сырць+V+IV+Mod/perfappr+ScDu3: сырмэрахахаʼ
+     сырць+V+IV+Mod/perfappr+ScPl1: сырмэрахаваˮ
+     сырць+V+IV+Mod/perfappr+ScPl2: сырмэрахадаˮ
+     сырць+V+IV+Mod/perfappr+ScPl3: сырмэрахаˮ
      сырць+V+IV+Mod/futappr+ScSg1: сырмандархадмʼ
      сырць+V+IV+Mod/futappr+ScSg2: сырмандархан
      сырць+V+IV+Mod/futappr+ScSg3: сырмандарха
@@ -196,28 +205,29 @@ Tests:
      сырць+V+IV+Mod/des+ScPl1: сылваваˮ
      сырць+V+IV+Mod/des+ScPl2: сылвадаˮ
      сырць+V+IV+Mod/des+ScPl3: сылваˮ
+     
      сырць+V+IV+InfImprf: сырма
      сырць+V+IV+InfPrf: сыроˮма
      сырць+V+IV+PrcImprf: сырта
      сырць+V+IV+PrcPrf: [сырмы, сырпэй]
-     сырць+V+IV+PrcFut: сырманда
-     сырць+V+IV+PrcNeg: сырмдавэй
+     сырць+V+IV+PrcFut: [сырманда, сырˮманда]
+     сырць+V+IV+PrcNeg: [сырмдавэй, сырˮмдавэй]
      сырць+V+IV+Ger: сырць
      сырць+V+IV+GerFin: сырманзь
      сырць+V+IV+Subord: сырпˮ
      сырць+V+IV+Aud: [сырмоʼ, сырманоʼ]
-     сырць+V+IV+Evas: сырмоӈгад
+     сырць+V+IV+Evas: [сырмоӈгад, сырˮмоӈгад]
      сырць+V+IV+ConNeg: сырˮ
-     сырць+V+IV+Fut+ConNeg: сыртаˮ
-     сырць+V+IV+Subord+PxSg1: [сырпнани, сырпаˮни]
-     сырць+V+IV+Subord+PxSg2: [сырпнанд, сырпат]
-     сырць+V+IV+Subord+PxSg3: [сырпнанда, сырпата] 
-     сырць+V+IV+Subord+PxDu1: [сырпнаниʼ, сырпаˮниʼ]
-     сырць+V+IV+Subord+PxDu2: [сырпнандиʼ, сырпатиʼ]
-     сырць+V+IV+Subord+PxDu3: [сырпнандиʼ, сырпатиʼ]
-     сырць+V+IV+Subord+PxPl1: [сырпнанаˮ, сырпаˮнаˮ]
-     сырць+V+IV+Subord+PxPl2: [сырпнандаˮ, сырпатаˮ]
-     сырць+V+IV+Subord+PxPl3: [сырпнандоʼ, сырпатоʼ]
+     сырць+V+IV+Fut+ConNeg: сыртˮ
+     сырць+V+IV+Subord+PxSg1: [сырпˮнани, сырпаˮни]
+     сырць+V+IV+Subord+PxSg2: [сырпˮнанд, сырпат]
+     сырць+V+IV+Subord+PxSg3: [сырпˮнанда, сырпата] 
+     сырць+V+IV+Subord+PxDu1: [сырпˮнаниʼ, сырпˮниʼ]
+     сырць+V+IV+Subord+PxDu2: [сырпˮнандиʼ, сырпатиʼ]
+     сырць+V+IV+Subord+PxDu3: [сырпˮнандиʼ, сырпатиʼ]
+     сырць+V+IV+Subord+PxPl1: [сырпˮнанаˮ, сырпˮнаˮ]
+     сырць+V+IV+Subord+PxPl2: [сырпˮнандаˮ, сырпатаˮ]
+     сырць+V+IV+Subord+PxPl3: [сырпˮнандоʼ, сырпатоʼ]
      сырць+V+IV+Fut+Ind+Aor+ScSg1: сыртадмʼ
      сырць+V+IV+Fut+Ind+Aor+ScSg2: сыртан
      сырць+V+IV+Fut+Ind+Aor+ScSg3: сырта
@@ -226,4 +236,13 @@ Tests:
      сырць+V+IV+Fut+Ind+Aor+ScDu3: сыртахаʼ
      сырць+V+IV+Fut+Ind+Aor+ScPl1: сыртаваˮ
      сырць+V+IV+Fut+Ind+Aor+ScPl2: сыртадаˮ
-     сырць+V+IV+Fut+Ind+Aor+ScPl3: сыртаˮ            
+     сырць+V+IV+Fut+Ind+Aor+ScPl3: сыртаˮ       
+     сырць+V+IV+Fut+Ind+Prt1+ScSg1: сыртадамзʼ
+     сырць+V+IV+Fut+Ind+Prt1+ScSg2: сыртанась
+     сырць+V+IV+Fut+Ind+Prt1+ScSg3: сыртась
+     сырць+V+IV+Fut+Ind+Prt1+ScDu1: сыртанинзʼ
+     сырць+V+IV+Fut+Ind+Prt1+ScDu2: сыртадинзʼ
+     сырць+V+IV+Fut+Ind+Prt1+ScDu3: сыртаханзʼ
+     сырць+V+IV+Fut+Ind+Prt1+ScPl1: сыртаваць
+     сырць+V+IV+Fut+Ind+Prt1+ScPl2: сыртадаць
+     сырць+V+IV+Fut+Ind+Prt1+ScPl3: сыртаць    
