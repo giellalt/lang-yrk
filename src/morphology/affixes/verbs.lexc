@@ -35,18 +35,21 @@ LEXICON IV_НУ
 
 LEXICON IV_НУ-Pal/Var
 +V+IV: V-01_НУ       ;
++V+IV: PRC_PALVAR ;
 
 LEXICON VR_НУ
 +V+Refl: V-01_НУ-REFL       ;
 
 LEXICON VR_НУ-Pal/Var
 +V+Refl: V-01_НУ-REFL       ;
++V+IV: PRC_PALVAR ;
 
 LEXICON TV_НУ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НУ       ;
 
 LEXICON TV_НУ-Pal/Var
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НУ       ;
++V+TV: PRC_PALVAR ;
 
 LEXICON IV_НУ/ТУ
 +V+IV: V-01_НУ/ТУ       ;
@@ -56,6 +59,7 @@ LEXICON IV_ӇЭ !!= @CODE@ ӈэсь:ӈэ
 
 LEXICON IV_ӇЭ-Pal/Var
 +V+IV: V-01_ӇЭ       ;
++V+IV: PRC_PALVAR ;
 
 LEXICON IV_ТО
 +V+IV: V-01_ТО       ;
@@ -84,12 +88,14 @@ LEXICON IV_ИЛЕ
 
 LEXICON IV_ИЛЕ-Pal/Var !! Work needed for variation 2013-03-04
 +V+IV: V-01_ИЛЕ ;
++V+IV: PRC_PALVAR ;
 
 LEXICON VR_ИЛЕ
 +V+Refl: V-01_ИЛЕ-REFL	;
 
 LEXICON VR_ИЛЕ-Pal/Var !! Work needed for variation 2013-09-05
 +V+Refl: V-01_ИЛЕ-REFL  ;
++V+Refl: PRC_PALVAR ;
 
 LEXICON TV_ИЛЕ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ИЛЕ	;
@@ -108,6 +114,7 @@ LEXICON IV_ПЭБЮ
 
 LEXICON IV_ПЭБЮ-Pal/Var
 +V+IV: V-01_ПЭБЮ       ;
++V+IV: PRC_PALVAR ;
 
 LEXICON TV_ПЭБЮ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ПЭБЮ       ;
@@ -134,6 +141,7 @@ LEXICON IV_ЛАХАНА
 
 LEXICON IV_ЛАХАНА-Pal/Var
 +V+IV: V-01_ЛАХАНА       ;
++V+IV: PRC_PALVAR ;
 
 LEXICON VR_ЛАХАНА
 +V+Refl: V-01_ЛАХАНА-REFL       ;
@@ -143,6 +151,7 @@ LEXICON TV_ЛАХАНА
 
 LEXICON TV_ЛАХАНА-Pal/Var
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
++V+TV: PRC_PALVAR ;
 
 LEXICON IV_СЯНАКУ
 +V+IV: V-01_СЯНАКУ       ;
@@ -152,6 +161,7 @@ LEXICON IV_ЯˮАВЛУ
 
 LEXICON IV_ЯˮАВЛУ-Pal/Var
 +V+IV: V-01_ЯˮАВЛУ	; !! more work to be done with -Pal/Var 2013-03-04
++V+IV: PRC_PALVAR ;
 
 LEXICON VR_ЯˮАВЛУ
 +V+Refl: V-01_ЯˮАВЛУ-REFL      ;
@@ -170,6 +180,7 @@ LEXICON IV_МИН
 
 LEXICON IV_МИН-Pal/Var
 +V+IV: V-01_МИН       ;
++V+IV: PRC_PALVAR2 ;
 
 LEXICON TV_МИН
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МИН       ;
@@ -185,12 +196,14 @@ LEXICON TV_САС
 
 LEXICON TV_САС-Pal/Var
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_САС       ;
++V+TV: PRC_PALVAR2 ;
 
 LEXICON IV_ТИР
 +V+IV: V-01_ТИР       ;
 
 LEXICON IV_ТИР-Pal/Var
 +V+IV: V-01_ТИР       ;
++V+IV: PRC_PALVAR2 ;
 
 LEXICON VR_ТИР
 +V+Refl: V-01_ТИР-REFL       ;
@@ -200,7 +213,7 @@ LEXICON TV_ТИР
 
 LEXICON TV_ТИР-Pal/Var
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТИР       ;
-
++V+TV: PRC_PALVAR2 ;
 
 !! !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 LEXICON IV_НЭКАЛ !!= @CODE@ 
@@ -216,6 +229,7 @@ LEXICON IV_ӇАДИМ/ӇАРАМ !!= @CODE@ 2013-12-16
 
 LEXICON IV_ӇАДИМ-Pal/Var
 +V+IV: V-01_ӇАДИМ       ;
++V+IV: PRC_PALVAR2 ;
 
 LEXICON IV_ӇАДИМ
 +V+IV: V-01_ӇАДИМ       ;
@@ -448,7 +462,7 @@ LEXICON V-01_НУ
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
- IND-AOR-DU3 	;
+:%>ӈа IND-AOR-DU3 	;
 +Ind: IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC ;
@@ -2278,6 +2292,12 @@ LEXICON PRC2
 +Evas+Abs:%>%{вм%}оӈгад  K	;
 +ConNeg:%>ˮ K ;
 +Fut+ConNeg:%>таˮ     K ;
+
+LEXICON PRC_PALVAR
++PrcImprf:ня N_ӇОДИ ;
+
+LEXICON PRC_PALVAR2
++PrcImprf:%>дя NMN_ӇУДИ ;
 
 ! vim: set ft=xfst-lexc:
 
