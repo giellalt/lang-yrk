@@ -202,31 +202,31 @@ Tests:
      
 # Predestinative 
 
-     ты+N+Pred+Nom+PxSg1: тэдав
+     ты+N+Pred+Nom+PxSg1: [тэдав, тэдув]
      ты+N+Pred+Nom+PxSg2: тэдар
-     ты+N+Pred+Nom+PxSg3: тэдда
-     ты+N+Pred+Nom+PxDu1: тэдамиʼ
-     ты+N+Pred+Nom+PxDu2: тэдариʼ
-     ты+N+Pred+Nom+PxDu3: тэддиʼ
-     ты+N+Pred+Nom+PxPl1: тэдваˮ
-     ты+N+Pred+Nom+PxPl2: тэдраˮ
-     ты+N+Pred+Nom+PxPl3: тэддоʼ
-     ты+N+Pred+Acc+PxSg1: тэдав
+     ты+N+Pred+Nom+PxSg3: [тэдда, тэдада]
+     ты+N+Pred+Nom+PxDu1: [тэдамиʼ, тэдмиʼ]
+     ты+N+Pred+Nom+PxDu2: [тэдариʼ, тэдриʼ]
+     ты+N+Pred+Nom+PxDu3: [тэдадиʼ, тэддиʼ]
+     ты+N+Pred+Nom+PxPl1: [тэдаваˮ, тэдваˮ]
+     ты+N+Pred+Nom+PxPl2: [тэдараˮ, тэдраˮ]
+     ты+N+Pred+Nom+PxPl3: [тэдадоʼ, тэддоʼ]
+     ты+N+Pred+Acc+PxSg1: [тэдав, тэдув]
      ты+N+Pred+Acc+PxSg2: тэдамд
      ты+N+Pred+Acc+PxSg3: тэдамда
-     ты+N+Pred+Acc+PxDu1: тэдамиʼ
+     ты+N+Pred+Acc+PxDu1: [тэдамиʼ, тэдмиʼ]
      ты+N+Pred+Acc+PxDu2: тэдамдиʼ
      ты+N+Pred+Acc+PxDu3: тэдамдиʼ
-     ты+N+Pred+Acc+PxPl1: тэдваˮ
+     ты+N+Pred+Acc+PxPl1: [тэдаваˮ, тэдваˮ]
      ты+N+Pred+Acc+PxPl2: тэдамдаˮ
      ты+N+Pred+Acc+PxPl3: тэдамдоʼ    
      ты+N+Pred+Gen+PxSg1: тэдан
      ты+N+Pred+Gen+PxSg2: тэданд
      ты+N+Pred+Gen+PxSg3: тэданда
-     ты+N+Pred+Gen+PxDu1: тэданиʼ
+     ты+N+Pred+Gen+PxDu1: [тэданиʼ, тэдниʼ]
      ты+N+Pred+Gen+PxDu2: тэдандиʼ
      ты+N+Pred+Gen+PxDu3: тэдандиʼ
-     ты+N+Pred+Gen+PxPl1: тэднаˮ
+     ты+N+Pred+Gen+PxPl1: [тэданаˮ, тэднаˮ]
      ты+N+Pred+Gen+PxPl2: тэдандаˮ
      ты+N+Pred+Gen+PxPl3: тэдандоʼ
      
@@ -244,15 +244,13 @@ Tests:
      
      ты+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: тэдамзь
      ты+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: тэнась 
-     ты+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: тысь   
-     ты+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: тэсь 
+     ты+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: [тысь, тэсь]
      ты+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: тэнинзь
      ты+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: тэдинзь
      ты+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: тэхэнзь
      ты+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: тэваць 
      ты+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: тэдаць 
-     ты+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: тыць
-     ты+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: тэць
+     ты+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: [тыць, тэць]
      
      ты+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg: тэв
      ты+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg: тэр   
