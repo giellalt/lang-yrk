@@ -729,12 +729,14 @@ LEXICON NMN_ӇЭ/СЁЁ/ХАБИЕ
  PLACCSUF_Е ; !
 
 LEXICON NMN_ПАНЫ !! 9
-  SGDATSUF ;
+:%^VowLower SGDATSUF ;
   SG-ACC-STEM ;
-  SG-NOM-STEM ;
- SGPROSSUF ;
+:%^VowLower SG-NOM-STEM ;
+  SGPROSSUF ;
   PLNOMSUF ;
   PLACCSUF_Zero ; !
+:%^VowLower  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%^VowLower POSSESSA-DUAL ;
 
 LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
   SGDATSUF ;
