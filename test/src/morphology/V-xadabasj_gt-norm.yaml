@@ -1,0 +1,71 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - хадабась: # Verb 'to kill' /Type 7b - non-even syllable stem/ - partial paradigm
+     хадабась+V+TV+Ind+Aor+ScSg1: хадабидмʼ
+     хадабась+V+TV+Ind+Aor+ScSg2: хадабин
+     хадабась+V+TV+Ind+Aor+ScSg3: хадаби
+     хадабась+V+TV+Ind+Aor+ScDu1: хадабиниʼ
+     хадабась+V+TV+Ind+Aor+ScDu2: хадабидиʼ
+     хадабась+V+TV+Ind+Aor+ScDu3: хадабихиʼ
+     хадабась+V+TV+Ind+Aor+ScPl1: хадабиваˮ
+     хадабась+V+TV+Ind+Aor+ScPl2: хадабидаˮ
+     хадабась+V+TV+Ind+Aor+ScPl3: хадабиˮ
+     хадабась+V+TV+Ind+Prt1+ScSg1: хадабидамзь
+     хадабась+V+TV+Ind+Prt1+ScSg2: хадабинась
+     хадабась+V+TV+Ind+Prt1+ScSg3: хадабись
+     хадабась+V+TV+Ind+Prt1+ScDu1: хадабининзь
+     хадабась+V+TV+Ind+Prt1+ScDu2: хадабидинзь
+     хадабась+V+TV+Ind+Prt1+ScDu3: хадабихинзь
+     хадабась+V+TV+Ind+Prt1+ScPl1: хадабиваць
+     хадабась+V+TV+Ind+Prt1+ScPl2: хадабидаць
+     хадабась+V+TV+Ind+Prt1+ScPl3: хадабиць
+     хадабась+V+TV+Mod/narr+Aor+ScSg1: хадабавэдмʼ
+     хадабась+V+TV+Mod/narr+Aor+ScSg2: хадабавэн
+     хадабась+V+TV+Mod/narr+Aor+ScSg3: хадабавы
+     хадабась+V+TV+Mod/narr+Aor+ScDu1: хадабавэниʼ
+     хадабась+V+TV+Mod/narr+Aor+ScDu2: хадабавэдиʼ
+     хадабась+V+TV+Mod/narr+Aor+ScDu3: хадабавэхэʼ
+     хадабась+V+TV+Mod/narr+Aor+ScPl1: хадабавэваˮ
+     хадабась+V+TV+Mod/narr+Aor+ScPl2: хадабавэдаˮ
+     хадабась+V+TV+Mod/narr+Aor+ScPl3: хадабавыˮ
+     хадабась+V+TV+Mod/narr+Prt1+ScSg1: хадабавэдамзь
+     хадабась+V+TV+Mod/narr+Prt1+ScSg2: хадабавэнась
+     хадабась+V+TV+Mod/narr+Prt1+ScSg3: [хадабавысь, хадабавэсь]
+     хадабась+V+TV+Mod/narr+Prt1+ScDu1: хадабавэнинзь
+     хадабась+V+TV+Mod/narr+Prt1+ScDu2: хадабавэдинзь
+     хадабась+V+TV+Mod/narr+Prt1+ScDu3: хадабавэхэнзь
+     хадабась+V+TV+Mod/narr+Prt1+ScPl1: хадабавэваць
+     хадабась+V+TV+Mod/narr+Prt1+ScPl2: хадабавэдаць
+     хадабась+V+TV+Mod/narr+Prt1+ScPl3: [хадабавыць, хадабавэць]
+     хадабась+V+TV+InfImprf: хадабава
+     хадабась+V+TV+InfPrf: хадабаˮма
+     хадабась+V+TV+PrcImprf: хадабада 
+     хадабась+V+TV+PrcPrf: хадабавы
+     хадабась+V+TV+PrcFut: [хадабавнда, хадабаувнда]
+     хадабась+V+TV+PrcNeg: [хадабавдавэй, хадабувдавэй]
+     хадабась+V+TV+Ger: [хадаба, хадабась]
+     хадабась+V+TV+GerFin: хадабаванзь
+     хадабась+V+TV+ConNeg: хадабюˮ
+     хадабась+V+TV+Fut+Ind+Aor+ScSg1: хадабаӈгудмʼ
+     хадабась+V+TV+Fut+Ind+Aor+ScSg2: хадабаӈгун
+     хадабась+V+TV+Fut+Ind+Aor+ScSg3: хадабаӈгу
+     хадабась+V+TV+Fut+Ind+Aor+ScDu1: хадабаӈгуниʼ
+     хадабась+V+TV+Fut+Ind+Aor+ScDu2: хадабаӈгудиʼ
+     хадабась+V+TV+Fut+Ind+Aor+ScDu3: хадабаӈгухуʼ
+     хадабась+V+TV+Fut+Ind+Aor+ScPl1: хадабаӈгуваˮ
+     хадабась+V+TV+Fut+Ind+Aor+ScPl2: хадабаӈгудаˮ
+     хадабась+V+TV+Fut+Ind+Aor+ScPl3: хадабаӈгуˮ 
