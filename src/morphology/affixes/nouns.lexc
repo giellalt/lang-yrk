@@ -116,12 +116,7 @@ LEXICON N_ТИРЕ/ХАНО
 +N: NMN_ТИРЕ/ХАНО ;
 
 LEXICON N_ЕД/ХАНО
-+N: SGDATSUF ;
-+N:а  SG-ACC-STEM ;
-+N:  SG-NOM-STEM ;
-+N: SGPROSSUF ;
-+N:  PLNOMSUF ;
-+N: PLACCSUF_Zero ; !
++N: NMN_ЕД/ХАНО ;
 
 LEXICON N_ЕД/ТИРЕ
 +N: NMN_ЕД/ТИРЕ ;
@@ -749,17 +744,15 @@ LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
  POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД/ХАНО
- SGDATSUF ;
 :а SGDATSUF ;
- SG-ACC-STEM ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
- SGPROSSUF ;
+:%>у SGPROSSUF ;
   PLNOMSUF ;
   PLACCSUF_Zero ; !
   PLACCSUF_О ; !
   POSSESSA-PLURAL ;
-:%>о  POSSESSA-PLURAL ;
+!:%>о  POSSESSA-PLURAL ;
  POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД/ХУСУВЭЙ
