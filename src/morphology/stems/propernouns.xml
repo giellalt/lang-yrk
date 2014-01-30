@@ -1,9 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="yrk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="yrk">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="Prop">Антон</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Антон</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Anton</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Вылка</l>
+
+      <stg>
+        <st Contlex="PROP_МАРАӇГЫ">Вылка</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Vylka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Иван</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Иван</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ivan</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Prop">Лабцуй</l>
@@ -54,6 +126,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ледков</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ледков</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ledkov</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ленин</l>
 
       <stg>
@@ -96,6 +192,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Leningrad</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Максим</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Максим</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Maksim</t>
       </tg>
     </mg>
   </e>
@@ -214,6 +334,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Suomi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Юлия</l>
+
+      <stg>
+        <st Contlex="PROP_">Юлия</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Julia</t>
       </tg>
     </mg>
   </e>

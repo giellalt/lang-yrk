@@ -1262,6 +1262,26 @@
 
   <e>
     <lg>
+      <l pos="A">еркы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">еркы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">keskimmäinen</t>
+
+        <t pos="A">keskeinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ерсуй</l>
 
       <stg>
@@ -4294,6 +4314,26 @@
         <t pos="A">ahdas</t>
 
         <t pos="A">tuskin näkyvä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мякы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">мякы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kodan-</t>
+
+        <t pos="A">koti-</t>
       </tg>
     </mg>
   </e>
@@ -15614,6 +15654,26 @@
 
   <e>
     <lg>
+      <l pos="A">ӈока</l>
+
+      <stg>
+        <st Contlex="A_ХОБ">ӈока</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">runsas</t>
+
+        <t pos="A">lukuisa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ӈотабэй</l>
 
       <stg>
@@ -15924,6 +15984,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">monilla nivelilla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈэсыхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">ӈэсыхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kylä-</t>
       </tg>
     </mg>
   </e>
