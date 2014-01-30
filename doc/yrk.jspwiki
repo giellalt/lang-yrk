@@ -447,6 +447,7 @@ NMN
 
 
 9
+ :%^VowLower  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON NMN_ХУСУВЭЙ  хусувэй: 10 !!ProsSg -ювна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
@@ -750,7 +751,6 @@ more work to be done with -Pal/Var 2013-03-04
 
 
 
-
 !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  LEXICON IV_НЭКАЛ  
 
@@ -980,6 +980,8 @@ Non-finites
 
 
 
+
+
   %{ауоэØ%}:а   А1:а А1:у А1:о А1:э SCHWA
  %{ауоэиыØ%}:0  before pros
 
@@ -1040,7 +1042,9 @@ __А2:0 possible vowel loss as second syllable vowel__
 __0:U in sgprossuf__
 
 __%{ауоэØ%} -> 0 right__
+{{{
   # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
+}}}
 __%{ауоэØ%} <- 0 left__
 
 __%{ауоэØ%} -> а right__
@@ -1051,7 +1055,9 @@ __%{ауоэØ%} <- а left__
 __%{ауоэØ%} <-> у__
 
 __%{ауоэØ%} -> о__
+{{{
   %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
+}}}
 
 __%{ауоэØ%} -> э__
 
