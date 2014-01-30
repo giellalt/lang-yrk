@@ -1,0 +1,71 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - яˮавлась: # Verb 'to be terrible' /Type 6/ - partial paradigm
+     яˮавлась+V+IV+Ind+Aor+ScSg1: яˮавлыдмʼ
+     яˮавлась+V+IV+Ind+Aor+ScSg2: яˮавлын
+     яˮавлась+V+IV+Ind+Aor+ScSg3: яˮавлы
+     яˮавлась+V+IV+Ind+Aor+ScDu1: яˮавлыниʼ
+     яˮавлась+V+IV+Ind+Aor+ScDu2: яˮавлыдиʼ
+     яˮавлась+V+IV+Ind+Aor+ScDu3: яˮавлыхыʼ
+     яˮавлась+V+IV+Ind+Aor+ScPl1: яˮавлываˮ
+     яˮавлась+V+IV+Ind+Aor+ScPl2: яˮавлыдаˮ
+     яˮавлась+V+IV+Ind+Aor+ScPl3: яˮавлыˮ
+     яˮавлась+V+IV+Ind+Prt1+ScSg1: яˮавлыдамзь
+     яˮавлась+V+IV+Ind+Prt1+ScSg2: яˮавлынась
+     яˮавлась+V+IV+Ind+Prt1+ScSg3: яˮавлысь
+     яˮавлась+V+IV+Ind+Prt1+ScDu1: яˮавлынинзь
+     яˮавлась+V+IV+Ind+Prt1+ScDu2: яˮавлыдинзь
+     яˮавлась+V+IV+Ind+Prt1+ScDu3: яˮавлыхынзь
+     яˮавлась+V+IV+Ind+Prt1+ScPl1: яˮавлываць
+     яˮавлась+V+IV+Ind+Prt1+ScPl2: яˮавлыдаць
+     яˮавлась+V+IV+Ind+Prt1+ScPl3: яˮавлыць
+     яˮавлась+V+IV+Mod/narr+Aor+ScSg1: яˮавлавэдмʼ
+     яˮавлась+V+IV+Mod/narr+Aor+ScSg2: яˮавлавэн
+     яˮавлась+V+IV+Mod/narr+Aor+ScSg3: яˮавлавы
+     яˮавлась+V+IV+Mod/narr+Aor+ScDu1: яˮавлавэниʼ
+     яˮавлась+V+IV+Mod/narr+Aor+ScDu2: яˮавлавэдиʼ
+     яˮавлась+V+IV+Mod/narr+Aor+ScDu3: яˮавлавэхэʼ
+     яˮавлась+V+IV+Mod/narr+Aor+ScPl1: яˮавлавэваˮ
+     яˮавлась+V+IV+Mod/narr+Aor+ScPl2: яˮавлавэдаˮ
+     яˮавлась+V+IV+Mod/narr+Aor+ScPl3: яˮавлавыˮ
+     яˮавлась+V+IV+Mod/narr+Prt1+ScSg1: яˮавлавэдамзь
+     яˮавлась+V+IV+Mod/narr+Prt1+ScSg2: яˮавлавэнась
+     яˮавлась+V+IV+Mod/narr+Prt1+ScSg3: [яˮавлавысь, яˮавлавэсь]
+     яˮавлась+V+IV+Mod/narr+Prt1+ScDu1: яˮавлавэнинзь
+     яˮавлась+V+IV+Mod/narr+Prt1+ScDu2: яˮавлавэдинзь
+     яˮавлась+V+IV+Mod/narr+Prt1+ScDu3: яˮавлавэхэнзь
+     яˮавлась+V+IV+Mod/narr+Prt1+ScPl1: яˮавлавэваць
+     яˮавлась+V+IV+Mod/narr+Prt1+ScPl2: яˮавлавэдаць
+     яˮавлась+V+IV+Mod/narr+Prt1+ScPl3: [яˮавлавыць, яˮавлавэць]
+     яˮавлась+V+IV+InfImprf: яˮавлава
+     яˮавлась+V+IV+InfPrf: яˮавлаˮма
+     яˮавлась+V+IV+PrcImprf: яˮавлада
+     яˮавлась+V+IV+PrcPrf: яˮавлавы
+     яˮавлась+V+IV+PrcFut: [яˮавлаванда, яˮавлавнда, яˮавлувнда]
+     яˮавлась+V+IV+PrcNeg: [яˮавлавдавэй, яˮавлувдавэй]
+     яˮавлась+V+IV+Ger: [яˮавла, яˮавлась]
+     яˮавлась+V+IV+GerFin: яˮавлаванзь
+     яˮавлась+V+IV+ConNeg: яˮавлуˮ
+     яˮавлась+V+IV+Fut+Ind+Aor+ScSg1: яˮавлаӈгудмʼ
+     яˮавлась+V+IV+Fut+Ind+Aor+ScSg2: яˮавлаӈгун
+     яˮавлась+V+IV+Fut+Ind+Aor+ScSg3: яˮавлаӈгу
+     яˮавлась+V+IV+Fut+Ind+Aor+ScDu1: яˮавлаӈгуниʼ
+     яˮавлась+V+IV+Fut+Ind+Aor+ScDu2: яˮавлаӈгудиʼ
+     яˮавлась+V+IV+Fut+Ind+Aor+ScDu3: яˮавлаӈгухуʼ
+     яˮавлась+V+IV+Fut+Ind+Aor+ScPl1: яˮавлаӈгуваˮ
+     яˮавлась+V+IV+Fut+Ind+Aor+ScPl2: яˮавлаӈгудаˮ
+     яˮавлась+V+IV+Fut+Ind+Aor+ScPl3: яˮавлаӈгуˮ 
