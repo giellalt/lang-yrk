@@ -61,8 +61,8 @@ LEXICON IV_ӇЭ-Pal/Var
 +V+IV: V-01_ӇЭ       ;
 +V+IV: PRC_PALVAR ;
 
-LEXICON IV_ТО
-+V+IV: V-01_ТО       ;
+!!LEXICON IV_ТО !!the same as IV_ТУ
+!!+V+IV: V-01_ТО       ;
 
 LEXICON IV_ТУ
 +V+IV: V-01_ТУ       ;
@@ -536,7 +536,7 @@ LEXICON V-01_ТО
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut ;
+ V_Fut2 ;
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -568,7 +568,7 @@ LEXICON V-01_ТУ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut ;
+ V_Fut2 ;
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -2297,7 +2297,7 @@ LEXICON PRC_PALVAR
 +PrcImprf:ня N_ӇОДИ ;
 
 LEXICON PRC_PALVAR2
-+PrcImprf:%>дя NMN_ӇУДИ ;
++PrcImprf:%>тя NMN_ӇУДИ ;
 
 ! vim: set ft=xfst-lexc:
 
