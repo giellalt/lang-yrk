@@ -1,0 +1,71 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - пэвась: # Verb 'to be dark' /Type 7/ - partial paradigm
+     пэвась+V+IV+Ind+Aor+ScSg1: пэбидмʼ
+     пэвась+V+IV+Ind+Aor+ScSg2: пэбин
+     пэвась+V+IV+Ind+Aor+ScSg3: пэби
+     пэвась+V+IV+Ind+Aor+ScDu1: пэбиниʼ
+     пэвась+V+IV+Ind+Aor+ScDu2: пэбидиʼ
+     пэвась+V+IV+Ind+Aor+ScDu3: пэбихиʼ
+     пэвась+V+IV+Ind+Aor+ScPl1: пэбиваˮ
+     пэвась+V+IV+Ind+Aor+ScPl2: пэбидаˮ
+     пэвась+V+IV+Ind+Aor+ScPl3: пэбиˮ
+     пэвась+V+IV+Ind+Prt1+ScSg1: пэбидамзь
+     пэвась+V+IV+Ind+Prt1+ScSg2: пэбинась
+     пэвась+V+IV+Ind+Prt1+ScSg3: пэбись
+     пэвась+V+IV+Ind+Prt1+ScDu1: пэбининзь
+     пэвась+V+IV+Ind+Prt1+ScDu2: пэбидинзь
+     пэвась+V+IV+Ind+Prt1+ScDu3: пэбихинзь
+     пэвась+V+IV+Ind+Prt1+ScPl1: пэбиваць
+     пэвась+V+IV+Ind+Prt1+ScPl2: пэбидаць
+     пэвась+V+IV+Ind+Prt1+ScPl3: пэбиць
+     пэвась+V+IV+Mod/narr+Aor+ScSg1: пэввэдмʼ
+     пэвась+V+IV+Mod/narr+Aor+ScSg2: пэввэн
+     пэвась+V+IV+Mod/narr+Aor+ScSg3: пэввы
+     пэвась+V+IV+Mod/narr+Aor+ScDu1: пэввэниʼ
+     пэвась+V+IV+Mod/narr+Aor+ScDu2: пэввэдиʼ
+     пэвась+V+IV+Mod/narr+Aor+ScDu3: пэввэхэʼ
+     пэвась+V+IV+Mod/narr+Aor+ScPl1: пэввэваˮ
+     пэвась+V+IV+Mod/narr+Aor+ScPl2: пэввэдаˮ
+     пэвась+V+IV+Mod/narr+Aor+ScPl3: пэввыˮ
+     пэвась+V+IV+Mod/narr+Prt1+ScSg1: пэввэдамзь
+     пэвась+V+IV+Mod/narr+Prt1+ScSg2: пэввэнась
+     пэвась+V+IV+Mod/narr+Prt1+ScSg3: [пэввысь, пэввэсь]
+     пэвась+V+IV+Mod/narr+Prt1+ScDu1: пэввэнинзь
+     пэвась+V+IV+Mod/narr+Prt1+ScDu2: пэввэдинзь
+     пэвась+V+IV+Mod/narr+Prt1+ScDu3: пэввэхэнзь
+     пэвась+V+IV+Mod/narr+Prt1+ScPl1: пэввэваць
+     пэвась+V+IV+Mod/narr+Prt1+ScPl2: пэввэдаць
+     пэвась+V+IV+Mod/narr+Prt1+ScPl3: [пэввыць, пэввэць]
+     пэвась+V+IV+InfImprf: пэвва
+     пэвась+V+IV+InfPrf: пэвˮма
+     пэвась+V+IV+PrcImprf: [пэвда, пэвдя]
+     пэвась+V+IV+PrcPrf: пэввы
+     пэвась+V+IV+PrcFut: [пэваванда, пэвувнда]
+     пэвась+V+IV+PrcNeg: [пэвавдавэй, пэвувдавэй]
+     пэвась+V+IV+Ger: [пэва, пэвась]
+     пэвась+V+IV+GerFin: пэвванзь
+     пэвась+V+IV+ConNeg: пэбюˮ
+     пэвась+V+IV+Fut+Ind+Aor+ScSg1: пэвӈгудмʼ
+     пэвась+V+IV+Fut+Ind+Aor+ScSg2: пэвӈгун
+     пэвась+V+IV+Fut+Ind+Aor+ScSg3: пэвӈгу
+     пэвась+V+IV+Fut+Ind+Aor+ScDu1: пэвӈгуниʼ
+     пэвась+V+IV+Fut+Ind+Aor+ScDu2: пэвӈгудиʼ
+     пэвась+V+IV+Fut+Ind+Aor+ScDu3: пэвӈгухуʼ
+     пэвась+V+IV+Fut+Ind+Aor+ScPl1: пэвӈгуваˮ
+     пэвась+V+IV+Fut+Ind+Aor+ScPl2: пэвӈгудаˮ
+     пэвась+V+IV+Fut+Ind+Aor+ScPl3: пэвӈгуˮ 
