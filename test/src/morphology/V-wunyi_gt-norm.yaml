@@ -1,0 +1,154 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - вунись: # Defective verb 'not to be' /Type 6/ - only Ind and Int exist (partial paradigm)
+     вунись+V+TV+Ind+Aor+ScSg1: вунидмʼ
+     вунись+V+TV+Ind+Aor+ScSg2: вунин
+     вунись+V+TV+Ind+Aor+ScSg3: вуни
+     вунись+V+TV+Ind+Aor+ScDu1: вуниниʼ
+     вунись+V+TV+Ind+Aor+ScDu2: вунидиʼ
+     вунись+V+TV+Ind+Aor+ScDu3: вунихиʼ
+     вунись+V+TV+Ind+Aor+ScPl1: вуниваˮ
+     вунись+V+TV+Ind+Aor+ScPl2: вунидаˮ
+     вунись+V+TV+Ind+Aor+ScPl3: вуниˮ
+     вунись+V+TV+Ind+Prt1+ScSg1: вунидамзь
+     вунись+V+TV+Ind+Prt1+ScSg2: вунинась
+     вунись+V+TV+Ind+Prt1+ScSg3: вунись
+     вунись+V+TV+Ind+Prt1+ScDu1: вунининзь
+     вунись+V+TV+Ind+Prt1+ScDu2: вунидинзь
+     вунись+V+TV+Ind+Prt1+ScDu3: вунихинзь
+     вунись+V+TV+Ind+Prt1+ScPl1: вуниваць
+     вунись+V+TV+Ind+Prt1+ScPl2: вунидаць
+     вунись+V+TV+Ind+Prt1+ScPl3: вуниць
+     вунись+V+TV+Mod/int+ScSg1: вуньсадмʼ
+     вунись+V+TV+Mod/int+ScSg2: вуньсан
+     вунись+V+TV+Mod/int+ScSg3: вуньса
+     вунись+V+TV+Mod/int+ScDu1: вуньсани’
+     вунись+V+TV+Mod/int+ScDu2: вуньсади’
+     вунись+V+TV+Mod/int+ScDu3: вуньсаха’
+     вунись+V+TV+Mod/int+ScPl1: вуньсаваˮ
+     вунись+V+TV+Mod/int+ScPl2: вуньсадаˮ
+     вунись+V+TV+Mod/int+ScPl3: вуньсаˮ
+     вунись+V+TV+Ind+Aor+ScSg1+OcSg3: вунив
+     вунись+V+TV+Ind+Aor+ScSg2+OcSg3: вунир
+     вунись+V+TV+Ind+Aor+ScSg3+OcSg3: вунида
+     вунись+V+TV+Ind+Aor+ScDu1+OcSg3: вунимиʼ
+     вунись+V+TV+Ind+Aor+ScDu2+OcSg3: вунириʼ
+     вунись+V+TV+Ind+Aor+ScDu3+OcSg3: вунидиʼ
+     вунись+V+TV+Ind+Aor+ScPl1+OcSg3: вуниваˮ
+     вунись+V+TV+Ind+Aor+ScPl2+OcSg3: вунираˮ
+     вунись+V+TV+Ind+Aor+ScPl3+OcSg3: вунидоʼ
+     вунись+V+TV+Ind+Aor+ScSg1+OcDu3: вунихиюн
+     вунись+V+TV+Ind+Aor+ScSg2+OcDu3: вунихиюд
+     вунись+V+TV+Ind+Aor+ScSg3+OcDu3: вунихиюда
+     вунись+V+TV+Ind+Aor+ScDu1+OcDu3: вунихиюниʼ
+     вунись+V+TV+Ind+Aor+ScDu2+OcDu3: вунихиюдиʼ
+     вунись+V+TV+Ind+Aor+ScDu3+OcDu3: вунихиюдиʼ
+     вунись+V+TV+Ind+Aor+ScPl1+OcDu3: вунихиюнаˮ
+     вунись+V+TV+Ind+Aor+ScPl2+OcDu3: вунихиюдаˮ
+     вунись+V+TV+Ind+Aor+ScPl3+OcDu3: вунихиюдоʼ
+     вунись+V+TV+Ind+Aor+ScSg1+OcPl3: вунин
+     вунись+V+TV+Ind+Aor+ScSg2+OcPl3: вунид
+     вунись+V+TV+Ind+Aor+ScSg3+OcPl3: вунида
+     вунись+V+TV+Ind+Aor+ScDu1+OcPl3: вуниниʼ
+     вунись+V+TV+Ind+Aor+ScDu2+OcPl3: вунидиʼ
+     вунись+V+TV+Ind+Aor+ScDu3+OcPl3: вунидиʼ
+     вунись+V+TV+Ind+Aor+ScPl1+OcPl3: вунинаˮ
+     вунись+V+TV+Ind+Aor+ScPl2+OcPl3: вунидаˮ
+     вунись+V+TV+Ind+Aor+ScPl3+OcPl3: вунидоʼ   
+     вунись+V+TV+Ind+Prt1+ScSg1+OcSg3: вунивась
+     вунись+V+TV+Ind+Prt1+ScSg2+OcSg3: вунирась
+     вунись+V+TV+Ind+Prt1+ScSg3+OcSg3: вунидась
+     вунись+V+TV+Ind+Prt1+ScDu1+OcSg3: вуниминзь
+     вунись+V+TV+Ind+Prt1+ScDu2+OcSg3: вуниринзь
+     вунись+V+TV+Ind+Prt1+ScDu3+OcSg3: вунидинзь
+     вунись+V+TV+Ind+Prt1+ScPl1+OcSg3: вуниваць
+     вунись+V+TV+Ind+Prt1+ScPl2+OcSg3: вунираць
+     вунись+V+TV+Ind+Prt1+ScPl3+OcSg3: вунидонзь
+     вунись+V+TV+Ind+Prt1+ScSg1+OcDu3: вунихиюнась
+     вунись+V+TV+Ind+Prt1+ScSg2+OcDu3: вунихиюдась
+     вунись+V+TV+Ind+Prt1+ScSg3+OcDu3: вунихиюдась
+     вунись+V+TV+Ind+Prt1+ScDu1+OcDu3: вунихиюнинзь
+     вунись+V+TV+Ind+Prt1+ScDu2+OcDu3: вунихиюдинзь
+     вунись+V+TV+Ind+Prt1+ScDu3+OcDu3: вунихиюдинзь
+     вунись+V+TV+Ind+Prt1+ScPl1+OcDu3: вунихиюнаць
+     вунись+V+TV+Ind+Prt1+ScPl2+OcDu3: вунихиюдаць
+     вунись+V+TV+Ind+Prt1+ScPl3+OcDu3: вунихиюдонзь
+     вунись+V+TV+Ind+Prt1+ScSg1+OcPl3: вунинась
+     вунись+V+TV+Ind+Prt1+ScSg2+OcPl3: вунидась
+     вунись+V+TV+Ind+Prt1+ScSg3+OcPl3: вунидась
+     вунись+V+TV+Ind+Prt1+ScDu1+OcPl3: вунининзь
+     вунись+V+TV+Ind+Prt1+ScDu2+OcPl3: вунидинзь
+     вунись+V+TV+Ind+Prt1+ScDu3+OcPl3: вунидинзь
+     вунись+V+TV+Ind+Prt1+ScPl1+OcPl3: вунинаць
+     вунись+V+TV+Ind+Prt1+ScPl2+OcPl3: вунидаць
+     вунись+V+TV+Ind+Prt1+ScPl3+OcPl3: вунидонзь
+     вунись+V+TV+Mod/int+ScSg1+OcSg3: вуньсав
+     вунись+V+TV+Mod/int+ScSg2+OcSg3: вуньсар
+     вунись+V+TV+Mod/int+ScSg3+OcSg3: вуньсада
+     вунись+V+TV+Mod/int+ScDu1+OcSg3: вуньсамиʼ
+     вунись+V+TV+Mod/int+ScDu2+OcSg3: вуньсариʼ
+     вунись+V+TV+Mod/int+ScDu3+OcSg3: вуньсадиʼ
+     вунись+V+TV+Mod/int+ScPl1+OcSg3: вуньсаваˮ
+     вунись+V+TV+Mod/int+ScPl2+OcSg3: вуньсараˮ
+     вунись+V+TV+Mod/int+ScPl3+OcSg3: вуньсадоʼ
+     вунись+V+TV+Mod/int+ScSg1+OcDu3: вуньсахаюн
+     вунись+V+TV+Mod/int+ScSg2+OcDu3: вуньсахаюд
+     вунись+V+TV+Mod/int+ScSg3+OcDu3: вуньсахаюда
+     вунись+V+TV+Mod/int+ScDu1+OcDu3: вуньсахаюниʼ
+     вунись+V+TV+Mod/int+ScDu2+OcDu3: вуньсахаюдиʼ
+     вунись+V+TV+Mod/int+ScDu3+OcDu3: вуньсахаюдиʼ
+     вунись+V+TV+Mod/int+ScPl1+OcDu3: вуньсахаюнаˮ
+     вунись+V+TV+Mod/int+ScPl2+OcDu3: вуньсахаюдаˮ
+     вунись+V+TV+Mod/int+ScPl3+OcDu3: вуньсахаюдоʼ
+     вунись+V+TV+Mod/int+ScSg1+OcPl3: вуньсян
+     вунись+V+TV+Mod/int+ScSg2+OcPl3: вуньсяд
+     вунись+V+TV+Mod/int+ScSg3+OcPl3: вуньсяда
+     вунись+V+TV+Mod/int+ScDu1+OcPl3: вуньсяниʼ
+     вунись+V+TV+Mod/int+ScDu2+OcPl3: вуньсядиʼ
+     вунись+V+TV+Mod/int+ScDu3+OcPl3: вуньсядиʼ
+     вунись+V+TV+Mod/int+ScPl1+OcPl3: вуньсянаˮ
+     вунись+V+TV+Mod/int+ScPl2+OcPl3: вуньсядаˮ
+     вунись+V+TV+Mod/int+ScPl3+OcPl3: вуньсядоʼ       
+     вунись+V+Refl+Ind+Aor+RcSg1: вунивˮ
+     вунись+V+Refl+Ind+Aor+RcSg2: вунин
+     вунись+V+Refl+Ind+Aor+RcSg3: вуниˮ
+     вунись+V+Refl+Ind+Aor+RcDu1: вуниниʼ
+     вунись+V+Refl+Ind+Aor+RcDu2: вунидиʼ
+     вунись+V+Refl+Ind+Aor+RcDu3: вунихиʼ
+     вунись+V+Refl+Ind+Aor+RcPl1: вунинаˮ
+     вунись+V+Refl+Ind+Aor+RcPl2: вунидаˮ
+     вунись+V+Refl+Ind+Aor+RcPl3: вунидˮ
+     вунись+V+Refl+Ind+Prt1+RcSg1: вуниваць
+     вунись+V+Refl+Ind+Prt1+RcSg2: вунинась
+     вунись+V+Refl+Ind+Prt1+RcSg3: вуниць
+     вунись+V+Refl+Ind+Prt1+RcDu1: вунининзь
+     вунись+V+Refl+Ind+Prt1+RcDu2: вунидинзь
+     вунись+V+Refl+Ind+Prt1+RcDu3: вунихинзь
+     вунись+V+Refl+Ind+Prt1+RcPl1: вунинаць
+     вунись+V+Refl+Ind+Prt1+RcPl2: вунидаць
+     вунись+V+Refl+Ind+Prt1+RcPl3: вунидаць
+     вунись+V+Refl+Mod/int+RcSg1: вуньсявˮ
+     вунись+V+Refl+Mod/int+RcSg2: вуньсян
+     вунись+V+Refl+Mod/int+RcSg3: вуньясьˮ
+     вунись+V+Refl+Mod/int+RcDu1: вуньсяниʼ
+     вунись+V+Refl+Mod/int+RcDu2: вуньсядиʼ
+     вунись+V+Refl+Mod/int+RcDu3: вуньсяхаʼ
+     вунись+V+Refl+Mod/int+RcPl1: вуньсянаˮ
+     вунись+V+Refl+Mod/int+RcPl2: вуньсядаˮ
+     вунись+V+Refl+Mod/int+RcPl3: вуньсядˮ
+
+     
