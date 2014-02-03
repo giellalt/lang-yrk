@@ -100,70 +100,116 @@ more work to be done with -Pal/Var 2013-03-04
 !!AFTER +TV, +IV, +Aux, +Refl
 !!CONJUGATION BY STEM TYPE
 !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
-
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
 
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 !TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
 
  LEXICON V-01_ЯКУ  якась:яка
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
  * LEXICON V-01_НЕНЫ  2013-09-18 This is merely a copy of V-01_МЫ
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
-
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 !THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 а > э in Pl Oc 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 а > ы (ъя before х)
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
  * __LEXICON V-01_ЯˮАВЛУ __ яˮавлась:яˮавла
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
 
 !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  LEXICON V-01_МАН    манзь:маН1
 * Yaml: __manzj__
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
 
  LEXICON V-01_ТИР  
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
 
 V_refl 2013-03-04
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 !TWOO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  LEXICON V-01_НЭКАЛ   нэкалць:нэкал
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
 
@@ -237,6 +283,7 @@ Other moods
 
 
 
+ *+Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ;  яˮавлавэсь
 
 
 
@@ -300,9 +347,9 @@ Reflexive Preterite
 Non-finites
  +InfImprf:ва K ;  Should this form be here 2013-11-25
  +InfPrf:ˮма K ;  Should this	form be	here 2013-11-25
- +PrcImprf:на K ;  Should this	form be	here 2013-11-25
  +PrcPrf:вы K ;  Should this form be here 2013-11-25
- +PrcNeg:вдавэй K ;  Should this form be here 2013-11-25
+
+ +PrcImprf:%>на K ;  Should this	form be	here 2013-11-25
  +PrcFut:внда K ;  Should this form be here 2013-11-25
 
 
