@@ -622,17 +622,19 @@ LEXICON V-01_ХО
  V_Opt ;
 @R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Conj ;
- V_Mod/appr ;
+ V_Mod/appr_НАРАХА ;
  V_Mod/des ;
  V_Mod/futappr ;
  V_Mod/hyp ;
  V_Mod/int ;
+! V_Mod/int-NON-OPL ;
+! V_Mod/int-OPL ;
  V_Mod/narr ;
  V_Mod/narrPrt ;
  V_Mod/nec ;
  V_Mod/perfprob ;
  V_Mod/prob ;
- V_Mod/perfappr ;
+ V_Mod/perfappr_ВЭРАХА ;
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
@@ -805,7 +807,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/futappr ;
  V_Mod/hyp ;
  V_Mod/int ;
- V_Mod/int-OPl ;
+ V_Mod/int-OPL ;
  V_Mod/narr ;
  V_Mod/narrPrt ;
  V_Mod/nec ;
@@ -1775,23 +1777,23 @@ LEXICON MUTUAL-V_4-PRT1-SCPL3-OCSG3
 +Prt1+ScPl3+OcSg3:%>донзь K ;
 
 LEXICON MUTUAL-V_4-PRT1-SCSG1-OCDU3
-+Prt1+ScSg1+OcDu3:%>хаюнась K ;
++Prt1+ScSg1+OcDu3:%>х%{ауоэØ%}юнась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG2-OCDU3
-+Prt1+ScSg2+OcDu3:%>хаюдась K ;
++Prt1+ScSg2+OcDu3:%>х%{ауоэØ%}юдась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG3-OCDU3
-+Prt1+ScSg3+OcDu3:%>хаюдась K ;
++Prt1+ScSg3+OcDu3:%>х%{ауоэØ%}юдась K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU1-OCDU3
-+Prt1+ScDu1+OcDu3:%>хаюнинзь K ;
++Prt1+ScDu1+OcDu3:%>х%{ауоэØ%}юнинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU2-OCDU3
-+Prt1+ScDu2+OcDu3:%>хаюдинзь K ;
++Prt1+ScDu2+OcDu3:%>х%{ауоэØ%}юдинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU3-OCDU3
-+Prt1+ScDu3+OcDu3:%>хаюдинзь K ;
++Prt1+ScDu3+OcDu3:%>х%{ауоэØ%}юдинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL1-OCDU3
-+Prt1+ScPl1+OcDu3:%>хаюнаць K ;
++Prt1+ScPl1+OcDu3:%>х%{ауоэØ%}юнаць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL2-OCDU3
-+Prt1+ScPl2+OcDu3:%>хаюдаць K ;
++Prt1+ScPl2+OcDu3:%>х%{ауоэØ%}юдаць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL3-OCDU3
-+Prt1+ScPl3+OcDu3:%>хаюдонзь K ;
++Prt1+ScPl3+OcDu3:%>х%{ауоэØ%}юдонзь K ;
 
 LEXICON MUTUAL-V_4-PRT1-SCSG1-OCPL3
 +Prt1+ScSg1+OcPl3:%>нась K ;
@@ -1897,14 +1899,18 @@ LEXICON V_IND-Refl
 
 !! Other moods
 LEXICON V_Mod/int
-+Mod/int:%>са MUTUAL-PERSON ;
++Mod/int:%>с%{ая%} MUTUAL-PERSON ;
 
 LEXICON V_Mod/int-Refl
 +Mod/int:%>ся MUTUAL-PERSON-REFL ;
 +Dial/W+Mod/int:%>си MUTUAL-PERSON-REFL ;
 
-LEXICON V_Mod/int-OPl
-+Mod/int:%>ся MUTUAL-PERSON ;
+LEXICON V_Mod/int-OPL
++Mod/int00@R.CONJ.ObjAll@:%>ся@R.CONJ.ObjAll@ MUTUAL-PERSON-OCPL ;
+
+LEXICON V_Mod/int-NON-OPL
++Mod/int:%>са MUTUAL-PERSON-NON-OCPL ;
+
 
 !+V+Mod/int+ScSg2:%>сан K ;
 !+V+Mod/int+ScSg3:%>са K ;
@@ -2021,7 +2027,9 @@ LEXICON V_Mod/narr-Refl
 +Mod/narr:%>%{вм%}Ы2 MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
-+Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-PRT1-PERSON-OC ;
++Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
++Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
++Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}ы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ; !!= * @CODE@ хось:ховынась 
 +Mod/narr+Prt1+ScSg1:%>%{вм%}эдамзь K ;
 +Mod/narr+Prt1+ScSg2:%>%{вм%}энась K ;
 +Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ; !!= *@CODE@ яˮавлавэсь
@@ -2040,6 +2048,11 @@ LEXICON V_Mod/appr
 +Mod/appr:%>нарха MUTUAL-PERSON ;
 +Mod/appr:%>нарха MUTUAL-PRT1-PERSON ;
 
+LEXICON V_Mod/appr_НАРАХА
++Mod/appr:%>нараха MUTUAL-PERSON-NON-OCPL ;
++Mod/appr:%>нарыхы MUTUAL-PERSON-OCPL ;
++Mod/appr:%>нараха MUTUAL-PRT1-PERSON ;
+
 LEXICON V_Mod/appr-Refl
 +Mod/appr:%>нархы MUTUAL-PERSON-REFL ;
 +Mod/appr:%>нарахы MUTUAL-PERSON-REFL ; !for 1-syllable stems
@@ -2051,11 +2064,16 @@ LEXICON V_Mod/prob-Refl
 LEXICON V_Mod/perfappr
 +Mod/perfappr:%>%{вм%}эрха MUTUAL-PERSON ;
 
+LEXICON V_Mod/perfappr_ВЭРАХА
++Mod/perfappr:%>%{вм%}эраха MUTUAL-PERSON-NON-OCPL ;
++Mod/perfappr:%>%{вм%}эраха MUTUAL-PERSON-OCPL_NORAISING ;
+
 LEXICON V_Mod/perfappr-Refl
 +Mod/perfappr:%>%{вм%}эрхы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/futappr
-+Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON ; !Shvavokaali voi joskus jäädä pois?
++Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON-NON-OCPL ; !Shvavokaali voi joskus jäädä pois?
++Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON-OCPL_NORAISING ; 
 
 LEXICON V_Mod/futappr-Refl
 +Mod/futappr:%>%{вм%}андархы MUTUAL-PERSON-REFL ;
@@ -2067,7 +2085,8 @@ LEXICON V_Mod/obl-Refl
 +Mod/obl:%>бцакэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/rep
-+Mod/rep:%>%{вм%}ана MUTUAL-PERSON ;
++Mod/rep:%>%{вм%}ана MUTUAL-PERSON-NON-OCPL ;
++Mod/rep:%>%{вм%}ана MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/rep-Refl
 +Mod/rep:%>%{вм%}ана MUTUAL-PERSON-REFL ; ! вана vs вна
@@ -2106,6 +2125,9 @@ LEXICON V_Mod/perfprob-Refl
 
 LEXICON V_Mod/prob
 +Mod/prob+Aor:%>накэ MUTUAL-PERSON ;
++Mod/prob0000@R.CONJ.ObjAll@:%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
++Mod/prob0000@R.CONJ.ObjAll@:%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
++Mod/prob0000@R.CONJ.ObjAll@:%>накы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
 +Mod/prob+Prt1+ScSg1:%>накэдамзь K ;
 +Mod/prob+Prt1+ScSg2:%>накэнась K ;
 +Mod/prob+Prt1+ScSg3:%>накысь K ;
@@ -2162,6 +2184,62 @@ LEXICON MUTUAL-PERSON-REFL
  MUTUAL-PERSON-REFL-1 ;
  MUTUAL-PERSON-REFL-2 ;
  MUTUAL-PERSON-REFL-3 ;
+
+LEXICON MUTUAL-PERSON-NON-OCPL
+ MUTUAL-SG1 ;
+ MUTUAL-DU1 ;
+ MUTUAL-PL1 ;
+@R.CONJ.ObjAll@ MUTUAL-SCSG1-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCDU1-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCPL1-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCSG1-OCDU3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCDU1-OCDU3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCPL1-OCDU3 ;
+
+ MUTUAL-SG2 ;
+ MUTUAL-DU2 ;
+ MUTUAL-PL2 ;
+@R.CONJ.ObjAll@ MUTUAL-SCSG2-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCDU2-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCPL2-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCSG2-OCDU3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCDU2-OCDU3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCPL2-OCDU3 ;
+
+ MUTUAL-SG3 ;
+ MUTUAL-DU3 ;
+ MUTUAL-PL3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCSG3-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCDU3-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCPL3-OCSG3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCSG3-OCDU3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCDU3-OCDU3 ;
+@R.CONJ.ObjAll@ MUTUAL-SCPL3-OCDU3 ;
+
+
+
+LEXICON MUTUAL-PERSON-OCPL
+MUTUAL-SCSG1-OCPL3 ;
+MUTUAL-SCSG2-OCPL3 ;
+MUTUAL-SCSG3-OCPL3 ;
+MUTUAL-SCDU1-OCPL3 ;
+MUTUAL-SCDU2-OCPL3 ;
+MUTUAL-SCDU3-OCPL3 ;
+MUTUAL-SCPL1-OCPL3 ;
+MUTUAL-SCPL2-OCPL3 ;
+MUTUAL-SCPL3-OCPL3 ;
+
+LEXICON MUTUAL-PERSON-OCPL_NORAISING
+MUTUAL-SCSG1-OCPL3_NORAISING ;
+MUTUAL-SCSG2-OCPL3_NORAISING ;
+MUTUAL-SCSG3-OCPL3_NORAISING ;
+MUTUAL-SCDU1-OCPL3_NORAISING ;
+MUTUAL-SCDU2-OCPL3_NORAISING ;
+MUTUAL-SCDU3-OCPL3_NORAISING ;
+MUTUAL-SCPL1-OCPL3_NORAISING ;
+MUTUAL-SCPL2-OCPL3_NORAISING ;
+MUTUAL-SCPL3-OCPL3_NORAISING ;
+
 
 LEXICON MUTUAL-PRT1-PERSON !! This need separating 2013-04-23
 @R.CONJ.ObjAll@ MUTUAL-PRT1-PERSON-OC ;
@@ -2326,6 +2404,25 @@ LEXICON MUTUAL-SCPL2-OCPL3
 +ScPl2+OcPl3:%^VowRaise%>даˮ K ;
 LEXICON MUTUAL-SCPL3-OCPL3
 +ScPl3+OcPl3:%^VowRaise%>доʼ K ;
+
+LEXICON MUTUAL-SCSG1-OCPL3_NORAISING
++ScSg1+OcPl3:%>н K ;
+LEXICON MUTUAL-SCSG2-OCPL3_NORAISING
++ScSg2+OcPl3:%>д K ;
+LEXICON MUTUAL-SCSG3-OCPL3_NORAISING
++ScSg3+OcPl3:%>да K ;
+LEXICON MUTUAL-SCDU1-OCPL3_NORAISING
++ScDu1+OcPl3:%>ниʼ K ;
+LEXICON MUTUAL-SCDU2-OCPL3_NORAISING
++ScDu2+OcPl3:%>диʼ K ;
+LEXICON MUTUAL-SCDU3-OCPL3_NORAISING
++ScDu3+OcPl3:%>диʼ K ;
+LEXICON MUTUAL-SCPL1-OCPL3_NORAISING
++ScPl1+OcPl3:%>наˮ K ;
+LEXICON MUTUAL-SCPL2-OCPL3_NORAISING
++ScPl2+OcPl3:%>даˮ K ;
+LEXICON MUTUAL-SCPL3-OCPL3_NORAISING
++ScPl3+OcPl3:%>доʼ K ;
 
 !! Reflexive
 LEXICON MUTUAL-RCSG1
