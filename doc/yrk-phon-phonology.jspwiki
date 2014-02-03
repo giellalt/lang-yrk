@@ -53,6 +53,8 @@ __а:я VowelPalatalization left__
 
 __а:я VowelPalatalization right__
 
+__%{ая%}:я VowelPalatalization left__
+
 __%{ая%}:я VowelPalatalization right__
 
 
@@ -84,6 +86,8 @@ __%{ауоэØ%} -> о__
 __%{ауоэØ%} -> э__
 
 __%{ауоэØ%} <-> ы__
+
+__%{ауоэØ%} <-> и__
 
 __%{ауоэиыØ%} <-> а__
 
@@ -160,6 +164,8 @@ __%{увм%} ToM__,
 
 __mTob __
 
+
+__в To б __
 
 __v To m __
 
