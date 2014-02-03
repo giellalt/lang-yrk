@@ -70,6 +70,9 @@ LEXICON IV_ТУ
 LEXICON TV_ТУ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТУ       ;
 
+LEXICON TV_ХО
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ХО       ;
+
 LEXICON IV_ХЭ
 +V+IV: V-01_ХЭ       ;
 
@@ -609,11 +612,15 @@ LEXICON V-01_ТУ
 
 LEXICON V-01_ХО
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
++Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
++Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
++Ind00@R.CONJ.ObjAll@:%>ъя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
+@R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
+@R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -634,7 +641,7 @@ LEXICON V-01_ХО
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
++Ind:ӈа IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
@@ -1930,15 +1937,24 @@ LEXICON V_Hort
 +Hort:%>хэ MUTUAL-PL1 ;
 
 LEXICON V_Hort-Obj
-+Hort+ScSg1+OcSg3:%>хав K ;
-+Hort+ScSg1+OcDu3:%>хаюн K ;
-+Hort+ScSg1+OcPl3:%>хан K ;
-+Hort+ScDu1+OcSg3:%>хамиʼ K ;
-+Hort+ScDu1+OcDu3:%>хахаюниʼ K ;
-+Hort+ScDu1+OcPl3:%>ханиʼ K ;
-+Hort+ScPl1+OcSg3:%>хаваˮ K ;
-+Hort+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
-+Hort+ScPl1+OcPl3:%>ханаˮ K ;
++Hort+ScSg1+OcSg3:%>х%{ауоэØ%}в K ;
+!+Hort+ScSg1+OcSg3:%>хав K ;
++Hort+ScSg1+OcDu3:%>х%{ауоэØ%}юн K ;
+!+Hort+ScSg1+OcDu3:%>хаюн K ;
++Hort+ScSg1+OcPl3:%>х%{ауоэØ%}н K ;
+!+Hort+ScSg1+OcPl3:%>хан K ;
++Hort+ScDu1+OcSg3:%>х%{ауоэØ%}миʼ K ;
+!+Hort+ScDu1+OcSg3:%>хамиʼ K ;
++Hort+ScDu1+OcDu3:%>х%{ауоэØ%}х%{ауоэØ%}юниʼ K ;
+!+Hort+ScDu1+OcDu3:%>хахаюниʼ K ;
++Hort+ScDu1+OcPl3:%>х%{ауоэØ%}ниʼ K ;
+!+Hort+ScDu1+OcPl3:%>ханиʼ K ;
++Hort+ScPl1+OcSg3:%>х%{ауоэØ%}ваˮ K ;
+!+Hort+ScPl1+OcSg3:%>хаваˮ K ;
++Hort+ScPl1+OcDu3:%>ӈ%{ауоэØ%}х%{ауоэØ%}юнаˮ K ;
+!+Hort+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
++Hort+ScPl1+OcPl3:%>х%{ауоэØ%}наˮ K ;
+!+Hort+ScPl1+OcPl3:%>ханаˮ K ;
 
 LEXICON V_Hort-Refl
 +Hort:%>ха MUTUAL-RCSG1 ;
@@ -1952,7 +1968,8 @@ LEXICON V_Imprt
 
 LEXICON V_Imprt-Obj
 +Imprt+ScSg2+OcSg3:%>д K ;
-+Imprt+ScSg2+OcDu3:%>хаюнˮ K ;
++Imprt+ScSg2+OcDu3:%>х%{ауоэØ%}юнˮ K ;
+!+Imprt+ScSg2+OcDu3:%>хаюнˮ K ;
 +Imprt+ScSg2+OcPl3:%>нˮ K ;
 +Imprt+ScDu2+OcSg3:%>риʼ K ;
 +Imprt+ScDu2+OcDu3:%>ӈахаюдиʼ K ;
@@ -1974,13 +1991,13 @@ LEXICON V_Opt
 LEXICON V_Opt-Obj
 +Opt+ScSg3+OcSg3:%>мда K ;
 +Opt+ScSg3+OcDu3:%>ӈахаюдамда K ;
-+Opt+ScSg3+OcPl3:%>ядамда K ;
++Opt+ScSg3+OcPl3:%>ъядамда K ;
 +Opt+ScDu3+OcSg3:%>мдиʼ K ;
 +Opt+ScDu3+OcDu3:%>ӈахаюдамдиʼ K ;
-+Opt+ScDu3+OcPl3:%>ядамдиʼ K ;
++Opt+ScDu3+OcPl3:%>ъядамдиʼ K ;
 +Opt+ScPl3+OcSg3:%>мдоʼ K ;
 +Opt+ScPl3+OcDu3:%>ӈахаюдамдоʼ K ;
-+Opt+ScPl3+OcPl3:%>ядамдоʼ K ;
++Opt+ScPl3+OcPl3:%>ъядамдоʼ K ;
 
 LEXICON V_Opt-Refl
 +Opt+RcSg3:%>ямдˮ K ;
@@ -2274,23 +2291,23 @@ LEXICON MUTUAL-SCPL2-OCSG3
 LEXICON MUTUAL-SCPL3-OCSG3
 +ScPl3+OcSg3:%>доʼ K ;
 LEXICON MUTUAL-SCSG1-OCDU3
-+ScSg1+OcDu3:%>хаюн K ;
++ScSg1+OcDu3:%>х%{ауоэØ%}юн K ;
 LEXICON MUTUAL-SCSG2-OCDU3
-+ScSg2+OcDu3:%>хаюд K ;
++ScSg2+OcDu3:%>х%{ауоэØ%}юд K ;
 LEXICON MUTUAL-SCSG3-OCDU3
-+ScSg3+OcDu3:%>хаюда K ;
++ScSg3+OcDu3:%>х%{ауоэØ%}юда K ;
 LEXICON MUTUAL-SCDU1-OCDU3
-+ScDu1+OcDu3:%>хаюниʼ K ;
++ScDu1+OcDu3:%>х%{ауоэØ%}юниʼ K ;
 LEXICON MUTUAL-SCDU2-OCDU3
-+ScDu2+OcDu3:%>хаюдиʼ K ;
++ScDu2+OcDu3:%>х%{ауоэØ%}юдиʼ K ;
 LEXICON MUTUAL-SCDU3-OCDU3
-+ScDu3+OcDu3:%>хаюдиʼ K ;
++ScDu3+OcDu3:%>х%{ауоэØ%}юдиʼ K ;
 LEXICON MUTUAL-SCPL1-OCDU3
-+ScPl1+OcDu3:%>хаюнаˮ K ;
++ScPl1+OcDu3:%>х%{ауоэØ%}юнаˮ K ;
 LEXICON MUTUAL-SCPL2-OCDU3
-+ScPl2+OcDu3:%>хаюдаˮ K ;
++ScPl2+OcDu3:%>х%{ауоэØ%}юдаˮ K ;
 LEXICON MUTUAL-SCPL3-OCDU3
-+ScPl3+OcDu3:%>хаюдоʼ K ;
++ScPl3+OcDu3:%>х%{ауоэØ%}юдоʼ K ;
 LEXICON MUTUAL-SCSG1-OCPL3
 +ScSg1+OcPl3:%^VowRaise%>н K ;
 LEXICON MUTUAL-SCSG2-OCPL3
