@@ -157,6 +157,7 @@ LEXICON IV_СЯНАКУ
 +V+IV: V-01_СЯНАКУ       ;
 
 LEXICON IV_ЯˮАВЛУ
+!! * Yaml: __V-yaqwlasj__
 +V+IV: V-01_ЯˮАВЛУ      ;
 
 LEXICON IV_ЯˮАВЛУ-Pal/Var
@@ -1044,7 +1045,7 @@ LEXICON V-01_СЯНАКУ
 +Ind: IND-4-PRT1		;
  PRC2 ;
 
-LEXICON V-01_ЯˮАВЛУ
+LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_Hort ;
@@ -1070,11 +1071,11 @@ LEXICON V-01_ЯˮАВЛУ
  V_Mod/sup ;
  V_Subord ;
  V_Fut ;
- IND-AOR		;
- IND-AOR-SG3 	;
- IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
-+Ind: IND-4-PRT1		;
+:%^A2I IND-AOR		;
+:%^A2I IND-AOR-SG3 	;
+:%^A2I IND-AOR-DU3 	;
++Ind:%^A2I IND-4-PRT1-DU3 ;
++Ind:%^A2I IND-4-PRT1		;
  PRC ;
 
 LEXICON V-01_ЯˮАВЛУ-REFL !! V_refl 2013-03-04
@@ -1459,7 +1460,8 @@ LEXICON IND-AOR-DU2
 +Ind+Aor+ScDu2:%>диʼ K ;
 
 LEXICON IND-AOR-DU3
-+Ind+Aor+ScDu3:%>хаʼ K ;
++Ind+Aor+ScDu3:%>х%{ауоэØ%}ʼ K ;
+!+Ind+Aor+ScDu3:%>хаʼ K ;
 !+Ind+Aor+ScDu3:%>ӈахаʼ K ;
 
 LEXICON IND-AOR-PL1
