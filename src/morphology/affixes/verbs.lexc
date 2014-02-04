@@ -1295,8 +1295,13 @@ LEXICON V-01_МИС
  CONNEG ;
 
 LEXICON V-01_САС
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
++Ind0@R.CONJ.ObjAll@:ˮӈа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
++Ind@R.CONJ.ObjAll@:ˮ@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
++Ind@R.CONJ.ObjAll@:ˮ@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
++Ind0@R.CONJ.ObjAll@:ˮӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
++Ind0@R.CONJ.ObjAll@:ˮӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
++Ind00@R.CONJ.ObjAll@:%>ˮя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
@@ -1320,11 +1325,11 @@ LEXICON V-01_САС
  V_Mod/sup ;
  V_Subord ;
  V_Fut2 ;
- IND-AOR		;
- IND-AOR-SG3 	;
- IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
-+Ind: IND-4-PRT1		;
+:%>”ӈа IND-AOR		;
+:%>”ӈа IND-AOR-SG3 	;
+:%>”ӈа IND-AOR-DU3 	;
++Ind:%>”ӈа IND-4-PRT1-DU3 ;
++Ind:%>”ӈа IND-4-PRT1		;
  PRC2 ;
 :ʼ PRC-IMPRF ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
