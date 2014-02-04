@@ -195,7 +195,8 @@ LEXICON IV_САС
 LEXICON VR_САС
 +V+Refl: V-01_САС-REFL       ;
 
-LEXICON TV_САС
+LEXICON TV_САС !!= * @CODE@ манэць:манэ
+!!= * Yaml: __V-manecj__
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_САС       ;
 
 LEXICON TV_САС-Pal/Var
@@ -1294,7 +1295,8 @@ LEXICON V-01_МИС
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
-LEXICON V-01_САС
+LEXICON V-01_САС !!= * @CODE@ манэць:манэ
+!!= * Yaml: __V-manecj__
 +Ind0@R.CONJ.ObjAll@:ˮӈа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
 +Ind@R.CONJ.ObjAll@:ˮ@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
 +Ind@R.CONJ.ObjAll@:ˮ@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
@@ -1325,11 +1327,11 @@ LEXICON V-01_САС
  V_Mod/sup ;
  V_Subord ;
  V_Fut2 ;
-:%>”ӈа IND-AOR		;
-:%>”ӈа IND-AOR-SG3 	;
-:%>”ӈа IND-AOR-DU3 	;
-+Ind:%>”ӈа IND-4-PRT1-DU3 ;
-+Ind:%>”ӈа IND-4-PRT1		;
+:%>ˮӈа IND-AOR		;
+:%>ˮӈа IND-AOR-SG3 	;
+:%>ˮӈа IND-AOR-DU3 	;
++Ind:%>ˮӈа IND-4-PRT1-DU3 ;
++Ind:%>ˮӈа IND-4-PRT1		;
  PRC2 ;
 :ʼ PRC-IMPRF ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
