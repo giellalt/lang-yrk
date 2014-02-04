@@ -297,7 +297,7 @@ LEXICON V-01_МЭ
  V_Opt ;
  V_Subord ;
  V_Conj ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  V_Mod/appr ;
  V_Mod/des ;
  V_Mod/futappr ;
@@ -333,7 +333,7 @@ LEXICON V-01_МЫ
  V_Opt ;
  V_Subord ;
  V_Conj ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  V_Mod/appr ;
  V_Mod/des ;
  V_Mod/futappr ;
@@ -481,7 +481,7 @@ LEXICON V-01_НУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -531,7 +531,7 @@ LEXICON V-01_ӇЭ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -565,7 +565,7 @@ LEXICON V-01_ТО
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut2 ;
+ V_Fut_ТА ;
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -600,7 +600,7 @@ LEXICON V-01_ТУ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -640,7 +640,7 @@ LEXICON V-01_ХО
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -674,7 +674,7 @@ LEXICON V-01_ХЭ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -710,7 +710,7 @@ LEXICON V-01_ВАДЮ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -746,7 +746,7 @@ LEXICON V-01_ЯКУ !!= @CODE@ якась:яка
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -767,7 +767,7 @@ LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
  V_Opt ;
  V_Subord ;
  V_Conj ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  V_Mod/appr ;
  V_Mod/des ;
  V_Mod/futappr ;
@@ -818,7 +818,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -850,7 +850,7 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
- V_Fut-Refl ;
+ V_Fut-Refl_ӇГУ ;
  V_Subord ;
  PRC ;
  PRC-IMPRF ;
@@ -882,7 +882,7 @@ LEXICON V-01_ӇЭСУ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -951,7 +951,7 @@ LEXICON V-01_ПЭБЮ-REFL !! V_refl
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
  V_Subord ;
- V_Fut-Refl ;
+ V_Fut-Refl_ӇГУ ;
  PRC ;
 :ʼ PRC-IMPRF ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
@@ -986,7 +986,7 @@ LEXICON V-01_ХАДА
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut ;
+ V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -1021,7 +1021,7 @@ LEXICON V-01_ЮХУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut2 ;
+ V_Fut_ТА ;
  V_Subord ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1066,7 +1066,7 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  :%>ӈа IND-AOR-DU3 	;
 +Ind:%>ӈа IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
- V_Fut ;
+ V_Fut_ӇГУ ;
  PRC ;
  PRC-IMPRF ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
@@ -1093,7 +1093,7 @@ LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
  V_Subord ;
- V_Fut-Refl ;
+ V_Fut-Refl_ӇГУ ;
  PRC ;
  PRC-IMPRF ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
@@ -1124,7 +1124,7 @@ LEXICON V-01_СЯНАКУ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -1161,7 +1161,7 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut ;
+ V_Fut_ӇГУ ;
 :%^A2I IND-AOR		;
 :%^A2I IND-AOR-SG3 	;
 :%^A2I IND-AOR-DU3 	;
@@ -1212,7 +1212,7 @@ LEXICON V-01_МАН   !!= @CODE@ манзь:маН1
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -1248,7 +1248,7 @@ LEXICON V-01_МИН
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -1284,7 +1284,7 @@ LEXICON V-01_МИС
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -1325,17 +1325,18 @@ LEXICON V-01_САС !!= * @CODE@ манэць:манэ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Subord ;
- V_Fut2 ;
+:С1 V_Subord ;
+ V_Fut_ТАӇГА/ТА ;
 :%>ˮӈа IND-AOR		;
 :%>ˮӈа IND-AOR-SG3 	;
 :%>ˮӈа IND-AOR-DU3 	;
 +Ind:%>ˮӈа IND-4-PRT1-DU3 ;
 +Ind:%>ˮӈа IND-4-PRT1		;
- PRC2 ;
-:ʼ PRC-IMPRF ;
- PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
- CONNEG ;
+:С1 PRC2 ;
+:С1 PRC-IMPRF ;
+:С1 PRC-NEG_МАДАВЭЙ ; !!= * @CODE@	+PrcNeg +PrcFut
+:С1 CONNEG ;
+:С1 GER_СЬ ;
 
 LEXICON V-01_САС-REFL !! V_refl 2013-03-04
  IND-AOR-RCSG1	;
@@ -1372,7 +1373,7 @@ LEXICON V-01_ТИР  !!= @CODE@
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut2 ;
+ V_Fut_ТА ;
 :С1 V_Subord ;
 :%>ӈа IND-AOR		;
 :%>ӈа IND-AOR-SG3 	;
@@ -1422,7 +1423,7 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
- V_Fut2-Refl ;
+ V_Fut-Refl_ТА ;
 :С1 V_Subord ;
 +Fut+Ind+Aor:%>ты MUTUAL-PERSON-REFL ;
  PRC2 ;
@@ -1467,7 +1468,7 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
  V_Mod/rep ;
  V_Mod/sup ;
 :С1 V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
 :%>ӈа IND-AOR		;
 :%>ӈа IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -1503,7 +1504,7 @@ LEXICON V-01_ӇАДИМ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -1539,7 +1540,7 @@ LEXICON V-01_ӇАРАМ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
- V_Fut2 ;
+ V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -2147,16 +2148,37 @@ LEXICON V_Mod/prob
 +Mod/prob+Prt1+ScPl3:%>накыць K ;
 +Mod/prob+Prt1+ScPl3:%>накэць K ;
 
-LEXICON V_Fut
+LEXICON V_Fut_ӇГУ
 +Fut+Ind+Aor:%>ӈгу MUTUAL-PERSON ;
 
-LEXICON V_Fut2
+LEXICON V_Fut_ТА
 +Fut+Ind+Aor:%>та MUTUAL-PERSON ;
 
-LEXICON V_Fut-Refl
+LEXICON V_Fut_ТАӇГА/ТА
+!+Fut+Ind+Aor:%>таӈга MUTUAL-PERSON ;
++Fut+Ind+Aor@R.CONJ.ObjAll@:%>та@R.CONJ.ObjAll@ MUTUAL-PERSON-OCSG ;
++Fut+Ind+Aor@R.CONJ.ObjAll@:%>та@R.CONJ.ObjAll@ MUTUAL-PERSON-OCSG ;
++Fut+Ind+Aor000@R.CONJ.ObjAll@:%>таӈга@R.CONJ.ObjAll@ MUTUAL-PERSON-OCDU ;
++Fut+Ind+Aor@R.CONJ.ObjAll@:%>ты@R.CONJ.ObjAll@ MUTUAL-PERSON-OCPL ;
+
++Fut+Ind+Aor:%>та MUTUAL-SG1 ;
++Fut+Ind+Aor:%>та MUTUAL-DU1 ;
++Fut+Ind+Aor:%>та MUTUAL-PL1 ;
+
++Fut+Ind+Aor:%>та MUTUAL-SG2 ;
++Fut+Ind+Aor:%>та MUTUAL-DU2 ;
++Fut+Ind+Aor:%>та MUTUAL-PL2 ;
+
++Fut+Ind+Aor:%>та MUTUAL-SG3_NORAISING ;
++Fut+Ind+Aor:%>таӈа MUTUAL-DU3 ;
++Fut+Ind+Aor:%>та MUTUAL-PL3_NORAISING ;
+
+
+
+LEXICON V_Fut-Refl_ӇГУ
 +Fut+Ind+Aor:%>ӈгу MUTUAL-PERSON-REFL ;
 
-LEXICON V_Fut2-Refl
+LEXICON V_Fut-Refl_ТА
 +Fut+Ind+Aor:та MUTUAL-PERSON-REFL ;
 
 LEXICON V_Subord
@@ -2193,37 +2215,46 @@ LEXICON MUTUAL-PERSON-REFL
  MUTUAL-PERSON-REFL-3 ;
 
 LEXICON MUTUAL-PERSON-NON-OCPL
+ MUTUAL-PERSON-SC ;
+@R.CONJ.ObjAll@ MUTUAL-PERSON-OCSG ;
+@R.CONJ.ObjAll@ MUTUAL-PERSON-OCDU ;
+
+
+LEXICON MUTUAL-PERSON-SC
  MUTUAL-SG1 ;
  MUTUAL-DU1 ;
  MUTUAL-PL1 ;
-@R.CONJ.ObjAll@ MUTUAL-SCSG1-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCDU1-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCPL1-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCSG1-OCDU3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCDU1-OCDU3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCPL1-OCDU3 ;
 
  MUTUAL-SG2 ;
  MUTUAL-DU2 ;
  MUTUAL-PL2 ;
-@R.CONJ.ObjAll@ MUTUAL-SCSG2-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCDU2-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCPL2-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCSG2-OCDU3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCDU2-OCDU3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCPL2-OCDU3 ;
 
  MUTUAL-SG3 ;
  MUTUAL-DU3 ;
  MUTUAL-PL3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCSG3-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCDU3-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCPL3-OCSG3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCSG3-OCDU3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCDU3-OCDU3 ;
-@R.CONJ.ObjAll@ MUTUAL-SCPL3-OCDU3 ;
 
 
+LEXICON MUTUAL-PERSON-OCSG
+MUTUAL-SCSG1-OCSG3 ;
+MUTUAL-SCSG2-OCSG3 ;
+MUTUAL-SCSG3-OCSG3 ;
+MUTUAL-SCDU1-OCSG3 ;
+MUTUAL-SCDU2-OCSG3 ;
+MUTUAL-SCDU3-OCSG3 ;
+MUTUAL-SCPL1-OCSG3 ;
+MUTUAL-SCPL2-OCSG3 ;
+MUTUAL-SCPL3-OCSG3 ;
+
+LEXICON MUTUAL-PERSON-OCDU
+MUTUAL-SCSG1-OCDU3 ;
+MUTUAL-SCSG2-OCDU3 ;
+MUTUAL-SCSG3-OCDU3 ;
+MUTUAL-SCDU1-OCDU3 ;
+MUTUAL-SCDU2-OCDU3 ;
+MUTUAL-SCDU3-OCDU3 ;
+MUTUAL-SCPL1-OCDU3 ;
+MUTUAL-SCPL2-OCDU3 ;
+MUTUAL-SCPL3-OCDU3 ;
 
 LEXICON MUTUAL-PERSON-OCPL
 MUTUAL-SCSG1-OCPL3 ;
@@ -2337,6 +2368,9 @@ LEXICON MUTUAL-SG2
 LEXICON MUTUAL-SG3
 +ScSg3:%^VowRaise K ;
 
+LEXICON MUTUAL-SG3_NORAISING
++ScSg3: K ;
+
 LEXICON MUTUAL-DU1
 +ScDu1:%>ниʼ K ;
 
@@ -2355,6 +2389,9 @@ LEXICON MUTUAL-PL2
 
 LEXICON MUTUAL-PL3
 +ScPl3:%^VowRaise%>ˮ K ;
+
+LEXICON MUTUAL-PL3_NORAISING
++ScPl3:%>ˮ K ;
 
 !! Object
 LEXICON MUTUAL-SCSG1-OCSG3
@@ -2504,11 +2541,22 @@ LEXICON PRC-IMPRF
 +PrcImprf:%>на K ; !!= @CODE@ Should this	form be	here 2013-11-25
 +PrcImprf:%>на NMN_ӇУДИ ;
 !+PrcImprf:ня K ;
+
 LEXICON CONNEG
 +ConNeg:%>ˮ K ;
+
+LEXICON GER_СЬ
++Ger:%>сь K ;
+
 LEXICON PRC-NEG
 +PrcNeg:%>%{вм%}давэй K ;
 +PrcNeg:%>%{вм%}давэй NMN_ХУСУВЭЙ ;
++PrcFut:внда K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcFut:внда NMN_ӇУДИ ;
+
+LEXICON PRC-NEG_МАДАВЭЙ
++PrcNeg:%>%{вм%}адавэй K ;
++PrcNeg:%>%{вм%}адавэй NMN_ХУСУВЭЙ ;
 +PrcFut:внда K ; !!= @CODE@ Should this form be here 2013-11-25
 +PrcFut:внда NMN_ӇУДИ ;
 
@@ -2524,7 +2572,7 @@ LEXICON PRC2
 +Ger: K ;
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
-!+Subord:%>бˮ K ;
++Subord:%>бˮ K ;
 +Aud:%>%{вм%}оʼ      K	;
 +Aud:%>%{вм%}аноʼ    K	;
 +Evas:%>%{вм%}оӇ1     POSSESSA-SG-4-EVAS	;
