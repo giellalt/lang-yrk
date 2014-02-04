@@ -1947,8 +1947,10 @@ LEXICON V_Mod/int-NON-OPL
 
 LEXICON V_Hort
 +Hort:%>ха MUTUAL-SG1 ;
-+Hort:%>хэ MUTUAL-DU1 ;
-+Hort:%>хэ MUTUAL-PL1 ;
++Hort:%>х%{ауоэØ%} MUTUAL-DU1 ;
+!+Hort:%>хэ MUTUAL-DU1 ;
++Hort:%>х%{ауоэØ%} MUTUAL-PL1 ;
+!+Hort:%>хэ MUTUAL-PL1 ;
 
 LEXICON V_Hort-Obj
 +Hort+ScSg1+OcSg3:%>х%{ауоэØ%}в K ;
@@ -2286,7 +2288,8 @@ LEXICON MUTUAL-PRT1-PERSON !! This need separating 2013-04-23
 +Prt1+ScSg3:%>сь K ;
 +Prt1+ScDu1:%>нинзь K ;
 +Prt1+ScDu2:%>динзь K ;
-+Prt1+ScDu3:%>ханзь K ;
++Prt1+ScDu3:%>х%{ауоэØ%}нзь K ;
+!+Prt1+ScDu3:%>ханзь K ;
 +Prt1+ScPl1:%>ваць K ;
 +Prt1+ScPl2:%>даць K ;
 +Prt1+ScPl3:%>ць K ;
