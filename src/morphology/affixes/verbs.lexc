@@ -2055,17 +2055,17 @@ LEXICON V_Mod/narrPrt
 
 
 LEXICON V_Mod/appr
-+Mod/appr:%>нарха MUTUAL-PERSON ;
-+Mod/appr:%>нарха MUTUAL-PRT1-PERSON ;
++Mod/appr+Aor:%>нарха MUTUAL-PERSON ;
++Mod/appr+Aor:%>нарха MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Mod/appr_НАРАХА
-+Mod/appr:%>нараха MUTUAL-PERSON-NON-OCPL ;
-+Mod/appr:%>нарыхы MUTUAL-PERSON-OCPL ;
-+Mod/appr:%>нараха MUTUAL-PRT1-PERSON ;
++Mod/appr+Aor:%>нараха MUTUAL-PERSON-NON-OCPL ;
++Mod/appr+Aor:%>нарыхы MUTUAL-PERSON-OCPL ;
++Mod/appr+Aor:%>нараха MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Mod/appr-Refl
-+Mod/appr:%>нархы MUTUAL-PERSON-REFL ;
-+Mod/appr:%>нарахы MUTUAL-PERSON-REFL ; !for 1-syllable stems
++Mod/appr+Aor:%>нархы MUTUAL-PERSON-REFL ;
++Mod/appr+Aor:%>нарахы MUTUAL-PERSON-REFL ; !for 1-syllable stems
 
 LEXICON V_Mod/prob-Refl
 +Mod/prob+Aor:%>накэ MUTUAL-PERSON-REFL ;
