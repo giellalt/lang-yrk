@@ -2152,9 +2152,11 @@ LEXICON V_Mod/prob
 
 LEXICON V_Fut_ӇГУ
 +Fut+Ind+Aor:%>ӈгу MUTUAL-PERSON ;
++Fut+Ind:%>ӈгу MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Fut_ТА
 +Fut+Ind+Aor:%>та MUTUAL-PERSON ;
++Fut+Ind:%>та MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Fut_ТАӇГА/ТА
 !+Fut+Ind+Aor:%>таӈга MUTUAL-PERSON ;
