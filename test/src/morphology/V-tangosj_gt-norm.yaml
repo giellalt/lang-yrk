@@ -1,0 +1,93 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - таӈо(сь): # Verb 'to pass' /Type 11/ - partial paradigm
+     таӈось+V+IV+Ind+Aor+ScSg1: таӈудмʼ
+     таӈось+V+IV+Ind+Aor+ScSg2: таӈун
+     таӈось+V+IV+Ind+Aor+ScSg3: таӈу
+     таӈось+V+IV+Ind+Aor+ScDu1: таӈуниʼ
+     таӈось+V+IV+Ind+Aor+ScDu2: таӈудиʼ
+     таӈось+V+IV+Ind+Aor+ScDu3: таӈухыʼ
+     таӈось+V+IV+Ind+Aor+ScPl1: таӈуваˮ
+     таӈось+V+IV+Ind+Aor+ScPl2: таӈудаˮ
+     таӈось+V+IV+Ind+Aor+ScPl3: таӈуˮ
+     таӈось+V+IV+Ind+Prt1+ScSg1: таӈудамзь
+     таӈось+V+IV+Ind+Prt1+ScSg2: таӈунась
+     таӈось+V+IV+Ind+Prt1+ScSg3: таӈусь
+     таӈось+V+IV+Ind+Prt1+ScDu1: таӈунинзь
+     таӈось+V+IV+Ind+Prt1+ScDu2: таӈудинзь
+     таӈось+V+IV+Ind+Prt1+ScDu3: таӈухынзь
+     таӈось+V+IV+Ind+Prt1+ScPl1: таӈуваць
+     таӈось+V+IV+Ind+Prt1+ScPl2: таӈудаць
+     таӈось+V+IV+Ind+Prt1+ScPl3: таӈуць
+     
+     таӈось+V+IV+Conj+Aor+ScSg1: таӈоидмʼ
+     таӈось+V+IV+Conj+Aor+ScSg2: таӈоин
+     таӈось+V+IV+Conj+Aor+ScSg3: таӈои
+     таӈось+V+IV+Conj+Aor+ScDu1: таӈоиниʼ
+     таӈось+V+IV+Conj+Aor+ScDu2: таӈоидиʼ
+     таӈось+V+IV+Conj+Aor+ScDu3: таӈоихиʼ
+     таӈось+V+IV+Conj+Aor+ScPl1: таӈоиваˮ
+     таӈось+V+IV+Conj+Aor+ScPl2: таӈоидаˮ
+     таӈось+V+IV+Conj+Aor+ScPl3: таӈоиˮ
+     таӈось+V+IV+Conj+Prt1+ScSg1: таӈоидамзь
+     таӈось+V+IV+Conj+Prt1+ScSg2: таӈоинась
+     таӈось+V+IV+Conj+Prt1+ScSg3: таӈоись
+     таӈось+V+IV+Conj+Prt1+ScDu1: таӈоининзь
+     таӈось+V+IV+Conj+Prt1+ScDu2: таӈоидинзь
+     таӈось+V+IV+Conj+Prt1+ScDu3: таӈоихинзь
+     таӈось+V+IV+Conj+Prt1+ScPl1: таӈоиваць
+     таӈось+V+IV+Conj+Prt1+ScPl2: таӈоидаць
+     таӈось+V+IV+Conj+Prt1+ScPl3: таӈоиць
+     таӈось+V+IV+Mod/narr+Aor+ScSg1: таӈовэдмʼ
+     таӈось+V+IV+Mod/narr+Aor+ScSg2: таӈовэн
+     таӈось+V+IV+Mod/narr+Aor+ScSg3: таӈовы
+     таӈось+V+IV+Mod/narr+Aor+ScDu1: таӈовэниʼ
+     таӈось+V+IV+Mod/narr+Aor+ScDu2: таӈовэдиʼ
+     таӈось+V+IV+Mod/narr+Aor+ScDu3: таӈовэхэʼ
+     таӈось+V+IV+Mod/narr+Aor+ScPl1: таӈовэваˮ
+     таӈось+V+IV+Mod/narr+Aor+ScPl2: таӈовэдаˮ
+     таӈось+V+IV+Mod/narr+Aor+ScPl3: таӈовыˮ
+     таӈось+V+IV+Mod/narr+Prt1+ScSg1: таӈовэдамзь
+     таӈось+V+IV+Mod/narr+Prt1+ScSg2: таӈовэнась
+     таӈось+V+IV+Mod/narr+Prt1+ScSg3: [таӈовысь, таӈовэсь]
+     таӈось+V+IV+Mod/narr+Prt1+ScDu1: таӈовэнинзь
+     таӈось+V+IV+Mod/narr+Prt1+ScDu2: таӈовэдинзь
+     таӈось+V+IV+Mod/narr+Prt1+ScDu3: таӈовэхэнзь
+     таӈось+V+IV+Mod/narr+Prt1+ScPl1: таӈовэваць
+     таӈось+V+IV+Mod/narr+Prt1+ScPl2: таӈовэдаць
+     таӈось+V+IV+Mod/narr+Prt1+ScPl3: [таӈовыць, таӈовэць]
+     таӈось+V+IV+InfImprf: таӈова
+     таӈось+V+IV+InfPrf: таӈоˮма
+     таӈось+V+IV+PrcImprf: таӈода
+     таӈось+V+IV+PrcPrf: таӈовы
+     таӈось+V+IV+PrcFut: [таӈованда, таӈовнда]
+     таӈось+V+IV+PrcNeg: таӈовдавэй
+     таӈось+V+IV+Ger: [таӈо, таӈось]
+     таӈось+V+IV+GerFin: таӈованзь
+     таӈось+V+IV+ConNeg: таӈуˮ
+     таӈось+V+IV+Subord+Abs: таӈобˮ
+     таӈось+V+IV+Evas+Abs: таӈовоӈгад
+     таӈось+V+IV+Fut+ConNeg: таӈодˮ
+     таӈось+V+IV+Fut+Ind+Aor+ScSg1: таӈодадмʼ
+     таӈось+V+IV+Fut+Ind+Aor+ScSg2: таӈодан
+     таӈось+V+IV+Fut+Ind+Aor+ScSg3: таӈода
+     таӈось+V+IV+Fut+Ind+Aor+ScDu1: таӈоданиʼ
+     таӈось+V+IV+Fut+Ind+Aor+ScDu2: таӈодадиʼ
+     таӈось+V+IV+Fut+Ind+Aor+ScDu3: таӈодаӈахаʼ
+     таӈось+V+IV+Fut+Ind+Aor+ScPl1: таӈодаваˮ
+     таӈось+V+IV+Fut+Ind+Aor+ScPl2: таӈодадаˮ
+     таӈось+V+IV+Fut+Ind+Aor+ScPl3: таӈодаˮ 
