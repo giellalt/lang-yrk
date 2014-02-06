@@ -2092,11 +2092,9 @@ LEXICON V_PREC !!= * __@CODE@__ Hort
 +Prec+Imprt:%>хэрӈа MUTUAL-DU2 ;
 +Prec+Imprt:%>хэрӈа MUTUAL-PL2 ;
 
-+Prec+Opt:%>хэрӈая MUTUAL-SG3 ;
-+Prec+Opt:%>хэрӈу MUTUAL-SG3 ;
++Prec+Opt:%>хэрӈая MUTUAL-SG3_NORAISING ;
 +Prec+Opt:%>хэрӈая MUTUAL-DU3 ;
-+Prec+Opt:%>хэрӈая MUTUAL-PL3 ;
-+Prec+Opt:%>хэрӈаи MUTUAL-PL3 ;
++Prec+Opt:%>хэрӈая MUTUAL-PL3_NORAISING ;
 
 
 
@@ -2347,7 +2345,7 @@ LEXICON V_HAB_СЕТЫ
 +Hab+Ind+Aor:%>сетыӈа MUTUAL-DU3 ;
 +Hab+Ind+Aor:%>сеты MUTUAL-PL3_NORAISING ;
 
-+Hab+Mod/narr:%>сет%>%{вм%}Ы2 MUTUAL-PERSON ;
++Hab+Mod/narr+Aor:%>сет%>%{вм%}Ы2 MUTUAL-PERSON ;
 
 
 LEXICON V_HAB_СЯТЫ
@@ -2364,8 +2362,7 @@ LEXICON V_HAB_СЯТЫ
 +Hab+Ind+Aor:%>сятыӈа MUTUAL-DU3 ;
 +Hab+Ind+Aor:%>сяты MUTUAL-PL3_NORAISING ;
 
-
-+Hab+Mod/narr:%>сят%>%{вм%}Ы2 MUTUAL-PERSON ;
++Hab+Mod/narr+Aor:%>сят%>%{вм%}Ы2 MUTUAL-PERSON ;
 
 
 LEXICON V_Subord
