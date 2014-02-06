@@ -287,6 +287,7 @@ LEXICON V-01_Е
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -324,6 +325,7 @@ LEXICON V-01_МЭ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -363,6 +365,7 @@ LEXICON V-01_МЫ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -399,6 +402,7 @@ LEXICON V-01_НЁ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -434,6 +438,7 @@ LEXICON V-01_НИ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -469,6 +474,7 @@ LEXICON V-01_НО
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -508,6 +514,7 @@ LEXICON V-01_НУ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -562,6 +569,7 @@ LEXICON V-01_ӇЭ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -599,6 +607,7 @@ LEXICON V-01_ТО
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -636,6 +645,7 @@ LEXICON V-01_ТУ
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -679,6 +689,7 @@ LEXICON V-01_ХО
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -716,6 +727,7 @@ LEXICON V-01_ХЭ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -755,6 +767,7 @@ LEXICON V-01_ВАДЮ
 +Ind: IND-4-PRT1		;
  PRC2 ;
 :ʼ PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -794,6 +807,7 @@ LEXICON V-01_ЯКУ !!= @CODE@ якась:яка
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -832,6 +846,7 @@ LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -852,7 +867,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/futappr ;
  V_Mod/hyp ;
  V_Mod/int ;
- V_Mod/int-OPL ;
+! V_Mod/int-OPL ;
  V_Mod/narr ;
  V_Mod/narrPrt ;
  V_Mod/nec ;
@@ -873,6 +888,7 @@ LEXICON V-01_ИЛЕ
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT_ВАНДА ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -903,6 +919,7 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_AUD ;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -942,6 +959,7 @@ LEXICON V-01_ӇЭСУ
 +Ind: IND-4-PRT1		;
  PRC2 ;
 :ʼ PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -980,6 +998,7 @@ LEXICON V-01_ПЭБЮ
 +Ind: IND-4-PRT1		;
  PRC ;
 :ʼ PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -1011,6 +1030,7 @@ LEXICON V-01_ПЭБЮ-REFL !! V_refl
  V_Fut-Refl_ӇГУ ;
  PRC ;
 :ʼ PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -1054,6 +1074,7 @@ LEXICON V-01_ХАДА
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1093,6 +1114,7 @@ LEXICON V-01_ЮХУ
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -1135,6 +1157,7 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  V_Fut_ӇГУ ;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1165,6 +1188,7 @@ LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
  V_Fut-Refl_ӇГУ ;
  PRC ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1204,6 +1228,7 @@ LEXICON V-01_СЯНАКУ
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -1245,6 +1270,7 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
  PRC2 ;
 ! PRC ;
 :ʼ PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
@@ -1298,6 +1324,7 @@ LEXICON V-01_МАН   !!= @CODE@ манзь:маН1
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1337,6 +1364,7 @@ LEXICON V-01_МИН
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1376,6 +1404,7 @@ LEXICON V-01_МИС
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1472,6 +1501,7 @@ LEXICON V-01_ТИР  !!= @CODE@
 +Ind:%>ӈа IND-4-PRT1		;
  PRC2 ;
 :ʼ PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1521,6 +1551,7 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  PRC2 ;
  PRC-IMPRF ;
 +Fut+ConNeg:%>тыˮ     K ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1571,6 +1602,7 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
 +Ind:%>ӈа IND-4-PRT1		;
  PRC2 ;
 :ʼ PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1610,6 +1642,7 @@ LEXICON V-01_ӇАДИМ
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -1649,6 +1682,7 @@ LEXICON V-01_ӇАРАМ
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
+ PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
@@ -2008,7 +2042,8 @@ LEXICON V_IND-Refl
 
 !! Other moods
 LEXICON V_Mod/int
-+Mod/int:%>с%{ая%} MUTUAL-PERSON ;
++Mod/int:%>с%{ая%} MUTUAL-PERSON-NON-OCPL_NORAISING ;
++Mod/int:%>с%{ая%} MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/int-Refl
 +Mod/int:%>ся MUTUAL-PERSON-REFL ;
@@ -2088,7 +2123,7 @@ LEXICON V_PREC !!= * __@CODE@__ Hort
 +Prec+Hort:%>харць MUTUAL-PL1 ;
 +Prec+Hort:%>хэрцю MUTUAL-PL1 ;
 
-+Prec+Imort:%>хэр MUTUAL-SG2 ;
++Prec+Imprt+ScSg2:%>хэрˮ K ;
 +Prec+Imprt:%>хэрӈа MUTUAL-DU2 ;
 +Prec+Imprt:%>хэрӈа MUTUAL-PL2 ;
 
@@ -2782,11 +2817,21 @@ LEXICON CONNEG
 LEXICON GER_СЬ
 +Ger:%>сь K ;
 
+LEXICON PRC-FUT
+ PRC-FUT_ВАНДА ;
+ PRC-FUT_ВНДА ;
+
+LEXICON PRC-FUT_ВАНДА
++PrcFut:ванда K ; !!= @CODE@
++PrcFut:ванда NMN_ӇУДИ ;
+
+LEXICON PRC-FUT_ВНДА
++PrcFut:внда K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcFut:внда NMN_ӇУДИ ;
+
 LEXICON PRC-NEG
 +PrcNeg:%>%{вм%}давэй K ;
 +PrcNeg:%>%{вм%}давэй NMN_ХУСУВЭЙ ;
-+PrcFut:внда K ; !!= @CODE@ Should this form be here 2013-11-25
-+PrcFut:внда NMN_ӇУДИ ;
 
 LEXICON PRC-NEG_МАДАВЭЙ
 +PrcNeg:%>%{вм%}адавэй K ;
