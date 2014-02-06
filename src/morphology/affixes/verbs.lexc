@@ -835,7 +835,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
- V_Fut_ӇГУ ;
+ V_Fut_ӇГУ ; !!= * __@CODE@__ is this the stem to use for +Fut+Mod/prob
  V_Subord ;
  V_AUD ;
  IND-AOR		;
@@ -2094,20 +2094,17 @@ LEXICON V_Mod/narrPrt
 
 LEXICON V_Mod/appr
 +Mod/appr+Aor:%>нарха MUTUAL-PERSON ;
-+Mod/appr+Aor:%>нарха MUTUAL-PRT1-PERSON ;
++Mod/appr:%>нарха MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Mod/appr_НАРАХА
 +Mod/appr+Aor:%>нараха MUTUAL-PERSON-NON-OCPL ;
 +Mod/appr+Aor:%>нарыхы MUTUAL-PERSON-OCPL ;
-+Mod/appr+Aor:%>нараха MUTUAL-PRT1-PERSON ;
++Mod/appr:%>нараха MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Mod/appr-Refl
 +Mod/appr+Aor:%>нархы MUTUAL-PERSON-REFL ;
 +Mod/appr+Aor:%>нарахы MUTUAL-PERSON-REFL ; !for 1-syllable stems
 
-LEXICON V_Mod/prob-Refl
-+Mod/prob+Aor:%>накэ MUTUAL-PERSON-REFL ;
-+Mod/prob:%>накэ MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/perfappr
 +Mod/perfappr:%>%{вм%}эрха MUTUAL-PERSON ;
@@ -2120,8 +2117,15 @@ LEXICON V_Mod/perfappr-Refl
 +Mod/perfappr:%>%{вм%}эрхы MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/futappr
-+Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON-NON-OCPL ; !Shvavokaali voi joskus jäädä pois?
+ V_Mod/futappr_ВАНДАРХА ;
+ V_Mod/futappr_ВНДАРХА ;
+
+LEXICON V_Mod/futappr_ВАНДАРХА
++Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON-NON-OCPL ;
 +Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON-OCPL_NORAISING ; 
+LEXICON V_Mod/futappr_ВНДАРХА
++Mod/futappr:%>%{вм%}ндарха MUTUAL-PERSON-NON-OCPL ;
++Mod/futappr:%>%{вм%}ндарха MUTUAL-PERSON-OCPL_NORAISING ; 
 
 LEXICON V_Mod/futappr-Refl
 +Mod/futappr:%>%{вм%}андархы MUTUAL-PERSON-REFL ;
@@ -2191,9 +2195,20 @@ LEXICON V_Mod/prob
 +Mod/prob+Prt1+ScPl3:%>накыць K ;
 +Mod/prob+Prt1+ScPl3:%>накэць K ;
 
+LEXICON V_Mod/prob-Refl
++Mod/prob+Aor:%>накэ MUTUAL-PERSON-REFL ;
++Mod/prob:%>накэ MUTUAL-PRT1-REFL-PERSON ;
+
 LEXICON V_Fut_ӇГУ
 +Fut+Ind+Aor:%>ӈгу MUTUAL-PERSON ;
 +Fut+Ind:%>ӈгу MUTUAL-PRT1-PERSON ;
+! илесь
++Fut+Mod/prob:%>ӈгоʼ%>накэ MUTUAL-PERSON ;
++Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ӈгоʼ%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
++Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ӈгоʼ%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
++Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ӈгоʼ%>накы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+
+
 
 LEXICON V_Fut_ТА
 +Fut+Ind+Aor:%>та MUTUAL-PERSON ;
@@ -2227,25 +2242,47 @@ LEXICON V_Fut-Refl_ТА
 +Fut+Ind+Aor:та MUTUAL-PERSON-REFL ;
 
 LEXICON V_Subord
+ V_Subord_БˮНА ;
+ V_Subord_БАˮНА ;
+
+LEXICON V_Subord_БˮНА
 +Subord+Abs:%>бˮ K ;
-+Subord+PxSg1:%>бˮнани  K ;
-+Subord+PxSg1:%>баˮни  K ;
++Subord+PxSg1:%>бˮнан  K ;
 +Subord+PxSg2:%>бˮнанд  K ;
-+Subord+PxSg2:%>бат  K ;
 +Subord+PxSg3:%>бˮнанда  K ;
++Subord+PxSg3:%>бта  K ;
++Subord+PxDu1:%>бˮнаниʼ  K ;
++Subord+PxDu1:%>бˮниʼ  K ;
++Subord+PxDu2:%>бˮнандиʼ  K ;
++Subord+PxDu2:%>бтиʼ  K ;
++Subord+PxDu3:%>бˮнандиʼ  K ;
++Subord+PxDu3:%>бтиʼ  K ;
++Subord+PxPl1:%>бˮнанаˮ K ;
++Subord+PxPl1:%>бˮнаˮ K ;
++Subord+PxPl2:%>бˮнандаˮ  K ;
++Subord+PxPl2:%>бтаˮ  K ;
++Subord+PxPl3:%>бˮнандоʼ  K ;
++Subord+PxPl3:%>бтоʼ  K ;
+
+LEXICON V_Subord_БАˮНА
++Subord+PxSg1:%>баˮнан  K ;
++Subord+PxSg1:%>баˮн  K ;
++Subord+PxSg2:%>баˮнанд  K ;
++Subord+PxSg2:%>бат  K ;
++Subord+PxSg3:%>баˮнанда  K ;
 +Subord+PxSg3:%>бата  K ;
 +Subord+PxSg3:%>батавʼ  K ; !particle
-+Subord+PxDu1:%>бˮнаниʼ  K ;
++Subord+PxDu1:%>баˮнаниʼ  K ;
 +Subord+PxDu1:%>баˮниʼ  K ;
-+Subord+PxDu2:%>бˮнандиʼ  K ;
++Subord+PxDu2:%>баˮнандиʼ  K ;
 +Subord+PxDu2:%>баˮтиʼ  K ;
-+Subord+PxDu3:%>бˮнандиʼ  K ;
++Subord+PxDu3:%>баˮнандиʼ  K ;
 +Subord+PxDu3:%>баˮтиʼ  K ;
-+Subord+PxPl1:%>бˮнанаˮ K ;
++Subord+PxPl1:%>баˮнанаˮ K ;
 +Subord+PxPl1:%>баˮнаˮ K ;
-+Subord+PxPl2:%>бˮнандаˮ  K ;
++Subord+PxPl2:%>баˮнандаˮ  K ;
 +Subord+PxPl2:%>батаˮ  K ;
-+Subord+PxPl3:%>бˮнандоʼ  K ;
++Subord+PxPl3:%>баˮнандоʼ  K ;
 +Subord+PxPl3:%>батоʼ  K ;
 
 LEXICON V_AUD
@@ -2587,7 +2624,8 @@ LEXICON PRC
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
 !+Subord:%>бˮ K	;
-+Evas:%>%{вм%}оӇ1     POSSESSA-SG-4-EVAS	;
++Evas:%>%{вм%}оӈгада AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	;
++Evas:%>%{вм%}оӈгда AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	;
 +Evas+Abs:%>%{вм%}оӈгад  K	;
 +Fut+ConNeg:ӈгуˮ     K ;
 
@@ -2627,7 +2665,8 @@ LEXICON PRC2
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
 +Subord:%>бˮ K ;
-+Evas:%>%{вм%}оӇ1     POSSESSA-SG-4-EVAS	;
++Evas:%>%{вм%}оӈгада AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	;
++Evas:%>%{вм%}оӈгда AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	; !!= * __@CODE@__ ABL
 +Evas+Abs:%>%{вм%}оӈгад  K	;
 +Fut+ConNeg:%>таˮ     K ;
 

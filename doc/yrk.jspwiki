@@ -595,7 +595,7 @@ Possessor Indices
 
 
 
- LEXICON POSSESSA-SG-4-EVAS  ABL
+ !LEXICON POSSESSA-SG-4-EVAS  ABL
 
 
 The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
@@ -824,6 +824,7 @@ V_refl 2013-03-04
  *  PRC-NEG ; 	+PrcNeg +PrcFut
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
+ * __ V_Fut_ӇГУ ; __ is this the stem to use for +Fut+Mod/prob
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
@@ -1008,6 +1009,12 @@ Other moods
 
 
 
+
+
+
+
+
+
  * __LEXICON SG3-PRED-AOR/PRET1 __ V_AUD picks up possessor indices and comes here
 
 Mutual person ending for nonindicative moods
@@ -1068,6 +1075,7 @@ Non-finites
 
  +PrcFut:внда K ;  Should this form be here 2013-11-25
 
+ * __+Evas:%>%{вм%}оӈгда AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	; __ ABL
 
 
 
