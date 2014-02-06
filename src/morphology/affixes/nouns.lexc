@@ -1314,107 +1314,69 @@ LEXICON POSSESSA-SG-ACC
 +Sg+Acc+PxPl2:%>мдаˮ K ;
 +Sg+Acc+PxPl3:%>мдоʼ K ;
 
+LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES !!= * __@CODE@__ singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
++PxSg1:н    K ;
++PxSg1:ни   K ; ! (1961: 111) нюни, ӈэсяни, мяˮни
++PxSg2:нд   K ;
++PxSg3:нда  K ;
++PxDu1:ниʼ  K ;
++PxDu2:ндиʼ K ;
++PxDu3:ндиʼ K ;
++PxPl1:наˮ  K ;
++PxPl2:ндаˮ K ;
++PxPl3:ндоʼ K ;
+
+LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 !!= * __@CODE@__ singular possessa oblique possessor indices
++PxSg1+Der/Pr+Aor:н    MUTUAL-SG3_NORAISING ;
++PxSg1+Der/Pr+Aor:ни   MUTUAL-SG3_NORAISING ; ! (1961+Der/Pr+Aor: 111) нюни, ӈэсяни, мяˮни
++PxSg2+Der/Pr+Aor:нд   MUTUAL-SG3_NORAISING ;
++PxSg3+Der/Pr+Aor:нда  MUTUAL-SG3_NORAISING ;
++PxDu1+Der/Pr+Aor:ниʼ  MUTUAL-SG3_NORAISING ;
++PxDu2+Der/Pr+Aor:ндиʼ MUTUAL-SG3_NORAISING ;
++PxDu3+Der/Pr+Aor:ндиʼ MUTUAL-SG3_NORAISING ;
++PxPl1+Der/Pr+Aor:наˮ  MUTUAL-SG3_NORAISING ;
++PxPl2+Der/Pr+Aor:ндаˮ MUTUAL-SG3_NORAISING ;
++PxPl3+Der/Pr+Aor:ндоʼ MUTUAL-SG3_NORAISING ;
+
++PxSg1+Der/Pr:на    IND-4-PRT1-SG3 ;
++PxSg2+Der/Pr:нда   IND-4-PRT1-SG3 ;
++PxSg3+Der/Pr:нда  IND-4-PRT1-SG3 ;
++PxDu1+Der/Pr:ниʼ  IND-4-PRT1-SG3 ;
++PxDu2+Der/Pr:ндиʼ IND-4-PRT1-SG3 ;
++PxDu3+Der/Pr:ндиʼ IND-4-PRT1-SG3 ;
++PxPl1+Der/Pr:наˮ  IND-4-PRT1-SG3 ;
++PxPl2+Der/Pr:ндаˮ IND-4-PRT1-SG3 ;
++PxPl3+Der/Pr:ндоʼ IND-4-PRT1-SG3 ;
+
+
 LEXICON POSSESSA-SG-GEN
-+Sg+Gen+PxSg1:%>н    K ;
-+Sg+Gen+PxSg1:%>ни   K ; ! (1961: 111) нюни, ӈэсяни, мяˮни
-+Sg+Gen+PxSg2:%>нд   K ;
-+Sg+Gen+PxSg3:%>нда  K ;
-+Sg+Gen+PxDu1:%>ниʼ  K ;
-+Sg+Gen+PxDu2:%>ндиʼ K ;
-+Sg+Gen+PxDu3:%>ндиʼ K ;
-+Sg+Gen+PxPl1:%>наˮ  K ;
-+Sg+Gen+PxPl2:%>ндаˮ K ;
-+Sg+Gen+PxPl3:%>ндоʼ K ;
++Sg+Gen:%>  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ; ! (1961: 111) нюни, ӈэсяни, мяˮни
 
 LEXICON POSSESSA-SG-DAT
-+Sg+Dat+PxSg1:%>х%{ауоэØ%}н    K ;
-+Sg+Dat+PxSg1:%>х%{ауоэØ%}ни   K ;
-+Sg+Dat+PxSg2:%>х%{ауоэØ%}нд   K ;
-+Sg+Dat+PxSg3:%>х%{ауоэØ%}нда  K ;
-+Sg+Dat+PxDu1:%>х%{ауоэØ%}ниʼ  K ;
-+Sg+Dat+PxDu2:%>х%{ауоэØ%}ндиʼ K ;
-+Sg+Dat+PxDu3:%>х%{ауоэØ%}ндиʼ K ;
-+Sg+Dat+PxPl1:%>х%{ауоэØ%}наˮ  K ;
-+Sg+Dat+PxPl2:%>х%{ауоэØ%}ндаˮ K ;
-+Sg+Dat+PxPl3:%>х%{ауоэØ%}ндоʼ K ;
++Sg+Dat:%>х%{ауоэØ%}  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-SG-LOC
-+Sg+Loc+PxSg1:%>х%{ауоэØ%}нан    K ;
-+Sg+Loc+PxSg1:%>х%{ауоэØ%}нани   K ;
-+Sg+Loc+PxSg2:%>х%{ауоэØ%}нанд   K ;
-+Sg+Loc+PxSg3:%>х%{ауоэØ%}нанда  K ;
-+Sg+Loc+PxDu1:%>х%{ауоэØ%}наниʼ  K ;
-+Sg+Loc+PxDu2:%>х%{ауоэØ%}нандиʼ K ;
-+Sg+Loc+PxDu3:%>х%{ауоэØ%}нандиʼ K ;
-+Sg+Loc+PxPl1:%>х%{ауоэØ%}нанаˮ  K ;
-+Sg+Loc+PxPl2:%>х%{ауоэØ%}нандаˮ K ;
-+Sg+Loc+PxPl3:%>х%{ауоэØ%}нандоʼ K ;
++Sg+Loc:%>х%{ауоэØ%}на  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-SG-ABL
-+Sg+Abl+PxSg1:%>х%{ауоэØ%}дан    K ;
-+Sg+Abl+PxSg1:%>х%{ауоэØ%}дани   K ;
-+Sg+Abl+PxSg2:%>х%{ауоэØ%}данд   K ;
-+Sg+Abl+PxSg3:%>х%{ауоэØ%}данда  K ;
-+Sg+Abl+PxDu1:%>х%{ауоэØ%}даниʼ  K ;
-+Sg+Abl+PxDu2:%>х%{ауоэØ%}дандиʼ K ;
-+Sg+Abl+PxDu3:%>х%{ауоэØ%}дандиʼ K ;
-+Sg+Abl+PxPl1:%>х%{ауоэØ%}данаˮ  K ;
-+Sg+Abl+PxPl2:%>х%{ауоэØ%}дандаˮ K ;
-+Sg+Abl+PxPl3:%>х%{ауоэØ%}дандоʼ K ;
++Sg+Abl:%>х%{ауоэØ%}да    AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-SG-4-EVAS !!= @CODE@ ABL
-+PxSg1:%>х%{ауоэØ%}дан    K ;
-+PxSg1:%>х%{ауоэØ%}дани   K ;
-+PxSg1:%>х%{ауоэØ%}даниʼ   K ;
-+PxSg2:%>х%{ауоэØ%}данд   K ;
-+PxSg3:%>х%{ауоэØ%}данда  K ;
-+PxDu1:%>х%{ауоэØ%}даниʼ  K ;
-+PxDu2:%>х%{ауоэØ%}дандиʼ K ;
-+PxDu3:%>х%{ауоэØ%}дандиʼ K ;
-+PxPl1:%>х%{ауоэØ%}данаˮ  K ;
-+PxPl2:%>х%{ауоэØ%}дандаˮ K ;
-+PxPl3:%>х%{ауоэØ%}дандоʼ K ;
+:%>х%{ауоэØ%}да  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-SG-PROS
  ! 2012-04-11 Check this for N_Cons and N-D
  ! There might be reason for увна and мна varients
-+Sg+Pros+PxSg1:%>%{увм%}А2нан     K ;
-+Sg+Pros+PxSg1:%>%{увм%}А2нани    K ;
-+Sg+Pros+PxSg2:%>%{увм%}А2нанд    K ;
-+Sg+Pros+PxSg3:%>%{увм%}А2нанда   K ;
-+Sg+Pros+PxDu1:%>%{увм%}А2наниʼ	  K ;
-+Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ	  K ;
-+Sg+Pros+PxDu3:%>%{увм%}А2нандиʼ	  K ;
-+Sg+Pros+PxPl1:%>%{увм%}А2нанаˮ   K ;
-+Sg+Pros+PxPl2:%>%{увм%}А2нандаˮ  K ;
-+Sg+Pros+PxPl3:%>%{увм%}А2нандоʼ  K ;
++Sg+Pros:%>%{увм%}А2на AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+
 !! The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
 !!+Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ  K ; !! This line must be removed 2013-03-20
 
 LEXICON POSSESSA-SG-PROS_увна
-+Sg+Pros+PxSg1:%>увнан     K ;
-+Sg+Pros+PxSg1:%>увнани    K ;
-+Sg+Pros+PxSg2:%>увнанд    K ;
-+Sg+Pros+PxSg3:%>увнанда   K ;
-+Sg+Pros+PxDu1:%>увнаниʼ   K ;
-+Sg+Pros+PxDu2:%>увнандиʼ          K ;
-+Sg+Pros+PxDu3:%>увнандиʼ          K ;
-+Sg+Pros+PxPl1:%>увнанаˮ   K ;
-+Sg+Pros+PxPl2:%>увнандаˮ  K ;
-+Sg+Pros+PxPl3:%>увнандоʼ  K ;
++Sg+Pros:%>увна    AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-SG-PROS_АМНА
-+Sg+Pros+PxSg1:%>амнан     K ;
-+Sg+Pros+PxSg1:%>амнани    K ;
-+Sg+Pros+PxSg2:%>амнанд    K ;
-+Sg+Pros+PxSg3:%>амнанда   K ;
-+Sg+Pros+PxDu1:%>амнаниʼ   K ;
-+Sg+Pros+PxDu2:%>амнандиʼ          K ;
-+Sg+Pros+PxDu3:%>амнандиʼ          K ;
-+Sg+Pros+PxPl1:%>амнанаˮ   K ;
-+Sg+Pros+PxPl2:%>амнандаˮ  K ;
-+Sg+Pros+PxPl3:%>амнандоʼ  K ;
-
++Sg+Pros:%>амна     AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-DUAL
 !! Dual possessa
