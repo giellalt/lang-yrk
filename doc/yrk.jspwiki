@@ -72,7 +72,8 @@ Semantics are classified with
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 modifier without noun head
-this is used with predication of nominals
+this is used with predication of nominals and deverbal modalities
++Aud+PxSg1+Der/Pr+Prt1+ScSg3
 
 
 Morphophonology
@@ -584,15 +585,21 @@ Possessor Indices
 
 
 
+ * __LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES __ singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
+
+ * __LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 __ singular possessa oblique possessor indices
+
+
+
 
 
 
 
  LEXICON POSSESSA-SG-4-EVAS  ABL
 
+
 The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
 This line must be removed 2013-03-20
-
 
 
 
@@ -960,7 +967,6 @@ Other moods
 
 
 
-
  * +Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}ы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;  хось:ховынась 
  *+Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ;  яˮавлавэсь
 
@@ -999,6 +1005,10 @@ Other moods
 
 
 
+
+
+
+ * __LEXICON SG3-PRED-AOR/PRET1 __ V_AUD picks up possessor indices and comes here
 
 Mutual person ending for nonindicative moods
 
@@ -1265,6 +1275,8 @@ __ъ:0 with Conj after vowels__
 __с => ц affrication after Stop__
 
 __с => з after nasal__
+
+__ʼ:н__
 
 __ʼ:0__
 

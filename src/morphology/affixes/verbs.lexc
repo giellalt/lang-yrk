@@ -263,6 +263,7 @@ LEXICON V-01_Е
  V_Opt ;
 @R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -296,6 +297,7 @@ LEXICON V-01_МЭ
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Fut_ӇГУ ;
  V_Mod/appr ;
@@ -332,6 +334,7 @@ LEXICON V-01_МЫ
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Fut_ӇГУ ;
  V_Mod/appr ;
@@ -367,6 +370,7 @@ LEXICON V-01_НЁ
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -400,6 +404,7 @@ LEXICON V-01_НИ
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -433,6 +438,7 @@ LEXICON V-01_НО
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -466,6 +472,7 @@ LEXICON V-01_НУ
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -483,6 +490,7 @@ LEXICON V-01_НУ
  V_Mod/sup ;
  V_Fut_ӇГУ ;
  V_Subord ;
+ V_AUD ;
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -516,6 +524,7 @@ LEXICON V-01_ӇЭ
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -533,6 +542,7 @@ LEXICON V-01_ӇЭ
  V_Mod/sup ;
  V_Fut_ӇГУ ;
  V_Subord ;
+ V_AUD ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -567,6 +577,7 @@ LEXICON V-01_ТО
  V_Mod/sup ;
  V_Fut_ТА ;
  V_Subord ;
+ V_AUD ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -600,6 +611,7 @@ LEXICON V-01_ТУ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -640,6 +652,7 @@ LEXICON V-01_ХО
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -674,6 +687,7 @@ LEXICON V-01_ХЭ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -710,6 +724,7 @@ LEXICON V-01_ВАДЮ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -746,6 +761,7 @@ LEXICON V-01_ЯКУ !!= @CODE@ якась:яка
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -766,6 +782,7 @@ LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
  V_Imprt ;
  V_Opt ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Fut_ӇГУ ;
  V_Mod/appr ;
@@ -804,7 +821,7 @@ LEXICON V-01_ИЛЕ
 @R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Conj ;
  V_Mod/appr ;
- V_Mod/des ;
+ V_Mod/des_РАВА ;
  V_Mod/futappr ;
  V_Mod/hyp ;
  V_Mod/int ;
@@ -820,6 +837,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/sup ;
  V_Fut_ӇГУ ;
  V_Subord ;
+ V_AUD ;
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -852,6 +870,7 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_Mod/des-Refl ;
  V_Fut-Refl_ӇГУ ;
  V_Subord ;
+ V_AUD ;
  PRC ;
  PRC-IMPRF ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
@@ -882,6 +901,7 @@ LEXICON V-01_ӇЭСУ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -904,6 +924,7 @@ LEXICON V-01_ПЭБЮ
  V_Opt ;
 @R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Subord ;
+ V_AUD ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -951,6 +972,7 @@ LEXICON V-01_ПЭБЮ-REFL !! V_refl
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
  V_Subord ;
+ V_AUD ;
  V_Fut-Refl_ӇГУ ;
  PRC ;
 :ʼ PRC-IMPRF ;
@@ -986,6 +1008,7 @@ LEXICON V-01_ХАДА
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1023,6 +1046,7 @@ LEXICON V-01_ЮХУ
  V_Mod/sup ;
  V_Fut_ТА ;
  V_Subord ;
+ V_AUD ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -1060,6 +1084,7 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  IND-AOR		;
  IND-AOR-SG3 	;
  IND-AOR-DU3 	;
@@ -1093,6 +1118,7 @@ LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
  V_Subord ;
+ V_AUD ;
  V_Fut-Refl_ӇГУ ;
  PRC ;
  PRC-IMPRF ;
@@ -1124,6 +1150,7 @@ LEXICON V-01_СЯНАКУ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1161,6 +1188,7 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ӇГУ ;
 :%^A2I IND-AOR		;
 :%^A2I IND-AOR-SG3 	;
@@ -1212,6 +1240,7 @@ LEXICON V-01_МАН   !!= @CODE@ манзь:маН1
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1248,6 +1277,7 @@ LEXICON V-01_МИН
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1284,6 +1314,7 @@ LEXICON V-01_МИС
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1326,6 +1357,7 @@ LEXICON V-01_САС !!= * @CODE@ манэць:манэ
  V_Mod/rep ;
  V_Mod/sup ;
 :С1 V_Subord ;
+ V_AUD ;
  V_Fut_ТАӇГА/ТА ;
 :%>ˮӈа IND-AOR		;
 :%>ˮӈа IND-AOR-SG3 	;
@@ -1375,6 +1407,7 @@ LEXICON V-01_ТИР  !!= @CODE@
  V_Mod/sup ;
  V_Fut_ТА ;
 :С1 V_Subord ;
+ V_AUD ;
 :%>ӈа IND-AOR		;
 :%>ӈа IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -1425,6 +1458,7 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  V_Mod/des-Refl ;
  V_Fut-Refl_ТА ;
 :С1 V_Subord ;
+ V_AUD ;
 +Fut+Ind+Aor:%>ты MUTUAL-PERSON-REFL ;
  PRC2 ;
  PRC-IMPRF ;
@@ -1468,6 +1502,7 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
  V_Mod/rep ;
  V_Mod/sup ;
 :С1 V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
 :%>ӈа IND-AOR		;
 :%>ӈа IND-AOR-SG3 	;
@@ -1504,6 +1539,7 @@ LEXICON V-01_ӇАДИМ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1540,6 +1576,7 @@ LEXICON V-01_ӇАРАМ
  V_Mod/rep ;
  V_Mod/sup ;
  V_Subord ;
+ V_AUD ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1918,7 +1955,7 @@ LEXICON V_Mod/int-OPL
 
 LEXICON V_Mod/int-NON-OPL
 +Mod/int:%>са MUTUAL-PERSON-NON-OCPL ;
-
+!+V+Mod/int+ScPl3:%>саˮ K ; NEEDED here 2014-02-05 илесь
 
 !+V+Mod/int+ScSg2:%>сан K ;
 !+V+Mod/int+ScSg3:%>са K ;
@@ -2002,7 +2039,8 @@ LEXICON V_Imprt-Refl
 LEXICON V_Opt
 +Opt+ScSg3:%>я K ;
 +Opt:%>я MUTUAL-DU3 ;
-+Opt:%>я MUTUAL-PL3 ;
++Opt:%>я MUTUAL-PL3_NORAISING ;
+!+Opt:%>я MUTUAL-PL3 ;
 
 LEXICON V_Opt-Obj
 +Opt+ScSg3+OcSg3:%>мда K ;
@@ -2103,6 +2141,9 @@ LEXICON V_Mod/rep-Refl
 
 LEXICON V_Mod/des
 +Mod/des:%>рва MUTUAL-PERSON ;
+
+LEXICON V_Mod/des_РАВА
++Mod/des:%>рава MUTUAL-PERSON ;
 
 LEXICON V_Mod/des-Refl
 +Mod/des:%>рби MUTUAL-PERSON-REFL ;
@@ -2206,6 +2247,16 @@ LEXICON V_Subord
 +Subord+PxPl2:%>батаˮ  K ;
 +Subord+PxPl3:%>бˮнандоʼ  K ;
 +Subord+PxPl3:%>батоʼ  K ;
+
+LEXICON V_AUD
++Aud:%>%{вм%}оʼ      K  ;
++Aud:%>%{вм%}аноʼ    K  ;
++Aud:%>%{вм%}о%> DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ;
++Aud:%>%{вм%}ано%> DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ;
+
+LEXICON SG3-PRED-AOR/PRET1 !!= * __@CODE@__ V_AUD picks up possessor indices and comes here
++Der/Pr+Aor: MUTUAL-SG3_NORAISING ;
++Der/Pr: IND-4-PRT1-SG3 ;
 
 !! Mutual person ending for nonindicative moods
 LEXICON MUTUAL-PERSON
@@ -2536,8 +2587,6 @@ LEXICON PRC
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
 !+Subord:%>бˮ K	;
-+Aud:%>%{вм%}оʼ      K	;
-+Aud:%>%{вм%}аноʼ    K	;
 +Evas:%>%{вм%}оӇ1     POSSESSA-SG-4-EVAS	;
 +Evas+Abs:%>%{вм%}оӈгад  K	;
 +Fut+ConNeg:ӈгуˮ     K ;
@@ -2578,8 +2627,6 @@ LEXICON PRC2
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
 +Subord:%>бˮ K ;
-+Aud:%>%{вм%}оʼ      K	;
-+Aud:%>%{вм%}аноʼ    K	;
 +Evas:%>%{вм%}оӇ1     POSSESSA-SG-4-EVAS	;
 +Evas+Abs:%>%{вм%}оӈгад  K	;
 +Fut+ConNeg:%>таˮ     K ;
