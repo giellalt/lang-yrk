@@ -299,6 +299,7 @@ LEXICON V-01_МЭ
  V_Subord ;
  V_AUD ;
  V_Conj ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -336,6 +337,7 @@ LEXICON V-01_МЫ
  V_Subord ;
  V_AUD ;
  V_Conj ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -488,6 +490,7 @@ LEXICON V-01_НУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  V_Subord ;
  V_AUD ;
@@ -540,6 +543,7 @@ LEXICON V-01_ӇЭ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  V_Subord ;
  V_AUD ;
@@ -575,6 +579,7 @@ LEXICON V-01_ТО
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_HAB ;
  V_Fut_ТА ;
  V_Subord ;
  V_AUD ;
@@ -612,6 +617,7 @@ LEXICON V-01_ТУ
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -653,6 +659,7 @@ LEXICON V-01_ХО
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -688,6 +695,7 @@ LEXICON V-01_ХЭ
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -725,6 +733,7 @@ LEXICON V-01_ВАДЮ
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -762,6 +771,7 @@ LEXICON V-01_ЯКУ !!= @CODE@ якась:яка
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -784,6 +794,7 @@ LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
  V_Subord ;
  V_AUD ;
  V_Conj ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -835,6 +846,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_HAB ;
  V_Fut_ӇГУ ; !!= * __@CODE@__ is this the stem to use for +Fut+Mod/prob
  V_Subord ;
  V_AUD ;
@@ -868,6 +880,7 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
+ V_HAB ;
  V_Fut-Refl_ӇГУ ;
  V_Subord ;
  V_AUD ;
@@ -902,6 +915,7 @@ LEXICON V-01_ӇЭСУ
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -973,6 +987,7 @@ LEXICON V-01_ПЭБЮ-REFL !! V_refl
  V_Mod/des-Refl ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut-Refl_ӇГУ ;
  PRC ;
 :ʼ PRC-IMPRF ;
@@ -1009,6 +1024,7 @@ LEXICON V-01_ХАДА
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ӇГУ ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1044,6 +1060,7 @@ LEXICON V-01_ЮХУ
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_HAB ;
  V_Fut_ТА ;
  V_Subord ;
  V_AUD ;
@@ -1091,6 +1108,7 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  :%>ӈа IND-AOR-DU3 	;
 +Ind:%>ӈа IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
+ V_HAB ;
  V_Fut_ӇГУ ;
  PRC ;
  PRC-IMPRF ;
@@ -1119,6 +1137,7 @@ LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
  V_Mod/des-Refl ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut-Refl_ӇГУ ;
  PRC ;
  PRC-IMPRF ;
@@ -1151,6 +1170,7 @@ LEXICON V-01_СЯНАКУ
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1189,6 +1209,7 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ӇГУ ;
 :%^A2I IND-AOR		;
 :%^A2I IND-AOR-SG3 	;
@@ -1241,6 +1262,7 @@ LEXICON V-01_МАН   !!= @CODE@ манзь:маН1
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1278,6 +1300,7 @@ LEXICON V-01_МИН
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1315,6 +1338,7 @@ LEXICON V-01_МИС
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1358,6 +1382,7 @@ LEXICON V-01_САС !!= * @CODE@ манэць:манэ
  V_Mod/sup ;
 :С1 V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТАӇГА/ТА ;
 :%>ˮӈа IND-AOR		;
 :%>ˮӈа IND-AOR-SG3 	;
@@ -1405,6 +1430,7 @@ LEXICON V-01_ТИР  !!= @CODE@
  V_Mod/obl ;
  V_Mod/rep ;
  V_Mod/sup ;
+ V_HAB ;
  V_Fut_ТА ;
 :С1 V_Subord ;
  V_AUD ;
@@ -1456,6 +1482,7 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  V_Mod/rep-Refl ;
  V_Mod/sup-Refl ;
  V_Mod/des-Refl ;
+ V_HAB ;
  V_Fut-Refl_ТА ;
 :С1 V_Subord ;
  V_AUD ;
@@ -1503,6 +1530,7 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
  V_Mod/sup ;
 :С1 V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
 :%>ӈа IND-AOR		;
 :%>ӈа IND-AOR-SG3 	;
@@ -1540,6 +1568,7 @@ LEXICON V-01_ӇАДИМ
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -1577,6 +1606,7 @@ LEXICON V-01_ӇАРАМ
  V_Mod/sup ;
  V_Subord ;
  V_AUD ;
+ V_HAB ;
  V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
@@ -2240,6 +2270,43 @@ LEXICON V_Fut-Refl_ӇГУ
 
 LEXICON V_Fut-Refl_ТА
 +Fut+Ind+Aor:та MUTUAL-PERSON-REFL ;
+
+LEXICON V_HAB
+	V_HAB_СЕТЫ ;
+	V_HAB_СЯТЫ ;
+
+LEXICON V_HAB_СЕТЫ
++Hab+Ind+Aor:%>сеты MUTUAL-SG1 ;
++Hab+Ind+Aor:%>сеты MUTUAL-DU1 ;
++Hab+Ind+Aor:%>сеты MUTUAL-PL1 ;
+
++Hab+Ind+Aor:%>сеты MUTUAL-SG2 ;
++Hab+Ind+Aor:%>сеты MUTUAL-DU2 ;
++Hab+Ind+Aor:%>сеты MUTUAL-PL2 ;
+
++Hab+Ind+Aor:%>сеты MUTUAL-SG3_NORAISING ;
++Hab+Ind+Aor:%>сетыӈа MUTUAL-DU3 ;
++Hab+Ind+Aor:%>сеты MUTUAL-PL3_NORAISING ;
+
++Hab+Mod/narr:%>сет%>%{вм%}Ы2 MUTUAL-PERSON ;
+
+
+LEXICON V_HAB_СЯТЫ
++Hab+Ind+Aor:%>сяты MUTUAL-SG1 ;
++Hab+Ind+Aor:%>сяты MUTUAL-DU1 ;
++Hab+Ind+Aor:%>сяты MUTUAL-PL1 ;
+
++Hab+Ind+Aor:%>сяты MUTUAL-SG2 ;
++Hab+Ind+Aor:%>сяты MUTUAL-DU2 ;
++Hab+Ind+Aor:%>сяты MUTUAL-PL2 ;
+
++Hab+Ind+Aor:%>сяты MUTUAL-SG3_NORAISING ;
++Hab+Ind+Aor:%>сятыӈа MUTUAL-DU3 ;
++Hab+Ind+Aor:%>сяты MUTUAL-PL3_NORAISING ;
+
+
++Hab+Mod/narr:%>сят%>%{вм%}Ы2 MUTUAL-PERSON ;
+
 
 LEXICON V_Subord
  V_Subord_БˮНА ;
