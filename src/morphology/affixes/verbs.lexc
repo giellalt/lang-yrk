@@ -2043,7 +2043,7 @@ LEXICON V_IND-Refl
 !! Other moods
 LEXICON V_Mod/int
 +Mod/int:%>с%{ая%} MUTUAL-PERSON-NON-OCPL_NORAISING ;
-+Mod/int:%>ся MUTUAL-PERSON-OCPL_NORAISING ; !! in 2nd, 4th etc non-final syllable сь
++Mod/int:%>ся MUTUAL-PERSON-OCPL_NORAISING ; !! сь in 2nd, 4th etc non-final syllable 
 
 LEXICON V_Mod/int-Refl
 +Mod/int:%>ся MUTUAL-PERSON-REFL ;
@@ -2212,7 +2212,8 @@ LEXICON V_Mod/narrPrt
 
 
 LEXICON V_Mod/appr
-+Mod/appr+Aor:%>нарха MUTUAL-PERSON ;
++Mod/appr+Aor:%>нарха MUTUAL-PERSON-NON-OCPL ;
++Mod/appr+Aor:%>нархы MUTUAL-PERSON-OCPL ;
 +Mod/appr:%>нарха MUTUAL-PRT1-PERSON ;
 
 LEXICON V_Mod/appr_НАРАХА
@@ -2226,7 +2227,8 @@ LEXICON V_Mod/appr-Refl
 
 
 LEXICON V_Mod/perfappr
-+Mod/perfappr:%>%{вм%}эрха MUTUAL-PERSON ;
++Mod/perfappr:%>%{вм%}эрха MUTUAL-PERSON-NON-OCPL ;
++Mod/perfappr:%>%{вм%}эрхы MUTUAL-PERSON-OCPL ; !эрыхы in 1- and 3-syllable stems
 
 LEXICON V_Mod/perfappr_ВЭРАХА
 +Mod/perfappr:%>%{вм%}эраха MUTUAL-PERSON-NON-OCPL ;
@@ -2241,10 +2243,10 @@ LEXICON V_Mod/futappr
 
 LEXICON V_Mod/futappr_ВАНДАРХА
 +Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON-NON-OCPL ;
-+Mod/futappr:%>%{вм%}андарха MUTUAL-PERSON-OCPL_NORAISING ; 
++Mod/futappr:%>%{вм%}андархы MUTUAL-PERSON-OCPL_NORAISING ; 
 LEXICON V_Mod/futappr_ВНДАРХА
 +Mod/futappr:%>%{вм%}ндарха MUTUAL-PERSON-NON-OCPL ;
-+Mod/futappr:%>%{вм%}ндарха MUTUAL-PERSON-OCPL_NORAISING ; 
++Mod/futappr:%>%{вм%}ндархы MUTUAL-PERSON-OCPL_NORAISING ; 
 
 LEXICON V_Mod/futappr-Refl
 +Mod/futappr:%>%{вм%}андархы MUTUAL-PERSON-REFL ;
@@ -2282,7 +2284,7 @@ LEXICON V_Conj-Refl
 
 LEXICON V_Mod/sup
 +Mod/sup:%>%{вм%}анӈгабя MUTUAL-PERSON-NON-OCPL_NORAISING ;
-+Mod/sup:%>%{вм%}анӈгабя MUTUAL-PERSON-OCPL_NORAISING ;
++Mod/sup:%>%{вм%}анӈгаби MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/sup-Refl
 +Mod/sup:%>%{вм%}анӈгаби MUTUAL-PERSON-REFL ;
