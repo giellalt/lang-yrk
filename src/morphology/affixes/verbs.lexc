@@ -2043,7 +2043,7 @@ LEXICON V_IND-Refl
 !! Other moods
 LEXICON V_Mod/int
 +Mod/int:%>с%{ая%} MUTUAL-PERSON-NON-OCPL_NORAISING ;
-+Mod/int:%>с%{ая%} MUTUAL-PERSON-OCPL_NORAISING ;
++Mod/int:%>ся MUTUAL-PERSON-OCPL_NORAISING ; !! in 2nd, 4th etc non-final syllable сь
 
 LEXICON V_Mod/int-Refl
 +Mod/int:%>ся MUTUAL-PERSON-REFL ;
@@ -2445,8 +2445,8 @@ LEXICON V_Subord_БАˮНА
 +Subord+PxPl3:%>батоʼ  K ;
 
 LEXICON V_AUD
-+Aud:%>%{вм%}оʼ      K  ;
-+Aud:%>%{вм%}аноʼ    K  ;
+! +Aud:%>%{вм%}оʼ      K  ;
+! +Aud:%>%{вм%}аноʼ    K  ;
 +Aud:%>%{вм%}о%> DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ;
 +Aud:%>%{вм%}ано%> DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ;
 
