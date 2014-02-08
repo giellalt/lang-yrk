@@ -1442,7 +1442,7 @@ LEXICON V-01_САС !!= * @CODE@ манэць:манэ
 :С1 V_Subord ;
  V_AUD ;
  V_HAB ;
- V_Fut_ТАӇГА/ТА ;
+ V_Fut_ТАӇА/ТА ;
 :%>ˮӈа IND-AOR		;
 :%>ˮӈа IND-AOR-SG3 	;
 :%>ˮӈа IND-AOR-DU3 	;
@@ -2337,11 +2337,11 @@ LEXICON V_Fut_ТА
 +Fut+Ind+Aor:%>та MUTUAL-PERSON ;
 +Fut+Ind:%>та MUTUAL-PRT1-PERSON ;
 
-LEXICON V_Fut_ТАӇГА/ТА
-!+Fut+Ind+Aor:%>таӈга MUTUAL-PERSON ;
+LEXICON V_Fut_ТАӇА/ТА
+!+Fut+Ind+Aor:%>таӈа MUTUAL-PERSON ;
 +Fut+Ind+Aor@R.CONJ.ObjAll@:%>та@R.CONJ.ObjAll@ MUTUAL-PERSON-OCSG ;
 +Fut+Ind+Aor@R.CONJ.ObjAll@:%>та@R.CONJ.ObjAll@ MUTUAL-PERSON-OCSG ;
-+Fut+Ind+Aor000@R.CONJ.ObjAll@:%>таӈга@R.CONJ.ObjAll@ MUTUAL-PERSON-OCDU ;
++Fut+Ind+Aor000@R.CONJ.ObjAll@:%>таӈа@R.CONJ.ObjAll@ MUTUAL-PERSON-OCDU ;
 +Fut+Ind+Aor@R.CONJ.ObjAll@:%>ты@R.CONJ.ObjAll@ MUTUAL-PERSON-OCPL ;
 
 +Fut+Ind+Aor:%>та MUTUAL-SG1 ;
