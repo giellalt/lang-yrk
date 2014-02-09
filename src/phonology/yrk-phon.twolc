@@ -199,7 +199,7 @@ Rules
 
 "%{ауоэØ%} <-> и"
 !! __@RULENAME@__
- %{ауоэØ%}:и <=> ъ: и %> х _ ;
+ %{ауоэØ%}:и <=> [ ъ: и | а:и %^A2I: ] %> х _ ;
 
 "%{ауоэиыØ%} <-> а"
 !! __@RULENAME@__
@@ -311,6 +311,7 @@ Rules
  а:0 <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
         Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
+           в _ %> %{вм%}: [ Ы2: | э: ] ;
 
 "ӈ:0 NOT мэсь+V+IV+Ind+Aor+ScDu3: мэӈахаʼ"
 !! __@RULENAME@__
@@ -364,6 +365,7 @@ Rules
 "в To б "
 !! __@RULENAME@__
  в:б <=> %> р _ а: %^VowRaise: %> ;
+         Vow _ а: %^A2I: ;
 
 "v To m "
 !! __@RULENAME@__
@@ -467,6 +469,7 @@ Rules
 "%{вм%}:в"
 !! __@RULENAME@__
  %{вм%}:в <=> [ :Vow | [ Cns: ] - [ р | л ] ] (%^VowLower:0|%^VowRaise:0) %> _  ;
+              в а: %> _ [ Ы2: | э: ] ;
 
 "%{рл%}:р"
 !! __@RULENAME@__
