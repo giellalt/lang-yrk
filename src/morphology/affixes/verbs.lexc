@@ -189,6 +189,9 @@ LEXICON IV_МИН-Pal/Var
 LEXICON TV_МИН
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МИН       ;
 
+LEXICON VR_МИН
++V+Refl: V-01_МИН-REFL ;
+
 LEXICON IV_САС
 +V+IV: V-01_САС       ;
 
@@ -1368,6 +1371,18 @@ LEXICON V-01_МИН
  PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
+
+LEXICON V-01_МИН-REFL !!
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
+
 
 LEXICON V-01_МИС
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
