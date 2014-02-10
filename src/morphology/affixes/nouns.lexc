@@ -1111,13 +1111,13 @@ LEXICON SG-NOM-STEM
 +Nom: NOMINAL-CONJUGATION ;
 +Pred+Abs:%>д K ;
 PRED-POSSESSA ; ! This is perhaps a derivation
-+Car:сиˮ K ;
-+Equ:даремʼ K ; !дремʼ for non-even-syllable stems
-+Equ+Lat:даревʼ K ; !древʼ for non-even-syllable stems
- SGTRASUF ;
++Car:%>сиˮ K ;
++Equ:%>даремʼ K ; !дремʼ for non-even-syllable stems
++Equ+Lat:%>даревʼ K ; !древʼ for non-even-syllable stems
++Tra:%>ӈэ K ;
 
-
-
+LEXICON SGTRASUF ! Not needed any more!
+K ;
 
 LEXICON SGNOMSUF
 +Sg+Nom: K ;
@@ -1151,9 +1151,6 @@ LEXICON SGPROSSUF_АМНА
 !+Sg+Pros:%>амна K ;
 +Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-28
  POSSESSA-SG-PROS_АМНА ;
-
-LEXICON SGTRASUF 
-+Tra:%>ӈэ K ;
 
 ! These must be checked
 LEXICON DUNOMSUF 
