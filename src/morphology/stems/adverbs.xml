@@ -2564,6 +2564,30 @@
 
   <e>
     <lg>
+      <l pos="Adv">сеняˮ</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">сеняˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">menneisyydessä</t>
+
+        <t pos="Adv">kauan sitten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">серевʼ</l>
 
       <stg>
@@ -3434,6 +3458,28 @@
 
   <e>
     <lg>
+      <l pos="Adv">таˮляʼ</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">таляʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">tänne</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">таˮляˮ</l>
 
       <stg>
@@ -4134,6 +4180,74 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">tietysti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ханзелиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ханзелиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">anyhow</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">miten tahansa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ханзеркаваˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ханзеркаваˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">somehow</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">jotenkin</t>
+
+        <t pos="Adv">eräänä päivänä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ханзеркартˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ханзеркартˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ei mitenkään</t>
       </tg>
     </mg>
   </e>
