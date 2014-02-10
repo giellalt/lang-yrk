@@ -667,7 +667,9 @@ LEXICON NMN_ТЫ  !!= @CODE@ ты:ты 4 !!ProsSg -вна
 :%^VowLower SGDATSUF ;
   SG-ACC-STEM ;
 :%^VowLower  SG-NOM-STEM ;
- SGPROSSUF ;
++Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь K ;
++Nom+Der/Pr+V+Ind+Prt1+ScPl3:%>ць K ;
+:%^VowLower SGPROSSUF ;
   PLNOMSUF ;
 +Pl+Pros:%^VowLower%>ˮэмна K ; !!= @CODE@ This will need schwa to surface
  PLACCSUF_Zero ; !
