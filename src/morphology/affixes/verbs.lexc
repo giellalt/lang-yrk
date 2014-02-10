@@ -2916,10 +2916,11 @@ LEXICON PRC2
 +Fut+ConNeg:%>тˮ K ;
 
 LEXICON PRC_PALVAR
-+PrcImprf:ня N_ӇОДИ ;
++PrcImprf:ня K ;
++PrcImprf:ня NMN_ӇОДИ ;
 
 LEXICON PRC_PALVAR2
-+PrcImprf:%>тя NMN_ӇУДИ ;
++PrcImprf:%>тя NMN_ӇОДИ ;
 
 ! vim: set ft=xfst-lexc:
 

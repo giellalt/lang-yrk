@@ -187,16 +187,19 @@ LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16 !!ProsSg -вна
 !+N:%^A2I PLACCSUF_Zero ; !
 
 LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17 !!ProsSg -вна
++N: NMN_ӇОДИ ;
+
+LEXICON NMN_ӇОДИ
 !! [total=28]
 !! ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
-+N: SGDATSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-NOM-STEM ;
-+N: SGPROSSUF ;
-+N:  PLNOMSUF ;
-+N:%^A2I PLACCSUF_Zero ;
-+N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
-+N: POSSESSA-DUAL ;
+ SGDATSUF ;
+  SG-ACC-STEM ;
+  SG-NOM-STEM ;
+ SGPROSSUF ;
+  PLNOMSUF ;
+:%^A2I PLACCSUF_Zero ;
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON N_ӇОДИ/ТЁН
 !!

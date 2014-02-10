@@ -60,24 +60,24 @@ Tests:
      пэвась+V+IV+Conj+Prt1+ScPl1: пэвъиваць
      пэвась+V+IV+Conj+Prt1+ScPl2: пэвъидаць
      пэвась+V+IV+Conj+Prt1+ScPl3: пэвъиць  
-     пэвась+V+IV+Mod/nec+Aor+ScSg1: пэвбцудмʼ
-     пэвась+V+IV+Mod/nec+Aor+ScSg2: пэвбцун
-     пэвась+V+IV+Mod/nec+Aor+ScSg3: пэвбцу
-     пэвась+V+IV+Mod/nec+Aor+ScDu1: пэвбцуниʼ
-     пэвась+V+IV+Mod/nec+Aor+ScDu2: пэвбцудиʼ
-     пэвась+V+IV+Mod/nec+Aor+ScDu3: пэвбцухуʼ
-     пэвась+V+IV+Mod/nec+Aor+ScPl1: пэвбцуваˮ
-     пэвась+V+IV+Mod/nec+Aor+ScPl2: пэвбцудаˮ
-     пэвась+V+IV+Mod/nec+Aor+ScPl3: пэвбцуˮ
-     пэвась+V+IV+Mod/int+Aor+ScSg1: пэвсадмʼ
-     пэвась+V+IV+Mod/int+Aor+ScSg2: пэвсан
-     пэвась+V+IV+Mod/int+Aor+ScSg3: пэвса
-     пэвась+V+IV+Mod/int+Aor+ScDu1: пэвсаниʼ
-     пэвась+V+IV+Mod/int+Aor+ScDu2: пэвсадиʼ
-     пэвась+V+IV+Mod/int+Aor+ScDu3: пэвсахаʼ
-     пэвась+V+IV+Mod/int+Aor+ScPl1: пэвсаваˮ
-     пэвась+V+IV+Mod/int+Aor+ScPl2: пэвсадаˮ
-     пэвась+V+IV+Mod/int+Aor+ScPl3: пэвсаˮ     
+     пэвась+V+IV+Mod/nec+ScSg1: пэвбцудмʼ
+     пэвась+V+IV+Mod/nec+ScSg2: пэвбцун
+     пэвась+V+IV+Mod/nec+ScSg3: пэвбцу
+     пэвась+V+IV+Mod/nec+ScDu1: пэвбцуниʼ
+     пэвась+V+IV+Mod/nec+ScDu2: пэвбцудиʼ
+     пэвась+V+IV+Mod/nec+ScDu3: пэвбцухуʼ
+     пэвась+V+IV+Mod/nec+ScPl1: пэвбцуваˮ
+     пэвась+V+IV+Mod/nec+ScPl2: пэвбцудаˮ
+     пэвась+V+IV+Mod/nec+ScPl3: пэвбцуˮ
+     пэвась+V+IV+Mod/int+ScSg1: пэвсадмʼ
+     пэвась+V+IV+Mod/int+ScSg2: пэвсан
+     пэвась+V+IV+Mod/int+ScSg3: пэвса
+     пэвась+V+IV+Mod/int+ScDu1: пэвсаниʼ
+     пэвась+V+IV+Mod/int+ScDu2: пэвсадиʼ
+     пэвась+V+IV+Mod/int+ScDu3: пэвсахаʼ
+     пэвась+V+IV+Mod/int+ScPl1: пэвсаваˮ
+     пэвась+V+IV+Mod/int+ScPl2: пэвсадаˮ
+     пэвась+V+IV+Mod/int+ScPl3: пэвсаˮ     
      пэвась+V+IV+Mod/narr+Aor+ScSg1: пэввэдмʼ
      пэвась+V+IV+Mod/narr+Aor+ScSg2: пэввэн
      пэвась+V+IV+Mod/narr+Aor+ScSg3: пэввы
@@ -114,15 +114,51 @@ Tests:
      пэвась+V+IV+Mod/perfprob+ScPl1: пэввэкэваˮ
      пэвась+V+IV+Mod/perfprob+ScPl2: пэввэкэдаˮ
      пэвась+V+IV+Mod/perfprob+ScPl3: пэввэкыˮ
-     пэвась+V+IV+Mod/obl+Aor+ScSg1: пэвбцакэдмʼ
-     пэвась+V+IV+Mod/obl+Aor+ScSg2: пэвбцакэн
-     пэвась+V+IV+Mod/obl+Aor+ScSg3: пэвбцакы
-     пэвась+V+IV+Mod/obl+Aor+ScDu1: пэвбцакэниʼ
-     пэвась+V+IV+Mod/obl+Aor+ScDu2: пэвбцакэдиʼ
-     пэвась+V+IV+Mod/obl+Aor+ScDu3: пэвбцакэхэʼ
-     пэвась+V+IV+Mod/obl+Aor+ScPl1: пэвбцакэваˮ
-     пэвась+V+IV+Mod/obl+Aor+ScPl2: пэвбцакэдаˮ
-     пэвась+V+IV+Mod/obl+Aor+ScPl3: пэвбцакыˮ 
+     пэвась+V+IV+Mod/obl+ScSg1: пэвбцакэдмʼ
+     пэвась+V+IV+Mod/obl+ScSg2: пэвбцакэн
+     пэвась+V+IV+Mod/obl+ScSg3: пэвбцакы
+     пэвась+V+IV+Mod/obl+ScDu1: пэвбцакэниʼ
+     пэвась+V+IV+Mod/obl+ScDu2: пэвбцакэдиʼ
+     пэвась+V+IV+Mod/obl+ScDu3: пэвбцакэхэʼ
+     пэвась+V+IV+Mod/obl+ScPl1: пэвбцакэваˮ
+     пэвась+V+IV+Mod/obl+ScPl2: пэвбцакэдаˮ
+     пэвась+V+IV+Mod/obl+ScPl3: пэвбцакыˮ 
+     пэвась+V+IV+Mod/appr+Aor+ScSg1: пэвдархадмʼ
+     пэвась+V+IV+Mod/appr+Aor+ScSg2: пэвдархан
+     пэвась+V+IV+Mod/appr+Aor+ScSg3: пэвдарха
+     пэвась+V+IV+Mod/appr+Aor+ScDu1: пэвдарханиʼ
+     пэвась+V+IV+Mod/appr+Aor+ScDu2: пэвдархадиʼ
+     пэвась+V+IV+Mod/appr+Aor+ScDu3: пэвдархахаʼ
+     пэвась+V+IV+Mod/appr+Aor+ScPl1: пэвдархаваˮ
+     пэвась+V+IV+Mod/appr+Aor+ScPl2: пэвдархадаˮ
+     пэвась+V+IV+Mod/appr+Aor+ScPl3: пэвдархаˮ 
+     пэвась+V+IV+Mod/appr+Prt1+ScSg1: пэвдархадамзь
+     пэвась+V+IV+Mod/appr+Prt1+ScSg2: пэвдарханась
+     пэвась+V+IV+Mod/appr+Prt1+ScSg3: пэвдархась
+     пэвась+V+IV+Mod/appr+Prt1+ScDu1: пэвдарханинзь
+     пэвась+V+IV+Mod/appr+Prt1+ScDu2: пэвдархадинзь
+     пэвась+V+IV+Mod/appr+Prt1+ScDu3: пэвдархаханзь
+     пэвась+V+IV+Mod/appr+Prt1+ScPl1: пэвдархаваць
+     пэвась+V+IV+Mod/appr+Prt1+ScPl2: пэвдархадаць
+     пэвась+V+IV+Mod/appr+Prt1+ScPl3: пэвдархаць
+     пэвась+V+IV+Mod/futappr+ScSg1: пэввэрхадмʼ
+     пэвась+V+IV+Mod/futappr+ScSg2: пэввэрхан
+     пэвась+V+IV+Mod/futappr+ScSg3: пэввэрха
+     пэвась+V+IV+Mod/futappr+ScDu1: пэввэрханиʼ
+     пэвась+V+IV+Mod/futappr+ScDu2: пэввэрхадиʼ
+     пэвась+V+IV+Mod/futappr+ScDu3: пэввэрхахаʼ
+     пэвась+V+IV+Mod/futappr+ScPl1: пэввэрхаваˮ
+     пэвась+V+IV+Mod/futappr+ScPl2: пэввэрхадаˮ
+     пэвась+V+IV+Mod/futappr+ScPl3: пэввэрхаˮ 
+     пэвась+V+IV+Mod/futappr+ScSg1: пэвавндархадмʼ
+     пэвась+V+IV+Mod/futappr+ScSg2: пэвавндархан
+     пэвась+V+IV+Mod/futappr+ScSg3: пэвавндарха
+     пэвась+V+IV+Mod/futappr+ScDu1: пэвавндарханиʼ
+     пэвась+V+IV+Mod/futappr+ScDu2: пэвавндархадиʼ
+     пэвась+V+IV+Mod/futappr+ScDu3: пэвавндархахаʼ
+     пэвась+V+IV+Mod/futappr+ScPl1: пэвавндархаваˮ
+     пэвась+V+IV+Mod/futappr+ScPl2: пэвавндархадаˮ
+     пэвась+V+IV+Mod/futappr+ScPl3: пэвавндархаˮ 
      пэвась+V+IV+Mod/sup+ScSg1: пэвванӈгабядмʼ
      пэвась+V+IV+Mod/sup+ScSg2: пэвванӈгабян
      пэвась+V+IV+Mod/sup+ScSg3: пэвванӈгабя
@@ -132,33 +168,33 @@ Tests:
      пэвась+V+IV+Mod/sup+ScPl1: пэвванӈгабяваˮ
      пэвась+V+IV+Mod/sup+ScPl2: пэвванӈгабядаˮ
      пэвась+V+IV+Mod/sup+ScPl3: пэвванӈгабяˮ
-     пэвась+V+IV+Mod/hyp+Aor+ScSg1: пэврахавэдмʼ
-     пэвась+V+IV+Mod/hyp+Aor+ScSg2: пэврахавэн
-     пэвась+V+IV+Mod/hyp+Aor+ScSg3: пэврахавы
-     пэвась+V+IV+Mod/hyp+Aor+ScDu1: пэврахавэниʼ
-     пэвась+V+IV+Mod/hyp+Aor+ScDu2: пэврахавэдиʼ
-     пэвась+V+IV+Mod/hyp+Aor+ScDu3: пэврахавэхэʼ
-     пэвась+V+IV+Mod/hyp+Aor+ScPl1: пэврахавэваˮ
-     пэвась+V+IV+Mod/hyp+Aor+ScPl2: пэврахавэдаˮ
-     пэвась+V+IV+Mod/hyp+Aor+ScPl3: пэврахавыˮ 
-     пэвась+V+IV+Mod/rep+Aor+ScSg1: [пэвавнадмʼ, пэвувнадмʼ]
-     пэвась+V+IV+Mod/rep+Aor+ScSg2: [пэвавнан, пэвувнанʼ]
-     пэвась+V+IV+Mod/rep+Aor+ScSg3: [пэвавна, пэвувна]
-     пэвась+V+IV+Mod/rep+Aor+ScDu1: [пэвавнаниʼ, пэвувнаниʼ]
-     пэвась+V+IV+Mod/rep+Aor+ScDu2: [пэвавнадиʼ, пэвувнадиʼ]
-     пэвась+V+IV+Mod/rep+Aor+ScDu3: [пэвавнахаʼ, пэвувнахаʼ]
-     пэвась+V+IV+Mod/rep+Aor+ScPl1: [пэвавнаваˮ, пэвувнаваˮ]
-     пэвась+V+IV+Mod/rep+Aor+ScPl2: [пэвавнадаˮ, пэвувнадаˮ]
-     пэвась+V+IV+Mod/rep+Aor+ScPl3: [пэвавнаˮ, пэвувнаˮ]
-     пэвась+V+IV+Mod/des+Aor+ScSg1: пэвравадмʼ
-     пэвась+V+IV+Mod/des+Aor+ScSg2: пэвраван
-     пэвась+V+IV+Mod/des+Aor+ScSg3: пэврава
-     пэвась+V+IV+Mod/des+Aor+ScDu1: пэвраваниʼ
-     пэвась+V+IV+Mod/des+Aor+ScDu2: пэвравадиʼ
-     пэвась+V+IV+Mod/des+Aor+ScDu3: пэвравахэʼ
-     пэвась+V+IV+Mod/des+Aor+ScPl1: пэврававаˮ
-     пэвась+V+IV+Mod/des+Aor+ScPl2: пэвравадаˮ
-     пэвась+V+IV+Mod/des+Aor+ScPl3: пэвраваˮ 
+     пэвась+V+IV+Mod/hyp+ScSg1: пэврахавэдмʼ
+     пэвась+V+IV+Mod/hyp+ScSg2: пэврахавэн
+     пэвась+V+IV+Mod/hyp+ScSg3: пэврахавы
+     пэвась+V+IV+Mod/hyp+ScDu1: пэврахавэниʼ
+     пэвась+V+IV+Mod/hyp+ScDu2: пэврахавэдиʼ
+     пэвась+V+IV+Mod/hyp+ScDu3: пэврахавэхэʼ
+     пэвась+V+IV+Mod/hyp+ScPl1: пэврахавэваˮ
+     пэвась+V+IV+Mod/hyp+ScPl2: пэврахавэдаˮ
+     пэвась+V+IV+Mod/hyp+ScPl3: пэврахавыˮ 
+     пэвась+V+IV+Mod/rep+ScSg1: [пэвавнадмʼ, пэвувнадмʼ]
+     пэвась+V+IV+Mod/rep+ScSg2: [пэвавнан, пэвувнанʼ]
+     пэвась+V+IV+Mod/rep+ScSg3: [пэвавна, пэвувна]
+     пэвась+V+IV+Mod/rep+ScDu1: [пэвавнаниʼ, пэвувнаниʼ]
+     пэвась+V+IV+Mod/rep+ScDu2: [пэвавнадиʼ, пэвувнадиʼ]
+     пэвась+V+IV+Mod/rep+ScDu3: [пэвавнахаʼ, пэвувнахаʼ]
+     пэвась+V+IV+Mod/rep+ScPl1: [пэвавнаваˮ, пэвувнаваˮ]
+     пэвась+V+IV+Mod/rep+ScPl2: [пэвавнадаˮ, пэвувнадаˮ]
+     пэвась+V+IV+Mod/rep+ScPl3: [пэвавнаˮ, пэвувнаˮ]
+     пэвась+V+IV+Mod/des+ScSg1: пэвравадмʼ
+     пэвась+V+IV+Mod/des+ScSg2: пэвраван
+     пэвась+V+IV+Mod/des+ScSg3: пэврава
+     пэвась+V+IV+Mod/des+ScDu1: пэвраваниʼ
+     пэвась+V+IV+Mod/des+ScDu2: пэвравадиʼ
+     пэвась+V+IV+Mod/des+ScDu3: пэвравахаʼ
+     пэвась+V+IV+Mod/des+ScPl1: пэврававаˮ
+     пэвась+V+IV+Mod/des+ScPl2: пэвравадаˮ
+     пэвась+V+IV+Mod/des+ScPl3: пэвраваˮ 
      пэвась+V+IV+InfImprf: пэвва
      пэвась+V+IV+InfPrf: пэвˮма
      пэвась+V+IV+PrcImprf: [пэвда, пэвдя]
