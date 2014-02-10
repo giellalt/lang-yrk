@@ -295,7 +295,7 @@ LEXICON V-01_Е
  CONNEG ;
 
 LEXICON V-01_МЭ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
++Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
@@ -653,7 +653,7 @@ LEXICON V-01_ТУ
  CONNEG ;
 
 LEXICON V-01_ХО
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
++Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
 +Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
 +Ind00@R.CONJ.ObjAll@:%>ъя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
@@ -969,7 +969,9 @@ LEXICON V-01_ӇЭСУ
 
 LEXICON V-01_ПЭБЮ
 !! * Yaml: __V-xadabasj, V-pewasj__
-+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
++Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
++Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCDU3 ;
++Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
 +Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
@@ -1000,12 +1002,15 @@ LEXICON V-01_ПЭБЮ
 :%^A2I IND-AOR-DU3 	;
 +Ind:%^A2I IND-4-PRT1-DU3 ;
 +Ind:%^A2I IND-4-PRT1		;
+ V_Fut_ӇГУ ;
  PRC ;
 :ʼ PRC-IMPRF ;
- PRC-FUT ;
+ PRC-FUT_ВАНДА ;
+ PRC-FUT_ВНДА ;
+:%^VowRaise PRC-FUT_ВНДА ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
-:%^VowRaise CONNEG ;
+:%^VowFronting%^VowRaise CONNEG ;
 
 LEXICON V-01_ПЭБЮ-REFL !! V_refl 
  V_IND-Refl ;
@@ -1040,7 +1045,7 @@ LEXICON V-01_ПЭБЮ-REFL !! V_refl
 :%^VowRaise CONNEG ;
 
 LEXICON V-01_ХАДА
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
++Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
 +Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
 +Ind00@R.CONJ.ObjAll@:%>ъи@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
@@ -1787,6 +1792,11 @@ LEXICON V_IND-4-AOR-OC
  MUTUAL-V_AOR-4-OCDU3 ;
  MUTUAL-V_AOR-4-OCPL3 ;
 
+LEXICON V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА
+ MUTUAL-V_AOR-4-OCSG3 ;
+ MUTUAL-V_AOR-4-OCDU3_ӇА ;
+ MUTUAL-V_AOR-4-OCPL3 ;
+
 LEXICON V_IND-4-PRT1-OC
  MUTUAL-V_4-PRT1-OCSG3 ;
  MUTUAL-V_4-PRT1-OCDU3 ;
@@ -1824,6 +1834,17 @@ LEXICON MUTUAL-V_AOR-4-OCDU3
  IND-AOR-SCPL1-OCDU3 ;
  IND-AOR-SCPL2-OCDU3 ;
  IND-AOR-SCPL3-OCDU3 ;
+
+LEXICON MUTUAL-V_AOR-4-OCDU3_ӇА
+ IND-AOR-SCSG1-OCDU3_ӇА ;
+ IND-AOR-SCSG2-OCDU3_ӇА ;
+ IND-AOR-SCSG3-OCDU3_ӇА ;
+ IND-AOR-SCDU1-OCDU3_ӇА ;
+ IND-AOR-SCDU2-OCDU3_ӇА ;
+ IND-AOR-SCDU3-OCDU3_ӇА ;
+ IND-AOR-SCPL1-OCDU3_ӇА ;
+ IND-AOR-SCPL2-OCDU3_ӇА ;
+ IND-AOR-SCPL3-OCDU3_ӇА ;
 
 LEXICON MUTUAL-V_4-PRT1-OCDU3
  MUTUAL-V_4-PRT1-SCSG1-OCDU3 ;
@@ -1878,22 +1899,41 @@ LEXICON IND-AOR-SCPL3-OCSG3
 +Aor+ScPl3+OcSg3:%>доʼ K ;
 
 LEXICON IND-AOR-SCSG1-OCDU3
-+Aor+ScSg1+OcDu3:%>ӈахаюн K ;
++Aor+ScSg1+OcDu3:%>х%{ауоэØ%}юн K ;
 LEXICON IND-AOR-SCSG2-OCDU3
-+Aor+ScSg2+OcDu3:%>ӈахаюд K ;
++Aor+ScSg2+OcDu3:%>х%{ауоэØ%}юд K ;
 LEXICON IND-AOR-SCSG3-OCDU3
-+Aor+ScSg3+OcDu3:%>ӈахаюда K ;
++Aor+ScSg3+OcDu3:%>х%{ауоэØ%}юда K ;
 LEXICON IND-AOR-SCDU1-OCDU3
-+Aor+ScDu1+OcDu3:%>ӈахаюниʼ K ;
++Aor+ScDu1+OcDu3:%>х%{ауоэØ%}юниʼ K ;
 LEXICON IND-AOR-SCDU2-OCDU3
-+Aor+ScDu2+OcDu3:%>ӈахаюдиʼ K ;
++Aor+ScDu2+OcDu3:%>х%{ауоэØ%}юдиʼ K ;
 LEXICON IND-AOR-SCDU3-OCDU3
-+Aor+ScDu3+OcDu3:%>ӈахаюдиʼ K ;
++Aor+ScDu3+OcDu3:%>х%{ауоэØ%}юдиʼ K ;
 LEXICON IND-AOR-SCPL1-OCDU3
-+Aor+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
++Aor+ScPl1+OcDu3:%>х%{ауоэØ%}юнаˮ K ;
 LEXICON IND-AOR-SCPL2-OCDU3
-+Aor+ScPl2+OcDu3:%>ӈахаюдаˮ K ;
++Aor+ScPl2+OcDu3:%>х%{ауоэØ%}юдаˮ K ;
 LEXICON IND-AOR-SCPL3-OCDU3
++Aor+ScPl3+OcDu3:%>х%{ауоэØ%}юдоʼ K ;
+
+LEXICON IND-AOR-SCSG1-OCDU3_ӇА
++Aor+ScSg1+OcDu3:%>ӈахаюн K ;
+LEXICON IND-AOR-SCSG2-OCDU3_ӇА
++Aor+ScSg2+OcDu3:%>ӈахаюд K ;
+LEXICON IND-AOR-SCSG3-OCDU3_ӇА
++Aor+ScSg3+OcDu3:%>ӈахаюда K ;
+LEXICON IND-AOR-SCDU1-OCDU3_ӇА
++Aor+ScDu1+OcDu3:%>ӈахаюниʼ K ;
+LEXICON IND-AOR-SCDU2-OCDU3_ӇА
++Aor+ScDu2+OcDu3:%>ӈахаюдиʼ K ;
+LEXICON IND-AOR-SCDU3-OCDU3_ӇА
++Aor+ScDu3+OcDu3:%>ӈахаюдиʼ K ;
+LEXICON IND-AOR-SCPL1-OCDU3_ӇА
++Aor+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
+LEXICON IND-AOR-SCPL2-OCDU3_ӇА
++Aor+ScPl2+OcDu3:%>ӈахаюдаˮ K ;
+LEXICON IND-AOR-SCPL3-OCDU3_ӇА
 +Aor+ScPl3+OcDu3:%>ӈахаюдоʼ K ;
 
 !!after stem-final consonant и instead of й.
@@ -2809,12 +2849,12 @@ LEXICON MUTUAL-PRT1-RCPL3
 
 !! Non-finites
 LEXICON PRC
-+InfImprf:ва K ; !!= @CODE@ Should this form be here 2013-11-25
-+InfPrf:ˮма K ; !!= @CODE@ Should this	form be	here 2013-11-25
-+InfImprf:ва NMN_ӇУДИ ;
-+InfPrf:ˮма NMN_ӇУДИ ;
-+PrcPrf:вы K ; !!= @CODE@ Should this form be here 2013-11-25
-+PrcPrf:вы NMN_ПАНЫ ;
++InfImprf:%>%{вм%}а K ; !!= @CODE@ Should this form be here 2013-11-25
++InfPrf:%>ˮма K ; !!= @CODE@ Should this	form be	here 2013-11-25
++InfImprf:%>%{вм%}а NMN_ӇУДИ ;
++InfPrf:%>ˮма NMN_ӇУДИ ;
++PrcPrf:%>%{вм%}ы K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcPrf:%>%{вм%}ы NMN_ПАНЫ ;
 +Ger: K ;
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
@@ -2825,8 +2865,8 @@ LEXICON PRC
 +Fut+ConNeg:ӈгуˮ     K ;
 
 LEXICON PRC-IMPRF
-+PrcImprf:%>на K ; !!= @CODE@ Should this	form be	here 2013-11-25
-+PrcImprf:%>на NMN_ӇУДИ ;
++PrcImprf:%>н%{ая%} K ; !!= @CODE@ Should this	form be	here 2013-11-25
++PrcImprf:%>н%{ая%} NMN_ӇУДИ ;
 !+PrcImprf:ня K ;
 
 LEXICON CONNEG
@@ -2840,12 +2880,12 @@ LEXICON PRC-FUT
  PRC-FUT_ВНДА ;
 
 LEXICON PRC-FUT_ВАНДА
-+PrcFut:ванда K ; !!= @CODE@
-+PrcFut:ванда NMN_ӇУДИ ;
++PrcFut:%>%{вм%}анда K ; !!= @CODE@
++PrcFut:%>%{вм%}анда NMN_ӇУДИ ;
 
 LEXICON PRC-FUT_ВНДА
-+PrcFut:внда K ; !!= @CODE@ Should this form be here 2013-11-25
-+PrcFut:внда NMN_ӇУДИ ;
++PrcFut:%>%{вм%}нда K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcFut:%>%{вм%}нда NMN_ӇУДИ ;
 
 LEXICON PRC-NEG
 +PrcNeg:%>%{вм%}давэй K ;
@@ -2854,8 +2894,8 @@ LEXICON PRC-NEG
 LEXICON PRC-NEG_МАДАВЭЙ
 +PrcNeg:%>%{вм%}адавэй K ;
 +PrcNeg:%>%{вм%}адавэй NMN_ХУСУВЭЙ ;
-+PrcFut:внда K ; !!= @CODE@ Should this form be here 2013-11-25
-+PrcFut:внда NMN_ӇУДИ ;
++PrcFut:%>%{вм%}нда K ; !!= @CODE@ Should this form be here 2013-11-25
++PrcFut:%>%{вм%}нда NMN_ӇУДИ ;
 
 LEXICON PRC2
 +InfImprf:%>%{вм%}а K ;
