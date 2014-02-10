@@ -123,7 +123,7 @@ Rules
 !! __@RULENAME@__
  %{ая%}:я =>  %> с _ %^VowRaise:0 %> ;
 # [[ с | н | т ] [ е | и | ю ] | и ] [( Н1: | Ӈ1: | Д1: ) %> (ˮ)| %> ˮ ] %{ауоэиыØ%}: %{увм%}: (А2:) н _ ;
-
+   # п э в а: ʼ: %> н: _ ;
 
 "у:ю VowelPalatalization"
 !! __@RULENAME@__
@@ -236,7 +236,10 @@ Rules
 !! {{{
  а:э <=>  [ ӈ | т | л | р | д | н ] _ [ %^VowelFronting:0 | %> й [н|д] ] ;
       Cns  _ %> ъ: я: [ д | н ] ; !!= @CODE@ хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэйн
+      д _ б а: %^A2I: %> ъ: я: [ д | н ] ;
 !! }}}
+
+
 "Ы1:о"
 !! __@RULENAME@__
  Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %> _ ;
@@ -271,7 +274,7 @@ Rules
 "a:i in ӈуда"
 !! __@RULENAME@__
  а:и <=> [ Cns - [ к | л | г ] ] _ %^A2I:0 ;
-         %> р в:б _ %^VowRaise:0 %> ;
+          р в:б _ %^VowRaise:0 %> ;
 !€# хо%>рва%^VowRaise%>н
 !€0 хо0рби00н
 
@@ -295,13 +298,21 @@ Rules
      
 "а:е хасава:хасев"
 !! __@RULENAME@__
- а:е <=> Cns _ Cns а: %^VowFronting:0 ;
+ а:е <=> Cns _ Cns а: %^VowFronting:0 [ %> | # ] ;
 
 "а:у яˮавла:яˮавлу"
 !! __@RULENAME@__
  а:у <=> [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
+      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
 !€# яˮавла%^VowRaise%>ˮ
 !€0 яˮавлу00ˮ
+
+"а:ю яˮавла:яˮавлу"
+!! __@RULENAME@__
+ а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
+!€# пэва%^VowRaise%>ˮ
+!€0 пэбю00ˮ
+
 
 
 !! !!Vowel loss
@@ -311,7 +322,7 @@ Rules
  а:0 <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
         Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
-           в _ %> %{вм%}: [ Ы2: | э: ] ;
+           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
 
 "ӈ:0 NOT мэсь+V+IV+Ind+Aor+ScDu3: мэӈахаʼ"
 !! __@RULENAME@__
@@ -329,7 +340,7 @@ Rules
 "я:0 Stem vowel loss in plural accusative"
 !! __@RULENAME@__
  я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
-
+         а: %^A2I:0 %> ъ: _ (%>) [ н | д ] ;
 
 
 !! !!Consonant changes
@@ -364,7 +375,7 @@ Rules
 
 "в To б "
 !! __@RULENAME@__
- в:б <=> %> р _ а: %^VowRaise: %> ;
+ в:б <=> [ %> р | Vow ] _ а: (%^VowFronting:0) %^VowRaise: %> ;
          Vow _ а: %^A2I: ;
 
 "v To m "
@@ -384,7 +395,7 @@ Rules
 
 "nTod"
 !! __@RULENAME@__
- н:д <=>  [ Ӈ1: | Н1: | ʼ: ] %> _ [ ʼ | а ] ;
+ н:д <=>  [ Ӈ1: | Н1: | ʼ: ] %> _ [ ʼ | а | %{ая%}: ] ;
 
 "tTod"
 !! __@RULENAME@__
@@ -417,7 +428,7 @@ Rules
 !! __@RULENAME@__
 !! {{{
  ъ:0 <=> Vow %> _ и ;
-         :Vow (ˮ) %> _ я: (%>) [ н | д ] ; !!= @CODE@ нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
+         :Vow (ˮ|%^A2I:) %> _ я: (%>) [ н | д ] ; !!= @CODE@ нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
 !! }}}
 
 
@@ -468,8 +479,8 @@ Rules
 
 "%{вм%}:в"
 !! __@RULENAME@__
- %{вм%}:в <=> [ :Vow | [ Cns: ] - [ р | л ] ] (%^VowLower:0|%^VowRaise:0) %> _  ;
-              в а: %> _ [ Ы2: | э: ] ;
+ %{вм%}:в <=> [ :Vow | в Vow: | [ Cns: ] - [ р | л ] ] (%^VowLower:0|%^VowRaise:0) %> _  ;
+              в а: (%^VowRaise:0) %> _ [ Ы2: | э: | ы | а | д а в ] ;
 
 "%{рл%}:р"
 !! __@RULENAME@__
