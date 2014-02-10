@@ -229,7 +229,7 @@ Rules
 !! !VOWEL LOWERING
 "StemFinalYToE"
 !! __@RULENAME@__
- ы:э <=> _ [ %^VowLower:0 %> (ˮ) :CnsNotGlots | %> х э ]  ;
+ ы:э <=> _ [ %^VowLower:0 %> (ˮ) (%{ауоэиыØ%}:| :э) :CnsNotGlots | (%^VowLower:0) %> [ х | ӈ ] э ]  ;
         
 "а:э in final position of polysyllable verb stems"
 !! __@RULENAME@__
@@ -300,10 +300,16 @@ Rules
 !! __@RULENAME@__
  а:е <=> Cns _ Cns а: %^VowFronting:0 [ %> | # ] ;
 
-"а:у яˮавла:яˮавлу"
+"а:у яˮавла:яˮавлу LEFT"
 !! __@RULENAME@__
- а:у <=> [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
+ а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
       [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
+
+"а:у яˮавла:яˮавлу RIGHT"
+!! __@RULENAME@__
+ а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
+      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
+        # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
 !€# яˮавла%^VowRaise%>ˮ
 !€0 яˮавлу00ˮ
 
@@ -317,12 +323,24 @@ Rules
 
 !! !!Vowel loss
 
-"а:0 Stem vowel loss in plural accusative"
+"а:0 vowel loss in plural accusative and elsewhere LEFT"
 !! __@RULENAME@__
- а:0 <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
+ а:0 <= Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
+        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
         Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
            в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
+        
+
+"а:0 vowel loss in plural accusative and elsewhere RIGHT"
+!! __@RULENAME@__
+ а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
+        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
+        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
+        Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
+           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
+        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ %> [ д а | м и ʼ | р и ʼ | р а ˮ | д и ʼ | д о ʼ | в а ˮ | н и ʼ | н а ˮ ] ;
+        
 
 "ӈ:0 NOT мэсь+V+IV+Ind+Aor+ScDu3: мэӈахаʼ"
 !! __@RULENAME@__
