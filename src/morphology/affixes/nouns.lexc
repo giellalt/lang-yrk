@@ -110,10 +110,12 @@ LEXICON N_ТИРЕ  !!= @CODE@ тир: 12 !!ProsSg -увна
 
 LEXICON N_ЕД-RUS
 +Rus: N_ЕД ;
+
 LEXICON N_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
 !! [total=98]
 !! ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
 +N: NMN_ЕД ;
++N+Lim:ри NMN_ӇЭ ;
 
 LEXICON N_ТИРЕ/ХАНО
 +N: NMN_ТИРЕ/ХАНО ;
@@ -164,6 +166,7 @@ LEXICON N_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
 !! ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
 !! * Yaml: __N-ngudi__
 +N: NMN_ӇУДИ ;
++N+Lim:ри NMN_ӇЭ ;
 
 LEXICON NMN_ӇУДИ  !!= @CODE@ ӈуда: 15 !!ProsSg -вна
 !! * Yaml: __ngudi__
@@ -500,6 +503,7 @@ LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35   !!ProsSg -мна
 !! * Yaml: __myado__
 !! мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
 +N: NMN_МЯДО ;
++N+Lim:ли NMN_ӇЭ ;
 
 LEXICON N_ВАР/МЯДО
  N_МЯДО ;
