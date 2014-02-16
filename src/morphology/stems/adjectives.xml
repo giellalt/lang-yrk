@@ -10342,10 +10342,12 @@
 
   <e>
     <lg>
-      <l pos="A">тасяхалпэй</l>
+      <l pos="A">тасялпэй</l>
 
       <stg>
         <st Contlex="A_ХУСУВЭЙ">тасяхалпэй</st>
+
+        <st Contlex="A_ХУСУВЭЙ">тасялпэй</st>
       </stg>
     </lg>
 
@@ -10353,7 +10355,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">uupunut</t>
+
+        <t pos="A">väsynyt</t>
       </tg>
     </mg>
   </e>

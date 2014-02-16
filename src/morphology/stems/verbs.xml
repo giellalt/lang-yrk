@@ -122702,6 +122702,50 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">юнембась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">юнемба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="TV">urkkia</t>
+
+        <t pos="V">nuuskia</t>
+
+        <t pos="V">kysellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">юнензь</l>
+
+      <stg>
+        <st Contlex="TV_МИН">юнен</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="TV">urkkia</t>
+
+        <t pos="V">nuuskia</t>
+
+        <t pos="V">kysellä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" type="IV">юнець</l>
 
       <stg>
@@ -122746,6 +122790,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">юнота</st>
+
+        <st Contlex="IV_ЛАХАНА">юнета</st>
       </stg>
     </lg>
 
@@ -140315,12 +140361,20 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="eng"><tCtn>
-        <t pos="V">to be located</t><re>inanim</re></tCtn>
+      <tg xml:lang="eng">
+        <tCtn>
+          <t pos="V">to be located</t>
+
+          <re>inanim</re>
+        </tCtn>
       </tg>
 
-      <tg xml:lang="fin"><tCtn>
-        <t pos="V">olla</t><re>jossakin, elottomasta</re></tCtn>
+      <tg xml:lang="fin">
+        <tCtn>
+          <t pos="V">olla</t>
+
+          <re>jossakin, elottomasta</re>
+        </tCtn>
       </tg>
     </mg>
   </e>
