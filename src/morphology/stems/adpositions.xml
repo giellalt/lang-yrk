@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="yrk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="yrk">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
       <l pos="Po">ерня</l>
@@ -21,7 +21,9 @@
       </tg>
 
       <tg xml:lang="est">
-        <t pos="Pr">keskel, keset</t>
+        <t pos="Pr">keskel</t>
+
+        <t pos="Pr">keset</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -153,7 +155,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kohdalla, vastapäätä, kautta</t>
+        <t>kohdalla</t>
+
+        <t>vastapäätä</t>
+
+        <t>kautta</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -269,7 +275,9 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>during, at</t>
+        <t>during</t>
+
+        <t>at</t>
       </tg>
 
       <tg xml:lang="est">
@@ -337,7 +345,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>vieressä, vierestä, ohi</t>
+        <t>vieressä</t>
+
+        <t>vierestä</t>
+
+        <t>ohi</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -369,7 +381,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>vieressä, vastapäätä</t>
+        <t>vieressä</t>
+
+        <t>vastapäätä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -497,7 +511,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>sisälta, sisästä</t>
+        <t>sisälta</t>
+
+        <t>sisästä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -623,7 +639,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>viereen, lähelle</t>
+        <t>viereen</t>
+
+        <t>lähelle</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -911,7 +929,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>päältä, syystä, takia</t>
+        <t>päältä</t>
+
+        <t>syystä</t>
+
+        <t>takia</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1043,7 +1065,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>luo, luokse</t>
+        <t>luo</t>
+
+        <t>luokse</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1107,7 +1131,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>luo, luokse</t>
+        <t>luo</t>
+
+        <t>luokse</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1295,7 +1321,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>poikki, poikittain</t>
+        <t>poikki</t>
+
+        <t>poikittain</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1421,7 +1449,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>suuntaan, päin</t>
+        <t>suuntaan</t>
+
+        <t>päin</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1581,7 +1611,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>sijasta, lisäksi, paitsi</t>
+        <t>sijasta</t>
+
+        <t>lisäksi</t>
+
+        <t>paitsi</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1613,7 +1647,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>asti, saakka</t>
+        <t>asti</t>
+
+        <t>saakka</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1677,7 +1713,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>jälkeen, perään</t>
+        <t>jälkeen</t>
+
+        <t>perään</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1837,7 +1875,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>takaisin, taakse</t>
+        <t>takaisin</t>
+
+        <t>taakse</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1901,7 +1941,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>mukaisesti, tavalla</t>
+        <t>mukaisesti</t>
+
+        <t>tavalla</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1933,7 +1975,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>aiheesta, liittyen</t>
+        <t>aiheesta</t>
+
+        <t>liittyen</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2029,7 +2073,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kautta, koko</t>
+        <t>kautta</t>
+
+        <t>koko</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2093,7 +2139,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>aiemmin, kauemmin</t>
+        <t>aiemmin</t>
+
+        <t>kauemmin</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2125,7 +2173,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>aiemmas, kauemmas</t>
+        <t>aiemmas</t>
+
+        <t>kauemmas</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2138,10 +2188,10 @@
 
   <e>
     <lg>
-      <l pos="Po">тахамна</l>
+      <l pos="Po">тахамана</l>
 
       <stg>
-        <st Contlex="POSTP_">тахамна</st>
+        <st Contlex="POSTP_">тахамана</st>
       </stg>
     </lg>
 
@@ -2149,19 +2199,21 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>through</t>
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>läbi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>läpi, lävitse</t>
+        <t>läpi</t>
+
+        <t>lävitse</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t/>
+        <t>сквозь</t>
       </tg>
     </mg>
 
@@ -2181,11 +2233,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>behind</t>
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>taga</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2213,11 +2265,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>behind</t>
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>taha</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2245,7 +2297,7 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>except</t>
       </tg>
 
       <tg xml:lang="est">
@@ -2285,7 +2337,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>myöten, pitkin</t>
+        <t>myöten</t>
+
+        <t>pitkin</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2317,7 +2371,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>ohi, pitkin</t>
+        <t>ohi</t>
+
+        <t>pitkin</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2345,7 +2401,7 @@
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>kõrval</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2381,11 +2437,15 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>lähellä, viereessä</t>
+        <t>lähellä</t>
+
+        <t>viereessä</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>около, возле</t>
+        <t>около</t>
+
+        <t>возле</t>
       </tg>
 
       <!--Burkova2010:170  -->
@@ -2413,7 +2473,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>aikana, pitkin</t>
+        <t>aikana</t>
+
+        <t>pitkin</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2437,7 +2499,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t>aikana, kuluessa</t>
+        <t>aikana</t>
+
+        <t>kuluessa</t>
       </tg>
 
       <tg xml:lang="rus">
