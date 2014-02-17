@@ -36840,8 +36840,8 @@
     <mg>
       <defNative/>
 
-      <tg xml:lang="fin">
-        <tf pos="V">olla (jossakin, elollisesta)</tf>
+      <tg xml:lang="fin"><tCtn>
+        <t pos="V">olla</t><re>jossakin, elollisesta</re></tCtn>
       </tg>
     </mg>
   </e>
@@ -140370,6 +140370,7 @@
       </tg>
 
       <tg xml:lang="fin">
+          <t pos="V">sijaita</t>
         <tCtn>
           <t pos="V">olla</t>
 

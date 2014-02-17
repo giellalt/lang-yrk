@@ -23,7 +23,7 @@ GT_LEXC_SRCS=\
 			 stems/abbr.lexc          \
 			 stems/acro.lexc          \
 			 stems/punct.lexc          \
-			 affixes/adpositions.lexc  \
+			 affixes/adpositions.lexc \
 			 affixes/adjectives.lexc  \
 			 affixes/adverbs.lexc  \
 			 affixes/clitics.lexc     \
