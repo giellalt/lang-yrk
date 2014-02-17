@@ -27,7 +27,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>keskeellä</t>
+        <t pos="Po">keskellä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -59,7 +59,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kohti</t>
+        <t pos="Po">kohti</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -91,15 +91,13 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>vastapäätä</t>
+        <t pos="Po">vastapäätä</t>
       </tg>
 
       <tg xml:lang="rus">
         <t/>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -123,7 +121,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kohti</t>
+        <t pos="Po">kohti</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -191,7 +189,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>varten</t>
+        <t pos="Po">varten</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -215,15 +213,15 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>until</t>
+        <t pos="Po">until</t>
       </tg>
 
       <tg xml:lang="est">
-        <t>-ni</t>
+        <t pos="Po">-ni</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>asti</t>
+        <t pos="Po">asti</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -245,15 +243,15 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>from</t>
+        <t pos="Po">from</t>
       </tg>
 
       <tg xml:lang="est">
-        <t>alates</t>
+        <t pos="Po">alates</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>lähtien</t>
+        <t pos="Po">lähtien</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -281,11 +279,11 @@
       </tg>
 
       <tg xml:lang="est">
-        <t>ajal</t>
+        <t pos="Po">ajal</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>aikana</t>
+        <t pos="Po">aikana</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -315,11 +313,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>asti</t>
+        <t pos="Po">asti</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>до</t>
+        <t pos="Po">до</t>
       </tg>
     </mg>
   </e>
@@ -415,7 +413,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>vierestä</t>
+        <t pos="Po">vierestä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -447,7 +445,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>aikana</t>
+        <t pos="Po">aikana</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -479,7 +477,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>sisään</t>
+        <t pos="Po">sisään</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -545,7 +543,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>sisäkautta</t>
+        <t pos="Po">sisäkautta</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -577,7 +575,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>sisällä</t>
+        <t pos="Po">sisällä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -609,7 +607,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>mukaan</t>
+        <t pos="Po">mukaan</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -648,8 +646,6 @@
         <t/>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -673,7 +669,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>edestä</t>
+        <t pos="Po">edestä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -705,7 +701,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>editse</t>
+        <t pos="Po">editse</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -737,7 +733,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>edessä</t>
+        <t pos="Po">edessä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -765,15 +761,17 @@
       </tg>
 
       <tg xml:lang="est">
-        <t>ette, edasi</t>
+        <t pos="Po">ette</t>
+
+        <t pos="Po">edasi</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>eteenpäin</t>
+        <t pos="Po">eteenpäin</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>вперёд</t>
+        <t pos="Po">вперёд</t>
       </tg>
     </mg>
 
@@ -801,7 +799,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>edellä</t>
+        <t pos="Po">edellä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -833,7 +831,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>editse</t>
+        <t pos="Po">editse</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -865,7 +863,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>ennen</t>
+        <t pos="Po">ennen</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -897,7 +895,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>eteen</t>
+        <t pos="Po">eteen</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -965,11 +963,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kautta</t>
+        <t pos="Po">kautta</t>
 
-        <t>pitkin</t>
+        <t pos="Po">pitkin</t>
 
-        <t>yli</t>
+        <t pos="Po">yli</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1001,7 +999,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>päällä</t>
+        <t pos="Po">päällä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1033,7 +1031,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>päälle</t>
+        <t pos="Po">päälle</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1099,7 +1097,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>luota</t>
+        <t pos="Po">luota</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1165,7 +1163,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>luota</t>
+        <t pos="Po">luota</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1197,7 +1195,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kautta</t>
+        <t pos="Po">kautta</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1229,7 +1227,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>luona</t>
+        <t pos="Po">luona</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1261,7 +1259,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kautta</t>
+        <t pos="Po">kautta</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1293,7 +1291,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>luona</t>
+        <t pos="Po">luona</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1353,7 +1351,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>suunnasta</t>
+        <t pos="Po">suunnasta</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1385,7 +1383,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>kautta</t>
+        <t pos="Po">kautta</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1417,7 +1415,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>suunnassa</t>
+        <t pos="Po">suunnassa</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1483,7 +1481,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>alta</t>
+        <t pos="Po">alta</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1507,7 +1505,7 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>under</t>
+        <t pos="Po">under</t>
       </tg>
 
       <tg xml:lang="est">
@@ -1519,7 +1517,7 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t>под</t>
+        <t pos="Po">под</t>
       </tg>
     </mg>
 
@@ -1547,7 +1545,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>alla</t>
+        <t pos="Po">alla</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1579,7 +1577,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>alle</t>
+        <t pos="Po">alle</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1681,7 +1679,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>jäljestä</t>
+        <t pos="Po">jäljestä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1747,7 +1745,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>jäljessä</t>
+        <t pos="Po">jäljessä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1779,7 +1777,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>takaa</t>
+        <t pos="Po">takaa</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1811,7 +1809,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>takana</t>
+        <t pos="Po">takana</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1843,7 +1841,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>takana</t>
+        <t pos="Po">takana</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -1909,7 +1907,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>jälkeen</t>
+        <t pos="Po">jälkeen</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2009,7 +2007,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>mukaan</t>
+        <t pos="Po">mukaan</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2041,7 +2039,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>tavalla</t>
+        <t pos="Po">tavalla</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2082,8 +2080,6 @@
         <t/>
       </tg>
     </mg>
-
-    <!--  -->
   </e>
 
   <e>
@@ -2107,7 +2103,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>takaa</t>
+        <t pos="Po">takaa</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2241,7 +2237,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>takana</t>
+        <t pos="Po">takana</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2273,7 +2269,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>taakse</t>
+        <t pos="Po">taakse</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2305,7 +2301,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>paitsi</t>
+        <t pos="Po">paitsi</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2329,11 +2325,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>along</t>
+        <t pos="Po">along</t>
       </tg>
 
       <tg xml:lang="est">
-        <t>piki</t>
+        <t pos="Po">piki</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2343,7 +2339,7 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t>вдоль</t>
+        <t pos="Po">вдоль</t>
       </tg>
     </mg>
 
@@ -2363,11 +2359,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>along</t>
+        <t pos="Po">along</t>
       </tg>
 
       <tg xml:lang="est">
-        <t>mööda</t>
+        <t pos="Po">mööda</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2377,7 +2373,7 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t>мимо</t>
+        <t pos="Po">мимо</t>
       </tg>
     </mg>
 
@@ -2405,7 +2401,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>viereessä</t>
+        <t pos="Po">viereessä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -2429,11 +2425,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>beside</t>
+        <t pos="Po">beside</t>
       </tg>
 
       <tg xml:lang="est">
-        <t>ääres</t>
+        <t pos="Po">ääres</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2505,7 +2501,7 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t>в продолжение</t>
+        <t pos="Po">в продолжение</t>
       </tg>
     </mg>
   </e>

@@ -17,11 +17,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>who</t>
+        <t pos="Pron">who</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kuka</t>
+        <t pos="Pron">kuka</t>
       </tg>
     </mg>
   </e>
@@ -39,11 +39,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>someone</t>
+        <t pos="Pron">someone</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>joku</t>
+        <t pos="Pron">joku</t>
       </tg>
     </mg>
   </e>
@@ -61,11 +61,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>someone</t>
+        <t pos="Pron">someone</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>joku</t>
+        <t pos="Pron">joku</t>
       </tg>
     </mg>
   </e>
@@ -83,11 +83,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>no one</t>
+        <t pos="Pron">no one</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ei kukaan</t>
+        <t pos="Pron">ei kukaan</t>
       </tg>
     </mg>
   </e>
@@ -105,11 +105,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>what</t>
+        <t pos="Pron">what</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mikä</t>
+        <t pos="Pron">mikä</t>
       </tg>
     </mg>
   </e>
@@ -127,11 +127,13 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>something</t>
+        <t pos="Pron">something</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>jotain, jonkinlainen</t>
+        <t pos="Pron">jokin</t>
+
+        <t pos="A">jonkinlainen</t>
       </tg>
     </mg>
   </e>
@@ -149,11 +151,13 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>something</t>
+        <t pos="Pron">something</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>jotain, jonkinlainen</t>
+        <t pos="Pron">jokin</t>
+
+        <t pos="A">jonkinlainen</t>
       </tg>
     </mg>
   </e>
@@ -171,11 +175,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>nothing</t>
+        <t pos="Pron">nothing</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ei mitään</t>
+        <t pos="Pron">ei mitään</t>
       </tg>
     </mg>
   </e>
@@ -193,11 +197,13 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>how many</t>
+        <t pos="Pron">how many</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>montako, kuinka paljon</t>
+        <t pos="Pron">montako</t>
+
+        <tf pos="Pron">kuinka paljon</tf>
       </tg>
     </mg>
   </e>
@@ -215,11 +221,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>how many</t>
+        <t pos="Pron">how many</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>montako</t>
+        <t pos="Pron">montako</t>
       </tg>
     </mg>
   </e>
@@ -237,11 +243,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>everybody</t>
+        <t pos="Pron">everybody</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kaikki</t>
+        <t pos="Pron">kaikki</t>
       </tg>
     </mg>
 
@@ -261,11 +267,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>when</t>
+        <t pos="Pron">when</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>milloin</t>
+        <t pos="Pron">milloin</t>
       </tg>
     </mg>
 
@@ -289,13 +295,13 @@
       </m>
 
       <tg xml:lang="eng">
-        <t>such</t>
+        <t pos="Pron">such</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>sellainen</t>
+        <t pos="Pron">sellainen</t>
 
-        <t>tällainen</t>
+        <t pos="Pron">tällainen</t>
       </tg>
     </mg>
 
@@ -315,11 +321,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>how</t>
+        <t pos="Pron">how</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>miten</t>
+        <t pos="Pron">miten</t>
       </tg>
     </mg>
   </e>
@@ -337,11 +343,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>what kind of</t>
+        <t pos="Pron">what kind of</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>millainen</t>
+        <t pos="Pron">millainen</t>
       </tg>
     </mg>
   </e>
@@ -359,11 +365,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>what ever</t>
+        <t pos="Pron">what ever</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mikä tahansa</t>
+        <t pos="Pron">mikä tahansa</t>
       </tg>
     </mg>
   </e>
@@ -381,11 +387,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>some sort of</t>
+        <t pos="Pron">some sort of</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>jonkinlainen</t>
+        <t pos="Pron">jonkinlainen</t>
       </tg>
     </mg>
   </e>
@@ -407,7 +413,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>ei minkäänlainen</t>
+        <t pos="Pron">ei minkäänlainen</t>
       </tg>
     </mg>
   </e>
@@ -425,11 +431,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>me</t>
+        <t pos="Pron">me</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>minua</t>
+        <t pos="Pron">minua</t>
       </tg>
     </mg>
   </e>
@@ -447,11 +453,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>you (sg.)</t>
+        <t pos="Pron">you (sg.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>sinua</t>
+        <t pos="Pron">sinua</t>
       </tg>
     </mg>
   </e>
@@ -469,11 +475,15 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>him, her, it</t>
+        <t pos="Pron">him</t>
+
+        <t pos="Pron">her</t>
+
+        <t pos="Pron">it</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>häntä</t>
+        <t pos="Pron">häntä</t>
       </tg>
     </mg>
   </e>
@@ -491,11 +501,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>us (du.)</t>
+        <t pos="Pron">us (du.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>meitä (du.)</t>
+        <t pos="Pron">meitä (du.)</t>
       </tg>
     </mg>
   </e>
@@ -513,11 +523,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>you (du.)</t>
+        <t pos="Pron">you (du.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>teitä (du.)</t>
+        <t pos="Pron">teitä (du.)</t>
       </tg>
     </mg>
   </e>
@@ -535,11 +545,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>them (du.)</t>
+        <t pos="Pron">them (du.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>heitä (du.)</t>
+        <t pos="Pron">heitä (du.)</t>
       </tg>
     </mg>
 
@@ -559,11 +569,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>us (pl.)</t>
+        <t pos="Pron">us (pl.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>meitä (pl.)</t>
+        <t pos="Pron">meitä (pl.)</t>
       </tg>
     </mg>
 
@@ -583,11 +593,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>you (pl.)</t>
+        <t pos="Pron">you (pl.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>teitä (pl.)</t>
+        <t pos="Pron">teitä (pl.)</t>
       </tg>
     </mg>
 
@@ -607,11 +617,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>them (pl.)</t>
+        <t pos="Pron">them (pl.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>heitä (pl.)</t>
+        <t pos="Pron">heitä (pl.)</t>
       </tg>
     </mg>
 
@@ -631,11 +641,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>where</t>
+        <t pos="Pron">where</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>missä</t>
+        <t pos="Pron">missä</t>
       </tg>
     </mg>
 
@@ -655,11 +665,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>here</t>
+        <t pos="Pron">here</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>täällä</t>
+        <t pos="Pron">täällä</t>
       </tg>
     </mg>
 
@@ -679,11 +689,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>there</t>
+        <t pos="Pron">there</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>siellä</t>
+        <t pos="Pron">siellä</t>
       </tg>
     </mg>
 
@@ -703,11 +713,15 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>where (to), whither</t>
+        <t pos="Pron">where to</t>
+
+        <t pos="Pron">where</t>
+
+        <t pos="Pron">whither</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mihin</t>
+        <t pos="Pron">mihin</t>
       </tg>
     </mg>
 
@@ -727,11 +741,15 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>where (to), whither</t>
+        <t pos="Pron">where to</t>
+
+        <t pos="Pron">where</t>
+
+        <t pos="Pron">whither</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mihin</t>
+        <t pos="Pron">mihin</t>
       </tg>
     </mg>
 
@@ -751,11 +769,15 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>where (from), whence</t>
+        <t pos="Pron">where from</t>
+
+        <t pos="Pron">where</t>
+
+        <t pos="Pron">whence</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mistä</t>
+        <t pos="Pron">mistä</t>
       </tg>
     </mg>
 
@@ -779,7 +801,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t>mones</t>
+        <t pos="Pron">mones</t>
       </tg>
     </mg>
 
@@ -799,11 +821,15 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>where (from), whence</t>
+        <t pos="Pron">where from</t>
+
+        <t pos="Pron">where</t>
+
+        <t pos="Pron">whence</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mistä</t>
+        <t pos="Pron">mistä</t>
       </tg>
     </mg>
 
@@ -824,11 +850,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>this</t>
+        <t pos="Pron">this</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>se</t>
+        <t pos="Pron">se</t>
       </tg>
     </mg>
 
@@ -848,11 +874,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>that</t>
+        <t pos="Pron">that</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>tämä</t>
+        <t pos="Pron">tämä</t>
       </tg>
     </mg>
 
@@ -872,11 +898,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>that</t>
+        <t pos="Pron">that</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>tämä</t>
+        <t pos="Pron">tämä</t>
       </tg>
     </mg>
 
@@ -896,11 +922,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>most</t>
+        <t pos="Pron">most</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kaikkein</t>
+        <t pos="Pron">kaikkein</t>
       </tg>
     </mg>
 
@@ -920,11 +946,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>I (1Sg.)</t>
+        <t pos="Pron">I (1Sg.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>minä (1Sg.)</t>
+        <t pos="Pron">minä (1Sg.)</t>
       </tg>
     </mg>
 
@@ -944,11 +970,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>you (2Sg.)</t>
+        <t pos="Pron">you (2Sg.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>sinä (2Sg.)</t>
+        <t pos="Pron">sinä (2Sg.)</t>
       </tg>
     </mg>
 
@@ -968,11 +994,17 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>he, she, it (3Sg.)</t>
+        <t pos="Pron">he</t>
+
+        <t pos="Pron">she</t>
+
+        <t pos="Pron">it</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hän, se (3Sg.)</t>
+        <t pos="Pron">hän</t>
+
+        <t pos="Pron">se</t>
       </tg>
     </mg>
 
@@ -992,11 +1024,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>we (1Pl.)</t>
+        <t pos="Pron">we (1Pl.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>me (1Pl.)</t>
+        <t pos="Pron">me (1Pl.)</t>
       </tg>
     </mg>
 
@@ -1016,11 +1048,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>you (2Pl.)</t>
+        <t pos="Pron">you (2Pl.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>te (2Pl.)</t>
+        <t pos="Pron">te (2Pl.)</t>
       </tg>
     </mg>
 
@@ -1040,11 +1072,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>they (3Pl.)</t>
+        <t pos="Pron">they (3Pl.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>he (3Pl.)</t>
+        <t pos="Pron">he (3Pl.)</t>
       </tg>
     </mg>
 
@@ -1064,11 +1096,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>we (1Du.)</t>
+        <t pos="Pron">we (1Du.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>me (1Du.)</t>
+        <t pos="Pron">me (1Du.)</t>
       </tg>
     </mg>
   </e>
@@ -1086,11 +1118,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>you (2Du.)</t>
+        <t pos="Pron">you (2Du.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>te (2Du.)</t>
+        <t pos="Pron">te (2Du.)</t>
       </tg>
     </mg>
   </e>
@@ -1108,11 +1140,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>they (3Du.)</t>
+        <t pos="Pron">they (3Du.)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>he (3Du.)</t>
+        <t pos="Pron">he (3Du.)</t>
       </tg>
     </mg>
   </e>
@@ -1130,11 +1162,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>own</t>
+        <t pos="Pron">own</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>oma</t>
+        <t pos="Pron">oma</t>
       </tg>
     </mg>
   </e>
@@ -1152,11 +1184,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>own</t>
+        <t pos="Pron">own</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>oma</t>
+        <t pos="Pron">oma</t>
       </tg>
     </mg>
   </e>
@@ -1174,11 +1206,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>every</t>
+        <t pos="Pron">every</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>joka</t>
+        <t pos="Pron">joka</t>
       </tg>
     </mg>
   </e>
@@ -1196,11 +1228,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>every</t>
+        <t pos="Pron">every</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>joka</t>
+        <t pos="Pron">joka</t>
       </tg>
     </mg>
   </e>
@@ -1218,11 +1250,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t>which</t>
+        <t pos="Pron">which</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kumpi</t>
+        <t pos="Pron">kumpi</t>
       </tg>
     </mg>
 
