@@ -8,80 +8,88 @@ LEXICON POSTP_ABS
 POSTP_VOW ;
 
 LEXICON POSTP_VOW
-+Po+PxSg1: н ;
-+Po+PxSg2: нд ;
-+Po+PxSg3: нда ;
-+Po+PxDu1: ниʼ ;
-+Po+PxDu2: ндиʼ ;
-+Po+PxDu3: ндиʼ ;
-+Po+PxPl1: наˮ ;
-+Po+PxPl2: даˮ ;
-+Po+PxPl3: ндоʼ ;
++Po: AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+!+Po+PxSg1: н ;
+!+Po+PxSg2: нд ;
+!+Po+PxSg3: нда ;
+!+Po+PxDu1: ниʼ ;
+!+Po+PxDu2: ндиʼ ;
+!+Po+PxDu3: ндиʼ ;
+!+Po+PxPl1: наˮ ;
+!+Po+PxPl2: даˮ ;
+!+Po+PxPl3: ндоʼ ;
 
 LEXICON POSTP_DAT
-+Po+Abs: ʼ K ;
++Po+Dat:ʼ K ;
 :а POSTP_VOW ;
 
 LEXICON POSTP_LOC
-+Po+Abs: на K ;
-+Po+PxSg1: нан ;
-+Po+PxSg1: нани ;
-+Po+PxSg2: нанд ;
-+Po+PxSg3: нанда ;
-+Po+PxDu1: наниʼ ;
-+Po+PxDu2: нандиʼ ;
-+Po+PxDu3: нандиʼ ;
-+Po+PxPl1: нанаˮ ;
-+Po+PxPl2: нандаˮ ;
-+Po+PxPl3: нандоʼ ;
++Po+Loc:на K ;
++Po+Loc:на AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+
+!+Po+PxSg1: нан ;
+!+Po+PxSg1: нани ;
+!+Po+PxSg2: нанд ;
+!+Po+PxSg3: нанда ;
+!+Po+PxDu1: наниʼ ;
+!+Po+PxDu2: нандиʼ ;
+!+Po+PxDu3: нандиʼ ;
+!+Po+PxPl1: нанаˮ ;
+!+Po+PxPl2: нандаˮ ;
+!+Po+PxPl3: нандоʼ ;
 
 LEXICON POSTP_LOC-Pal/Var
-+Po+Abs: ня K ;
-+Po+PxSg1: нян ;
-+Po+PxSg2: нянд ;
-+Po+PxSg3: нянда ;
-+Po+PxDu1: няниʼ ;
-+Po+PxDu2: няндиʼ ;
-+Po+PxDu3: няндиʼ ;
-+Po+PxPl1: нянаˮ ;
-+Po+PxPl2: няндаˮ ;
-+Po+PxPl3: няндоʼ ;
++Po+Loc:ня K ;
++Po+Loc:ня AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+!+Po+PxSg1: нян ;
+!+Po+PxSg2: нянд ;
+!+Po+PxSg3: нянда ;
+!+Po+PxDu1: няниʼ ;
+!+Po+PxDu2: няндиʼ ;
+!+Po+PxDu3: няндиʼ ;
+!+Po+PxPl1: нянаˮ ;
+!+Po+PxPl2: няндаˮ ;
+!+Po+PxPl3: няндоʼ ;
 
 LEXICON POSTP_ABL
-+Po+Abs: д K ;
-+Po+PxSg1: дан ;
-+Po+PxSg2: данд ;
-+Po+PxSg3: данда ;
-+Po+PxDu1: даниʼ ;
-+Po+PxDu2: дандиʼ ;
-+Po+PxDu3: дандиʼ ;
-+Po+PxPl1: данаˮ ;
-+Po+PxPl2: дандаˮ ;
-+Po+PxPl3: дандоʼ ;
++Po+Abl:д K ;
++Po+Abl:да AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+!+Po+PxSg1: дан ;
+!+Po+PxSg2: данд ;
+!+Po+PxSg3: данда ;
+!+Po+PxDu1: даниʼ ;
+!+Po+PxDu2: дандиʼ ;
+!+Po+PxDu3: дандиʼ ;
+!+Po+PxPl1: данаˮ ;
+!+Po+PxPl2: дандаˮ ;
+!+Po+PxPl3: дандоʼ ;
 
 LEXICON POSTP_PROS
-+Po+Abs: мна K ;
-+Po+PxSg1: мнан ;
-+Po+PxSg2: мнанд ;
-+Po+PxSg3: мнанда ;
-+Po+PxDu1: мнаниʼ ;
-+Po+PxDu2: мнандиʼ ;
-+Po+PxDu3: мнандиʼ ;
-+Po+PxPl1: мнанаˮ ;
-+Po+PxPl2: мнандаˮ ;
-+Po+PxPl3: мнандоʼ ;
++Po+Pros:мна K ;
++Po+Pros:мна AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+!+Po+PxSg1: мнан ;
+!+Po+PxSg2: мнанд ;
+!+Po+PxSg3: мнанда ;
+!+Po+PxDu1: мнаниʼ ;
+!+Po+PxDu2: мнандиʼ ;
+!+Po+PxDu3: мнандиʼ ;
+!+Po+PxPl1: мнанаˮ ;
+!+Po+PxPl2: мнандаˮ ;
+!+Po+PxPl3: мнандоʼ ;
 
 LEXICON POSTP_PROS-Pal/Var
-+Po+Abs: мня K ;
-+Po+PxSg1: мнян ;
-+Po+PxSg2: мнянд ;
-+Po+PxSg3: мнянда ;
-+Po+PxDu1: мняниʼ ;
-+Po+PxDu2: мняндиʼ ;
-+Po+PxDu3: мняндиʼ ;
-+Po+PxPl1: мнянаˮ ;
-+Po+PxPl2: мняндаˮ ;
-+Po+PxPl3: мняндоʼ ;
++Po+Pros:мня K ;
++Po+Pros:мня AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+
+!+Po+PxSg1: мнян ;
+!+Po+PxSg2: мнянд ;
+!+Po+PxSg3: мнянда ;
+!+Po+PxDu1: мняниʼ ;
+!+Po+PxDu2: мняндиʼ ;
+!+Po+PxDu3: мняндиʼ ;
+!+Po+PxPl1: мнянаˮ ;
+!+Po+PxPl2: мняндаˮ ;
+!+Po+PxPl3: мняндоʼ ;
 
 ! vim: set ft=xfst-lexc:
 
