@@ -14100,7 +14100,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">tarttumisväline, esim. pihdit</t>
+        <tCtn>
+          <t pos="N">tarttumisväline</t>
+
+          <re>pihdit</re>
+        </tCtn>
 
         <t pos="N">haukkari</t>
       </tg>
