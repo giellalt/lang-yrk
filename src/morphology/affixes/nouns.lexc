@@ -285,17 +285,20 @@ LEXICON N_ТЁН  !!= @CODE@ тёня:тёня 20 ProsSg -вна
 +N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 +N: POSSESSA-DUAL ;
 
-LEXICON N_ПИСЬ  !!= @CODE@ пися: 21 ProsSg -вна
+LEXICON N_ПИСЬ 
++N: NMN_ПИСЬ ;
+
+LEXICON NMN_ПИСЬ !!= @CODE@ пися: 21 ProsSg -вна
 !! /total=10/
 !! пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
-+N: SGDATSUF ;
-+N: SG-ACC-STEM	;
-+N:  SG-NOM-STEM ;
-+N: SGPROSSUF ;
-+N: PLNOMSUF ;
-+N: PLACCSUF_Minus ;
-+N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
-+N: POSSESSA-DUAL ;
+ SGDATSUF ;
+ SG-ACC-STEM	;
+  SG-NOM-STEM ;
+ SGPROSSUF ;
+ PLNOMSUF ;
+ PLACCSUF_Minus ;
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
 
 LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 ProsSg -вна
 !! /total=1/
