@@ -8737,7 +8737,7 @@
       <l pos="A">сибя</l>
 
       <stg>
-        <st Contlex="A_ТЁН">сибя</st>
+        <st Contlex="A_ӇОДИ">сибя</st>
       </stg>
     </lg>
 
@@ -15968,6 +15968,64 @@
         <t pos="A">pysyvä</t>
 
         <t pos="A">katkeematon</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈэли</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">ӈэли</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">toinen</t>
+
+        <t pos="A">kummallinnen</t>
+
+        <t pos="A">vieras</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈэрёй</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ӈэрёй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">syksyinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈэрмний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ӈэрмний</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pohjoinen</t>
       </tg>
     </mg>
   </e>
