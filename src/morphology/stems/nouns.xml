@@ -15,9 +15,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">butterfly</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">perhonen</t>
       </tg>
@@ -55,9 +57,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">August</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">elokuu</t>
       </tg>
@@ -75,9 +79,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">bus</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">bussi</t>
       </tg>
@@ -95,9 +101,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">machine gun</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">konepistooli</t>
       </tg>
@@ -115,9 +123,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">address</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">osoite</t>
       </tg>
@@ -153,9 +163,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">alphabet</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">aakkoset</t>
       </tg>
@@ -524,6 +536,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="CONSTRUCTION"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="eng">
@@ -535,7 +551,17 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="N">(reistä tehty poro)aitaus</t>
+        <tCtn>
+          <t pos="N">aitaus</t>
+
+          <re>reistä tehty</re>
+        </tCtn>
+
+        <tCtn>
+          <t pos="N">poroaitaus</t>
+
+          <re>reistä tehty</re>
+        </tCtn>
 
         <t pos="N">karsina</t>
       </tg>
@@ -4202,6 +4228,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="ANIMAL_WILD"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="eng">
@@ -4210,7 +4240,15 @@
 
       <tg xml:lang="fin">
         <t pos="N">villipeura</t>
+      </tg>
+    </mg>
 
+    <mg>
+      <semantics>
+        <sem class="CONSTRUCTION"/>
+      </semantics>
+
+      <tg xml:lang="fin">
         <t pos="N">asunto</t>
       </tg>
     </mg>
@@ -4249,7 +4287,7 @@
       <tg xml:lang="fin">
         <t pos="N">omaisuus</t>
 
-        <t pos="N">rikkuus</t>
+        <t pos="N">rikkaus</t>
       </tg>
     </mg>
   </e>
@@ -4498,6 +4536,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="PEOPLE"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
@@ -4538,6 +4580,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="FAMILY"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
@@ -4636,6 +4682,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="mMONTH"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
@@ -4654,6 +4704,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="mMONTH"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
@@ -4842,6 +4896,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="SOUND"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
@@ -5370,6 +5428,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="SOUND"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
@@ -5556,6 +5618,10 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="ANIMAL_OTHER"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
@@ -6235,8 +6301,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">väline jota käytetään rasvaisten astioiden pesuun (riekale,
-        ruoho, paperi tms)</t>
+        <te pos="N">väline jota käytetään rasvaisten astioiden pesuun
+        (riekale, ruoho, paperi tms)</te>
       </tg>
     </mg>
   </e>
@@ -8510,7 +8576,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(hiekka)ranta</t>
+        <t pos="N">ranta</t>
+
+        <t pos="N">hiekkaranta</t>
       </tg>
     </mg>
   </e>
@@ -20404,7 +20472,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(puu)halko</t>
+        <t pos="N">halko</t>
+
+        <t pos="N">puuhalko</t>
       </tg>
     </mg>
   </e>
@@ -23213,7 +23283,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(poro)</t>
+        <t pos="N">(poro)???</t>
       </tg>
     </mg>
   </e>
@@ -32533,7 +32603,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(poron) raato</t>
+        <t pos="N">raato</t>
+
+        <t pos="N">poronraato</t>
       </tg>
     </mg>
   </e>
@@ -33540,7 +33612,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(linnun)poikanen</t>
+        <t pos="N">poikanen</t>
+
+        <t pos="N">linnunpoikanen</t>
       </tg>
     </mg>
   </e>
@@ -33576,7 +33650,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">(linnun)poikanen</t>
+        <t pos="N">poikanen</t>
+
+        <t pos="N">linnunpoikanen</t>
       </tg>
     </mg>
   </e>
@@ -36019,12 +36095,16 @@
     </lg>
 
     <mg>
+      <semantics>
+        <sem class="ANIMAL_OTHER"/>
+      </semantics>
+
       <defNative/>
 
       <tg xml:lang="fin">
         <t pos="N">etukäpälä</t>
 
-        <t pos="N">(eläimen) etujalka</t>
+        <t pos="N">etujalka</t>
       </tg>
     </mg>
   </e>
@@ -37398,7 +37478,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">kevätleiri (jäänmenon jälkeen)</t>
+        <tCtn>
+          <t pos="N">kevätleiri</t>
+
+          <re>jäänmenon jälkeen</re>
+        </tCtn>
       </tg>
     </mg>
   </e>
@@ -38288,7 +38372,13 @@
         <t pos="N">kävelytapa</t>
 
         <t pos="N">käynti</t>
+      </tg>
+    </mg>
 
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
         <t pos="N">siirto (pelissä)</t>
       </tg>
     </mg>
@@ -42611,9 +42701,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">scissors</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">sakset</t>
       </tg>
@@ -42631,9 +42723,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">courter</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">kosija</t>
       </tg>
@@ -42691,9 +42785,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">alm</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">almu</t>
 
@@ -42757,9 +42853,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">defense</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">puolustus</t>
       </tg>
@@ -42861,10 +42959,13 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">channel</t>
+
         <t pos="N">canal</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">kanava</t>
 
@@ -42884,9 +42985,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">dowry</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">myötäjäiset</t>
       </tg>
@@ -42980,9 +43083,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">appearance</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">ulkonäkö</t>
       </tg>
@@ -43044,9 +43149,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">fly</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">kärpänen</t>
       </tg>
@@ -43064,9 +43171,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">fly</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">kärpänen</t>
       </tg>
@@ -43144,10 +43253,13 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">autumn</t>
+
         <t pos="N">fall</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">syksy</t>
       </tg>
@@ -43223,9 +43335,11 @@
 
     <mg>
       <defNative/>
+
       <tg xml:lang="eng">
         <t pos="N">village</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="N">kylä</t>
       </tg>
