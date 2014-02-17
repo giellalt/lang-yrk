@@ -1,0 +1,87 @@
+
+!! Adposition inflection
+!! ---------------
+!! Nenets adpositions inflect in person (and some in local cases).
+
+LEXICON POSTP_ABS
++Adp+Abs: K ;
+POSTP_VOW ;
+
+LEXICON POSTP_VOW
++Adp+PxSg1: н ;
++Adp+PxSg2: нд ;
++Adp+PxSg3: нда ;
++Adp+PxDu1: ниʼ ;
++Adp+PxDu2: ндиʼ ;
++Adp+PxDu3: ндиʼ ;
++Adp+PxPl1: наˮ ;
++Adp+PxPl2: даˮ ;
++Adp+PxPl3: ндоʼ ;
+
+LEXICON POSTP_DAT
++Adp+Abs: ʼ K ;
+:а POSTP_VOW ;
+
+LEXICON POSTP_LOC
++Adp+Abs: на K ;
++Adp+PxSg1: нан ;
++Adp+PxSg1: нани ;
++Adp+PxSg2: нанд ;
++Adp+PxSg3: нанда ;
++Adp+PxDu1: наниʼ ;
++Adp+PxDu2: нандиʼ ;
++Adp+PxDu3: нандиʼ ;
++Adp+PxPl1: нанаˮ ;
++Adp+PxPl2: нандаˮ ;
++Adp+PxPl3: нандоʼ ;
+
+LEXICON POSTP_LOC-Pal/Var
++Adp+Abs: ня K ;
++Adp+PxSg1: нян ;
++Adp+PxSg2: нянд ;
++Adp+PxSg3: нянда ;
++Adp+PxDu1: няниʼ ;
++Adp+PxDu2: няндиʼ ;
++Adp+PxDu3: няндиʼ ;
++Adp+PxPl1: нянаˮ ;
++Adp+PxPl2: няндаˮ ;
++Adp+PxPl3: няндоʼ ;
+
+LEXICON POSTP_ABL
++Adp+Abs: д K ;
++Adp+PxSg1: дан ;
++Adp+PxSg2: данд ;
++Adp+PxSg3: данда ;
++Adp+PxDu1: даниʼ ;
++Adp+PxDu2: дандиʼ ;
++Adp+PxDu3: дандиʼ ;
++Adp+PxPl1: данаˮ ;
++Adp+PxPl2: дандаˮ ;
++Adp+PxPl3: дандоʼ ;
+
+LEXICON POSTP_PROS
++Adp+Abs: мна K ;
++Adp+PxSg1: мнан ;
++Adp+PxSg2: мнанд ;
++Adp+PxSg3: мнанда ;
++Adp+PxDu1: мнаниʼ ;
++Adp+PxDu2: мнандиʼ ;
++Adp+PxDu3: мнандиʼ ;
++Adp+PxPl1: мнанаˮ ;
++Adp+PxPl2: мнандаˮ ;
++Adp+PxPl3: мнандоʼ ;
+
+LEXICON POSTP_PROS-Pal/Var
++Adp+Abs: мня K ;
++Adp+PxSg1: мнян ;
++Adp+PxSg2: мнянд ;
++Adp+PxSg3: мнянда ;
++Adp+PxDu1: мняниʼ ;
++Adp+PxDu2: мняндиʼ ;
++Adp+PxDu3: мняндиʼ ;
++Adp+PxPl1: мнянаˮ ;
++Adp+PxPl2: мняндаˮ ;
++Adp+PxPl3: мняндоʼ ;
+
+! vim: set ft=xfst-lexc:
+
