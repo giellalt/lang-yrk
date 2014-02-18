@@ -1485,7 +1485,10 @@ LEXICON V-01_САС-REFL !! V_refl 2013-03-04
  IND-AOR-RCPL3 	;
 
 LEXICON V-01_ТИР  !!= @CODE@
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
++Ind00@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
++Ind@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
++Ind@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
+
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
@@ -2319,11 +2322,12 @@ LEXICON V_Mod/rep-Refl
 +Mod/rep:%>%{вм%}ана MUTUAL-PERSON-REFL ; ! вана vs вна
 
 LEXICON V_Mod/des
-+Mod/des:%>рва MUTUAL-PERSON ;
++Mod/des:%>рва MUTUAL-PERSON-NON-OCPL_NORAISING ;
++Mod/des:%>рби MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/des_РАВА
 +Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; !!= * __@CODE@__ Sg3 and Pl3
-+Mod/des:%>рава MUTUAL-PERSON-OCPL_NORAISING ;
++Mod/des:%>раби MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/des-Refl
 +Mod/des:%>рби MUTUAL-PERSON-REFL ;
@@ -2344,9 +2348,11 @@ LEXICON V_Mod/sup-Refl
 +Mod/sup:%>%{вм%}анӈгаби MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/hyp
-+Mod/hyp:%>рхавэ MUTUAL-PERSON ;
++Mod/hyp:%>рхавэ MUTUAL-PERSON ; !!for non-even syllable stems
++Mod/hyp:%>рахавэ MUTUAL-PERSON ; !!for even syllable stems
 
 LEXICON V_Mod/hyp-Refl
++Mod/hyp:%>рхавэ MUTUAL-PERSON-REFL ;
 +Mod/hyp:%>рахавэ MUTUAL-PERSON-REFL ;
 
 LEXICON V_Mod/perfprob
