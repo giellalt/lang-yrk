@@ -11,11 +11,13 @@ LEXICON nouns
 алфавит:алфавит N_ЕД-RUS  "aakkoset" ;
 алюминий:алюминий N_ЕД-RUS  "alumiini" ;
 анкета:анкета N_МАРАӇГЫ-RUS  "kyselylomake" ;
+апельсин:апельсин N_ЕД-RUS  "appelsiini" ;
 апрель:апрель N_ЕД-RUS  "huhtikuu" ;
 аптека:аптека N_МАРАӇГЫ-RUS  "apteekki" ;
 арифметика:арифметика N_МАРАӇГЫ-RUS  "aritmetiikka" ;
 армия:армия N_ӇУДИ-RUS  "armeija" ;
 ас:ас N_ЕД  "lammas" ;
+атлас:атлас N_ЕД-RUS  "atlas" ;
 аэропорт:аэропорт N_ЕД-RUS  "lentoasema" ;
 банка:банка N_МАРАӇГЫ-RUS  "purkki" ;
 барабан:барабан N_ЕД-RUS  "rumpu" ;
@@ -327,6 +329,7 @@ LEXICON nouns
 лидяӈг:лидяӈг N_ЕД  "majava" ;
 лимбика:лимбика N_МАРАӇГЫ  "naistenhatun lieve" ;
 лимбя:лимбя N_ТЁН  "kotka" ;
+лимон:лимон N_ЕД-RUS  "sitruuna" ;
 литра:литра N_ӇУДИ  "litra" ;
 лорца:лорца N_ХОБ  "kumpu" ;
 лорцак:лорцак N_ЕД  "mätäs" ;
@@ -1053,8 +1056,8 @@ LEXICON nouns
 пыря:пыря N_ӇОДИ  "hauki" ;
 пыса:пыса N_ӇУДИ  "ihmettely" ;
 пыса:пуса N_ӇУДИ  "ihmettely" ;
-пысабцо:пусабцо N_ӇАНУ  "yllätys" ;
 пысабцо:пысабцо N_ӇАНУ  "yllätys" ;
+пысабцо:пусабцо N_ӇАНУ  "yllätys" ;
 пыхыд:пыд N_ЕД  "vartalo" ;
 пыхыд:пыхыд N_ЕД  "vartalo" ;
 пыя:пыя N_ӇОДИ/ПИСЬ  "nenä" ;
@@ -1095,8 +1098,14 @@ LEXICON nouns
 пятабцьʼ:пятабць N_ЁЛЬЦЕ  "18-20 m pitkä salko verkon jään alle asennusta varten" ;
 пяяха:пяяха N_МАРАӇГЫ  "puun tuoksu" ;
 пяӈгуй:пяӈгуй N_ЕД  "vihollinen" ;
+радио:радио N_ӇЭ-RUS  "radio" ;
 райна:райна N_ӇУДИ-RUS  "puomi" ;
+район:район N_ЕД-RUS  "piiri" ;
 реска:реска N_МАРАӇГЫ  "kakkara" ;
+республика:республика N_МАРАӇГЫ  "tasavalta" ;
+рецепт:рецепт N_ЕД-RUS  "resepti" ;
+рожь:рожь N_ЕД-RUS  "ruis" ;
+роза:роза N_ӇУДИ-RUS  "ruusu" ;
 са:са N_Ё  "vetohihna" ;
 саб:саб N_ЕД/ХАНО  "panos" ;
 сабарˮ:сабар N_ВАР  "kuoppa" ;
@@ -1276,6 +1285,7 @@ LEXICON nouns
 сумна:сымна N_ӇУДИ  "tomahdus" ;
 сую:сую N_ӇЭ  "vasa" ;
 суюндаӈголава:суюндаӈголава N_ӇУДИ  "porojen poikimispaikka" ;
+съезд:съезд N_ЕД-RUS  "kokous" ;
 сыˮнабтˮ:сыˮнабт N_МЯДО  "jarru" ;
 сыˮӈараˮма:сыˮӈараˮма N_ӇУДИ  "jarru" ;
 сыв:сыв N_ЕД  "talvi" ;
@@ -1440,6 +1450,7 @@ LEXICON nouns
 танзер:танзер N_ЕД  "lumipyry" ;
 танзерˮ:танзер N_ВАР  "maanpinnan lähellä kulkeva tuisku" ;
 танзерˮ:танзер N_ТАРЕ  "sinerrys" ;
+танк:танк N_ЕД-RUS  "panssarivaunu" ;
 таныˮ:таны N_МЯДО  "nousuhetki" ;
 таныˮ:таны N_МЯДО  "astunta" ;
 танырцьʼ:танырць N_ЁЛЬЦЕ  "ajokoira" ;
@@ -1448,6 +1459,7 @@ LEXICON nouns
 тарабцо:тарабцо N_ӇАНУ  "tanssi" ;
 тарабцо:тарабцо N_ӇАНУ  "tarve" ;
 тарабцьʼ:тарабць N_ЁЛЬЦЕ  "tarve" ;
+таракан:таракан N_ЕД-RUS  "torakka" ;
 тарбяв:тарбяв N_ЕД  "isolokki" ;
 тарензьʼ:тарензь N_ЁЛЬЦЕ  "suovilla" ;
 тарка:тарка N_ӇУДИ/ХОБ  "oksa" ;
@@ -1478,6 +1490,8 @@ LEXICON nouns
 тебыˮ:тебы N_МЯДО  "osuman hetki" ;
 тедˮма:тедˮма N_ӇУДИ  "vedestä ulostulon paikka" ;
 теднорцьʼ:теднорць N_ЁЛЬЦЕ  "puuhaarukka" ;
+телевизор:телевизор N_ЕД-RUS  "televisio" ;
+телефон:телефон N_ЕД-RUS  "puhelin" ;
 тен:тен N_ЕД  "muisti" ;
 тенˮла:тенˮла N_ӇУДИ  "hyvämuistinen kansanrunoilija" ;
 тенад:тенад N_ЕД  "muistelma" ;
@@ -1486,6 +1500,7 @@ LEXICON nouns
 тер:тер N_ЕД  "sisältö" ;
 терва:терва N_ХОБ  "sormien välinen mitta" ;
 терензя:терензя N_ӇОДИ  "pieni kynsi" ;
+термометр:термометр N_ЕД-RUS  "muumemittari" ;
 теря:теря N_ӇОДИ  "verkkokäpy" ;
 тетецьʼ:тетець N_ЁЛЬЦЕ  "neljäs poro neljän poron valjakossa" ;
 тетимдаˮма:тетимдаˮма N_ӇУДИ  "neljännesosa" ;
@@ -1495,13 +1510,14 @@ LEXICON nouns
 тибя:тибя N_ӇОДИ  "syli (pituusmitta)" ;
 тивак:тивак N_ЕД  "keuhko" ;
 тивтей:тивтей N_ХУСУВЭЙ  "mursu" ;
+тигр:тигр N_ЕД-RUS  "tiikeri" ;
 тид:тид N_ЕД  "kateus" ;
 тид:тид N_ЕД/ТИРЕ  "varjo" ;
 тидабцо:тидабцо N_ӇАНУ  "kateuden aihe" ;
 тидя:тидя N_ТЁН  "eno" ;
 тилтюй:тилтюй N_ЕД  "lyhytsarvinen nuori urosporo" ;
 тилюй:тилюй N_ЕД  "lyhytsarvinen nuori urosporo" ;
-тимдˮма:мдˮма N_ӇУДИ  "hapate" ;
+тимдˮма:тимдˮма N_ӇУДИ  "hapate" ;
 тин:тин N_ТИРЕ/ХАНО  "aitta" ;
 тир:тир N_ТИРЕ  "pilvi" ;
 тирˮ:тир N_ТАРЕ  "pinta" ;
