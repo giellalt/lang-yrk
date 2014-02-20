@@ -1090,7 +1090,7 @@ LEXICON V-01_ХАДА
  
 LEXICON V-01_ХАДА-REFL !! V_refl 
 :%^VowFronting V_IND-Refl ;
-: %^VowFronting V_IND-Refl-PRT1 ;
+:%^VowFronting V_IND-Refl-PRT1 ;
  V_PREC ;
  V_Hort-Refl ;
  V_Imprt-Refl ;
@@ -2283,7 +2283,7 @@ LEXICON V_Mod/narr
 
 LEXICON V_Mod/narr-Refl
 +Mod/narr+Aor:%>%{вм%}э MUTUAL-PERSON-REFL ; 
-+Mod/narr:%>%{вм%}Ы2 MUTUAL-PRT1-REFL-PERSON ;
++Mod/narr:%>%{вм%}э MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
 +Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
@@ -2864,7 +2864,7 @@ LEXICON MUTUAL-RCDU1
 LEXICON MUTUAL-RCDU2
 +RcDu2:%>диʼ K ;
 LEXICON MUTUAL-RCDU3
-+RcDu3:%>хА1ʼ K ; ! А1:ы is needed but elsewhere А1:а
++RcDu3:%>х%{ауоэØ%}ʼ K ; ! А1:ы is needed but elsewhere А1:а
 LEXICON MUTUAL-RCPL1
 +RcPl1:%>наˮ K ;
 LEXICON MUTUAL-RCPL2
@@ -2895,7 +2895,7 @@ LEXICON MUTUAL-PRT1-RCDU1
 LEXICON MUTUAL-PRT1-RCDU2
 +Prt1+RcDu2:%>динзь K ;
 LEXICON MUTUAL-PRT1-RCDU3
-+Prt1+RcDu3:%>хА1нзь K ; !+Mod/prob = хэнзь +Mod/narr = ханзь
++Prt1+RcDu3:%>х%{ауоэØ%}нзь K ; !+Mod/prob = хэнзь +Mod/narr = ханзь
 LEXICON MUTUAL-PRT1-RCPL1
 +Prt1+RcPl1:%>наць K ;
 LEXICON MUTUAL-PRT1-RCPL2
