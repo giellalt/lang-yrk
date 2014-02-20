@@ -2201,9 +2201,9 @@ LEXICON V_Hort-Obj
 !+Hort+ScPl1+OcPl3:%>ханаˮ K ;
 
 LEXICON V_Hort-Refl
-+Hort:%>ха MUTUAL-RCSG1 ;
-+Hort:%>ха MUTUAL-RCDU1 ;
-+Hort:%>ха MUTUAL-RCPL1 ;
++Hort:%>х%{ауоэØ%} MUTUAL-RCSG1 ;
++Hort:%>х%{ауоэØ%} MUTUAL-RCDU1 ;
++Hort:%>х%{ауоэØ%} MUTUAL-RCPL1 ;
 
 LEXICON V_PREC !!= * __@CODE@__ Hort
 +Prec+Hort:%>харця MUTUAL-SG1 ;
@@ -2266,8 +2266,8 @@ LEXICON V_Opt-Obj
 
 LEXICON V_Opt-Refl
 +Opt+RcSg3:%>ямдˮ K ;
-+Opt+RcDu3:%>яхамдˮ K ;
-+Opt+RcPl3:%>ядамдˮ K ;
++Opt+RcDu3:%>йхамдˮ K ;
++Opt+RcPl3:%>йдамдˮ K ;
 
 LEXICON V_Mod/nec
 +Mod/nec:%>бцу MUTUAL-PERSON ;
@@ -2895,7 +2895,7 @@ LEXICON MUTUAL-PRT1-RCDU1
 LEXICON MUTUAL-PRT1-RCDU2
 +Prt1+RcDu2:%>динзь K ;
 LEXICON MUTUAL-PRT1-RCDU3
-+Prt1+RcDu3:%>х%{ауоэØ%}нзь K ; !+Mod/prob = хэнзь +Mod/narr = ханзь
++Prt1+RcDu3:%>х%{ауоэØ%}нзь K ; !!+Mod/prob = хэнзь +Mod/narr = ханзь
 LEXICON MUTUAL-PRT1-RCPL1
 +Prt1+RcPl1:%>наць K ;
 LEXICON MUTUAL-PRT1-RCPL2
