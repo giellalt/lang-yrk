@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - хадась: # Verb 'to kill' - partial paradigm
+  Verb - хадась: # Verb 'to kill' - full paradigm
      хадась+V+TV+Ind+Aor+ScSg1: хададмʼ
      хадась+V+TV+Ind+Aor+ScSg2: хадан
      хадась+V+TV+Ind+Aor+ScSg3: хада
@@ -528,7 +528,34 @@ Tests:
      хадась+V+TV+Mod/appr+Prt1+ScDu3: хаданархаханзь
      хадась+V+TV+Mod/appr+Prt1+ScPl1: хаданархаваць
      хадась+V+TV+Mod/appr+Prt1+ScPl2: хаданархадаць
-     хадась+V+TV+Mod/appr+Prt1+ScPl3: хаданархаць       
+     хадась+V+TV+Mod/appr+Prt1+ScPl3: хаданархаць  
+     хадась+V+TV+Mod/appr+Prt1+ScSg1+OcSg3: хаданархавась
+     хадась+V+TV+Mod/appr+Prt1+ScSg2+OcSg3: хаданархарась
+     хадась+V+TV+Mod/appr+Prt1+ScSg3+OcSg3: хаданархадась
+     хадась+V+TV+Mod/appr+Prt1+ScDu1+OcSg3: хаданархаминзь
+     хадась+V+TV+Mod/appr+Prt1+ScDu2+OcSg3: хаданархаринзь
+     хадась+V+TV+Mod/appr+Prt1+ScDu3+OcSg3: хаданархадинзь
+     хадась+V+TV+Mod/appr+Prt1+ScPl1+OcSg3: хаданархаваць
+     хадась+V+TV+Mod/appr+Prt1+ScPl2+OcSg3: хаданархараць
+     хадась+V+TV+Mod/appr+Prt1+ScPl3+OcSg3: хаданархадонзь
+     хадась+V+TV+Mod/appr+Prt1+ScSg1+OcDu3: хаданархахаюнась
+     хадась+V+TV+Mod/appr+Prt1+ScSg2+OcDu3: хаданархахаюдась
+     хадась+V+TV+Mod/appr+Prt1+ScSg3+OcDu3: хаданархахаюдась
+     хадась+V+TV+Mod/appr+Prt1+ScDu1+OcDu3: хаданархахаюнинзь
+     хадась+V+TV+Mod/appr+Prt1+ScDu2+OcDu3: хаданархахаюдинзь
+     хадась+V+TV+Mod/appr+Prt1+ScDu3+OcDu3: хаданархахаюдинзь
+     хадась+V+TV+Mod/appr+Prt1+ScPl1+OcDu3: хаданархахаюнаць
+     хадась+V+TV+Mod/appr+Prt1+ScPl2+OcDu3: хаданархахаюдаць
+     хадась+V+TV+Mod/appr+Prt1+ScPl3+OcDu3: хаданархахаюдонзь
+     хадась+V+TV+Mod/appr+Prt1+ScSg1+OcPl3: хаданархынась
+     хадась+V+TV+Mod/appr+Prt1+ScSg2+OcPl3: хаданархыдась
+     хадась+V+TV+Mod/appr+Prt1+ScSg3+OcPl3: хаданархыдась
+     хадась+V+TV+Mod/appr+Prt1+ScDu1+OcPl3: хаданархынинзь
+     хадась+V+TV+Mod/appr+Prt1+ScDu2+OcPl3: хаданархыдинзь
+     хадась+V+TV+Mod/appr+Prt1+ScDu3+OcPl3: хаданархыдинзь
+     хадась+V+TV+Mod/appr+Prt1+ScPl1+OcPl3: хаданархынаць
+     хадась+V+TV+Mod/appr+Prt1+ScPl2+OcPl3: хаданархыдаць
+     хадась+V+TV+Mod/appr+Prt1+ScPl3+OcPl3: хаданархыдонзь      
      хадась+V+TV+Mod/perfappr+ScSg1: хадавэрхадмʼ
      хадась+V+TV+Mod/perfappr+ScSg2: хадавэрхан
      хадась+V+TV+Mod/perfappr+ScSg3: хадавэрха
@@ -672,8 +699,7 @@ Tests:
      хадась+V+TV+Mod/hyp+ScDu3+OcPl3: хадарахавыдиʼ
      хадась+V+TV+Mod/hyp+ScPl1+OcPl3: хадарахавынаˮ
      хадась+V+TV+Mod/hyp+ScPl2+OcPl3: хадарахавыдаˮ
-     хадась+V+TV+Mod/hyp+ScPl3+OcPl3: хадарахавыдоʼ   
-# Rep is very rare, described first by Salminen 1997.                     
+     хадась+V+TV+Mod/hyp+ScPl3+OcPl3: хадарахавыдоʼ                     
      хадась+V+TV+Mod/rep+ScSg1: хадавнадмʼ
      хадась+V+TV+Mod/rep+ScSg2: хадавнан
      хадась+V+TV+Mod/rep+ScSg3: хадавна
@@ -710,15 +736,15 @@ Tests:
      хадась+V+TV+Mod/rep+ScPl1+OcPl3: хадавнанаˮ
      хадась+V+TV+Mod/rep+ScPl2+OcPl3: хадавнадаˮ
      хадась+V+TV+Mod/rep+ScPl3+OcPl3: хадавнадоʼ                        
-     хадась+V+TV+Mod/des+ScSg1: хадарвадмʼ
-     хадась+V+TV+Mod/des+ScSg2: хадарван
-     хадась+V+TV+Mod/des+ScSg3: хадарва
-     хадась+V+TV+Mod/des+ScDu1: хадарваниʼ
-     хадась+V+TV+Mod/des+ScDu2: хадарвадиʼ
-     хадась+V+TV+Mod/des+ScDu3: хадарвахаʼ
-     хадась+V+TV+Mod/des+ScPl1: хадарваваˮ
-     хадась+V+TV+Mod/des+ScPl2: хадарвадаˮ
-     хадась+V+TV+Mod/des+ScPl3: хадарваˮ
+     хадась+V+TV+Mod/des+ScSg1: хадаравадмʼ
+     хадась+V+TV+Mod/des+ScSg2: хадараван
+     хадась+V+TV+Mod/des+ScSg3: хадарава
+     хадась+V+TV+Mod/des+ScDu1: хадараваниʼ
+     хадась+V+TV+Mod/des+ScDu2: хадаравадиʼ
+     хадась+V+TV+Mod/des+ScDu3: хадаравахаʼ
+     хадась+V+TV+Mod/des+ScPl1: хадарававаˮ
+     хадась+V+TV+Mod/des+ScPl2: хадаравадаˮ
+     хадась+V+TV+Mod/des+ScPl3: хадараваˮ
      хадась+V+TV+Mod/des+ScSg1+OcSg3: хадаравав
      хадась+V+TV+Mod/des+ScSg2+OcSg3: хадаравар
      хадась+V+TV+Mod/des+ScSg3+OcSg3: хадаравада
@@ -825,4 +851,39 @@ Tests:
      хадась+V+TV+Fut+Ind+Aor+ScPl1+OcPl3: хадаӈгунаˮ
      хадась+V+TV+Fut+Ind+Aor+ScPl2+OcPl3: хадаӈгудаˮ
      хадась+V+TV+Fut+Ind+Aor+ScPl3+OcPl3: хадаӈгудоʼ   
-     
+     хадась+V+TV+Fut+Ind+Prt1+ScSg1: хадаӈгудамзь
+     хадась+V+TV+Fut+Ind+Prt1+ScSg2: хадаӈгунась
+     хадась+V+TV+Fut+Ind+Prt1+ScSg3: хадаӈгусь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu1: хадаӈгунинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu2: хадаӈгудинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu3: хадаӈгухунзь
+     хадась+V+TV+Fut+Ind+Prt1+ScPl1: хадаӈгуваць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl2: хадаӈгудаць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl3: хадаӈгуць
+     хадась+V+TV+Fut+Ind+Prt1+ScSg1+OcSg3: хадаӈгувась
+     хадась+V+TV+Fut+Ind+Prt1+ScSg2+OcSg3: хадаӈгурась
+     хадась+V+TV+Fut+Ind+Prt1+ScSg3+OcSg3: хадаӈгудась
+     хадась+V+TV+Fut+Ind+Prt1+ScDu1+OcSg3: хадаӈгуминзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu2+OcSg3: хадаӈгуринзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu3+OcSg3: хадаӈгудинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScPl1+OcSg3: хадаӈгуваць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl2+OcSg3: хадаӈгураць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl3+OcSg3: хадаӈгудонзь
+     хадась+V+TV+Fut+Ind+Prt1+ScSg1+OcDu3: хадаӈгухуюнась
+     хадась+V+TV+Fut+Ind+Prt1+ScSg2+OcDu3: хадаӈгухуюдась
+     хадась+V+TV+Fut+Ind+Prt1+ScSg3+OcDu3: хадаӈгухуюдась
+     хадась+V+TV+Fut+Ind+Prt1+ScDu1+OcDu3: хадаӈгухуюнинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu2+OcDu3: хадаӈгухуюдинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu3+OcDu3: хадаӈгухуюдинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScPl1+OcDu3: хадаӈгухуюнаць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl2+OcDu3: хадаӈгухуюдаць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl3+OcDu3: хадаӈгухуюдонзь
+     хадась+V+TV+Fut+Ind+Prt1+ScSg1+OcPl3: хадаӈгунась
+     хадась+V+TV+Fut+Ind+Prt1+ScSg2+OcPl3: хадаӈгудась
+     хадась+V+TV+Fut+Ind+Prt1+ScSg3+OcPl3: хадаӈгудась
+     хадась+V+TV+Fut+Ind+Prt1+ScDu1+OcPl3: хадаӈгунинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu2+OcPl3: хадаӈгудинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScDu3+OcPl3: хадаӈгудинзь
+     хадась+V+TV+Fut+Ind+Prt1+ScPl1+OcPl3: хадаӈгунаць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl2+OcPl3: хадаӈгудаць
+     хадась+V+TV+Fut+Ind+Prt1+ScPl3+OcPl3: хадаӈгудонзь    
