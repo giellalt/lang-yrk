@@ -131,6 +131,9 @@ LEXICON IV_ХАДА !!= @CODE@ хадась:хада
 LEXICON TV_ХАДА !!= @CODE@ хадась:хада
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ХАДА       ;
 
+LEXICON VR_ХАДА
++V+Refl: V-01_ХАДА-REFL ;
+
 LEXICON IV_ЮХУ
 +V+IV: V-01_ЮХУ       ;
 
@@ -1082,6 +1085,38 @@ LEXICON V-01_ХАДА
  PRC ;
  PRC-IMPRF ;
  PRC-FUT ;
+ PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+ CONNEG ;
+ 
+LEXICON V-01_ХАДА-REFL !! V_refl 
+:%^VowFronting V_IND-Refl ;
+: %^VowFronting V_IND-Refl-PRT1 ;
+ V_PREC ;
+ V_Hort-Refl ;
+ V_Imprt-Refl ;
+ V_Opt-Refl ;
+ V_Conj-Refl ;
+ V_Mod/narr-Refl ;
+ V_Mod/appr-Refl ;
+ V_Mod/perfappr-Refl ;
+ V_Mod/futappr-Refl ;
+ V_Mod/hyp-Refl ;
+ V_Mod/int-Refl ;
+ V_Mod/nec-Refl ;
+ V_Mod/perfprob-Refl ;
+ V_Mod/prob-Refl ;
+ V_Mod/obl-Refl ;
+ V_Mod/rep-Refl ;
+ V_Mod/sup-Refl ;
+ V_Mod/des-Refl ;
+ V_Subord ;
+ V_AUD ;
+ V_HAB ;
+ V_Fut-Refl_ӇГУ ;
+ PRC ;
+:ʼ PRC-IMPRF ;
+ PRC-FUT ;
+ PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
