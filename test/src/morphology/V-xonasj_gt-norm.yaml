@@ -1,0 +1,228 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - хонась: # Verb 'to ' - partial paradigm
+     хонась+V+Refl+Ind+Aor+RcSg1: [хонэювˮ, хонэявˮ]
+     хонась+V+Refl+Ind+Aor+RcSg2: хонэян
+     хонась+V+Refl+Ind+Aor+RcSg3: хонэйˮ
+     хонась+V+Refl+Ind+Aor+RcDu1: хонэйниʼ
+     хонась+V+Refl+Ind+Aor+RcDu2: хонэйдиʼ
+     хонась+V+Refl+Ind+Aor+RcDu3: хонэйхаʼ
+     хонась+V+Refl+Ind+Aor+RcPl1: хонэйнаˮ
+     хонась+V+Refl+Ind+Aor+RcPl2: хонэйдаˮ
+     хонась+V+Refl+Ind+Aor+RcPl3: хонэядˮ
+     хонась+V+Refl+Ind+Prt1+RcSg1: хонэйваць
+     хонась+V+Refl+Ind+Prt1+RcSg2: хонэйнась
+     хонась+V+Refl+Ind+Prt1+RcSg3: хонэяць
+     хонась+V+Refl+Ind+Prt1+RcDu1: хонэйнинзь
+     хонась+V+Refl+Ind+Prt1+RcDu2: хонэйдинзь
+     хонась+V+Refl+Ind+Prt1+RcDu3: хонэйханзь
+     хонась+V+Refl+Ind+Prt1+RcPl1: хонэйнаць
+     хонась+V+Refl+Ind+Prt1+RcPl2: хонэйдаць
+     хонась+V+Refl+Ind+Prt1+RcPl3: хонэйдаць
+     хонась+V+Refl+Hort+RcSg1: хонахавˮ
+     хонась+V+Refl+Hort+RcDu1: хонаханиʼ
+     хонась+V+Refl+Hort+RcPl1: хонаханаˮ
+     хонась+V+Refl+Imprt+RcSg2: хонадˮ
+     хонась+V+Refl+Imprt+RcDu2: хонэйдиʼ
+     хонась+V+Refl+Imprt+RcPl2: хонэйдаˮ
+     хонась+V+Refl+Opt+RcSg3: хонэямдˮ
+     хонась+V+Refl+Opt+RcDu3: хонэйхамдˮ
+     хонась+V+Refl+Opt+RcPl3: хонэйдамдˮ
+     хонась+V+Refl+Conj+Aor+RcSg1: хонаивˮ
+     хонась+V+Refl+Conj+Aor+RcSg2: хонаин
+     хонась+V+Refl+Conj+Aor+RcSg3: хонаиˮ
+     хонась+V+Refl+Conj+Aor+RcDu1: хонаиниʼ
+     хонась+V+Refl+Conj+Aor+RcDu2: хонаидиʼ
+     хонась+V+Refl+Conj+Aor+RcDu3: хонаихаʼ
+     хонась+V+Refl+Conj+Aor+RcPl1: хонаинаˮ
+     хонась+V+Refl+Conj+Aor+RcPl2: хонаидаˮ
+     хонась+V+Refl+Conj+Aor+RcPl3: хонаидˮ
+     хонась+V+Refl+Conj+Prt1+RcSg1: хонаиваць
+     хонась+V+Refl+Conj+Prt1+RcSg2: хонаинась
+     хонась+V+Refl+Conj+Prt1+RcSg3: хонаиць
+     хонась+V+Refl+Conj+Prt1+RcDu1: хонаининзь
+     хонась+V+Refl+Conj+Prt1+RcDu2: хонаидинзь
+     хонась+V+Refl+Conj+Prt1+RcDu3: хонаиханзь
+     хонась+V+Refl+Conj+Prt1+RcPl1: хонаинаць
+     хонась+V+Refl+Conj+Prt1+RcPl2: хонаидаць
+     хонась+V+Refl+Conj+Prt1+RcPl3: хонаидаць
+     хонась+V+Refl+Mod/nec+RcSg1: хонабцувˮ
+     хонась+V+Refl+Mod/nec+RcSg2: хонабцун
+     хонась+V+Refl+Mod/nec+RcSg3: хонабцуˮ
+     хонась+V+Refl+Mod/nec+RcDu1: хонабцуниʼ
+     хонась+V+Refl+Mod/nec+RcDu2: хонабцудиʼ
+     хонась+V+Refl+Mod/nec+RcDu3: хонабцухуʼ
+     хонась+V+Refl+Mod/nec+RcPl1: хонабцунаˮ
+     хонась+V+Refl+Mod/nec+RcPl2: хонабцудаˮ
+     хонась+V+Refl+Mod/nec+RcPl3: хонабцудˮ
+     хонась+V+Refl+Mod/int+RcSg1: хонасявˮ
+     хонась+V+Refl+Mod/int+RcSg2: хонасян
+     хонась+V+Refl+Mod/int+RcSg3: хонасяˮ
+     хонась+V+Refl+Mod/int+RcDu1: хонасяниʼ
+     хонась+V+Refl+Mod/int+RcDu2: хонасядиʼ
+     хонась+V+Refl+Mod/int+RcDu3: хонасяхаʼ
+     хонась+V+Refl+Mod/int+RcPl1: хонасянаˮ
+     хонась+V+Refl+Mod/int+RcPl2: хонасядаˮ
+     хонась+V+Refl+Mod/int+RcPl3: хонасядˮ
+     хонась+V+Refl+Mod/narr+Aor+RcSg1: хонавэвˮ
+     хонась+V+Refl+Mod/narr+Aor+RcSg2: хонавэн
+     хонась+V+Refl+Mod/narr+Aor+RcSg3: хонавыˮ
+     хонась+V+Refl+Mod/narr+Aor+RcDu1: хонавэниʼ
+     хонась+V+Refl+Mod/narr+Aor+RcDu2: хонавэдиʼ
+     хонась+V+Refl+Mod/narr+Aor+RcDu3: хонавэхэʼ
+     хонась+V+Refl+Mod/narr+Aor+RcPl1: хонавэнаˮ
+     хонась+V+Refl+Mod/narr+Aor+RcPl2: хонавэдаˮ
+     хонась+V+Refl+Mod/narr+Aor+RcPl3: хонавыдˮ
+     хонась+V+Refl+Mod/narr+Prt1+RcSg1: хонавэваць
+     хонась+V+Refl+Mod/narr+Prt1+RcSg2: хонавэнась
+     хонась+V+Refl+Mod/narr+Prt1+RcSg3: хонавыць
+     хонась+V+Refl+Mod/narr+Prt1+RcDu1: хонавэнинзь
+     хонась+V+Refl+Mod/narr+Prt1+RcDu2: хонавэдинзь
+     хонась+V+Refl+Mod/narr+Prt1+RcDu3: хонавэханзь
+     хонась+V+Refl+Mod/narr+Prt1+RcPl1: хонавэнаць
+     хонась+V+Refl+Mod/narr+Prt1+RcPl2: хонавэдаць
+     хонась+V+Refl+Mod/narr+Prt1+RcPl3: хонавыдаць
+     хонась+V+Refl+Mod/prob+Aor+RcSg1: хонанакэвˮ
+     хонась+V+Refl+Mod/prob+Aor+RcSg2: хонанакэн
+     хонась+V+Refl+Mod/prob+Aor+RcSg3: хонанакыˮ
+     хонась+V+Refl+Mod/prob+Aor+RcDu1: хонанакэниʼ
+     хонась+V+Refl+Mod/prob+Aor+RcDu2: хонанакэдиʼ
+     хонась+V+Refl+Mod/prob+Aor+RcDu3: хонанакэхэʼ
+     хонась+V+Refl+Mod/prob+Aor+RcPl1: хонанакэнаˮ
+     хонась+V+Refl+Mod/prob+Aor+RcPl2: хонанакэдаˮ
+     хонась+V+Refl+Mod/prob+Aor+RcPl3: хонанакыдˮ 
+     хонась+V+Refl+Mod/prob+Prt1+RcSg1: хонанакэваць
+     хонась+V+Refl+Mod/prob+Prt1+RcSg2: хонанакэнась
+     хонась+V+Refl+Mod/prob+Prt1+RcSg3: хонанакыць
+     хонась+V+Refl+Mod/prob+Prt1+RcDu1: хонанакэнинзь
+     хонась+V+Refl+Mod/prob+Prt1+RcDu2: хонанакэдинзь
+     хонась+V+Refl+Mod/prob+Prt1+RcDu3: хонанакэхэнзь
+     хонась+V+Refl+Mod/prob+Prt1+RcPl1: хонанакэнаць
+     хонась+V+Refl+Mod/prob+Prt1+RcPl2: хонанакэдаць
+     хонась+V+Refl+Mod/prob+Prt1+RcPl3: хонанакыдаць
+     хонась+V+Refl+Mod/perfprob+RcSg1: хонавэкэвˮ
+     хонась+V+Refl+Mod/perfprob+RcSg2: хонавэкэн
+     хонась+V+Refl+Mod/perfprob+RcSg3: хонавэкыˮ
+     хонась+V+Refl+Mod/perfprob+RcDu1: хонавэкэниʼ
+     хонась+V+Refl+Mod/perfprob+RcDu2: хонавэкэдиʼ
+     хонась+V+Refl+Mod/perfprob+RcDu3: хонавэкэхэʼ
+     хонась+V+Refl+Mod/perfprob+RcPl1: хонавэкэнаˮ
+     хонась+V+Refl+Mod/perfprob+RcPl2: хонавэкэдаˮ
+     хонась+V+Refl+Mod/perfprob+RcPl3: хонавэкыдˮ
+     хонась+V+Refl+Mod/obl+RcSg1: хонабцакэвˮ
+     хонась+V+Refl+Mod/obl+RcSg2: хонабцакэн
+     хонась+V+Refl+Mod/obl+RcSg3: хонабцакыˮ
+     хонась+V+Refl+Mod/obl+RcDu1: хонабцакэниʼ
+     хонась+V+Refl+Mod/obl+RcDu2: хонабцакэдиʼ
+     хонась+V+Refl+Mod/obl+RcDu3: хонабцакэхэʼ
+     хонась+V+Refl+Mod/obl+RcPl1: хонабцакэнаˮ
+     хонась+V+Refl+Mod/obl+RcPl2: хонабцакэдаˮ
+     хонась+V+Refl+Mod/obl+RcPl3: хонабцакыдˮ
+     хонась+V+Refl+Mod/appr+RcSg1: хонанархывˮ
+     хонась+V+Refl+Mod/appr+RcSg2: хонанархын
+     хонась+V+Refl+Mod/appr+RcSg3: хонанархыˮ
+     хонась+V+Refl+Mod/appr+RcDu1: хонанархыниʼ
+     хонась+V+Refl+Mod/appr+RcDu2: хонанархыдиʼ
+     хонась+V+Refl+Mod/appr+RcDu3: хонанархыхаʼ
+     хонась+V+Refl+Mod/appr+RcPl1: хонанархынаˮ
+     хонась+V+Refl+Mod/appr+RcPl2: хонанархыдаˮ
+     хонась+V+Refl+Mod/appr+RcPl3: хонанархыдˮ
+     хонась+V+Refl+Mod/perfappr+RcSg1: хонавэрхывˮ
+     хонась+V+Refl+Mod/perfappr+RcSg2: хонавэрхын
+     хонась+V+Refl+Mod/perfappr+RcSg3: хонавэрхыˮ
+     хонась+V+Refl+Mod/perfappr+RcDu1: хонавэрхыниʼ
+     хонась+V+Refl+Mod/perfappr+RcDu2: хонавэрхыдиʼ
+     хонась+V+Refl+Mod/perfappr+RcDu3: хонавэрхыхаʼ
+     хонась+V+Refl+Mod/perfappr+RcPl1: хонавэрхынаˮ
+     хонась+V+Refl+Mod/perfappr+RcPl2: хонавэрхыдаˮ
+     хонась+V+Refl+Mod/perfappr+RcPl3: хонавэрхыдˮ
+     хонась+V+Refl+Mod/futappr+RcSg1: хонавандархывˮ
+     хонась+V+Refl+Mod/futappr+RcSg2: хонавандархын
+     хонась+V+Refl+Mod/futappr+RcSg3: хонавандархыˮ
+     хонась+V+Refl+Mod/futappr+RcDu1: хонавандархыниʼ
+     хонась+V+Refl+Mod/futappr+RcDu2: хонавандархыдиʼ
+     хонась+V+Refl+Mod/futappr+RcDu3: хонавандархыхаʼ
+     хонась+V+Refl+Mod/futappr+RcPl1: хонавандархынаˮ
+     хонась+V+Refl+Mod/futappr+RcPl2: хонавандархыдаˮ
+     хонась+V+Refl+Mod/futappr+RcPl3: хонавандархыдˮ
+     хонась+V+Refl+Mod/sup+RcSg1: хонаванӈгабивˮ
+     хонась+V+Refl+Mod/sup+RcSg2: хонаванӈгабин
+     хонась+V+Refl+Mod/sup+RcSg3: хонаванӈгабиˮ
+     хонась+V+Refl+Mod/sup+RcDu1: хонаванӈгабиниʼ
+     хонась+V+Refl+Mod/sup+RcDu2: хонаванӈгабидиʼ
+     хонась+V+Refl+Mod/sup+RcDu3: хонаванӈгабихаʼ
+     хонась+V+Refl+Mod/sup+RcPl1: хонаванӈгабинаˮ
+     хонась+V+Refl+Mod/sup+RcPl2: хонаванӈгабидаˮ
+     хонась+V+Refl+Mod/sup+RcPl3: хонаванӈгабидˮ
+     хонась+V+Refl+Mod/hyp+RcSg1: хонарахавэвˮ
+     хонась+V+Refl+Mod/hyp+RcSg2: хонарахавэн
+     хонась+V+Refl+Mod/hyp+RcSg3: хонарахавыˮ
+     хонась+V+Refl+Mod/hyp+RcDu1: хонарахавэниʼ
+     хонась+V+Refl+Mod/hyp+RcDu2: хонарахавэдиʼ
+     хонась+V+Refl+Mod/hyp+RcDu3: хонарахавэхэʼ
+     хонась+V+Refl+Mod/hyp+RcPl1: хонарахавэнаˮ
+     хонась+V+Refl+Mod/hyp+RcPl2: хонарахавэдаˮ
+     хонась+V+Refl+Mod/hyp+RcPl3: хонарахавыдˮ
+     хонась+V+Refl+Mod/rep+RcSg1: хонавнавˮ
+     хонась+V+Refl+Mod/rep+RcSg2: хонавнан
+     хонась+V+Refl+Mod/rep+RcSg3: хонавнаˮ
+     хонась+V+Refl+Mod/rep+RcDu1: хонавнаниʼ
+     хонась+V+Refl+Mod/rep+RcDu2: хонавнадиʼ
+     хонась+V+Refl+Mod/rep+RcDu3: хонавнахаʼ
+     хонась+V+Refl+Mod/rep+RcPl1: хонавнанаˮ
+     хонась+V+Refl+Mod/rep+RcPl2: хонавнадаˮ
+     хонась+V+Refl+Mod/rep+RcPl3: хонавнадˮ
+     хонась+V+Refl+Mod/des+RcSg1: хонарабивˮ
+     хонась+V+Refl+Mod/des+RcSg2: хонарабин
+     хонась+V+Refl+Mod/des+RcSg3: хонарабиˮ
+     хонась+V+Refl+Mod/des+RcDu1: хонарабиниʼ
+     хонась+V+Refl+Mod/des+RcDu2: хонарабидиʼ
+     хонась+V+Refl+Mod/des+RcDu3: хонарабихаʼ
+     хонась+V+Refl+Mod/des+RcPl1: хонарабинаˮ
+     хонась+V+Refl+Mod/des+RcPl2: хонарабидаˮ
+     хонась+V+Refl+Mod/des+RcPl3: хонарабидˮ
+     хонась+V+Refl+InfImprf: хонава  
+     хонась+V+Refl+InfPrf: хонаˮма  
+     хонась+V+Refl+PrcImprf: хонана
+     хонась+V+Refl+PrcPrf: хонавы
+     хонась+V+Refl+PrcFut: хонаванда   
+     хонась+V+Refl+PrcNeg: хонавдавэй
+     хонась+V+Refl+Ger: [хона, хонась] 
+     хонась+V+Refl+GerFin: хонаванзь      
+     хонась+V+Refl+Subord+Abs: хонабˮ
+     хонась+V+Refl+Fut+Subord+Abs: хонаӈгобˮ     
+     хонась+V+Refl+Evas+Abs: хонавоӈгад
+     хонась+V+Refl+ConNeg: хонаˮ
+     хонась+V+Refl+Fut+ConNeg: хонаӈгуˮ
+     хонась+V+Refl+Subord+PxSg1: [хонабˮнан, хонабаˮн]
+     хонась+V+Refl+Subord+PxSg2: [хонабˮнанд, хонабат]
+     хонась+V+Refl+Subord+PxSg3: [хонабˮнанда, хонабата, хонабатавʼ] 
+     хонась+V+Refl+Subord+PxDu1: [хонабˮнаниʼ, хонабаˮниʼ]
+     хонась+V+Refl+Subord+PxDu2: [хонабˮнандиʼ, хонабаˮтиʼ]
+     хонась+V+Refl+Subord+PxDu3: [хонабˮнандиʼ, хонабаˮтиʼ]
+     хонась+V+Refl+Subord+PxPl1: [хонабˮнанаˮ, хонабаˮнаˮ]
+     хонась+V+Refl+Subord+PxPl2: [хонабˮнандаˮ, хонабатаˮ]
+     хонась+V+Refl+Subord+PxPl3: [хонабˮнандоʼ, хонабатоʼ]
+     хонась+V+Refl+Fut+Ind+Aor+RcSg1: хонаӈгувˮ
+     хонась+V+Refl+Fut+Ind+Aor+RcSg2: хонаӈгун
+     хонась+V+Refl+Fut+Ind+Aor+RcSg3: хонаӈгуˮ
+     хонась+V+Refl+Fut+Ind+Aor+RcDu1: хонаӈгуниʼ
+     хонась+V+Refl+Fut+Ind+Aor+RcDu2: хонаӈгудиʼ
+     хонась+V+Refl+Fut+Ind+Aor+RcDu3: хонаӈгухуʼ
+     хонась+V+Refl+Fut+Ind+Aor+RcPl1: хонаӈгунаˮ
+     хонась+V+Refl+Fut+Ind+Aor+RcPl2: хонаӈгудаˮ
+     хонась+V+Refl+Fut+Ind+Aor+RcPl3: хонаӈгудˮ
