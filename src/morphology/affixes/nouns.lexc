@@ -711,7 +711,7 @@ LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
   PLNOMSUF ;
  PLACCSUF_Ё ; !
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
- POSSESSA-DUAL ;
+ POSSESSA-DUAL_ХАЮН ;
 
 LEXICON NMN_ИБЕ  !!= @CODE@ и: 7 !!ProsSg -вна
 !! /total=0/
@@ -742,6 +742,9 @@ LEXICON NMN_ӇЭ/СЁЁ/ХАБИЕ
  PLACCSUF_Zero ; !
  PLACCSUF_Ё ; !
  PLACCSUF_Е ; !
+  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL_ХАЮН ;
+
 
 LEXICON NMN_ПАНЫ !! 9
 :%^VowLower SGDATSUF ;
