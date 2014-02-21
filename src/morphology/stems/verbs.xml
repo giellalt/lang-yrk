@@ -71491,6 +71491,26 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">сандась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДА">санда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">hypätä ulos</tf>
+
+        <tf pos="V">poistua</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="IV">сандортась</l>
 
       <stg>
@@ -88149,6 +88169,28 @@
         <t pos="V">nousta</t>
 
         <t pos="V">kiivetä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">тандась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДА">танда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">korottaa</tf>
+
+        <tf pos="V">nostaa</tf>
+
+        <tf pos="V">viedä</tf>
       </tg>
     </mg>
   </e>
@@ -124024,6 +124066,26 @@
 
       <tg xml:lang="fin">
         <tf pos="V">tehdä onnelliseksi</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="IV">ябдась</l>
+
+      <stg>
+        <st Contlex="IV_ИЛЕ">ябда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">olla onnellinen</tf>
+
+        <tf pos="V">olla menestyksekäs</tf>
       </tg>
     </mg>
   </e>
