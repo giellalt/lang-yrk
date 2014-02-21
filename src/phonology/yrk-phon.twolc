@@ -462,7 +462,7 @@ Rules
 "ъ:0 with Conj after vowels"
 !! __@RULENAME@__
 !! {{{
- ъ:0 <=> Vow: (%^VowFronting:) %> _ и: ;
+ ъ:0 <=> Vow: (%^VowFronting:) %> _ [ и: | я: ] ;
          :Vow (ˮ|%^A2I:) %> _ я: (%>) [ н | д ] ; !!= @CODE@ нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
 !! }}}
 
