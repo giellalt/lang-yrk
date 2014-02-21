@@ -203,7 +203,8 @@ Multichar_Symbols
  %^VowLower !!= @CODE@ vowel lowering ы:э у:о
  %^VowRaise !! э:ы о:у
  %^VowLoss !! stem-final vowel is lost in plural accusative form
- %^VowFronting !! хасава:хасев
+ %^StemVowFronting !!= @CODE@ хасава:хасев
+ %^VowFronting !!= @CODE@ хадась:хадэйнинзь
  %^PalLoss !! in combination with stem-final vowel loss
  %^HardFronting !! яля:ялэ
 %-

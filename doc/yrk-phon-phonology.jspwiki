@@ -25,6 +25,7 @@ lenition
   %^VowRaise:0  vowel raising э:ы о:у
 stem-final vowel is lost in plural accusative
 хасава:хасев
+хадась:хадэйнинзь
 in combination with stem-final vowel loss тёня:тён
 яля:ялэ
 
@@ -108,7 +109,8 @@ __StemFinalYToE__
 
 __а:э in final position of polysyllable verb stems__
 {{{
-       Cns  _ %> ъ: я: [ д | н ] ;  хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэйн
+   хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэян
+   хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
 }}}
 
 
@@ -146,8 +148,13 @@ __а:у яˮавла:яˮавлу RIGHT__
 __а:ю яˮавла:яˮавлу__
 
 
+__и:й vowel change in morpheme onset__
+   хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
 
-!!Vowel loss
+__я:й Stem vowel loss in plural accusative__
+
+
+!!VOWEL LOSS
 
 __а:0 vowel loss in plural accusative and elsewhere LEFT__
 
@@ -155,16 +162,12 @@ __а:0 vowel loss in plural accusative and elsewhere LEFT__
 __а:0 vowel loss in plural accusative and elsewhere RIGHT__
 
 
-__ӈ:0 NOT мэсь+V+IV+Ind+Aor+ScDu3: мэӈахаʼ__
-
 __я:ь Stem vowel loss in plural accusative__
-
-__я:й Stem vowel loss in plural accusative__
 
 __я:0 Stem vowel loss in plural accusative__
 
 
-!!Consonant changes
+!!CONSONANT CHANGES
 
 __mToV__, perhaps there should be a VtoM rule2013-01-23
 
@@ -258,6 +261,9 @@ __л:0__
 
 __m loss before Labial followed by nonglottal cons or vows __
 *          :Vow (ˮ|%^A2I:) %> _ я: (%>) [ н | д ] ;  поʼ+N+Sg+Acc+PxSg2:понд 
+
+__ӈ:0 NOT мэсь+V+IV+Ind+Aor+ScDu3: мэӈахаʼ__
+
 
 
 __Д1:0 GlottalNonNasalToZERO__
