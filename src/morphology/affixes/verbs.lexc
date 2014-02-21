@@ -1049,7 +1049,7 @@ LEXICON V-01_ХАДА
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
 +Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Ind00@R.CONJ.ObjAll@:%>ъи@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
++Ind00@R.CONJ.ObjAll@:%^VowFronting%>ъи@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
 !+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
@@ -1060,7 +1060,7 @@ LEXICON V-01_ХАДА
 @R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Conj ;
  V_Mod/appr ;
- V_Mod/des ;
+ V_Mod/des_РАВА ;
  V_Mod/futappr ;
  V_Mod/hyp ;
  V_Mod/int ;
@@ -2031,23 +2031,32 @@ LEXICON MUTUAL-V_4-PRT1-SCPL3-OCDU3
 +Prt1+ScPl3+OcDu3:%>х%{ауоэØ%}юдонзь K ;
 
 LEXICON MUTUAL-V_4-PRT1-SCSG1-OCPL3
-+Prt1+ScSg1+OcPl3:%>нась K ;
++Prt1+ScSg1+OcPl3:%^A2I%>нась K ;
+!+Prt1+ScSg1+OcPl3:%>нась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG2-OCPL3
-+Prt1+ScSg2+OcPl3:%>дась K ;
++Prt1+ScSg2+OcPl3:%^A2I%>дась K ;
+!+Prt1+ScSg2+OcPl3:%>дась K ;
 LEXICON MUTUAL-V_4-PRT1-SCSG3-OCPL3
-+Prt1+ScSg3+OcPl3:%>дась K ;
++Prt1+ScSg3+OcPl3:%^A2I%>дась K ;
+!+Prt1+ScSg3+OcPl3:%>дась K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU1-OCPL3
-+Prt1+ScDu1+OcPl3:%>нинзь K ;
++Prt1+ScDu1+OcPl3:%^A2I%>нинзь K ;
+!+Prt1+ScDu1+OcPl3:%>нинзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU2-OCPL3
-+Prt1+ScDu2+OcPl3:%>динзь K ;
++Prt1+ScDu2+OcPl3:%^A2I%>динзь K ;
+!+Prt1+ScDu2+OcPl3:%>динзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCDU3-OCPL3
-+Prt1+ScDu3+OcPl3:%>динзь K ;
++Prt1+ScDu3+OcPl3:%^A2I%>динзь K ;
+!+Prt1+ScDu3+OcPl3:%>динзь K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL1-OCPL3
-+Prt1+ScPl1+OcPl3:%>наць K ;
++Prt1+ScPl1+OcPl3:%^A2I%>наць K ;
+!+Prt1+ScPl1+OcPl3:%>наць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL2-OCPL3
-+Prt1+ScPl2+OcPl3:%>даць K ;
++Prt1+ScPl2+OcPl3:%^A2I%>даць K ;
+!+Prt1+ScPl2+OcPl3:%>даць K ;
 LEXICON MUTUAL-V_4-PRT1-SCPL3-OCPL3
-+Prt1+ScPl3+OcPl3:%>донзь K ;
++Prt1+ScPl3+OcPl3:%^A2I%>донзь K ;
+!+Prt1+ScPl3+OcPl3:%>донзь K ;
 
 !! Preterite 1 # This should be for ConjPrt and NarrPrt also.
 LEXICON IND-4-PRT1
@@ -2189,13 +2198,13 @@ LEXICON V_Hort-Obj
 !+Hort+ScSg1+OcPl3:%>хан K ;
 +Hort+ScDu1+OcSg3:%>х%{ауоэØ%}миʼ K ;
 !+Hort+ScDu1+OcSg3:%>хамиʼ K ;
-+Hort+ScDu1+OcDu3:%>х%{ауоэØ%}х%{ауоэØ%}юниʼ K ;
++Hort+ScDu1+OcDu3:%>х%{ауоэØ%}%>х%{ауоэØ%}юниʼ K ;
 !+Hort+ScDu1+OcDu3:%>хахаюниʼ K ;
 +Hort+ScDu1+OcPl3:%>х%{ауоэØ%}ниʼ K ;
 !+Hort+ScDu1+OcPl3:%>ханиʼ K ;
 +Hort+ScPl1+OcSg3:%>х%{ауоэØ%}ваˮ K ;
 !+Hort+ScPl1+OcSg3:%>хаваˮ K ;
-+Hort+ScPl1+OcDu3:%>ӈ%{ауоэØ%}х%{ауоэØ%}юнаˮ K ;
++Hort+ScPl1+OcDu3:%>ӈ%{ауоэØ%}%>х%{ауоэØ%}юнаˮ K ;
 !+Hort+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
 +Hort+ScPl1+OcPl3:%>х%{ауоэØ%}наˮ K ;
 !+Hort+ScPl1+OcPl3:%>ханаˮ K ;

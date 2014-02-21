@@ -88,7 +88,8 @@ for я:и in пя
   %^VowLower  vowel lowering ы:э у:о
 э:ы о:у
 stem-final vowel is lost in plural accusative form
-хасава:хасев
+  %^StemVowFronting  хасава:хасев
+  %^VowFronting  хадась:хадэйнинзь
 in combination with stem-final vowel loss
 яля:ялэ
 
