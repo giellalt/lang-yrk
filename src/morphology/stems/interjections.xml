@@ -6,6 +6,28 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Interj">алло</l>
+
+      <stg>
+        <st Contlex="INTERJ_">алло</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">haloo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Interj">вэ</l>
 
       <stg>
