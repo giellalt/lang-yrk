@@ -84540,7 +84540,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="R"/>
+        <t pos="V" type="R">alkaa pureskella</t>
+
+        <t pos="V" type="R">alkaa moittia</t>
       </tg>
     </mg>
   </e>
@@ -84583,6 +84585,24 @@
 
   <e>
     <lg>
+      <l pos="V" type="TV">таˮвоˮламбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">таˮвоˮламба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" type="TV">pureskella ruokaa pikkulasta varten</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" type="TV">таˮвоˮлась</l>
 
       <stg>
@@ -84594,7 +84614,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="TV"/>
+        <t pos="V" type="TV">pureskella ruokaa pikkulasta varten</t>
       </tg>
     </mg>
   </e>
@@ -84612,7 +84632,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="TV"/>
+        <t pos="V" type="TV">pureskella</t>
       </tg>
     </mg>
   </e>
