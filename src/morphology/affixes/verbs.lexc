@@ -1094,7 +1094,7 @@ LEXICON V-01_ХАДА-REFL !! V_refl
  V_PREC ;
  V_Hort-Refl ;
  V_Imprt-Refl ;
- V_Opt-Refl ;
+:%^VowFronting V_Opt-Refl ;
  V_Conj-Refl ;
  V_Mod/narr-Refl ;
  V_Mod/appr-Refl ;
@@ -2085,7 +2085,8 @@ LEXICON IND-PRT1
 LEXICON V_IND-Refl-PRT1
 +Ind:%>й MUTUAL-PRT1-RCSG1 ;
 +Ind:%>й MUTUAL-PRT1-RCSG2 ;
-+Ind:%>я MUTUAL-PRT1-RCSG3 ;
++Ind:%>ъя MUTUAL-PRT1-RCSG3 ;
+!+Ind:%>я MUTUAL-PRT1-RCSG3 ;
 +Ind:%>й MUTUAL-PRT1-RCDU1 ;
 +Ind:%>й MUTUAL-PRT1-RCDU2 ;
 +Ind:%>й MUTUAL-PRT1-RCDU3 ;
@@ -2253,8 +2254,8 @@ LEXICON V_Imprt-Obj
 
 LEXICON V_Imprt-Refl
 +Imprt+RcSg2:%>дˮ K ;
-+Imprt:%>й MUTUAL-RCDU2 ;
-+Imprt:%>й MUTUAL-RCPL2 ;
++Imprt:%^VowFronting%>й MUTUAL-RCDU2 ;
++Imprt:%^VowFronting%>й MUTUAL-RCPL2 ;
 
 LEXICON V_Opt
 +Opt+ScSg3:%>я K ;
