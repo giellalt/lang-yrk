@@ -1665,8 +1665,8 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
 
 !!ONLY INTRANSITIVE VERBS IN THIS CONJUGATION TYPE
 LEXICON V-01_ӇАДИМ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+!+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+!+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 !@R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1693,11 +1693,11 @@ LEXICON V-01_ӇАДИМ
  V_AUD ;
  V_HAB ;
  V_Fut_ТА ;
- IND-AOR		;
- IND-AOR-SG3 	;
- IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
-+Ind: IND-4-PRT1		;
+:я IND-AOR		;
+:я IND-AOR-SG3 	;
+:я IND-AOR-DU3 	;
++Ind:я IND-4-PRT1-DU3 ;
++Ind:я IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
  PRC-FUT ;
