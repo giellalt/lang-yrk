@@ -1201,7 +1201,7 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  PRC-IMPRF ;
  PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
- CONNEG ;
+:%^VowLoss CONNEG ;
 
 LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
  V_IND-Refl ;

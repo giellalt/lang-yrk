@@ -5565,6 +5565,24 @@
 
   <e>
     <lg>
+      <l pos="N">ламбяха</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">ламбяха</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">nahka ja liha eläimen poskilta</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ламдуй</l>
 
       <stg>
@@ -7946,6 +7964,24 @@
 
   <e>
     <lg>
+      <l pos="N">макорка</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">макорка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">mahorkka</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мал</l>
 
       <stg>
@@ -7972,6 +8008,8 @@
 
       <stg>
         <st Contlex="N_МАРАӇГЫ">малака</st>
+
+        <st Contlex="N_МАРАӇГЫ">молока</st>
       </stg>
     </lg>
 
@@ -16563,6 +16601,28 @@
 
   <e>
     <lg>
+      <l pos="N">палырка</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">палырка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">iso ja pitkä veitsi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">палытана</l>
 
       <stg>
@@ -19631,6 +19691,28 @@
 
       <tg xml:lang="fin">
         <t pos="N">loppu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">пударка</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">пударка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">canoe</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kanootti</t>
       </tg>
     </mg>
   </e>
@@ -23952,6 +24034,30 @@
 
   <e>
     <lg>
+      <l pos="N">силиӈга</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">силиӈга</st>
+
+        <st Contlex="N_МАРАӇГЫ">сильга</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">paistettu poronrasva?</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">синдˮма</l>
 
       <stg>
@@ -24512,6 +24618,30 @@
 
       <tg xml:lang="fin">
         <t pos="N">kauha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сотыӈга</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">сотыӈга</st>
+
+        <st Contlex="N_МАРАӇГЫ">сутуга</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">teräslanka</t>
       </tg>
     </mg>
   </e>
@@ -28344,6 +28474,44 @@
 
   <e>
     <lg>
+      <l pos="N">тарактор</l>
+
+      <stg>
+        <st Contlex="N_ЕД">тарактор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">traktori</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">тарбовка</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">тарбовка</st>
+
+        <st Contlex="N_МАРАӇГЫ">торбовка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">haulikko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">тарбяв</l>
 
       <stg>
@@ -30188,10 +30356,10 @@
 
   <e>
     <lg>
-      <l pos="N">торбовка</l>
+      <l pos="N">тораяха</l>
 
       <stg>
-        <st Contlex="N_МАРАӇГЫ">торбовка</st>
+        <st Contlex="N_МАРАӇГЫ">тораяха</st>
       </stg>
     </lg>
 
@@ -30199,7 +30367,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">haulikko</t>
+        <t pos="N">käry</t>
+
+        <t pos="N">palaneen haju</t>
       </tg>
     </mg>
   </e>
@@ -42130,6 +42300,28 @@
 
       <tg xml:lang="fin">
         <t pos="N">liha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ӈамзаяха</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ">ӈамзаяха</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">lihan tuoksu</t>
       </tg>
     </mg>
   </e>
