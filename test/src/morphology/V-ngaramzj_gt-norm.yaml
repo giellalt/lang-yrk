@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - ӈарамзь: # Verb 'to get bigger' Type 13-A (even-syllable stem) - partial paradigm
+     ӈарамзь+V+IV+Ind+Aor+ScSg1: ӈарядмʼ
+     ӈарамзь+V+IV+Ind+Aor+ScSg2: ӈарян
+     ӈарамзь+V+IV+Ind+Aor+ScSg3: ӈаря
+     ӈарамзь+V+IV+Ind+Aor+ScDu1: ӈаряниʼ
+     ӈарамзь+V+IV+Ind+Aor+ScDu2: ӈарядиʼ
+     ӈарамзь+V+IV+Ind+Aor+ScDu3: ӈаряхаʼ
+     ӈарамзь+V+IV+Ind+Aor+ScPl1: ӈаряваˮ
+     ӈарамзь+V+IV+Ind+Aor+ScPl2: ӈарядаˮ
+     ӈарамзь+V+IV+Ind+Aor+ScPl3: ӈаряˮ
+     ӈарамзь+V+IV+Ind+Prt1+ScSg1: ӈадимядамзь
+     ӈарамзь+V+IV+Ind+Prt1+ScSg2: ӈадимянась
+     ӈарамзь+V+IV+Ind+Prt1+ScSg3: ӈадимясь
+     ӈарамзь+V+IV+Ind+Prt1+ScDu1: ӈадимянинзь
+     ӈарамзь+V+IV+Ind+Prt1+ScDu2: ӈадимядинзь
+     ӈарамзь+V+IV+Ind+Prt1+ScDu3: ӈадимяханзь
+     ӈарамзь+V+IV+Ind+Prt1+ScPl1: ӈадимяваць
+     ӈарамзь+V+IV+Ind+Prt1+ScPl2: ӈадимядаць
+     ӈарамзь+V+IV+Ind+Prt1+ScPl3: ӈадимяць
+     
+     ӈарамзь+V+IV+InfImprf: ӈарма  
+     ӈарамзь+V+IV+InfPrf: ӈарвоˮма  
+     ӈарамзь+V+IV+PrcImprf: [ӈарамда, ӈармда]
+     ӈарамзь+V+IV+PrcPrf: ӈармы
+     ӈарамзь+V+IV+PrcFut: ӈарманда   
+     ӈарамзь+V+IV+PrcNeg: ӈармадавэй
+     ӈарамзь+V+IV+Ger: ӈарамзь 
+     ӈарамзь+V+IV+GerFin: ӈарманзь      
+     ӈарамзь+V+IV+Subord+Abs: ӈарамбˮ
+     ӈарамзь+V+IV+Evas+Abs: ӈармоӈгад
+     ӈарамзь+V+IV+ConNeg: ӈаравˮ
+     ӈарамзь+V+IV+Fut+ConNeg: ӈарамдˮ
