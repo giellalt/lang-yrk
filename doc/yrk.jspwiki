@@ -840,8 +840,8 @@ V_refl 2013-03-04
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+ * ! PRC-NEG ; 	+PrcNeg +PrcFut
+ * !:%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 

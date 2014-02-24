@@ -122,8 +122,8 @@ LEXICON IV_ПЭБЮ-Pal/Var
 LEXICON TV_ПЭБЮ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ПЭБЮ       ;
 
-LEXICON VR_ПЭБЮ
-+V+Refl: V-01_ПЭБЮ-REFL ;
+!LEXICON VR_ПЭБЮ
+!+V+Refl: V-01_ПЭБЮ-REFL ;
 
 LEXICON IV_ХАДА !!= @CODE@ хадась:хада
 +V+IV: V-01_ХАДА       ;
@@ -170,8 +170,8 @@ LEXICON IV_ЯˮАВЛУ-Pal/Var
 +V+IV: V-01_ЯˮАВЛУ	; !! more work to be done with -Pal/Var 2013-03-04
 +V+IV: PRC_PALVAR ;
 
-LEXICON VR_ЯˮАВЛУ
-+V+Refl: V-01_ЯˮАВЛУ-REFL      ;
+!LEXICON VR_ЯˮАВЛУ
+!+V+Refl: V-01_ЯˮАВЛУ-REFL      ;
 
 LEXICON TV_ЯˮАВЛУ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
@@ -1013,37 +1013,37 @@ LEXICON V-01_ПЭБЮ
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowFronting%^VowRaise CONNEG ;
 
-LEXICON V-01_ПЭБЮ-REFL !! V_refl 
- V_IND-Refl ;
- V_IND-Refl-PRT1 ;
- V_PREC ;
- V_Hort-Refl ;
- V_Imprt-Refl ;
- V_Opt-Refl ;
- V_Conj-Refl ;
- V_Mod/narr-Refl ;
- V_Mod/appr-Refl ;
- V_Mod/perfappr-Refl ;
- V_Mod/futappr-Refl ;
- V_Mod/hyp-Refl ;
- V_Mod/int-Refl ;
- V_Mod/nec-Refl ;
- V_Mod/perfprob-Refl ;
- V_Mod/prob-Refl ;
- V_Mod/obl-Refl ;
- V_Mod/rep-Refl ;
- V_Mod/sup-Refl ;
- V_Mod/des-Refl ;
- V_Subord ;
- V_AUD ;
- V_HAB ;
- V_Fut-Refl_ӇГУ ;
- PRC ;
-:ʼ PRC-IMPRF ;
- PRC-FUT ;
- PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
-:%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
-:%^VowRaise CONNEG ;
+!LEXICON V-01_ПЭБЮ-REFL !! V_refl 
+! V_IND-Refl ;
+! V_IND-Refl-PRT1 ;
+! V_PREC ;
+! V_Hort-Refl ;
+! V_Imprt-Refl ;
+! V_Opt-Refl ;
+! V_Conj-Refl ;
+! V_Mod/narr-Refl ;
+! V_Mod/appr-Refl ;
+! V_Mod/perfappr-Refl ;
+! V_Mod/futappr-Refl ;
+! V_Mod/hyp-Refl ;
+! V_Mod/int-Refl ;
+! V_Mod/nec-Refl ;
+! V_Mod/perfprob-Refl ;
+! V_Mod/prob-Refl ;
+! V_Mod/obl-Refl ;
+! V_Mod/rep-Refl ;
+! V_Mod/sup-Refl ;
+! V_Mod/des-Refl ;
+! V_Subord ;
+! V_AUD ;
+! V_HAB ;
+! V_Fut-Refl_ӇГУ ;
+! PRC ;
+!:ʼ PRC-IMPRF ;
+! PRC-FUT ;
+! PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+!:%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+!:%^VowRaise CONNEG ;
 
 LEXICON V-01_ХАДА
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
@@ -1317,16 +1317,16 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
 
-LEXICON V-01_ЯˮАВЛУ-REFL !! V_refl 2013-03-04
- IND-AOR-RCSG1	;
- IND-AOR-RCSG2	;
- IND-AOR-RCSG3	;
- IND-AOR-RCDU1	;
- IND-AOR-RCDU2 	;
- IND-AOR-RCDU3 	;
- IND-AOR-RCPL1 	;
- IND-AOR-RCPL2 	;
- IND-AOR-RCPL3 	;
+!LEXICON V-01_ЯˮАВЛУ-REFL !! V_refl 2013-03-04
+! IND-AOR-RCSG1	;
+! IND-AOR-RCSG2	;
+! IND-AOR-RCSG3	;
+! IND-AOR-RCDU1	;
+! IND-AOR-RCDU2 	;
+! IND-AOR-RCDU3 	;
+! IND-AOR-RCPL1 	;
+! IND-AOR-RCPL2 	;
+! IND-AOR-RCPL3 	;
 
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 LEXICON V-01_МАН   !!= @CODE@ манзь:маН1
@@ -1411,15 +1411,15 @@ LEXICON V-01_МИН
  CONNEG ;
 
 LEXICON V-01_МИН-REFL !!
- IND-AOR-RCSG1	;
- IND-AOR-RCSG2	;
- IND-AOR-RCSG3	;
- IND-AOR-RCDU1	;
- IND-AOR-RCDU2 	;
- IND-AOR-RCDU3 	;
- IND-AOR-RCPL1 	;
- IND-AOR-RCPL2 	;
- IND-AOR-RCPL3 	;
++Ind: IND-AOR-RCSG1	;
++Ind: IND-AOR-RCSG2	;
++Ind: IND-AOR-RCSG3	;
++Ind: IND-AOR-RCDU1	;
++Ind: IND-AOR-RCDU2 	;
++Ind: IND-AOR-RCDU3 	;
++Ind: IND-AOR-RCPL1 	;
++Ind: IND-AOR-RCPL2 	;
++Ind: IND-AOR-RCPL3 	;
 
 
 LEXICON V-01_МИС
@@ -1509,15 +1509,15 @@ LEXICON V-01_САС !!= * @CODE@ манэць:манэ
 :С1 GER_СЬ ;
 
 LEXICON V-01_САС-REFL !! V_refl 2013-03-04
- IND-AOR-RCSG1	;
- IND-AOR-RCSG2	;
- IND-AOR-RCSG3	;
- IND-AOR-RCDU1	;
- IND-AOR-RCDU2 	;
- IND-AOR-RCDU3 	;
- IND-AOR-RCPL1 	;
- IND-AOR-RCPL2 	;
- IND-AOR-RCPL3 	;
++Ind: IND-AOR-RCSG1	;
++Ind: IND-AOR-RCSG2	;
++Ind: IND-AOR-RCSG3	;
++Ind: IND-AOR-RCDU1	;
++Ind: IND-AOR-RCDU2 	;
++Ind: IND-AOR-RCDU3 	;
++Ind: IND-AOR-RCPL1 	;
++Ind: IND-AOR-RCPL2 	;
++Ind: IND-AOR-RCPL3 	;
 
 LEXICON V-01_ТИР  !!= @CODE@
 +Ind00@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
@@ -1663,16 +1663,17 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
 
+!!ONLY INTRANSITIVE VERBS IN THIS CONJUGATION TYPE
 LEXICON V-01_ӇАДИМ
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
-@R.CONJ.ObjAll@ V_Hort-Obj ;
+!@R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
-@R.CONJ.ObjAll@ V_Imprt-Obj ;
+!@R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
-@R.CONJ.ObjAll@ V_Opt-Obj ;
+!@R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1744,15 +1745,15 @@ LEXICON V-01_ӇАРАМ
  CONNEG ;
 
 LEXICON V-01_ӇАРАМ-REFL !! V_refl 2013-03-04
- IND-AOR-RCSG1	;
- IND-AOR-RCSG2	;
- IND-AOR-RCSG3	;
- IND-AOR-RCDU1	;
- IND-AOR-RCDU2 	;
- IND-AOR-RCDU3 	;
- IND-AOR-RCPL1 	;
- IND-AOR-RCPL2 	;
- IND-AOR-RCPL3 	;
++Ind: IND-AOR-RCSG1	;
++Ind: IND-AOR-RCSG2	;
++Ind: IND-AOR-RCSG3	;
++Ind: IND-AOR-RCDU1	;
++Ind: IND-AOR-RCDU2 	;
++Ind: IND-AOR-RCDU3 	;
++Ind: IND-AOR-RCPL1 	;
++Ind: IND-AOR-RCPL2 	;
++Ind: IND-AOR-RCPL3 	;
 
 !! Mutual verbal conjugation
 LEXICON IND-AOR !!= @CODE@ All except Sg3 Du3
