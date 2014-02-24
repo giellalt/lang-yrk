@@ -1690,6 +1690,8 @@
 
       <stg>
         <st Contlex="A_МАРАӇГЫ">илека</st>
+
+        <st Contlex="A_МАРАӇГЫ">иˮлика</st>
       </stg>
     </lg>
 
@@ -5406,6 +5408,26 @@
         <t pos="A">pieni</t>
 
         <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нюдярка</l>
+
+      <stg>
+        <st Contlex="A_МАРАӇГЫ">нюдярка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pienempi</t>
+
+        <t pos="A">nuorempi</t>
       </tg>
     </mg>
   </e>
