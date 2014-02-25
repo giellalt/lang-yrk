@@ -2438,6 +2438,26 @@
 
   <e>
     <lg>
+      <l pos="A">лоӈгрэця</l>
+
+      <stg>
+        <st Contlex="A_ӇОДИ">лоӈгрэця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kupera</t>
+
+        <t pos="A">pallomainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">лус</l>
 
       <stg>
@@ -5428,6 +5448,36 @@
         <t pos="A">pienempi</t>
 
         <t pos="A">nuorempi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нюкля</l>
+
+      <stg>
+        <st Contlex="A_ӇОДИ">нюкля</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="A">big</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">iso</t>
+
+        <t pos="A">suurikasvuinen</t>
+
+        <t/>
       </tg>
     </mg>
   </e>
