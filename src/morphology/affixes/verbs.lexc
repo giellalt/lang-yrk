@@ -1540,7 +1540,7 @@ LEXICON V-01_ТИР  !!= @CODE@
  V_Mod/perfprob ;
 :С1 V_Mod/prob ;
  V_Mod/perfappr ;
-:С1 V_Mod/appr ;
+:С1 V_Mod/appr_НАРАХА ; 
  V_Mod/des ;
  V_Mod/futappr ;
  V_Mod/hyp ;
@@ -1557,7 +1557,7 @@ LEXICON V-01_ТИР  !!= @CODE@
 +Ind:%>ӈа IND-4-PRT1-DU3 ;
 +Ind:%>ӈа IND-4-PRT1		;
  PRC2 ;
-:ʼ PRC-IMPRF ;
+:С1 PRC-IMPRF ;
  PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
  CONNEG ;
