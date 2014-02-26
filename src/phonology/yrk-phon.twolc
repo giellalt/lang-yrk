@@ -470,7 +470,7 @@ Rules
 "с => ц affrication after Stop"
 !! __@RULENAME@__
  с:ц <=> [ С1: | Д1: | ˮ: | л ] %> _ ь ;
-        [ л | р ] %> _ [ а | я | и ] ;
+        [ л | р ] %> _ [ а | я | и | %{ая%}: ] ;
 
 "с => з after nasal"
 !! __@RULENAME@__
@@ -499,7 +499,7 @@ Rules
 
 "х to к after non-nasal glottal"
 !! __@RULENAME@__
- х:к <=> [ Д1: | С1: | л ] %> _  ;
+ х:к <=> [ Д1: | С1: | л | р ] %> _  ;
 
 !! !!Realization of glottal stops
 !! !SURFACE CONSONANT
