@@ -651,7 +651,7 @@ LEXICON V-01_ТУ
  V_Subord ;
  V_AUD ;
  V_HAB ;
- V_Fut_ТА ;
+:%^VowRaise V_Fut_ТА ;
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
@@ -659,9 +659,9 @@ LEXICON V-01_ТУ
 +Ind: IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
- PRC-FUT ;
+:%^VowRaise PRC-FUT ;
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
- CONNEG ;
+:%^VowRaise CONNEG ;
 
 LEXICON V-01_ХО
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
