@@ -992,16 +992,16 @@ LEXICON V-01_ПЭБЮ
 +Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
 +Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
- V_Hort ;
+:%^VowLoss V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
- V_Imprt-Scsg2 ;
- V_Imprt ;
+:%^A2I V_Imprt-Scsg2 ;
+:%^A2I V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
 @R.CONJ.ObjAll@ V_Opt-Obj ;
  V_Subord ;
  V_AUD ;
- V_Conj ;
+:%^VowLoss V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
  V_Mod/futappr ;
@@ -2506,12 +2506,13 @@ LEXICON V_Fut_ӇГУ
 +Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ӈгоʼ%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
 +Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ӈгоʼ%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
 +Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ӈгоʼ%>накы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
-
++Fut:%>ӈго V_Subord ;
 
 
 LEXICON V_Fut_ТА
 +Fut+Ind+Aor:%>та MUTUAL-PERSON ;
 +Fut+Ind:%>та MUTUAL-PRT1-PERSON ;
++Fut:%>та V_Subord ;
 
 LEXICON V_Fut_ТАӇА/ТА
 !+Fut+Ind+Aor:%>таӈа MUTUAL-PERSON ;
