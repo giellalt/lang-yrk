@@ -1285,11 +1285,11 @@ LEXICON V-01_СЯНАКУ
  V_AUD ;
  V_HAB ;
  V_Fut_ТА ;
- IND-AOR		;
- IND-AOR-SG3 	;
- IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
-+Ind: IND-4-PRT1		;
+:%^VowRaise IND-AOR		;
+:%^VowRaise IND-AOR-SG3 	;
+:%^VowRaise IND-AOR-DU3 	;
++Ind:%^VowRaise IND-4-PRT1-DU3 ;
++Ind:%^VowRaise IND-4-PRT1		;
  PRC2 ;
  PRC-IMPRF ;
  PRC-FUT ;
