@@ -265,6 +265,7 @@ LEXICON V-01_Е
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -303,6 +304,7 @@ LEXICON V-01_МЭ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -343,6 +345,7 @@ LEXICON V-01_МЫ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -382,6 +385,7 @@ LEXICON V-01_НЁ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -417,7 +421,8 @@ LEXICON V-01_НИ
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
-@R.CONJ.ObjAll@ V_Hort-Obj ;
+@R.CONJ.ObjAll@ V_Hort-Obj ; 
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Subord ;
  V_AUD ;
@@ -452,6 +457,7 @@ LEXICON V-01_НО
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -488,6 +494,7 @@ LEXICON V-01_НУ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -514,7 +521,7 @@ LEXICON V-01_НУ
  IND-AOR		;
  IND-AOR-SG3 	;
 :%>ӈа IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
++Ind:%>ӈа IND-4-PRT1-DU3 ;
 +Ind: IND-4-PRT1		;
  PRC ;
  PRC-IMPRF ;
@@ -543,6 +550,7 @@ LEXICON V-01_ӇЭ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -583,6 +591,7 @@ LEXICON V-01_ТО
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -621,6 +630,7 @@ LEXICON V-01_ТУ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -661,6 +671,7 @@ LEXICON V-01_ХО
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -703,6 +714,7 @@ LEXICON V-01_ХЭ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -743,6 +755,7 @@ LEXICON V-01_ВАДЮ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -783,6 +796,7 @@ LEXICON V-01_ЯКУ !!= @CODE@ якась:яка
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Conj ;
@@ -822,6 +836,7 @@ LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
  V_Opt ;
  V_Subord ;
@@ -861,6 +876,7 @@ LEXICON V-01_ИЛЕ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -933,6 +949,7 @@ LEXICON V-01_ӇЭСУ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -977,6 +994,7 @@ LEXICON V-01_ПЭБЮ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1054,6 +1072,7 @@ LEXICON V-01_ХАДА
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1126,6 +1145,7 @@ LEXICON V-01_ЮХУ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1168,6 +1188,7 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1240,6 +1261,7 @@ LEXICON V-01_СЯНАКУ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1281,6 +1303,7 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1336,6 +1359,7 @@ LEXICON V-01_МАН   !!= @CODE@ манзь:маН1
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1376,6 +1400,7 @@ LEXICON V-01_МИН
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1428,6 +1453,7 @@ LEXICON V-01_МИС
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1474,6 +1500,7 @@ LEXICON V-01_САС !!= * @CODE@ манэць:манэ
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1528,7 +1555,8 @@ LEXICON V-01_ТИР  !!= @CODE@
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
- V_Imprt ;
+ V_Imprt-Scsg2 ;
+:%>ӈа V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
 :%>ӈа V_Opt ;
 000@R.CONJ.ObjAll@:%>ӈа@R.CONJ.ObjAll@ V_Opt-Obj ;
@@ -1628,6 +1656,7 @@ LEXICON V-01_НЭКАЛ  !!= @CODE@ нэкалць:нэкал
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
 :%>ӈа  V_Opt ;
@@ -1670,6 +1699,7 @@ LEXICON V-01_ӇАДИМ
  V_PREC ;
  V_Hort ;
 !@R.CONJ.ObjAll@ V_Hort-Obj ;
+ V_Imprt-Scsg2 ;
  V_Imprt ;
 !@R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
@@ -1711,6 +1741,7 @@ LEXICON V-01_ӇАРАМ
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
  V_Imprt ;
+ V_Imprt-Scsg2 ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
  V_Opt ;
 @R.CONJ.ObjAll@ V_Opt-Obj ;
@@ -2201,7 +2232,7 @@ LEXICON V_Mod/int-NON-OPL
 !+Mod/int+ScPl3+OcPl3:%>сядоʼ K ;
 
 LEXICON V_Hort
-+Hort:%>ха MUTUAL-SG1 ;
++Hort:%>х%{ауоэØ%} MUTUAL-SG1 ;
 +Hort:%>х%{ауоэØ%} MUTUAL-DU1 ;
 !+Hort:%>хэ MUTUAL-DU1 ;
 +Hort:%>х%{ауоэØ%} MUTUAL-PL1 ;
@@ -2250,10 +2281,10 @@ LEXICON V_PREC !!= * __@CODE@__ Hort
 +Prec+Opt:%>хэрӈая MUTUAL-DU3 ;
 +Prec+Opt:%>хэрӈая MUTUAL-PL3_NORAISING ;
 
-
+LEXICON V_Imprt-Scsg2
++Imprt+ScSg2:%>ˮ K ;
 
 LEXICON V_Imprt
-+Imprt+ScSg2:%>ˮ K ;
 +Imprt: MUTUAL-DU2 ;
 +Imprt: MUTUAL-PL2 ;
 
