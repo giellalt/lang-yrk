@@ -1224,8 +1224,17 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
 :%^VowLoss CONNEG ;
 
 LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
- V_IND-Refl ;
- V_IND-Refl-PRT1 ;
+!:%^A2I V_IND-Refl ;
++Ind:%^A2I IND-AOR-RCSG1	;
++Ind:%^A2I IND-AOR-RCSG2	;
++Ind:%^A2I IND-AOR-RCSG2	;
++Ind:%^A2I IND-AOR-RCDU1	;
++Ind:%^A2I IND-AOR-RCDU2 	;
++Ind:%^A2I IND-AOR-RCDU3 	;
++Ind:%^A2I IND-AOR-RCPL1 	;
++Ind:%^A2I IND-AOR-RCPL2 	;
++Ind:%^A2I IND-AOR-RCPL3 	;
+:%^A2I V_IND-Refl-PRT1 ;
  V_PREC ;
  V_Hort-Refl ;
  V_Imprt-Refl ;
