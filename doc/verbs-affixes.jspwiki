@@ -1,8 +1,7 @@
-Verb inflection
----------------
-Nenets verbs inflect in persons.
+!!!Verb inflection
 
-!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
+!!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
  LEXICON IV_Е  есь:е
 
 
@@ -28,16 +27,14 @@ Nenets verbs inflect in persons.
 
 
 
-!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
 
  LEXICON IV_ЯКУ  якась:яка
 
 
-Work needed for variation 2013-03-04
 
 
-Work needed for variation 2013-09-05
 
 
 
@@ -63,8 +60,6 @@ Work needed for variation 2013-09-05
 
 
 * Yaml: __V-yaqwlasj__
-
-more work to be done with -Pal/Var 2013-03-04
 
 
 
@@ -103,8 +98,12 @@ more work to be done with -Pal/Var 2013-03-04
 
 
 !!AFTER +TV, +IV, +Aux, +Refl
+Not yet written.
+
 !!CONJUGATION BY STEM TYPE
+
 !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -163,8 +162,6 @@ V_refl 2013-03-04
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 
- * ! PRC-NEG ; 	+PrcNeg +PrcFut
- * !:%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -179,7 +176,7 @@ V_refl
 а > э in Pl Oc 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
-а > ы (ъя before х)
+V_refl 2013-03-04  а > ы (ъя before х)
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -207,7 +204,6 @@ V_refl 2013-03-04
 
  * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
 
-V_refl 2013-03-04
 
  LEXICON V-01_ТИР  
 
@@ -311,7 +307,6 @@ Other moods
 
 
 
-
  * +Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}ы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;  хось:ховынась 
  *+Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ;  яˮавлавэсь
 
@@ -333,7 +328,6 @@ Other moods
 
 
  * __+Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; __ Sg3 and Pl3
-
 
 
 
