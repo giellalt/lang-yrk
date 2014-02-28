@@ -21609,6 +21609,8 @@
 
       <stg>
         <st Contlex="N_ӇОДИ">пюльбя</st>
+
+        <st Contlex="N_ӇОДИ">пильбя</st>
       </stg>
     </lg>
 
@@ -42800,6 +42802,26 @@
 
   <e>
     <lg>
+      <l pos="N">ӈавця</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">ӈавця</st>
+
+        <st Contlex="N_ӇОДИ">ӈовця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lammas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ӈадьбя</l>
 
       <stg>
@@ -43012,6 +43034,24 @@
 
       <tg xml:lang="fin">
         <tf pos="N">runsas tahmea lumi</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ӈамя</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">ӈамя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">rinta</t>
       </tg>
     </mg>
   </e>
@@ -45174,6 +45214,8 @@
 
       <stg>
         <st Contlex="N_ӇОДИ">ӈэця</st>
+
+        <st Contlex="N_ӇОДИ">ӈаця</st>
       </stg>
     </lg>
 
