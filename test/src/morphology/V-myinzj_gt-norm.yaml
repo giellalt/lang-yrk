@@ -1,0 +1,102 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - минзь: # Verb 'to go' - partial paradigm
+     минзь+V+IV+Ind+Aor+ScSg1: миӈадмʼ
+     минзь+V+IV+Ind+Aor+ScSg2: миӈан
+     минзь+V+IV+Ind+Aor+ScSg3: миӈа
+     минзь+V+IV+Ind+Aor+ScDu1: миӈаниʼ
+     минзь+V+IV+Ind+Aor+ScDu2: миӈадиʼ
+     минзь+V+IV+Ind+Aor+ScDu3: миӈахаʼ
+     минзь+V+IV+Ind+Aor+ScPl1: миӈаваˮ
+     минзь+V+IV+Ind+Aor+ScPl2: миӈадаˮ
+     минзь+V+IV+Ind+Aor+ScPl3: миӈаˮ 
+     минзь+V+IV+Ind+Prt1+ScSg1: миӈадамзь
+     минзь+V+IV+Ind+Prt1+ScSg2: миӈанась
+     минзь+V+IV+Ind+Prt1+ScSg3: миӈась
+     минзь+V+IV+Ind+Prt1+ScDu1: миӈанинзь
+     минзь+V+IV+Ind+Prt1+ScDu2: миӈадинзь
+     минзь+V+IV+Ind+Prt1+ScDu3: миӈаханзь
+     минзь+V+IV+Ind+Prt1+ScPl1: миӈаваць
+     минзь+V+IV+Ind+Prt1+ScPl2: миӈадаць
+     минзь+V+IV+Ind+Prt1+ScPl3: миӈаць
+     минзь+V+IV+Conj+Aor+ScSg1: минъидмʼ
+     минзь+V+IV+Conj+Aor+ScSg2: минъин
+     минзь+V+IV+Conj+Aor+ScSg3: минъи
+     минзь+V+IV+Conj+Aor+ScDu1: минъиниʼ
+     минзь+V+IV+Conj+Aor+ScDu2: минъидиʼ
+     минзь+V+IV+Conj+Aor+ScDu3: минъихыʼ
+     минзь+V+IV+Conj+Aor+ScPl1: минъиваˮ
+     минзь+V+IV+Conj+Aor+ScPl2: минъидаˮ
+     минзь+V+IV+Conj+Aor+ScPl3: минъиˮ 
+     минзь+V+IV+Conj+Prt1+ScSg1: минъидамзь
+     минзь+V+IV+Conj+Prt1+ScSg2: минъинась
+     минзь+V+IV+Conj+Prt1+ScSg3: минъись
+     минзь+V+IV+Conj+Prt1+ScDu1: минъининзь
+     минзь+V+IV+Conj+Prt1+ScDu2: минъидинзь
+     минзь+V+IV+Conj+Prt1+ScDu3: минъихынзь
+     минзь+V+IV+Conj+Prt1+ScPl1: минъиваць
+     минзь+V+IV+Conj+Prt1+ScPl2: минъидаць
+     минзь+V+IV+Conj+Prt1+ScPl3: минъиць
+     минзь+V+IV+Mod/nec+ScSg1: минзудмʼ
+     минзь+V+IV+Mod/nec+ScSg2: минзун
+     минзь+V+IV+Mod/nec+ScSg3: минзу
+     минзь+V+IV+Mod/nec+ScDu1: минзуниʼ
+     минзь+V+IV+Mod/nec+ScDu2: минзудиʼ
+     минзь+V+IV+Mod/nec+ScDu3: минзухуʼ
+     минзь+V+IV+Mod/nec+ScPl1: минзуваˮ
+     минзь+V+IV+Mod/nec+ScPl2: минзудаˮ
+     минзь+V+IV+Mod/nec+ScPl3: минзуˮ 
+     минзь+V+IV+Mod/int+ScSg1: минзадмʼ
+     минзь+V+IV+Mod/int+ScSg2: минзан
+     минзь+V+IV+Mod/int+ScSg3: минза
+     минзь+V+IV+Mod/int+ScDu1: минзаниʼ
+     минзь+V+IV+Mod/int+ScDu2: минзадиʼ
+     минзь+V+IV+Mod/int+ScDu3: минзахаʼ
+     минзь+V+IV+Mod/int+ScPl1: минзаваˮ
+     минзь+V+IV+Mod/int+ScPl2: минзадаˮ
+     минзь+V+IV+Mod/int+ScPl3: минзаˮ 
+                    
+     минзь+V+IV+InfImprf: мима  
+     минзь+V+IV+InfPrf: миёˮма  
+     минзь+V+IV+PrcImprf: [минда, миндя]
+     минзь+V+IV+PrcPrf: мимы
+     минзь+V+IV+PrcFut: миманда   
+     минзь+V+IV+PrcNeg: мимдавэй
+     минзь+V+IV+Ger: минзь
+     минзь+V+IV+GerFin: миманзь      
+     минзь+V+IV+Subord+Abs: мимбˮ
+     минзь+V+IV+Evas: мимоӈгад
+     минзь+V+IV+ConNeg: мийˮ
+     минзь+V+IV+Fut+ConNeg: миндˮ
+     минзь+V+IV+Subord+PxSg1: [мимбˮнан, мимбаˮн]
+     минзь+V+IV+Subord+PxSg2: [мимбˮнанд, мимбат]
+     минзь+V+IV+Subord+PxSg3: [мимбˮнанда, мимбта, мимбата] 
+     минзь+V+IV+Subord+PxDu1: [мимбˮнаниʼ, мимбˮниʼ]
+     минзь+V+IV+Subord+PxDu2: [мимбˮнандиʼ, мимбатиʼ]
+     минзь+V+IV+Subord+PxDu3: [мимбˮнандиʼ, мимбатиʼ]
+     минзь+V+IV+Subord+PxPl1: [мимбˮнанаˮ, мимбˮнаˮ]
+     минзь+V+IV+Subord+PxPl2: [мимбˮнандаˮ, мимбатаˮ]
+     минзь+V+IV+Subord+PxPl3: [мимбˮнандоʼ, мимбатоʼ]
+     минзь+V+IV+Fut+Ind+Aor+ScSg1: миндадмʼ
+     минзь+V+IV+Fut+Ind+Aor+ScSg2: миндан
+     минзь+V+IV+Fut+Ind+Aor+ScSg3: минда
+     минзь+V+IV+Fut+Ind+Aor+ScDu1: минданиʼ
+     минзь+V+IV+Fut+Ind+Aor+ScDu2: миндадиʼ
+     минзь+V+IV+Fut+Ind+Aor+ScDu3: миндӈахаʼ
+     минзь+V+IV+Fut+Ind+Aor+ScPl1: миндаваˮ
+     минзь+V+IV+Fut+Ind+Aor+ScPl2: миндадаˮ
+     минзь+V+IV+Fut+Ind+Aor+ScPl3: миндаˮ            
