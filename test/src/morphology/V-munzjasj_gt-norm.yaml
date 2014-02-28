@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - мунзясь: # Verb 'to be silent' /Type 6a/ - partial paradigm
+     мунзясь+V+IV+Ind+Aor+ScSg1: мунзидмʼ
+     мунзясь+V+IV+Ind+Aor+ScSg2: мунзин
+     мунзясь+V+IV+Ind+Aor+ScSg3: мунзи
+     мунзясь+V+IV+Ind+Aor+ScDu1: мунзиниʼ
+     мунзясь+V+IV+Ind+Aor+ScDu2: мунзидиʼ
+     мунзясь+V+IV+Ind+Aor+ScDu3: мунзихиʼ
+     мунзясь+V+IV+Ind+Aor+ScPl1: мунзиваˮ
+     мунзясь+V+IV+Ind+Aor+ScPl2: мунзидаˮ
+     мунзясь+V+IV+Ind+Aor+ScPl3: мунзиˮ
+     мунзясь+V+IV+Ind+Prt1+ScSg1: мунзидамзь
+     мунзясь+V+IV+Ind+Prt1+ScSg2: мунзинась
+     мунзясь+V+IV+Ind+Prt1+ScSg3: мунзись
+     мунзясь+V+IV+Ind+Prt1+ScDu1: мунзининзь
+     мунзясь+V+IV+Ind+Prt1+ScDu2: мунзидинзь
+     мунзясь+V+IV+Ind+Prt1+ScDu3: мунзихинзь
+     мунзясь+V+IV+Ind+Prt1+ScPl1: мунзиваць
+     мунзясь+V+IV+Ind+Prt1+ScPl2: мунзидаць
+     мунзясь+V+IV+Ind+Prt1+ScPl3: мунзиць
+    
+     мунзясь+V+IV+InfImprf: мунзьва
+     мунзясь+V+IV+InfPrf: мунзьˮма
+     мунзясь+V+IV+PrcImprf: мунзьда
+     мунзясь+V+IV+PrcPrf: мунзьвы
+     мунзясь+V+IV+PrcFut: [мунзявнда, мунзювнда]
+     мунзясь+V+IV+PrcNeg: [мунзявдавэй, мунзювдавэй]
+     мунзясь+V+IV+Ger: [мунзя, мунзясь]
+     мунзясь+V+IV+GerFin: мунзьванзь
+     мунзясь+V+IV+ConNeg: мунзюˮ
+     мунзясь+V+IV+Subord+Abs: мунзябˮ     
+     мунзясь+V+IV+Evas+Abs: мунзьвоӈгад  
+     мунзясь+V+IV+Fut+ConNeg: мунзьӈгуˮ   
