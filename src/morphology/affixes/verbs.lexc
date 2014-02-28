@@ -176,7 +176,6 @@ LEXICON IV_ЯˮАВЛУ-Pal/Var
 LEXICON TV_ЯˮАВЛУ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
-
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 LEXICON IV_МАН  !!= @CODE@ манзь:маН1
 !! * Yaml: __manzj__
@@ -2382,7 +2381,7 @@ LEXICON V_Mod/perfappr
 
 LEXICON V_Mod/perfappr_ВЭРАХА
 +Mod/perfappr:%>%{вм%}эраха MUTUAL-PERSON-NON-OCPL ;
-+Mod/perfappr:%>%{вм%}эраха MUTUAL-PERSON-OCPL_NORAISING ;
++Mod/perfappr:%>%{вм%}эрыхы MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/perfappr-Refl
 +Mod/perfappr:%>%{вм%}эрхы MUTUAL-PERSON-REFL ;
