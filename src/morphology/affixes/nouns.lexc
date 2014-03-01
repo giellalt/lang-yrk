@@ -75,7 +75,7 @@ LEXICON N_ХАБИЕ  !!= @CODE@ хӑби:8ProsSg -вна
 LEXICON N_ӇЭ/СЁЁ/ХАБИЕ 
 +N: NMN_ӇЭ/СЁЁ/ХАБИЕ ;
 
-LEXICON N_ПАНЫ  !!= @CODE@ пӑны:пӑны  !ProsSg -(э)вна
+LEXICON N_ПАНЫ  !!= @CODE@ пӑны:пӑны!ProsSg -(э)вна
 !! /total=30/
 !! пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
 +N: NMN_ПАНЫ ;
@@ -111,7 +111,7 @@ LEXICON N_ТИРЕ  !!= @CODE@ тир: 12 ProsSg -увна
 LEXICON N_ЕД-RUS
 +Rus: N_ЕД ;
 
-LEXICON N_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
+LEXICON N_ЕД  !!= @CODE@ ед: 13 ProsSg -увна /-ювна
 !! /total=98/
 !! ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
 +N: NMN_ЕД ;
@@ -195,7 +195,7 @@ LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17 ProsSg -вна
 LEXICON N_ӇОДИ-RUS 
 +Rus: N_ӇОДИ ;
 
-LEXICON NMN_ӇОДИ
+LEXICON NMN_ӇОДИ !!= @CODE@
 !! /total=28/
 !! ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
  SGDATSUF ;
@@ -262,8 +262,8 @@ LEXICON N_ӇУДИ/ХОБ
 +N: PLNOMSUF ;
 +N: PLACCSUF_Minus ;
 
-LEXICON N_МАРАӇГЫ/ХОБ !!
-!!
+LEXICON N_МАРАӇГЫ/ХОБ 
+
 +N: SGDATSUF ;
 +N: SG-ACC-STEM	;
 +N:  SG-NOM-STEM ;
@@ -643,7 +643,7 @@ LEXICON NMN_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_Ё   !!= @CODE@ я:я 2 !!ProsSg -вна
+LEXICON NMN_Ё   !!= @CODE@ я:я 2 ProsSg -вна
   SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
@@ -664,7 +664,7 @@ LEXICON NMN_ӇЭ/Ё
  PLACCSUF_Zero ; !!
 :%^A2O PLACCSUF_Zero ; 
 
-LEXICON NMN_ПИ !!= @CODE@ пя: 3 !!ProsSg -вна
+LEXICON NMN_ПИ !!= @CODE@ пя: 3 ProsSg -вна
   SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
@@ -674,7 +674,7 @@ LEXICON NMN_ПИ !!= @CODE@ пя: 3 !!ProsSg -вна
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_ТЫ  !!= @CODE@ ты:ты 4 !!ProsSg -вна
+LEXICON NMN_ТЫ  !!= @CODE@ ты:ты 4 ProsSg -вна
 !! /total=4/
 !! ты ti        тэ̇н’ ten°h     ты” tiq ты tí
 :%^VowLower SGDATSUF ;
@@ -689,7 +689,7 @@ LEXICON NMN_ТЫ  !!= @CODE@ ты:ты 4 !!ProsSg -вна
 :%^VowLower  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%^VowLower POSSESSA-DUAL ;
 
-LEXICON NMN_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
+LEXICON NMN_ХАВО  !!= @CODE@ ха: 5 rosSg -вна
 !! /total=1/
 !! ха xa        хан’ xan°h      ха” xaq хаво xawo
  SGDATSUF ;
@@ -701,7 +701,7 @@ LEXICON NMN_ХАВО  !!= @CODE@ ха: 5 !!ProsSg -вна
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
+LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 ProsSg -вна
 !! /total=0/
 !! сё syo       сён’ syon°h     сё” syoq        сёё syoyo
  SGDATSUF ;
@@ -713,7 +713,7 @@ LEXICON NMN_СЁЁ  !!= @CODE@ сё: 6 !!ProsSg -вна
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL_ХАЮН ;
 
-LEXICON NMN_ИБЕ  !!= @CODE@ и: 7 !!ProsSg -вна
+LEXICON NMN_ИБЕ  !!= @CODE@ и: 7 ProsSg -вна
 !! /total=0/
 !! и yí ин’ yín°h       и” yíq  ибе yíbye
  SGDATSUF ;
@@ -723,7 +723,7 @@ LEXICON NMN_ИБЕ  !!= @CODE@ и: 7 !!ProsSg -вна
   PLNOMSUF ;
 :б PLACCSUF_Е ; !
 
-LEXICON NMN_ХАБИЕ  !!= @CODE@ хӑби:8 !!ProsSg -вна
+LEXICON NMN_ХАБИЕ  !!= @CODE@ хӑби:8 ProsSg -вна
 !! /total=0/
 !! хӑби xəbyi  хӑбин’ xəbyin°h        хӑби” xəbyiq   хӑбие xəbyiy
  SGDATSUF ;
@@ -756,7 +756,7 @@ LEXICON NMN_ПАНЫ !! 9
 :%^VowLower  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%^VowLower POSSESSA-DUAL ;
 
-LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 !!ProsSg -ювна
+LEXICON NMN_ХУСУВЭЙ !!= @CODE@ хусувэй: 10 ProsSg -ювна
   SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
@@ -813,7 +813,7 @@ SGDATSUF ;
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
+LEXICON NMN_ЕД  !!= @CODE@ ед: 13 ProsSg -увна /-ювна
 !! Yaml: __yed__
 :а  SGDATSUF ;
     SG-ACC-STEM ;
@@ -824,7 +824,7 @@ LEXICON NMN_ЕД  !!= @CODE@ ед: 13 !!ProsSg -увна /-ювна
   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL_ХАЮН ;
 
-!! !NOMINALS "NMN"
+!! !!NOMINALS "NMN"
 !! !THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON    NMN_МАРАӇГЫ
     NMN_МАРАӇГЫ-SG ;
@@ -843,7 +843,7 @@ LEXICON NMN_МАРАӇГЫ-PL
 
 
 
-!!
+
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
