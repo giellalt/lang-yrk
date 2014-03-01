@@ -54,7 +54,7 @@ Yaml: __ty__
 хӑби xəbyi	хӑбин’ xəbyin°h	хӑби” xəbyiq	хӑбие xəbyiy
 
 
- LEXICON N_ПАНЫ   пӑны:пӑны  !ProsSg -(э)вна
+ LEXICON N_ПАНЫ   пӑны:пӑны!ProsSg -(э)вна
 /total=30/
 пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
 
@@ -75,7 +75,7 @@ Yaml: __xano__
 тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 
 
- LEXICON N_ЕД   ед: 13 !!ProsSg -увна /-ювна
+ LEXICON N_ЕД   ед: 13 ProsSg -увна /-ювна
 /total=98/
 ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
 
@@ -106,6 +106,7 @@ Yaml: __ngudi__
  LEXICON N_ӇОДИ   ӈодя: 17 ProsSg -вна
 
 
+ LEXICON NMN_ӇОДИ 
 /total=28/
 ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
@@ -122,6 +123,7 @@ Yaml: __xob__
 /total=25/
 хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
  +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
 
 
 
@@ -285,34 +287,34 @@ NMN
    PLACCSUF_Zero ;  => PL-ACC_STEM
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_Ё    я:я 2 !!ProsSg -вна
+ LEXICON NMN_Ё    я:я 2 ProsSg -вна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
- LEXICON NMN_ПИ  пя: 3 !!ProsSg -вна
+ LEXICON NMN_ПИ  пя: 3 ProsSg -вна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_ТЫ   ты:ты 4 !!ProsSg -вна
+ LEXICON NMN_ТЫ   ты:ты 4 ProsSg -вна
 /total=4/
 ты ti        тэ̇н’ ten°h     ты” tiq ты tí
  +Pl+Pros:%^VowLower%>ˮэмна K ;  This will need schwa to surface
  :%^VowLower  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_ХАВО   ха: 5 !!ProsSg -вна
+ LEXICON NMN_ХАВО   ха: 5 rosSg -вна
 /total=1/
 ха xa        хан’ xan°h      ха” xaq хаво xawo
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_СЁЁ   сё: 6 !!ProsSg -вна
+ LEXICON NMN_СЁЁ   сё: 6 ProsSg -вна
 /total=0/
 сё syo       сён’ syon°h     сё” syoq        сёё syoyo
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_ИБЕ   и: 7 !!ProsSg -вна
+ LEXICON NMN_ИБЕ   и: 7 ProsSg -вна
 /total=0/
 и yí ин’ yín°h       и” yíq  ибе yíbye
 
- LEXICON NMN_ХАБИЕ   хӑби:8 !!ProsSg -вна
+ LEXICON NMN_ХАБИЕ   хӑби:8 ProsSg -вна
 /total=0/
 хӑби xəbyi  хӑбин’ xəbyin°h        хӑби” xəbyiq   хӑбие xəbyiy
 
@@ -322,7 +324,7 @@ NMN
 9
  :%^VowLower  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_ХУСУВЭЙ  хусувэй: 10 !!ProsSg -ювна
+ LEXICON NMN_ХУСУВЭЙ  хусувэй: 10 ProsSg -ювна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
@@ -334,14 +336,15 @@ NMN
  LEXICON NMN_ТИРЕ   тир: 12 ProsSg -увна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- LEXICON NMN_ЕД   ед: 13 !!ProsSg -увна /-ювна
+ LEXICON NMN_ЕД   ед: 13 ProsSg -увна /-ювна
 Yaml: __yed__
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
-!NOMINALS "NMN"
+!!NOMINALS "NMN"
 !THREE-SYLLABLE VOWEL-FINAL STEMS
 
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
 
 
 
