@@ -80,7 +80,7 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-  %{яØ%}	    хонась+V+Refl+Mod/int+RcSg3: хонасьˮ
+  %{аяуюØ%}	 хан+N+Sg+Acc+PxSg1: ханув, ханав
   %{ая%}     in Pros
   %{увм%}    +N+Sg+Pros
   %{вм%}	    +N+Sg+Nom+PxSg1
@@ -460,7 +460,7 @@ NMN
 
 
 
- * LEXICON NMN_ХАНО  11
+ * LEXICON NMN_ХАНО  11 хан:хан
 
 
 
@@ -1141,7 +1141,7 @@ Non-finites
 
 
 
-  %{яØ%}:я	 хонась+V+Refl+Mod/int+RcSg3: хонасьˮ
+  %{аяуюØ%}:0	 хан+N+Sg+Acc+PxSg1: ханув, ханав
   %{ая%}:а          in Pros
 
   %{увм%}:0	    +N+Sg+Pros
@@ -1203,10 +1203,16 @@ __%{ауоэØ%} -> 0 right__
 }}}
 __%{ауоэØ%} <- 0 left__
 
+__%{ауоэØ%} <- а left__
+
 __%{ауоэØ%} -> а right__
   # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
 
-__%{ауоэØ%} <- а left__
+__%{аяуюØ%}:а vowel singular accusative after consonant LEFT__
+
+__%{аяуюØ%}:а vowel singular accusative after consonant RIGHT__
+
+__%{аяуюØ%}:у vowel singular accusative after consonant RIGHT__
 
 __%{ауоэØ%} <-> у__
 
@@ -1297,6 +1303,8 @@ __я:ь Stem vowel loss in plural accusative__
 __я:0 Stem vowel loss in plural accusative__
 
 __и:ь Refl Mod/int__
+
+__%{аяуюØ%}:0 Stem vowel loss in singular accusative after vowel stem__
 
 
 !!CONSONANT CHANGES

@@ -787,7 +787,7 @@ LEXICON NMN_ЕД/ХУСУВЭЙ
   PLNOMSUF ;
   PLACCSUF_Zero ; !
 
-LEXICON NMN_ХАНО !!= * @CODE@ 11
+LEXICON NMN_ХАНО !!= * @CODE@ 11 хан:хан
 	NMN_ХАНО-SG ;
 	NMN_ХАНО-PL ;
 LEXICON NMN_ХАНО-SG
@@ -1320,10 +1320,10 @@ LEXICON POSSESSA-SG-NOM
 +Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg:%>донзь K ;
 
 LEXICON POSSESSA-SG-ACC
-+Sg+Acc+PxSg1:%>%{вм%}    K ;
++Sg+Acc+PxSg1:%>%{аяуюØ%}%{вм%}    K ;
 +Sg+Acc+PxSg1:%>ми   K ;! (1961: 112) нюми, ӈэсями, мяˮми 
-+Sg+Acc+PxSg2:%>мд   K ;
-+Sg+Acc+PxSg3:%>мда  K ;
++Sg+Acc+PxSg2:%>%{аяуюØ%}мд   K ;
++Sg+Acc+PxSg3:%>%{аяуюØ%}мда  K ;
 +Sg+Acc+PxDu1:%>миʼ  K ;
 +Sg+Acc+PxDu2:%>мдиʼ K ;
 +Sg+Acc+PxDu3:%>мдиʼ K ;
