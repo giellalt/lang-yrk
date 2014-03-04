@@ -40,6 +40,7 @@ Alphabet
  С1:с
  С1:0
 
+ %{яØ%}:я	!!= @CODE@ хонась+V+Refl+Mod/int+RcSg3: хонасьˮ
  %{ая%}:а         !!= @CODE@ in Pros
 
  %{увм%}:0	   !!= @CODE@ +N+Sg+Pros
@@ -166,6 +167,9 @@ Rules
 !                   [[ а | я | й | и | ы | Ы2: | Cns ] %> х: | %> а х ] _ ;
        # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [ ʼ | д ] ; 
        # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [( ˮ ) н Vow | т Vow ] ; 
+      # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> х: _ [ Cns  | ˮ ] ;
+!€# хона%>й%>х%{ауоэØ%}нзь
+!€0 хонэ0й0ханзь
 !!# Cns* Vow+ Cns* Vow: [[ Ӈ1: | Н1: |  ʼ: | Д1: | С1: ] %> х: | %> а х ] _ ;
 !2013-03-15! adding и | ы | й | Ы2: for тёресь+V+Refl+Mod/appr+RcDu3
  # Cns* PAIRSYLL+ %> д _ р е ; !!= @CODE@ even-syllables
@@ -178,6 +182,9 @@ Rules
                    [[ [ Cns | # Cns* ] [ :а | :я | й | и | ы | Ы2:ы ] | Cns ] %> х: | %> а х ] _ ;
 !                   [[ а | я | й | и | ы | Ы2:ы | Cns ] %> х: | %> а х ] _ ;
        # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [ ʼ | д ] ; 
+      # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> х: _ [ Cns  | ˮ ] ;
+!€# хона%>й%>х%{ауоэØ%}нзь
+!€0 хонэ0й0ханзь
 
 "%{ауоэØ%} <-> у"
 !! __@RULENAME@__
@@ -364,11 +371,20 @@ Rules
 "я:ь Stem vowel loss in plural accusative"
 !! __@RULENAME@__
  я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
+        %> с _ %> ˮ [ # | %> ] ;
+!€# хона>ся>ˮ
+!€0 хона0сь0ˮ
 
 "я:0 Stem vowel loss in plural accusative"
 !! __@RULENAME@__
  я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
          а: %^A2I:0 %> ъ: _ (%>) [ н | д ] ;
+
+"и:ь Refl Mod/int"
+!! __@RULENAME@__
+ и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
+!€# тёре>си>ˮ
+!€0 тёре0сь0ˮ
 
 
 !! !!CONSONANT CHANGES

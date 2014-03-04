@@ -1,7 +1,8 @@
-!!!Verb inflection
+Verb inflection
+---------------
+Nenets verbs inflect in persons.
 
-
-!!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
  LEXICON IV_Е  есь:е
 
 
@@ -27,14 +28,16 @@
 
 
 
-!!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
 
  LEXICON IV_ЯКУ  якась:яка
 
 
+Work needed for variation 2013-03-04
 
 
+Work needed for variation 2013-09-05
 
 
 
@@ -61,6 +64,7 @@
 
 * Yaml: __V-yaqwlasj__
 
+more work to be done with -Pal/Var 2013-03-04
 
 
 
@@ -98,12 +102,8 @@
 
 
 !!AFTER +TV, +IV, +Aux, +Refl
-Not yet written.
-
 !!CONJUGATION BY STEM TYPE
-
 !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -162,6 +162,8 @@ V_refl 2013-03-04
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 
+ * ! PRC-NEG ; 	+PrcNeg +PrcFut
+ * !:%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -176,7 +178,7 @@ V_refl
 а > э in Pl Oc 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
-V_refl 2013-03-04  а > ы (ъя before х)
+а > ы (ъя before х)
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -204,6 +206,7 @@ V_refl 2013-03-04
 
  * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
 
+V_refl 2013-03-04
 
  LEXICON V-01_ТИР  
 
@@ -279,6 +282,7 @@ Preterite 1 # This should be for ConjPrt and NarrPrt also.
 
 
 
+ * +Ind:%>я IND-AOR-RCSG1	;  This should be schwa or something
 
 Other moods
 сь in 2nd, 4th etc non-final syllable 

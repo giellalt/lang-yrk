@@ -179,9 +179,9 @@ Multichar_Symbols
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
-
- %{ая%}         !!= @CODE@ in Pros
- %{увм%}	   !!= @CODE@ +N+Sg+Pros
+ %{яØ%}	   !!= @CODE@ хонась+V+Refl+Mod/int+RcSg3: хонасьˮ
+ %{ая%}    !!= @CODE@ in Pros
+ %{увм%}   !!= @CODE@ +N+Sg+Pros
  %{вм%}	   !!= @CODE@ +N+Sg+Nom+PxSg1
  %{рл%}	   !!= @CODE@ +N+Sg+Nom+PxSg2
 !! And following triggers to control variation

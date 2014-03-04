@@ -913,7 +913,7 @@ LEXICON V-01_ИЛЕ
 
 LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_IND-Refl ;
- V_IND-Refl-PRT1 ;
+ V_IND-Refl-PRT1_NORAISING ;
  V_PREC ;
  V_Hort-Refl ;
  V_Imprt-Refl ;
@@ -924,14 +924,14 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  V_Mod/perfappr-Refl ;
  V_Mod/futappr-Refl ;
  V_Mod/hyp-Refl ;
- V_Mod/int-Refl ;
+ V_Mod/int-Refl_NORAISING ;
  V_Mod/nec-Refl ;
  V_Mod/perfprob-Refl ;
  V_Mod/prob-Refl ;
  V_Mod/obl-Refl ;
- V_Mod/rep-Refl ;
+ V_Mod/rep-Refl_NORAISING ;
  V_Mod/sup-Refl ;
- V_Mod/des-Refl ;
+ V_Mod/des-Refl_РАБИ ;
  V_HAB ;
  V_Fut-Refl_ӇГУ ;
  V_Subord ;
@@ -2182,6 +2182,7 @@ LEXICON IND-4-PRT1-PL3
 
 LEXICON V_IND-Refl
 +Ind:%>ю IND-AOR-RCSG1	;
++Ind:%>я IND-AOR-RCSG1	; !!= * @CODE@ This should be schwa or something
 !+Ind+Aor+RcSg1:%>йв K ; 
 +Ind:%>я IND-AOR-RCSG2	;
 +Ind:%>й IND-AOR-RCSG2	;
