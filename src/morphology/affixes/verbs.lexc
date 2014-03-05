@@ -663,10 +663,12 @@ LEXICON V-01_ТУ
 :%^VowRaise CONNEG ;
 
 LEXICON V-01_ХО
+!! * Yaml: __V-xosj__
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
 +Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Ind00@R.CONJ.ObjAll@:%>ъя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
++Ind00@R.CONJ.ObjAll@:%>й@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+!+Ind00@R.CONJ.ObjAll@:%>ъя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
