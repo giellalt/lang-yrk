@@ -189,15 +189,15 @@ Rules
 
 "%{аяуюØ%}:а vowel singular accusative after consonant LEFT"
 !! __@RULENAME@__
- %{аяуюØ%}:а <= Cns %> _ [ Cns - в ] ;
+ %{аяуюØ%}:а <= Cns %> _ [ :Cns - :в ] ;
 
 "%{аяуюØ%}:а vowel singular accusative after consonant RIGHT"
 !! __@RULENAME@__
- %{аяуюØ%}:а => Cns %> _ Cns ;
+ %{аяуюØ%}:а => Cns %> _ :Cns ;
 
 "%{аяуюØ%}:у vowel singular accusative after consonant RIGHT"
 !! __@RULENAME@__
- %{аяуюØ%}:у => Cns %> _ в ;
+ %{аяуюØ%}:у => Cns %> _ :в ;
 
 "%{ауоэØ%} <-> у"
 !! __@RULENAME@__
@@ -551,6 +551,7 @@ Rules
 !! __@RULENAME@__
  %{вм%}:в <=> [ :Vow | в Vow: | [ Cns: ] - [ р | л ] ] (%^VowLower:0|%^VowRaise:0) %> _  [ # | %> |  Cns: | [ Vow: ] - [ а:и ] ] ;
               [ в а: (%^VowRaise:0)| Vow: | е |  т ] %> _ [ Ы2: | э: | ы | а | д а в ] ;
+        %> %{аяуюØ%}: _ ; 
 
 "%{рл%}:р"
 !! __@RULENAME@__
