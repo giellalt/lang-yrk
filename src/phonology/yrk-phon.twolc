@@ -323,7 +323,8 @@ Rules
 !! __@RULENAME@__
  я:и <=>		_ %^VowRaise:0 ;
 !"a:i in пя"
-     _ %^A2I:0 ;
+    [ . . . . ] - [ а: %^A2I:0 %> ъ: ] _ %^A2I:0 ;
+!         а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
      
 "а:е хасава:хасев"
 !! __@RULENAME@__
@@ -393,7 +394,7 @@ Rules
 "я:0 Stem vowel loss in plural accusative"
 !! __@RULENAME@__
  я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
-         а: %^A2I:0 %> ъ: _ (%>) [ н | д ] ;
+         а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
 
 "и:ь Refl Mod/int"
 !! __@RULENAME@__
@@ -498,7 +499,7 @@ Rules
 !! __@RULENAME@__
 !! {{{
  ъ:0 <=> Vow: (%^VowFronting:) %> _ [ и: | я: ] ;
-         :Vow (ˮ|%^A2I:) %> _ я: (%>) [ н | д ] ; !!= @CODE@ нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
+         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ; !!= @CODE@ нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
 !! }}}
 
 
