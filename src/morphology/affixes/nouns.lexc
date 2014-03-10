@@ -311,7 +311,7 @@ LEXICON N_ХАСЕВ  !!= @CODE@ хасава: 22 ProsSg -вна
 +N:  SG-NOM-STEM ;
 +N: SGPROSSUF ;
 +N: PLNOMSUF ;
-+N:%^VowFronting PLACCSUF_Minus ;
++N:%^StemVowFronting PLACCSUF_Minus ;
 +N:   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 +N: POSSESSA-DUAL ;
 
