@@ -804,6 +804,32 @@
 
   <e>
     <lg>
+      <l pos="N">вада</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">вада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">hook</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">koukku</t>
+
+        <t pos="N">haka</t>
+
+        <t pos="N">keksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">вадабалава</l>
 
       <stg>
@@ -16993,6 +17019,24 @@
 
   <e>
     <lg>
+      <l pos="N">пайдык</l>
+
+      <stg>
+        <st Contlex="N_ЕД">пайдык</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">peltopyy</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">пайна</l>
 
       <stg>
@@ -17779,6 +17823,26 @@
         <t pos="N">natina</t>
 
         <t pos="N">narske</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">парнэ</l>
+
+      <stg>
+        <st Contlex="N_ЯКЫ">парнэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">noita</t>
+
+        <t pos="N">apina</t>
       </tg>
     </mg>
   </e>
@@ -28710,24 +28774,6 @@
 
   <e>
     <lg>
-      <l pos="N">тальбя</l>
-
-      <stg>
-        <st Contlex="N_ӇОДИ">тальбя</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">kallio</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="N">тамб</l>
 
       <stg>
@@ -39424,13 +39470,31 @@
 
       <tg xml:lang="eng">
         <t pos="N">country</t>
-
-        <t pos="N">flour</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="N">maa</t>
+      </tg>
+    </mg>
+  </e>
 
+  <e>
+    <lg>
+      <l pos="N">я</l>
+
+      <stg>
+        <st Contlex="N_Ё">я</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">flour</t>
+      </tg>
+
+      <tg xml:lang="fin">
         <t pos="N">jauhe</t>
       </tg>
     </mg>

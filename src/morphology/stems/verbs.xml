@@ -132763,6 +132763,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">яхаба</st>
+
+        <st Contlex="TV_ПЭБЮ">яхыба</st>
       </stg>
     </lg>
 
@@ -140033,6 +140035,24 @@
 
       <tg xml:lang="fin">
         <tf pos="V">laittaa kasaan</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">ӈорцабтамбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">ӈорцабтамба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">heittää päätä taaksepäin</tf>
       </tg>
     </mg>
   </e>
