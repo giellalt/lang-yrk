@@ -113602,6 +113602,26 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">харясь</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">харя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">ajautua rantaan</tf>
+
+        <tf pos="V">ajelehtia rantaan</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">харёймдембась</l>
 
       <stg>
@@ -114754,27 +114774,9 @@
       <l pos="V" type="IV">хаябарць</l>
 
       <stg>
-        <st Contlex="IV_ТИР">хайбяр</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V" type="IV">liikkua hitaasti peräkkäin</tf>
-
-        <tf pos="V">puhua pitkäveteisesti</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="IV">хаябарць</l>
-
-      <stg>
         <st Contlex="IV_ТИР">хаябар</st>
+
+        <st Contlex="IV_ТИР">хайбяр</st>
       </stg>
     </lg>
 
@@ -114899,8 +114901,42 @@
 
       <tg xml:lang="fin">
         <tf pos="V">puhua kaikesta</tf>
+      </tg>
+    </mg>
+  </e>
 
-        <tf pos="V">höpistä tyhjiä</tf>
+  <e>
+    <lg>
+      <l pos="V" val="IV">хаясь</l>
+
+      <stg>
+        <st Contlex="IV_ЯˮАВЛУ">хая</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">olla suljettu</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" type="TV">хаясь</l>
+
+      <stg>
+        <st Contlex="TV_ЛАХАНА">хая</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" type="TV">valita tarpeellisen</t>
       </tg>
     </mg>
   </e>
