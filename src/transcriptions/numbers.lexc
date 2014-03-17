@@ -92,7 +92,7 @@ LEXICON TEENM
 хасуюˮ:9 LOHKAIM ;
 
 LEXICON LOHKAIM
-яӈгня: MILJON ;
+% яӈгня: MILJON ;
 
 LEXICON TENSM
 юˮ:1%0 MILJON ;
@@ -215,7 +215,7 @@ LEXICON TEENT
 хасуюˮ:9 LOHKAIT ;
 
 LEXICON LOHKAIT
-яӈгня: THOUSANDS ;
+% яӈгня: THOUSANDS ;
 
 LEXICON TENST
 
@@ -343,18 +343,30 @@ LEXICON LÅGEV
 % юˮ% : ONES ;
 
 LEXICON ONES
-ӈопой:1 # ;
+ CARDINAL ;
+ ORDINAL ;
 
+LEXICON CARDINAL
+ӈопой:1 # ;
 сидя:2 # ;
 няхарˮ:3 # ;
 тет:4 # ;
-
 самляӈг:5 # ;
 матˮ:6 # ;
 сиˮив:7 # ;
-
-
 сидндет:8 # ;
 хасуюˮ:9 # ;
+
+LEXICON ORDINAL
+нюртей:1%. # ;
+нябимдей:2%. # ;
+няхарамдэй:3%. # ;
+тетимдей:4%. # ;
+самлязимдей:5%. # ;
+маттамдэй:6%. # ;
+сиˮивумдей:7%. # ;
+сиднтетимдей:8%. # ;
+хасуюдимдей:9%. # ;
+
 
 
