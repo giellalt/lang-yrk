@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ==================== !
-! The South Sámi dates !
+! The Tundra Nenets dates !
 ! ==================== !
 
 
@@ -43,122 +43,103 @@ LEXICON Root
 
 ! For each month: First the normative, then the non-normatives, then initial capital
 
-@U.MONTH.1@:tsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:garretsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:garre-tsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:orrejaepienasken%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:orrejaepien-asken%_@U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@:лимбя% ирийʼ% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@+Use/NG:январь% @U.MONTH.1@ 31DAYS ;
 
-@U.MONTH.1@+Use/NG:Tsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:Garretsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:Garre-tsïengelen%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:Orrejaepienasken%_@U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:Orrejaepien-asken%_@U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@+Use/NG:Лимбя% ирийʼ% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@+Use/NG:Январь% @U.MONTH.1@ 31DAYS ;
 
 
-@U.MONTH.2@:goevten%_@U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:gierhkiengarresen%_@U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:gierhkien-garresen%_@U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@:яре% ирийʼ% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@+Use/NG:февральʼ% ирийʼ% @U.MONTH.2@ 29DAYS ;
 
-@U.MONTH.2@+Use/NG:Goevten%_@U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:Gierhkiengarresen%_@U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:Gierhkien-garresen%_@U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@+Use/NG:Яре% ирийʼ% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@+Use/NG:Февраьльʼ% ирийʼ% @U.MONTH.2@ 29DAYS ;
 
 
-@U.MONTH.3@:njoktjen%_@U.MONTH.3@ 31DAYS ;
-@U.MONTH.3@+Use/NG:voerhtjenasken%_@U.MONTH.3@ 31DAYS ;
-@U.MONTH.3@+Use/NG:voerhtjen-asken%_@U.MONTH.3@ 31DAYS ;
 
-@U.MONTH.3@+Use/NG:Njoktjen%_@U.MONTH.3@ 31DAYS ;
-@U.MONTH.3@+Use/NG:Voerhtjenasken%_@U.MONTH.3@ 31DAYS ;
-@U.MONTH.3@+Use/NG:Voerhtjen-asken%_@U.MONTH.3@ 31DAYS ;
+@U.MONTH.3@:хэˮнё% таларава% ирийʼ% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.3@+Use/NG:сие% ниць% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
+@U.MONTH.3@+Use/NG:нумшсарˮнюʼ% лэрха% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
+@U.MONTH.3@+Use/NG:носиндалава% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
+@U.MONTH.3@+Use/NG:март% @U.MONTH.3@ 31DAYS ;
 
-
-@U.MONTH.4@:voerhtjen%_@U.MONTH.4@ 30DAYS ;
-@U.MONTH.4@+Use/NG:voerhtjenasken%_@U.MONTH.4@ 31DAYS ;
-@U.MONTH.4@+Use/NG:voerhtjen-asken%_@U.MONTH.4@ 31DAYS ;
-
-@U.MONTH.4@+Use/NG:Voerhtjen%_@U.MONTH.4@ 30DAYS ;
-@U.MONTH.4@+Use/NG:Voerhtjenasken%_@U.MONTH.4@ 31DAYS ;
-@U.MONTH.4@+Use/NG:Voerhtjen-asken%_@U.MONTH.4@ 31DAYS ;
+@U.MONTH.3@+Use/NG:Март% @U.MONTH.3@ 31DAYS ;
 
 
-@U.MONTH.5@:suehpeden%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:maavnesen%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:majjen%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:gïjreasken%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:gïjremaanoen%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:gïjre-asken%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:gïjre-maanoen%_@U.MONTH.5@ 31DAYS ;
+@U.MONTH.4@:тыˮ% саполана% ирийʼ% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.4@+Use/NG:ненэй% ниць% ирийʼ% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.4@+Use/NG:апрель% @U.MONTH.4@ 31DAYS ;
 
-@U.MONTH.5@+Use/NG:Suehpeden%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:Maavnesen%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:Majjen%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:Gïjreasken%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:Gïjremaanoen%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:Gïjre-asken%_@U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:Gïjre-maanoen%_@U.MONTH.5@ 31DAYS ;
+@U.MONTH.4@+Use/NG:Апрель% @U.MONTH.4@ 30DAYS ;
 
 
-@U.MONTH.6@:ruffien%_@U.MONTH.6@ 30DAYS ;
+@U.MONTH.5@:нёвды% ирийʼ% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.5@+Use/NG:май% @U.MONTH.5@ 31DAYS ;
 
-@U.MONTH.6@+Use/NG:Ruffien%_@U.MONTH.6@ 30DAYS ;
-
-
-@U.MONTH.7@:snjaltjen%_@U.MONTH.7@ 31DAYS ;
-
-@U.MONTH.7@+Use/NG:Snjaltjen%_@U.MONTH.7@ 31DAYS ;
+@U.MONTH.5@+Use/NG:Май% @U.MONTH.5@ 31DAYS ;
 
 
-@U.MONTH.8@:mïetsken%_@U.MONTH.8@ 31DAYS ;
+@U.MONTH.6@:неняӈгʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.6@+Use/NG:нявды% ирийʼ% @U.MONTH.6@ 30DAYS ;
 
-@U.MONTH.8@+Use/NG:Mïetsken%_@U.MONTH.8@ 31DAYS ;
-
-
-@U.MONTH.9@:skïereden%_@U.MONTH.9@ 30DAYS ;
-
-@U.MONTH.9@+Use/NG:Skïereden%_@U.MONTH.9@ 30DAYS ;
+@U.MONTH.6@+Use/NG:Неняӈгʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
 
 
-@U.MONTH.10@:golken%_@U.MONTH.10@ 31DAYS ;
-@U.MONTH.10@+Use/NG:rïhkeden%_@U.MONTH.10@ 31DAYS ;
+@U.MONTH.7@:пилё% ирийʼ% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.7@+Use/NG:таӈыʼ% ирийʼ% @U.MONTH.7@ 31DAYS ;
 
-@U.MONTH.10@+Use/NG:Golken%_@U.MONTH.10@ 31DAYS ;
-@U.MONTH.10@+Use/NG:Rïhkeden%_@U.MONTH.10@ 31DAYS ;
-
-@U.MONTH.11@:rahkan%_@U.MONTH.11@ 30DAYS ; ! bytt NG?
-@U.MONTH.11@+Use/NG:gålkoen%_@U.MONTH.11@ 30DAYS ; ! bytt NG?
-
-@U.MONTH.11@+Use/NG:Rahkan%_@U.MONTH.11@ 30DAYS ; ! bytt NG?
-@U.MONTH.11@+Use/NG:Gålkoen%_@U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.7@+Use/NG:Таӈыʼ% ирийʼ% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.7@+Use/NG:Пилё% ирийʼ% @U.MONTH.7@ 31DAYS ;
 
 
-@U.MONTH.12@:goeven%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:jåvleasken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:jåvle-asken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:javleasken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:jåvlemaanoen%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:javle-asken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:jåvle-maanoen%_@U.MONTH.12@ 31DAYS ;
+@U.MONTH.8@:явʼхалыʼ% ирийʼ% @U.MONTH.8@ 31DAYS ;
+@U.MONTH.8@+Use/NG:пилюʼ% ирийʼ%_@U.MONTH.8@ 31DAYS ;
 
-@U.MONTH.12@+Use/NG:Goeven%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvleasken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvle-asken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Javleasken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvlemaanoen%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Javle-asken%_@U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Jåvle-maanoen%_@U.MONTH.12@ 31DAYS ;
+@U.MONTH.8@+Use/NG:Пилюʼ% ирийʼ%_@U.MONTH.8@ 31DAYS ;
+@U.MONTH.8@+Use/NG:Явʼхалыʼ% ирийʼ%_@U.MONTH.8@ 31DAYS ;
+
+
+@U.MONTH.9@:веба% ирийʼ% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@+Use/NG:сельбе% ирийʼ% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@+Use/NG:сентябрьʼ% @U.MONTH.9@ 30DAYS ;
+
+@U.MONTH.9@+Use/NG:Веба% ирийʼ% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@+Use/NG:Сельбе% ирийʼ% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@+Use/NG:Сентябрьʼ% @U.MONTH.9@ 30DAYS ;
+
+
+@U.MONTH.10@:хаювы% ирийʼ% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@:ӈэрёй% ирийʼ% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@:хорˮ% ирийʼ% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@:носиндалава% ирийʼ% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@+Use/NG:октябрьʼ% ирийʼ% @U.MONTH.10@ 31DAYS ;
+
+@U.MONTH.10@+Use/NG:Хаювы% ирийʼ% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@+Use/NG:октябрʼ% ирийʼ% @U.MONTH.10@ 31DAYS ;
+
+
+@U.MONTH.11@:нюдя% пэвдей% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+
+@U.MONTH.11@+Use/NG:Нюдя% пэвдей% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.11@+Use/NG:Ноябрьʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+
+
+@U.MONTH.12@:ӈарка% пэвдей% ирийʼ% @U.MONTH.12@ 31DAYS ;
+
+@U.MONTH.12@+Use/NG:Ӈарка% пэвдей% ирийʼ% @U.MONTH.12@ 31DAYS ;
+@U.MONTH.12@+Use/NG:Декабрьʼ% @U.MONTH.12@ 31DAYS ;
 
 
 LEXICON 29DAYS
 1:voestes B ;
-2:mubpie B ;
-3:gåalmede B ;
+2:нябимдей B ;
+3:няхарамдэй B ;
 4:njealjede B ;
 5:vïjhtede B ;
 6:govhtede B ;
 7:tjïjhtjede B ;
-8:gaaktsede B ;
+8:сиднтетимдей B ;
 9:åktsede B ;
 1%0:låhkede B ;
 11:luhkievoestes B ;
@@ -173,13 +154,13 @@ LEXICON 29DAYS
 2%0:gööktelåhkede B ;
 21:göökteluhkievoestes B ;
 22:göökteluhkiemubpie B ;
-23:göökteluhkiegåalmede B ;
+23:сидя% юˮ% няхарамдэй B ;
 24:göökteluhkienjealjede B ;
-25:göökteluhkievïjhtede B ;
+25:сидя% юˮ% самлязимдей B ;
 26:göökteluhkiegovhtede B ;
-27:göökteluhkietjïjhtjede B ;
+27:сидя% юˮ% сиˮивумдей B ;
 28:göökteluhkiegaaktsede B ;
-29:göökteluhkieåktsede B ;
+29:сидя% юˮ% хасуюдимдей B ;
 
 LEXICON 30DAYS
 3%0:golmelåhkede B ;
@@ -190,7 +171,7 @@ LEXICON 31DAYS
 30DAYS ;
 
 LEXICON B
-%.:%_biejjie MONTH ;
+%.:% яля MONTH ;
 
 LEXICON MONTH
 1@U.MONTH.1@:@U.MONTH.1@ X ;
