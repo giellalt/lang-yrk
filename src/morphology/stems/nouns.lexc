@@ -140,6 +140,7 @@ LEXICON nouns
 е:е N_ӇЭ  "mänty" ;
 еˮэй:еˮэй N_ЕД  "osa" ;
 ебц:ебц N_ХАНО  "kehto" ;
+ебцота:ебцота N_ӇУДИ  "pienin lapsi perheessä" ;
 ева:ева N_ӇУДИ  "orpo" ;
 ева:ева N_ӇУДИ  "öinen poronhoito" ;
 ева:ева N_ӇУДИ  "sammen sisärasva" ;
@@ -159,6 +160,7 @@ LEXICON nouns
 едё:едё N_МЕРЁ  "suoli" ;
 едёй:едёй N_ЕД  "rinne" ;
 ейʼ:ей N_ВЫӇО/ИЛЪЕ  "pehmeä kohta kylkiluiden ja lanteen välissä" ;
+ейда:ейда N_ӇУДИ  "salko kodassa päänaluksen lähellä" ;
 ейтеˮмя:ейтеˮмя N_ӇОДИ  "kirjonta" ;
 ембдярˮ:ембдяр N_ВАР  "vaate" ;
 емньˮмя:енмьˮмя N_ӇОДИ  "paikka" ;
@@ -177,7 +179,7 @@ LEXICON nouns
 ендˮ:енд N_ИДЕ/МЯДО  "virta" ;
 ендё:ендё N_МЕРЁ  "pingottunut esine" ;
 енелава:енелава N_ӇУДИ  "ampumispaikka" ;
-енерцьʼ:енерць N_ЁЛЬЦЕ  "ampumisväline" ;
+енерцьʼ:енерць N_НЕНЭЦИЕ  "ampumisväline" ;
 ензьдей:ензьдей N_ХУСУВЭЙ  "puolukka" ;
 ентеˮмя:ентеˮмя N_ӇОДИ  "rakennelma jännitetyistä esineistä" ;
 ентё:ентё N_МЕРЁ  "" ;
@@ -196,6 +198,7 @@ LEXICON nouns
 есʼ:ес N_ВЫӇО  "ansa" ;
 есерˮ:есер N_ВАР/ТАРЕ  "uudin" ;
 еся:еся N_ӇОДИ/ПИСЬ  "rauta" ;
+есяива:есяива N_ӇУДИ  "messinki" ;
 есякоця:есякоця N_ӇОДИ  "rautapala" ;
 етя:етя N_ӇОДИ  "naaraseläin" ;
 ехэна:ехэна N_ӇУДИ  "sampi" ;
@@ -229,7 +232,7 @@ LEXICON nouns
 иларˮ:илар N_ВАР/ТАРЕ  "harhanäky" ;
 илеˮмя:илеˮмя N_ӇОДИ  "elätty elämä" ;
 илебц:илебц N_ЕД  "elämä" ;
-илебцьʼ:илебць N_ЁЛЬЦЕ  "villipeura" ;
+илебцьʼ:илебць N_НЕНЭЦИЕ  "villipeura" ;
 илебэй:илебэй N_ХУСУВЭЙ  "tuore ruoho" ;
 илебя:илебя N_ӇОДИ  "omaisuus" ;
 илелава:илелава N_ӇУДИ  "asunto" ;
@@ -314,7 +317,7 @@ LEXICON nouns
 лахабˮ:лахаб N_СЕРО  "pintarasva" ;
 лаханако:лаханако N_ӇАНУ  "satu" ;
 лахарё:лахарё N_МЕРЁ  "keskustelu" ;
-лахацьʼ:лахаць N_ИЛЪЕ  "mätäs" ;
+лахацьʼ:лахаць N_НЕНЭЦИЕ  "mätäs" ;
 лаӈг:лаӈг N_ХАНО  "jyrkänne" ;
 лаӈгаˮма:лаӈгаˮма N_ӇУДИ  "reunassa oleva paikka" ;
 лаӈгхалˮ:лаӈгхал N_ВАР  "joukko" ;
@@ -551,7 +554,7 @@ LEXICON nouns
 мунак:мунак N_ЕД  "palanen" ;
 мунац:мунац N_ЕД  "jotakin muistuttava ääni" ;
 муноˮла:муноˮла N_ӇУДИ  "helistin" ;
-муноцьʼ:муноць N_ИЛЪЕ  "parta viikseineen" ;
+муноцьʼ:муноць N_НЕНЭЦИЕ  "parta viikseineen" ;
 мурˮ:мур N_ВАР  "jalkaterä" ;
 мурˮма:мурˮма N_ӇУДИ  "murtumapaikka" ;
 муроˮма:муроˮма N_ӇУДИ  "jalanjälki" ;
@@ -704,6 +707,7 @@ LEXICON nouns
 нермя:нермя N_ӇОДИ  "vedenottopaikka" ;
 неро:неро N_ӇАНУ  "pajupensaikko" ;
 нероˮмэй:нероˮмэй N_ХУСУВЭЙ  "" ;
+нерцьʼ:нерць N_НЕНЭЦИЕ  "vesisanko" ;
 нес:нес N_ЕД  "mies ja vaimo" ;
 нефть:нефть N_ЕД-RUS  "nafta" ;
 нея:нея N_ПИСЬ  "täti" ;
@@ -1616,7 +1620,7 @@ LEXICON nouns
 тобъёва:тобъява N_ӇУДИ  "peitattu nahka" ;
 товар:товар N_ЕД  "kauppatavara" ;
 тод:тод N_ЕД  "oksennus" ;
-тодабцьʼ:тодабць N_ИЛЪЕ  "nuotio" ;
+тодабцьʼ:тодабць N_НЕНЭЦИЕ  "nuotio" ;
 тоерˮ:тоер N_ВАР  "kovike" ;
 тойрё:тойрё N_МЕРЁ  "kopina" ;
 тол:тол N_ЕД  "pöytä" ;
@@ -2109,7 +2113,8 @@ LEXICON nouns
 ядараˮма:ядараˮма N_ӇУДИ  "haava" ;
 ядарта:ядарта N_ӇУДИ  "seppä" ;
 ядарцьʼ:ядарць N_ЁЛЬЦЕ  "sepänpaja" ;
-ядацьʼ:ядаць N_ИЛЪЕ  "matkasauva" ;
+ядацьʼ:ядаць N_НЕНЭЦИЕ  "matkasauva" ;
+ядва:ядва N_ӇУДИ  "kävely" ;
 ядко:ядко N_ӇАНУ  "" ;
 ядомдаˮма:ядомдаˮма N_ӇУДИ  "raskaus" ;
 ядомдярцьʼ:ядомдярць N_ЁЛЬЦЕ  "painoesine" ;
@@ -2183,7 +2188,7 @@ LEXICON nouns
 яӈгˮма:яӈгˮма N_ӇУДИ  "eristys" ;
 яӈгабцьʼ:яӈгабць N_ЁЛЬЦЕ  "kanki" ;
 яӈгахалтабцьʼ:яӈгахалтабць N_ЁЛЬЦЕ  "veitsi jolla tehdään reikiä reenkaplaita varten" ;
-яӈгацьʼ:яӈгаць N_ИЛЪЕ  "nuija" ;
+яӈгацьʼ:яӈгаць N_НЕНЭЦИЕ  "nuija" ;
 яӈго:яӈго N_ӇАНУ  "loukku" ;
 яӈгэбц:яӈгэбц N_ЕД  "laulu" ;
 яӈоˮ:яӈоС1 N_ТАСО  "kerros" ;
@@ -2215,7 +2220,7 @@ LEXICON nouns
 ёрка:ёрка N_ХОБ  "kaari" ;
 ёроко:ёроко N_ӇАНУ  "ajanviete" ;
 ёртя:ёртя N_ӇОДИ  "kalastaja" ;
-ёрцьʼ:ёрць N_ЁЛЬЦЕ  "nuotta" ;
+ёрцьʼ:ёрць N_НЕНЭЦИЕ  "nuotta" ;
 ёрцэй:ёрцэй N_ЕД/ХУСУВЭЙ  "kalansaalis" ;
 ёръя:ёръя N_ӇОДИ  "kalastus" ;
 ёря:ёря N_ӇОДИ/ТЁН  "syvyys" ;
@@ -2289,6 +2294,7 @@ LEXICON nouns
 ӈодя:ӈодя N_ӇОДИ  "marja" ;
 ӈокад:ӈокад N_ЕД  "määrä" ;
 ӈокамдаˮма:ӈокамдаˮма N_ӇУДИ  "päällinen" ;
+ӈокасьʼ:ӈокась N_НЕНЭЦИЕ  "huivi" ;
 ӈолава:ӈолава N_ӇУДИ  "ruokala" ;
 ӈолепя:ӈолепя N_ӇОДИ  "maali" ;
 ӈолепядаӈгулава:ӈолепядаӈгулава N_ӇУДИ  "värjäämö" ;
