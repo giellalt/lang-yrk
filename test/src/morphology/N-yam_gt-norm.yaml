@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - ямʼ: # Noun 'sea' - partial paradigm /Type 25/
+  Noun - ямʼ: # Noun 'sea' - partial paradigm /Type 25/ N_ӇУВО
      ямʼ+N+Sg+Nom: ямʼ
      ямʼ+N+Sg+Acc: явмʼ
      ямʼ+N+Sg+Gen: явʼ
@@ -198,10 +198,10 @@ Tests:
 # Predestinative
 
      ямʼ+N+Pred+Abs: ямд
-     ямʼ+N+Pred+Nom+PxSg1: ямдав 
+     ямʼ+N+Pred+Nom+PxSg1: [ямдав, ямдув]
      ямʼ+N+Pred+Nom+PxSg2: ямдар  
      ямʼ+N+Pred+Nom+PxSg3: ямдада
-     ямʼ+N+Pred+Acc+PxSg1: ямдав
+     ямʼ+N+Pred+Acc+PxSg1: [ямдав, ямдув]
      ямʼ+N+Pred+Acc+PxSg2: ямдамд
      ямʼ+N+Pred+Acc+PxSg3: ямдамда
      ямʼ+N+Pred+Gen+PxSg1: ямдан
@@ -234,7 +234,7 @@ Tests:
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScDu1: ямниʼ
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScDu2: ямдиʼ
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScDu3: ямгʼ
-     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl1: ямваˮ
+     ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl1: ямаˮ
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl2: ямдаˮ
      ямʼ+N+Nom+Der/Pr+Ind+Aor+ScPl3: явˮ  
      ямʼ+N+Nom+Der/Pr+Ind+Prt1+ScSg1: ямдамзь
