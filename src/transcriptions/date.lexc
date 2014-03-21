@@ -119,16 +119,16 @@ LEXICON Root
 @U.MONTH.10@+Use/NG:октябрʼ% ирийʼ% @U.MONTH.10@ 31DAYS ;
 
 
-@U.MONTH.11@:нюдя% пэвдей% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.11@:нюдя% пэвдей% ирийʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
 
-@U.MONTH.11@+Use/NG:Нюдя% пэвдей% @U.MONTH.11@ 30DAYS ; ! bytt NG?
-@U.MONTH.11@+Use/NG:Ноябрьʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.11@+Use/NG:Нюдя% пэвдей% ирийʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.11@+Use/NG:Ноябрьʼ% ирийʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
 
 
 @U.MONTH.12@:ӈарка% пэвдей% ирийʼ% @U.MONTH.12@ 31DAYS ;
 
 @U.MONTH.12@+Use/NG:Ӈарка% пэвдей% ирийʼ% @U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Декабрьʼ% @U.MONTH.12@ 31DAYS ;
+@U.MONTH.12@+Use/NG:Декабрьʼ% ирийʼ% @U.MONTH.12@ 31DAYS ;
 
 
 LEXICON 29DAYS
@@ -142,15 +142,16 @@ LEXICON 29DAYS
 8:сиднтетимдей B ;
 9:хасуюдимдей B ;
 1%0:юдимдей B ;
-11:luhkievoestes B ;
-12:luhkiemubpie B ;
-13:luhkiegåalmede B ;
-14:luhkienjealjede B ;
-15:luhkievïjhtede B ;
-16:luhkiegovhtede B ;
-17:luhkietjïjhtjede B ;
-18:luhkiegaaktsede B ;
-19:хасуюдимдей% яӈгня B ; !! This needs to be checked.
+11:нюртей% яӈгня B ;
+12:нябимдей% яӈгня B ;
+13:няхарамдэй% яӈгня B ;
+14:тетимдей% яӈгня B ;
+15:самлязимдей% яӈгня B ;
+16:маттамдэй% яӈгня B ;
+17:сиˮивумдей% яӈгня B ;
+18:сиднтетимдей% яӈгня B ;
+19:хасуюдимдей% яӈгня B ;
+19+Use/NG:хасаваюдимдей% яӈгня B ;
 2%0:сидя% юдимдей B ;
 21:сидя% юˮ% нюртей B ;
 22:сидя% юˮ% нябимдей B ;
@@ -163,11 +164,12 @@ LEXICON 29DAYS
 29:сидя% юˮ% хасуюдимдей B ;
 
 LEXICON 30DAYS
-3%0:golmelåhkede B ;
+3%0:няхарˮ% юдимдей B ;
+3%0+Use/NG:няхарамдэй% юˮ B ;
 29DAYS ;
 
 LEXICON 31DAYS
-31:golmeluhkievoestes B ;
+31:няхарˮ% юˮ% нюртей B ;
 30DAYS ;
 
 LEXICON B
