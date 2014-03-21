@@ -355,14 +355,14 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 ProsSg -(м)на
 +N: NMN_ӇУВО ;
 
 LEXICON NMN_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 
-+N:ʼ SGDATSUF ;
-+N:%^MLenition SG-ACC-STEM ;
-+N:ʼ SG-NOM-STEM ;
-+N:ʼ SGPROSSUF ;
-+N:%^MLenition PLNOMSUF ;
-+N:%^MLenition PLACCSUF_О ;
-+N:ʼ  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
-+N:ʼ POSSESSA-DUAL ;
+:ʼ SGDATSUF ;
+:%^MLenition SG-ACC-STEM ;
+:ʼ SG-NOM-STEM ;
+:ʼ SGPROSSUF ;
+:%^MLenition PLNOMSUF ;
+:%^MLenition PLACCSUF_О ;
+:ʼ  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:ʼ POSSESSA-DUAL ;
 
 LEXICON N_НЮБЕ  !!= @CODE@ нюмʼ: 26  ProsSg -(м)на
 !! /total=0/
