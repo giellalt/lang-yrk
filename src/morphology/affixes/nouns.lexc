@@ -9,7 +9,6 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 !! Yaml: __xo__
 +N: NMN_ӇЭ ;
-+N: PL-PROS ;
 !+N+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-22
 +N+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-22
 +N: POSSESSA-PL-PROS_ˮмана ;
@@ -636,6 +635,8 @@ LEXICON NMN_ТИРЕ/ХАНО
 
 
 LEXICON NMN_ӇЭ !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
+ PL-PROS-ALL ;
+ PL-GEN-PXSG1 ;
   SGDATSUF ;
   SG-ACC-STEM ; !!= @CODE@ SGACCSUF, SGGENSUF
   SG-NOM-STEM ; !!= @CODE@ SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
@@ -1786,8 +1787,42 @@ LEXICON POSSESSA-PL-PROS_ˮмана
 +Pl+Pros+PxPl2:ˮмана%>таˮ K ;
 +Pl+Pros+PxPl3:ˮмана%>тоʼ K ;
 
+LEXICON PL-GEN-PXSG1
++Pl+Gen+PxSg1:%>ˮн° K ;
+
+
+
+LEXICON PL-PROS-ALL
+ PL-PROS	;
+ PL-PROS-PXSG1	;
+ PL-PROS-PXSG2	;
+ PL-PROS-PXSG3	;
+ PL-PROS-PXDU1	;
+ PL-PROS-PXDU2	;
+ PL-PROS-PXDU3	;
+ PL-PROS-PXPL1	;
+ PL-PROS-PXPL2	;
+ PL-PROS-PXPL3	;
 LEXICON PL-PROS
 +Pl+Pros:%>ˮм°н%{ая%} K ;
+LEXICON PL-PROS-PXSG1
++Pl+Pros+PxSg1:%>ˮм°н%{ая%}%>н   K ;
+LEXICON PL-PROS-PXSG2
++Pl+Pros+PxSg2:%>ˮм°н%{ая%}%>т   K ;
+LEXICON PL-PROS-PXSG3
++Pl+Pros+PxSg3:%>ˮм°н%{ая%}%>та  K ;
+LEXICON PL-PROS-PXDU1
++Pl+Pros+PxDu1:%>ˮм°н%{ая%}%>ниʼ K ;
+LEXICON PL-PROS-PXDU2
++Pl+Pros+PxDu2:%>ˮм°н%{ая%}%>тиʼ K ;
+LEXICON PL-PROS-PXDU3
++Pl+Pros+PxDu3:%>ˮм°н%{ая%}%>тиʼ K ;
+LEXICON PL-PROS-PXPL1
++Pl+Pros+PxPl1:%>ˮм°н%{ая%}%>наˮ K ;
+LEXICON PL-PROS-PXPL2
++Pl+Pros+PxPl2:%>ˮм°н%{ая%}%>таˮ K ;
+LEXICON PL-PROS-PXPL3
++Pl+Pros+PxPl3:%>ˮм°н%{ая%}%>тоʼ K ;
 
 
 
