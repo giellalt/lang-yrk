@@ -84,6 +84,24 @@
 
   <e>
     <lg>
+      <l pos="A">вадиӈгад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">вадиӈгад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">juttelias</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вадумбэй</l>
 
       <stg>
@@ -98,6 +116,24 @@
         <t pos="A">ylimääräinen</t>
 
         <t pos="A">voittanut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ваeˮ</l>
+
+      <stg>
+        <st Contlex="A_UNCHANGED">ваeˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">yksi (kahdesta)</t>
       </tg>
     </mg>
   </e>
@@ -9924,10 +9960,48 @@
 
   <e>
     <lg>
+      <l pos="A">таˮворик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">таˮворик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">märehtijä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">таˮлий</l>
+
+      <stg>
+        <st Contlex="A_ЕД">таˮлий</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">läheinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">таˮнюй</l>
 
       <stg>
         <st Contlex="A_ЕД">таˮнюй</st>
+
+        <st Contlex="A_ЕД">таˮней</st>
       </stg>
     </lg>
 

@@ -75932,9 +75932,27 @@
       <defNative/>
 
       <tg xml:lang="fin">
+        <t pos="VR">alkaa heilua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">санабалась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДА">санабала</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
         <t pos="VR">kantaa</t>
 
-        <t pos="V">pukea</t>
+        <t pos="VR">pukea</t>
       </tg>
     </mg>
   </e>
@@ -96320,7 +96338,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">muuttua sisäänkäynnittömäksi</tf>
+        <tf pos="V">muuttua uloskäynnittömäksi</tf>
       </tg>
     </mg>
   </e>
