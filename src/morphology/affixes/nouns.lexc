@@ -9,7 +9,8 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 !! Yaml: __xo__
 +N: NMN_ӇЭ ;
-+N+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-22
++N: PL-PROS ;
+!+N+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-22
 +N+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-22
 +N: POSSESSA-PL-PROS_ˮмана ;
 
@@ -19,7 +20,8 @@ LEXICON N_ӇЭ-RUS
 LEXICON N_ӇЭ-Pal/Var  !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
 !! no change in stem
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
-+N+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-22
++N: PL-PROS ;
+!+N+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-22
 +N+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-22
 +N: NMN_ӇЭ ;
 
@@ -1784,7 +1786,8 @@ LEXICON POSSESSA-PL-PROS_ˮмана
 +Pl+Pros+PxPl2:ˮмана%>таˮ K ;
 +Pl+Pros+PxPl3:ˮмана%>тоʼ K ;
 
-
+LEXICON PL-PROS
++Pl+Pros:%>ˮм°н%{ая%} K ;
 
 
 
