@@ -6,6 +6,9 @@ Alphabet
 а б в г д е ё ж з и й к л м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я
 А Б В Г Д Е Ё Ж З И Й К Л М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
 
+°:0  !!= @CODE@ Directly from Tapani Salminen extra short vowel
+ә:а  !!= @CODE@ Directly from Tapani Salminen schwa
+
  ˮ ! Non-nasal glottal
  ʼ ! Nasal glottal
 
@@ -100,6 +103,19 @@ LBV = [ а | я | [ #: | CnsNotGlots ] [ у | о | э | ы ] ] ;
 PAIRSYLL = [ Vow:+ Cns:+ Vow: Cns:* ] ;
 
 Rules
+
+"°:0 in Pros"
+!! __@RULENAME@__
+ °:0 <=> # Cns* Vow %> ˮ 0: м _ н %{ая%} ;
+!€# ӈэ%>ˮ0м°н%{ая%}
+!€0 ӈэ0ˮэм0на
+
+"0:э in Pros"
+!! __@RULENAME@__
+ 0:э <=> # Cns* [ э ] %> ˮ _ м °: н %{ая%} ;
+!€# ӈэ%>ˮ0м°н%{ая%}
+!€0 ӈэ0ˮэм0на
+
 
 "0:а between Д1: %> and  мна"
 !! __@RULENAME@__
