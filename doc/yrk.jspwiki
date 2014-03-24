@@ -303,11 +303,16 @@ Yaml: __yam__
 
  LEXICON NMN_НЮБЕ   нюмʼ: 26
 
- LEXICON N_МУНО   муʼ: 27  ProsSg -мна
+ LEXICON N_МУНО   муʼ:му 27  ProsSg -мна
 н /total=2/
 му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
 
+
+
  LEXICON NMN_МУНО   муʼ: 27  ProsSg -мна
+
+
+
 
  LEXICON N_ПОЁ   поʼ:по 28  ProsSg -мна
 Yaml: __poyo__
@@ -592,6 +597,7 @@ Possessor Indices
  * __LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 __ singular possessa oblique possessor indices
 
 
+SINUGLAR CASES
 
 
 
@@ -1182,257 +1188,338 @@ in combination with stem-final vowel loss тёня:тён
 
 
 
-__°:0 in Pros__
+__°:0 in Pros LEFT__
+
+__°:0 in Pros RIGHT__
+
+__°:а in Pros LEFT__
+
+__°:а in Pros RIGHT__
+
+__°:у in Pros RIGHT__
+
+
+__°:о in extra short to о__
+
+
+__ә:о in extra short to о__
+
+
 
 __0:э in Pros__
 
 __0:о between two glottals__
 
+
 __0:о between two glottals__
-
-__ӈэ%>ˮ0м°н%{ая%} examples:__
-
-__ӈэ0ˮэм0на examples:__
-
-__0:а between Д1: %> and  мна__
-
-__й:0 when followed by vowel in VowelPalatalization__
-
-__а:я VowelPalatalization left__
-
-__а:я VowelPalatalization right__
-
-__%{ая%}:я VowelPalatalization left__
-
-__%{ая%}:я VowelPalatalization right__
-
-__у:ю VowelPalatalization__
-
-__А2:0 possible vowel loss as second syllable vowel__
+%{ая%}:а <=> # Cns* [ э ] %> ˮ _ м °: н %{ая%}: ;
+__0:о between two glottals__
+0:а <=> Д1: %> _ м н а ;
+__0:о between two glottals__
+й:0 <=> _ %> [ а: | у: ] ;
+__0:о between two glottals__
+а:я <= [ й:0 | ь:0 ] %> _ ;
+__0:о between two glottals__
+а:я => [ й:0 | ь:0 ] %> _ ;
+       е %> н _ [ к [ ы | э: ] | р (а) х | # ] ;
+__0:о between two glottals__
+%{ая%}:я <= %> с _ %^VowRaise:0 %> ;
+__0:о between two glottals__
+%{ая%}:я =>  %> с _ %^VowRaise:0 %> ;
+  # п э в а: ʼ: %> н: _ ;
+__0:о between two glottals__
+у:ю <=> [ й: | ь: ]  %> _ ;
+__0:о between two glottals__
+А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ %{увм%}: _ н а ; 
+        :Vow %^MLenition:0 %> %{увм%}: _ н а ; 
 поʼ:помна
-
-__0:U in sgprossuf__
-
-__%{ауоэØ%} -> 0 right__
+        [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: %{увм%}: _ н а ; 
+        # Cns* :Vow [( Н1: | Ӈ1: | Д1: | С1: )| Cns+ ( :0* у: ) | й: у: | Cns Vow ] %> %{ауоэиыØ%}: %{увм%}: _ н %{ая%}: ;
+__0:о between two glottals__
+0:у <=> [ д | м: (ʼ: ) | н | р ] %> _ %{увм%}: А2: н а ;
+__0:о between two glottals__
 {{{
-  # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
+%{ауоэØ%}:0 =>       # Cns* [ а | я | и | ы | у | ю ] [ Н1: | Ӈ1: | Д1: ] %> х: _ [ ʼ | н а | д а | т Vow | ˮ: н Vow ] ; 
+# Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [ ( ˮ ) н а | т Vow ] ;
+ !!2014-03-24!! # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
+# Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ; !!= !!2014-03-24!! # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
 }}}
-__%{ауоэØ%} <- 0 left__
-
-__%{ауоэØ%} <- а left__
-
-__%{ауоэØ%} -> а right__
-  # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
-
-__%{аяуюØ%}:а vowel singular accusative after consonant LEFT__
-
-__%{аяуюØ%}:а vowel singular accusative after consonant RIGHT__
-
-__%{аяуюØ%}:у vowel singular accusative after consonant RIGHT__
-
-__%{ауоэØ%} <-> у__
-
-__%{ауоэØ%} -> о__
+__0:о between two glottals__
+%{ауоэØ%}:0 <=  # Cns* [ а | я | и | ы | у | ю ] [ Н1: | Ӈ1: ] %> х: _ ʼ ; 
+     # Cns* [ а | я | и | ы | у | ю ] [ Н1: | Ӈ1: | Д1: ] %> х: _ ʼ ; 
+# Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ ( ˮ ) н а ;
+__0:о between two glottals__
+%{ауоэØ%}:а <= [ Cns* [ а | я | о | у | ю | ы | и ] [ Н1: | Ӈ1: ]| %> с %{ая%}: ] %> х: _ [ Cns  | ˮ ] ;
+ # Cns* [ а | я | у | ю | ы | и ] [ Н1: | Ӈ1: | Д1: ] %> х: _ [ Cns  | ˮ ] ;
+   [ %> | а ] я %> х _ ʼ ;
+                  [[ [ Cns | # Cns* ] [ :а | :я | й | и | ы | Ы2:ы ] | Cns ] %> х: | %> а х ] _ ;
+                  [[ а | я | й | и | ы | Ы2:ы | Cns ] %> х: | %> а х ] _ ;
+      # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [ ʼ | д ] ; 
+     # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> х: _ [ Cns  | ˮ ] ;
+__0:о between two glottals__
+%{ауоэØ%}:а =>   [Cns* [ а | я | о | у | ю | ы | и ] [ Н1: | Ӈ1: | Д1: ]| %> с %{ая%}: | %> я | а я ] %> х: _ ;
+                  [[ [ Cns | # Cns* ] [ а | я | й | и | ы | Ы2: ]| Cns ] %> х: | %> а х ] _ ;
+                  [[ а | я | й | и | ы | Ы2: | Cns ] %> х: | %> а х ] _ ;
+      # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [ ʼ | д ] ; 
+      # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [( ˮ ) н Vow | т Vow ] ; 
+     # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> х: _ [ Cns  | ˮ ] ;
+ !!2014-03-24!! # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
+# Cns* PAIRSYLL+ %> д _ р е ; !!= !!2014-03-24!! # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
+__0:о between two glottals__
+%{аяуюØ%}:а <= Cns %> _ [ :Cns - :в ] ;
+__0:о between two glottals__
+%{аяуюØ%}:а => Cns %> _ :Cns ;
+__0:о between two glottals__
+%{аяуюØ%}:у => Cns %> _ :в ;
+__0:о between two glottals__
+%{ауоэØ%}:у <=> [ у | ю ]  %> х _ ;
+__0:о between two glottals__
 {{{
-  %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
+ !!2014-03-24!! %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
+%{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ; !!= !!2014-03-24!! %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
 }}}
-
-__%{ауоэØ%} -> э__
-
-__%{ауоэØ%} <-> ы__
-
-__%{ауоэØ%} <-> и__
-
-
-__%{ауоэиыØ%} <-> а__
-
-__%{ауоэиыØ%} <-> ы__
-
-__%{ауоэиыØ%} <-> и__
-
-__%{ауоэиыØ%} <-> о__
-
-__%{ауоэиыØ%} <-> у__
-
-__%{ауоэиыØ%} <-> э__
-
-
+__0:о between two glottals__
+%{ауоэØ%}:э <=> [ Ы2:э | ы:э | э | :е ] (%^VowLower:0) %> х _ ;
+__0:о between two glottals__
+%{ауоэØ%}:ы <=> [ а:ы ] %^A2I: %> х _ ;
+            [ ъ | ˮ %> ъ:0 ] и %> х _ ;
+__0:о between two glottals__
+%{ауоэØ%}:и <=> [[Vow: | Cns | :ʼ ] %> ъ:0 и | а:и %^A2I: ] %> х _ ;
+__0:о between two glottals__
+%{ауоэиыØ%}:а <=> # Cns* [ :а | :я ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
+__0:о between two glottals__
+%{ауоэиыØ%}:ы <=> # Cns* [ ы ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
+__0:о between two glottals__
+%{ауоэиыØ%}:и <=>  # Cns* [ и ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
+__0:о between two glottals__
+%{ауоэиыØ%}:о <=>  # Cns* [ :о | :ё ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
+__0:о between two glottals__
+%{ауоэиыØ%}:у <=>  # Cns* [ :ю | :у ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
+__0:о between two glottals__
+%{ауоэиыØ%}:э <=>  # Cns* [ :е | э ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
 !VOWEL LOWERING
-__StemFinalYToE__
-
-__а:э in final position of polysyllable verb stems__
+__0:о between two glottals__
+ы:э <=> _ [ %^VowLower:0 %> (ˮ) (%{ауоэиыØ%}:| :э) :CnsNotGlots | (%^VowLower:0) %> [ х | ӈ ] э ]  ;
+       
+__0:о between two glottals__
 {{{
-   хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэян
-   хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
+а:э <=>  [ ӈ | т | л | р | д | н ] _ [ %^VowFronting:0 | %> й [ н | д ] ] ;
+     Cns  _ %> ъ: [ я: ] [ д | н ] ;
+ !!2014-03-24!!  хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэян
+!!= !!2014-03-24!!  хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэян
+ !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
+!!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
+     д _ б а: %^A2I: %> ъ: я: [ д | н ] ;
 }}}
-
-
-__Ы1:о__
-
-__Ы1:е__
-
-__Ы2:ы__
-
-__a:o in я__
-
-__a:o in та__
-
-__я:э in яля__
-
-__a:i in мараӈгы__
-
-
-__a:i in ӈуда__
-
-__о:у word-final position__
-
-__ё:ю word-final position__
-
-__э:ы word-final position__
-
-__я:и word-final position__
-
-__а:е хасава:хасев__
-
-__а:у яˮавла:яˮавлу LEFT__
-
-__а:у яˮавла:яˮавлу RIGHT__
-
-__а:ю яˮавла:яˮавлу__
-
-
-__и:й vowel change in morpheme onset__
-   хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-
-__я:й Stem vowel loss in plural accusative__
-
-
+__0:о between two glottals__
+Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %> _ ;
+__0:о between two glottals__
+Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %> _ ; 
+__0:о between two glottals__
+Ы2:ы <= :в _ [ ц | с ] ь [ # | %> ] ; 
+__0:о between two glottals__
+я:ё <=> _ %^A2O:0 ;
+__0:о between two glottals__
+а:о <=> Cns _ %^A2O:0 ;
+__0:о between two glottals__
+я:э <=> _ %^HardFronting:0 ;
+__0:о between two glottals__
+а:ы <=> [ к | г | х | л ] _ %^A2I:0 ;
+__0:о between two glottals__
+а:и <=> [ Cns - [ к | л | х | г ] | %{вм%}: ] _ %^A2I:0 ;
+        р в:б  _ %^VowRaise:0 %> ;
+__0:о between two glottals__
+о:у <=> _ %^VowRaise:0 ;
+__0:о between two glottals__
+ё:ю <=> _ %^VowRaise:0 ;
+__0:о between two glottals__
+э:ы <=>		_ %^VowRaise:0 ;
+__0:о between two glottals__
+я:и <=>		_ %^VowRaise:0 ;
+   [ . . . . ] - [ а: %^A2I:0 %> ъ: ] _ %^A2I:0 ;
+    Cns _ %^A2I:0 ;
+__0:о between two glottals__
+а:е <=> Cns _ Cns а: %^StemVowFronting:0 [ %> | # ] ;
+__0:о between two glottals__
+а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
+     [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
+__0:о between two glottals__
+а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
+     [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
+       # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
+__0:о between two glottals__
+а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
+__0:о between two glottals__
+и:й <=> Vow: %^VowFronting: %> ъ: _ (%^A2I:) %> [ н | д ] Vow ;
+ !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
+!!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
+__0:о between two glottals__
+я:й <=> Vow _ ( %^VowFronting: ) %^VowLoss:0 ;
+       Vow %> ъ: _ (%>) [ н | д ] Vow ;
 !!VOWEL LOSS
-
-__а:0 vowel loss in plural accusative and elsewhere LEFT__
-
-
-__а:0 vowel loss in plural accusative and elsewhere RIGHT__
-
-
-__я:ь Stem vowel loss in plural accusative__
-
-__я:0 Stem vowel loss in plural accusative__
-
-__и:ь Refl Mod/int__
-
-__%{аяуюØ%}:0 Stem vowel loss in singular accusative after vowel stem__
+__0:о between two glottals__
+а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
+       # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
+       # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
+       Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
+          в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
+       
+__0:о between two glottals__
+а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
+       # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
+       # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
+       Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
+          в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ъ и | с: %{ая%}: | б ц | ˮ м а: | н: %{ая%}: ] ;
+       # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ %> [ д а | м и ʼ | р и ʼ | р а ˮ | д и ʼ | д о ʼ | в а ˮ | н и ʼ | н а ˮ ] ;
+       
+__0:о between two glottals__
+я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
+       %> с _ %> ˮ [ # | %> ] ;
+__0:о between two glottals__
+я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
+        а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
+__0:о between two glottals__
+и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
+__0:о between two glottals__
+%{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
 !!CONSONANT CHANGES
 
-__mToV__, perhaps there should be a VtoM rule2013-01-23
+__mToV__
 
-__%{увм%} ToV__,
-
-
-__%{увм%} ToM__,
-
-__mTob __
+__м:н GlottalNasalToSurface__
 
 
-__в To б __
+__м:н GlottalNasalToSurface__
+* !!2014-03-24!!  поʼ+N+Sg+Acc+PxSg2:понд 
 
-__%{вм%}:б__
 
-__v To m __
-
-__r To l after nasal glottal__
-
-__r To 0 after л glottal__
+__м:н GlottalNasalToSurface__,
+%{увм%}:в <=>
+       :Vow ( %^VowLower: ) %> (%{ауоэиыØ%}:)  _  А2: н [ а | %{ая%}: ]  ;
+       н %> 0:у  _  А2: н а  ;
+      :Vow %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
+      [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
+__м:н GlottalNasalToSurface__,
+%{увм%}:м <=>
+       [ :Vow |Vow: ] ( %^VowLower: | %^VowRaise: | %^A2I: | ( %^PalLoss: ) %^VowLoss: ) %> [ ˮ | Д1: ]  _  А2: н а  ;
+       [ Ӈ1: | Д1: ] %> _  А2: н а  ;
+       [[ Ӈ1: | ʼ: | ˮ: | Д1: | С1: ] %> | %> ˮ ] %{ауоэиыØ%}: _ (А2:) н %{ая%}: ;
+__м:н GlottalNasalToSurface__
+м:б <=> _ %^MLenition:0 %> [ е ] ;
+__м:н GlottalNasalToSurface__
+в:б <=> [ %> р | Vow ] _ а: (%^VowFronting:0) %^VowRaise: %> ;
+        Vow _ а: %^A2I: ;
+__м:н GlottalNasalToSurface__
+%{вм%}:б <=> [ %> р | Vow ] _ а: (%^VowFronting:0) %^VowRaise: %> ;
+        Vow (%>) _ а:и %^A2I: ;
+__м:н GlottalNasalToSurface__
+в:м <=> [ Ӈ1: ] %> _ ;
+[ м: ʼ: | Ӈ1: ] %> _ ;
+__м:н GlottalNasalToSurface__
+р:л <=> [ ʼ: | Ӈ1: ] %> _ ;
+       Vow _  %> р: [ в | х ] а ;
+__м:н GlottalNasalToSurface__
+р:0 <=> Vow [ л | р: ] %> _  ;
 
 
 __nTod__
 
-__tTod__
-
-__n to t after non-nasal glottal__
-
-__d to t after non-nasal glottal__
-
-__d to l after non-nasal glottal__
-
-
-__b to p after non-nasal glottal__
-
-__b to 0 between mod/obl__
-
-
-__ъ:0 with Conj after vowels__
+__nTod__
+т:д <=>   Н1: %> _ а ;
+__nTod__
+н:т <=>  [ С1: | Д1: | ˮ: ] %> _ [ ʼ | а  ] ;
+__nTod__
+д:т <=> [ С1:0 | Д1:0 | ˮ:0 ] %> _ ;
+__nTod__
+д:л <=> [ Д1:ˮ | ˮ:ˮ  ] %> _ а ц ь ;
+__nTod__
+б:п <=> [ С1: | Д1: | ˮ: ] %> _ ;
+       %> _ ˮ # ; илесь:илебˮ
+__nTod__
+б:0 <=> [ л | р ] %> _ ц [ а к | у ];
+__nTod__
 {{{
-          :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
+ъ:0 <=> Vow: (%^VowFronting:) %> _ [ и: | я: ] ;
+ !!2014-03-24!!         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
+        :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ; !!= !!2014-03-24!!         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
 }}}
-
-
-__с => ц affrication after Stop__
+__nTod__
+с:ц <=> [ С1: | Д1: | ˮ: | л ] %> _ ь ;
+       [ л | р ] %> _ [ а | я | и | %{ая%}: ] ;
 
 __с => з after nasal__
 
-__ʼ:н__
-
-__ʼ:0__
-
-__ˮ:0__
+__с => з after nasal__
+ʼ:н <=> [ д | н ] [ о | и ] _ %> с: ь ;
+__с => з after nasal__
+ʼ:0 <=> м:  _ %> [ Ы1: | ʼ | м ( ʼ ) | н: ( ʼ ) | ˮ: | х: ( %{ауоэØ%}: ) | р: | в: | д | ц ь | с: ь ] ;
+      м:  _ %^MLenition:0 %> 0:у м: А2: н а ;
+   _ %> [ %{рл%}: | %{вм%}: | н: ] ;
+__с => з after nasal__
+ˮ:0 <=> _ %> д: ;
+   _ %> [ %{рл%}: | %{вм%}: ] ;
+   _ %> с: ь ;
 
 __х -> г after nasal glottal__
 
-__х to к after non-nasal glottal__
-
+__х -> г after nasal glottal__
+х:к <=> [ Д1: | С1: | л | р ] %> _  ;
 !!Realization of glottal stops
 !SURFACE CONSONANT
-
-__%{вм%}:м__
+__х -> г after nasal glottal__
+%{вм%}:м <=> [ Ӈ1: | Н1: | Д1: | С1: | ʼ: | ˮ: | р | л ] %> _  ;
 
 __%{рл%}:л__
 
-__%{вм%}:в__
+__%{рл%}:л__
+%{вм%}:в <=> [ :Vow | в Vow: | [ Cns: ] - [ р | л ] ] (%^VowLower:0|%^VowRaise:0) %> _  [ # | %> |  Cns: | [ Vow: ] - [ а:и ] ] ;
+             [ в а: (%^VowRaise:0)| Vow: | е |  т ] %> _ [ Ы2: | э: | ы | а | д а в ] ;
+       %> %{аяуюØ%}: _ ; 
 
 __%{рл%}:р__
 
 
 
-__С1:с GlottalNonNasalToSurface__
-
-__Д1:д GlottalNonNasalToSurface__
+__%{рл%}:р__
+С1:с <=> _ %> [ м #: | ʼ #: | ˮ #: | (0:о) ˮ м а | Ы1: ] ;
+__%{рл%}:р__
+Д1:д <=> Vow: _ %> [ м ( ʼ ) #: | ʼ #: | ˮ [ # | ӈ э ] | о | е | ё ] ;
 
 __Н1:н GlottalNasalToSurface__
 
 __Н1:ӈ GlottalNasalToSurface__
 
-__Ӈ1:ӈ GlottalNasalToSurface__
-
-__Ӈ1:н GlottalNasalToSurface__
-
-__Ӈ1:й GlottalNasalToSurface__
-
-
+__Н1:ӈ GlottalNasalToSurface__
+Ӈ1:ӈ <=>  _ %> [ Ы1: | х: | о ] ;
+__Н1:ӈ GlottalNasalToSurface__
+Ӈ1:н <=>  _ %> [ с: | н:д | д | ц: | ˮ | м: д ] ;
+__Н1:ӈ GlottalNasalToSurface__
+Ӈ1:й <=> о _ %> [ ʼ | м ʼ  ] ;
 !LOSS
-
-__л:0__
-
-
-__m loss before Labial followed by nonglottal cons or vows __
-*          :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  поʼ+N+Sg+Acc+PxSg2:понд 
-
-__ӈ:0 NOT мэсь+V+IV+Ind+Aor+ScDu3: мэӈахаʼ__
+__Н1:ӈ GlottalNasalToSurface__
+л:0 <=> _ [ ʼ: | ˮ: ] %> %{рл%}:л ;
 
 
-
-__Д1:0 GlottalNonNasalToZERO__
-
-__С1:0 GlottalNonNasalToZERO__
+__Н1:ӈ GlottalNasalToSurface__
+ӈ:0 <=> # Cns:* Vow: [ Cns:+  Vow: ]+ %> _ а: х а ʼ ;
 
 
-__ь:0 with  GlottalNonNasalToZERO__
+__Н1:0 GlottalNasalToSurface__
 
-__С1:ˮ UnderlyingToGlottal__
-
-__Д1:ˮ UnderlyingToGlottal__
+__Н1:0 GlottalNasalToSurface__
+Д1:0 <=> _ %>  [ х: | н:  ʼ | с: ь | ц ь | д: (а ˮ) | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
+Cns:  _ %>  [ (м) ʼ | ˮ ]  ;
+__Н1:0 GlottalNasalToSurface__
+С1:0 <=> _ %> [ х: | н: | б: | с: ь | т ˮ ] ;
+__Н1:0 GlottalNasalToSurface__
+ь:0 <=> С1: _ %> [ х: | н ] ;
+    _ %> [ а: | у: | и ] ;
+__Н1:0 GlottalNasalToSurface__
+С1:ˮ <=> _ [ #: | %> м н а | %> %{вм%}:м ] ;
+__Н1:0 GlottalNasalToSurface__
+Д1:ˮ => _ [ #: | %> [ д:л а ц ь | и | м и | ӈ э | м а | а м н а | ( 0: ) м н а | н а | н [ и | # | %> ] ] ] ;
 
 __Н1:ʼ UnderlyingToGlottal__
 
