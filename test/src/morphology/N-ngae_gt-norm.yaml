@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - ӈэ: # Noun 'leg; foot' - full paradigm /Type /
+  Noun - ӈэ: # Noun 'leg; foot/(fin) jalka' - full paradigm /Type 1  /
      ӈэ+N+Sg+Nom: ӈэ
      ӈэ+N+Sg+Acc: ӈэмʼ
      ӈэ+N+Sg+Gen: ӈэʼ
@@ -84,39 +84,22 @@ Tests:
      ӈэ+N+Pl+Abl+PxSg3: ӈэхэтата
      ӈэ+N+Pl+Pros+PxSg3: ӈэˮэмната
      ӈэ+N+Sg+Nom+PxDu1: ӈэмиʼ
-     ӈэ+N+Sg+Nom+PxSg1: ӈэми # .2
      ӈэ+N+Sg+Acc+PxDu1: ӈэмиʼ
-     ӈэ+N+Sg+Acc+PxSg1: ӈэми # .2
      ӈэ+N+Sg+Gen+PxDu1: ӈэниʼ
-     ӈэ+N+Sg+Gen+PxSg1: ӈэни # .2
      ӈэ+N+Sg+Dat+PxDu1: ӈэхэниʼ
-     ӈэ+N+Sg+Dat+PxSg1: ӈэхэни # .2
      ӈэ+N+Sg+Loc+PxDu1: ӈэхэнаниʼ
-     ӈэ+N+Sg+Loc+PxSg1: ӈэхэнани # .2
      ӈэ+N+Sg+Abl+PxDu1: ӈэхэданиʼ
-     ӈэ+N+Sg+Abl+PxSg1: ӈэхэдани # .2
      ӈэ+N+Sg+Pros+PxDu1: ӈэвнаниʼ
-     ӈэ+N+Sg+Pros+PxSg1: ӈэвнани # .2
      ӈэ+N+Du+Nom+PxDu1: ӈэхэюниʼ
-     ӈэ+N+Du+Nom+PxSg1: ӈэхэюни # .2
      ӈэ+N+Du+Acc+PxDu1: ӈэхэюниʼ
-     ӈэ+N+Du+Acc+PxSg1: ӈэхэюни # .2
      ӈэ+N+Du+Gen+PxDu1: ӈэхэюниʼ
-     ӈэ+N+Du+Gen+PxSg1: ӈэхэюни # .2
      ӈэ+N+Pl+Nom+PxDu1: ӈэниʼ
-     ӈэ+N+Pl+Nom+PxSg1: ӈэни # .2
      ӈэ+N+Pl+Acc+PxDu1: ӈэниʼ
-     ӈэ+N+Pl+Acc+PxSg1: ӈэни # .2
      ӈэ+N+Pl+Gen+PxDu1: ӈэˮниʼ
-     ӈэ+N+Pl+Gen+PxSg1: ӈэˮни # .2
      ӈэ+N+Pl+Dat+PxDu1: ӈэхэˮниʼ
-     ӈэ+N+Pl+Dat+PxSg1: ӈэхэˮни # .2
      ӈэ+N+Pl+Loc+PxDu1: ӈэхэˮнаниʼ
-     ӈэ+N+Pl+Loc+PxSg1: ӈэхэˮнани # .2
      ӈэ+N+Pl+Abl+PxDu1: ӈэхэтаниʼ
-     ӈэ+N+Pl+Abl+PxSg1: ӈэхэтани # .2
      ӈэ+N+Pl+Pros+PxDu1: ӈэˮэмнаниʼ
-     ӈэ+N+Pl+Pros+PxSg1: ӈэˮэмнани # .2
      ӈэ+N+Sg+Nom+PxDu2: ӈэриʼ
      ӈэ+N+Sg+Acc+PxDu2: ӈэмдиʼ
      ӈэ+N+Sg+Gen+PxDu2: ӈэндиʼ
@@ -213,11 +196,8 @@ Tests:
      ӈэ+N+Pred+Acc+PxSg3: ӈэдамда
      ӈэ+N+Pred+Gen+PxSg3: ӈэданда
      ӈэ+N+Pred+Nom+PxDu1: [ӈэдамиʼ, ӈэдмиʼ]
-     ӈэ+N+Pred+Nom+PxSg1: [ӈэдами, ӈэдми] # .2
      ӈэ+N+Pred+Acc+PxDu1: [ӈэдамиʼ, ӈэдмиʼ]
-     ӈэ+N+Pred+Acc+PxSg1: [ӈэдами, ӈэдми] # .2
      ӈэ+N+Pred+Gen+PxDu1: [ӈэданиʼ, ӈэдниʼ]
-     ӈэ+N+Pred+Gen+PxSg1: [ӈэдани, ӈэдни] # .2
      ӈэ+N+Pred+Nom+PxDu2: [ӈэдариʼ, ӈэдриʼ]
      ӈэ+N+Pred+Acc+PxDu2: ӈэдамдиʼ
      ӈэ+N+Pred+Gen+PxDu2: ӈэдандиʼ
@@ -233,9 +213,6 @@ Tests:
      ӈэ+N+Pred+Nom+PxPl3: [ӈэдадоʼ, ӈэддоʼ]
      ӈэ+N+Pred+Acc+PxPl3: ӈэдамдоʼ
      ӈэ+N+Pred+Gen+PxPl3: ӈэдандоʼ
-
-# Predicative (Nominal conjugation)
-
      ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ӈэдмʼ
      ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ӈэн
      ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ӈэ
@@ -254,64 +231,61 @@ Tests:
      ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: ӈэваць
      ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: ӈэдаць
      ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: ӈэць
-
-# Predicative Possessive forms 
-
      ӈэ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: ӈэв
      ӈэ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ӈэр
      ӈэ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: ӈэда
-     ӈэ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: ӈэмиʼ
-     ӈэ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: ӈэриʼ
-     ӈэ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: ӈэдиʼ
-     ӈэ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ӈэваˮ
-     ӈэ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ӈэраˮ
-     ӈэ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ӈэдоʼ
-     ӈэ+N+Sg+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэвась
-     ӈэ+N+Sg+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэрась
-     ӈэ+N+Sg+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдась
-     ӈэ+N+Sg+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэминзь
-     ӈэ+N+Sg+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэринзь
-     ӈэ+N+Sg+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэдинзь
-     ӈэ+N+Sg+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэваць
-     ӈэ+N+Sg+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэраць
-     ӈэ+N+Sg+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдонзь
-     ӈэ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: ӈэхэюн
-     ӈэ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ӈэхэюд
-     ӈэ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: ӈэхэюда
+     ӈэ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: ӈэмиʼ
+     ӈэ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: ӈэриʼ
+     ӈэ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: ӈэдиʼ
+     ӈэ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: ӈэваˮ
+     ӈэ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: ӈэраˮ
+     ӈэ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: ӈэдоʼ
+     ӈэ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэвась
+     ӈэ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэрась
+     ӈэ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдась
+     ӈэ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэминзь
+     ӈэ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэринзь
+     ӈэ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдинзь
+     ӈэ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэваць
+     ӈэ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэраць
+     ӈэ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдонзь
+     ӈэ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюн
+     ӈэ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюд
+     ӈэ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюда
      ӈэ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюниʼ
      ӈэ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдиʼ
      ӈэ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдиʼ
-     ӈэ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ӈэхэюнаˮ
-     ӈэ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ӈэхэюдаˮ
-     ӈэ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ӈэхэюдоʼ
-     ӈэ+N+Du+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэхэюнась
-     ӈэ+N+Du+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэхэюдась
-     ӈэ+N+Du+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэхэюдась
-     ӈэ+N+Du+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюнинзь
-     ӈэ+N+Du+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдинзь
-     ӈэ+N+Du+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдинзь
-     ӈэ+N+Du+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэхэюнаць
-     ӈэ+N+Du+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэхэюдаць
-     ӈэ+N+Du+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэхэюдонзь
-     ӈэ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: ӈэн
-     ӈэ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ӈэд
-     ӈэ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: ӈэда
-     ӈэ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: ӈэниʼ
-     ӈэ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: ӈэдиʼ
-     ӈэ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: ӈэдиʼ
+     ӈэ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюнаˮ
+     ӈэ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдаˮ
+     ӈэ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдоʼ
+     ӈэ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюнась
+     ӈэ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдась
+     ӈэ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдась
+     ӈэ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюнинзь
+     ӈэ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдинзь
+     ӈэ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдинзь
+     ӈэ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюнаць
+     ӈэ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдаць
+     ӈэ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдонзь
+     ӈэ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: ӈэн
+     ӈэ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: ӈэд
+     ӈэ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: ӈэда
+     ӈэ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: ӈэниʼ
+     ӈэ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: ӈэдиʼ
+     ӈэ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: ӈэдиʼ
      ӈэ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ӈэнаˮ
      ӈэ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ӈэдаˮ
      ӈэ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ӈэдоʼ
-     ӈэ+N+Pl+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэнась
-     ӈэ+N+Pl+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдась
-     ӈэ+N+Pl+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдась
-     ӈэ+N+Pl+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэнинзь
-     ӈэ+N+Pl+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэдинзь
-     ӈэ+N+Pl+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэдинзь
-     ӈэ+N+Pl+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэнаць
-     ӈэ+N+Pl+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдаць
-     ӈэ+N+Pl+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдонзь
-     ӈэ+N+Ess: ӈэӈэ
+     ӈэ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэнась
+     ӈэ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдась
+     ӈэ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдась
+     ӈэ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэнинзь
+     ӈэ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдинзь
+     ӈэ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдинзь
+     ӈэ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэнаць
+     ӈэ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдаць
+     ӈэ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдонзь
+     ӈэ+N+Tra: ӈэӈэ
      ӈэ+N+Car: ӈэсиˮ
      ӈэ+N+Equ: ӈэдремʼ
      ӈэ+N+Equ+Lat: ӈэдревʼ
