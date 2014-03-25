@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - я: # Noun 'land / (fin) maa' - partial paradigm /Type 1 a→o/ - ya
+     я+N+Sg+Nom: я
+     я+N+Sg+Acc: ямʼ
+     я+N+Sg+Gen: яʼ
+     я+N+Sg+Dat: янʼ
+     я+N+Sg+Loc: яхана
+     я+N+Sg+Abl: яхад
+     я+N+Sg+Pros: явна
+     я+N+Du+Nom: яхаʼ
+     я+N+Du+Acc: яхаʼ
+     я+N+Du+Gen: яхаʼ
+     я+N+Pl+Nom: яˮ
+     я+N+Pl+Acc: ё
+     я+N+Pl+Gen: ёˮ
+     я+N+Pl+Dat: яхаˮ
+     я+N+Pl+Loc: яхаˮна
+     я+N+Pl+Abl: яхат
+     я+N+Pl+Pros: [яˮамна, ёˮомна]
+     я+N+Sg+Nom+PxSg1: яв
+     я+N+Sg+Acc+PxSg1: яв
+     я+N+Sg+Gen+PxSg1: ян
+     я+N+Sg+Dat+PxSg1: яхан
+     я+N+Sg+Loc+PxSg1: яханан
+     я+N+Sg+Abl+PxSg1: яхадан
+     я+N+Sg+Pros+PxSg1: явнан
+     я+N+Du+Nom+PxSg1: яхаюн
+     я+N+Du+Acc+PxSg1: яхаюн
+     я+N+Du+Gen+PxSg1: яхаюн
+     я+N+Pl+Nom+PxSg1: ён
+     я+N+Pl+Acc+PxSg1: ён
+     я+N+Pl+Gen+PxSg1: ёˮон
+     я+N+Pl+Dat+PxSg1: яхаˮн
+     я+N+Pl+Loc+PxSg1: яхаˮнан
+     я+N+Pl+Abl+PxSg1: яхатан
+     я+N+Pl+Pros+PxSg1: [яˮамнан, ёˮомнан]
+     я+N+Sg+Nom+PxSg2: яр
+     я+N+Sg+Acc+PxSg2: ямд
+     я+N+Sg+Gen+PxSg2: янд
+     я+N+Sg+Dat+PxSg2: яханд
+     я+N+Sg+Loc+PxSg2: яхананд
+     я+N+Sg+Abl+PxSg2: яхаданд
+     я+N+Sg+Pros+PxSg2: явнанд
+     я+N+Du+Nom+PxSg2: яхаюд
+     я+N+Du+Acc+PxSg2: яхаюд
+     я+N+Du+Gen+PxSg2: яхают
+     я+N+Pl+Nom+PxSg2: ёд
+     я+N+Pl+Acc+PxSg2: ёд
+     я+N+Pl+Gen+PxSg2: ёт
+     я+N+Pl+Dat+PxSg2: яхат
+     я+N+Pl+Loc+PxSg2: яхаˮнат
+     я+N+Pl+Abl+PxSg2: яхатат
+     я+N+Pl+Pros+PxSg2: [яˮамнат, ёˮомнат]
+     я+N+Sg+Nom+PxSg3: яда
+     я+N+Sg+Acc+PxSg3: ямда
+     я+N+Sg+Gen+PxSg3: янда
+     я+N+Sg+Dat+PxSg3: яханда
+     я+N+Sg+Loc+PxSg3: яхананда
+     я+N+Sg+Abl+PxSg3: яхаданда
+     я+N+Sg+Pros+PxSg3: явнанда
+     я+N+Du+Nom+PxSg3: яхаюда
+     я+N+Du+Acc+PxSg3: яхаюда
+     я+N+Du+Gen+PxSg3: яхаюта
+     я+N+Pl+Nom+PxSg3: ёда
+     я+N+Pl+Acc+PxSg3: ёда
+     я+N+Pl+Gen+PxSg3: ёта
+     я+N+Pl+Dat+PxSg3: яхата
+     я+N+Pl+Loc+PxSg3: яхаˮната
+     я+N+Pl+Abl+PxSg3: яхатата
+     я+N+Pl+Pros+PxSg3: [яˮамната, ёˮомната]
+     я+N+Sg+Nom+PxDu1: ямиʼ
+#     я+N+Sg+Nom+PxSg1.2: ями
+     я+N+Sg+Acc+PxDu1: ямиʼ
+#     я+N+Sg+Acc+PxSg1.2: ями
+     я+N+Sg+Gen+PxDu1: яниʼ
+#     я+N+Sg+Gen+PxSg1.2: яни
+     я+N+Sg+Dat+PxDu1: яханиʼ
+#     я+N+Sg+Dat+PxSg1.2: яхани
+     я+N+Sg+Loc+PxDu1: яхананиʼ
+#     я+N+Sg+Loc+PxSg1.2: яханани
+     я+N+Sg+Abl+PxDu1: яхаданиʼ
+#     я+N+Sg+Abl+PxSg1.2: яхадани
+     я+N+Sg+Pros+PxDu1: явнаниʼ
+#     я+N+Sg+Pros+PxSg1.2: явнани
+     я+N+Du+Nom+PxDu1: яхаюниʼ
+#     я+N+Du+Nom+PxSg1.2: яхаюни
+     я+N+Du+Acc+PxDu1: яхаюниʼ
+#     я+N+Du+Acc+PxSg1.2: яхаюни
+     я+N+Du+Gen+PxDu1: яхаюниʼ
+#     я+N+Du+Gen+PxSg1.2: яхаюни
+     я+N+Pl+Nom+PxDu1: ёниʼ
+#     я+N+Pl+Nom+PxSg1.2: ёни
+     я+N+Pl+Acc+PxDu1: ёниʼ
+#     я+N+Pl+Acc+PxSg1.2: ёни
+     я+N+Pl+Gen+PxDu1: ёˮниʼ
+#     я+N+Pl+Gen+PxSg1.2: ёˮни
+     я+N+Pl+Dat+PxDu1: яхаˮниʼ
+#     я+N+Pl+Dat+PxSg1.2: яхаˮни
+     я+N+Pl+Loc+PxDu1: яхаˮнаниʼ
+#     я+N+Pl+Loc+PxSg1.2: яхаˮнани
+     я+N+Pl+Abl+PxDu1: яхатаниʼ
+#     я+N+Pl+Abl+PxSg1.2: яхатани
+     я+N+Pl+Pros+PxDu1: [яˮамнаниʼ, ёˮомнаниʼ]
+#     я+N+Pl+Pros+PxSg1.2: [яˮамнани, ёˮомнани]
+     я+N+Sg+Nom+PxDu2: яриʼ
+     я+N+Sg+Acc+PxDu2: ямдиʼ
+     я+N+Sg+Gen+PxDu2: яндиʼ
+     я+N+Sg+Dat+PxDu2: яхандиʼ
+     я+N+Sg+Loc+PxDu2: яханандиʼ
+     я+N+Sg+Abl+PxDu2: яхадандиʼ
+     я+N+Sg+Pros+PxDu2: явнандиʼ
+     я+N+Du+Nom+PxDu2: яхаюдиʼ
+     я+N+Du+Acc+PxDu2: яхаюдиʼ
+     я+N+Du+Gen+PxDu2: яхаютиʼ
+     я+N+Pl+Nom+PxDu2: ёдиʼ
+     я+N+Pl+Acc+PxDu2: ёдиʼ
+     я+N+Pl+Gen+PxDu2: ётиʼ
+     я+N+Pl+Dat+PxDu2: яхатиʼ
+     я+N+Pl+Loc+PxDu2: яхаˮнатиʼ
+     я+N+Pl+Abl+PxDu2: яхататиʼ
+     я+N+Pl+Pros+PxDu2: [яˮамнатиʼ, ёˮомнатиʼ]
+     я+N+Sg+Nom+PxDu3: ядиʼ
+     я+N+Sg+Acc+PxDu3: ямдиʼ
+     я+N+Sg+Gen+PxDu3: яндиʼ
+     я+N+Sg+Dat+PxDu3: яхандиʼ
+     я+N+Sg+Loc+PxDu3: яханандиʼ
+     я+N+Sg+Abl+PxDu3: яхадандиʼ
+     я+N+Sg+Pros+PxDu3: явнандиʼ
+     я+N+Du+Nom+PxDu3: яхаюдиʼ
+     я+N+Du+Acc+PxDu3: яхаюдиʼ
+     я+N+Du+Gen+PxDu3: яхаютиʼ
+     я+N+Pl+Nom+PxDu3: ёдиʼ
+     я+N+Pl+Acc+PxDu3: ёдиʼ
+     я+N+Pl+Gen+PxDu3: ётиʼ
+     я+N+Pl+Dat+PxDu3: яхатиʼ
+     я+N+Pl+Loc+PxDu3: яхаˮнатиʼ
+     я+N+Pl+Abl+PxDu3: яхататиʼ
+     я+N+Pl+Pros+PxDu3: [яˮамнатиʼ, ёˮомнатиʼ]
+     я+N+Sg+Nom+PxPl1: яваˮ
+     я+N+Sg+Acc+PxPl1: яваˮ
+     я+N+Sg+Gen+PxPl1: янаˮ
+     я+N+Sg+Dat+PxPl1: яханаˮ
+     я+N+Sg+Loc+PxPl1: яхананаˮ
+     я+N+Sg+Abl+PxPl1: яхаданаˮ
+     я+N+Sg+Pros+PxPl1: явнанаˮ
+     я+N+Du+Nom+PxPl1: яхаюнаˮ
+     я+N+Du+Acc+PxPl1: яхаюнаˮ
+     я+N+Du+Gen+PxPl1: яхаюнаˮ
+     я+N+Pl+Nom+PxPl1: ёнаˮ
+     я+N+Pl+Acc+PxPl1: ёнаˮ
+     я+N+Pl+Gen+PxPl1: ёˮнаˮ
+     я+N+Pl+Dat+PxPl1: яхаˮнаˮ
+     я+N+Pl+Loc+PxPl1: яхаˮнанаˮ
+     я+N+Pl+Abl+PxPl1: яхатанаˮ
+     я+N+Pl+Pros+PxPl1: [яˮамнанаˮ, ёˮомнанаˮ]
+     я+N+Sg+Nom+PxPl2: яраˮ
+     я+N+Sg+Acc+PxPl2: ямдаˮ
+     я+N+Sg+Gen+PxPl2: яндаˮ
+     я+N+Sg+Dat+PxPl2: яхандаˮ
+     я+N+Sg+Loc+PxPl2: яханандаˮ
+     я+N+Sg+Abl+PxPl2: яхадандаˮ
+     я+N+Sg+Pros+PxPl2: явнандаˮ
+     я+N+Du+Nom+PxPl2: яхаюдаˮ
+     я+N+Du+Acc+PxPl2: яхаюдаˮ
+     я+N+Du+Gen+PxPl2: яхаютаˮ
+     я+N+Pl+Nom+PxPl2: ёдаˮ
+     я+N+Pl+Acc+PxPl2: ёдаˮ
+     я+N+Pl+Gen+PxPl2: ётаˮ
+     я+N+Pl+Dat+PxPl2: яхатаˮ
+     я+N+Pl+Loc+PxPl2: яхаˮнатаˮ
+     я+N+Pl+Abl+PxPl2: яхататаˮ
+     я+N+Pl+Pros+PxPl2: [яˮамнатаˮ, ёˮомнатаˮ]
+     я+N+Sg+Nom+PxPl3: ядоʼ
+     я+N+Sg+Acc+PxPl3: ямдоʼ
+     я+N+Sg+Gen+PxPl3: яндоʼ
+     я+N+Sg+Dat+PxPl3: яхандоʼ
+     я+N+Sg+Loc+PxPl3: яханандоʼ
+     я+N+Sg+Abl+PxPl3: яхадандоʼ
+     я+N+Sg+Pros+PxPl3: явнандоʼ
+     я+N+Du+Nom+PxPl3: яхаюдоʼ
+     я+N+Du+Acc+PxPl3: яхаюдоʼ
+     я+N+Du+Gen+PxPl3: яхаютоʼ
+     я+N+Pl+Nom+PxPl3: ёдоʼ
+     я+N+Pl+Acc+PxPl3: ёдоʼ
+     я+N+Pl+Gen+PxPl3: ётоʼ
+     я+N+Pl+Dat+PxPl3: яхатоʼ
+     я+N+Pl+Loc+PxPl3: яхаˮнатоʼ
+     я+N+Pl+Abl+PxPl3: яхататоʼ
+     я+N+Pl+Pros+PxPl3: [яˮамнатоʼ, ёˮомнатоʼ]
+     я+N+Pred+Abs: яд
+     я+N+Pred+Nom+PxSg1: [ядав, ядув]
+     я+N+Pred+Acc+PxSg1: [ядав, ядув]
+     я+N+Pred+Gen+PxSg1: ядан
+     я+N+Pred+Nom+PxSg2: ядар
+     я+N+Pred+Acc+PxSg2: ядамд
+     я+N+Pred+Gen+PxSg2: яданд
+     я+N+Pred+Nom+PxSg3: [ядада, ядда]
+     я+N+Pred+Acc+PxSg3: ядамда
+     я+N+Pred+Gen+PxSg3: яданда
+     я+N+Pred+Nom+PxDu1: [ядамиʼ, ядмиʼ]
+#     я+N+Pred+Nom+PxSg1.2: [ядами, ядми]
+     я+N+Pred+Acc+PxDu1: [ядамиʼ, ядмиʼ]
+#     я+N+Pred+Acc+PxSg1.2: [ядами, ядми]
+     я+N+Pred+Gen+PxDu1: [яданиʼ, ядниʼ]
+#     я+N+Pred+Gen+PxSg1.2: [ядани, ядни]
+     я+N+Pred+Nom+PxDu2: [ядариʼ, ядриʼ]
+     я+N+Pred+Acc+PxDu2: ядамдиʼ
+     я+N+Pred+Gen+PxDu2: ядандиʼ
+     я+N+Pred+Nom+PxDu3: [ядадиʼ, яддиʼ]
+     я+N+Pred+Acc+PxDu3: ядамдиʼ
+     я+N+Pred+Gen+PxDu3: ядандиʼ
+     я+N+Pred+Nom+PxPl1: [ядаваˮ, ядваˮ]
+     я+N+Pred+Acc+PxPl1: [ядаваˮ, ядваˮ]
+     я+N+Pred+Gen+PxPl1: [яданаˮ, яднаˮ]
+     я+N+Pred+Nom+PxPl2: [ядараˮ, ядраˮ]
+     я+N+Pred+Acc+PxPl2: ядамдаˮ
+     я+N+Pred+Gen+PxPl2: ядандаˮ
+     я+N+Pred+Nom+PxPl3: [ядадоʼ, яддоʼ]
+     я+N+Pred+Acc+PxPl3: ядамдоʼ
+     я+N+Pred+Gen+PxPl3: ядандоʼ
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ядмʼ
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ян
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: я
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: яниʼ
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: ядиʼ
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: яхаʼ
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: яваˮ
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: ядаˮ
+     я+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: яˮ
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: ядамзь
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: янась
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: ясь
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: янинзь
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: ядинзь
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: яханзь
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: яваць
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: ядаць
+     я+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: яць
+     я+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: яв
+     я+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: яр
+     я+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: яда
+     я+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: ямиʼ
+     я+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: яриʼ
+     я+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: ядиʼ
+     я+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: яваˮ
+     я+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: яраˮ
+     я+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: ядоʼ
+     я+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: явась
+     я+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ярась
+     я+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ядась
+     я+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: яминзь
+     я+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: яринзь
+     я+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: ядинзь
+     я+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: яваць
+     я+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: яраць
+     я+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: ядонзь
+     я+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: яхаюн
+     я+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: яхаюд
+     я+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: яхаюда
+     я+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: яхаюниʼ
+     я+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: яхаюдиʼ
+     я+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: яхаюдиʼ
+     я+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: яхаюнаˮ
+     я+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: яхаюдаˮ
+     я+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: яхаюдоʼ
+     я+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: яхаюнась
+     я+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: яхаюдась
+     я+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: яхаюдась
+     я+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: яхаюнинзь
+     я+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: яхаюдинзь
+     я+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: яхаюдинзь
+     я+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: яхаюнаць
+     я+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: яхаюдаць
+     я+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: яхаюдонзь
+     я+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: ён
+     я+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: ёд
+     я+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: ёда
+     я+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: ёниʼ
+     я+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: ёдиʼ
+     я+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: ёдиʼ
+     я+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ёнаˮ
+     я+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ёдаˮ
+     я+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ёдоʼ
+     я+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ёнась
+     я+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: ёдась
+     я+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: ёдась
+     я+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ёнинзь
+     я+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: ёдинзь
+     я+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: ёдинзь
+     я+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ёнаць
+     я+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ёдаць
+     я+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ёдонзь
+     я+N+Tra: яӈэ
+     я+N+Car: ясиˮ
+     я+N+Equ: ядремʼ
+     я+N+Equ+Lat: ядревʼ

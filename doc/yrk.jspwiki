@@ -149,6 +149,7 @@ Yaml: __xo__
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 
+
  LEXICON N_ӇЭ/ХАБИЕ   ӈэ:ӈэ 1  ProsSg -вна
    хӑби:8 ProsSg -вна
 
@@ -1359,54 +1360,55 @@ __%{оё%}:ё VowelPalatalization right__
 Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %> _ ; 
 __%{оё%}:ё VowelPalatalization right__
 Ы2:ы <= :в _ [ ц | с ] ь [ # | %> ] ; 
-__%{оё%}:ё VowelPalatalization right__
-я:ё <=> _ %^A2O:0 ;
-__%{оё%}:ё VowelPalatalization right__
+
+__a:o in я__
+
+__a:o in я__
 а:о <=> Cns _ %^A2O:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 я:э <=> _ %^HardFronting:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:ы <=> [ к | г | х | л ] _ %^A2I:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:и <=> [ Cns - [ к | л | х | г ] | %{вм%}: ] _ %^A2I:0 ;
         р в:б  _ %^VowRaise:0 %> ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 о:у <=> _ %^VowRaise:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 ё:ю <=> _ %^VowRaise:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 э:ы <=>		_ %^VowRaise:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 я:и <=>		_ %^VowRaise:0 ;
    [ . . . . ] - [ а: %^A2I:0 %> ъ: ] _ %^A2I:0 ;
     Cns _ %^A2I:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:е <=> Cns _ Cns а: %^StemVowFronting:0 [ %> | # ] ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
        # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 и:й <=> Vow: %^VowFronting: %> ъ: _ (%^A2I:) %> [ н | д ] Vow ;
  !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
 !!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 я:й <=> Vow _ ( %^VowFronting: ) %^VowLoss:0 ;
        Vow %> ъ: _ (%>) [ н | д ] Vow ;
 !!VOWEL LOSS
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
        Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
        
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
@@ -1414,15 +1416,15 @@ __%{оё%}:ё VowelPalatalization right__
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ъ и | с: %{ая%}: | б ц | ˮ м а: | н: %{ая%}: ] ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ %> [ д а | м и ʼ | р и ʼ | р а ˮ | д и ʼ | д о ʼ | в а ˮ | н и ʼ | н а ˮ ] ;
        
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        %> с _ %> ˮ [ # | %> ] ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
         а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
-__%{оё%}:ё VowelPalatalization right__
+__a:o in я__
 %{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
