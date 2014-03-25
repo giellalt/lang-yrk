@@ -25,7 +25,8 @@ LEXICON N_ӇЭ-Pal/Var  !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
 !+N+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-22
 !+N+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-22
 !+N: NMN_ӇЭ ;
-TEST_NGAE ;
+ N_ӇЭ ;
+
 
 LEXICON N_ӇЭ/ХАБИЕ  !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
  !!= @CODE@ хӑби:8 ProsSg -вна
@@ -36,7 +37,10 @@ LEXICON N_Ё  !!= @CODE@ я:я 2 ProsSg -вна
 !! Yaml: __ya__
 !! /total=3/
 !! я ya	ян’ yan°h	я” yaq	ё yo
-+N: NMN_Ё ;
+!+N: NMN_Ё ;
++N: NMN_МУНО ;
++N:%^A2O MUNO_O ;
++N: PLPROSPXSUF ;
 
 LEXICON N_ӇЭ/Ё !! та:та 
 !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
@@ -625,45 +629,36 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 !:Н1 PLACCSUF_О ;
 
 LEXICON MUNO_O
+ PLPROSPXSUF ;
 +Pl+Acc: # ;
 +Pl+Gen:ˮ # ;
-+Pl+Pros:%>ˮм°н%{ая%} # ;
 +Pl+Nom+PxSg1:%>н° # ;
 +Pl+Acc+PxSg1:%>н° # ;
 +Pl+Gen+PxSg1:%>ˮн° # ;
-+Pl+Pros+PxSg1:%>ˮм°н%{ая%}н° # ;
 +Pl+Nom+PxSg2:%>д° # ;
 +Pl+Acc+PxSg2:%>д° # ;
 +Pl+Gen+PxSg2:%>т° # ;
-+Pl+Pros+PxSg2:%>ˮм°н%{ая%}т° # ;
 +Pl+Nom+PxSg3:%>д%{ая%} # ;
 +Pl+Acc+PxSg3:%>д%{ая%} # ;
 +Pl+Gen+PxSg3:%>т%{ая%} # ;
-+Pl+Pros+PxSg3:%>ˮм°н%{ая%}та # ;
 +Pl+Nom+PxDu1:%>ниʼ # ;
 +Pl+Acc+PxDu1:%>ниʼ # ;
 +Pl+Gen+PxDu1:%>ˮниʼ # ;
-+Pl+Pros+PxDu1:%>ˮм°н%{ая%}ниʼ # ;
 +Pl+Nom+PxDu2:%>диʼ # ;
 +Pl+Acc+PxDu2:%>диʼ # ;
 +Pl+Gen+PxDu2:%>тиʼ # ;
-+Pl+Pros+PxDu2:%>ˮм°н%{ая%}тиʼ # ;
 +Pl+Nom+PxDu3:%>диʼ # ;
 +Pl+Acc+PxDu3:%>диʼ # ;
 +Pl+Gen+PxDu3:%>тиʼ # ;
-+Pl+Pros+PxDu3:%>ˮм°н%{ая%}тиʼ # ;
 +Pl+Nom+PxPl1:%>наˮ # ;
 +Pl+Acc+PxPl1:%>наˮ # ;
 +Pl+Gen+PxPl1:%>ˮнаˮ # ;
-+Pl+Pros+PxPl1:%>ˮм°н%{ая%}наˮ # ;
 +Pl+Nom+PxPl2:%>даˮ # ;
 +Pl+Acc+PxPl2:%>даˮ # ;
 +Pl+Gen+PxPl2:%>таˮ # ;
-+Pl+Pros+PxPl2:%>ˮм°н%{ая%}таˮ # ;
 +Pl+Nom+PxPl3:%>д%{оё%}ʼ # ;
 +Pl+Acc+PxPl3:%>д%{оё%}ʼ # ;
 +Pl+Gen+PxPl3:%>т%{оё%}ʼ # ;
-+Pl+Pros+PxPl3:%>ˮм°н%{ая%}тоʼ # ;
 +Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3:%>н° # ;
 +Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3:%>д° # ;
 +Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3:%>д%{ая%} # ;
@@ -683,6 +678,17 @@ LEXICON MUNO_O
 +Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3:%>даць° # ;
 +Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3:%>д%{оё%}нзь° # ;
 
+LEXICON PLPROSPXSUF
++Pl+Pros:%>ˮм°н%{ая%} # ;
++Pl+Pros+PxSg1:%>ˮм°н%{ая%}н° # ;
++Pl+Pros+PxSg2:%>ˮм°н%{ая%}т° # ;
++Pl+Pros+PxSg3:%>ˮм°н%{ая%}та # ;
++Pl+Pros+PxDu1:%>ˮм°н%{ая%}ниʼ # ;
++Pl+Pros+PxDu2:%>ˮм°н%{ая%}тиʼ # ;
++Pl+Pros+PxDu3:%>ˮм°н%{ая%}тиʼ # ;
++Pl+Pros+PxPl1:%>ˮм°н%{ая%}наˮ # ;
++Pl+Pros+PxPl2:%>ˮм°н%{ая%}таˮ # ;
++Pl+Pros+PxPl3:%>ˮм°н%{ая%}тоʼ # ;
 
 
 LEXICON N_ПОЁ  !!= @CODE@ поʼ:по 28  ProsSg -мна
