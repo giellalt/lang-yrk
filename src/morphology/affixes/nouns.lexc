@@ -54,13 +54,17 @@ LEXICON N_ПИ  !!= @CODE@ пя:пя 3 ProsSg -вна
 !+N: NMN_ПИ ;
 +N: NMN_МУНО ;
 +N:%^A2I MUNO_O ; !PLACCSUF_Zero
-+N: PLPROSPXSUF ;
+!+N: PLPROSPXSUF ;
 
 LEXICON N_ТЫ  !!= @CODE@ ты: 4 ProsSg -вна
 !! Yaml: __ty__
 !! /total=4/
 !! ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
-+N: NMN_ТЫ ;
+!+N: NMN_ТЫ ;
++N: NMN_МУНО ;
++N: MUNO_O ; !PLACCSUF_Zero
+
+
 
 LEXICON N_ХАВО  !!= @CODE@ ха: 5 ProsSg -вна
 !! /total=1/
@@ -423,7 +427,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Pl+Abl:%>хәт° # ;
 +Sg+Nom+PxSg1:%>м° # ;
 +Sg+Acc+PxSg1:%>м° # ;
-+Sg+Gen+PxSg1:%>н° # ; ! no n2d
++Sg+Gen+PxSg1:%>н° # ; ! no n2d ; i2e
 +Sg+Dat+PxSg1:%>хән° # ;
 +Sg+Loc+PxSg1:%>х°н%{ая%}н° # ;
 +Sg+Abl+PxSg1:%>х°дән° # ;
@@ -635,51 +639,51 @@ LEXICON MUNO_O
  PLPROSPXSUF ;
 +Pl+Acc: # ;
 +Pl+Gen:ˮ # ;
-+Pl+Nom+PxSg1:%>н° # ;
-+Pl+Acc+PxSg1:%>н° # ;
++Pl+Nom+PxSg1:%^PLNOM%>н° # ; ! no i2e
++Pl+Acc+PxSg1:%^PLNOM%>н° # ; ! no i2e
 +Pl+Gen+PxSg1:%>ˮн° # ;
-+Pl+Nom+PxSg2:%>д° # ;
-+Pl+Acc+PxSg2:%>д° # ;
++Pl+Nom+PxSg2:%^PLNOM%>д° # ; ! no i2e
++Pl+Acc+PxSg2:%^PLNOM%>д° # ; ! no i2e
 +Pl+Gen+PxSg2:%>т° # ;
-+Pl+Nom+PxSg3:%>д%{ая%} # ;
-+Pl+Acc+PxSg3:%>д%{ая%} # ;
++Pl+Nom+PxSg3:%^PLNOM%>д%{ая%} # ; ! no i2e
++Pl+Acc+PxSg3:%^PLNOM%>д%{ая%} # ; ! no i2e
 +Pl+Gen+PxSg3:%>т%{ая%} # ;
-+Pl+Nom+PxDu1:%>ниʼ # ;
-+Pl+Acc+PxDu1:%>ниʼ # ;
++Pl+Nom+PxDu1:%^PLNOM%>ниʼ # ; ! no i2e
++Pl+Acc+PxDu1:%^PLNOM%>ниʼ # ; ! no i2e
 +Pl+Gen+PxDu1:%>ˮниʼ # ;
-+Pl+Nom+PxDu2:%>диʼ # ;
-+Pl+Acc+PxDu2:%>диʼ # ;
++Pl+Nom+PxDu2:%^PLNOM%>диʼ # ; ! no i2e
++Pl+Acc+PxDu2:%^PLNOM%>диʼ # ; ! no i2e
 +Pl+Gen+PxDu2:%>тиʼ # ;
-+Pl+Nom+PxDu3:%>диʼ # ;
-+Pl+Acc+PxDu3:%>диʼ # ;
++Pl+Nom+PxDu3:%^PLNOM%>диʼ # ; ! no i2e
++Pl+Acc+PxDu3:%^PLNOM%>диʼ # ; ! no i2e
 +Pl+Gen+PxDu3:%>тиʼ # ;
-+Pl+Nom+PxPl1:%>наˮ # ;
-+Pl+Acc+PxPl1:%>наˮ # ;
++Pl+Nom+PxPl1:%^PLNOM%>наˮ # ;
++Pl+Acc+PxPl1:%^PLNOM%>наˮ # ;
 +Pl+Gen+PxPl1:%>ˮнаˮ # ;
-+Pl+Nom+PxPl2:%>даˮ # ;
-+Pl+Acc+PxPl2:%>даˮ # ;
++Pl+Nom+PxPl2:%^PLNOM%>даˮ # ;
++Pl+Acc+PxPl2:%^PLNOM%>даˮ # ;
 +Pl+Gen+PxPl2:%>таˮ # ;
-+Pl+Nom+PxPl3:%>д%{оё%}ʼ # ;
-+Pl+Acc+PxPl3:%>д%{оё%}ʼ # ;
++Pl+Nom+PxPl3:%^PLNOM%>д%{оё%}ʼ # ;
++Pl+Acc+PxPl3:%^PLNOM%>д%{оё%}ʼ # ;
 +Pl+Gen+PxPl3:%>т%{оё%}ʼ # ;
-+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3:%>н° # ;
-+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3:%>д° # ;
-+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3:%>д%{ая%} # ;
-+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3:%>ниʼ # ;
-+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3:%>диʼ # ;
-+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3:%>диʼ # ;
-+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3:%>наˮ # ;
-+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3:%>даˮ # ;
-+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3:%>д%{оё%}ʼ # ;
-+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3:%>нась° # ;
-+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3:%>дась° # ;
-+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3:%>д%{ая%}сь° # ;
-+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3:%>нинзь° # ;
-+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3:%>динзь° # ;
-+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3:%>динзь° # ;
-+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3:%>наць° # ;
-+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3:%>даць° # ;
-+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3:%>д%{оё%}нзь° # ;
++Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>н° # ;
++Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>д° # ;
++Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>д%{ая%} # ;
++Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>ниʼ # ;
++Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>диʼ # ;
++Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>диʼ # ;
++Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>наˮ # ;
++Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>даˮ # ;
++Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3:%^PLNOM%>д%{оё%}ʼ # ;
++Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>нась° # ;
++Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>дась° # ;
++Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>д%{ая%}сь° # ;
++Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>нинзь° # ;
++Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>динзь° # ;
++Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>динзь° # ;
++Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>наць° # ;
++Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>даць° # ;
++Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3:%^PLNOM%>д%{оё%}нзь° # ;
 
 LEXICON PLPROSPXSUF
 +Pl+Pros:%>ˮм°н%{ая%} # ;
