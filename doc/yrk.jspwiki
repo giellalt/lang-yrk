@@ -89,6 +89,7 @@ symbols in the lexicon files:
   %{вм%}	    +N+Sg+Nom+PxSg1
 And following triggers to control variation
   %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+  %^PLNOM     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
 
   %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
   %{ауоэиыØ%}  before pros
@@ -171,6 +172,8 @@ Yaml: __pyi__
 Yaml: __ty__
 /total=4/
 ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
+
+
 
  LEXICON N_ХАВО   ха: 5 ProsSg -вна
 /total=1/
@@ -1171,6 +1174,7 @@ Non-finites
 
 !!triggers
   %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
 lenition
   %^VowLower:0  vowel lowering ы:э у:о
   %^VowRaise:0  vowel raising э:ы о:у
@@ -1340,11 +1344,14 @@ __%{оё%}:ё VowelPalatalization right__
 %{ауоэиыØ%}:у <=>  # Cns* [ :ю | :у ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
 __%{оё%}:ё VowelPalatalization right__
 %{ауоэиыØ%}:э <=>  # Cns* [ :е | э ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
+
+
 !VOWEL LOWERING
-__%{оё%}:ё VowelPalatalization right__
-ы:э <=> _ [ %^VowLower:0 %> (ˮ) (%{ауоэиыØ%}:| :э) :CnsNotGlots | (%^VowLower:0) %> [ х | ӈ ] э ]  ;
-       
-__%{оё%}:ё VowelPalatalization right__
+__i2e StemFinalYToE LEFT__
+
+__i2e StemFinalYToE RIGHT__
+
+__i2e StemFinalYToE RIGHT__
 {{{
 а:э <=>  [ ӈ | т | л | р | д | н ] _ [ %^VowFronting:0 | %> й [ н | д ] ] ;
      Cns  _ %> ъ: [ я: ] [ д | н ] ;
@@ -1354,11 +1361,11 @@ __%{оё%}:ё VowelPalatalization right__
 !!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
      д _ б а: %^A2I: %> ъ: я: [ д | н ] ;
 }}}
-__%{оё%}:ё VowelPalatalization right__
+__i2e StemFinalYToE RIGHT__
 Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %> _ ;
-__%{оё%}:ё VowelPalatalization right__
+__i2e StemFinalYToE RIGHT__
 Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %> _ ; 
-__%{оё%}:ё VowelPalatalization right__
+__i2e StemFinalYToE RIGHT__
 Ы2:ы <= :в _ [ ц | с ] ь [ # | %> ] ; 
 
 __a:o in я__

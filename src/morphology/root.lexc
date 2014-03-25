@@ -189,6 +189,7 @@ Multichar_Symbols
 !! And following triggers to control variation
  {front} {back}
  %^SCSG2    !!= @CODE@ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ %^PLNOM    !!= @CODE@ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
 
 ! Protoletters for xfst
  %{ауоэØ%} !!= @CODE@  А1:а А1:у А1:о А1:э schwa
