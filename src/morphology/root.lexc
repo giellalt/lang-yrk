@@ -179,11 +179,13 @@ Multichar_Symbols
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{аяуюØ%}	!!= @CODE@ хан+N+Sg+Acc+PxSg1: ханув, ханав
  %{ая%}    !!= @CODE@ in Pros
+ %{оё%}    !!= @CODE@ in +N+Sg+Nom+PxPl3
+ %{рл%}	   !!= @CODE@ +N+Sg+Nom+PxSg2
+
+ %{аяуюØ%}	!!= @CODE@ хан+N+Sg+Acc+PxSg1: ханув, ханав
  %{увм%}   !!= @CODE@ +N+Sg+Pros
  %{вм%}	   !!= @CODE@ +N+Sg+Nom+PxSg1
- %{рл%}	   !!= @CODE@ +N+Sg+Nom+PxSg2
 !! And following triggers to control variation
  {front} {back}
  %^SCSG2    !!= @CODE@ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
