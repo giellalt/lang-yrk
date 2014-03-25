@@ -1200,7 +1200,11 @@ __°:а in Pros LEFT__
 
 __°:а in Pros RIGHT__
 
+__°:у in Pros LEFT__
+
 __°:у in Pros RIGHT__
+
+__ә:у in extra short to у__
 
 
 __°:о in extra short to о__
@@ -1230,45 +1234,47 @@ __0:о between two glottals__
 
 __0:ы between two glottals__
 
+__0:у between two glottals__
 
-__0:ы between two glottals__
+
+__0:у between two glottals__
 %{ая%}:а <=> # Cns* [ э ] %> ˮ _ м °: н %{ая%}: ;
-__0:ы between two glottals__
+__0:у between two glottals__
 0:а <=> Д1: %> _ м н а ;
-__0:ы between two glottals__
+__0:у between two glottals__
 й:0 <=> _ %> [ а: | у: ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:я <= [ й:0 | ь:0 ] %> _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:я => [ й:0 | ь:0 ] %> _ ;
        е %> н _ [ к [ ы | э: ] | р (а) х | # ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ая%}:я <= %> с _ %^VowRaise:0 %> ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ая%}:я =>  %> с _ %^VowRaise:0 %> ;
   # п э в а: ʼ: %> н: _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 у:ю <=> [ й: | ь: ]  %> _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ %{увм%}: _ н а ; 
         :Vow %^MLenition:0 %> %{увм%}: _ н а ; 
 поʼ:помна
         [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: %{увм%}: _ н а ; 
         # Cns* :Vow [( Н1: | Ӈ1: | Д1: | С1: )| Cns+ ( :0* у: ) | й: у: | Cns Vow ] %> %{ауоэиыØ%}: %{увм%}: _ н %{ая%}: ;
-__0:ы between two glottals__
+__0:у between two glottals__
 0:у <=> [ д | м: (ʼ: ) | н | р ] %> _ %{увм%}: А2: н а ;
-__0:ы between two glottals__
+__0:у between two glottals__
 {{{
 %{ауоэØ%}:0 =>       # Cns* [ а | я | и | ы | у | ю ] [ Н1: | Ӈ1: | Д1: ] %> х: _ [ ʼ | н а | д а | т Vow | ˮ: н Vow ] ; 
 # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [ ( ˮ ) н а | т Vow ] ;
  !!2014-03-24!! # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
 # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ; !!= !!2014-03-24!! # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
 }}}
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэØ%}:0 <=  # Cns* [ а | я | и | ы | у | ю ] [ Н1: | Ӈ1: ] %> х: _ ʼ ; 
      # Cns* [ а | я | и | ы | у | ю ] [ Н1: | Ӈ1: | Д1: ] %> х: _ ʼ ; 
 # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ ( ˮ ) н а ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэØ%}:а <= [ Cns* [ а | я | о | у | ю | ы | и ] [ Н1: | Ӈ1: ]| %> с %{ая%}: ] %> х: _ [ Cns  | ˮ ] ;
  # Cns* [ а | я | у | ю | ы | и ] [ Н1: | Ӈ1: | Д1: ] %> х: _ [ Cns  | ˮ ] ;
    [ %> | а ] я %> х _ ʼ ;
@@ -1276,7 +1282,7 @@ __0:ы between two glottals__
                   [[ а | я | й | и | ы | Ы2:ы | Cns ] %> х: | %> а х ] _ ;
       # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> х: _ [ ʼ | д ] ; 
      # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> х: _ [ Cns  | ˮ ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэØ%}:а =>   [Cns* [ а | я | о | у | ю | ы | и ] [ Н1: | Ӈ1: | Д1: ]| %> с %{ая%}: | %> я | а я ] %> х: _ ;
                   [[ [ Cns | # Cns* ] [ а | я | й | и | ы | Ы2: ]| Cns ] %> х: | %> а х ] _ ;
                   [[ а | я | й | и | ы | Ы2: | Cns ] %> х: | %> а х ] _ ;
@@ -1285,43 +1291,43 @@ __0:ы between two glottals__
      # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> х: _ [ Cns  | ˮ ] ;
  !!2014-03-24!! # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
 # Cns* PAIRSYLL+ %> д _ р е ; !!= !!2014-03-24!! # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
-__0:ы between two glottals__
+__0:у between two glottals__
 %{аяуюØ%}:а <= Cns %> _ [ :Cns - :в ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{аяуюØ%}:а => Cns %> _ :Cns ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{аяуюØ%}:у => Cns %> _ :в ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэØ%}:у <=> [ у | ю ]  %> х _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 {{{
  !!2014-03-24!! %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
 %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ; !!= !!2014-03-24!! %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ х | ˮ ] _ ;  2013-10-22 хоˮомна
 }}}
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэØ%}:э <=> [ Ы2:э | ы:э | э | :е ] (%^VowLower:0) %> х _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэØ%}:ы <=> [ а:ы ] %^A2I: %> х _ ;
             [ ъ | ˮ %> ъ:0 ] и %> х _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэØ%}:и <=> [[Vow: | Cns | :ʼ ] %> ъ:0 и | а:и %^A2I: ] %> х _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэиыØ%}:а <=> # Cns* [ :а | :я ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэиыØ%}:ы <=> # Cns* [ ы ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэиыØ%}:и <=>  # Cns* [ и ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэиыØ%}:о <=>  # Cns* [ :о | :ё ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэиыØ%}:у <=>  # Cns* [ :ю | :у ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{ауоэиыØ%}:э <=>  # Cns* [ :е | э ]  [[ Н1: | Ӈ1: | Д1: ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
 !VOWEL LOWERING
-__0:ы between two glottals__
+__0:у between two glottals__
 ы:э <=> _ [ %^VowLower:0 %> (ˮ) (%{ауоэиыØ%}:| :э) :CnsNotGlots | (%^VowLower:0) %> [ х | ӈ ] э ]  ;
        
-__0:ы between two glottals__
+__0:у between two glottals__
 {{{
 а:э <=>  [ ӈ | т | л | р | д | н ] _ [ %^VowFronting:0 | %> й [ н | д ] ] ;
      Cns  _ %> ъ: [ я: ] [ д | н ] ;
@@ -1331,60 +1337,60 @@ __0:ы between two glottals__
 !!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
      д _ б а: %^A2I: %> ъ: я: [ д | н ] ;
 }}}
-__0:ы between two glottals__
+__0:у between two glottals__
 Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %> _ ;
-__0:ы between two glottals__
+__0:у between two glottals__
 Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %> _ ; 
-__0:ы between two glottals__
+__0:у between two glottals__
 Ы2:ы <= :в _ [ ц | с ] ь [ # | %> ] ; 
-__0:ы between two glottals__
+__0:у between two glottals__
 я:ё <=> _ %^A2O:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:о <=> Cns _ %^A2O:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 я:э <=> _ %^HardFronting:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:ы <=> [ к | г | х | л ] _ %^A2I:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:и <=> [ Cns - [ к | л | х | г ] | %{вм%}: ] _ %^A2I:0 ;
         р в:б  _ %^VowRaise:0 %> ;
-__0:ы between two glottals__
+__0:у between two glottals__
 о:у <=> _ %^VowRaise:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 ё:ю <=> _ %^VowRaise:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 э:ы <=>		_ %^VowRaise:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 я:и <=>		_ %^VowRaise:0 ;
    [ . . . . ] - [ а: %^A2I:0 %> ъ: ] _ %^A2I:0 ;
     Cns _ %^A2I:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:е <=> Cns _ Cns а: %^StemVowFronting:0 [ %> | # ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
        # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
-__0:ы between two glottals__
+__0:у between two glottals__
 и:й <=> Vow: %^VowFronting: %> ъ: _ (%^A2I:) %> [ н | д ] Vow ;
  !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
 !!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-__0:ы between two glottals__
+__0:у between two glottals__
 я:й <=> Vow _ ( %^VowFronting: ) %^VowLoss:0 ;
        Vow %> ъ: _ (%>) [ н | д ] Vow ;
 !!VOWEL LOSS
-__0:ы between two glottals__
+__0:у between two glottals__
 а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
        Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
        
-__0:ы between two glottals__
+__0:у between two glottals__
 а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
@@ -1392,15 +1398,15 @@ __0:ы between two glottals__
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ъ и | с: %{ая%}: | б ц | ˮ м а: | н: %{ая%}: ] ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ %> [ д а | м и ʼ | р и ʼ | р а ˮ | д и ʼ | д о ʼ | в а ˮ | н и ʼ | н а ˮ ] ;
        
-__0:ы between two glottals__
+__0:у between two glottals__
 я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        %> с _ %> ˮ [ # | %> ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
         а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
-__0:ы between two glottals__
+__0:у between two glottals__
 %{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
