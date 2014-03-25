@@ -51,7 +51,10 @@ LEXICON N_ПИ  !!= @CODE@ пя:пя 3 ProsSg -вна
 !! Yaml: __pyi__
 !! /total=3/
 !! пя pya	пян’ pyan°h	пя” pyaq	пи pyí
-+N: NMN_ПИ ;
+!+N: NMN_ПИ ;
++N: NMN_МУНО ;
++N:%^A2I MUNO_O ; !PLACCSUF_Zero
++N: PLPROSPXSUF ;
 
 LEXICON N_ТЫ  !!= @CODE@ ты: 4 ProsSg -вна
 !! Yaml: __ty__

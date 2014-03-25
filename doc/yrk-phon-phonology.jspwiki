@@ -234,37 +234,36 @@ __a:o in я__
 ё:ю <=> _ %^VowRaise:0 ;
 __a:o in я__
 э:ы <=>		_ %^VowRaise:0 ;
-__a:o in я__
-я:и <=>		_ %^VowRaise:0 ;
-   [ . . . . ] - [ а: %^A2I:0 %> ъ: ] _ %^A2I:0 ;
-    Cns _ %^A2I:0 ;
-__a:o in я__
+
+__я:и word-final position__
+
+__я:и word-final position__
 а:е <=> Cns _ Cns а: %^StemVowFronting:0 [ %> | # ] ;
-__a:o in я__
+__я:и word-final position__
 а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
-__a:o in я__
+__я:и word-final position__
 а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
        # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
-__a:o in я__
+__я:и word-final position__
 а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
-__a:o in я__
+__я:и word-final position__
 и:й <=> Vow: %^VowFronting: %> ъ: _ (%^A2I:) %> [ н | д ] Vow ;
  !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
 !!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-__a:o in я__
+__я:и word-final position__
 я:й <=> Vow _ ( %^VowFronting: ) %^VowLoss:0 ;
        Vow %> ъ: _ (%>) [ н | д ] Vow ;
 !!VOWEL LOSS
-__a:o in я__
+__я:и word-final position__
 а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
        Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
        
-__a:o in я__
+__я:и word-final position__
 а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
@@ -272,15 +271,15 @@ __a:o in я__
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ъ и | с: %{ая%}: | б ц | ˮ м а: | н: %{ая%}: ] ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ %> [ д а | м и ʼ | р и ʼ | р а ˮ | д и ʼ | д о ʼ | в а ˮ | н и ʼ | н а ˮ ] ;
        
-__a:o in я__
+__я:и word-final position__
 я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        %> с _ %> ˮ [ # | %> ] ;
-__a:o in я__
+__я:и word-final position__
 я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
         а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
-__a:o in я__
+__я:и word-final position__
 и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
-__a:o in я__
+__я:и word-final position__
 %{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
