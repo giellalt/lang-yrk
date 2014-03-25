@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - си: # Noun 'hole / (fin) reikä' - partial paradigm /Type 1/ - syí
+     си+N+Sg+Nom: си
+     си+N+Sg+Acc: симʼ
+     си+N+Sg+Gen: сиʼ
+     си+N+Sg+Dat: синʼ
+     си+N+Sg+Loc: [сихина, сихиня]
+     си+N+Sg+Abl: сихид
+     си+N+Sg+Pros: [сивна, сивня]
+     си+N+Du+Nom: сихиʼ
+     си+N+Du+Acc: сихиʼ
+     си+N+Du+Gen: сихиʼ
+     си+N+Pl+Nom: сиˮ
+     си+N+Pl+Acc: си
+     си+N+Pl+Gen: сиˮ
+     си+N+Pl+Dat: сихиˮ
+     си+N+Pl+Loc: [сихиˮна, сихиˮня]
+     си+N+Pl+Abl: сихит
+     си+N+Pl+Pros: [сиˮимна, сиˮимня]
+     си+N+Sg+Nom+PxSg1: сив
+     си+N+Sg+Acc+PxSg1: сив
+     си+N+Sg+Gen+PxSg1: син
+     си+N+Sg+Dat+PxSg1: сихин
+     си+N+Sg+Loc+PxSg1: [сихинан, сихинян]
+     си+N+Sg+Abl+PxSg1: сихидан
+     си+N+Sg+Pros+PxSg1: [сивнан, сивнян]
+     си+N+Du+Nom+PxSg1: сихиюн
+     си+N+Du+Acc+PxSg1: сихиюн
+     си+N+Du+Gen+PxSg1: сихиюн
+     си+N+Pl+Nom+PxSg1: син
+     си+N+Pl+Acc+PxSg1: син
+     си+N+Pl+Gen+PxSg1: сиˮин
+     си+N+Pl+Dat+PxSg1: сихиˮн
+     си+N+Pl+Loc+PxSg1: [сихиˮнан, сихиˮнян]
+     си+N+Pl+Abl+PxSg1: сихитан
+     си+N+Pl+Pros+PxSg1: [сиˮимнан, сиˮимнян]
+     си+N+Sg+Nom+PxSg2: сир
+     си+N+Sg+Acc+PxSg2: симд
+     си+N+Sg+Gen+PxSg2: синд
+     си+N+Sg+Dat+PxSg2: сихинд
+     си+N+Sg+Loc+PxSg2: [сихинанд, сихинянд]
+     си+N+Sg+Abl+PxSg2: сихиданд
+     си+N+Sg+Pros+PxSg2: [сивнанд, сивнянд]
+     си+N+Du+Nom+PxSg2: сихиюд
+     си+N+Du+Acc+PxSg2: сихиюд
+     си+N+Du+Gen+PxSg2: сихиют
+     си+N+Pl+Nom+PxSg2: сид
+     си+N+Pl+Acc+PxSg2: сид
+     си+N+Pl+Gen+PxSg2: сит
+     си+N+Pl+Dat+PxSg2: сихит
+     си+N+Pl+Loc+PxSg2: [сихиˮнат, сихиˮнят]
+     си+N+Pl+Abl+PxSg2: сихитат
+     си+N+Pl+Pros+PxSg2: [сиˮимнат, сиˮимнят]
+     си+N+Sg+Nom+PxSg3: [сида, сидя]
+     си+N+Sg+Acc+PxSg3: [симда, симдя]
+     си+N+Sg+Gen+PxSg3: [синда, синдя]
+     си+N+Sg+Dat+PxSg3: сихинда
+     си+N+Sg+Loc+PxSg3: [сихинанда, сихинянда]
+     си+N+Sg+Abl+PxSg3: сихиданда
+     си+N+Sg+Pros+PxSg3: [сивнанда, сивнянда]
+     си+N+Du+Nom+PxSg3: сихиюда
+     си+N+Du+Acc+PxSg3: сихиюда
+     си+N+Du+Gen+PxSg3: сихиюта
+     си+N+Pl+Nom+PxSg3: [сида, сидя]
+     си+N+Pl+Acc+PxSg3: [сида, сидя]
+     си+N+Pl+Gen+PxSg3: [сита, ситя]
+     си+N+Pl+Dat+PxSg3: сихита
+     си+N+Pl+Loc+PxSg3: [сихиˮната, сихиˮнята]
+     си+N+Pl+Abl+PxSg3: сихитата
+     си+N+Pl+Pros+PxSg3: [сиˮимната, сиˮимнята]
+     си+N+Sg+Nom+PxDu1: симиʼ
+#     си+N+Sg+Nom+PxSg1.2: сими
+     си+N+Sg+Acc+PxDu1: симиʼ
+#     си+N+Sg+Acc+PxSg1.2: сими
+     си+N+Sg+Gen+PxDu1: синиʼ
+#     си+N+Sg+Gen+PxSg1.2: сини
+     си+N+Sg+Dat+PxDu1: сихиниʼ
+#     си+N+Sg+Dat+PxSg1.2: сихини
+     си+N+Sg+Loc+PxDu1: [сихинаниʼ, сихиняниʼ]
+#     си+N+Sg+Loc+PxSg1.2: [сихинани, сихиняни]
+     си+N+Sg+Abl+PxDu1: сихиданиʼ
+#     си+N+Sg+Abl+PxSg1.2: сихидани
+     си+N+Sg+Pros+PxDu1: [сивнаниʼ, сивняниʼ]
+#     си+N+Sg+Pros+PxSg1.2: [сивнани, сивняни]
+     си+N+Du+Nom+PxDu1: сихиюниʼ
+#     си+N+Du+Nom+PxSg1.2: сихиюни
+     си+N+Du+Acc+PxDu1: сихиюниʼ
+#     си+N+Du+Acc+PxSg1.2: сихиюни
+     си+N+Du+Gen+PxDu1: сихиюниʼ
+#     си+N+Du+Gen+PxSg1.2: сихиюни
+     си+N+Pl+Nom+PxDu1: синиʼ
+#     си+N+Pl+Nom+PxSg1.2: сини
+     си+N+Pl+Acc+PxDu1: синиʼ
+#     си+N+Pl+Acc+PxSg1.2: сини
+     си+N+Pl+Gen+PxDu1: сиˮниʼ
+#     си+N+Pl+Gen+PxSg1.2: сиˮни
+     си+N+Pl+Dat+PxDu1: сихиˮниʼ
+#     си+N+Pl+Dat+PxSg1.2: сихиˮни
+     си+N+Pl+Loc+PxDu1: [сихиˮнаниʼ, сихиˮняниʼ]
+#     си+N+Pl+Loc+PxSg1.2: [сихиˮнани, сихиˮняни]
+     си+N+Pl+Abl+PxDu1: сихитаниʼ
+#     си+N+Pl+Abl+PxSg1.2: сихитани
+     си+N+Pl+Pros+PxDu1: [сиˮимнаниʼ, сиˮимняниʼ]
+#     си+N+Pl+Pros+PxSg1.2: [сиˮимнани, сиˮимняни]
+     си+N+Sg+Nom+PxDu2: сириʼ
+     си+N+Sg+Acc+PxDu2: симдиʼ
+     си+N+Sg+Gen+PxDu2: синдиʼ
+     си+N+Sg+Dat+PxDu2: сихиндиʼ
+     си+N+Sg+Loc+PxDu2: [сихинандиʼ, сихиняндиʼ]
+     си+N+Sg+Abl+PxDu2: сихидандиʼ
+     си+N+Sg+Pros+PxDu2: [сивнандиʼ, сивняндиʼ]
+     си+N+Du+Nom+PxDu2: сихиюдиʼ
+     си+N+Du+Acc+PxDu2: сихиюдиʼ
+     си+N+Du+Gen+PxDu2: сихиютиʼ
+     си+N+Pl+Nom+PxDu2: сидиʼ
+     си+N+Pl+Acc+PxDu2: сидиʼ
+     си+N+Pl+Gen+PxDu2: ситиʼ
+     си+N+Pl+Dat+PxDu2: сихитиʼ
+     си+N+Pl+Loc+PxDu2: [сихиˮнатиʼ, сихиˮнятиʼ]
+     си+N+Pl+Abl+PxDu2: сихитатиʼ
+     си+N+Pl+Pros+PxDu2: [сиˮимнатиʼ, сиˮимнятиʼ]
+     си+N+Sg+Nom+PxDu3: сидиʼ
+     си+N+Sg+Acc+PxDu3: симдиʼ
+     си+N+Sg+Gen+PxDu3: синдиʼ
+     си+N+Sg+Dat+PxDu3: сихиндиʼ
+     си+N+Sg+Loc+PxDu3: [сихинандиʼ, сихиняндиʼ]
+     си+N+Sg+Abl+PxDu3: сихидандиʼ
+     си+N+Sg+Pros+PxDu3: [сивнандиʼ, сивняндиʼ]
+     си+N+Du+Nom+PxDu3: сихиюдиʼ
+     си+N+Du+Acc+PxDu3: сихиюдиʼ
+     си+N+Du+Gen+PxDu3: сихиютиʼ
+     си+N+Pl+Nom+PxDu3: сидиʼ
+     си+N+Pl+Acc+PxDu3: сидиʼ
+     си+N+Pl+Gen+PxDu3: ситиʼ
+     си+N+Pl+Dat+PxDu3: сихитиʼ
+     си+N+Pl+Loc+PxDu3: [сихиˮнатиʼ, сихиˮнятиʼ]
+     си+N+Pl+Abl+PxDu3: сихитатиʼ
+     си+N+Pl+Pros+PxDu3: [сиˮимнатиʼ, сиˮимнятиʼ]
+     си+N+Sg+Nom+PxPl1: сиваˮ
+     си+N+Sg+Acc+PxPl1: сиваˮ
+     си+N+Sg+Gen+PxPl1: синаˮ
+     си+N+Sg+Dat+PxPl1: сихинаˮ
+     си+N+Sg+Loc+PxPl1: [сихинанаˮ, сихинянаˮ]
+     си+N+Sg+Abl+PxPl1: сихиданаˮ
+     си+N+Sg+Pros+PxPl1: [сивнанаˮ, сивнянаˮ]
+     си+N+Du+Nom+PxPl1: сихиюнаˮ
+     си+N+Du+Acc+PxPl1: сихиюнаˮ
+     си+N+Du+Gen+PxPl1: сихиюнаˮ
+     си+N+Pl+Nom+PxPl1: синаˮ
+     си+N+Pl+Acc+PxPl1: синаˮ
+     си+N+Pl+Gen+PxPl1: сиˮнаˮ
+     си+N+Pl+Dat+PxPl1: сихиˮнаˮ
+     си+N+Pl+Loc+PxPl1: [сихиˮнанаˮ, сихиˮнянаˮ]
+     си+N+Pl+Abl+PxPl1: сихитанаˮ
+     си+N+Pl+Pros+PxPl1: [сиˮимнанаˮ, сиˮимнянаˮ]
+     си+N+Sg+Nom+PxPl2: сираˮ
+     си+N+Sg+Acc+PxPl2: симдаˮ
+     си+N+Sg+Gen+PxPl2: синдаˮ
+     си+N+Sg+Dat+PxPl2: сихиндаˮ
+     си+N+Sg+Loc+PxPl2: [сихинандаˮ, сихиняндаˮ]
+     си+N+Sg+Abl+PxPl2: сихидандаˮ
+     си+N+Sg+Pros+PxPl2: [сивнандаˮ, сивняндаˮ]
+     си+N+Du+Nom+PxPl2: сихиюдаˮ
+     си+N+Du+Acc+PxPl2: сихиюдаˮ
+     си+N+Du+Gen+PxPl2: сихиютаˮ
+     си+N+Pl+Nom+PxPl2: сидаˮ
+     си+N+Pl+Acc+PxPl2: сидаˮ
+     си+N+Pl+Gen+PxPl2: ситаˮ
+     си+N+Pl+Dat+PxPl2: сихитаˮ
+     си+N+Pl+Loc+PxPl2: [сихиˮнатаˮ, сихиˮнятаˮ]
+     си+N+Pl+Abl+PxPl2: сихитатаˮ
+     си+N+Pl+Pros+PxPl2: [сиˮимнатаˮ, сиˮимнятаˮ]
+     си+N+Sg+Nom+PxPl3: [сидоʼ, сидёʼ]
+     си+N+Sg+Acc+PxPl3: [симдоʼ, симдёʼ]
+     си+N+Sg+Gen+PxPl3: [синдоʼ, синдёʼ]
+     си+N+Sg+Dat+PxPl3: сихиндоʼ
+     си+N+Sg+Loc+PxPl3: [сихинандоʼ, сихиняндоʼ]
+     си+N+Sg+Abl+PxPl3: сихидандоʼ
+     си+N+Sg+Pros+PxPl3: [сивнандоʼ, сивняндоʼ]
+     си+N+Du+Nom+PxPl3: сихиюдоʼ
+     си+N+Du+Acc+PxPl3: сихиюдоʼ
+     си+N+Du+Gen+PxPl3: сихиютоʼ
+     си+N+Pl+Nom+PxPl3: [сидоʼ, сидёʼ]
+     си+N+Pl+Acc+PxPl3: [сидоʼ, сидёʼ]
+     си+N+Pl+Gen+PxPl3: [ситоʼ, ситёʼ]
+     си+N+Pl+Dat+PxPl3: сихитоʼ
+     си+N+Pl+Loc+PxPl3: [сихиˮнатоʼ, сихиˮнятоʼ]
+     си+N+Pl+Abl+PxPl3: сихитатоʼ
+     си+N+Pl+Pros+PxPl3: [сиˮимнатоʼ, сиˮимнятоʼ]
+     си+N+Pred+Abs: сид
+     си+N+Pred+Nom+PxSg1: [сидав, сидув]
+     си+N+Pred+Acc+PxSg1: [сидав, сидув]
+     си+N+Pred+Gen+PxSg1: сидан
+     си+N+Pred+Nom+PxSg2: сидар
+     си+N+Pred+Acc+PxSg2: сидамд
+     си+N+Pred+Gen+PxSg2: сиданд
+     си+N+Pred+Nom+PxSg3: [сидада, сидда]
+     си+N+Pred+Acc+PxSg3: сидамда
+     си+N+Pred+Gen+PxSg3: сиданда
+     си+N+Pred+Nom+PxDu1: [сидамиʼ, сидмиʼ]
+#     си+N+Pred+Nom+PxSg1.2: [сидами, сидми]
+     си+N+Pred+Acc+PxDu1: [сидамиʼ, сидмиʼ]
+#     си+N+Pred+Acc+PxSg1.2: [сидами, сидми]
+     си+N+Pred+Gen+PxDu1: [сиданиʼ, сидниʼ]
+#     си+N+Pred+Gen+PxSg1.2: [сидани, сидни]
+     си+N+Pred+Nom+PxDu2: [сидариʼ, сидриʼ]
+     си+N+Pred+Acc+PxDu2: сидамдиʼ
+     си+N+Pred+Gen+PxDu2: сидандиʼ
+     си+N+Pred+Nom+PxDu3: [сидадиʼ, сиддиʼ]
+     си+N+Pred+Acc+PxDu3: сидамдиʼ
+     си+N+Pred+Gen+PxDu3: сидандиʼ
+     си+N+Pred+Nom+PxPl1: [сидаваˮ, сидваˮ]
+     си+N+Pred+Acc+PxPl1: [сидаваˮ, сидваˮ]
+     си+N+Pred+Gen+PxPl1: [сиданаˮ, сиднаˮ]
+     си+N+Pred+Nom+PxPl2: [сидараˮ, сидраˮ]
+     си+N+Pred+Acc+PxPl2: сидамдаˮ
+     си+N+Pred+Gen+PxPl2: сидандаˮ
+     си+N+Pred+Nom+PxPl3: [сидадоʼ, сиддоʼ]
+     си+N+Pred+Acc+PxPl3: сидамдоʼ
+     си+N+Pred+Gen+PxPl3: сидандоʼ
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: сидмʼ
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: син
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: си
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: синиʼ
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: сидиʼ
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: сихиʼ
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: сиваˮ
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: сидаˮ
+     си+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: сиˮ
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: сидамзь
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: синась
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: сись
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: сининзь
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: сидинзь
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: сихинзь
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: сиваць
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: сидаць
+     си+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: сиць
+     си+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: сив
+     си+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: сир
+     си+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: [сида, сидя]
+     си+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: симиʼ
+     си+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: сириʼ
+     си+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: сидиʼ
+     си+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: сиваˮ
+     си+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: сираˮ
+     си+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: [сидоʼ, сидёʼ]
+     си+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: сивась
+     си+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: сирась
+     си+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: [сидась, сидясь]
+     си+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: симинзь
+     си+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: сиринзь
+     си+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: сидинзь
+     си+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: сиваць
+     си+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: сираць
+     си+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: [сидонзь, сидёнзь]
+     си+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: сихиюн
+     си+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: сихиюд
+     си+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: сихиюда
+     си+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: сихиюниʼ
+     си+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: сихиюдиʼ
+     си+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: сихиюдиʼ
+     си+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: сихиюнаˮ
+     си+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: сихиюдаˮ
+     си+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: сихиюдоʼ
+     си+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: сихиюнась
+     си+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: сихиюдась
+     си+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: сихиюдась
+     си+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: сихиюнинзь
+     си+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: сихиюдинзь
+     си+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: сихиюдинзь
+     си+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: сихиюнаць
+     си+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: сихиюдаць
+     си+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: сихиюдонзь
+     си+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: син
+     си+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: сид
+     си+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: [сида, сидя]
+     си+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: синиʼ
+     си+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: сидиʼ
+     си+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: сидиʼ
+     си+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: синаˮ
+     си+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: сидаˮ
+     си+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: [сидоʼ, сидёʼ]
+     си+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: синась
+     си+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: сидась
+     си+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: [сидась, сидясь]
+     си+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: сининзь
+     си+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: сидинзь
+     си+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: сидинзь
+     си+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: синаць
+     си+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: сидаць
+     си+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: [сидонзь, сидёнзь]
+     си+N+Tra: сиӈэ
+     си+N+Car: сисиˮ
+     си+N+Equ: сидремʼ
+     си+N+Equ+Lat: сидревʼ
