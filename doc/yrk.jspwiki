@@ -86,6 +86,8 @@ symbols in the lexicon files:
   %{вм%}	    +N+Sg+Nom+PxSg1
   %{рл%}	    +N+Sg+Nom+PxSg2
 And following triggers to control variation
+  %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+
   %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
   %{ауоэиыØ%}  before pros
    This is the schwa or reduced vowel occurring after x in case endings
@@ -310,6 +312,7 @@ Yaml: __yam__
 
 
  LEXICON NMN_МУНО   муʼ: 27  ProsSg -мна
+No n2d
 
 
 
@@ -1162,6 +1165,7 @@ Non-finites
   %{рл%}:0	    +N+Sg+Nom+PxSg2
 
 !!triggers
+  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
 lenition
   %^VowLower:0  vowel lowering ы:э у:о
   %^VowRaise:0  vowel raising э:ы о:у
@@ -1209,6 +1213,8 @@ __°:э in extra short to э__
 
 
 __ә:э in extra short to э__
+
+__ә:а in extra short to а__
 
 
 
