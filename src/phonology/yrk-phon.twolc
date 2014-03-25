@@ -140,6 +140,7 @@ Rules
  °:а <= # Cns* Vow  %> д _  [ Cns - [ в | м | д | р | н] | Cns Cns ] [ °: | Vow ] ;
 !        # Cns*  Vow  %> д _  р [ °: | и ʼ | а ˮ ] # ;
         # Cns*  Vow Н1: %> _ ц ь °: ;
+         # Cns* [ а ] %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
 
 "°:а in Pros RIGHT"
 !! __@RULENAME@__
@@ -148,6 +149,7 @@ Rules
         # Cns* Vow :Cns %> :Vow %> ˮ Cns _ (ˮ)  н а ;
         # Cns*  Vow Н1: %> _ ц ь °: ;
         # Cns* Vow Н1: %> х: _ (ˮ | ю) [н|д|т]   ;
+         # Cns* [ а ] %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
 
 "°:у in Pros LEFT"
 !! __@RULENAME@__
@@ -195,8 +197,14 @@ Rules
 "ә:а in extra short to а"
 !! __@RULENAME@__
  ә:а <=>  [ м: | н: | %{рл%}: | в | т | д | х:г ] _   ;
-          
+           # Cns* [ а ] %> х _ [ д | н | т | ˮ ]  ;
 
+
+"0:а in Pros"
+!! __@RULENAME@__
+ 0:а <=> # Cns* [ а ] %> ˮ _ Cns °:  ;
+!€# ма%>ˮ0м°н%{ая%}
+!€0 ма0ˮам0на
 
 "0:э in Pros"
 !! __@RULENAME@__
