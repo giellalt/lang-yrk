@@ -69,8 +69,9 @@ LEXICON N_ТЫ  !!= @CODE@ ты: 4 ProsSg -вна
 LEXICON N_ХАВО  !!= @CODE@ ха: 5 ProsSg -вна
 !! /total=1/
 !! ха xa	хан’ xan°h	ха” xaq	хаво xawo
-+N: NMN_ХАВО ;
-
+!+N: NMN_ХАВО ;
++N: NMN_МУНО ;
++N:во MUNO_O ; 
 
 LEXICON N_СЁЁ  !!= @CODE@ сё: 6 ProsSg -вна
 !! /total=0/
