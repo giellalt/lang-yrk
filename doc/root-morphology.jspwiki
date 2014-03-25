@@ -69,11 +69,13 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-  %{аяуюØ%}	 хан+N+Sg+Acc+PxSg1: ханув, ханав
   %{ая%}     in Pros
+  %{оё%}     in +N+Sg+Nom+PxPl3
+  %{рл%}	    +N+Sg+Nom+PxSg2
+
+  %{аяуюØ%}	 хан+N+Sg+Acc+PxSg1: ханув, ханав
   %{увм%}    +N+Sg+Pros
   %{вм%}	    +N+Sg+Nom+PxSg1
-  %{рл%}	    +N+Sg+Nom+PxSg2
 And following triggers to control variation
   %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
 

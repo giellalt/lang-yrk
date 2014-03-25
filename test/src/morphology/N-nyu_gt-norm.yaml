@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ню: # Noun 'own child / (fin) oma lapsi' - partial paradigm /Type 1/ - nyú
+     ню+N+Sg+Nom: ню
+     ню+N+Sg+Acc: нюмʼ
+     ню+N+Sg+Gen: нюʼ
+     ню+N+Sg+Dat: нюнʼ
+     ню+N+Sg+Loc: [нюхуна, нюхуня]
+     ню+N+Sg+Abl: нюхуд
+     ню+N+Sg+Pros: [нювна, нювня]
+     ню+N+Du+Nom: нюхуʼ
+     ню+N+Du+Acc: нюхуʼ
+     ню+N+Du+Gen: нюхуʼ
+     ню+N+Pl+Nom: нюˮ
+     ню+N+Pl+Acc: ню
+     ню+N+Pl+Gen: нюˮ
+     ню+N+Pl+Dat: нюхуˮ
+     ню+N+Pl+Loc: [нюхуˮна, нюхуˮня]
+     ню+N+Pl+Abl: нюхут
+     ню+N+Pl+Pros: [нюˮумна, нюˮумня]
+     ню+N+Sg+Nom+PxSg1: нюв
+     ню+N+Sg+Acc+PxSg1: нюв
+     ню+N+Sg+Gen+PxSg1: нюн
+     ню+N+Sg+Dat+PxSg1: нюхун
+     ню+N+Sg+Loc+PxSg1: [нюхунан, нюхунян]
+     ню+N+Sg+Abl+PxSg1: нюхудан
+     ню+N+Sg+Pros+PxSg1: [нювнан, нювнян]
+     ню+N+Du+Nom+PxSg1: нюхуюн
+     ню+N+Du+Acc+PxSg1: нюхуюн
+     ню+N+Du+Gen+PxSg1: нюхуюн
+     ню+N+Pl+Nom+PxSg1: нюн
+     ню+N+Pl+Acc+PxSg1: нюн
+     ню+N+Pl+Gen+PxSg1: нюˮун
+     ню+N+Pl+Dat+PxSg1: нюхуˮн
+     ню+N+Pl+Loc+PxSg1: [нюхуˮнан, нюхуˮнян]
+     ню+N+Pl+Abl+PxSg1: нюхутан
+     ню+N+Pl+Pros+PxSg1: [нюˮумнан, нюˮумнян]
+     ню+N+Sg+Nom+PxSg2: нюр
+     ню+N+Sg+Acc+PxSg2: нюмд
+     ню+N+Sg+Gen+PxSg2: нюнд
+     ню+N+Sg+Dat+PxSg2: нюхунд
+     ню+N+Sg+Loc+PxSg2: [нюхунанд, нюхунянд]
+     ню+N+Sg+Abl+PxSg2: нюхуданд
+     ню+N+Sg+Pros+PxSg2: [нювнанд, нювнянд]
+     ню+N+Du+Nom+PxSg2: нюхуюд
+     ню+N+Du+Acc+PxSg2: нюхуюд
+     ню+N+Du+Gen+PxSg2: нюхуют
+     ню+N+Pl+Nom+PxSg2: нюд
+     ню+N+Pl+Acc+PxSg2: нюд
+     ню+N+Pl+Gen+PxSg2: нют
+     ню+N+Pl+Dat+PxSg2: нюхут
+     ню+N+Pl+Loc+PxSg2: [нюхуˮнат, нюхуˮнят]
+     ню+N+Pl+Abl+PxSg2: нюхутат
+     ню+N+Pl+Pros+PxSg2: [нюˮумнат, нюˮумнят]
+     ню+N+Sg+Nom+PxSg3: [нюда, нюдя]
+     ню+N+Sg+Acc+PxSg3: [нюмда, нюмдя]
+     ню+N+Sg+Gen+PxSg3: [нюнда, нюндя]
+     ню+N+Sg+Dat+PxSg3: нюхунда
+     ню+N+Sg+Loc+PxSg3: [нюхунанда, нюхунянда]
+     ню+N+Sg+Abl+PxSg3: нюхуданда
+     ню+N+Sg+Pros+PxSg3: [нювнанда, нювнянда]
+     ню+N+Du+Nom+PxSg3: нюхуюда
+     ню+N+Du+Acc+PxSg3: нюхуюда
+     ню+N+Du+Gen+PxSg3: нюхуюта
+     ню+N+Pl+Nom+PxSg3: [нюда, нюдя]
+     ню+N+Pl+Acc+PxSg3: [нюда, нюдя]
+     ню+N+Pl+Gen+PxSg3: [нюта, нютя]
+     ню+N+Pl+Dat+PxSg3: нюхута
+     ню+N+Pl+Loc+PxSg3: [нюхуˮната, нюхуˮнята]
+     ню+N+Pl+Abl+PxSg3: нюхутата
+     ню+N+Pl+Pros+PxSg3: [нюˮумната, нюˮумнята]
+     ню+N+Sg+Nom+PxDu1: нюмиʼ
+#     ню+N+Sg+Nom+PxSg1.2: нюми
+     ню+N+Sg+Acc+PxDu1: нюмиʼ
+#     ню+N+Sg+Acc+PxSg1.2: нюми
+     ню+N+Sg+Gen+PxDu1: нюниʼ
+#     ню+N+Sg+Gen+PxSg1.2: нюни
+     ню+N+Sg+Dat+PxDu1: нюхуниʼ
+#     ню+N+Sg+Dat+PxSg1.2: нюхуни
+     ню+N+Sg+Loc+PxDu1: [нюхунаниʼ, нюхуняниʼ]
+#     ню+N+Sg+Loc+PxSg1.2: [нюхунани, нюхуняни]
+     ню+N+Sg+Abl+PxDu1: нюхуданиʼ
+#     ню+N+Sg+Abl+PxSg1.2: нюхудани
+     ню+N+Sg+Pros+PxDu1: [нювнаниʼ, нювняниʼ]
+#     ню+N+Sg+Pros+PxSg1.2: [нювнани, нювняни]
+     ню+N+Du+Nom+PxDu1: нюхуюниʼ
+#     ню+N+Du+Nom+PxSg1.2: нюхуюни
+     ню+N+Du+Acc+PxDu1: нюхуюниʼ
+#     ню+N+Du+Acc+PxSg1.2: нюхуюни
+     ню+N+Du+Gen+PxDu1: нюхуюниʼ
+#     ню+N+Du+Gen+PxSg1.2: нюхуюни
+     ню+N+Pl+Nom+PxDu1: нюниʼ
+#     ню+N+Pl+Nom+PxSg1.2: нюни
+     ню+N+Pl+Acc+PxDu1: нюниʼ
+#     ню+N+Pl+Acc+PxSg1.2: нюни
+     ню+N+Pl+Gen+PxDu1: нюˮниʼ
+#     ню+N+Pl+Gen+PxSg1.2: нюˮни
+     ню+N+Pl+Dat+PxDu1: нюхуˮниʼ
+#     ню+N+Pl+Dat+PxSg1.2: нюхуˮни
+     ню+N+Pl+Loc+PxDu1: [нюхуˮнаниʼ, нюхуˮняниʼ]
+#     ню+N+Pl+Loc+PxSg1.2: [нюхуˮнани, нюхуˮняни]
+     ню+N+Pl+Abl+PxDu1: нюхутаниʼ
+#     ню+N+Pl+Abl+PxSg1.2: нюхутани
+     ню+N+Pl+Pros+PxDu1: [нюˮумнаниʼ, нюˮумняниʼ]
+#     ню+N+Pl+Pros+PxSg1.2: [нюˮумнани, нюˮумняни]
+     ню+N+Sg+Nom+PxDu2: нюриʼ
+     ню+N+Sg+Acc+PxDu2: нюмдиʼ
+     ню+N+Sg+Gen+PxDu2: нюндиʼ
+     ню+N+Sg+Dat+PxDu2: нюхундиʼ
+     ню+N+Sg+Loc+PxDu2: [нюхунандиʼ, нюхуняндиʼ]
+     ню+N+Sg+Abl+PxDu2: нюхудандиʼ
+     ню+N+Sg+Pros+PxDu2: [нювнандиʼ, нювняндиʼ]
+     ню+N+Du+Nom+PxDu2: нюхуюдиʼ
+     ню+N+Du+Acc+PxDu2: нюхуюдиʼ
+     ню+N+Du+Gen+PxDu2: нюхуютиʼ
+     ню+N+Pl+Nom+PxDu2: нюдиʼ
+     ню+N+Pl+Acc+PxDu2: нюдиʼ
+     ню+N+Pl+Gen+PxDu2: нютиʼ
+     ню+N+Pl+Dat+PxDu2: нюхутиʼ
+     ню+N+Pl+Loc+PxDu2: [нюхуˮнатиʼ, нюхуˮнятиʼ]
+     ню+N+Pl+Abl+PxDu2: нюхутатиʼ
+     ню+N+Pl+Pros+PxDu2: [нюˮумнатиʼ, нюˮумнятиʼ]
+     ню+N+Sg+Nom+PxDu3: нюдиʼ
+     ню+N+Sg+Acc+PxDu3: нюмдиʼ
+     ню+N+Sg+Gen+PxDu3: нюндиʼ
+     ню+N+Sg+Dat+PxDu3: нюхундиʼ
+     ню+N+Sg+Loc+PxDu3: [нюхунандиʼ, нюхуняндиʼ]
+     ню+N+Sg+Abl+PxDu3: нюхудандиʼ
+     ню+N+Sg+Pros+PxDu3: [нювнандиʼ, нювняндиʼ]
+     ню+N+Du+Nom+PxDu3: нюхуюдиʼ
+     ню+N+Du+Acc+PxDu3: нюхуюдиʼ
+     ню+N+Du+Gen+PxDu3: нюхуютиʼ
+     ню+N+Pl+Nom+PxDu3: нюдиʼ
+     ню+N+Pl+Acc+PxDu3: нюдиʼ
+     ню+N+Pl+Gen+PxDu3: нютиʼ
+     ню+N+Pl+Dat+PxDu3: нюхутиʼ
+     ню+N+Pl+Loc+PxDu3: [нюхуˮнатиʼ, нюхуˮнятиʼ]
+     ню+N+Pl+Abl+PxDu3: нюхутатиʼ
+     ню+N+Pl+Pros+PxDu3: [нюˮумнатиʼ, нюˮумнятиʼ]
+     ню+N+Sg+Nom+PxPl1: нюваˮ
+     ню+N+Sg+Acc+PxPl1: нюваˮ
+     ню+N+Sg+Gen+PxPl1: нюнаˮ
+     ню+N+Sg+Dat+PxPl1: нюхунаˮ
+     ню+N+Sg+Loc+PxPl1: [нюхунанаˮ, нюхунянаˮ]
+     ню+N+Sg+Abl+PxPl1: нюхуданаˮ
+     ню+N+Sg+Pros+PxPl1: [нювнанаˮ, нювнянаˮ]
+     ню+N+Du+Nom+PxPl1: нюхуюнаˮ
+     ню+N+Du+Acc+PxPl1: нюхуюнаˮ
+     ню+N+Du+Gen+PxPl1: нюхуюнаˮ
+     ню+N+Pl+Nom+PxPl1: нюнаˮ
+     ню+N+Pl+Acc+PxPl1: нюнаˮ
+     ню+N+Pl+Gen+PxPl1: нюˮнаˮ
+     ню+N+Pl+Dat+PxPl1: нюхуˮнаˮ
+     ню+N+Pl+Loc+PxPl1: [нюхуˮнанаˮ, нюхуˮнянаˮ]
+     ню+N+Pl+Abl+PxPl1: нюхутанаˮ
+     ню+N+Pl+Pros+PxPl1: [нюˮумнанаˮ, нюˮумнянаˮ]
+     ню+N+Sg+Nom+PxPl2: нюраˮ
+     ню+N+Sg+Acc+PxPl2: нюмдаˮ
+     ню+N+Sg+Gen+PxPl2: нюндаˮ
+     ню+N+Sg+Dat+PxPl2: нюхундаˮ
+     ню+N+Sg+Loc+PxPl2: [нюхунандаˮ, нюхуняндаˮ]
+     ню+N+Sg+Abl+PxPl2: нюхудандаˮ
+     ню+N+Sg+Pros+PxPl2: [нювнандаˮ, нювняндаˮ]
+     ню+N+Du+Nom+PxPl2: нюхуюдаˮ
+     ню+N+Du+Acc+PxPl2: нюхуюдаˮ
+     ню+N+Du+Gen+PxPl2: нюхуютаˮ
+     ню+N+Pl+Nom+PxPl2: нюдаˮ
+     ню+N+Pl+Acc+PxPl2: нюдаˮ
+     ню+N+Pl+Gen+PxPl2: нютаˮ
+     ню+N+Pl+Dat+PxPl2: нюхутаˮ
+     ню+N+Pl+Loc+PxPl2: [нюхуˮнатаˮ, нюхуˮнятаˮ]
+     ню+N+Pl+Abl+PxPl2: нюхутатаˮ
+     ню+N+Pl+Pros+PxPl2: [нюˮумнатаˮ, нюˮумнятаˮ]
+     ню+N+Sg+Nom+PxPl3: [нюдоʼ, нюдёʼ]
+     ню+N+Sg+Acc+PxPl3: [нюмдоʼ, нюмдёʼ]
+     ню+N+Sg+Gen+PxPl3: [нюндоʼ, нюндёʼ]
+     ню+N+Sg+Dat+PxPl3: нюхундоʼ
+     ню+N+Sg+Loc+PxPl3: [нюхунандоʼ, нюхуняндоʼ]
+     ню+N+Sg+Abl+PxPl3: нюхудандоʼ
+     ню+N+Sg+Pros+PxPl3: [нювнандоʼ, нювняндоʼ]
+     ню+N+Du+Nom+PxPl3: нюхуюдоʼ
+     ню+N+Du+Acc+PxPl3: нюхуюдоʼ
+     ню+N+Du+Gen+PxPl3: нюхуютоʼ
+     ню+N+Pl+Nom+PxPl3: [нюдоʼ, нюдёʼ]
+     ню+N+Pl+Acc+PxPl3: [нюдоʼ, нюдёʼ]
+     ню+N+Pl+Gen+PxPl3: [нютоʼ, нютёʼ]
+     ню+N+Pl+Dat+PxPl3: нюхутоʼ
+     ню+N+Pl+Loc+PxPl3: [нюхуˮнатоʼ, нюхуˮнятоʼ]
+     ню+N+Pl+Abl+PxPl3: нюхутатоʼ
+     ню+N+Pl+Pros+PxPl3: [нюˮумнатоʼ, нюˮумнятоʼ]
+     ню+N+Pred+Abs: нюд
+     ню+N+Pred+Nom+PxSg1: [нюдав, нюдув]
+     ню+N+Pred+Acc+PxSg1: [нюдав, нюдув]
+     ню+N+Pred+Gen+PxSg1: нюдан
+     ню+N+Pred+Nom+PxSg2: нюдар
+     ню+N+Pred+Acc+PxSg2: нюдамд
+     ню+N+Pred+Gen+PxSg2: нюданд
+     ню+N+Pred+Nom+PxSg3: [нюдада, нюдда]
+     ню+N+Pred+Acc+PxSg3: нюдамда
+     ню+N+Pred+Gen+PxSg3: нюданда
+     ню+N+Pred+Nom+PxDu1: [нюдамиʼ, нюдмиʼ]
+#     ню+N+Pred+Nom+PxSg1.2: [нюдами, нюдми]
+     ню+N+Pred+Acc+PxDu1: [нюдамиʼ, нюдмиʼ]
+#     ню+N+Pred+Acc+PxSg1.2: [нюдами, нюдми]
+     ню+N+Pred+Gen+PxDu1: [нюданиʼ, нюдниʼ]
+#     ню+N+Pred+Gen+PxSg1.2: [нюдани, нюдни]
+     ню+N+Pred+Nom+PxDu2: [нюдариʼ, нюдриʼ]
+     ню+N+Pred+Acc+PxDu2: нюдамдиʼ
+     ню+N+Pred+Gen+PxDu2: нюдандиʼ
+     ню+N+Pred+Nom+PxDu3: [нюдадиʼ, нюддиʼ]
+     ню+N+Pred+Acc+PxDu3: нюдамдиʼ
+     ню+N+Pred+Gen+PxDu3: нюдандиʼ
+     ню+N+Pred+Nom+PxPl1: [нюдаваˮ, нюдваˮ]
+     ню+N+Pred+Acc+PxPl1: [нюдаваˮ, нюдваˮ]
+     ню+N+Pred+Gen+PxPl1: [нюданаˮ, нюднаˮ]
+     ню+N+Pred+Nom+PxPl2: [нюдараˮ, нюдраˮ]
+     ню+N+Pred+Acc+PxPl2: нюдамдаˮ
+     ню+N+Pred+Gen+PxPl2: нюдандаˮ
+     ню+N+Pred+Nom+PxPl3: [нюдадоʼ, нюддоʼ]
+     ню+N+Pred+Acc+PxPl3: нюдамдоʼ
+     ню+N+Pred+Gen+PxPl3: нюдандоʼ
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: нюдмʼ
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: нюн
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ню
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: нюниʼ
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: нюдиʼ
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: нюхуʼ
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: нюваˮ
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: нюдаˮ
+     ню+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: нюˮ
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: нюдамзь
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: нюнась
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: нюсь
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: нюнинзь
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: нюдинзь
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: нюхунзь
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: нюваць
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: нюдаць
+     ню+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: нюць
+     ню+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: нюв
+     ню+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: нюр
+     ню+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: [нюда, нюдя]
+     ню+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: нюмиʼ
+     ню+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: нюриʼ
+     ню+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: нюдиʼ
+     ню+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: нюваˮ
+     ню+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: нюраˮ
+     ню+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: [нюдоʼ, нюдёʼ]
+     ню+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: нювась
+     ню+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: нюрась
+     ню+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: [нюдась, нюдясь]
+     ню+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: нюминзь
+     ню+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: нюринзь
+     ню+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: нюдинзь
+     ню+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: нюваць
+     ню+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: нюраць
+     ню+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: [нюдонзь, нюдёнзь]
+     ню+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: нюхуюн
+     ню+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: нюхуюд
+     ню+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: нюхуюда
+     ню+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: нюхуюниʼ
+     ню+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: нюхуюдиʼ
+     ню+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: нюхуюдиʼ
+     ню+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: нюхуюнаˮ
+     ню+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: нюхуюдаˮ
+     ню+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: нюхуюдоʼ
+     ню+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюнась
+     ню+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюдась
+     ню+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюдась
+     ню+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюнинзь
+     ню+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюдинзь
+     ню+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюдинзь
+     ню+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюнаць
+     ню+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюдаць
+     ню+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: нюхуюдонзь
+     ню+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: нюн
+     ню+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: нюд
+     ню+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: [нюда, нюдя]
+     ню+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: нюниʼ
+     ню+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: нюдиʼ
+     ню+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: нюдиʼ
+     ню+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: нюнаˮ
+     ню+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: нюдаˮ
+     ню+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: [нюдоʼ, нюдёʼ]
+     ню+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: нюнась
+     ню+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: нюдась
+     ню+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: [нюдась, нюдясь]
+     ню+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: нюнинзь
+     ню+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: нюдинзь
+     ню+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: нюдинзь
+     ню+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: нюнаць
+     ню+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: нюдаць
+     ню+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: [нюдонзь, нюдёнзь]
+     ню+N+Tra: нюӈэ
+     ню+N+Car: нюсиˮ
+     ню+N+Equ: нюдремʼ
+     ню+N+Equ+Lat: нюдревʼ
