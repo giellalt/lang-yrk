@@ -24,6 +24,7 @@
   %{рл%}:0	    +N+Sg+Nom+PxSg2
 
 !!triggers
+  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
 lenition
   %^VowLower:0  vowel lowering ы:э у:о
   %^VowRaise:0  vowel raising э:ы о:у
@@ -71,6 +72,8 @@ __°:э in extra short to э__
 
 
 __ә:э in extra short to э__
+
+__ә:а in extra short to а__
 
 
 

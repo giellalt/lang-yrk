@@ -8,10 +8,12 @@ LEXICON N_ӇЭ  !!= @CODE@ ӈэ:ӈэ 1  ProsSg -вна
 !! no change in stem
 !! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 !! Yaml: __xo__
-+N: NMN_ӇЭ ;
++N: NMN_МУНО ;
++N: MUNO_O ;
+!+N: NMN_ӇЭ ;
 !+N+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-22
-+N+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-22
-+N: POSSESSA-PL-PROS_ˮмана ;
+!+N+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-22
+!+N: POSSESSA-PL-PROS_ˮмана ;
 
 LEXICON N_ӇЭ-RUS 
 +Rus: N_ӇЭ ;
@@ -400,7 +402,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Sg+Nom: # ;
 +Sg+Acc:%>°мʼ # ;
 +Sg+Gen:%>°ʼ # ;
-+Sg+Dat:%>н°ʼ # ;
++Sg+Dat:%>н°ʼ # ; ! n2d
 +Sg+Loc:%>х°на # ;
 +Sg+Abl:%>хәд° # ;
 +Sg+Pros:%>м°на # ;
@@ -413,7 +415,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Pl+Abl:%>хәт° # ;
 +Sg+Nom+PxSg1:%>м° # ;
 +Sg+Acc+PxSg1:%>м° # ;
-+Sg+Gen+PxSg1:%>н° # ;
++Sg+Gen+PxSg1:%>н° # ; ! no n2d
 +Sg+Dat+PxSg1:%>хән° # ;
 +Sg+Loc+PxSg1:%>х°нан° # ;
 +Sg+Abl+PxSg1:%>х°дән° # ;
@@ -491,7 +493,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Pl+Abl+PxDu3:%>х°тәтиʼ # ;
 +Sg+Nom+PxPl1:%>маˮ # ;
 +Sg+Acc+PxPl1:%>маˮ # ;
-+Sg+Gen+PxPl1:%>наˮ # ;
++Sg+Gen+PxPl1:%>наˮ # ; !! No n2d
 +Sg+Dat+PxPl1:%>х°наˮ # ;
 +Sg+Loc+PxPl1:%>х°нанаˮ # ;
 +Sg+Abl+PxPl1:%>х°дәнаˮ # ;
@@ -557,7 +559,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Pred+Acc+PxPl3:%>д°мдоʼ # ;
 +Pred+Gen+PxPl3:%>д°ндоʼ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScSg1:%>д°мʼ # ;
-+Nom+Der/Pr+V+Ind+Aor+ScSg2:%>н° # ;
++Nom+Der/Pr+V+Ind+Aor+ScSg2:%^SCSG2%>н° # ; ! this undergoes n2d
 +Nom+Der/Pr+V+Ind+Aor+ScSg3: # ;
 +Nom+Der/Pr+V+Ind+Aor+ScDu1:%>ниʼ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScDu2:%>диʼ # ;
@@ -566,7 +568,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Nom+Der/Pr+V+Ind+Aor+ScPl2:%>даˮ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScPl3:%>°ˮ # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScSg1:%>дәмзь # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScSg2:%>нәсь # ;
++Nom+Der/Pr+V+Ind+Prt1+ScSg2:%^SCSG2%>нәсь # ; ! this undergoes n2d
 +Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu1:%>нинзь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu2:%>динзь° # ;
