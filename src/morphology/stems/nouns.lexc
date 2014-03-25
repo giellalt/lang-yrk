@@ -323,7 +323,7 @@ LEXICON nouns
 ларь:ларь N_ЕД  "iso laatikko" ;
 лат:лат N_ЕД  "leveys" ;
 лата:лата N_ХОБ  "lauta" ;
-латабцо:латабцо N_ӇАНУ  "myrkyllinen kasvi leveillä lehdillä" ;
+латабцо:латабцо N_ӇАНУ  "leveälehtinen myrkyllinen kasvi" ;
 латад:латад N_ЕД  "leveys" ;
 латако:латако N_ӇАНУ  "pöytä" ;
 латха:латха N_МАРАӇГЫ  "risatauti" ;
@@ -764,8 +764,10 @@ LEXICON nouns
 ноябрь:ноябрь N_ЕД-RUS  "marraskuu" ;
 нуйна:нуйна N_ӇУДИ  "tomahdus" ;
 нуйрё:нуйрё N_МЕРЁ  "kopina" ;
+нулма:нулма N_ӇУДИ  "pysäkki" ;
 нултава:нултава N_ӇУДИ  "pysäkki" ;
 нулёда:нулёда N_ӇУДИ  "yhdestä poronnahasta sänky" ;
+нулӈгава:нулӈгава N_ӇУДИ  "pysähtyminen" ;
 нулӈгалава:нулӈгалава N_ӇУДИ  "pysähdyspaikka" ;
 нумʼ:нум N_ӇУВО  "taivas" ;
 нумгы:нумгы N_ПАНЫ  "tähti" ;
@@ -1318,8 +1320,8 @@ LEXICON nouns
 сиеся:сиеся N_ӇОДИ/ПИСЬ  "teräs" ;
 силарцьʼ:силарць N_ЁЛЬЦЕ  "teroitin" ;
 силерˮ:силер N_ТАРЕ  "harmaalokin poikanen" ;
-силиӈга:силиӈга N_МАРАӇГЫ  "paistettu poronrasva?" ;
-силиӈга:сильга N_МАРАӇГЫ  "paistettu poronrasva?" ;
+силиӈга:силиӈга N_МАРАӇГЫ  "" ;
+силиӈга:сильга N_МАРАӇГЫ  "" ;
 синдˮма:синдˮма N_ӇУДИ  "kansi" ;
 синдерˮ:синдер N_ТАРЕ  "kansi" ;
 синдерма:синдерма N_ӇУДИ  "röyhtäisy" ;
@@ -1400,8 +1402,8 @@ LEXICON nouns
 сэдорабцьʼ:сэдорабць N_ЁЛЬЦЕ  "veitsi leikkaamista varten" ;
 сэдъя:сэдъя N_ӇОДИ  "käsityö" ;
 сэдырˮ:сэдыр N_ВАР  "ompelun laatu" ;
-сэлʼ:сэл N_ЕД  "kuivuus" ;
 сэлʼ:сэл N_ВЫӇО  "kuivuus" ;
+сэлʼ:сэл N_ЕД  "kuivuus" ;
 сэлдаˮма:сэлдаˮма N_ӇУДИ  "puujauhe" ;
 сэлха:сэлха N_МАРАӇГЫ  "valkko" ;
 сэрˮ:сэр N_ВАР  "jää" ;
@@ -1409,6 +1411,7 @@ LEXICON nouns
 сэрабтˮ:сэрабт N_МЯДО  "kaljama" ;
 сэрад:сэрад N_ЕД  "nälänhätä" ;
 сэрадˮ:сэрад N_МЯДО  "harmi" ;
+сэранзьʼ:сэранзь N_НЕНЭЦИЕ  "ohut jääkerros maanpinnalla" ;
 сэратирˮ:сэратир N_ВАР  "suolaus" ;
 сэрерˮ:сэрер N_ВАР  "ikuinen routa" ;
 сэроко:сэроко N_ӇАНУ  "kaihi" ;
@@ -1437,6 +1440,7 @@ LEXICON nouns
 сюрбала:сюрбела N_ӇУДИ  "juoksija" ;
 сюркараˮма:сюркараˮма N_ӇУДИ  "nauha joka vedetään sisään" ;
 сюрна:сюрна N_ӇУДИ  "kiertäjä" ;
+сюртеӈгосьʼ:сюртеӈгось N_НЕНЭЦИЕ  "värttinä" ;
 сюртлава:сюртлава N_ӇУДИ  "hauta" ;
 сюрхалˮ:сюрхал N_ВАР  "paluu" ;
 сяˮ:ся N_МЯДО  "kasvot" ;
@@ -1577,6 +1581,7 @@ LEXICON nouns
 тато:тато N_ӇАНУ  "kipinä" ;
 тахаʼ:таха N_ПАХАЁ  "(kodan) lumivalli" ;
 таяраˮма:таяраˮма N_ӇУДИ  "poikkeama" ;
+таё:таё N_МЕРЁ  "koivuntuohesta suojakerros" ;
 таӈабц:таӈабц N_ЕД  "kuiva aho" ;
 таӈга:таӈга N_ӇУДИ  "vuori" ;
 таӈоˮлава:таӈоˮлава N_ӇУДИ  "kesämökki" ;

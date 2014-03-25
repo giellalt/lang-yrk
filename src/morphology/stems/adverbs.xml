@@ -1256,6 +1256,54 @@
 
   <e>
     <lg>
+      <l pos="Adv">нулӈгавасиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">нулӈгавасиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">pysähtymättä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ныланзиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ныланзиˮ</st>
+
+        <st Contlex="ADV-MANNER_">нылсиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">taukoamatta</t>
+
+        <t pos="Adv">lepäämättä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">ныхыˮмасиˮ</l>
 
       <stg>
@@ -1335,11 +1383,37 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Adv">хх</t>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Adv">hellästi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">нюрибтеʼ</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">нюрибтеʼ</st>
+
+        <st Contlex="ADV-TEMP_">нюрибтейʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">aluksi</t>
+
+        <t pos="Adv">ensiksi</t>
       </tg>
     </mg>
   </e>
@@ -3188,6 +3262,50 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">nytpä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">тайʼ</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">тайʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">there</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">tuonne</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">тайна</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">тайна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">there</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">tuolla</t>
       </tg>
     </mg>
   </e>
