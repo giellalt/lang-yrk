@@ -177,6 +177,16 @@ Rules
  ә:о <=> # Cns* о %> х _ [ д | н | т | ˮ ]  ;
 
 
+"°:и in extra short to и"
+!! __@RULENAME@__
+ °:и <=> # Cns* и %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
+
+
+"ә:и in extra short to и"
+!! __@RULENAME@__
+ ә:и <=> # Cns* и %> х _ [ д | н | т | ˮ ]  ;
+
+
 "°:ы in extra short to ы"
 !! __@RULENAME@__
  °:ы <=> # Cns* ы %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
@@ -221,6 +231,12 @@ Rules
          # Cns* [ о ] %> ˮ _ Cns °:  ;
 !€# хо%>ˮ0м°н%{ая%}
 !€0 хо0ˮом0на
+
+"0:и after glottal"
+!! __@RULENAME@__
+ 0:и <=> # Cns* [ и ] %> ˮ _ Cns °:  ;
+!€# си%>ˮ0м°н%{ая%}
+!€0 си0ˮим0на
 
 "0:ы between two glottals"
 !! __@RULENAME@__

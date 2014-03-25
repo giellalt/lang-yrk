@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - не: # Noun 'woman / (fin) nainen' - partial paradigm /Type 1/ - nye
+     не+N+Sg+Nom: не
+     не+N+Sg+Acc: немʼ
+     не+N+Sg+Gen: неʼ
+     не+N+Sg+Dat: ненʼ
+     не+N+Sg+Loc: [нехэна, нехэня]
+     не+N+Sg+Abl: нехэд
+     не+N+Sg+Pros: [невна, невня]
+     не+N+Du+Nom: нехэʼ
+     не+N+Du+Acc: нехэʼ
+     не+N+Du+Gen: нехэʼ
+     не+N+Pl+Nom: неˮ
+     не+N+Pl+Acc: не
+     не+N+Pl+Gen: неˮ
+     не+N+Pl+Dat: нехэˮ
+     не+N+Pl+Loc: [нехэˮна, нехэˮня]
+     не+N+Pl+Abl: нехэт
+     не+N+Pl+Pros: [неˮэмна, неˮэмня]
+     не+N+Sg+Nom+PxSg1: нев
+     не+N+Sg+Acc+PxSg1: нев
+     не+N+Sg+Gen+PxSg1: нен
+     не+N+Sg+Dat+PxSg1: нехэн
+     не+N+Sg+Loc+PxSg1: [нехэнан, нехэнян]
+     не+N+Sg+Abl+PxSg1: нехэдан
+     не+N+Sg+Pros+PxSg1: [невнан, невнян]
+     не+N+Du+Nom+PxSg1: нехэюн
+     не+N+Du+Acc+PxSg1: нехэюн
+     не+N+Du+Gen+PxSg1: нехэюн
+     не+N+Pl+Nom+PxSg1: нен
+     не+N+Pl+Acc+PxSg1: нен
+     не+N+Pl+Gen+PxSg1: неˮэн
+     не+N+Pl+Dat+PxSg1: нехэˮн
+     не+N+Pl+Loc+PxSg1: [нехэˮнан, нехэˮнян]
+     не+N+Pl+Abl+PxSg1: нехэтан
+     не+N+Pl+Pros+PxSg1: [неˮэмнан, неˮэмнян]
+     не+N+Sg+Nom+PxSg2: нер
+     не+N+Sg+Acc+PxSg2: немд
+     не+N+Sg+Gen+PxSg2: ненд
+     не+N+Sg+Dat+PxSg2: нехэнд
+     не+N+Sg+Loc+PxSg2: [нехэнанд, нехэнянд]
+     не+N+Sg+Abl+PxSg2: нехэданд
+     не+N+Sg+Pros+PxSg2: [невнанд, невнянд]
+     не+N+Du+Nom+PxSg2: нехэюд
+     не+N+Du+Acc+PxSg2: нехэюд
+     не+N+Du+Gen+PxSg2: нехэют
+     не+N+Pl+Nom+PxSg2: нед
+     не+N+Pl+Acc+PxSg2: нед
+     не+N+Pl+Gen+PxSg2: нет
+     не+N+Pl+Dat+PxSg2: нехэт
+     не+N+Pl+Loc+PxSg2: [нехэˮнат, нехэˮнят]
+     не+N+Pl+Abl+PxSg2: нехэтат
+     не+N+Pl+Pros+PxSg2: [неˮэмнат, неˮэмнят]
+     не+N+Sg+Nom+PxSg3: [неда, недя]
+     не+N+Sg+Acc+PxSg3: [немда, немдя]
+     не+N+Sg+Gen+PxSg3: [ненда, нендя]
+     не+N+Sg+Dat+PxSg3: нехэнда
+     не+N+Sg+Loc+PxSg3: [нехэнанда, нехэнянда]
+     не+N+Sg+Abl+PxSg3: нехэданда
+     не+N+Sg+Pros+PxSg3: [невнанда, невнянда]
+     не+N+Du+Nom+PxSg3: нехэюда
+     не+N+Du+Acc+PxSg3: нехэюда
+     не+N+Du+Gen+PxSg3: нехэюта
+     не+N+Pl+Nom+PxSg3: [неда, недя]
+     не+N+Pl+Acc+PxSg3: [неда, недя]
+     не+N+Pl+Gen+PxSg3: [нета, нетя]
+     не+N+Pl+Dat+PxSg3: нехэта
+     не+N+Pl+Loc+PxSg3: [нехэˮната, нехэˮнята]
+     не+N+Pl+Abl+PxSg3: нехэтата
+     не+N+Pl+Pros+PxSg3: [неˮэмната, неˮэмнята]
+     не+N+Sg+Nom+PxDu1: немиʼ
+#     не+N+Sg+Nom+PxSg1.2: неми
+     не+N+Sg+Acc+PxDu1: немиʼ
+#     не+N+Sg+Acc+PxSg1.2: неми
+     не+N+Sg+Gen+PxDu1: нениʼ
+#     не+N+Sg+Gen+PxSg1.2: нени
+     не+N+Sg+Dat+PxDu1: нехэниʼ
+#     не+N+Sg+Dat+PxSg1.2: нехэни
+     не+N+Sg+Loc+PxDu1: [нехэнаниʼ, нехэняниʼ]
+#     не+N+Sg+Loc+PxSg1.2: [нехэнани, нехэняни]
+     не+N+Sg+Abl+PxDu1: нехэданиʼ
+#     не+N+Sg+Abl+PxSg1.2: нехэдани
+     не+N+Sg+Pros+PxDu1: [невнаниʼ, невняниʼ]
+#     не+N+Sg+Pros+PxSg1.2: [невнани, невняни]
+     не+N+Du+Nom+PxDu1: нехэюниʼ
+#     не+N+Du+Nom+PxSg1.2: нехэюни
+     не+N+Du+Acc+PxDu1: нехэюниʼ
+#     не+N+Du+Acc+PxSg1.2: нехэюни
+     не+N+Du+Gen+PxDu1: нехэюниʼ
+#     не+N+Du+Gen+PxSg1.2: нехэюни
+     не+N+Pl+Nom+PxDu1: нениʼ
+#     не+N+Pl+Nom+PxSg1.2: нени
+     не+N+Pl+Acc+PxDu1: нениʼ
+#     не+N+Pl+Acc+PxSg1.2: нени
+     не+N+Pl+Gen+PxDu1: неˮниʼ
+#     не+N+Pl+Gen+PxSg1.2: неˮни
+     не+N+Pl+Dat+PxDu1: нехэˮниʼ
+#     не+N+Pl+Dat+PxSg1.2: нехэˮни
+     не+N+Pl+Loc+PxDu1: [нехэˮнаниʼ, нехэˮняниʼ]
+#     не+N+Pl+Loc+PxSg1.2: [нехэˮнани, нехэˮняни]
+     не+N+Pl+Abl+PxDu1: нехэтаниʼ
+#     не+N+Pl+Abl+PxSg1.2: нехэтани
+     не+N+Pl+Pros+PxDu1: [неˮэмнаниʼ, неˮэмняниʼ]
+#     не+N+Pl+Pros+PxSg1.2: [неˮэмнани, неˮэмняни]
+     не+N+Sg+Nom+PxDu2: нериʼ
+     не+N+Sg+Acc+PxDu2: немдиʼ
+     не+N+Sg+Gen+PxDu2: нендиʼ
+     не+N+Sg+Dat+PxDu2: нехэндиʼ
+     не+N+Sg+Loc+PxDu2: [нехэнандиʼ, нехэняндиʼ]
+     не+N+Sg+Abl+PxDu2: нехэдандиʼ
+     не+N+Sg+Pros+PxDu2: [невнандиʼ, невняндиʼ]
+     не+N+Du+Nom+PxDu2: нехэюдиʼ
+     не+N+Du+Acc+PxDu2: нехэюдиʼ
+     не+N+Du+Gen+PxDu2: нехэютиʼ
+     не+N+Pl+Nom+PxDu2: недиʼ
+     не+N+Pl+Acc+PxDu2: недиʼ
+     не+N+Pl+Gen+PxDu2: нетиʼ
+     не+N+Pl+Dat+PxDu2: нехэтиʼ
+     не+N+Pl+Loc+PxDu2: [нехэˮнатиʼ, нехэˮнятиʼ]
+     не+N+Pl+Abl+PxDu2: нехэтатиʼ
+     не+N+Pl+Pros+PxDu2: [неˮэмнатиʼ, неˮэмнятиʼ]
+     не+N+Sg+Nom+PxDu3: недиʼ
+     не+N+Sg+Acc+PxDu3: немдиʼ
+     не+N+Sg+Gen+PxDu3: нендиʼ
+     не+N+Sg+Dat+PxDu3: нехэндиʼ
+     не+N+Sg+Loc+PxDu3: [нехэнандиʼ, нехэняндиʼ]
+     не+N+Sg+Abl+PxDu3: нехэдандиʼ
+     не+N+Sg+Pros+PxDu3: [невнандиʼ, невняндиʼ]
+     не+N+Du+Nom+PxDu3: нехэюдиʼ
+     не+N+Du+Acc+PxDu3: нехэюдиʼ
+     не+N+Du+Gen+PxDu3: нехэютиʼ
+     не+N+Pl+Nom+PxDu3: недиʼ
+     не+N+Pl+Acc+PxDu3: недиʼ
+     не+N+Pl+Gen+PxDu3: нетиʼ
+     не+N+Pl+Dat+PxDu3: нехэтиʼ
+     не+N+Pl+Loc+PxDu3: [нехэˮнатиʼ, нехэˮнятиʼ]
+     не+N+Pl+Abl+PxDu3: нехэтатиʼ
+     не+N+Pl+Pros+PxDu3: [неˮэмнатиʼ, неˮэмнятиʼ]
+     не+N+Sg+Nom+PxPl1: неваˮ
+     не+N+Sg+Acc+PxPl1: неваˮ
+     не+N+Sg+Gen+PxPl1: ненаˮ
+     не+N+Sg+Dat+PxPl1: нехэнаˮ
+     не+N+Sg+Loc+PxPl1: [нехэнанаˮ, нехэнянаˮ]
+     не+N+Sg+Abl+PxPl1: нехэданаˮ
+     не+N+Sg+Pros+PxPl1: [невнанаˮ, невнянаˮ]
+     не+N+Du+Nom+PxPl1: нехэюнаˮ
+     не+N+Du+Acc+PxPl1: нехэюнаˮ
+     не+N+Du+Gen+PxPl1: нехэюнаˮ
+     не+N+Pl+Nom+PxPl1: ненаˮ
+     не+N+Pl+Acc+PxPl1: ненаˮ
+     не+N+Pl+Gen+PxPl1: неˮнаˮ
+     не+N+Pl+Dat+PxPl1: нехэˮнаˮ
+     не+N+Pl+Loc+PxPl1: [нехэˮнанаˮ, нехэˮнянаˮ]
+     не+N+Pl+Abl+PxPl1: нехэтанаˮ
+     не+N+Pl+Pros+PxPl1: [неˮэмнанаˮ, неˮэмнянаˮ]
+     не+N+Sg+Nom+PxPl2: нераˮ
+     не+N+Sg+Acc+PxPl2: немдаˮ
+     не+N+Sg+Gen+PxPl2: нендаˮ
+     не+N+Sg+Dat+PxPl2: нехэндаˮ
+     не+N+Sg+Loc+PxPl2: [нехэнандаˮ, нехэняндаˮ]
+     не+N+Sg+Abl+PxPl2: нехэдандаˮ
+     не+N+Sg+Pros+PxPl2: [невнандаˮ, невняндаˮ]
+     не+N+Du+Nom+PxPl2: нехэюдаˮ
+     не+N+Du+Acc+PxPl2: нехэюдаˮ
+     не+N+Du+Gen+PxPl2: нехэютаˮ
+     не+N+Pl+Nom+PxPl2: недаˮ
+     не+N+Pl+Acc+PxPl2: недаˮ
+     не+N+Pl+Gen+PxPl2: нетаˮ
+     не+N+Pl+Dat+PxPl2: нехэтаˮ
+     не+N+Pl+Loc+PxPl2: [нехэˮнатаˮ, нехэˮнятаˮ]
+     не+N+Pl+Abl+PxPl2: нехэтатаˮ
+     не+N+Pl+Pros+PxPl2: [неˮэмнатаˮ, неˮэмнятаˮ]
+     не+N+Sg+Nom+PxPl3: [недоʼ, недёʼ]
+     не+N+Sg+Acc+PxPl3: [немдоʼ, немдёʼ]
+     не+N+Sg+Gen+PxPl3: [нендоʼ, нендёʼ]
+     не+N+Sg+Dat+PxPl3: нехэндоʼ
+     не+N+Sg+Loc+PxPl3: [нехэнандоʼ, нехэняндоʼ]
+     не+N+Sg+Abl+PxPl3: нехэдандоʼ
+     не+N+Sg+Pros+PxPl3: [невнандоʼ, невняндоʼ]
+     не+N+Du+Nom+PxPl3: нехэюдоʼ
+     не+N+Du+Acc+PxPl3: нехэюдоʼ
+     не+N+Du+Gen+PxPl3: нехэютоʼ
+     не+N+Pl+Nom+PxPl3: [недоʼ, недёʼ]
+     не+N+Pl+Acc+PxPl3: [недоʼ, недёʼ]
+     не+N+Pl+Gen+PxPl3: [нетоʼ, нетёʼ]
+     не+N+Pl+Dat+PxPl3: нехэтоʼ
+     не+N+Pl+Loc+PxPl3: [нехэˮнатоʼ, нехэˮнятоʼ]
+     не+N+Pl+Abl+PxPl3: нехэтатоʼ
+     не+N+Pl+Pros+PxPl3: [неˮэмнатоʼ, неˮэмнятоʼ]
+     не+N+Pred+Abs: нед
+     не+N+Pred+Nom+PxSg1: [недав, недув]
+     не+N+Pred+Acc+PxSg1: [недав, недув]
+     не+N+Pred+Gen+PxSg1: недан
+     не+N+Pred+Nom+PxSg2: недар
+     не+N+Pred+Acc+PxSg2: недамд
+     не+N+Pred+Gen+PxSg2: неданд
+     не+N+Pred+Nom+PxSg3: [недада, недда]
+     не+N+Pred+Acc+PxSg3: недамда
+     не+N+Pred+Gen+PxSg3: неданда
+     не+N+Pred+Nom+PxDu1: [недамиʼ, недмиʼ]
+#     не+N+Pred+Nom+PxSg1.2: [недами, недми]
+     не+N+Pred+Acc+PxDu1: [недамиʼ, недмиʼ]
+#     не+N+Pred+Acc+PxSg1.2: [недами, недми]
+     не+N+Pred+Gen+PxDu1: [неданиʼ, недниʼ]
+#     не+N+Pred+Gen+PxSg1.2: [недани, недни]
+     не+N+Pred+Nom+PxDu2: [недариʼ, недриʼ]
+     не+N+Pred+Acc+PxDu2: недамдиʼ
+     не+N+Pred+Gen+PxDu2: недандиʼ
+     не+N+Pred+Nom+PxDu3: [недадиʼ, неддиʼ]
+     не+N+Pred+Acc+PxDu3: недамдиʼ
+     не+N+Pred+Gen+PxDu3: недандиʼ
+     не+N+Pred+Nom+PxPl1: [недаваˮ, недваˮ]
+     не+N+Pred+Acc+PxPl1: [недаваˮ, недваˮ]
+     не+N+Pred+Gen+PxPl1: [неданаˮ, неднаˮ]
+     не+N+Pred+Nom+PxPl2: [недараˮ, недраˮ]
+     не+N+Pred+Acc+PxPl2: недамдаˮ
+     не+N+Pred+Gen+PxPl2: недандаˮ
+     не+N+Pred+Nom+PxPl3: [недадоʼ, неддоʼ]
+     не+N+Pred+Acc+PxPl3: недамдоʼ
+     не+N+Pred+Gen+PxPl3: недандоʼ
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: недмʼ
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: нен
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: не
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: нениʼ
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: недиʼ
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: нехэʼ
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: неваˮ
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: недаˮ
+     не+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: неˮ
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: недамзь
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: ненась
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: несь
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: ненинзь
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: нединзь
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: нехэнзь
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: неваць
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: недаць
+     не+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: нець
+     не+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: нев
+     не+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: нер
+     не+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: [неда, недя]
+     не+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: немиʼ
+     не+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: нериʼ
+     не+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: недиʼ
+     не+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: неваˮ
+     не+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: нераˮ
+     не+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: [недоʼ, недёʼ]
+     не+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: невась
+     не+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: нерась
+     не+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: [недась, недясь]
+     не+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: неминзь
+     не+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: неринзь
+     не+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: нединзь
+     не+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: неваць
+     не+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: нераць
+     не+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: [недонзь, недёнзь]
+     не+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: нехэюн
+     не+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: нехэюд
+     не+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: нехэюда
+     не+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: нехэюниʼ
+     не+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: нехэюдиʼ
+     не+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: нехэюдиʼ
+     не+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: нехэюнаˮ
+     не+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: нехэюдаˮ
+     не+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: нехэюдоʼ
+     не+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: нехэюнась
+     не+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: нехэюдась
+     не+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: нехэюдась
+     не+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: нехэюнинзь
+     не+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: нехэюдинзь
+     не+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: нехэюдинзь
+     не+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: нехэюнаць
+     не+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: нехэюдаць
+     не+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: нехэюдонзь
+     не+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: нен
+     не+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: нед
+     не+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: [неда, недя]
+     не+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: нениʼ
+     не+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: недиʼ
+     не+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: недиʼ
+     не+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ненаˮ
+     не+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: недаˮ
+     не+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: [недоʼ, недёʼ]
+     не+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ненась
+     не+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: недась
+     не+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: [недась, недясь]
+     не+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ненинзь
+     не+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: нединзь
+     не+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: нединзь
+     не+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ненаць
+     не+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: недаць
+     не+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: [недонзь, недёнзь]
+     не+N+Tra: неӈэ
+     не+N+Car: несиˮ
+     не+N+Equ: недремʼ
+     не+N+Equ+Lat: недревʼ
