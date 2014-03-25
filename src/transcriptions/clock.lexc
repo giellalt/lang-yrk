@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ==================== !
-! The South Sámi clock !
+! The Tundra Nenets clock !
 ! ==================== !
 
 ! Note! This is NOT checked with native speakers nor
@@ -36,6 +36,10 @@ Multichar_Symbols
 
 +Use/NG
 +Use/NA
+
+!Сейчас половина десятого.  -  Теда’ ю’ сяс’ пеля.
+!Сейчас без пятнадцати двенадцать.  -  Теда’ самлянг яӈганя минутаси сидя яӈгня сяс.
+!Сейчас одиннадцать часов сорок минут. -  Теда’ ӈоб яӈганяд тет ю’’ минута.
 
 LEXICON Root
 
@@ -153,7 +157,7 @@ luhkieuktsie% :41 TO ;
 luhkiegaektsie% :42 TO ;
 luhkietjïjhtje% :43 TO ;
 luhkiegovhte% :44 TO ;
-njealjehts% :45 TO ;
+самлянг% яӈганя% :45 TO ;
 luhkienjieljie% :46 TO ;
 luhkienjielje% :46+Use/NG TO ;
 luhkienieljie% :46+Use/NG TO ;
@@ -211,7 +215,7 @@ LEXICON OVERHALF
 bijjelen% : bielie%  HOUR ;
 
 LEXICON TO
-åvtelen% : HOUR ;
+минутаси% : HOUR ;
 avtelen% :+Use/NG HOUR ; ! variant
 
 LEXICON OVER
