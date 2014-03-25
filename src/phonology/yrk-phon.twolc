@@ -144,6 +144,7 @@ Rules
 !        # Cns*  Vow  %> д _  р [ °: | и ʼ | а ˮ ] # ;
         # Cns*  Vow Н1: %> _ ц ь °: ;
          # Cns* [ а | я ] %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
+         # Cns*  Vow  Cns+ :Vow  %> ˮ м _ н ;
 
 "°:а in Pros RIGHT"
 !! __@RULENAME@__
@@ -153,6 +154,7 @@ Rules
         # Cns*  Vow Н1: %> _ ц ь °: ;
         # Cns* Vow Н1: %> х: _ (ˮ | ю) [н|д|т]   ;
          # Cns* [ а | я ] %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
+         # Cns*  Vow  Cns+ :Vow  %> ˮ м _ н ;
 
 "°:у in Pros LEFT"
 !! __@RULENAME@__
