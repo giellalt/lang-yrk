@@ -115,7 +115,8 @@ Rules
       Vow %> _  ;
        _ # ;
       в _ ʼ # ;
-      д _ р е  ;
+      д _ р [ е ]  ;
+      # Cns* Vow Н1:  %> д _  [  р ] [ а | и ]  ;
 
 "°:0 in Pros RIGHT"
 !! __@RULENAME@__
@@ -126,24 +127,30 @@ Rules
          # Cns* Vow Н1: %> х: _ [ ʼ |  ˮ #  ]   ;
          # Cns* Vow %> м: _ н    ;
          # Cns* Vow Н1: %> [ х: | м: ] _ (ˮ) н а  ;
+        # Cns* Vow Н1: %> х: _  [ ю н | (ю) [д|т]]  ;
       Vow %> _  ;
        _ # ;
       в _ ʼ # ;
       д _ р е  ;
+      # Cns* Vow (Н1:)  %> д _  [[ д | м | м д | н д | в | н | р ] [ °: | Vow ]| м ʼ ]  ;
 
 "°:а in Pros LEFT"
 !! __@RULENAME@__
- °:а <= # Cns* Vow  %> д _  [ Cns - [ в | р ] | Cns Cns ] [ °: | Vow ] ;
+ °:а <= # Cns* Vow  %> д _  [ Cns - [ в | м | д | р | н] | Cns Cns ] [ °: | Vow ] ;
+        # Cns*  Vow (Н1:) %> д _  р [ °: | и ʼ | а ˮ ] # ;
+        # Cns*  Vow Н1: %> _ ц ь °: ;
 
 "°:а in Pros RIGHT"
 !! __@RULENAME@__
- °:а => # Cns* Vow  %> д _  [ Cns - р | Cns Cns ] [ °: | Vow ]  ;
+ °:а => # Cns* Vow (Н1:)  %> д _  [ Cns - р | Cns Cns ] [ °: | Vow ]  ;
+        # Cns*  Vow (Н1:) %> д _  р [ °: | и ʼ | а ˮ ] # ;
         # Cns* Vow :Cns %> :Vow %> ˮ Cns _ (ˮ)  н а ;
-        # Cns* Vow Н1: %> х: _ (ˮ) н   ;
+        # Cns*  Vow Н1: %> _ ц ь °: ;
+        # Cns* Vow Н1: %> х: _ (ˮ | ю) [н|д|т]   ;
 
 "°:у in Pros RIGHT"
 !! __@RULENAME@__
- °:у => # Cns* Vow  %> д _  в  °:  ;
+ °:у => # Cns* Vow (Н1:)  %> д _  в  °:  ;
 
 
 "°:о in extra short to о"
@@ -154,6 +161,16 @@ Rules
 "ә:о in extra short to о"
 !! __@RULENAME@__
  ә:о <=> # Cns* о %> х: _ [ д | н | т | ˮ ]  ;
+
+
+"°:э in extra short to э"
+!! __@RULENAME@__
+ °:э <=> # Cns* э %> х: _  [ д | н | т | ʼ | ˮ | ю ]  ;
+
+
+"ә:э in extra short to э"
+!! __@RULENAME@__
+ ә:э <=> # Cns* э %> х: _ [ д | н | т | ˮ ]  ;
 
 
 
@@ -485,7 +502,7 @@ Rules
 
 "mToV"
 !! __@RULENAME@__
- м:в <=> [ Vow | Cns ] %> _ [ °: | а ˮ ];
+ м:в <=> [ Vow | Cns ] %> _ [ °: | а ˮ | а ц | а с ь | ә с ь ];
 ! _  %^MLenition:0 [ # | %> [ о |  м | ʼ | ˮ ] ] ;
 !        _ ʼ:0  %^MLenition:0 %>  0:  %{увм%}: А2: ;
 !       :Vow %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
@@ -552,7 +569,7 @@ Rules
 
 "nTod"
 !! __@RULENAME@__
- н:д <=>  [ Ӈ1: | Н1: | ʼ: ] %> _ [ °: ʼ | а | %{ая%}: ] ;
+ н:д <=>  [ Ӈ1: | Н1: | ʼ: ] %> _ [ °: ʼ | а | ә | %{ая%}: ] ;
 
 !!2014-03-24!!"tTod"
 !!2014-03-24!!!! __@RULENAME@__
@@ -656,7 +673,7 @@ Rules
 
 "Н1:н GlottalNasalToSurface"
 !! __@RULENAME@__
- Н1:н <=> _ %> [ Ы1: | с: и ˮ | с: ь | т: | д: | °: ˮ | °: м: д [ # | %> | а | и ] | °: м ʼ | о | °: ʼ | н: °: ʼ ] ;
+ Н1:н <=> _ %> [ Ы1: | с: и ˮ | с: ь | т: | д: | °: ˮ | °: ц | °: м: д [ # | %> | а | и ] | °: м ʼ | о | °: ʼ | н: °: ʼ | н: ә: с ] ;
 
 "Н1:ӈ GlottalNasalToSurface"
 !! __@RULENAME@__
@@ -692,7 +709,7 @@ Rules
 
 "Н1:0 GlottalNasalToSurface"
 !! __@RULENAME@__
- Н1:0 <=> _ %> [ м: | ʼ | н | ӈ | %{рл%}: ] ;
+ Н1:0 <=> _ %> [ м: | ʼ | н [ а | и ʼ | д | °: # ] | ӈ | %{рл%}: ] ;
 !       where Cx in (Н1 Ӈ1) ;
 
 !!2014-03-24!!"Д1:0 GlottalNonNasalToZERO"
