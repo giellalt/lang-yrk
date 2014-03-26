@@ -53,8 +53,8 @@ LEXICON N_ПИ  !!= @CODE@ пя:пя 3 ProsSg -вна
 !! пя pya	пян’ pyan°h	пя” pyaq	пи pyí
 !+N: NMN_ПИ ;
 +N: NMN_МУНО ;
-+N:%^A2I MUNO_O ; !PLACCSUF_Zero
-!+N: PLPROSPXSUF ;
++N:%^A2I PLVOWELVARIANTS-LESS-PROS ; !PLACCSUF_Zero
++N: PLPROSPXSUF ;
 
 LEXICON N_ТЫ  !!= @CODE@ ты: 4 ProsSg -вна
 !! Yaml: __ty__
@@ -640,6 +640,9 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 
 LEXICON MUNO_O
  PLPROSPXSUF ;
+ PLVOWELVARIANTS-LESS-PROS ;
+
+LEXICON PLVOWELVARIANTS-LESS-PROS
 +Pl+Acc: # ;
 +Pl+Gen:ˮ # ;
 +Pl+Nom+PxSg1:%^PLNOM%>н° # ; ! no i2e
