@@ -108,6 +108,33 @@ LEXICON REST
 ӈобʼ% яӈгняд@U.TIME.11@:23@U.TIME.11@ AFTpunkt ;
 сидя% яӈгняд@U.TIME.12@:%0%0@U.TIME.12@ AFTpunkt ;
 
+!
+ӈопой@U.TIME.1@:%01@U.TIME.1@ WHOLE-HOUR ;
+сидя@U.TIME.2@:%02@U.TIME.2@ WHOLE-HOUR ;
+няхарˮ@U.TIME.3@:%03@U.TIME.3@ WHOLE-HOUR ;
+тет@U.TIME.4@:%04@U.TIME.4@ WHOLE-HOUR ;
+самляӈг@U.TIME.5@:%05@U.TIME.5@ WHOLE-HOUR ;
+матˮ@U.TIME.6@:%06@U.TIME.6@ WHOLE-HOUR ;
+сиˮив@U.TIME.7@:%07@U.TIME.7@ WHOLE-HOUR ;
+сидндет@U.TIME.8@:%08@U.TIME.8@ WHOLE-HOUR ;
+хасуюˮ@U.TIME.9@:%09@U.TIME.9@ WHOLE-HOUR ;
+юˮ@U.TIME.10@:1%0@U.TIME.10@ WHOLE-HOUR ;
+ӈобʼ% яӈгня@U.TIME.11@:11@U.TIME.11@ WHOLE-HOUR ;
+сидя% яӈгня@U.TIME.12@:12@U.TIME.12@ WHOLE-HOUR ;
+
+ӈопой@U.TIME.1@:13@U.TIME.1@ WHOLE-HOUR ;
+сидя@U.TIME.2@:14@U.TIME.2@ WHOLE-HOUR ;
+няхарˮ@U.TIME.3@:15@U.TIME.3@ WHOLE-HOUR ;
+тет@U.TIME.4@:16@U.TIME.4@ WHOLE-HOUR ;
+самляӈг@U.TIME.5@:17@U.TIME.5@ WHOLE-HOUR ;
+матˮ@U.TIME.6@:18@U.TIME.6@ WHOLE-HOUR ;
+сиˮив@U.TIME.7@:19@U.TIME.7@ WHOLE-HOUR ;
+сидндет@U.TIME.8@:2%0@U.TIME.8@ WHOLE-HOUR ;
+хасуюˮ@U.TIME.9@:21@U.TIME.9@ WHOLE-HOUR ;
+юˮ@U.TIME.10@:22@U.TIME.10@ WHOLE-HOUR ;
+ӈобʼ% яӈгня@U.TIME.11@:23@U.TIME.11@ WHOLE-HOUR ;
+сидя% яӈгня@U.TIME.12@:%0%0@U.TIME.12@ WHOLE-HOUR ;
+
 
 
 LEXICON BEFpunkt
@@ -122,6 +149,7 @@ LEXICON AFTpunkt
 
 LEXICON HOUR-30
 !!This deals with 1:30, 2:30
+
 
 сидя:1+Use/NG HALF-HOUR ;
 няхарˮ:2+Use/NG HALF-HOUR ;
@@ -158,11 +186,15 @@ LEXICON HOUR-30
 сидя% яӈгня:23 HALF-HOUR ;
 ӈопой:%0%0 HALF-HOUR ;
 
+
+
+LEXICON WHOLE-HOUR
+% сяс:%:%0%0 # ;
+
 LEXICON HALF-HOUR
-% сяс’% пеля:3%0 # ;
+% сяс’% пеля:%:3%0 # ;
 
 LEXICON H-MAFT_minutes
-:%0%0 # ;
 ӈопой% минута% :%01 # ;
 сидя% :%02 ANDMINUTES ;
 няхарˮ% :%03 ANDMINUTES ;
