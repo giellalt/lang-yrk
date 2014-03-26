@@ -58,6 +58,7 @@ __°:0 in Pros LEFT__
 
 __°:0 in Pros RIGHT__
 
+
 __°:а in Pros LEFT__
 
 __°:а in Pros RIGHT__
@@ -394,34 +395,40 @@ __Н1:н GlottalNasalToSurface__
 
 __Н1:ӈ GlottalNasalToSurface__
 
-__Н1:ӈ GlottalNasalToSurface__
-Ӈ1:ӈ <=>  _ %> [ Ы1: | х: | о ] ;
-__Н1:ӈ GlottalNasalToSurface__
-Ӈ1:н <=>  _ %> [ с: | н:д | д | ц: | ˮ | м: д ] ;
-__Н1:ӈ GlottalNasalToSurface__
+__Ӈ1:ӈ GlottalNasalToSurface__
+
+__Ӈ1:н GlottalNasalToSurface__
+
+__Ӈ1:ъ GlottalNasalToSurface__
+
+__Ӈ1:ъ GlottalNasalToSurface__
 Ӈ1:й <=> о _ %> [ ʼ | м ʼ  ] ;
 !LOSS
-__Н1:ӈ GlottalNasalToSurface__
+__Ӈ1:ъ GlottalNasalToSurface__
 л:0 <=> _ [ ʼ: | ˮ: ] %> %{рл%}:л ;
 
 
-__Н1:ӈ GlottalNasalToSurface__
+__Ӈ1:ъ GlottalNasalToSurface__
 ӈ:0 <=> # Cns:* Vow: [ Cns:+  Vow: ]+ %> _ а: х а ʼ ;
 
 
 __Н1:0 GlottalNasalToSurface__
 
-__Н1:0 GlottalNasalToSurface__
+__Ӈ1:0 GlottalNasalToSurface__
+
+
+
+__Ӈ1:0 GlottalNasalToSurface__
 Д1:0 <=> _ %>  [ х: | н:  ʼ | с: ь | ц ь | д: (а ˮ) | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
 Cns:  _ %>  [ (м) ʼ | ˮ ]  ;
-__Н1:0 GlottalNasalToSurface__
+__Ӈ1:0 GlottalNasalToSurface__
 С1:0 <=> _ %> [ х: | н: | б: | с: ь | т ˮ ] ;
-__Н1:0 GlottalNasalToSurface__
+__Ӈ1:0 GlottalNasalToSurface__
 ь:0 <=> С1: _ %> [ х: | н ] ;
     _ %> [ а: | у: | и ] ;
-__Н1:0 GlottalNasalToSurface__
+__Ӈ1:0 GlottalNasalToSurface__
 С1:ˮ <=> _ [ #: | %> м н а | %> %{вм%}:м ] ;
-__Н1:0 GlottalNasalToSurface__
+__Ӈ1:0 GlottalNasalToSurface__
 Д1:ˮ => _ [ #: | %> [ д:л а ц ь | и | м и | ӈ э | м а | а м н а | ( 0: ) м н а | н а | н [ и | # | %> ] ] ] ;
 
 __Н1:ʼ UnderlyingToGlottal__
