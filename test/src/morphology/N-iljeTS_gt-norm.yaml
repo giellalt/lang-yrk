@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - илʼ: # Noun 'life /(fin) elämä' - partial paradigm /Type 30/
+     илʼ+N+Sg+Nom: илʼ
+     илʼ+N+Sg+Acc: иламʼ
+     илʼ+N+Sg+Gen: илаʼ
+     илʼ+N+Sg+Dat: иландʼ
+     илʼ+N+Sg+Loc: илӈгана
+     илʼ+N+Sg+Abl: илӈгад
+     илʼ+N+Sg+Pros: илмана
+     илʼ+N+Du+Nom: илаӈгʼ
+     илʼ+N+Du+Acc: илаӈгʼ
+     илʼ+N+Du+Gen: илаӈгʼ
+     илʼ+N+Pl+Nom: илаˮ
+     илʼ+N+Pl+Acc: илъе
+     илʼ+N+Pl+Gen: илъеˮ
+     илʼ+N+Pl+Dat: илаӈгˮ
+     илʼ+N+Pl+Loc: илӈгаˮна
+     илʼ+N+Pl+Abl: илӈгат
+     илʼ+N+Pl+Pros: илъеˮмна
+     илʼ+N+Sg+Nom+PxSg1: илам
+     илʼ+N+Sg+Acc+PxSg1: илам
+     илʼ+N+Sg+Gen+PxSg1: илан
+     илʼ+N+Sg+Dat+PxSg1: илӈган
+     илʼ+N+Sg+Loc+PxSg1: илӈганан
+     илʼ+N+Sg+Abl+PxSg1: илӈгадан
+     илʼ+N+Sg+Pros+PxSg1: илманан
+     илʼ+N+Du+Nom+PxSg1: илӈгаюн
+     илʼ+N+Du+Acc+PxSg1: илӈгаюн
+     илʼ+N+Du+Gen+PxSg1: илӈгаюн
+     илʼ+N+Pl+Nom+PxSg1: илъен
+     илʼ+N+Pl+Acc+PxSg1: илъен
+     илʼ+N+Pl+Gen+PxSg1: илъеˮн
+     илʼ+N+Pl+Dat+PxSg1: илӈгаˮн
+     илʼ+N+Pl+Loc+PxSg1: илӈгаˮнан
+     илʼ+N+Pl+Abl+PxSg1: илӈгатан
+     илʼ+N+Pl+Pros+PxSg1: илъеˮмнан
+     илʼ+N+Sg+Nom+PxSg2: илал
+     илʼ+N+Sg+Acc+PxSg2: иланд
+     илʼ+N+Sg+Gen+PxSg2: иланд
+     илʼ+N+Sg+Dat+PxSg2: илӈганд
+     илʼ+N+Sg+Loc+PxSg2: илӈгананд
+     илʼ+N+Sg+Abl+PxSg2: илӈгаданд
+     илʼ+N+Sg+Pros+PxSg2: илмананд
+     илʼ+N+Du+Nom+PxSg2: илӈгаюд
+     илʼ+N+Du+Acc+PxSg2: илӈгаюд
+     илʼ+N+Du+Gen+PxSg2: илӈгают
+     илʼ+N+Pl+Nom+PxSg2: илъед
+     илʼ+N+Pl+Acc+PxSg2: илъед
+     илʼ+N+Pl+Gen+PxSg2: илъет
+     илʼ+N+Pl+Dat+PxSg2: илӈгат
+     илʼ+N+Pl+Loc+PxSg2: илӈгаˮнат
+     илʼ+N+Pl+Abl+PxSg2: илӈгатат
+     илʼ+N+Pl+Pros+PxSg2: илъеˮмнат
+     илʼ+N+Sg+Nom+PxSg3: [иланда, илнда]
+     илʼ+N+Sg+Acc+PxSg3: [иланда, илнда]
+     илʼ+N+Sg+Gen+PxSg3: [иланда, илнда]
+     илʼ+N+Sg+Dat+PxSg3: илӈганда
+     илʼ+N+Sg+Loc+PxSg3: илӈгананда
+     илʼ+N+Sg+Abl+PxSg3: илӈгаданда
+     илʼ+N+Sg+Pros+PxSg3: илмананда
+     илʼ+N+Du+Nom+PxSg3: илӈгаюда
+     илʼ+N+Du+Acc+PxSg3: илӈгаюда
+     илʼ+N+Du+Gen+PxSg3: илӈгаюта
+     илʼ+N+Pl+Nom+PxSg3: илъеда
+     илʼ+N+Pl+Acc+PxSg3: илъеда
+     илʼ+N+Pl+Gen+PxSg3: илъета
+     илʼ+N+Pl+Dat+PxSg3: илӈгата
+     илʼ+N+Pl+Loc+PxSg3: илӈгаˮната
+     илʼ+N+Pl+Abl+PxSg3: [илӈгатата, илӈгатта]
+     илʼ+N+Pl+Pros+PxSg3: илъеˮмната
+     илʼ+N+Sg+Nom+PxDu1: илмиʼ
+#     илʼ+N+Sg+Nom+PxSg1.2: илми
+     илʼ+N+Sg+Acc+PxDu1: илмиʼ
+#     илʼ+N+Sg+Acc+PxSg1.2: илми
+     илʼ+N+Sg+Gen+PxDu1: илниʼ
+#     илʼ+N+Sg+Gen+PxSg1.2: илни
+     илʼ+N+Sg+Dat+PxDu1: илӈганиʼ
+#     илʼ+N+Sg+Dat+PxSg1.2: илӈгани
+     илʼ+N+Sg+Loc+PxDu1: илӈгананиʼ
+#     илʼ+N+Sg+Loc+PxSg1.2: илӈганани
+     илʼ+N+Sg+Abl+PxDu1: [илӈгаданиʼ, илӈгадниʼ]
+#     илʼ+N+Sg+Abl+PxSg1.2: [илӈгадани, илӈгадни]
+     илʼ+N+Sg+Pros+PxDu1: илмананиʼ
+#     илʼ+N+Sg+Pros+PxSg1.2: илманани
+     илʼ+N+Du+Nom+PxDu1: илӈгаюниʼ
+#     илʼ+N+Du+Nom+PxSg1.2: илӈгаюни
+     илʼ+N+Du+Acc+PxDu1: илӈгаюниʼ
+#     илʼ+N+Du+Acc+PxSg1.2: илӈгаюни
+     илʼ+N+Du+Gen+PxDu1: илӈгаюниʼ
+#     илʼ+N+Du+Gen+PxSg1.2: илӈгаюни
+     илʼ+N+Pl+Nom+PxDu1: илъениʼ
+#     илʼ+N+Pl+Nom+PxSg1.2: илъени
+     илʼ+N+Pl+Acc+PxDu1: илъениʼ
+#     илʼ+N+Pl+Acc+PxSg1.2: илъени
+     илʼ+N+Pl+Gen+PxDu1: илъеˮниʼ
+#     илʼ+N+Pl+Gen+PxSg1.2: илъеˮни
+     илʼ+N+Pl+Dat+PxDu1: илӈгаˮниʼ
+#     илʼ+N+Pl+Dat+PxSg1.2: илӈгаˮни
+     илʼ+N+Pl+Loc+PxDu1: илӈгаˮнаниʼ
+#     илʼ+N+Pl+Loc+PxSg1.2: илӈгаˮнани
+     илʼ+N+Pl+Abl+PxDu1: [илӈгатаниʼ, илӈгатниʼ]
+#     илʼ+N+Pl+Abl+PxSg1.2: [илӈгатани, илӈгатни]
+     илʼ+N+Pl+Pros+PxDu1: илъеˮмнаниʼ
+#     илʼ+N+Pl+Pros+PxSg1.2: илъеˮмнани
+     илʼ+N+Sg+Nom+PxDu2: иллиʼ
+     илʼ+N+Sg+Acc+PxDu2: [иландиʼ, илндиʼ]
+     илʼ+N+Sg+Gen+PxDu2: [иландиʼ, илндиʼ]
+     илʼ+N+Sg+Dat+PxDu2: илӈгандиʼ
+     илʼ+N+Sg+Loc+PxDu2: илӈганандиʼ
+     илʼ+N+Sg+Abl+PxDu2: илӈгадандиʼ
+     илʼ+N+Sg+Pros+PxDu2: илманандиʼ
+     илʼ+N+Du+Nom+PxDu2: илӈгаюдиʼ
+     илʼ+N+Du+Acc+PxDu2: илӈгаюдиʼ
+     илʼ+N+Du+Gen+PxDu2: илӈгаютиʼ
+     илʼ+N+Pl+Nom+PxDu2: илъедиʼ
+     илʼ+N+Pl+Acc+PxDu2: илъедиʼ
+     илʼ+N+Pl+Gen+PxDu2: илъетиʼ
+     илʼ+N+Pl+Dat+PxDu2: илӈгатиʼ
+     илʼ+N+Pl+Loc+PxDu2: илӈгаˮнатиʼ
+     илʼ+N+Pl+Abl+PxDu2: [илӈгататиʼ, илӈгаттиʼ]
+     илʼ+N+Pl+Pros+PxDu2: илъеˮмнатиʼ
+     илʼ+N+Sg+Nom+PxDu3: [иландиʼ, илндиʼ]
+     илʼ+N+Sg+Acc+PxDu3: [иландиʼ, илндиʼ]
+     илʼ+N+Sg+Gen+PxDu3: [иландиʼ, илндиʼ]
+     илʼ+N+Sg+Dat+PxDu3: илӈгандиʼ
+     илʼ+N+Sg+Loc+PxDu3: илӈганандиʼ
+     илʼ+N+Sg+Abl+PxDu3: илӈгадандиʼ
+     илʼ+N+Sg+Pros+PxDu3: илманандиʼ
+     илʼ+N+Du+Nom+PxDu3: илӈгаюдиʼ
+     илʼ+N+Du+Acc+PxDu3: илӈгаюдиʼ
+     илʼ+N+Du+Gen+PxDu3: илӈгаютиʼ
+     илʼ+N+Pl+Nom+PxDu3: илъедиʼ
+     илʼ+N+Pl+Acc+PxDu3: илъедиʼ
+     илʼ+N+Pl+Gen+PxDu3: илъетиʼ
+     илʼ+N+Pl+Dat+PxDu3: илӈгатиʼ
+     илʼ+N+Pl+Loc+PxDu3: илӈгаˮнатиʼ
+     илʼ+N+Pl+Abl+PxDu3: [илӈгататиʼ, илӈгаттиʼ]
+     илʼ+N+Pl+Pros+PxDu3: илъеˮмнатиʼ
+     илʼ+N+Sg+Nom+PxPl1: илмаˮ
+     илʼ+N+Sg+Acc+PxPl1: илмаˮ
+     илʼ+N+Sg+Gen+PxPl1: илнаˮ
+     илʼ+N+Sg+Dat+PxPl1: илӈганаˮ
+     илʼ+N+Sg+Loc+PxPl1: илӈгананаˮ
+     илʼ+N+Sg+Abl+PxPl1: [илӈгаданаˮ, илӈгаднаˮ]
+     илʼ+N+Sg+Pros+PxPl1: илмананаˮ
+     илʼ+N+Du+Nom+PxPl1: илӈгаюнаˮ
+     илʼ+N+Du+Acc+PxPl1: илӈгаюнаˮ
+     илʼ+N+Du+Gen+PxPl1: илӈгаюнаˮ
+     илʼ+N+Pl+Nom+PxPl1: илъенаˮ
+     илʼ+N+Pl+Acc+PxPl1: илъенаˮ
+     илʼ+N+Pl+Gen+PxPl1: илъеˮнаˮ
+     илʼ+N+Pl+Dat+PxPl1: илӈгаˮнаˮ
+     илʼ+N+Pl+Loc+PxPl1: илӈгаˮнанаˮ
+     илʼ+N+Pl+Abl+PxPl1: [илӈгатанаˮ, илӈгатнаˮ]
+     илʼ+N+Pl+Pros+PxPl1: илъеˮмнанаˮ
+     илʼ+N+Sg+Nom+PxPl2: иллаˮ
+     илʼ+N+Sg+Acc+PxPl2: [иландаˮ, илндаˮ]
+     илʼ+N+Sg+Gen+PxPl2: [иландаˮ, илндаˮ]
+     илʼ+N+Sg+Dat+PxPl2: илӈгандаˮ
+     илʼ+N+Sg+Loc+PxPl2: илӈганандаˮ
+     илʼ+N+Sg+Abl+PxPl2: илӈгадандаˮ
+     илʼ+N+Sg+Pros+PxPl2: илманандаˮ
+     илʼ+N+Du+Nom+PxPl2: илӈгаюдаˮ
+     илʼ+N+Du+Acc+PxPl2: илӈгаюдаˮ
+     илʼ+N+Du+Gen+PxPl2: илӈгаютаˮ
+     илʼ+N+Pl+Nom+PxPl2: илъедаˮ
+     илʼ+N+Pl+Acc+PxPl2: илъедаˮ
+     илʼ+N+Pl+Gen+PxPl2: илъетаˮ
+     илʼ+N+Pl+Dat+PxPl2: илӈгатаˮ
+     илʼ+N+Pl+Loc+PxPl2: илӈгаˮнатаˮ
+     илʼ+N+Pl+Abl+PxPl2: [илӈгататаˮ, илӈгаттаˮ]
+     илʼ+N+Pl+Pros+PxPl2: илъеˮмнатаˮ
+     илʼ+N+Sg+Nom+PxPl3: [иландоʼ, илндоʼ]
+     илʼ+N+Sg+Acc+PxPl3: [иландоʼ, илндоʼ]
+     илʼ+N+Sg+Gen+PxPl3: [иландоʼ, илндоʼ]
+     илʼ+N+Sg+Dat+PxPl3: илӈгандоʼ
+     илʼ+N+Sg+Loc+PxPl3: илӈганандоʼ
+     илʼ+N+Sg+Abl+PxPl3: илӈгадандоʼ
+     илʼ+N+Sg+Pros+PxPl3: илманандоʼ
+     илʼ+N+Du+Nom+PxPl3: илӈгаюдоʼ
+     илʼ+N+Du+Acc+PxPl3: илӈгаюдоʼ
+     илʼ+N+Du+Gen+PxPl3: илӈгаютоʼ
+     илʼ+N+Pl+Nom+PxPl3: илъедоʼ
+     илʼ+N+Pl+Acc+PxPl3: илъедоʼ
+     илʼ+N+Pl+Gen+PxPl3: илъетоʼ
+     илʼ+N+Pl+Dat+PxPl3: илӈгатоʼ
+     илʼ+N+Pl+Loc+PxPl3: илӈгаˮнатоʼ
+     илʼ+N+Pl+Abl+PxPl3: [илӈгататоʼ, илӈгаттоʼ]
+     илʼ+N+Pl+Pros+PxPl3: илъеˮмнатоʼ
+     илʼ+N+Pred+Abs: иланд
+     илʼ+N+Pred+Nom+PxSg1: [иландав, илндав, иландув, илндув]
+     илʼ+N+Pred+Acc+PxSg1: [иландав, илндав, иландув, илндув]
+     илʼ+N+Pred+Gen+PxSg1: [иландан, илндан]
+     илʼ+N+Pred+Nom+PxSg2: [иландар, илндар]
+     илʼ+N+Pred+Acc+PxSg2: [иландамд, илндамд]
+     илʼ+N+Pred+Gen+PxSg2: [иланданд, илнданд]
+     илʼ+N+Pred+Nom+PxSg3: [иландада, илндада]
+     илʼ+N+Pred+Acc+PxSg3: [иландамда, илндамда]
+     илʼ+N+Pred+Gen+PxSg3: [иланданда, илнданда]
+     илʼ+N+Pred+Nom+PxDu1: [иландамиʼ, илндамиʼ]
+#     илʼ+N+Pred+Nom+PxSg1.2: [иландами, илндами]
+     илʼ+N+Pred+Acc+PxDu1: [иландамиʼ, илндамиʼ]
+#     илʼ+N+Pred+Acc+PxSg1.2: [иландами, илндами]
+     илʼ+N+Pred+Gen+PxDu1: [иланданиʼ, илнданиʼ]
+#     илʼ+N+Pred+Gen+PxSg1.2: [иландани, илндани]
+     илʼ+N+Pred+Nom+PxDu2: [иландариʼ, илндариʼ]
+     илʼ+N+Pred+Acc+PxDu2: [иландамдиʼ, илндамдиʼ]
+     илʼ+N+Pred+Gen+PxDu2: [иландандиʼ, илндандиʼ]
+     илʼ+N+Pred+Nom+PxDu3: [иландадиʼ, илндадиʼ]
+     илʼ+N+Pred+Acc+PxDu3: [иландамдиʼ, илндамдиʼ]
+     илʼ+N+Pred+Gen+PxDu3: [иландандиʼ, илндандиʼ]
+     илʼ+N+Pred+Nom+PxPl1: [иландаваˮ, илндаваˮ]
+     илʼ+N+Pred+Acc+PxPl1: [иландаваˮ, илндаваˮ]
+     илʼ+N+Pred+Gen+PxPl1: [иланданаˮ, илнданаˮ]
+     илʼ+N+Pred+Nom+PxPl2: [иландараˮ, илндараˮ]
+     илʼ+N+Pred+Acc+PxPl2: [иландамдаˮ, илндамдаˮ]
+     илʼ+N+Pred+Gen+PxPl2: [иландандаˮ, илндандаˮ]
+     илʼ+N+Pred+Nom+PxPl3: [иландадоʼ, илндадоʼ]
+     илʼ+N+Pred+Acc+PxPl3: [иландамдоʼ, илндамдоʼ]
+     илʼ+N+Pred+Gen+PxPl3: [иландандоʼ, илндандоʼ]
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: иландмʼ
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: иланд
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: илʼ
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: илниʼ
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: [иландиʼ, илндиʼ]
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: илаӈгʼ
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: илмаˮ
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: [иландаˮ, илндаˮ]
+     илʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: илаˮ
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: [иландамзь, илндамзь]
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: [иландась, илндась]
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: иланзь
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: илнинзь
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: [иландинзь, илндинзь]
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: илӈганзь
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: илмаць
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: [иландаць, илндаць]
+     илʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: илаць
+     илʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: илам
+     илʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: илал
+     илʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: [иланда, илнда]
+     илʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: илмиʼ
+     илʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: иллиʼ
+     илʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: [иландиʼ, илндиʼ]
+     илʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: илмаˮ
+     илʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: иллаˮ
+     илʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: [иландоʼ, илндоʼ]
+     илʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: илмась
+     илʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: иллась
+     илʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: [иландась, илндась]
+     илʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: илминзь
+     илʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: иллинзь
+     илʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: [иландинзь, илндинзь]
+     илʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: илмаць
+     илʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: иллаць
+     илʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: [иландонзь, илндонзь]
+     илʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюн
+     илʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюд
+     илʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюда
+     илʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюниʼ
+     илʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюдиʼ
+     илʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюдиʼ
+     илʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюнаˮ
+     илʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюдаˮ
+     илʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: илӈгаюдоʼ
+     илʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюнась
+     илʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюдась
+     илʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюдась
+     илʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюнинзь
+     илʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюдинзь
+     илʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюдинзь
+     илʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюнаць
+     илʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюдаць
+     илʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: илӈгаюдонзь
+     илʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: илъен
+     илʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: илъед
+     илʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: илъеда
+     илʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: илъениʼ
+     илʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: илъедиʼ
+     илʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: илъедиʼ
+     илʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: илъенаˮ
+     илʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: илъедаˮ
+     илʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: илъедоʼ
+     илʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: илъенась
+     илʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: илъедась
+     илʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: илъедась
+     илʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: илъенинзь
+     илʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: илъединзь
+     илʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: илъединзь
+     илʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: илъенаць
+     илʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: илъедаць
+     илʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: илъедонзь
+     илʼ+N+Tra: илӈэ
+     илʼ+N+Car: [иланзиˮ, илнзиˮ]
+     илʼ+N+Equ: [иландаремʼ, илндаремʼ]
+     илʼ+N+Equ+Lat: [иландаревʼ, илндаревʼ]

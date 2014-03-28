@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - сё: # Noun 'throat / (fin) kurkku' - partial paradigm /Type +ÿ+o/ - syo
+     сё+N+Sg+Nom: сё
+     сё+N+Sg+Acc: сёмʼ
+     сё+N+Sg+Gen: сёʼ
+     сё+N+Sg+Dat: сёнʼ
+     сё+N+Sg+Loc: сёхона
+     сё+N+Sg+Abl: сёход
+     сё+N+Sg+Pros: сёвна
+     сё+N+Du+Nom: сёхоʼ
+     сё+N+Du+Acc: сёхоʼ
+     сё+N+Du+Gen: сёхоʼ
+     сё+N+Pl+Nom: сёˮ
+     сё+N+Pl+Acc: [сёё, сёе]
+     сё+N+Pl+Gen: [сёёˮ, сёеˮ]
+     сё+N+Pl+Dat: сёхоˮ
+     сё+N+Pl+Loc: сёхоˮна
+     сё+N+Pl+Abl: сёхот
+     сё+N+Pl+Pros: [сёёˮмана, сёеˮмана]
+     сё+N+Sg+Nom+PxSg1: сёв
+     сё+N+Sg+Acc+PxSg1: сёв
+     сё+N+Sg+Gen+PxSg1: сён
+     сё+N+Sg+Dat+PxSg1: сёхон
+     сё+N+Sg+Loc+PxSg1: сёхонан
+     сё+N+Sg+Abl+PxSg1: сёходан
+     сё+N+Sg+Pros+PxSg1: сёвнан
+     сё+N+Du+Nom+PxSg1: сёхоюн
+     сё+N+Du+Acc+PxSg1: сёхоюн
+     сё+N+Du+Gen+PxSg1: сёхоюн
+     сё+N+Pl+Nom+PxSg1: [сёён, сёен]
+     сё+N+Pl+Acc+PxSg1: [сёён, сёен]
+     сё+N+Pl+Gen+PxSg1: [сёёˮн, сёеˮн]
+     сё+N+Pl+Dat+PxSg1: сёхоˮн
+     сё+N+Pl+Loc+PxSg1: сёхоˮнан
+     сё+N+Pl+Abl+PxSg1: сёхотан
+     сё+N+Pl+Pros+PxSg1: [сёёˮманан, сёеˮманан]
+     сё+N+Sg+Nom+PxSg2: сёр
+     сё+N+Sg+Acc+PxSg2: сёмд
+     сё+N+Sg+Gen+PxSg2: сёнд
+     сё+N+Sg+Dat+PxSg2: сёхонд
+     сё+N+Sg+Loc+PxSg2: сёхонанд
+     сё+N+Sg+Abl+PxSg2: сёходанд
+     сё+N+Sg+Pros+PxSg2: сёвнанд
+     сё+N+Du+Nom+PxSg2: сёхоюд
+     сё+N+Du+Acc+PxSg2: сёхоюд
+     сё+N+Du+Gen+PxSg2: сёхоют
+     сё+N+Pl+Nom+PxSg2: [сёёд, сёед]
+     сё+N+Pl+Acc+PxSg2: [сёёд, сёед]
+     сё+N+Pl+Gen+PxSg2: [сёёт, сёет]
+     сё+N+Pl+Dat+PxSg2: сёхот
+     сё+N+Pl+Loc+PxSg2: сёхоˮнат
+     сё+N+Pl+Abl+PxSg2: сёхотат
+     сё+N+Pl+Pros+PxSg2: [сёёˮманат, сёеˮманат]
+     сё+N+Sg+Nom+PxSg3: сёда
+     сё+N+Sg+Acc+PxSg3: сёмда
+     сё+N+Sg+Gen+PxSg3: сёнда
+     сё+N+Sg+Dat+PxSg3: сёхонда
+     сё+N+Sg+Loc+PxSg3: сёхонанда
+     сё+N+Sg+Abl+PxSg3: сёходанда
+     сё+N+Sg+Pros+PxSg3: сёвнанда
+     сё+N+Du+Nom+PxSg3: сёхоюда
+     сё+N+Du+Acc+PxSg3: сёхоюда
+     сё+N+Du+Gen+PxSg3: сёхоюта
+     сё+N+Pl+Nom+PxSg3: [сёёда, сёеда]
+     сё+N+Pl+Acc+PxSg3: [сёёда, сёеда]
+     сё+N+Pl+Gen+PxSg3: [сёёта, сёета]
+     сё+N+Pl+Dat+PxSg3: сёхота
+     сё+N+Pl+Loc+PxSg3: сёхоˮната
+     сё+N+Pl+Abl+PxSg3: сёхотата
+     сё+N+Pl+Pros+PxSg3: [сёёˮманата, сёеˮманата]
+     сё+N+Sg+Nom+PxDu1: сёмиʼ
+#     сё+N+Sg+Nom+PxSg1.2: сёми
+     сё+N+Sg+Acc+PxDu1: сёмиʼ
+#     сё+N+Sg+Acc+PxSg1.2: сёми
+     сё+N+Sg+Gen+PxDu1: сёниʼ
+#     сё+N+Sg+Gen+PxSg1.2: сёни
+     сё+N+Sg+Dat+PxDu1: сёхониʼ
+#     сё+N+Sg+Dat+PxSg1.2: сёхони
+     сё+N+Sg+Loc+PxDu1: сёхонаниʼ
+#     сё+N+Sg+Loc+PxSg1.2: сёхонани
+     сё+N+Sg+Abl+PxDu1: сёходаниʼ
+#     сё+N+Sg+Abl+PxSg1.2: сёходани
+     сё+N+Sg+Pros+PxDu1: сёвнаниʼ
+#     сё+N+Sg+Pros+PxSg1.2: сёвнани
+     сё+N+Du+Nom+PxDu1: сёхоюниʼ
+#     сё+N+Du+Nom+PxSg1.2: сёхоюни
+     сё+N+Du+Acc+PxDu1: сёхоюниʼ
+#     сё+N+Du+Acc+PxSg1.2: сёхоюни
+     сё+N+Du+Gen+PxDu1: сёхоюниʼ
+#     сё+N+Du+Gen+PxSg1.2: сёхоюни
+     сё+N+Pl+Nom+PxDu1: [сёёниʼ, сёениʼ]
+#     сё+N+Pl+Nom+PxSg1.2: [сёёни, сёени]
+     сё+N+Pl+Acc+PxDu1: [сёёниʼ, сёениʼ]
+#     сё+N+Pl+Acc+PxSg1.2: [сёёни, сёени]
+     сё+N+Pl+Gen+PxDu1: [сёёˮниʼ, сёеˮниʼ]
+#     сё+N+Pl+Gen+PxSg1.2: [сёёˮни, сёеˮни]
+     сё+N+Pl+Dat+PxDu1: сёхоˮниʼ
+#     сё+N+Pl+Dat+PxSg1.2: сёхоˮни
+     сё+N+Pl+Loc+PxDu1: сёхоˮнаниʼ
+#     сё+N+Pl+Loc+PxSg1.2: сёхоˮнани
+     сё+N+Pl+Abl+PxDu1: сёхотаниʼ
+#     сё+N+Pl+Abl+PxSg1.2: сёхотани
+     сё+N+Pl+Pros+PxDu1: [сёёˮмананиʼ, сёеˮмананиʼ]
+#     сё+N+Pl+Pros+PxSg1.2: [сёёˮманани, сёеˮманани]
+     сё+N+Sg+Nom+PxDu2: сёриʼ
+     сё+N+Sg+Acc+PxDu2: сёмдиʼ
+     сё+N+Sg+Gen+PxDu2: сёндиʼ
+     сё+N+Sg+Dat+PxDu2: сёхондиʼ
+     сё+N+Sg+Loc+PxDu2: сёхонандиʼ
+     сё+N+Sg+Abl+PxDu2: сёходандиʼ
+     сё+N+Sg+Pros+PxDu2: сёвнандиʼ
+     сё+N+Du+Nom+PxDu2: сёхоюдиʼ
+     сё+N+Du+Acc+PxDu2: сёхоюдиʼ
+     сё+N+Du+Gen+PxDu2: сёхоютиʼ
+     сё+N+Pl+Nom+PxDu2: [сёёдиʼ, сёедиʼ]
+     сё+N+Pl+Acc+PxDu2: [сёёдиʼ, сёедиʼ]
+     сё+N+Pl+Gen+PxDu2: [сёётиʼ, сёетиʼ]
+     сё+N+Pl+Dat+PxDu2: сёхотиʼ
+     сё+N+Pl+Loc+PxDu2: сёхоˮнатиʼ
+     сё+N+Pl+Abl+PxDu2: сёхотатиʼ
+     сё+N+Pl+Pros+PxDu2: [сёёˮманатиʼ, сёеˮманатиʼ]
+     сё+N+Sg+Nom+PxDu3: сёдиʼ
+     сё+N+Sg+Acc+PxDu3: сёмдиʼ
+     сё+N+Sg+Gen+PxDu3: сёндиʼ
+     сё+N+Sg+Dat+PxDu3: сёхондиʼ
+     сё+N+Sg+Loc+PxDu3: сёхонандиʼ
+     сё+N+Sg+Abl+PxDu3: сёходандиʼ
+     сё+N+Sg+Pros+PxDu3: сёвнандиʼ
+     сё+N+Du+Nom+PxDu3: сёхоюдиʼ
+     сё+N+Du+Acc+PxDu3: сёхоюдиʼ
+     сё+N+Du+Gen+PxDu3: сёхоютиʼ
+     сё+N+Pl+Nom+PxDu3: [сёёдиʼ, сёедиʼ]
+     сё+N+Pl+Acc+PxDu3: [сёёдиʼ, сёедиʼ]
+     сё+N+Pl+Gen+PxDu3: [сёётиʼ, сёетиʼ]
+     сё+N+Pl+Dat+PxDu3: сёхотиʼ
+     сё+N+Pl+Loc+PxDu3: сёхоˮнатиʼ
+     сё+N+Pl+Abl+PxDu3: сёхотатиʼ
+     сё+N+Pl+Pros+PxDu3: [сёёˮманатиʼ, сёеˮманатиʼ]
+     сё+N+Sg+Nom+PxPl1: сёваˮ
+     сё+N+Sg+Acc+PxPl1: сёваˮ
+     сё+N+Sg+Gen+PxPl1: сёнаˮ
+     сё+N+Sg+Dat+PxPl1: сёхонаˮ
+     сё+N+Sg+Loc+PxPl1: сёхонанаˮ
+     сё+N+Sg+Abl+PxPl1: сёходанаˮ
+     сё+N+Sg+Pros+PxPl1: сёвнанаˮ
+     сё+N+Du+Nom+PxPl1: сёхоюнаˮ
+     сё+N+Du+Acc+PxPl1: сёхоюнаˮ
+     сё+N+Du+Gen+PxPl1: сёхоюнаˮ
+     сё+N+Pl+Nom+PxPl1: [сёёнаˮ, сёенаˮ]
+     сё+N+Pl+Acc+PxPl1: [сёёнаˮ, сёенаˮ]
+     сё+N+Pl+Gen+PxPl1: [сёёˮнаˮ, сёеˮнаˮ]
+     сё+N+Pl+Dat+PxPl1: сёхоˮнаˮ
+     сё+N+Pl+Loc+PxPl1: сёхоˮнанаˮ
+     сё+N+Pl+Abl+PxPl1: сёхотанаˮ
+     сё+N+Pl+Pros+PxPl1: [сёёˮмананаˮ, сёеˮмананаˮ]
+     сё+N+Sg+Nom+PxPl2: сёраˮ
+     сё+N+Sg+Acc+PxPl2: сёмдаˮ
+     сё+N+Sg+Gen+PxPl2: сёндаˮ
+     сё+N+Sg+Dat+PxPl2: сёхондаˮ
+     сё+N+Sg+Loc+PxPl2: сёхонандаˮ
+     сё+N+Sg+Abl+PxPl2: сёходандаˮ
+     сё+N+Sg+Pros+PxPl2: сёвнандаˮ
+     сё+N+Du+Nom+PxPl2: сёхоюдаˮ
+     сё+N+Du+Acc+PxPl2: сёхоюдаˮ
+     сё+N+Du+Gen+PxPl2: сёхоютаˮ
+     сё+N+Pl+Nom+PxPl2: [сёёдаˮ, сёедаˮ]
+     сё+N+Pl+Acc+PxPl2: [сёёдаˮ, сёедаˮ]
+     сё+N+Pl+Gen+PxPl2: [сёётаˮ, сёетаˮ]
+     сё+N+Pl+Dat+PxPl2: сёхотаˮ
+     сё+N+Pl+Loc+PxPl2: сёхоˮнатаˮ
+     сё+N+Pl+Abl+PxPl2: сёхотатаˮ
+     сё+N+Pl+Pros+PxPl2: [сёёˮманатаˮ, сёеˮманатаˮ]
+     сё+N+Sg+Nom+PxPl3: сёдоʼ
+     сё+N+Sg+Acc+PxPl3: сёмдоʼ
+     сё+N+Sg+Gen+PxPl3: сёндоʼ
+     сё+N+Sg+Dat+PxPl3: сёхондоʼ
+     сё+N+Sg+Loc+PxPl3: сёхонандоʼ
+     сё+N+Sg+Abl+PxPl3: сёходандоʼ
+     сё+N+Sg+Pros+PxPl3: сёвнандоʼ
+     сё+N+Du+Nom+PxPl3: сёхоюдоʼ
+     сё+N+Du+Acc+PxPl3: сёхоюдоʼ
+     сё+N+Du+Gen+PxPl3: сёхоютоʼ
+     сё+N+Pl+Nom+PxPl3: [сёёдоʼ, сёедоʼ]
+     сё+N+Pl+Acc+PxPl3: [сёёдоʼ, сёедоʼ]
+     сё+N+Pl+Gen+PxPl3: [сёётоʼ, сёетоʼ]
+     сё+N+Pl+Dat+PxPl3: сёхотоʼ
+     сё+N+Pl+Loc+PxPl3: сёхоˮнатоʼ
+     сё+N+Pl+Abl+PxPl3: сёхотатоʼ
+     сё+N+Pl+Pros+PxPl3: [сёёˮманатоʼ, сёеˮманатоʼ]
+     сё+N+Pred+Abs: сёд
+     сё+N+Pred+Nom+PxSg1: [сёдав, сёдув]
+     сё+N+Pred+Acc+PxSg1: [сёдав, сёдув]
+     сё+N+Pred+Gen+PxSg1: сёдан
+     сё+N+Pred+Nom+PxSg2: сёдар
+     сё+N+Pred+Acc+PxSg2: сёдамд
+     сё+N+Pred+Gen+PxSg2: сёданд
+     сё+N+Pred+Nom+PxSg3: [сёдада, сёдда]
+     сё+N+Pred+Acc+PxSg3: сёдамда
+     сё+N+Pred+Gen+PxSg3: сёданда
+     сё+N+Pred+Nom+PxDu1: [сёдамиʼ, сёдмиʼ]
+#     сё+N+Pred+Nom+PxSg1.2: [сёдами, сёдми]
+     сё+N+Pred+Acc+PxDu1: [сёдамиʼ, сёдмиʼ]
+#     сё+N+Pred+Acc+PxSg1.2: [сёдами, сёдми]
+     сё+N+Pred+Gen+PxDu1: [сёданиʼ, сёдниʼ]
+#     сё+N+Pred+Gen+PxSg1.2: [сёдани, сёдни]
+     сё+N+Pred+Nom+PxDu2: [сёдариʼ, сёдриʼ]
+     сё+N+Pred+Acc+PxDu2: сёдамдиʼ
+     сё+N+Pred+Gen+PxDu2: сёдандиʼ
+     сё+N+Pred+Nom+PxDu3: [сёдадиʼ, сёддиʼ]
+     сё+N+Pred+Acc+PxDu3: сёдамдиʼ
+     сё+N+Pred+Gen+PxDu3: сёдандиʼ
+     сё+N+Pred+Nom+PxPl1: [сёдаваˮ, сёдваˮ]
+     сё+N+Pred+Acc+PxPl1: [сёдаваˮ, сёдваˮ]
+     сё+N+Pred+Gen+PxPl1: [сёданаˮ, сёднаˮ]
+     сё+N+Pred+Nom+PxPl2: [сёдараˮ, сёдраˮ]
+     сё+N+Pred+Acc+PxPl2: сёдамдаˮ
+     сё+N+Pred+Gen+PxPl2: сёдандаˮ
+     сё+N+Pred+Nom+PxPl3: [сёдадоʼ, сёддоʼ]
+     сё+N+Pred+Acc+PxPl3: сёдамдоʼ
+     сё+N+Pred+Gen+PxPl3: сёдандоʼ
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: сёдмʼ
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: сён
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: сё
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: сёниʼ
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: сёдиʼ
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: сёхоʼ
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: сёваˮ
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: сёдаˮ
+     сё+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: сёˮ
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: сёдамзь
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: сёнась
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: сёсь
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: сёнинзь
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: сёдинзь
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: сёхонзь
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: сёваць
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: сёдаць
+     сё+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: сёць
+     сё+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: сёв
+     сё+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: сёр
+     сё+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: сёда
+     сё+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: сёмиʼ
+     сё+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: сёриʼ
+     сё+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: сёдиʼ
+     сё+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: сёваˮ
+     сё+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: сёраˮ
+     сё+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: сёдоʼ
+     сё+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: сёвась
+     сё+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: сёрась
+     сё+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: сёдась
+     сё+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: сёминзь
+     сё+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: сёринзь
+     сё+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: сёдинзь
+     сё+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: сёваць
+     сё+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: сёраць
+     сё+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: сёдонзь
+     сё+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: сёхоюн
+     сё+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: сёхоюд
+     сё+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: сёхоюда
+     сё+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: сёхоюниʼ
+     сё+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: сёхоюдиʼ
+     сё+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: сёхоюдиʼ
+     сё+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: сёхоюнаˮ
+     сё+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: сёхоюдаˮ
+     сё+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: сёхоюдоʼ
+     сё+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюнась
+     сё+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюдась
+     сё+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюдась
+     сё+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюнинзь
+     сё+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюдинзь
+     сё+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюдинзь
+     сё+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюнаць
+     сё+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюдаць
+     сё+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: сёхоюдонзь
+     сё+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: [сёён, сёен]
+     сё+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: [сёёд, сёед]
+     сё+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: [сёёда, сёеда]
+     сё+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: [сёёниʼ, сёениʼ]
+     сё+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: [сёёдиʼ, сёедиʼ]
+     сё+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: [сёёдиʼ, сёедиʼ]
+     сё+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: [сёёнаˮ, сёенаˮ]
+     сё+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: [сёёдаˮ, сёедаˮ]
+     сё+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: [сёёдоʼ, сёедоʼ]
+     сё+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: [сёёнась, сёенась]
+     сё+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: [сёёдась, сёедась]
+     сё+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: [сёёдась, сёедась]
+     сё+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: [сёёнинзь, сёенинзь]
+     сё+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: [сёёдинзь, сёединзь]
+     сё+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: [сёёдинзь, сёединзь]
+     сё+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: [сёёнаць, сёенаць]
+     сё+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: [сёёдаць, сёедаць]
+     сё+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: [сёёдонзь, сёедонзь]
+     сё+N+Tra: сёӈэ
+     сё+N+Car: сёсиˮ
+     сё+N+Equ: сёдремʼ
+     сё+N+Equ+Lat: сёдревʼ
