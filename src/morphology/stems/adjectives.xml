@@ -2935,7 +2935,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">vähän lommolle painettu</t>
+        <tf pos="A">vähän lommolle painettu</tf>
       </tg>
     </mg>
   </e>
@@ -3000,6 +3000,34 @@
 
   <e>
     <lg>
+      <l pos="A">мадавы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">мадавы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">leikattu</t>
+
+        <t pos="A">ylittänyt</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">мадамбэй</l>
 
       <stg>
@@ -3012,6 +3040,34 @@
 
       <tg xml:lang="fin">
         <t pos="A">leikattu irti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мадоркы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">мадоркы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="A">metsässä oleva</tf>
+
+        <tf pos="A">joukossa oleva</tf>
       </tg>
     </mg>
   </e>
@@ -3158,6 +3214,34 @@
 
   <e>
     <lg>
+      <l pos="A">малхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">малхы</st>
+
+        <st Contlex="A_ПАНЫ">малы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="A">pääte-</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">мальбэй</l>
 
       <stg>
@@ -3172,6 +3256,34 @@
         <t pos="A">rikkinäinen</t>
 
         <t pos="A">rikottu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мальвы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">мальвы</st>
+
+        <st Contlex="A_ПАНЫ">мальевы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="A">rikottu</tf>
       </tg>
     </mg>
   </e>
@@ -3396,6 +3508,24 @@
 
   <e>
     <lg>
+      <l pos="A">маркы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">маркы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kaupunki-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">марляӈг</l>
 
       <stg>
@@ -3407,7 +3537,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">monilla rauhasilla</t>
+        <tf pos="A">monilla rauhasilla</tf>
       </tg>
     </mg>
   </e>
@@ -3519,7 +3649,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">järähdyksellä rikottu</t>
+        <tf pos="A">järähdyksellä rikottu</tf>
       </tg>
     </mg>
   </e>
@@ -3540,24 +3670,6 @@
         <t pos="A">poljettu</t>
 
         <t pos="A">raivattu</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">марэй</l>
-
-      <stg>
-        <st Contlex="A_ХУСУВЭЙ">марэй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">pitkä karkea ruoho</t>
       </tg>
     </mg>
   </e>
@@ -6326,6 +6438,24 @@
 
   <e>
     <lg>
+      <l pos="A">паˮноре</l>
+
+      <stg>
+        <st Contlex="A_ЕД">паˮноре</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">terävä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">паˮнуй</l>
 
       <stg>
@@ -6714,6 +6844,8 @@
 
       <tg xml:lang="fin">
         <t pos="A">nietostunut</t>
+
+        <t pos="A">kinostunut</t>
       </tg>
     </mg>
   </e>
@@ -6774,6 +6906,24 @@
 
   <e>
     <lg>
+      <l pos="A">пари</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">пари</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">musta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">париденя</l>
 
       <stg>
@@ -6792,6 +6942,30 @@
 
   <e>
     <lg>
+      <l pos="A">пародиˮ</l>
+
+      <stg>
+        <st Contlex="A_МЯДО">пароди</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ketterä</t>
+
+        <t pos="A">nokkela</t>
+
+        <t pos="A">kiihkeä</t>
+      </tg>
+    </mg>
+
+    <!--Т: N_ТАСО-->
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">партёй</l>
 
       <stg>
@@ -6806,6 +6980,26 @@
         <t pos="A">pähkä-</t>
 
         <t pos="A">emä-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">парюд</l>
+
+      <stg>
+        <st Contlex="A_ЕД">парюд</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kesy</t>
+
+        <t pos="A">huomaavainen</t>
       </tg>
     </mg>
   </e>
@@ -7016,6 +7210,32 @@
 
   <e>
     <lg>
+      <l pos="A">пивы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">пивы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">keitetty</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">пиделабэй</l>
 
       <stg>
@@ -7206,6 +7426,32 @@
 
   <e>
     <lg>
+      <l pos="A">пихы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">пихы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="A">ulkona oleva</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">подабэй</l>
 
       <stg>
@@ -7379,7 +7625,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">vuotuinen</t>
+        <t pos="A">vuotuinen</t>
 
         <t pos="A">vuosi-</t>
       </tg>
@@ -7400,6 +7646,32 @@
 
       <tg xml:lang="fin">
         <t pos="A">tiivis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">поӈгы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">поӈгы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="A">välissä oleva</tf>
       </tg>
     </mg>
   </e>
@@ -7932,6 +8204,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">pimeä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пэвсюмбы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">пэвсюмбы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ilta-</t>
       </tg>
     </mg>
   </e>
@@ -8700,6 +8990,24 @@
         <t pos="A">hyvä</t>
 
         <t pos="A">kiltti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">сельской</l>
+
+      <stg>
+        <st Contlex="A_ЕД">сельской</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kylä-</t>
       </tg>
     </mg>
   </e>

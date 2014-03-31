@@ -29924,6 +29924,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">мальебтемба</st>
+
+        <st Contlex="TV_ПЭБЮ">малибтамба</st>
       </stg>
     </lg>
 
@@ -30364,6 +30366,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">манзабта</st>
+
+        <st Contlex="TV_ХАДА">масата</st>
       </stg>
     </lg>
 
@@ -31166,10 +31170,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">манъёлась</l>
+      <l pos="VR">манъёлась</l>
 
       <stg>
-        <st Contlex="TV_ХАДА">манъёла</st>
+        <st Contlex="VR_ХАДА">манъёла</st>
       </stg>
     </lg>
 
@@ -79943,10 +79947,10 @@
 
   <e>
     <lg>
-      <l pos="V" type="R">селберць</l>
+      <l pos="V" type="R">сельберць</l>
 
       <stg>
-        <st Contlex="VR_ТИР">селбер</st>
+        <st Contlex="VR_ТИР">сельбер</st>
       </stg>
     </lg>
 
@@ -79954,7 +79958,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="R"/>
+        <tf pos="V" type="R">tulla loistavaksi</tf>
+
+        <tf pos="V" type="R">tulla verenväriseksi</tf>
       </tg>
     </mg>
   </e>
@@ -80112,7 +80118,7 @@
       <tg xml:lang="fin">
         <tf pos="V">valmistaa koteloa</tf>
 
-        <t pos="V">tuppea</t>
+        <tf pos="V">valmistaa tuppea</tf>
       </tg>
     </mg>
   </e>
@@ -80132,7 +80138,7 @@
       <tg xml:lang="fin">
         <tf pos="V">valmistaa koteloa</tf>
 
-        <t pos="V">tuppea</t>
+        <tf pos="V">valmistaa tuppea</tf>
       </tg>
     </mg>
   </e>
@@ -109562,28 +109568,6 @@
 
       <tg xml:lang="fin">
         <tf pos="V" type="TV">käyttää pyyhkeenä</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">тэёлакось</l>
-
-      <stg>
-        <st Contlex="IV_СЯНАКУ">тэёлако</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">olla huoleton</tf>
-
-        <tf pos="V">olla siivoton</tf>
-
-        <tf pos="V">olla epäsiisti</tf>
       </tg>
     </mg>
   </e>

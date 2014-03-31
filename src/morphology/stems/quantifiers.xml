@@ -296,6 +296,30 @@
 
   <e>
     <lg>
+      <l pos="Num">хасаваюрˮ</l>
+
+      <stg>
+        <st Contlex="NUM_ТАРЕ">хасаваюр</st>
+
+        <st Contlex="NUM_ТАРЕ">хасуюр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Num">ninety</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Num">yhdeksänkymmentä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Num">ёнарˮ</l>
 
       <stg>
@@ -312,6 +336,32 @@
 
       <tg xml:lang="fin">
         <t pos="Num">tuhat</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num">хасаваёнарˮ</l>
+
+      <stg>
+        <st Contlex="NUM_ТАРЕ">хасаваёнар</st>
+
+        <st Contlex="NUM_ТАРЕ">хасуёнар</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Num">900</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Num">yhdeksänsata</t>
       </tg>
     </mg>
 
@@ -638,9 +688,11 @@
 
   <e>
     <lg>
-      <l pos="Num">хасуюдимдей</l>
+      <l pos="Num">хасаваюдимдей</l>
 
       <stg>
+        <st Contlex="NUM_ХУСУВЭЙ">хасаваюдимдей</st>
+
         <st Contlex="NUM_ХУСУВЭЙ">хасуюдимдей</st>
       </stg>
     </lg>
@@ -660,10 +712,12 @@
 
   <e>
     <lg>
-      <l pos="Num">хасаваюдимдей</l>
+      <l pos="Num">хасаваёнаримдей</l>
 
       <stg>
-        <st Contlex="NUM_ХУСУВЭЙ">хасаваюдимдей</st>
+        <st Contlex="NUM_ХУСУВЭЙ">хасаваёнаримдей</st>
+
+        <st Contlex="NUM_ХУСУВЭЙ">хасуёнаримдей</st>
       </stg>
     </lg>
 
