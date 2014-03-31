@@ -2268,10 +2268,58 @@
 
   <e>
     <lg>
+      <l pos="Adv">пайвана</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">пайвана</st>
+
+        <st Contlex="ADV-MANNER_">паювна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">vinossa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">паркасиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">паркасиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">alasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">паромбари</l>
 
       <stg>
         <st Contlex="ADV-MANNER_">паромбари</st>
+
+        <st Contlex="ADV-MANNER_">парумбари</st>
       </stg>
     </lg>
 
@@ -2306,6 +2354,28 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">yöllä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">пивасиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">пивасиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>barefoot</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="Adv">paljain jaloin</tf>
       </tg>
     </mg>
   </e>
