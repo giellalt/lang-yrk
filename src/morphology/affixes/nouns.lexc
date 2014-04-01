@@ -479,7 +479,8 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Du+Gen+PxDu1:%>х°юниʼ # ;
 +Pl+Dat+PxDu1:%>х°ˮниʼ # ;
 +Pl+Loc+PxDu1:%>х°ˮн%{ая%}ниʼ # ;
-+Pl+Abl+PxDu1:%>х°тәниʼ # ;
++Pl+Abl+PxDu1:%>х°т°ниʼ # ;
+!+Pl+Abl+PxDu1:%>х°тәниʼ # ;
 +Sg+Nom+PxDu2:%>%{рл%}иʼ # ;
 +Sg+Acc+PxDu2:%>мдиʼ # ;
 +Sg+Gen+PxDu2:%>ндиʼ # ;
@@ -492,7 +493,8 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Du+Gen+PxDu2:%>х°ютиʼ # ;
 +Pl+Dat+PxDu2:%>х°тиʼ # ;
 +Pl+Loc+PxDu2:%>х°ˮн%{ая%}тиʼ # ;
-+Pl+Abl+PxDu2:%>х°тәтиʼ # ;
++Pl+Abl+PxDu2:%>х°т°тиʼ # ;
+!+Pl+Abl+PxDu2:%>х°тәтиʼ # ;
 +Sg+Nom+PxDu3:%>диʼ # ;
 +Sg+Acc+PxDu3:%>мдиʼ # ;
 +Sg+Gen+PxDu3:%>ндиʼ # ;
@@ -505,20 +507,23 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Du+Gen+PxDu3:%>х°ютиʼ # ;
 +Pl+Dat+PxDu3:%>х°тиʼ # ;
 +Pl+Loc+PxDu3:%>х°ˮн%{ая%}тиʼ # ;
-+Pl+Abl+PxDu3:%>х°тәтиʼ # ;
++Pl+Abl+PxDu3:%>х°т°тиʼ # ;
+!+Pl+Abl+PxDu3:%>х°тәтиʼ # ;
 +Sg+Nom+PxPl1:%>маˮ # ;
 +Sg+Acc+PxPl1:%>маˮ # ;
 +Sg+Gen+PxPl1:%>наˮ # ; !! No n2d
 +Sg+Dat+PxPl1:%>х°наˮ # ;
 +Sg+Loc+PxPl1:%>х°н%{ая%}наˮ # ;
-+Sg+Abl+PxPl1:%>х°дәнаˮ # ;
++Sg+Abl+PxPl1:%>х°д°наˮ # ;
+!+Sg+Abl+PxPl1:%>х°дәнаˮ # ;
 +Sg+Pros+PxPl1:%>м°н%{ая%}наˮ # ;
 +Du+Nom+PxPl1:%>х°юнаˮ # ;
 +Du+Acc+PxPl1:%>х°юнаˮ # ;
 +Du+Gen+PxPl1:%>х°юнаˮ # ;
 +Pl+Dat+PxPl1:%>х°ˮнаˮ # ;
 +Pl+Loc+PxPl1:%>х°ˮн%{ая%}наˮ # ;
-+Pl+Abl+PxPl1:%>х°тәнаˮ # ;
++Pl+Abl+PxPl1:%>х°т°наˮ # ;
+!+Pl+Abl+PxPl1:%>х°тәнаˮ # ;
 +Sg+Nom+PxPl2:%>%{рл%}аˮ # ;
 +Sg+Acc+PxPl2:%>мдаˮ # ;
 +Sg+Gen+PxPl2:%>ндаˮ # ;
@@ -531,7 +536,8 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Du+Gen+PxPl2:%>х°ютаˮ # ;
 +Pl+Dat+PxPl2:%>х°таˮ # ;
 +Pl+Loc+PxPl2:%>х°ˮн%{ая%}таˮ # ;
-+Pl+Abl+PxPl2:%>х°тәтаˮ # ;
++Pl+Abl+PxPl2:%>х°т°таˮ # ;
+!+Pl+Abl+PxPl2:%>х°тәтаˮ # ;
 +Sg+Nom+PxPl3:%>д%{оё%}ʼ # ;
 +Sg+Acc+PxPl3:%>мд%{оё%}ʼ # ;
 +Sg+Gen+PxPl3:%>нд%{оё%}ʼ # ;
@@ -544,7 +550,8 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Du+Gen+PxPl3:%>х°ютоʼ # ;
 +Pl+Dat+PxPl3:%>х°тоʼ # ;
 +Pl+Loc+PxPl3:%>х°ˮн%{ая%}тоʼ # ;
-+Pl+Abl+PxPl3:%>х°тәтоʼ # ;
++Pl+Abl+PxPl3:%>х°т°тоʼ # ;
+!+Pl+Abl+PxPl3:%>х°тәтоʼ # ;
 +Pred+Abs:%>д° # ;
 +Pred+Nom+PxSg1:%>д°в° # ;
 +Pred+Acc+PxSg1:%>д°в° # ;
@@ -582,8 +589,8 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Nom+Der/Pr+V+Ind+Aor+ScPl1:%>маˮ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScPl2:%>даˮ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScPl3:%>°ˮ # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScSg1:%>дәмзь # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScSg2:%^SCSG2%>нәсь # ; ! this undergoes n2d
++Nom+Der/Pr+V+Ind+Prt1+ScSg1:%>дамзь # ;
++Nom+Der/Pr+V+Ind+Prt1+ScSg2:%^SCSG2%>нась # ; ! this undergoes n2d
 +Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu1:%>нинзь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu2:%>динзь° # ;
@@ -600,7 +607,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3:%>маˮ # ;
 +Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3:%>%{рл%}аˮ # ;
 +Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3:%>д%{оё%}ʼ # ;
-+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3:%>мәсь° # ;
++Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3:%>мась° # ;
 +Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3:%>%{рл%}әсь° # ;
 +Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3:%>д%{ая%}сь° # ;
 +Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3:%>минзь° # ;
