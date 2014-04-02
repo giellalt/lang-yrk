@@ -10,74 +10,177 @@
 
 This is free and open source Nenets morphology.
 
-Morphology
-----------
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+!!!Morphology
+INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
 
 
-Analysis symbols
-----------------
+!!Analysis symbols
 The morphological analyses of wordforms of UNDEFINED language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 The parts-of-speech are:
+  +N +A +Adv +V								    
+  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num  
 
 The parts of speech are further split up into:
+  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  
 
 Adv
-referential
+  +Manner  
+  +Refr   (referential), 
+  +Temp 
 
-The Usage extents are marked using following tags:
+The Usage extents are marked using the following tags:
+  +Use/Sub     
+  +Use/-Spell   
 
-  +Rus  100% Russian homograph
+  +Rus  (100% Russian homograph)
 
 
 Dialects
 
+  +Dial/W    (Western dialects), 
+  +Dial/T    (Taimyr dialect  ), 
+  +Dial/E    (Eastern dialects), 
+
 
 The nominals are inflected in the following Case and Number
+
+  +Sg     
+  +Du     
+  +Pl     
+  +Acc    
+  +Gen    (Genitive) 
+  +Abl    
+  +Dat    
+  +Loc    
+  +Nom    
+  +Pros   (Prosecutive) 
+  +Tra    
+  +Abe    
+  +Adc    
+  +Ins    
+  +Apr    
+  +Ine    
+  +Ill    
+  +Ela    
+  +Egr    
+  +Prl    
  *  +Pred	 = predestinative
-are these needed
+
+are these needed?:
+
+ +Appr    
+ +Advc    
+ +Ter     
+ +Pro     
+ +Car     
+ +Equ     
+
 derivative suffixes before case endings
 
 
 The possession is marked as such:
+
+
 The comparative forms are:
+
 Numerals are classified under:
+
 Verb moods are:
 
 
 Verb tenses are:
-+PstI +PstII
+
 Verb personal forms are:
+
+
 
 Other verb forms are
 
+  +InfImprf    
+  +InfPrf      
+  +PrcImprf    
+  +PrcPrf      
+  +PrcNeg      
+  +PrcFut      
+  +GerFin      
+  +Subord      
+  +Aud	      
+  +Evas	      
+  +Ger 	      
+  +ConNeg      
+  +ConNegII     
+  +Neg 	      
+  +ImprtII     
+  +PrsPrc      
+  +Sup 	      
+  +VGen 	      
+  +VAbess      
+
+Abbreviated words are classified with:
+
+  +ABBR +ACR  
+
 Special symbols are classified with:
+
+ +CLB +PUNCT +LEFT +RIGHT   
+
 The verbs are syntactically split according to transitivity:
-auxilliary verb
-reflexive verbs
+
+  +TV +IV  
+
+  +Aux   auxilliary verb
+
 
 
 Special multiword units are analysed with:
+
+  +Multi  
+
 Non-dictionary words can be recognised with:
 
+  +Guess  
+
 Question and Focus particles:
+
+  +Qst +Foc  
 
 
 Semantics are classified with
 
+  +Mal 	  
+  +Fem 	  
+  +Sur 	  
+  +Plc 	  
+  +Org	  
+  +Obj	  
+  +Ani	  
+  +Hum	  
+  +Plant	  
+  +Group	  
+  +Time 	  
+  +Txt	  
+  +Route	  
+  +Measr   
+  +Wthr	  
+  +Build   
+  +Edu	  
+  +Veh	  
+  +Clth	  
+
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+
 modifier without noun head
 this is used with predication of nominals and deverbal modalities
-+Aud+PxSg1+Der/Pr+Prt1+ScSg3
 
 
-Morphophonology
----------------
+
+!!Morphophonology
+
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
   %{ая%}     in Pros
@@ -87,39 +190,71 @@ symbols in the lexicon files:
   %{аяуюØ%}	 хан+N+Sg+Acc+PxSg1: ханув, ханав
   %{увм%}    +N+Sg+Pros
   %{вм%}	    +N+Sg+Nom+PxSg1
+
 And following triggers to control variation
   %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
   %^PLNOM     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
 
+
   %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
+
   %{ауоэиыØ%}  before pros
-   This is the schwa or reduced vowel occurring after x in case endings
--хА1на -хА1д
-Alternating between zero and а
 
+This is the schwa or reduced vowel occurring after x in case endings
 
-Initially this is used for the noun "я" to enable a:o
-for я:и in пя
-м:в м:б
-  %^VowLower  vowel lowering ы:э у:о
-э:ы о:у
-stem-final vowel is lost in plural accusative form
-  %^StemVowFronting  хасава:хасев
-  %^VowFronting  хадась:хадэйнинзь
-in combination with stem-final vowel loss
-яля:ялэ
+ А2   Alternating between zero and а
 
-We have manually optimised the structure of our lexicon using following
+ Д1 С1 Н1 Ӈ1         = These are proto-glottals
+
+ Г1 В1 Е1 Е2 Ы1 Ы2   = These are for developing underlying morphology rules
+
+!!Triggers
+
+ *  %^A2O   Initially this is used for the noun "я" to enable a:o
+ *  %^A2I   for я:и in пя
+ *  %^MLenition  м:в м:б
+ *  %^VowLower  vowel lowering ы:э у:о
+ *  %^VowRaise  э:ы о:у
+ *  %^VowLoss   stem-final vowel is lost in plural accusative form
+ *  %^StemVowFronting  хасава:хасев
+ *  %^VowFronting  хадась:хадэйнинзь
+ *  %^PalLoss   in combination with stem-final vowel loss
+ *  %^HardFronting   яля:ялэ
+
+We have manually optimised the structure of our lexicon using the following
 flag diacritics to restrict morhpological combinatorics:
+
+ @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@  
 
 Object conjugation
 
+ @P.CONJ.ObjAll@   
+ @R.CONJ.ObjAll@   
+ @C.CONJ@	      
 
 
-The word forms in UNDEFINED language start from the lexeme roots of basic
+!!!The __Root__ lexicon
+
+
+The word forms in Nenets start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
+ *    adjectives  ;	    
+ *    adpositions    ;	    
+ *    adverbs  ;		    
+ *    interjections   ;    
+ *    nouns   ;		    
+ *    pronouns    ;	    
+ *    propernouns    ;	    
+ *    quantifiers    ;	    
+ *    verbs   ;		    
 
+ *  Punctuation ;          
+ * 			            
+ * CONJUNCTION ;           
+ * SUBJUNCTION ;           
+ * INTERJECTION ;          
+ * POSTPOSITION ;          
 
 
 
@@ -286,6 +421,7 @@ Yaml: __tyon__
 Yaml: __nano__
 /total=57/
 ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
+
 
  LEXICON NMN_ӇАНУ   ӈӑно: 23 ProsSg -вна
    POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl

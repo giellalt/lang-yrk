@@ -164,8 +164,10 @@ LEXICON N_МАРАӇГЫ-RUS
 LEXICON N_МАРАӇГЫ  !!= @CODE@ мӑраӈга: 14PProsSg -вна
 !! /total=15/
 !! мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
- N_МАРАӇГЫ-SG ;
- N_МАРАӇГЫ-PL ;
+! N_МАРАӇГЫ-SG ;
+! N_МАРАӇГЫ-PL ;
++N: NMN_МУНО ;
++N:%^A2I MUNO_O ;
 
 LEXICON N_МАРАӇГЫ-SG
 +N:	NMN_МАРАӇГЫ-SG ;
@@ -339,7 +341,10 @@ LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23 ProsSg -вна
 !! Yaml: __nano__
 !! /total=57/
 !! ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
-+N: NMN_ӇАНУ ;
+!+N: NMN_ӇАНУ ;
++N: NMN_МУНО ;
++N: MUNO_O ;
+
 
 LEXICON NMN_ӇАНУ  !!= @CODE@ ӈӑно: 23 ProsSg -вна
 	NMN_ӇАНУ-SG ;
@@ -580,7 +585,7 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Pred+Nom+PxPl3:%>д°доʼ # ;
 +Pred+Acc+PxPl3:%>д°мдоʼ # ;
 +Pred+Gen+PxPl3:%>д°ндоʼ # ;
-+Nom+Der/Pr+V+Ind+Aor+ScSg1:%>д°мʼ # ;
++Nom+Der/Pr+V+Ind+Aor+ScSg1:%>дмʼ # ; !д°мʼ
 +Nom+Der/Pr+V+Ind+Aor+ScSg2:%^SCSG2%>н° # ; ! this undergoes n2d
 +Nom+Der/Pr+V+Ind+Aor+ScSg3: # ;
 +Nom+Der/Pr+V+Ind+Aor+ScDu1:%>ниʼ # ;
@@ -589,15 +594,15 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Nom+Der/Pr+V+Ind+Aor+ScPl1:%>маˮ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScPl2:%>даˮ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScPl3:%>°ˮ # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScSg1:%>дамзь # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScSg2:%^SCSG2%>нась # ; ! this undergoes n2d
++Nom+Der/Pr+V+Ind+Prt1+ScSg1:%>дамзь # ; !ә:а
++Nom+Der/Pr+V+Ind+Prt1+ScSg2:%^SCSG2%>нәсь # ; ! this undergoes n2d ә:а
 +Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu1:%>нинзь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu2:%>динзь° # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScDu3:%>хәнзь° # ;
++Nom+Der/Pr+V+Ind+Prt1+ScDu3:%>хәнзь° # ; !ә:а
 +Nom+Der/Pr+V+Ind+Prt1+ScPl1:%>маць° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScPl2:%>даць° # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScPl3:%>°ць° # ;
++Nom+Der/Pr+V+Ind+Prt1+ScPl3:%>ць° # ; !°ць°
 +Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>м° # ;
 +Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3:%>%{рл%}° # ;
 +Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3:%>д%{ая%} # ;
