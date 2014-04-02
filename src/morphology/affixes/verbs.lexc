@@ -1,8 +1,7 @@
-!! Verb inflection
-!! ---------------
-!! Nenets verbs inflect in persons.
+!! !!!Verb inflection
 
-!! !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
+!! !!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON IV_Е !!= @CODE@ есь:е
 +V+IV: V-01_Е ;
 
@@ -76,7 +75,7 @@ LEXICON TV_ХО
 LEXICON IV_ХЭ
 +V+IV: V-01_ХЭ       ;
 
-!! !TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!! !!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON IV_ВАДЮ
 +V+IV: V-01_ВАДЮ       ;
 
@@ -89,14 +88,14 @@ LEXICON IV_ЯКУ !!= @CODE@ якась:яка
 LEXICON IV_ИЛЕ
 +V+IV: V-01_ИЛЕ	;
 
-LEXICON IV_ИЛЕ-Pal/Var !! Work needed for variation 2013-03-04
+LEXICON IV_ИЛЕ-Pal/Var ! Work needed for variation 2013-03-04
 +V+IV: V-01_ИЛЕ ;
 +V+IV: PRC_PALVAR ;
 
 LEXICON VR_ИЛЕ
 +V+Refl: V-01_ИЛЕ-REFL	;
 
-LEXICON VR_ИЛЕ-Pal/Var !! Work needed for variation 2013-09-05
+LEXICON VR_ИЛЕ-Pal/Var ! Work needed for variation 2013-09-05
 +V+Refl: V-01_ИЛЕ-REFL  ;
 +V+Refl: PRC_PALVAR ;
 
@@ -167,7 +166,7 @@ LEXICON IV_ЯˮАВЛУ
 +V+IV: V-01_ЯˮАВЛУ      ;
 
 LEXICON IV_ЯˮАВЛУ-Pal/Var
-+V+IV: V-01_ЯˮАВЛУ	; !! more work to be done with -Pal/Var 2013-03-04
++V+IV: V-01_ЯˮАВЛУ	; ! more work to be done with -Pal/Var 2013-03-04
 +V+IV: PRC_PALVAR ;
 
 !LEXICON VR_ЯˮАВЛУ
@@ -256,8 +255,12 @@ LEXICON TV_ӇАРАМ
 
 
 !! !!AFTER +TV, +IV, +Aux, +Refl
+!! Not yet written.
+
 !! !!CONJUGATION BY STEM TYPE
+
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
 LEXICON V-01_Е
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
@@ -1060,8 +1063,8 @@ LEXICON V-01_ПЭБЮ
 ! PRC ;
 !:ʼ PRC-IMPRF ;
 ! PRC-FUT ;
-! PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
-!:%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+! PRC-NEG ; != * @CODE@	+PrcNeg +PrcFut
+!:%^VowRaise PRC-NEG ; != * @CODE@	+PrcNeg +PrcFut
 !:%^VowRaise CONNEG ;
 
 LEXICON V-01_ХАДА
@@ -1225,7 +1228,7 @@ LEXICON V-01_ЛАХАНА !! а > э in Pl Oc
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowLoss CONNEG ;
 
-LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04 !! а > ы (ъя before х)
+LEXICON V-01_ЛАХАНА-REFL !! V_refl 2013-03-04  а > ы (ъя before х)
 !:%^A2I V_IND-Refl ;
 +Ind:%^A2I IND-AOR-RCSG1	;
 +Ind:%^A2I IND-AOR-RCSG2	;
@@ -1545,7 +1548,7 @@ LEXICON V-01_САС !!= * @CODE@ манэць:манэ
 :С1 CONNEG ;
 :С1 GER_СЬ ;
 
-LEXICON V-01_САС-REFL !! V_refl 2013-03-04
+LEXICON V-01_САС-REFL ! V_refl 2013-03-04
 +Ind: IND-AOR-RCSG1	;
 +Ind: IND-AOR-RCSG2	;
 +Ind: IND-AOR-RCSG3	;
