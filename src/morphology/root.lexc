@@ -12,75 +12,92 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-!! Morphology
-!! ----------
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+!! !!!Morphology
+! ----------
+!! INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
 
 
 Multichar_Symbols
-!! Analysis symbols
-!! ----------------
+!! !!Analysis symbols
+! ----------------
 !! The morphological analyses of wordforms of UNDEFINED language are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num 
+ +N +A +Adv +V								    !!= @CODE@
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num  !!= @CODE@
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  !!= @CODE@
 
 !! Adv
- +Manner
- +Refr !! referential
- +Temp
+ +Manner  !!= @CODE@
+ +Refr  !!= @CODE@ (referential), 
+ +Temp !!= @CODE@
  
-!! The Usage extents are marked using following tags:
- +Use/Sub   
- +Use/-Spell 
+!! The Usage extents are marked using the following tags:
+ +Use/Sub     !!= @CODE@
+ +Use/-Spell   !!= @CODE@
 
- +Rus !!= @CODE@ 100% Russian homograph
+ +Rus !!= @CODE@ (100% Russian homograph)
 
 
 !! Dialects
- +Dial/W !Western dialects
- +Dial/T !Taimyr dialect
- +Dial/E !Eastern dialects
+
+ +Dial/W   !!= @CODE@ (Western dialects), 
+ +Dial/T   !!= @CODE@ (Taimyr dialect  ), 
+ +Dial/E   !!= @CODE@ (Eastern dialects), 
 
  
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Acc
- +Gen ! Genitive
- +Abl 
- +Dat 
- +Loc 
- +Nom
- +Pros ! Prosecutive 
- +Tra
- +Abe
- +Adc +Ins +Apr +Ine +Ill +Ela +Egr
- +Prl
+
+ +Sg    !!= @CODE@ 
+ +Du    !!= @CODE@ 
+ +Pl    !!= @CODE@ 
+ +Acc   !!= @CODE@ 
+ +Gen   !!= @CODE@ (Genitive) 
+ +Abl   !!= @CODE@ 
+ +Dat   !!= @CODE@ 
+ +Loc   !!= @CODE@ 
+ +Nom   !!= @CODE@ 
+ +Pros  !!= @CODE@ (Prosecutive) 
+ +Tra   !!= @CODE@ 
+ +Abe   !!= @CODE@ 
+ +Adc   !!= @CODE@ 
+ +Ins   !!= @CODE@ 
+ +Apr   !!= @CODE@ 
+ +Ine   !!= @CODE@ 
+ +Ill   !!= @CODE@ 
+ +Ela   !!= @CODE@ 
+ +Egr   !!= @CODE@ 
+ +Prl   !!= @CODE@ 
  +Pred	!!= * @CODE@ = predestinative
-!! are these needed
-+Appr
-+Advc
-+Ter
-+Pro
-+Car
-+Equ
+ 
+!! are these needed?:
+
++Appr   !!= @CODE@ 
++Advc   !!= @CODE@ 
++Ter    !!= @CODE@ 
++Pro    !!= @CODE@ 
++Car    !!= @CODE@ 
++Equ    !!= @CODE@ 
+
 !! derivative suffixes before case endings
 +Lim ! limitative
 
 
 !! The possession is marked as such:
+
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+
 !! The comparative forms are:
 +Pos +Comp +Superl
+
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
+
 !! Verb moods are:
  +Ind +Pot +Conj +Imprt +Opt +Hort
  +Mod/appr ! approximative imperfective
@@ -100,83 +117,112 @@ Multichar_Symbols
 
 !! Verb tenses are:
  +Aor +Prt
-!!! +PstI +PstII
+! +PstI +PstII
  +Prt1 +Prt2
+
 !! Verb personal forms are:
+
 ! Subject 
 +ScSg1 +ScSg2 +ScSg3
 +ScDu1 +ScDu2 +ScDu3
 +ScPl1 +ScPl2 +ScPl3
+
 ! Object
 +OcSg1 +OcSg2 +OcSg3
 +OcDu1 +OcDu2 +OcDu3
 +OcPl1 +OcPl2 +OcPl3
-+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Sg1 +Sg2 +Sg3 
++Pl1 +Pl2 +Pl3
 
 !! Other verb forms are
- +InfImprf
- +InfPrf
- +PrcImprf
- +PrcPrf
- +PrcNeg
- +PrcFut
- +GerFin
- +Subord
- +Aud
- +Evas
- +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +Sup +VGen +VAbess
 
-! Abbreviated words are classified with:
- +ABBR +ACR 
+ +InfImprf   !!= @CODE@ 
+ +InfPrf     !!= @CODE@ 
+ +PrcImprf   !!= @CODE@ 
+ +PrcPrf     !!= @CODE@ 
+ +PrcNeg     !!= @CODE@ 
+ +PrcFut     !!= @CODE@ 
+ +GerFin     !!= @CODE@ 
+ +Subord     !!= @CODE@ 
+ +Aud	     !!= @CODE@ 
+ +Evas	     !!= @CODE@ 
+ +Ger 	     !!= @CODE@ 
+ +ConNeg     !!= @CODE@ 
+ +ConNegII   !!= @CODE@  
+ +Neg 	     !!= @CODE@ 
+ +ImprtII    !!= @CODE@ 
+ +PrsPrc     !!= @CODE@ 
+ +Sup 	     !!= @CODE@ 
+ +VGen 	     !!= @CODE@ 
+ +VAbess     !!= @CODE@ 
+
+!! Abbreviated words are classified with:
+
+ +ABBR +ACR  !!= @CODE@
+ 
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
+
++CLB +PUNCT +LEFT +RIGHT   !!= @CODE@
+
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
-!!
- +Aux !! auxilliary verb
- !!+ VR >> Refl !! reflexive verbs
+
+ +TV +IV  !!= @CODE@
+
+ +Aux  !!= @CODE@ auxilliary verb
+ 
+ !+ VR >> Refl ! reflexive verbs
 
 
 !! Special multiword units are analysed with:
- +Multi
+
+ +Multi  !!= @CODE@
+ 
 !! Non-dictionary words can be recognised with:
- +Guess
+
+ +Guess  !!= @CODE@
 
 !! Question and Focus particles:
- +Qst +Foc
+
+ +Qst +Foc  !!= @CODE@
 
 
 !! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
+
+ +Mal 	  !!= @CODE@
+ +Fem 	  !!= @CODE@
+ +Sur 	  !!= @CODE@
+ +Plc 	  !!= @CODE@
+ +Org	  !!= @CODE@
+ +Obj	  !!= @CODE@
+ +Ani	  !!= @CODE@
+ +Hum	  !!= @CODE@
+ +Plant	  !!= @CODE@
+ +Group	  !!= @CODE@
+ +Time 	  !!= @CODE@
+ +Txt	  !!= @CODE@
+ +Route	  !!= @CODE@
+ +Measr   !!= @CODE@
+ +Wthr	  !!= @CODE@
+ +Build   !!= @CODE@
+ +Edu	  !!= @CODE@
+ +Veh	  !!= @CODE@
+ +Clth	  !!= @CODE@
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
+
  +V→N +V→V +V→A
  +Der/xxx
  +Der/MWN !! modifier without noun head
  +Der/Pr !! this is used with predication of nominals and deverbal modalities
-!! +Aud+PxSg1+Der/Pr+Prt1+ScSg3
+ 
+! +Aud+PxSg1+Der/Pr+Prt1+ScSg3
 
 
-!! Morphophonology
-!! ---------------
+!! !!Morphophonology
+! ---------------
+
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  %{ая%}    !!= @CODE@ in Pros
@@ -186,67 +232,86 @@ Multichar_Symbols
  %{аяуюØ%}	!!= @CODE@ хан+N+Sg+Acc+PxSg1: ханув, ханав
  %{увм%}   !!= @CODE@ +N+Sg+Pros
  %{вм%}	   !!= @CODE@ +N+Sg+Nom+PxSg1
+ 
 !! And following triggers to control variation
+<<<<<<< .mine
+
+ {front} {back}  !!= @CODE@
+
+!! Protoletters for xfst
+
+=======
  {front} {back}
  %^SCSG2    !!= @CODE@ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
  %^PLNOM    !!= @CODE@ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
 
 ! Protoletters for xfst
+>>>>>>> .r91100
  %{ауоэØ%} !!= @CODE@  А1:а А1:у А1:о А1:э schwa
+ 
  %{ауоэиыØ%} !!= @CODE@ before pros
- !!= @CODE@ This is the schwa or reduced vowel occurring after x in case endings
- !! -хА1на -хА1д
-А2 !! Alternating between zero and а
+ 
+ !! This is the schwa or reduced vowel occurring after x in case endings
+ ! -хА1на -хА1д
 
-Д1 С1 Н1 Ӈ1 ! These are proto-glottals
-Г1 В1 Е1 Е2 Ы1 Ы2 ! These are for developing underlying morphology rules
+А2  !!= @CODE@ Alternating between zero and а
 
- ! Triggers
- %^A2O !! Initially this is used for the noun "я" to enable a:o
- %^A2I !! for я:и in пя
- %^MLenition !! м:в м:б
- %^VowLower !!= @CODE@ vowel lowering ы:э у:о
- %^VowRaise !! э:ы о:у
- %^VowLoss !! stem-final vowel is lost in plural accusative form
- %^StemVowFronting !!= @CODE@ хасава:хасев
- %^VowFronting !!= @CODE@ хадась:хадэйнинзь
- %^PalLoss !! in combination with stem-final vowel loss
- %^HardFronting !! яля:ялэ
+Д1 С1 Н1 Ӈ1        !!= @CODE@ = These are proto-glottals
+
+Г1 В1 Е1 Е2 Ы1 Ы2  !!= @CODE@ = These are for developing underlying morphology rules
+
+!! !!Triggers
+
+ %^A2O  !!= * @CODE@ Initially this is used for the noun "я" to enable a:o
+ %^A2I  !!= * @CODE@ for я:и in пя
+ %^MLenition !!= * @CODE@ м:в м:б
+ %^VowLower !!= * @CODE@ vowel lowering ы:э у:о
+ %^VowRaise !!= * @CODE@ э:ы о:у
+ %^VowLoss  !!= * @CODE@ stem-final vowel is lost in plural accusative form
+ %^StemVowFronting !!= * @CODE@ хасава:хасев
+ %^VowFronting !!= * @CODE@ хадась:хадэйнинзь
+ %^PalLoss  !!= * @CODE@ in combination with stem-final vowel loss
+ %^HardFronting  !!= * @CODE@ яля:ялэ
 %-
 %>
 
-!! We have manually optimised the structure of our lexicon using following
+!! We have manually optimised the structure of our lexicon using the following
 !! flag diacritics to restrict morhpological combinatorics:
-@P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
+
+@P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@  !!= @CODE@
 
 !! Object conjugation
-@P.CONJ.ObjAll@
-@R.CONJ.ObjAll@
-@C.CONJ@
+
+@P.CONJ.ObjAll@   !!= @CODE@
+@R.CONJ.ObjAll@   !!= @CODE@
+@C.CONJ@	      !!= @CODE@
 
 
+!! !!!The __Root__ lexicon
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+
+!! The word forms in Nenets start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-   adjectives  ;
-   adpositions    ;
-   adverbs  ;
-   interjections   ;
-   nouns   ;
-   pronouns    ;
-   propernouns    ;
-   quantifiers    ;
-   verbs   ;
+
+   adjectives  ;	    !!= * @CODE@
+   adpositions    ;	    !!= * @CODE@
+   adverbs  ;		    !!= * @CODE@
+   interjections   ;    !!= * @CODE@
+   nouns   ;		    !!= * @CODE@
+   pronouns    ;	    !!= * @CODE@
+   propernouns    ;	    !!= * @CODE@
+   quantifiers    ;	    !!= * @CODE@
+   verbs   ;		    !!= * @CODE@
 
 ! Acronym ;
 ! Abbreviation ;
- Punctuation ;
-
-CONJUNCTION ;
-SUBJUNCTION ;
-INTERJECTION ;
-POSTPOSITION ;
+ Punctuation ;          !!= * @CODE@
+			            !!= * @CODE@
+CONJUNCTION ;           !!= * @CODE@
+SUBJUNCTION ;           !!= * @CODE@
+INTERJECTION ;          !!= * @CODE@
+POSTPOSITION ;          !!= * @CODE@
 
 
 ! I INCLUDE SOME SMALL LEXICA HERE
