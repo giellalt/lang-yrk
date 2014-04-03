@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - муʼ: # Noun ' /(fin) ' - partial paradigm /Type  n+o/
+     муʼ+N+Sg+Nom: муʼ
+     муʼ+N+Sg+Acc: мунмʼ
+     муʼ+N+Sg+Gen: мунʼ
+     муʼ+N+Sg+Dat: мундʼ
+     муʼ+N+Sg+Loc: [муӈгана, муӈгна]
+     муʼ+N+Sg+Abl: муӈгад
+     муʼ+N+Sg+Pros: мумна
+     муʼ+N+Du+Nom: муӈгʼ
+     муʼ+N+Du+Acc: муӈгʼ
+     муʼ+N+Du+Gen: муӈгʼ
+     муʼ+N+Pl+Nom: мунˮ
+     муʼ+N+Pl+Acc: муно
+     муʼ+N+Pl+Gen: муноˮ
+     муʼ+N+Pl+Dat: муӈгˮ
+     муʼ+N+Pl+Loc: [муӈгаˮна, муӈгˮна]
+     муʼ+N+Pl+Abl: муӈгат
+     муʼ+N+Pl+Pros: муноˮмана
+     муʼ+N+Sg+Nom+PxSg1: мум
+     муʼ+N+Sg+Acc+PxSg1: мум
+     муʼ+N+Sg+Gen+PxSg1: мун
+     муʼ+N+Sg+Dat+PxSg1: муӈган
+     муʼ+N+Sg+Loc+PxSg1: [муӈганан, муӈгнан]
+     муʼ+N+Sg+Abl+PxSg1: [муӈгадан, муӈгдан]
+     муʼ+N+Sg+Pros+PxSg1: мумнан
+     муʼ+N+Du+Nom+PxSg1: [муӈгаюн, муӈгюн]
+     муʼ+N+Du+Acc+PxSg1: [муӈгаюн, муӈгюн]
+     муʼ+N+Du+Gen+PxSg1: [муӈгаюн, муӈгюн]
+     муʼ+N+Pl+Nom+PxSg1: мунон
+     муʼ+N+Pl+Acc+PxSg1: мунон
+     муʼ+N+Pl+Gen+PxSg1: муноˮн
+     муʼ+N+Pl+Dat+PxSg1: муӈгаˮн
+     муʼ+N+Pl+Loc+PxSg1: [муӈгаˮнан, муӈгˮнан]
+     муʼ+N+Pl+Abl+PxSg1: [муӈгатан, муӈгтан]
+     муʼ+N+Pl+Pros+PxSg1: муноˮманан
+     муʼ+N+Sg+Nom+PxSg2: мул
+     муʼ+N+Sg+Acc+PxSg2: мунд
+     муʼ+N+Sg+Gen+PxSg2: мунд
+     муʼ+N+Sg+Dat+PxSg2: муӈганд
+     муʼ+N+Sg+Loc+PxSg2: [муӈгананд, муӈгнанд]
+     муʼ+N+Sg+Abl+PxSg2: [муӈгаданд, муӈгданд]
+     муʼ+N+Sg+Pros+PxSg2: мумнанд
+     муʼ+N+Du+Nom+PxSg2: [муӈгаюд, муӈгюд]
+     муʼ+N+Du+Acc+PxSg2: [муӈгаюд, муӈгюд]
+     муʼ+N+Du+Gen+PxSg2: [муӈгают, муӈгют]
+     муʼ+N+Pl+Nom+PxSg2: мунод
+     муʼ+N+Pl+Acc+PxSg2: мунод
+     муʼ+N+Pl+Gen+PxSg2: мунот
+     муʼ+N+Pl+Dat+PxSg2: муӈгат
+     муʼ+N+Pl+Loc+PxSg2: [муӈгаˮнат, муӈгˮнат]
+     муʼ+N+Pl+Abl+PxSg2: [муӈгатат, муӈгтат]
+     муʼ+N+Pl+Pros+PxSg2: муноˮманат
+     муʼ+N+Sg+Nom+PxSg3: мунда
+     муʼ+N+Sg+Acc+PxSg3: мунда
+     муʼ+N+Sg+Gen+PxSg3: мунда
+     муʼ+N+Sg+Dat+PxSg3: муӈганда
+     муʼ+N+Sg+Loc+PxSg3: [муӈгананда, муӈгнанда]
+     муʼ+N+Sg+Abl+PxSg3: [муӈгаданда, муӈгданда]
+     муʼ+N+Sg+Pros+PxSg3: мумнанда
+     муʼ+N+Du+Nom+PxSg3: [муӈгаюда, муӈгюда]
+     муʼ+N+Du+Acc+PxSg3: [муӈгаюда, муӈгюда]
+     муʼ+N+Du+Gen+PxSg3: [муӈгаюта, муӈгюта]
+     муʼ+N+Pl+Nom+PxSg3: мунода
+     муʼ+N+Pl+Acc+PxSg3: мунода
+     муʼ+N+Pl+Gen+PxSg3: мунота
+     муʼ+N+Pl+Dat+PxSg3: [муӈгата, муӈгта]
+     муʼ+N+Pl+Loc+PxSg3: [муӈгаˮната, муӈгˮната]
+     муʼ+N+Pl+Abl+PxSg3: [муӈгатата, муӈгтата]
+     муʼ+N+Pl+Pros+PxSg3: муноˮманата
+     муʼ+N+Sg+Nom+PxDu1: мумиʼ
+#     муʼ+N+Sg+Nom+PxSg1.2: муми
+     муʼ+N+Sg+Acc+PxDu1: мумиʼ
+#     муʼ+N+Sg+Acc+PxSg1.2: муми
+     муʼ+N+Sg+Gen+PxDu1: муниʼ
+#     муʼ+N+Sg+Gen+PxSg1.2: муни
+     муʼ+N+Sg+Dat+PxDu1: [муӈганиʼ, муӈгниʼ]
+#     муʼ+N+Sg+Dat+PxSg1.2: [муӈгани, муӈгни]
+     муʼ+N+Sg+Loc+PxDu1: [муӈгананиʼ, муӈгнаниʼ]
+#     муʼ+N+Sg+Loc+PxSg1.2: [муӈганани, муӈгнани]
+     муʼ+N+Sg+Abl+PxDu1: [муӈгаданиʼ, муӈгданиʼ]
+#     муʼ+N+Sg+Abl+PxSg1.2: [муӈгадани, муӈгдани]
+     муʼ+N+Sg+Pros+PxDu1: мумнаниʼ
+#     муʼ+N+Sg+Pros+PxSg1.2: мумнани
+     муʼ+N+Du+Nom+PxDu1: [муӈгаюниʼ, муӈгюниʼ]
+#     муʼ+N+Du+Nom+PxSg1.2: [муӈгаюни, муӈгюни]
+     муʼ+N+Du+Acc+PxDu1: [муӈгаюниʼ, муӈгюниʼ]
+#     муʼ+N+Du+Acc+PxSg1.2: [муӈгаюни, муӈгюни]
+     муʼ+N+Du+Gen+PxDu1: [муӈгаюниʼ, муӈгюниʼ]
+#     муʼ+N+Du+Gen+PxSg1.2: [муӈгаюни, муӈгюни]
+     муʼ+N+Pl+Nom+PxDu1: мунониʼ
+#     муʼ+N+Pl+Nom+PxSg1.2: мунони
+     муʼ+N+Pl+Acc+PxDu1: мунониʼ
+#     муʼ+N+Pl+Acc+PxSg1.2: мунони
+     муʼ+N+Pl+Gen+PxDu1: муноˮниʼ
+#     муʼ+N+Pl+Gen+PxSg1.2: муноˮни
+     муʼ+N+Pl+Dat+PxDu1: [муӈгаˮниʼ, муӈгˮниʼ]
+#     муʼ+N+Pl+Dat+PxSg1.2: [муӈгаˮни, муӈгˮни]
+     муʼ+N+Pl+Loc+PxDu1: [муӈгаˮнаниʼ, муӈгˮнаниʼ]
+#     муʼ+N+Pl+Loc+PxSg1.2: [муӈгаˮнани, муӈгˮнани]
+     муʼ+N+Pl+Abl+PxDu1: [муӈгатаниʼ, муӈгтаниʼ]
+#     муʼ+N+Pl+Abl+PxSg1.2: [муӈгатани, муӈгтани]
+     муʼ+N+Pl+Pros+PxDu1: муноˮмананиʼ
+#     муʼ+N+Pl+Pros+PxSg1.2: муноˮманани
+     муʼ+N+Sg+Nom+PxDu2: мулиʼ
+     муʼ+N+Sg+Acc+PxDu2: мундиʼ
+     муʼ+N+Sg+Gen+PxDu2: мундиʼ
+     муʼ+N+Sg+Dat+PxDu2: муӈгандиʼ
+     муʼ+N+Sg+Loc+PxDu2: [муӈганандиʼ, муӈгнандиʼ]
+     муʼ+N+Sg+Abl+PxDu2: [муӈгадандиʼ, муӈгдандиʼ]
+     муʼ+N+Sg+Pros+PxDu2: мумнандиʼ
+     муʼ+N+Du+Nom+PxDu2: [муӈгаюдиʼ, муӈгюдиʼ]
+     муʼ+N+Du+Acc+PxDu2: [муӈгаюдиʼ, муӈгюдиʼ]
+     муʼ+N+Du+Gen+PxDu2: [муӈгаютиʼ, муӈгютиʼ]
+     муʼ+N+Pl+Nom+PxDu2: мунодиʼ
+     муʼ+N+Pl+Acc+PxDu2: мунодиʼ
+     муʼ+N+Pl+Gen+PxDu2: мунотиʼ
+     муʼ+N+Pl+Dat+PxDu2: [муӈгатиʼ, муӈгтиʼ]
+     муʼ+N+Pl+Loc+PxDu2: [муӈгаˮнатиʼ, муӈгˮнатиʼ]
+     муʼ+N+Pl+Abl+PxDu2: [муӈгататиʼ, муӈгтатиʼ]
+     муʼ+N+Pl+Pros+PxDu2: муноˮманатиʼ
+     муʼ+N+Sg+Nom+PxDu3: мундиʼ
+     муʼ+N+Sg+Acc+PxDu3: мундиʼ
+     муʼ+N+Sg+Gen+PxDu3: мундиʼ
+     муʼ+N+Sg+Dat+PxDu3: муӈгандиʼ
+     муʼ+N+Sg+Loc+PxDu3: [муӈганандиʼ, муӈгнандиʼ]
+     муʼ+N+Sg+Abl+PxDu3: [муӈгадандиʼ, муӈгдандиʼ]
+     муʼ+N+Sg+Pros+PxDu3: мумнандиʼ
+     муʼ+N+Du+Nom+PxDu3: [муӈгаюдиʼ, муӈгюдиʼ]
+     муʼ+N+Du+Acc+PxDu3: [муӈгаюдиʼ, муӈгюдиʼ]
+     муʼ+N+Du+Gen+PxDu3: [муӈгаютиʼ, муӈгютиʼ]
+     муʼ+N+Pl+Nom+PxDu3: мунодиʼ
+     муʼ+N+Pl+Acc+PxDu3: мунодиʼ
+     муʼ+N+Pl+Gen+PxDu3: мунотиʼ
+     муʼ+N+Pl+Dat+PxDu3: [муӈгатиʼ, муӈгтиʼ]
+     муʼ+N+Pl+Loc+PxDu3: [муӈгаˮнатиʼ, муӈгˮнатиʼ]
+     муʼ+N+Pl+Abl+PxDu3: [муӈгататиʼ, муӈгтатиʼ]
+     муʼ+N+Pl+Pros+PxDu3: муноˮманатиʼ
+     муʼ+N+Sg+Nom+PxPl1: мумаˮ
+     муʼ+N+Sg+Acc+PxPl1: мумаˮ
+     муʼ+N+Sg+Gen+PxPl1: мунаˮ
+     муʼ+N+Sg+Dat+PxPl1: [муӈганаˮ, муӈгнаˮ]
+     муʼ+N+Sg+Loc+PxPl1: [муӈгананаˮ, муӈгнанаˮ]
+     муʼ+N+Sg+Abl+PxPl1: [муӈгаданаˮ, муӈгданаˮ]
+     муʼ+N+Sg+Pros+PxPl1: мумнанаˮ
+     муʼ+N+Du+Nom+PxPl1: [муӈгаюнаˮ, муӈгюнаˮ]
+     муʼ+N+Du+Acc+PxPl1: [муӈгаюнаˮ, муӈгюнаˮ]
+     муʼ+N+Du+Gen+PxPl1: [муӈгаюнаˮ, муӈгюнаˮ]
+     муʼ+N+Pl+Nom+PxPl1: мунонаˮ
+     муʼ+N+Pl+Acc+PxPl1: мунонаˮ
+     муʼ+N+Pl+Gen+PxPl1: муноˮнаˮ
+     муʼ+N+Pl+Dat+PxPl1: [муӈгаˮнаˮ, муӈгˮнаˮ]
+     муʼ+N+Pl+Loc+PxPl1: [муӈгаˮнанаˮ, муӈгˮнанаˮ]
+     муʼ+N+Pl+Abl+PxPl1: [муӈгатанаˮ, муӈгтанаˮ]
+     муʼ+N+Pl+Pros+PxPl1: муноˮмананаˮ
+     муʼ+N+Sg+Nom+PxPl2: мулаˮ
+     муʼ+N+Sg+Acc+PxPl2: мундаˮ
+     муʼ+N+Sg+Gen+PxPl2: мундаˮ
+     муʼ+N+Sg+Dat+PxPl2: муӈгандаˮ
+     муʼ+N+Sg+Loc+PxPl2: [муӈганандаˮ, муӈгнандаˮ]
+     муʼ+N+Sg+Abl+PxPl2: [муӈгадандаˮ, муӈгдандаˮ]
+     муʼ+N+Sg+Pros+PxPl2: мумнандаˮ
+     муʼ+N+Du+Nom+PxPl2: [муӈгаюдаˮ, муӈгюдаˮ]
+     муʼ+N+Du+Acc+PxPl2: [муӈгаюдаˮ, муӈгюдаˮ]
+     муʼ+N+Du+Gen+PxPl2: [муӈгаютаˮ, муӈгютаˮ]
+     муʼ+N+Pl+Nom+PxPl2: мунодаˮ
+     муʼ+N+Pl+Acc+PxPl2: мунодаˮ
+     муʼ+N+Pl+Gen+PxPl2: мунотаˮ
+     муʼ+N+Pl+Dat+PxPl2: [муӈгатаˮ, муӈгтаˮ]
+     муʼ+N+Pl+Loc+PxPl2: [муӈгаˮнатаˮ, муӈгˮнатаˮ]
+     муʼ+N+Pl+Abl+PxPl2: [муӈгататаˮ, муӈгтатаˮ]
+     муʼ+N+Pl+Pros+PxPl2: муноˮманатаˮ
+     муʼ+N+Sg+Nom+PxPl3: мундоʼ
+     муʼ+N+Sg+Acc+PxPl3: мундоʼ
+     муʼ+N+Sg+Gen+PxPl3: мундоʼ
+     муʼ+N+Sg+Dat+PxPl3: муӈгандоʼ
+     муʼ+N+Sg+Loc+PxPl3: [муӈганандоʼ, муӈгнандоʼ]
+     муʼ+N+Sg+Abl+PxPl3: [муӈгадандоʼ, муӈгдандоʼ]
+     муʼ+N+Sg+Pros+PxPl3: мумнандоʼ
+     муʼ+N+Du+Nom+PxPl3: [муӈгаюдоʼ, муӈгюдоʼ]
+     муʼ+N+Du+Acc+PxPl3: [муӈгаюдоʼ, муӈгюдоʼ]
+     муʼ+N+Du+Gen+PxPl3: [муӈгаютоʼ, муӈгютоʼ]
+     муʼ+N+Pl+Nom+PxPl3: мунодоʼ
+     муʼ+N+Pl+Acc+PxPl3: мунодоʼ
+     муʼ+N+Pl+Gen+PxPl3: мунотоʼ
+     муʼ+N+Pl+Dat+PxPl3: [муӈгатоʼ, муӈгтоʼ]
+     муʼ+N+Pl+Loc+PxPl3: [муӈгаˮнатоʼ, муӈгˮнатоʼ]
+     муʼ+N+Pl+Abl+PxPl3: [муӈгататоʼ, муӈгтатоʼ]
+     муʼ+N+Pl+Pros+PxPl3: муноˮманатоʼ
+     муʼ+N+Pred+Abs: мунд
+     муʼ+N+Pred+Nom+PxSg1: [мундав, мундув]
+     муʼ+N+Pred+Acc+PxSg1: [мундав, мундув]
+     муʼ+N+Pred+Gen+PxSg1: мундан
+     муʼ+N+Pred+Nom+PxSg2: мундар
+     муʼ+N+Pred+Acc+PxSg2: мундамд
+     муʼ+N+Pred+Gen+PxSg2: мунданд
+     муʼ+N+Pred+Nom+PxSg3: [мундада, мундда]
+     муʼ+N+Pred+Acc+PxSg3: [мундамда, мундмда]
+     муʼ+N+Pred+Gen+PxSg3: [мунданда, мунднда]
+     муʼ+N+Pred+Nom+PxDu1: [мундамиʼ, мундмиʼ]
+#     муʼ+N+Pred+Nom+PxSg1.2: [мундами, мундми]
+     муʼ+N+Pred+Acc+PxDu1: [мундамиʼ, мундмиʼ]
+#     муʼ+N+Pred+Acc+PxSg1.2: [мундами, мундми]
+     муʼ+N+Pred+Gen+PxDu1: [мунданиʼ, мундниʼ]
+#     муʼ+N+Pred+Gen+PxSg1.2: [мундани, мундни]
+     муʼ+N+Pred+Nom+PxDu2: мундриʼ
+     муʼ+N+Pred+Acc+PxDu2: [мундамдиʼ, мундмдиʼ]
+     муʼ+N+Pred+Gen+PxDu2: [мундандиʼ, мундндиʼ]
+     муʼ+N+Pred+Nom+PxDu3: [мундадиʼ, мунддиʼ]
+     муʼ+N+Pred+Acc+PxDu3: [мундамдиʼ, мундмдиʼ]
+     муʼ+N+Pred+Gen+PxDu3: [мундандиʼ, мундндиʼ]
+     муʼ+N+Pred+Nom+PxPl1: мундваˮ
+     муʼ+N+Pred+Acc+PxPl1: мундваˮ
+     муʼ+N+Pred+Gen+PxPl1: [мунданаˮ, мунднаˮ]
+     муʼ+N+Pred+Nom+PxPl2: мундраˮ
+     муʼ+N+Pred+Acc+PxPl2: [мундамдаˮ, мундмдаˮ]
+     муʼ+N+Pred+Gen+PxPl2: [мундандаˮ, мундндаˮ]
+     муʼ+N+Pred+Nom+PxPl3: [мундадоʼ, мунддоʼ]
+     муʼ+N+Pred+Acc+PxPl3: [мундамдоʼ, мундмдоʼ]
+     муʼ+N+Pred+Gen+PxPl3: [мундандоʼ, мундндоʼ]
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: мундмʼ
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: мунд
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: муʼ
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: муниʼ
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: мундиʼ
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: муӈгʼ
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: мумаˮ
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: мундаˮ
+     муʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: мунˮ
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: мундамзь
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: мундась
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: мунзь
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: мунинзь
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: мундинзь
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: муӈганзь
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: мумаць
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: мундаць
+     муʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: мунаць
+     муʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: мум
+     муʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: мул
+     муʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: мунда
+     муʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: мумиʼ
+     муʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: мулиʼ
+     муʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: мундиʼ
+     муʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: мумаˮ
+     муʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: мулаˮ
+     муʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: мундоʼ
+     муʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: мумась
+     муʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: мулась
+     муʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: мундась
+     муʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: муминзь
+     муʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: мулинзь
+     муʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: мундинзь
+     муʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: мумаць
+     муʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: мулаць
+     муʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: мундонзь
+     муʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюн, муӈгюн]
+     муʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюд, муӈгюд]
+     муʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюда, муӈгюда]
+     муʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюниʼ, муӈгюниʼ]
+     муʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюдиʼ, муӈгюдиʼ]
+     муʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюдиʼ, муӈгюдиʼ]
+     муʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюнаˮ, муӈгюнаˮ]
+     муʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюдаˮ, муӈгюдаˮ]
+     муʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: [муӈгаюдоʼ, муӈгюдоʼ]
+     муʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюнась, муӈгюнась]
+     муʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюдась, муӈгюдась]
+     муʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюдась, муӈгюдась]
+     муʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюнинзь, муӈгюнинзь]
+     муʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюдинзь, муӈгюдинзь]
+     муʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюдинзь, муӈгюдинзь]
+     муʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюнаць, муӈгюнаць]
+     муʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюдаць, муӈгюдаць]
+     муʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: [муӈгаюдонзь, муӈгюдонзь]
+     муʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: мунон
+     муʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: мунод
+     муʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: мунода
+     муʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: мунониʼ
+     муʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: мунодиʼ
+     муʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: мунодиʼ
+     муʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: мунонаˮ
+     муʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: мунодаˮ
+     муʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: мунодоʼ
+     муʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: мунонась
+     муʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: мунодась
+     муʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: мунодась
+     муʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: мунонинзь
+     муʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: мунодинзь
+     муʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: мунодинзь
+     муʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: мунонаць
+     муʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: мунодаць
+     муʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: мунодонзь
+     муʼ+N+Tra: муӈэ
+     муʼ+N+Car: мунзиˮ
+     муʼ+N+Equ: мундремʼ
+     муʼ+N+Equ+Lat: мундревʼ
