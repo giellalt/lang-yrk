@@ -10143,6 +10143,42 @@
 
   <e>
     <lg>
+      <l pos="N">медаль</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">медаль</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">mitali</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">медпункт</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">медпункт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lääkintäasema</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мелˮ</l>
 
       <stg>
@@ -10253,6 +10289,24 @@
 
   <e>
     <lg>
+      <l pos="N">мерцямбэртя</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">мерцямбэртя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">myrskylintu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мерцямзьʼ</l>
 
       <stg>
@@ -10301,6 +10355,60 @@
 
       <tg xml:lang="fin">
         <t pos="N">rokonarpi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">места</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">места</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">paikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">метр</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">метр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">metri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">меч</l>
+
+      <stg>
+        <st Contlex="N_ЕД">меч</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pallo</t>
       </tg>
     </mg>
   </e>
@@ -10405,6 +10513,24 @@
         <t pos="N">menijä</t>
 
         <t pos="N">kulkija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">минеко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">минеко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">iso varvas</t>
       </tg>
     </mg>
   </e>
@@ -14511,6 +14637,24 @@
 
   <e>
     <lg>
+      <l pos="N">норила</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">норила</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">18-20 m pitkä salko verkon jään alle asennusta varten</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">норт</l>
 
       <stg>
@@ -14653,6 +14797,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">marraskuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">нубцьʼ</l>
+
+      <stg>
+        <st Contlex="N_НЕНЭЦИЕ">нубць</st>
+
+        <st Contlex="N_НЕНЭЦИЕ">нусь</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">seisomispaikka</t>
       </tg>
     </mg>
   </e>
@@ -14929,6 +15093,24 @@
 
   <e>
     <lg>
+      <l pos="N">нылык</l>
+
+      <stg>
+        <st Contlex="N_ЕД">нылык</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ryysyläinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ныхы</l>
 
       <stg>
@@ -14987,6 +15169,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">avaus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">нэлкы</l>
+
+      <stg>
+        <st Contlex="N_ПАНЫ">нэлкы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ryysyläinen</t>
       </tg>
     </mg>
   </e>
@@ -15073,6 +15273,26 @@
         <t pos="N">korahdus</t>
 
         <t pos="N">karjunta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">нэрцорˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">нэрцор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tuhrimus</t>
+
+        <tf pos="N">epäsiisti ihminen</tf>
       </tg>
     </mg>
   </e>
@@ -30865,7 +31085,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">muumemittari</t>
+        <t pos="N">kuumemittari</t>
       </tg>
     </mg>
   </e>
@@ -46006,26 +46226,6 @@
 
       <tg xml:lang="fin">
         <t pos="N">kärpänen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">ӈэрцорˮ</l>
-
-      <stg>
-        <st Contlex="N_ВАР">ӈэрцор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">tuhrimus</t>
-
-        <tf pos="N">epäsiisti ihminen</tf>
       </tg>
     </mg>
   </e>
