@@ -54,8 +54,14 @@ in combination with stem-final vowel loss тёня:тён
 
 
 
+
+
+
 __°:0 in Pros LEFT__
 Second Vowel Center
+
+
+
 
 
 __°:0 in Pros RIGHT__
@@ -71,12 +77,28 @@ Second Vowel Center
 
 
 
+
+
 __°:а in Pros LEFT__
+Second Vowel Center
+
+
+Third Vowel Center
+
+
 
 
 
 
 __°:а in Pros RIGHT__
+Second Vowel	Center
+
+
+Third Vowel Center
+
+
+
+
 
 
 
@@ -256,14 +278,17 @@ __a:o in я__
 я:э <=> _ %^HardFronting:0 ;
 __a:o in я__
 а:ы <=> [ к | г | х | л ] _ %^A2I:0 ;
-__a:o in я__
-а:и <=> [ Cns - [ к | л | х | г ] | %{вм%}: ] _ %^A2I:0 ;
+
+
+__a:i in ӈуда__
         р в:б  _ %^VowRaise:0 %> ;
-__a:o in я__
+
+
+__a:i in ӈуда__
 о:у <=> _ %^VowRaise:0 ;
-__a:o in я__
+__a:i in ӈуда__
 ё:ю <=> _ %^VowRaise:0 ;
-__a:o in я__
+__a:i in ӈуда__
 э:ы <=>		_ %^VowRaise:0 ;
 
 __я:и word-final position__
