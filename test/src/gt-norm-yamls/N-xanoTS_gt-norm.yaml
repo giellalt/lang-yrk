@@ -1,0 +1,312 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+# NB! Following stem-final modifications take place in AccPl stem: ва -> би, ка -> ци, га -> зи
+
+  Noun - хан: # Noun 'sled /(fin) reki' - full paradigm /MDTN-koodi ə→o/
+     хан+N+Sg+Nom: хан
+     хан+N+Sg+Acc: ханмʼ
+     хан+N+Sg+Gen: ханʼ
+     хан+N+Sg+Dat: хананʼ
+     хан+N+Sg+Loc: ханхана
+     хан+N+Sg+Abl: ханхад
+     хан+N+Sg+Pros: ханувна
+     хан+N+Du+Nom: ханхаʼ
+     хан+N+Du+Acc: ханхаʼ
+     хан+N+Du+Gen: ханхаʼ
+     хан+N+Pl+Nom: ханˮ
+     хан+N+Pl+Acc: хано
+     хан+N+Pl+Gen: ханоˮ
+     хан+N+Pl+Dat: ханхаˮ
+     хан+N+Pl+Loc: ханхаˮна
+     хан+N+Pl+Abl: ханхат
+     хан+N+Pl+Pros: ханоˮмана
+     хан+N+Sg+Nom+PxSg1: [ханав, ханув]
+     хан+N+Sg+Acc+PxSg1: [ханав, ханув]
+     хан+N+Sg+Gen+PxSg1: ханан
+     хан+N+Sg+Dat+PxSg1: ханхан
+     хан+N+Sg+Loc+PxSg1: ханханан
+     хан+N+Sg+Abl+PxSg1: ханхадан
+     хан+N+Sg+Pros+PxSg1: ханувнан
+     хан+N+Du+Nom+PxSg1: ханхаюн
+     хан+N+Du+Acc+PxSg1: ханхаюн
+     хан+N+Du+Gen+PxSg1: ханхаюн
+     хан+N+Pl+Nom+PxSg1: ханон
+     хан+N+Pl+Acc+PxSg1: ханон
+     хан+N+Pl+Gen+PxSg1: ханоˮн
+     хан+N+Pl+Dat+PxSg1: ханхаˮн
+     хан+N+Pl+Loc+PxSg1: ханхаˮнан
+     хан+N+Pl+Abl+PxSg1: ханхатан
+     хан+N+Pl+Pros+PxSg1: ханоˮманан
+     хан+N+Sg+Nom+PxSg2: ханар
+     хан+N+Sg+Acc+PxSg2: ханамд
+     хан+N+Sg+Gen+PxSg2: хананд
+     хан+N+Sg+Dat+PxSg2: ханханд
+     хан+N+Sg+Loc+PxSg2: ханхананд
+     хан+N+Sg+Abl+PxSg2: ханхаданд
+     хан+N+Sg+Pros+PxSg2: ханувнанд
+     хан+N+Du+Nom+PxSg2: ханхаюд
+     хан+N+Du+Acc+PxSg2: ханхаюд
+     хан+N+Du+Gen+PxSg2: ханхают
+     хан+N+Pl+Nom+PxSg2: ханод
+     хан+N+Pl+Acc+PxSg2: ханод
+     хан+N+Pl+Gen+PxSg2: ханот
+     хан+N+Pl+Dat+PxSg2: ханхат
+     хан+N+Pl+Loc+PxSg2: ханхаˮнат
+     хан+N+Pl+Abl+PxSg2: ханхатат
+     хан+N+Pl+Pros+PxSg2: ханоˮманат
+     хан+N+Sg+Nom+PxSg3: ханда
+     хан+N+Sg+Acc+PxSg3: [ханамда, ханмда]
+     хан+N+Sg+Gen+PxSg3: [хананда, ханнда]
+     хан+N+Sg+Dat+PxSg3: ханханда
+     хан+N+Sg+Loc+PxSg3: ханхананда
+     хан+N+Sg+Abl+PxSg3: ханхаданда
+     хан+N+Sg+Pros+PxSg3: ханувнанда
+     хан+N+Du+Nom+PxSg3: ханхаюда
+     хан+N+Du+Acc+PxSg3: ханхаюда
+     хан+N+Du+Gen+PxSg3: ханхаюта
+     хан+N+Pl+Nom+PxSg3: ханода
+     хан+N+Pl+Acc+PxSg3: ханода
+     хан+N+Pl+Gen+PxSg3: ханота
+     хан+N+Pl+Dat+PxSg3: ханхата
+     хан+N+Pl+Loc+PxSg3: ханхаˮната
+     хан+N+Pl+Abl+PxSg3: [ханхатата, ханхатта]
+     хан+N+Pl+Pros+PxSg3: ханоˮманата
+     хан+N+Sg+Nom+PxDu1: ханмиʼ
+#     хан+N+Sg+Nom+PxSg1.2: ханми
+     хан+N+Sg+Acc+PxDu1: ханмиʼ
+#     хан+N+Sg+Acc+PxSg1.2: ханми
+     хан+N+Sg+Gen+PxDu1: ханниʼ
+#     хан+N+Sg+Gen+PxSg1.2: ханни
+     хан+N+Sg+Dat+PxDu1: ханханиʼ
+#     хан+N+Sg+Dat+PxSg1.2: ханхани
+     хан+N+Sg+Loc+PxDu1: ханхананиʼ
+#     хан+N+Sg+Loc+PxSg1.2: ханханани
+     хан+N+Sg+Abl+PxDu1: [ханхаданиʼ, ханхадниʼ]
+#     хан+N+Sg+Abl+PxSg1.2: [ханхадани, ханхадни]
+     хан+N+Sg+Pros+PxDu1: ханувнаниʼ
+#     хан+N+Sg+Pros+PxSg1.2: ханувнани
+     хан+N+Du+Nom+PxDu1: ханхаюниʼ
+#     хан+N+Du+Nom+PxSg1.2: ханхаюни
+     хан+N+Du+Acc+PxDu1: ханхаюниʼ
+#     хан+N+Du+Acc+PxSg1.2: ханхаюни
+     хан+N+Du+Gen+PxDu1: ханхаюниʼ
+#     хан+N+Du+Gen+PxSg1.2: ханхаюни
+     хан+N+Pl+Nom+PxDu1: ханониʼ
+#     хан+N+Pl+Nom+PxSg1.2: ханони
+     хан+N+Pl+Acc+PxDu1: ханониʼ
+#     хан+N+Pl+Acc+PxSg1.2: ханони
+     хан+N+Pl+Gen+PxDu1: ханоˮниʼ
+#     хан+N+Pl+Gen+PxSg1.2: ханоˮни
+     хан+N+Pl+Dat+PxDu1: ханхаˮниʼ
+#     хан+N+Pl+Dat+PxSg1.2: ханхаˮни
+     хан+N+Pl+Loc+PxDu1: ханхаˮнаниʼ
+#     хан+N+Pl+Loc+PxSg1.2: ханхаˮнани
+     хан+N+Pl+Abl+PxDu1: [ханхатаниʼ, ханхатниʼ]
+#     хан+N+Pl+Abl+PxSg1.2: [ханхатани, ханхатни]
+     хан+N+Pl+Pros+PxDu1: ханоˮмананиʼ
+#     хан+N+Pl+Pros+PxSg1.2: ханоˮманани
+     хан+N+Sg+Nom+PxDu2: ханриʼ
+     хан+N+Sg+Acc+PxDu2: [ханамдиʼ, ханмдиʼ]
+     хан+N+Sg+Gen+PxDu2: [ханандиʼ, ханндиʼ]
+     хан+N+Sg+Dat+PxDu2: ханхандиʼ
+     хан+N+Sg+Loc+PxDu2: ханханандиʼ
+     хан+N+Sg+Abl+PxDu2: ханхадандиʼ
+     хан+N+Sg+Pros+PxDu2: ханувнандиʼ
+     хан+N+Du+Nom+PxDu2: ханхаюдиʼ
+     хан+N+Du+Acc+PxDu2: ханхаюдиʼ
+     хан+N+Du+Gen+PxDu2: ханхаютиʼ
+     хан+N+Pl+Nom+PxDu2: ханодиʼ
+     хан+N+Pl+Acc+PxDu2: ханодиʼ
+     хан+N+Pl+Gen+PxDu2: ханотиʼ
+     хан+N+Pl+Dat+PxDu2: ханхатиʼ
+     хан+N+Pl+Loc+PxDu2: ханхаˮнатиʼ
+     хан+N+Pl+Abl+PxDu2: [ханхататиʼ, ханхаттиʼ]
+     хан+N+Pl+Pros+PxDu2: ханоˮманатиʼ
+     хан+N+Sg+Nom+PxDu3: хандиʼ
+     хан+N+Sg+Acc+PxDu3: [ханамдиʼ, ханмдиʼ]
+     хан+N+Sg+Gen+PxDu3: [ханандиʼ, ханндиʼ]
+     хан+N+Sg+Dat+PxDu3: ханхандиʼ
+     хан+N+Sg+Loc+PxDu3: ханханандиʼ
+     хан+N+Sg+Abl+PxDu3: ханхадандиʼ
+     хан+N+Sg+Pros+PxDu3: ханувнандиʼ
+     хан+N+Du+Nom+PxDu3: ханхаюдиʼ
+     хан+N+Du+Acc+PxDu3: ханхаюдиʼ
+     хан+N+Du+Gen+PxDu3: ханхаютиʼ
+     хан+N+Pl+Nom+PxDu3: ханодиʼ
+     хан+N+Pl+Acc+PxDu3: ханодиʼ
+     хан+N+Pl+Gen+PxDu3: ханотиʼ
+     хан+N+Pl+Dat+PxDu3: ханхатиʼ
+     хан+N+Pl+Loc+PxDu3: ханхаˮнатиʼ
+     хан+N+Pl+Abl+PxDu3: [ханхататиʼ, ханхаттиʼ]
+     хан+N+Pl+Pros+PxDu3: ханоˮманатиʼ
+     хан+N+Sg+Nom+PxPl1: ханваˮ
+     хан+N+Sg+Acc+PxPl1: ханваˮ
+     хан+N+Sg+Gen+PxPl1: ханнаˮ
+     хан+N+Sg+Dat+PxPl1: ханханаˮ
+     хан+N+Sg+Loc+PxPl1: ханхананаˮ
+     хан+N+Sg+Abl+PxPl1: [ханхаданаˮ, ханхаднаˮ]
+     хан+N+Sg+Pros+PxPl1: ханувнанаˮ
+     хан+N+Du+Nom+PxPl1: ханхаюнаˮ
+     хан+N+Du+Acc+PxPl1: ханхаюнаˮ
+     хан+N+Du+Gen+PxPl1: ханхаюнаˮ
+     хан+N+Pl+Nom+PxPl1: ханонаˮ
+     хан+N+Pl+Acc+PxPl1: ханонаˮ
+     хан+N+Pl+Gen+PxPl1: ханоˮнаˮ
+     хан+N+Pl+Dat+PxPl1: ханхаˮнаˮ
+     хан+N+Pl+Loc+PxPl1: ханхаˮнанаˮ
+     хан+N+Pl+Abl+PxPl1: [ханхатанаˮ, ханхатнаˮ]
+     хан+N+Pl+Pros+PxPl1: ханоˮмананаˮ
+     хан+N+Sg+Nom+PxPl2: ханраˮ
+     хан+N+Sg+Acc+PxPl2: [ханамдаˮ, ханмдаˮ]
+     хан+N+Sg+Gen+PxPl2: [ханандаˮ, ханндаˮ]
+     хан+N+Sg+Dat+PxPl2: ханхандаˮ
+     хан+N+Sg+Loc+PxPl2: ханханандаˮ
+     хан+N+Sg+Abl+PxPl2: ханхадандаˮ
+     хан+N+Sg+Pros+PxPl2: ханувнандаˮ
+     хан+N+Du+Nom+PxPl2: ханхаюдаˮ
+     хан+N+Du+Acc+PxPl2: ханхаюдаˮ
+     хан+N+Du+Gen+PxPl2: ханхаютаˮ
+     хан+N+Pl+Nom+PxPl2: ханодаˮ
+     хан+N+Pl+Acc+PxPl2: ханодаˮ
+     хан+N+Pl+Gen+PxPl2: ханотаˮ
+     хан+N+Pl+Dat+PxPl2: ханхатаˮ
+     хан+N+Pl+Loc+PxPl2: ханхаˮнатаˮ
+     хан+N+Pl+Abl+PxPl2: [ханхататаˮ, ханхаттаˮ]
+     хан+N+Pl+Pros+PxPl2: ханоˮманатаˮ
+     хан+N+Sg+Nom+PxPl3: хандоʼ
+     хан+N+Sg+Acc+PxPl3: [ханамдоʼ, ханмдоʼ]
+     хан+N+Sg+Gen+PxPl3: [ханандоʼ, ханндоʼ]
+     хан+N+Sg+Dat+PxPl3: ханхандоʼ
+     хан+N+Sg+Loc+PxPl3: ханханандоʼ
+     хан+N+Sg+Abl+PxPl3: ханхадандоʼ
+     хан+N+Sg+Pros+PxPl3: ханувнандоʼ
+     хан+N+Du+Nom+PxPl3: ханхаюдоʼ
+     хан+N+Du+Acc+PxPl3: ханхаюдоʼ
+     хан+N+Du+Gen+PxPl3: ханхаютоʼ
+     хан+N+Pl+Nom+PxPl3: ханодоʼ
+     хан+N+Pl+Acc+PxPl3: ханодоʼ
+     хан+N+Pl+Gen+PxPl3: ханотоʼ
+     хан+N+Pl+Dat+PxPl3: ханхатоʼ
+     хан+N+Pl+Loc+PxPl3: ханхаˮнатоʼ
+     хан+N+Pl+Abl+PxPl3: [ханхататоʼ, ханхаттоʼ]
+     хан+N+Pl+Pros+PxPl3: ханоˮманатоʼ
+     хан+N+Pred+Abs: ханад
+     хан+N+Pred+Nom+PxSg1: [хандав, хандув]
+     хан+N+Pred+Acc+PxSg1: [хандав, хандув]
+     хан+N+Pred+Gen+PxSg1: хандан
+     хан+N+Pred+Nom+PxSg2: хандар
+     хан+N+Pred+Acc+PxSg2: хандамд
+     хан+N+Pred+Gen+PxSg2: ханданд
+     хан+N+Pred+Nom+PxSg3: хандада
+     хан+N+Pred+Acc+PxSg3: хандамда
+     хан+N+Pred+Gen+PxSg3: ханданда
+     хан+N+Pred+Nom+PxDu1: хандамиʼ
+#     хан+N+Pred+Nom+PxSg1.2: хандами
+     хан+N+Pred+Acc+PxDu1: хандамиʼ
+#     хан+N+Pred+Acc+PxSg1.2: хандами
+     хан+N+Pred+Gen+PxDu1: ханданиʼ
+#     хан+N+Pred+Gen+PxSg1.2: хандани
+     хан+N+Pred+Nom+PxDu2: хандариʼ
+     хан+N+Pred+Acc+PxDu2: хандамдиʼ
+     хан+N+Pred+Gen+PxDu2: хандандиʼ
+     хан+N+Pred+Nom+PxDu3: хандадиʼ
+     хан+N+Pred+Acc+PxDu3: хандамдиʼ
+     хан+N+Pred+Gen+PxDu3: хандандиʼ
+     хан+N+Pred+Nom+PxPl1: хандаваˮ
+     хан+N+Pred+Acc+PxPl1: хандаваˮ
+     хан+N+Pred+Gen+PxPl1: ханданаˮ
+     хан+N+Pred+Nom+PxPl2: хандараˮ
+     хан+N+Pred+Acc+PxPl2: хандамдаˮ
+     хан+N+Pred+Gen+PxPl2: хандандаˮ
+     хан+N+Pred+Nom+PxPl3: хандадоʼ
+     хан+N+Pred+Acc+PxPl3: хандамдоʼ
+     хан+N+Pred+Gen+PxPl3: хандандоʼ
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ханадмʼ
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ханан
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: хан
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: ханниʼ
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: хандиʼ
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: ханхаʼ
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: ханваˮ
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: хандаˮ
+     хан+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: ханˮ
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: хандамзь
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: ханнась
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: ханась
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: ханнинзь
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: хандинзь
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: ханханзь
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: ханваць
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: хандаць
+     хан+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: ханаць
+     хан+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: [ханав, ханув]
+     хан+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ханар
+     хан+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: ханда
+     хан+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: ханмиʼ
+     хан+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: ханриʼ
+     хан+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: хандиʼ
+     хан+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: ханваˮ
+     хан+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: ханраˮ
+     хан+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: хандоʼ
+     хан+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ханвась
+     хан+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ханрась
+     хан+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: хандась
+     хан+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: ханминзь
+     хан+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: ханринзь
+     хан+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: хандинзь
+     хан+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: ханваць
+     хан+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: ханраць
+     хан+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: хандонзь
+     хан+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: ханхаюн
+     хан+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: ханхаюд
+     хан+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: ханхаюда
+     хан+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: ханхаюниʼ
+     хан+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: ханхаюдиʼ
+     хан+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: ханхаюдиʼ
+     хан+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: ханхаюнаˮ
+     хан+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: ханхаюдаˮ
+     хан+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: ханхаюдоʼ
+     хан+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюнась
+     хан+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюдась
+     хан+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюдась
+     хан+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюнинзь
+     хан+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюдинзь
+     хан+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюдинзь
+     хан+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюнаць
+     хан+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюдаць
+     хан+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: ханхаюдонзь
+     хан+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: ханон
+     хан+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: ханод
+     хан+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: ханода
+     хан+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: ханониʼ
+     хан+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: ханодиʼ
+     хан+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: ханодиʼ
+     хан+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ханонаˮ
+     хан+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ханодаˮ
+     хан+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ханодоʼ
+     хан+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ханонась
+     хан+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: ханодась
+     хан+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: ханодась
+     хан+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ханонинзь
+     хан+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: ханодинзь
+     хан+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: ханодинзь
+     хан+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ханонаць
+     хан+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ханодаць
+     хан+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ханодонзь
+     хан+N+Tra: ханӈэ
+     хан+N+Car: хансиˮ
+     хан+N+Equ: хандаремʼ
+     хан+N+Equ+Lat: хандаревʼ

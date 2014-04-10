@@ -112,8 +112,11 @@ LEXICON N_ХАНО  !!= @CODE@ хӑн: 11P ProsSg -увна
 !! Yaml: __xano__
 !! /total=27/
 !! хӑн xən°	хӑнӑн’ xənən°h	хӑн” xən°q	хӑно xəno
- N_ХАНО-SG ;
- N_ХАНО-PL ;
++N:° SGSCHWA-VARIANT-STEMS ;
++N: SGSTEMS-LESS-SCHWA-VARIANTS ;
++N:о MUNO_O ;
+! N_ХАНО-SG ;
+! N_ХАНО-PL ;
 
 LEXICON N_ХАНО-SG
 +N: NMN_ХАНО-SG ;
@@ -206,11 +209,13 @@ LEXICON NMN_ӇУДИ  !!= @CODE@ ӈуда: 15 ProsSg -вна
 LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16PProsSg -вна
 !! /total=1/
 !! я̆ха yəxa	я̆хан’ yəxan°h	я̆ха” yəxaq	еси yesy
-+N: SGDATSUF ;
-+N:  SG-ACC-STEM ;
-+N:  SG-NOM-STEM ;
-+N: SGPROSSUF ;
-+N:  PLNOMSUF ;
++N: NMN_МУНО ;
++N:%^A2I MUNO_O ;
+!+N: SGDATSUF ;
+!+N:  SG-ACC-STEM ;
+!+N:  SG-NOM-STEM ;
+!+N: SGPROSSUF ;
+!+N:  PLNOMSUF ;
 !+N:%^A2I PLACCSUF_Zero ; 
 
 LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17 ProsSg -вна
@@ -347,7 +352,7 @@ LEXICON N_ӇАНУ  !!= @CODE@ ӈӑно: 23 ProsSg -вна
 !! ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
 !+N: NMN_ӇАНУ ;
 +N: NMN_МУНО ;
-+N: MUNO_O ;
++N:%^VowRaise MUNO_O ;
 
 
 LEXICON NMN_ӇАНУ  !!= @CODE@ ӈӑно: 23 ProsSg -вна
@@ -379,7 +384,9 @@ LEXICON N_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 ProsSg -(м)на
 !! /total=3/
 !! ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
 !LEXICON N_ЯМ  25  ямʼ:я
-+N: NMN_ӇУВО ;
++N:Ӈ1 NMN_МУНО ;
++N:Ӈ1о MUNO_O ;
+!+N: NMN_ӇУВО ;
 
 LEXICON NMN_ӇУВО  !!= @CODE@ ӈумʼ:ӈум 25 
 :ʼ SGDATSUF ;
@@ -423,150 +430,38 @@ LEXICON TEST_NGAE
 
 
 LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
-+Sg+Nom: # ;
-+Sg+Acc:%>°мʼ # ;
-+Sg+Gen:%>°ʼ # ;
+ SGSCHWA-VARIANT-STEMS ;
+ SGSTEMS-LESS-SCHWA-VARIANTS ;
+
+LEXICON SGSCHWA-VARIANT-STEMS
 +Sg+Dat:%>н°ʼ # ; ! n2d
-+Sg+Loc:%>х°н%{ая%} # ;
-+Sg+Abl:%>х°д° # ;
-!+Sg+Abl:%>хәд° # ;
-+Sg+Pros:%>м°н%{ая%} # ;
-+Du+Nom:%>х°ʼ # ;
-+Du+Acc:%>х°ʼ # ;
-+Du+Gen:%>х°ʼ # ;
-+Pl+Nom:%>°ˮ # ;
-+Pl+Dat:%>х°ˮ # ;
-+Pl+Loc:%>х°ˮн%{ая%} # ;
-+Pl+Abl:%>х°т° # ;
-!+Pl+Abl:%>хәт° # ;
 +Sg+Nom+PxSg1:%>м° # ;
-+Sg+Acc+PxSg1:%>м° # ;
-+Sg+Gen+PxSg1:%>н° # ; ! no n2d ; i2e
-+Sg+Dat+PxSg1:%>х°н° # ;
-!+Sg+Dat+PxSg1:%>хән° # ;
-+Sg+Loc+PxSg1:%>х°н%{ая%}н° # ;
-+Sg+Abl+PxSg1:%>х°дән° # ;
-+Sg+Pros+PxSg1:%>м°н%{ая%}н° # ;
-+Du+Nom+PxSg1:%>х°юн° # ;
-+Du+Acc+PxSg1:%>х°юн° # ;
-+Du+Gen+PxSg1:%>х°юн° # ;
-+Pl+Dat+PxSg1:%>х°ˮн° # ;
-!+Pl+Dat+PxSg1:%>хәˮн° # ;
-+Pl+Loc+PxSg1:%>х°ˮн%{ая%}н° # ;
-+Pl+Abl+PxSg1:%>х°тән° # ;
 +Sg+Nom+PxSg2:%>%{рл%}° # ;
++Sg+Acc+PxSg1:%>м° # ;
 +Sg+Acc+PxSg2:%>мд° # ;
-+Sg+Gen+PxSg2:%>нд° # ;
-+Sg+Dat+PxSg2:%>х°нд° # ;
-!+Sg+Dat+PxSg2:%>хәнд° # ;
-+Sg+Loc+PxSg2:%>х°н%{ая%}нд° # ;
-+Sg+Abl+PxSg2:%>х°дәнд° # ;
-+Sg+Pros+PxSg2:%>м°н%{ая%}нд° # ;
-+Du+Nom+PxSg2:%>х°юд° # ;
-+Du+Acc+PxSg2:%>х°юд° # ;
-+Du+Gen+PxSg2:%>х°ют° # ;
-+Pl+Dat+PxSg2:%>х°т° # ;
-!+Pl+Dat+PxSg2:%>хәт° # ;
-+Pl+Loc+PxSg2:%>х°ˮн%{ая%}т° # ;
-+Pl+Abl+PxSg2:%>х°тәт° # ;
-+Sg+Nom+PxSg3:%>д%{ая%} # ;
 +Sg+Acc+PxSg3:%>мд%{ая%} # ;
-+Sg+Gen+PxSg3:%>нд%{ая%} # ;
-+Sg+Dat+PxSg3:%>х°нда # ;
-+Sg+Loc+PxSg3:%>х°н%{ая%}нда # ;
-+Sg+Abl+PxSg3:%>х°дәнда # ;
-+Sg+Pros+PxSg3:%>м°н%{ая%}нда # ;
-+Du+Nom+PxSg3:%>х°юда # ;
-+Du+Acc+PxSg3:%>х°юда # ;
-+Du+Gen+PxSg3:%>х°юта # ;
-+Pl+Dat+PxSg3:%>х°та # ;
-+Pl+Loc+PxSg3:%>х°ˮн%{ая%}та # ;
-+Pl+Abl+PxSg3:%>х°т°та # ;
-+Sg+Nom+PxDu1:%>миʼ # ;
-+Sg+Acc+PxDu1:%>миʼ # ;
-+Sg+Gen+PxDu1:%>ниʼ # ;
-+Sg+Dat+PxDu1:%>х°ниʼ # ;
-+Sg+Loc+PxDu1:%>х°н%{ая%}ниʼ # ;
-+Sg+Abl+PxDu1:%>х°д°ниʼ # ;
-+Sg+Pros+PxDu1:%>м°н%{ая%}ниʼ # ;
-+Du+Nom+PxDu1:%>х°юниʼ # ;
-+Du+Acc+PxDu1:%>х°юниʼ # ;
-+Du+Gen+PxDu1:%>х°юниʼ # ;
-+Pl+Dat+PxDu1:%>х°ˮниʼ # ;
-+Pl+Loc+PxDu1:%>х°ˮн%{ая%}ниʼ # ;
-+Pl+Abl+PxDu1:%>х°т°ниʼ # ;
-!+Pl+Abl+PxDu1:%>х°тәниʼ # ;
-+Sg+Nom+PxDu2:%>%{рл%}иʼ # ;
 +Sg+Acc+PxDu2:%>мдиʼ # ;
-+Sg+Gen+PxDu2:%>ндиʼ # ;
-+Sg+Dat+PxDu2:%>х°ндиʼ # ;
-+Sg+Loc+PxDu2:%>х°н%{ая%}ндиʼ # ;
-+Sg+Abl+PxDu2:%>х°дәндиʼ # ;
-+Sg+Pros+PxDu2:%>м°н%{ая%}ндиʼ # ;
-+Du+Nom+PxDu2:%>х°юдиʼ # ;
-+Du+Acc+PxDu2:%>х°юдиʼ # ;
-+Du+Gen+PxDu2:%>х°ютиʼ # ;
-+Pl+Dat+PxDu2:%>х°тиʼ # ;
-+Pl+Loc+PxDu2:%>х°ˮн%{ая%}тиʼ # ;
-+Pl+Abl+PxDu2:%>х°т°тиʼ # ;
-!+Pl+Abl+PxDu2:%>х°тәтиʼ # ;
-+Sg+Nom+PxDu3:%>диʼ # ;
 +Sg+Acc+PxDu3:%>мдиʼ # ;
-+Sg+Gen+PxDu3:%>ндиʼ # ;
-+Sg+Dat+PxDu3:%>х°ндиʼ # ;
-+Sg+Loc+PxDu3:%>х°н%{ая%}ндиʼ # ;
-+Sg+Abl+PxDu3:%>х°дәндиʼ # ;
-+Sg+Pros+PxDu3:%>м°н%{ая%}ндиʼ # ;
-+Du+Nom+PxDu3:%>х°юдиʼ # ;
-+Du+Acc+PxDu3:%>х°юдиʼ # ;
-+Du+Gen+PxDu3:%>х°ютиʼ # ;
-+Pl+Dat+PxDu3:%>х°тиʼ # ;
-+Pl+Loc+PxDu3:%>х°ˮн%{ая%}тиʼ # ;
-+Pl+Abl+PxDu3:%>х°т°тиʼ # ;
-!+Pl+Abl+PxDu3:%>х°тәтиʼ # ;
-+Sg+Nom+PxPl1:%>маˮ # ;
-+Sg+Acc+PxPl1:%>маˮ # ;
-+Sg+Gen+PxPl1:%>наˮ # ; !! No n2d
-+Sg+Dat+PxPl1:%>х°наˮ # ;
-+Sg+Loc+PxPl1:%>х°н%{ая%}наˮ # ;
-+Sg+Abl+PxPl1:%>х°д°наˮ # ;
-!+Sg+Abl+PxPl1:%>х°дәнаˮ # ;
-+Sg+Pros+PxPl1:%>м°н%{ая%}наˮ # ;
-+Du+Nom+PxPl1:%>х°юнаˮ # ;
-+Du+Acc+PxPl1:%>х°юнаˮ # ;
-+Du+Gen+PxPl1:%>х°юнаˮ # ;
-+Pl+Dat+PxPl1:%>х°ˮнаˮ # ;
-+Pl+Loc+PxPl1:%>х°ˮн%{ая%}наˮ # ;
-+Pl+Abl+PxPl1:%>х°т°наˮ # ;
-!+Pl+Abl+PxPl1:%>х°тәнаˮ # ;
-+Sg+Nom+PxPl2:%>%{рл%}аˮ # ;
 +Sg+Acc+PxPl2:%>мдаˮ # ;
-+Sg+Gen+PxPl2:%>ндаˮ # ;
-+Sg+Dat+PxPl2:%>х°ндаˮ # ;
-+Sg+Loc+PxPl2:%>х°н%{ая%}ндаˮ # ;
-+Sg+Abl+PxPl2:%>х°дәндаˮ # ;
-+Sg+Pros+PxPl2:%>м°н%{ая%}ндаˮ # ;
-+Du+Nom+PxPl2:%>х°юдаˮ # ;
-+Du+Acc+PxPl2:%>х°юдаˮ # ;
-+Du+Gen+PxPl2:%>х°ютаˮ # ;
-+Pl+Dat+PxPl2:%>х°таˮ # ;
-+Pl+Loc+PxPl2:%>х°ˮн%{ая%}таˮ # ;
-+Pl+Abl+PxPl2:%>х°т°таˮ # ;
-!+Pl+Abl+PxPl2:%>х°тәтаˮ # ;
-+Sg+Nom+PxPl3:%>д%{оё%}ʼ # ;
 +Sg+Acc+PxPl3:%>мд%{оё%}ʼ # ;
++Sg+Gen+PxSg1:%>н° # ; ! no n2d ; i2e
++Sg+Gen+PxSg2:%>нд° # ;
++Sg+Gen+PxSg3:%>нд%{ая%} # ;
++Sg+Gen+PxDu2:%>ндиʼ # ;
++Sg+Gen+PxDu3:%>ндиʼ # ;
++Sg+Gen+PxPl2:%>ндаˮ # ;
 +Sg+Gen+PxPl3:%>нд%{оё%}ʼ # ;
-+Sg+Dat+PxPl3:%>х°ндоʼ # ;
-+Sg+Loc+PxPl3:%>х°н%{ая%}ндоʼ # ;
-+Sg+Abl+PxPl3:%>х°дәндоʼ # ;
++Sg+Pros:%>м°н%{ая%} # ;
++Sg+Pros+PxSg1:%>м°н%{ая%}н° # ;
++Sg+Pros+PxSg2:%>м°н%{ая%}нд° # ;
++Sg+Pros+PxSg3:%>м°н%{ая%}нда # ;
++Sg+Pros+PxSg1+Use/SpellNoSugg:%>м°н%{ая%}ни # ;
++Sg+Pros+PxDu1:%>м°н%{ая%}ниʼ # ;
++Sg+Pros+PxDu2:%>м°н%{ая%}ндиʼ # ;
++Sg+Pros+PxDu3:%>м°н%{ая%}ндиʼ # ;
++Sg+Pros+PxPl1:%>м°н%{ая%}наˮ # ;
++Sg+Pros+PxPl2:%>м°н%{ая%}ндаˮ # ;
 +Sg+Pros+PxPl3:%>м°н%{ая%}ндоʼ # ;
-+Du+Nom+PxPl3:%>х°юдоʼ # ;
-+Du+Acc+PxPl3:%>х°юдоʼ # ;
-+Du+Gen+PxPl3:%>х°ютоʼ # ;
-+Pl+Dat+PxPl3:%>х°тоʼ # ;
-+Pl+Loc+PxPl3:%>х°ˮн%{ая%}тоʼ # ;
-+Pl+Abl+PxPl3:%>х°т°тоʼ # ;
-!+Pl+Abl+PxPl3:%>х°тәтоʼ # ;
 +Pred+Abs:%>д° # ;
 +Pred+Nom+PxSg1:%>д°в° # ;
 +Pred+Acc+PxSg1:%>д°в° # ;
@@ -577,6 +472,9 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Pred+Nom+PxSg3:%>д°да # ;
 +Pred+Acc+PxSg3:%>д°мда # ;
 +Pred+Gen+PxSg3:%>д°нда # ;
++Pred+Nom+PxSg1+Use/SpellNoSugg:%>д°ми # ;
++Pred+Acc+PxSg1+Use/SpellNoSugg:%>д°ми # ;
++Pred+Gen+PxSg1+Use/SpellNoSugg:%>д°ни # ;
 +Pred+Nom+PxDu1:%>д°миʼ # ;
 +Pred+Acc+PxDu1:%>д°миʼ # ;
 +Pred+Gen+PxDu1:%>д°ниʼ # ;
@@ -597,6 +495,144 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Pred+Gen+PxPl3:%>д°ндоʼ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScSg1:%>дмʼ # ; !д°мʼ
 +Nom+Der/Pr+V+Ind+Aor+ScSg2:%^SCSG2%>н° # ; ! this undergoes n2d
++Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь° # ;
++Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>м° # ;
++Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3:%>%{рл%}° # ;
++Nom+Der/Pr+V+Ind+Prt1+ScPl3:%>°ць° # ; !°ць°
++Car:%>сиˮ # ;
++Equ:%>д°ремʼ # ;
++Equ+Lat:%>д°рев°ʼ # ;
+
+LEXICON SGSTEMS-LESS-SCHWA-VARIANTS
++Sg+Nom: # ;
++Sg+Acc:%>°мʼ # ;
++Sg+Gen:%>°ʼ # ;
++Sg+Loc:%>х°н%{ая%} # ;
++Sg+Abl:%>х°д° # ;
+!+Sg+Abl:%>хәд° # ;
++Du+Nom:%>х°ʼ # ;
++Du+Acc:%>х°ʼ # ;
++Du+Gen:%>х°ʼ # ;
++Pl+Nom:%>°ˮ # ;
++Pl+Dat:%>х°ˮ # ;
++Pl+Loc:%>х°ˮн%{ая%} # ;
++Pl+Abl:%>х°т° # ;
+!+Pl+Abl:%>хәт° # ;
++Sg+Dat+PxSg1:%>х°н° # ;
+!+Sg+Dat+PxSg1:%>хән° # ;
++Sg+Loc+PxSg1:%>х°н%{ая%}н° # ;
++Sg+Abl+PxSg1:%>х°дән° # ;
++Du+Nom+PxSg1:%>х°юн° # ;
++Du+Acc+PxSg1:%>х°юн° # ;
++Du+Gen+PxSg1:%>х°юн° # ;
++Pl+Dat+PxSg1:%>х°ˮн° # ;
+!+Pl+Dat+PxSg1:%>хәˮн° # ;
++Pl+Loc+PxSg1:%>х°ˮн%{ая%}н° # ;
++Pl+Abl+PxSg1:%>х°тән° # ;
++Sg+Dat+PxSg2:%>х°нд° # ;
+!+Sg+Dat+PxSg2:%>хәнд° # ;
++Sg+Loc+PxSg2:%>х°н%{ая%}нд° # ;
++Sg+Abl+PxSg2:%>х°дәнд° # ;
++Du+Nom+PxSg2:%>х°юд° # ;
++Du+Acc+PxSg2:%>х°юд° # ;
++Du+Gen+PxSg2:%>х°ют° # ;
++Pl+Dat+PxSg2:%>х°т° # ;
+!+Pl+Dat+PxSg2:%>хәт° # ;
++Pl+Loc+PxSg2:%>х°ˮн%{ая%}т° # ;
++Pl+Abl+PxSg2:%>х°тәт° # ;
++Sg+Nom+PxSg3:%>д%{ая%} # ;
++Sg+Dat+PxSg3:%>х°нда # ;
++Sg+Loc+PxSg3:%>х°н%{ая%}нда # ;
++Sg+Abl+PxSg3:%>х°дәнда # ;
++Du+Nom+PxSg3:%>х°юда # ;
++Du+Acc+PxSg3:%>х°юда # ;
++Du+Gen+PxSg3:%>х°юта # ;
++Pl+Dat+PxSg3:%>х°та # ;
++Pl+Loc+PxSg3:%>х°ˮн%{ая%}та # ;
++Pl+Abl+PxSg3:%>х°т°та # ;
++Sg+Nom+PxSg1+Use/SpellNoSugg:%>ми # ;
++Sg+Acc+PxSg1+Use/SpellNoSugg:%>ми # ;
++Sg+Gen+PxSg1+Use/SpellNoSugg:%>ни # ;
++Sg+Dat+PxSg1+Use/SpellNoSugg:%>х°ни # ;
++Sg+Loc+PxSg1+Use/SpellNoSugg:%>х°н%{ая%}ни # ;
++Sg+Abl+PxSg1+Use/SpellNoSugg:%>х°д°ни # ;
++Sg+Nom+PxDu1:%>миʼ # ;
++Sg+Acc+PxDu1:%>миʼ # ;
++Sg+Gen+PxDu1:%>ниʼ # ;
++Sg+Dat+PxDu1:%>х°ниʼ # ;
++Sg+Loc+PxDu1:%>х°н%{ая%}ниʼ # ;
++Sg+Abl+PxDu1:%>х°д°ниʼ # ;
++Du+Nom+PxSg1+Use/SpellNoSugg:%>х°юни # ;
++Du+Acc+PxSg1+Use/SpellNoSugg:%>х°юни # ;
++Du+Gen+PxSg1+Use/SpellNoSugg:%>х°юни # ;
++Du+Nom+PxDu1:%>х°юниʼ # ;
++Du+Acc+PxDu1:%>х°юниʼ # ;
++Du+Gen+PxDu1:%>х°юниʼ # ;
++Pl+Dat+PxSg1+Use/SpellNoSugg:%>х°ˮни # ;
++Pl+Loc+PxSg1+Use/SpellNoSugg:%>х°ˮн%{ая%}ни # ;
++Pl+Abl+PxSg1+Use/SpellNoSugg:%>х°т°ни # ;
++Pl+Dat+PxDu1:%>х°ˮниʼ # ;
++Pl+Loc+PxDu1:%>х°ˮн%{ая%}ниʼ # ;
++Pl+Abl+PxDu1:%>х°т°ниʼ # ;
+!+Pl+Abl+PxDu1:%>х°тәниʼ # ;
++Sg+Nom+PxDu2:%>%{рл%}иʼ # ;
++Sg+Dat+PxDu2:%>х°ндиʼ # ;
++Sg+Loc+PxDu2:%>х°н%{ая%}ндиʼ # ;
++Sg+Abl+PxDu2:%>х°дәндиʼ # ;
++Du+Nom+PxDu2:%>х°юдиʼ # ;
++Du+Acc+PxDu2:%>х°юдиʼ # ;
++Du+Gen+PxDu2:%>х°ютиʼ # ;
++Pl+Dat+PxDu2:%>х°тиʼ # ;
++Pl+Loc+PxDu2:%>х°ˮн%{ая%}тиʼ # ;
++Pl+Abl+PxDu2:%>х°т°тиʼ # ;
+!+Pl+Abl+PxDu2:%>х°тәтиʼ # ;
++Sg+Nom+PxDu3:%>диʼ # ;
++Sg+Dat+PxDu3:%>х°ндиʼ # ;
++Sg+Loc+PxDu3:%>х°н%{ая%}ндиʼ # ;
++Sg+Abl+PxDu3:%>х°дәндиʼ # ;
++Du+Nom+PxDu3:%>х°юдиʼ # ;
++Du+Acc+PxDu3:%>х°юдиʼ # ;
++Du+Gen+PxDu3:%>х°ютиʼ # ;
++Pl+Dat+PxDu3:%>х°тиʼ # ;
++Pl+Loc+PxDu3:%>х°ˮн%{ая%}тиʼ # ;
++Pl+Abl+PxDu3:%>х°т°тиʼ # ;
+!+Pl+Abl+PxDu3:%>х°тәтиʼ # ;
++Sg+Nom+PxPl1:%>маˮ # ;
++Sg+Acc+PxPl1:%>маˮ # ;
++Sg+Gen+PxPl1:%>наˮ # ; !! No n2d
++Sg+Dat+PxPl1:%>х°наˮ # ;
++Sg+Loc+PxPl1:%>х°н%{ая%}наˮ # ;
++Sg+Abl+PxPl1:%>х°д°наˮ # ;
+!+Sg+Abl+PxPl1:%>х°дәнаˮ # ;
++Du+Nom+PxPl1:%>х°юнаˮ # ;
++Du+Acc+PxPl1:%>х°юнаˮ # ;
++Du+Gen+PxPl1:%>х°юнаˮ # ;
++Pl+Dat+PxPl1:%>х°ˮнаˮ # ;
++Pl+Loc+PxPl1:%>х°ˮн%{ая%}наˮ # ;
++Pl+Abl+PxPl1:%>х°т°наˮ # ;
+!+Pl+Abl+PxPl1:%>х°тәнаˮ # ;
++Sg+Nom+PxPl2:%>%{рл%}аˮ # ;
++Sg+Dat+PxPl2:%>х°ндаˮ # ;
++Sg+Loc+PxPl2:%>х°н%{ая%}ндаˮ # ;
++Sg+Abl+PxPl2:%>х°дәндаˮ # ;
++Du+Nom+PxPl2:%>х°юдаˮ # ;
++Du+Acc+PxPl2:%>х°юдаˮ # ;
++Du+Gen+PxPl2:%>х°ютаˮ # ;
++Pl+Dat+PxPl2:%>х°таˮ # ;
++Pl+Loc+PxPl2:%>х°ˮн%{ая%}таˮ # ;
++Pl+Abl+PxPl2:%>х°т°таˮ # ;
+!+Pl+Abl+PxPl2:%>х°тәтаˮ # ;
++Sg+Nom+PxPl3:%>д%{оё%}ʼ # ;
++Sg+Dat+PxPl3:%>х°ндоʼ # ;
++Sg+Loc+PxPl3:%>х°н%{ая%}ндоʼ # ;
++Sg+Abl+PxPl3:%>х°дәндоʼ # ;
++Du+Nom+PxPl3:%>х°юдоʼ # ;
++Du+Acc+PxPl3:%>х°юдоʼ # ;
++Du+Gen+PxPl3:%>х°ютоʼ # ;
++Pl+Dat+PxPl3:%>х°тоʼ # ;
++Pl+Loc+PxPl3:%>х°ˮн%{ая%}тоʼ # ;
++Pl+Abl+PxPl3:%>х°т°тоʼ # ;
+!+Pl+Abl+PxPl3:%>х°тәтоʼ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScSg3: # ;
 +Nom+Der/Pr+V+Ind+Aor+ScDu1:%>ниʼ # ;
 +Nom+Der/Pr+V+Ind+Aor+ScDu2:%>диʼ # ;
@@ -606,16 +642,12 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Nom+Der/Pr+V+Ind+Aor+ScPl3:%>°ˮ # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScSg1:%>дамзь # ; !ә:а
 +Nom+Der/Pr+V+Ind+Prt1+ScSg2:%^SCSG2%>нась # ; ! this undergoes n2d ә:а
-+Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu1:%>нинзь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu2:%>динзь° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScDu3:%>х°нзь° # ; !ә:а
 !+Nom+Der/Pr+V+Ind+Prt1+ScDu3:%>хәнзь° # ; !ә:а
 +Nom+Der/Pr+V+Ind+Prt1+ScPl1:%>маць° # ;
 +Nom+Der/Pr+V+Ind+Prt1+ScPl2:%>даць° # ;
-+Nom+Der/Pr+V+Ind+Prt1+ScPl3:%>°ць° # ; !°ць°
-+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>м° # ;
-+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3:%>%{рл%}° # ;
 +Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3:%>д%{ая%} # ;
 +Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3:%>миʼ # ;
 +Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3:%>%{рл%}иʼ # ;
@@ -651,9 +683,6 @@ LEXICON NMN_МУНО  !!= @CODE@ муʼ: 27  ProsSg -мна
 +Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3:%>х°юдаць° # ;
 +Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3:%>х°юдонзь° # ;
 +Tra:%>ӈэ° # ;
-+Car:%>сиˮ # ;
-+Equ:%>д°ремʼ # ;
-+Equ+Lat:%>д°рев°ʼ # ;
 !:Н1 SGDATSUF ;
 !:Н1 SG-ACC-STEM ;
 !:Н1 SG-NOM-STEM ;
@@ -677,6 +706,10 @@ LEXICON PLVOWELVARIANTS-LESS-PROS
 +Pl+Nom+PxSg3:%^PLNOM%>д%{ая%} # ; ! no i2e
 +Pl+Acc+PxSg3:%^PLNOM%>д%{ая%} # ; ! no i2e
 +Pl+Gen+PxSg3:%>т%{ая%} # ;
++Pl+Nom+PxSg1+Use/SpellNoSugg:%^PLNOM%>ни # ; ! no i2e
++Pl+Acc+PxSg1+Use/SpellNoSugg:%^PLNOM%>ни # ; ! no i2e
++Pl+Gen+PxSg1+Use/SpellNoSugg:%>ˮни # ;
+
 +Pl+Nom+PxDu1:%^PLNOM%>ниʼ # ; ! no i2e
 +Pl+Acc+PxDu1:%^PLNOM%>ниʼ # ; ! no i2e
 +Pl+Gen+PxDu1:%>ˮниʼ # ;
@@ -717,6 +750,7 @@ LEXICON PLVOWELVARIANTS-LESS-PROS
 LEXICON PLPROSPXSUF
 +Pl+Pros:%>ˮм°н%{ая%} # ;
 +Pl+Pros+PxSg1:%>ˮм°н%{ая%}н° # ;
++Pl+Pros+PxSg1+Use/SpellNoSugg:%>ˮм°н%{ая%}ни # ;
 +Pl+Pros+PxSg2:%>ˮм°н%{ая%}т° # ;
 +Pl+Pros+PxSg3:%>ˮм°н%{ая%}та # ;
 +Pl+Pros+PxDu1:%>ˮм°н%{ая%}ниʼ # ;
@@ -780,15 +814,17 @@ LEXICON N_НЕНЭЦИЕ  !!= @CODE@ ненэцьʼ:ненэць 30   ProsSg -м
 !! Yaml: __nyenecyh__
 !! ң /total=13/
 !! ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
-+N:%>аӇ1 SGDATSUF ;
-+N:%>аӇ1 SG-ACC-STEM ;
-+N:Ӈ1 SGNOMSUF ; !!= @CODE@ 
-+N:%>аӇ1 SG-NOM-STEM ; !!= @CODE@ 
-+N:Ӈ1 SGPROSSUF ;
-+N:%>а PLNOMSUF ;
-+N:%>и PLACCSUF_Е ;
-+N:%>аӇ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
-+N:%>аӇ1 POSSESSA-DUAL ;
++N:°Ӈ1 NMN_МУНО ;
++N:°Ӈ1е MUNO_O ;
+!+N:%>аӇ1 SGDATSUF ;
+!+N:%>аӇ1 SG-ACC-STEM ;
+!+N:Ӈ1 SGNOMSUF ; !!= @CODE@ 
+!+N:%>аӇ1 SG-NOM-STEM ; !!= @CODE@ 
+!+N:Ӈ1 SGPROSSUF ;
+!+N:%>а PLNOMSUF ;
+!+N:%>и PLACCSUF_Е ;
+!+N:%>аӇ1  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+!+N:%>аӇ1 POSSESSA-DUAL ;
 
 LEXICON N_ПАХАЁ  !!= @CODE@ пӑхӑʼ: 31   ProsSg -мна
 !! ң /total=2/
