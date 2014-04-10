@@ -34,6 +34,7 @@ Adv
 The Usage extents are marked using the following tags:
   +Use/Sub     
   +Use/-Spell   
+* recognized but not suggested in speller
 
   +Rus  (100% Russian homograph)
 
@@ -453,7 +454,10 @@ Yaml: __yam__
 
 
  LEXICON NMN_МУНО   муʼ: 27  ProsSg -мна
+
+
 No n2d
+
 
 
 
@@ -485,9 +489,9 @@ Yaml: __ilje__
 Yaml: __nyenecyh__
 ң /total=13/
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
- +N:Ӈ1 SGNOMSUF ;  
- +N:%>аӇ1 SG-NOM-STEM ;  
- +N:%>аӇ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+ !+N:Ӈ1 SGNOMSUF ;  
+ !+N:%>аӇ1 SG-NOM-STEM ;  
+ !+N:%>аӇ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ПАХАЁ   пӑхӑʼ: 31   ProsSg -мна
 ң /total=2/
@@ -1337,8 +1341,12 @@ in combination with stem-final vowel loss тёня:тён
 
 
 
+
 __°:0 in Pros LEFT__
 Second Vowel Center
+Stems
+Affixes
+
 
 
 
@@ -1346,12 +1354,17 @@ Second Vowel Center
 
 __°:0 in Pros RIGHT__
 Second Vowel Center
+Stems
+Affixes
 
 
 
 
 
 
+
+
+RIGHT ARROW ONLY IN °:0
 
 
 
@@ -1363,7 +1376,11 @@ __°:а in Pros LEFT__
 Second Vowel Center
 
 
+
+
+
 Third Vowel Center
+
 
 
 
@@ -1374,11 +1391,16 @@ __°:а in Pros RIGHT__
 Second Vowel	Center
 
 
+
+
+
 Third Vowel Center
 
 
 
 
+
+RIGHT ARROW ONLY IN °:а
 
 
 
@@ -1393,6 +1415,7 @@ Third Vowel Center
 __°:у in Pros LEFT__
 
 __°:у in Pros RIGHT__
+
 
 
 
@@ -1424,7 +1447,10 @@ __ә:э in extra short to э__
 __ә:а in extra short to а__
 
 
-__0:а in Pros__
+__0:а in Pros LEFT__
+
+__0:а in Pros RIGHT__
+Right arrow only
 
 __0:э in Pros__
 
@@ -1564,42 +1590,45 @@ __a:i in ӈуда__
         р в:б  _ %^VowRaise:0 %> ;
 
 
-__a:i in ӈуда__
-о:у <=> _ %^VowRaise:0 ;
-__a:i in ӈуда__
+__о:у word-final position__
+
+__о:у word-final position__
 ё:ю <=> _ %^VowRaise:0 ;
-__a:i in ӈуда__
+__о:у word-final position__
 э:ы <=>		_ %^VowRaise:0 ;
 
 __я:и word-final position__
 
-__я:и word-final position__
+__я:е in яха__
+
+
+__я:е in яха__
 а:е <=> Cns _ Cns а: %^StemVowFronting:0 [ %> | # ] ;
-__я:и word-final position__
+__я:е in яха__
 а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
-__я:и word-final position__
+__я:е in яха__
 а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
      [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
        # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
-__я:и word-final position__
+__я:е in яха__
 а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
-__я:и word-final position__
+__я:е in яха__
 и:й <=> Vow: %^VowFronting: %> ъ: _ (%^A2I:) %> [ н | д ] Vow ;
  !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
 !!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-__я:и word-final position__
+__я:е in яха__
 я:й <=> Vow _ ( %^VowFronting: ) %^VowLoss:0 ;
        Vow %> ъ: _ (%>) [ н | д ] Vow ;
 !!VOWEL LOSS
-__я:и word-final position__
+__я:е in яха__
 а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
        Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
        
-__я:и word-final position__
+__я:е in яха__
 а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ х а ʼ ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
@@ -1607,21 +1636,22 @@ __я:и word-final position__
           в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ъ и | с: %{ая%}: | б ц | ˮ м а: | н: %{ая%}: ] ;
        # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ %> [ д а | м и ʼ | р и ʼ | р а ˮ | д и ʼ | д о ʼ | в а ˮ | н и ʼ | н а ˮ ] ;
        
-__я:и word-final position__
+__я:е in яха__
 я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        %> с _ %> ˮ [ # | %> ] ;
-__я:и word-final position__
+__я:е in яха__
 я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
         а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
-__я:и word-final position__
+__я:е in яха__
 и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
-__я:и word-final position__
+__я:е in яха__
 %{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
 !!CONSONANT CHANGES
 
 __mToV__
+
 
 __м:н GlottalNasalToSurface__
 
@@ -1714,11 +1744,13 @@ __%{рл%}:л__
 
 __%{рл%}:р__
 
+__х:с in яха__
 
 
-__%{рл%}:р__
+
+__х:с in яха__
 С1:с <=> _ %> [ м #: | ʼ #: | ˮ #: | (0:о) ˮ м а | Ы1: ] ;
-__%{рл%}:р__
+__х:с in яха__
 Д1:д <=> Vow: _ %> [ м ( ʼ ) #: | ʼ #: | ˮ [ # | ӈ э ] | о | е | ё ] ;
 
 __Н1:н GlottalNasalToSurface__
