@@ -95,6 +95,7 @@ Second Vowel Center
 
 
 
+
 Third Vowel Center
 
 
@@ -105,6 +106,7 @@ Third Vowel Center
 
 __°:а in Pros RIGHT__
 Second Vowel	Center
+
 
 
 
@@ -408,26 +410,27 @@ __nTod__
 
 __nTod__
 т:д <=>   Н1: %> _ а ;
-__nTod__
-н:т <=>  [ С1: | Д1: | ˮ: ] %> _ [ ʼ | а  ] ;
-__nTod__
-д:т <=> [ С1:0 | Д1:0 | ˮ:0 ] %> _ ;
-__nTod__
+
+__n to t after non-nasal glottal__
+
+__d to t after non-nasal glottal__
+
+__d to t after non-nasal glottal__
 д:л <=> [ Д1:ˮ | ˮ:ˮ  ] %> _ а ц ь ;
-__nTod__
+__d to t after non-nasal glottal__
 б:п <=> [ С1: | Д1: | ˮ: ] %> _ ;
        %> _ ˮ # ; илесь:илебˮ
-__nTod__
+__d to t after non-nasal glottal__
 б:0 <=> [ л | р ] %> _ ц [ а к | у ];
-__nTod__
+__d to t after non-nasal glottal__
 {{{
 ъ:0 <=> Vow: (%^VowFronting:) %> _ [ и: | я: ] ;
  !!2014-03-24!!         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ; !!= !!2014-03-24!!         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
 }}}
-__nTod__
-с:ц <=> [ С1: | Д1: | ˮ: | л ] %> _ ь ;
-       [ л | р ] %> _ [ а | я | и | %{ая%}: ] ;
+
+
+__с => ц affrication after Stop__
 
 __с => з after nasal__
 
@@ -444,11 +447,12 @@ __с => з after nasal__
 
 __х -> г after nasal glottal__
 
-__х -> г after nasal glottal__
-х:к <=> [ Д1: | С1: | л | р ] %> _  ;
+__х to к after non-nasal glottal__
+
 !!Realization of glottal stops
 !SURFACE CONSONANT
-__х -> г after nasal glottal__
+
+__х to к after non-nasal glottal__
 %{вм%}:м <=> [ Ӈ1: | Н1: | Д1: | С1: | ʼ: | ˮ: | р | л ] %> _  ;
 
 __%{рл%}:л__
@@ -464,10 +468,9 @@ __х:с in яха__
 
 
 
-__х:с in яха__
-С1:с <=> _ %> [ м #: | ʼ #: | ˮ #: | (0:о) ˮ м а | Ы1: ] ;
-__х:с in яха__
-Д1:д <=> Vow: _ %> [ м ( ʼ ) #: | ʼ #: | ˮ [ # | ӈ э ] | о | е | ё ] ;
+__С1:с GlottalNonNasalToSurface__
+
+__Д1:д GlottalNonNasalToSurface__
 
 __Н1:н GlottalNasalToSurface__
 
@@ -496,18 +499,18 @@ __Ӈ1:0 GlottalNasalToSurface__
 
 
 
-__Ӈ1:0 GlottalNasalToSurface__
-Д1:0 <=> _ %>  [ х: | н:  ʼ | с: ь | ц ь | д: (а ˮ) | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
-Cns:  _ %>  [ (м) ʼ | ˮ ]  ;
-__Ӈ1:0 GlottalNasalToSurface__
-С1:0 <=> _ %> [ х: | н: | б: | с: ь | т ˮ ] ;
-__Ӈ1:0 GlottalNasalToSurface__
+__Д1:0 GlottalNonNasalToZERO__
+
+__С1:0 GlottalNonNasalToZERO__
+
+
+__С1:0 GlottalNonNasalToZERO__
 ь:0 <=> С1: _ %> [ х: | н ] ;
     _ %> [ а: | у: | и ] ;
-__Ӈ1:0 GlottalNasalToSurface__
-С1:ˮ <=> _ [ #: | %> м н а | %> %{вм%}:м ] ;
-__Ӈ1:0 GlottalNasalToSurface__
-Д1:ˮ => _ [ #: | %> [ д:л а ц ь | и | м и | ӈ э | м а | а м н а | ( 0: ) м н а | н а | н [ и | # | %> ] ] ] ;
+
+__С1:ˮ UnderlyingToGlottal__
+
+__Д1:ˮ UnderlyingToGlottal__
 
 __Н1:ʼ UnderlyingToGlottal__
 
