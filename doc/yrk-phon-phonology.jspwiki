@@ -80,7 +80,11 @@ Affixes
 
 
 
+
 RIGHT ARROW ONLY IN °:0
+
+
+
 
 
 
@@ -104,8 +108,11 @@ Third Vowel Center
 
 
 
+
 __°:а in Pros RIGHT__
 Second Vowel	Center
+
+
 
 
 
@@ -118,7 +125,11 @@ Third Vowel Center
 
 
 
+
+
 RIGHT ARROW ONLY IN °:а
+
+
 
 
 
@@ -371,38 +382,43 @@ __я:е in яха__
 __mToV__
 
 
-__м:н GlottalNasalToSurface__
+__mToV__
 
-__м:н GlottalNasalToSurface__
+__m loss before Labial followed by nonglottal cons or vows __
+
+__н loss after glottal before д: __
+
+
+
 * !!2014-03-24!!  поʼ+N+Sg+Acc+PxSg2:понд 
 
 
-__м:н GlottalNasalToSurface__,
+__н loss after glottal before д: __,
 %{увм%}:в <=>
        :Vow ( %^VowLower: ) %> (%{ауоэиыØ%}:)  _  А2: н [ а | %{ая%}: ]  ;
        н %> 0:у  _  А2: н а  ;
       :Vow %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
       [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
-__м:н GlottalNasalToSurface__,
+__н loss after glottal before д: __,
 %{увм%}:м <=>
        [ :Vow |Vow: ] ( %^VowLower: | %^VowRaise: | %^A2I: | ( %^PalLoss: ) %^VowLoss: ) %> [ ˮ | Д1: ]  _  А2: н а  ;
        [ Ӈ1: | Д1: ] %> _  А2: н а  ;
        [[ Ӈ1: | ʼ: | ˮ: | Д1: | С1: ] %> | %> ˮ ] %{ауоэиыØ%}: _ (А2:) н %{ая%}: ;
-__м:н GlottalNasalToSurface__
+__н loss after glottal before д: __
 м:б <=> _ %^MLenition:0 %> [ е ] ;
-__м:н GlottalNasalToSurface__
+__н loss after glottal before д: __
 в:б <=> [ %> р | Vow ] _ а: (%^VowFronting:0) %^VowRaise: %> ;
         Vow _ а: %^A2I: ;
-__м:н GlottalNasalToSurface__
+__н loss after glottal before д: __
 %{вм%}:б <=> [ %> р | Vow ] _ а: (%^VowFronting:0) %^VowRaise: %> ;
         Vow (%>) _ а:и %^A2I: ;
-__м:н GlottalNasalToSurface__
+__н loss after glottal before д: __
 в:м <=> [ Ӈ1: ] %> _ ;
 [ м: ʼ: | Ӈ1: ] %> _ ;
-__м:н GlottalNasalToSurface__
+__н loss after glottal before д: __
 р:л <=> [ ʼ: | Ӈ1: ] %> _ ;
        Vow _  %> р: [ в | х ] а ;
-__м:н GlottalNasalToSurface__
+__н loss after glottal before д: __
 р:0 <=> Vow [ л | р: ] %> _  ;
 
 
@@ -471,6 +487,7 @@ __х:с in яха__
 __С1:с GlottalNonNasalToSurface__
 
 __Д1:д GlottalNonNasalToSurface__
+
 
 __Н1:н GlottalNasalToSurface__
 
