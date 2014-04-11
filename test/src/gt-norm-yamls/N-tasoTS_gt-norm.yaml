@@ -1,0 +1,312 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+# NB! Following stem-final modifications take place in AccPl stem: ва -> би, ка -> ци, га -> зи
+# #+Use/SpellNoSugg
+  Noun - таˮ: # Noun 'extra /(fin) таˮ' - full paradigm /MDTN-koodi s+o/
+     таˮ+N+Sg+Nom: таˮ
+     таˮ+N+Sg+Acc: тасмʼ
+     таˮ+N+Sg+Gen: тасʼ
+     таˮ+N+Sg+Dat: татʼ
+     таˮ+N+Sg+Loc: [такана, такна]
+     таˮ+N+Sg+Abl: такад
+     таˮ+N+Sg+Pros: таˮамна
+     таˮ+N+Du+Nom: такʼ
+     таˮ+N+Du+Acc: такʼ
+     таˮ+N+Du+Gen: такʼ
+     таˮ+N+Pl+Nom: тасˮ
+     таˮ+N+Pl+Acc: тасо
+     таˮ+N+Pl+Gen: тасоˮ
+     таˮ+N+Pl+Dat: такˮ
+     таˮ+N+Pl+Loc: [такаˮна, такˮна]
+     таˮ+N+Pl+Abl: такат
+     таˮ+N+Pl+Pros: тасоˮмана
+     таˮ+N+Sg+Nom+PxSg1: таˮам
+     таˮ+N+Sg+Acc+PxSg1: таˮам
+     таˮ+N+Sg+Gen+PxSg1: таˮан
+     таˮ+N+Sg+Dat+PxSg1: такан
+     таˮ+N+Sg+Loc+PxSg1: [таканан, такнан]
+     таˮ+N+Sg+Abl+PxSg1: [такадан, такдан]
+     таˮ+N+Sg+Pros+PxSg1: таˮамнан
+     таˮ+N+Du+Nom+PxSg1: [такаюн, такюн]
+     таˮ+N+Du+Acc+PxSg1: [такаюн, такюн]
+     таˮ+N+Du+Gen+PxSg1: [такаюн, такюн]
+     таˮ+N+Pl+Nom+PxSg1: тасон
+     таˮ+N+Pl+Acc+PxSg1: тасон
+     таˮ+N+Pl+Gen+PxSg1: тасоˮн
+     таˮ+N+Pl+Dat+PxSg1: такаˮн
+     таˮ+N+Pl+Loc+PxSg1: [такаˮнан, такˮнан]
+     таˮ+N+Pl+Abl+PxSg1: [такатан, тактан]
+     таˮ+N+Pl+Pros+PxSg1: тасоˮманан
+     таˮ+N+Sg+Nom+PxSg2: таˮал
+     таˮ+N+Sg+Acc+PxSg2: тат
+     таˮ+N+Sg+Gen+PxSg2: тат
+     таˮ+N+Sg+Dat+PxSg2: таканд
+     таˮ+N+Sg+Loc+PxSg2: [такананд, такнанд]
+     таˮ+N+Sg+Abl+PxSg2: [такаданд, такданд]
+     таˮ+N+Sg+Pros+PxSg2: таˮамнанд
+     таˮ+N+Du+Nom+PxSg2: [такаюд, такюд]
+     таˮ+N+Du+Acc+PxSg2: [такаюд, такюд]
+     таˮ+N+Du+Gen+PxSg2: [такают, такют]
+     таˮ+N+Pl+Nom+PxSg2: тасод
+     таˮ+N+Pl+Acc+PxSg2: тасод
+     таˮ+N+Pl+Gen+PxSg2: тасот
+     таˮ+N+Pl+Dat+PxSg2: такат
+     таˮ+N+Pl+Loc+PxSg2: [такаˮнат, такˮнат]
+     таˮ+N+Pl+Abl+PxSg2: [такатат, тактат]
+     таˮ+N+Pl+Pros+PxSg2: тасоˮманат
+     таˮ+N+Sg+Nom+PxSg3: тата
+     таˮ+N+Sg+Acc+PxSg3: тата
+     таˮ+N+Sg+Gen+PxSg3: тата
+     таˮ+N+Sg+Dat+PxSg3: таканда
+     таˮ+N+Sg+Loc+PxSg3: [такананда, такнанда]
+     таˮ+N+Sg+Abl+PxSg3: [такаданда, такданда]
+     таˮ+N+Sg+Pros+PxSg3: таˮамнанда
+     таˮ+N+Du+Nom+PxSg3: [такаюда, такюда]
+     таˮ+N+Du+Acc+PxSg3: [такаюда, такюда]
+     таˮ+N+Du+Gen+PxSg3: [такаюта, такюта]
+     таˮ+N+Pl+Nom+PxSg3: тасода
+     таˮ+N+Pl+Acc+PxSg3: тасода
+     таˮ+N+Pl+Gen+PxSg3: тасота
+     таˮ+N+Pl+Dat+PxSg3: [таката, такта]
+     таˮ+N+Pl+Loc+PxSg3: [такаˮната, такˮната]
+     таˮ+N+Pl+Abl+PxSg3: [такатата, тактата]
+     таˮ+N+Pl+Pros+PxSg3: тасоˮманата
+     таˮ+N+Sg+Nom+PxDu1: таˮмиʼ
+     таˮ+N+Sg+Nom+PxSg1.2: таˮми
+     таˮ+N+Sg+Acc+PxDu1: таˮмиʼ
+     таˮ+N+Sg+Acc+PxSg1.2: таˮми
+     таˮ+N+Sg+Gen+PxDu1: таˮниʼ
+     таˮ+N+Sg+Gen+PxSg1.2: таˮни
+     таˮ+N+Sg+Dat+PxDu1: [таканиʼ, такниʼ]
+     таˮ+N+Sg+Dat+PxSg1.2: [такани, такни]
+     таˮ+N+Sg+Loc+PxDu1: [такананиʼ, такнаниʼ]
+     таˮ+N+Sg+Loc+PxSg1.2: [таканани, такнани]
+     таˮ+N+Sg+Abl+PxDu1: [такаданиʼ, такданиʼ]
+     таˮ+N+Sg+Abl+PxSg1.2: [такадани, такдани]
+     таˮ+N+Sg+Pros+PxDu1: таˮамнаниʼ
+     таˮ+N+Sg+Pros+PxSg1.2: таˮамнани
+     таˮ+N+Du+Nom+PxDu1: [такаюниʼ, такюниʼ]
+     таˮ+N+Du+Nom+PxSg1.2: [такаюни, такюни]
+     таˮ+N+Du+Acc+PxDu1: [такаюниʼ, такюниʼ]
+     таˮ+N+Du+Acc+PxSg1.2: [такаюни, такюни]
+     таˮ+N+Du+Gen+PxDu1: [такаюниʼ, такюниʼ]
+     таˮ+N+Du+Gen+PxSg1.2: [такаюни, такюни]
+     таˮ+N+Pl+Nom+PxDu1: тасониʼ
+     таˮ+N+Pl+Nom+PxSg1.2: тасони
+     таˮ+N+Pl+Acc+PxDu1: тасониʼ
+     таˮ+N+Pl+Acc+PxSg1.2: тасони
+     таˮ+N+Pl+Gen+PxDu1: тасоˮниʼ
+     таˮ+N+Pl+Gen+PxSg1.2: тасоˮни
+     таˮ+N+Pl+Dat+PxDu1: [такаˮниʼ, такˮниʼ]
+     таˮ+N+Pl+Dat+PxSg1.2: [такаˮни, такˮни]
+     таˮ+N+Pl+Loc+PxDu1: [такаˮнаниʼ, такˮнаниʼ]
+     таˮ+N+Pl+Loc+PxSg1.2: [такаˮнани, такˮнани]
+     таˮ+N+Pl+Abl+PxDu1: [такатаниʼ, тактаниʼ]
+     таˮ+N+Pl+Abl+PxSg1.2: [такатани, тактани]
+     таˮ+N+Pl+Pros+PxDu1: тасоˮмананиʼ
+     таˮ+N+Pl+Pros+PxSg1.2: тасоˮманани
+     таˮ+N+Sg+Nom+PxDu2: таˮлиʼ
+     таˮ+N+Sg+Acc+PxDu2: татиʼ
+     таˮ+N+Sg+Gen+PxDu2: татиʼ
+     таˮ+N+Sg+Dat+PxDu2: такандиʼ
+     таˮ+N+Sg+Loc+PxDu2: [таканандиʼ, такнандиʼ]
+     таˮ+N+Sg+Abl+PxDu2: [такадандиʼ, такдандиʼ]
+     таˮ+N+Sg+Pros+PxDu2: таˮамнандиʼ
+     таˮ+N+Du+Nom+PxDu2: [такаюдиʼ, такюдиʼ]
+     таˮ+N+Du+Acc+PxDu2: [такаюдиʼ, такюдиʼ]
+     таˮ+N+Du+Gen+PxDu2: [такаютиʼ, такютиʼ]
+     таˮ+N+Pl+Nom+PxDu2: тасодиʼ
+     таˮ+N+Pl+Acc+PxDu2: тасодиʼ
+     таˮ+N+Pl+Gen+PxDu2: тасотиʼ
+     таˮ+N+Pl+Dat+PxDu2: [такатиʼ, тактиʼ]
+     таˮ+N+Pl+Loc+PxDu2: [такаˮнатиʼ, такˮнатиʼ]
+     таˮ+N+Pl+Abl+PxDu2: [такататиʼ, тактатиʼ]
+     таˮ+N+Pl+Pros+PxDu2: тасоˮманатиʼ
+     таˮ+N+Sg+Nom+PxDu3: татиʼ
+     таˮ+N+Sg+Acc+PxDu3: татиʼ
+     таˮ+N+Sg+Gen+PxDu3: татиʼ
+     таˮ+N+Sg+Dat+PxDu3: такандиʼ
+     таˮ+N+Sg+Loc+PxDu3: [таканандиʼ, такнандиʼ]
+     таˮ+N+Sg+Abl+PxDu3: [такадандиʼ, такдандиʼ]
+     таˮ+N+Sg+Pros+PxDu3: таˮамнандиʼ
+     таˮ+N+Du+Nom+PxDu3: [такаюдиʼ, такюдиʼ]
+     таˮ+N+Du+Acc+PxDu3: [такаюдиʼ, такюдиʼ]
+     таˮ+N+Du+Gen+PxDu3: [такаютиʼ, такютиʼ]
+     таˮ+N+Pl+Nom+PxDu3: тасодиʼ
+     таˮ+N+Pl+Acc+PxDu3: тасодиʼ
+     таˮ+N+Pl+Gen+PxDu3: тасотиʼ
+     таˮ+N+Pl+Dat+PxDu3: [такатиʼ, тактиʼ]
+     таˮ+N+Pl+Loc+PxDu3: [такаˮнатиʼ, такˮнатиʼ]
+     таˮ+N+Pl+Abl+PxDu3: [такататиʼ, тактатиʼ]
+     таˮ+N+Pl+Pros+PxDu3: тасоˮманатиʼ
+     таˮ+N+Sg+Nom+PxPl1: таˮмаˮ
+     таˮ+N+Sg+Acc+PxPl1: таˮмаˮ
+     таˮ+N+Sg+Gen+PxPl1: таˮнаˮ
+     таˮ+N+Sg+Dat+PxPl1: [таканаˮ, такнаˮ]
+     таˮ+N+Sg+Loc+PxPl1: [такананаˮ, такнанаˮ]
+     таˮ+N+Sg+Abl+PxPl1: [такаданаˮ, такданаˮ]
+     таˮ+N+Sg+Pros+PxPl1: таˮамнанаˮ
+     таˮ+N+Du+Nom+PxPl1: [такаюнаˮ, такюнаˮ]
+     таˮ+N+Du+Acc+PxPl1: [такаюнаˮ, такюнаˮ]
+     таˮ+N+Du+Gen+PxPl1: [такаюнаˮ, такюнаˮ]
+     таˮ+N+Pl+Nom+PxPl1: тасонаˮ
+     таˮ+N+Pl+Acc+PxPl1: тасонаˮ
+     таˮ+N+Pl+Gen+PxPl1: тасоˮнаˮ
+     таˮ+N+Pl+Dat+PxPl1: [такаˮнаˮ, такˮнаˮ]
+     таˮ+N+Pl+Loc+PxPl1: [такаˮнанаˮ, такˮнанаˮ]
+     таˮ+N+Pl+Abl+PxPl1: [такатанаˮ, тактанаˮ]
+     таˮ+N+Pl+Pros+PxPl1: тасоˮмананаˮ
+     таˮ+N+Sg+Nom+PxPl2: таˮлаˮ
+     таˮ+N+Sg+Acc+PxPl2: татаˮ
+     таˮ+N+Sg+Gen+PxPl2: татаˮ
+     таˮ+N+Sg+Dat+PxPl2: такандаˮ
+     таˮ+N+Sg+Loc+PxPl2: [таканандаˮ, такнандаˮ]
+     таˮ+N+Sg+Abl+PxPl2: [такадандаˮ, такдандаˮ]
+     таˮ+N+Sg+Pros+PxPl2: таˮамнандаˮ
+     таˮ+N+Du+Nom+PxPl2: [такаюдаˮ, такюдаˮ]
+     таˮ+N+Du+Acc+PxPl2: [такаюдаˮ, такюдаˮ]
+     таˮ+N+Du+Gen+PxPl2: [такаютаˮ, такютаˮ]
+     таˮ+N+Pl+Nom+PxPl2: тасодаˮ
+     таˮ+N+Pl+Acc+PxPl2: тасодаˮ
+     таˮ+N+Pl+Gen+PxPl2: тасотаˮ
+     таˮ+N+Pl+Dat+PxPl2: [такатаˮ, тактаˮ]
+     таˮ+N+Pl+Loc+PxPl2: [такаˮнатаˮ, такˮнатаˮ]
+     таˮ+N+Pl+Abl+PxPl2: [такататаˮ, тактатаˮ]
+     таˮ+N+Pl+Pros+PxPl2: тасоˮманатаˮ
+     таˮ+N+Sg+Nom+PxPl3: татоʼ
+     таˮ+N+Sg+Acc+PxPl3: татоʼ
+     таˮ+N+Sg+Gen+PxPl3: татоʼ
+     таˮ+N+Sg+Dat+PxPl3: такандоʼ
+     таˮ+N+Sg+Loc+PxPl3: [таканандоʼ, такнандоʼ]
+     таˮ+N+Sg+Abl+PxPl3: [такадандоʼ, такдандоʼ]
+     таˮ+N+Sg+Pros+PxPl3: таˮамнандоʼ
+     таˮ+N+Du+Nom+PxPl3: [такаюдоʼ, такюдоʼ]
+     таˮ+N+Du+Acc+PxPl3: [такаюдоʼ, такюдоʼ]
+     таˮ+N+Du+Gen+PxPl3: [такаютоʼ, такютоʼ]
+     таˮ+N+Pl+Nom+PxPl3: тасодоʼ
+     таˮ+N+Pl+Acc+PxPl3: тасодоʼ
+     таˮ+N+Pl+Gen+PxPl3: тасотоʼ
+     таˮ+N+Pl+Dat+PxPl3: [такатоʼ, тактоʼ]
+     таˮ+N+Pl+Loc+PxPl3: [такаˮнатоʼ, такˮнатоʼ]
+     таˮ+N+Pl+Abl+PxPl3: [такататоʼ, тактатоʼ]
+     таˮ+N+Pl+Pros+PxPl3: тасоˮманатоʼ
+     таˮ+N+Pred+Abs: тат
+     таˮ+N+Pred+Nom+PxSg1: [татав, татув]
+     таˮ+N+Pred+Acc+PxSg1: [татав, татув]
+     таˮ+N+Pred+Gen+PxSg1: татан
+     таˮ+N+Pred+Nom+PxSg2: татар
+     таˮ+N+Pred+Acc+PxSg2: татамд
+     таˮ+N+Pred+Gen+PxSg2: татанд
+     таˮ+N+Pred+Nom+PxSg3: [татада, татда]
+     таˮ+N+Pred+Acc+PxSg3: [татамда, татмда]
+     таˮ+N+Pred+Gen+PxSg3: [татанда, татнда]
+     таˮ+N+Pred+Nom+PxDu1: [татамиʼ, татмиʼ]
+     таˮ+N+Pred+Nom+PxSg1.2: [татами, татми]
+     таˮ+N+Pred+Acc+PxDu1: [татамиʼ, татмиʼ]
+     таˮ+N+Pred+Acc+PxSg1.2: [татами, татми]
+     таˮ+N+Pred+Gen+PxDu1: [татаниʼ, татниʼ]
+     таˮ+N+Pred+Gen+PxSg1.2: [татани, татни]
+     таˮ+N+Pred+Nom+PxDu2: татриʼ
+     таˮ+N+Pred+Acc+PxDu2: [татамдиʼ, татмдиʼ]
+     таˮ+N+Pred+Gen+PxDu2: [татандиʼ, татндиʼ]
+     таˮ+N+Pred+Nom+PxDu3: [татадиʼ, татдиʼ]
+     таˮ+N+Pred+Acc+PxDu3: [татамдиʼ, татмдиʼ]
+     таˮ+N+Pred+Gen+PxDu3: [татандиʼ, татндиʼ]
+     таˮ+N+Pred+Nom+PxPl1: татваˮ
+     таˮ+N+Pred+Acc+PxPl1: татваˮ
+     таˮ+N+Pred+Gen+PxPl1: [татанаˮ, татнаˮ]
+     таˮ+N+Pred+Nom+PxPl2: татраˮ
+     таˮ+N+Pred+Acc+PxPl2: [татамдаˮ, татмдаˮ]
+     таˮ+N+Pred+Gen+PxPl2: [татандаˮ, татндаˮ]
+     таˮ+N+Pred+Nom+PxPl3: [татадоʼ, татдоʼ]
+     таˮ+N+Pred+Acc+PxPl3: [татамдоʼ, татмдоʼ]
+     таˮ+N+Pred+Gen+PxPl3: [татандоʼ, татндоʼ]
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: татмʼ
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: тат
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: таˮ
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: таˮниʼ
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: татиʼ
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: такʼ
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: таˮмаˮ
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: татаˮ
+     таˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: тасˮ
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: татамзь
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: татась
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: таць
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: таˮнинзь
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: татинзь
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: таканзь
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: таˮмаць
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: татаць
+     таˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: тасаць
+     таˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: таˮам
+     таˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: таˮал
+     таˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: тата
+     таˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: таˮмиʼ
+     таˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: таˮлиʼ
+     таˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: татиʼ
+     таˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: таˮмаˮ
+     таˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: таˮлаˮ
+     таˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: татоʼ
+     таˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: таˮмась
+     таˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: таˮлась
+     таˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: татась
+     таˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: таˮминзь
+     таˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: таˮлинзь
+     таˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: татинзь
+     таˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: таˮмаць
+     таˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: таˮлаць
+     таˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: татонзь
+     таˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: [такаюн, такюн]
+     таˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: [такаюд, такюд]
+     таˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: [такаюда, такюда]
+     таˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: [такаюниʼ, такюниʼ]
+     таˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: [такаюдиʼ, такюдиʼ]
+     таˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: [такаюдиʼ, такюдиʼ]
+     таˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: [такаюнаˮ, такюнаˮ]
+     таˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: [такаюдаˮ, такюдаˮ]
+     таˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: [такаюдоʼ, такюдоʼ]
+     таˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: [такаюнась, такюнась]
+     таˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: [такаюдась, такюдась]
+     таˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: [такаюдась, такюдась]
+     таˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: [такаюнинзь, такюнинзь]
+     таˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: [такаюдинзь, такюдинзь]
+     таˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: [такаюдинзь, такюдинзь]
+     таˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: [такаюнаць, такюнаць]
+     таˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: [такаюдаць, такюдаць]
+     таˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: [такаюдонзь, такюдонзь]
+     таˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: тасон
+     таˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: тасод
+     таˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: тасода
+     таˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: тасониʼ
+     таˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: тасодиʼ
+     таˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: тасодиʼ
+     таˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: тасонаˮ
+     таˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: тасодаˮ
+     таˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: тасодоʼ
+     таˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: тасонась
+     таˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: тасодась
+     таˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: тасодась
+     таˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: тасонинзь
+     таˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: тасодинзь
+     таˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: тасодинзь
+     таˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: тасонаць
+     таˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: тасодаць
+     таˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: тасодонзь
+     таˮ+N+Tra: таˮӈэ
+     таˮ+N+Car: тациˮ
+     таˮ+N+Equ: татремʼ
+     таˮ+N+Equ+Lat: татревʼ

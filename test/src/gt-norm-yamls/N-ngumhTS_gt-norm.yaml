@@ -1,0 +1,312 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+# NB! Following stem-final modifications take place in AccPl stem: ва -> би, ка -> ци, га -> зи
+
+  Noun - ӈумʼ: # Noun 'hay /(fin) ӈумʼ' - full paradigm /MDTN-koodi m+o/
+     ӈумʼ+N+Sg+Nom: ӈумʼ
+     ӈумʼ+N+Sg+Acc: ӈувмʼ
+     ӈумʼ+N+Sg+Gen: ӈувʼ
+     ӈумʼ+N+Sg+Dat: ӈумдʼ
+     ӈумʼ+N+Sg+Loc: [ӈумгана, ӈумгна]
+     ӈумʼ+N+Sg+Abl: ӈумгад
+     ӈумʼ+N+Sg+Pros: ӈумна
+     ӈумʼ+N+Du+Nom: ӈумгʼ
+     ӈумʼ+N+Du+Acc: ӈумгʼ
+     ӈумʼ+N+Du+Gen: ӈумгʼ
+     ӈумʼ+N+Pl+Nom: ӈувˮ
+     ӈумʼ+N+Pl+Acc: ӈуво
+     ӈумʼ+N+Pl+Gen: ӈувоˮ
+     ӈумʼ+N+Pl+Dat: ӈумгˮ
+     ӈумʼ+N+Pl+Loc: [ӈумгаˮна, ӈумгˮна]
+     ӈумʼ+N+Pl+Abl: ӈумгат
+     ӈумʼ+N+Pl+Pros: ӈувоˮмана
+     ӈумʼ+N+Sg+Nom+PxSg1: ӈум
+     ӈумʼ+N+Sg+Acc+PxSg1: ӈум
+     ӈумʼ+N+Sg+Gen+PxSg1: ӈумн
+     ӈумʼ+N+Sg+Dat+PxSg1: ӈумган
+     ӈумʼ+N+Sg+Loc+PxSg1: [ӈумганан, ӈумгнан]
+     ӈумʼ+N+Sg+Abl+PxSg1: [ӈумгадан, ӈумгдан]
+     ӈумʼ+N+Sg+Pros+PxSg1: ӈумнан
+     ӈумʼ+N+Du+Nom+PxSg1: [ӈумгаюн, ӈумгюн]
+     ӈумʼ+N+Du+Acc+PxSg1: [ӈумгаюн, ӈумгюн]
+     ӈумʼ+N+Du+Gen+PxSg1: [ӈумгаюн, ӈумгюн]
+     ӈумʼ+N+Pl+Nom+PxSg1: ӈувон
+     ӈумʼ+N+Pl+Acc+PxSg1: ӈувон
+     ӈумʼ+N+Pl+Gen+PxSg1: ӈувоˮн
+     ӈумʼ+N+Pl+Dat+PxSg1: ӈумгаˮн
+     ӈумʼ+N+Pl+Loc+PxSg1: [ӈумгаˮнан, ӈумгˮнан]
+     ӈумʼ+N+Pl+Abl+PxSg1: [ӈумгатан, ӈумгтан]
+     ӈумʼ+N+Pl+Pros+PxSg1: ӈувоˮманан
+     ӈумʼ+N+Sg+Nom+PxSg2: ӈумл
+     ӈумʼ+N+Sg+Acc+PxSg2: ӈумд
+     ӈумʼ+N+Sg+Gen+PxSg2: ӈумд
+     ӈумʼ+N+Sg+Dat+PxSg2: ӈумганд
+     ӈумʼ+N+Sg+Loc+PxSg2: [ӈумгананд, ӈумгнанд]
+     ӈумʼ+N+Sg+Abl+PxSg2: [ӈумгаданд, ӈумгданд]
+     ӈумʼ+N+Sg+Pros+PxSg2: ӈумнанд
+     ӈумʼ+N+Du+Nom+PxSg2: [ӈумгаюд, ӈумгюд]
+     ӈумʼ+N+Du+Acc+PxSg2: [ӈумгаюд, ӈумгюд]
+     ӈумʼ+N+Du+Gen+PxSg2: [ӈумгают, ӈумгют]
+     ӈумʼ+N+Pl+Nom+PxSg2: ӈувод
+     ӈумʼ+N+Pl+Acc+PxSg2: ӈувод
+     ӈумʼ+N+Pl+Gen+PxSg2: ӈувот
+     ӈумʼ+N+Pl+Dat+PxSg2: ӈумгат
+     ӈумʼ+N+Pl+Loc+PxSg2: [ӈумгаˮнат, ӈумгˮнат]
+     ӈумʼ+N+Pl+Abl+PxSg2: [ӈумгатат, ӈумгтат]
+     ӈумʼ+N+Pl+Pros+PxSg2: ӈувоˮманат
+     ӈумʼ+N+Sg+Nom+PxSg3: ӈумда
+     ӈумʼ+N+Sg+Acc+PxSg3: ӈумда
+     ӈумʼ+N+Sg+Gen+PxSg3: ӈумда
+     ӈумʼ+N+Sg+Dat+PxSg3: ӈумганда
+     ӈумʼ+N+Sg+Loc+PxSg3: [ӈумгананда, ӈумгнанда]
+     ӈумʼ+N+Sg+Abl+PxSg3: [ӈумгаданда, ӈумгданда]
+     ӈумʼ+N+Sg+Pros+PxSg3: ӈумнанда
+     ӈумʼ+N+Du+Nom+PxSg3: [ӈумгаюда, ӈумгюда]
+     ӈумʼ+N+Du+Acc+PxSg3: [ӈумгаюда, ӈумгюда]
+     ӈумʼ+N+Du+Gen+PxSg3: [ӈумгаюта, ӈумгюта]
+     ӈумʼ+N+Pl+Nom+PxSg3: ӈувода
+     ӈумʼ+N+Pl+Acc+PxSg3: ӈувода
+     ӈумʼ+N+Pl+Gen+PxSg3: ӈувота
+     ӈумʼ+N+Pl+Dat+PxSg3: [ӈумгата, ӈумгта]
+     ӈумʼ+N+Pl+Loc+PxSg3: [ӈумгаˮната, ӈумгˮната]
+     ӈумʼ+N+Pl+Abl+PxSg3: [ӈумгатата, ӈумгтата]
+     ӈумʼ+N+Pl+Pros+PxSg3: ӈувоˮманата
+     ӈумʼ+N+Sg+Nom+PxDu1: ӈумиʼ
+#     ӈумʼ+N+Sg+Nom+PxSg1.2: ӈуми
+     ӈумʼ+N+Sg+Acc+PxDu1: ӈумиʼ
+#     ӈумʼ+N+Sg+Acc+PxSg1.2: ӈуми
+     ӈумʼ+N+Sg+Gen+PxDu1: ӈумниʼ
+#     ӈумʼ+N+Sg+Gen+PxSg1.2: ӈумни
+     ӈумʼ+N+Sg+Dat+PxDu1: [ӈумганиʼ, ӈумгниʼ]
+#     ӈумʼ+N+Sg+Dat+PxSg1.2: [ӈумгани, ӈумгни]
+     ӈумʼ+N+Sg+Loc+PxDu1: [ӈумгананиʼ, ӈумгнаниʼ]
+#     ӈумʼ+N+Sg+Loc+PxSg1.2: [ӈумганани, ӈумгнани]
+     ӈумʼ+N+Sg+Abl+PxDu1: [ӈумгаданиʼ, ӈумгданиʼ]
+#     ӈумʼ+N+Sg+Abl+PxSg1.2: [ӈумгадани, ӈумгдани]
+     ӈумʼ+N+Sg+Pros+PxDu1: ӈумнаниʼ
+#     ӈумʼ+N+Sg+Pros+PxSg1.2: ӈумнани
+     ӈумʼ+N+Du+Nom+PxDu1: [ӈумгаюниʼ, ӈумгюниʼ]
+#     ӈумʼ+N+Du+Nom+PxSg1.2: [ӈумгаюни, ӈумгюни]
+     ӈумʼ+N+Du+Acc+PxDu1: [ӈумгаюниʼ, ӈумгюниʼ]
+#     ӈумʼ+N+Du+Acc+PxSg1.2: [ӈумгаюни, ӈумгюни]
+     ӈумʼ+N+Du+Gen+PxDu1: [ӈумгаюниʼ, ӈумгюниʼ]
+#     ӈумʼ+N+Du+Gen+PxSg1.2: [ӈумгаюни, ӈумгюни]
+     ӈумʼ+N+Pl+Nom+PxDu1: ӈувониʼ
+#     ӈумʼ+N+Pl+Nom+PxSg1.2: ӈувони
+     ӈумʼ+N+Pl+Acc+PxDu1: ӈувониʼ
+#     ӈумʼ+N+Pl+Acc+PxSg1.2: ӈувони
+     ӈумʼ+N+Pl+Gen+PxDu1: ӈувоˮниʼ
+#     ӈумʼ+N+Pl+Gen+PxSg1.2: ӈувоˮни
+     ӈумʼ+N+Pl+Dat+PxDu1: [ӈумгаˮниʼ, ӈумгˮниʼ]
+#     ӈумʼ+N+Pl+Dat+PxSg1.2: [ӈумгаˮни, ӈумгˮни]
+     ӈумʼ+N+Pl+Loc+PxDu1: [ӈумгаˮнаниʼ, ӈумгˮнаниʼ]
+#     ӈумʼ+N+Pl+Loc+PxSg1.2: [ӈумгаˮнани, ӈумгˮнани]
+     ӈумʼ+N+Pl+Abl+PxDu1: [ӈумгатаниʼ, ӈумгтаниʼ]
+#     ӈумʼ+N+Pl+Abl+PxSg1.2: [ӈумгатани, ӈумгтани]
+     ӈумʼ+N+Pl+Pros+PxDu1: ӈувоˮмананиʼ
+#     ӈумʼ+N+Pl+Pros+PxSg1.2: ӈувоˮманани
+     ӈумʼ+N+Sg+Nom+PxDu2: ӈумлиʼ
+     ӈумʼ+N+Sg+Acc+PxDu2: ӈумдиʼ
+     ӈумʼ+N+Sg+Gen+PxDu2: ӈумдиʼ
+     ӈумʼ+N+Sg+Dat+PxDu2: ӈумгандиʼ
+     ӈумʼ+N+Sg+Loc+PxDu2: [ӈумганандиʼ, ӈумгнандиʼ]
+     ӈумʼ+N+Sg+Abl+PxDu2: [ӈумгадандиʼ, ӈумгдандиʼ]
+     ӈумʼ+N+Sg+Pros+PxDu2: ӈумнандиʼ
+     ӈумʼ+N+Du+Nom+PxDu2: [ӈумгаюдиʼ, ӈумгюдиʼ]
+     ӈумʼ+N+Du+Acc+PxDu2: [ӈумгаюдиʼ, ӈумгюдиʼ]
+     ӈумʼ+N+Du+Gen+PxDu2: [ӈумгаютиʼ, ӈумгютиʼ]
+     ӈумʼ+N+Pl+Nom+PxDu2: ӈуводиʼ
+     ӈумʼ+N+Pl+Acc+PxDu2: ӈуводиʼ
+     ӈумʼ+N+Pl+Gen+PxDu2: ӈувотиʼ
+     ӈумʼ+N+Pl+Dat+PxDu2: [ӈумгатиʼ, ӈумгтиʼ]
+     ӈумʼ+N+Pl+Loc+PxDu2: [ӈумгаˮнатиʼ, ӈумгˮнатиʼ]
+     ӈумʼ+N+Pl+Abl+PxDu2: [ӈумгататиʼ, ӈумгтатиʼ]
+     ӈумʼ+N+Pl+Pros+PxDu2: ӈувоˮманатиʼ
+     ӈумʼ+N+Sg+Nom+PxDu3: ӈумдиʼ
+     ӈумʼ+N+Sg+Acc+PxDu3: ӈумдиʼ
+     ӈумʼ+N+Sg+Gen+PxDu3: ӈумдиʼ
+     ӈумʼ+N+Sg+Dat+PxDu3: ӈумгандиʼ
+     ӈумʼ+N+Sg+Loc+PxDu3: [ӈумганандиʼ, ӈумгнандиʼ]
+     ӈумʼ+N+Sg+Abl+PxDu3: [ӈумгадандиʼ, ӈумгдандиʼ]
+     ӈумʼ+N+Sg+Pros+PxDu3: ӈумнандиʼ
+     ӈумʼ+N+Du+Nom+PxDu3: [ӈумгаюдиʼ, ӈумгюдиʼ]
+     ӈумʼ+N+Du+Acc+PxDu3: [ӈумгаюдиʼ, ӈумгюдиʼ]
+     ӈумʼ+N+Du+Gen+PxDu3: [ӈумгаютиʼ, ӈумгютиʼ]
+     ӈумʼ+N+Pl+Nom+PxDu3: ӈуводиʼ
+     ӈумʼ+N+Pl+Acc+PxDu3: ӈуводиʼ
+     ӈумʼ+N+Pl+Gen+PxDu3: ӈувотиʼ
+     ӈумʼ+N+Pl+Dat+PxDu3: [ӈумгатиʼ, ӈумгтиʼ]
+     ӈумʼ+N+Pl+Loc+PxDu3: [ӈумгаˮнатиʼ, ӈумгˮнатиʼ]
+     ӈумʼ+N+Pl+Abl+PxDu3: [ӈумгататиʼ, ӈумгтатиʼ]
+     ӈумʼ+N+Pl+Pros+PxDu3: ӈувоˮманатиʼ
+     ӈумʼ+N+Sg+Nom+PxPl1: ӈумаˮ
+     ӈумʼ+N+Sg+Acc+PxPl1: ӈумаˮ
+     ӈумʼ+N+Sg+Gen+PxPl1: ӈумнаˮ
+     ӈумʼ+N+Sg+Dat+PxPl1: [ӈумганаˮ, ӈумгнаˮ]
+     ӈумʼ+N+Sg+Loc+PxPl1: [ӈумгананаˮ, ӈумгнанаˮ]
+     ӈумʼ+N+Sg+Abl+PxPl1: [ӈумгаданаˮ, ӈумгданаˮ]
+     ӈумʼ+N+Sg+Pros+PxPl1: ӈумнанаˮ
+     ӈумʼ+N+Du+Nom+PxPl1: [ӈумгаюнаˮ, ӈумгюнаˮ]
+     ӈумʼ+N+Du+Acc+PxPl1: [ӈумгаюнаˮ, ӈумгюнаˮ]
+     ӈумʼ+N+Du+Gen+PxPl1: [ӈумгаюнаˮ, ӈумгюнаˮ]
+     ӈумʼ+N+Pl+Nom+PxPl1: ӈувонаˮ
+     ӈумʼ+N+Pl+Acc+PxPl1: ӈувонаˮ
+     ӈумʼ+N+Pl+Gen+PxPl1: ӈувоˮнаˮ
+     ӈумʼ+N+Pl+Dat+PxPl1: [ӈумгаˮнаˮ, ӈумгˮнаˮ]
+     ӈумʼ+N+Pl+Loc+PxPl1: [ӈумгаˮнанаˮ, ӈумгˮнанаˮ]
+     ӈумʼ+N+Pl+Abl+PxPl1: [ӈумгатанаˮ, ӈумгтанаˮ]
+     ӈумʼ+N+Pl+Pros+PxPl1: ӈувоˮмананаˮ
+     ӈумʼ+N+Sg+Nom+PxPl2: ӈумлаˮ
+     ӈумʼ+N+Sg+Acc+PxPl2: ӈумдаˮ
+     ӈумʼ+N+Sg+Gen+PxPl2: ӈумдаˮ
+     ӈумʼ+N+Sg+Dat+PxPl2: ӈумгандаˮ
+     ӈумʼ+N+Sg+Loc+PxPl2: [ӈумганандаˮ, ӈумгнандаˮ]
+     ӈумʼ+N+Sg+Abl+PxPl2: [ӈумгадандаˮ, ӈумгдандаˮ]
+     ӈумʼ+N+Sg+Pros+PxPl2: ӈумнандаˮ
+     ӈумʼ+N+Du+Nom+PxPl2: [ӈумгаюдаˮ, ӈумгюдаˮ]
+     ӈумʼ+N+Du+Acc+PxPl2: [ӈумгаюдаˮ, ӈумгюдаˮ]
+     ӈумʼ+N+Du+Gen+PxPl2: [ӈумгаютаˮ, ӈумгютаˮ]
+     ӈумʼ+N+Pl+Nom+PxPl2: ӈуводаˮ
+     ӈумʼ+N+Pl+Acc+PxPl2: ӈуводаˮ
+     ӈумʼ+N+Pl+Gen+PxPl2: ӈувотаˮ
+     ӈумʼ+N+Pl+Dat+PxPl2: [ӈумгатаˮ, ӈумгтаˮ]
+     ӈумʼ+N+Pl+Loc+PxPl2: [ӈумгаˮнатаˮ, ӈумгˮнатаˮ]
+     ӈумʼ+N+Pl+Abl+PxPl2: [ӈумгататаˮ, ӈумгтатаˮ]
+     ӈумʼ+N+Pl+Pros+PxPl2: ӈувоˮманатаˮ
+     ӈумʼ+N+Sg+Nom+PxPl3: ӈумдоʼ
+     ӈумʼ+N+Sg+Acc+PxPl3: ӈумдоʼ
+     ӈумʼ+N+Sg+Gen+PxPl3: ӈумдоʼ
+     ӈумʼ+N+Sg+Dat+PxPl3: ӈумгандоʼ
+     ӈумʼ+N+Sg+Loc+PxPl3: [ӈумганандоʼ, ӈумгнандоʼ]
+     ӈумʼ+N+Sg+Abl+PxPl3: [ӈумгадандоʼ, ӈумгдандоʼ]
+     ӈумʼ+N+Sg+Pros+PxPl3: ӈумнандоʼ
+     ӈумʼ+N+Du+Nom+PxPl3: [ӈумгаюдоʼ, ӈумгюдоʼ]
+     ӈумʼ+N+Du+Acc+PxPl3: [ӈумгаюдоʼ, ӈумгюдоʼ]
+     ӈумʼ+N+Du+Gen+PxPl3: [ӈумгаютоʼ, ӈумгютоʼ]
+     ӈумʼ+N+Pl+Nom+PxPl3: ӈуводоʼ
+     ӈумʼ+N+Pl+Acc+PxPl3: ӈуводоʼ
+     ӈумʼ+N+Pl+Gen+PxPl3: ӈувотоʼ
+     ӈумʼ+N+Pl+Dat+PxPl3: [ӈумгатоʼ, ӈумгтоʼ]
+     ӈумʼ+N+Pl+Loc+PxPl3: [ӈумгаˮнатоʼ, ӈумгˮнатоʼ]
+     ӈумʼ+N+Pl+Abl+PxPl3: [ӈумгататоʼ, ӈумгтатоʼ]
+     ӈумʼ+N+Pl+Pros+PxPl3: ӈувоˮманатоʼ
+     ӈумʼ+N+Pred+Abs: ӈумд
+     ӈумʼ+N+Pred+Nom+PxSg1: [ӈумдав, ӈумдув]
+     ӈумʼ+N+Pred+Acc+PxSg1: [ӈумдав, ӈумдув]
+     ӈумʼ+N+Pred+Gen+PxSg1: ӈумдан
+     ӈумʼ+N+Pred+Nom+PxSg2: ӈумдар
+     ӈумʼ+N+Pred+Acc+PxSg2: ӈумдамд
+     ӈумʼ+N+Pred+Gen+PxSg2: ӈумданд
+     ӈумʼ+N+Pred+Nom+PxSg3: [ӈумдада, ӈумдда]
+     ӈумʼ+N+Pred+Acc+PxSg3: [ӈумдамда, ӈумдмда]
+     ӈумʼ+N+Pred+Gen+PxSg3: [ӈумданда, ӈумднда]
+     ӈумʼ+N+Pred+Nom+PxDu1: [ӈумдамиʼ, ӈумдмиʼ]
+#     ӈумʼ+N+Pred+Nom+PxSg1.2: [ӈумдами, ӈумдми]
+     ӈумʼ+N+Pred+Acc+PxDu1: [ӈумдамиʼ, ӈумдмиʼ]
+#     ӈумʼ+N+Pred+Acc+PxSg1.2: [ӈумдами, ӈумдми]
+     ӈумʼ+N+Pred+Gen+PxDu1: [ӈумданиʼ, ӈумдниʼ]
+#     ӈумʼ+N+Pred+Gen+PxSg1.2: [ӈумдани, ӈумдни]
+     ӈумʼ+N+Pred+Nom+PxDu2: ӈумдриʼ
+     ӈумʼ+N+Pred+Acc+PxDu2: [ӈумдамдиʼ, ӈумдмдиʼ]
+     ӈумʼ+N+Pred+Gen+PxDu2: [ӈумдандиʼ, ӈумдндиʼ]
+     ӈумʼ+N+Pred+Nom+PxDu3: [ӈумдадиʼ, ӈумддиʼ]
+     ӈумʼ+N+Pred+Acc+PxDu3: [ӈумдамдиʼ, ӈумдмдиʼ]
+     ӈумʼ+N+Pred+Gen+PxDu3: [ӈумдандиʼ, ӈумдндиʼ]
+     ӈумʼ+N+Pred+Nom+PxPl1: ӈумдваˮ
+     ӈумʼ+N+Pred+Acc+PxPl1: ӈумдваˮ
+     ӈумʼ+N+Pred+Gen+PxPl1: [ӈумданаˮ, ӈумднаˮ]
+     ӈумʼ+N+Pred+Nom+PxPl2: ӈумдраˮ
+     ӈумʼ+N+Pred+Acc+PxPl2: [ӈумдамдаˮ, ӈумдмдаˮ]
+     ӈумʼ+N+Pred+Gen+PxPl2: [ӈумдандаˮ, ӈумдндаˮ]
+     ӈумʼ+N+Pred+Nom+PxPl3: [ӈумдадоʼ, ӈумддоʼ]
+     ӈумʼ+N+Pred+Acc+PxPl3: [ӈумдамдоʼ, ӈумдмдоʼ]
+     ӈумʼ+N+Pred+Gen+PxPl3: [ӈумдандоʼ, ӈумдндоʼ]
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ӈумдмʼ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ӈумд
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ӈумʼ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: ӈумниʼ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: ӈумдиʼ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: ӈумгʼ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: ӈумаˮ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: ӈумдаˮ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: ӈувˮ
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: ӈумдамзь
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: ӈумдась
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: ӈумзь
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: ӈумнинзь
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: ӈумдинзь
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: ӈумганзь
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: ӈумаць
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: ӈумдаць
+     ӈумʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: ӈуваць
+     ӈумʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: ӈум
+     ӈумʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ӈумл
+     ӈумʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: ӈумда
+     ӈумʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: ӈумиʼ
+     ӈумʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: ӈумлиʼ
+     ӈумʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: ӈумдиʼ
+     ӈумʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: ӈумаˮ
+     ӈумʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: ӈумлаˮ
+     ӈумʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: ӈумдоʼ
+     ӈумʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ӈумась
+     ӈумʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ӈумлась
+     ӈумʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ӈумдась
+     ӈумʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: ӈуминзь
+     ӈумʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: ӈумлинзь
+     ӈумʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: ӈумдинзь
+     ӈумʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: ӈумаць
+     ӈумʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: ӈумлаць
+     ӈумʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: ӈумдонзь
+     ӈумʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюн, ӈумгюн]
+     ӈумʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюд, ӈумгюд]
+     ӈумʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюда, ӈумгюда]
+     ӈумʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюниʼ, ӈумгюниʼ]
+     ӈумʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюдиʼ, ӈумгюдиʼ]
+     ӈумʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюдиʼ, ӈумгюдиʼ]
+     ӈумʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюнаˮ, ӈумгюнаˮ]
+     ӈумʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюдаˮ, ӈумгюдаˮ]
+     ӈумʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: [ӈумгаюдоʼ, ӈумгюдоʼ]
+     ӈумʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюнась, ӈумгюнась]
+     ӈумʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюдась, ӈумгюдась]
+     ӈумʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюдась, ӈумгюдась]
+     ӈумʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюнинзь, ӈумгюнинзь]
+     ӈумʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюдинзь, ӈумгюдинзь]
+     ӈумʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюдинзь, ӈумгюдинзь]
+     ӈумʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюнаць, ӈумгюнаць]
+     ӈумʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюдаць, ӈумгюдаць]
+     ӈумʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: [ӈумгаюдонзь, ӈумгюдонзь]
+     ӈумʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: ӈувон
+     ӈумʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: ӈувод
+     ӈумʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: ӈувода
+     ӈумʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: ӈувониʼ
+     ӈумʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: ӈуводиʼ
+     ӈумʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: ӈуводиʼ
+     ӈумʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ӈувонаˮ
+     ӈумʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ӈуводаˮ
+     ӈумʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ӈуводоʼ
+     ӈумʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ӈувонась
+     ӈумʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: ӈуводась
+     ӈумʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: ӈуводась
+     ӈумʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ӈувонинзь
+     ӈумʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: ӈуводинзь
+     ӈумʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: ӈуводинзь
+     ӈумʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ӈувонаць
+     ӈумʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ӈуводаць
+     ӈумʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ӈуводонзь
+     ӈумʼ+N+Tra: ӈумӈэ
+     ӈумʼ+N+Car: ӈумзиˮ
+     ӈумʼ+N+Equ: ӈумдремʼ
+     ӈумʼ+N+Equ+Lat: ӈумдревʼ
