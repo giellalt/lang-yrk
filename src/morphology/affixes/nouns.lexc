@@ -1342,8 +1342,11 @@ LEXICON NMN_ИБЯ
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-LEXICON N_ТАСО
-+N: NMN_ТАСО ;
+LEXICON N_ТАСО !! таˮ:та
+!+N: NMN_ТАСО ;
++N:С1 NMN_МУНО ;
++N:С1о MUNO_O ;
+
 LEXICON NMN_ТАСО
  SGNOMSUF ;
  SGACCSUF ;
