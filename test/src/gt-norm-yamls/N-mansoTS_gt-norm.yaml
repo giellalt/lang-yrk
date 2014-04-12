@@ -1,0 +1,312 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+# NB! Following stem-final modifications take place in AccPl stem: ва -> би, ка -> ци, га -> зи
+# #+Use/SpellNoSugg
+  Noun - манˮ: # Noun 'bush /(fin) pensas' - full paradigm /MDTN-koodi s+o/
+     манˮ+N+Sg+Nom: манˮ
+     манˮ+N+Sg+Acc: манасмʼ
+     манˮ+N+Sg+Gen: манасʼ
+     манˮ+N+Sg+Dat: манатʼ
+     манˮ+N+Sg+Loc: манкана
+     манˮ+N+Sg+Abl: манкад
+     манˮ+N+Sg+Pros: манˮмана
+     манˮ+N+Du+Nom: манакʼ
+     манˮ+N+Du+Acc: манакʼ
+     манˮ+N+Du+Gen: манакʼ
+     манˮ+N+Pl+Nom: манасˮ
+     манˮ+N+Pl+Acc: мансо
+     манˮ+N+Pl+Gen: мансоˮ
+     манˮ+N+Pl+Dat: манакˮ
+     манˮ+N+Pl+Loc: манкаˮна
+     манˮ+N+Pl+Abl: манкат
+     манˮ+N+Pl+Pros: мансоˮмна
+     манˮ+N+Sg+Nom+PxSg1: манаˮм
+     манˮ+N+Sg+Acc+PxSg1: манаˮм
+     манˮ+N+Sg+Gen+PxSg1: манаˮн
+     манˮ+N+Sg+Dat+PxSg1: манкан
+     манˮ+N+Sg+Loc+PxSg1: манканан
+     манˮ+N+Sg+Abl+PxSg1: манкадан
+     манˮ+N+Sg+Pros+PxSg1: манˮманан
+     манˮ+N+Du+Nom+PxSg1: манкаюн
+     манˮ+N+Du+Acc+PxSg1: манкаюн
+     манˮ+N+Du+Gen+PxSg1: манкаюн
+     манˮ+N+Pl+Nom+PxSg1: мансон
+     манˮ+N+Pl+Acc+PxSg1: мансон
+     манˮ+N+Pl+Gen+PxSg1: мансоˮн
+     манˮ+N+Pl+Dat+PxSg1: манкаˮн
+     манˮ+N+Pl+Loc+PxSg1: манкаˮнан
+     манˮ+N+Pl+Abl+PxSg1: манкатан
+     манˮ+N+Pl+Pros+PxSg1: мансоˮмнан
+     манˮ+N+Sg+Nom+PxSg2: манаˮал
+     манˮ+N+Sg+Acc+PxSg2: манат
+     манˮ+N+Sg+Gen+PxSg2: манат
+     манˮ+N+Sg+Dat+PxSg2: манканд
+     манˮ+N+Sg+Loc+PxSg2: манкананд
+     манˮ+N+Sg+Abl+PxSg2: манкаданд
+     манˮ+N+Sg+Pros+PxSg2: манˮмананд
+     манˮ+N+Du+Nom+PxSg2: манкаюд
+     манˮ+N+Du+Acc+PxSg2: манкаюд
+     манˮ+N+Du+Gen+PxSg2: манкают
+     манˮ+N+Pl+Nom+PxSg2: мансод
+     манˮ+N+Pl+Acc+PxSg2: мансод
+     манˮ+N+Pl+Gen+PxSg2: мансот
+     манˮ+N+Pl+Dat+PxSg2: манкат
+     манˮ+N+Pl+Loc+PxSg2: манкаˮнат
+     манˮ+N+Pl+Abl+PxSg2: манкатат
+     манˮ+N+Pl+Pros+PxSg2: мансоˮмнат
+     манˮ+N+Sg+Nom+PxSg3: манта
+     манˮ+N+Sg+Acc+PxSg3: манта
+     манˮ+N+Sg+Gen+PxSg3: манта
+     манˮ+N+Sg+Dat+PxSg3: манканда
+     манˮ+N+Sg+Loc+PxSg3: манкананда
+     манˮ+N+Sg+Abl+PxSg3: манкаданда
+     манˮ+N+Sg+Pros+PxSg3: манˮмананда
+     манˮ+N+Du+Nom+PxSg3: манкаюда
+     манˮ+N+Du+Acc+PxSg3: манкаюда
+     манˮ+N+Du+Gen+PxSg3: манкаюта
+     манˮ+N+Pl+Nom+PxSg3: мансода
+     манˮ+N+Pl+Acc+PxSg3: мансода
+     манˮ+N+Pl+Gen+PxSg3: мансота
+     манˮ+N+Pl+Dat+PxSg3: манката
+     манˮ+N+Pl+Loc+PxSg3: манкаˮната
+     манˮ+N+Pl+Abl+PxSg3: [манкатата, манкатта]
+     манˮ+N+Pl+Pros+PxSg3: мансоˮмната
+     манˮ+N+Sg+Nom+PxDu1: манˮмиʼ
+     манˮ+N+Sg+Nom+PxSg1: манˮми #+Use/SpellNoSugg
+     манˮ+N+Sg+Acc+PxDu1: манˮмиʼ
+     манˮ+N+Sg+Acc+PxSg1: манˮми #+Use/SpellNoSugg
+     манˮ+N+Sg+Gen+PxDu1: манˮниʼ
+     манˮ+N+Sg+Gen+PxSg1: манˮни #+Use/SpellNoSugg
+     манˮ+N+Sg+Dat+PxDu1: манканиʼ
+     манˮ+N+Sg+Dat+PxSg1: манкани #+Use/SpellNoSugg
+     манˮ+N+Sg+Loc+PxDu1: манкананиʼ
+     манˮ+N+Sg+Loc+PxSg1: манканани #+Use/SpellNoSugg
+     манˮ+N+Sg+Abl+PxDu1: [манкаданиʼ, манкадниʼ]
+     манˮ+N+Sg+Abl+PxSg1: [манкадани, манкадни] #+Use/SpellNoSugg
+     манˮ+N+Sg+Pros+PxDu1: манˮмананиʼ
+     манˮ+N+Sg+Pros+PxSg1: манˮманани #+Use/SpellNoSugg
+     манˮ+N+Du+Nom+PxDu1: манкаюниʼ
+     манˮ+N+Du+Nom+PxSg1: манкаюни #+Use/SpellNoSugg
+     манˮ+N+Du+Acc+PxDu1: манкаюниʼ
+     манˮ+N+Du+Acc+PxSg1: манкаюни #+Use/SpellNoSugg
+     манˮ+N+Du+Gen+PxDu1: манкаюниʼ
+     манˮ+N+Du+Gen+PxSg1: манкаюни #+Use/SpellNoSugg
+     манˮ+N+Pl+Nom+PxDu1: мансониʼ
+     манˮ+N+Pl+Nom+PxSg1: мансони #+Use/SpellNoSugg
+     манˮ+N+Pl+Acc+PxDu1: мансониʼ
+     манˮ+N+Pl+Acc+PxSg1: мансони #+Use/SpellNoSugg
+     манˮ+N+Pl+Gen+PxDu1: мансоˮниʼ
+     манˮ+N+Pl+Gen+PxSg1: мансоˮни #+Use/SpellNoSugg
+     манˮ+N+Pl+Dat+PxDu1: манкаˮниʼ
+     манˮ+N+Pl+Dat+PxSg1: манкаˮни #+Use/SpellNoSugg
+     манˮ+N+Pl+Loc+PxDu1: манкаˮнаниʼ
+     манˮ+N+Pl+Loc+PxSg1: манкаˮнани #+Use/SpellNoSugg
+     манˮ+N+Pl+Abl+PxDu1: [манкатаниʼ, манкатниʼ]
+     манˮ+N+Pl+Abl+PxSg1: [манкатани, манкатни] #+Use/SpellNoSugg
+     манˮ+N+Pl+Pros+PxDu1: мансоˮмнаниʼ
+     манˮ+N+Pl+Pros+PxSg1: мансоˮмнани #+Use/SpellNoSugg
+     манˮ+N+Sg+Nom+PxDu2: манˮлиʼ
+     манˮ+N+Sg+Acc+PxDu2: мантиʼ
+     манˮ+N+Sg+Gen+PxDu2: мантиʼ
+     манˮ+N+Sg+Dat+PxDu2: манкандиʼ
+     манˮ+N+Sg+Loc+PxDu2: манканандиʼ
+     манˮ+N+Sg+Abl+PxDu2: манкадандиʼ
+     манˮ+N+Sg+Pros+PxDu2: манˮманандиʼ
+     манˮ+N+Du+Nom+PxDu2: манкаюдиʼ
+     манˮ+N+Du+Acc+PxDu2: манкаюдиʼ
+     манˮ+N+Du+Gen+PxDu2: манкаютиʼ
+     манˮ+N+Pl+Nom+PxDu2: мансодиʼ
+     манˮ+N+Pl+Acc+PxDu2: мансодиʼ
+     манˮ+N+Pl+Gen+PxDu2: мансотиʼ
+     манˮ+N+Pl+Dat+PxDu2: манкатиʼ
+     манˮ+N+Pl+Loc+PxDu2: манкаˮнатиʼ
+     манˮ+N+Pl+Abl+PxDu2: [манкататиʼ, манкаттиʼ]
+     манˮ+N+Pl+Pros+PxDu2: мансоˮмнатиʼ
+     манˮ+N+Sg+Nom+PxDu3: мантиʼ
+     манˮ+N+Sg+Acc+PxDu3: мантиʼ
+     манˮ+N+Sg+Gen+PxDu3: мантиʼ
+     манˮ+N+Sg+Dat+PxDu3: манкандиʼ
+     манˮ+N+Sg+Loc+PxDu3: манканандиʼ
+     манˮ+N+Sg+Abl+PxDu3: манкадандиʼ
+     манˮ+N+Sg+Pros+PxDu3: манˮманандиʼ
+     манˮ+N+Du+Nom+PxDu3: манкаюдиʼ
+     манˮ+N+Du+Acc+PxDu3: манкаюдиʼ
+     манˮ+N+Du+Gen+PxDu3: манкаютиʼ
+     манˮ+N+Pl+Nom+PxDu3: мансодиʼ
+     манˮ+N+Pl+Acc+PxDu3: мансодиʼ
+     манˮ+N+Pl+Gen+PxDu3: мансотиʼ
+     манˮ+N+Pl+Dat+PxDu3: манкатиʼ
+     манˮ+N+Pl+Loc+PxDu3: манкаˮнатиʼ
+     манˮ+N+Pl+Abl+PxDu3: [манкататиʼ, манкаттиʼ]
+     манˮ+N+Pl+Pros+PxDu3: мансоˮмнатиʼ
+     манˮ+N+Sg+Nom+PxPl1: манˮмаˮ
+     манˮ+N+Sg+Acc+PxPl1: манˮмаˮ
+     манˮ+N+Sg+Gen+PxPl1: манˮнаˮ
+     манˮ+N+Sg+Dat+PxPl1: манканаˮ
+     манˮ+N+Sg+Loc+PxPl1: манкананаˮ
+     манˮ+N+Sg+Abl+PxPl1: [манкаданаˮ, манкаднаˮ]
+     манˮ+N+Sg+Pros+PxPl1: манˮмананаˮ
+     манˮ+N+Du+Nom+PxPl1: манкаюнаˮ
+     манˮ+N+Du+Acc+PxPl1: манкаюнаˮ
+     манˮ+N+Du+Gen+PxPl1: манкаюнаˮ
+     манˮ+N+Pl+Nom+PxPl1: мансонаˮ
+     манˮ+N+Pl+Acc+PxPl1: мансонаˮ
+     манˮ+N+Pl+Gen+PxPl1: мансоˮнаˮ
+     манˮ+N+Pl+Dat+PxPl1: манкаˮнаˮ
+     манˮ+N+Pl+Loc+PxPl1: манкаˮнанаˮ
+     манˮ+N+Pl+Abl+PxPl1: [манкатанаˮ, манкатнаˮ]
+     манˮ+N+Pl+Pros+PxPl1: мансоˮмнанаˮ
+     манˮ+N+Sg+Nom+PxPl2: манˮлаˮ
+     манˮ+N+Sg+Acc+PxPl2: мантаˮ
+     манˮ+N+Sg+Gen+PxPl2: мантаˮ
+     манˮ+N+Sg+Dat+PxPl2: манкандаˮ
+     манˮ+N+Sg+Loc+PxPl2: манканандаˮ
+     манˮ+N+Sg+Abl+PxPl2: манкадандаˮ
+     манˮ+N+Sg+Pros+PxPl2: манˮманандаˮ
+     манˮ+N+Du+Nom+PxPl2: манкаюдаˮ
+     манˮ+N+Du+Acc+PxPl2: манкаюдаˮ
+     манˮ+N+Du+Gen+PxPl2: манкаютаˮ
+     манˮ+N+Pl+Nom+PxPl2: мансодаˮ
+     манˮ+N+Pl+Acc+PxPl2: мансодаˮ
+     манˮ+N+Pl+Gen+PxPl2: мансотаˮ
+     манˮ+N+Pl+Dat+PxPl2: манкатаˮ
+     манˮ+N+Pl+Loc+PxPl2: манкаˮнатаˮ
+     манˮ+N+Pl+Abl+PxPl2: [манкататаˮ, манкаттаˮ]
+     манˮ+N+Pl+Pros+PxPl2: мансоˮмнатаˮ
+     манˮ+N+Sg+Nom+PxPl3: мантоʼ
+     манˮ+N+Sg+Acc+PxPl3: мантоʼ
+     манˮ+N+Sg+Gen+PxPl3: мантоʼ
+     манˮ+N+Sg+Dat+PxPl3: манкандоʼ
+     манˮ+N+Sg+Loc+PxPl3: манканандоʼ
+     манˮ+N+Sg+Abl+PxPl3: манкадандоʼ
+     манˮ+N+Sg+Pros+PxPl3: манˮманандоʼ
+     манˮ+N+Du+Nom+PxPl3: манкаюдоʼ
+     манˮ+N+Du+Acc+PxPl3: манкаюдоʼ
+     манˮ+N+Du+Gen+PxPl3: манкаютоʼ
+     манˮ+N+Pl+Nom+PxPl3: мансодоʼ
+     манˮ+N+Pl+Acc+PxPl3: мансодоʼ
+     манˮ+N+Pl+Gen+PxPl3: мансотоʼ
+     манˮ+N+Pl+Dat+PxPl3: манкатоʼ
+     манˮ+N+Pl+Loc+PxPl3: манкаˮнатоʼ
+     манˮ+N+Pl+Abl+PxPl3: [манкататоʼ, манкаттоʼ]
+     манˮ+N+Pl+Pros+PxPl3: мансоˮмнатоʼ
+     манˮ+N+Pred+Abs: манат
+     манˮ+N+Pred+Nom+PxSg1: [мантав, мантув]
+     манˮ+N+Pred+Acc+PxSg1: [мантав, мантув]
+     манˮ+N+Pred+Gen+PxSg1: мантан
+     манˮ+N+Pred+Nom+PxSg2: мантар
+     манˮ+N+Pred+Acc+PxSg2: мантамд
+     манˮ+N+Pred+Gen+PxSg2: мантанд
+     манˮ+N+Pred+Nom+PxSg3: мантада
+     манˮ+N+Pred+Acc+PxSg3: мантамда
+     манˮ+N+Pred+Gen+PxSg3: мантанда
+     манˮ+N+Pred+Nom+PxDu1: мантамиʼ
+     манˮ+N+Pred+Nom+PxSg1: мантами #+Use/SpellNoSugg
+     манˮ+N+Pred+Acc+PxDu1: мантамиʼ
+     манˮ+N+Pred+Acc+PxSg1: мантами #+Use/SpellNoSugg
+     манˮ+N+Pred+Gen+PxDu1: мантаниʼ
+     манˮ+N+Pred+Gen+PxSg1: мантани #+Use/SpellNoSugg
+     манˮ+N+Pred+Nom+PxDu2: мантариʼ
+     манˮ+N+Pred+Acc+PxDu2: мантамдиʼ
+     манˮ+N+Pred+Gen+PxDu2: мантандиʼ
+     манˮ+N+Pred+Nom+PxDu3: мантадиʼ
+     манˮ+N+Pred+Acc+PxDu3: мантамдиʼ
+     манˮ+N+Pred+Gen+PxDu3: мантандиʼ
+     манˮ+N+Pred+Nom+PxPl1: мантаваˮ
+     манˮ+N+Pred+Acc+PxPl1: мантаваˮ
+     манˮ+N+Pred+Gen+PxPl1: мантанаˮ
+     манˮ+N+Pred+Nom+PxPl2: мантараˮ
+     манˮ+N+Pred+Acc+PxPl2: мантамдаˮ
+     манˮ+N+Pred+Gen+PxPl2: мантандаˮ
+     манˮ+N+Pred+Nom+PxPl3: мантадоʼ
+     манˮ+N+Pred+Acc+PxPl3: мантамдоʼ
+     манˮ+N+Pred+Gen+PxPl3: мантандоʼ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: манатмʼ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: манат
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: манˮ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: манˮниʼ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: мантиʼ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: манакʼ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: манˮмаˮ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: мантаˮ
+     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: манасˮ
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: мантамзь
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: мантась
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: манаць
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: манˮнинзь
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: мантинзь
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: манканзь
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: манˮмаць
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: мантаць
+     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: мансаць
+     манˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: манаˮам
+     манˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: манаˮал
+     манˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: манта
+     манˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: манˮмиʼ
+     манˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: манˮлиʼ
+     манˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: мантиʼ
+     манˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: манˮмаˮ
+     манˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: манˮлаˮ
+     манˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: мантоʼ
+     манˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: манˮмась
+     манˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: манˮлась
+     манˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: мантась
+     манˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: манˮминзь
+     манˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: манˮлинзь
+     манˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: мантинзь
+     манˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: манˮмаць
+     манˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: манˮлаць
+     манˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: мантонзь
+     манˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: манкаюн
+     манˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: манкаюд
+     манˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: манкаюда
+     манˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: манкаюниʼ
+     манˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: манкаюдиʼ
+     манˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: манкаюдиʼ
+     манˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: манкаюнаˮ
+     манˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: манкаюдаˮ
+     манˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: манкаюдоʼ
+     манˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: манкаюнась
+     манˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдась
+     манˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдась
+     манˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: манкаюнинзь
+     манˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдинзь
+     манˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдинзь
+     манˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: манкаюнаць
+     манˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдаць
+     манˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдонзь
+     манˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: мансон
+     манˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: мансод
+     манˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: мансода
+     манˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: мансониʼ
+     манˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: мансодиʼ
+     манˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: мансодиʼ
+     манˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: мансонаˮ
+     манˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: мансодаˮ
+     манˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: мансодоʼ
+     манˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: мансонась
+     манˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: мансодась
+     манˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: мансодась
+     манˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: мансонинзь
+     манˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: мансодинзь
+     манˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: мансодинзь
+     манˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: мансонаць
+     манˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: мансодаць
+     манˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: мансодонзь
+     манˮ+N+Tra: манˮӈэ
+     манˮ+N+Car: манциˮ
+     манˮ+N+Equ: мантаремʼ
+     манˮ+N+Equ+Lat: мантаревʼ
