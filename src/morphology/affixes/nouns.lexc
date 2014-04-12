@@ -874,12 +874,16 @@ LEXICON NMN_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   ProsSg -мня
 LEXICON N_МАНСО  !!= @CODE@ мӑнˮ: 34   ProsSg -мна
 !! /total=6/
 !! мӑн”(с) mən°q	мӑнӑт’ mənət°h	мӑнӑс” mənəs°q	мӑнсо mən°so
-+N:С1 SGDATSUF ;
-+N:аС1 SG-ACC-STEM ;
-+N:аС1 SG-NOM-STEM ;
-+N:С1 SGPROSSUF ;
-+N:аС1 PLNOMSUF ;
-+N:С1 PLACCSUF_О ;
+!+N:°С1 SGSCHWA-VARIANT-STEMS ;
+!+N:С1 SGSTEMS-LESS-SCHWA-VARIANTS ;
++N:°С1 NMN_МУНО ;
++N:°С1о MUNO_O ;
+!+N:С1 SGDATSUF ;
+!+N:аС1 SG-ACC-STEM ;
+!+N:аС1 SG-NOM-STEM ;
+!+N:С1 SGPROSSUF ;
+!+N:аС1 PLNOMSUF ;
+!+N:С1 PLACCSUF_О ;
 
 LEXICON N_МЯДО  !!= @CODE@ мяˮ:мя 35   ProsSg -мна
 !! /total=18/
