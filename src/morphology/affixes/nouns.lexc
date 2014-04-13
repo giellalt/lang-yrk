@@ -665,7 +665,8 @@ LEXICON SGSTEMS-LESS-SCHWA-VARIANTS
 +Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3:%>%{рл%}аˮ # ;
 +Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3:%>д%{оё%}ʼ # ;
 +Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3:%>мась° # ;
-+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3:%>%{рл%}әсь° # ;
++Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3:%>%{рл%}ась° # ;
+!+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3:%>%{рл%}әсь° # ;
 +Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3:%>д%{ая%}сь° # ;
 +Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3:%>минзь° # ;
 +Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3:%>%{рл%}инзь° # ;
@@ -856,7 +857,9 @@ LEXICON N_СЕРО  !!= @CODE@ серˮ: 32   ProsSg -мана / -мня
 LEXICON N_ТАРЕ  !!= @CODE@ тӑрˮ:тар 33   ProsSg -мня
 !! /total=0/
 !! тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
-+N: NMN_ТАРЕ ;
++N:Д1 NMN_МУНО ;
++N:е MUNO_O ;
+!+N: NMN_ТАРЕ ;
 
 LEXICON N_ТАРЕ-Pal/Var !! Where is the variation?
 +N: NMN_ТАРЕ ;
@@ -1970,7 +1973,8 @@ LEXICON PRED-ACC-POSSESSA
 +Pred+Acc+PxPl3:%>да%>мдоʼ K ;
 
 LEXICON PRED-GEN-POSSESSA
-+Pred+Gen+PxSg1:%>дә%>н°    K ;
++Pred+Gen+PxSg1:%>да%>н°    K ;
+!+Pred+Gen+PxSg1:%>дә%>н°    K ;
 +Pred+Gen+PxSg1:%>да%>ни   K ;
 +Pred+Gen+PxSg2:%>да%>нд   K ;
 +Pred+Gen+PxSg3:%>да%>нда  K ;
