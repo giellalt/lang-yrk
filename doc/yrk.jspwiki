@@ -195,6 +195,7 @@ symbols in the lexicon files:
 And following triggers to control variation
   %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
   %^PLNOM     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+  %^PalVariation  This allows for тарД1%>д%{оё%}нзь
 
 
   %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
@@ -504,6 +505,7 @@ Yaml: __nyenecyh__
  LEXICON N_ТАРЕ   тӑрˮ:тар 33   ProsSg -мня
 /total=0/
 тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
+Vowel variation
 
 Where is the variation?
 
@@ -1314,6 +1316,9 @@ Non-finites
 !!triggers
   %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
   %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+
+  %^PalVariation:0  This allows for тарД1%>д%{оё%}нзь
+
 lenition
   %^VowLower:0  vowel lowering ы:э у:о
   %^VowRaise:0  vowel raising э:ы о:у
@@ -1346,9 +1351,10 @@ in combination with stem-final vowel loss тёня:тён
 
 __°:0 in Pros LEFT__
 Second Vowel Center
-Stems
+Stems C*VC
 
 Affixes
+
 
 
 
@@ -1377,8 +1383,8 @@ Affixes
 
 
 
-RIGHT ARROW ONLY IN °:0
 
+RIGHT ARROW ONLY IN °:0
 
 
 
@@ -1390,14 +1396,17 @@ RIGHT ARROW ONLY IN °:0
 
 __°:а in Pros LEFT__
 Second Vowel Center
+C*V%>
+
+C*VQ%>
 
 
+C*VC
 
 
 
 
 THIRD VOWEL CENTER
-
 
 
 
@@ -1423,6 +1432,7 @@ Third Vowel Center
 
 
 RIGHT ARROW ONLY IN °:а
+
 
 
 
@@ -1717,6 +1727,7 @@ __н loss after glottal before д: __
 __н loss after glottal before д: __
 р:0 <=> Vow [ л | р: ] %> _  ;
 
+__r To 0 before glottal and %{рл%}__
 
 __nTod__
 
@@ -1724,6 +1735,7 @@ __nTod__
 т:д <=>   Н1: %> _ а ;
 
 __n to t after non-nasal glottal__
+
 
 __d to t after non-nasal glottal__
 
@@ -1812,7 +1824,11 @@ __Ӈ1:0 GlottalNasalToSurface__
 
 
 
-__Д1:0 GlottalNonNasalToZERO__
+__Д1:0 GlottalNonNasalToZERO LEFT__
+
+__Д1:0 GlottalNonNasalToZERO RIGHT__
+
+RIGHT ARROW ONLY Д1:0
 
 __С1:0 GlottalNonNasalToZERO__
 
@@ -1824,7 +1840,12 @@ __С1:0 GlottalNonNasalToZERO__
 
 __С1:ˮ UnderlyingToGlottal__
 
-__Д1:ˮ UnderlyingToGlottal__
+__Д1:ˮ UnderlyingToGlottal LEFT__
+
+__Д1:ˮ UnderlyingToGlottal RIGHT__
+
+RIGHT ARROW ONLY Д1:ˮ
+
 
 __Н1:ʼ UnderlyingToGlottal__
 

@@ -59,6 +59,9 @@ Alphabet
  %^PLNOM:0    !!= @CODE@ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
  %^A2O:0
  %^A2I:0 
+
+ %^PalVariation:0 !!= @CODE@ This allows for тарД1%>д%{оё%}нзь
+
  %^MLenition:0 !! lenition
  %^VowLower:0 !!= @CODE@ vowel lowering ы:э у:о
  %^VowRaise:0 !!= @CODE@ vowel raising э:ы о:у
@@ -131,11 +134,14 @@ Rules
    # [ 2InitSylls Cns* Vow (%^A2O:|%^A2I:) %> ˮ | Cns* Vow %> ˮ 0: ] Cns _  ;
 !€# ӈэ%>ˮ0м°н%{ая%}
 !€0 ӈэ0ˮэм0на
-   # Cns* Vow [ GLTS: ] %> (0:) м:  _   ;
+   # Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> (0:) м:  _   ;
 !   # Cns* Vow [ GLTS: ] %> 0: м:  _ н %{ая%}:  ;
-   # Cns* Vow [ GLTS: ] %> х: _ [ ʼ | ˮ #  ]    ;
+   # Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ [ ʼ | ˮ #  ]    ;
+!€# тар%^PalVariationД1%>х°ˮ
+!€0 тар000к0ˮ
+
 !  # Cns* Vow [ GLTS: ] %> х: _  [ ю DentStops | д | т | ʼ | ˮ # ]  ;
-      # (2InitSylls) Cns* Vow [ GLTS: ]  %> д: _  [ р | в ] [ Vow ]  ;
+      # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ]  %> д: _  [ р | в ] [ Vow ]  ;
 !€# мяД1%>д°ремʼ
 !€# мя00т0ремʼ
 !€# мяД1%>д°ваˮ
@@ -179,7 +185,7 @@ Rules
 
 ! Third Vowel Center
 
-        # (2InitSylls) Cns* Vow: Cns :Vow ( GLTS: ) %> (н:) _ [ ʼ | ˮ # ] ;
+        # (2InitSylls) Cns* Vow: Cns :Vow ( (Cns (%^PalVariation:)) GLTS: ) %> (н:) _ [ ʼ | ˮ # ] ;
         # (2InitSylls) Cns* Vow: Cns  °:  [ GLTS: ] %> х: _ [ ʼ | ˮ # ] ;
 !        # Cns* Vow: Cns :Vow [ GLTS: ] %> (н:|х:) _ [ ʼ | ˮ # ] ;
 !€# ил°Ӈ1%>н°ʼ
@@ -220,10 +226,13 @@ Rules
 !   # (2InitSylls) Cns* Vow %> ˮ 0: Cns _  ;
 !€# ӈэ%>ˮ0м°н%{ая%}
 !€0 ӈэ0ˮэм0на
-   # Cns* Vow [ GLTS: ] %> (0:) м:  _  ;
-   # Cns* Vow [ GLTS: ] %> х: _ [ ʼ | ˮ #  ]    ;
+   # Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> (0:) м:  _  ;
+   # Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ [ ʼ | ˮ #  ]    ;
+!€# тар%^PalVariationД1%>х°ˮ
+!€0 тар000к0ˮ
+
 !  # Cns* Vow [ GLTS: ] %> х: _  [ ю DentStops | д | т | ʼ | ˮ # ]  ;
-      # (2InitSylls) Cns* Vow [ GLTS: ]  %> д: _  [ р | в ] [ Vow ]  ;
+      # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ]  %> д: _  [ р | в ] [ Vow ]  ;
 !€# мяД1%>д°ремʼ
 !€# мя00т0ремʼ
 !€# мяД1%>д°ваˮ
@@ -232,7 +241,7 @@ Rules
 
 
         # (2InitSylls) Cns* Vow: (%^A2O:|%^A2I:) %> (ˮ 0: ) м: _ н    ;
-        # (2InitSylls) Cns* :Vow ( GLTS: ) %> (н:|х:) _  [ ʼ | ˮ # ] ;
+        # (2InitSylls) Cns* :Vow ( (Cns (%^PalVariation:)) GLTS: ) %> (н:|х:) _  [ ʼ | ˮ # ] ;
 !€# ил°Ӈ1%>н°ʼ
 !€0 илан0д0ʼ
 
@@ -262,7 +271,7 @@ Rules
 !€# ил°Ӈ1%>%{рл%}аˮ
 !€0 ил000лаˮ
 
-        # (2InitSylls) Cns* Vow: Cns :Vow ( GLTS: ) %> (н:) _ [ ʼ | ˮ # ] ;
+        # (2InitSylls) Cns* Vow: Cns :Vow ( (Cns (%^PalVariation:)) GLTS: ) %> (н:) _ [ ʼ | ˮ # ] ;
         # (2InitSylls) Cns* Vow: Cns  °:  [ GLTS: ] %> х: _ [ ʼ | ˮ # ] ;
 !        # Cns* Vow: Cns :Vow [ GLTS: ] %> (н:|х:) _ [ ʼ | ˮ # ] ;
 !€# ил°Ӈ1%>н°ʼ
@@ -311,18 +320,28 @@ Rules
 !€# хан°%>мда
 !€0 хан00мда
 !€0 хана0мда
-      # (2InitSylls) Cns* Vow: [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
+      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
 !€# мяД1%>д°ми
 !€0 мя00т0ми
 !€0 мя00тами
+!€# тарД1%>д°ми
+!€0 тар00т0ми
+!€0 тар00тами
 
-   # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _  [ ю DentStops | д | т ]  ;
-
-   # (2InitSylls) Cns* Vow [ GLTS: ] %>  х: _ (ˮ) н [ а | %{ая%}: | и ] ;
+   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _  [ ю DentStops | д | т ]  ;
+!€# тарД1%>х°юнинзь
+!€0 тар00к0юнинзь
+!€0 тар00каюнинзь
+   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %>  х: _ (ˮ) н [ а | %{ая%}: | и ] ;
 !€# муН1%>х°наˮ
 !€0 мун0ганаˮ
 !€0 мун0г0наˮ
-      # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _ т °:  т Vow ;
+!€# тар%^PalVariationД1%>х°н%{ая%}
+!€0 тар000кана
+!€0 тар000кна
+!€0 тар000каня
+!€0 тар000кня
+      # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ т °:  т Vow ;
 !€# муН1%>х°т°та
 !€0 мун0гатата
 !€0 мун0г0тата
@@ -376,16 +395,19 @@ Rules
 !        # (2InitSylls) Cns*  Vow  %> д _  р [ °: | и ʼ | а ˮ ] # ;
 
 !! C*VQ%>
-        # (2InitSylls) Cns*  Vow [ GLTS: ] %> _ ц ь °: ;
+        # (2InitSylls) Cns*  Vow [ (Cns (%^PalVariation:)) GLTS: ] %> _ ц ь °: ;
 
-   # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
-!   # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
+   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и (ʼ) | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
+!   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
 !€# мяД1%>х°д°
 !€0 мя00кад0
 !€# мяД1%>х°нда
 !€0 мя00канда
 !€# мяД1%>х°нзь°
 !€0 мя00канзь0
+!€# хан%>х°д°ниʼ
+!€0 хан0хад0ни
+!€0 хан0хадани
 
 !! C*VC
         # (2InitSylls) Cns* Vow Cns %> х: _ [(ˮ | ю) [н|д|т] | ˮ # | ʼ # ]   ;
@@ -396,7 +418,7 @@ Rules
 !€0 хан0хаданиʼ
          # (2InitSylls) Cns* [ а | я ] %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
 
-         # (2InitSylls) Cns*  Vow  [ Cns | GLTS: ] :Vow (%^A2I:|%^VowRaise:)  %> ˮ м _ н ;
+         # (2InitSylls) Cns*  Vow  [ Cns | (Cns (%^PalVariation:)) GLTS: ] :Vow (%^A2I:|%^VowRaise:)  %> ˮ м _ н ;
 !€# муН1о%>ˮм°н%{ая%}
 !€0 муно0ˮмана
 
@@ -458,7 +480,7 @@ Rules
 !€# ил°Ӈ1%>х°д°нд°
 !€0 ил0ӈ0гаданд0
 
-    # (2InitSylls) Cns* Vow ( GLTS: ) %> х: °: [ т | д ] _ [ н [ а | и | °: | д ] | т [ а | и | о | °: ]]  ;
+    # (2InitSylls) Cns* Vow ( (Cns (%^PalVariation:)) GLTS: ) %> х: °: [ т | д ] _ [ н [ а | и | °: | д ] | т [ а | и | о | °: ]]  ;
 !    # (2InitSylls) Cns* Vow ( GLTS: ) %> х: °: [ т | д ] _ [ н а | н и | т а | т и | т о ]  ;
 !      # Cns* Vow ( GLTS: ) %> х: °: [ т | д ] _ [ т а | н и ]  ;
 !€# муН1%>х°т°та
@@ -470,10 +492,13 @@ Rules
 !€# не%>х°д°ниʼ
 !€0 не0хэданиʼ
 
- # (2InitSylls) Cns* Vow Cns [ °: [ GLTS: ]| Vow: (%^A2I:) ] %> х: °: [д|т]  _  [[н|т] °: | н д ] ;
+ # (2InitSylls) Cns* Vow Cns ( °: [ GLTS: ]| Vow: (%^A2I:) ) %> х: °: [д|т]  _  [[н|т] °: | н д ] ;
 !€# ил°Ӈ1%>х°д°н°
 !€0 ил0ӈ0гадан0
-
+!€# ил°Ӈ1%>х°д°нд°
+!€0 ил0ӈ0гаданд0
+!€# хан%>х°д°н°
+!€0 хан0хадан0
 
 "°:а in Pros RIGHT"
 !! __@RULENAME@__
@@ -482,10 +507,11 @@ Rules
  # (2InitSylls) Cns* Vow (Н1:)  %> д _  [ Cns - р | Cns Cns ] [ °: | Vow ]  ;
         # (2InitSylls) Cns*  Vow (Н1:) %> д _  р [ °: | и ʼ | а ˮ ] # ;
         # (2InitSylls) Cns* Vow :Cns %> :Vow %> ˮ Cns _ (ˮ)  н а ;
-        # (2InitSylls) Cns*  Vow [ GLTS: ] %> _ ц ь °: ;
+        # (2InitSylls) Cns*  Vow [ (Cns (%^PalVariation:)) GLTS: ] %> _ ц ь °: ;
 !        # Cns*  Vow  Н1: %> _ ц ь °: ;
 
-   # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
+   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и (ʼ) | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
+!   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
 !   # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
 !€# мяД1%>х°д°
 !€0 мя00кад0
@@ -505,7 +531,7 @@ Rules
         # (2InitSylls) Cns* [ а | я ] %> х _  [ д | н | т | ʼ | ˮ | ю ]  ;
 
         # (2InitSylls) Cns* Vow Н1: %> х: _ (ˮ | ю) [н|д|т]   ;
-        # (2InitSylls) Cns*  Vow  [ Cns | GLTS: ] :Vow (%^A2I:|%^VowRaise:) %> ˮ м _ н ;
+        # (2InitSylls) Cns*  Vow  [ Cns | (Cns (%^PalVariation:)) GLTS: ] :Vow (%^A2I:|%^VowRaise:) %> ˮ м _ н ;
 !€# муН1о%>ˮм°н%{ая%}
 !€0 муно0ˮмана
     # (2InitSylls) Cns* Vow Cns °: ( Ӈ1: | С1: ) %> _ ц ь °: ;
@@ -553,7 +579,7 @@ Rules
 
         # (2InitSylls) Cns* Vow: Cns [ а | я ] %> х: _ [ ʼ | ˮ # ] ;
 !        # Cns* Vow: Cns [ °:  [ GLTS: ] | а | я ] %> х: _ [ ʼ | ˮ # ] ;
-!        # Cns* Vow: Cns :Vow [ GLTS: ] %> х: _ [ ʼ | ˮ # ] ;
+!        # Cns* Vow: Cns :Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ [ ʼ | ˮ # ] ;
         # (2InitSylls) Cns* Vow Cns [ [ °: Ӈ1: | °: С1: ] | а | я ] %>  х:  _  [ (ˮ) [ Cns -  [ в | м ] | м [Cns|Vow]  ] | ю ] ;
 !        # Cns* Vow Cns [ °: Ӈ1: | °: С1: ] %> [ д | х: ] _  [ (ˮ) [ Cns -  [ в | м ] | м [Cns|Vow]  ] | ю ] ;
 !        # Cns* Vow Cns [ °: Ӈ1: | °: С1: ] %> д _  р :Vow ;
@@ -561,7 +587,7 @@ Rules
 !€0 илан0даремʼ
 !€0 ил0н0даремʼ
 
-    # (2InitSylls) Cns* Vow ( GLTS: ) %> х: °: [ т | д ] _ [ н [ а | и | °: | д ] | т [ а | и | о | °: ]]  ;
+    # (2InitSylls) Cns* Vow ( (Cns (%^PalVariation:)) GLTS: ) %> х: °: [ т | д ] _ [ н [ а | и | °: | д ] | т [ а | и | о | °: ]]  ;
 !€# муН1%>х°т°та
 !€0 мун0гатата
 !€0 мун0г0тата
@@ -570,11 +596,13 @@ Rules
 !€# не%>х°д°ниʼ
 !€0 не0хэданиʼ
 
- # (2InitSylls) Cns* Vow Cns [ °: [ GLTS: ]| Vow: (%^A2I:) ] %> х: °: [д|т]  _  [[н|т] °: | н д ] ;
+ # (2InitSylls) Cns* Vow Cns ( °: [ GLTS: ]| Vow: (%^A2I:) ) %> х: °: [д|т]  _  [[н|т] °: | н д ] ;
 !€# ил°Ӈ1%>х°д°н°
 !€0 ил0ӈ0гадан0
 !€# ил°Ӈ1%>х°д°нд°
 !€0 ил0ӈ0гаданд0
+!€# хан%>х°д°н°
+!€0 хан0хадан0
 
 
 !! RIGHT ARROW ONLY IN °:а
@@ -593,18 +621,30 @@ Rules
 !€0 хана0в0
 !€0 хану0в0
 
-      # (2InitSylls) Cns* Vow: [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
+      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
 !      # (2InitSylls) Cns* Vow: Д1: %> д: _ [м|н] [ °: | Vow ]  ;
 !€# мяД1%>д°ми
 !€0 мя00т0ми
 !€0 мя00тами
+!€# тарД1%>д°ми
+!€0 тар00т0ми
+!€0 тар00тами
 
-   # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _  [ ю DentStops | д | т ]  ;
-      # (2InitSylls) Cns* Vow [ GLTS: ] %>  х: _ (ˮ) н [ а | %{ая%}: | и ] ;
+
+   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _  [ ю DentStops | д | т ]  ;
+!€# тарД1%>х°юнинзь
+!€0 тар00к0юнинзь
+!€0 тар00каюнинзь
+      # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %>  х: _ (ˮ) н [ а | %{ая%}: | и ] ;
 !€# муН1%>х°наˮ
 !€0 мун0ганаˮ
 !€0 мун0г0наˮ
-      # (2InitSylls) Cns* Vow [ GLTS: ] %> х: _ т °:  т Vow ;
+!€# тар%^PalVariationД1%>х°н%{ая%}
+!€0 тар000кана
+!€0 тар000кна
+!€0 тар000каня
+!€0 тар000кня
+      # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) GLTS: ] %> х: _ т °:  т Vow ;
 !€# муН1%>х°т°та
 !€0 мун0гатата
 !€0 мун0г0тата
@@ -733,6 +773,7 @@ Rules
 !€# не%>х°т°та
 !€# не0хэтата
 !€# не%>х°д°ниʼ
+!€0 не0хэданиʼ
 
 "ә:э in extra short to э"
 !! __@RULENAME@__
@@ -848,6 +889,15 @@ Rules
   # [[ с | н | т ] [ е | и | ю ] | и ] [( GLTS: ) (%^PLNOM:) %> ] [ т | (н|м) д ] _ ;
 !# [[ с | н | т ] [ е | и | ю ] | и ] [( GLTS: ) %> (ˮ)| %> ˮ ] %{ауоэиыØ%}: %{увм%}: (А2:) н _ ;
    # п э в а: ʼ: %> н: _ ;
+   Cns %^PalVariation: ( GLTS: ) (%^PLNOM:) %> [ т | (н:|м:) д: | (ˮ) [ ( 0: ) м: | х: ] °: (ˮ) н ] _ ;
+!€# тар%^PalVariationД1%>х°н%{ая%}
+!€0 тар000кана
+!€0 тар000кна
+!€0 тар000каня
+!€0 тар000кня
+!€# тар%^PalVariationД1%>д%{ая%}
+!€0 тар000та
+!€0 тар000тя
 
 
 "%{оё%}:ё VowelPalatalization right"
@@ -857,6 +907,10 @@ Rules
 !€# ню%>д%{оё%}ʼ
 !€0 ню0доʼ
 !€0 ню0дёʼ
+  Cns %^PalVariation: ( GLTS: ) (%^PLNOM:) %> [ т | (н:|м:) д: ] _ ;
+!€# тар%^PalVariationД1%>д%{оё%}ʼ
+!€0 тар000тоʼ
+!€0 тар000тёʼ
 
 !!2014-03-24!!"у:ю VowelPalatalization"
 !!2014-03-24!!!! __@RULENAME@__
@@ -1246,6 +1300,11 @@ Rules
 !!2014-03-24!!!! __@RULENAME@__
 !!2014-03-24!! р:0 <=> Vow [ л | р: ] %> _  ;
 
+"r To 0 before glottal and %{рл%}"
+!! __@RULENAME@__
+ р:0 <=> Vow _ (%^PalVariation:) Д1: %> %{рл%}:   ;
+!€# тар%^PalVariationД1%>%{рл%}°
+!€0 та0000л0
 
 "nTod"
 !! __@RULENAME@__
@@ -1263,6 +1322,9 @@ Rules
      [ С1: | Д1: ] %^SCSG2: %> _ [ а с ь | °: ] ;
 !€# мяД1%^SCSG2%>нась
 !€0 мя000тась
+!€# тар%^PalVariationД1%^SCSG2%>нась
+!€0 тар0000тась
+
 ! [ С1: | Д1: | ˮ: ] %> _ [ °: ʼ | а  ] ;
 
 "d to t after non-nasal glottal"
@@ -1275,6 +1337,9 @@ Rules
 !€0 мя00та
 !€# мяД1%>дмʼ
 !€0 мя00тмʼ
+!€# тар%^PalVariationД1%>д%{ая%}
+!€0 тар000та
+!€0 тар000тя
 
 !!2014-03-24!!"d to l after non-nasal glottal"
 !!2014-03-24!!!! __@RULENAME@__
@@ -1454,18 +1519,47 @@ Rules
 
 
 
-"Д1:0 GlottalNonNasalToZERO"
+"Д1:0 GlottalNonNasalToZERO LEFT"
 !! __@RULENAME@__
- Д1:0 <=> _ %>  [ х: | н: °: ʼ | ˮ Cns °: | [ м: | н: ] д: [ °: | и | а | %{оё%}: | %{ая%}: ] | с: [ ь | и ] | ц ь | д: [ %{ая%}: | %{оё%}: | °: # | °: [ м: | н: | р | д | в а ˮ ] ] | д: а ˮ | д:т а ц ь | д: [ м ʼ | а м з ь | и н з ь | и | а # ] ]  ;
-! _ %>  [ х: | н: °: ʼ | ˮ Cns °: | с: ь | ц ь | д: (а ˮ) | д:т а ц ь | д: м ʼ | д: а м з ь | д: и н з ь ]  ;
+ Д1:0 <= Vow _ %>  [ х: | н: °: ʼ | ˮ Cns °: | [ м: | н: ] д: [ °: | и | а | %{оё%}: | %{ая%}: ] | с: [ ь | и ] | ц ь | д: [ %{ая%}: | %{оё%}: | °: # | °: [ м: | н: | р | д | в а ˮ ] ] | д: а ˮ | д:т а ц ь | д: [ м ʼ | а м з ь | и н з ь | и | а # ] ]  ;
 !€# мяД1%>мд°
 !€# мя000т0
 !€# мяД1%>д%{ая%}
 !€0 мя00та
-      _ %^SCSG2: %> н: [ а с ь | °: ] ;
+    Vow (Cns: (%^PalVariation:)) _ %^SCSG2: %> н: [ а с ь | °: ] ;
 !€# мяД1%^SCSG2%>нась
 !€0 мя000тась
- Cns:  _ %>  [ (м) ʼ | ˮ ]  ;
+ Cns: (%^PalVariation:) _ %>  [ (м) °: ʼ | °: м ʼ | °: ˮ | °: ц ь °: | ( м: | н: ) д: | х: | %{рл%}:  ]  ;
+!€# тар%^PalVariationД1%>°мʼ
+!€# тар0000мʼ
+!€# тар%^PalVariationД1%>%{рл%}°
+!€0 та0000л0
+
+"Д1:0 GlottalNonNasalToZERO RIGHT"
+!! __@RULENAME@__
+ Д1:0 => _ %>  [ х: | н: °: ʼ | ˮ Cns °: | [ м: | н: ] д: [ °: | и | а | %{оё%}: | %{ая%}: ] | с: [ ь | и ] | ц ь | д: [ %{ая%}: | %{оё%}: | °: # | °: [ м: | н: | р | д | в а ˮ ] ] | д: а ˮ | д:т а ц ь | д: [ м ʼ | а м з ь | и н з ь | и | а # ] ]  ;
+!€# мяД1%>мд°
+!€# мя000т0
+!€# мяД1%>д%{ая%}
+!€0 мя00та
+     Vow (Cns: (%^PalVariation:)) _ %^SCSG2: %> н: [ а с ь | °: ] ;
+!€# мяД1%^SCSG2%>нась
+!€0 мя000тась
+ Cns: (%^PalVariation:) _ %>  [ (м ) °: ʼ | °: м ʼ | °: ˮ | °: ц ь °: | ( м: | н: ) д: | х: | %{рл%}: ]  ;
+!€# тар%^PalVariationД1%>%{рл%}°
+!€0 та0000л0
+!€# тар%^PalVariationД1%>мд%{ая%}
+!€0 тар0000та
+!€0 тар0000тя
+
+!! RIGHT ARROW ONLY Д1:0
+    Cns (%^PalVariation:) _ %> [ м | н: Vow | ӈ ] ;
+!€# тарД1%>ми
+!€0 тарˮ0ми
+!€0 тар00ми
+!€# тарД1%>ни
+!€0 тарˮ0ни
+!€0 тар00ни
 
 "С1:0 GlottalNonNasalToZERO"
 !! __@RULENAME@__
@@ -1495,10 +1589,30 @@ Rules
  С1:ˮ <=> _ [ #: | %> [  ( 0: ) %{рл%}: | м Vow | ӈ э | ( 0: ) м °: | н [ Vow | °: # ] | 0: н [ °: #| # | %> ] ] ] ;
 ! _ [ #: | %> м н а | %> %{вм%}:м ] ;
 
-"Д1:ˮ UnderlyingToGlottal"
+"Д1:ˮ UnderlyingToGlottal LEFT"
 !! __@RULENAME@__
- Д1:ˮ <=> _ [ #: | %> [  ( 0: ) %{рл%}: | м Vow | ӈ э | ( 0: ) м °: | н [ Vow | °: # ] | 0: н [ °: #| # | %> ] ] ] ;
+ Д1:ˮ <= Vow _ [ #: | %> [  ( 0: ) %{рл%}: | м Vow | ӈ э | ( 0: ) м °: | н [ Vow | °: # ] | 0: н [ °: #| # | %> ] ] ] ;
 ! _ [ #: | %> [ д:л а ц ь | и | м и | ӈ э | м а | а м н а | ( 0: ) м н а | н а | н [ и | # | %> ] ] ] ;
+    Cns (%^PalVariation:) _  #  ;
+!€# тарД1
+!€0 тарˮ
+
+"Д1:ˮ UnderlyingToGlottal RIGHT"
+!! __@RULENAME@__
+ Д1:ˮ => Vow _ [ #: | %> [  ( 0: ) %{рл%}: | м Vow | ӈ э | ( 0: ) м °: | н [ Vow | °: # ] | 0: н [ °: #| # | %> ] ] ] ;
+    Cns (%^PalVariation:) _  #  ;
+!€# тарД1
+!€0 тарˮ
+
+!! RIGHT ARROW ONLY Д1:ˮ
+    Cns	(%^PalVariation:) _ %> [ м | н: Vow | ӈ ] ;
+!€# тарД1%>ми
+!€0 тарˮ0ми
+!€0 тар00ми
+!€# тарД1%>ни
+!€0 тарˮ0ни
+!€0 тар00ни
+
 
 "Н1:ʼ UnderlyingToGlottal"
 !! __@RULENAME@__

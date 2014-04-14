@@ -184,6 +184,7 @@ symbols in the lexicon files:
 And following triggers to control variation
   %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
   %^PLNOM     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+  %^PalVariation  This allows for тарД1%>д%{оё%}нзь
 
 
   %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
