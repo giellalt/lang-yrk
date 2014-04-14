@@ -28820,10 +28820,34 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">майбтамбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">майбтамба</st>
+
+        <st Contlex="TV_ПЭБЮ">маябтамба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">riemastuttaa</t>
+
+        <t pos="V">ilostuttaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">майбтась</l>
 
       <stg>
         <st Contlex="TV_ХАДА">майбта</st>
+
+        <st Contlex="TV_ХАДА">маябта</st>
       </stg>
     </lg>
 
@@ -34345,6 +34369,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">мерёлемба</st>
+
+        <st Contlex="TV_ПЭБЮ">мерюлемба</st>
       </stg>
     </lg>
 
@@ -34363,6 +34389,8 @@
 
       <stg>
         <st Contlex="TV_ИЛЕ">мерёле</st>
+
+        <st Contlex="TV_ИЛЕ">мерюле</st>
       </stg>
     </lg>
 
@@ -46258,6 +46286,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">нохобта</st>
+
+        <st Contlex="TV_ХАДА">нэхобта</st>
       </stg>
     </lg>
 
@@ -46280,6 +46310,10 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">нохора</st>
+
+        <st Contlex="IV_ЛАХАНА">нэхэра</st>
+
+        <st Contlex="IV_ЛАХАНА">нэхора</st>
       </stg>
     </lg>
 
@@ -48288,25 +48322,9 @@
       <tg xml:lang="fin">
         <tf pos="VR">muuttua pieneksi</tf>
 
-        <tf pos="V">muuttua ahtaaksi</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="VR">нюдилесь</l>
-
-      <stg>
-        <st Contlex="VR_ИЛЕ">нюдиле</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
         <tf pos="VR">jäädä pieniksi</tf>
+
+        <tf pos="VR">muuttua ahtaaksi</tf>
       </tg>
     </mg>
   </e>
