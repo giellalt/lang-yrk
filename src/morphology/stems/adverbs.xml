@@ -556,10 +556,10 @@
 
   <e>
     <lg>
-      <l pos="Adv">ирˮ</l>
+      <l pos="Adv">ивъерʼ</l>
 
       <stg>
-        <st Contlex="ADV-LOC_">ирˮ</st>
+        <st Contlex="ADV-MANNER_">ивъерʼ</st>
       </stg>
     </lg>
 
@@ -567,23 +567,47 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">viereessä</t>
+        <t pos="Adv">ahkerasti</t>
 
-        <t pos="Adv">vastassa</t>
+        <t pos="Adv">rehellisesti</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Adv">ирсуʼ</l>
+      <l pos="Adv">инзерʼ</l>
 
       <stg>
-        <st Contlex="ADV-LOC_">ирсуʼ</st>
+        <st Contlex="ADV-MANNER_">инзерʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">suostuvaisesti</t>
+
+        <t pos="Adv">taipuisasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ирсуˮ</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">ирсуˮ</st>
       </stg>
     </lg>
 
@@ -1643,12 +1667,56 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Adv">too</t>
+        <t pos="Adv">cheap</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Adv">halvalla</t>
 
+        <t pos="Adv">ilmaiseksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">мирциˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">мирциˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">huonosti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">мирципойˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">мирципойˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
         <t pos="Adv">ilmaiseksi</t>
       </tg>
     </mg>

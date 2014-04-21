@@ -362,6 +362,8 @@
 
       <stg>
         <st Contlex="IV_ВАДЮ">ваˮнебтё</st>
+
+        <st Contlex="IV_ВАДЮ">вантё</st>
       </stg>
     </lg>
 
@@ -434,6 +436,8 @@
 
       <stg>
         <st Contlex="IV_ТИР">ваˮнувор</st>
+
+        <st Contlex="IV_ТИР">ванувор</st>
       </stg>
     </lg>
 
@@ -470,6 +474,8 @@
 
       <stg>
         <st Contlex="IV_ӇАРАМ">ваˮнум</st>
+
+        <st Contlex="IV_ӇАРАМ">ванум</st>
       </stg>
     </lg>
 
@@ -2518,29 +2524,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">ванонзь</l>
-
-      <stg>
-        <st Contlex="IV_МИН">ванон</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">juuria</t>
-
-        <tf pos="V">kitkeä juurineen</tf>
-
-        <tf pos="V">poistaa vanteita</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="IV">ваноёнзь</l>
+      <l pos="V" type="IV">ванонзь</l>
 
       <stg>
         <st Contlex="IV_МИН">ванон</st>
@@ -2554,6 +2538,10 @@
         <tf pos="V" type="IV">kiskoa juuria</tf>
 
         <tf pos="V" type="IV">temmata juuria</tf>
+
+        <tf pos="V">kitkeä juurineen</tf>
+
+        <tf pos="V">poistaa vanteita</tf>
       </tg>
     </mg>
   </e>
@@ -3293,7 +3281,7 @@
       <tg xml:lang="fin">
         <tf pos="VR">alkaa juosta</tf>
 
-        <tf pos="VR">alkaa tikittää</tf>
+        <tf pos="VR">alkaa kipittää</tf>
       </tg>
     </mg>
   </e>
@@ -5480,10 +5468,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">выдарась</l>
+      <l pos="V" type="R" val="IV">выдарарась</l>
 
       <stg>
-        <st Contlex="IV_ЛАХАНА">выдара</st>
+        <st Contlex="VR_ЛАХАНА">выдарара</st>
       </stg>
     </lg>
 
@@ -5491,9 +5479,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">väsyä</t>
-
-        <t pos="V">nääntyä</t>
+        <t pos="V">tuntea väsyneenä</t>
       </tg>
     </mg>
   </e>
@@ -7269,9 +7255,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">вэдлабтабась</l>
+      <l pos="V" val="TV">вэдлабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">вэдлабтамба</st>
+
         <st Contlex="TV_ПЭБЮ">вэдлабтаба</st>
       </stg>
     </lg>
@@ -16602,6 +16590,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">ивтемба</st>
+
+        <st Contlex="TV_ПЭБЮ">ивтеба</st>
       </stg>
     </lg>
 
@@ -17226,6 +17216,8 @@
 
       <stg>
         <st Contlex="TV_ИЛЕ">идяхале</st>
+
+        <st Contlex="TV_ИЛЕ">идяле</st>
       </stg>
     </lg>
 
@@ -17244,6 +17236,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">идяхалтамба</st>
+
+        <st Contlex="TV_ПЭБЮ">идялтамба</st>
       </stg>
     </lg>
 
@@ -17262,6 +17256,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">идяхалта</st>
+
+        <st Contlex="TV_ХАДА">идялта</st>
       </stg>
     </lg>
 
@@ -17280,6 +17276,8 @@
 
       <stg>
         <st Contlex="IV_СЯНАКУ">идяхалтаӈго</st>
+
+        <st Contlex="IV_СЯНАКУ">идялтаӈго</st>
       </stg>
     </lg>
 
@@ -17298,6 +17296,8 @@
 
       <stg>
         <st Contlex="VR_ТИР">идяхал</st>
+
+        <st Contlex="VR_ТИР">идял</st>
       </stg>
     </lg>
 
@@ -17312,7 +17312,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">икaртась</l>
+      <l pos="V" val="IV">икартась</l>
 
       <stg>
         <st Contlex="IV_ЛАХАНА">икарта</st>
@@ -17634,9 +17634,11 @@
 
   <e>
     <lg>
-      <l pos="VR">илелтась</l>
+      <l pos="VR">илелтанась</l>
 
       <stg>
+        <st Contlex="VR_ЛАХАНА">илелтана</st>
+
         <st Contlex="VR_ЛАХАНА">илелта</st>
       </stg>
     </lg>
@@ -146963,43 +146965,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="VR">alkaa kalastaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="VR">ёлась</l>
-
-      <stg>
-        <st Contlex="VR_ЛАХАНА">ёла</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
         <t pos="V" type="VR">alkaa syödä keittoa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="VR">ёлась</l>
-
-      <stg>
-        <st Contlex="VR_ЛАХАНА">ёла</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="VR">ryhtyä syömään keittoa</tf>
       </tg>
     </mg>
   </e>
