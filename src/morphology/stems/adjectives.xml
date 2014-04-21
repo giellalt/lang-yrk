@@ -4378,6 +4378,62 @@
 
   <e>
     <lg>
+      <l pos="A">мэнена</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">мэнена</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">rakas</t>
+
+        <t pos="A">rakastava</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мэнеялада</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">мэнеялада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">lemmikki</t>
+
+        <tf pos="A">lempi=</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">мэхэй</l>
 
       <stg>
@@ -4389,7 +4445,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">selkäranka lihan kanssa</t>
+        <tf pos="A">selkäranka lihan kanssa</tf>
       </tg>
     </mg>
   </e>
@@ -4455,7 +4511,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">sisäisellä teltankattotaljalla</t>
+        <tf pos="A">sisäisellä teltankattotaljalla</tf>
 
         <t pos="A">täytetty</t>
 
@@ -4481,7 +4537,7 @@
 
         <t pos="A">ahdas</t>
 
-        <t pos="A">tuskin näkyvä</t>
+        <tf pos="A">tuskin näkyvä</tf>
       </tg>
     </mg>
   </e>
@@ -4499,9 +4555,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">kodan-</t>
+        <t pos="A">kodan=</t>
 
-        <t pos="A">koti-</t>
+        <t pos="A">koti=</t>
       </tg>
     </mg>
   </e>
@@ -4579,9 +4635,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">sikeästi nukkuva</t>
+        <tf pos="A">sikeästi nukkuva</tf>
 
-        <t pos="A">syvässä unessa</t>
+        <tf pos="A">syvässä unessa</tf>
       </tg>
     </mg>
   </e>
