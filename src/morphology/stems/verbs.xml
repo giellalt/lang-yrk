@@ -31850,7 +31850,7 @@
       <l pos="V" val="IV">манзь</l>
 
       <stg>
-        <st Contlex="IV_МАН">маН1</st>
+        <st Contlex="IV_МАН">ман</st>
       </stg>
     </lg>
 
@@ -33170,7 +33170,7 @@
       <l pos="V" val="IV">марензь</l>
 
       <stg>
-        <st Contlex="IV_МИН">мареН1</st>
+        <st Contlex="IV_МИН">марен</st>
       </stg>
     </lg>
 
@@ -33188,7 +33188,7 @@
       <l pos="V" val="TV">марензь</l>
 
       <stg>
-        <st Contlex="TV_МИН">мареН1</st>
+        <st Contlex="TV_МИН">марен</st>
       </stg>
     </lg>
 
@@ -36732,7 +36732,7 @@
       <l pos="V" val="IV">минзь</l>
 
       <stg>
-        <st Contlex="IV_МИН-Pal/Var">миН1</st>
+        <st Contlex="IV_МИН-Pal/Var">мин</st>
       </stg>
     </lg>
 
@@ -138851,23 +138851,7 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">ябадаӈга</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV">tukkia kodan sisäpuoli tuulelta</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">ябадаӈгась</l>
-
-      <stg>
         <st Contlex="IV_ЛАХАНА">ябэдаӈга</st>
       </stg>
     </lg>
@@ -140054,25 +140038,9 @@
       <l pos="V" val="IV">ябэдёсь</l>
 
       <stg>
-        <st Contlex="IV_ВАДЮ">ябадё</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">olla tukittu sisä- tai ulkopuolelta tuulen varalta</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">ябэдёсь</l>
-
-      <stg>
         <st Contlex="IV_ВАДЮ">ябэдё</st>
+
+        <st Contlex="IV_ВАДЮ">ябадё</st>
       </stg>
     </lg>
 
