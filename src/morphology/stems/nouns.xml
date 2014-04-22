@@ -154,6 +154,46 @@
 
   <e>
     <lg>
+      <l pos="N">акар</l>
+
+      <stg>
+        <st Contlex="N_ЕД">акар</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">tietty koirarotu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">акушерка</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ-RUS">акушерка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kätilö</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">алфавит</l>
 
       <stg>
@@ -206,6 +246,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">kyselylomake</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">антенна</l>
+
+      <stg>
+        <st Contlex="N_МАРАӇГЫ-RUS">антенна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">antenni</t>
       </tg>
     </mg>
   </e>
@@ -462,6 +520,26 @@
 
   <e>
     <lg>
+      <l pos="N">баян</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">баян</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">haitari</t>
+
+        <t pos="N">harmonikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">бензин</l>
 
       <stg>
@@ -512,6 +590,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">lippu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">бинт</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">бинт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sidos</t>
       </tg>
     </mg>
   </e>
@@ -774,6 +870,30 @@
         <t pos="N">ääni</t>
 
         <t pos="N">puhe</t>
+
+        <t pos="N">tapaluokka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">вагон</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">вагон</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">wagon</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">vaunu</t>
       </tg>
     </mg>
   </e>
@@ -924,10 +1044,30 @@
 
   <e>
     <lg>
+      <l pos="N">вадари</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ">вадари</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">suunsoittaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">вадарэ</l>
 
       <stg>
         <st Contlex="N_ЯКЫ">вадарэ</st>
+
+        <st Contlex="N_ПАНЫ">вадары</st>
       </stg>
     </lg>
 
@@ -37389,6 +37529,24 @@
 
   <e>
     <lg>
+      <l pos="N">харнипаӈг</l>
+
+      <stg>
+        <st Contlex="N_ХАНО">харнипаӈг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kanerva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">харп</l>
 
       <stg>
@@ -41630,6 +41788,50 @@
 
   <e>
     <lg>
+      <l pos="N">явол</l>
+
+      <stg>
+        <st Contlex="N_ЕД">явол</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>satan</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">piru</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">яволик</l>
+
+      <stg>
+        <st Contlex="N_ЕД">яволик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="N">merellä metsästäjä</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">явонзьʼ</l>
 
       <stg>
@@ -41786,13 +41988,7 @@
         <t pos="N">kävelytapa</t>
 
         <t pos="N">käynti</t>
-      </tg>
-    </mg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
         <tf pos="N">siirto (pelissä)</tf>
       </tg>
     </mg>
@@ -44995,7 +45191,7 @@
       <l pos="N">ӈарӈоʼ</l>
 
       <stg>
-        <st Contlex="N_МУНО">ӈарӈоН1</st>
+        <st Contlex="N_МУНО">ӈарӈо</st>
       </stg>
     </lg>
 

@@ -1800,6 +1800,28 @@
 
   <e>
     <lg>
+      <l pos="A">иняний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">иняний</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A">left</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">vasen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ирийсавэй</l>
 
       <stg>
@@ -10246,6 +10268,28 @@
 
   <e>
     <lg>
+      <l pos="A">сятаний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">сятаний</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A">left</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">vasen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">сяхалпэй</l>
 
       <stg>
@@ -10824,6 +10868,50 @@
 
       <tg xml:lang="fin">
         <t pos="A">keltainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тасий</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тасий</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A">lower</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">alimmainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тасиний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тасиний</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A">lower</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">alimmainen</t>
       </tg>
     </mg>
   </e>
@@ -14926,6 +15014,24 @@
         <t pos="A">sakkainen</t>
 
         <t pos="A">samea</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">яехад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">яехад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">sakkainen</t>
       </tg>
     </mg>
   </e>
