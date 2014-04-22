@@ -1,0 +1,312 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+# NB! Following stem-final modifications take place in AccPl stem: ва -> би, ка -> ци, га -> зи
+# # +Use/SpellNoSugg
+  Noun - харад: # Noun 'house /(fin) talo' - full paradigm /MDTN-koodi ə→o/
+     харад+N+Sg+Nom: харад
+     харад+N+Sg+Acc: харадмʼ
+     харад+N+Sg+Gen: харадʼ
+     харад+N+Sg+Dat: харданʼ
+     харад+N+Sg+Loc: хардахана
+     харад+N+Sg+Abl: хардахад
+     харад+N+Sg+Pros: хардувна
+     харад+N+Du+Nom: хардахаʼ
+     харад+N+Du+Acc: хардахаʼ
+     харад+N+Du+Gen: хардахаʼ
+     харад+N+Pl+Nom: харадˮ
+     харад+N+Pl+Acc: хардо
+     харад+N+Pl+Gen: хардоˮ
+     харад+N+Pl+Dat: хардахаˮ
+     харад+N+Pl+Loc: хардахаˮна
+     харад+N+Pl+Abl: хардахат
+     харад+N+Pl+Pros: хардоˮмна
+     харад+N+Sg+Nom+PxSg1: [хардав, хардув]
+     харад+N+Sg+Acc+PxSg1: [хардав, хардув]
+     харад+N+Sg+Gen+PxSg1: хардан
+     харад+N+Sg+Dat+PxSg1: хардахан
+     харад+N+Sg+Loc+PxSg1: хардаханан
+     харад+N+Sg+Abl+PxSg1: хардахадан
+     харад+N+Sg+Pros+PxSg1: хардувнан
+     харад+N+Du+Nom+PxSg1: хардахаюн
+     харад+N+Du+Acc+PxSg1: хардахаюн
+     харад+N+Du+Gen+PxSg1: хардахаюн
+     харад+N+Pl+Nom+PxSg1: хардон
+     харад+N+Pl+Acc+PxSg1: хардон
+     харад+N+Pl+Gen+PxSg1: хардоˮн
+     харад+N+Pl+Dat+PxSg1: хардахаˮн
+     харад+N+Pl+Loc+PxSg1: хардахаˮнан
+     харад+N+Pl+Abl+PxSg1: хардахатан
+     харад+N+Pl+Pros+PxSg1: хардоˮмнан
+     харад+N+Sg+Nom+PxSg2: хардар
+     харад+N+Sg+Acc+PxSg2: хардамд
+     харад+N+Sg+Gen+PxSg2: харданд
+     харад+N+Sg+Dat+PxSg2: хардаханд
+     харад+N+Sg+Loc+PxSg2: хардахананд
+     харад+N+Sg+Abl+PxSg2: хардахаданд
+     харад+N+Sg+Pros+PxSg2: хардувнанд
+     харад+N+Du+Nom+PxSg2: хардахаюд
+     харад+N+Du+Acc+PxSg2: хардахаюд
+     харад+N+Du+Gen+PxSg2: хардахают
+     харад+N+Pl+Nom+PxSg2: хардод
+     харад+N+Pl+Acc+PxSg2: хардод
+     харад+N+Pl+Gen+PxSg2: хардот
+     харад+N+Pl+Dat+PxSg2: хардахат
+     харад+N+Pl+Loc+PxSg2: хардахаˮнат
+     харад+N+Pl+Abl+PxSg2: хардахатат
+     харад+N+Pl+Pros+PxSg2: хардоˮмнат
+     харад+N+Sg+Nom+PxSg3: хардада
+     харад+N+Sg+Acc+PxSg3: хардамда
+     харад+N+Sg+Gen+PxSg3: харданда
+     харад+N+Sg+Dat+PxSg3: хардаханда
+     харад+N+Sg+Loc+PxSg3: хардахананда
+     харад+N+Sg+Abl+PxSg3: хардахаданда
+     харад+N+Sg+Pros+PxSg3: хардувнанда
+     харад+N+Du+Nom+PxSg3: хардахаюда
+     харад+N+Du+Acc+PxSg3: хардахаюда
+     харад+N+Du+Gen+PxSg3: хардахаюта
+     харад+N+Pl+Nom+PxSg3: хардода
+     харад+N+Pl+Acc+PxSg3: хардода
+     харад+N+Pl+Gen+PxSg3: хардота
+     харад+N+Pl+Dat+PxSg3: хардахата
+     харад+N+Pl+Loc+PxSg3: хардахаˮната
+     харад+N+Pl+Abl+PxSg3: хардахатата
+     харад+N+Pl+Pros+PxSg3: хардоˮмната
+     харад+N+Sg+Nom+PxDu1: хардамиʼ
+     харад+N+Sg+Nom+PxSg1: хардами # +Use/SpellNoSugg
+     харад+N+Sg+Acc+PxDu1: хардамиʼ
+     харад+N+Sg+Acc+PxSg1: хардами # +Use/SpellNoSugg
+     харад+N+Sg+Gen+PxDu1: харданиʼ
+     харад+N+Sg+Gen+PxSg1: хардани # +Use/SpellNoSugg
+     харад+N+Sg+Dat+PxDu1: хардаханиʼ
+     харад+N+Sg+Dat+PxSg1: хардахани # +Use/SpellNoSugg
+     харад+N+Sg+Loc+PxDu1: хардахананиʼ
+     харад+N+Sg+Loc+PxSg1: хардаханани # +Use/SpellNoSugg
+     харад+N+Sg+Abl+PxDu1: хардахаданиʼ
+     харад+N+Sg+Abl+PxSg1: хардахадани # +Use/SpellNoSugg
+     харад+N+Sg+Pros+PxDu1: хардувнаниʼ
+     харад+N+Sg+Pros+PxSg1: хардувнани # +Use/SpellNoSugg
+     харад+N+Du+Nom+PxDu1: хардахаюниʼ
+     харад+N+Du+Nom+PxSg1: хардахаюни # +Use/SpellNoSugg
+     харад+N+Du+Acc+PxDu1: хардахаюниʼ
+     харад+N+Du+Acc+PxSg1: хардахаюни # +Use/SpellNoSugg
+     харад+N+Du+Gen+PxDu1: хардахаюниʼ
+     харад+N+Du+Gen+PxSg1: хардахаюни # +Use/SpellNoSugg
+     харад+N+Pl+Nom+PxDu1: хардониʼ
+     харад+N+Pl+Nom+PxSg1: хардони # +Use/SpellNoSugg
+     харад+N+Pl+Acc+PxDu1: хардониʼ
+     харад+N+Pl+Acc+PxSg1: хардони # +Use/SpellNoSugg
+     харад+N+Pl+Gen+PxDu1: хардоˮниʼ
+     харад+N+Pl+Gen+PxSg1: хардоˮни # +Use/SpellNoSugg
+     харад+N+Pl+Dat+PxDu1: хардахаˮниʼ
+     харад+N+Pl+Dat+PxSg1: хардахаˮни # +Use/SpellNoSugg
+     харад+N+Pl+Loc+PxDu1: хардахаˮнаниʼ
+     харад+N+Pl+Loc+PxSg1: хардахаˮнани # +Use/SpellNoSugg
+     харад+N+Pl+Abl+PxDu1: хардахатаниʼ
+     харад+N+Pl+Abl+PxSg1: хардахатани # +Use/SpellNoSugg
+     харад+N+Pl+Pros+PxDu1: хардоˮмнаниʼ
+     харад+N+Pl+Pros+PxSg1: хардоˮмнани # +Use/SpellNoSugg
+     харад+N+Sg+Nom+PxDu2: хардариʼ
+     харад+N+Sg+Acc+PxDu2: хардамдиʼ
+     харад+N+Sg+Gen+PxDu2: хардандиʼ
+     харад+N+Sg+Dat+PxDu2: хардахандиʼ
+     харад+N+Sg+Loc+PxDu2: хардаханандиʼ
+     харад+N+Sg+Abl+PxDu2: хардахадандиʼ
+     харад+N+Sg+Pros+PxDu2: хардувнандиʼ
+     харад+N+Du+Nom+PxDu2: хардахаюдиʼ
+     харад+N+Du+Acc+PxDu2: хардахаюдиʼ
+     харад+N+Du+Gen+PxDu2: хардахаютиʼ
+     харад+N+Pl+Nom+PxDu2: хардодиʼ
+     харад+N+Pl+Acc+PxDu2: хардодиʼ
+     харад+N+Pl+Gen+PxDu2: хардотиʼ
+     харад+N+Pl+Dat+PxDu2: хардахатиʼ
+     харад+N+Pl+Loc+PxDu2: хардахаˮнатиʼ
+     харад+N+Pl+Abl+PxDu2: хардахататиʼ
+     харад+N+Pl+Pros+PxDu2: хардоˮмнатиʼ
+     харад+N+Sg+Nom+PxDu3: хардадиʼ
+     харад+N+Sg+Acc+PxDu3: хардамдиʼ
+     харад+N+Sg+Gen+PxDu3: хардандиʼ
+     харад+N+Sg+Dat+PxDu3: хардахандиʼ
+     харад+N+Sg+Loc+PxDu3: хардаханандиʼ
+     харад+N+Sg+Abl+PxDu3: хардахадандиʼ
+     харад+N+Sg+Pros+PxDu3: хардувнандиʼ
+     харад+N+Du+Nom+PxDu3: хардахаюдиʼ
+     харад+N+Du+Acc+PxDu3: хардахаюдиʼ
+     харад+N+Du+Gen+PxDu3: хардахаютиʼ
+     харад+N+Pl+Nom+PxDu3: хардодиʼ
+     харад+N+Pl+Acc+PxDu3: хардодиʼ
+     харад+N+Pl+Gen+PxDu3: хардотиʼ
+     харад+N+Pl+Dat+PxDu3: хардахатиʼ
+     харад+N+Pl+Loc+PxDu3: хардахаˮнатиʼ
+     харад+N+Pl+Abl+PxDu3: хардахататиʼ
+     харад+N+Pl+Pros+PxDu3: хардоˮмнатиʼ
+     харад+N+Sg+Nom+PxPl1: хардаваˮ
+     харад+N+Sg+Acc+PxPl1: хардаваˮ
+     харад+N+Sg+Gen+PxPl1: харданаˮ
+     харад+N+Sg+Dat+PxPl1: хардаханаˮ
+     харад+N+Sg+Loc+PxPl1: хардахананаˮ
+     харад+N+Sg+Abl+PxPl1: хардахаданаˮ
+     харад+N+Sg+Pros+PxPl1: хардувнанаˮ
+     харад+N+Du+Nom+PxPl1: хардахаюнаˮ
+     харад+N+Du+Acc+PxPl1: хардахаюнаˮ
+     харад+N+Du+Gen+PxPl1: хардахаюнаˮ
+     харад+N+Pl+Nom+PxPl1: хардонаˮ
+     харад+N+Pl+Acc+PxPl1: хардонаˮ
+     харад+N+Pl+Gen+PxPl1: хардоˮнаˮ
+     харад+N+Pl+Dat+PxPl1: хардахаˮнаˮ
+     харад+N+Pl+Loc+PxPl1: хардахаˮнанаˮ
+     харад+N+Pl+Abl+PxPl1: хардахатанаˮ
+     харад+N+Pl+Pros+PxPl1: хардоˮмнанаˮ
+     харад+N+Sg+Nom+PxPl2: хардараˮ
+     харад+N+Sg+Acc+PxPl2: хардамдаˮ
+     харад+N+Sg+Gen+PxPl2: хардандаˮ
+     харад+N+Sg+Dat+PxPl2: хардахандаˮ
+     харад+N+Sg+Loc+PxPl2: хардаханандаˮ
+     харад+N+Sg+Abl+PxPl2: хардахадандаˮ
+     харад+N+Sg+Pros+PxPl2: хардувнандаˮ
+     харад+N+Du+Nom+PxPl2: хардахаюдаˮ
+     харад+N+Du+Acc+PxPl2: хардахаюдаˮ
+     харад+N+Du+Gen+PxPl2: хардахаютаˮ
+     харад+N+Pl+Nom+PxPl2: хардодаˮ
+     харад+N+Pl+Acc+PxPl2: хардодаˮ
+     харад+N+Pl+Gen+PxPl2: хардотаˮ
+     харад+N+Pl+Dat+PxPl2: хардахатаˮ
+     харад+N+Pl+Loc+PxPl2: хардахаˮнатаˮ
+     харад+N+Pl+Abl+PxPl2: хардахататаˮ
+     харад+N+Pl+Pros+PxPl2: хардоˮмнатаˮ
+     харад+N+Sg+Nom+PxPl3: хардадоʼ
+     харад+N+Sg+Acc+PxPl3: хардамдоʼ
+     харад+N+Sg+Gen+PxPl3: хардандоʼ
+     харад+N+Sg+Dat+PxPl3: хардахандоʼ
+     харад+N+Sg+Loc+PxPl3: хардаханандоʼ
+     харад+N+Sg+Abl+PxPl3: хардахадандоʼ
+     харад+N+Sg+Pros+PxPl3: хардувнандоʼ
+     харад+N+Du+Nom+PxPl3: хардахаюдоʼ
+     харад+N+Du+Acc+PxPl3: хардахаюдоʼ
+     харад+N+Du+Gen+PxPl3: хардахаютоʼ
+     харад+N+Pl+Nom+PxPl3: хардодоʼ
+     харад+N+Pl+Acc+PxPl3: хардодоʼ
+     харад+N+Pl+Gen+PxPl3: хардотоʼ
+     харад+N+Pl+Dat+PxPl3: хардахатоʼ
+     харад+N+Pl+Loc+PxPl3: хардахаˮнатоʼ
+     харад+N+Pl+Abl+PxPl3: хардахататоʼ
+     харад+N+Pl+Pros+PxPl3: хардоˮмнатоʼ
+     харад+N+Pred+Abs: хардад
+     харад+N+Pred+Nom+PxSg1: [хардадав, хардадув]
+     харад+N+Pred+Acc+PxSg1: [хардадав, хардадув]
+     харад+N+Pred+Gen+PxSg1: хардадан
+     харад+N+Pred+Nom+PxSg2: хардадар
+     харад+N+Pred+Acc+PxSg2: хардадамд
+     харад+N+Pred+Gen+PxSg2: хардаданд
+     харад+N+Pred+Nom+PxSg3: [хардадада, хардадда]
+     харад+N+Pred+Acc+PxSg3: хардадамда
+     харад+N+Pred+Gen+PxSg3: хардаданда
+     харад+N+Pred+Nom+PxDu1: [хардадамиʼ, хардадмиʼ]
+     харад+N+Pred+Nom+PxSg1: [хардадами, хардадми] # +Use/SpellNoSugg
+     харад+N+Pred+Acc+PxDu1: [хардадамиʼ, хардадмиʼ]
+     харад+N+Pred+Acc+PxSg1: [хардадами, хардадми] # +Use/SpellNoSugg
+     харад+N+Pred+Gen+PxDu1: [хардаданиʼ, хардадниʼ]
+     харад+N+Pred+Gen+PxSg1: [хардадани, хардадни] # +Use/SpellNoSugg
+     харад+N+Pred+Nom+PxDu2: [хардадариʼ, хардадриʼ]
+     харад+N+Pred+Acc+PxDu2: хардадамдиʼ
+     харад+N+Pred+Gen+PxDu2: хардадандиʼ
+     харад+N+Pred+Nom+PxDu3: [хардададиʼ, хардаддиʼ]
+     харад+N+Pred+Acc+PxDu3: хардадамдиʼ
+     харад+N+Pred+Gen+PxDu3: хардадандиʼ
+     харад+N+Pred+Nom+PxPl1: [хардадаваˮ, хардадваˮ]
+     харад+N+Pred+Acc+PxPl1: [хардадаваˮ, хардадваˮ]
+     харад+N+Pred+Gen+PxPl1: [хардаданаˮ, хардаднаˮ]
+     харад+N+Pred+Nom+PxPl2: [хардадараˮ, хардадраˮ]
+     харад+N+Pred+Acc+PxPl2: хардадамдаˮ
+     харад+N+Pred+Gen+PxPl2: хардадандаˮ
+     харад+N+Pred+Nom+PxPl3: [хардададоʼ, хардаддоʼ]
+     харад+N+Pred+Acc+PxPl3: хардадамдоʼ
+     харад+N+Pred+Gen+PxPl3: хардадандоʼ
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: хардадмʼ
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: хардан
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: харад
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: харданиʼ
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: хардадиʼ
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: хардахаʼ
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: хардаваˮ
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: хардадаˮ
+     харад+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: харадˮ
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: хардадамзь
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: харданась
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: хардась
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: харданинзь
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: хардадинзь
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: хардаханзь
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: хардаваць
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: хардадаць
+     харад+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: хардаць
+     харад+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: [хардав, хардув]
+     харад+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: хардар
+     харад+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: хардада
+     харад+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: хардамиʼ
+     харад+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: хардариʼ
+     харад+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: хардадиʼ
+     харад+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: хардаваˮ
+     харад+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: хардараˮ
+     харад+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: хардадоʼ
+     харад+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: хардавась
+     харад+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: хардарась
+     харад+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: хардадась
+     харад+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: хардаминзь
+     харад+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: хардаринзь
+     харад+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: хардадинзь
+     харад+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: хардаваць
+     харад+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: хардараць
+     харад+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: хардадонзь
+     харад+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: хардахаюн
+     харад+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: хардахаюд
+     харад+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: хардахаюда
+     харад+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: хардахаюниʼ
+     харад+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: хардахаюдиʼ
+     харад+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: хардахаюдиʼ
+     харад+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: хардахаюнаˮ
+     харад+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: хардахаюдаˮ
+     харад+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: хардахаюдоʼ
+     харад+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюнась
+     харад+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюдась
+     харад+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюдась
+     харад+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюнинзь
+     харад+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюдинзь
+     харад+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюдинзь
+     харад+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюнаць
+     харад+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюдаць
+     харад+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: хардахаюдонзь
+     харад+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: хардон
+     харад+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: хардод
+     харад+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: хардода
+     харад+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: хардониʼ
+     харад+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: хардодиʼ
+     харад+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: хардодиʼ
+     харад+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: хардонаˮ
+     харад+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: хардодаˮ
+     харад+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: хардодоʼ
+     харад+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: хардонась
+     харад+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: хардодась
+     харад+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: хардодась
+     харад+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: хардонинзь
+     харад+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: хардодинзь
+     харад+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: хардодинзь
+     харад+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: хардонаць
+     харад+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: хардодаць
+     харад+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: хардодонзь
+     харад+N+Tra: хардаӈэ
+     харад+N+Car: хардасиˮ
+     харад+N+Equ: хардӑдремʼ
+     харад+N+Equ+Lat: хардӑдревʼ
