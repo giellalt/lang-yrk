@@ -55,6 +55,7 @@ LEXICON verbs
 вадахалпась:вадахалпа TV_ПЭБЮ  "mainita" ;
 вадахалпась:вадахалпа TV_ПЭБЮ  "kytkeä" ;
 вадахалць:вадахал TV_ТИР  "mainita" ;
+вадахалць:вадал TV_ТИР  "mainita" ;
 вадахалць:вадахал TV_ТИР  "kytkeä" ;
 вадахалць:вадахал VR_ТИР  "kytkeytyä" ;
 вадеˮлась:вадеˮла TV_ЛАХАНА  "alkaa kertoa" ;
@@ -7065,12 +7066,13 @@ LEXICON verbs
 хэˮнартамбась:хэˮнартамба TV_ПЭБЮ  "halkaista helposti" ;
 хэˮнартась:хэˮнарта TV_ХАДА  "halkaista helposti" ;
 хэˮнась:хэˮна IV_ИЛЕ  "tyyntyä (tuulesta)" ;
+хэˮнась:хэна IV_ИЛЕ  "tyyntyä (tuulesta)" ;
 хэˮнаӈгась:хэˮнаӈга IV_ЛАХАНА  "tyyntyä" ;
 хэˮнаӈгась:хэˮнаӈга IV_ЛАХАНА  "haljeta" ;
 хэˮнюворць:хэˮнювор IV_ТИР  "vaipua" ;
 хэˮнюворць:хэнювор IV_ТИР  "vaipua" ;
 хэˮнёворць:хэˮнёвор IV_ТИР  "vaipua" ;
-хэˮнёдась:хэˮнёда TV_ХАДА  "olla tyyni" ;
+хэˮнёдась:хэˮнёда IV_ХАДА  "olla tyyni" ;
 хэˮнёмзь:хэˮнём IV_ӇАРАМ  "tyyntyä" ;
 хэˮэнтэдась:хэˮэнтэда TV_ХАДА  "heittää taakse, juoda yhdellä siemauksella" ;
 хэбиворць:хэбивор IV_ТИР  "lyhetä" ;
@@ -7444,6 +7446,7 @@ LEXICON verbs
 явуць:яву TV_САС  "käyttää lämmönlähteenä" ;
 явъясь:явъя IV_ЯˮАВЛУ  "haisea kuselle" ;
 явэнзь:явэн IV_МИН  "metsästää jääkarhuja" ;
+явэнзь:явын IV_МИН  "metsästää jääkarhuja" ;
 явэсь:явэ IV_ИЛЕ  "olla kallistettu" ;
 ядабась:ядаба TV_ПЭБЮ  "ampua" ;
 ядабтамбась:ядабтамба TV_ПЭБЮ  "tavata" ;
@@ -7616,7 +7619,7 @@ LEXICON verbs
 яниворць:янивор IV_ТИР  "vaieta" ;
 янимдамбась:янимдамба TV_ПЭБЮ  "rauhoittaa" ;
 янимдась:янимда TV_ХАДА  "rauhoittaa" ;
-янимдаӈгурць:янимдаӈгур IV_ТИР  "dreseerata" ;
+янимдаӈгурць:янимдаӈгур IV_ТИР  "dresseerata" ;
 янимзь:яним IV_ӇАДИМ  "nöyrtyä" ;
 яноламбась:яноламба TV_ПЭБЮ  "hidastaa" ;
 яноларась:янолара VR_ХАДА  "myöhästyä" ;
@@ -7666,6 +7669,7 @@ LEXICON verbs
 яркась:ярка TV_ЛАХАНА  "lassota" ;
 яркбась:яркба TV_ПЭБЮ  "lassota" ;
 яркбась:яркыба TV_ПЭБЮ  "lassota" ;
+ярккось:яркко IV_СЯНАКУ  "lassota (leikissä)" ;
 ярккось:ярко IV_СЯНАКУ  "lassota (leikissä)" ;
 ярколась:яркола TV_ЛАХАНА  "lassota" ;
 ярколпась:ярколпа TV_ПЭБЮ  "pyydystää suopungilla" ;
