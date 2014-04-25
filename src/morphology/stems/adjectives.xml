@@ -15100,6 +15100,26 @@
 
   <e>
     <lg>
+      <l pos="A">ялеко</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">ялеко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">vaalea</t>
+
+        <t pos="A">harmaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ялмахэй</l>
 
       <stg>
@@ -15404,6 +15424,24 @@
 
   <e>
     <lg>
+      <l pos="A">ярдик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ярдик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">itkuinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">яромбэй</l>
 
       <stg>
@@ -15440,6 +15478,44 @@
 
       <tg xml:lang="fin">
         <t pos="A">mustavalkoraidallinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">яртараха</l>
+
+      <stg>
+        <st Contlex="A_МАРАӇГЫ">яртараха</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">surunvoittoinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ярцоре</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ярцоре</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">mahtava</t>
+
+        <tf pos="A">kaukaalle näkyvä</tf>
       </tg>
     </mg>
   </e>

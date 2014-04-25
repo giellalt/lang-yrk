@@ -72,7 +72,7 @@ LEXICON nouns
 валыˮ:валэ N_МЯДО  "lupaus" ;
 валэмʼ:валэм N_ӇУВО  "lupaus" ;
 вамня:вамня N_ӇОДИ  "pieni nelma" ;
-вандад:вандад N_ЕД/ХАНО  "ajoreki, jossa on matalat poikkipuolat" ;
+вандад:вандад N_ЕД/ХАНО  "ajoreki matalilla poikkipuolilla" ;
 вандако:вандако N_ӇАНУ  "reki pehmeitä tavaroita varten" ;
 вандарˮ:вандар N_ВАР  "lommo" ;
 вандеˮэ:вандеˮэ N_ЕД  "iso ajoreki" ;
@@ -451,7 +451,7 @@ LEXICON nouns
 лёхонзэй:лёхонзэй N_ЕД/ХУСУВЭЙ  "leveäsarvinen poro" ;
 лёхосэй:лёхосэй N_ЕД/ХУСУВЭЙ  "leveäsarvinen poro" ;
 ма:ма N_ӇЭ  "vasara" ;
-маˮ:ман N_МАНСО  "povi" ;
+маˮ:ма N_ТАСО  "povi" ;
 маˮлаӈгалава:маˮлаӈгалава N_ӇУДИ  "keruupaikka" ;
 мад:мад N_ЕД  "haukunta" ;
 мад:мад N_ЕД  "ylitys" ;
@@ -710,7 +710,7 @@ LEXICON nouns
 нарадабцьʼ:нарадабць N_ЁЛЬЦЕ  "keväinen pysähdyspaikka" ;
 нарадалава:нарадалава N_ӇУДИ  "kevätleiri" ;
 нарматы:нарматы N_ПАНЫ  "kyhmyhaahka" ;
-нармэй:нармэй N_ЕД/ХАНО  "nenärusto" ;
+нармэй:нармэй N_ЕД/ХАНО  "nenän rusto" ;
 нарня:нарня N_ӇОДИ  "kuorsaus" ;
 нарня:нарна N_ӇУДИ  "kuorsaus" ;
 нарнё:нарнё N_МЕРЁ  "kuorsaus" ;
@@ -1973,7 +1973,7 @@ LEXICON nouns
 хар:хар N_ЕД/ХАНО  "veitsi" ;
 хара:хара N_ӇУДИ  "kaarre" ;
 харад:хард N_ЕД  "kylä" ;
-харад:хар°д N_ЕД/ХАНО  "talo" ;
+харад:харад N_ЕД/ХАНО  "talo" ;
 харандас:харандас N_ЕД  "lyijykynä" ;
 харандас:карандаш N_ЕД-RUS  "lyijykynä" ;
 харасин:харасин N_ЕД  "lamppuöljy" ;
@@ -2135,6 +2135,10 @@ LEXICON nouns
 хэӈгадаˮма:хэӈгадаˮма N_ӇУДИ  "putous" ;
 хэӈорˮ:хэӈор N_ВАР  "hammaskoriste" ;
 хэӈгдаˮма:хэӈгдаˮма N_ӇУДИ  "tuulensuoja" ;
+чернила:чернила N_ХОБ-RUS  "muste" ;
+четверг:четверг N_ЕД-RUS  "torstai" ;
+чукча:чукча N_ХОБ-RUS  "tšuktši" ;
+чукча:сюкча N_ХОБ-RUS  "tšuktši" ;
 школа:школа N_ХОБ-RUS  "koulu" ;
 школа:аскола N_ХОБ-RUS  "koulu" ;
 экзамен:экзамен N_ЕД-RUS  "koe" ;
@@ -2169,6 +2173,7 @@ LEXICON nouns
 юнуй:юнуй N_ЕД  "myöhäiskevät" ;
 юнуйдалава:юнуйдалава N_ӇУДИ  "kevätleiri" ;
 юрˮ:юр N_ТАРЕ  "voi" ;
+юра:юра N_ӇУДИ  "kalaparvi" ;
 юримдаˮма:юримдаˮма N_ӇУДИ  "sadasosa" ;
 юритаˮма:юритаˮма N_ӇУДИ  "voide" ;
 юрё:юрё N_МЕРЁ  "ystävä" ;
@@ -2268,6 +2273,7 @@ LEXICON nouns
 яндава:яндава N_ӇУДИ  "puusta keittokuppi" ;
 яну:яну N_ӇЭ  "moukari" ;
 янутабцьʼ:янутабць N_ЁЛЬЦЕ  "saalin kolkkauskurikka" ;
+янэˮ:янэ N_МЯДО  "sukulainen" ;
 япыка:япыка N_МАРАӇГЫ  "viileys" ;
 яр:яр N_ЕД  "itku" ;
 ярˮ:яр N_ВАР  "pahka" ;
@@ -2279,6 +2285,7 @@ LEXICON nouns
 ярако:ярако N_ӇАНУ  "kauha" ;
 яранзьʼ:ярсь N_ЁЛЬЦЕ  "pursu" ;
 яранзьʼ:яранзь N_ЁЛЬЦЕ  "pursu" ;
+ярколик:ярколик N_ЕД  "lassomestari" ;
 ярхад:ярхад N_ЕД  "itkupilli" ;
 ярцоӈгэй:ярцоӈгэй N_ХУСУВЭЙ  "nivelen kohoke poron takajalalla" ;
 ярэй:ярэй N_ХУСУВЭЙ  "lyhyet jänteet poron seljässä" ;
@@ -2292,7 +2299,7 @@ LEXICON nouns
 яхалтабцьʼ:яхалтабць N_ЁЛЬЦЕ  "veitsi jolla tehdään reikiä" ;
 яхаряв:яхаряв N_ЕД  "neljästä osasta koostuva luukärkinen nuoli" ;
 яхас:яхас N_ЕД  "kaksonen" ;
-яё:яё N_ӇАНУ  "sakka" ;
+яё:яё N_МЕРЁ  "sakka" ;
 яёлˮ:яёл N_ВАР  "roska" ;
 яёлэця:яёлэця N_ӇОДИ  "heite" ;
 яӈг:яӈг N_ХАНО  "auringossa virttynyt pölkky" ;
