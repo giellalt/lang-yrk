@@ -6,6 +6,10 @@
 LEXICON PROP_
 +TYÄ+N+Prop: K ; ! This will need to be elaborated to other noun types.
 
+!! !ONE-SYLLABLE VOWEL-FINAL STEM
+LEXICON PROP_ӇЭ-Pal/Var
++N+Prop:%^PalVariation NMN_ӇЭ ;
+
 !! !ONE-SYLLABLE CONSONANT-FINAL STEM
 LEXICON PROP_ЕД
 +N+Prop: NMN_ЕД ;
