@@ -6,6 +6,30 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Prop">Анастасия</l>
+
+      <stg>
+        <st Contlex="PROP_">Анастасия</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Anastasia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Антон</l>
 
       <stg>
@@ -174,6 +198,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Карелия</l>
+
+      <stg>
+        <st Contlex="PROP_">Карелия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Karjala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Лабцуй</l>
 
       <stg>
@@ -318,13 +364,35 @@
 
   <e>
     <lg>
+      <l pos="Prop">Мордовия</l>
+
+      <stg>
+        <st Contlex="PROP_">Мордовия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Mordva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Москва</l>
 
       <stg>
         <st Contlex="PROP_">Москва</st>
       </stg>
 
-      <stress>Москва</stress>
+      <stress/>
     </lg>
 
     <mg>
@@ -360,6 +428,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Pyrerka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Роза</l>
+
+      <stg>
+        <st Contlex="PROP_МАРАӇГЫ">Роза</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Roza</t>
       </tg>
     </mg>
   </e>
@@ -414,6 +506,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Татарстан</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Татарстан</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tatarstan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Финляндия</l>
 
       <stg>
@@ -430,6 +546,28 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Suomi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Эстония</l>
+
+      <stg>
+        <st Contlex="PROP_">Эстония</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Viro</t>
       </tg>
     </mg>
   </e>
@@ -478,6 +616,54 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Javtysyi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Яляне</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Яляне</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jaljanje</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ямал</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ямал</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jamal</t>
       </tg>
     </mg>
   </e>
