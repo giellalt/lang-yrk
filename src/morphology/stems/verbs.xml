@@ -115845,25 +115845,9 @@
       <l pos="V" type="VR">халэлась</l>
 
       <stg>
-        <st Contlex="VR_ЛАХАНА">халыла</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="VR">tulla ei tottelevaiseksi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="VR">халэлась</l>
-
-      <stg>
         <st Contlex="VR_ЛАХАНА">халэла</st>
+
+        <st Contlex="VR_ЛАХАНА">халыла</st>
       </stg>
     </lg>
 
@@ -115936,6 +115920,26 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">халэць</l>
+
+      <stg>
+        <st Contlex="IV_САС">халэ</st>
+
+        <st Contlex="IV_САС">халу</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">olla kalarikas</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="IV">халядась</l>
 
       <stg>
@@ -115996,6 +116000,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">хамада</st>
+
+        <st Contlex="TV_ХАДА">хамеда</st>
       </stg>
     </lg>
 
@@ -116014,23 +116020,7 @@
 
       <stg>
         <st Contlex="IV_ВАДЮ">хамадё</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">olla valmiina</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">хамадёсь</l>
-
-      <stg>
         <st Contlex="IV_ВАДЮ">хамедё</st>
       </stg>
     </lg>
@@ -116126,6 +116116,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">хамбакыта</st>
+
+        <st Contlex="IV_ЛАХАНА">хамката</st>
       </stg>
     </lg>
 
@@ -116144,6 +116136,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">хамбакыта</st>
+
+        <st Contlex="TV_ХАДА">хамката</st>
       </stg>
     </lg>
 
@@ -117208,6 +117202,8 @@
 
       <tg xml:lang="fin">
         <t pos="V">lähteä</t>
+
+        <t pos="V">muuttua</t>
       </tg>
     </mg>
   </e>
@@ -120882,6 +120878,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">хатамламба</st>
+
+        <st Contlex="TV_ПЭБЮ">хатабтамба</st>
       </stg>
     </lg>
 
@@ -121815,42 +121813,6 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">хаӈамзь</l>
-
-      <stg>
-        <st Contlex="IV_ӇАРАМ">хаӈам</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">leimahtaa isolla liekilla</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">хаӈамзь</l>
-
-      <stg>
-        <st Contlex="IV_ӇАРАМ">хаӈам</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">leimahtaa isolla liekillä</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" val="TV">хаӈаналтамбась</l>
 
       <stg>
@@ -121935,6 +121897,8 @@
 
       <stg>
         <st Contlex="IV_ӇАРАМ">хаӈгам</st>
+
+        <st Contlex="IV_ӇАРАМ">хаӈам</st>
       </stg>
     </lg>
 
@@ -121995,6 +121959,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">хаӈгана</st>
+
+        <st Contlex="IV_ЛАХАНА">хаӈана</st>
       </stg>
     </lg>
 
