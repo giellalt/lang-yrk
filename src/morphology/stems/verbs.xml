@@ -113745,6 +113745,8 @@
 
       <stg>
         <st Contlex="TV_ТИР">хадахал</st>
+
+        <st Contlex="TV_ТИР">хадал</st>
       </stg>
     </lg>
 
@@ -113769,6 +113771,8 @@
 
       <stg>
         <st Contlex="VR_ТИР">хадахал</st>
+
+        <st Contlex="VR_ТИР">хадал</st>
       </stg>
     </lg>
 
@@ -113827,9 +113831,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">хаделабтабась</l>
+      <l pos="V" val="TV">хаделабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">хаделабтамба</st>
+
         <st Contlex="TV_ПЭБЮ">хаделабтаба</st>
       </stg>
     </lg>
@@ -113838,6 +113844,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
+        <t pos="V">käpristää</t>
+
         <t pos="V">kouristaa</t>
       </tg>
     </mg>
@@ -113967,6 +113975,8 @@
 
       <stg>
         <st Contlex="IV_ТИР">хадехор</st>
+
+        <st Contlex="IV_ХАДА">хадеса</st>
       </stg>
     </lg>
 
@@ -114086,27 +114096,9 @@
       <l pos="V" val="TV">хадылабтамбась</l>
 
       <stg>
-        <st Contlex="TV_ПЭБЮ">хадылабтаба</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">ruokkia</t>
-
-        <t pos="V">ravita</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">хадылабтамбась</l>
-
-      <stg>
         <st Contlex="TV_ПЭБЮ">хадылабтамба</st>
+
+        <st Contlex="TV_ПЭБЮ">хадылабтаба</st>
       </stg>
     </lg>
 
@@ -114139,28 +114131,6 @@
         <t pos="V">ravita</t>
 
         <tf pos="V">tehdä likaiseksi tervalla</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">хадылтась</l>
-
-      <stg>
-        <st Contlex="IV_ЛАХАНА">хадылта</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">olla talinen</tf>
-
-        <tf pos="V">olla tuhruinen</tf>
-
-        <tf pos="V">olla likainen</tf>
       </tg>
     </mg>
   </e>
