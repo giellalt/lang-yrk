@@ -2274,6 +2274,8 @@
 
       <stg>
         <st Contlex="N_ЕД-RUS">вторник</st>
+
+        <st Contlex="N_ЕД">торник</st>
       </stg>
     </lg>
 
@@ -32550,6 +32552,24 @@
 
   <e>
     <lg>
+      <l pos="N">тобарˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">тобар</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">turkisjalkine</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">тобрё</l>
 
       <stg>
@@ -32618,6 +32638,8 @@
 
       <stg>
         <st Contlex="N_ЕД">товар</st>
+
+        <st Contlex="N_ВАР">товар</st>
       </stg>
     </lg>
 
@@ -33186,6 +33208,80 @@
 
       <tg xml:lang="fin">
         <tf pos="N">iso kärpänen</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">тохорˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">тохор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kinos</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">тохорцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">тохорць</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">pieni astia marjoja varten</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">тохоця</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">тохоця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">vaatepala</t>
+
+        <t pos="N">raasu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">трони</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ">трони</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">reki polttopuita varten</tf>
       </tg>
     </mg>
   </e>
@@ -33856,6 +33952,24 @@
 
   <e>
     <lg>
+      <l pos="N">тыбкабтˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">тыбкабт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">silmäsuoja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">тыбыёва</l>
 
       <stg>
@@ -34110,6 +34224,8 @@
 
       <stg>
         <st Contlex="N_ВЫӇО">тырцэ</st>
+
+        <st Contlex="N_ВЫӇО">тырцу</st>
       </stg>
     </lg>
 
@@ -34292,6 +34408,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">kaiku</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">тэдабцо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">тэдабцо</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kiroilu</t>
       </tg>
     </mg>
   </e>
@@ -34888,6 +35022,26 @@
 
   <e>
     <lg>
+      <l pos="N">тюлисе</l>
+
+      <stg>
+        <st Contlex="N_ЕД">тюлисе</st>
+
+        <st Contlex="N_ЕД">тюлинзе</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kahlaajalintu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">тюмю</l>
 
       <stg>
@@ -35294,6 +35448,24 @@
 
   <e>
     <lg>
+      <l pos="N">тяӈгадамбой</l>
+
+      <stg>
+        <st Contlex="N_ХУСУВЭЙ">тяӈгадамбой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">kämmen</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">тёб</l>
 
       <stg>
@@ -35460,6 +35632,42 @@
 
       <tg xml:lang="fin">
         <t pos="N">helmikuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">флаг</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">флаг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lippu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">фотография</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ-RUS">фотография</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">valokuva</t>
       </tg>
     </mg>
   </e>
@@ -35666,23 +35874,7 @@
 
       <stg>
         <st Contlex="N_ӇУДИ">хабарта</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">hirvi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">хабарта</l>
-
-      <stg>
         <st Contlex="N_ӇУДИ">хаборта</st>
       </stg>
     </lg>
@@ -36757,23 +36949,7 @@
 
       <stg>
         <st Contlex="N_ЕД">халесь</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">rinkilä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">халесь</l>
-
-      <stg>
         <st Contlex="N_ЕД">хэлесь</st>
       </stg>
     </lg>
@@ -36793,6 +36969,8 @@
 
       <stg>
         <st Contlex="N_ӇУДИ">хамбала</st>
+
+        <st Contlex="N_ӇУДИ">хабла</st>
       </stg>
     </lg>
 
@@ -38789,6 +38967,24 @@
 
   <e>
     <lg>
+      <l pos="N">хореко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">хореко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">nuori kesyporo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">хореця</l>
 
       <stg>
@@ -38901,6 +39097,24 @@
 
   <e>
     <lg>
+      <l pos="N">хороль</l>
+
+      <stg>
+        <st Contlex="N_ЕД">хороль</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kuningas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">хорти</l>
 
       <stg>
@@ -39007,6 +39221,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">joutsen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">храля</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">храля</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">rouva</tf>
+
+        <tf pos="N">kuningatar</tf>
       </tg>
     </mg>
   </e>
@@ -46470,6 +46704,8 @@
 
       <stg>
         <st Contlex="N_ӇАНУ">ӈухуко</st>
+
+        <st Contlex="N_ӇАНУ">уко</st>
       </stg>
     </lg>
 

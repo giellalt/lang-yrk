@@ -111112,8 +111112,6 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">тобкалпа</st>
-      </stg>
-    </lg>
 
     <mg>
       <defNative/>
@@ -112756,9 +112754,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">тосакабтабась</l>
+      <l pos="V" val="TV">тосакабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">тосакабтамба</st>
+
         <st Contlex="TV_ПЭБЮ">тосакабтаба</st>
       </stg>
     </lg>
@@ -112836,9 +112836,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">тосалкабтабась</l>
+      <l pos="V" val="TV">тосалкабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">тосалкабтамба</st>
+
         <st Contlex="TV_ПЭБЮ">тосалкабтаба</st>
       </stg>
     </lg>
@@ -116867,7 +116869,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="TV"/>
+        <t pos="V" val="TV">väreillä</t>
       </tg>
     </mg>
   </e>
@@ -117548,6 +117550,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">тэˮэлтамба</st>
+
+        <st Contlex="TV_ПЭБЮ">тэлтамба</st>
       </stg>
     </lg>
 
@@ -117566,6 +117570,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">тэˮэлта</st>
+
+        <st Contlex="TV_ХАДА">тэлта</st>
       </stg>
     </lg>
 
@@ -118239,7 +118245,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">saavuttaa</t>
+        <tf pos="V">viedä pois</tf>
+
+        <t pos="V">näpistää</t>
       </tg>
     </mg>
   </e>
@@ -118658,6 +118666,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">тэда</st>
+
+        <st Contlex="TV_ХАДА">тыда</st>
       </stg>
     </lg>
 
