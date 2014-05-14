@@ -99618,6 +99618,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">таˮльтемба</st>
+
+        <st Contlex="TV_ПЭБЮ">тальтемба</st>
       </stg>
     </lg>
 
@@ -99636,6 +99638,8 @@
 
       <stg>
         <st Contlex="TV_ИЛЕ">таˮльте</st>
+
+        <st Contlex="TV_ИЛЕ">тальте</st>
       </stg>
     </lg>
 
@@ -99710,6 +99714,8 @@
 
       <stg>
         <st Contlex="IV_ВАДЮ">таˮнебтё</st>
+
+        <st Contlex="IV_ВАДЮ">таньбё</st>
       </stg>
     </lg>
 
@@ -99750,6 +99756,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">таˮньремба</st>
+
+        <st Contlex="TV_ПЭБЮ">таньремба</st>
       </stg>
     </lg>
 
@@ -99772,6 +99780,8 @@
 
       <stg>
         <st Contlex="TV_ИЛЕ">таˮньре</st>
+
+        <st Contlex="TV_ИЛЕ">таньре</st>
       </stg>
     </lg>
 
@@ -106295,6 +106305,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">тасяхалемба</st>
+
+        <st Contlex="TV_ПЭБЮ">тасялемба</st>
       </stg>
     </lg>
 
@@ -106316,6 +106328,10 @@
       <l pos="V" val="IV">тасяхалутась</l>
 
       <stg>
+        <st Contlex="IV_ЛАХАНА">тасяхалута</st>
+
+        <st Contlex="IV_ЛАХАНА">тасялута</st>
+
         <st Contlex="IV_ЛАХАНА">тасяхаˮлюта</st>
       </stg>
     </lg>
@@ -106329,28 +106345,6 @@
         <tf pos="V">olla raskasmielinen</tf>
       </tg>
     </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">тасяхалутась</l>
-
-      <stg>
-        <st Contlex="IV_ЛАХАНА">тасяхалута</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">ei haluta ryhtyä mitään tekemään</tf>
-
-        <tf pos="V">olla raskasmielinen</tf>
-      </tg>
-    </mg>
-
-    <!-- !тасялутась -->
   </e>
 
   <e>
@@ -107161,6 +107155,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">таӈгамдамба</st>
+
+        <st Contlex="TV_ПЭБЮ">таӈгамламба</st>
       </stg>
     </lg>
 
@@ -107179,6 +107175,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">таӈгамда</st>
+
+        <st Contlex="TV_ХАДА">таӈгамла</st>
       </stg>
     </lg>
 
@@ -107500,7 +107498,7 @@
       <l pos="V" val="TV">тебась</l>
 
       <stg>
-        <st Contlex="TV_ПЭБЮ">теба</st>
+        <st Contlex="TV_ЛАХАНА">теба</st>
       </stg>
     </lg>
 
@@ -109013,7 +109011,7 @@
       <l pos="V" type="IV">тибёсь</l>
 
       <stg>
-        <st Contlex="IV_ӇЭСУ">тибё</st>
+        <st Contlex="IV_ВАДЮ">тибё</st>
       </stg>
     </lg>
 
@@ -111113,24 +111111,6 @@
       <stg>
         <st Contlex="TV_ПЭБЮ">тобкалпа</st>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">pitää kelpaamattomaksi</tf>
-
-        <tf pos="V">pitää sopimattomaksi</tf>
-
-        <tf pos="V">pitää ansiottomaksi</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">тобкалпась</l>
-
-      <stg>
         <st Contlex="TV_ПЭБЮ">токалпа</st>
       </stg>
     </lg>
@@ -111154,23 +111134,7 @@
 
       <stg>
         <st Contlex="TV_ТИР">тобкал</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="TV">pitää kelpaamattomaksi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">тобкалць</l>
-
-      <stg>
         <st Contlex="TV_ТИР">токал</st>
       </stg>
     </lg>
@@ -111190,23 +111154,7 @@
 
       <stg>
         <st Contlex="IV_ЯˮАВЛУ">тобкаяла</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV">jättää vaikutus epäluotettavasta</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">тобкаялась</l>
-
-      <stg>
         <st Contlex="IV_ЯˮАВЛУ">токаяла</st>
       </stg>
     </lg>

@@ -1248,4 +1248,26 @@
 
     <!--  -->
   </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">техэ</l>
+
+      <stg>
+        <st Contlex="PRON_">техэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Pron">that over there</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">tuo</t>
+      </tg>
+    </mg>
+  </e>
 </r>
