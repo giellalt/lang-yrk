@@ -381,6 +381,7 @@ Yaml: __ngudi__
  LEXICON N_ӇОДИ   ӈодя: 17 ProsSg -вна
 
 
+
  LEXICON NMN_ӇОДИ 
 /total=28/
 ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
@@ -406,7 +407,7 @@ Yaml: __xob__
  LEXICON N_ТЁН   тёня:тёня 20 ProsSg -вна
 Yaml: __tyon__
 /total=14/
- +N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+ !+N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
  LEXICON NMN_ПИСЬ  пися: 21 ProsSg -вна
@@ -1378,12 +1379,16 @@ C*V%>C_
 
 
 
+
+
 __°:0 in Pros RIGHT__
 Second Vowel Center
 Stems
 
 
 AFFIXES
+
+
 
 
 
@@ -1436,6 +1441,7 @@ C*VC_
 
 
 
+
 THIRD VOWEL CENTER
 
 
@@ -1449,6 +1455,7 @@ FOURTH VOWEL CENTER
 
 __°:а in Pros RIGHT__
 Second Vowel	Center
+
 
 
 
@@ -1714,12 +1721,12 @@ __я:е in яха__
 __я:е in яха__
 я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
        %> с _ %> ˮ [ # | %> ] ;
-__я:е in яха__
-я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
-        а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
-__я:е in яха__
+
+__я:0 Stem vowel loss in plural accusative__
+
+__я:0 Stem vowel loss in plural accusative__
 и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
-__я:е in яха__
+__я:0 Stem vowel loss in plural accusative__
 %{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
@@ -1776,7 +1783,6 @@ __nTod__
 т:д <=>   Н1: %> _ а ;
 
 __n to t after non-nasal glottal__
-
 
 __d to t after non-nasal glottal__
 

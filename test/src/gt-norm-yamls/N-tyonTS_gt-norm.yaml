@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+ #+Use/SpellNoSugg
+
+  Noun - тёня: # Noun 'fox / тёня' - full paradigm /MDTN-koodi ya→ə/
+     тёня+N+Sg+Nom: тёня
+     тёня+N+Sg+Acc: тёнямʼ
+     тёня+N+Sg+Gen: тёняʼ
+     тёня+N+Sg+Dat: тёнянʼ
+     тёня+N+Sg+Loc: тёняхана
+     тёня+N+Sg+Abl: тёняхад
+     тёня+N+Sg+Pros: тёнявна
+     тёня+N+Du+Nom: тёняхаʼ
+     тёня+N+Du+Acc: тёняхаʼ
+     тёня+N+Du+Gen: тёняхаʼ
+     тёня+N+Pl+Nom: тёняˮ
+     тёня+N+Pl+Acc: тён
+     тёня+N+Pl+Gen: тёнˮ
+     тёня+N+Pl+Dat: тёняхаˮ
+     тёня+N+Pl+Loc: тёняхаˮна
+     тёня+N+Pl+Abl: тёняхат
+     тёня+N+Pl+Pros: тёнˮмана
+     тёня+N+Sg+Nom+PxSg1: тёняв
+     тёня+N+Sg+Acc+PxSg1: тёняв
+     тёня+N+Sg+Gen+PxSg1: тёнян
+     тёня+N+Sg+Dat+PxSg1: тёняхан
+     тёня+N+Sg+Loc+PxSg1: тёняханан
+     тёня+N+Sg+Abl+PxSg1: тёняхадан
+     тёня+N+Sg+Pros+PxSg1: тёнявнан
+     тёня+N+Du+Nom+PxSg1: тёняхаюн
+     тёня+N+Du+Acc+PxSg1: тёняхаюн
+     тёня+N+Du+Gen+PxSg1: тёняхаюн
+     тёня+N+Pl+Nom+PxSg1: тёнан
+     тёня+N+Pl+Acc+PxSg1: тёнан
+     тёня+N+Pl+Gen+PxSg1: тёнаˮн
+     тёня+N+Pl+Dat+PxSg1: тёняхаˮн
+     тёня+N+Pl+Loc+PxSg1: тёняхаˮнан
+     тёня+N+Pl+Abl+PxSg1: тёняхатан
+     тёня+N+Pl+Pros+PxSg1: тёнˮманан
+     тёня+N+Sg+Nom+PxSg2: тёняр
+     тёня+N+Sg+Acc+PxSg2: тёнямд
+     тёня+N+Sg+Gen+PxSg2: тёнянд
+     тёня+N+Sg+Dat+PxSg2: тёняханд
+     тёня+N+Sg+Loc+PxSg2: тёняхананд
+     тёня+N+Sg+Abl+PxSg2: тёняхаданд
+     тёня+N+Sg+Pros+PxSg2: тёнявнанд
+     тёня+N+Du+Nom+PxSg2: тёняхаюд
+     тёня+N+Du+Acc+PxSg2: тёняхаюд
+     тёня+N+Du+Gen+PxSg2: тёняхают
+     тёня+N+Pl+Nom+PxSg2: тёнад
+     тёня+N+Pl+Acc+PxSg2: тёнад
+     тёня+N+Pl+Gen+PxSg2: тёнат
+     тёня+N+Pl+Dat+PxSg2: тёняхат
+     тёня+N+Pl+Loc+PxSg2: тёняхаˮнат
+     тёня+N+Pl+Abl+PxSg2: тёняхатат
+     тёня+N+Pl+Pros+PxSg2: тёнˮманат
+     тёня+N+Sg+Nom+PxSg3: тёняда
+     тёня+N+Sg+Acc+PxSg3: тёнямда
+     тёня+N+Sg+Gen+PxSg3: тёнянда
+     тёня+N+Sg+Dat+PxSg3: тёняханда
+     тёня+N+Sg+Loc+PxSg3: тёняхананда
+     тёня+N+Sg+Abl+PxSg3: тёняхаданда
+     тёня+N+Sg+Pros+PxSg3: тёнявнанда
+     тёня+N+Du+Nom+PxSg3: тёняхаюда
+     тёня+N+Du+Acc+PxSg3: тёняхаюда
+     тёня+N+Du+Gen+PxSg3: тёняхаюта
+     тёня+N+Pl+Nom+PxSg3: тёнда
+     тёня+N+Pl+Acc+PxSg3: тёнда
+     тёня+N+Pl+Gen+PxSg3: тёнта
+     тёня+N+Pl+Dat+PxSg3: тёняхата
+     тёня+N+Pl+Loc+PxSg3: тёняхаˮната
+     тёня+N+Pl+Abl+PxSg3: [тёняхатата, тёняхатта]
+     тёня+N+Pl+Pros+PxSg3: тёнˮманата
+     тёня+N+Sg+Nom+PxDu1: тёнямиʼ
+     тёня+N+Sg+Nom+PxSg1: тёнями #+Use/SpellNoSugg
+     тёня+N+Sg+Acc+PxDu1: тёнямиʼ
+     тёня+N+Sg+Acc+PxSg1: тёнями #+Use/SpellNoSugg
+     тёня+N+Sg+Gen+PxDu1: тёняниʼ
+     тёня+N+Sg+Gen+PxSg1: тёняни #+Use/SpellNoSugg
+     тёня+N+Sg+Dat+PxDu1: тёняханиʼ
+     тёня+N+Sg+Dat+PxSg1: тёняхани #+Use/SpellNoSugg
+     тёня+N+Sg+Loc+PxDu1: тёняхананиʼ
+     тёня+N+Sg+Loc+PxSg1: тёняханани #+Use/SpellNoSugg
+     тёня+N+Sg+Abl+PxDu1: [тёняхаданиʼ, тёняхадниʼ]
+     тёня+N+Sg+Abl+PxSg1: [тёняхадани, тёняхадни] #+Use/SpellNoSugg
+     тёня+N+Sg+Pros+PxDu1: тёнявнаниʼ
+     тёня+N+Sg+Pros+PxSg1: тёнявнани #+Use/SpellNoSugg
+     тёня+N+Du+Nom+PxDu1: тёняхаюниʼ
+     тёня+N+Du+Nom+PxSg1: тёняхаюни #+Use/SpellNoSugg
+     тёня+N+Du+Acc+PxDu1: тёняхаюниʼ
+     тёня+N+Du+Acc+PxSg1: тёняхаюни #+Use/SpellNoSugg
+     тёня+N+Du+Gen+PxDu1: тёняхаюниʼ
+     тёня+N+Du+Gen+PxSg1: тёняхаюни #+Use/SpellNoSugg
+     тёня+N+Pl+Nom+PxDu1: тённиʼ
+     тёня+N+Pl+Nom+PxSg1: тённи #+Use/SpellNoSugg
+     тёня+N+Pl+Acc+PxDu1: тённиʼ
+     тёня+N+Pl+Acc+PxSg1: тённи #+Use/SpellNoSugg
+     тёня+N+Pl+Gen+PxDu1: тёнˮниʼ
+     тёня+N+Pl+Gen+PxSg1: тёнˮни #+Use/SpellNoSugg
+     тёня+N+Pl+Dat+PxDu1: тёняхаˮниʼ
+     тёня+N+Pl+Dat+PxSg1: тёняхаˮни #+Use/SpellNoSugg
+     тёня+N+Pl+Loc+PxDu1: тёняхаˮнаниʼ
+     тёня+N+Pl+Loc+PxSg1: тёняхаˮнани #+Use/SpellNoSugg
+     тёня+N+Pl+Abl+PxDu1: [тёняхатаниʼ, тёняхатниʼ]
+     тёня+N+Pl+Abl+PxSg1: [тёняхатани, тёняхатни] #+Use/SpellNoSugg
+     тёня+N+Pl+Pros+PxDu1: тёнˮмананиʼ
+     тёня+N+Pl+Pros+PxSg1: тёнˮманани #+Use/SpellNoSugg
+     тёня+N+Sg+Nom+PxDu2: тёняриʼ
+     тёня+N+Sg+Acc+PxDu2: тёнямдиʼ
+     тёня+N+Sg+Gen+PxDu2: тёняндиʼ
+     тёня+N+Sg+Dat+PxDu2: тёняхандиʼ
+     тёня+N+Sg+Loc+PxDu2: тёняханандиʼ
+     тёня+N+Sg+Abl+PxDu2: тёняхадандиʼ
+     тёня+N+Sg+Pros+PxDu2: тёнявнандиʼ
+     тёня+N+Du+Nom+PxDu2: тёняхаюдиʼ
+     тёня+N+Du+Acc+PxDu2: тёняхаюдиʼ
+     тёня+N+Du+Gen+PxDu2: тёняхаютиʼ
+     тёня+N+Pl+Nom+PxDu2: тёндиʼ
+     тёня+N+Pl+Acc+PxDu2: тёндиʼ
+     тёня+N+Pl+Gen+PxDu2: тёнтиʼ
+     тёня+N+Pl+Dat+PxDu2: тёняхатиʼ
+     тёня+N+Pl+Loc+PxDu2: тёняхаˮнатиʼ
+     тёня+N+Pl+Abl+PxDu2: [тёняхататиʼ, тёняхаттиʼ]
+     тёня+N+Pl+Pros+PxDu2: тёнˮманатиʼ
+     тёня+N+Sg+Nom+PxDu3: тёнядиʼ
+     тёня+N+Sg+Acc+PxDu3: тёнямдиʼ
+     тёня+N+Sg+Gen+PxDu3: тёняндиʼ
+     тёня+N+Sg+Dat+PxDu3: тёняхандиʼ
+     тёня+N+Sg+Loc+PxDu3: тёняханандиʼ
+     тёня+N+Sg+Abl+PxDu3: тёняхадандиʼ
+     тёня+N+Sg+Pros+PxDu3: тёнявнандиʼ
+     тёня+N+Du+Nom+PxDu3: тёняхаюдиʼ
+     тёня+N+Du+Acc+PxDu3: тёняхаюдиʼ
+     тёня+N+Du+Gen+PxDu3: тёняхаютиʼ
+     тёня+N+Pl+Nom+PxDu3: тёндиʼ
+     тёня+N+Pl+Acc+PxDu3: тёндиʼ
+     тёня+N+Pl+Gen+PxDu3: тёнтиʼ
+     тёня+N+Pl+Dat+PxDu3: тёняхатиʼ
+     тёня+N+Pl+Loc+PxDu3: тёняхаˮнатиʼ
+     тёня+N+Pl+Abl+PxDu3: [тёняхататиʼ, тёняхаттиʼ]
+     тёня+N+Pl+Pros+PxDu3: тёнˮманатиʼ
+     тёня+N+Sg+Nom+PxPl1: тёняваˮ
+     тёня+N+Sg+Acc+PxPl1: тёняваˮ
+     тёня+N+Sg+Gen+PxPl1: тёнянаˮ
+     тёня+N+Sg+Dat+PxPl1: тёняханаˮ
+     тёня+N+Sg+Loc+PxPl1: тёняхананаˮ
+     тёня+N+Sg+Abl+PxPl1: [тёняхаданаˮ, тёняхаднаˮ]
+     тёня+N+Sg+Pros+PxPl1: тёнявнанаˮ
+     тёня+N+Du+Nom+PxPl1: тёняхаюнаˮ
+     тёня+N+Du+Acc+PxPl1: тёняхаюнаˮ
+     тёня+N+Du+Gen+PxPl1: тёняхаюнаˮ
+     тёня+N+Pl+Nom+PxPl1: тённаˮ
+     тёня+N+Pl+Acc+PxPl1: тённаˮ
+     тёня+N+Pl+Gen+PxPl1: тёнˮнаˮ
+     тёня+N+Pl+Dat+PxPl1: тёняхаˮнаˮ
+     тёня+N+Pl+Loc+PxPl1: тёняхаˮнанаˮ
+     тёня+N+Pl+Abl+PxPl1: [тёняхатанаˮ, тёняхатнаˮ]
+     тёня+N+Pl+Pros+PxPl1: тёнˮмананаˮ
+     тёня+N+Sg+Nom+PxPl2: тёняраˮ
+     тёня+N+Sg+Acc+PxPl2: тёнямдаˮ
+     тёня+N+Sg+Gen+PxPl2: тёняндаˮ
+     тёня+N+Sg+Dat+PxPl2: тёняхандаˮ
+     тёня+N+Sg+Loc+PxPl2: тёняханандаˮ
+     тёня+N+Sg+Abl+PxPl2: тёняхадандаˮ
+     тёня+N+Sg+Pros+PxPl2: тёнявнандаˮ
+     тёня+N+Du+Nom+PxPl2: тёняхаюдаˮ
+     тёня+N+Du+Acc+PxPl2: тёняхаюдаˮ
+     тёня+N+Du+Gen+PxPl2: тёняхаютаˮ
+     тёня+N+Pl+Nom+PxPl2: тёндаˮ
+     тёня+N+Pl+Acc+PxPl2: тёндаˮ
+     тёня+N+Pl+Gen+PxPl2: тёнтаˮ
+     тёня+N+Pl+Dat+PxPl2: тёняхатаˮ
+     тёня+N+Pl+Loc+PxPl2: тёняхаˮнатаˮ
+     тёня+N+Pl+Abl+PxPl2: [тёняхататаˮ, тёняхаттаˮ]
+     тёня+N+Pl+Pros+PxPl2: тёнˮманатаˮ
+     тёня+N+Sg+Nom+PxPl3: тёнядоʼ
+     тёня+N+Sg+Acc+PxPl3: тёнямдоʼ
+     тёня+N+Sg+Gen+PxPl3: тёняндоʼ
+     тёня+N+Sg+Dat+PxPl3: тёняхандоʼ
+     тёня+N+Sg+Loc+PxPl3: тёняханандоʼ
+     тёня+N+Sg+Abl+PxPl3: тёняхадандоʼ
+     тёня+N+Sg+Pros+PxPl3: тёнявнандоʼ
+     тёня+N+Du+Nom+PxPl3: тёняхаюдоʼ
+     тёня+N+Du+Acc+PxPl3: тёняхаюдоʼ
+     тёня+N+Du+Gen+PxPl3: тёняхаютоʼ
+     тёня+N+Pl+Nom+PxPl3: тёндоʼ
+     тёня+N+Pl+Acc+PxPl3: тёндоʼ
+     тёня+N+Pl+Gen+PxPl3: тёнтоʼ
+     тёня+N+Pl+Dat+PxPl3: тёняхатоʼ
+     тёня+N+Pl+Loc+PxPl3: тёняхаˮнатоʼ
+     тёня+N+Pl+Abl+PxPl3: [тёняхататоʼ, тёняхаттоʼ]
+     тёня+N+Pl+Pros+PxPl3: тёнˮманатоʼ
+     тёня+N+Pred+Abs: тёняд
+     тёня+N+Pred+Nom+PxSg1: [тёнядав, тёнядув]
+     тёня+N+Pred+Acc+PxSg1: [тёнядав, тёнядув]
+     тёня+N+Pred+Gen+PxSg1: тёнядан
+     тёня+N+Pred+Nom+PxSg2: тёнядар
+     тёня+N+Pred+Acc+PxSg2: тёнядамд
+     тёня+N+Pred+Gen+PxSg2: тёняданд
+     тёня+N+Pred+Nom+PxSg3: тёнядада
+     тёня+N+Pred+Acc+PxSg3: тёнядамда
+     тёня+N+Pred+Gen+PxSg3: тёняданда
+     тёня+N+Pred+Nom+PxDu1: тёнядамиʼ
+     тёня+N+Pred+Nom+PxSg1: тёнядами #+Use/SpellNoSugg
+     тёня+N+Pred+Acc+PxDu1: тёнядамиʼ
+     тёня+N+Pred+Acc+PxSg1: тёнядами #+Use/SpellNoSugg
+     тёня+N+Pred+Gen+PxDu1: тёняданиʼ
+     тёня+N+Pred+Gen+PxSg1: тёнядани #+Use/SpellNoSugg
+     тёня+N+Pred+Nom+PxDu2: тёнядариʼ
+     тёня+N+Pred+Acc+PxDu2: тёнядамдиʼ
+     тёня+N+Pred+Gen+PxDu2: тёнядандиʼ
+     тёня+N+Pred+Nom+PxDu3: тёнядадиʼ
+     тёня+N+Pred+Acc+PxDu3: тёнядамдиʼ
+     тёня+N+Pred+Gen+PxDu3: тёнядандиʼ
+     тёня+N+Pred+Nom+PxPl1: тёнядаваˮ
+     тёня+N+Pred+Acc+PxPl1: тёнядаваˮ
+     тёня+N+Pred+Gen+PxPl1: тёняданаˮ
+     тёня+N+Pred+Nom+PxPl2: тёнядараˮ
+     тёня+N+Pred+Acc+PxPl2: тёнядамдаˮ
+     тёня+N+Pred+Gen+PxPl2: тёнядандаˮ
+     тёня+N+Pred+Nom+PxPl3: тёнядадоʼ
+     тёня+N+Pred+Acc+PxPl3: тёнядамдоʼ
+     тёня+N+Pred+Gen+PxPl3: тёнядандоʼ
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: тёнядмʼ
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: тёнян
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: тёня
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: тёняниʼ
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: тёнядиʼ
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: тёняхаʼ
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: тёняваˮ
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: тёнядаˮ
+     тёня+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: тёняˮ
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: тёнядамзь
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: тёнянась
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: тёнясь
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: тёнянинзь
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: тёнядинзь
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: тёняханзь
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: тёняваць
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: тёнядаць
+     тёня+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: тёняць
+     тёня+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: тёняв
+     тёня+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: тёняр
+     тёня+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: тёняда
+     тёня+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: тёнямиʼ
+     тёня+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: тёняриʼ
+     тёня+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: тёнядиʼ
+     тёня+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: тёняваˮ
+     тёня+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: тёняраˮ
+     тёня+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: тёнядоʼ
+     тёня+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: тёнявась
+     тёня+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: тёнярась
+     тёня+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: тёнядась
+     тёня+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: тёняминзь
+     тёня+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: тёняринзь
+     тёня+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: тёнядинзь
+     тёня+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: тёняваць
+     тёня+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: тёняраць
+     тёня+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: тёнядонзь
+     тёня+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюн
+     тёня+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюд
+     тёня+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюда
+     тёня+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюниʼ
+     тёня+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюдиʼ
+     тёня+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюдиʼ
+     тёня+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюнаˮ
+     тёня+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюдаˮ
+     тёня+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: тёняхаюдоʼ
+     тёня+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюнась
+     тёня+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюдась
+     тёня+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюдась
+     тёня+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюнинзь
+     тёня+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюдинзь
+     тёня+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюдинзь
+     тёня+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюнаць
+     тёня+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюдаць
+     тёня+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: тёняхаюдонзь
+     тёня+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: тёнан
+     тёня+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: тёнад
+     тёня+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: тёнда
+     тёня+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: тённиʼ
+     тёня+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: тёндиʼ
+     тёня+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: тёндиʼ
+     тёня+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: тённаˮ
+     тёня+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: тёндаˮ
+     тёня+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: тёндоʼ
+     тёня+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: тённась
+     тёня+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: тёндась
+     тёня+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: тёндась
+     тёня+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: тённинзь
+     тёня+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: тёндинзь
+     тёня+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: тёндинзь
+     тёня+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: тённаць
+     тёня+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: тёндаць
+     тёня+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: тёндонзь
+     тёня+N+Tra: тёняӈэ
+     тёня+N+Car: тёнясиˮ
+     тёня+N+Equ: тёнядаремʼ
+     тёня+N+Equ+Lat: тёнядаревʼ

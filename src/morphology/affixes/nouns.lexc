@@ -221,7 +221,10 @@ LEXICON N_ЕСИ  !!= @CODE@ ая̆ха: 16PProsSg -вна
 !+N:%^A2I PLACCSUF_Zero ; 
 
 LEXICON N_ӇОДИ  !!= @CODE@ ӈодя: 17 ProsSg -вна
-+N: NMN_ӇОДИ ;
+!+N: NMN_ӇОДИ ;
++N: NMN_МУНО ;
++N:%^A2I MUNO_O ;
+
 
 LEXICON N_ӇОДИ-RUS 
 +Rus: N_ӇОДИ ;
@@ -310,14 +313,16 @@ LEXICON N_ТЁН  !!= @CODE@ тёня:тёня 20 ProsSg -вна
 !! Yaml: __tyon__
 !! /total=14/
 !!тёня tyonya	тёнян’ tyonyan°h	тёня” tyonyaq	тён tyon°
-+N: SGDATSUF ;
-+N: SG-ACC-STEM	;
-+N:  SG-NOM-STEM ;
-+N: SGPROSSUF ;
-+N: PLNOMSUF ;
-+N:%^PalLoss PLACCSUF_Minus ;
-+N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
-+N: POSSESSA-DUAL ;
++N: NMN_МУНО ;
++N:%^PalLoss%^VowLoss MUNO_O ;
+!+N: SGDATSUF ;
+!+N: SG-ACC-STEM	;
+!+N:  SG-NOM-STEM ;
+!+N: SGPROSSUF ;
+!+N: PLNOMSUF ;
+!+N:%^PalLoss PLACCSUF_Minus ;
+!+N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+!+N: POSSESSA-DUAL ;
 
 LEXICON N_ПИСЬ 
 +N: NMN_ПИСЬ ;

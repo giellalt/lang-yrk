@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ӈодя: # Noun 'berry' - full paradigm /Type 17 MDTN-koodi ya→yi/
+     ӈодя+N+Sg+Nom: ӈодя
+     ӈодя+N+Sg+Acc: ӈодямʼ
+     ӈодя+N+Sg+Gen: ӈодяʼ
+     ӈодя+N+Sg+Dat: ӈодянʼ
+     ӈодя+N+Sg+Loc: ӈодяхана
+     ӈодя+N+Sg+Abl: ӈодяхад
+     ӈодя+N+Sg+Pros: ӈодявна
+     ӈодя+N+Du+Nom: ӈодяхаʼ
+     ӈодя+N+Du+Acc: ӈодяхаʼ
+     ӈодя+N+Du+Gen: ӈодяхаʼ
+     ӈодя+N+Pl+Nom: ӈодяˮ
+     ӈодя+N+Pl+Acc: ӈоди
+     ӈодя+N+Pl+Gen: ӈодиˮ
+     ӈодя+N+Pl+Dat: ӈодяхаˮ
+     ӈодя+N+Pl+Loc: ӈодяхаˮна
+     ӈодя+N+Pl+Abl: ӈодяхат
+     ӈодя+N+Pl+Pros: ӈодиˮмана
+     ӈодя+N+Sg+Nom+PxSg1: ӈодяв
+     ӈодя+N+Sg+Acc+PxSg1: ӈодяв
+     ӈодя+N+Sg+Gen+PxSg1: ӈодян
+     ӈодя+N+Sg+Dat+PxSg1: ӈодяхан
+     ӈодя+N+Sg+Loc+PxSg1: ӈодяханан
+     ӈодя+N+Sg+Abl+PxSg1: ӈодяхадан
+     ӈодя+N+Sg+Pros+PxSg1: ӈодявнан
+     ӈодя+N+Du+Nom+PxSg1: ӈодяхаюн
+     ӈодя+N+Du+Acc+PxSg1: ӈодяхаюн
+     ӈодя+N+Du+Gen+PxSg1: ӈодяхаюн
+     ӈодя+N+Pl+Nom+PxSg1: ӈодин
+     ӈодя+N+Pl+Acc+PxSg1: ӈодин
+     ӈодя+N+Pl+Gen+PxSg1: ӈодиˮн
+     ӈодя+N+Pl+Dat+PxSg1: ӈодяхаˮн
+     ӈодя+N+Pl+Loc+PxSg1: ӈодяхаˮнан
+     ӈодя+N+Pl+Abl+PxSg1: ӈодяхатан
+     ӈодя+N+Pl+Pros+PxSg1: ӈодиˮманан
+     ӈодя+N+Sg+Nom+PxSg2: ӈодяр
+     ӈодя+N+Sg+Acc+PxSg2: ӈодямд
+     ӈодя+N+Sg+Gen+PxSg2: ӈодянд
+     ӈодя+N+Sg+Dat+PxSg2: ӈодяханд
+     ӈодя+N+Sg+Loc+PxSg2: ӈодяхананд
+     ӈодя+N+Sg+Abl+PxSg2: ӈодяхаданд
+     ӈодя+N+Sg+Pros+PxSg2: ӈодявнанд
+     ӈодя+N+Du+Nom+PxSg2: ӈодяхаюд
+     ӈодя+N+Du+Acc+PxSg2: ӈодяхаюд
+     ӈодя+N+Du+Gen+PxSg2: ӈодяхают
+     ӈодя+N+Pl+Nom+PxSg2: ӈодид
+     ӈодя+N+Pl+Acc+PxSg2: ӈодид
+     ӈодя+N+Pl+Gen+PxSg2: ӈодит
+     ӈодя+N+Pl+Dat+PxSg2: ӈодяхат
+     ӈодя+N+Pl+Loc+PxSg2: ӈодяхаˮнат
+     ӈодя+N+Pl+Abl+PxSg2: ӈодяхатат
+     ӈодя+N+Pl+Pros+PxSg2: ӈодиˮманат
+     ӈодя+N+Sg+Nom+PxSg3: ӈодяда
+     ӈодя+N+Sg+Acc+PxSg3: ӈодямда
+     ӈодя+N+Sg+Gen+PxSg3: ӈодянда
+     ӈодя+N+Sg+Dat+PxSg3: ӈодяханда
+     ӈодя+N+Sg+Loc+PxSg3: ӈодяхананда
+     ӈодя+N+Sg+Abl+PxSg3: ӈодяхаданда
+     ӈодя+N+Sg+Pros+PxSg3: ӈодявнанда
+     ӈодя+N+Du+Nom+PxSg3: ӈодяхаюда
+     ӈодя+N+Du+Acc+PxSg3: ӈодяхаюда
+     ӈодя+N+Du+Gen+PxSg3: ӈодяхаюта
+     ӈодя+N+Pl+Nom+PxSg3: ӈодида
+     ӈодя+N+Pl+Acc+PxSg3: ӈодида
+     ӈодя+N+Pl+Gen+PxSg3: ӈодита
+     ӈодя+N+Pl+Dat+PxSg3: ӈодяхата
+     ӈодя+N+Pl+Loc+PxSg3: ӈодяхаˮната
+     ӈодя+N+Pl+Abl+PxSg3: [ӈодяхатата, ӈодяхатта]
+     ӈодя+N+Pl+Pros+PxSg3: ӈодиˮманата
+     ӈодя+N+Sg+Nom+PxDu1: ӈодямиʼ
+     ӈодя+N+Sg+Nom+PxSg1: ӈодями #+Use/SpellNoSugg
+     ӈодя+N+Sg+Acc+PxDu1: ӈодямиʼ
+     ӈодя+N+Sg+Acc+PxSg1: ӈодями #+Use/SpellNoSugg
+     ӈодя+N+Sg+Gen+PxDu1: ӈодяниʼ
+     ӈодя+N+Sg+Gen+PxSg1: ӈодяни #+Use/SpellNoSugg
+     ӈодя+N+Sg+Dat+PxDu1: ӈодяханиʼ
+     ӈодя+N+Sg+Dat+PxSg1: ӈодяхани #+Use/SpellNoSugg
+     ӈодя+N+Sg+Loc+PxDu1: ӈодяхананиʼ
+     ӈодя+N+Sg+Loc+PxSg1: ӈодяханани #+Use/SpellNoSugg
+     ӈодя+N+Sg+Abl+PxDu1: [ӈодяхаданиʼ, ӈодяхадниʼ]
+     ӈодя+N+Sg+Abl+PxSg1: [ӈодяхадани, ӈодяхадни] #+Use/SpellNoSugg
+     ӈодя+N+Sg+Pros+PxDu1: ӈодявнаниʼ
+     ӈодя+N+Sg+Pros+PxSg1: ӈодявнани #+Use/SpellNoSugg
+     ӈодя+N+Du+Nom+PxDu1: ӈодяхаюниʼ
+     ӈодя+N+Du+Nom+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
+     ӈодя+N+Du+Acc+PxDu1: ӈодяхаюниʼ
+     ӈодя+N+Du+Acc+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
+     ӈодя+N+Du+Gen+PxDu1: ӈодяхаюниʼ
+     ӈодя+N+Du+Gen+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
+     ӈодя+N+Pl+Nom+PxDu1: ӈодиниʼ
+     ӈодя+N+Pl+Nom+PxSg1: ӈодини #+Use/SpellNoSugg
+     ӈодя+N+Pl+Acc+PxDu1: ӈодиниʼ
+     ӈодя+N+Pl+Acc+PxSg1: ӈодини #+Use/SpellNoSugg
+     ӈодя+N+Pl+Gen+PxDu1: ӈодиˮниʼ
+     ӈодя+N+Pl+Gen+PxSg1: ӈодиˮни #+Use/SpellNoSugg
+     ӈодя+N+Pl+Dat+PxDu1: ӈодяхаˮниʼ
+     ӈодя+N+Pl+Dat+PxSg1: ӈодяхаˮни #+Use/SpellNoSugg
+     ӈодя+N+Pl+Loc+PxDu1: ӈодяхаˮнаниʼ
+     ӈодя+N+Pl+Loc+PxSg1: ӈодяхаˮнани #+Use/SpellNoSugg
+     ӈодя+N+Pl+Abl+PxDu1: [ӈодяхатаниʼ, ӈодяхатниʼ]
+     ӈодя+N+Pl+Abl+PxSg1: [ӈодяхатани, ӈодяхатни] #+Use/SpellNoSugg
+     ӈодя+N+Pl+Pros+PxDu1: ӈодиˮмананиʼ
+     ӈодя+N+Pl+Pros+PxSg1: ӈодиˮманани #+Use/SpellNoSugg
+     ӈодя+N+Sg+Nom+PxDu2: ӈодяриʼ
+     ӈодя+N+Sg+Acc+PxDu2: ӈодямдиʼ
+     ӈодя+N+Sg+Gen+PxDu2: ӈодяндиʼ
+     ӈодя+N+Sg+Dat+PxDu2: ӈодяхандиʼ
+     ӈодя+N+Sg+Loc+PxDu2: ӈодяханандиʼ
+     ӈодя+N+Sg+Abl+PxDu2: ӈодяхадандиʼ
+     ӈодя+N+Sg+Pros+PxDu2: ӈодявнандиʼ
+     ӈодя+N+Du+Nom+PxDu2: ӈодяхаюдиʼ
+     ӈодя+N+Du+Acc+PxDu2: ӈодяхаюдиʼ
+     ӈодя+N+Du+Gen+PxDu2: ӈодяхаютиʼ
+     ӈодя+N+Pl+Nom+PxDu2: ӈодидиʼ
+     ӈодя+N+Pl+Acc+PxDu2: ӈодидиʼ
+     ӈодя+N+Pl+Gen+PxDu2: ӈодитиʼ
+     ӈодя+N+Pl+Dat+PxDu2: ӈодяхатиʼ
+     ӈодя+N+Pl+Loc+PxDu2: ӈодяхаˮнатиʼ
+     ӈодя+N+Pl+Abl+PxDu2: [ӈодяхататиʼ, ӈодяхаттиʼ]
+     ӈодя+N+Pl+Pros+PxDu2: ӈодиˮманатиʼ
+     ӈодя+N+Sg+Nom+PxDu3: ӈодядиʼ
+     ӈодя+N+Sg+Acc+PxDu3: ӈодямдиʼ
+     ӈодя+N+Sg+Gen+PxDu3: ӈодяндиʼ
+     ӈодя+N+Sg+Dat+PxDu3: ӈодяхандиʼ
+     ӈодя+N+Sg+Loc+PxDu3: ӈодяханандиʼ
+     ӈодя+N+Sg+Abl+PxDu3: ӈодяхадандиʼ
+     ӈодя+N+Sg+Pros+PxDu3: ӈодявнандиʼ
+     ӈодя+N+Du+Nom+PxDu3: ӈодяхаюдиʼ
+     ӈодя+N+Du+Acc+PxDu3: ӈодяхаюдиʼ
+     ӈодя+N+Du+Gen+PxDu3: ӈодяхаютиʼ
+     ӈодя+N+Pl+Nom+PxDu3: ӈодидиʼ
+     ӈодя+N+Pl+Acc+PxDu3: ӈодидиʼ
+     ӈодя+N+Pl+Gen+PxDu3: ӈодитиʼ
+     ӈодя+N+Pl+Dat+PxDu3: ӈодяхатиʼ
+     ӈодя+N+Pl+Loc+PxDu3: ӈодяхаˮнатиʼ
+     ӈодя+N+Pl+Abl+PxDu3: [ӈодяхататиʼ, ӈодяхаттиʼ]
+     ӈодя+N+Pl+Pros+PxDu3: ӈодиˮманатиʼ
+     ӈодя+N+Sg+Nom+PxPl1: ӈодяваˮ
+     ӈодя+N+Sg+Acc+PxPl1: ӈодяваˮ
+     ӈодя+N+Sg+Gen+PxPl1: ӈодянаˮ
+     ӈодя+N+Sg+Dat+PxPl1: ӈодяханаˮ
+     ӈодя+N+Sg+Loc+PxPl1: ӈодяхананаˮ
+     ӈодя+N+Sg+Abl+PxPl1: [ӈодяхаданаˮ, ӈодяхаднаˮ]
+     ӈодя+N+Sg+Pros+PxPl1: ӈодявнанаˮ
+     ӈодя+N+Du+Nom+PxPl1: ӈодяхаюнаˮ
+     ӈодя+N+Du+Acc+PxPl1: ӈодяхаюнаˮ
+     ӈодя+N+Du+Gen+PxPl1: ӈодяхаюнаˮ
+     ӈодя+N+Pl+Nom+PxPl1: ӈодинаˮ
+     ӈодя+N+Pl+Acc+PxPl1: ӈодинаˮ
+     ӈодя+N+Pl+Gen+PxPl1: ӈодиˮнаˮ
+     ӈодя+N+Pl+Dat+PxPl1: ӈодяхаˮнаˮ
+     ӈодя+N+Pl+Loc+PxPl1: ӈодяхаˮнанаˮ
+     ӈодя+N+Pl+Abl+PxPl1: [ӈодяхатанаˮ, ӈодяхатнаˮ]
+     ӈодя+N+Pl+Pros+PxPl1: ӈодиˮмананаˮ
+     ӈодя+N+Sg+Nom+PxPl2: ӈодяраˮ
+     ӈодя+N+Sg+Acc+PxPl2: ӈодямдаˮ
+     ӈодя+N+Sg+Gen+PxPl2: ӈодяндаˮ
+     ӈодя+N+Sg+Dat+PxPl2: ӈодяхандаˮ
+     ӈодя+N+Sg+Loc+PxPl2: ӈодяханандаˮ
+     ӈодя+N+Sg+Abl+PxPl2: ӈодяхадандаˮ
+     ӈодя+N+Sg+Pros+PxPl2: ӈодявнандаˮ
+     ӈодя+N+Du+Nom+PxPl2: ӈодяхаюдаˮ
+     ӈодя+N+Du+Acc+PxPl2: ӈодяхаюдаˮ
+     ӈодя+N+Du+Gen+PxPl2: ӈодяхаютаˮ
+     ӈодя+N+Pl+Nom+PxPl2: ӈодидаˮ
+     ӈодя+N+Pl+Acc+PxPl2: ӈодидаˮ
+     ӈодя+N+Pl+Gen+PxPl2: ӈодитаˮ
+     ӈодя+N+Pl+Dat+PxPl2: ӈодяхатаˮ
+     ӈодя+N+Pl+Loc+PxPl2: ӈодяхаˮнатаˮ
+     ӈодя+N+Pl+Abl+PxPl2: [ӈодяхататаˮ, ӈодяхаттаˮ]
+     ӈодя+N+Pl+Pros+PxPl2: ӈодиˮманатаˮ
+     ӈодя+N+Sg+Nom+PxPl3: ӈодядоʼ
+     ӈодя+N+Sg+Acc+PxPl3: ӈодямдоʼ
+     ӈодя+N+Sg+Gen+PxPl3: ӈодяндоʼ
+     ӈодя+N+Sg+Dat+PxPl3: ӈодяхандоʼ
+     ӈодя+N+Sg+Loc+PxPl3: ӈодяханандоʼ
+     ӈодя+N+Sg+Abl+PxPl3: ӈодяхадандоʼ
+     ӈодя+N+Sg+Pros+PxPl3: ӈодявнандоʼ
+     ӈодя+N+Du+Nom+PxPl3: ӈодяхаюдоʼ
+     ӈодя+N+Du+Acc+PxPl3: ӈодяхаюдоʼ
+     ӈодя+N+Du+Gen+PxPl3: ӈодяхаютоʼ
+     ӈодя+N+Pl+Nom+PxPl3: ӈодидоʼ
+     ӈодя+N+Pl+Acc+PxPl3: ӈодидоʼ
+     ӈодя+N+Pl+Gen+PxPl3: ӈодитоʼ
+     ӈодя+N+Pl+Dat+PxPl3: ӈодяхатоʼ
+     ӈодя+N+Pl+Loc+PxPl3: ӈодяхаˮнатоʼ
+     ӈодя+N+Pl+Abl+PxPl3: [ӈодяхататоʼ, ӈодяхаттоʼ]
+     ӈодя+N+Pl+Pros+PxPl3: ӈодиˮманатоʼ
+     ӈодя+N+Pred+Abs: ӈодяд
+     ӈодя+N+Pred+Nom+PxSg1: [ӈодядав, ӈодядув]
+     ӈодя+N+Pred+Acc+PxSg1: [ӈодядав, ӈодядув]
+     ӈодя+N+Pred+Gen+PxSg1: ӈодядан
+     ӈодя+N+Pred+Nom+PxSg2: ӈодядар
+     ӈодя+N+Pred+Acc+PxSg2: ӈодядамд
+     ӈодя+N+Pred+Gen+PxSg2: ӈодяданд
+     ӈодя+N+Pred+Nom+PxSg3: ӈодядада
+     ӈодя+N+Pred+Acc+PxSg3: ӈодядамда
+     ӈодя+N+Pred+Gen+PxSg3: ӈодяданда
+     ӈодя+N+Pred+Nom+PxDu1: ӈодядамиʼ
+     ӈодя+N+Pred+Nom+PxSg1: ӈодядами #+Use/SpellNoSugg
+     ӈодя+N+Pred+Acc+PxDu1: ӈодядамиʼ
+     ӈодя+N+Pred+Acc+PxSg1: ӈодядами #+Use/SpellNoSugg
+     ӈодя+N+Pred+Gen+PxDu1: ӈодяданиʼ
+     ӈодя+N+Pred+Gen+PxSg1: ӈодядани #+Use/SpellNoSugg
+     ӈодя+N+Pred+Nom+PxDu2: ӈодядариʼ
+     ӈодя+N+Pred+Acc+PxDu2: ӈодядамдиʼ
+     ӈодя+N+Pred+Gen+PxDu2: ӈодядандиʼ
+     ӈодя+N+Pred+Nom+PxDu3: ӈодядадиʼ
+     ӈодя+N+Pred+Acc+PxDu3: ӈодядамдиʼ
+     ӈодя+N+Pred+Gen+PxDu3: ӈодядандиʼ
+     ӈодя+N+Pred+Nom+PxPl1: ӈодядаваˮ
+     ӈодя+N+Pred+Acc+PxPl1: ӈодядаваˮ
+     ӈодя+N+Pred+Gen+PxPl1: ӈодяданаˮ
+     ӈодя+N+Pred+Nom+PxPl2: ӈодядараˮ
+     ӈодя+N+Pred+Acc+PxPl2: ӈодядамдаˮ
+     ӈодя+N+Pred+Gen+PxPl2: ӈодядандаˮ
+     ӈодя+N+Pred+Nom+PxPl3: ӈодядадоʼ
+     ӈодя+N+Pred+Acc+PxPl3: ӈодядамдоʼ
+     ӈодя+N+Pred+Gen+PxPl3: ӈодядандоʼ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ӈодядмʼ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ӈодян
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ӈодя
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: ӈодяниʼ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: ӈодядиʼ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаʼ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: ӈодяваˮ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: ӈодядаˮ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: ӈодяˮ
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: ӈодядамзь
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: ӈодянась
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: ӈодясь
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: ӈодянинзь
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: ӈодядинзь
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяханзь
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: ӈодяваць
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: ӈодядаць
+     ӈодя+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: ӈодяць
+     ӈодя+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: ӈодяв
+     ӈодя+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ӈодяр
+     ӈодя+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: ӈодяда
+     ӈодя+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: ӈодямиʼ
+     ӈодя+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: ӈодяриʼ
+     ӈодя+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: ӈодядиʼ
+     ӈодя+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: ӈодяваˮ
+     ӈодя+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: ӈодяраˮ
+     ӈодя+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: ӈодядоʼ
+     ӈодя+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ӈодявась
+     ӈодя+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ӈодярась
+     ӈодя+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ӈодядась
+     ӈодя+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: ӈодяминзь
+     ӈодя+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: ӈодяринзь
+     ӈодя+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: ӈодядинзь
+     ӈодя+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: ӈодяваць
+     ӈодя+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: ӈодяраць
+     ӈодя+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: ӈодядонзь
+     ӈодя+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюн
+     ӈодя+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюд
+     ӈодя+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюда
+     ӈодя+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюниʼ
+     ӈодя+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюдиʼ
+     ӈодя+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюдиʼ
+     ӈодя+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюнаˮ
+     ӈодя+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюдаˮ
+     ӈодя+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: ӈодяхаюдоʼ
+     ӈодя+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюнась
+     ӈодя+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюдась
+     ӈодя+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюдась
+     ӈодя+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюнинзь
+     ӈодя+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюдинзь
+     ӈодя+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюдинзь
+     ӈодя+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюнаць
+     ӈодя+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюдаць
+     ӈодя+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: ӈодяхаюдонзь
+     ӈодя+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: ӈодин
+     ӈодя+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: ӈодид
+     ӈодя+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: ӈодида
+     ӈодя+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: ӈодиниʼ
+     ӈодя+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: ӈодидиʼ
+     ӈодя+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: ӈодидиʼ
+     ӈодя+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ӈодинаˮ
+     ӈодя+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ӈодидаˮ
+     ӈодя+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ӈодидоʼ
+     ӈодя+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ӈодинась
+     ӈодя+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: ӈодидась
+     ӈодя+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: ӈодидась
+     ӈодя+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ӈодининзь
+     ӈодя+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: ӈодидинзь
+     ӈодя+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: ӈодидинзь
+     ӈодя+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ӈодинаць
+     ӈодя+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ӈодидаць
+     ӈодя+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ӈодидонзь
+     ӈодя+N+Tra: ӈодяӈэ
+     ӈодя+N+Car: ӈодясиˮ
+     ӈодя+N+Equ: ӈодядаремʼ
+     ӈодя+N+Equ+Lat: ӈодядаревʼ
