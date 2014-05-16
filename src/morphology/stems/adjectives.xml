@@ -10018,6 +10018,24 @@
 
   <e>
     <lg>
+      <l pos="A">сяˮны</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">сяˮны</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">jonkun aikainen</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">сябармадавэй</l>
 
       <stg>
@@ -10284,6 +10302,28 @@
 
       <tg xml:lang="fin">
         <t pos="A">vasen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">сяторик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">сяторик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">pureva</t>
       </tg>
     </mg>
   </e>
