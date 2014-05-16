@@ -29172,6 +29172,26 @@
 
   <e>
     <lg>
+      <l pos="N">сядоцё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">сядоцё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kasvot</t>
+
+        <t pos="N">naama</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сядэй</l>
 
       <stg>
@@ -29266,6 +29286,24 @@
 
   <e>
     <lg>
+      <l pos="N">сямб</l>
+
+      <stg>
+        <st Contlex="N_ХАНО">сямб</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">suo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сямдуй</l>
 
       <stg>
@@ -29277,7 +29315,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <tf pos="N">joku lintu?</tf>
       </tg>
     </mg>
   </e>
@@ -29390,6 +29428,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">leikkipaikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сянзё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">сянзё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">sulatettu rasva poron luista ja sisälmyksistä</tf>
       </tg>
     </mg>
   </e>
