@@ -1,23 +1,47 @@
+!!!Nenets twol file
 
 
+!!Letters of the alphabet
+ а б в г д е ё ж з и й к л м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я   
+ А Б В Г Д Е Ё Ж З И Й К Л М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я    
 
  °:0   Directly from Tapani Salminen extra short vowel
+
  ә:а   Directly from Tapani Salminen schwa
 
 
 
+!!Archiphonemes for vowels
 
-  %{ауоэØ%}:а   А1:а А1:у А1:о А1:э SCHWA
- %{ауоэиыØ%}:0  before pros
+ *  %{ауоэØ%}:а   А1:а А1:у А1:о А1:э SCHWA
+ * %{ауоэиыØ%}:0  before pros
+
+ * А2:а  
+
+ * Ы1:о   
+ * Ы1:е  
+
+ * Ы2:э  
 
 
+!!Archiphonemes for glottals
 
+ *  Н1:ʼ   
+ *  Н1:н   
+ *  Н1:0   
+ *  Ӈ1:ʼ   
+ *  Ӈ1:ӈ   
+ *  Ӈ1:0   
+ *  Д1:ˮ   
+ *  Д1:д   
+ *  Д1:0   
+ *  С1:ˮ   
+ *  С1:с   
+ *  С1:0   
 
-
-
-  %{ая%}:а          in Pros
-  %{оё%}:о          in +N+Sg+Nom+PxPl3
-  %{рл%}:0	    +N+Sg+Nom+PxSg2
+ *  %{ая%}:а          in Pros
+ *  %{оё%}:о          in +N+Sg+Nom+PxPl3
+ *  %{рл%}:0	    +N+Sg+Nom+PxSg2
 
   %{аяуюØ%}:0	 хан+N+Sg+Acc+PxSg1: ханув, ханав
 
@@ -26,19 +50,28 @@
   %{вм%}:0	    +N+Sg+Nom+PxSg1
 
 !!triggers
-  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
-  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+
+ *  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ *  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ *  %^A2O:0      
+ *  %^A2I:0        
 
   %^PalVariation:0  This allows for тарД1%>д%{оё%}нзь
 
-lenition
-  %^VowLower:0  vowel lowering ы:э у:о
-  %^VowRaise:0  vowel raising э:ы о:у
-stem-final vowel is lost in plural accusative
-хасава:хасев
-хадась:хадэйнинзь
-in combination with stem-final vowel loss тёня:тён
-яля:ялэ
+ *  %^MLenition:0  lenition
+ *  %^VowLower:0  vowel lowering ы:э у:о
+ *  %^VowRaise:0  vowel raising э:ы о:у
+ *  %^VowLoss:0      stem-final vowel is lost in plural accusative
+ *  %^StemVowFronting:0      хасава:хасев
+ *  %^VowFronting:0      хадась:хадэйнинзь
+ *  %^PalLoss:0      in combination with stem-final vowel loss тёня:тён
+ *  %^HardFronting:0      яля:ялэ
+
+
+!!Boundary symbols
+
+ *  %>      
+hash
 
 
 
@@ -59,18 +92,18 @@ in combination with stem-final vowel loss тёня:тён
 
 
 
-
+!!!Rules
 
 
 __°:0 in Pros LEFT__
 Second Vowel Center
-Stems C*VC_
+Stems C*VC (underline)
 
 
 
 
 Affixes
-C*V%>C_
+C*V%>C (underline)
 
 
 
@@ -137,12 +170,10 @@ RIGHT ARROW ONLY IN °:0
 
 __°:а in Pros LEFT__
 Second Vowel Center
-C*V%>C_
-
-C*VQ%>_
 
 
-C*VC_
+
+C*VC (underline)
 
 
 
@@ -255,17 +286,6 @@ __0:ы between two glottals__
 __0:у between two glottals__
 
 
-__0:у between two glottals__
-%{ая%}:а <=> # Cns* [ э ] %> ˮ _ м °: н %{ая%}: ;
-__0:у between two glottals__
-0:а <=> Д1: %> _ м н а ;
-__0:у between two glottals__
-й:0 <=> _ %> [ а: | у: ] ;
-__0:у between two glottals__
-а:я <= [ й:0 | ь:0 ] %> _ ;
-__0:у between two glottals__
-а:я => [ й:0 | ь:0 ] %> _ ;
-       е %> н _ [ к [ ы | э: ] | р (а) х | # ] ;
 
 __%{ая%}:я VowelPalatalization left__
 
@@ -274,170 +294,35 @@ __%{ая%}:я VowelPalatalization right__
 
 __%{оё%}:ё VowelPalatalization right__
 
-__%{оё%}:ё VowelPalatalization right__
-у:ю <=> [ й: | ь: ]  %> _ ;
-__%{оё%}:ё VowelPalatalization right__
-А2:0 <= # Cns* :Vow [ %> | Cns | ˮ ]+ %{увм%}: _ н а ; 
-        :Vow %^MLenition:0 %> %{увм%}: _ н а ; 
-поʼ:помна
-        [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: %{увм%}: _ н а ; 
-        # Cns* :Vow [( [Н1:|Д1:|С1:] )| Cns+ ( :0* у: ) | й: у: | Cns Vow ] %> %{ауоэиыØ%}: %{увм%}: _ н %{ая%}: ;
-__%{оё%}:ё VowelPalatalization right__
-0:у <=> [ д | м: (ʼ: ) | н | р ] %> _ %{увм%}: А2: н а ;
-__%{оё%}:ё VowelPalatalization right__
-{{{
-%{ауоэØ%}:0 =>       # Cns* [ а | я | и | ы | у | ю ] [ [Н1:|Д1:|С1:] ] %> к: _ [ ʼ | н а | д а | т Vow | ˮ: н Vow ] ; 
-# Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> к: _ [ ( ˮ ) н а | т Vow ] ;
- !!2014-03-24!! # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
-# Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ; !!= !!2014-03-24!! # Cns* Vow [ Н1: | Ӈ1: ] %> д _ р е ;  odd-syllables
-}}}
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэØ%}:0 <=  # Cns* [ а | я | и | ы | у | ю ] [ Н1: | Ӈ1: ] %> к: _ ʼ ; 
-     # Cns* [ а | я | и | ы | у | ю ] [ [Н1:|Д1:|С1:] ] %> к: _ ʼ ; 
-# Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> к: _ ( ˮ ) н а ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэØ%}:а <= [ Cns* [ а | я | о | у | ю | ы | и ] [ Н1: | Ӈ1: ]| %> с %{ая%}: ] %> к: _ [ Cns  | ˮ ] ;
- # Cns* [ а | я | у | ю | ы | и ] [ [Н1:|Д1:|С1:] ] %> к: _ [ Cns  | ˮ ] ;
-   [ %> | а ] я %> к: _ ʼ ;
-                  [[ [ Cns | # Cns* ] [ :а | :я | й | и | ы | Ы2:ы ] | Cns ] %> к: | %> а х ] _ ;
-                  [[ а | я | й | и | ы | Ы2:ы | Cns ] %> к: | %> а х ] _ ;
-      # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> к: _ [ ʼ | д ] ; 
-     # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> к: _ [ Cns  | ˮ ] ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэØ%}:а =>   [Cns* [ а | я | о | у | ю | ы | и ] [ [Н1:|Д1:|С1:] ]| %> с %{ая%}: | %> я | а я ] %> к: _ ;
-                  [[ [ Cns | # Cns* ] [ а | я | й | и | ы | Ы2: ]| Cns ] %> к: | %> а х ] _ ;
-                  [[ а | я | й | и | ы | Ы2: | Cns ] %> к: | %> а х ] _ ;
-      # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> к: _ [ ʼ | д ] ; 
-      # Cns* [ о | э | е ] [ Н1: | Ӈ1: ] %> к: _ [( ˮ ) н Vow | т Vow ] ; 
-     # Cns* Vow: Cns+ Vow: (%^VowFronting:0) %> й %> к: _ [ Cns  | ˮ ] ;
- !!2014-03-24!! # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
-# Cns* PAIRSYLL+ %> д _ р е ; !!= !!2014-03-24!! # Cns* PAIRSYLL+ %> д _ р е ;  even-syllables
-__%{оё%}:ё VowelPalatalization right__
-%{аяуюØ%}:а <= Cns %> _ [ :Cns - :в ] ;
-__%{оё%}:ё VowelPalatalization right__
-%{аяуюØ%}:а => Cns %> _ :Cns ;
-__%{оё%}:ё VowelPalatalization right__
-%{аяуюØ%}:у => Cns %> _ :в ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэØ%}:у <=> [ у | ю ]  %> к: _ ;
-__%{оё%}:ё VowelPalatalization right__
-{{{
- !!2014-03-24!! %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ к: | ˮ ] _ ;  2013-10-22 хоˮомна
-%{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ к: | ˮ ] _ ; !!= !!2014-03-24!! %{ауоэØ%}:о <=> [ о | ё ]  (%^VowLower:0) %> [ к: | ˮ ] _ ;  2013-10-22 хоˮомна
-}}}
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэØ%}:э <=> [ Ы2:э | ы:э | э | :е ] (%^VowLower:0) %> к: _ ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэØ%}:ы <=> [ а:ы ] %^A2I: %> к: _ ;
-            [ ъ | ˮ %> ъ:0 ] и %> к: _ ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэØ%}:и <=> [[Vow: | Cns | :ʼ ] %> ъ:0 и | а:и %^A2I: ] %> к: _ ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэиыØ%}:а <=> # Cns* [ :а | :я ]  [[ [Н1:|Д1:|С1:] ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэиыØ%}:ы <=> # Cns* [ ы ]  [[ [Н1:|Д1:|С1:] ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэиыØ%}:и <=>  # Cns* [ и ]  [[ [Н1:|Д1:|С1:] ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэиыØ%}:о <=>  # Cns* [ :о | :ё ]  [[ [Н1:|Д1:|С1:] ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэиыØ%}:у <=>  # Cns* [ :ю | :у ]  [[ [Н1:|Д1:|С1:] ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
-__%{оё%}:ё VowelPalatalization right__
-%{ауоэиыØ%}:э <=>  # Cns* [ :е | э ]  [[ [Н1:|Д1:|С1:] ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
 
 
-!VOWEL LOWERING
+!!VOWEL LOWERING
+
 __i2e StemFinalYToE LEFT__
 
 __i2e StemFinalYToE RIGHT__
 
-__i2e StemFinalYToE RIGHT__
-{{{
-а:э <=>  [ ӈ | т | л | р | д | н ] _ [ %^VowFronting:0 | %> й [ н | д ] ] ;
-     Cns  _ %> ъ: [ я: ] [ д | н ] ;
- !!2014-03-24!!  хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэян
-!!= !!2014-03-24!!  хадась+V+TV+Ind+Aor+ScSg1+OcPl3: хадэян
- !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-!!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-     д _ б а: %^A2I: %> ъ: я: [ д | н ] ;
-}}}
-__i2e StemFinalYToE RIGHT__
-Ы1:о <=> LBV [ CnsNotGlots | Glots | :ӈ | :н ] %> _ ;
-__i2e StemFinalYToE RIGHT__
-Ы1:е <=> LFV [ CnsNotGlots | Glots | :ӈ | :н ]  %> _ ; 
-__i2e StemFinalYToE RIGHT__
-Ы2:ы <= :в _ [ ц | с ] ь [ # | %> ] ; 
 
 __a:o in я__
 
-__a:o in я__
-а:о <=> Cns _ %^A2O:0 ;
-__a:o in я__
-я:э <=> _ %^HardFronting:0 ;
 
 __a:i in мараӈгы__
 
 
 __a:i in ӈуда__
-        р в:б  _ %^VowRaise:0 %> ;
 
 
 __о:у word-final position__
 
-__о:у word-final position__
-ё:ю <=> _ %^VowRaise:0 ;
-__о:у word-final position__
-э:ы <=>		_ %^VowRaise:0 ;
 
 __я:и word-final position__
 
 __я:е in яха__
 
 
-__я:е in яха__
-а:е <=> Cns _ Cns а: %^StemVowFronting:0 [ %> | # ] ;
-__я:е in яха__
-а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
-     [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
-__я:е in яха__
-а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
-     [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
-       # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
-__я:е in яха__
-а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
-__я:е in яха__
-и:й <=> Vow: %^VowFronting: %> ъ: _ (%^A2I:) %> [ н | д ] Vow ;
- !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-!!= !!2014-03-24!!  хадась+V+TV+Ind+Prt1+ScSg1+OcPl3: хадэйнась
-__я:е in яха__
-я:й <=> Vow _ ( %^VowFronting: ) %^VowLoss:0 ;
-       Vow %> ъ: _ (%>) [ н | д ] Vow ;
-!!VOWEL LOSS
-__я:е in яха__
-а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
-       # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ к: а ʼ ;
-       # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
-       Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
-          в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
-       
-__я:е in яха__
-а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
-       # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ к: а ʼ ;
-       # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
-       Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
-          в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ъ и | с: %{ая%}: | б ц | ˮ м а: | н: %{ая%}: ] ;
-       # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ %> [ д а | м и ʼ | р и ʼ | р а ˮ | д и ʼ | д о ʼ | в а ˮ | н и ʼ | н а ˮ ] ;
-       
-__я:е in яха__
-я:ь <=> Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
-       %> с _ %> ˮ [ # | %> ] ;
 
 __я:0 Stem vowel loss in plural accusative__
 
-__я:0 Stem vowel loss in plural accusative__
-и:ь <=>         %> с _ %> ˮ [ # | %> ] ;
-__я:0 Stem vowel loss in plural accusative__
-%{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
 !!CONSONANT CHANGES
@@ -454,38 +339,10 @@ __н loss after glottal before д: __
 
 
 
-* !!2014-03-24!!  поʼ+N+Sg+Acc+PxSg2:понд 
 
 
-__н loss after glottal before д: __,
-%{увм%}:в <=>
-       :Vow ( %^VowLower: ) %> (%{ауоэиыØ%}:)  _  А2: н [ а | %{ая%}: ]  ;
-       н %> 0:у  _  А2: н а  ;
-      :Vow %^MLenition:0 %> _ [ э к | э р х | Ы2: | а н д а р х | а н | А2: н а ] ;
-      [ д | м: (ʼ: ) | н | р ] %^MLenition:0 %> 0: _  А2: н а  ;
-__н loss after glottal before д: __,
-%{увм%}:м <=>
-       [ :Vow |Vow: ] ( %^VowLower: | %^VowRaise: | %^A2I: | ( %^PalLoss: ) %^VowLoss: ) %> [ ˮ | Д1: ]  _  А2: н а  ;
-       [ Ӈ1: | Д1: ] %> _  А2: н а  ;
-       [[ Ӈ1: | ʼ: | ˮ: | Д1: | С1: ] %> | %> ˮ ] %{ауоэиыØ%}: _ (А2:) н %{ая%}: ;
-__н loss after glottal before д: __
-м:б <=> _ %^MLenition:0 %> [ е ] ;
-__н loss after glottal before д: __
-в:б <=> [ %> р | Vow ] _ а: (%^VowFronting:0) %^VowRaise: %> ;
-        Vow _ а: %^A2I: ;
-__н loss after glottal before д: __
-%{вм%}:б <=> [ %> р | Vow ] _ а: (%^VowFronting:0) %^VowRaise: %> ;
-        Vow (%>) _ а:и %^A2I: ;
-__н loss after glottal before д: __
-в:м <=> [ Ӈ1: ] %> _ ;
-[ м: ʼ: | Ӈ1: ] %> _ ;
-__н loss after glottal before д: __
-р:л <=> [ ʼ: | Ӈ1: ] %> _ ;
-       Vow _  %> р: [ в | х ] а ;
-__н loss after glottal before д: __
-р:0 <=> Vow [ л | р: ] %> _  ;
 
-__r To 0 before glottal and %{рл%}__
+__r To 0 before glottal and р or л__
 
 __nTod__
 
@@ -496,19 +353,6 @@ __n to t after non-nasal glottal__
 
 __d to t after non-nasal glottal__
 
-__d to t after non-nasal glottal__
-д:л <=> [ Д1:ˮ | ˮ:ˮ  ] %> _ а ц ь ;
-__d to t after non-nasal glottal__
-б:п <=> [ С1: | Д1: | ˮ: ] %> _ ;
-       %> _ ˮ # ; илесь:илебˮ
-__d to t after non-nasal glottal__
-б:0 <=> [ л | р ] %> _ ц [ а к | у ];
-__d to t after non-nasal glottal__
-{{{
-ъ:0 <=> Vow: (%^VowFronting:) %> _ [ и: | я: ] ;
- !!2014-03-24!!         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
-        :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ; !!= !!2014-03-24!!         :Vow (ˮ|%^A2I:) %> _ я: ((%^A2I:) %>) [ н | д ] ;  нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
-}}}
 
 
 __с => ц affrication after Stop__
@@ -516,33 +360,18 @@ __с => ц affrication after Stop__
 __с => з after nasal__
 
 
-__с => з after nasal__
-ʼ:н <=> [ д | н ] [ о | и ] _ %> с: ь ;
-__с => з after nasal__
-ʼ:0 <=> м:  _ %> [ Ы1: | ʼ | м ( ʼ ) | н: ( ʼ ) | ˮ: | к: ( %{ауоэØ%}: ) | р: | в: | д | ц ь | с: ь ] ;
-      м:  _ %^MLenition:0 %> 0:у м: А2: н а ;
-   _ %> [ %{рл%}: | %{вм%}: | н: ] ;
-__с => з after nasal__
-ˮ:0 <=> _ %> д: ;
-   _ %> [ %{рл%}: | %{вм%}: ] ;
-   _ %> с: ь ;
 
 __к: -> г after nasal glottal__
 
 __к: to х after Vowels__
 
 !!Realization of glottal stops
+
 !SURFACE CONSONANT
 
-__к: to х after Vowels__
-%{вм%}:м <=> [ Ӈ1: | Н1: | Д1: | С1: | ʼ: | ˮ: | р | л ] %> _  ;
 
 __%{рл%}:л__
 
-__%{рл%}:л__
-%{вм%}:в <=> [ :Vow | в Vow: | [ Cns: ] - [ р | л ] ] (%^VowLower:0|%^VowRaise:0) %> _  [ # | %> |  Cns: | [ Vow: ] - [ а:и ] ] ;
-             [ в а: (%^VowRaise:0)| Vow: | е |  т ] %> _ [ Ы2: | э: | ы | а | д а в ] ;
-       %> %{аяуюØ%}: _ ; 
 
 __%{рл%}:р__
 
@@ -565,15 +394,8 @@ __Ӈ1:н GlottalNasalToSurface__
 
 __Ӈ1:ъ GlottalNasalToSurface__
 
-__Ӈ1:ъ GlottalNasalToSurface__
-Ӈ1:й <=> о _ %> [ ʼ | м ʼ  ] ;
-!LOSS
-__Ӈ1:ъ GlottalNasalToSurface__
-л:0 <=> _ [ ʼ: | ˮ: ] %> %{рл%}:л ;
 
 
-__Ӈ1:ъ GlottalNasalToSurface__
-ӈ:0 <=> # Cns:* Vow: [ Cns:+  Vow: ]+ %> _ а: х а ʼ ;
 
 
 __Н1:0 GlottalNasalToSurface__
@@ -592,9 +414,7 @@ __С1:0 GlottalNonNasalToZERO__
 
 
 
-__С1:0 GlottalNonNasalToZERO__
-ь:0 <=> С1: _ %> [ к: | н ] ;
-    _ %> [ а: | у: | и ] ;
+
 
 __С1:ˮ UnderlyingToGlottal__
 
