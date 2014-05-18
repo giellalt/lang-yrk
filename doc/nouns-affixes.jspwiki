@@ -1,5 +1,4 @@
-Noun inflection
----------------
+!!!Noun inflection
 
 Nenets nouns inflect in cases.
 
@@ -16,7 +15,7 @@ no change in stem
 
 
  LEXICON N_ӇЭ/ХАБИЕ   ӈэ:ӈэ 1  ProsSg -вна
-   хӑби:8 ProsSg -вна
+хӑби:8 ProsSg -вна
 
  LEXICON N_Ё   я:я 2 ProsSg -вна
 Yaml: __ya__
@@ -24,8 +23,8 @@ Yaml: __ya__
 я ya	ян’ yan°h	я” yaq	ё yo
 
 та:та 
-  ӈэ:ӈэ 1  ProsSg -вна
-  я:я 2 ProsSg -вна
+ӈэ:ӈэ 1  ProsSg -вна
+я:я 2 ProsSg -вна
 
  LEXICON N_ПИ   пя:пя 3 ProsSg -вна
 Yaml: __pyi__
@@ -134,7 +133,6 @@ Yaml: __xob__
  LEXICON N_ТЁН   тёня:тёня 20 ProsSg -вна
 Yaml: __tyon__
 /total=14/
- !+N:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
  LEXICON NMN_ПИСЬ  пися: 21 ProsSg -вна
@@ -218,9 +216,6 @@ Yaml: __ilje__
 Yaml: __nyenecyh__
 ң /total=13/
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
- !+N:Ӈ1 SGNOMSUF ;  
- !+N:%>аӇ1 SG-NOM-STEM ;  
- !+N:%>аӇ1  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  LEXICON N_ПАХАЁ   пӑхӑʼ: 31   ProsSg -мна
 ң /total=2/
@@ -250,7 +245,6 @@ Yaml: __myado__
 
 
  LEXICON N_ВАР/ТАРЕ   мяˮ:мя 35   ProsSg -мна
-  тӑрˮ:тар 33   ProsSg -мня
 
  LEXICON NMN_ВАР   мяˮ:мя 35   ProsSg -мна
 Yaml: __waro__
