@@ -33,23 +33,40 @@ Tests:
      манˮ+N+Pl+Loc: манкаˮна
      манˮ+N+Pl+Abl: манкат
      манˮ+N+Pl+Pros: мансоˮмна
-     манˮ+N+Sg+Nom+PxSg1: манаˮм
-     манˮ+N+Sg+Acc+PxSg1: манаˮм
-     манˮ+N+Sg+Gen+PxSg1: манаˮн
-     манˮ+N+Sg+Dat+PxSg1: манкан
-     манˮ+N+Sg+Loc+PxSg1: манканан
-     манˮ+N+Sg+Abl+PxSg1: манкадан
-     манˮ+N+Sg+Pros+PxSg1: манˮманан
-     манˮ+N+Du+Nom+PxSg1: манкаюн
-     манˮ+N+Du+Acc+PxSg1: манкаюн
-     манˮ+N+Du+Gen+PxSg1: манкаюн
-     манˮ+N+Pl+Nom+PxSg1: мансон
-     манˮ+N+Pl+Acc+PxSg1: мансон
-     манˮ+N+Pl+Gen+PxSg1: мансоˮн
-     манˮ+N+Pl+Dat+PxSg1: манкаˮн
-     манˮ+N+Pl+Loc+PxSg1: манкаˮнан
-     манˮ+N+Pl+Abl+PxSg1: манкатан
-     манˮ+N+Pl+Pros+PxSg1: мансоˮмнан
+     манˮ+N+Sg+Nom+PxSg1: [манаˮм, манˮми]
+#     манˮ+N+Sg+Nom+PxSg1: манˮми #+Use/SpellNoSugg
+     манˮ+N+Sg+Acc+PxSg1: [манаˮм, манˮми]
+#     манˮ+N+Sg+Acc+PxSg1: манˮми #+Use/SpellNoSugg
+     манˮ+N+Sg+Gen+PxSg1: [манаˮн, манˮни]
+#     манˮ+N+Sg+Gen+PxSg1: манˮни #+Use/SpellNoSugg
+     манˮ+N+Sg+Dat+PxSg1: [манкан, манкани]
+#     манˮ+N+Sg+Dat+PxSg1: манкани #+Use/SpellNoSugg
+     манˮ+N+Sg+Loc+PxSg1: [манканан,  манканани]
+#     манˮ+N+Sg+Loc+PxSg1: манканани #+Use/SpellNoSugg
+     манˮ+N+Sg+Abl+PxSg1: [манкадан, манкадани, манкадни]
+#     манˮ+N+Sg+Abl+PxSg1: [манкадани, манкадни] #+Use/SpellNoSugg
+     манˮ+N+Sg+Pros+PxSg1: [манˮманан, манˮманани]
+#     манˮ+N+Sg+Pros+PxSg1: манˮманани #+Use/SpellNoSugg
+     манˮ+N+Du+Nom+PxSg1: [манкаюн, манкаюни]
+#     манˮ+N+Du+Nom+PxSg1: манкаюни #+Use/SpellNoSugg
+     манˮ+N+Du+Acc+PxSg1: [манкаюн, манкаюни]
+#     манˮ+N+Du+Acc+PxSg1: манкаюни #+Use/SpellNoSugg
+     манˮ+N+Du+Gen+PxSg1: [манкаюн, манкаюни]
+#     манˮ+N+Du+Gen+PxSg1: манкаюни #+Use/SpellNoSugg
+     манˮ+N+Pl+Nom+PxSg1: [мансон, мансони]
+#     манˮ+N+Pl+Nom+PxSg1: мансони #+Use/SpellNoSugg
+     манˮ+N+Pl+Acc+PxSg1: [мансон, мансони]
+#     манˮ+N+Pl+Acc+PxSg1: мансони #+Use/SpellNoSugg
+     манˮ+N+Pl+Gen+PxSg1: [мансоˮн, мансоˮни]
+#     манˮ+N+Pl+Gen+PxSg1: мансоˮни #+Use/SpellNoSugg
+     манˮ+N+Pl+Dat+PxSg1: [манкаˮн, манкаˮни]
+#     манˮ+N+Pl+Dat+PxSg1: манкаˮни #+Use/SpellNoSugg
+     манˮ+N+Pl+Loc+PxSg1: [манкаˮнан, манкаˮнани]
+#     манˮ+N+Pl+Loc+PxSg1: манкаˮнани #+Use/SpellNoSugg
+     манˮ+N+Pl+Abl+PxSg1: [манкатан, манкатани, манкатни]
+#     манˮ+N+Pl+Abl+PxSg1: [манкатани, манкатни] #+Use/SpellNoSugg
+     манˮ+N+Pl+Pros+PxSg1: [мансоˮмнан, мансоˮмнани]
+#     манˮ+N+Pl+Pros+PxSg1: мансоˮмнани #+Use/SpellNoSugg
      манˮ+N+Sg+Nom+PxSg2: манаˮал
      манˮ+N+Sg+Acc+PxSg2: манат
      манˮ+N+Sg+Gen+PxSg2: манат
@@ -85,39 +102,22 @@ Tests:
      манˮ+N+Pl+Abl+PxSg3: [манкатата, манкатта]
      манˮ+N+Pl+Pros+PxSg3: мансоˮмната
      манˮ+N+Sg+Nom+PxDu1: манˮмиʼ
-     манˮ+N+Sg+Nom+PxSg1: манˮми #+Use/SpellNoSugg
      манˮ+N+Sg+Acc+PxDu1: манˮмиʼ
-     манˮ+N+Sg+Acc+PxSg1: манˮми #+Use/SpellNoSugg
      манˮ+N+Sg+Gen+PxDu1: манˮниʼ
-     манˮ+N+Sg+Gen+PxSg1: манˮни #+Use/SpellNoSugg
      манˮ+N+Sg+Dat+PxDu1: манканиʼ
-     манˮ+N+Sg+Dat+PxSg1: манкани #+Use/SpellNoSugg
      манˮ+N+Sg+Loc+PxDu1: манкананиʼ
-     манˮ+N+Sg+Loc+PxSg1: манканани #+Use/SpellNoSugg
      манˮ+N+Sg+Abl+PxDu1: [манкаданиʼ, манкадниʼ]
-     манˮ+N+Sg+Abl+PxSg1: [манкадани, манкадни] #+Use/SpellNoSugg
      манˮ+N+Sg+Pros+PxDu1: манˮмананиʼ
-     манˮ+N+Sg+Pros+PxSg1: манˮманани #+Use/SpellNoSugg
      манˮ+N+Du+Nom+PxDu1: манкаюниʼ
-     манˮ+N+Du+Nom+PxSg1: манкаюни #+Use/SpellNoSugg
      манˮ+N+Du+Acc+PxDu1: манкаюниʼ
-     манˮ+N+Du+Acc+PxSg1: манкаюни #+Use/SpellNoSugg
      манˮ+N+Du+Gen+PxDu1: манкаюниʼ
-     манˮ+N+Du+Gen+PxSg1: манкаюни #+Use/SpellNoSugg
      манˮ+N+Pl+Nom+PxDu1: мансониʼ
-     манˮ+N+Pl+Nom+PxSg1: мансони #+Use/SpellNoSugg
      манˮ+N+Pl+Acc+PxDu1: мансониʼ
-     манˮ+N+Pl+Acc+PxSg1: мансони #+Use/SpellNoSugg
      манˮ+N+Pl+Gen+PxDu1: мансоˮниʼ
-     манˮ+N+Pl+Gen+PxSg1: мансоˮни #+Use/SpellNoSugg
      манˮ+N+Pl+Dat+PxDu1: манкаˮниʼ
-     манˮ+N+Pl+Dat+PxSg1: манкаˮни #+Use/SpellNoSugg
      манˮ+N+Pl+Loc+PxDu1: манкаˮнаниʼ
-     манˮ+N+Pl+Loc+PxSg1: манкаˮнани #+Use/SpellNoSugg
      манˮ+N+Pl+Abl+PxDu1: [манкатаниʼ, манкатниʼ]
-     манˮ+N+Pl+Abl+PxSg1: [манкатани, манкатни] #+Use/SpellNoSugg
      манˮ+N+Pl+Pros+PxDu1: мансоˮмнаниʼ
-     манˮ+N+Pl+Pros+PxSg1: мансоˮмнани #+Use/SpellNoSugg
      манˮ+N+Sg+Nom+PxDu2: манˮлиʼ
      манˮ+N+Sg+Acc+PxDu2: мантиʼ
      манˮ+N+Sg+Gen+PxDu2: мантиʼ
@@ -204,9 +204,12 @@ Tests:
      манˮ+N+Pl+Abl+PxPl3: [манкататоʼ, манкаттоʼ]
      манˮ+N+Pl+Pros+PxPl3: мансоˮмнатоʼ
      манˮ+N+Pred+Abs: манат
-     манˮ+N+Pred+Nom+PxSg1: [мантав, мантув]
-     манˮ+N+Pred+Acc+PxSg1: [мантав, мантув]
-     манˮ+N+Pred+Gen+PxSg1: мантан
+     манˮ+N+Pred+Nom+PxSg1: [мантав, мантув, мантами]
+#     манˮ+N+Pred+Nom+PxSg1: мантами #+Use/SpellNoSugg
+     манˮ+N+Pred+Acc+PxSg1: [мантав, мантув, мантами]
+#     манˮ+N+Pred+Acc+PxSg1: мантами #+Use/SpellNoSugg
+     манˮ+N+Pred+Gen+PxSg1: [мантан, мантани]
+#     манˮ+N+Pred+Gen+PxSg1: мантани #+Use/SpellNoSugg
      манˮ+N+Pred+Nom+PxSg2: мантар
      манˮ+N+Pred+Acc+PxSg2: мантамд
      манˮ+N+Pred+Gen+PxSg2: мантанд
@@ -214,11 +217,8 @@ Tests:
      манˮ+N+Pred+Acc+PxSg3: мантамда
      манˮ+N+Pred+Gen+PxSg3: мантанда
      манˮ+N+Pred+Nom+PxDu1: мантамиʼ
-     манˮ+N+Pred+Nom+PxSg1: мантами #+Use/SpellNoSugg
      манˮ+N+Pred+Acc+PxDu1: мантамиʼ
-     манˮ+N+Pred+Acc+PxSg1: мантами #+Use/SpellNoSugg
      манˮ+N+Pred+Gen+PxDu1: мантаниʼ
-     манˮ+N+Pred+Gen+PxSg1: мантани #+Use/SpellNoSugg
      манˮ+N+Pred+Nom+PxDu2: мантариʼ
      манˮ+N+Pred+Acc+PxDu2: мантамдиʼ
      манˮ+N+Pred+Gen+PxDu2: мантандиʼ
