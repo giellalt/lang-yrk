@@ -32,23 +32,40 @@ Tests:
      лека+N+Pl+Loc: лекахаˮна
      лека+N+Pl+Abl: лекахат
      лека+N+Pl+Pros: лекыˮмана
-     лека+N+Sg+Nom+PxSg1: лекав
-     лека+N+Sg+Acc+PxSg1: лекав
-     лека+N+Sg+Gen+PxSg1: лекан
-     лека+N+Sg+Dat+PxSg1: лекахан
-     лека+N+Sg+Loc+PxSg1: лекаханан
-     лека+N+Sg+Abl+PxSg1: лекахадан
-     лека+N+Sg+Pros+PxSg1: лекавнан
-     лека+N+Du+Nom+PxSg1: лекахаюн
-     лека+N+Du+Acc+PxSg1: лекахаюн
-     лека+N+Du+Gen+PxSg1: лекахаюн
-     лека+N+Pl+Nom+PxSg1: лекын
-     лека+N+Pl+Acc+PxSg1: лекын
-     лека+N+Pl+Gen+PxSg1: лекыˮн
-     лека+N+Pl+Dat+PxSg1: лекахаˮн
-     лека+N+Pl+Loc+PxSg1: лекахаˮнан
-     лека+N+Pl+Abl+PxSg1: лекахатан
-     лека+N+Pl+Pros+PxSg1: лекыˮманан
+     лека+N+Sg+Nom+PxSg1: [лекав, леками]
+#     лека+N+Sg+Nom+PxSg1: леками #+Use/SpellNoSugg
+     лека+N+Sg+Acc+PxSg1: [лекав, леками]
+#     лека+N+Sg+Acc+PxSg1: леками #+Use/SpellNoSugg
+     лека+N+Sg+Gen+PxSg1: [лекан, лекани]
+#     лека+N+Sg+Gen+PxSg1: лекани #+Use/SpellNoSugg
+     лека+N+Sg+Dat+PxSg1: [лекахан, лекахани]
+#     лека+N+Sg+Dat+PxSg1: лекахани #+Use/SpellNoSugg
+     лека+N+Sg+Loc+PxSg1: [лекаханан, лекаханани]
+#     лека+N+Sg+Loc+PxSg1: лекаханани #+Use/SpellNoSugg
+     лека+N+Sg+Abl+PxSg1: [лекахадан, лекахадани, лекахадни]
+#     лека+N+Sg+Abl+PxSg1: [лекахадани, лекахадни] #+Use/SpellNoSugg
+     лека+N+Sg+Pros+PxSg1: [лекавнан, лекавнани]
+#     лека+N+Sg+Pros+PxSg1: лекавнани #+Use/SpellNoSugg
+     лека+N+Du+Nom+PxSg1: [лекахаюн, лекахаюни]
+#     лека+N+Du+Nom+PxSg1: лекахаюни #+Use/SpellNoSugg
+     лека+N+Du+Acc+PxSg1: [лекахаюн, лекахаюни]
+#     лека+N+Du+Acc+PxSg1: лекахаюни #+Use/SpellNoSugg
+     лека+N+Du+Gen+PxSg1: [лекахаюн, лекахаюни]
+#     лека+N+Du+Gen+PxSg1: лекахаюни #+Use/SpellNoSugg
+     лека+N+Pl+Nom+PxSg1: [лекын, лекыни]
+#     лека+N+Pl+Nom+PxSg1: лекыни #+Use/SpellNoSugg
+     лека+N+Pl+Acc+PxSg1: [лекын, лекыни]
+#     лека+N+Pl+Acc+PxSg1: лекыни #+Use/SpellNoSugg
+     лека+N+Pl+Gen+PxSg1: [лекыˮн, лекыˮни]
+#     лека+N+Pl+Gen+PxSg1: лекыˮни #+Use/SpellNoSugg
+     лека+N+Pl+Dat+PxSg1: [лекахаˮн, лекахаˮни]
+#     лека+N+Pl+Dat+PxSg1: лекахаˮни #+Use/SpellNoSugg
+     лека+N+Pl+Loc+PxSg1: [лекахаˮнан, лекахаˮнани]
+#     лека+N+Pl+Loc+PxSg1: лекахаˮнани #+Use/SpellNoSugg
+     лека+N+Pl+Abl+PxSg1: [лекахатан, лекахатани, лекахатни]
+#     лека+N+Pl+Abl+PxSg1: [лекахатани, лекахатни] #+Use/SpellNoSugg
+     лека+N+Pl+Pros+PxSg1: [лекыˮманан, лекыˮманани]
+#     лека+N+Pl+Pros+PxSg1: лекыˮманани #+Use/SpellNoSugg
      лека+N+Sg+Nom+PxSg2: лекар
      лека+N+Sg+Acc+PxSg2: лекамд
      лека+N+Sg+Gen+PxSg2: леканд
@@ -84,39 +101,22 @@ Tests:
      лека+N+Pl+Abl+PxSg3: [лекахатата, лекахатта]
      лека+N+Pl+Pros+PxSg3: лекыˮманата
      лека+N+Sg+Nom+PxDu1: лекамиʼ
-#     лека+N+Sg+Nom+PxSg1.2: леками
      лека+N+Sg+Acc+PxDu1: лекамиʼ
-#     лека+N+Sg+Acc+PxSg1.2: леками
      лека+N+Sg+Gen+PxDu1: леканиʼ
-#     лека+N+Sg+Gen+PxSg1.2: лекани
      лека+N+Sg+Dat+PxDu1: лекаханиʼ
-#     лека+N+Sg+Dat+PxSg1.2: лекахани
      лека+N+Sg+Loc+PxDu1: лекахананиʼ
-#     лека+N+Sg+Loc+PxSg1.2: лекаханани
      лека+N+Sg+Abl+PxDu1: [лекахаданиʼ, лекахадниʼ]
-#     лека+N+Sg+Abl+PxSg1.2: [лекахадани, лекахадни]
      лека+N+Sg+Pros+PxDu1: лекавнаниʼ
-#     лека+N+Sg+Pros+PxSg1.2: лекавнани
      лека+N+Du+Nom+PxDu1: лекахаюниʼ
-#     лека+N+Du+Nom+PxSg1.2: лекахаюни
      лека+N+Du+Acc+PxDu1: лекахаюниʼ
-#     лека+N+Du+Acc+PxSg1.2: лекахаюни
      лека+N+Du+Gen+PxDu1: лекахаюниʼ
-#     лека+N+Du+Gen+PxSg1.2: лекахаюни
      лека+N+Pl+Nom+PxDu1: лекыниʼ
-#     лека+N+Pl+Nom+PxSg1.2: лекыни
      лека+N+Pl+Acc+PxDu1: лекыниʼ
-#     лека+N+Pl+Acc+PxSg1.2: лекыни
      лека+N+Pl+Gen+PxDu1: лекыˮниʼ
-#     лека+N+Pl+Gen+PxSg1.2: лекыˮни
      лека+N+Pl+Dat+PxDu1: лекахаˮниʼ
-#     лека+N+Pl+Dat+PxSg1.2: лекахаˮни
      лека+N+Pl+Loc+PxDu1: лекахаˮнаниʼ
-#     лека+N+Pl+Loc+PxSg1.2: лекахаˮнани
      лека+N+Pl+Abl+PxDu1: [лекахатаниʼ, лекахатниʼ]
-#     лека+N+Pl+Abl+PxSg1.2: [лекахатани, лекахатни]
      лека+N+Pl+Pros+PxDu1: лекыˮмананиʼ
-#     лека+N+Pl+Pros+PxSg1.2: лекыˮманани
      лека+N+Sg+Nom+PxDu2: лекариʼ
      лека+N+Sg+Acc+PxDu2: лекамдиʼ
      лека+N+Sg+Gen+PxDu2: лекандиʼ
@@ -203,9 +203,12 @@ Tests:
      лека+N+Pl+Abl+PxPl3: [лекахататоʼ, лекахаттоʼ]
      лека+N+Pl+Pros+PxPl3: лекыˮманатоʼ
      лека+N+Pred+Abs: лекад
-     лека+N+Pred+Nom+PxSg1: [лекадав, лекадув]
-     лека+N+Pred+Acc+PxSg1: [лекадав, лекадув]
-     лека+N+Pred+Gen+PxSg1: лекадан
+     лека+N+Pred+Nom+PxSg1: [лекадав, лекадув, лекадами]
+#     лека+N+Pred+Nom+PxSg1: лекадами #+Use/SpellNoSugg
+     лека+N+Pred+Acc+PxSg1: [лекадав, лекадув, лекадами]
+#     лека+N+Pred+Acc+PxSg1: лекадами #+Use/SpellNoSugg
+     лека+N+Pred+Gen+PxSg1: [лекадан, лекадани]
+#     лека+N+Pred+Gen+PxSg1: лекадани #+Use/SpellNoSugg
      лека+N+Pred+Nom+PxSg2: лекадар
      лека+N+Pred+Acc+PxSg2: лекадамд
      лека+N+Pred+Gen+PxSg2: лекаданд
@@ -213,11 +216,8 @@ Tests:
      лека+N+Pred+Acc+PxSg3: лекадамда
      лека+N+Pred+Gen+PxSg3: лекаданда
      лека+N+Pred+Nom+PxDu1: лекадамиʼ
-#     лека+N+Pred+Nom+PxSg1.2: лекадами
      лека+N+Pred+Acc+PxDu1: лекадамиʼ
-#     лека+N+Pred+Acc+PxSg1.2: лекадами
      лека+N+Pred+Gen+PxDu1: лекаданиʼ
-#     лека+N+Pred+Gen+PxSg1.2: лекадани
      лека+N+Pred+Nom+PxDu2: лекадариʼ
      лека+N+Pred+Acc+PxDu2: лекадамдиʼ
      лека+N+Pred+Gen+PxDu2: лекадандиʼ
