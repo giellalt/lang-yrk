@@ -28650,6 +28650,8 @@
 
       <stg>
         <st Contlex="N_ЕД">сюмбак</st>
+
+        <st Contlex="N_ЕД">сюмбаӈг</st>
       </stg>
     </lg>
 
@@ -28712,6 +28714,24 @@
 
       <tg xml:lang="fin">
         <tf pos="N">pieni nartta</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сюны</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ">сюны</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">siskojen lapset </tf>
       </tg>
     </mg>
   </e>
@@ -28794,6 +28814,26 @@
 
   <e>
     <lg>
+      <l pos="N">сюрня</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">сюрня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pyörä</t>
+
+        <tf pos="N">metalli- tai luukoriste valjaissa</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сюртеӈгосьʼ</l>
 
       <stg>
@@ -28848,6 +28888,26 @@
         <t pos="N">paluu</t>
 
         <t pos="N">palautus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сюӈгун</l>
+
+      <stg>
+        <st Contlex="N_ЕД">сюӈгун</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">pata</t>
+
+        <t pos="N">keittopata</t>
       </tg>
     </mg>
   </e>
