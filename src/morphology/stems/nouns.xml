@@ -26950,6 +26950,42 @@
 
   <e>
     <lg>
+      <l pos="N">собалˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">собал</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">pörröinen lerpattavilla korvilla eläin</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">совхоз</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">совхоз</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sovhoosi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">соены</l>
 
       <stg>
@@ -27408,6 +27444,24 @@
 
   <e>
     <lg>
+      <l pos="N">суирˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">суир</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">vasan taljan liemenvilla</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">суирцавэй</l>
 
       <stg>
@@ -27426,10 +27480,10 @@
 
   <e>
     <lg>
-      <l pos="N">сул</l>
+      <l pos="N">сулв</l>
 
       <stg>
-        <st Contlex="N_ЕД/ХАНО">сул</st>
+        <st Contlex="N_ЕД/ХАНО">сулв</st>
       </stg>
     </lg>
 
@@ -27497,6 +27551,24 @@
       <tg xml:lang="eng">
         <t pos="N">calf</t>
       </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">vasa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">суюко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">суюко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
 
       <tg xml:lang="fin">
         <t pos="N">vasa</t>
@@ -28731,7 +28803,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="N">siskojen lapset </tf>
+        <tf pos="N">siskojen lapset</tf>
       </tg>
     </mg>
   </e>
