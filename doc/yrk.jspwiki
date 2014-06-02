@@ -20,163 +20,264 @@ in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 The parts-of-speech are:
-  +N +A +Adv +V								    
-  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num  
+
+ * +N	    
+ * +A	    
+ * +Adv    
+ * +V	     						
+
+ * +Pron   
+ * +CS	    
+ * +CC	    
+ * +Adp    
+ * +Po	    
+ * +Pr	    
+ * +Interj 
+ * +Pcle   
+ * +Num    
+
+
 
 The parts of speech are further split up into:
-  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  
+
+ * +Prop    
+ * +Pers    
+ * +Dem     
+ * +Interr  
+ * +Refl    
+ * +Recipr  
+ * +Rel     
+ * +Indef   
+
 
 Adv
-  +Manner  
-  +Refr   (referential), 
-  +Temp 
+ *  +Manner  
+ *  +Refr   (referential), 
+ *  +Temp 
 
 The Usage extents are marked using the following tags:
-  +Use/Sub     
-  +Use/-Spell   
-* recognized but not suggested in speller
+ *  +Use/Sub     
+ *  +Use/-Spell   
+ *  +Use/SpellNoSugg   recognized but not suggested in speller
 
-  +Rus  (100% Russian homograph)
+ *  +Rus  (100% Russian homograph)
 
 
 Dialects
 
-  +Dial/W    (Western dialects), 
-  +Dial/T    (Taimyr dialect  ), 
-  +Dial/E    (Eastern dialects), 
+ *  +Dial/W    (Western dialects), 
+ *  +Dial/T    (Taimyr dialect  ), 
+ *  +Dial/E    (Eastern dialects), 
 
 
 The nominals are inflected in the following Case and Number
 
-  +Sg     
-  +Du     
-  +Pl     
-  +Acc    
-  +Gen    (Genitive) 
-  +Abl    
-  +Dat    
-  +Loc    
-  +Nom    
-  +Pros   (Prosecutive) 
-  +Tra    
-  +Abe    
-  +Adc    
-  +Ins    
-  +Apr    
-  +Ine    
-  +Ill    
-  +Ela    
-  +Egr    
-  +Prl    
+ *  +Sg     
+ *  +Du     
+ *  +Pl     
+ *  +Acc    
+ *  +Gen    (Genitive) 
+ *  +Abl    
+ *  +Dat    
+ *  +Loc    
+ *  +Nom    
+ *  +Pros   (Prosecutive) 
+ *  +Tra    
+ *  +Abe    
+ *  +Adc    
+ *  +Ins    
+ *  +Apr    
+ *  +Ine    
+ *  +Ill    
+ *  +Ela    
+ *  +Egr    
+ *  +Prl    
  *  +Pred	 = predestinative
 
 are these needed?:
 
- +Appr    
- +Advc    
- +Ter     
- +Pro     
- +Car     
- +Equ     
+ * +Appr    
+ * +Advc    
+ * +Ter     
+ * +Pro     
+ * +Car     
+ * +Equ     
 
 derivative suffixes before case endings
+ * +Lim   limitative
 
 
 The possession is marked as such:
 
 
+ * +PxSg1 
+ * +PxSg2 
+ * +PxSg3 
+ * +PxDu1 
+ * +PxDu2 
+ * +PxDu3 
+ * +PxPl1 
+ * +PxPl2 
+ * +PxPl3 
+
 The comparative forms are:
+ * +Pos    
+ * +Comp   
+ * +Superl 
 
 Numerals are classified under:
 
+ * +Attr  
+ * +Card  
+ * +Ord   
+
 Verb moods are:
+
+ * +Ind    
+ * +Pot    
+ * +Conj   
+ * +Imprt  
+ * +Opt    
+ * +Hort   
+ * +Mod/appr   approximative imperfective
+ * +Mod/des   desiderative
+ * +Mod/futappr   approximative futuritive
+ * +Mod/hyp   hyperprobablitative
+ * +Mod/int   interrogative
+ * +Mod/narr   narrative
+ * +Mod/nec   necessitativee
+ * +Mod/obl   obligative
+ * +Mod/rep   reputative
+ * +Mod/sup   superprobabilitative
+ * +Mod/perfappr   approximative perfective
+ * +Mod/perfprob   perfective probabilitative
+ * +Mod/prob   imperfective probabilitative
 
 
 Verb tenses are:
 
+ * +Aor   
+ * +Prt   
+ * +Prt1  
+ * +Prt2  
+
 Verb personal forms are:
 
+Subject
 
+One of the two following
+
+ * +Sg1  
+ * +Sg2  
+ * +Sg3  
+ * +Pl1  
+ * +Pl2  
+ * +Pl3  
+
+ * +ScSg1  
+ * +ScSg2  
+ * +ScSg3  
+ * +ScDu1  
+ * +ScDu2  
+ * +ScDu3  
+ * +ScPl1  
+ * +ScPl2  
+ * +ScPl3  
+
+Object
+ * +OcSg3  
+ * +OcDu3  
+ * +OcPl3  
 
 Other verb forms are
 
-  +InfImprf    
-  +InfPrf      
-  +PrcImprf    
-  +PrcPrf      
-  +PrcNeg      
-  +PrcFut      
-  +GerFin      
-  +Subord      
-  +Aud	      
-  +Evas	      
-  +Ger 	      
-  +ConNeg      
-  +ConNegII     
-  +Neg 	      
-  +ImprtII     
-  +PrsPrc      
-  +Sup 	      
-  +VGen 	      
-  +VAbess      
+ *  +InfImprf    
+ *  +InfPrf      
+ *  +PrcImprf    
+ *  +PrcPrf      
+ *  +PrcNeg      
+ *  +PrcFut      
+ *  +GerFin      
+ *  +Subord      
+ *  +Aud	      
+ *  +Evas	      
+ *  +Ger 	      
+ *  +ConNeg      
+ *  +ConNegII     
+ *  +Neg 	      
+ *  +ImprtII     
+ *  +PrsPrc      
+ *  +Sup 	      
+ *  +VGen 	      
+ *  +VAbess      
 
 Abbreviated words are classified with:
 
-  +ABBR +ACR  
+ *  +ABBR  
+ *  +ACR  
 
 Special symbols are classified with:
 
- +CLB +PUNCT +LEFT +RIGHT   
+ * +CLB   
+ * +PUNCT 
+ * +LEFT  
+ * +RIGHT   
 
 The verbs are syntactically split according to transitivity:
 
-  +TV +IV  
+ *  +TV   
+ *  +IV  
 
-  +Aux   auxilliary verb
+ *  +Aux   auxilliary verb
 
 
 
 Special multiword units are analysed with:
 
-  +Multi  
+ *  +Multi  
 
 Non-dictionary words can be recognised with:
 
-  +Guess  
+ *  +Guess  
 
 Question and Focus particles:
 
-  +Qst +Foc  
+ *  +Qst  
+ *  +Foc  
 
 
 Semantics are classified with
 
-  +Mal 	  
-  +Fem 	  
-  +Sur 	  
-  +Plc 	  
-  +Org	  
-  +Obj	  
-  +Ani	  
-  +Hum	  
-  +Plant	  
-  +Group	  
-  +Time 	  
-  +Txt	  
-  +Route	  
-  +Measr   
-  +Wthr	  
-  +Build   
-  +Edu	  
-  +Veh	  
-  +Clth	  
+ *  +Mal 	  
+ *  +Fem 	  
+ *  +Sur 	  
+ *  +Plc 	  
+ *  +Org	  
+ *  +Obj	  
+ *  +Ani	  
+ *  +Hum	  
+ *  +Plant	  
+ *  +Group	  
+ *  +Time 	  
+ *  +Txt	  
+ *  +Route	  
+ *  +Measr   
+ *  +Wthr	  
+ *  +Build   
+ *  +Edu	  
+ *  +Veh	  
+ *  +Clth	  
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
-modifier without noun head
-this is used with predication of nominals and deverbal modalities
+ * +V→N   
+ * +V→V    
+ * +V→A    
+ *  +Der/xxx    
+ *  +Der/MWN    modifier without noun head
+ *  +Der/Pr    this is used with predication of nominals and deverbal modalities
 
 
 
@@ -184,31 +285,41 @@ this is used with predication of nominals and deverbal modalities
 
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-  %{ая%}     in Pros
-  %{оё%}     in +N+Sg+Nom+PxPl3
-  %{рл%}	    +N+Sg+Nom+PxSg2
+ *  %{ая%}     in Pros
+ *  %{оё%}     in +N+Sg+Nom+PxPl3
+ *  %{рл%}	    +N+Sg+Nom+PxSg2
 
-  %{аяуюØ%}	 хан+N+Sg+Acc+PxSg1: ханув, ханав
-  %{увм%}    +N+Sg+Pros
-  %{вм%}	    +N+Sg+Nom+PxSg1
+ *  %{аяуюØ%}  хан+N+Sg+Acc+PxSg1: ханув, ханав
+ *  %{увм%}    +N+Sg+Pros
+ *  %{вм%}	    +N+Sg+Nom+PxSg1
 
 And following triggers to control variation
-  %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
-  %^PLNOM     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
-  %^PalVariation  This allows for тарД1%>д%{оё%}нзь
+ *  {front}   
+ *  {back}      
+ *  %^SCSG2     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ *  %^PLNOM     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ *  %^PalVariation  This allows for тарД1%>д%{оё%}нзь
 
 
-  %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
+ *  %{ауоэØ%}   А1:а А1:у А1:о А1:э schwa
 
-  %{ауоэиыØ%}  before pros
+ *  %{ауоэиыØ%}  before pros
 
 This is the schwa or reduced vowel occurring after x in case endings
 
- А2   Alternating between zero and а
+ * А2   Alternating between zero and а
 
- Д1 С1 Н1 Ӈ1         = These are proto-glottals
+ * Д1   
+ * С1   
+ * Н1   
+ * Ӈ1         = These are proto-glottals
 
- Г1 В1 Е1 Е2 Ы1 Ы2   = These are for developing underlying morphology rules
+ * Г1   
+ * В1   
+ * Е1   
+ * Е2   
+ * Ы1   
+ Ы2   = These are for developing underlying morphology rules
 
 !!Triggers
 
@@ -226,13 +337,15 @@ This is the schwa or reduced vowel occurring after x in case endings
 We have manually optimised the structure of our lexicon using the following
 flag diacritics to restrict morhpological combinatorics:
 
- @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@  
+ * @P.NeedNoun.ON@   
+ * @D.NeedNoun.ON@   
+ * @C.NeedNoun@    
 
 Object conjugation
 
- @P.CONJ.ObjAll@   
- @R.CONJ.ObjAll@   
- @C.CONJ@	      
+ * @P.CONJ.ObjAll@   
+ * @R.CONJ.ObjAll@   
+ * @C.CONJ@	      
 
 
 !!!The __Root__ lexicon
@@ -857,6 +970,7 @@ Conjugation of nouns and adjectives
 
 
  LEXICON IV_ӇЭ  ӈэсь:ӈэ
+
 
 
 
