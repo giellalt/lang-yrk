@@ -86201,16 +86201,16 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">muuttua ahneeksi</tf>
+        <tf pos="V">olla syöläs</tf>
       </tg>
     </mg>
   </e>
   <e>
     <lg>
-      <l pos="V" val="TV">симбейкабтась</l>
+      <l pos="V" type="R">симбейкабтась</l>
 
       <stg>
-        <st Contlex="TV_ХАДА">симбейкабта</st>
+        <st Contlex="VR_ХАДА">симбейкабта</st>
       </stg>
     </lg>
 
@@ -86218,7 +86218,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">olla syöläs</tf>
+        <tf pos="V">muuttua ahneeksi</tf>
       </tg>
     </mg>
   </e>
@@ -90484,9 +90484,10 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">сыраламба</st>
-      </stg>
-    </lg>
 
+<<<<<<< .mine
+        <st Contlex="TV_ПЭБЮ">сыдаламба</st>
+=======
     <mg>
       <defNative/>
 
@@ -90503,6 +90504,7 @@
 
       <stg>
         <st Contlex="TV_ХАДА">сыдала</st>
+>>>>>>> .r95135
       </stg>
     </lg>
 
@@ -90522,6 +90524,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">сырала</st>
+
+        <st Contlex="TV_ХАДА">сыдала</st>
       </stg>
     </lg>
 
