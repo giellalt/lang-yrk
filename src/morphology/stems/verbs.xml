@@ -82014,6 +82014,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">сабба</st>
+
+        <st Contlex="TV_ПЭБЮ">сабыба</st>
       </stg>
     </lg>
 
@@ -82026,24 +82028,6 @@
         <t pos="V">täyttää</t>
 
         <t pos="V">ladata</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">сабббась</l>
-
-      <stg>
-        <st Contlex="TV_ПЭБЮ">сабыба</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="TV">ahtaa</t>
       </tg>
     </mg>
   </e>
@@ -84857,7 +84841,7 @@
       <tg xml:lang="fin">
         <tf pos="V">panna hyppämään</tf>
 
-        <t pos="V">karahtamaan</t>
+        <tf pos="V">panna karahtamaan</tf>
 
         <tf pos="V">rikkoa normaali elämä</tf>
       </tg>
