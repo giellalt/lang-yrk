@@ -62,6 +62,9 @@ LEXICON PersPl3-CxAcc
 LEXICON PRON-DEM-ADN_
 +Pron+Dem: # ;
 
+LEXICON PRON-INTERR_
++Pron+Interr: NMN_ӇАВО ;
+
 LEXICON PRON-INTERR-HUM_
 +Pron+Interr+Hum:  SG-NOM-STEM ;
 +Pron+Interr+Hum:  SG-ACC-STEM ;
@@ -70,8 +73,8 @@ LEXICON PRON-INTERR-HUM_
 +Pron+Interr+Hum:%^A2I PLACCSUF_Zero ;
 +Pron+Interr+Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
-LEXICON PRON-INTERR_
-+Pron+Interr: NMN_ӇАВО ;
+LEXICON PRON-INTERR-QNT_IS-PROS
++Pron+Interr+Qnt+Pros: K ;
 
 LEXICON PRON_ЕД
 +Pron: NMN_ЕД ;
