@@ -549,7 +549,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <te pos="A">pitkäkasvoinen, konkonenällä ja silmät muljollaan</te>
+        <td pos="A">pitkäkasvoinen, konkonenällä ja silmät muljollaan</td>
       </tg>
     </mg>
   </e>
@@ -8740,6 +8740,24 @@
 
   <e>
     <lg>
+      <l pos="A">сабряв</l>
+
+      <stg>
+        <st Contlex="A_ЕД">сабряв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">syvä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">сава</l>
 
       <stg>
@@ -8778,6 +8796,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">terävä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">савамбой</l>
+
+      <stg>
+        <st Contlex="A_ХУСУВЭЙ">савамбой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">aika hyvä</tf>
       </tg>
     </mg>
   </e>
@@ -8894,6 +8930,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">tasoitettu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">салу</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">салу</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">laiska</t>
       </tg>
     </mg>
   </e>
