@@ -3257,7 +3257,7 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>out</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -3422,6 +3422,76 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">kauan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">пондэйʼ</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">пондэйʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">long</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kauan</t>
+
+        <t pos="Adv">pitkään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">понзиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">понзиˮ</st>
+
+        <st Contlex="ADV-MANNER_">понзипойˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">tiheästi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">понкуркаʼ</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">понкуркаʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>longer</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kauemmin</t>
       </tg>
     </mg>
   </e>

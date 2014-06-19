@@ -7497,7 +7497,25 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">yön kanssa</t>
+        <tf pos="A">yön kanssa</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">писяӈгад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">писяӈгад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">naurunhaluinen</t>
       </tg>
     </mg>
   </e>
@@ -7541,7 +7559,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">kyllästetty</t>
       </tg>
     </mg>
   </e>
@@ -8318,6 +8336,28 @@
 
       <tg xml:lang="fin">
         <t pos="A">väsynyt</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пэдава</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">пэдава</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kuuliainen</t>
+
+        <t pos="A">kiltti</t>
+
+        <t pos="A">kelpo</t>
       </tg>
     </mg>
   </e>
