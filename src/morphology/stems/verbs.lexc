@@ -3924,8 +3924,8 @@ LEXICON verbs
 пудайбтесь:пудайбте TV_ИЛЕ  "sirotella" ;
 пударанась:пударана IV_ЛАХАНА  "valahtaa" ;
 пударась:пудара IV_ЛАХАНА  "purkautua" ;
-пударась:пудара IV_ИЛЕ  "ratkea" ;
-пударась:пыдара IV_ИЛЕ  "ratkea" ;
+пударась:пудара IV_ИЛЕ  "valahtaa" ;
+пударась:пыдара IV_ИЛЕ  "valahtaa" ;
 пудась:пуда IV_ИЛЕ  "seurata" ;
 пудась:пуда VR_ХАДА  "jäädä jälkeen" ;
 пудась:пуда TV_ХАДА  "myöhästyä" ;
@@ -4026,17 +4026,17 @@ LEXICON verbs
 пыдамзь:пыдам VR_ӇАРАМ  "pudota" ;
 пыдамзь:пудам VR_ӇАРАМ  "pudota" ;
 пыдартась:пыдарта TV_ХАДА  "ratkoa" ;
-пыдась:пуда VR_ХАДА  "pujottautua" ;
-пыдась:пуда TV_ХАДА  "pujottaa" ;
 пыдась:пыда VR_ХАДА  "pujottautua" ;
+пыдась:пуда VR_ХАДА  "pujottautua" ;
 пыдась:пыда TV_ХАДА  "pujottaa" ;
-пыдаӈгась:пудаӈга IV_ЛАХАНА  "tulla pistetyksi" ;
+пыдась:пуда TV_ХАДА  "pujottaa" ;
 пыдаӈгась:пыдаӈга IV_ЛАХАНА  "tulla pistetyksi" ;
+пыдаӈгась:пудаӈга IV_ЛАХАНА  "tulla pistetyksi" ;
 пыдворць:пыдвор IV_ТИР  "karista" ;
 пыддурць:пыддур IV_ТИР  "purkaa" ;
 пыддурць:пыдур IV_ТИР  "purkaa" ;
-пыдёсь:пудё IV_ВАДЮ  "olla pujotettu" ;
 пыдёсь:пыдё IV_ВАДЮ  "olla pujotettu" ;
+пыдёсь:пудё IV_ВАДЮ  "olla pujotettu" ;
 пыйнорць:пыйнор IV_ТИР  "hankaantua" ;
 пыкалтась:пыкалта IV_ЛАХАНА  "olla kimmoinen" ;
 пыкартась:пыкарта IV_ЛАХАНА  "olla tiukka" ;
@@ -4044,6 +4044,7 @@ LEXICON verbs
 пыкомдась:пыкомда TV_ХАДА  "kapeaksi" ;
 пындавэдёсь:пындавэдё IV_ВАДЮ  "mennä nilkutellen" ;
 пындадась:пындада VR_ХАДА  "kaatua rinnalleen" ;
+пындадась:пындадэ VR_ХАДА  "kaatua rinnalleen" ;
 пындамламбась:пындамламба TV_ПЭБЮ  "suistaa helposti" ;
 пындамлась:пындамла TV_ХАДА  "suistaa helposti" ;
 пынделабтабась:пынделабтаба TV_ПЭБЮ  "kaataa kumoon" ;
@@ -4069,6 +4070,7 @@ LEXICON verbs
 пырэлаӈгась:пыралаӈга IV_ЛАХАНА  "kallistua" ;
 пырэлёсь:пырэлё IV_ВАДЮ  "seisoa kumarassa" ;
 пысабтамбась:пысабтамба TV_ПЭБЮ  "ihmetyttää" ;
+пысабтамбась:пусабтамба TV_ПЭБЮ  "ihmetyttää" ;
 пысабтась:пысабта TV_ХАДА  "ihmetyttää" ;
 пысабцуць:пысабцу TV_САС  "pitää ihmettelyn arvoisena" ;
 пысакабтась:пусакабта IV_ЯˮАВЛУ  "olla ihmettelyn arvoinen" ;
@@ -4094,6 +4096,7 @@ LEXICON verbs
 пыядась:пыяда VR_ЛАХАНА  "aivastaa" ;
 пыясумзь:пыясум IV_ӇАРАМ  "aivastaa" ;
 пыӈгэлабтабась:пыӈгэлабтаба TV_ПЭБЮ  "kiikkuttaa" ;
+пыӈгэлабтабась:пыӈгэлабтамба TV_ПЭБЮ  "kiikkuttaa" ;
 пыӈгэлабтась:пыӈгэлабта TV_ХАДА  "keinuttaa" ;
 пэбтабась:пэбтаба TV_ПЭБЮ  "kääriä" ;
 пэбтараӈгась:пэбтараӈга IV_ЛАХАНА  "solmiutua" ;
@@ -4109,6 +4112,7 @@ LEXICON verbs
 пэвресь:пэвре TV_ИЛЕ  "" ;
 пэвсюворць:пэвсювор IV_ТИР  "pimetä" ;
 пэвсюмдась:пэвсюмда IV_ЛАХАНА  "pimetä" ;
+пэвсюмдась:пэвсюмдана IV_ЛАХАНА  "pimetä" ;
 пэвсюмзь:пэвсюм IV_ӇАДИМ  "pimetä" ;
 пэвъялтамбась:пэвъялтамба TV_ПЭБЮ  "vetää" ;
 пэвъялтась:пэвъялта TV_ХАДА  "vetää" ;
@@ -4145,6 +4149,7 @@ LEXICON verbs
 пэӈгабалтась:пэӈгабалта TV_ХАДА  "heilauttaa" ;
 пэӈгабарць:пэӈгабар IV_ТИР  "horjua vähän" ;
 пэӈгабтадась:пэӈгабтада TV_ХАДА  "piilottaa nopeasti" ;
+пэӈгабтадась:пэӈгабтэда TV_ХАДА  "piilottaa nopeasti" ;
 пэӈгабтась:пэӈгабта VR_ХАДА  "piilottua" ;
 пэӈгабтась:пэӈгабтэ VR_ХАДА  "piilottua" ;
 пэӈгамзь:пэӈгам VR_ӇАРАМ  "notkahtaa" ;
