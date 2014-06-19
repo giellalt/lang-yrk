@@ -76048,25 +76048,7 @@
 
       <stg>
         <st Contlex="IV_ИЛЕ">пудара</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="IV">ratkea</t>
-
-        <t pos="V">purkaantua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="IV">пударась</l>
-
-      <stg>
         <st Contlex="IV_ИЛЕ">пыдара</st>
       </stg>
     </lg>
@@ -76075,9 +76057,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="IV">ratkea</t>
+        <t pos="V" type="IV">valahtaa</t>
 
-        <t pos="V">purkaantua</t>
+        <tf pos="V">juosta ulos</tf>
       </tg>
     </mg>
   </e>
@@ -76258,25 +76240,7 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">пудпа</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="TV">ratkoa</t>
-
-        <t pos="V">purkaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="TV">пудпась</l>
-
-      <stg>
         <st Contlex="TV_ПЭБЮ">пыдпа</st>
       </stg>
     </lg>
@@ -78017,6 +77981,8 @@
       <l pos="V" type="R">пыдась</l>
 
       <stg>
+        <st Contlex="VR_ХАДА">пыда</st>
+
         <st Contlex="VR_ХАДА">пуда</st>
       </stg>
     </lg>
@@ -78035,6 +78001,8 @@
       <l pos="V" type="TV">пыдась</l>
 
       <stg>
+        <st Contlex="TV_ХАДА">пыда</st>
+
         <st Contlex="TV_ХАДА">пуда</st>
       </stg>
     </lg>
@@ -78050,64 +78018,12 @@
 
   <e>
     <lg>
-      <l pos="V" type="R">пыдась</l>
-
-      <stg>
-        <st Contlex="VR_ХАДА">пыда</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="R">pujottautua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="TV">пыдась</l>
-
-      <stg>
-        <st Contlex="TV_ХАДА">пыда</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="TV">pujottaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">пыдаӈгась</l>
-
-      <stg>
-        <st Contlex="IV_ЛАХАНА">пудаӈга</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV">tulla pistetyksi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" val="IV">пыдаӈгась</l>
 
       <stg>
         <st Contlex="IV_ЛАХАНА">пыдаӈга</st>
+
+        <st Contlex="IV_ЛАХАНА">пудаӈга</st>
       </stg>
     </lg>
 
@@ -78148,25 +78064,7 @@
 
       <stg>
         <st Contlex="IV_ТИР">пыддур</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">purkaa</t>
-
-        <tf pos="V">ratkoa (saumaa)</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">пыддурць</l>
-
-      <stg>
         <st Contlex="IV_ТИР">пыдур</st>
       </stg>
     </lg>
@@ -78187,25 +78085,9 @@
       <l pos="V" val="IV">пыдёсь</l>
 
       <stg>
-        <st Contlex="IV_ВАДЮ">пудё</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">olla pujotettu</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">пыдёсь</l>
-
-      <stg>
         <st Contlex="IV_ВАДЮ">пыдё</st>
+
+        <st Contlex="IV_ВАДЮ">пудё</st>
       </stg>
     </lg>
 
@@ -78342,6 +78224,8 @@
 
       <stg>
         <st Contlex="VR_ХАДА">пындада</st>
+
+        <st Contlex="VR_ХАДА">пындадэ</st>
       </stg>
     </lg>
 
@@ -78810,6 +78694,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">пысабтамба</st>
+
+        <st Contlex="TV_ПЭБЮ">пусабтамба</st>
       </stg>
     </lg>
 
@@ -79258,6 +79144,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">пыӈгэлабтаба</st>
+
+        <st Contlex="TV_ПЭБЮ">пыӈгэлабтамба</st>
       </stg>
     </lg>
 
@@ -79568,6 +79456,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">пэвсюмда</st>
+
+        <st Contlex="IV_ЛАХАНА">пэвсюмдана</st>
       </stg>
     </lg>
 
@@ -80274,6 +80164,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">пэӈгабтада</st>
+
+        <st Contlex="TV_ХАДА">пэӈгабтэда</st>
       </stg>
     </lg>
 
