@@ -68470,65 +68470,11 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">паромдамба</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">patistaa</t>
-
-        <t pos="V">kiirehtiä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">паромдамбась</l>
-
-      <stg>
         <st Contlex="TV_ПЭБЮ">паромламба</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">patistaa</t>
-
-        <t pos="V">kiirehtiä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">паромдамбась</l>
-
-      <stg>
         <st Contlex="TV_ПЭБЮ">парумдамба</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">patistaa</t>
-
-        <t pos="V">kiirehtiä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">паромдамбась</l>
-
-      <stg>
         <st Contlex="TV_ПЭБЮ">парумламба</st>
       </stg>
     </lg>
@@ -68550,59 +68496,11 @@
 
       <stg>
         <st Contlex="TV_ХАДА">паромда</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">patistaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">паромдась</l>
-
-      <stg>
         <st Contlex="TV_ХАДА">паромла</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">patistaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">паромдась</l>
-
-      <stg>
         <st Contlex="TV_ХАДА">парумда</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">patistaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">паромдась</l>
-
-      <stg>
         <st Contlex="TV_ХАДА">парумла</st>
       </stg>
     </lg>
@@ -68642,23 +68540,7 @@
 
       <stg>
         <st Contlex="IV_ИЛЕ">паромъебте</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">ehättää</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">паромъебтесь</l>
-
-      <stg>
         <st Contlex="IV_ИЛЕ">парумъебте</st>
       </stg>
     </lg>
@@ -71093,7 +70975,7 @@
       <tg xml:lang="fin">
         <tf pos="V">totuttaa poissaoloon</tf>
 
-        <t pos="V">menetykseen</t>
+        <t pos="V">totuttaa menetykseen</t>
       </tg>
     </mg>
   </e>
@@ -71350,6 +71232,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">пиˮимремба</st>
+
+        <st Contlex="TV_ПЭБЮ">пимремба</st>
       </stg>
     </lg>
 
@@ -71370,6 +71254,8 @@
 
       <stg>
         <st Contlex="TV_ИЛЕ">пиˮимре</st>
+
+        <st Contlex="TV_ИЛЕ">пимре</st>
       </stg>
     </lg>
 
@@ -72105,7 +71991,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">korventаa</t>
+        <t pos="V">korventaa</t>
       </tg>
     </mg>
   </e>
@@ -72552,6 +72438,8 @@
 
       <stg>
         <st Contlex="IV_ЯˮАВЛУ">пильнзя</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">пинзя</st>
       </stg>
     </lg>
 
@@ -72599,9 +72487,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">ajaa sellaiseen paikkaan</tf>
-
-        <tf pos="V">johon toiset eivät pääsee</tf>
+        <tf pos="V">ajaa sellaiseen paikkaan johon toiset eivät pääse</tf>
       </tg>
     </mg>
   </e>

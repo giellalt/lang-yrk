@@ -19353,6 +19353,8 @@
 
       <stg>
         <st Contlex="N_ВЫӇО">паре</st>
+
+        <st Contlex="N_ВЫӇО">паря</st>
       </stg>
     </lg>
 
@@ -19550,7 +19552,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="N">laivalautta</tf>
+        <t pos="N">laivalautta</t>
       </tg>
     </mg>
   </e>
@@ -19643,6 +19645,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">puolue</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">парь</l>
+
+      <stg>
+        <st Contlex="N_ЕД">парь</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">laivalautta</t>
       </tg>
     </mg>
   </e>
@@ -20480,6 +20500,44 @@
 
   <e>
     <lg>
+      <l pos="N">пензя</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">пензя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">rotko</t>
+
+        <tf pos="N">kuivunut joenuoma</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">пенсия</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ-RUS">пенсия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">eläke</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">переня</l>
 
       <stg>
@@ -20530,6 +20588,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">tamminappula</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">песня</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">песня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tuura</t>
       </tg>
     </mg>
   </e>
@@ -20708,6 +20784,8 @@
 
       <tg xml:lang="fin">
         <t pos="N">saapas</t>
+
+        <t pos="N">nutukas</t>
       </tg>
     </mg>
   </e>
