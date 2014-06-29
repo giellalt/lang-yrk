@@ -64376,6 +64376,12 @@
 
       <tg xml:lang="fin">
         <t pos="V">sukeltaa</t>
+
+        <t pos="V">upottautua</t>
+
+        <t pos="V">upota</t>
+
+        <t pos="V">laskea</t>
       </tg>
     </mg>
   </e>
@@ -65340,6 +65346,24 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">пакалць</l>
+
+      <stg>
+        <st Contlex="TV_ТИР">пакал</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">pistää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" type="VR">пакалць</l>
 
       <stg>
@@ -65352,6 +65376,24 @@
 
       <tg xml:lang="fin">
         <t pos="V">sulkeutua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" type="VR">пакалць</l>
+
+      <stg>
+        <st Contlex="VR_ТИР">пакал</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">työntyä sisään</tf>
       </tg>
     </mg>
   </e>
