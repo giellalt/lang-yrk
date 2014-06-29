@@ -6592,6 +6592,26 @@
 
   <e>
     <lg>
+      <l pos="A">падвы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">падвы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kirjava</t>
+
+        <t pos="A">kirjoitettu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">падвыляӈг</l>
 
       <stg>
@@ -6608,6 +6628,26 @@
         <t pos="A">kirjo</t>
 
         <t pos="A">arpinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">падлада</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">падлада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">seisova</t>
+
+        <t pos="A">pistelevä</t>
       </tg>
     </mg>
   </e>
@@ -6702,6 +6742,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">pöhöttynyt</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">палад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">палад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">tarttuva</t>
       </tg>
     </mg>
   </e>
@@ -6844,6 +6902,24 @@
         <t pos="A">levoton</t>
 
         <t pos="A">rauhaton</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">панзу</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">панзу</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pysymätön</t>
       </tg>
     </mg>
   </e>
@@ -17093,6 +17169,26 @@
       <tg xml:lang="fin">
         <t pos="A">toinen</t>
 
+        <t pos="A">kummallinnen</t>
+
+        <t pos="A">vieras</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈэлири</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">ӈэлири</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
         <t pos="A">kummallinnen</t>
 
         <t pos="A">vieras</t>
