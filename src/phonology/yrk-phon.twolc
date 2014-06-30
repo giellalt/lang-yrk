@@ -3,12 +3,12 @@
 Alphabet
 
 !! !!Letters of the alphabet
-а б в г д е ё ж з и й к л м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я  !!= @CODE@ 
-А Б В Г Д Е Ё Ж З И Й К Л М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я   !!= @CODE@ 
+а б в г д е ё ж з и й к л м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я  !!≈ * __@CODE@__ 
+А Б В Г Д Е Ё Ж З И Й К Л М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я   !!≈ * __@CODE@__ 
 
-°:0  !!= @CODE@ Directly from Tapani Salminen extra short vowel
+°:0  !!≈ * __@CODE@__ Directly from Tapani Salminen extra short vowel
 
-ә:а  !!= @CODE@ Directly from Tapani Salminen schwa
+ә:а  !!≈ * __@CODE@__ Directly from Tapani Salminen schwa
 
  ˮ ! Non-nasal glottal
  ʼ ! Nasal glottal
@@ -49,12 +49,12 @@ Alphabet
  %{оё%}:о         !!= * @CODE@ in +N+Sg+Nom+PxPl3
  %{рл%}:0	   !!= * @CODE@ +N+Sg+Nom+PxSg2
 
- %{аяуюØ%}:0	!!= @CODE@ хан+N+Sg+Acc+PxSg1: ханув, ханав
+ %{аяуюØ%}:0	!!≈ * __@CODE@__ хан+N+Sg+Acc+PxSg1: ханув, ханав
 !хонась+V+Refl+Mod/int+RcSg3: хонасьˮ
 
- %{увм%}:0	   !!= @CODE@ +N+Sg+Pros
+ %{увм%}:0	   !!≈ * __@CODE@__ +N+Sg+Pros
 
- %{вм%}:0	   !!= @CODE@ +N+Sg+Nom+PxSg1
+ %{вм%}:0	   !!≈ * __@CODE@__ +N+Sg+Nom+PxSg1
 
 !! !!triggers
 
@@ -63,7 +63,7 @@ Alphabet
  %^A2O:0     !!= * @CODE@ 
  %^A2I:0       !!= * @CODE@ 
 
- %^PalVariation:0 !!= @CODE@ This allows for тарД1%>д%{оё%}нзь
+ %^PalVariation:0 !!≈ * __@CODE@__ This allows for тарД1%>д%{оё%}нзь
 
  %^MLenition:0 !!= * @CODE@ lenition
  %^VowLower:0 !!= * @CODE@ vowel lowering ы:э у:о
