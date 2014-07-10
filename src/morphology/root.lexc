@@ -29,7 +29,7 @@ Multichar_Symbols
 +N	    !!= * @CODE@
 +A	    !!= * @CODE@
 +Adv    !!= * @CODE@
-+V	    !!= * @CODE@ 						
++V	    !!= * @CODE@
 
 +Pron   !!= * @CODE@
 +CS	    !!= * @CODE@
@@ -57,9 +57,9 @@ Multichar_Symbols
 
 !! Adv
  +Manner  !!= * @CODE@
- +Refr  !!= * @CODE@ (referential), 
+ +Refr  !!= * @CODE@ (referential),
  +Temp !!= * @CODE@
- 
+
 !! The Usage extents are marked using the following tags:
  +Err/Sub     !!= * @CODE@
  +Use/-Spell   !!= * @CODE@
@@ -70,43 +70,43 @@ Multichar_Symbols
 
 !! Dialects
 
- +Dial/W   !!= * @CODE@ (Western dialects), 
- +Dial/T   !!= * @CODE@ (Taimyr dialect  ), 
- +Dial/E   !!= * @CODE@ (Eastern dialects), 
+ +Dial/W   !!= * @CODE@ (Western dialects),
+ +Dial/T   !!= * @CODE@ (Taimyr dialect  ),
+ +Dial/E   !!= * @CODE@ (Eastern dialects),
 
- 
+
 !! The nominals are inflected in the following Case and Number
 
- +Sg    !!= * @CODE@ 
- +Du    !!= * @CODE@ 
- +Pl    !!= * @CODE@ 
- +Acc   !!= * @CODE@ 
- +Gen   !!= * @CODE@ (Genitive) 
- +Abl   !!= * @CODE@ 
- +Dat   !!= * @CODE@ 
- +Loc   !!= * @CODE@ 
- +Nom   !!= * @CODE@ 
- +Pros  !!= * @CODE@ (Prosecutive) 
- +Tra   !!= * @CODE@ 
- +Abe   !!= * @CODE@ 
- +Adc   !!= * @CODE@ 
- +Ins   !!= * @CODE@ 
- +Apr   !!= * @CODE@ 
- +Ine   !!= * @CODE@ 
- +Ill   !!= * @CODE@ 
- +Ela   !!= * @CODE@ 
- +Egr   !!= * @CODE@ 
- +Prl   !!= * @CODE@ 
+ +Sg    !!= * @CODE@
+ +Du    !!= * @CODE@
+ +Pl    !!= * @CODE@
+ +Acc   !!= * @CODE@
+ +Gen   !!= * @CODE@ (Genitive)
+ +Abl   !!= * @CODE@
+ +Dat   !!= * @CODE@
+ +Loc   !!= * @CODE@
+ +Nom   !!= * @CODE@
+ +Pros  !!= * @CODE@ (Prosecutive)
+ +Tra   !!= * @CODE@
+ +Abe   !!= * @CODE@
+ +Adc   !!= * @CODE@
+ +Ins   !!= * @CODE@
+ +Apr   !!= * @CODE@
+ +Ine   !!= * @CODE@
+ +Ill   !!= * @CODE@
+ +Ela   !!= * @CODE@
+ +Egr   !!= * @CODE@
+ +Prl   !!= * @CODE@
  +Pred	!!= * @CODE@ = predestinative
- 
+
 !! are these needed?:
 
-+Appr   !!= * @CODE@ 
-+Advc   !!= * @CODE@ 
-+Ter    !!= * @CODE@ 
-+Pro    !!= * @CODE@ 
-+Car    !!= * @CODE@ 
-+Equ    !!= * @CODE@ 
++Appr   !!= * @CODE@
++Advc   !!= * @CODE@
++Ter    !!= * @CODE@
++Pro    !!= * @CODE@
++Car    !!= * @CODE@
++Equ    !!= * @CODE@
 
 !! derivative suffixes before case endings
 +Lim  !!= * @CODE@ limitative
@@ -196,31 +196,31 @@ Multichar_Symbols
 
 !! Other verb forms are
 
- +InfImprf   !!= * @CODE@ 
- +InfPrf     !!= * @CODE@ 
- +PrcImprf   !!= * @CODE@ 
- +PrcPrf     !!= * @CODE@ 
- +PrcNeg     !!= * @CODE@ 
- +PrcFut     !!= * @CODE@ 
- +GerFin     !!= * @CODE@ 
- +Subord     !!= * @CODE@ 
- +Aud	     !!= * @CODE@ 
- +Evas	     !!= * @CODE@ 
- +Ger 	     !!= * @CODE@ 
- +ConNeg     !!= * @CODE@ 
- +ConNegII   !!= * @CODE@  
- +Neg 	     !!= * @CODE@ 
- +ImprtII    !!= * @CODE@ 
- +PrsPrc     !!= * @CODE@ 
- +Sup 	     !!= * @CODE@ 
- +VGen 	     !!= * @CODE@ 
- +VAbess     !!= * @CODE@ 
+ +InfImprf   !!= * @CODE@
+ +InfPrf     !!= * @CODE@
+ +PrcImprf   !!= * @CODE@
+ +PrcPrf     !!= * @CODE@
+ +PrcNeg     !!= * @CODE@
+ +PrcFut     !!= * @CODE@
+ +GerFin     !!= * @CODE@
+ +Subord     !!= * @CODE@
+ +Aud	     !!= * @CODE@
+ +Evas	     !!= * @CODE@
+ +Ger 	     !!= * @CODE@
+ +ConNeg     !!= * @CODE@
+ +ConNegII   !!= * @CODE@
+ +Neg 	     !!= * @CODE@
+ +ImprtII    !!= * @CODE@
+ +PrsPrc     !!= * @CODE@
+ +Sup 	     !!= * @CODE@
+ +VGen 	     !!= * @CODE@
+ +VAbess     !!= * @CODE@
 
 !! Abbreviated words are classified with:
 
  +ABBR  !!= * @CODE@
  +ACR  !!= * @CODE@
- 
+
 !! Special symbols are classified with:
 
 +CLB   !!= * @CODE@
@@ -234,14 +234,14 @@ Multichar_Symbols
  +IV  !!= * @CODE@
 
  +Aux  !!= * @CODE@ auxilliary verb
- 
+
  !+ VR >> Refl ! reflexive verbs
 
 
 !! Special multiword units are analysed with:
 
  +Multi  !!= * @CODE@
- 
+
 !! Non-dictionary words can be recognised with:
 
  +Guess  !!= * @CODE@
@@ -284,7 +284,7 @@ Multichar_Symbols
  +Der/xxx    !!= * @CODE@
  +Der/MWN   !!= * @CODE@ modifier without noun head
  +Der/Pr   !!= * @CODE@ this is used with predication of nominals and deverbal modalities
- 
+
 ! +Aud+PxSg1+Der/Pr+Prt1+ScSg3
 
 
@@ -296,11 +296,11 @@ Multichar_Symbols
  %{ая%}    !!= * @CODE@ in Pros
  %{оё%}    !!= * @CODE@ in +N+Sg+Nom+PxPl3
  %{рл%}	   !!= * @CODE@ +N+Sg+Nom+PxSg2
-			   
+
  %{аяуюØ%} !!= * @CODE@ хан+N+Sg+Acc+PxSg1: ханув, ханав
  %{увм%}   !!= * @CODE@ +N+Sg+Pros
  %{вм%}	   !!= * @CODE@ +N+Sg+Nom+PxSg1
- 
+
 !! And following triggers to control variation
  {front}   !!= * @CODE@
  {back}      !!= * @CODE@
@@ -311,9 +311,9 @@ Multichar_Symbols
 ! Protoletters for xfst
 
  %{ауоэØ%} !!= * @CODE@  А1:а А1:у А1:о А1:э schwa
- 
+
  %{ауоэиыØ%} !!= * @CODE@ before pros
- 
+
  !! This is the schwa or reduced vowel occurring after x in case endings
  ! -хА1на -хА1д
 
@@ -390,17 +390,17 @@ POSTPOSITION ;          !!= * @CODE@
 ! I INCLUDE SOME SMALL LEXICA HERE
 ! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
 
-LEXICON CONJUNCTION 
+LEXICON CONJUNCTION
 но CT ;
 нош CT ;
 
 LEXICON CT
 +CS: # ;
- 
-LEXICON SUBJUNCTION  
+
+LEXICON SUBJUNCTION
 +CS: # ;
 
-LEXICON INTERJECTION 
+LEXICON INTERJECTION
 # ;
 
 LEXICON POSTP_
@@ -417,15 +417,15 @@ LEXICON ORDINAL
 
 
 LEXICON POSTPOSITION
-#; 
+#;
 
 LEXICON CASESUF
-#; 
+#;
 LEXICON PRON
-#; 
+#;
 LEXICON DEM
-#; 
+#;
 LEXICON PERS
-#; 
+#;
 
 ! vim: set ft=xfst-lexc:
