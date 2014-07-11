@@ -16454,24 +16454,10 @@
 
       <stg>
         <st Contlex="A_ӇАНУ">ӈадибцо</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">hyvin näkyvä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">ӈадибцо</l>
-
-      <stg>
         <st Contlex="A_ӇАНУ">ӈадябцо</st>
+
+        <st Contlex="A_МЕРЁ">ӈадибцё</st>
       </stg>
     </lg>
 
@@ -16516,6 +16502,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">rikkinäinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈалеко</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">ӈалеко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">jättimäinen</t>
+
+        <tf pos="A">hirveän iso</tf>
       </tg>
     </mg>
   </e>
@@ -16701,7 +16707,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">raivoisa</t>
       </tg>
     </mg>
   </e>
@@ -16831,7 +16837,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">jossa ennen oli</t>
+        <t pos="A">sellainen jossa ennen oli</t>
       </tg>
     </mg>
   </e>
@@ -16878,10 +16884,64 @@
 
   <e>
     <lg>
+      <l pos="A">ӈоцько</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">ӈоцько</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pikku-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈояк</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ӈояк</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">harva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ӈумзэй</l>
 
       <stg>
         <st Contlex="A_ХУСУВЭЙ">ӈумзэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈыбкарˮ</l>
+
+      <stg>
+        <st Contlex="A_ВАР">ӈыбкар</st>
       </stg>
     </lg>
 
@@ -17045,11 +17105,33 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">aloitekyvytön</t>
+        <t pos="A">aloitekyvytön</t>
 
         <t pos="A">päättämätön</t>
 
         <t pos="A">epäröivä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈырк</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">ӈырк</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kuuliainen</t>
+
+        <t pos="A">tottelevainen</t>
+
+        <t pos="A">palvelevainen</t>
       </tg>
     </mg>
   </e>
