@@ -181954,6 +181954,28 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">ӈавориць</l>
+
+      <stg>
+        <st Contlex="TV_САС">ӈавори</st>
+
+        <st Contlex="TV_САС">ӈамгари</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="TV">omistaa paljon esineitä</t>
+
+        <t pos="V" val="TV">käyttää vieraita esineitä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">ӈаворць</l>
 
       <stg>
@@ -182012,6 +182034,8 @@
 
       <stg>
         <st Contlex="IV_ӇАРАМ">ӈавоцялам</st>
+
+        <st Contlex="IV_ӇАРАМ">ӈавуцялам</st>
       </stg>
     </lg>
 
@@ -182903,6 +182927,8 @@
 
       <stg>
         <st Contlex="VR_ХАДА">ӈамдада</st>
+
+        <st Contlex="VR_ХАДА">ӈамдэда</st>
       </stg>
     </lg>
 
@@ -182928,8 +182954,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">ruveta metsästämään riekkoja soitimen aikana hokutuslinnun
-        avulla</tf>
+        <tf pos="V">ruveta metsästämään riekkoja soitimen aikana
+        houkutuslinnun avulla</tf>
       </tg>
     </mg>
   </e>
@@ -182947,7 +182973,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">metsästää riekkoja soitimen aikana hokutuslinnun
+        <tf pos="V">metsästää riekkoja soitimen aikana houkutuslinnun
         avulla</tf>
       </tg>
     </mg>
@@ -182966,7 +182992,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">metsästää riekkoja soitimen aikana hokutuslinnun
+        <tf pos="V">metsästää riekkoja soitimen aikana houkutuslinnun
         avulla</tf>
       </tg>
     </mg>
@@ -183888,7 +183914,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ӈапарбтась</l>
+      <l pos="V" val="TV">ӈапрабтась</l>
 
       <stg>
         <st Contlex="TV_ХАДА">ӈапрабта</st>
@@ -184090,9 +184116,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">ӈармдась</l>
+      <l pos="V" val="IV">ӈармданась</l>
 
       <stg>
+        <st Contlex="IV_ЛАХАНА">ӈармдана</st>
+
         <st Contlex="IV_ЛАХАНА">ӈармда</st>
       </stg>
     </lg>
@@ -184344,6 +184372,26 @@
 
   <e>
     <lg>
+      <l pos="V" type="IV">ӈасыпкасясь</l>
+
+      <stg>
+        <st Contlex="IV_ЯˮАВЛУ">ӈасыпкася</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">ошибкася</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V" type="IV">olla virhetön</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">ӈасьдесь</l>
 
       <stg>
@@ -184479,7 +184527,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">olla silmäänpistävä upeudella</t>
+        <t pos="V" val="IV">olla lainaksi otettu</t>
       </tg>
     </mg>
   </e>
@@ -189058,7 +189106,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">olla suojallinen</tf>
+        <tf pos="V">rakentaa suojaa</tf>
       </tg>
     </mg>
   </e>
