@@ -16547,6 +16547,26 @@
 
   <e>
     <lg>
+      <l pos="N">няˮмъиˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">няˮмъи</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">kiinnioton hetki</tf>
+
+        <tf pos="N">sieppauksen hetki</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">няˮморцьʼ</l>
 
       <stg>
@@ -46586,6 +46606,24 @@
 
   <e>
     <lg>
+      <l pos="N">ӈавад</l>
+
+      <stg>
+        <st Contlex="N_ЕД">ӈавад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lantio</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ӈавалˮ</l>
 
       <stg>
@@ -48592,6 +48630,48 @@
 
   <e>
     <lg>
+      <l pos="N">ӈэбтеӈг</l>
+
+      <stg>
+        <st Contlex="N_ЕД">ӈэбтеӈг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">hius</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ӈэбтко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">ӈэбтко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">hius</t>
+
+        <t pos="N">hiuskarva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ӈэбтобэрцьʼ</l>
 
       <stg>
@@ -48806,6 +48886,28 @@
         <tf pos="N">miesten reki</tf>
 
         <t pos="N">nartta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ӈэданзи</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ">ӈэданзи</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">lover</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">rakastaja</t>
       </tg>
     </mg>
   </e>
@@ -49210,6 +49312,8 @@
 
       <stg>
         <st Contlex="N_ӇЭ">ӈэсы</st>
+
+        <st Contlex="N_ӇЭ">ӈысы</st>
       </stg>
     </lg>
 
@@ -49222,6 +49326,10 @@
 
       <tg xml:lang="fin">
         <t pos="N">kylä</t>
+
+        <t pos="N">pysähtymispaikka</t>
+
+        <t pos="N">leiri</t>
       </tg>
     </mg>
   </e>
