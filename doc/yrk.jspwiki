@@ -24,7 +24,7 @@ The parts-of-speech are:
  * +N	    
  * +A	    
  * +Adv    
- * +V	     						
+ * +V	    
 
  * +Pron   
  * +CS	    
@@ -52,7 +52,7 @@ The parts of speech are further split up into:
 
 Adv
  *  +Manner  
- *  +Refr   (referential), 
+ *  +Refr   (referential),
  *  +Temp 
 
 The Usage extents are marked using the following tags:
@@ -65,43 +65,43 @@ The Usage extents are marked using the following tags:
 
 Dialects
 
- *  +Dial/W    (Western dialects), 
- *  +Dial/T    (Taimyr dialect  ), 
- *  +Dial/E    (Eastern dialects), 
+ *  +Dial/W    (Western dialects),
+ *  +Dial/T    (Taimyr dialect  ),
+ *  +Dial/E    (Eastern dialects),
 
 
 The nominals are inflected in the following Case and Number
 
- *  +Sg     
- *  +Du     
- *  +Pl     
- *  +Acc    
- *  +Gen    (Genitive) 
- *  +Abl    
- *  +Dat    
- *  +Loc    
- *  +Nom    
- *  +Pros   (Prosecutive) 
- *  +Tra    
- *  +Abe    
- *  +Adc    
- *  +Ins    
- *  +Apr    
- *  +Ine    
- *  +Ill    
- *  +Ela    
- *  +Egr    
- *  +Prl    
+ *  +Sg    
+ *  +Du    
+ *  +Pl    
+ *  +Acc   
+ *  +Gen    (Genitive)
+ *  +Abl   
+ *  +Dat   
+ *  +Loc   
+ *  +Nom   
+ *  +Pros   (Prosecutive)
+ *  +Tra   
+ *  +Abe   
+ *  +Adc   
+ *  +Ins   
+ *  +Apr   
+ *  +Ine   
+ *  +Ill   
+ *  +Ela   
+ *  +Egr   
+ *  +Prl   
  *  +Pred	 = predestinative
 
 are these needed?:
 
- * +Appr    
- * +Advc    
- * +Ter     
- * +Pro     
- * +Car     
- * +Equ     
+ * +Appr   
+ * +Advc   
+ * +Ter    
+ * +Pro    
+ * +Car    
+ * +Equ    
 
 derivative suffixes before case endings
  * +Lim   limitative
@@ -191,25 +191,25 @@ Object
 
 Other verb forms are
 
- *  +InfImprf    
- *  +InfPrf      
- *  +PrcImprf    
- *  +PrcPrf      
- *  +PrcNeg      
- *  +PrcFut      
- *  +GerFin      
- *  +Subord      
- *  +Aud	      
- *  +Evas	      
- *  +Ger 	      
- *  +ConNeg      
- *  +ConNegII     
- *  +Neg 	      
- *  +ImprtII     
- *  +PrsPrc      
- *  +Sup 	      
- *  +VGen 	      
- *  +VAbess      
+ *  +InfImprf   
+ *  +InfPrf     
+ *  +PrcImprf   
+ *  +PrcPrf     
+ *  +PrcNeg     
+ *  +PrcFut     
+ *  +GerFin     
+ *  +Subord     
+ *  +Aud	     
+ *  +Evas	     
+ *  +Ger 	     
+ *  +ConNeg     
+ *  +ConNegII   
+ *  +Neg 	     
+ *  +ImprtII    
+ *  +PrsPrc     
+ *  +Sup 	     
+ *  +VGen 	     
+ *  +VAbess     
 
 Abbreviated words are classified with:
 
