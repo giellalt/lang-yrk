@@ -6203,6 +6203,26 @@
 
   <e>
     <lg>
+      <l pos="N">лабас</l>
+
+      <stg>
+        <st Contlex="N_ЕД">лабас</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">levy</t>
+
+        <t pos="N">lehti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">лабацьʼ</l>
 
       <stg>
@@ -17479,6 +17499,26 @@
 
   <e>
     <lg>
+      <l pos="N">нярморˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">нярмор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">punettuma</t>
+
+        <t pos="N">sikaruusu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">няроˮмэй</l>
 
       <stg>
@@ -17493,6 +17533,24 @@
         <tf pos="N">kuiva särkyvä ruoho</tf>
 
         <t pos="N">olki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">няртˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">нярт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">poikittainen istuin reessä</tf>
       </tg>
     </mg>
   </e>
