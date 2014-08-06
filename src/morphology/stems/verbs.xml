@@ -53852,7 +53852,7 @@
       <tg xml:lang="fin">
         <tf pos="V">muuttua risaiseksi</tf>
 
-        <t pos="V">rikkinäiseksi</t>
+        <tf pos="V">muuttua rikkinäiseksi</tf>
       </tg>
     </mg>
   </e>
@@ -54558,7 +54558,7 @@
       <l pos="V" val="TV">нэрцэдась</l>
 
       <stg>
-        <st Contlex="TV_ХАДА">нэрцеда</st>
+        <st Contlex="TV_ХАДА">нэрцэда</st>
       </stg>
     </lg>
 
@@ -54578,7 +54578,7 @@
       <l pos="V" type="VR">нэрцэдась</l>
 
       <stg>
-        <st Contlex="VR_ХАДА">нэрцеда</st>
+        <st Contlex="VR_ХАДА">нэрцэда</st>
       </stg>
     </lg>
 
@@ -55161,30 +55161,8 @@
         <t pos="V">aleta</t>
 
         <t pos="V">laskea</t>
-      </tg>
-    </mg>
-  </e>
 
-  <e>
-    <lg>
-      <l pos="V" val="IV">нюдиворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">нюдивор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
         <t pos="V">niukentua</t>
-
-        <t pos="V">niuketa</t>
-
-        <t pos="V">pienentyä</t>
-
-        <t pos="V">vähetä</t>
       </tg>
     </mg>
   </e>
@@ -183172,6 +183150,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">ӈавраӈга</st>
+
+        <st Contlex="IV_ЛАХАНА">ӈавоӈга</st>
       </stg>
     </lg>
 

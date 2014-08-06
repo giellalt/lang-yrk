@@ -5879,6 +5879,24 @@
 
   <e>
     <lg>
+      <l pos="N">квартира</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ-RUS">квартира</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">asunto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">килограмм</l>
 
       <stg>
@@ -16781,6 +16799,24 @@
 
       <tg xml:lang="fin">
         <tf pos="N">laho puu</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">нядˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">няд</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">rima reen istuimen alla</tf>
       </tg>
     </mg>
   </e>
@@ -28848,6 +28884,30 @@
 
   <e>
     <lg>
+      <l pos="N">сыранзэв</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">сыранзэв</st>
+
+        <st Contlex="N_ӇУДИ">сыра сэв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">snowflake</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">lumihiutale</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сырцьʼ</l>
 
       <stg>
@@ -30922,6 +30982,8 @@
 
       <stg>
         <st Contlex="N_ЕД">сяс</st>
+
+        <st Contlex="N_ЕД">час</st>
       </stg>
     </lg>
 
@@ -31826,6 +31888,24 @@
         <t pos="N">juomalasi</t>
 
         <t pos="N">lasi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">такси</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ">такси</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">taksi</t>
       </tg>
     </mg>
   </e>

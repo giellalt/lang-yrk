@@ -1005,6 +1005,8 @@
 
       <stg>
         <st Contlex="PersSg2">пыдар</st>
+
+        <st Contlex="PersSg2">пудар</st>
       </stg>
     </lg>
 
@@ -1029,6 +1031,8 @@
 
       <stg>
         <st Contlex="PersSg3">пыда</st>
+
+        <st Contlex="PersSg3">пуда</st>
       </stg>
     </lg>
 
@@ -1153,6 +1157,8 @@
 
       <stg>
         <st Contlex="PersDu2">пыдариʼ</st>
+
+        <st Contlex="PersDu2">пудариʼ</st>
       </stg>
     </lg>
 
@@ -1175,6 +1181,8 @@
 
       <stg>
         <st Contlex="PersDu3">пыдиʼ</st>
+
+        <st Contlex="PersDu3">пудиʼ</st>
       </stg>
     </lg>
 
@@ -1196,6 +1204,8 @@
       <l pos="Pron">хариˮ</l>
 
       <stg>
+        <st Contlex="PRON_">хариˮ</st>
+
         <st Contlex="PRON_">хареˮ</st>
       </stg>
     </lg>
@@ -1215,54 +1225,12 @@
 
   <e>
     <lg>
-      <l pos="Pron">хариˮ</l>
-
-      <stg>
-        <st Contlex="PRON_">хариˮ</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">own</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">oma</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Pron">хусавэй</l>
-
-      <stg>
-        <st Contlex="QNT_ХУСУВЭЙ">хусавэй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Pron">every</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Pron">joka</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="Qnt">хусувэй</l>
 
       <stg>
         <st Contlex="QNT_ХУСУВЭЙ">хусувэй</st>
+
+        <st Contlex="QNT_ХУСУВЭЙ">хусавэй</st>
       </stg>
     </lg>
 
