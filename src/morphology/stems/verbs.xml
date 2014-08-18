@@ -51713,7 +51713,7 @@
       <l pos="V" val="IV">никадась</l>
 
       <stg>
-        <st Contlex="IV_ИЛЕ">никада</st>
+        <st Contlex="IV_ХАДА">никада</st>
       </stg>
     </lg>
 
@@ -52921,7 +52921,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="VR">närkästyä</t>
+        <t pos="V" type="VR">alkaa närkästyä pikkuasiasta</t>
       </tg>
     </mg>
   </e>
@@ -54713,6 +54713,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">нэхэбтамба</st>
+
+        <st Contlex="TV_ПЭБЮ">ныхыбтамба</st>
       </stg>
     </lg>
 
@@ -55735,6 +55737,8 @@
 
       <stg>
         <st Contlex="TV_ИЛЕ">нюмде</st>
+
+        <st Contlex="TV_ИЛЕ">нимде</st>
       </stg>
     </lg>
 
@@ -63641,6 +63645,26 @@
 
       <tg xml:lang="fin">
         <tf pos="V">ajaa takaa</tf>
+
+        <t pos="V">seurata</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">нёдась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДА">нёда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">tehdä ovia</tf>
       </tg>
     </mg>
   </e>
@@ -121895,7 +121919,7 @@
       <l pos="V" type="VR">тапхалць</l>
 
       <stg>
-        <st Contlex="VR_ИЛЕ">тапхал</st>
+        <st Contlex="VR_ТИР">тапхал</st>
       </stg>
     </lg>
 
