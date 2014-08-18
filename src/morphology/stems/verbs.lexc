@@ -2663,7 +2663,7 @@ LEXICON verbs
 нидесь:ниде IV_ИЛЕ  "vallita" ;
 ниеˮлесь:ниеˮле TV_ИЛЕ  "tungeksia yhdellä paikalla" ;
 никабтась:никабта TV_ХАДА  "huoata" ;
-никадась:никада IV_ИЛЕ  "väsyä" ;
+никадась:никада IV_ХАДА  "väsyä" ;
 нимдарць:нимдар IV_ТИР  "kieltäytyä" ;
 нимнебась:нимнеба TV_ПЭБЮ  "imeä" ;
 нимнебась:нимнемба TV_ПЭБЮ  "imeä" ;
@@ -2728,7 +2728,7 @@ LEXICON verbs
 носкадамбась:носкадамба TV_ХАДА  "pyydystää harppuunalla" ;
 носкадась:носкада TV_ХАДА  "pyydystää harppuunalla" ;
 носкадаӈгось:носкадаӈго IV_СЯНАКУ  "pyydystää harppuunalla" ;
-носыдалась:носыдала VR_ЛАХАНА  "närkästyä" ;
+носыдалась:носыдала VR_ЛАХАНА  "alkaa närkästyä pikkuasiasta" ;
 носыдарць:носыдар IV_ТИР  "närkästyä pikkuasiasta" ;
 нотˮвэдёсь:нотˮвэдё IV_ВАДЮ  "kantaa saappaita pitkillä sukilla" ;
 нотамзь:нотам VR_ӇАРАМ  "suuttua pikkuasiasta" ;
@@ -2824,6 +2824,7 @@ LEXICON verbs
 нэхэбась:нэхэба TV_ПЭБЮ  "vetää esiin" ;
 нэхэбась:ныхыба TV_ПЭБЮ  "vetää esiin" ;
 нэхэбтамбась:нэхэбтамба TV_ПЭБЮ  "temmata" ;
+нэхэбтамбась:ныхыбтамба TV_ПЭБЮ  "temmata" ;
 нэхэбтась:нэхэбта TV_ХАДА  "temmata" ;
 нэхэдамбась:нэхэдамба TV_ПЭБЮ  "ottaa kiinni" ;
 нэхэдась:нэхэда TV_ХАДА  "ottaa kiinni" ;
@@ -2875,6 +2876,7 @@ LEXICON verbs
 нюмдерась:нюмдера IV_ЛАХАНА  "nimittää" ;
 нюмдерць:нюмдер TV_ТИР  "nimittää" ;
 нюмдесь:нюмде TV_ИЛЕ  "nimittää" ;
+нюмдесь:нимде TV_ИЛЕ  "nimittää" ;
 нюмдесь:нюмде VR_ИЛЕ  "saada nimi" ;
 нюмдеӈгась:нюмдеӈга IV_ЛАХАНА  "saada nimi" ;
 нюнабтэсь:нюнабтэ VR_ИЛЕ  "solkata" ;
@@ -3284,7 +3286,8 @@ LEXICON verbs
 нёдалтась:нёдалта TV_ХАДА  "saavuttaa" ;
 нёдалць:нёдал TV_ТИР  "alkaa seurata" ;
 нёдарамбась:нёдарамба TV_ПЭБЮ  "seurata" ;
-нёдась:нёда TV_ХАДА  "ajaa takaa" ;
+нёдась:нёда TV_ХАДА  "seurata" ;
+нёдась:нёда TV_ХАДА  "tehdä ovia" ;
 нёинзь:нёин IV_МИН  "pyydystää mateita" ;
 нёракуˮлась:нёракуˮла TV_ЛАХАНА  "lähteä ajamaan takaa" ;
 нёракуць:нёраку TV_САС  "ajaa takaa" ;
@@ -6332,7 +6335,7 @@ LEXICON verbs
 тапрорць:тапрор IV_ТИР  "potkia" ;
 тапхалпась:тапхалпа TV_ПЭБЮ  "potkia" ;
 тапхалць:тапхал TV_ТИР  "potkia" ;
-тапхалць:тапхал VR_ИЛЕ  "kompastua" ;
+тапхалць:тапхал VR_ТИР  "kompastua" ;
 тапъёрць:тапъёр IV_ТИР  "kompuroida" ;
 тарабтамбась:тарабтамба TV_ПЭБЮ  "hypittää" ;
 тарабтась:тарабта TV_ХАДА  "hypittää" ;
