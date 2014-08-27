@@ -6452,6 +6452,26 @@
 
   <e>
     <lg>
+      <l pos="A">нясяда</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">нясяда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">yksinäinen</t>
+
+        <t pos="A">ystävätön</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">няхарцавэй</l>
 
       <stg>
@@ -6464,6 +6484,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">likainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">няць</l>
+
+      <stg>
+        <st Contlex="A_ЕД">няць</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">trakoomasta kärsivä</tf>
       </tg>
     </mg>
   </e>
