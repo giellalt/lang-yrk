@@ -42882,7 +42882,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">tuntea tukahtusta</tf>
+        <tf pos="V">tuntea tukahdusta</tf>
       </tg>
     </mg>
 
@@ -42975,24 +42975,6 @@
 
       <tg xml:lang="fin">
         <t pos="V">heittäytyä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">моёцъ</l>
-
-      <stg>
-        <st Contlex="TV_САС">моё</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">heittää</t>
       </tg>
     </mg>
   </e>
@@ -44254,6 +44236,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">мылытамба</st>
+
+        <st Contlex="TV_ПЭБЮ">мыладамба</st>
       </stg>
     </lg>
 
@@ -44850,26 +44834,6 @@
         <tf pos="V">tehdä kauniiksi</tf>
 
         <tf pos="V">tehdä loistavaksi</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">мэдрась</l>
-
-      <stg>
-        <st Contlex="IV_ИЛЕ">мэдра</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">olla kaunis</tf>
-
-        <tf pos="V">olla loistava</tf>
       </tg>
     </mg>
   </e>
@@ -46290,9 +46254,13 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">мядолабтабась</l>
+      <l pos="V" val="TV">мядолабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">мядолабтамба</st>
+
+        <st Contlex="TV_ПЭБЮ">мядонлабтамба</st>
+
         <st Contlex="TV_ПЭБЮ">мядолабтаба</st>
       </stg>
     </lg>
@@ -47126,6 +47094,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">наˮворта</st>
+
+        <st Contlex="IV_ЛАХАНА">наворта</st>
       </stg>
     </lg>
 
@@ -47146,6 +47116,8 @@
 
       <stg>
         <st Contlex="VR_ТИР">наˮвор</st>
+
+        <st Contlex="VR_ТИР">навор</st>
       </stg>
     </lg>
 
@@ -48824,6 +48796,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">невхымдана</st>
+
+        <st Contlex="IV_ЛАХАНА">невхымда</st>
       </stg>
     </lg>
 
@@ -50136,9 +50110,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">нензхалабась</l>
+      <l pos="V" val="TV">нензхаламбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">нензхаламба</st>
+
         <st Contlex="TV_ПЭБЮ">нензхалаба</st>
       </stg>
     </lg>
@@ -50562,9 +50538,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">нермылабтабась</l>
+      <l pos="V" val="TV">нермылабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">нермылабтамба</st>
+
         <st Contlex="TV_ПЭБЮ">нермылабтаба</st>
       </stg>
     </lg>
@@ -50830,6 +50808,8 @@
 
       <stg>
         <st Contlex="IV_ПЭБЮ">нерцюмба</st>
+
+        <st Contlex="IV_ПЭБЮ">нерцимба</st>
       </stg>
     </lg>
 
@@ -54278,7 +54258,7 @@
       <l pos="V" val="IV">нэлкымзь</l>
 
       <stg>
-        <st Contlex="IV_ӇАРАМ">нелкым</st>
+        <st Contlex="IV_ӇАРАМ">нэлкым</st>
       </stg>
     </lg>
 
