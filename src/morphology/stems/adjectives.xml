@@ -4456,24 +4456,6 @@
 
   <e>
     <lg>
-      <l pos="A">мэхэй</l>
-
-      <stg>
-        <st Contlex="A_ЕД">мэхэй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="A">selkäranka lihan kanssa</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="A">мэцэй</l>
 
       <stg>
@@ -4498,6 +4480,34 @@
 
       <stg>
         <st Contlex="A_ӇАНУ">мэё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">luja</t>
+
+        <t pos="A">vahva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мэёд</l>
+
+      <stg>
+        <st Contlex="A_ЕД">мэёд</st>
       </stg>
     </lg>
 
@@ -4566,6 +4576,24 @@
 
   <e>
     <lg>
+      <l pos="A">мюний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">мюний</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">sisäinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">мякы</l>
 
       <stg>
@@ -4580,6 +4608,104 @@
         <t pos="A">kodan=</t>
 
         <t pos="A">koti=</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мялъяна</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">мялъяна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kaunis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мярабтав</l>
+
+      <stg>
+        <st Contlex="A_ЕД">мярабтав</st>
+
+        <st Contlex="A_ЕД">мярабтяв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">iso</t>
+
+        <t pos="A">laaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мярё</l>
+
+      <stg>
+        <st Contlex="A_МЕРЁ">мярё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">paperi=</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мярёй</l>
+
+      <stg>
+        <st Contlex="A_ЕД">мярёй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">paljas</t>
+
+        <t pos="A">kalju</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">мяˮеӈгад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">мяˮеӈгад</st>
+
+        <st Contlex="A_ЕД">мяеӈгад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">kodan lähellä oleva</tf>
       </tg>
     </mg>
   </e>
@@ -4666,6 +4792,24 @@
 
   <e>
     <lg>
+      <l pos="A">налнэрик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">налнэрик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">meluisa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">нарэй</l>
 
       <stg>
@@ -4704,6 +4848,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">keväinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">насадарта</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">насадарта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">liukas</t>
+
+        <t pos="A">luistava</t>
       </tg>
     </mg>
   </e>
@@ -12002,6 +12166,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">järvinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тора</l>
+
+      <stg>
+        <st Contlex="A_ХОБ">тора</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">matala</t>
+
+        <t pos="A">lyhyt</t>
       </tg>
     </mg>
   </e>
