@@ -990,13 +990,13 @@ LEXICON NMN_ӇАВО !!Provisional solution
 :мгэ POSSESSA-DUAL ;
 
 LEXICON N_Vow
-+TYÄ+N: K ;
++WORK+N: K ;
 
 !LEXICON N_ЕСЯ  >> N_ӇОДИ/ПИСЬ = 
 !+N: NMN_Vow ;
 
 LEXICON	    N_САВНЕ !!= @CODE@ 
-+TYÄ+N: K ;
++WORK+N: K ;
 
 !LEXICON	    N_СЁ  >> N_ӇЭ/СЁЁ/ХАБИЕ=
 !+N: NMN_Vow ;
@@ -1386,11 +1386,11 @@ LEXICON NMN_ТАСО
 +Nom: NOMINAL-CONJUGATION ;
 
 LEXICON N_Cons
-+TYÄ+N: SGNOMSUF ;
++WORK+N: SGNOMSUF ;
 
 LEXICON N_ConsO
 !вык:вык
-+TYÄ+N: SGNOMSUF ;
++WORK+N: SGNOMSUF ;
 
 
 LEXICON N_ВАР
@@ -1449,7 +1449,7 @@ LEXICON N_ТЭНО
 +N+Nom: NOMINAL-CONJUGATION ;
 
 LEXICON N-tojo
-+TYÄ+N: K ;
++WORK+N: K ;
 
 
 LEXICON N-xawo
