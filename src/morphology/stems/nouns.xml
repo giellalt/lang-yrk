@@ -10181,6 +10181,24 @@
 
   <e>
     <lg>
+      <l pos="N">марксист</l>
+
+      <stg>
+        <st Contlex="N_ЕД">марксист</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">marksisti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">марна</l>
 
       <stg>
@@ -10257,6 +10275,26 @@
 
   <e>
     <lg>
+      <l pos="N">марцьхы</l>
+
+      <stg>
+        <st Contlex="N_ПАНЫ">марцьхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">apulainen</t>
+
+        <t pos="N">varamies</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">марцёта</l>
 
       <stg>
@@ -10299,26 +10337,10 @@
 
       <stg>
         <st Contlex="N_ТАРЕ">масер</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="N">tupsu</t>
-
-        <tf pos="N">alhaalle ripustettava koriste</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">масерˮ</l>
-
-      <stg>
         <st Contlex="N_ТАРЕ">мэсяр</st>
+
+        <st Contlex="N_ТАРЕ">масяр</st>
       </stg>
     </lg>
 
@@ -10339,6 +10361,8 @@
 
       <stg>
         <st Contlex="N_ЁЛЬЦЕ">матабць</st>
+
+        <st Contlex="N_ЁЛЬЦЕ">матась</st>
       </stg>
     </lg>
 
@@ -10355,10 +10379,10 @@
 
   <e>
     <lg>
-      <l pos="N">матдомдаˮма</l>
+      <l pos="N">матасьʼ</l>
 
       <stg>
-        <st Contlex="N_ӇУДИ">матдамдаˮма</st>
+        <st Contlex="N_ЁЛЬЦЕ">матась</st>
       </stg>
     </lg>
 
@@ -10366,7 +10390,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">kuudesosa</t>
+        <tf pos="N">kuusivuotias poro</tf>
       </tg>
     </mg>
   </e>
@@ -10377,6 +10401,8 @@
 
       <stg>
         <st Contlex="N_ӇУДИ">матдомдаˮма</st>
+
+        <st Contlex="N_ӇУДИ">матдамдаˮма</st>
       </stg>
     </lg>
 
@@ -10507,6 +10533,24 @@
 
   <e>
     <lg>
+      <l pos="N">маток</l>
+
+      <stg>
+        <st Contlex="N_ЕД">маток</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">saippuapala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">матолава</l>
 
       <stg>
@@ -10539,6 +10583,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">leikkausväline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">маторава</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">маторава</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">leikkaus</t>
+
+        <t pos="N">leikkely</t>
+
+        <t pos="N">hakkuu</t>
+
+        <t pos="N">hakkaus</t>
+
+        <tf pos="N">puru vatsassa</tf>
       </tg>
     </mg>
   </e>
@@ -10858,7 +10928,29 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">mestari</t>
+        <t pos="N">uhri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">маяндорма</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">маяндорма</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kärsimys</t>
+
+        <t pos="N">piina</t>
+
+        <t pos="N">tauti</t>
       </tg>
     </mg>
   </e>
@@ -10967,6 +11059,25 @@
 
       <tg xml:lang="fin">
         <t pos="N">mestari</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">мемко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">мемко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">leikki jossa häviä se joka ensimmäisenä nauraa, puhuu tai
+        räpäyttää silmiään</tf>
       </tg>
     </mg>
   </e>

@@ -1921,7 +1921,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">naruksi sopiva</t>
+        <tf pos="A">naruksi sopiva</tf>
       </tg>
     </mg>
   </e>
@@ -3678,6 +3678,32 @@
 
   <e>
     <lg>
+      <l pos="A">мартхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">мартхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">maaliskuinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">марумбэй</l>
 
       <stg>
@@ -3692,6 +3718,52 @@
         <t pos="A">poljettu</t>
 
         <t pos="A">raivattu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">марцьхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">марцьхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">olka-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">марцёта</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">марцёта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">harteikas</t>
+
+        <t pos="A">leveäharteinen</t>
       </tg>
     </mg>
   </e>

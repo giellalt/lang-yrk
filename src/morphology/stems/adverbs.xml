@@ -1465,7 +1465,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">pikaisesti</t>
+        <t pos="Adv">pikapuolin</t>
+
+        <t pos="Adv">häthätää</t>
       </tg>
     </mg>
   </e>
@@ -1490,6 +1492,32 @@
         <t pos="Adv">pikaisesti</t>
 
         <t pos="Adv">yhtäkkiä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">мербяривна</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">мербяривна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kohta</t>
+
+        <t pos="Adv">piakkoin</t>
+
+        <t pos="Adv">pian</t>
       </tg>
     </mg>
   </e>
@@ -1813,7 +1841,7 @@
       <tg xml:lang="fin">
         <t pos="Adv">äänekkäästi</t>
 
-        <t pos="Adv"> kaikuen</t>
+        <t pos="Adv">kaikuen</t>
       </tg>
     </mg>
   </e>
@@ -3894,6 +3922,32 @@
 
   <e>
     <lg>
+      <l pos="Adv">сеняна</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">сеняна</st>
+
+        <st Contlex="ADV-LOC_">сеняняна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">earlier</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">aiemmin</t>
+
+        <t pos="Adv">ennen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">серевʼ</l>
 
       <stg>
@@ -3936,6 +3990,30 @@
         <t pos="Adv">vastaavasti</t>
 
         <t pos="Adv">mukaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">серциˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">серциˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">jouten</t>
+
+        <t pos="Adv">näet</t>
       </tg>
     </mg>
   </e>
