@@ -20,10 +20,10 @@
 Multichar_Symbols
 !! !!Analysis symbols
 ! ----------------
-!! The morphological analyses of wordforms of UNDEFINED language are presented
+!! The morphological analyses of wordforms of the TUNDRA NENETS language are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
-
++WORK  !!= * @CODE@ WORK HAS TO BE DONE Do not remove, replaces +TYÄ
 !! The parts-of-speech are:
 
 +N	    !!= * @CODE@
@@ -377,6 +377,8 @@ LEXICON Root
    quantifiers    ;	    !!= * @CODE@
    verbs   ;		    !!= * @CODE@
 
+
+   V_NEWWORDS ;		    !!= * @CODE@ This is for feeding new verbs.
 ! Acronym ;
 ! Abbreviation ;
  Punctuation ;          !!= * @CODE@
