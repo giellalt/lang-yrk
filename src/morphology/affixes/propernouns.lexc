@@ -7,6 +7,9 @@ LEXICON PROP_
 +WORK+N+Prop: K ; ! This will need to be elaborated to other noun types.
 
 !! !ONE-SYLLABLE VOWEL-FINAL STEM
+LEXICON PROP_ӇЭ
++N+Prop: NMN_ӇЭ ;
+
 LEXICON PROP_ӇЭ-Pal/Var
 +N+Prop:%^PalVariation NMN_ӇЭ ;
 
@@ -18,11 +21,26 @@ LEXICON PROP_ЕД
 LEXICON PROP_ӇУДИ
 +N+Prop: NMN_ӇУДИ ;
 
+LEXICON PROP_ӇОДИ
++N+Prop: NMN_ӇОДИ ;
+
 LEXICON PROP_ӇАНУ
 +N+Prop: NMN_ӇАНУ ;
 
 LEXICON PROP_МЕРЁ
 +N+Prop: NMN_ӇАНУ ;
+
+LEXICON PROP_ХОБ
++N+Prop: NMN_ХОБ ;
+
+LEXICON PROP_ВАР
++N+Prop: NMN_ВАР ;
+
+LEXICON PROP_ТАСО
++N+Prop: NMN_ТАСО ;
+
+LEXICON PROP_МЯДО
++N+Prop: NMN_МЯДО ;
 
 !! !THREE-SYLLABLE VOWEL-FINAL STEM
 LEXICON PROP_МАРАӇГЫ
