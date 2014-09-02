@@ -268,6 +268,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Лар</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Лар</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Lar (nenetseihin sulautunut hanttiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ледков</l>
 
       <stg>
@@ -340,6 +364,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Майко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Майко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Maiko (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Максим</l>
 
       <stg>
@@ -388,10 +436,10 @@
 
   <e>
     <lg>
-      <l pos="Prop">Марендия</l>
+      <l pos="Prop">Марендя</l>
 
       <stg>
-        <st Contlex="PROP_">Марендия</st>
+        <st Contlex="PROP_">Марендя</st>
       </stg>
     </lg>
 
@@ -530,6 +578,52 @@
 
   <e>
     <lg>
+      <l pos="Prop">Нейко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Нейко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Njeiko (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Неняӈг</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Неняӈг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Nenjank (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Пандо</l>
 
       <stg>
@@ -554,6 +648,78 @@
 
   <e>
     <lg>
+      <l pos="Prop">Пойко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Пойко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Poiko (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Пораӈгуй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Пораӈгуй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Porangui (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Пубта</l>
+
+      <stg>
+        <st Contlex="PROP_">Пубта</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Pubta (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Пырерка</l>
 
       <stg>
@@ -572,6 +738,78 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Pyrerka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Пэти</l>
+
+      <stg>
+        <st Contlex="PROP_">Пэти</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Petji (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Пюр</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Пюр</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Pur (joki)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Пяк</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Пяк</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Pjak (nenetsiheimo)</t>
       </tg>
     </mg>
   </e>
@@ -626,6 +864,126 @@
 
   <e>
     <lg>
+      <l pos="Prop">Салейко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Салейко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Saljeiko (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Саляко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Саляко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Saljako (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Саляндер</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Саляндер</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Saljander (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сандра</l>
+
+      <stg>
+        <st Contlex="PROP_">Сандра</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sandra (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сатане</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Сатане</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Satanje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Сибирь</l>
 
       <stg>
@@ -644,6 +1002,178 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Siperia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Собалёв</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Собалёв</st>
+
+        <st Contlex="PROP_ЕД">Соболев</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sobaljov (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сэродэта</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Сэродэта</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Serodeta (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сюнзи</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Сюнзи</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sjunzi (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сядэй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Сядэй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sjadej (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Табседа</l>
+
+      <stg>
+        <st Contlex="PROP_ХОБ">Табседа</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tabseda</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Талеёв</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Талеёв</st>
+
+        <st Contlex="PROP_ЕД">Талеев</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Taleev (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тане</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Тане</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tanje (naisennimi)</t>
       </tg>
     </mg>
   </e>
@@ -674,6 +1204,230 @@
 
   <e>
     <lg>
+      <l pos="Prop">Тибича</l>
+
+      <stg>
+        <st Contlex="PROP_">Тибича</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tibicha (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тохэˮ</l>
+
+      <stg>
+        <st Contlex="PROP_ТАСО">Тохэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tohhe (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тусяда</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Тусяда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tusjada (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тысъя</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ ">Тысъя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tisja (nenetsien heimo, nykyään Javtysei)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тэмяˮ</l>
+
+      <stg>
+        <st Contlex="PROP_МЯДО ">Тэмя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Temja (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тэсяда</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Тэсяда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tesjada (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тэхэбиˮ</l>
+
+      <stg>
+        <st Contlex="PROP_ТАСО">Тэхэби</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tehebji (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тярˮ</l>
+
+      <stg>
+        <st Contlex="PROP_ВАР">Тяр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tjar (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тёпас</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Тёпас</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tjopas (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тёр</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Тёр</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tjor (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Финляндия</l>
 
       <stg>
@@ -690,6 +1444,192 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Suomi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хабдё</l>
+
+      <stg>
+        <st Contlex="PROP_МЕРЁ">Хабдё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Habdjo (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хабуйко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Хабуйко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Habuiko (joki)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хавря</l>
+
+      <stg>
+        <st Contlex="PROP_">Хавря</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Havrja (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хадне</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Хадне</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Hadnje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Харюци</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Харюци</st>
+
+        <st Contlex="PROP_ӇЭ">Харючи</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Harjutsi (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хасевко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Хасевко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Hasjevko (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хатяко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Хатяко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Hatjako (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хэтанзи</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Хэтанзи</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Hetanzi (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>
@@ -742,10 +1682,108 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ябтане</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Ябтане</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jabtanje (naisenimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ябтик</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ябтик</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jabtik (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ябтоӈэ</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Ябтоӈэ</st>
+
+        <st Contlex="PROP_ӇЭ">Ябтонэ</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jabtonge (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Явоӈгад</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Явоӈгад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jaungad (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Явтысый</l>
 
       <stg>
         <st Contlex="PROP_ЕД">Явтысый</st>
+
+        <st Contlex="PROP_ӇОДИ">Явʼ тысъя</st>
       </stg>
 
       <stress/>
@@ -760,6 +1798,78 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Javtysyi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Як</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Як</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jaakko (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Якляко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Якляко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jakljako (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Яленко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Яленко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jalenko (miehennimi)</t>
       </tg>
     </mg>
   </e>
@@ -808,6 +1918,148 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Jamal</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Яндо</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Яндо</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jando (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ярˮ</l>
+
+      <stg>
+        <st Contlex="PROP_ВАР">Яр</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jar (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Яхаля</l>
+
+      <stg>
+        <st Contlex="PROP_ЯЛЭ">Яхаля</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jahalja (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Яхяне</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Яхяне</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jahanje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Яхаӈгасава</l>
+
+      <stg>
+        <st Contlex="PROP_ХАСЕВ">Яхаӈгасава</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jahangasava (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈэвасяда</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Ӈэвасяда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngevasjada (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>
