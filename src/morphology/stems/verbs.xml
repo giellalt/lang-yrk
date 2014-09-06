@@ -33631,6 +33631,26 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">мадарць</l>
+
+      <stg>
+        <st Contlex="TV_ТИР">мадар</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">teroittaa</t>
+
+        <t pos="V">kärjistää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" type="VR">мадарць</l>
 
       <stg>
@@ -33729,6 +33749,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">мадемба</st>
+
+        <st Contlex="TV_ПЭБЮ">маддеба</st>
       </stg>
     </lg>
 
@@ -35349,6 +35371,28 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">мальесь</l>
+
+      <stg>
+        <st Contlex="TV_ИЛЕ">малье</st>
+
+        <st Contlex="TV_ЛАХАНА">маля</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="TV">murtaa</t>
+
+        <t pos="V" val="TV">särkeä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="IV">мальциндорць</l>
 
       <stg>
@@ -35427,6 +35471,8 @@
 
       <stg>
         <st Contlex="IV_ӇЭСУ">мальё</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">маля</st>
       </stg>
     </lg>
 

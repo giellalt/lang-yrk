@@ -316,6 +316,38 @@
 
   <e>
     <lg>
+      <l pos="A">вархы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">вархы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">reunimmainen</t>
+
+        <t pos="A">laitimmainen</t>
+
+        <t pos="A">rannikko-</t>
+
+        <t pos="A">ranta-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">варцавэй</l>
 
       <stg>
@@ -920,6 +952,34 @@
 
   <e>
     <lg>
+      <l pos="A">вэтавы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">вэтавы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">jatkettu</t>
+
+        <t pos="A">pidennetty</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вэтруй</l>
 
       <stg>
@@ -931,7 +991,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">monesta osasta koostuva</t>
+        <tf pos="A">monesta osasta koostuva</tf>
       </tg>
     </mg>
   </e>
@@ -967,7 +1027,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">epäjärjestyksessä oleva</t>
+        <tf pos="A">epäjärjestyksessä oleva</tf>
 
         <t pos="A">sekasortoinen</t>
       </tg>
@@ -1159,7 +1219,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">läpinäkyväksi muuttunut</t>
+        <tf pos="A">läpinäkyväksi muuttunut</tf>
       </tg>
     </mg>
   </e>
@@ -1336,6 +1396,34 @@
 
   <e>
     <lg>
+      <l pos="A">еры</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">еры</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">keskimmäinen</t>
+
+        <t pos="A">keski-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">есавэй</l>
 
       <stg>
@@ -1368,6 +1456,32 @@
         <t pos="A">rahakas</t>
 
         <t pos="A">rahallinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">есӈгы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">есӈгы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="A">ansassa oleva</tf>
       </tg>
     </mg>
   </e>
@@ -1782,6 +1896,36 @@
 
   <e>
     <lg>
+      <l pos="A">илӈгы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">илӈгы</st>
+
+        <st Contlex="A_ПАНЫ">илхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">elämän-</t>
+
+        <t pos="A">nuori</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">инзелебцо</l>
 
       <stg>
@@ -1804,6 +1948,8 @@
 
       <stg>
         <st Contlex="A_ЕД">иняний</st>
+
+        <st Contlex="A_ПАНЫ">иняняӈгы</st>
       </stg>
     </lg>
 
@@ -1816,6 +1962,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">vasen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">иняхы</l>
+
+      <stg>
+        <st Contlex=" А_ПАНЫ">иняхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">narulla sidottu</tf>
       </tg>
     </mg>
   </e>
@@ -2048,6 +2212,26 @@
         <t pos="A">katkaistu</t>
 
         <t pos="A">murrettu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лабтахы</l>
+
+      <stg>
+        <st Contlex=" А_ПАНЫ">лабтахы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">tasankolla asuva</tf>
+
+        <tf pos="A">alamaalla oleva</tf>
       </tg>
     </mg>
   </e>
@@ -3068,6 +3252,26 @@
 
   <e>
     <lg>
+      <l pos="A">мадкое</l>
+
+      <stg>
+        <st Contlex="A_САВНЕ">мадкое</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">poloinen</t>
+
+        <t pos="A">kurja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">мадоркы</l>
 
       <stg>
@@ -3112,6 +3316,32 @@
         <t pos="A">rosoinen</t>
 
         <t pos="A">kuoppainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">майхы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">майхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">toukokuinen</t>
       </tg>
     </mg>
   </e>
@@ -3230,6 +3460,50 @@
         <t pos="A">katettu</t>
 
         <t pos="A">pilvinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">малсява</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">малсява</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">loputtomuus</t>
+
+        <t pos="A">rajattomuus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">малсяда</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">малсяда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">loputon</t>
+
+        <t pos="A">rajaton</t>
+
+        <t pos="A">alinomainen</t>
+
+        <t pos="A">kestävä</t>
       </tg>
     </mg>
   </e>
@@ -16566,6 +16840,32 @@
 
   <e>
     <lg>
+      <l pos="A">ёльцьӈгы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">ёльцьӈгы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">aikainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ёмбэй</l>
 
       <stg>
@@ -16636,6 +16936,32 @@
         <t pos="A">kadonnut</t>
 
         <t pos="A">kadottanut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ёркахы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">ёркахы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="A">puoliympyrän keskeellä oleva</tf>
       </tg>
     </mg>
   </e>

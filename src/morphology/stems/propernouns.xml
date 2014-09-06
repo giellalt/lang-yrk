@@ -174,6 +174,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Есӈгы</l>
+
+      <stg>
+        <st Contlex="PROP_ПАНЫ">Есӈгы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jesngy (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Иван</l>
 
       <stg>
@@ -436,6 +458,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Марако</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Марако</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Marako (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Марендя</l>
 
       <stg>
@@ -596,6 +642,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Njeiko (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Неко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Неко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Njeko (naisennimi)</t>
       </tg>
     </mg>
   </e>
