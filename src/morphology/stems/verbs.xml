@@ -30042,7 +30042,7 @@
       <tg xml:lang="fin">
         <tf pos="V">tehdä arpiseksi</tf>
 
-        <t pos="V">koloiseksi</t>
+        <t pos="V">tehdä koloiseksi</t>
       </tg>
     </mg>
   </e>
@@ -31206,31 +31206,11 @@
 
         <t pos="V">ohittaa</t>
 
+        <t pos="V">kulua</t>
+
         <t pos="V">sivuuttaa</t>
 
         <t pos="V">karsiutua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" type="IV">лэхэрась</l>
-
-      <stg>
-        <st Contlex="IV_ЛАХАНА">лэхэра</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="IV">ohittaa</t>
-
-        <t pos="V">kulua</t>
-
-        <t pos="V">syrjäytyä</t>
       </tg>
     </mg>
   </e>
@@ -31702,7 +31682,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="V">levätä mahallaan</tf>
+        <tf pos="V">kaatua mahalleen</tf>
       </tg>
     </mg>
   </e>

@@ -320,10 +320,34 @@
 
   <e>
     <lg>
+      <l pos="Interj">лыхы</l>
+
+      <stg>
+        <st Contlex="INTERJ_">лыхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>ha-ha</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>hah-hah</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Interj">ля-ля-ля</l>
 
       <stg>
         <st Contlex="INTERJ_">ля-ля-ля</st>
+
+        <st Contlex="INTERJ_">ляʼ ляʼ ляʼ</st>
       </stg>
     </lg>
 
@@ -335,7 +359,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t>koirien kutsuntahuuto</t>
       </tg>
     </mg>
   </e>
