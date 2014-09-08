@@ -2856,6 +2856,44 @@
 
   <e>
     <lg>
+      <l pos="A">лэдысяда</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">лэдысяда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">luurangoton</t>
+
+        <tf pos="A">selkärangaton</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лэкдана</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">лэкдана</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">laiska</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">лэкутэй</l>
 
       <stg>
@@ -2886,6 +2924,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">luinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лэмбарата</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">лэмбарата</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">leveärintainen</t>
+
+        <tf pos="A">rinnalla kantava</tf>
       </tg>
     </mg>
   </e>
@@ -2932,6 +2990,48 @@
 
   <e>
     <lg>
+      <l pos="A">лэрад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">лэрад</st>
+
+        <st Contlex="A_ЕД">лэрукад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">säikky</t>
+
+        <t pos="A">pelokas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лэри</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">лэри</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">laiha</t>
+
+        <t pos="A">luiseva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">лэрёй</l>
 
       <stg>
@@ -2946,26 +3046,6 @@
         <t pos="A">pelokas</t>
 
         <t pos="A">arka</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">лэрад</l>
-
-      <stg>
-        <st Contlex="A_ЕД">лэрад</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">säikky</t>
-
-        <t pos="A">pelokas</t>
       </tg>
     </mg>
   </e>
@@ -3044,6 +3124,24 @@
     </mg>
 
     <!-- !П91 -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лябта</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">лябта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">leveä ja matala</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -3460,26 +3558,6 @@
         <t pos="A">katettu</t>
 
         <t pos="A">pilvinen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">малсява</l>
-
-      <stg>
-        <st Contlex="A_ӇУДИ">малсява</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">loputtomuus</t>
-
-        <t pos="A">rajattomuus</t>
       </tg>
     </mg>
   </e>
