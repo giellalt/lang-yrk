@@ -23,148 +23,148 @@ Multichar_Symbols
 !! The morphological analyses of wordforms of the TUNDRA NENETS language are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
-+WORK  !!= * @CODE@ WORK HAS TO BE DONE Do not remove, replaces +TYÄ
++WORK  !!≈ * __@CODE@__ WORK HAS TO BE DONE Do not remove, replaces +TYÄ
 !! The parts-of-speech are:
 
-+N	    !!= * @CODE@
-+A	    !!= * @CODE@
-+Adv    !!= * @CODE@
-+V	    !!= * @CODE@
++N	    !!≈ * __@CODE@__
++A	    !!≈ * __@CODE@__
++Adv    !!≈ * __@CODE@__
++V	    !!≈ * __@CODE@__
 
-+Pron   !!= * @CODE@
-+CS	    !!= * @CODE@
-+CC	    !!= * @CODE@
-+Adp    !!= * @CODE@
-+Po	    !!= * @CODE@
-+Pr	    !!= * @CODE@
-+Interj !!= * @CODE@
-+Pcle   !!= * @CODE@
-+Num    !!= * @CODE@
++Pron   !!≈ * __@CODE@__
++CS	    !!≈ * __@CODE@__
++CC	    !!≈ * __@CODE@__
++Adp    !!≈ * __@CODE@__
++Po	    !!≈ * __@CODE@__
++Pr	    !!≈ * __@CODE@__
++Interj !!≈ * __@CODE@__
++Pcle   !!≈ * __@CODE@__
++Num    !!≈ * __@CODE@__
 
 
 
 !! The parts of speech are further split up into:
 
-+Prop    !!= * @CODE@
-+Pers    !!= * @CODE@
-+Dem     !!= * @CODE@
-+Interr  !!= * @CODE@
-+Refl    !!= * @CODE@
-+Recipr  !!= * @CODE@
-+Rel     !!= * @CODE@
-+Indef   !!= * @CODE@
++Prop    !!≈ * __@CODE@__
++Pers    !!≈ * __@CODE@__
++Dem     !!≈ * __@CODE@__
++Interr  !!≈ * __@CODE@__
++Refl    !!≈ * __@CODE@__
++Recipr  !!≈ * __@CODE@__
++Rel     !!≈ * __@CODE@__
++Indef   !!≈ * __@CODE@__
 
 
 !! Adv
- +Manner  !!= * @CODE@
- +Refr  !!= * @CODE@ (referential),
- +Temp !!= * @CODE@
+ +Manner  !!≈ * __@CODE@__
+ +Refr  !!≈ * __@CODE@__ (referential),
+ +Temp !!≈ * __@CODE@__
 
 !! The Usage extents are marked using the following tags:
- +Err/Sub     !!= * @CODE@
- +Use/-Spell   !!= * @CODE@
- +Use/SpellNoSugg  !!= * @CODE@ recognized but not suggested in speller
+ +Err/Sub     !!≈ * __@CODE@__
+ +Use/-Spell   !!≈ * __@CODE@__
+ +Use/SpellNoSugg  !!≈ * __@CODE@__ recognized but not suggested in speller
 
- +Rus !!= * @CODE@ (100% Russian homograph)
+ +Rus !!≈ * __@CODE@__ (100% Russian homograph)
 
 
 !! Dialects
 
- +Dial/W   !!= * @CODE@ (Western dialects),
- +Dial/T   !!= * @CODE@ (Taimyr dialect  ),
- +Dial/E   !!= * @CODE@ (Eastern dialects),
+ +Dial/W   !!≈ * __@CODE@__ (Western dialects),
+ +Dial/T   !!≈ * __@CODE@__ (Taimyr dialect  ),
+ +Dial/E   !!≈ * __@CODE@__ (Eastern dialects),
 
 
 !! The nominals are inflected in the following Case and Number
 
- +Sg    !!= * @CODE@
- +Du    !!= * @CODE@
- +Pl    !!= * @CODE@
- +Acc   !!= * @CODE@
- +Gen   !!= * @CODE@ (Genitive)
- +Abl   !!= * @CODE@
- +Dat   !!= * @CODE@
- +Loc   !!= * @CODE@
- +Nom   !!= * @CODE@
- +Pros  !!= * @CODE@ (Prosecutive)
- +Tra   !!= * @CODE@
- +Abe   !!= * @CODE@
- +Adc   !!= * @CODE@
- +Ins   !!= * @CODE@
- +Apr   !!= * @CODE@
- +Ine   !!= * @CODE@
- +Ill   !!= * @CODE@
- +Ela   !!= * @CODE@
- +Egr   !!= * @CODE@
- +Prl   !!= * @CODE@
- +Pred	!!= * @CODE@ = predestinative
+ +Sg    !!≈ * __@CODE@__
+ +Du    !!≈ * __@CODE@__
+ +Pl    !!≈ * __@CODE@__
+ +Acc   !!≈ * __@CODE@__
+ +Gen   !!≈ * __@CODE@__ (Genitive)
+ +Abl   !!≈ * __@CODE@__
+ +Dat   !!≈ * __@CODE@__
+ +Loc   !!≈ * __@CODE@__
+ +Nom   !!≈ * __@CODE@__
+ +Pros  !!≈ * __@CODE@__ (Prosecutive)
+ +Tra   !!≈ * __@CODE@__
+ +Abe   !!≈ * __@CODE@__
+ +Adc   !!≈ * __@CODE@__
+ +Ins   !!≈ * __@CODE@__
+ +Apr   !!≈ * __@CODE@__
+ +Ine   !!≈ * __@CODE@__
+ +Ill   !!≈ * __@CODE@__
+ +Ela   !!≈ * __@CODE@__
+ +Egr   !!≈ * __@CODE@__
+ +Prl   !!≈ * __@CODE@__
+ +Pred	!!≈ * __@CODE@__ = predestinative
 
 !! are these needed?:
 
-+Appr   !!= * @CODE@
-+Advc   !!= * @CODE@
-+Ter    !!= * @CODE@
-+Pro    !!= * @CODE@
-+Car    !!= * @CODE@
-+Equ    !!= * @CODE@
++Appr   !!≈ * __@CODE@__
++Advc   !!≈ * __@CODE@__
++Ter    !!≈ * __@CODE@__
++Pro    !!≈ * __@CODE@__
++Car    !!≈ * __@CODE@__
++Equ    !!≈ * __@CODE@__
 
 !! derivative suffixes before case endings
-+Lim  !!= * @CODE@ limitative
++Lim  !!≈ * __@CODE@__ limitative
 
 
 !! The possession is marked as such:
 
 
-+PxSg1 !!= * @CODE@
-+PxSg2 !!= * @CODE@
-+PxSg3 !!= * @CODE@
-+PxDu1 !!= * @CODE@
-+PxDu2 !!= * @CODE@
-+PxDu3 !!= * @CODE@
-+PxPl1 !!= * @CODE@
-+PxPl2 !!= * @CODE@
-+PxPl3 !!= * @CODE@
++PxSg1 !!≈ * __@CODE@__
++PxSg2 !!≈ * __@CODE@__
++PxSg3 !!≈ * __@CODE@__
++PxDu1 !!≈ * __@CODE@__
++PxDu2 !!≈ * __@CODE@__
++PxDu3 !!≈ * __@CODE@__
++PxPl1 !!≈ * __@CODE@__
++PxPl2 !!≈ * __@CODE@__
++PxPl3 !!≈ * __@CODE@__
 
 !! The comparative forms are:
-+Pos    !!= * @CODE@
-+Comp   !!= * @CODE@
-+Superl !!= * @CODE@
++Pos    !!≈ * __@CODE@__
++Comp   !!≈ * __@CODE@__
++Superl !!≈ * __@CODE@__
 
 !! Numerals are classified under:
 
-+Attr  !!= * @CODE@
-+Card  !!= * @CODE@
-+Ord   !!= * @CODE@
++Attr  !!≈ * __@CODE@__
++Card  !!≈ * __@CODE@__
++Ord   !!≈ * __@CODE@__
 
 !! Verb moods are:
 
-+Ind    !!= * @CODE@
-+Pot    !!= * @CODE@
-+Conj   !!= * @CODE@
-+Imprt  !!= * @CODE@
-+Opt    !!= * @CODE@
-+Hort   !!= * @CODE@
-+Mod/appr  !!= * @CODE@ approximative imperfective
-+Mod/des  !!= * @CODE@ desiderative
-+Mod/futappr  !!= * @CODE@ approximative futuritive
-+Mod/hyp  !!= * @CODE@ hyperprobablitative
-+Mod/int  !!= * @CODE@ interrogative
-+Mod/narr  !!= * @CODE@ narrative
-+Mod/nec  !!= * @CODE@ necessitativee
-+Mod/obl  !!= * @CODE@ obligative
-+Mod/rep  !!= * @CODE@ reputative
-+Mod/sup  !!= * @CODE@ superprobabilitative
-+Mod/perfappr  !!= * @CODE@ approximative perfective
-+Mod/perfprob  !!= * @CODE@ perfective probabilitative
-+Mod/prob  !!= * @CODE@ imperfective probabilitative
++Ind    !!≈ * __@CODE@__
++Pot    !!≈ * __@CODE@__
++Conj   !!≈ * __@CODE@__
++Imprt  !!≈ * __@CODE@__
++Opt    !!≈ * __@CODE@__
++Hort   !!≈ * __@CODE@__
++Mod/appr  !!≈ * __@CODE@__ approximative imperfective
++Mod/des  !!≈ * __@CODE@__ desiderative
++Mod/futappr  !!≈ * __@CODE@__ approximative futuritive
++Mod/hyp  !!≈ * __@CODE@__ hyperprobablitative
++Mod/int  !!≈ * __@CODE@__ interrogative
++Mod/narr  !!≈ * __@CODE@__ narrative
++Mod/nec  !!≈ * __@CODE@__ necessitativee
++Mod/obl  !!≈ * __@CODE@__ obligative
++Mod/rep  !!≈ * __@CODE@__ reputative
++Mod/sup  !!≈ * __@CODE@__ superprobabilitative
++Mod/perfappr  !!≈ * __@CODE@__ approximative perfective
++Mod/perfprob  !!≈ * __@CODE@__ perfective probabilitative
++Mod/prob  !!≈ * __@CODE@__ imperfective probabilitative
 
 
 !! Verb tenses are:
 
-+Aor   !!= * @CODE@
-+Prt   !!= * @CODE@
-+Prt1  !!= * @CODE@
-+Prt2  !!= * @CODE@
++Aor   !!≈ * __@CODE@__
++Prt   !!≈ * __@CODE@__
++Prt1  !!≈ * __@CODE@__
++Prt2  !!≈ * __@CODE@__
 
 !! Verb personal forms are:
 
@@ -172,118 +172,118 @@ Multichar_Symbols
 
 !! One of the two following
 
-+Sg1  !!= * @CODE@
-+Sg2  !!= * @CODE@
-+Sg3  !!= * @CODE@
-+Pl1  !!= * @CODE@
-+Pl2  !!= * @CODE@
-+Pl3  !!= * @CODE@
++Sg1  !!≈ * __@CODE@__
++Sg2  !!≈ * __@CODE@__
++Sg3  !!≈ * __@CODE@__
++Pl1  !!≈ * __@CODE@__
++Pl2  !!≈ * __@CODE@__
++Pl3  !!≈ * __@CODE@__
 
-+ScSg1  !!= * @CODE@
-+ScSg2  !!= * @CODE@
-+ScSg3  !!= * @CODE@
-+ScDu1  !!= * @CODE@
-+ScDu2  !!= * @CODE@
-+ScDu3  !!= * @CODE@
-+ScPl1  !!= * @CODE@
-+ScPl2  !!= * @CODE@
-+ScPl3  !!= * @CODE@
++ScSg1  !!≈ * __@CODE@__
++ScSg2  !!≈ * __@CODE@__
++ScSg3  !!≈ * __@CODE@__
++ScDu1  !!≈ * __@CODE@__
++ScDu2  !!≈ * __@CODE@__
++ScDu3  !!≈ * __@CODE@__
++ScPl1  !!≈ * __@CODE@__
++ScPl2  !!≈ * __@CODE@__
++ScPl3  !!≈ * __@CODE@__
 
 !! Object
-+OcSg3  !!= * @CODE@
-+OcDu3  !!= * @CODE@
-+OcPl3  !!= * @CODE@
++OcSg3  !!≈ * __@CODE@__
++OcDu3  !!≈ * __@CODE@__
++OcPl3  !!≈ * __@CODE@__
 
 !! Other verb forms are
 
- +InfImprf   !!= * @CODE@
- +InfPrf     !!= * @CODE@
- +PrcImprf   !!= * @CODE@
- +PrcPrf     !!= * @CODE@
- +PrcNeg     !!= * @CODE@
- +PrcFut     !!= * @CODE@
- +GerFin     !!= * @CODE@
- +Subord     !!= * @CODE@
- +Aud	     !!= * @CODE@
- +Evas	     !!= * @CODE@
- +Ger 	     !!= * @CODE@
- +ConNeg     !!= * @CODE@
- +ConNegII   !!= * @CODE@
- +Neg 	     !!= * @CODE@
- +ImprtII    !!= * @CODE@
- +PrsPrc     !!= * @CODE@
- +Sup 	     !!= * @CODE@
- +VGen 	     !!= * @CODE@
- +VAbess     !!= * @CODE@
+ +InfImprf   !!≈ * __@CODE@__
+ +InfPrf     !!≈ * __@CODE@__
+ +PrcImprf   !!≈ * __@CODE@__
+ +PrcPrf     !!≈ * __@CODE@__
+ +PrcNeg     !!≈ * __@CODE@__
+ +PrcFut     !!≈ * __@CODE@__
+ +GerFin     !!≈ * __@CODE@__
+ +Subord     !!≈ * __@CODE@__
+ +Aud	     !!≈ * __@CODE@__
+ +Evas	     !!≈ * __@CODE@__
+ +Ger 	     !!≈ * __@CODE@__
+ +ConNeg     !!≈ * __@CODE@__
+ +ConNegII   !!≈ * __@CODE@__
+ +Neg 	     !!≈ * __@CODE@__
+ +ImprtII    !!≈ * __@CODE@__
+ +PrsPrc     !!≈ * __@CODE@__
+ +Sup 	     !!≈ * __@CODE@__
+ +VGen 	     !!≈ * __@CODE@__
+ +VAbess     !!≈ * __@CODE@__
 
 !! Abbreviated words are classified with:
 
- +ABBR  !!= * @CODE@
- +ACR  !!= * @CODE@
+ +ABBR  !!≈ * __@CODE@__
+ +ACR  !!≈ * __@CODE@__
 
 !! Special symbols are classified with:
 
-+CLB   !!= * @CODE@
-+PUNCT !!= * @CODE@
-+LEFT  !!= * @CODE@
-+RIGHT   !!= * @CODE@
++CLB   !!≈ * __@CODE@__
++PUNCT !!≈ * __@CODE@__
++LEFT  !!≈ * __@CODE@__
++RIGHT   !!≈ * __@CODE@__
 
 !! The verbs are syntactically split according to transitivity:
 
- +TV   !!= * @CODE@
- +IV  !!= * @CODE@
+ +TV   !!≈ * __@CODE@__
+ +IV  !!≈ * __@CODE@__
 
- +Aux  !!= * @CODE@ auxilliary verb
+ +Aux  !!≈ * __@CODE@__ auxilliary verb
 
  !+ VR >> Refl ! reflexive verbs
 
 
 !! Special multiword units are analysed with:
 
- +Multi  !!= * @CODE@
+ +Multi  !!≈ * __@CODE@__
 
 !! Non-dictionary words can be recognised with:
 
- +Guess  !!= * @CODE@
+ +Guess  !!≈ * __@CODE@__
 
 !! Question and Focus particles:
 
- +Qst  !!= * @CODE@
- +Foc  !!= * @CODE@
+ +Qst  !!≈ * __@CODE@__
+ +Foc  !!≈ * __@CODE@__
 
 
 !! Semantics are classified with
 
- +Mal 	  !!= * @CODE@
- +Fem 	  !!= * @CODE@
- +Sur 	  !!= * @CODE@
- +Plc 	  !!= * @CODE@
- +Org	  !!= * @CODE@
- +Obj	  !!= * @CODE@
- +Ani	  !!= * @CODE@
- +Hum	  !!= * @CODE@
- +Plant	  !!= * @CODE@
- +Group	  !!= * @CODE@
- +Time 	  !!= * @CODE@
- +Txt	  !!= * @CODE@
- +Route	  !!= * @CODE@
- +Measr   !!= * @CODE@
- +Wthr	  !!= * @CODE@
- +Build   !!= * @CODE@
- +Edu	  !!= * @CODE@
- +Veh	  !!= * @CODE@
- +Clth	  !!= * @CODE@
+ +Sem/Mal 	  !!≈ * __@CODE@__
+ +Sem/Fem 	  !!≈ * __@CODE@__
+ +Sem/Sur 	  !!≈ * __@CODE@__
+ +Sem/Plc 	  !!≈ * __@CODE@__
+ +Sem/Org	  !!≈ * __@CODE@__
+ +Sem/Obj	  !!≈ * __@CODE@__
+ +Sem/Ani	  !!≈ * __@CODE@__
+ +Sem/Hum	  !!≈ * __@CODE@__
+ +Sem/Plant	  !!≈ * __@CODE@__
+ +Sem/Group	  !!≈ * __@CODE@__
+ +Sem/Time 	  !!≈ * __@CODE@__
+ +Sem/Txt	  !!≈ * __@CODE@__
+ +Sem/Route	  !!≈ * __@CODE@__
+ +Sem/Measr   !!≈ * __@CODE@__
+ +Sem/Wthr	  !!≈ * __@CODE@__
+ +Sem/Build   !!≈ * __@CODE@__
+ +Sem/Edu	  !!≈ * __@CODE@__
+ +Sem/Veh	  !!≈ * __@CODE@__
+ +Sem/Clth	  !!≈ * __@CODE@__
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
 
-+V→N   !!= * @CODE@
-+V→V    !!= * @CODE@
-+V→A    !!= * @CODE@
- +Der/xxx    !!= * @CODE@
- +Der/MWN   !!= * @CODE@ modifier without noun head
- +Der/Pr   !!= * @CODE@ this is used with predication of nominals and deverbal modalities
++V→N   !!≈ * __@CODE@__
++V→V    !!≈ * __@CODE@__
++V→A    !!≈ * __@CODE@__
+ +Der/xxx    !!≈ * __@CODE@__
+ +Der/MWN   !!≈ * __@CODE@__ modifier without noun head
+ +Der/Pr   !!≈ * __@CODE@__ this is used with predication of nominals and deverbal modalities
 
 ! +Aud+PxSg1+Der/Pr+Prt1+ScSg3
 
@@ -293,71 +293,71 @@ Multichar_Symbols
 
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{ая%}    !!= * @CODE@ in Pros
- %{оё%}    !!= * @CODE@ in +N+Sg+Nom+PxPl3
- %{рл%}	   !!= * @CODE@ +N+Sg+Nom+PxSg2
+ %{ая%}    !!≈ * __@CODE@__ in Pros
+ %{оё%}    !!≈ * __@CODE@__ in +N+Sg+Nom+PxPl3
+ %{рл%}	   !!≈ * __@CODE@__ +N+Sg+Nom+PxSg2
 
- %{аяуюØ%} !!= * @CODE@ хан+N+Sg+Acc+PxSg1: ханув, ханав
- %{увм%}   !!= * @CODE@ +N+Sg+Pros
- %{вм%}	   !!= * @CODE@ +N+Sg+Nom+PxSg1
+ %{аяуюØ%} !!≈ * __@CODE@__ хан+N+Sg+Acc+PxSg1: ханув, ханав
+ %{увм%}   !!≈ * __@CODE@__ +N+Sg+Pros
+ %{вм%}	   !!≈ * __@CODE@__ +N+Sg+Nom+PxSg1
 
 !! And following triggers to control variation
- {front}   !!= * @CODE@
- {back}      !!= * @CODE@
- %^SCSG2    !!= * @CODE@ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- %^PLNOM    !!= * @CODE@ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
- %^PalVariation !!= * @CODE@ This allows for тарД1%>д%{оё%}нзь
+ {front}   !!≈ * __@CODE@__
+ {back}      !!≈ * __@CODE@__
+ %^SCSG2    !!≈ * __@CODE@__ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ %^PLNOM    !!≈ * __@CODE@__ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ %^PalVariation !!≈ * __@CODE@__ This allows for тарД1%>д%{оё%}нзь
 
 ! Protoletters for xfst
 
- %{ауоэØ%} !!= * @CODE@  А1:а А1:у А1:о А1:э schwa
+ %{ауоэØ%} !!≈ * __@CODE@__  А1:а А1:у А1:о А1:э schwa
 
- %{ауоэиыØ%} !!= * @CODE@ before pros
+ %{ауоэиыØ%} !!≈ * __@CODE@__ before pros
 
  !! This is the schwa or reduced vowel occurring after x in case endings
  ! -хА1на -хА1д
 
-А2  !!= * @CODE@ Alternating between zero and а
+А2  !!≈ * __@CODE@__ Alternating between zero and а
 
-Д1   !!= * @CODE@
-С1   !!= * @CODE@
-Н1   !!= * @CODE@
-Ӈ1        !!= * @CODE@ = These are proto-glottals
+Д1   !!≈ * __@CODE@__
+С1   !!≈ * __@CODE@__
+Н1   !!≈ * __@CODE@__
+Ӈ1        !!≈ * __@CODE@__ = These are proto-glottals
 
-Г1   !!= * @CODE@
-В1   !!= * @CODE@
-Е1   !!= * @CODE@
-Е2   !!= * @CODE@
-Ы1   !!= * @CODE@
-Ы2  !!= @CODE@ = These are for developing underlying morphology rules
+Г1   !!≈ * __@CODE@__
+В1   !!≈ * __@CODE@__
+Е1   !!≈ * __@CODE@__
+Е2   !!≈ * __@CODE@__
+Ы1   !!≈ * __@CODE@__
+Ы2  !!≈ * __@CODE@__ = These are for developing underlying morphology rules
 
 !! !!Triggers
 
- %^A2O  !!= * @CODE@ Initially this is used for the noun "я" to enable a:o
- %^A2I  !!= * @CODE@ for я:и in пя
- %^MLenition !!= * @CODE@ м:в м:б
- %^VowLower !!= * @CODE@ vowel lowering ы:э у:о
- %^VowRaise !!= * @CODE@ э:ы о:у
- %^VowLoss  !!= * @CODE@ stem-final vowel is lost in plural accusative form
- %^StemVowFronting !!= * @CODE@ хасава:хасев
- %^VowFronting !!= * @CODE@ хадась:хадэйнинзь
- %^PalLoss  !!= * @CODE@ in combination with stem-final vowel loss
- %^HardFronting  !!= * @CODE@ яля:ялэ
+ %^A2O  !!≈ * __@CODE@__ Initially this is used for the noun "я" to enable a:o
+ %^A2I  !!≈ * __@CODE@__ for я:и in пя
+ %^MLenition !!≈ * __@CODE@__ м:в м:б
+ %^VowLower !!≈ * __@CODE@__ vowel lowering ы:э у:о
+ %^VowRaise !!≈ * __@CODE@__ э:ы о:у
+ %^VowLoss  !!≈ * __@CODE@__ stem-final vowel is lost in plural accusative form
+ %^StemVowFronting !!≈ * __@CODE@__ хасава:хасев
+ %^VowFronting !!≈ * __@CODE@__ хадась:хадэйнинзь
+ %^PalLoss  !!≈ * __@CODE@__ in combination with stem-final vowel loss
+ %^HardFronting  !!≈ * __@CODE@__ яля:ялэ
 %-
 %>
 
 !! We have manually optimised the structure of our lexicon using the following
 !! flag diacritics to restrict morhpological combinatorics:
 
-@P.NeedNoun.ON@   !!= * @CODE@
-@D.NeedNoun.ON@   !!= * @CODE@
-@C.NeedNoun@    !!= * @CODE@
+@P.NeedNoun.ON@   !!≈ * __@CODE@__
+@D.NeedNoun.ON@   !!≈ * __@CODE@__
+@C.NeedNoun@    !!≈ * __@CODE@__
 
 !! Object conjugation
 
-@P.CONJ.ObjAll@   !!= * @CODE@
-@R.CONJ.ObjAll@   !!= * @CODE@
-@C.CONJ@	      !!= * @CODE@
+@P.CONJ.ObjAll@   !!≈ * __@CODE@__
+@R.CONJ.ObjAll@   !!≈ * __@CODE@__
+@C.CONJ@	      !!≈ * __@CODE@__
 
 
 !! !!!The __Root__ lexicon
@@ -367,26 +367,26 @@ LEXICON Root
 !! The word forms in Nenets start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 
-   adjectives  ;	    !!= * @CODE@
-   adpositions    ;	    !!= * @CODE@
-   adverbs  ;		    !!= * @CODE@
-   interjections   ;    !!= * @CODE@
-   nouns   ;		    !!= * @CODE@
-   pronouns    ;	    !!= * @CODE@
-   propernouns    ;	    !!= * @CODE@
-   quantifiers    ;	    !!= * @CODE@
-   verbs   ;		    !!= * @CODE@
+   adjectives  ;	    !!≈ * __@CODE@__
+   adpositions    ;	    !!≈ * __@CODE@__
+   adverbs  ;		    !!≈ * __@CODE@__
+   interjections   ;    !!≈ * __@CODE@__
+   nouns   ;		    !!≈ * __@CODE@__
+   pronouns    ;	    !!≈ * __@CODE@__
+   propernouns    ;	    !!≈ * __@CODE@__
+   quantifiers    ;	    !!≈ * __@CODE@__
+   verbs   ;		    !!≈ * __@CODE@__
 
 
-   V_NEWWORDS ;		    !!= * @CODE@ This is for feeding new verbs.
+   V_NEWWORDS ;		    !!≈ * __@CODE@__ This is for feeding new verbs.
 ! Acronym ;
 ! Abbreviation ;
- Punctuation ;          !!= * @CODE@
-			            !!= * @CODE@
-CONJUNCTION ;           !!= * @CODE@
-SUBJUNCTION ;           !!= * @CODE@
-INTERJECTION ;          !!= * @CODE@
-POSTPOSITION ;          !!= * @CODE@
+ Punctuation ;          !!≈ * __@CODE@__
+
+CONJUNCTION ;           !!≈ * __@CODE@__
+SUBJUNCTION ;           !!≈ * __@CODE@__
+INTERJECTION ;          !!≈ * __@CODE@__
+POSTPOSITION ;          !!≈ * __@CODE@__
 
 
 ! I INCLUDE SOME SMALL LEXICA HERE
