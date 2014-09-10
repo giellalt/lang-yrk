@@ -2,23 +2,23 @@
 !! ---------------
 !! Nenets quantifiers ...
 
-LEXICON NUM_МЯДО
+LEXICON NUM_МЯДО !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_МЯДО ;
 
-LEXICON NUM_ВАР
+LEXICON NUM_ВАР !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ВАР ;
 
-LEXICON NUM_ӇУДИ
+LEXICON NUM_ӇУДИ !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ӇУДИ ;
 
-LEXICON NUM_ӇОДИ
+LEXICON NUM_ӇОДИ !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ӇОДИ ;
 
-LEXICON NUM_ТАРЕ
+LEXICON NUM_ТАРЕ !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТАРЕ ;
 
@@ -26,33 +26,33 @@ LEXICON NUM_ЕД !!= @CODE@ ед: 13
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ЕД ;
 
-LEXICON NUM_ЕД/ТИРЕ
+LEXICON NUM_ЕД/ТИРЕ !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ЕД/ТИРЕ ;
 
-LEXICON NUM_ЕД/ХАНО
+LEXICON NUM_ЕД/ХАНО !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ЕД/ХАНО ;
 
-LEXICON NUM_ӇОДИ/ТЁН
+LEXICON NUM_ӇОДИ/ТЁН !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: N_ӇОДИ/ТЁН ;
 
-LEXICON NUM_ТИРЕ/ХАНО
+LEXICON NUM_ТИРЕ/ХАНО !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ТИРЕ/ХАНО ;
 
-LEXICON NUM_ХУСУВЭЙ
+LEXICON NUM_ХУСУВЭЙ !!≈ * __@CODE@__
 +Qnt+Num+Adn: K ;
 +Qnt+Num+Der/MWN: NMN_ХУСУВЭЙ ;
 
-LEXICON QNT_ХУСУВЭЙ
+LEXICON QNT_ХУСУВЭЙ !!≈ * __@CODE@__
 +Qnt+Adn: K ;
 +Qnt+Der/MWN+N: NMN_ХУСУВЭЙ ;
 
 !! we need to get away from these: NUM_VOW and NUM_CONS
 !! it's done
-!!LEXICON NUM_VOW
+!!LEXICON NUM_VOW 
 !!+Qnt+Adn: K ;
 !!+Qnt+Der/MWN: N_Vow ;
 !!
