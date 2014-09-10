@@ -287,6 +287,20 @@ LEXICON N_ХОБ  !!= @CODE@ хоба:хоба 19 ProsSg -вна
 +N:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 +N: POSSESSA-DUAL ;
 
+LEXICON NMN_ХОБ  !!= @CODE@ хоба:хоба 19 ProsSg -вна
+!! Yaml: __xob__
+!! /total=25/
+!! хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
+ SGDATSUF ;
+ SG-ACC-STEM ;
+ SG-NOM-STEM ;
+ SGPROSSUF ;
+ PLNOMSUF ;
+ PLACCSUF_Minus ;
+ POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-DUAL ;
+
+
 LEXICON N_ӇУДИ/ХОБ
 !!
 +N: SGDATSUF ;
