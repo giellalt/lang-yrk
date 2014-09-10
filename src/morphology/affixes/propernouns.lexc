@@ -18,6 +18,9 @@ LEXICON PROP_ЕД
 +N+Prop: NMN_ЕД ;
 
 !! !TWO-SYLLABLE CONSONANT-FINAL STEM
+LEXICON PROP_ПАНЫ  !!= @CODE@ пӑны:пӑны 9
++N+Prop: NMN_ПАНЫ ;
+
 LEXICON PROP_ӇУДИ
 +N+Prop: NMN_ӇУДИ ;
 
@@ -30,6 +33,16 @@ LEXICON PROP_ӇАНУ
 LEXICON PROP_МЕРЁ
 +N+Prop: NMN_ӇАНУ ;
 
+LEXICON PROP_ЯЛЭ  !!= @CODE@ яля: 18 ProsSg -вна
+!! /total=2/
+!! яля yalya    ялян’ yalyan°h  яля” yalyaq     ялэ yale
++N+Prop: SGDATSUF ;
++N+Prop: SG-ACC-STEM ;
++N+Prop:  SG-NOM-STEM ;
++N+Prop: SGPROSSUF ;
++N+Prop: PLNOMSUF ;
++N+Prop:%^HardFronting PLACCSUF_Zero ;
+
 LEXICON PROP_ХОБ
 +N+Prop: NMN_ХОБ ;
 
@@ -41,6 +54,19 @@ LEXICON PROP_ТАСО
 
 LEXICON PROP_МЯДО
 +N+Prop: NMN_МЯДО ;
+
+LEXICON PROP_ХАСЕВ  !!= @CODE@ хасава: 22 ProsSg -вна
+!! /total=1/
+!! хасава xasawa        хасаван’ xasawan°h      хасава” xasawaq хасев xasyew°
++N+Prop: SGDATSUF ;
++N+Prop: SG-ACC-STEM ;
++N+Prop:  SG-NOM-STEM ;
++N+Prop: SGPROSSUF ;
++N+Prop: PLNOMSUF ;
++N+Prop:%^StemVowFronting PLACCSUF_Minus ;
++N+Prop:   POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N+Prop: POSSESSA-DUAL ;
+
 
 !! !THREE-SYLLABLE VOWEL-FINAL STEM
 LEXICON PROP_МАРАӇГЫ
