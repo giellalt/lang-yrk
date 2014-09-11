@@ -2602,6 +2602,26 @@
 
   <e>
     <lg>
+      <l pos="A">ливарˮ</l>
+
+      <stg>
+        <st Contlex="A_ВАР">ливар</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pörröinen</t>
+
+        <t pos="A">karvainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ливарпэй</l>
 
       <stg>
@@ -2616,6 +2636,44 @@
         <t pos="A">pörröinen</t>
 
         <t pos="A">karvainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лидряв</l>
+
+      <stg>
+        <st Contlex="A_ЕД">лидряв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pyöreä</t>
+
+        <t pos="A">litteä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лимбада</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">лимбада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">lämmin</t>
       </tg>
     </mg>
   </e>
@@ -2700,6 +2758,26 @@
 
   <e>
     <lg>
+      <l pos="A">лоӈгряв</l>
+
+      <stg>
+        <st Contlex="A_ЕД">лоӈгряв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kupera</t>
+
+        <t pos="A">pallomainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">лус</l>
 
       <stg>
@@ -2712,6 +2790,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">kiero</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">лусабтяв</l>
+
+      <stg>
+        <st Contlex="A_ЕД">лусабтяв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">käyrä</t>
+
+        <t pos="A">koukku-</t>
       </tg>
     </mg>
   </e>
@@ -3139,7 +3237,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A">leveä ja matala</t>
+        <tf pos="A">leveä ja matala</tf>
       </tg>
     </mg>
   </e>
@@ -12896,6 +12994,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">tuleton</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тутна</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">тутна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">seuraava</t>
+
+        <t pos="A">tuleva</t>
       </tg>
     </mg>
   </e>
