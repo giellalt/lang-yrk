@@ -101,7 +101,9 @@ LEXICON nouns
 ватлан:ватлан N_ЕД  "ämpäri" ;
 вато:вато N_ӇАНУ  "lupaus" ;
 ваторабцо:ваторабцо N_ӇАНУ  "lupaus" ;
-вачко:вачко N_ӇАНУ-RUS  "piste" ;
+вачко:вачко N_ӇАНУ  "piste" ;
+вачко:хачко N_ӇАНУ  "piste" ;
+вачко:очко N_ӇАНУ-RUS  "piste" ;
 ваӈг:ваӈг N_ЕД/ХАНО  "kolo" ;
 ваӈга:ваӈга N_ӇУДИ  "lahdelma" ;
 ваӈгды:ваӈгды N_ПАНЫ  "maho porolehmä" ;
@@ -362,6 +364,7 @@ LEXICON nouns
 ламбитаˮма:ламбитаˮма N_ӇУДИ  "suksenjälki" ;
 ламбяха:ламбяха N_МАРАӇГЫ  "nahka ja liha eläimen poskilta" ;
 ламдуй:ламдуй N_ЕД  "mustikka" ;
+лампа:лампа N_МАРАӇГЫ-RUS  "lamppu" ;
 ландарˮ:ландар N_ВАР  "hyytelömäinen massa" ;
 ланзьдоˮма:ланзьдоˮма N_ӇУДИ  "ruumiinvamma" ;
 ланзьдобэй:ланзьдобэй N_ХУСУВЭЙ  "vammainen" ;
@@ -383,15 +386,21 @@ LEXICON nouns
 лаӈг:лаӈг N_ХАНО  "jyrkänne" ;
 лаӈгаˮма:лаӈгаˮма N_ӇУДИ  "reunassa oleva paikka" ;
 лаӈгхалˮ:лаӈгхал N_ВАР  "joukko" ;
+леварˮ:левар N_МЯДО  "vajoaman paikka" ;
 ледак:ледак N_ЕД  "hyytelö" ;
+ледак:ледар N_ВАР  "hyytelö" ;
 лека:лека N_МАРАӇГЫ  "sorkkatauti" ;
 лекарˮ:лекар N_ВАР  "lääkäri" ;
+лекарˮ:лекар N_ЕД  "lääkäri" ;
 лекарцо:лекарцо N_ӇАНУ  "lääke" ;
+лекарцо:лекарцё N_МЕРЁ  "lääke" ;
+лекарцо:лекарса N_ӇУДИ  "lääke" ;
 лекарцё:лекарцё N_МЕРЁ  "lääke" ;
 лекэхэй:лекэхэй N_ЕД/ХУСУВЭЙ  "särö" ;
 лекэхэй:лекахэй N_ЕД/ХУСУВЭЙ  "särö" ;
 лембтя:лембтя N_ӇОДИ  "sormus" ;
 лембя:лембя N_ТЁН  "lautanen" ;
+лембя:лебя N_ТЁН  "lautanen" ;
 лембяк:лембяк N_ЕД  "pieni lapa" ;
 ленарˮ:ленар N_ВАР  "viileys" ;
 лененя:лененя N_ӇОДИ  "silmäkulma" ;
@@ -399,8 +408,10 @@ LEXICON nouns
 лесак:лесак N_ЕД  "metsänpeikko" ;
 леска:леска N_МАРАӇГЫ  "rieska" ;
 лехэбтаˮма:лехэбтаˮма N_ӇУДИ  "päällyste" ;
+либако:либако N_ӇАНУ  "emaloitu teepannu" ;
 либко:либко N_ӇАНУ  "tuuheakarvainen koira" ;
 либорˮ:либор N_ВАР  "liehureuna" ;
+либтˮ:либт N_ИДЕ/МЯДО  "turkissukka" ;
 либярабцо:либярабцо N_ӇАНУ  "perhonen" ;
 лив:лив N_ЕД  "pehmeä lumi syksyllä" ;
 ливарцьʼ:ливарць N_ЁЛЬЦЕ  "parrakas mies" ;
@@ -413,6 +424,7 @@ LEXICON nouns
 литра:литра N_ӇУДИ  "litra" ;
 локы:локы N_ПАНЫ  "tylppäpäinen nuoli" ;
 локы:лукы N_ПАНЫ  "tylppäpäinen nuoli" ;
+лолоко:лолоко N_ӇАНУ  "poron sarviin kiinnitettävä puu- tai metallikello" ;
 лорца:лорца N_ХОБ  "kumpu" ;
 лорцак:лорцак N_ЕД  "mätäs" ;
 лорцэ:лорцэ N_ЯКЫ  "kahlaaja" ;
@@ -421,6 +433,9 @@ LEXICON nouns
 лохо:лохо N_ӇАНУ  "nurkka" ;
 лохорта:лохорта N_ӇУДИ  "lähde" ;
 лоӈг:лоӈг N_ХАНО  "paksunema" ;
+лоӈгали:лоӈгали N_ӇЭ  "sarvenpätkä" ;
+лоӈгарˮ:лоӈгар N_ВАР  "pöhöttymä" ;
+лоӈгоко:лоӈгоко N_ӇАНУ  "pyöreä metallinappi" ;
 лоӈгэй:лоӈгэй N_ХУСУВЭЙ  "pyöreä metallinappi" ;
 лук:лук N_ХАНО  "metso" ;
 лулко:лулко N_ӇАНУ  "lumpio" ;
@@ -439,6 +454,7 @@ LEXICON nouns
 лыва:лыва N_ХОБ  "kapea ja syvä puro" ;
 лыды:лыды N_ПАНЫ  "selkäranka" ;
 лымбад:лымбад N_ЕД  "suo" ;
+лынзеко:лынзеко N_ӇАНУ  "piiloleikki" ;
 лынзелава:лынзелава N_ӇУДИ  "piileskelypaikka" ;
 лынзермя:лынзермя N_ӇОДИ  "juolukka" ;
 лыӈг:лыӈг N_ХАНО  "pakopaikka" ;
@@ -466,6 +482,7 @@ LEXICON nouns
 лэӈгорˮ:лэӈгор N_ВАР  "lumipilvi" ;
 лэё:лэё N_МЕРЁ  "liekki" ;
 люси:люси N_ӇЭ  "perna" ;
+люси:лисю N_ӇЭ  "perna" ;
 ляб:ляб N_ЕД/ХАНО  "pieni kodan malli" ;
 лябт:лябт N_ЕД  "sileäkorvainen koira" ;
 лябту:лябту N_ӇАНУ  "usein kompastuva poro" ;
@@ -477,6 +494,7 @@ LEXICON nouns
 лярць:лярць N_ЕД  "hammasratas" ;
 лярь:лярь N_ЕД  "ruokareki" ;
 ляхабтаˮма:ляхабтаˮма N_ӇУДИ  "kiila" ;
+лёдсей:лёдсей N_ХУСУВЭЙ  "kuoppa" ;
 лёхонзэй:лёхонзэй N_ЕД/ХУСУВЭЙ  "leveäsarvinen poro" ;
 лёхосэй:лёхосэй N_ЕД/ХУСУВЭЙ  "leveäsarvinen poro" ;
 ма:ма N_ӇЭ  "vasara" ;
@@ -632,6 +650,7 @@ LEXICON nouns
 мея:мея N_ПИСЬ  "miniä" ;
 меӈга:меӈга N_ХОБ  "koste" ;
 милиц:милиц N_ЕД  "miliisi" ;
+мима:мима N_ӇУДИ  "kulkeminen" ;
 мин:мин N_ЕД  "kulku" ;
 минарцьʼ:минарць N_ЁЛЬЦЕ  "kantopaarit" ;
 миндя:минда N_ӇОДИ  "menijä" ;
@@ -2170,6 +2189,7 @@ LEXICON nouns
 ханпета:ханпета N_ӇУДИ  "karkki" ;
 ханырˮ:ханыр N_ВАР  "työn alku" ;
 ханьʼ:хань N_ЁЛЬЦЕ  "kuura" ;
+ханьˮ:хань N_ИДЕ/МЯДО  "yöhalla" ;
 ханьзяре:ханьзяре N_САВНЕ  "vanne" ;
 ханьрё:ханьрё N_МЕРЁ  "hirnuminen" ;
 ханё:ханё N_МЕРЁ  "saalistusväline" ;
@@ -2211,6 +2231,7 @@ LEXICON nouns
 хасо:хасо N_ӇАНУ  "šamaanin palkkio" ;
 хасрё:хасрё N_МЕРЁ  "suostunut järvi" ;
 хасё:хасё N_МЕРЁ  "mies" ;
+хато:хато N_ӇАНУ  "matala paikka isossa vesistössä" ;
 хаце:хаце N_САВНЕ  "häkä" ;
 хаял:хаял N_ЕД  "kyynel" ;
 хаёбцод:хаёбцод N_ЕД  "se, jolla jäädään" ;
@@ -2225,7 +2246,9 @@ LEXICON nouns
 хоˮниʼ:хоˮни N_ВЫӇО  "tanko kojassa makodan vieressä" ;
 хоба:хоба N_ХОБ  "turkki" ;
 хоба:хоба N_ӇУДИ/ХОБ  "kehto" ;
+хобако:хобако N_ӇАНУ  "kuori" ;
 хобанорˮ:хобанор N_ВАР  "ulkonäkö" ;
+хоборко:хоборко N_ӇАНУ  "hippaa muistuttava leikki" ;
 хобцо:хобцо N_ӇАНУ  "arvoitus" ;
 хобцоко:хобцоко N_ӇАНУ  "arvoitus" ;
 ходомбабцо:ходомбабцо N_ӇАНУ  "yskä" ;
@@ -2279,6 +2302,7 @@ LEXICON nouns
 хулы:хулы N_ӇЭ  "korppi" ;
 хульня:хульня N_ӇОДИ  "porahtelun ääni" ;
 хумб:хумб N_ЕД  "kohoama" ;
+хумдеко:хумдеко N_ӇАНУ  "kuvioton saapas" ;
 хумка:хумка N_МАРАӇГЫ  "kuppi" ;
 хун:хун N_ЕД  "pituus" ;
 хунˮма:хунˮма N_ӇУДИ  "pako" ;
@@ -2293,12 +2317,15 @@ LEXICON nouns
 хуры:хуры N_ӇЭ  "ruuhi" ;
 хурыраха:хурыраха N_МАРАӇГЫ  "ruuhi" ;
 хуряв:хуряв N_ЕД  "tunturikihu" ;
+хурявко:хурявко N_ӇАНУ  "nauhalla yhdisetyt kaksi palmikkoa jota leskinaiset kantavat" ;
 хурёда:хурёда N_ӇУДИ  "korkea reentyyppi" ;
 хурёда:хурёда N_ӇУДИ  "leppäkerttu" ;
+хурёхо:хурёхо N_ӇАНУ  "tunturikihu" ;
 хуса:хуса N_ӇУДИ  "taikina" ;
 хусна:хусна N_ӇУДИ  "helske" ;
 хусо:хусо N_ӇАНУ  "šamanoimalla hädän syyn selvittäminen" ;
 хутий:хутий N_ЕД  "käki" ;
+хутийко:хутийко N_ӇАНУ  "korkea ruoho" ;
 хутрё:хутрё N_МЕРЁ  "jyske" ;
 хуты:хуты N_ӇЭ  "saapas" ;
 хутька:хутька N_МАРАӇГЫ  "käpy" ;
@@ -2342,6 +2369,7 @@ LEXICON nouns
 хэндлёй:хэндлёй N_ЕД  "vinopinta" ;
 хэрна:хэрна N_ӇУДИ  "kirskuna" ;
 хэтанзи:хэтанзи N_ӇЭ  "pitkäkoipinen vaalea hämähäkki" ;
+хэтанзи:хэто N_ӇАНУ  "pitkäkoipinen vaalea hämähäkki" ;
 хэтнана:хэтнана N_ӇУДИ  "kertoja" ;
 хэтырˮ:хэтыр N_ВАР  "ääntäminen" ;
 хэхэ:хэхэ N_ХАНО  "idoli" ;
@@ -2485,6 +2513,7 @@ LEXICON nouns
 ямзярˮ:ямзяр N_ВАР  "kylmän takia kyyhöttävä ihminen" ;
 ямкад:ямкад N_ЕД  "pieni nahka" ;
 январь:январь N_ЕД-RUS  "tammikuu" ;
+яндˮ:янд N_ИДЕ/МЯДО  "vuori" ;
 яндава:яндава N_ӇУДИ  "puusta keittokuppi" ;
 яндо:яндо N_ӇАНУ  "pohjoinen paimenkoira" ;
 яну:яну N_ӇЭ  "moukari" ;

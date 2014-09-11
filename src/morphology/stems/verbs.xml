@@ -29473,6 +29473,8 @@
 
       <stg>
         <st Contlex="VR_ӇАРАМ">лыбцам</st>
+
+        <st Contlex="VR_ӇАРАМ">лубцам</st>
       </stg>
     </lg>
 
@@ -31562,25 +31564,11 @@
       <l pos="V" val="IV">люсимбась</l>
 
       <stg>
-        <st Contlex="IV_ПЭБЮ">лисюмба</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <tf pos="V">kärsiä pernakivusta</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">люсимбась</l>
-
-      <stg>
         <st Contlex="IV_ПЭБЮ">люсимба</st>
+
+        <st Contlex="IV_ПЭБЮ">лисюмба</st>
+
+        <st Contlex="IV_ПЭБЮ">лисёмба</st>
       </stg>
     </lg>
 
@@ -199488,6 +199476,10 @@
         <t pos="V" val="IV">kolahdella</t>
 
         <t pos="V" val="IV">kaikua (itkusta)</t>
+
+        <t pos="V" val="IV">soida</t>
+
+        <t pos="V" val="IV">helistä</t>
       </tg>
     </mg>
   </e>
@@ -199506,6 +199498,8 @@
 
       <tg xml:lang="fin">
         <t pos="V">kolahtaa</t>
+
+        <t pos="V">soida</t>
       </tg>
     </mg>
   </e>
