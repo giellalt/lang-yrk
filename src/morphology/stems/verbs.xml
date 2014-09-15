@@ -23606,6 +23606,8 @@
 
       <stg>
         <st Contlex="IV_ТИР">лаˮамдярцялвор</st>
+
+        <st Contlex="IV_ТИР">лаˮмадицялвор</st>
       </stg>
     </lg>
 
@@ -23638,24 +23640,6 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">лаˮмадарцялворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">лаˮмадарцялвор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV"/>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" val="IV">лаˮмадицяламзь</l>
 
       <stg>
@@ -23668,24 +23652,6 @@
 
       <tg xml:lang="fin">
         <tf pos="V">muuttua kärsimättömäksi</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">лаˮмадицялворць</l>
-
-      <stg>
-        <st Contlex="IV_ТИР">лаˮмадицялвор</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV"/>
       </tg>
     </mg>
   </e>
@@ -27062,6 +27028,8 @@
       <l pos="V" type="IV">ланомзь</l>
 
       <stg>
+        <st Contlex="IV_ӇАРАМ">ланом</st>
+
         <st Contlex="IV_ӇАРАМ">лаˮнум</st>
       </stg>
     </lg>
@@ -27083,56 +27051,12 @@
 
   <e>
     <lg>
-      <l pos="V" type="IV">ланомзь</l>
-
-      <stg>
-        <st Contlex="IV_ӇАРАМ">ланом</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" type="IV">tyyntyä</t>
-
-        <t pos="V">raueta</t>
-
-        <t pos="V">laantua</t>
-
-        <t pos="V">hidastua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">ланомлась</l>
-
-      <stg>
-        <st Contlex="TV_ХАДА">ланомда</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">hidastaa</t>
-
-        <t pos="V">keskeyttää</t>
-
-        <t pos="V">katkaista</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" val="TV">ланомлась</l>
 
       <stg>
         <st Contlex="TV_ХАДА">ланомла</st>
+
+        <st Contlex="TV_ХАДА">ланомда</st>
       </stg>
     </lg>
 
@@ -27312,7 +27236,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">laajentua, tulvia</t>
+        <t pos="V" val="IV">laajentua</t>
+
+        <t pos="V" val="IV">tulvia</t>
       </tg>
     </mg>
   </e>
@@ -27354,7 +27280,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="VR">laajentua, tulvia, nousta</t>
+        <t pos="V" type="VR">laajentua</t>
+
+        <t pos="V" type="VR">tulvia</t>
+
+        <t pos="V" type="VR">nousta</t>
       </tg>
     </mg>
   </e>
@@ -28376,7 +28306,7 @@
       <tg xml:lang="fin">
         <tf pos="V">tulla tiheäksi</tf>
 
-        <t pos="V">tuuheaksi</t>
+        <t pos="V">tulla tuuheaksi</t>
       </tg>
     </mg>
   </e>

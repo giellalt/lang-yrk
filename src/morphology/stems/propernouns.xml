@@ -290,6 +290,54 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ламбэй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ламбэй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Lambei (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ламбяха</l>
+
+      <stg>
+        <st Contlex="PROP_МАРАӇГЫ">Ламбяха</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Lambjaha (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Лар</l>
 
       <stg>
@@ -1678,6 +1726,32 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Hadnje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Халяко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Халяко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Haljako (naisennimi)</t>
+
+        <t pos="Prop">Galina</t>
       </tg>
     </mg>
   </e>
