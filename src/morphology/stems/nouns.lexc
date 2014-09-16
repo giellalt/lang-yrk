@@ -250,6 +250,7 @@ LEXICON nouns
 завод:завод N_ЕД-RUS  "tehdas" ;
 завод:савод N_ЕД-RUS  "tehdas" ;
 закон:закон N_ЕД-RUS  "laki" ;
+закон:сакон N_ЕД  "laki" ;
 запад:запад N_ЕД-RUS  "länsi" ;
 заявления:заявления N_ӇОДИ-RUS  "ilmoitus" ;
 заявления:саявлени N_ӇЭ-RUS  "ilmoitus" ;
@@ -345,6 +346,7 @@ LEXICON nouns
 лаб:лаб N_ЕД  "lainehtimisen ääni" ;
 лабˮна:лабˮна N_ӇУДИ  "jyske" ;
 лабˮна:ламна N_ӇУДИ  "jyske" ;
+лабадяв:лабадяв N_ЕД  "jyrkänne" ;
 лабак:лабак N_ЕД  "suikale" ;
 лабараˮма:лабараˮма N_ӇУДИ  "vieremäpaikka" ;
 лабас:лабас N_ЕД  "levy" ;
@@ -1406,6 +1408,7 @@ LEXICON nouns
 пярня:пярня N_ӇОДИ  "huonosti koulutettojen porojen hengityksen ääni" ;
 пясик:пясик N_ЕД  "haka" ;
 пясэй:пясэй N_ЕД/ХУСУВЭЙ  "osuus" ;
+пясяˮ:пяся N_МЯДО  "laituri" ;
 пят:пят N_ЕД  "läähätys" ;
 пятабцо:пятабцо N_ӇАНУ  "raskas hengitys" ;
 пятабцьʼ:пятабць N_ЁЛЬЦЕ  "18-20 m pitkä salko verkon jään alle asennusta varten" ;
@@ -1428,6 +1431,7 @@ LEXICON nouns
 родина:родина N_ӇЭ-RUS  "kotimaa" ;
 рокаси:рокаси N_ӇЭ  "niinimatto" ;
 ручка:ручка N_ӇЭ-RUS  "kynä" ;
+ручка:уручка N_ӇЭ  "kynä" ;
 са:са N_Ё  "vetohihna" ;
 саˮлако:саˮлако N_ӇАНУ  "tyhmyri" ;
 саб:саб N_ЕД/ХАНО  "panos" ;
@@ -1466,6 +1470,8 @@ LEXICON nouns
 салик:салик N_ЕД  "kanto" ;
 салкосэй:салкосэй N_ЕД/ХУСУВЭЙ  "maksu" ;
 салм:салм N_ХАНО  "sileä pinta" ;
+саль:саль N_ЕД  "hartiahuivi" ;
+саль:шаль N_ЕД-RUS  "hartiahuivi" ;
 сальник:сальник N_ЕД  "petrolilamppu" ;
 сальня:сальня N_ӇОДИ  "poronnahka jota käytetään tyynyliinana" ;
 саля:саля N_ТЁН  "niemi" ;
@@ -1511,6 +1517,9 @@ LEXICON nouns
 сеʼ:се N_ИЛЪЕ-Pal/Var  "tuppi" ;
 сеˮ:се N_ИДЕ-Pal/Var  "pihka" ;
 сеˮна:сеˮна N_ӇУДИ  "kahina" ;
+севабтав:севабтав N_ЕД  "ympärys" ;
+севэй:севэй N_ЕД  "syli" ;
+севэй:сева N_ӇУДИ  "syli" ;
 седˮ:сед N_ТАСО/ТЮСЕ  "poronnahasta pieni peite jolla kapaloidaan lasta" ;
 седа:седа N_ХОБ  "vaara" ;
 седеркабт:седеркабт N_ЕД  "kynttilä" ;
@@ -1528,6 +1537,7 @@ LEXICON nouns
 сель:сель N_ЕД  "päämäärä" ;
 сельбя:сельбя N_ӇОДИ  "sarvenpuhdistusaika" ;
 сельдь:сельдь N_ЕД-RUS  "silli" ;
+сельсовет:сельсовет N_ЕД-RUS  "kyläneuvosto" ;
 селюй:селюй N_ЕД  "poro, jonka sarvilta on tullut nahkaa" ;
 сембяд:сембяд N_ЕД  "nuotankoho" ;
 сензелава:сензелава N_ӇУДИ  "yöpymispaikka" ;
@@ -2221,6 +2231,7 @@ LEXICON nouns
 ханий:ханий N_ЕД  "poikanen" ;
 ханопэй:ханопэй N_ХУСУВЭЙ  "tappaja" ;
 ханпета:ханпета N_ӇУДИ  "karkki" ;
+ханпета:конфета N_ӇУДИ-RUS  "karkki" ;
 ханырˮ:ханыр N_ВАР  "työn alku" ;
 ханьʼ:хань N_ЁЛЬЦЕ  "kuura" ;
 ханьˮ:хань N_ИДЕ/МЯДО  "yöhalla" ;
@@ -2309,12 +2320,20 @@ LEXICON nouns
 хорабля:хорабля N_ӇОДИ  "laiva" ;
 хорака:хорака N_МАРАӇГЫ  "kurkku" ;
 хорако:хорако N_ӇАНУ  "ämpäri" ;
+хорацица:хорацица N_ӇУДИ  "sinappi" ;
+хорацица:корацица N_ӇУДИ  "sinappi" ;
+хорацица:корацица N_ӇУДИ  "sinappi" ;
+хорб:хорб N_ЕД  "vakka" ;
+хорбко:хорбко N_ӇАНУ  "laatikko" ;
 хореко:хореко N_ӇАНУ  "nuori kesyporo" ;
 хореця:хореця N_ӇОДИ  "vanha naistenvaate" ;
 хоркадё:хоркадё N_МЕРЁ  "kolo" ;
 хоркы:хоркы N_ӇЭ  "riekko" ;
 хорна:хорна N_ӇУДИ  "korskuna" ;
 хорова:хорова N_ӇУДИ  "lehmä" ;
+хорова:корова N_ӇУДИ-RUS  "lehmä" ;
+хоровать:хоровать N_ЕД  "sänky" ;
+хоровать:кровать N_ЕД-RUS  "sänky" ;
 хород:хород N_ЕД  "kyykkä" ;
 хороль:хороль N_ЕД  "kuningas" ;
 хорти:хорти N_ӇЭ  "käheällä äänellä haukkuva koira" ;
@@ -2339,6 +2358,8 @@ LEXICON nouns
 худяʼ:худя N_ВЫӇО  "mälvi" ;
 хуксин:хуксин N_ЕД  "kannu" ;
 хула:хула N_ӇУДИ  "kyyry" ;
+хулак:хулак N_ЕД  "kulakki" ;
+хулак:кулак N_ЕД  "kulakki" ;
 хулкадё:хулкадё N_МЕРЁ  "hörppiminen" ;
 хулцоцьʼ:хулцоць N_ЁЛЬЦЕ  "mela ruoansekoitukseen" ;
 хулы:хулы N_ӇЭ  "korppi" ;
