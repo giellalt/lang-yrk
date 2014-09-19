@@ -728,6 +728,28 @@
 
   <e>
     <lg>
+      <l pos="Adv">исавэйʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">исавэйʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">järkevästi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">исиˮ</l>
 
       <stg>
@@ -741,11 +763,13 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Adv">without water</t>
+        <t pos="Adv"/>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ilman vettä</t>
+        <t pos="Adv">järjenvastaisesti</t>
+
+        <t pos="Adv">älyttömästi</t>
       </tg>
     </mg>
   </e>
@@ -6008,6 +6032,28 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">vähän</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">тянёмбовна</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">тянёмбовна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="Adv">vähän aikaa</tf>
       </tg>
     </mg>
   </e>
