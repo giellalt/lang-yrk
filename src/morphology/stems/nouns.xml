@@ -4966,6 +4966,24 @@
 
   <e>
     <lg>
+      <l pos="N">идецё</l>
+
+      <stg>
+        <st Contlex="N_МЕРЁ">идецё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">vesi (deminutiivi)</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">идиˮма</l>
 
       <stg>
@@ -5008,6 +5026,8 @@
 
       <stg>
         <st Contlex="N_МЕРЁ">идрё</st>
+
+        <st Contlex="N_МЕРЁ">идрю</st>
       </stg>
     </lg>
 
@@ -5384,6 +5404,24 @@
 
   <e>
     <lg>
+      <l pos="N">илирˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР/ТАРЕ">илир</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">elämäntapa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">илнабцьʼ</l>
 
       <stg>
@@ -5402,9 +5440,29 @@
 
   <e>
     <lg>
-      <l pos="N">илцьʼ</l>
+      <l pos="N">илрабцьʼ</l>
 
       <stg>
+        <st Contlex="N_ЁЛЬЦЕ">илрабць</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">nostoväline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">илцья</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">ильця</st>
+
         <st Contlex="N_ЁЛЬЦЕ">илць</st>
       </stg>
     </lg>
@@ -5413,8 +5471,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <tf pos="N">yksi šamaanin käyttämä vierekkäin asetetuista
-        esineistä</tf>
+        <tf pos="N">kaksi šamaanin käyttämää vierekkäin asetettua
+        esinettä</tf>
       </tg>
     </mg>
   </e>
@@ -5575,6 +5633,26 @@
         <t pos="N">hihna</t>
 
         <t pos="N">vyö</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">иняко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">иняко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">lanka</t>
+
+        <t pos="N">säie</t>
       </tg>
     </mg>
   </e>
@@ -5751,6 +5829,68 @@
 
   <e>
     <lg>
+      <l pos="N">исьхад</l>
+
+      <stg>
+        <st Contlex="N_ЕД">исьхад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">konstailija</t>
+
+        <t pos="N">kujeilija</t>
+
+        <t pos="N">veitikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ихилˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ихил</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">vesi jään päällä keväällä rannan lähellä</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ихилярˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ихиляр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">kova jää keväällä tai syksyllä rannan lähellä</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ицьʼ</l>
 
       <stg>
@@ -5825,6 +5965,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">ahma</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">иӈгыемʼ</l>
+
+      <stg>
+        <st Contlex="N_ӇУВО">иӈгыем</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="N">rakeinen lumi</tf>
       </tg>
     </mg>
   </e>
@@ -48654,6 +48812,8 @@
 
       <stg>
         <st Contlex="N_ӇОДИ">ёˮя</st>
+
+        <st Contlex="N_МАРАӇГЫ">ёˮяха</st>
       </stg>
     </lg>
 
