@@ -129,11 +129,11 @@ LEXICON ONESM
 хасуюˮ:9 MILJON ; 
 
 LEXICON 1MILJON
-миллион% :1 OVERTHOUSANDS ;
-миллион% :1 OVERTHOUSANDS ;
+миллион:1 OVERTHOUSANDS ;
+миллион:1 OVERTHOUSANDS ;
 
 LEXICON MILJON
-% милюн% : OVERTHOUSANDS ;
+% милюн: OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -160,11 +160,11 @@ HUNDREDSM ;
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		        ! x00.000.000
-юрˮ:1 HUNDREDT ;    ! 100.000.000
+% юрˮ:1 HUNDREDT ;    ! 100.000.000
 :%0 TENST ;		        !  20.000.000
 :%0 TEENST ;		    !  10.000.000
 :%0%0 ONEST ;		    !   2.000.000
-ёнарˮ:%0%01 THOUSAND ;	!   1.000.000
+% ёнарˮ:%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0 UNDERTHOUSAND ;	
 :%0%0%0%0 TENS ;
 :%0%0%0%0 TEENS ;
@@ -285,12 +285,12 @@ LEXICON HUNDREDS
 хасуюˮ:9 CUODI ;
 
 LEXICON CUODI
-% юрˮ% : HUNDRED ;
+% юрˮ: HUNDRED ;
 
 LEXICON HUNDRED
-TENS ;
-TEENS ;
-:%0 ONES ;
+% : TENS ;
+% : TEENS ;
+% :%0 ONES ;
 :%0%0 # ;
 
 LEXICON TEENS
@@ -338,16 +338,16 @@ LEXICON LOHKAI
 % яӈгня: # ;
 
 LEXICON TENS
-% юˮ:1%0 # ;
-% юдимдей:1%0. # ;
-сидя:2 LÅGEV ;
-няхарˮ:3 LÅGEV ;
-тет:4 LÅGEV ;
-самляӈг:5 LÅGEV ;
-матˮ:6 LÅGEV ;
-сиˮив:7 LÅGEV ;
-сидндет:8 LÅGEV ;
-хасуюˮ:9 LÅGEV ;
+юˮ:1%0 # ;
+юдимдей:1%0. # ;
+сидя% :2 LÅGEV ;
+няхарˮ% :3 LÅGEV ;
+тет% :4 LÅGEV ;
+самляӈг% :5 LÅGEV ;
+матˮ% :6 LÅGEV ;
+сиˮив% :7 LÅGEV ;
+сидндет% :8 LÅGEV ;
+хасуюˮ% :9 LÅGEV ;
 
 няхарамдэй% юˮ:3%0%. # ;
 тетимдей% юˮ:4%0%. # ;
@@ -359,9 +359,9 @@ LEXICON TENS
 
 
 LEXICON LÅGEV
-% юˮ:%0 # ;
-% юдимдей:%0. # ;
-% юˮ% : ONES ;
+юˮ:%0 # ;
+юдимдей:%0. # ;
+юˮ% : ONES ;
 
 LEXICON ONES
  CARDINAL ;
