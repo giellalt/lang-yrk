@@ -189037,9 +189037,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">loppual</t>
+        <t pos="V">loppua</t>
 
-        <t pos="V">akata</t>
+        <t pos="V">lakata</t>
       </tg>
     </mg>
   </e>
@@ -189463,25 +189463,9 @@
       <l pos="V" val="TV">ёныбась</l>
 
       <stg>
-        <st Contlex="TV_ПЭБЮ">ёнба</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="TV">ahmia</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">ёныбась</l>
-
-      <stg>
         <st Contlex="TV_ПЭБЮ">ёныба</st>
+
+        <st Contlex="TV_ПЭБЮ">ёнба</st>
       </stg>
     </lg>
 
@@ -189510,6 +189494,24 @@
         <t pos="V">hukata</t>
 
         <t pos="V">kadottaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">ёпась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">ёпа</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="V">niellä kokonaisena</tf>
       </tg>
     </mg>
   </e>
@@ -190048,24 +190050,6 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ёхорась</l>
-
-      <stg>
-        <st Contlex="TV_ХАДА">ёхора</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">piilottaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" type="TV">ёхорась</l>
 
       <stg>
@@ -190108,6 +190092,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">ёхорота</st>
+
+        <st Contlex="TV_ИЛЕ">ёхороте</st>
       </stg>
     </lg>
 
@@ -190126,6 +190112,8 @@
 
       <stg>
         <st Contlex="VR_ХАДА">ёхорота</st>
+
+        <st Contlex="VR_ИЛЕ">ёхороте</st>
       </stg>
     </lg>
 
@@ -190140,9 +190128,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ёхоротембась</l>
+      <l pos="V" val="TV">ёхоротамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">ёхоротамба</st>
+
         <st Contlex="TV_ПЭБЮ">ёхоротемба</st>
       </stg>
     </lg>
@@ -195875,6 +195865,8 @@
 
       <stg>
         <st Contlex="IV_ТИР">ӈасяр</st>
+
+        <st Contlex="IV_ТИР">ӈасер</st>
       </stg>
     </lg>
 

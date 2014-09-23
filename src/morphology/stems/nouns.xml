@@ -4168,6 +4168,26 @@
 
   <e>
     <lg>
+      <l pos="N">ентяв</l>
+
+      <stg>
+        <st Contlex="N_ЕД">ентяв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <td pos="N">viiva</td>
+
+        <td pos="N">linja</td>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ентё</l>
 
       <stg>
@@ -4604,6 +4624,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">askel</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">еӈгалярˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">еӈгаляр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ketju</t>
       </tg>
     </mg>
   </e>
@@ -26946,7 +26984,7 @@
       <l pos="N">сад</l>
 
       <stg>
-        <st Contlex="N_ЕД">сад</st>
+        <st Contlex="N_ЕД-RUS">сад</st>
       </stg>
     </lg>
 
@@ -27001,6 +27039,26 @@
         <t pos="N">rapakko</t>
 
         <t pos="N">lammikko</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">садача</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">садача</st>
+
+        <st Contlex="N_ӇУДИ-RUS">задача</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tehtävä</t>
       </tg>
     </mg>
   </e>
@@ -48802,6 +48860,8 @@
 
       <tg xml:lang="fin">
         <t pos="N">kulma</t>
+
+        <t pos="N">suunkulma</t>
       </tg>
     </mg>
   </e>
@@ -48988,6 +49048,26 @@
 
   <e>
     <lg>
+      <l pos="N">ёмпо</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">ёмпо</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kelmi</t>
+
+        <t pos="N">petturi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ёнарˮ</l>
 
       <stg>
@@ -49022,6 +49102,24 @@
 
       <tg xml:lang="fin">
         <tf pos="N">viimeistely reunuksella</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ёндерˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ёндер</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">ikä</t>
       </tg>
     </mg>
   </e>
@@ -49168,6 +49266,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">keskipaikka</t>
+
+        <t pos="N">vyötärö</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ёнэдярˮ</l>
+
+      <stg>
+        <st Contlex="N_ВАР">ёнэдяр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">keskiosa</t>
 
         <t pos="N">vyötärö</t>
       </tg>

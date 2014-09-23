@@ -9841,7 +9841,7 @@ LEXICON verbs
 ёльцертась:ёльцерта IV_ЛАХАНА  "mitata" ;
 ёльцерць:ёльцер TV_ТИР  "mitata" ;
 ёльцесь:ёльце TV_ИЛЕ  "lopettaa" ;
-ёльцесь:ёльце VR_ИЛЕ  "loppual" ;
+ёльцесь:ёльце VR_ИЛЕ  "loppua" ;
 ёльцеӈгось:ёльцеӈго IV_СЯНАКУ  "lopettaa" ;
 ёльцирембась:ёльциремба TV_ПЭБЮ  "määrätä koko tai pituus" ;
 ёльциресь:ёльцире TV_ИЛЕ  "määrätä koko tai pituus" ;
@@ -9863,9 +9863,10 @@ LEXICON verbs
 ёнитембась:ёнитемба TV_ПЭБЮ  "leikata" ;
 ёнретась:ёнрета IV_ЛАХАНА  "olla reunustettu (esim. sädekehällä)" ;
 ёнроць:ёнро TV_САС  "olla reunuksella" ;
-ёныбась:ёнба TV_ПЭБЮ  "ahmia" ;
 ёныбась:ёныба TV_ПЭБЮ  "ahmia" ;
+ёныбась:ёнба TV_ПЭБЮ  "ahmia" ;
 ёпась:ёпа TV_ПЭБЮ  "hukata" ;
+ёпась:ёпа TV_ПЭБЮ  "niellä kokonaisena" ;
 ёрамдамбась:ёрамдамба TV_ПЭБЮ  "syventää" ;
 ёрамданась:ёрамдана IV_ЛАХАНА  "syventyä" ;
 ёрамдась:ёрамда IV_ЛАХАНА  "syventyä" ;
@@ -9894,11 +9895,13 @@ LEXICON verbs
 ёхорабтась:ёхорабта TV_ХАДА  "salailla" ;
 ёхорамбась:ёхорамба TV_ПЭБЮ  "piilottaa" ;
 ёхорась:ёхора TV_ХАДА  "piilottaa" ;
-ёхорась:ёхора TV_ХАДА  "piilottaa" ;
 ёхородоць:ёхородо IV_САС  "olla lämpimällä esinellä jalkoja varten" ;
 ёхоротась:ёхорота TV_ХАДА  "kääriä jaloista vyötäröön" ;
+ёхоротась:ёхороте TV_ИЛЕ  "kääriä jaloista vyötäröön" ;
 ёхоротась:ёхорота VR_ХАДА  "kääriytyä jaloista vyötäröön" ;
-ёхоротембась:ёхоротемба TV_ПЭБЮ  "kääriä jalat vyötäröön asti lämpimillä vaatteilla" ;
+ёхоротась:ёхороте VR_ИЛЕ  "kääriytyä jaloista vyötäröön" ;
+ёхоротамбась:ёхоротамба TV_ПЭБЮ  "kääriä jalat vyötäröön asti lämpimillä vaatteilla" ;
+ёхоротамбась:ёхоротемба TV_ПЭБЮ  "kääriä jalat vyötäröön asti lämpimillä vaatteilla" ;
 ёхороць:ёхоро TV_САС  "käyttää jalkojen peittämiseen ja lämmitykseen" ;
 ёхорць:ёхор IV_ТИР  "kadota" ;
 ёць:ё TV_САС  "hukata" ;
@@ -10204,6 +10207,7 @@ LEXICON verbs
 ӈасьналць:ӈасьнал VR_ТИР  "alkaa humista" ;
 ӈасьнась:ӈасьна IV_ЛАХАНА  "humista" ;
 ӈасярць:ӈасяр IV_ТИР  "haukkua kovaa" ;
+ӈасярць:ӈасер IV_ТИР  "haukkua kovaa" ;
 ӈасёртась:ӈасёрта IV_ЛАХАНА  "olla tanakka" ;
 ӈатебяртанась:ӈатебяртана IV_ЛАХАНА  "tulla velalliseksi" ;
 ӈатебярць:ӈатебяр IV_ТИР  "velkaantua" ;

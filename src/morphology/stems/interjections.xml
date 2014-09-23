@@ -190,6 +190,8 @@
 
       <stg>
         <st Contlex="INTERJ_">ёхо</st>
+
+        <st Contlex="INTERJ_">ёхов</st>
       </stg>
     </lg>
 
@@ -201,7 +203,11 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Interj"/>
+        <t pos="Interj">voi</t>
+
+        <t pos="Interj">ai</t>
+
+        <t pos="Interj">oho</t>
       </tg>
     </mg>
   </e>
