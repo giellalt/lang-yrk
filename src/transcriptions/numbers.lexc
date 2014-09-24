@@ -23,6 +23,7 @@ TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
 ёнарˮ:1 THOUSAND ; ! 1000-1999
+ORD_THOUSAND ;
 
 UNDERTHOUSAND ;		 ! 100-999
 TENS ;			     ! 20-99
@@ -389,5 +390,24 @@ LEXICON ORDINAL
 сиднтетимдей:8%. # ;
 хасуюдимдей:9%. # ;
 
+LEXICON ORD_HUNDREDT
+юрˮ% : ORDINAL ;
+юрˮ% : LÅGEV ;
+юрˮ% : ORD_1to99T ;
+
+LEXICON ORD_1to99T
+ :%0 ORD_2to9T ;
+ :1 ORD_THOUSAND ;
+ :1 ORD_HUNDREDS ;
+10to99T ;
+
+LEXICON ORD_THOUSAND
+ёнарˮ% :%0%0 ORDINAL ;
+ёнримдей:%0%0%0%. # ;
+ёнрадимдей:%0%0%0%. # ;
+
+LEXICON ORD_HUNDREDS
+юримдей:%0%0%. # ; 
+юрˮ% :%0%0 ORDINAL ;
 
 
