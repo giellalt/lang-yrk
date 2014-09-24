@@ -50,16 +50,18 @@ LEXICON Root
 @U.MONTH.1@+Use/NG:Январь% @U.MONTH.1@ 31DAYS ;
 
 
-@U.MONTH.2@:яре% ирийʼ% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@:яра% ирийʼ% @U.MONTH.2@ 29DAYS ;
 @U.MONTH.2@+Use/NG:февральʼ% ирийʼ% @U.MONTH.2@ 29DAYS ;
 
-@U.MONTH.2@+Use/NG:Яре% ирийʼ% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@+Use/NG:Яра% ирийʼ% @U.MONTH.2@ 29DAYS ;
 @U.MONTH.2@+Use/NG:Февраьльʼ% ирийʼ% @U.MONTH.2@ 29DAYS ;
 
 
 
 @U.MONTH.3@:хэˮнё% таларава% ирийʼ% @U.MONTH.3@ 31DAYS ;
-@U.MONTH.3@+Use/NG:сие% ниць% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
+@U.MONTH.3@+Use/NG:сие% ниць% ирийʼ% @U.MONTH.3@ 31DAYS ; !
+@U.MONTH.3@+Use/NG:тыʼ% саполана% ирийʼ% @U.MONTH.3@ 31DAYS ;
+These need checking
 @U.MONTH.3@+Use/NG:нумшсарˮнюʼ% лэрха% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
 @U.MONTH.3@+Use/NG:носиндалава% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
 @U.MONTH.3@+Use/NG:март% @U.MONTH.3@ 31DAYS ;
@@ -67,30 +69,31 @@ LEXICON Root
 @U.MONTH.3@+Use/NG:Март% @U.MONTH.3@ 31DAYS ;
 
 
-@U.MONTH.4@:тыˮ% саполана% ирийʼ% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.4@:варӈэʼ% ирийʼ% @U.MONTH.4@ 30DAYS ;
 @U.MONTH.4@+Use/NG:ненэй% ниць% ирийʼ% @U.MONTH.4@ 30DAYS ;
 @U.MONTH.4@+Use/NG:апрель% @U.MONTH.4@ 31DAYS ;
 
 @U.MONTH.4@+Use/NG:Апрель% @U.MONTH.4@ 30DAYS ;
 
 
-@U.MONTH.5@:нёвды% ирийʼ% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.4@:маӈгты% ирийʼ% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.5@+Use/NG:нёвды% ирийʼ% @U.MONTH.5@ 31DAYS ;
 @U.MONTH.5@+Use/NG:май% @U.MONTH.5@ 31DAYS ;
 
 @U.MONTH.5@+Use/NG:Май% @U.MONTH.5@ 31DAYS ;
 
 
-@U.MONTH.6@:неняӈгʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.6@:савуʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
 @U.MONTH.6@+Use/NG:нявды% ирийʼ% @U.MONTH.6@ 30DAYS ;
 
-@U.MONTH.6@+Use/NG:Неняӈгʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.6@+Use/NG:Савуʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
 
 
-@U.MONTH.7@:пилё% ирийʼ% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.7@:неняӈгˮ% ирийʼ% @U.MONTH.7@ 31DAYS ;
 @U.MONTH.7@+Use/NG:таӈыʼ% ирийʼ% @U.MONTH.7@ 31DAYS ;
 
 @U.MONTH.7@+Use/NG:Таӈыʼ% ирийʼ% @U.MONTH.7@ 31DAYS ;
-@U.MONTH.7@+Use/NG:Пилё% ирийʼ% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.7@+Use/NG:Неняӈгˮ% ирийʼ% @U.MONTH.7@ 31DAYS ;
 
 
 @U.MONTH.8@:явʼхалыʼ% ирийʼ% @U.MONTH.8@ 31DAYS ;
@@ -100,11 +103,11 @@ LEXICON Root
 @U.MONTH.8@+Use/NG:Явʼхалыʼ% ирийʼ%_@U.MONTH.8@ 31DAYS ;
 
 
-@U.MONTH.9@:веба% ирийʼ% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@:вебаʼ% ирийʼ% @U.MONTH.9@ 30DAYS ;
 @U.MONTH.9@+Use/NG:сельбе% ирийʼ% @U.MONTH.9@ 30DAYS ;
 @U.MONTH.9@+Use/NG:сентябрьʼ% @U.MONTH.9@ 30DAYS ;
 
-@U.MONTH.9@+Use/NG:Веба% ирийʼ% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.9@+Use/NG:Вебаʼ% ирийʼ% @U.MONTH.9@ 30DAYS ;
 @U.MONTH.9@+Use/NG:Сельбе% ирийʼ% @U.MONTH.9@ 30DAYS ;
 @U.MONTH.9@+Use/NG:Сентябрьʼ% @U.MONTH.9@ 30DAYS ;
 
@@ -136,9 +139,10 @@ LEXICON 29DAYS
 2:нябимдей B ;
 3:няхарамдэй B ;
 4:тетимдей B ;
-5:самлязимдей B ;
-6:маттамдэй B ;
-7:сиˮивумдей B ;
+5:самлянзимдей B ;
+6:матдомдэй B ;
+7:сибимдей B ;
+7+Use/NG:сиˮивмдей B ;
 8:сиднтетимдей B ;
 9:хасуюдимдей B ;
 1%0:юдимдей B ;
