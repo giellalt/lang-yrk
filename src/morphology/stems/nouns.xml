@@ -3162,6 +3162,24 @@
 
   <e>
     <lg>
+      <l pos="N">губернатор</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">губернатор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kuvernööri</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">декабрь</l>
 
       <stg>
@@ -12032,6 +12050,24 @@
 
   <e>
     <lg>
+      <l pos="N">мероприятия</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ-RUS">мероприятия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tapahtuma</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мерця</l>
 
       <stg>
@@ -19068,6 +19104,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">mielipide</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">нянз</l>
+
+      <stg>
+        <st Contlex="N_ЕД">нянз</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kura</t>
+
+        <t pos="N">loka</t>
       </tg>
     </mg>
   </e>

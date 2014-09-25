@@ -6,6 +6,76 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Prop">Австралия</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ ">Австралия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Australia</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Аликэ</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Аликэ</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Alike (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Аляска</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Аляска</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Alaska</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Анастасия</l>
 
       <stg>
@@ -48,6 +118,104 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Anton</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Арктика</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Арктика</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Arktis</t>
+
+        <tf pos="Prop">Arktinen alue</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Африка</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Африка</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Afrikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Белузей</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Белузей</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Beluzei</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Вадё</l>
+
+      <stg>
+        <st Contlex="PROP_МЕРЮ">Вадё</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Vadjo (miehennimi)</t>
       </tg>
     </mg>
   </e>
@@ -174,6 +342,102 @@
 
   <e>
     <lg>
+      <l pos="Prop">Донбас</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Донбас</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Donbass</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Дудинка</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Дудинка</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Dudinka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Европа</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Европа</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Eurooppa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Египет</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Египет</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Egypti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ензяʼ</l>
 
       <stg>
@@ -242,6 +506,54 @@
 
   <e>
     <lg>
+      <l pos="Prop">Игарка</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Игарка</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Igarka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Канин</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Канин</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Kanin (niemimaa)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Карелия</l>
 
       <stg>
@@ -258,6 +570,78 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Karjala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Китай</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Китай</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Kiina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Красноярск</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Красноярск</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Krasnojarsk</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Крым</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Крым</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Krim</t>
       </tg>
     </mg>
   </e>
@@ -836,6 +1220,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Нью-Йорк</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Нью-Йорк</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">New York</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Пандо</l>
 
       <stg>
@@ -1100,6 +1506,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Саляʼ харад</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Саляʼ харад</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Salehard</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Саляко</l>
 
       <stg>
@@ -1336,6 +1766,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Tabseda</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Таймыр</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Таймыр</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tajmyr</t>
       </tg>
     </mg>
   </e>
@@ -1640,6 +2094,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Украина</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Украина</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ukraina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Финляндия</l>
 
       <stg>
@@ -1868,6 +2344,28 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Hetanzi (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Холӈгув</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Холӈгув</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Kolgujev</t>
       </tg>
     </mg>
   </e>
@@ -2276,6 +2774,50 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Jahangasava (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈамдарма</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Ӈамдарма</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Amderma</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈыда</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Ӈыда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Gyda</t>
       </tg>
     </mg>
   </e>
