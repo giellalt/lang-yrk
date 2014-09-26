@@ -43,18 +43,18 @@ LEXICON Root
 
 ! For each month: First the normative, then the non-normatives, then initial capital
 
-@U.MONTH.1@:лимбя% ирийʼ% @U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:январь% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@:лимбяʼ% ирийʼ% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@+Use/NG:январьʼ% @U.MONTH.1@ 31DAYS ;
 
 @U.MONTH.1@+Use/NG:Лимбяʼ% ирийʼ% @U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:Январь% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.1@+Use/NG:Январьʼ% @U.MONTH.1@ 31DAYS ;
 
 
 @U.MONTH.2@:яра% ирийʼ% @U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:февральʼ% ирийʼ% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@+Use/NG:февральʼ% @U.MONTH.2@ 29DAYS ;
 
 @U.MONTH.2@+Use/NG:Яра% ирийʼ% @U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:Февраьльʼ% ирийʼ% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.2@+Use/NG:Февраьльʼ% @U.MONTH.2@ 29DAYS ;
 
 
 @U.MONTH.3@:хэˮнё% таларава% ирийʼ% @U.MONTH.3@ 31DAYS ;
@@ -63,44 +63,47 @@ LEXICON Root
 ! These need checking
 @U.MONTH.3@+Use/NG:нумʼ% сарˮнюʼ% лэрха% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
 @U.MONTH.3@+Use/NG:носиндалава% ирийʼ% @U.MONTH.3@ 31DAYS ; !These need checking
-@U.MONTH.3@+Use/NG:март% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.3@+Use/NG:мартʼ% @U.MONTH.3@ 31DAYS ;
 
-@U.MONTH.3@+Use/NG:Март% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.3@+Use/NG:Мартʼ% @U.MONTH.3@ 31DAYS ;
 
 
 @U.MONTH.4@:варӈэʼ% ирийʼ% @U.MONTH.4@ 30DAYS ;
 @U.MONTH.4@+Use/NG:ненэй% ниць% ирийʼ% @U.MONTH.4@ 30DAYS ;
-@U.MONTH.4@+Use/NG:апрель% @U.MONTH.4@ 31DAYS ;
+@U.MONTH.4@+Use/NG:апрельʼ% @U.MONTH.4@ 31DAYS ;
 
-@U.MONTH.4@+Use/NG:Апрель% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.4@+Use/NG:Апрельʼ% @U.MONTH.4@ 30DAYS ;
 
 
 @U.MONTH.4@:маӈгты% ирийʼ% @U.MONTH.5@ 30DAYS ;
 @U.MONTH.5@+Use/NG:нёвды% ирийʼ% @U.MONTH.5@ 31DAYS ;
-@U.MONTH.5@+Use/NG:май% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.5@+Use/NG:майʼ% @U.MONTH.5@ 31DAYS ;
 
-@U.MONTH.5@+Use/NG:Май% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.5@+Use/NG:Майʼ% @U.MONTH.5@ 31DAYS ;
 
 
 @U.MONTH.6@:савуʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
 @U.MONTH.6@+Use/NG:нявды% ирийʼ% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.6@+Use/NG:июньʼ% @U.MONTH.6@ 30DAYS ;
 
 @U.MONTH.6@+Use/NG:Савуʼ% ирийʼ% @U.MONTH.6@ 30DAYS ;
-
+@U.MONTH.6@+Use/NG:Июньʼ% @U.MONTH.6@ 30DAYS ;
 
 @U.MONTH.7@:неняӈгˮ% ирийʼ% @U.MONTH.7@ 31DAYS ;
 @U.MONTH.7@+Use/NG:таӈыʼ% ирийʼ% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.7@+Use/NG:июльʼ% @U.MONTH.7@ 30DAYS ;
 
 @U.MONTH.7@+Use/NG:Таӈыʼ% ирийʼ% @U.MONTH.7@ 31DAYS ;
 @U.MONTH.7@+Use/NG:Неняӈгˮ% ирийʼ% @U.MONTH.7@ 31DAYS ;
-
+@U.MONTH.7@+Use/NG:Июльʼ% @U.MONTH.7@ 30DAYS ;
 
 @U.MONTH.8@:явʼхалыʼ% ирийʼ% @U.MONTH.8@ 31DAYS ;
 @U.MONTH.8@+Use/NG:пилюʼ% ирийʼ%_@U.MONTH.8@ 31DAYS ;
+@U.MONTH.8@+Use/NG:августʼ% @U.MONTH.8@ 30DAYS ;
 
 @U.MONTH.8@+Use/NG:Пилюʼ% ирийʼ%_@U.MONTH.8@ 31DAYS ;
 @U.MONTH.8@+Use/NG:Явʼхалыʼ% ирийʼ%_@U.MONTH.8@ 31DAYS ;
-
+@U.MONTH.8@+Use/NG:Августʼ% @U.MONTH.8@ 30DAYS ;
 
 @U.MONTH.9@:вебаʼ% ирийʼ% @U.MONTH.9@ 30DAYS ;
 @U.MONTH.9@+Use/NG:сельбе% ирийʼ% @U.MONTH.9@ 30DAYS ;
@@ -115,22 +118,23 @@ LEXICON Root
 @U.MONTH.10@:ӈэрёй% ирийʼ% @U.MONTH.10@ 31DAYS ;
 @U.MONTH.10@:хорˮ% ирийʼ% @U.MONTH.10@ 31DAYS ;
 @U.MONTH.10@:носиндалава% ирийʼ% @U.MONTH.10@ 31DAYS ;
-@U.MONTH.10@+Use/NG:октябрьʼ% ирийʼ% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@+Use/NG:октябрьʼ% @U.MONTH.10@ 31DAYS ;
 
 @U.MONTH.10@+Use/NG:Хаювы% ирийʼ% @U.MONTH.10@ 31DAYS ;
-@U.MONTH.10@+Use/NG:октябрʼ% ирийʼ% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.10@+Use/NG:октябрьʼ% @U.MONTH.10@ 31DAYS ;
 
 
-@U.MONTH.11@:нюдя% пэвдей% ирийʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
+@U.MONTH.11@:нюдя% пэвдей% ирийʼ% @U.MONTH.11@ 30DAYS ; 
+@U.MONTH.11@+Use/NG:ноябрьʼ% @U.MONTH.11@ 30DAYS ; 
 
-@U.MONTH.11@+Use/NG:Нюдя% пэвдей% ирийʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
-@U.MONTH.11@+Use/NG:Ноябрьʼ% ирийʼ% @U.MONTH.11@ 30DAYS ; ! bytt NG?
-
+@U.MONTH.11@+Use/NG:Нюдя% пэвдей% ирийʼ% @U.MONTH.11@ 30DAYS ; 
+@U.MONTH.11@+Use/NG:Ноябрьʼ% @U.MONTH.11@ 30DAYS ; 
 
 @U.MONTH.12@:ӈарка% пэвдей% ирийʼ% @U.MONTH.12@ 31DAYS ;
+@U.MONTH.12@+Use/NG:декабрьʼ% @U.MONTH.12@ 31DAYS ;
 
 @U.MONTH.12@+Use/NG:Ӈарка% пэвдей% ирийʼ% @U.MONTH.12@ 31DAYS ;
-@U.MONTH.12@+Use/NG:Декабрьʼ% ирийʼ% @U.MONTH.12@ 31DAYS ;
+@U.MONTH.12@+Use/NG:Декабрьʼ% @U.MONTH.12@ 31DAYS ;
 
 
 LEXICON 29DAYS
