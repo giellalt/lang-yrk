@@ -1,17 +1,33 @@
 
 LEXICON propernouns
 
+Австралия:Австралия PROP_ӇОДИ  "Australia" ;
+Аликэ:Аликэ PROP_ӇЭ  "Alike (naisennimi)" ;
+Аляска:Аляска PROP_ӇУДИ  "Alaska" ;
 Анастасия:Анастасия PROP_  "Anastasia" ;
 Антон:Антон PROP_ЕД  "Anton" ;
+Арктика:Арктика PROP_ӇУДИ  "Arktis" ;
+Африка:Африка PROP_ӇУДИ  "Afrikka" ;
+Белузей:Белузей PROP_ЕД  "Beluzei" ;
+Вадё:Вадё PROP_МЕРЁ  "Vadjo (miehennimi)" ;
 Вай:Вай PROP_ЕД  "Vai (nenetsien heimo)" ;
 Вайӈгаць:Вайӈгаць PROP_ЕД  "Vaigatš" ;
 Ванойта:Ванойта PROP_ӇУДИ  "Vanoita" ;
 Ванюта:Ванюта PROP_ӇУДИ  "Vanjuta" ;
 Вылка:Вылка PROP_МАРАӇГЫ  "Vylka" ;
-Ензяʼ:Ензяʼ PROP_  "" ;
+Донбас:Донбас PROP_ЕД  "Donbass" ;
+Дудинка:Дудинка PROP_ӇУДИ  "Dudinka" ;
+Европа:Европа PROP_ӇУДИ  "Eurooppa" ;
+Египет:Египет PROP_ЕД  "Egypti" ;
+Ензяʼ:Ензяʼ PROP_  "osa paikannimistä (Jenisei, Kondinsk jm)" ;
 Есӈгы:Есӈгы PROP_ПАНЫ  "Jesngy (nenetsiheimo)" ;
 Иван:Иван PROP_ЕД  "Ivan" ;
+Игарка:Игарка PROP_ӇУДИ  "Igarka" ;
+Канин:Канин PROP_ЕД  "Kanin (niemimaa)" ;
 Карелия:Карелия PROP_  "Karjala" ;
+Китай:Китай PROP_ЕД  "Kiina" ;
+Красноярск:Красноярск PROP_ЕД  "Krasnojarsk" ;
+Крым:Крым PROP_ЕД  "Krim" ;
 Лабцуй:Лабцуй PROP_ЕД  "Laptsui" ;
 Лабцуй:Лапцуй PROP_ЕД  "Laptsui" ;
 Ламбэй:Ламбэй PROP_ЕД  "Lambei (nenetsiheimo)" ;
@@ -48,6 +64,7 @@ LEXICON propernouns
 Роза:Роза PROP_МАРАӇГЫ  "Roza" ;
 Россия:Россия PROP_  "Venäjä" ;
 Салейко:Салейко PROP_ӇАНУ  "Saljeiko (naisennimi)" ;
+Саляʼ% харад:Саляʼ% харад PROP_ЕД  "Salehard" ;
 Саляко:Саляко PROP_ӇАНУ  "Saljako (naisennimi)" ;
 Саляндер:Саляндер PROP_ЕД  "Saljander (nenetsiheimo)" ;
 Сандра:Сандра PROP_  "Sandra (naisennimi)" ;
@@ -55,15 +72,26 @@ LEXICON propernouns
 Сибирь:Сибирь PROP_  "Siperia" ;
 Собалёв:Собалёв PROP_ЕД  "Sobaljov (nenetsiheimo)" ;
 Собалёв:Соболев PROP_ЕД  "Sobaljov (nenetsiheimo)" ;
+Сэвтя:Сэвтя PROP_ӇОДИ  "Sevtja (miehennimi)" ;
+Сэрако:Сэрако PROP_ӇАНУ  "Serako (miehennimi)" ;
+Сэраконе:Сэраконе PROP_ӇЭ  "Serakone (naisennimi)" ;
 Сэродэта:Сэродэта PROP_ӇУДИ  "Serodeta (nenetsiheimo)" ;
 Сюнзи:Сюнзи PROP_ӇЭ  "Sjunzi (miehennimi)" ;
 Сядэй:Сядэй PROP_ЕД  "Sjadej (nenetsiheimo)" ;
+Табалˮ:Табал PROP_ВАР  "Tobolsk" ;
 Табседа:Табседа PROP_ХОБ  "Tabseda" ;
+Тайбари:Тайбари PROP_ӇЭ  "Tajbari (nenetsien heimo)" ;
+Тайбари:Тайбарей PROP_ӇЭ  "Tajbari (nenetsien heimo)" ;
+Таймыр:Таймыр PROP_ЕД  "Tajmyr" ;
+Такоця:Такоця PROP_ӇУДИ  "Takotsja (etunimi)" ;
 Талеёв:Талеёв PROP_ЕД  "Taleev (nenetsiheimo)" ;
 Талеёв:Талеев PROP_ЕД  "Taleev (nenetsiheimo)" ;
+Таллинн:Таллинн PROP_ЕД  "Tallinna" ;
+Таллинн:Таллин PROP_ЕД  "Tallinna" ;
 Тане:Тане PROP_ӇЭ-Pal/Var  "Tanje (naisennimi)" ;
 Татарстан:Татарстан PROP_ЕД  "Tatarstan" ;
 Тибича:Тибича PROP_  "Tibicha (nenetsien heimo)" ;
+Томск:Томск PROP_ЕД  "Tomsk" ;
 Тохэˮ:Тохэ PROP_ТАСО  "Tohhe (nenetsien heimo)" ;
 Тусяда:Тусяда PROP_ӇУДИ  "Tusjada (nenetsien heimo)" ;
 Тысъя:Тысъя PROP_ӇОДИ  "Tisja (nenetsien heimo, nykyään Javtysei)" ;
@@ -73,6 +101,7 @@ LEXICON propernouns
 Тярˮ:Тяр PROP_ВАР  "Tjar (nenetsien heimo)" ;
 Тёпас:Тёпас PROP_ЕД  "Tjopas (naisennimi)" ;
 Тёр:Тёр PROP_ЕД  "Tjor (nenetsien heimo)" ;
+Украина:Украина PROP_ӇУДИ  "Ukraina" ;
 Финляндия:Финляндия PROP_  "Suomi" ;
 Хабдё:Хабдё PROP_МЕРЁ  "Habdjo (nenetsien heimo)" ;
 Хабуйко:Хабуйко PROP_ӇАНУ  "Habuiko (joki)" ;
@@ -83,7 +112,10 @@ LEXICON propernouns
 Харюци:Харючи PROP_ӇЭ  "Harjutsi (nenetsien heimo)" ;
 Хасевко:Хасевко PROP_ӇАНУ  "Hasjevko (miehennimi)" ;
 Хатяко:Хатяко PROP_ӇАНУ  "Hatjako (naisennimi)" ;
+Хельсинки:Хельсинки PROP_ӇЭ  "Helsinki" ;
 Хэтанзи:Хэтанзи PROP_ӇЭ  "Hetanzi (nenetsien heimo)" ;
+Холӈгув:Холӈгув PROP_ЕД  "Kolgujev" ;
+Швеция:Швеция PROP_  "Ruotsi" ;
 Эстония:Эстония PROP_  "Viro" ;
 Юлия:Юлия PROP_  "Julia" ;
 Ябтане:Ябтане PROP_ӇЭ-Pal/Var  "Jabtanje (naisenimi)" ;
@@ -103,4 +135,6 @@ LEXICON propernouns
 Яхаля:Яхаля PROP_ЯЛЭ  "Jahalja (miehennimi)" ;
 Яхяне:Яхяне PROP_ӇЭ-Pal/Var  "Jahanje (naisennimi)" ;
 Яхаӈгасава:Яхаӈгасава PROP_ХАСЕВ  "Jahangasava (nenetsien heimo)" ;
+Ӈамдарма:Ӈамдарма PROP_ӇУДИ  "Amderma" ;
+Ӈыда:Ӈыда PROP_ӇУДИ  "Gyda" ;
 Ӈэвасяда:Ӈэвасяда PROP_ӇУДИ  "Ngevasjada (nenetsien heimo)" ;
