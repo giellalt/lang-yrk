@@ -178,6 +178,7 @@ LEXICON nouns
 документ:документ N_ЕД-RUS  "asiapaperi" ;
 е:е N_ӇЭ  "mänty" ;
 еˮэй:еˮэй N_ЕД  "osa" ;
+еˮэй:ей N_ЕД  "osa" ;
 ебц:ебц N_ХАНО  "kehto" ;
 ебцота:ебцота N_ӇУДИ  "pienin lapsi perheessä" ;
 ева:ева N_ӇУДИ  "orpo" ;
@@ -188,6 +189,7 @@ LEXICON nouns
 евлаˮма:евлаˮма N_ӇУДИ  "toinen annos" ;
 евлеˮма:евлеˮма N_ӇУДИ  "neste jolla laimennetaan toista nestettä" ;
 евлеӈгобцьʼ:евлеӈгобць N_ЁЛЬЦЕ  "sekoitusastia" ;
+евлеӈгобцьʼ:евлеӈгось N_ЁЛЬЦЕ  "sekoitusastia" ;
 евэй:евэй N_ЕД  "keitto" ;
 евэйнзьʼ:евэйнзь N_ЁЛЬЦЕ  "keittokulho" ;
 ед:ед N_ЕД  "pata" ;
@@ -231,6 +233,8 @@ LEXICON nouns
 еняд:еняд N_ЕД  "kanta" ;
 ерˮ:ерˮ N_ТАРЕ  "keskus" ;
 ерˮма:ерˮма N_ӇУДИ  "purettu paikka" ;
+ерaˮма:ерaˮма N_ӇУДИ  "kyntö" ;
+ерабада:ерабада N_ӇУДИ  "vahti" ;
 ераӈгулава:ераӈгулава N_ӇУДИ  "vartiopaikka" ;
 ербя:ербя N_ӇОДИ  "kalan filee" ;
 ерв:ерв N_ХАНО  "isäntä" ;
@@ -246,6 +250,7 @@ LEXICON nouns
 есякоця:есякоця N_ӇОДИ  "rautapala" ;
 етя:етя N_ӇОДИ  "naaraseläin" ;
 ехэна:ехэна N_ӇУДИ  "sampi" ;
+ея:ея N_ПИСЬ  "kodan päällysteenä käytettävä porontalja" ;
 еӈа:еӈа N_ХОБ  "oja" ;
 еӈга:еӈга N_МАРАӇГЫ/ХОБ  "askel" ;
 еӈгалярˮ:еӈгаляр N_ВАР  "ketju" ;
@@ -1705,6 +1710,7 @@ LEXICON nouns
 сэрабтˮ:сэрабт N_МЯДО  "kaljama" ;
 сэрад:сэрад N_ЕД  "nälänhätä" ;
 сэрадˮ:сэрад N_МЯДО  "harmi" ;
+сэрако:сэрако N_ӇАНУ  "jääkarhu" ;
 сэранзьʼ:сэранзь N_НЕНЭЦИЕ  "ohut jääkerros maanpinnalla" ;
 сэратирˮ:сэратир N_ВАР  "suolaus" ;
 сэрерˮ:сэрер N_ВАР  "ikuinen routa" ;
@@ -1816,7 +1822,9 @@ LEXICON nouns
 таˮнёʼ:таˮнё N_ВЫӇО  "letti" ;
 таб:таб N_ХАНО  "hiekka" ;
 табˮ:таб N_МЯДО  "este" ;
-табадярˮ:табадяр N_МЯДО  "tehtävä" ;
+табадамбабцьʼ:табадамбабць N_ЁЛЬЦЕ  "tähtäin" ;
+табадярˮ:табадяр N_ВАР  "tehtävä" ;
+табадярˮ:табедяр N_ВАР  "tehtävä" ;
 табак:табак N_ЕД  "tupakka" ;
 табалˮ:табал N_ВАР  "sakka" ;
 табеко:табеко N_ӇАНУ  "käsky" ;
@@ -1839,7 +1847,9 @@ LEXICON nouns
 тадэӈонзьʼ:тадэӈонзь N_ЁЛЬЦЕ  "hammastikku" ;
 таеˮ:тае N_ТАСО  "tikku" ;
 тай:тай N_ЕД  "otsa" ;
+тайко:тайко N_ӇАНУ  "otsa" ;
 такан:такан N_ЕД  "juomalasi" ;
+таклада:таклада N_ӇУДИ  "salaisuus" ;
 такси:такси N_ӇЭ  "taksi" ;
 талˮма:талˮма N_ӇУДИ  "kansi" ;
 талв:талв N_ЕД  "keskiyö" ;
@@ -2168,6 +2178,7 @@ LEXICON nouns
 хаˮварˮ:хавар N_ВАР  "ulosteet" ;
 хаˮлерˮ:хаˮлер N_ВАР  "kuhmu" ;
 хаˮлерˮ:халор N_ВАР  "kuhmu" ;
+хабтарка:хабтарка N_МАРАӇГЫ  "ajoon koulutettava siitoskyvytön porolehmä" ;
 хаводалава:хаводалава N_ӇУДИ  "(porojen) teurastamo" ;
 хаводорик:хаводорик N_ЕД  "tappelupukari" ;
 хавондаˮма:хавондаˮма N_ӇУДИ  "poromerkkien korviin leikkaamisen paikka" ;
@@ -2470,6 +2481,7 @@ LEXICON nouns
 четверг:четверг N_ЕД-RUS  "torstai" ;
 чукча:чукча N_ХОБ-RUS  "tšuktši" ;
 чукча:сюкча N_ХОБ-RUS  "tšuktši" ;
+шкаф:шкаф N_ЕД-RUS  "kaappi" ;
 школа:школа N_ХОБ-RUS  "koulu" ;
 школа:аскола N_ХОБ-RUS  "koulu" ;
 экзамен:экзамен N_ЕД-RUS  "koe" ;
@@ -2581,7 +2593,11 @@ LEXICON nouns
 якарˮ:якар N_ВАР  "ankkuri" ;
 якдэй:якдэй N_ХУСУВЭЙ  "syyhy" ;
 якэ:якэ N_ЯКЫ  "savu" ;
+ял:ял N_ЕД  "mustasukkaisuus" ;
+ял:ял N_ЕД  "kosto" ;
+ял:ялту N_ӇЭ  "kosto" ;
 ялава:ялава N_ӇУДИ  "kulkupaikka" ;
+ялм:ялм N_ХАНО  "kajastus" ;
 ялма:ялма N_ӇУДИ  "ylikulku" ;
 ялма:ядалма N_ӇУДИ  "ylikulku" ;
 ялморˮ:ялмор N_ВАР  "pilke" ;
