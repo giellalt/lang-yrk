@@ -201,7 +201,7 @@
       <l pos="Prop">Вадё</l>
 
       <stg>
-        <st Contlex="PROP_МЕРЮ">Вадё</st>
+        <st Contlex="PROP_МЕРЁ">Вадё</st>
       </stg>
 
       <stress/>
@@ -453,7 +453,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <te pos="Prop">osa paikannimistä (Jenisei, Kondinsk jm)</te>
+        <td pos="Prop">osa paikannimistä (Jenisei, Kondinsk jm)</td>
       </tg>
     </mg>
   </e>
@@ -1676,6 +1676,78 @@
 
   <e>
     <lg>
+      <l pos="Prop">Сэвтя</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ">Сэвтя</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sevtja (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сэрако</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Сэрако</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Serako (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сэраконе</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Сэраконе</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Serakone (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Сэродэта</l>
 
       <stg>
@@ -1748,6 +1820,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Табалˮ</l>
+
+      <stg>
+        <st Contlex="PROP_ВАР">Табал</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tobolsk</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Табседа</l>
 
       <stg>
@@ -1766,6 +1860,32 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Tabseda</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Тайбари</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Тайбари</st>
+
+        <st Contlex="PROP_ӇЭ">Тайбарей</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tajbari (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>
@@ -1796,6 +1916,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Такоця</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Такоця</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Takotsja (etunimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Талеёв</l>
 
       <stg>
@@ -1816,6 +1960,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Taleev (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Таллинн</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Таллинн</st>
+
+        <st Contlex="PROP_ЕД">Таллин</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tallinna</t>
       </tg>
     </mg>
   </e>
@@ -1886,6 +2054,28 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Tibicha (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Томск</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Томск</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tomsk</t>
       </tg>
     </mg>
   </e>
@@ -2328,6 +2518,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Хельсинки</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Хельсинки</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Helsinki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Хэтанзи</l>
 
       <stg>
@@ -2366,6 +2580,28 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Kolgujev</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Швеция</l>
+
+      <stg>
+        <st Contlex="PROP_">Швеция</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ruotsi</t>
       </tg>
     </mg>
   </e>
