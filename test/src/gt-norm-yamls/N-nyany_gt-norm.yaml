@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+# In case of stem-final ь AccPl ending is ё (not ьо).
+
+
+  Noun - нянь: # Noun 'bread' - full paradigm /Type 11b/
+     нянь+N+Sg+Nom: нянь
+     нянь+N+Sg+Acc: няньмʼ
+     нянь+N+Sg+Gen: няньʼ
+     нянь+N+Sg+Dat: нянянʼ
+     нянь+N+Sg+Loc: няньхана
+     нянь+N+Sg+Abl: няньхад
+     нянь+N+Sg+Pros: нянювна
+     нянь+N+Du+Nom: няньхаʼ
+     нянь+N+Du+Acc: няньхаʼ
+     нянь+N+Du+Gen: няньхаʼ
+     нянь+N+Pl+Nom: няньˮ
+     нянь+N+Pl+Acc: нянё #! -ь + о = ё (нянь > нянё), й + о = ё
+     нянь+N+Pl+Gen: нянёˮ
+     нянь+N+Pl+Dat: няньхаˮ
+     нянь+N+Pl+Loc: няньхаˮна
+     нянь+N+Pl+Abl: няньхат
+     нянь+N+Pl+Pros: нянёˮмана    
+
+     хан+N+Tra: няньӈэ
+     хан+N+Car: няньсиˮ
+     хан+N+Equ: няньдаремʼ
+     хан+N+Equ+Lat: няньдаревʼ
