@@ -6,10 +6,38 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Adv">вадмбойʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">вадмбойʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">one by one</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">yksitellen</t>
+
+        <t pos="Adv">yksittäin</t>
+
+        <t pos="Adv">vähitellen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">вадриʼ</l>
 
       <stg>
         <st Contlex="ADV-MANNER_">вадриʼ</st>
+
+        <st Contlex="ADV-MANNER_">вадʼ</st>
       </stg>
     </lg>
 
@@ -266,6 +294,30 @@
 
   <e>
     <lg>
+      <l pos="Adv">вэбтыйвана</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">вэбтыйвана</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="Adv">ankarasti</tf>
+
+        <tf pos="Adv">vihaisesti</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">вэвавна</l>
 
       <stg>
@@ -294,6 +346,50 @@
     </mg>
 
     <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">вэвакоˮявана</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">вэвакоˮявана</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="Adv">epätoivoisesti</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">въльӈэ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">вэльӈэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">yksitellen</t>
+      </tg>
+    </mg>
   </e>
 
   <e>

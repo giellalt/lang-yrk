@@ -198,6 +198,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Вавлё</l>
+
+      <stg>
+        <st Contlex="PROP_МЕРЁ">Вавлё</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Vavljo (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Вадё</l>
 
       <stg>
@@ -318,10 +342,36 @@
 
   <e>
     <lg>
+      <l pos="Prop">Вара</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Вара</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Vara (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Вылка</l>
 
       <stg>
         <st Contlex="PROP_МАРАӇГЫ">Вылка</st>
+
+        <st Contlex="PROP_МАРАӇГЫ">Выˮлка</st>
       </stg>
 
       <stress/>
@@ -336,6 +386,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Vylka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Вэӈга</l>
+
+      <stg>
+        <st Contlex="PROP_МАРАӇГЫ">Вэӈга</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Venga (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>

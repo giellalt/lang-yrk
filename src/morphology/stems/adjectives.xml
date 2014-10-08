@@ -70,6 +70,8 @@
 
       <stg>
         <st Contlex="A_САБЦЬ">вадисей</st>
+
+        <st Contlex="A_САБЦЬ">вассей</st>
       </stg>
     </lg>
 
@@ -550,6 +552,26 @@
 
   <e>
     <lg>
+      <l pos="A">вылдой</l>
+
+      <stg>
+        <st Contlex="A_ЕД">вылдой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">valkoinen</t>
+
+        <t pos="A">puhdas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вылкумбэй</l>
 
       <stg>
@@ -612,6 +634,8 @@
 
       <stg>
         <st Contlex="A_ЕД">вырэй</st>
+
+        <st Contlex="A_ЕД">вырай</st>
       </stg>
     </lg>
 
@@ -672,6 +696,28 @@
 
   <e>
     <lg>
+      <l pos="A">вэбтый</l>
+
+      <stg>
+        <st Contlex="A_ЕД">вэбтый</st>
+
+        <st Contlex="A_ПАНЫ">вэбты</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ankara</t>
+
+        <t pos="A">karu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вэва</l>
 
       <stg>
@@ -696,6 +742,54 @@
     </mg>
 
     <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">вэвако</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">вэвако</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">huono</t>
+
+        <t pos="A">häijy</t>
+
+        <t pos="A">paha</t>
+
+        <t pos="A">laiha</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">вэита</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">вэита</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">verevä</t>
+
+        <t pos="A">verekäs</t>
+
+        <t pos="A">punaposkinen</t>
+
+        <t pos="A">punakasvoinen</t>
+      </tg>
+    </mg>
   </e>
 
   <e>
@@ -798,6 +892,44 @@
 
   <e>
     <lg>
+      <l pos="A">вэлк</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">вэлк</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">hyvin valkoinen</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">вэлц</l>
+
+      <stg>
+        <st Contlex="A_ЕД">вэлц</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kostea</t>
+
+        <t pos="A">märkä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вэлцарпэй</l>
 
       <stg>
@@ -840,6 +972,24 @@
         <t pos="A">vapaa</t>
 
         <t pos="A">kerkeä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">вэнзахад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">вэнзахад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">pahaa enteilevä</tf>
       </tg>
     </mg>
   </e>
@@ -17654,6 +17804,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">vinosuu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ёмбэркад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">ёмбэркад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">hellittelystä pitävä</tf>
       </tg>
     </mg>
   </e>
