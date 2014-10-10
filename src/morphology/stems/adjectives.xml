@@ -1018,6 +1018,26 @@
 
   <e>
     <lg>
+      <l pos="A">вэнолик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">вэнолик</st>
+
+        <st Contlex="A_ЕД">вэноӈгад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pelokas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вэнолтабэй</l>
 
       <stg>
@@ -1148,6 +1168,24 @@
 
   <e>
     <lg>
+      <l pos="A">вэцяк</l>
+
+      <stg>
+        <st Contlex="A_ЕД">вэцяк</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <tf pos="A">rikkinäisellä kärjellä</tf>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вэясавэй</l>
 
       <stg>
@@ -1160,6 +1198,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">verinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">гражданской</l>
+
+      <stg>
+        <st Contlex="A_ЕД">гражданской</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kansalais-</t>
+
+        <t pos="A">siviili-</t>
       </tg>
     </mg>
   </e>
@@ -12380,6 +12438,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">läheinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тальцятик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тальцятик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kyseilevä</t>
+
+        <t pos="A">selittävä</t>
       </tg>
     </mg>
   </e>

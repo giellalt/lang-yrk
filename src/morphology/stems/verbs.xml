@@ -10829,10 +10829,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">вэнолаӈгaсь</l>
+      <l pos="V" val="IV">вэнолаӈгась</l>
 
       <stg>
-        <st Contlex="IV_ЛАХАНА">вэнолаӈгa</st>
+        <st Contlex="IV_ЛАХАНА">вэнолаӈга</st>
       </stg>
     </lg>
 
@@ -11505,6 +11505,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">вэроˮламба</st>
+
+        <st Contlex="TV_ПЭБЮ">вэреламба</st>
       </stg>
     </lg>
 
@@ -11525,6 +11527,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">вэроˮла</st>
+
+        <st Contlex="TV_ХАДА">вэрела</st>
       </stg>
     </lg>
 
@@ -107318,6 +107322,24 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">сересятамбась</l>
+
+      <stg>
+        <st Contlex="TV_ПЭБЮ">сересятамба</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="TV">teroittaa viilalla</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">сересятась</l>
 
       <stg>
@@ -137196,6 +137218,8 @@
 
       <stg>
         <st Contlex="TV_ИЛЕ">тилебте</st>
+
+        <st Contlex="TV_ИЛЕ">тилибте</st>
       </stg>
     </lg>
 
@@ -137214,6 +137238,8 @@
 
       <stg>
         <st Contlex="VR_ИЛЕ">тилебте</st>
+
+        <st Contlex="VR_ИЛЕ">тилибте</st>
       </stg>
     </lg>
 
