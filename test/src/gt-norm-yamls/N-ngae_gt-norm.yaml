@@ -32,23 +32,23 @@ Tests:
      ӈэ+N+Pl+Loc: ӈэхэˮна
      ӈэ+N+Pl+Abl: ӈэхэт
      ӈэ+N+Pl+Pros: ӈэˮэмна
-     ӈэ+N+Sg+Nom+PxSg1: ӈэв
-     ӈэ+N+Sg+Acc+PxSg1: ӈэв
-     ӈэ+N+Sg+Gen+PxSg1: ӈэн
-     ӈэ+N+Sg+Dat+PxSg1: ӈэхэн
-     ӈэ+N+Sg+Loc+PxSg1: ӈэхэнан
-     ӈэ+N+Sg+Abl+PxSg1: ӈэхэдан
-     ӈэ+N+Sg+Pros+PxSg1: ӈэвнан
-     ӈэ+N+Du+Nom+PxSg1: ӈэхэюн
-     ӈэ+N+Du+Acc+PxSg1: ӈэхэюн
-     ӈэ+N+Du+Gen+PxSg1: ӈэхэюн
-     ӈэ+N+Pl+Nom+PxSg1: ӈэн
-     ӈэ+N+Pl+Acc+PxSg1: ӈэн
-     ӈэ+N+Pl+Gen+PxSg1: ӈэˮэн
-     ӈэ+N+Pl+Dat+PxSg1: ӈэхэˮн
-     ӈэ+N+Pl+Loc+PxSg1: ӈэхэˮнан
-     ӈэ+N+Pl+Abl+PxSg1: ӈэхэтан
-     ӈэ+N+Pl+Pros+PxSg1: ӈэˮэмнан
+     ӈэ+N+Sg+Nom+PxSg1: [ӈэв, ӈэми]
+     ӈэ+N+Sg+Acc+PxSg1: [ӈэв, ӈэми]
+     ӈэ+N+Sg+Gen+PxSg1: [ӈэн, ӈэни]
+     ӈэ+N+Sg+Dat+PxSg1: [ӈэхэн, ӈэхэни]
+     ӈэ+N+Sg+Loc+PxSg1: [ӈэхэнан, ӈэхэнани]
+     ӈэ+N+Sg+Abl+PxSg1: [ӈэхэдан, ӈэхэдани]
+     ӈэ+N+Sg+Pros+PxSg1: [ӈэвнан, ӈэвнани]
+     ӈэ+N+Du+Nom+PxSg1: [ӈэхэюн, ӈэхэюни]
+     ӈэ+N+Du+Acc+PxSg1: [ӈэхэюн, ӈэхэюни]
+     ӈэ+N+Du+Gen+PxSg1: [ӈэхэюн, ӈэхэюни]
+     ӈэ+N+Pl+Nom+PxSg1: [ӈэн, ӈэни]
+     ӈэ+N+Pl+Acc+PxSg1: [ӈэн, ӈэни]
+     ӈэ+N+Pl+Gen+PxSg1: [ӈэˮэн, ӈэˮни]
+     ӈэ+N+Pl+Dat+PxSg1: [ӈэхэˮн, ӈэхэˮни]
+     ӈэ+N+Pl+Loc+PxSg1: [ӈэхэˮнан, ӈэхэˮнани]
+     ӈэ+N+Pl+Abl+PxSg1: [ӈэхэтан, ӈэхэтани]
+     ӈэ+N+Pl+Pros+PxSg1: [ӈэˮэмнан, ӈэˮэмнани]
      ӈэ+N+Sg+Nom+PxSg2: ӈэр
      ӈэ+N+Sg+Acc+PxSg2: ӈэмд
      ӈэ+N+Sg+Gen+PxSg2: ӈэнд
@@ -186,9 +186,9 @@ Tests:
      ӈэ+N+Pl+Abl+PxPl3: ӈэхэтатоʼ
      ӈэ+N+Pl+Pros+PxPl3: ӈэˮэмнатоʼ
      ӈэ+N+Pred+Abs: ӈэд
-     ӈэ+N+Pred+Nom+PxSg1: [ӈэдав, ӈэдув]
-     ӈэ+N+Pred+Acc+PxSg1: [ӈэдав, ӈэдув]
-     ӈэ+N+Pred+Gen+PxSg1: ӈэдан
+     ӈэ+N+Pred+Nom+PxSg1: [ӈэдав, ӈэдув, ӈэдами, ӈэдми]
+     ӈэ+N+Pred+Acc+PxSg1: [ӈэдав, ӈэдув, ӈэдами, ӈэдми]
+     ӈэ+N+Pred+Gen+PxSg1: [ӈэдан, ӈэдани, ӈэдни]
      ӈэ+N+Pred+Nom+PxSg2: ӈэдар
      ӈэ+N+Pred+Acc+PxSg2: ӈэдамд
      ӈэ+N+Pred+Gen+PxSg2: ӈэданд
