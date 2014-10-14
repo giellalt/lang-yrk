@@ -365,7 +365,12 @@ Rules
 !       _ (Ӈ1:) # ;
       в _ ʼ # ;
 
-      # (2InitSylls) Cns* Vow (Н1:)  %> д _  [[ д | м | м д | н д | в | н  ] [ °: | Vow ]| м ʼ ]  ;
+!      # (2InitSylls) Cns* Vow (Н1:)  %> д _  [[ д | м | м д | н д | в | н  ] [ °: | Vow ]| м ʼ ]  ;
+      # (2InitSylls) Cns* Vow (Н1:)  %> д _  [[ д | м | м д | н д   ] [ °: | Vow ]| м ʼ ]  ;
+      # (2InitSylls) Cns* Vow (Н1:)  %> д _  [ в  а | н Vow ]   ;
+!€# мараӈга%>д°ваˮ
+!€0 мараӈга0д0ваˮ
+
       # (2InitSylls) Cns* Vow Cns _ [ Ӈ1: | С1: ] %> к: °: н %{ая%}: ;
 !€# ил°Ӈ1%>к°н%{ая%}
 !€0 ил0ӈ0гана
@@ -375,7 +380,8 @@ Rules
 
 ! Second Vowel Center
 ! C*V>C_
-      # (2InitSylls) Cns* Vow:  %> д _  р [ °: | Vow ]  ;
+!      # (2InitSylls) Cns* Vow:  %> д _  р [ °: | Vow ]  ;
+      # (2InitSylls) Cns* Vow:  %> д _  р [ :Vow ]  ;
 !€# не%>д°риʼ
 !€0 не0д0риʼ
 !€0 не0дариʼ
@@ -412,13 +418,17 @@ Rules
 !€0 илан0диʼ
 
 ! C*VC+>C_
-      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
+!      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
+      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|р|м д|н д|д] [ °: | Vow ]  ;
 !€# мяД1%>д°ми
 !€0 мя00т0ми
 !€0 мя00тами
 !€# тарД1%>д°ми
 !€0 тар00т0ми
 !€0 тар00тами
+      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ н [ и ]  ;
+!€# мараӈга%>д°ни
+!€0 мараӈга0д0ни
 
    # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) [Н1:|Ӈ1:|Д1:|С1:] ] %> к: _  [ (ю) DentStops ]  ;
 !€# тарД1%>к°юнинзь
@@ -728,7 +738,8 @@ Rules
 
 !! RIGHT ARROW ONLY IN °:а
 !variable second syllable schwa
-      # (2InitSylls) Cns* Vow:  %> д _  р [ °: | Vow ]  ;
+!      # (2InitSylls) Cns* Vow:  %> д _  р [ °: | Vow ]  ;
+      #  (2InitSylls) Cns* Vow:  %> д _  р [ и | а ]  ;
 !€# не%>д°риʼ
 !€0 не0д0риʼ
 !€0 не0дариʼ
@@ -842,7 +853,7 @@ Rules
 !€# хан°%>м°н%{ая%}
 !€0 хану0в0на
 
-!right arrow only
+!RIGHT ARROW ONLY
       # Cns* Vow Cns _ %> м: °: #;
 !€# хан°%>м°
 !€0 хана0в0

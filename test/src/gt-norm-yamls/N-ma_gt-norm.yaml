@@ -32,23 +32,23 @@ Tests:
      ма+N+Pl+Loc: махаˮна
      ма+N+Pl+Abl: махат
      ма+N+Pl+Pros: маˮамна
-     ма+N+Sg+Nom+PxSg1: мав
-     ма+N+Sg+Acc+PxSg1: мав
-     ма+N+Sg+Gen+PxSg1: ман
-     ма+N+Sg+Dat+PxSg1: махан
-     ма+N+Sg+Loc+PxSg1: маханан
-     ма+N+Sg+Abl+PxSg1: махадан
-     ма+N+Sg+Pros+PxSg1: мавнан
-     ма+N+Du+Nom+PxSg1: махаюн
-     ма+N+Du+Acc+PxSg1: махаюн
-     ма+N+Du+Gen+PxSg1: махаюн
-     ма+N+Pl+Nom+PxSg1: ман
-     ма+N+Pl+Acc+PxSg1: ман
-     ма+N+Pl+Gen+PxSg1: маˮан
-     ма+N+Pl+Dat+PxSg1: махаˮн
-     ма+N+Pl+Loc+PxSg1: махаˮнан
-     ма+N+Pl+Abl+PxSg1: махатан
-     ма+N+Pl+Pros+PxSg1: маˮамнан
+     ма+N+Sg+Nom+PxSg1: [мав, мами]
+     ма+N+Sg+Acc+PxSg1: [мав, мами]
+     ма+N+Sg+Gen+PxSg1: [ман, мани]
+     ма+N+Sg+Dat+PxSg1: [махан, махани]
+     ма+N+Sg+Loc+PxSg1: [маханан, маханани]
+     ма+N+Sg+Abl+PxSg1: [махадан, махадани]
+     ма+N+Sg+Pros+PxSg1: [мавнан, мавнани]
+     ма+N+Du+Nom+PxSg1: [махаюн, махаюни]
+     ма+N+Du+Acc+PxSg1: [махаюн, махаюни]
+     ма+N+Du+Gen+PxSg1: [махаюн, махаюни]
+     ма+N+Pl+Nom+PxSg1: [ман, мани]
+     ма+N+Pl+Acc+PxSg1: [ман, мани]
+     ма+N+Pl+Gen+PxSg1: [маˮан, маˮни]
+     ма+N+Pl+Dat+PxSg1: [махаˮн, махаˮни]
+     ма+N+Pl+Loc+PxSg1: [махаˮнан, махаˮнани]
+     ма+N+Pl+Abl+PxSg1: [махатан, махатани]
+     ма+N+Pl+Pros+PxSg1: [маˮамнан, маˮамнани]
      ма+N+Sg+Nom+PxSg2: мар
      ма+N+Sg+Acc+PxSg2: мамд
      ма+N+Sg+Gen+PxSg2: манд
@@ -203,9 +203,9 @@ Tests:
      ма+N+Pl+Abl+PxPl3: махататоʼ
      ма+N+Pl+Pros+PxPl3: маˮамнатоʼ
      ма+N+Pred+Abs: мад
-     ма+N+Pred+Nom+PxSg1: [мадав, мадув]
-     ма+N+Pred+Acc+PxSg1: [мадав, мадув]
-     ма+N+Pred+Gen+PxSg1: мадан
+     ма+N+Pred+Nom+PxSg1: [мадав, мадув, мадами, мадми]
+     ма+N+Pred+Acc+PxSg1: [мадав, мадув, мадами, мадми]
+     ма+N+Pred+Gen+PxSg1: [мадан, мадани, мадни]
      ма+N+Pred+Nom+PxSg2: мадар
      ма+N+Pred+Acc+PxSg2: мадамд
      ма+N+Pred+Gen+PxSg2: маданд
