@@ -2,12 +2,13 @@
 
 # Glottal stop spellrelax
 
+ Ӈ (->) Н г, # 04C7 not two letters
  ӈ (->) н г, # 04C8 not two letters
  ˮ (->) %", # 02EE not quot " 
  ˮ (->) %'%', # 02EE not two apostr 
  ˮ (->) %”, # 02EE not (high nine) RIGHT DOUBLE QUOTATION MARK U+201D
  ˮ (->) %’%’, # 02EE not (high nine) two RIGHT SINGLE QUOTATION MARKS U+2019
- ʼ (->)  ', # 02BC not apostr
+ ʼ (->)  ', # 02BC not apostr (Should the apostrophe be commented out?)
  ʼ (->)  ‘, # 02BC not high-6
  ʼ (->)  %’, # 02BC not (high-9) RIGHT SINGLE QUOTATION MARK U+2019
  ʼ (->) %´, # 02BC not acute 
