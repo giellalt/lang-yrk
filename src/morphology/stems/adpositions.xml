@@ -672,6 +672,40 @@
 
   <e>
     <lg>
+      <l pos="Po">мюняд</l>
+
+      <stg>
+        <st Contlex="POSTP_ABL">мюня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">sisälta</t>
+
+        <t pos="Po">sisästä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t>из-нутри</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Po">мюняна</l>
 
       <stg>
@@ -2260,6 +2294,102 @@
 
   <e>
     <lg>
+      <l pos="Po">тюˮуняʼ</l>
+
+      <stg>
+        <st Contlex="POSTP_DAT">тюˮуня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>upwards</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t>üles</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ylös</t>
+
+        <t pos="Adv">yläpuolelle</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t>вверх</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">тюˮуняд</l>
+
+      <stg>
+        <st Contlex="POSTP_ABL">тюˮуня</st>
+
+        <st Contlex="POSTP_ABL">тюня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>from above</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t>ülevalt</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">yläpuolelta</t>
+
+        <t pos="Po">ylhäältä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">тюˮуняна</l>
+
+      <stg>
+        <st Contlex="POSTP_LOC">тюˮуня</st>
+
+        <st Contlex="POSTP_LOC">тюня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>above</t>
+
+        <t>on</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t>peal</t>
+
+        <t>kohal</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">yläpuolella</t>
+
+        <t pos="Po">ylhäällä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Po">тяхад</l>
 
       <stg>
@@ -2514,6 +2644,40 @@
 
       <tg xml:lang="fin">
         <t pos="Po">paitsi</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">хунданʼ</l>
+
+      <stg>
+        <st Contlex="POSTP_DAT">хундан</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">aikana</t>
+
+        <t pos="Po">pitkin</t>
       </tg>
 
       <tg xml:lang="rus">

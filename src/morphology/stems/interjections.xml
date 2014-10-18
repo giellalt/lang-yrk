@@ -552,6 +552,30 @@
 
   <e>
     <lg>
+      <l pos="Interj">тямʼ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">тямʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">he</t>
+
+        <t pos="Interj">se</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Interj">фэ</l>
 
       <stg>
@@ -668,6 +692,32 @@
 
   <e>
     <lg>
+      <l pos="Interj">ӈанимбоейʼ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ӈанимбоейʼ</st>
+
+        <st Contlex="INTERJ_">ӈанимбойʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>hey</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">hei!</t>
+
+        <t pos="Interj">terve!</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Interj">ӈарехэˮ</l>
 
       <stg>
@@ -706,6 +756,50 @@
 
       <tg xml:lang="fin">
         <t pos="Interj">pikemmin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">ӈэё</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ӈэё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>okay</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">olkoon</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">ӈэй</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ӈэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>hey</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">hei</t>
       </tg>
     </mg>
   </e>
