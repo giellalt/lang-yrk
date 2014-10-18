@@ -22,6 +22,7 @@ LEXICON adpositions
 мюд:мю POSTP_ABL  "sisälta" ;
 мюмня:мю POSTP_PROS-Pal/Var  "sisäkautta" ;
 мюня:мю POSTP_LOC-Pal/Var  "sisällä" ;
+мюняд:мюня POSTP_ABL  "sisälta" ;
 мюняна:мюня POSTP_LOC  "sisällä" ;
 мянʼ:мян POSTP_DAT  "mukaan" ;
 немюʼ:немю POSTP_DAT  "viereen" ;
@@ -71,6 +72,11 @@ LEXICON adpositions
 серʼ:сер POSTP_DAT  "tavalla" ;
 тавна:тав POSTP_LOC  "kautta" ;
 тотревʼ:тотрев POSTP_DAT  "tavalla" ;
+тюˮуняʼ:тюˮуня POSTP_DAT  "ylös" ;
+тюˮуняд:тюˮуня POSTP_ABL  "yläpuolelta" ;
+тюˮуняд:тюня POSTP_ABL  "yläpuolelta" ;
+тюˮуняна:тюˮуня POSTP_LOC  "yläpuolella" ;
+тюˮуняна:тюня POSTP_LOC  "yläpuolella" ;
 тяхад:тяха POSTP_ABL  "takaa" ;
 тяхакуна:тяхаку POSTP_LOC  "aiemmin" ;
 тяхакуʼ:тяхаку POSTP_DAT  "aiemmas" ;
@@ -79,6 +85,7 @@ LEXICON adpositions
 тяхаʼ:тяха POSTP_DAT  "taakse" ;
 тяханяʼ:тяханя POSTP_DAT  "yli" ;
 хавна:хавна POSTP_ABS  "paitsi" ;
+хунданʼ:хундан POSTP_DAT  "aikana" ;
 хунзерʼ:хунзер POSTP_DAT  "myöten" ;
 хэвувна:хэву POSTP_PROS  "ohi" ;
 хэвхана:хэвха POSTP_LOC  "viereessä" ;
