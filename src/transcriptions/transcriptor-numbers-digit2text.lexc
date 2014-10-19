@@ -22,8 +22,9 @@ HUNDREDST ;	         ! 200000-999999
 TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
-ёнарˮ:1 THOUSAND ; ! 1000-1999
+ёнарˮ% :1 THOUSAND ; ! 1000-1999
 ORD_THOUSAND ;
+ORD_HUNDREDS ;
 
 UNDERTHOUSAND ;		 ! 100-999
 TENS ;			     ! 20-99
@@ -45,10 +46,10 @@ LEXICON ONESG
 хасуюˮ:9 GIGA ; 
 
 LEXICON 1GIGA
-милярд% :1 OVERMILLIONS ;
+миллиард% :1 OVERMILLIONS ;
 
 LEXICON GIGA
-% милярд% : OVERMILLIONS ;
+% миллиард% : OVERMILLIONS ;
 
 LEXICON HUNDREDSM
 
@@ -127,11 +128,11 @@ LEXICON ONESM
 хасуюˮ:9 MILJON ; 
 
 LEXICON 1MILJON
-миллион:1 OVERTHOUSANDS ;
-миллион:1 OVERTHOUSANDS ;
+миллион% :1 OVERTHOUSANDS ;
+миллион% :1 OVERTHOUSANDS ;
 
 LEXICON MILJON
-% миллион: OVERTHOUSANDS ;
+% миллион% : OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -247,7 +248,7 @@ LEXICON ONEST
 хасуюˮ:9 THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-ёнарˮ: THOUSAND ;
+% ёнарˮ% : THOUSAND ;
 
 
 LEXICON THOUSAND
@@ -332,7 +333,7 @@ LEXICON LOHKAI
 
 LEXICON TENS
 юˮ:1%0 # ;
-юдимдей:1%0. # ;
+
 сидя% юˮ% :2 LÅGEV ;
 няхарˮ% юˮ% :3 LÅGEV ;
 тет% юˮ% :4 LÅGEV ;
@@ -342,6 +343,8 @@ LEXICON TENS
 сидндет% юˮ% :8 LÅGEV ;
 хасуюрˮ% :9 LÅGEV ;
 
+юдимдей:1%0. # ;
+нябимдэй% юˮ:2%0%. # ;
 няхарамдэй% юˮ:3%0%. # ;
 тетимдей% юˮ:4%0%. # ;
 самлянзимдей% юˮ:5%0%. # ;
@@ -353,7 +356,6 @@ LEXICON TENS
 
 LEXICON LÅGEV
 :%0 # ;
-юдимдей:%0. # ;
 : ONES ;
 
 LEXICON ONES
@@ -396,12 +398,12 @@ LEXICON ORD_1to99T
 !10to99T ;
 
 LEXICON ORD_THOUSAND
-% ёнарˮ% :%0%0 ORDINAL ;
+! % ёнарˮ% :%0%0 ORDINAL ;
 ёнримдей:%0%0%0%. # ;
 ёнрадимдей:%0%0%0%. # ;
 
 LEXICON ORD_HUNDREDS
-% юрˮ% :%0%0 ORDINAL ;
+! % юрˮ% :%0%0 ORDINAL ;
 юримдей:%0%0%. # ; 
 
 
