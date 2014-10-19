@@ -4448,6 +4448,50 @@
 
   <e>
     <lg>
+      <l pos="Adv">сацьри</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">сацьри</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">too</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">liian</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">сейсиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">сейсиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">sydämmettömänä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">сеняˮ</l>
 
       <stg>
@@ -7234,6 +7278,30 @@
 
   <e>
     <lg>
+      <l pos="Adv">хынёсиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">хынёсиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ystävällisesti</t>
+
+        <t pos="Adv">rauhallisesti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">хынсуʼ</l>
 
       <stg>
@@ -7299,7 +7367,7 @@
       <tg xml:lang="fin">
         <t pos="Adv">usein</t>
 
-        <t pos="Adv">koko ajan</t>
+        <tf pos="Adv">koko ajan</tf>
       </tg>
     </mg>
   </e>
@@ -7330,10 +7398,10 @@
 
   <e>
     <lg>
-      <l pos="Adv">хэвняʼ</l>
+      <l pos="Adv">хэвасʼ</l>
 
       <stg>
-        <st Contlex="ADV-LOC_">хэвняʼ</st>
+        <st Contlex="ADV-MANNER_">хэвасʼ</st>
       </stg>
     </lg>
 
@@ -7345,7 +7413,77 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">sivuun</t>
+        <t pos="Adv">pareittain</t>
+
+        <t pos="Adv">parittain</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">хэвдынзерʼ</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">хэвдынзерʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">sivuittain</t>
+
+        <t pos="Adv">kyljittäin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">хэвдэнʼ</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">хэвдэнʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">sivulle</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">хэвдэхэд</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">хэвдэхэд</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">sivusta</t>
       </tg>
     </mg>
   </e>
@@ -7367,7 +7505,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ilman viestiä</t>
+        <tf pos="Adv">ilman viestiä</tf>
       </tg>
     </mg>
   </e>
@@ -7509,7 +7647,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">ole hyvä</t>
+        <tf pos="Adv">ole hyvä</tf>
       </tg>
     </mg>
   </e>

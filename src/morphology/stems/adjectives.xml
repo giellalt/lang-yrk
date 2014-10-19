@@ -10904,6 +10904,24 @@
 
   <e>
     <lg>
+      <l pos="A">селвраха</l>
+
+      <stg>
+        <st Contlex="A_МАРАӇГЫ">селвраха</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">punainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">сельской</l>
 
       <stg>
@@ -10954,6 +10972,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">harmaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">серота</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">серота</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">sopiva</t>
+
+        <t pos="A">asianomainen</t>
       </tg>
     </mg>
   </e>
@@ -16642,6 +16680,24 @@
 
   <e>
     <lg>
+      <l pos="A">хэбиць</l>
+
+      <stg>
+        <st Contlex="A_ЕД">хэбиць</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">lyhyt</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хэбэй</l>
 
       <stg>
@@ -16653,7 +16709,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">muuttunut</t>
       </tg>
     </mg>
   </e>
@@ -16718,6 +16774,28 @@
 
       <tg xml:lang="fin">
         <t pos="A">viereinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хэдˮ</l>
+
+      <stg>
+        <st Contlex="A_МЯДО">хэд</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pahanilkinen</t>
+
+        <t pos="A">ilkeäjuoninen</t>
+
+        <t pos="A">viekas</t>
       </tg>
     </mg>
   </e>

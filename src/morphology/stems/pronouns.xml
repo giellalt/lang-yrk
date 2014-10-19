@@ -1273,6 +1273,32 @@
 
   <e>
     <lg>
+      <l pos="Pron">сидтехэʼ</l>
+
+      <stg>
+        <st Contlex="PRON_">сидтехэʼ</st>
+
+        <st Contlex="PRON_">сидябтыʼ</st>
+
+        <st Contlex="PRON_">сидябту</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">both</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">molemmat</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">техэ</l>
 
       <stg>
@@ -1284,7 +1310,7 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Pron">that over there</t>
+        <tf pos="Pron">that over there</tf>
       </tg>
 
       <tg xml:lang="fin">
