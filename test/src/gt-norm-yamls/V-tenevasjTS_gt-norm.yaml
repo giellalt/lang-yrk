@@ -1,0 +1,2794 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - теневась: # Verb 'to know / tietää' - full paradigm - Type 1, transitive
+ #_[4-B-tr]_tyenyewə-_’tietää’_TV_=_paritontavuinen_ə-vartalo_[MDTN-koodit_ə,_yə]
+     теневась+V+TV+Ger: [тенева, теневась]
+     теневась+V+TV+GerFin: теневаванзь
+     теневась+V+TV+InfImprf+Nom+Sg+Abs: теневава
+     теневась+V+TV+InfImprf+Acc+Sg+Abs: теневавам’
+     теневась+V+TV+InfImprf+Gen+Sg+Abs: теневава’
+     теневась+V+TV+InfImprf+Dat+Sg+Abs: теневаван’
+     теневась+V+TV+InfImprf+Loc+Sg+Abs: теневавахана
+     теневась+V+TV+InfImprf+Abl+Sg+Abs: теневавахад
+     теневась+V+TV+InfImprf+Pros+Sg+Abs: теневававна
+     теневась+V+TV+InfImprf+Nom+Du+Abs: теневаваха’
+     теневась+V+TV+InfImprf+Acc+Du+Abs: теневаваха’
+     теневась+V+TV+InfImprf+Gen+Du+Abs: теневаваха’
+     теневась+V+TV+InfImprf+Nom+Pl+Abs: теневава”
+     теневась+V+TV+InfImprf+Acc+Pl+Abs: теневаби
+     теневась+V+TV+InfImprf+Gen+Pl+Abs: теневаби”
+     теневась+V+TV+InfImprf+Dat+Pl+Abs: теневаваха”
+     теневась+V+TV+InfImprf+Loc+Pl+Abs: теневаваха”на
+     теневась+V+TV+InfImprf+Abl+Pl+Abs: теневавахат
+     теневась+V+TV+InfImprf+Pros+Pl+Abs: теневаби”мана
+     теневась+V+TV+InfImprf+Sg+Nom+PxSg1: [теневавав, теневавами]
+     теневась+V+TV+InfImprf+Sg+Acc+PxSg1: [теневавав, теневавами]
+     теневась+V+TV+InfImprf+Sg+Gen+PxSg1: [теневаван, теневавани]
+     теневась+V+TV+InfImprf+Sg+Dat+PxSg1: [теневавахан, теневавахани]
+     теневась+V+TV+InfImprf+Sg+Loc+PxSg1: [теневаваханан, теневаваханани]
+     теневась+V+TV+InfImprf+Sg+Abl+PxSg1: [теневавахадан, теневавахадани, теневавахадни]
+     теневась+V+TV+InfImprf+Sg+Pros+PxSg1: [теневававнан, теневававнани]
+     теневась+V+TV+InfImprf+Du+Nom+PxSg1: [теневавахаюн, теневавахаюни]
+     теневась+V+TV+InfImprf+Du+Acc+PxSg1: [теневавахаюн, теневавахаюни]
+     теневась+V+TV+InfImprf+Du+Gen+PxSg1: [теневавахаюн, теневавахаюни]
+     теневась+V+TV+InfImprf+Pl+Nom+PxSg1: [теневабин, теневабини]
+     теневась+V+TV+InfImprf+Pl+Acc+PxSg1: [теневабин, теневабини]
+     теневась+V+TV+InfImprf+Pl+Gen+PxSg1: [теневаби”н, теневаби”ни]
+     теневась+V+TV+InfImprf+Pl+Dat+PxSg1: [теневаваха”н, теневаваха”ни]
+     теневась+V+TV+InfImprf+Pl+Loc+PxSg1: [теневаваха”нан, теневаваха”нани]
+     теневась+V+TV+InfImprf+Pl+Abl+PxSg1: [теневавахатан, теневавахатани, теневавахатни]
+     теневась+V+TV+InfImprf+Pl+Pros+PxSg1: [теневаби”манан, теневаби”манани]
+     теневась+V+TV+InfImprf+Sg+Nom+PxSg2: теневавар
+     теневась+V+TV+InfImprf+Sg+Acc+PxSg2: теневавамд
+     теневась+V+TV+InfImprf+Sg+Gen+PxSg2: теневаванд
+     теневась+V+TV+InfImprf+Sg+Dat+PxSg2: теневаваханд
+     теневась+V+TV+InfImprf+Sg+Loc+PxSg2: теневавахананд
+     теневась+V+TV+InfImprf+Sg+Abl+PxSg2: теневавахаданд
+     теневась+V+TV+InfImprf+Sg+Pros+PxSg2: теневававнанд
+     теневась+V+TV+InfImprf+Du+Nom+PxSg2: теневавахаюд
+     теневась+V+TV+InfImprf+Du+Acc+PxSg2: теневавахаюд
+     теневась+V+TV+InfImprf+Du+Gen+PxSg2: теневавахают
+     теневась+V+TV+InfImprf+Pl+Nom+PxSg2: теневабид
+     теневась+V+TV+InfImprf+Pl+Acc+PxSg2: теневабид
+     теневась+V+TV+InfImprf+Pl+Gen+PxSg2: теневабит
+     теневась+V+TV+InfImprf+Pl+Dat+PxSg2: теневавахат
+     теневась+V+TV+InfImprf+Pl+Loc+PxSg2: теневаваха”нат
+     теневась+V+TV+InfImprf+Pl+Abl+PxSg2: теневавахатат
+     теневась+V+TV+InfImprf+Pl+Pros+PxSg2: теневаби”манат
+     теневась+V+TV+InfImprf+Sg+Nom+PxSg3: теневавада
+     теневась+V+TV+InfImprf+Sg+Acc+PxSg3: теневавамда
+     теневась+V+TV+InfImprf+Sg+Gen+PxSg3: теневаванда
+     теневась+V+TV+InfImprf+Sg+Dat+PxSg3: теневаваханда
+     теневась+V+TV+InfImprf+Sg+Loc+PxSg3: теневавахананда
+     теневась+V+TV+InfImprf+Sg+Abl+PxSg3: теневавахаданда
+     теневась+V+TV+InfImprf+Sg+Pros+PxSg3: теневававнанда
+     теневась+V+TV+InfImprf+Du+Nom+PxSg3: теневавахаюда
+     теневась+V+TV+InfImprf+Du+Acc+PxSg3: теневавахаюда
+     теневась+V+TV+InfImprf+Du+Gen+PxSg3: теневавахаюта
+     теневась+V+TV+InfImprf+Pl+Nom+PxSg3: теневабида
+     теневась+V+TV+InfImprf+Pl+Acc+PxSg3: теневабида
+     теневась+V+TV+InfImprf+Pl+Gen+PxSg3: теневабита
+     теневась+V+TV+InfImprf+Pl+Dat+PxSg3: теневавахата
+     теневась+V+TV+InfImprf+Pl+Loc+PxSg3: теневаваха”ната
+     теневась+V+TV+InfImprf+Pl+Abl+PxSg3: [теневавахатата, теневавахатта]
+     теневась+V+TV+InfImprf+Pl+Pros+PxSg3: теневаби”маната
+     теневась+V+TV+InfImprf+Sg+Nom+PxDu1: теневавами’
+#     теневась+V+TV+InfImprf+Sg+Nom+PxSg1.2: теневавами
+     теневась+V+TV+InfImprf+Sg+Acc+PxDu1: теневавами’
+#     теневась+V+TV+InfImprf+Sg+Acc+PxSg1.2: теневавами
+     теневась+V+TV+InfImprf+Sg+Gen+PxDu1: теневавани’
+#     теневась+V+TV+InfImprf+Sg+Gen+PxSg1.2: теневавани
+     теневась+V+TV+InfImprf+Sg+Dat+PxDu1: теневавахани’
+#     теневась+V+TV+InfImprf+Sg+Dat+PxSg1.2: теневавахани
+     теневась+V+TV+InfImprf+Sg+Loc+PxDu1: теневаваханани’
+#     теневась+V+TV+InfImprf+Sg+Loc+PxSg1.2: теневаваханани
+     теневась+V+TV+InfImprf+Sg+Abl+PxDu1: [теневавахадани’, теневавахадни’]
+#     теневась+V+TV+InfImprf+Sg+Abl+PxSg1.2: [теневавахадани, теневавахадни]
+     теневась+V+TV+InfImprf+Sg+Pros+PxDu1: теневававнани’
+#     теневась+V+TV+InfImprf+Sg+Pros+PxSg1.2: теневававнани
+     теневась+V+TV+InfImprf+Du+Nom+PxDu1: теневавахаюни’
+#     теневась+V+TV+InfImprf+Du+Nom+PxSg1.2: теневавахаюни
+     теневась+V+TV+InfImprf+Du+Acc+PxDu1: теневавахаюни’
+#     теневась+V+TV+InfImprf+Du+Acc+PxSg1.2: теневавахаюни
+     теневась+V+TV+InfImprf+Du+Gen+PxDu1: теневавахаюни’
+#     теневась+V+TV+InfImprf+Du+Gen+PxSg1.2: теневавахаюни
+     теневась+V+TV+InfImprf+Pl+Nom+PxDu1: теневабини’
+#     теневась+V+TV+InfImprf+Pl+Nom+PxSg1.2: теневабини
+     теневась+V+TV+InfImprf+Pl+Acc+PxDu1: теневабини’
+#     теневась+V+TV+InfImprf+Pl+Acc+PxSg1.2: теневабини
+     теневась+V+TV+InfImprf+Pl+Gen+PxDu1: теневаби”ни’
+#     теневась+V+TV+InfImprf+Pl+Gen+PxSg1.2: теневаби”ни
+     теневась+V+TV+InfImprf+Pl+Dat+PxDu1: теневаваха”ни’
+#     теневась+V+TV+InfImprf+Pl+Dat+PxSg1.2: теневаваха”ни
+     теневась+V+TV+InfImprf+Pl+Loc+PxDu1: теневаваха”нани’
+#     теневась+V+TV+InfImprf+Pl+Loc+PxSg1.2: теневаваха”нани
+     теневась+V+TV+InfImprf+Pl+Abl+PxDu1: [теневавахатани’, теневавахатни’]
+#     теневась+V+TV+InfImprf+Pl+Abl+PxSg1.2: [теневавахатани, теневавахатни]
+     теневась+V+TV+InfImprf+Pl+Pros+PxDu1: теневаби”манани’
+#     теневась+V+TV+InfImprf+Pl+Pros+PxSg1.2: теневаби”манани
+     теневась+V+TV+InfImprf+Sg+Nom+PxDu2: теневавари’
+     теневась+V+TV+InfImprf+Sg+Acc+PxDu2: теневавамди’
+     теневась+V+TV+InfImprf+Sg+Gen+PxDu2: теневаванди’
+     теневась+V+TV+InfImprf+Sg+Dat+PxDu2: теневаваханди’
+     теневась+V+TV+InfImprf+Sg+Loc+PxDu2: теневавахананди’
+     теневась+V+TV+InfImprf+Sg+Abl+PxDu2: теневавахаданди’
+     теневась+V+TV+InfImprf+Sg+Pros+PxDu2: теневававнанди’
+     теневась+V+TV+InfImprf+Du+Nom+PxDu2: теневавахаюди’
+     теневась+V+TV+InfImprf+Du+Acc+PxDu2: теневавахаюди’
+     теневась+V+TV+InfImprf+Du+Gen+PxDu2: теневавахаюти’
+     теневась+V+TV+InfImprf+Pl+Nom+PxDu2: теневабиди’
+     теневась+V+TV+InfImprf+Pl+Acc+PxDu2: теневабиди’
+     теневась+V+TV+InfImprf+Pl+Gen+PxDu2: теневабити’
+     теневась+V+TV+InfImprf+Pl+Dat+PxDu2: теневавахати’
+     теневась+V+TV+InfImprf+Pl+Loc+PxDu2: теневаваха”нати’
+     теневась+V+TV+InfImprf+Pl+Abl+PxDu2: [теневавахатати’, теневавахатти’]
+     теневась+V+TV+InfImprf+Pl+Pros+PxDu2: теневаби”манати’
+     теневась+V+TV+InfImprf+Sg+Nom+PxDu3: теневавади’
+     теневась+V+TV+InfImprf+Sg+Acc+PxDu3: теневавамди’
+     теневась+V+TV+InfImprf+Sg+Gen+PxDu3: теневаванди’
+     теневась+V+TV+InfImprf+Sg+Dat+PxDu3: теневаваханди’
+     теневась+V+TV+InfImprf+Sg+Loc+PxDu3: теневавахананди’
+     теневась+V+TV+InfImprf+Sg+Abl+PxDu3: теневавахаданди’
+     теневась+V+TV+InfImprf+Sg+Pros+PxDu3: теневававнанди’
+     теневась+V+TV+InfImprf+Du+Nom+PxDu3: теневавахаюди’
+     теневась+V+TV+InfImprf+Du+Acc+PxDu3: теневавахаюди’
+     теневась+V+TV+InfImprf+Du+Gen+PxDu3: теневавахаюти’
+     теневась+V+TV+InfImprf+Pl+Nom+PxDu3: теневабиди’
+     теневась+V+TV+InfImprf+Pl+Acc+PxDu3: теневабиди’
+     теневась+V+TV+InfImprf+Pl+Gen+PxDu3: теневабити’
+     теневась+V+TV+InfImprf+Pl+Dat+PxDu3: теневавахати’
+     теневась+V+TV+InfImprf+Pl+Loc+PxDu3: теневаваха”нати’
+     теневась+V+TV+InfImprf+Pl+Abl+PxDu3: [теневавахатати’, теневавахатти’]
+     теневась+V+TV+InfImprf+Pl+Pros+PxDu3: теневаби”манати’
+     теневась+V+TV+InfImprf+Sg+Nom+PxPl1: теневавава”
+     теневась+V+TV+InfImprf+Sg+Acc+PxPl1: теневавава”
+     теневась+V+TV+InfImprf+Sg+Gen+PxPl1: теневавана”
+     теневась+V+TV+InfImprf+Sg+Dat+PxPl1: теневавахана”
+     теневась+V+TV+InfImprf+Sg+Loc+PxPl1: теневаваханана”
+     теневась+V+TV+InfImprf+Sg+Abl+PxPl1: [теневавахадана”, теневавахадна”]
+     теневась+V+TV+InfImprf+Sg+Pros+PxPl1: теневававнана”
+     теневась+V+TV+InfImprf+Du+Nom+PxPl1: теневавахаюна”
+     теневась+V+TV+InfImprf+Du+Acc+PxPl1: теневавахаюна”
+     теневась+V+TV+InfImprf+Du+Gen+PxPl1: теневавахаюна”
+     теневась+V+TV+InfImprf+Pl+Nom+PxPl1: теневабина”
+     теневась+V+TV+InfImprf+Pl+Acc+PxPl1: теневабина”
+     теневась+V+TV+InfImprf+Pl+Gen+PxPl1: теневаби”на”
+     теневась+V+TV+InfImprf+Pl+Dat+PxPl1: теневаваха”на”
+     теневась+V+TV+InfImprf+Pl+Loc+PxPl1: теневаваха”нана”
+     теневась+V+TV+InfImprf+Pl+Abl+PxPl1: [теневавахатана”, теневавахатна”]
+     теневась+V+TV+InfImprf+Pl+Pros+PxPl1: теневаби”манана”
+     теневась+V+TV+InfImprf+Sg+Nom+PxPl2: теневавара”
+     теневась+V+TV+InfImprf+Sg+Acc+PxPl2: теневавамда”
+     теневась+V+TV+InfImprf+Sg+Gen+PxPl2: теневаванда”
+     теневась+V+TV+InfImprf+Sg+Dat+PxPl2: теневаваханда”
+     теневась+V+TV+InfImprf+Sg+Loc+PxPl2: теневавахананда”
+     теневась+V+TV+InfImprf+Sg+Abl+PxPl2: теневавахаданда”
+     теневась+V+TV+InfImprf+Sg+Pros+PxPl2: теневававнанда”
+     теневась+V+TV+InfImprf+Du+Nom+PxPl2: теневавахаюда”
+     теневась+V+TV+InfImprf+Du+Acc+PxPl2: теневавахаюда”
+     теневась+V+TV+InfImprf+Du+Gen+PxPl2: теневавахаюта”
+     теневась+V+TV+InfImprf+Pl+Nom+PxPl2: теневабида”
+     теневась+V+TV+InfImprf+Pl+Acc+PxPl2: теневабида”
+     теневась+V+TV+InfImprf+Pl+Gen+PxPl2: теневабита”
+     теневась+V+TV+InfImprf+Pl+Dat+PxPl2: теневавахата”
+     теневась+V+TV+InfImprf+Pl+Loc+PxPl2: теневаваха”ната”
+     теневась+V+TV+InfImprf+Pl+Abl+PxPl2: [теневавахатата”, теневавахатта”]
+     теневась+V+TV+InfImprf+Pl+Pros+PxPl2: теневаби”маната”
+     теневась+V+TV+InfImprf+Sg+Nom+PxPl3: теневавадо’
+     теневась+V+TV+InfImprf+Sg+Acc+PxPl3: теневавамдо’
+     теневась+V+TV+InfImprf+Sg+Gen+PxPl3: теневавандо’
+     теневась+V+TV+InfImprf+Sg+Dat+PxPl3: теневавахандо’
+     теневась+V+TV+InfImprf+Sg+Loc+PxPl3: теневаваханандо’
+     теневась+V+TV+InfImprf+Sg+Abl+PxPl3: теневавахадандо’
+     теневась+V+TV+InfImprf+Sg+Pros+PxPl3: теневававнандо’
+     теневась+V+TV+InfImprf+Du+Nom+PxPl3: теневавахаюдо’
+     теневась+V+TV+InfImprf+Du+Acc+PxPl3: теневавахаюдо’
+     теневась+V+TV+InfImprf+Du+Gen+PxPl3: теневавахаюто’
+     теневась+V+TV+InfImprf+Pl+Nom+PxPl3: теневабидо’
+     теневась+V+TV+InfImprf+Pl+Acc+PxPl3: теневабидо’
+     теневась+V+TV+InfImprf+Pl+Gen+PxPl3: теневабито’
+     теневась+V+TV+InfImprf+Pl+Dat+PxPl3: теневавахато’
+     теневась+V+TV+InfImprf+Pl+Loc+PxPl3: теневаваха”нато’
+     теневась+V+TV+InfImprf+Pl+Abl+PxPl3: [теневавахатато’, теневавахатто’]
+     теневась+V+TV+InfImprf+Pl+Pros+PxPl3: теневаби”манато’
+     теневась+V+TV+InfImprf+Pred+Abs: теневавад
+     теневась+V+TV+InfImprf+Pred+Nom+PxSg1: [теневавадав, теневавадув, теневавадами]
+     теневась+V+TV+InfImprf+Pred+Acc+PxSg1: [теневавадав, теневавадув, теневавадами]
+     теневась+V+TV+InfImprf+Pred+Gen+PxSg1: [теневавадан, теневавадани]
+     теневась+V+TV+InfImprf+Pred+Nom+PxSg2: теневавадар
+     теневась+V+TV+InfImprf+Pred+Acc+PxSg2: теневавадамд
+     теневась+V+TV+InfImprf+Pred+Gen+PxSg2: теневаваданд
+     теневась+V+TV+InfImprf+Pred+Nom+PxSg3: теневавадада
+     теневась+V+TV+InfImprf+Pred+Acc+PxSg3: теневавадамда
+     теневась+V+TV+InfImprf+Pred+Gen+PxSg3: теневаваданда
+     теневась+V+TV+InfImprf+Pred+Nom+PxDu1: теневавадами’
+#     теневась+V+TV+InfImprf+Pred+Nom+PxSg1.2: теневавадами
+     теневась+V+TV+InfImprf+Pred+Acc+PxDu1: теневавадами’
+#     теневась+V+TV+InfImprf+Pred+Acc+PxSg1.2: теневавадами
+     теневась+V+TV+InfImprf+Pred+Gen+PxDu1: теневавадани’
+#     теневась+V+TV+InfImprf+Pred+Gen+PxSg1.2: теневавадани
+     теневась+V+TV+InfImprf+Pred+Nom+PxDu2: теневавадари’
+     теневась+V+TV+InfImprf+Pred+Acc+PxDu2: теневавадамди’
+     теневась+V+TV+InfImprf+Pred+Gen+PxDu2: теневаваданди’
+     теневась+V+TV+InfImprf+Pred+Nom+PxDu3: теневавадади’
+     теневась+V+TV+InfImprf+Pred+Acc+PxDu3: теневавадамди’
+     теневась+V+TV+InfImprf+Pred+Gen+PxDu3: теневаваданди’
+     теневась+V+TV+InfImprf+Pred+Nom+PxPl1: теневавадава”
+     теневась+V+TV+InfImprf+Pred+Acc+PxPl1: теневавадава”
+     теневась+V+TV+InfImprf+Pred+Gen+PxPl1: теневавадана”
+     теневась+V+TV+InfImprf+Pred+Nom+PxPl2: теневавадара”
+     теневась+V+TV+InfImprf+Pred+Acc+PxPl2: теневавадамда”
+     теневась+V+TV+InfImprf+Pred+Gen+PxPl2: теневаваданда”
+     теневась+V+TV+InfImprf+Pred+Nom+PxPl3: теневавададо’
+     теневась+V+TV+InfImprf+Pred+Acc+PxPl3: теневавадамдо’
+     теневась+V+TV+InfImprf+Pred+Gen+PxPl3: теневавадандо’
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Sg1: теневавадм’
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Sg2: теневаван
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Sg3: теневава
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Du1: теневавани’
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Du2: теневавади’
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Du3: теневаваха’
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Pl1: теневавава”
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Pl2: теневавада”
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Aor+Pl3: теневава”
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Sg1: теневавадамзь
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Sg2: теневаванась
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Sg3: теневавась
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Du1: теневаванинзь
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Du2: теневавадинзь
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Du3: теневаваханзь
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Pl1: теневававаць
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Pl2: теневавадаць
+     теневась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Pl3: теневаваць
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg1: теневавав
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg2: теневавар
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg3: теневавада
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu1: теневавами’
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu2: теневавари’
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu3: теневавади’
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl1: теневавава”
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl2: теневавара”
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl3: теневавадо’
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg1: теневававась
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg2: теневаварась
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg3: теневавадась
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu1: теневаваминзь
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu2: теневаваринзь
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu3: теневавадинзь
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl1: теневававаць
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl2: теневавараць
+     теневась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl3: теневавадонзь
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg1: теневавахаюн
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg2: теневавахаюд
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg3: теневавахаюда
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu1: теневавахаюни’
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu2: теневавахаюди’
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu3: теневавахаюди’
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl1: теневавахаюна”
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl2: теневавахаюда”
+     теневась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl3: теневавахаюдо’
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg1: теневавахаюнась
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg2: теневавахаюдась
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg3: теневавахаюдась
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu1: теневавахаюнинзь
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu2: теневавахаюдинзь
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu3: теневавахаюдинзь
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl1: теневавахаюнаць
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl2: теневавахаюдаць
+     теневась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl3: теневавахаюдонзь
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg1: теневабин
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg2: теневабид
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg3: теневабида
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu1: теневабини’
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu2: теневабиди’
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu3: теневабиди’
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl1: теневабина”
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl2: теневабида”
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl3: теневабидо’
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg1: теневабинась
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg2: теневабидась
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg3: теневабидась
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu1: теневабининзь
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu2: теневабидинзь
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu3: теневабидинзь
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl1: теневабинаць
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl2: теневабидаць
+     теневась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl3: теневабидонзь
+     теневась+V+TV+InfImprf+Tra: теневаваӈэ
+     теневась+V+TV+InfImprf+Car: теневаваси”
+     теневась+V+TV+InfImprf+Equ: теневавадарем’
+     теневась+V+TV+InfImprf+Equ+lat: теневавадарев’
+     теневась+V+TV+InfPrf+Nom+Sg+Abs: тенева”ма
+     теневась+V+TV+InfPrf+Acc+Sg+Abs: тенева”мам’
+     теневась+V+TV+InfPrf+Gen+Sg+Abs: тенева”ма’
+     теневась+V+TV+InfPrf+Dat+Sg+Abs: тенева”ман’
+     теневась+V+TV+InfPrf+Loc+Sg+Abs: тенева”махана
+     теневась+V+TV+InfPrf+Abl+Sg+Abs: тенева”махад
+     теневась+V+TV+InfPrf+Pros+Sg+Abs: тенева”мавна
+     теневась+V+TV+InfPrf+Nom+Du+Abs: тенева”маха’
+     теневась+V+TV+InfPrf+Acc+Du+Abs: тенева”маха’
+     теневась+V+TV+InfPrf+Gen+Du+Abs: тенева”маха’
+     теневась+V+TV+InfPrf+Nom+Pl+Abs: тенева”ма”
+     теневась+V+TV+InfPrf+Acc+Pl+Abs: тенева”ми
+     теневась+V+TV+InfPrf+Gen+Pl+Abs: тенева”ми”
+     теневась+V+TV+InfPrf+Dat+Pl+Abs: тенева”маха”
+     теневась+V+TV+InfPrf+Loc+Pl+Abs: тенева”маха”на
+     теневась+V+TV+InfPrf+Abl+Pl+Abs: тенева”махат
+     теневась+V+TV+InfPrf+Pros+Pl+Abs: тенева”ми”мана
+     теневась+V+TV+InfPrf+Sg+Nom+PxSg1: [тенева”мав, тенева”мами]
+     теневась+V+TV+InfPrf+Sg+Acc+PxSg1: [тенева”мав, тенева”мами]
+     теневась+V+TV+InfPrf+Sg+Gen+PxSg1: [тенева”ман, тенева”мани]
+     теневась+V+TV+InfPrf+Sg+Dat+PxSg1: [тенева”махан, тенева”махани]
+     теневась+V+TV+InfPrf+Sg+Loc+PxSg1: [тенева”маханан, тенева”маханани]
+     теневась+V+TV+InfPrf+Sg+Abl+PxSg1: [тенева”махадан, тенева”махадани, тенева”махадни]
+     теневась+V+TV+InfPrf+Sg+Pros+PxSg1: [тенева”мавнан, тенева”мавнани]
+     теневась+V+TV+InfPrf+Du+Nom+PxSg1: [тенева”махаюн,	тенева”махаюни]
+     теневась+V+TV+InfPrf+Du+Acc+PxSg1: [тенева”махаюн, тенева”махаюни]
+     теневась+V+TV+InfPrf+Du+Gen+PxSg1: [тенева”махаюн, тенева”махаюни]
+     теневась+V+TV+InfPrf+Pl+Nom+PxSg1: [тенева”мин, тенева”мини]
+     теневась+V+TV+InfPrf+Pl+Acc+PxSg1: [тенева”мин, тенева”мини]
+     теневась+V+TV+InfPrf+Pl+Gen+PxSg1: [тенева”ми”н, тенева”ми”ни]
+     теневась+V+TV+InfPrf+Pl+Dat+PxSg1: [тенева”маха”н, тенева”маха”ни]
+     теневась+V+TV+InfPrf+Pl+Loc+PxSg1: [тенева”маха”нан, тенева”маха”нани]
+     теневась+V+TV+InfPrf+Pl+Abl+PxSg1: [тенева”махатан, тенева”махатани, тенева”махатни]
+     теневась+V+TV+InfPrf+Pl+Pros+PxSg1: [тенева”ми”манан, тенева”ми”манани]
+     теневась+V+TV+InfPrf+Sg+Nom+PxSg2: тенева”мар
+     теневась+V+TV+InfPrf+Sg+Acc+PxSg2: тенева”мамд
+     теневась+V+TV+InfPrf+Sg+Gen+PxSg2: тенева”манд
+     теневась+V+TV+InfPrf+Sg+Dat+PxSg2: тенева”маханд
+     теневась+V+TV+InfPrf+Sg+Loc+PxSg2: тенева”махананд
+     теневась+V+TV+InfPrf+Sg+Abl+PxSg2: тенева”махаданд
+     теневась+V+TV+InfPrf+Sg+Pros+PxSg2: тенева”мавнанд
+     теневась+V+TV+InfPrf+Du+Nom+PxSg2: тенева”махаюд
+     теневась+V+TV+InfPrf+Du+Acc+PxSg2: тенева”махаюд
+     теневась+V+TV+InfPrf+Du+Gen+PxSg2: тенева”махают
+     теневась+V+TV+InfPrf+Pl+Nom+PxSg2: тенева”мид
+     теневась+V+TV+InfPrf+Pl+Acc+PxSg2: тенева”мид
+     теневась+V+TV+InfPrf+Pl+Gen+PxSg2: тенева”мит
+     теневась+V+TV+InfPrf+Pl+Dat+PxSg2: тенева”махат
+     теневась+V+TV+InfPrf+Pl+Loc+PxSg2: тенева”маха”нат
+     теневась+V+TV+InfPrf+Pl+Abl+PxSg2: тенева”махатат
+     теневась+V+TV+InfPrf+Pl+Pros+PxSg2: тенева”ми”манат
+     теневась+V+TV+InfPrf+Sg+Nom+PxSg3: тенева”мада
+     теневась+V+TV+InfPrf+Sg+Acc+PxSg3: тенева”мамда
+     теневась+V+TV+InfPrf+Sg+Gen+PxSg3: тенева”манда
+     теневась+V+TV+InfPrf+Sg+Dat+PxSg3: тенева”маханда
+     теневась+V+TV+InfPrf+Sg+Loc+PxSg3: тенева”махананда
+     теневась+V+TV+InfPrf+Sg+Abl+PxSg3: тенева”махаданда
+     теневась+V+TV+InfPrf+Sg+Pros+PxSg3: тенева”мавнанда
+     теневась+V+TV+InfPrf+Du+Nom+PxSg3: тенева”махаюда
+     теневась+V+TV+InfPrf+Du+Acc+PxSg3: тенева”махаюда
+     теневась+V+TV+InfPrf+Du+Gen+PxSg3: тенева”махаюта
+     теневась+V+TV+InfPrf+Pl+Nom+PxSg3: тенева”мида
+     теневась+V+TV+InfPrf+Pl+Acc+PxSg3: тенева”мида
+     теневась+V+TV+InfPrf+Pl+Gen+PxSg3: тенева”мита
+     теневась+V+TV+InfPrf+Pl+Dat+PxSg3: тенева”махата
+     теневась+V+TV+InfPrf+Pl+Loc+PxSg3: тенева”маха”ната
+     теневась+V+TV+InfPrf+Pl+Abl+PxSg3: [тенева”махатата, тенева”махатта]
+     теневась+V+TV+InfPrf+Pl+Pros+PxSg3: тенева”ми”маната
+     теневась+V+TV+InfPrf+Sg+Nom+PxDu1: тенева”мами’
+#     теневась+V+TV+InfPrf+Sg+Nom+PxSg1.2: тенева”мами
+     теневась+V+TV+InfPrf+Sg+Acc+PxDu1: тенева”мами’
+#     теневась+V+TV+InfPrf+Sg+Acc+PxSg1.2: тенева”мами
+     теневась+V+TV+InfPrf+Sg+Gen+PxDu1: тенева”мани’
+#     теневась+V+TV+InfPrf+Sg+Gen+PxSg1.2: тенева”мани
+     теневась+V+TV+InfPrf+Sg+Dat+PxDu1: тенева”махани’
+#     теневась+V+TV+InfPrf+Sg+Dat+PxSg1.2: тенева”махани
+     теневась+V+TV+InfPrf+Sg+Loc+PxDu1: тенева”маханани’
+#     теневась+V+TV+InfPrf+Sg+Loc+PxSg1.2: тенева”маханани
+     теневась+V+TV+InfPrf+Sg+Abl+PxDu1: [тенева”махадани’, тенева”махадни’]
+#     теневась+V+TV+InfPrf+Sg+Abl+PxSg1.2: [тенева”махадани, тенева”махадни]
+     теневась+V+TV+InfPrf+Sg+Pros+PxDu1: тенева”мавнани’
+#     теневась+V+TV+InfPrf+Sg+Pros+PxSg1.2: тенева”мавнани
+     теневась+V+TV+InfPrf+Du+Nom+PxDu1: тенева”махаюни’
+#     теневась+V+TV+InfPrf+Du+Nom+PxSg1.2: тенева”махаюни
+     теневась+V+TV+InfPrf+Du+Acc+PxDu1: тенева”махаюни’
+#     теневась+V+TV+InfPrf+Du+Acc+PxSg1.2: тенева”махаюни
+     теневась+V+TV+InfPrf+Du+Gen+PxDu1: тенева”махаюни’
+#     теневась+V+TV+InfPrf+Du+Gen+PxSg1.2: тенева”махаюни
+     теневась+V+TV+InfPrf+Pl+Nom+PxDu1: тенева”мини’
+#     теневась+V+TV+InfPrf+Pl+Nom+PxSg1.2: тенева”мини
+     теневась+V+TV+InfPrf+Pl+Acc+PxDu1: тенева”мини’
+#     теневась+V+TV+InfPrf+Pl+Acc+PxSg1.2: тенева”мини
+     теневась+V+TV+InfPrf+Pl+Gen+PxDu1: тенева”ми”ни’
+#     теневась+V+TV+InfPrf+Pl+Gen+PxSg1.2: тенева”ми”ни
+     теневась+V+TV+InfPrf+Pl+Dat+PxDu1: тенева”маха”ни’
+#     теневась+V+TV+InfPrf+Pl+Dat+PxSg1.2: тенева”маха”ни
+     теневась+V+TV+InfPrf+Pl+Loc+PxDu1: тенева”маха”нани’
+#     теневась+V+TV+InfPrf+Pl+Loc+PxSg1.2: тенева”маха”нани
+     теневась+V+TV+InfPrf+Pl+Abl+PxDu1: [тенева”махатани’, тенева”махатни’]
+#     теневась+V+TV+InfPrf+Pl+Abl+PxSg1.2: [тенева”махатани, тенева”махатни]
+     теневась+V+TV+InfPrf+Pl+Pros+PxDu1: тенева”ми”манани’
+#     теневась+V+TV+InfPrf+Pl+Pros+PxSg1.2: тенева”ми”манани
+     теневась+V+TV+InfPrf+Sg+Nom+PxDu2: тенева”мари’
+     теневась+V+TV+InfPrf+Sg+Acc+PxDu2: тенева”мамди’
+     теневась+V+TV+InfPrf+Sg+Gen+PxDu2: тенева”манди’
+     теневась+V+TV+InfPrf+Sg+Dat+PxDu2: тенева”маханди’
+     теневась+V+TV+InfPrf+Sg+Loc+PxDu2: тенева”махананди’
+     теневась+V+TV+InfPrf+Sg+Abl+PxDu2: тенева”махаданди’
+     теневась+V+TV+InfPrf+Sg+Pros+PxDu2: тенева”мавнанди’
+     теневась+V+TV+InfPrf+Du+Nom+PxDu2: тенева”махаюди’
+     теневась+V+TV+InfPrf+Du+Acc+PxDu2: тенева”махаюди’
+     теневась+V+TV+InfPrf+Du+Gen+PxDu2: тенева”махаюти’
+     теневась+V+TV+InfPrf+Pl+Nom+PxDu2: тенева”миди’
+     теневась+V+TV+InfPrf+Pl+Acc+PxDu2: тенева”миди’
+     теневась+V+TV+InfPrf+Pl+Gen+PxDu2: тенева”мити’
+     теневась+V+TV+InfPrf+Pl+Dat+PxDu2: тенева”махати’
+     теневась+V+TV+InfPrf+Pl+Loc+PxDu2: тенева”маха”нати’
+     теневась+V+TV+InfPrf+Pl+Abl+PxDu2: [тенева”махатати’, тенева”махатти’]
+     теневась+V+TV+InfPrf+Pl+Pros+PxDu2: тенева”ми”манати’
+     теневась+V+TV+InfPrf+Sg+Nom+PxDu3: тенева”мади’
+     теневась+V+TV+InfPrf+Sg+Acc+PxDu3: тенева”мамди’
+     теневась+V+TV+InfPrf+Sg+Gen+PxDu3: тенева”манди’
+     теневась+V+TV+InfPrf+Sg+Dat+PxDu3: тенева”маханди’
+     теневась+V+TV+InfPrf+Sg+Loc+PxDu3: тенева”махананди’
+     теневась+V+TV+InfPrf+Sg+Abl+PxDu3: тенева”махаданди’
+     теневась+V+TV+InfPrf+Sg+Pros+PxDu3: тенева”мавнанди’
+     теневась+V+TV+InfPrf+Du+Nom+PxDu3: тенева”махаюди’
+     теневась+V+TV+InfPrf+Du+Acc+PxDu3: тенева”махаюди’
+     теневась+V+TV+InfPrf+Du+Gen+PxDu3: тенева”махаюти’
+     теневась+V+TV+InfPrf+Pl+Nom+PxDu3: тенева”миди’
+     теневась+V+TV+InfPrf+Pl+Acc+PxDu3: тенева”миди’
+     теневась+V+TV+InfPrf+Pl+Gen+PxDu3: тенева”мити’
+     теневась+V+TV+InfPrf+Pl+Dat+PxDu3: тенева”махати’
+     теневась+V+TV+InfPrf+Pl+Loc+PxDu3: тенева”маха”нати’
+     теневась+V+TV+InfPrf+Pl+Abl+PxDu3: [тенева”махатати’, тенева”махатти’]
+     теневась+V+TV+InfPrf+Pl+Pros+PxDu3: тенева”ми”манати’
+     теневась+V+TV+InfPrf+Sg+Nom+PxPl1: тенева”мава”
+     теневась+V+TV+InfPrf+Sg+Acc+PxPl1: тенева”мава”
+     теневась+V+TV+InfPrf+Sg+Gen+PxPl1: тенева”мана”
+     теневась+V+TV+InfPrf+Sg+Dat+PxPl1: тенева”махана”
+     теневась+V+TV+InfPrf+Sg+Loc+PxPl1: тенева”маханана”
+     теневась+V+TV+InfPrf+Sg+Abl+PxPl1: [тенева”махадана”, тенева”махадна”]
+     теневась+V+TV+InfPrf+Sg+Pros+PxPl1: тенева”мавнана”
+     теневась+V+TV+InfPrf+Du+Nom+PxPl1: тенева”махаюна”
+     теневась+V+TV+InfPrf+Du+Acc+PxPl1: тенева”махаюна”
+     теневась+V+TV+InfPrf+Du+Gen+PxPl1: тенева”махаюна”
+     теневась+V+TV+InfPrf+Pl+Nom+PxPl1: тенева”мина”
+     теневась+V+TV+InfPrf+Pl+Acc+PxPl1: тенева”мина”
+     теневась+V+TV+InfPrf+Pl+Gen+PxPl1: тенева”ми”на”
+     теневась+V+TV+InfPrf+Pl+Dat+PxPl1: тенева”маха”на”
+     теневась+V+TV+InfPrf+Pl+Loc+PxPl1: тенева”маха”нана”
+     теневась+V+TV+InfPrf+Pl+Abl+PxPl1: [тенева”махатана”, тенева”махатна”]
+     теневась+V+TV+InfPrf+Pl+Pros+PxPl1: тенева”ми”манана”
+     теневась+V+TV+InfPrf+Sg+Nom+PxPl2: тенева”мара”
+     теневась+V+TV+InfPrf+Sg+Acc+PxPl2: тенева”мамда”
+     теневась+V+TV+InfPrf+Sg+Gen+PxPl2: тенева”манда”
+     теневась+V+TV+InfPrf+Sg+Dat+PxPl2: тенева”маханда”
+     теневась+V+TV+InfPrf+Sg+Loc+PxPl2: тенева”махананда”
+     теневась+V+TV+InfPrf+Sg+Abl+PxPl2: тенева”махаданда”
+     теневась+V+TV+InfPrf+Sg+Pros+PxPl2: тенева”мавнанда”
+     теневась+V+TV+InfPrf+Du+Nom+PxPl2: тенева”махаюда”
+     теневась+V+TV+InfPrf+Du+Acc+PxPl2: тенева”махаюда”
+     теневась+V+TV+InfPrf+Du+Gen+PxPl2: тенева”махаюта”
+     теневась+V+TV+InfPrf+Pl+Nom+PxPl2: тенева”мида”
+     теневась+V+TV+InfPrf+Pl+Acc+PxPl2: тенева”мида”
+     теневась+V+TV+InfPrf+Pl+Gen+PxPl2: тенева”мита”
+     теневась+V+TV+InfPrf+Pl+Dat+PxPl2: тенева”махата”
+     теневась+V+TV+InfPrf+Pl+Loc+PxPl2: тенева”маха”ната”
+     теневась+V+TV+InfPrf+Pl+Abl+PxPl2: [тенева”махатата”, тенева”махатта”]
+     теневась+V+TV+InfPrf+Pl+Pros+PxPl2: тенева”ми”маната”
+     теневась+V+TV+InfPrf+Sg+Nom+PxPl3: тенева”мадо’
+     теневась+V+TV+InfPrf+Sg+Acc+PxPl3: тенева”мамдо’
+     теневась+V+TV+InfPrf+Sg+Gen+PxPl3: тенева”мандо’
+     теневась+V+TV+InfPrf+Sg+Dat+PxPl3: тенева”махандо’
+     теневась+V+TV+InfPrf+Sg+Loc+PxPl3: тенева”маханандо’
+     теневась+V+TV+InfPrf+Sg+Abl+PxPl3: тенева”махадандо’
+     теневась+V+TV+InfPrf+Sg+Pros+PxPl3: тенева”мавнандо’
+     теневась+V+TV+InfPrf+Du+Nom+PxPl3: тенева”махаюдо’
+     теневась+V+TV+InfPrf+Du+Acc+PxPl3: тенева”махаюдо’
+     теневась+V+TV+InfPrf+Du+Gen+PxPl3: тенева”махаюто’
+     теневась+V+TV+InfPrf+Pl+Nom+PxPl3: тенева”мидо’
+     теневась+V+TV+InfPrf+Pl+Acc+PxPl3: тенева”мидо’
+     теневась+V+TV+InfPrf+Pl+Gen+PxPl3: тенева”мито’
+     теневась+V+TV+InfPrf+Pl+Dat+PxPl3: тенева”махато’
+     теневась+V+TV+InfPrf+Pl+Loc+PxPl3: тенева”маха”нато’
+     теневась+V+TV+InfPrf+Pl+Abl+PxPl3: [тенева”махатато’, тенева”махатто’]
+     теневась+V+TV+InfPrf+Pl+Pros+PxPl3: тенева”ми”манато’
+     теневась+V+TV+InfPrf+Pred+Abs: тенева”мад
+     теневась+V+TV+InfPrf+Pred+Nom+PxSg1: [тенева”мадав, тенева”мадув, тенева”мадами]
+     теневась+V+TV+InfPrf+Pred+Acc+PxSg1: [тенева”мадав, тенева”мадув,тенева”мадами]
+     теневась+V+TV+InfPrf+Pred+Gen+PxSg1: [тенева”мадан, тенева”мадани]
+     теневась+V+TV+InfPrf+Pred+Nom+PxSg2: тенева”мадар
+     теневась+V+TV+InfPrf+Pred+Acc+PxSg2: тенева”мадамд
+     теневась+V+TV+InfPrf+Pred+Gen+PxSg2: тенева”маданд
+     теневась+V+TV+InfPrf+Pred+Nom+PxSg3: тенева”мадада
+     теневась+V+TV+InfPrf+Pred+Acc+PxSg3: тенева”мадамда
+     теневась+V+TV+InfPrf+Pred+Gen+PxSg3: тенева”маданда
+     теневась+V+TV+InfPrf+Pred+Nom+PxDu1: тенева”мадами’
+#     теневась+V+TV+InfPrf+Pred+Nom+PxSg1.2: тенева”мадами
+     теневась+V+TV+InfPrf+Pred+Acc+PxDu1: тенева”мадами’
+#     теневась+V+TV+InfPrf+Pred+Acc+PxSg1.2: тенева”мадами
+     теневась+V+TV+InfPrf+Pred+Gen+PxDu1: тенева”мадани’
+#     теневась+V+TV+InfPrf+Pred+Gen+PxSg1.2: тенева”мадани
+     теневась+V+TV+InfPrf+Pred+Nom+PxDu2: тенева”мадари’
+     теневась+V+TV+InfPrf+Pred+Acc+PxDu2: тенева”мадамди’
+     теневась+V+TV+InfPrf+Pred+Gen+PxDu2: тенева”маданди’
+     теневась+V+TV+InfPrf+Pred+Nom+PxDu3: тенева”мадади’
+     теневась+V+TV+InfPrf+Pred+Acc+PxDu3: тенева”мадамди’
+     теневась+V+TV+InfPrf+Pred+Gen+PxDu3: тенева”маданди’
+     теневась+V+TV+InfPrf+Pred+Nom+PxPl1: тенева”мадава”
+     теневась+V+TV+InfPrf+Pred+Acc+PxPl1: тенева”мадава”
+     теневась+V+TV+InfPrf+Pred+Gen+PxPl1: тенева”мадана”
+     теневась+V+TV+InfPrf+Pred+Nom+PxPl2: тенева”мадара”
+     теневась+V+TV+InfPrf+Pred+Acc+PxPl2: тенева”мадамда”
+     теневась+V+TV+InfPrf+Pred+Gen+PxPl2: тенева”маданда”
+     теневась+V+TV+InfPrf+Pred+Nom+PxPl3: тенева”мададо’
+     теневась+V+TV+InfPrf+Pred+Acc+PxPl3: тенева”мадамдо’
+     теневась+V+TV+InfPrf+Pred+Gen+PxPl3: тенева”мадандо’
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Sg1: тенева”мадм’
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Sg2: тенева”ман
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Sg3: тенева”ма
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Du1: тенева”мани’
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Du2: тенева”мади’
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Du3: тенева”маха’
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Pl1: тенева”мава”
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Pl2: тенева”мада”
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Aor+Pl3: тенева”ма”
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Sg1: тенева”мадамзь
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Sg2: тенева”манась
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Sg3: тенева”мась
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Du1: тенева”манинзь
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Du2: тенева”мадинзь
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Du3: тенева”маханзь
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Pl1: тенева”маваць
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Pl2: тенева”мадаць
+     теневась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Pl3: тенева”маць
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg1: тенева”мав
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg2: тенева”мар
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg3: тенева”мада
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu1: тенева”мами’
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu2: тенева”мари’
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu3: тенева”мади’
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl1: тенева”мава”
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl2: тенева”мара”
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl3: тенева”мадо’
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg1: тенева”мавась
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg2: тенева”марась
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg3: тенева”мадась
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu1: тенева”маминзь
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu2: тенева”маринзь
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu3: тенева”мадинзь
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl1: тенева”маваць
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl2: тенева”мараць
+     теневась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl3: тенева”мадонзь
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg1: тенева”махаюн
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg2: тенева”махаюд
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg3: тенева”махаюда
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu1: тенева”махаюни’
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu2: тенева”махаюди’
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu3: тенева”махаюди’
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl1: тенева”махаюна”
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl2: тенева”махаюда”
+     теневась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl3: тенева”махаюдо’
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg1: тенева”махаюнась
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg2: тенева”махаюдась
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg3: тенева”махаюдась
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu1: тенева”махаюнинзь
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu2: тенева”махаюдинзь
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu3: тенева”махаюдинзь
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl1: тенева”махаюнаць
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl2: тенева”махаюдаць
+     теневась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl3: тенева”махаюдонзь
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg1: тенева”мин
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg2: тенева”мид
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg3: тенева”мида
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu1: тенева”мини’
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu2: тенева”миди’
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu3: тенева”миди’
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl1: тенева”мина”
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl2: тенева”мида”
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl3: тенева”мидо’
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg1: тенева”минась
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg2: тенева”мидась
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg3: тенева”мидась
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu1: тенева”мининзь
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu2: тенева”мидинзь
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu3: тенева”мидинзь
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl1: тенева”минаць
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl2: тенева”мидаць
+     теневась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl3: тенева”мидонзь
+     теневась+V+TV+InfPrf+Tra: тенева”маӈэ
+     теневась+V+TV+InfPrf+Car: тенева”маси”
+     теневась+V+TV+InfPrf+Equ: тенева”мадарем’
+     теневась+V+TV+InfPrf+Equ+lat: тенева”мадарев’
+     теневась+V+TV+PrcImprf+Nom+Sg+Abs: теневана
+     теневась+V+TV+PrcImprf+Acc+Sg+Abs: теневанам’
+     теневась+V+TV+PrcImprf+Gen+Sg+Abs: теневана’
+     теневась+V+TV+PrcImprf+Dat+Sg+Abs: теневанан’
+     теневась+V+TV+PrcImprf+Loc+Sg+Abs: теневанахана
+     теневась+V+TV+PrcImprf+Abl+Sg+Abs: теневанахад
+     теневась+V+TV+PrcImprf+Pros+Sg+Abs: теневанавна
+     теневась+V+TV+PrcImprf+Nom+Du+Abs: теневанаха’
+     теневась+V+TV+PrcImprf+Acc+Du+Abs: теневанаха’
+     теневась+V+TV+PrcImprf+Gen+Du+Abs: теневанаха’
+     теневась+V+TV+PrcImprf+Nom+Pl+Abs: теневана”
+     теневась+V+TV+PrcImprf+Acc+Pl+Abs: теневани
+     теневась+V+TV+PrcImprf+Gen+Pl+Abs: теневани”
+     теневась+V+TV+PrcImprf+Dat+Pl+Abs: теневанаха”
+     теневась+V+TV+PrcImprf+Loc+Pl+Abs: теневанаха”на
+     теневась+V+TV+PrcImprf+Abl+Pl+Abs: теневанахат
+     теневась+V+TV+PrcImprf+Pros+Pl+Abs: теневани”мана
+     теневась+V+TV+PrcImprf+Sg+Nom+PxSg1: [теневанав, теневанами]
+     теневась+V+TV+PrcImprf+Sg+Acc+PxSg1: [теневанав, теневанами]
+     теневась+V+TV+PrcImprf+Sg+Gen+PxSg1: [теневанан, теневанани]
+     теневась+V+TV+PrcImprf+Sg+Dat+PxSg1: [теневанахан, теневанахани]
+     теневась+V+TV+PrcImprf+Sg+Loc+PxSg1: [теневанаханан, теневанаханани]
+     теневась+V+TV+PrcImprf+Sg+Abl+PxSg1: [теневанахадан, теневанахадани, теневанахадни]
+     теневась+V+TV+PrcImprf+Sg+Pros+PxSg1: [теневанавнан, теневанавнани]
+     теневась+V+TV+PrcImprf+Du+Nom+PxSg1: [теневанахаюн, теневанахаюни]
+     теневась+V+TV+PrcImprf+Du+Acc+PxSg1: [теневанахаюн, теневанахаюни]
+     теневась+V+TV+PrcImprf+Du+Gen+PxSg1: [теневанахаюн, теневанахаюни]
+     теневась+V+TV+PrcImprf+Pl+Nom+PxSg1: [теневанин, теневанини]
+     теневась+V+TV+PrcImprf+Pl+Acc+PxSg1: [теневанин, теневанини]
+     теневась+V+TV+PrcImprf+Pl+Gen+PxSg1: [теневани”н, теневани”ни]
+     теневась+V+TV+PrcImprf+Pl+Dat+PxSg1: [теневанаха”н, теневанаха”ни]
+     теневась+V+TV+PrcImprf+Pl+Loc+PxSg1: [теневанаха”нан, теневанаха”нани]
+     теневась+V+TV+PrcImprf+Pl+Abl+PxSg1: [теневанахатан, теневанахатани, теневанахатни]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxSg1: [теневани”манан, теневани”манани]
+     теневась+V+TV+PrcImprf+Sg+Nom+PxSg2: теневанар
+     теневась+V+TV+PrcImprf+Sg+Acc+PxSg2: теневанамд
+     теневась+V+TV+PrcImprf+Sg+Gen+PxSg2: теневананд
+     теневась+V+TV+PrcImprf+Sg+Dat+PxSg2: теневанаханд
+     теневась+V+TV+PrcImprf+Sg+Loc+PxSg2: теневанахананд
+     теневась+V+TV+PrcImprf+Sg+Abl+PxSg2: теневанахаданд
+     теневась+V+TV+PrcImprf+Sg+Pros+PxSg2: теневанавнанд
+     теневась+V+TV+PrcImprf+Du+Nom+PxSg2: теневанахаюд
+     теневась+V+TV+PrcImprf+Du+Acc+PxSg2: теневанахаюд
+     теневась+V+TV+PrcImprf+Du+Gen+PxSg2: теневанахают
+     теневась+V+TV+PrcImprf+Pl+Nom+PxSg2: теневанид
+     теневась+V+TV+PrcImprf+Pl+Acc+PxSg2: теневанид
+     теневась+V+TV+PrcImprf+Pl+Gen+PxSg2: теневанит
+     теневась+V+TV+PrcImprf+Pl+Dat+PxSg2: теневанахат
+     теневась+V+TV+PrcImprf+Pl+Loc+PxSg2: теневанаха”нат
+     теневась+V+TV+PrcImprf+Pl+Abl+PxSg2: теневанахатат
+     теневась+V+TV+PrcImprf+Pl+Pros+PxSg2: теневани”манат
+     теневась+V+TV+PrcImprf+Sg+Nom+PxSg3: теневанада
+     теневась+V+TV+PrcImprf+Sg+Acc+PxSg3: теневанамда
+     теневась+V+TV+PrcImprf+Sg+Gen+PxSg3: теневананда
+     теневась+V+TV+PrcImprf+Sg+Dat+PxSg3: теневанаханда
+     теневась+V+TV+PrcImprf+Sg+Loc+PxSg3: теневанахананда
+     теневась+V+TV+PrcImprf+Sg+Abl+PxSg3: теневанахаданда
+     теневась+V+TV+PrcImprf+Sg+Pros+PxSg3: теневанавнанда
+     теневась+V+TV+PrcImprf+Du+Nom+PxSg3: теневанахаюда
+     теневась+V+TV+PrcImprf+Du+Acc+PxSg3: теневанахаюда
+     теневась+V+TV+PrcImprf+Du+Gen+PxSg3: теневанахаюта
+     теневась+V+TV+PrcImprf+Pl+Nom+PxSg3: теневанида
+     теневась+V+TV+PrcImprf+Pl+Acc+PxSg3: теневанида
+     теневась+V+TV+PrcImprf+Pl+Gen+PxSg3: теневанита
+     теневась+V+TV+PrcImprf+Pl+Dat+PxSg3: теневанахата
+     теневась+V+TV+PrcImprf+Pl+Loc+PxSg3: теневанаха”ната
+     теневась+V+TV+PrcImprf+Pl+Abl+PxSg3: [теневанахатата, теневанахатта]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxSg3: теневани”маната
+     теневась+V+TV+PrcImprf+Sg+Nom+PxDu1: теневанами’
+#     теневась+V+TV+PrcImprf+Sg+Nom+PxSg1.2: теневанами
+     теневась+V+TV+PrcImprf+Sg+Acc+PxDu1: теневанами’
+#     теневась+V+TV+PrcImprf+Sg+Acc+PxSg1.2: теневанами
+     теневась+V+TV+PrcImprf+Sg+Gen+PxDu1: теневанани’
+#     теневась+V+TV+PrcImprf+Sg+Gen+PxSg1.2: теневанани
+     теневась+V+TV+PrcImprf+Sg+Dat+PxDu1: теневанахани’
+#     теневась+V+TV+PrcImprf+Sg+Dat+PxSg1.2: теневанахани
+     теневась+V+TV+PrcImprf+Sg+Loc+PxDu1: теневанаханани’
+#     теневась+V+TV+PrcImprf+Sg+Loc+PxSg1.2: теневанаханани
+     теневась+V+TV+PrcImprf+Sg+Abl+PxDu1: [теневанахадани’, теневанахадни’]
+#     теневась+V+TV+PrcImprf+Sg+Abl+PxSg1.2: [теневанахадани, теневанахадни]
+     теневась+V+TV+PrcImprf+Sg+Pros+PxDu1: теневанавнани’
+#     теневась+V+TV+PrcImprf+Sg+Pros+PxSg1.2: теневанавнани
+     теневась+V+TV+PrcImprf+Du+Nom+PxDu1: теневанахаюни’
+#     теневась+V+TV+PrcImprf+Du+Nom+PxSg1.2: теневанахаюни
+     теневась+V+TV+PrcImprf+Du+Acc+PxDu1: теневанахаюни’
+#     теневась+V+TV+PrcImprf+Du+Acc+PxSg1.2: теневанахаюни
+     теневась+V+TV+PrcImprf+Du+Gen+PxDu1: теневанахаюни’
+#     теневась+V+TV+PrcImprf+Du+Gen+PxSg1.2: теневанахаюни
+     теневась+V+TV+PrcImprf+Pl+Nom+PxDu1: теневанини’
+#     теневась+V+TV+PrcImprf+Pl+Nom+PxSg1.2: теневанини
+     теневась+V+TV+PrcImprf+Pl+Acc+PxDu1: теневанини’
+#     теневась+V+TV+PrcImprf+Pl+Acc+PxSg1.2: теневанини
+     теневась+V+TV+PrcImprf+Pl+Gen+PxDu1: теневани”ни’
+#     теневась+V+TV+PrcImprf+Pl+Gen+PxSg1.2: теневани”ни
+     теневась+V+TV+PrcImprf+Pl+Dat+PxDu1: теневанаха”ни’
+#     теневась+V+TV+PrcImprf+Pl+Dat+PxSg1.2: теневанаха”ни
+     теневась+V+TV+PrcImprf+Pl+Loc+PxDu1: теневанаха”нани’
+#     теневась+V+TV+PrcImprf+Pl+Loc+PxSg1.2: теневанаха”нани
+     теневась+V+TV+PrcImprf+Pl+Abl+PxDu1: [теневанахатани’, теневанахатни’]
+#     теневась+V+TV+PrcImprf+Pl+Abl+PxSg1.2: [теневанахатани, теневанахатни]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxDu1: теневани”манани’
+#     теневась+V+TV+PrcImprf+Pl+Pros+PxSg1.2: теневани”манани
+     теневась+V+TV+PrcImprf+Sg+Nom+PxDu2: теневанари’
+     теневась+V+TV+PrcImprf+Sg+Acc+PxDu2: теневанамди’
+     теневась+V+TV+PrcImprf+Sg+Gen+PxDu2: теневананди’
+     теневась+V+TV+PrcImprf+Sg+Dat+PxDu2: теневанаханди’
+     теневась+V+TV+PrcImprf+Sg+Loc+PxDu2: теневанахананди’
+     теневась+V+TV+PrcImprf+Sg+Abl+PxDu2: теневанахаданди’
+     теневась+V+TV+PrcImprf+Sg+Pros+PxDu2: теневанавнанди’
+     теневась+V+TV+PrcImprf+Du+Nom+PxDu2: теневанахаюди’
+     теневась+V+TV+PrcImprf+Du+Acc+PxDu2: теневанахаюди’
+     теневась+V+TV+PrcImprf+Du+Gen+PxDu2: теневанахаюти’
+     теневась+V+TV+PrcImprf+Pl+Nom+PxDu2: теневаниди’
+     теневась+V+TV+PrcImprf+Pl+Acc+PxDu2: теневаниди’
+     теневась+V+TV+PrcImprf+Pl+Gen+PxDu2: теневанити’
+     теневась+V+TV+PrcImprf+Pl+Dat+PxDu2: теневанахати’
+     теневась+V+TV+PrcImprf+Pl+Loc+PxDu2: теневанаха”нати’
+     теневась+V+TV+PrcImprf+Pl+Abl+PxDu2: [теневанахатати’, теневанахатти’]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxDu2: теневани”манати’
+     теневась+V+TV+PrcImprf+Sg+Nom+PxDu3: теневанади’
+     теневась+V+TV+PrcImprf+Sg+Acc+PxDu3: теневанамди’
+     теневась+V+TV+PrcImprf+Sg+Gen+PxDu3: теневананди’
+     теневась+V+TV+PrcImprf+Sg+Dat+PxDu3: теневанаханди’
+     теневась+V+TV+PrcImprf+Sg+Loc+PxDu3: теневанахананди’
+     теневась+V+TV+PrcImprf+Sg+Abl+PxDu3: теневанахаданди’
+     теневась+V+TV+PrcImprf+Sg+Pros+PxDu3: теневанавнанди’
+     теневась+V+TV+PrcImprf+Du+Nom+PxDu3: теневанахаюди’
+     теневась+V+TV+PrcImprf+Du+Acc+PxDu3: теневанахаюди’
+     теневась+V+TV+PrcImprf+Du+Gen+PxDu3: теневанахаюти’
+     теневась+V+TV+PrcImprf+Pl+Nom+PxDu3: теневаниди’
+     теневась+V+TV+PrcImprf+Pl+Acc+PxDu3: теневаниди’
+     теневась+V+TV+PrcImprf+Pl+Gen+PxDu3: теневанити’
+     теневась+V+TV+PrcImprf+Pl+Dat+PxDu3: теневанахати’
+     теневась+V+TV+PrcImprf+Pl+Loc+PxDu3: теневанаха”нати’
+     теневась+V+TV+PrcImprf+Pl+Abl+PxDu3: [теневанахатати’, теневанахатти’]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxDu3: теневани”манати’
+     теневась+V+TV+PrcImprf+Sg+Nom+PxPl1: теневанава”
+     теневась+V+TV+PrcImprf+Sg+Acc+PxPl1: теневанава”
+     теневась+V+TV+PrcImprf+Sg+Gen+PxPl1: теневанана”
+     теневась+V+TV+PrcImprf+Sg+Dat+PxPl1: теневанахана”
+     теневась+V+TV+PrcImprf+Sg+Loc+PxPl1: теневанаханана”
+     теневась+V+TV+PrcImprf+Sg+Abl+PxPl1: [теневанахадана”, теневанахадна”]
+     теневась+V+TV+PrcImprf+Sg+Pros+PxPl1: теневанавнана”
+     теневась+V+TV+PrcImprf+Du+Nom+PxPl1: теневанахаюна”
+     теневась+V+TV+PrcImprf+Du+Acc+PxPl1: теневанахаюна”
+     теневась+V+TV+PrcImprf+Du+Gen+PxPl1: теневанахаюна”
+     теневась+V+TV+PrcImprf+Pl+Nom+PxPl1: теневанина”
+     теневась+V+TV+PrcImprf+Pl+Acc+PxPl1: теневанина”
+     теневась+V+TV+PrcImprf+Pl+Gen+PxPl1: теневани”на”
+     теневась+V+TV+PrcImprf+Pl+Dat+PxPl1: теневанаха”на”
+     теневась+V+TV+PrcImprf+Pl+Loc+PxPl1: теневанаха”нана”
+     теневась+V+TV+PrcImprf+Pl+Abl+PxPl1: [теневанахатана”, теневанахатна”]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxPl1: теневани”манана”
+     теневась+V+TV+PrcImprf+Sg+Nom+PxPl2: теневанара”
+     теневась+V+TV+PrcImprf+Sg+Acc+PxPl2: теневанамда”
+     теневась+V+TV+PrcImprf+Sg+Gen+PxPl2: теневананда”
+     теневась+V+TV+PrcImprf+Sg+Dat+PxPl2: теневанаханда”
+     теневась+V+TV+PrcImprf+Sg+Loc+PxPl2: теневанахананда”
+     теневась+V+TV+PrcImprf+Sg+Abl+PxPl2: теневанахаданда”
+     теневась+V+TV+PrcImprf+Sg+Pros+PxPl2: теневанавнанда”
+     теневась+V+TV+PrcImprf+Du+Nom+PxPl2: теневанахаюда”
+     теневась+V+TV+PrcImprf+Du+Acc+PxPl2: теневанахаюда”
+     теневась+V+TV+PrcImprf+Du+Gen+PxPl2: теневанахаюта”
+     теневась+V+TV+PrcImprf+Pl+Nom+PxPl2: теневанида”
+     теневась+V+TV+PrcImprf+Pl+Acc+PxPl2: теневанида”
+     теневась+V+TV+PrcImprf+Pl+Gen+PxPl2: теневанита”
+     теневась+V+TV+PrcImprf+Pl+Dat+PxPl2: теневанахата”
+     теневась+V+TV+PrcImprf+Pl+Loc+PxPl2: теневанаха”ната”
+     теневась+V+TV+PrcImprf+Pl+Abl+PxPl2: [теневанахатата”, теневанахатта”]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxPl2: теневани”маната”
+     теневась+V+TV+PrcImprf+Sg+Nom+PxPl3: теневанадо’
+     теневась+V+TV+PrcImprf+Sg+Acc+PxPl3: теневанамдо’
+     теневась+V+TV+PrcImprf+Sg+Gen+PxPl3: теневанандо’
+     теневась+V+TV+PrcImprf+Sg+Dat+PxPl3: теневанахандо’
+     теневась+V+TV+PrcImprf+Sg+Loc+PxPl3: теневанаханандо’
+     теневась+V+TV+PrcImprf+Sg+Abl+PxPl3: теневанахадандо’
+     теневась+V+TV+PrcImprf+Sg+Pros+PxPl3: теневанавнандо’
+     теневась+V+TV+PrcImprf+Du+Nom+PxPl3: теневанахаюдо’
+     теневась+V+TV+PrcImprf+Du+Acc+PxPl3: теневанахаюдо’
+     теневась+V+TV+PrcImprf+Du+Gen+PxPl3: теневанахаюто’
+     теневась+V+TV+PrcImprf+Pl+Nom+PxPl3: теневанидо’
+     теневась+V+TV+PrcImprf+Pl+Acc+PxPl3: теневанидо’
+     теневась+V+TV+PrcImprf+Pl+Gen+PxPl3: теневанито’
+     теневась+V+TV+PrcImprf+Pl+Dat+PxPl3: теневанахато’
+     теневась+V+TV+PrcImprf+Pl+Loc+PxPl3: теневанаха”нато’
+     теневась+V+TV+PrcImprf+Pl+Abl+PxPl3: [теневанахатато’, теневанахатто’]
+     теневась+V+TV+PrcImprf+Pl+Pros+PxPl3: теневани”манато’
+     теневась+V+TV+PrcImprf+Pred+Abs: теневанад
+     теневась+V+TV+PrcImprf+Pred+Nom+PxSg1: [теневанадав, теневанадув, теневанадами]
+     теневась+V+TV+PrcImprf+Pred+Acc+PxSg1: [теневанадав, теневанадув, теневанадами]
+     теневась+V+TV+PrcImprf+Pred+Gen+PxSg1: [теневанадан, теневанадани]
+     теневась+V+TV+PrcImprf+Pred+Nom+PxSg2: теневанадар
+     теневась+V+TV+PrcImprf+Pred+Acc+PxSg2: теневанадамд
+     теневась+V+TV+PrcImprf+Pred+Gen+PxSg2: теневанаданд
+     теневась+V+TV+PrcImprf+Pred+Nom+PxSg3: теневанадада
+     теневась+V+TV+PrcImprf+Pred+Acc+PxSg3: теневанадамда
+     теневась+V+TV+PrcImprf+Pred+Gen+PxSg3: теневанаданда
+     теневась+V+TV+PrcImprf+Pred+Nom+PxDu1: теневанадами’
+#     теневась+V+TV+PrcImprf+Pred+Nom+PxSg1.2: теневанадами
+     теневась+V+TV+PrcImprf+Pred+Acc+PxDu1: теневанадами’
+#     теневась+V+TV+PrcImprf+Pred+Acc+PxSg1.2: теневанадами
+     теневась+V+TV+PrcImprf+Pred+Gen+PxDu1: теневанадани’
+#     теневась+V+TV+PrcImprf+Pred+Gen+PxSg1.2: теневанадани
+     теневась+V+TV+PrcImprf+Pred+Nom+PxDu2: теневанадари’
+     теневась+V+TV+PrcImprf+Pred+Acc+PxDu2: теневанадамди’
+     теневась+V+TV+PrcImprf+Pred+Gen+PxDu2: теневанаданди’
+     теневась+V+TV+PrcImprf+Pred+Nom+PxDu3: теневанадади’
+     теневась+V+TV+PrcImprf+Pred+Acc+PxDu3: теневанадамди’
+     теневась+V+TV+PrcImprf+Pred+Gen+PxDu3: теневанаданди’
+     теневась+V+TV+PrcImprf+Pred+Nom+PxPl1: теневанадава”
+     теневась+V+TV+PrcImprf+Pred+Acc+PxPl1: теневанадава”
+     теневась+V+TV+PrcImprf+Pred+Gen+PxPl1: теневанадана”
+     теневась+V+TV+PrcImprf+Pred+Nom+PxPl2: теневанадара”
+     теневась+V+TV+PrcImprf+Pred+Acc+PxPl2: теневанадамда”
+     теневась+V+TV+PrcImprf+Pred+Gen+PxPl2: теневанаданда”
+     теневась+V+TV+PrcImprf+Pred+Nom+PxPl3: теневанададо’
+     теневась+V+TV+PrcImprf+Pred+Acc+PxPl3: теневанадамдо’
+     теневась+V+TV+PrcImprf+Pred+Gen+PxPl3: теневанадандо’
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Sg1: теневанадм’
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Sg2: теневанан
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Sg3: теневана
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Du1: теневанани’
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Du2: теневанади’
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Du3: теневанаха’
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Pl1: теневанава”
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Pl2: теневанада”
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Pl3: теневана”
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Sg1: теневанадамзь
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Sg2: теневананась
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Sg3: теневанась
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Du1: теневананинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Du2: теневанадинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Du3: теневанаханзь
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Pl1: теневанаваць
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Pl2: теневанадаць
+     теневась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Pl3: теневанаць
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg1: теневанав
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg2: теневанар
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg3: теневанада
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu1: теневанами’
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu2: теневанари’
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu3: теневанади’
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl1: теневанава”
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl2: теневанара”
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl3: теневанадо’
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg1: теневанавась
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg2: теневанарась
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg3: теневанадась
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu1: теневанаминзь
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu2: теневанаринзь
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu3: теневанадинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl1: теневанаваць
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl2: теневанараць
+     теневась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl3: теневанадонзь
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg1: теневанахаюн
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg2: теневанахаюд
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg3: теневанахаюда
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu1: теневанахаюни’
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu2: теневанахаюди’
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu3: теневанахаюди’
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl1: теневанахаюна”
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl2: теневанахаюда”
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl3: теневанахаюдо’
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg1: теневанахаюнась
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg2: теневанахаюдась
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg3: теневанахаюдась
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu1: теневанахаюнинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu2: теневанахаюдинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu3: теневанахаюдинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl1: теневанахаюнаць
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl2: теневанахаюдаць
+     теневась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl3: теневанахаюдонзь
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg1: теневанин
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg2: теневанид
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg3: теневанида
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu1: теневанини’
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu2: теневаниди’
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu3: теневаниди’
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl1: теневанина”
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl2: теневанида”
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl3: теневанидо’
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg1: теневанинась
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg2: теневанидась
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg3: теневанидась
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu1: теневанининзь
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu2: теневанидинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu3: теневанидинзь
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl1: теневанинаць
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl2: теневанидаць
+     теневась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl3: теневанидонзь
+     теневась+V+TV+PrcImprf+Tra: теневанаӈэ
+     теневась+V+TV+PrcImprf+Car: теневанаси”
+     теневась+V+TV+PrcImprf+Equ: теневанадарем’
+     теневась+V+TV+PrcImprf+Equ+lat: теневанадарев’
+     теневась+V+TV+PrcPrf+Nom+Sg+Abs: теневавы
+     теневась+V+TV+PrcPrf+Acc+Sg+Abs: теневавым’
+     теневась+V+TV+PrcPrf+Gen+Sg+Abs: теневавы’
+     теневась+V+TV+PrcPrf+Dat+Sg+Abs: теневавэн’
+     теневась+V+TV+PrcPrf+Loc+Sg+Abs: теневавэхэна
+     теневась+V+TV+PrcPrf+Abl+Sg+Abs: теневавэхэд
+     теневась+V+TV+PrcPrf+Pros+Sg+Abs: теневавэвна
+     теневась+V+TV+PrcPrf+Nom+Du+Abs: теневавэхэ’
+     теневась+V+TV+PrcPrf+Acc+Du+Abs: теневавэхэ’
+     теневась+V+TV+PrcPrf+Gen+Du+Abs: теневавэхэ’
+     теневась+V+TV+PrcPrf+Nom+Pl+Abs: теневавы”
+     теневась+V+TV+PrcPrf+Acc+Pl+Abs: теневавы
+     теневась+V+TV+PrcPrf+Gen+Pl+Abs: теневавы”
+     теневась+V+TV+PrcPrf+Dat+Pl+Abs: теневавэхэ”
+     теневась+V+TV+PrcPrf+Loc+Pl+Abs: теневавэхэ”на
+     теневась+V+TV+PrcPrf+Abl+Pl+Abs: теневавэхэт
+     теневась+V+TV+PrcPrf+Pros+Pl+Abs: теневавы”мана
+     теневась+V+TV+PrcPrf+Sg+Nom+PxSg1: [теневавэв, теневавэми]
+     теневась+V+TV+PrcPrf+Sg+Acc+PxSg1: [теневавэв, теневавэми]
+     теневась+V+TV+PrcPrf+Sg+Gen+PxSg1: [теневавэн, теневавэни]
+     теневась+V+TV+PrcPrf+Sg+Dat+PxSg1: [теневавэхэн, теневавэхэни]
+     теневась+V+TV+PrcPrf+Sg+Loc+PxSg1: [теневавэхэнан, теневавэхэнани]
+     теневась+V+TV+PrcPrf+Sg+Abl+PxSg1: [теневавэхэдан, теневавэхэдани, теневавэхэдни]
+     теневась+V+TV+PrcPrf+Sg+Pros+PxSg1: [теневавэвнан, теневавэвнани]
+     теневась+V+TV+PrcPrf+Du+Nom+PxSg1: [теневавэхэюн, теневавэхэюни]
+     теневась+V+TV+PrcPrf+Du+Acc+PxSg1: [теневавэхэюн, теневавэхэюни]
+     теневась+V+TV+PrcPrf+Du+Gen+PxSg1: [теневавэхэюн, теневавэхэюни]
+     теневась+V+TV+PrcPrf+Pl+Nom+PxSg1: [теневавын, теневавыни]
+     теневась+V+TV+PrcPrf+Pl+Acc+PxSg1: [теневавын, теневавыни]
+     теневась+V+TV+PrcPrf+Pl+Gen+PxSg1: [теневавы”н, теневавы”ни]
+     теневась+V+TV+PrcPrf+Pl+Dat+PxSg1: [теневавэхэ”н, теневавэхэ”ни]
+     теневась+V+TV+PrcPrf+Pl+Loc+PxSg1: [теневавэхэ”нан, теневавэхэ”нани]
+     теневась+V+TV+PrcPrf+Pl+Abl+PxSg1: [теневавэхэтан, теневавэхэтани, теневавэхэтни]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxSg1: [теневавы”манан, теневавы”манани]
+     теневась+V+TV+PrcPrf+Sg+Nom+PxSg2: теневавэр
+     теневась+V+TV+PrcPrf+Sg+Acc+PxSg2: теневавэмд
+     теневась+V+TV+PrcPrf+Sg+Gen+PxSg2: теневавэнд
+     теневась+V+TV+PrcPrf+Sg+Dat+PxSg2: теневавэхэнд
+     теневась+V+TV+PrcPrf+Sg+Loc+PxSg2: теневавэхэнанд
+     теневась+V+TV+PrcPrf+Sg+Abl+PxSg2: теневавэхэданд
+     теневась+V+TV+PrcPrf+Sg+Pros+PxSg2: теневавэвнанд
+     теневась+V+TV+PrcPrf+Du+Nom+PxSg2: теневавэхэюд
+     теневась+V+TV+PrcPrf+Du+Acc+PxSg2: теневавэхэюд
+     теневась+V+TV+PrcPrf+Du+Gen+PxSg2: теневавэхэют
+     теневась+V+TV+PrcPrf+Pl+Nom+PxSg2: теневавыд
+     теневась+V+TV+PrcPrf+Pl+Acc+PxSg2: теневавыд
+     теневась+V+TV+PrcPrf+Pl+Gen+PxSg2: теневавыт
+     теневась+V+TV+PrcPrf+Pl+Dat+PxSg2: теневавэхэт
+     теневась+V+TV+PrcPrf+Pl+Loc+PxSg2: теневавэхэ”нат
+     теневась+V+TV+PrcPrf+Pl+Abl+PxSg2: теневавэхэтат
+     теневась+V+TV+PrcPrf+Pl+Pros+PxSg2: теневавы”манат
+     теневась+V+TV+PrcPrf+Sg+Nom+PxSg3: теневавэда
+     теневась+V+TV+PrcPrf+Sg+Acc+PxSg3: теневавэмда
+     теневась+V+TV+PrcPrf+Sg+Gen+PxSg3: теневавэнда
+     теневась+V+TV+PrcPrf+Sg+Dat+PxSg3: теневавэхэнда
+     теневась+V+TV+PrcPrf+Sg+Loc+PxSg3: теневавэхэнанда
+     теневась+V+TV+PrcPrf+Sg+Abl+PxSg3: теневавэхэданда
+     теневась+V+TV+PrcPrf+Sg+Pros+PxSg3: теневавэвнанда
+     теневась+V+TV+PrcPrf+Du+Nom+PxSg3: теневавэхэюда
+     теневась+V+TV+PrcPrf+Du+Acc+PxSg3: теневавэхэюда
+     теневась+V+TV+PrcPrf+Du+Gen+PxSg3: теневавэхэюта
+     теневась+V+TV+PrcPrf+Pl+Nom+PxSg3: теневавыда
+     теневась+V+TV+PrcPrf+Pl+Acc+PxSg3: теневавыда
+     теневась+V+TV+PrcPrf+Pl+Gen+PxSg3: теневавыта
+     теневась+V+TV+PrcPrf+Pl+Dat+PxSg3: теневавэхэта
+     теневась+V+TV+PrcPrf+Pl+Loc+PxSg3: теневавэхэ”ната
+     теневась+V+TV+PrcPrf+Pl+Abl+PxSg3: [теневавэхэтата, теневавэхэтта]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxSg3: теневавы”маната
+     теневась+V+TV+PrcPrf+Sg+Nom+PxDu1: теневавэми’
+#     теневась+V+TV+PrcPrf+Sg+Nom+PxSg1.2: теневавэми
+     теневась+V+TV+PrcPrf+Sg+Acc+PxDu1: теневавэми’
+#     теневась+V+TV+PrcPrf+Sg+Acc+PxSg1.2: теневавэми
+     теневась+V+TV+PrcPrf+Sg+Gen+PxDu1: теневавэни’
+#     теневась+V+TV+PrcPrf+Sg+Gen+PxSg1.2: теневавэни
+     теневась+V+TV+PrcPrf+Sg+Dat+PxDu1: теневавэхэни’
+#     теневась+V+TV+PrcPrf+Sg+Dat+PxSg1.2: теневавэхэни
+     теневась+V+TV+PrcPrf+Sg+Loc+PxDu1: теневавэхэнани’
+#     теневась+V+TV+PrcPrf+Sg+Loc+PxSg1.2: теневавэхэнани
+     теневась+V+TV+PrcPrf+Sg+Abl+PxDu1: [теневавэхэдани’, теневавэхэдни’]
+#     теневась+V+TV+PrcPrf+Sg+Abl+PxSg1.2: [теневавэхэдани, теневавэхэдни]
+     теневась+V+TV+PrcPrf+Sg+Pros+PxDu1: теневавэвнани’
+#     теневась+V+TV+PrcPrf+Sg+Pros+PxSg1.2: теневавэвнани
+     теневась+V+TV+PrcPrf+Du+Nom+PxDu1: теневавэхэюни’
+#     теневась+V+TV+PrcPrf+Du+Nom+PxSg1.2: теневавэхэюни
+     теневась+V+TV+PrcPrf+Du+Acc+PxDu1: теневавэхэюни’
+#     теневась+V+TV+PrcPrf+Du+Acc+PxSg1.2: теневавэхэюни
+     теневась+V+TV+PrcPrf+Du+Gen+PxDu1: теневавэхэюни’
+#     теневась+V+TV+PrcPrf+Du+Gen+PxSg1.2: теневавэхэюни
+     теневась+V+TV+PrcPrf+Pl+Nom+PxDu1: теневавыни’
+#     теневась+V+TV+PrcPrf+Pl+Nom+PxSg1.2: теневавыни
+     теневась+V+TV+PrcPrf+Pl+Acc+PxDu1: теневавыни’
+#     теневась+V+TV+PrcPrf+Pl+Acc+PxSg1.2: теневавыни
+     теневась+V+TV+PrcPrf+Pl+Gen+PxDu1: теневавы”ни’
+#     теневась+V+TV+PrcPrf+Pl+Gen+PxSg1.2: теневавы”ни
+     теневась+V+TV+PrcPrf+Pl+Dat+PxDu1: теневавэхэ”ни’
+#     теневась+V+TV+PrcPrf+Pl+Dat+PxSg1.2: теневавэхэ”ни
+     теневась+V+TV+PrcPrf+Pl+Loc+PxDu1: теневавэхэ”нани’
+#     теневась+V+TV+PrcPrf+Pl+Loc+PxSg1.2: теневавэхэ”нани
+     теневась+V+TV+PrcPrf+Pl+Abl+PxDu1: [теневавэхэтани’, теневавэхэтни’]
+#     теневась+V+TV+PrcPrf+Pl+Abl+PxSg1.2: [теневавэхэтани, теневавэхэтни]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxDu1: теневавы”манани’
+#     теневась+V+TV+PrcPrf+Pl+Pros+PxSg1.2: теневавы”манани
+     теневась+V+TV+PrcPrf+Sg+Nom+PxDu2: теневавэри’
+     теневась+V+TV+PrcPrf+Sg+Acc+PxDu2: теневавэмди’
+     теневась+V+TV+PrcPrf+Sg+Gen+PxDu2: теневавэнди’
+     теневась+V+TV+PrcPrf+Sg+Dat+PxDu2: теневавэхэнди’
+     теневась+V+TV+PrcPrf+Sg+Loc+PxDu2: теневавэхэнанди’
+     теневась+V+TV+PrcPrf+Sg+Abl+PxDu2: теневавэхэданди’
+     теневась+V+TV+PrcPrf+Sg+Pros+PxDu2: теневавэвнанди’
+     теневась+V+TV+PrcPrf+Du+Nom+PxDu2: теневавэхэюди’
+     теневась+V+TV+PrcPrf+Du+Acc+PxDu2: теневавэхэюди’
+     теневась+V+TV+PrcPrf+Du+Gen+PxDu2: теневавэхэюти’
+     теневась+V+TV+PrcPrf+Pl+Nom+PxDu2: теневавыди’
+     теневась+V+TV+PrcPrf+Pl+Acc+PxDu2: теневавыди’
+     теневась+V+TV+PrcPrf+Pl+Gen+PxDu2: теневавыти’
+     теневась+V+TV+PrcPrf+Pl+Dat+PxDu2: теневавэхэти’
+     теневась+V+TV+PrcPrf+Pl+Loc+PxDu2: теневавэхэ”нати’
+     теневась+V+TV+PrcPrf+Pl+Abl+PxDu2: [теневавэхэтати’, теневавэхэтти’]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxDu2: теневавы”манати’
+     теневась+V+TV+PrcPrf+Sg+Nom+PxDu3: теневавэди’
+     теневась+V+TV+PrcPrf+Sg+Acc+PxDu3: теневавэмди’
+     теневась+V+TV+PrcPrf+Sg+Gen+PxDu3: теневавэнди’
+     теневась+V+TV+PrcPrf+Sg+Dat+PxDu3: теневавэхэнди’
+     теневась+V+TV+PrcPrf+Sg+Loc+PxDu3: теневавэхэнанди’
+     теневась+V+TV+PrcPrf+Sg+Abl+PxDu3: теневавэхэданди’
+     теневась+V+TV+PrcPrf+Sg+Pros+PxDu3: теневавэвнанди’
+     теневась+V+TV+PrcPrf+Du+Nom+PxDu3: теневавэхэюди’
+     теневась+V+TV+PrcPrf+Du+Acc+PxDu3: теневавэхэюди’
+     теневась+V+TV+PrcPrf+Du+Gen+PxDu3: теневавэхэюти’
+     теневась+V+TV+PrcPrf+Pl+Nom+PxDu3: теневавыди’
+     теневась+V+TV+PrcPrf+Pl+Acc+PxDu3: теневавыди’
+     теневась+V+TV+PrcPrf+Pl+Gen+PxDu3: теневавыти’
+     теневась+V+TV+PrcPrf+Pl+Dat+PxDu3: теневавэхэти’
+     теневась+V+TV+PrcPrf+Pl+Loc+PxDu3: теневавэхэ”нати’
+     теневась+V+TV+PrcPrf+Pl+Abl+PxDu3: [теневавэхэтати’, теневавэхэтти’]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxDu3: теневавы”манати’
+     теневась+V+TV+PrcPrf+Sg+Nom+PxPl1: теневавэва”
+     теневась+V+TV+PrcPrf+Sg+Acc+PxPl1: теневавэва”
+     теневась+V+TV+PrcPrf+Sg+Gen+PxPl1: теневавэна”
+     теневась+V+TV+PrcPrf+Sg+Dat+PxPl1: теневавэхэна”
+     теневась+V+TV+PrcPrf+Sg+Loc+PxPl1: теневавэхэнана”
+     теневась+V+TV+PrcPrf+Sg+Abl+PxPl1: [теневавэхэдана”, теневавэхэдна”]
+     теневась+V+TV+PrcPrf+Sg+Pros+PxPl1: теневавэвнана”
+     теневась+V+TV+PrcPrf+Du+Nom+PxPl1: теневавэхэюна”
+     теневась+V+TV+PrcPrf+Du+Acc+PxPl1: теневавэхэюна”
+     теневась+V+TV+PrcPrf+Du+Gen+PxPl1: теневавэхэюна”
+     теневась+V+TV+PrcPrf+Pl+Nom+PxPl1: теневавына”
+     теневась+V+TV+PrcPrf+Pl+Acc+PxPl1: теневавына”
+     теневась+V+TV+PrcPrf+Pl+Gen+PxPl1: теневавы”на”
+     теневась+V+TV+PrcPrf+Pl+Dat+PxPl1: теневавэхэ”на”
+     теневась+V+TV+PrcPrf+Pl+Loc+PxPl1: теневавэхэ”нана”
+     теневась+V+TV+PrcPrf+Pl+Abl+PxPl1: [теневавэхэтана”, теневавэхэтна”]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxPl1: теневавы”манана”
+     теневась+V+TV+PrcPrf+Sg+Nom+PxPl2: теневавэра”
+     теневась+V+TV+PrcPrf+Sg+Acc+PxPl2: теневавэмда”
+     теневась+V+TV+PrcPrf+Sg+Gen+PxPl2: теневавэнда”
+     теневась+V+TV+PrcPrf+Sg+Dat+PxPl2: теневавэхэнда”
+     теневась+V+TV+PrcPrf+Sg+Loc+PxPl2: теневавэхэнанда”
+     теневась+V+TV+PrcPrf+Sg+Abl+PxPl2: теневавэхэданда”
+     теневась+V+TV+PrcPrf+Sg+Pros+PxPl2: теневавэвнанда”
+     теневась+V+TV+PrcPrf+Du+Nom+PxPl2: теневавэхэюда”
+     теневась+V+TV+PrcPrf+Du+Acc+PxPl2: теневавэхэюда”
+     теневась+V+TV+PrcPrf+Du+Gen+PxPl2: теневавэхэюта”
+     теневась+V+TV+PrcPrf+Pl+Nom+PxPl2: теневавыда”
+     теневась+V+TV+PrcPrf+Pl+Acc+PxPl2: теневавыда”
+     теневась+V+TV+PrcPrf+Pl+Gen+PxPl2: теневавыта”
+     теневась+V+TV+PrcPrf+Pl+Dat+PxPl2: теневавэхэта”
+     теневась+V+TV+PrcPrf+Pl+Loc+PxPl2: теневавэхэ”ната”
+     теневась+V+TV+PrcPrf+Pl+Abl+PxPl2: [теневавэхэтата”, теневавэхэтта”]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxPl2: теневавы”маната”
+     теневась+V+TV+PrcPrf+Sg+Nom+PxPl3: теневавэдо’
+     теневась+V+TV+PrcPrf+Sg+Acc+PxPl3: теневавэмдо’
+     теневась+V+TV+PrcPrf+Sg+Gen+PxPl3: теневавэндо’
+     теневась+V+TV+PrcPrf+Sg+Dat+PxPl3: теневавэхэндо’
+     теневась+V+TV+PrcPrf+Sg+Loc+PxPl3: теневавэхэнандо’
+     теневась+V+TV+PrcPrf+Sg+Abl+PxPl3: теневавэхэдандо’
+     теневась+V+TV+PrcPrf+Sg+Pros+PxPl3: теневавэвнандо’
+     теневась+V+TV+PrcPrf+Du+Nom+PxPl3: теневавэхэюдо’
+     теневась+V+TV+PrcPrf+Du+Acc+PxPl3: теневавэхэюдо’
+     теневась+V+TV+PrcPrf+Du+Gen+PxPl3: теневавэхэюто’
+     теневась+V+TV+PrcPrf+Pl+Nom+PxPl3: теневавыдо’
+     теневась+V+TV+PrcPrf+Pl+Acc+PxPl3: теневавыдо’
+     теневась+V+TV+PrcPrf+Pl+Gen+PxPl3: теневавыто’
+     теневась+V+TV+PrcPrf+Pl+Dat+PxPl3: теневавэхэто’
+     теневась+V+TV+PrcPrf+Pl+Loc+PxPl3: теневавэхэ”нато’
+     теневась+V+TV+PrcPrf+Pl+Abl+PxPl3: [теневавэхэтато’, теневавэхэтто’]
+     теневась+V+TV+PrcPrf+Pl+Pros+PxPl3: теневавы”манато’
+     теневась+V+TV+PrcPrf+Pred+Abs: теневавэд
+     теневась+V+TV+PrcPrf+Pred+Nom+PxSg1: [теневавэдав, теневавэдув, теневавэдами]
+     теневась+V+TV+PrcPrf+Pred+Acc+PxSg1: [теневавэдав, теневавэдув, теневавэдами]
+     теневась+V+TV+PrcPrf+Pred+Gen+PxSg1: [теневавэдан, теневавэдани]
+     теневась+V+TV+PrcPrf+Pred+Nom+PxSg2: теневавэдар
+     теневась+V+TV+PrcPrf+Pred+Acc+PxSg2: теневавэдамд
+     теневась+V+TV+PrcPrf+Pred+Gen+PxSg2: теневавэданд
+     теневась+V+TV+PrcPrf+Pred+Nom+PxSg3: теневавэдада
+     теневась+V+TV+PrcPrf+Pred+Acc+PxSg3: теневавэдамда
+     теневась+V+TV+PrcPrf+Pred+Gen+PxSg3: теневавэданда
+     теневась+V+TV+PrcPrf+Pred+Nom+PxDu1: теневавэдами’
+#     теневась+V+TV+PrcPrf+Pred+Nom+PxSg1.2: теневавэдами
+     теневась+V+TV+PrcPrf+Pred+Acc+PxDu1: теневавэдами’
+#     теневась+V+TV+PrcPrf+Pred+Acc+PxSg1.2: теневавэдами
+     теневась+V+TV+PrcPrf+Pred+Gen+PxDu1: теневавэдани’
+#     теневась+V+TV+PrcPrf+Pred+Gen+PxSg1.2: теневавэдани
+     теневась+V+TV+PrcPrf+Pred+Nom+PxDu2: теневавэдари’
+     теневась+V+TV+PrcPrf+Pred+Acc+PxDu2: теневавэдамди’
+     теневась+V+TV+PrcPrf+Pred+Gen+PxDu2: теневавэданди’
+     теневась+V+TV+PrcPrf+Pred+Nom+PxDu3: теневавэдади’
+     теневась+V+TV+PrcPrf+Pred+Acc+PxDu3: теневавэдамди’
+     теневась+V+TV+PrcPrf+Pred+Gen+PxDu3: теневавэданди’
+     теневась+V+TV+PrcPrf+Pred+Nom+PxPl1: теневавэдава”
+     теневась+V+TV+PrcPrf+Pred+Acc+PxPl1: теневавэдава”
+     теневась+V+TV+PrcPrf+Pred+Gen+PxPl1: теневавэдана”
+     теневась+V+TV+PrcPrf+Pred+Nom+PxPl2: теневавэдара”
+     теневась+V+TV+PrcPrf+Pred+Acc+PxPl2: теневавэдамда”
+     теневась+V+TV+PrcPrf+Pred+Gen+PxPl2: теневавэданда”
+     теневась+V+TV+PrcPrf+Pred+Nom+PxPl3: теневавэдадо’
+     теневась+V+TV+PrcPrf+Pred+Acc+PxPl3: теневавэдамдо’
+     теневась+V+TV+PrcPrf+Pred+Gen+PxPl3: теневавэдандо’
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Sg1: теневавэдм’
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Sg2: теневавэн
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Sg3: теневавы
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Du1: теневавэни’
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Du2: теневавэди’
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Du3: теневавэхэ’
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Pl1: теневавэва”
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Pl2: теневавэда”
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Pl3: теневавы”
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Sg1: теневавэдамзь
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Sg2: теневавэнась
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Sg3: [теневавысь, теневавэсь]
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Du1: теневавэнинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Du2: теневавэдинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Du3: теневавэхэнзь
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Pl1: теневавэваць
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Pl2: теневавэдаць
+     теневась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Pl3: [теневавыць, теневавэць]
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg1: теневавэв
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg2: теневавэр
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg3: теневавэда
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu1: теневавэми’
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu2: теневавэри’
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu3: теневавэди’
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl1: теневавэва”
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl2: теневавэра”
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl3: теневавэдо’
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg1: теневавэвась
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg2: теневавэрась
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg3: теневавэдась
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu1: теневавэминзь
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu2: теневавэринзь
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu3: теневавэдинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl1: теневавэваць
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl2: теневавэраць
+     теневась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl3: теневавэдонзь
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg1: теневавэхэюн
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg2: теневавэхэюд
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg3: теневавэхэюда
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu1: теневавэхэюни’
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu2: теневавэхэюди’
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu3: теневавэхэюди’
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl1: теневавэхэюна”
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl2: теневавэхэюда”
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl3: теневавэхэюдо’
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg1: теневавэхэюнась
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg2: теневавэхэюдась
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg3: теневавэхэюдась
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu1: теневавэхэюнинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu2: теневавэхэюдинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu3: теневавэхэюдинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl1: теневавэхэюнаць
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl2: теневавэхэюдаць
+     теневась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl3: теневавэхэюдонзь
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg1: теневавын
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg2: теневавыд
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg3: теневавыда
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu1: теневавыни’
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu2: теневавыди’
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu3: теневавыди’
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl1: теневавына”
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl2: теневавыда”
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl3: теневавыдо’
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg1: теневавынась
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg2: теневавыдась
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg3: теневавыдась
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu1: теневавынинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu2: теневавыдинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu3: теневавыдинзь
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl1: теневавынаць
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl2: теневавыдаць
+     теневась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl3: теневавыдонзь
+     теневась+V+TV+PrcPrf+Tra: теневавэӈэ
+     теневась+V+TV+PrcPrf+Car: теневавэси”
+     теневась+V+TV+PrcPrf+Equ: теневавэдарем’
+     теневась+V+TV+PrcPrf+Equ+lat: теневавэдарев’
+     теневась+V+TV+PrcFut+Nom+Sg+Abs: [теневавнда, теневувнда]
+     теневась+V+TV+PrcFut+Acc+Sg+Abs: [теневавндам’, теневувндам’]
+     теневась+V+TV+PrcFut+Gen+Sg+Abs: [теневавнда’, теневувнда’]
+     теневась+V+TV+PrcFut+Dat+Sg+Abs: [теневавндан’, теневувндан’]
+     теневась+V+TV+PrcFut+Loc+Sg+Abs: [теневавндахана, теневувндахана]
+     теневась+V+TV+PrcFut+Abl+Sg+Abs: [теневавндахад, теневувндахад]
+     теневась+V+TV+PrcFut+Pros+Sg+Abs: [теневавндавна, теневувндавна]
+     теневась+V+TV+PrcFut+Nom+Du+Abs: [теневавндаха’, теневувндаха’]
+     теневась+V+TV+PrcFut+Acc+Du+Abs: [теневавндаха’, теневувндаха’]
+     теневась+V+TV+PrcFut+Gen+Du+Abs: [теневавндаха’, теневувндаха’]
+     теневась+V+TV+PrcFut+Nom+Pl+Abs: [теневавнда”, теневувнда”]
+     теневась+V+TV+PrcFut+Acc+Pl+Abs: [теневавнди, теневувнди]
+     теневась+V+TV+PrcFut+Gen+Pl+Abs: [теневавнди”, теневувнди”]
+     теневась+V+TV+PrcFut+Dat+Pl+Abs: [теневавндаха”, теневувндаха”]
+     теневась+V+TV+PrcFut+Loc+Pl+Abs: [теневавндаха”на, теневувндаха”на]
+     теневась+V+TV+PrcFut+Abl+Pl+Abs: [теневавндахат, теневувндахат]
+     теневась+V+TV+PrcFut+Pros+Pl+Abs: [теневавнди”мна, теневувнди”мна]
+     теневась+V+TV+PrcFut+Sg+Nom+PxSg1: [теневавндав, теневувндав, теневавндами, теневувндами]
+     теневась+V+TV+PrcFut+Sg+Acc+PxSg1: [теневавндав, теневувндав, теневавндами, теневувндами]
+     теневась+V+TV+PrcFut+Sg+Gen+PxSg1: [теневавндан, теневувндан, теневавндани, теневувндани]
+     теневась+V+TV+PrcFut+Sg+Dat+PxSg1: [теневавндахан, теневувндахан, теневавндахани, теневувндахани]
+     теневась+V+TV+PrcFut+Sg+Loc+PxSg1: [теневавндаханан, теневувндаханан, теневавндаханани, теневувндаханани]
+     теневась+V+TV+PrcFut+Sg+Abl+PxSg1: [теневавндахадан, теневувндахадан, теневавндахадани, теневувндахадани]
+     теневась+V+TV+PrcFut+Sg+Pros+PxSg1: [теневавндавнан, теневувндавнан, теневавндавнани, теневувндавнани]
+     теневась+V+TV+PrcFut+Du+Nom+PxSg1: [теневавндахаюн, теневувндахаюн, теневавндахаюни, теневувндахаюни]
+     теневась+V+TV+PrcFut+Du+Acc+PxSg1: [теневавндахаюн, теневувндахаюн, теневавндахаюни, теневувндахаюни]
+     теневась+V+TV+PrcFut+Du+Gen+PxSg1: [теневавндахаюн, теневувндахаюн, теневавндахаюни, теневувндахаюни]
+     теневась+V+TV+PrcFut+Pl+Nom+PxSg1: [теневавндин, теневувндин, теневавндини, теневувндини]
+     теневась+V+TV+PrcFut+Pl+Acc+PxSg1: [теневавндин, теневувндин, теневавндини, теневувндини]
+     теневась+V+TV+PrcFut+Pl+Gen+PxSg1: [теневавнди”н, теневувнди”н, теневавнди”ни, теневувнди”ни]
+     теневась+V+TV+PrcFut+Pl+Dat+PxSg1: [теневавндаха”н, теневувндаха”н, теневавндаха”ни, теневувндаха”ни]
+     теневась+V+TV+PrcFut+Pl+Loc+PxSg1: [теневавндаха”нан, теневувндаха”нан, теневавндаха”нани, теневувндаха”нани]
+     теневась+V+TV+PrcFut+Pl+Abl+PxSg1: [теневавндахатан, теневувндахатан, теневавндахатани, теневувндахатани]
+     теневась+V+TV+PrcFut+Pl+Pros+PxSg1: [теневавнди”мнан, теневувнди”мнан, теневавнди”мнани, теневувнди”мнани]
+     теневась+V+TV+PrcFut+Sg+Nom+PxSg2: [теневавндар, теневувндар]
+     теневась+V+TV+PrcFut+Sg+Acc+PxSg2: [теневавндамд, теневувндамд]
+     теневась+V+TV+PrcFut+Sg+Gen+PxSg2: [теневавнданд, теневувнданд]
+     теневась+V+TV+PrcFut+Sg+Dat+PxSg2: [теневавндаханд, теневувндаханд]
+     теневась+V+TV+PrcFut+Sg+Loc+PxSg2: [теневавндахананд, теневувндахананд]
+     теневась+V+TV+PrcFut+Sg+Abl+PxSg2: [теневавндахаданд, теневувндахаданд]
+     теневась+V+TV+PrcFut+Sg+Pros+PxSg2: [теневавндавнанд, теневувндавнанд]
+     теневась+V+TV+PrcFut+Du+Nom+PxSg2: [теневавндахаюд, теневувндахаюд]
+     теневась+V+TV+PrcFut+Du+Acc+PxSg2: [теневавндахаюд, теневувндахаюд]
+     теневась+V+TV+PrcFut+Du+Gen+PxSg2: [теневавндахают, теневувндахают]
+     теневась+V+TV+PrcFut+Pl+Nom+PxSg2: [теневавндид, теневувндид]
+     теневась+V+TV+PrcFut+Pl+Acc+PxSg2: [теневавндид, теневувндид]
+     теневась+V+TV+PrcFut+Pl+Gen+PxSg2: [теневавндит, теневувндит]
+     теневась+V+TV+PrcFut+Pl+Dat+PxSg2: [теневавндахат, теневувндахат]
+     теневась+V+TV+PrcFut+Pl+Loc+PxSg2: [теневавндаха”нат, теневувндаха”нат]
+     теневась+V+TV+PrcFut+Pl+Abl+PxSg2: [теневавндахатат, теневувндахатат]
+     теневась+V+TV+PrcFut+Pl+Pros+PxSg2: [теневавнди”мнат, теневувнди”мнат]
+     теневась+V+TV+PrcFut+Sg+Nom+PxSg3: [теневавндада, теневувндада]
+     теневась+V+TV+PrcFut+Sg+Acc+PxSg3: [теневавндамда, теневувндамда]
+     теневась+V+TV+PrcFut+Sg+Gen+PxSg3: [теневавнданда, теневувнданда]
+     теневась+V+TV+PrcFut+Sg+Dat+PxSg3: [теневавндаханда, теневувндаханда]
+     теневась+V+TV+PrcFut+Sg+Loc+PxSg3: [теневавндахананда, теневувндахананда]
+     теневась+V+TV+PrcFut+Sg+Abl+PxSg3: [теневавндахаданда, теневувндахаданда]
+     теневась+V+TV+PrcFut+Sg+Pros+PxSg3: [теневавндавнанда, теневувндавнанда]
+     теневась+V+TV+PrcFut+Du+Nom+PxSg3: [теневавндахаюда, теневувндахаюда]
+     теневась+V+TV+PrcFut+Du+Acc+PxSg3: [теневавндахаюда, теневувндахаюда]
+     теневась+V+TV+PrcFut+Du+Gen+PxSg3: [теневавндахаюта, теневувндахаюта]
+     теневась+V+TV+PrcFut+Pl+Nom+PxSg3: [теневавндида, теневувндида]
+     теневась+V+TV+PrcFut+Pl+Acc+PxSg3: [теневавндида, теневувндида]
+     теневась+V+TV+PrcFut+Pl+Gen+PxSg3: [теневавндита, теневувндита]
+     теневась+V+TV+PrcFut+Pl+Dat+PxSg3: [теневавндахата, теневувндахата]
+     теневась+V+TV+PrcFut+Pl+Loc+PxSg3: [теневавндаха”ната, теневувндаха”ната]
+     теневась+V+TV+PrcFut+Pl+Abl+PxSg3: [теневавндахатата, теневувндахатата]
+     теневась+V+TV+PrcFut+Pl+Pros+PxSg3: [теневавнди”мната, теневувнди”мната]
+     теневась+V+TV+PrcFut+Sg+Nom+PxDu1: [теневавндами’, теневувндами’]
+#     теневась+V+TV+PrcFut+Sg+Nom+PxSg1.2: [теневавндами, теневувндами]
+     теневась+V+TV+PrcFut+Sg+Acc+PxDu1: [теневавндами’, теневувндами’]
+#     теневась+V+TV+PrcFut+Sg+Acc+PxSg1.2: [теневавндами, теневувндами]
+     теневась+V+TV+PrcFut+Sg+Gen+PxDu1: [теневавндани’, теневувндани’]
+#     теневась+V+TV+PrcFut+Sg+Gen+PxSg1.2: [теневавндани, теневувндани]
+     теневась+V+TV+PrcFut+Sg+Dat+PxDu1: [теневавндахани’, теневувндахани’]
+#     теневась+V+TV+PrcFut+Sg+Dat+PxSg1.2: [теневавндахани, теневувндахани]
+     теневась+V+TV+PrcFut+Sg+Loc+PxDu1: [теневавндаханани’, теневувндаханани’]
+#     теневась+V+TV+PrcFut+Sg+Loc+PxSg1.2: [теневавндаханани, теневувндаханани]
+     теневась+V+TV+PrcFut+Sg+Abl+PxDu1: [теневавндахадани’, теневувндахадани’]
+#     теневась+V+TV+PrcFut+Sg+Abl+PxSg1.2: [теневавндахадани, теневувндахадани]
+     теневась+V+TV+PrcFut+Sg+Pros+PxDu1: [теневавндавнани’, теневувндавнани’]
+#     теневась+V+TV+PrcFut+Sg+Pros+PxSg1.2: [теневавндавнани, теневувндавнани]
+     теневась+V+TV+PrcFut+Du+Nom+PxDu1: [теневавндахаюни’, теневувндахаюни’]
+#     теневась+V+TV+PrcFut+Du+Nom+PxSg1.2: [теневавндахаюни, теневувндахаюни]
+     теневась+V+TV+PrcFut+Du+Acc+PxDu1: [теневавндахаюни’, теневувндахаюни’]
+#     теневась+V+TV+PrcFut+Du+Acc+PxSg1.2: [теневавндахаюни, теневувндахаюни]
+     теневась+V+TV+PrcFut+Du+Gen+PxDu1: [теневавндахаюни’, теневувндахаюни’]
+#     теневась+V+TV+PrcFut+Du+Gen+PxSg1.2: [теневавндахаюни, теневувндахаюни]
+     теневась+V+TV+PrcFut+Pl+Nom+PxDu1: [теневавндини’, теневувндини’]
+#     теневась+V+TV+PrcFut+Pl+Nom+PxSg1.2: [теневавндини, теневувндини]
+     теневась+V+TV+PrcFut+Pl+Acc+PxDu1: [теневавндини’, теневувндини’]
+#     теневась+V+TV+PrcFut+Pl+Acc+PxSg1.2: [теневавндини, теневувндини]
+     теневась+V+TV+PrcFut+Pl+Gen+PxDu1: [теневавнди”ни’, теневувнди”ни’]
+#     теневась+V+TV+PrcFut+Pl+Gen+PxSg1.2: [теневавнди”ни, теневувнди”ни]
+     теневась+V+TV+PrcFut+Pl+Dat+PxDu1: [теневавндаха”ни’, теневувндаха”ни’]
+#     теневась+V+TV+PrcFut+Pl+Dat+PxSg1.2: [теневавндаха”ни, теневувндаха”ни]
+     теневась+V+TV+PrcFut+Pl+Loc+PxDu1: [теневавндаха”нани’, теневувндаха”нани’]
+#     теневась+V+TV+PrcFut+Pl+Loc+PxSg1.2: [теневавндаха”нани, теневувндаха”нани]
+     теневась+V+TV+PrcFut+Pl+Abl+PxDu1: [теневавндахатани’, теневувндахатани’]
+#     теневась+V+TV+PrcFut+Pl+Abl+PxSg1.2: [теневавндахатани, теневувндахатани]
+     теневась+V+TV+PrcFut+Pl+Pros+PxDu1: [теневавнди”мнани’, теневувнди”мнани’]
+#     теневась+V+TV+PrcFut+Pl+Pros+PxSg1.2: [теневавнди”мнани, теневувнди”мнани]
+     теневась+V+TV+PrcFut+Sg+Nom+PxDu2: [теневавндари’, теневувндари’]
+     теневась+V+TV+PrcFut+Sg+Acc+PxDu2: [теневавндамди’, теневувндамди’]
+     теневась+V+TV+PrcFut+Sg+Gen+PxDu2: [теневавнданди’, теневувнданди’]
+     теневась+V+TV+PrcFut+Sg+Dat+PxDu2: [теневавндаханди’, теневувндаханди’]
+     теневась+V+TV+PrcFut+Sg+Loc+PxDu2: [теневавндахананди’, теневувндахананди’]
+     теневась+V+TV+PrcFut+Sg+Abl+PxDu2: [теневавндахаданди’, теневувндахаданди’]
+     теневась+V+TV+PrcFut+Sg+Pros+PxDu2: [теневавндавнанди’, теневувндавнанди’]
+     теневась+V+TV+PrcFut+Du+Nom+PxDu2: [теневавндахаюди’, теневувндахаюди’]
+     теневась+V+TV+PrcFut+Du+Acc+PxDu2: [теневавндахаюди’, теневувндахаюди’]
+     теневась+V+TV+PrcFut+Du+Gen+PxDu2: [теневавндахаюти’, теневувндахаюти’]
+     теневась+V+TV+PrcFut+Pl+Nom+PxDu2: [теневавндиди’, теневувндиди’]
+     теневась+V+TV+PrcFut+Pl+Acc+PxDu2: [теневавндиди’, теневувндиди’]
+     теневась+V+TV+PrcFut+Pl+Gen+PxDu2: [теневавндити’, теневувндити’]
+     теневась+V+TV+PrcFut+Pl+Dat+PxDu2: [теневавндахати’, теневувндахати’]
+     теневась+V+TV+PrcFut+Pl+Loc+PxDu2: [теневавндаха”нати’, теневувндаха”нати’]
+     теневась+V+TV+PrcFut+Pl+Abl+PxDu2: [теневавндахатати’, теневувндахатати’]
+     теневась+V+TV+PrcFut+Pl+Pros+PxDu2: [теневавнди”мнати’, теневувнди”мнати’]
+     теневась+V+TV+PrcFut+Sg+Nom+PxDu3: [теневавндади’, теневувндади’]
+     теневась+V+TV+PrcFut+Sg+Acc+PxDu3: [теневавндамди’, теневувндамди’]
+     теневась+V+TV+PrcFut+Sg+Gen+PxDu3: [теневавнданди’, теневувнданди’]
+     теневась+V+TV+PrcFut+Sg+Dat+PxDu3: [теневавндаханди’, теневувндаханди’]
+     теневась+V+TV+PrcFut+Sg+Loc+PxDu3: [теневавндахананди’, теневувндахананди’]
+     теневась+V+TV+PrcFut+Sg+Abl+PxDu3: [теневавндахаданди’, теневувндахаданди’]
+     теневась+V+TV+PrcFut+Sg+Pros+PxDu3: [теневавндавнанди’, теневувндавнанди’]
+     теневась+V+TV+PrcFut+Du+Nom+PxDu3: [теневавндахаюди’, теневувндахаюди’]
+     теневась+V+TV+PrcFut+Du+Acc+PxDu3: [теневавндахаюди’, теневувндахаюди’]
+     теневась+V+TV+PrcFut+Du+Gen+PxDu3: [теневавндахаюти’, теневувндахаюти’]
+     теневась+V+TV+PrcFut+Pl+Nom+PxDu3: [теневавндиди’, теневувндиди’]
+     теневась+V+TV+PrcFut+Pl+Acc+PxDu3: [теневавндиди’, теневувндиди’]
+     теневась+V+TV+PrcFut+Pl+Gen+PxDu3: [теневавндити’, теневувндити’]
+     теневась+V+TV+PrcFut+Pl+Dat+PxDu3: [теневавндахати’, теневувндахати’]
+     теневась+V+TV+PrcFut+Pl+Loc+PxDu3: [теневавндаха”нати’, теневувндаха”нати’]
+     теневась+V+TV+PrcFut+Pl+Abl+PxDu3: [теневавндахатати’, теневувндахатати’]
+     теневась+V+TV+PrcFut+Pl+Pros+PxDu3: [теневавнди”мнати’, теневувнди”мнати’]
+     теневась+V+TV+PrcFut+Sg+Nom+PxPl1: [теневавндава”, теневувндава”]
+     теневась+V+TV+PrcFut+Sg+Acc+PxPl1: [теневавндава”, теневувндава”]
+     теневась+V+TV+PrcFut+Sg+Gen+PxPl1: [теневавндана”, теневувндана”]
+     теневась+V+TV+PrcFut+Sg+Dat+PxPl1: [теневавндахана”, теневувндахана”]
+     теневась+V+TV+PrcFut+Sg+Loc+PxPl1: [теневавндаханана”, теневувндаханана”]
+     теневась+V+TV+PrcFut+Sg+Abl+PxPl1: [теневавндахадана”, теневувндахадана”]
+     теневась+V+TV+PrcFut+Sg+Pros+PxPl1: [теневавндавнана”, теневувндавнана”]
+     теневась+V+TV+PrcFut+Du+Nom+PxPl1: [теневавндахаюна”, теневувндахаюна”]
+     теневась+V+TV+PrcFut+Du+Acc+PxPl1: [теневавндахаюна”, теневувндахаюна”]
+     теневась+V+TV+PrcFut+Du+Gen+PxPl1: [теневавндахаюна”, теневувндахаюна”]
+     теневась+V+TV+PrcFut+Pl+Nom+PxPl1: [теневавндина”, теневувндина”]
+     теневась+V+TV+PrcFut+Pl+Acc+PxPl1: [теневавндина”, теневувндина”]
+     теневась+V+TV+PrcFut+Pl+Gen+PxPl1: [теневавнди”на”, теневувнди”на”]
+     теневась+V+TV+PrcFut+Pl+Dat+PxPl1: [теневавндаха”на”, теневувндаха”на”]
+     теневась+V+TV+PrcFut+Pl+Loc+PxPl1: [теневавндаха”нана”, теневувндаха”нана”]
+     теневась+V+TV+PrcFut+Pl+Abl+PxPl1: [теневавндахатана”, теневувндахатана”]
+     теневась+V+TV+PrcFut+Pl+Pros+PxPl1: [теневавнди”мнана”, теневувнди”мнана”]
+     теневась+V+TV+PrcFut+Sg+Nom+PxPl2: [теневавндара”, теневувндара”]
+     теневась+V+TV+PrcFut+Sg+Acc+PxPl2: [теневавндамда”, теневувндамда”]
+     теневась+V+TV+PrcFut+Sg+Gen+PxPl2: [теневавнданда”, теневувнданда”]
+     теневась+V+TV+PrcFut+Sg+Dat+PxPl2: [теневавндаханда”, теневувндаханда”]
+     теневась+V+TV+PrcFut+Sg+Loc+PxPl2: [теневавндахананда”, теневувндахананда”]
+     теневась+V+TV+PrcFut+Sg+Abl+PxPl2: [теневавндахаданда”, теневувндахаданда”]
+     теневась+V+TV+PrcFut+Sg+Pros+PxPl2: [теневавндавнанда”, теневувндавнанда”]
+     теневась+V+TV+PrcFut+Du+Nom+PxPl2: [теневавндахаюда”, теневувндахаюда”]
+     теневась+V+TV+PrcFut+Du+Acc+PxPl2: [теневавндахаюда”, теневувндахаюда”]
+     теневась+V+TV+PrcFut+Du+Gen+PxPl2: [теневавндахаюта”, теневувндахаюта”]
+     теневась+V+TV+PrcFut+Pl+Nom+PxPl2: [теневавндида”, теневувндида”]
+     теневась+V+TV+PrcFut+Pl+Acc+PxPl2: [теневавндида”, теневувндида”]
+     теневась+V+TV+PrcFut+Pl+Gen+PxPl2: [теневавндита”, теневувндита”]
+     теневась+V+TV+PrcFut+Pl+Dat+PxPl2: [теневавндахата”, теневувндахата”]
+     теневась+V+TV+PrcFut+Pl+Loc+PxPl2: [теневавндаха”ната”, теневувндаха”ната”]
+     теневась+V+TV+PrcFut+Pl+Abl+PxPl2: [теневавндахатата”, теневувндахатата”]
+     теневась+V+TV+PrcFut+Pl+Pros+PxPl2: [теневавнди”мната”, теневувнди”мната”]
+     теневась+V+TV+PrcFut+Sg+Nom+PxPl3: [теневавндадо’, теневувндадо’]
+     теневась+V+TV+PrcFut+Sg+Acc+PxPl3: [теневавндамдо’, теневувндамдо’]
+     теневась+V+TV+PrcFut+Sg+Gen+PxPl3: [теневавндандо’, теневувндандо’]
+     теневась+V+TV+PrcFut+Sg+Dat+PxPl3: [теневавндахандо’, теневувндахандо’]
+     теневась+V+TV+PrcFut+Sg+Loc+PxPl3: [теневавндаханандо’, теневувндаханандо’]
+     теневась+V+TV+PrcFut+Sg+Abl+PxPl3: [теневавндахадандо’, теневувндахадандо’]
+     теневась+V+TV+PrcFut+Sg+Pros+PxPl3: [теневавндавнандо’, теневувндавнандо’]
+     теневась+V+TV+PrcFut+Du+Nom+PxPl3: [теневавндахаюдо’, теневувндахаюдо’]
+     теневась+V+TV+PrcFut+Du+Acc+PxPl3: [теневавндахаюдо’, теневувндахаюдо’]
+     теневась+V+TV+PrcFut+Du+Gen+PxPl3: [теневавндахаюто’, теневувндахаюто’]
+     теневась+V+TV+PrcFut+Pl+Nom+PxPl3: [теневавндидо’, теневувндидо’]
+     теневась+V+TV+PrcFut+Pl+Acc+PxPl3: [теневавндидо’, теневувндидо’]
+     теневась+V+TV+PrcFut+Pl+Gen+PxPl3: [теневавндито’, теневувндито’]
+     теневась+V+TV+PrcFut+Pl+Dat+PxPl3: [теневавндахато’, теневувндахато’]
+     теневась+V+TV+PrcFut+Pl+Loc+PxPl3: [теневавндаха”нато’, теневувндаха”нато’]
+     теневась+V+TV+PrcFut+Pl+Abl+PxPl3: [теневавндахатато’, теневувндахатато’]
+     теневась+V+TV+PrcFut+Pl+Pros+PxPl3: [теневавнди”мнато’, теневувнди”мнато’]
+     теневась+V+TV+PrcFut+Pred+Abs: [теневавндад, теневувндад]
+     теневась+V+TV+PrcFut+Pred+Nom+PxSg1: [теневавндадав, теневувндадав, теневавндадами’, теневавндадми’, теневувндадами’, теневувндадми’]
+     теневась+V+TV+PrcFut+Pred+Acc+PxSg1: [теневавндадав, теневувндадав, теневавндадами’, теневавндадми’, теневувндадами’, теневувндадми’]
+     теневась+V+TV+PrcFut+Pred+Gen+PxSg1: [теневавндадан, теневувндадан, теневавндадани, теневавндадни, теневувндадани, теневувндадни]
+     теневась+V+TV+PrcFut+Pred+Nom+PxSg2: [теневавндадар, теневувндадар]
+     теневась+V+TV+PrcFut+Pred+Acc+PxSg2: [теневавндадамд, теневувндадамд]
+     теневась+V+TV+PrcFut+Pred+Gen+PxSg2: [теневавндаданд, теневувндаданд]
+     теневась+V+TV+PrcFut+Pred+Nom+PxSg3: [теневавндадада, теневавндадда, теневувндадада, теневувндадда]
+     теневась+V+TV+PrcFut+Pred+Acc+PxSg3: [теневавндадамда, теневувндадамда]
+     теневась+V+TV+PrcFut+Pred+Gen+PxSg3: [теневавндаданда, теневувндаданда]
+     теневась+V+TV+PrcFut+Pred+Nom+PxDu1: [теневавндадами’, теневавндадми’, теневувндадами’, теневувндадми’]
+#     теневась+V+TV+PrcFut+Pred+Nom+PxSg1.2: [теневавндадами, теневавндадми, теневувндадами, теневувндадми]
+     теневась+V+TV+PrcFut+Pred+Acc+PxDu1: [теневавндадами’, теневавндадми’, теневувндадами’, теневувндадми’]
+#     теневась+V+TV+PrcFut+Pred+Acc+PxSg1.2: [теневавндадами, теневавндадми, теневувндадами, теневувндадми]
+     теневась+V+TV+PrcFut+Pred+Gen+PxDu1: [теневавндадани’, теневавндадни’, теневувндадани’, теневувндадни’]
+#     теневась+V+TV+PrcFut+Pred+Gen+PxSg1.2: [теневавндадани, теневавндадни, теневувндадани, теневувндадни]
+     теневась+V+TV+PrcFut+Pred+Nom+PxDu2: [теневавндадари’, теневавндадри’, теневувндадари’, теневувндадри’]
+     теневась+V+TV+PrcFut+Pred+Acc+PxDu2: [теневавндадамди’, теневувндадамди’]
+     теневась+V+TV+PrcFut+Pred+Gen+PxDu2: [теневавндаданди’, теневувндаданди’]
+     теневась+V+TV+PrcFut+Pred+Nom+PxDu3: [теневавндадади’, теневавндадди’, теневувндадади’, теневувндадди’]
+     теневась+V+TV+PrcFut+Pred+Acc+PxDu3: [теневавндадамди’, теневувндадамди’]
+     теневась+V+TV+PrcFut+Pred+Gen+PxDu3: [теневавндаданди’, теневувндаданди’]
+     теневась+V+TV+PrcFut+Pred+Nom+PxPl1: [теневавндадава”, теневавндадва”, теневувндадава”, теневувндадва”]
+     теневась+V+TV+PrcFut+Pred+Acc+PxPl1: [теневавндадава”, теневавндадва”, теневувндадава”, теневувндадва”]
+     теневась+V+TV+PrcFut+Pred+Gen+PxPl1: [теневавндадана”, теневавндадна”, теневувндадана”, теневувндадна”]
+     теневась+V+TV+PrcFut+Pred+Nom+PxPl2: [теневавндадара”, теневавндадра”, теневувндадара”, теневувндадра”]
+     теневась+V+TV+PrcFut+Pred+Acc+PxPl2: [теневавндадамда”, теневувндадамда”]
+     теневась+V+TV+PrcFut+Pred+Gen+PxPl2: [теневавндаданда”, теневувндаданда”]
+     теневась+V+TV+PrcFut+Pred+Nom+PxPl3: [теневавндададо’, теневавндаддо’, теневувндададо’, теневувндаддо’]
+     теневась+V+TV+PrcFut+Pred+Acc+PxPl3: [теневавндадамдо’, теневувндадамдо’]
+     теневась+V+TV+PrcFut+Pred+Gen+PxPl3: [теневавндадандо’, теневувндадандо’]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Sg1: [теневавндадм’, теневувндадм’]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Sg2: [теневавндан, теневувндан]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Sg3: [теневавнда, теневувнда]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Du1: [теневавндани’, теневувндани’]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Du2: [теневавндади’, теневувндади’]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Du3: [теневавндаха’, теневувндаха’]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Pl1: [теневавндава”, теневувндава”]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Pl2: [теневавндада”, теневувндада”]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Aor+Pl3: [теневавнда”, теневувнда”]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Sg1: [теневавндадамзь, теневувндадамзь]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Sg2: [теневавнданась, теневувнданась]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Sg3: [теневавндась, теневувндась]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Du1: [теневавнданинзь, теневувнданинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Du2: [теневавндадинзь, теневувндадинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Du3: [теневавндаханзь, теневувндаханзь]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Pl1: [теневавндаваць, теневувндаваць]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Pl2: [теневавндадаць, теневувндадаць]
+     теневась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Pl3: [теневавндаць, теневувндаць]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg1: [теневавндав, теневувндав]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg2: [теневавндар, теневувндар]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg3: [теневавндада, теневувндада]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu1: [теневавндами’, теневувндами’]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu2: [теневавндари’, теневувндари’]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu3: [теневавндади’, теневувндади’]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl1: [теневавндава”, теневувндава”]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl2: [теневавндара”, теневувндара”]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl3: [теневавндадо’, теневувндадо’]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg1: [теневавндавась, теневувндавась]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg2: [теневавндарась, теневувндарась]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg3: [теневавндадась, теневувндадась]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu1: [теневавндаминзь, теневувндаминзь]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu2: [теневавндаринзь, теневувндаринзь]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu3: [теневавндадинзь, теневувндадинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl1: [теневавндаваць, теневувндаваць]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl2: [теневавндараць, теневувндараць]
+     теневась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl3: [теневавндадонзь, теневувндадонзь]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg1: [теневавндахаюн, теневувндахаюн]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg2: [теневавндахаюд, теневувндахаюд]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg3: [теневавндахаюда, теневувндахаюда]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu1: [теневавндахаюни’, теневувндахаюни’]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu2: [теневавндахаюди’, теневувндахаюди’]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu3: [теневавндахаюди’, теневувндахаюди’]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl1: [теневавндахаюна”, теневувндахаюна”]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl2: [теневавндахаюда”, теневувндахаюда”]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl3: [теневавндахаюдо’, теневувндахаюдо’]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg1: [теневавндахаюнась, теневувндахаюнась]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg2: [теневавндахаюдась, теневувндахаюдась]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg3: [теневавндахаюдась, теневувндахаюдась]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu1: [теневавндахаюнинзь, теневувндахаюнинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu2: [теневавндахаюдинзь, теневувндахаюдинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu3: [теневавндахаюдинзь, теневувндахаюдинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl1: [теневавндахаюнаць, теневувндахаюнаць]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl2: [теневавндахаюдаць, теневувндахаюдаць]
+     теневась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl3: [теневавндахаюдонзь, теневувндахаюдонзь]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg1: [теневавндин, теневувндин]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg2: [теневавндид, теневувндид]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg3: [теневавндида, теневувндида]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu1: [теневавндини’, теневувндини’]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu2: [теневавндиди’, теневувндиди’]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu3: [теневавндиди’, теневувндиди’]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl1: [теневавндина”, теневувндина”]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl2: [теневавндида”, теневувндида”]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl3: [теневавндидо’, теневувндидо’]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg1: [теневавндинась, теневувндинась]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg2: [теневавндидась, теневувндидась]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg3: [теневавндидась, теневувндидась]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu1: [теневавндининзь, теневувндининзь]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu2: [теневавндидинзь, теневувндидинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu3: [теневавндидинзь, теневувндидинзь]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl1: [теневавндинаць, теневувндинаць]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl2: [теневавндидаць, теневувндидаць]
+     теневась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl3: [теневавндидонзь, теневувндидонзь]
+     теневась+V+TV+PrcFut+Tra: [теневавндаӈэ, теневувндаӈэ]
+     теневась+V+TV+PrcFut+Car: [теневавндаси”, теневувндаси”]
+     теневась+V+TV+PrcFut+Equ: [теневавндадрем’, теневувндадрем’]
+     теневась+V+TV+PrcFut+Equ+lat: [теневавндадрев’, теневувндадрев’]
+     теневась+V+TV+PrcNeg+Nom+Sg+Abs: [теневавдавэй, теневувдавэй]
+     теневась+V+TV+PrcNeg+Acc+Sg+Abs: [теневавдавэйм’, теневувдавэйм’]
+     теневась+V+TV+PrcNeg+Gen+Sg+Abs: [теневавдавэй’, теневувдавэй’]
+     теневась+V+TV+PrcNeg+Dat+Sg+Abs: [теневавдавэн’, теневувдавэн’]
+     теневась+V+TV+PrcNeg+Loc+Sg+Abs: [теневавдавэхэна, теневувдавэхэна]
+     теневась+V+TV+PrcNeg+Abl+Sg+Abs: [теневавдавэхэд, теневувдавэхэд]
+     теневась+V+TV+PrcNeg+Pros+Sg+Abs: [теневавдавэвна, теневувдавэвна]
+     теневась+V+TV+PrcNeg+Nom+Du+Abs: [теневавдавэхэ’, теневувдавэхэ’]
+     теневась+V+TV+PrcNeg+Acc+Du+Abs: [теневавдавэхэ’, теневувдавэхэ’]
+     теневась+V+TV+PrcNeg+Gen+Du+Abs: [теневавдавэхэ’, теневувдавэхэ’]
+     теневась+V+TV+PrcNeg+Nom+Pl+Abs: [теневавдавэй”, теневувдавэй”]
+     теневась+V+TV+PrcNeg+Acc+Pl+Abs: [теневавдавэй, теневувдавэй]
+     теневась+V+TV+PrcNeg+Gen+Pl+Abs: [теневавдавэй”, теневувдавэй”]
+     теневась+V+TV+PrcNeg+Dat+Pl+Abs: [теневавдавэхэ”, теневувдавэхэ”]
+     теневась+V+TV+PrcNeg+Loc+Pl+Abs: [теневавдавэхэ”на, теневувдавэхэ”на]
+     теневась+V+TV+PrcNeg+Abl+Pl+Abs: [теневавдавэхэт, теневувдавэхэт]
+     теневась+V+TV+PrcNeg+Pros+Pl+Abs: [теневавдавэй”мана, теневувдавэй”мана]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxSg1: [теневавдавэв, теневувдавэв, теневавдавэми, теневувдавэми]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxSg1: [теневавдавэв, теневувдавэв, теневавдавэми, теневувдавэми]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxSg1: [теневавдавэн, теневувдавэн, теневавдавэни, теневувдавэни]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxSg1: [теневавдавэхэн, теневувдавэхэн, теневавдавэхэни, теневувдавэхэни]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxSg1: [теневавдавэхэнан, теневувдавэхэнан, теневавдавэхэнани, теневувдавэхэнани]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxSg1: [теневавдавэхэдан, теневувдавэхэдан, теневавдавэхэдани, теневавдавэхэдни, теневувдавэхэдани, теневувдавэхэдни]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxSg1: [теневавдавэвнан, теневувдавэвнан, теневавдавэвнани, теневувдавэвнани]
+     теневась+V+TV+PrcNeg+Du+Nom+PxSg1: [теневавдавэхэюн, теневувдавэхэюн, теневавдавэхэюни, теневувдавэхэюни]
+     теневась+V+TV+PrcNeg+Du+Acc+PxSg1: [теневавдавэхэюн, теневувдавэхэюн, теневавдавэхэюни, теневувдавэхэюни]
+     теневась+V+TV+PrcNeg+Du+Gen+PxSg1: [теневавдавэхэюн, теневувдавэхэюн, теневавдавэхэюни, теневувдавэхэюни]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxSg1: [теневавдавэян, теневувдавэян, теневавдавэйни, теневувдавэйни]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxSg1: [теневавдавэян, теневувдавэян, теневавдавэйни, теневувдавэйни]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxSg1: [теневавдавэя”н, теневувдавэя”н, теневавдавэй”ни, теневувдавэй”ни]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxSg1: [теневавдавэхэ”н, теневувдавэхэ”н, теневавдавэхэ”ни, теневувдавэхэ”ни]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxSg1: [теневавдавэхэ”нан, теневувдавэхэ”нан, теневавдавэхэ”нани, теневувдавэхэ”нани]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxSg1: [теневавдавэхэтан, теневувдавэхэтан, теневавдавэхэтани, теневавдавэхэтни, теневувдавэхэтани, теневувдавэхэтни]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxSg1: [теневавдавэй”манан, теневувдавэй”манан, теневавдавэй”манани, теневувдавэй”манани]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxSg2: [теневавдавэр, теневувдавэр]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxSg2: [теневавдавэмд, теневувдавэмд]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxSg2: [теневавдавэнд, теневувдавэнд]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxSg2: [теневавдавэхэнд, теневувдавэхэнд]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxSg2: [теневавдавэхэнанд, теневувдавэхэнанд]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxSg2: [теневавдавэхэданд, теневувдавэхэданд]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxSg2: [теневавдавэвнанд, теневувдавэвнанд]
+     теневась+V+TV+PrcNeg+Du+Nom+PxSg2: [теневавдавэхэюд, теневувдавэхэюд]
+     теневась+V+TV+PrcNeg+Du+Acc+PxSg2: [теневавдавэхэюд, теневувдавэхэюд]
+     теневась+V+TV+PrcNeg+Du+Gen+PxSg2: [теневавдавэхэют, теневувдавэхэют]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxSg2: [теневавдавэяд, теневувдавэяд]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxSg2: [теневавдавэяд, теневувдавэяд]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxSg2: [теневавдавэят, теневувдавэят]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxSg2: [теневавдавэхэт, теневувдавэхэт]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxSg2: [теневавдавэхэ”нат, теневувдавэхэ”нат]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxSg2: [теневавдавэхэтат, теневувдавэхэтат]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxSg2: [теневавдавэй”манат, теневувдавэй”манат]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxSg3: [теневавдавэда, теневувдавэда]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxSg3: [теневавдавэмда, теневувдавэмда]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxSg3: [теневавдавэнда, теневувдавэнда]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxSg3: [теневавдавэхэнда, теневувдавэхэнда]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxSg3: [теневавдавэхэнанда, теневувдавэхэнанда]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxSg3: [теневавдавэхэданда, теневувдавэхэданда]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxSg3: [теневавдавэвнанда, теневувдавэвнанда]
+     теневась+V+TV+PrcNeg+Du+Nom+PxSg3: [теневавдавэхэюда, теневувдавэхэюда]
+     теневась+V+TV+PrcNeg+Du+Acc+PxSg3: [теневавдавэхэюда, теневувдавэхэюда]
+     теневась+V+TV+PrcNeg+Du+Gen+PxSg3: [теневавдавэхэюта, теневувдавэхэюта]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxSg3: [теневавдавэйда, теневувдавэйда]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxSg3: [теневавдавэйда, теневувдавэйда]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxSg3: [теневавдавэйта, теневувдавэйта]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxSg3: [теневавдавэхэта, теневувдавэхэта]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxSg3: [теневавдавэхэ”ната, теневувдавэхэ”ната]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxSg3: [теневавдавэхэтата, теневавдавэхэтта, теневувдавэхэтата, теневувдавэхэтта]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxSg3: [теневавдавэй”маната, теневувдавэй”маната]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxDu1: [теневавдавэми’, теневувдавэми’]
+#     теневась+V+TV+PrcNeg+Sg+Nom+PxSg1.2: [теневавдавэми, теневувдавэми]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxDu1: [теневавдавэми’, теневувдавэми’]
+#     теневась+V+TV+PrcNeg+Sg+Acc+PxSg1.2: [теневавдавэми, теневувдавэми]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxDu1: [теневавдавэни’, теневувдавэни’]
+#     теневась+V+TV+PrcNeg+Sg+Gen+PxSg1.2: [теневавдавэни, теневувдавэни]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxDu1: [теневавдавэхэни’, теневувдавэхэни’]
+#     теневась+V+TV+PrcNeg+Sg+Dat+PxSg1.2: [теневавдавэхэни, теневувдавэхэни]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxDu1: [теневавдавэхэнани’, теневувдавэхэнани’]
+#     теневась+V+TV+PrcNeg+Sg+Loc+PxSg1.2: [теневавдавэхэнани, теневувдавэхэнани]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxDu1: [теневавдавэхэдани’, теневавдавэхэдни’, теневувдавэхэдани’, теневувдавэхэдни’]
+#     теневась+V+TV+PrcNeg+Sg+Abl+PxSg1.2: [теневавдавэхэдани, теневавдавэхэдни, теневувдавэхэдани, теневувдавэхэдни]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxDu1: [теневавдавэвнани’, теневувдавэвнани’]
+#     теневась+V+TV+PrcNeg+Sg+Pros+PxSg1.2: [теневавдавэвнани, теневувдавэвнани]
+     теневась+V+TV+PrcNeg+Du+Nom+PxDu1: [теневавдавэхэюни’, теневувдавэхэюни’]
+#     теневась+V+TV+PrcNeg+Du+Nom+PxSg1.2: [теневавдавэхэюни, теневувдавэхэюни]
+     теневась+V+TV+PrcNeg+Du+Acc+PxDu1: [теневавдавэхэюни’, теневувдавэхэюни’]
+#     теневась+V+TV+PrcNeg+Du+Acc+PxSg1.2: [теневавдавэхэюни, теневувдавэхэюни]
+     теневась+V+TV+PrcNeg+Du+Gen+PxDu1: [теневавдавэхэюни’, теневувдавэхэюни’]
+#     теневась+V+TV+PrcNeg+Du+Gen+PxSg1.2: [теневавдавэхэюни, теневувдавэхэюни]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxDu1: [теневавдавэйни’, теневувдавэйни’]
+#     теневась+V+TV+PrcNeg+Pl+Nom+PxSg1.2: [теневавдавэйни, теневувдавэйни]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxDu1: [теневавдавэйни’, теневувдавэйни’]
+#     теневась+V+TV+PrcNeg+Pl+Acc+PxSg1.2: [теневавдавэйни, теневувдавэйни]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxDu1: [теневавдавэй”ни’, теневувдавэй”ни’]
+#     теневась+V+TV+PrcNeg+Pl+Gen+PxSg1.2: [теневавдавэй”ни, теневувдавэй”ни]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxDu1: [теневавдавэхэ”ни’, теневувдавэхэ”ни’]
+#     теневась+V+TV+PrcNeg+Pl+Dat+PxSg1.2: [теневавдавэхэ”ни, теневувдавэхэ”ни]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxDu1: [теневавдавэхэ”нани’, теневувдавэхэ”нани’]
+#     теневась+V+TV+PrcNeg+Pl+Loc+PxSg1.2: [теневавдавэхэ”нани, теневувдавэхэ”нани]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxDu1: [теневавдавэхэтани’, теневавдавэхэтни’, теневувдавэхэтани’, теневувдавэхэтни’]
+#     теневась+V+TV+PrcNeg+Pl+Abl+PxSg1.2: [теневавдавэхэтани, теневавдавэхэтни, теневувдавэхэтани, теневувдавэхэтни]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxDu1: [теневавдавэй”манани’, теневувдавэй”манани’]
+#     теневась+V+TV+PrcNeg+Pl+Pros+PxSg1.2: [теневавдавэй”манани, теневувдавэй”манани]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxDu2: [теневавдавэри’, теневувдавэри’]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxDu2: [теневавдавэмди’, теневувдавэмди’]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxDu2: [теневавдавэнди’, теневувдавэнди’]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxDu2: [теневавдавэхэнди’, теневувдавэхэнди’]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxDu2: [теневавдавэхэнанди’, теневувдавэхэнанди’]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxDu2: [теневавдавэхэданди’, теневувдавэхэданди’]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxDu2: [теневавдавэвнанди’, теневувдавэвнанди’]
+     теневась+V+TV+PrcNeg+Du+Nom+PxDu2: [теневавдавэхэюди’, теневувдавэхэюди’]
+     теневась+V+TV+PrcNeg+Du+Acc+PxDu2: [теневавдавэхэюди’, теневувдавэхэюди’]
+     теневась+V+TV+PrcNeg+Du+Gen+PxDu2: [теневавдавэхэюти’, теневувдавэхэюти’]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxDu2: [теневавдавэйди’, теневувдавэйди’]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxDu2: [теневавдавэйди’, теневувдавэйди’]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxDu2: [теневавдавэйти’, теневувдавэйти’]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxDu2: [теневавдавэхэти’, теневувдавэхэти’]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxDu2: [теневавдавэхэ”нати’, теневувдавэхэ”нати’]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxDu2: [теневавдавэхэтати’, теневавдавэхэтти’, теневувдавэхэтати’, теневувдавэхэтти’]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxDu2: [теневавдавэй”манати’, теневувдавэй”манати’]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxDu3: [теневавдавэди’, теневувдавэди’]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxDu3: [теневавдавэмди’, теневувдавэмди’]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxDu3: [теневавдавэнди’, теневувдавэнди’]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxDu3: [теневавдавэхэнди’, теневувдавэхэнди’]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxDu3: [теневавдавэхэнанди’, теневувдавэхэнанди’]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxDu3: [теневавдавэхэданди’, теневувдавэхэданди’]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxDu3: [теневавдавэвнанди’, теневувдавэвнанди’]
+     теневась+V+TV+PrcNeg+Du+Nom+PxDu3: [теневавдавэхэюди’, теневувдавэхэюди’]
+     теневась+V+TV+PrcNeg+Du+Acc+PxDu3: [теневавдавэхэюди’, теневувдавэхэюди’]
+     теневась+V+TV+PrcNeg+Du+Gen+PxDu3: [теневавдавэхэюти’, теневувдавэхэюти’]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxDu3: [теневавдавэйди’, теневувдавэйди’]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxDu3: [теневавдавэйди’, теневувдавэйди’]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxDu3: [теневавдавэйти’, теневувдавэйти’]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxDu3: [теневавдавэхэти’, теневувдавэхэти’]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxDu3: [теневавдавэхэ”нати’, теневувдавэхэ”нати’]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxDu3: [теневавдавэхэтати’, теневавдавэхэтти’, теневувдавэхэтати’, теневувдавэхэтти’]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxDu3: [теневавдавэй”манати’, теневувдавэй”манати’]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxPl1: [теневавдавэва”, теневувдавэва”]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxPl1: [теневавдавэва”, теневувдавэва”]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxPl1: [теневавдавэна”, теневувдавэна”]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxPl1: [теневавдавэхэна”, теневувдавэхэна”]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxPl1: [теневавдавэхэнана”, теневувдавэхэнана”]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxPl1: [теневавдавэхэдана”, теневавдавэхэдна”, теневувдавэхэдана”, теневувдавэхэдна”]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxPl1: [теневавдавэвнана”, теневувдавэвнана”]
+     теневась+V+TV+PrcNeg+Du+Nom+PxPl1: [теневавдавэхэюна”, теневувдавэхэюна”]
+     теневась+V+TV+PrcNeg+Du+Acc+PxPl1: [теневавдавэхэюна”, теневувдавэхэюна”]
+     теневась+V+TV+PrcNeg+Du+Gen+PxPl1: [теневавдавэхэюна”, теневувдавэхэюна”]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxPl1: [теневавдавэйна”, теневувдавэйна”]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxPl1: [теневавдавэйна”, теневувдавэйна”]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxPl1: [теневавдавэй”на”, теневувдавэй”на”]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxPl1: [теневавдавэхэ”на”, теневувдавэхэ”на”]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxPl1: [теневавдавэхэ”нана”, теневувдавэхэ”нана”]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxPl1: [теневавдавэхэтана”, теневавдавэхэтна”, теневувдавэхэтана”, теневувдавэхэтна”]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxPl1: [теневавдавэй”манана”, теневувдавэй”манана”]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxPl2: [теневавдавэра”, теневувдавэра”]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxPl2: [теневавдавэмда”, теневувдавэмда”]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxPl2: [теневавдавэнда”, теневувдавэнда”]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxPl2: [теневавдавэхэнда”, теневувдавэхэнда”]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxPl2: [теневавдавэхэнанда”, теневувдавэхэнанда”]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxPl2: [теневавдавэхэданда”, теневувдавэхэданда”]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxPl2: [теневавдавэвнанда”, теневувдавэвнанда”]
+     теневась+V+TV+PrcNeg+Du+Nom+PxPl2: [теневавдавэхэюда”, теневувдавэхэюда”]
+     теневась+V+TV+PrcNeg+Du+Acc+PxPl2: [теневавдавэхэюда”, теневувдавэхэюда”]
+     теневась+V+TV+PrcNeg+Du+Gen+PxPl2: [теневавдавэхэюта”, теневувдавэхэюта”]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxPl2: [теневавдавэйда”, теневувдавэйда”]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxPl2: [теневавдавэйда”, теневувдавэйда”]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxPl2: [теневавдавэйта”, теневувдавэйта”]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxPl2: [теневавдавэхэта”, теневувдавэхэта”]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxPl2: [теневавдавэхэ”ната”, теневувдавэхэ”ната”]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxPl2: [теневавдавэхэтата”, теневавдавэхэтта”, теневувдавэхэтата”, теневувдавэхэтта”]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxPl2: [теневавдавэй”маната”, теневувдавэй”маната”]
+     теневась+V+TV+PrcNeg+Sg+Nom+PxPl3: [теневавдавэдо’, теневувдавэдо’]
+     теневась+V+TV+PrcNeg+Sg+Acc+PxPl3: [теневавдавэмдо’, теневувдавэмдо’]
+     теневась+V+TV+PrcNeg+Sg+Gen+PxPl3: [теневавдавэндо’, теневувдавэндо’]
+     теневась+V+TV+PrcNeg+Sg+Dat+PxPl3: [теневавдавэхэндо’, теневувдавэхэндо’]
+     теневась+V+TV+PrcNeg+Sg+Loc+PxPl3: [теневавдавэхэнандо’, теневувдавэхэнандо’]
+     теневась+V+TV+PrcNeg+Sg+Abl+PxPl3: [теневавдавэхэдандо’, теневувдавэхэдандо’]
+     теневась+V+TV+PrcNeg+Sg+Pros+PxPl3: [теневавдавэвнандо’, теневувдавэвнандо’]
+     теневась+V+TV+PrcNeg+Du+Nom+PxPl3: [теневавдавэхэюдо’, теневувдавэхэюдо’]
+     теневась+V+TV+PrcNeg+Du+Acc+PxPl3: [теневавдавэхэюдо’, теневувдавэхэюдо’]
+     теневась+V+TV+PrcNeg+Du+Gen+PxPl3: [теневавдавэхэюто’, теневувдавэхэюто’]
+     теневась+V+TV+PrcNeg+Pl+Nom+PxPl3: [теневавдавэйдо’, теневувдавэйдо’]
+     теневась+V+TV+PrcNeg+Pl+Acc+PxPl3: [теневавдавэйдо’, теневувдавэйдо’]
+     теневась+V+TV+PrcNeg+Pl+Gen+PxPl3: [теневавдавэйто’, теневувдавэйто’]
+     теневась+V+TV+PrcNeg+Pl+Dat+PxPl3: [теневавдавэхэто’, теневувдавэхэто’]
+     теневась+V+TV+PrcNeg+Pl+Loc+PxPl3: [теневавдавэхэ”нато’, теневувдавэхэ”нато’]
+     теневась+V+TV+PrcNeg+Pl+Abl+PxPl3: [теневавдавэхэтато’, теневавдавэхэтто’, теневувдавэхэтато’, теневувдавэхэтто’]
+     теневась+V+TV+PrcNeg+Pl+Pros+PxPl3: [теневавдавэй”манато’, теневувдавэй”манато’]
+     теневась+V+TV+PrcNeg+Pred+Abs: [теневавдавэд, теневувдавэд]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxSg1: [теневавдавэдав, теневувдавэдав, теневавдавэдами, теневувдавэдами]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxSg1: [теневавдавэдав, теневувдавэдав, теневавдавэдами, теневувдавэдами]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxSg1: [теневавдавэдан, теневувдавэдан, теневавдавэдани, теневувдавэдани]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxSg2: [теневавдавэдар, теневувдавэдар]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxSg2: [теневавдавэдамд, теневувдавэдамд]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxSg2: [теневавдавэданд, теневувдавэданд]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxSg3: [теневавдавэдада, теневувдавэдада]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxSg3: [теневавдавэдамда, теневувдавэдамда]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxSg3: [теневавдавэданда, теневувдавэданда]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxDu1: [теневавдавэдами’, теневувдавэдами’]
+#     теневась+V+TV+PrcNeg+Pred+Nom+PxSg1.2: [теневавдавэдами, теневувдавэдами]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxDu1: [теневавдавэдами’, теневувдавэдами’]
+#     теневась+V+TV+PrcNeg+Pred+Acc+PxSg1.2: [теневавдавэдами, теневувдавэдами]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxDu1: [теневавдавэдани’, теневувдавэдани’]
+#     теневась+V+TV+PrcNeg+Pred+Gen+PxSg1.2: [теневавдавэдани, теневувдавэдани]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxDu2: [теневавдавэдари’, теневувдавэдари’]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxDu2: [теневавдавэдамди’, теневувдавэдамди’]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxDu2: [теневавдавэданди’, теневувдавэданди’]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxDu3: [теневавдавэдади’, теневувдавэдади’]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxDu3: [теневавдавэдамди’, теневувдавэдамди’]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxDu3: [теневавдавэданди’, теневувдавэданди’]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxPl1: [теневавдавэдава”, теневувдавэдава”]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxPl1: [теневавдавэдава”, теневувдавэдава”]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxPl1: [теневавдавэдана”, теневувдавэдана”]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxPl2: [теневавдавэдара”, теневувдавэдара”]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxPl2: [теневавдавэдамда”, теневувдавэдамда”]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxPl2: [теневавдавэданда”, теневувдавэданда”]
+     теневась+V+TV+PrcNeg+Pred+Nom+PxPl3: [теневавдавэдадо’, теневувдавэдадо’]
+     теневась+V+TV+PrcNeg+Pred+Acc+PxPl3: [теневавдавэдамдо’, теневувдавэдамдо’]
+     теневась+V+TV+PrcNeg+Pred+Gen+PxPl3: [теневавдавэдандо’, теневувдавэдандо’]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Sg1: [теневавдавэдм’, теневувдавэдм’]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Sg2: [теневавдавэн, теневувдавэн]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Sg3: [теневавдавэй, теневувдавэй]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Du1: [теневавдавэни’, теневувдавэни’]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Du2: [теневавдавэди’, теневувдавэди’]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Du3: [теневавдавэхэ’, теневувдавэхэ’]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Pl1: [теневавдавэва”, теневувдавэва”]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Pl2: [теневавдавэда”, теневувдавэда”]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Pl3: [теневавдавэй”, теневувдавэй”]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Sg1: [теневавдавэдамзь, теневувдавэдамзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Sg2: [теневавдавэнась, теневувдавэнась]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Sg3: [теневавдавэясь, теневавдавэсь, теневувдавэясь, теневувдавэсь]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Du1: [теневавдавэнинзь, теневувдавэнинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Du2: [теневавдавэдинзь, теневувдавэдинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Du3: [теневавдавэхэнзь, теневувдавэхэнзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Pl1: [теневавдавэваць, теневувдавэваць]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Pl2: [теневавдавэдаць, теневувдавэдаць]
+     теневась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Pl3: [теневавдавэяць, теневавдавэць, теневувдавэяць, теневувдавэць]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg1: [теневавдавэв, теневувдавэв]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg2: [теневавдавэр, теневувдавэр]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg3: [теневавдавэда, теневувдавэда]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu1: [теневавдавэми’, теневувдавэми’]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu2: [теневавдавэри’, теневувдавэри’]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu3: [теневавдавэди’, теневувдавэди’]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl1: [теневавдавэва”, теневувдавэва”]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl2: [теневавдавэра”, теневувдавэра”]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl3: [теневавдавэдо’, теневувдавэдо’]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg1: [теневавдавэвась, теневувдавэвась]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg2: [теневавдавэрась, теневувдавэрась]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg3: [теневавдавэдась, теневувдавэдась]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu1: [теневавдавэминзь, теневувдавэминзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu2: [теневавдавэринзь, теневувдавэринзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu3: [теневавдавэдинзь, теневувдавэдинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl1: [теневавдавэваць, теневувдавэваць]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl2: [теневавдавэраць, теневувдавэраць]
+     теневась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl3: [теневавдавэдонзь, теневувдавэдонзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg1: [теневавдавэхэюн, теневувдавэхэюн]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg2: [теневавдавэхэюд, теневувдавэхэюд]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg3: [теневавдавэхэюда, теневувдавэхэюда]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu1: [теневавдавэхэюни’, теневувдавэхэюни’]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu2: [теневавдавэхэюди’, теневувдавэхэюди’]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu3: [теневавдавэхэюди’, теневувдавэхэюди’]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl1: [теневавдавэхэюна”, теневувдавэхэюна”]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl2: [теневавдавэхэюда”, теневувдавэхэюда”]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl3: [теневавдавэхэюдо’, теневувдавэхэюдо’]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg1: [теневавдавэхэюнась, теневувдавэхэюнась]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg2: [теневавдавэхэюдась, теневувдавэхэюдась]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg3: [теневавдавэхэюдась, теневувдавэхэюдась]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu1: [теневавдавэхэюнинзь, теневувдавэхэюнинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu2: [теневавдавэхэюдинзь, теневувдавэхэюдинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu3: [теневавдавэхэюдинзь, теневувдавэхэюдинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl1: [теневавдавэхэюнаць, теневувдавэхэюнаць]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl2: [теневавдавэхэюдаць, теневувдавэхэюдаць]
+     теневась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl3: [теневавдавэхэюдонзь, теневувдавэхэюдонзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg1: [теневавдавэян, теневувдавэян]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg2: [теневавдавэяд, теневувдавэяд]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg3: [теневавдавэйда, теневувдавэйда]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu1: [теневавдавэйни’, теневувдавэйни’]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu2: [теневавдавэйди’, теневувдавэйди’]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu3: [теневавдавэйди’, теневувдавэйди’]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl1: [теневавдавэйна”, теневувдавэйна”]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl2: [теневавдавэйда”, теневувдавэйда”]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl3: [теневавдавэйдо’, теневувдавэйдо’]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg1: [теневавдавэйнась, теневувдавэйнась]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg2: [теневавдавэйдась, теневувдавэйдась]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg3: [теневавдавэйдась, теневувдавэйдась]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu1: [теневавдавэйнинзь, теневувдавэйнинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu2: [теневавдавэйдинзь, теневувдавэйдинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu3: [теневавдавэйдинзь, теневувдавэйдинзь]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl1: [теневавдавэйнаць, теневувдавэйнаць]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl2: [теневавдавэйдаць, теневувдавэйдаць]
+     теневась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl3: [теневавдавэйдонзь, теневувдавэйдонзь]
+     теневась+V+TV+PrcNeg+Tra: [теневавдавэӈэ, теневувдавэӈэ]
+     теневась+V+TV+PrcNeg+Car: [теневавдавэси”, теневувдавэси”]
+     теневась+V+TV+PrcNeg+Equ: [теневавдавэдарем’, теневувдавэдарем’]
+     теневась+V+TV+PrcNeg+Equ+lat: [теневавдавэдарев’, теневувдавэдарев’]
+     теневась+V+TV+ConNeg: тенев”
+     теневась+V+TV+Fut+ConNeg: теневаӈгу”
+     теневась+V+TV+Hab+ConNeg: [теневасьту”, теневасету”]
+     теневась+V+TV+Subord/бˮ1+Abs: теневаб”
+     теневась+V+TV+Subord/бˮ1+PxSg1: [теневаба”н, теневаб”ни]
+     теневась+V+TV+Subord/бˮ1+PxSg2: теневабат
+     теневась+V+TV+Subord/бˮ1+PxSg3: теневабта
+     теневась+V+TV+Subord/бˮ1+PxDu1: теневаб”ни’
+#     теневась+V+TV+Subord/бˮ1+PxSg1.2: теневаб”ни
+     теневась+V+TV+Subord/бˮ1+PxDu2: теневабти’
+     теневась+V+TV+Subord/бˮ1+PxDu3: теневабти’
+     теневась+V+TV+Subord/бˮ1+PxPl1: теневаб”на”
+     теневась+V+TV+Subord/бˮ1+PxPl2: теневабта”
+     теневась+V+TV+Subord/бˮ1+PxPl3: теневабто’
+     теневась+V+TV+Subord/бˮна2+PxSg1: [теневаб”нан, теневаб”нани]
+     теневась+V+TV+Subord/бˮна2+PxSg2: теневаб”нанд
+     теневась+V+TV+Subord/бˮна2+PxSg3: теневаб”нанда
+     теневась+V+TV+Subord/бˮна2+PxDu1: теневаб”нани’
+#     теневась+V+TV+Subord/бˮна2+PxSg1.2: теневаб”нани
+     теневась+V+TV+Subord/бˮна2+PxDu2: теневаб”нанди’
+     теневась+V+TV+Subord/бˮна2+PxDu3: теневаб”нанди’
+     теневась+V+TV+Subord/бˮна2+PxPl1: теневаб”нана”
+     теневась+V+TV+Subord/бˮна2+PxPl2: теневаб”нанда”
+     теневась+V+TV+Subord/бˮна2+PxPl3: теневаб”нандо’
+     теневась+V+TV+Fut+Subord/бˮ1+Abs: [теневаӈгоб”, теневаӈгодаб”]
+     теневась+V+TV+Fut+Subord/бˮ1+PxSg1: [теневаӈгоба”н, теневаӈгодаба”н, теневаӈгоб”ни, теневаӈгоба”ни, теневаӈгодаб”ни]
+     теневась+V+TV+Fut+Subord/бˮ1+PxSg2: [теневаӈгобат, теневаӈгодабат]
+     теневась+V+TV+Fut+Subord/бˮ1+PxSg3: [теневаӈгобта, теневаӈгобата, теневаӈгодабта]
+     теневась+V+TV+Fut+Subord/бˮ1+PxDu1: [теневаӈгоб”ни’, теневаӈгоба”ни’, теневаӈгодаб”ни’]
+#     теневась+V+TV+Fut+Subord/бˮ1+PxSg1.2: [теневаӈгоб”ни, теневаӈгоба”ни, теневаӈгодаб”ни]
+     теневась+V+TV+Fut+Subord/бˮ1+PxDu2: [теневаӈгобти’, теневаӈгобати’, теневаӈгодабти’]
+     теневась+V+TV+Fut+Subord/бˮ1+PxDu3: [теневаӈгобти’, теневаӈгобати’, теневаӈгодабти’]
+     теневась+V+TV+Fut+Subord/бˮ1+PxPl1: [теневаӈгоб”на”, теневаӈгоба”на”, теневаӈгодаб”на”]
+     теневась+V+TV+Fut+Subord/бˮ1+PxPl2: [теневаӈгобта”, теневаӈгобата”, теневаӈгодабта”]
+     теневась+V+TV+Fut+Subord/бˮ1+PxPl3: [теневаӈгобто’, теневаӈгобато’, теневаӈгодабто’]
+     теневась+V+TV+Fut+Subord/бˮна2+PxSg1: [теневаӈгоб”нан, теневаӈгоба”нан, теневаӈгодаб”нан, теневаӈгоб”нани, теневаӈгоба”нани, теневаӈгодаб”нани]
+     теневась+V+TV+Fut+Subord/бˮна2+PxSg2: [теневаӈгоб”нанд, теневаӈгоба”нанд, теневаӈгодаб”нанд]
+     теневась+V+TV+Fut+Subord/бˮна2+PxSg3: [теневаӈгоб”нанда, теневаӈгоба”нанда, теневаӈгодаб”нанда]
+     теневась+V+TV+Fut+Subord/бˮна2+PxDu1: [теневаӈгоб”нани’, теневаӈгоба”нани’, теневаӈгодаб”нани’]
+#     теневась+V+TV+Fut+Subord/бˮна2+PxSg1.2: [теневаӈгоб”нани, теневаӈгоба”нани, теневаӈгодаб”нани]
+     теневась+V+TV+Fut+Subord/бˮна2+PxDu2: [теневаӈгоб”нанди’, теневаӈгоба”нанди’, теневаӈгодаб”нанди’]
+     теневась+V+TV+Fut+Subord/бˮна2+PxDu3: [теневаӈгоб”нанди’, теневаӈгоба”нанди’, теневаӈгодаб”нанди’]
+     теневась+V+TV+Fut+Subord/бˮна2+PxPl1: [теневаӈгоб”нана”, теневаӈгоба”нана”, теневаӈгодаб”нана”]
+     теневась+V+TV+Fut+Subord/бˮна2+PxPl2: [теневаӈгоб”нанда”, теневаӈгоба”нанда”, теневаӈгодаб”нанда”]
+     теневась+V+TV+Fut+Subord/бˮна2+PxPl3: [теневаӈгоб”нандо’, теневаӈгоба”нандо’, теневаӈгодаб”нандо’]
+     теневась+V+TV+Evas+Abs: теневавоӈгад
+     теневась+V+TV+Evas+PxSg1: [теневавоӈгадан, теневавоӈгадани, теневавоӈгадни]
+     теневась+V+TV+Evas+PxSg2: теневавоӈгаданд
+     теневась+V+TV+Evas+PxSg3: теневавоӈгаданда
+     теневась+V+TV+Evas+PxDu1: [теневавоӈгадани’, теневавоӈгадни’]
+#     теневась+V+TV+Evas+PxSg1.2: [теневавоӈгадани, теневавоӈгадни]
+     теневась+V+TV+Evas+PxDu2: теневавоӈгаданди’
+     теневась+V+TV+Evas+PxDu3: теневавоӈгаданди’
+     теневась+V+TV+Evas+PxPl1: [теневавоӈгадана”, теневавоӈгадна”]
+     теневась+V+TV+Evas+PxPl2: теневавоӈгаданда”
+     теневась+V+TV+Evas+PxPl3: теневавоӈгадандо’
+     теневась+V+TV+Aud+Aor+PxSg1: [теневавон, теневаванон]
+     теневась+V+TV+Aud+Aor+PxSg2: [теневавонд, теневаванонд]
+     теневась+V+TV+Aud+Aor+PxSg3: [теневавонда, теневаванонда]
+     теневась+V+TV+Aud+Aor+PxDu1: [теневавони’, теневаванони’]
+     теневась+V+TV+Aud+Aor+PxDu2: [теневавонди’, теневаванонди’]
+     теневась+V+TV+Aud+Aor+PxDu3: [теневавонди’, теневаванонди’]
+     теневась+V+TV+Aud+Aor+PxPl1: [теневавона”, теневаванона”]
+     теневась+V+TV+Aud+Aor+PxPl2: [теневавонда”, теневаванонда”]
+     теневась+V+TV+Aud+Aor+PxPl3: [теневавондо’, теневаванондо’]
+     теневась+V+TV+Aud+Prt1+PxSg1: [теневавонась, теневаванонась]
+     теневась+V+TV+Aud+Prt1+PxSg2: [теневавондась, теневаванондась]
+     теневась+V+TV+Aud+Prt1+PxSg3: [теневавондась, теневаванондась]
+     теневась+V+TV+Aud+Prt1+PxDu1: [теневавонинзь, теневаванонинзь]
+     теневась+V+TV+Aud+Prt1+PxDu2: [теневавондинзь, теневаванондинзь]
+     теневась+V+TV+Aud+Prt1+PxDu3: [теневавондинзь, теневаванондинзь]
+     теневась+V+TV+Aud+Prt1+PxPl1: [теневавонаць, теневаванонаць]
+     теневась+V+TV+Aud+Prt1+PxPl2: [теневавондаць, теневаванондаць]
+     теневась+V+TV+Aud+Prt1+PxPl3: [теневавондонзь, теневаванондонзь]
+     теневась+V+TV+Ind+Aor+ScSg1: теневадм’
+     теневась+V+TV+Ind+Aor+ScSg2: теневан
+     теневась+V+TV+Ind+Aor+ScSg3: тенева
+     теневась+V+TV+Ind+Aor+ScDu1: теневани’
+     теневась+V+TV+Ind+Aor+ScDu2: теневади’
+     теневась+V+TV+Ind+Aor+ScDu3: теневаӈаха’
+     теневась+V+TV+Ind+Aor+ScPl1: теневава”
+     теневась+V+TV+Ind+Aor+ScPl2: теневада”
+     теневась+V+TV+Ind+Aor+ScPl3: тенева”
+     теневась+V+TV+Ind+Prt1+ScSg1: теневадамзь
+     теневась+V+TV+Ind+Prt1+ScSg2: теневанась
+     теневась+V+TV+Ind+Prt1+ScSg3: теневась
+     теневась+V+TV+Ind+Prt1+ScDu1: теневанинзь
+     теневась+V+TV+Ind+Prt1+ScDu2: теневадинзь
+     теневась+V+TV+Ind+Prt1+ScDu3: теневаӈаханзь
+     теневась+V+TV+Ind+Prt1+ScPl1: теневаваць
+     теневась+V+TV+Ind+Prt1+ScPl2: теневадаць
+     теневась+V+TV+Ind+Prt1+ScPl3: теневаць
+     теневась+V+TV+Hort+ScSg1: теневахадм’
+     теневась+V+TV+Hort+ScDu1: теневахани’
+     теневась+V+TV+Hort+ScPl1: теневахава”
+     теневась+V+TV+Imprt+ScSg2: тенев”
+     теневась+V+TV+Imprt+ScDu2: теневади’
+     теневась+V+TV+Imprt+ScPl2: теневада”
+     теневась+V+TV+Opt+ScSg3: теневая
+     теневась+V+TV+Opt+ScDu3: теневаяха’
+     теневась+V+TV+Opt+ScPl3: теневая”
+     теневась+V+TV+Conj+Aor+ScSg1: теневаидм’
+     теневась+V+TV+Conj+Aor+ScSg2: теневаин
+     теневась+V+TV+Conj+Aor+ScSg3: теневаи
+     теневась+V+TV+Conj+Aor+ScDu1: теневаини’
+     теневась+V+TV+Conj+Aor+ScDu2: теневаиди’
+     теневась+V+TV+Conj+Aor+ScDu3: теневаихи’
+     теневась+V+TV+Conj+Aor+ScPl1: теневаива”
+     теневась+V+TV+Conj+Aor+ScPl2: теневаида”
+     теневась+V+TV+Conj+Aor+ScPl3: теневаи”
+     теневась+V+TV+Conj+Prt1+ScSg1: теневаидамзь
+     теневась+V+TV+Conj+Prt1+ScSg2: теневаинась
+     теневась+V+TV+Conj+Prt1+ScSg3: теневаись
+     теневась+V+TV+Conj+Prt1+ScDu1: теневаининзь
+     теневась+V+TV+Conj+Prt1+ScDu2: теневаидинзь
+     теневась+V+TV+Conj+Prt1+ScDu3: теневаихинзь
+     теневась+V+TV+Conj+Prt1+ScPl1: теневаиваць
+     теневась+V+TV+Conj+Prt1+ScPl2: теневаидаць
+     теневась+V+TV+Conj+Prt1+ScPl3: теневаиць
+     теневась+V+TV+Mod/nec+ScSg1: теневабцудм’
+     теневась+V+TV+Mod/nec+ScSg2: теневабцун
+     теневась+V+TV+Mod/nec+ScSg3: теневабцу
+     теневась+V+TV+Mod/nec+ScDu1: теневабцуни’
+     теневась+V+TV+Mod/nec+ScDu2: теневабцуди’
+     теневась+V+TV+Mod/nec+ScDu3: теневабцуху’
+     теневась+V+TV+Mod/nec+ScPl1: теневабцува”
+     теневась+V+TV+Mod/nec+ScPl2: теневабцуда”
+     теневась+V+TV+Mod/nec+ScPl3: теневабцу”
+     теневась+V+TV+Mod/int+ScSg1: теневасадм’
+     теневась+V+TV+Mod/int+ScSg2: теневасан
+     теневась+V+TV+Mod/int+ScSg3: теневаса
+     теневась+V+TV+Mod/int+ScDu1: теневасани’
+     теневась+V+TV+Mod/int+ScDu2: теневасади’
+     теневась+V+TV+Mod/int+ScDu3: теневасаха’
+     теневась+V+TV+Mod/int+ScPl1: теневасава”
+     теневась+V+TV+Mod/int+ScPl2: теневасада”
+     теневась+V+TV+Mod/int+ScPl3: теневаса”
+     теневась+V+TV+Mod/narr+Aor+ScSg1: теневавэдм’
+     теневась+V+TV+Mod/narr+Aor+ScSg2: теневавэн
+     теневась+V+TV+Mod/narr+Aor+ScSg3: теневавы
+     теневась+V+TV+Mod/narr+Aor+ScDu1: теневавэни’
+     теневась+V+TV+Mod/narr+Aor+ScDu2: теневавэди’
+     теневась+V+TV+Mod/narr+Aor+ScDu3: теневавэхэ’
+     теневась+V+TV+Mod/narr+Aor+ScPl1: теневавэва”
+     теневась+V+TV+Mod/narr+Aor+ScPl2: теневавэда”
+     теневась+V+TV+Mod/narr+Aor+ScPl3: теневавы”
+     теневась+V+TV+Mod/narr+Prt1+ScSg1: теневавэдамзь
+     теневась+V+TV+Mod/narr+Prt1+ScSg2: теневавэнась
+     теневась+V+TV+Mod/narr+Prt1+ScSg3: [теневавысь, теневавэсь]
+     теневась+V+TV+Mod/narr+Prt1+ScDu1: теневавэнинзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu2: теневавэдинзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu3: теневавэхэнзь
+     теневась+V+TV+Mod/narr+Prt1+ScPl1: теневавэваць
+     теневась+V+TV+Mod/narr+Prt1+ScPl2: теневавэдаць
+     теневась+V+TV+Mod/narr+Prt1+ScPl3: [теневавыць, теневавэць]
+     теневась+V+TV+Mod/prob+Aor+ScSg1: теневанакэдм’
+     теневась+V+TV+Mod/prob+Aor+ScSg2: теневанакэн
+     теневась+V+TV+Mod/prob+Aor+ScSg3: теневанакы
+     теневась+V+TV+Mod/prob+Aor+ScDu1: теневанакэни’
+     теневась+V+TV+Mod/prob+Aor+ScDu2: теневанакэди’
+     теневась+V+TV+Mod/prob+Aor+ScDu3: теневанакэхэ’
+     теневась+V+TV+Mod/prob+Aor+ScPl1: теневанакэва”
+     теневась+V+TV+Mod/prob+Aor+ScPl2: теневанакэда”
+     теневась+V+TV+Mod/prob+Aor+ScPl3: теневанакы”
+     теневась+V+TV+Mod/obl+ScSg1: теневабцакэдм’
+     теневась+V+TV+Mod/obl+ScSg2: теневабцакэн
+     теневась+V+TV+Mod/obl+ScSg3: теневабцакы
+     теневась+V+TV+Mod/obl+ScDu1: теневабцакэни’
+     теневась+V+TV+Mod/obl+ScDu2: теневабцакэди’
+     теневась+V+TV+Mod/obl+ScDu3: теневабцакэхэ’
+     теневась+V+TV+Mod/obl+ScPl1: теневабцакэва”
+     теневась+V+TV+Mod/obl+ScPl2: теневабцакэда”
+     теневась+V+TV+Mod/obl+ScPl3: теневабцакы”
+     теневась+V+TV+Mod/impfappr+Aor+ScSg1: теневанарахадм’
+     теневась+V+TV+Mod/impfappr+Aor+ScSg2: теневанарахан
+     теневась+V+TV+Mod/impfappr+Aor+ScSg3: теневанараха
+     теневась+V+TV+Mod/impfappr+Aor+ScDu1: теневанарахани’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu2: теневанарахади’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu3: теневанарахаха’
+     теневась+V+TV+Mod/impfappr+Aor+ScPl1: теневанарахава”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl2: теневанарахада”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl3: теневанараха”
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg1: теневанарахадамзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg2: теневанараханась
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg3: теневанарахась
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu1: теневанараханинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu2: теневанарахадинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu3: теневанарахаханзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl1: теневанарахаваць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl2: теневанарахадаць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl3: теневанарахаць
+     теневась+V+TV+Mod/perfappr+ScSg1: теневавэрахадм’
+     теневась+V+TV+Mod/perfappr+ScSg2: теневавэрахан
+     теневась+V+TV+Mod/perfappr+ScSg3: теневавэраха
+     теневась+V+TV+Mod/perfappr+ScDu1: теневавэрахани’
+     теневась+V+TV+Mod/perfappr+ScDu2: теневавэрахади’
+     теневась+V+TV+Mod/perfappr+ScDu3: теневавэрахаха’
+     теневась+V+TV+Mod/perfappr+ScPl1: теневавэрахава”
+     теневась+V+TV+Mod/perfappr+ScPl2: теневавэрахада”
+     теневась+V+TV+Mod/perfappr+ScPl3: теневавэраха”
+     теневась+V+TV+Mod/futappr+ScSg1: [теневавандархадм’, теневавндархадм’, теневувндархадм’]
+     теневась+V+TV+Mod/futappr+ScSg2: [теневавандархан, теневавндархан, теневувндархан]
+     теневась+V+TV+Mod/futappr+ScSg3: [теневавандарха, теневавндарха, теневувндарха]
+     теневась+V+TV+Mod/futappr+ScDu1: [теневавандархани’, теневавндархани’, теневувндархани’]
+     теневась+V+TV+Mod/futappr+ScDu2: [теневавандархади’, теневавндархади’, теневувндархади’]
+     теневась+V+TV+Mod/futappr+ScDu3: [теневавандархаха’, теневавндархаха’, теневувндархаха’]
+     теневась+V+TV+Mod/futappr+ScPl1: [теневавандархава”, теневавндархава”, теневувндархава”]
+     теневась+V+TV+Mod/futappr+ScPl2: [теневавандархада”, теневавндархада”, теневувндархада”]
+     теневась+V+TV+Mod/futappr+ScPl3: [теневавандарха”, теневавндарха”, теневувндарха”]
+     теневась+V+TV+Mod/sup+ScSg1: теневаванӈгабядм’
+     теневась+V+TV+Mod/sup+ScSg2: теневаванӈгабян
+     теневась+V+TV+Mod/sup+ScSg3: теневаванӈгабя
+     теневась+V+TV+Mod/sup+ScDu1: теневаванӈгабяни’
+     теневась+V+TV+Mod/sup+ScDu2: теневаванӈгабяди’
+     теневась+V+TV+Mod/sup+ScDu3: теневаванӈгабяха’
+     теневась+V+TV+Mod/sup+ScPl1: теневаванӈгабява”
+     теневась+V+TV+Mod/sup+ScPl2: теневаванӈгабяда”
+     теневась+V+TV+Mod/sup+ScPl3: теневаванӈгабя”
+     теневась+V+TV+Mod/hyp+ScSg1: теневархавэдм’
+     теневась+V+TV+Mod/hyp+ScSg2: теневархавэн
+     теневась+V+TV+Mod/hyp+ScSg3: теневархавы
+     теневась+V+TV+Mod/hyp+ScDu1: теневархавэни’
+     теневась+V+TV+Mod/hyp+ScDu2: теневархавэди’
+     теневась+V+TV+Mod/hyp+ScDu3: теневархавэхэ’
+     теневась+V+TV+Mod/hyp+ScPl1: теневархавэва”
+     теневась+V+TV+Mod/hyp+ScPl2: теневархавэда”
+     теневась+V+TV+Mod/hyp+ScPl3: теневархавы”
+     теневась+V+TV+Mod/perfprob+ScSg1: теневавэкэдм’
+     теневась+V+TV+Mod/perfprob+ScSg2: теневавэкэн
+     теневась+V+TV+Mod/perfprob+ScSg3: теневавэкы
+     теневась+V+TV+Mod/perfprob+ScDu1: теневавэкэни’
+     теневась+V+TV+Mod/perfprob+ScDu2: теневавэкэди’
+     теневась+V+TV+Mod/perfprob+ScDu3: теневавэкэхэ’
+     теневась+V+TV+Mod/perfprob+ScPl1: теневавэкэва”
+     теневась+V+TV+Mod/perfprob+ScPl2: теневавэкэда”
+     теневась+V+TV+Mod/perfprob+ScPl3: теневавэкы”
+     теневась+V+TV+Mod/rep+ScSg1: [теневавнадм’, теневувнадм’]
+     теневась+V+TV+Mod/rep+ScSg2: [теневавнан, теневувнан]
+     теневась+V+TV+Mod/rep+ScSg3: [теневавна, теневувна]
+     теневась+V+TV+Mod/rep+ScDu1: [теневавнани’, теневувнани’]
+     теневась+V+TV+Mod/rep+ScDu2: [теневавнади’, теневувнади’]
+     теневась+V+TV+Mod/rep+ScDu3: [теневавнаха’, теневувнаха’]
+     теневась+V+TV+Mod/rep+ScPl1: [теневавнава”, теневувнава”]
+     теневась+V+TV+Mod/rep+ScPl2: [теневавнада”, теневувнада”]
+     теневась+V+TV+Mod/rep+ScPl3: [теневавна”, теневувна”]
+     теневась+V+TV+Mod/des+ScSg1: теневарвадм’
+     теневась+V+TV+Mod/des+ScSg2: теневарван
+     теневась+V+TV+Mod/des+ScSg3: теневарва
+     теневась+V+TV+Mod/des+ScDu1: теневарвани’
+     теневась+V+TV+Mod/des+ScDu2: теневарвади’
+     теневась+V+TV+Mod/des+ScDu3: теневарваха’
+     теневась+V+TV+Mod/des+ScPl1: теневарвава”
+     теневась+V+TV+Mod/des+ScPl2: теневарвада”
+     теневась+V+TV+Mod/des+ScPl3: теневарва”
+     теневась+V+TV+Fut+Ind+Aor+ScSg1: теневаӈгудм’
+     теневась+V+TV+Fut+Ind+Aor+ScSg2: теневаӈгун
+     теневась+V+TV+Fut+Ind+Aor+ScSg3: теневаӈгу
+     теневась+V+TV+Fut+Ind+Aor+ScDu1: теневаӈгуни’
+     теневась+V+TV+Fut+Ind+Aor+ScDu2: теневаӈгуди’
+     теневась+V+TV+Fut+Ind+Aor+ScDu3: теневаӈгуху’
+     теневась+V+TV+Fut+Ind+Aor+ScPl1: теневаӈгува”
+     теневась+V+TV+Fut+Ind+Aor+ScPl2: теневаӈгуда”
+     теневась+V+TV+Fut+Ind+Aor+ScPl3: теневаӈгу”
+     теневась+V+TV+Fut+Ind+Prt1+ScSg1: теневаӈгудамзь
+     теневась+V+TV+Fut+Ind+Prt1+ScSg2: теневаӈгунась
+     теневась+V+TV+Fut+Ind+Prt1+ScSg3: теневаӈгусь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu1: теневаӈгунинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu2: теневаӈгудинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu3: теневаӈгухунзь
+     теневась+V+TV+Fut+Ind+Prt1+ScPl1: теневаӈгуваць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl2: теневаӈгудаць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl3: теневаӈгуць
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg1: [теневаӈгодакэдм’, теневаӈгоданакэдм’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg2: [теневаӈгодакэн, теневаӈгоданакэн]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg3: [теневаӈгодакы, теневаӈгоданакы]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu1: [теневаӈгодакэни’, теневаӈгоданакэни’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu2: [теневаӈгодакэди’, теневаӈгоданакэди’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu3: [теневаӈгодакэхэ’, теневаӈгоданакэхэ’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl1: [теневаӈгодакэва”, теневаӈгоданакэва”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl2: [теневаӈгодакэда”, теневаӈгоданакэда”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl3: [теневаӈгодакы”, теневаӈгоданакы”]
+     теневась+V+TV+Prec+Hort+ScSg1: [теневахарцюдм’, теневахарцядм’]
+     теневась+V+TV+Prec+Hort+ScDu1: [теневахарцюни’, теневахарцяни’]
+     теневась+V+TV+Prec+Hort+ScPl1: [теневахарцюва”, теневахарцява”]
+     теневась+V+TV+Prec+Imprt+ScSg2: теневахар”
+     теневась+V+TV+Prec+Imprt+ScDu2: [теневахар”ӈади’, теневахарӈади’]
+     теневась+V+TV+Prec+Imprt+ScPl2: [теневахар”ӈада”, теневахарӈада”]
+     теневась+V+TV+Prec+Opt+ScSg3: [теневахар”ӈая, теневахарӈая]
+     теневась+V+TV+Prec+Opt+ScDu3: [теневахар”ӈаяха’, теневахарӈаяха’]
+     теневась+V+TV+Prec+Opt+ScPl3: [теневахар”ӈая”, теневахарӈая”]
+     теневась+V+TV+Hab+Ind+Aor+ScSg1: [теневасьтыдм’, теневасетыдм’]
+     теневась+V+TV+Hab+Ind+Aor+ScSg2: [теневасьтын, теневасетын]
+     теневась+V+TV+Hab+Ind+Aor+ScSg3: [теневасьты, теневасеты]
+     теневась+V+TV+Hab+Ind+Aor+ScDu1: [теневасьтыни’, теневасетыни’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu2: [теневасьтыди’, теневасетыди’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu3: [теневасьтыхы’, теневасетыхы’]
+     теневась+V+TV+Hab+Ind+Aor+ScPl1: [теневасьтыва”, теневасетыва”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl2: [теневасьтыда”, теневасетыда”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl3: [теневасьты”, теневасеты”]
+     теневась+V+TV+Hab+Mod/narr+ScSg1: [теневасьтавэдм’, теневасетавэдм’]
+     теневась+V+TV+Hab+Mod/narr+ScSg2: [теневасьтавэн, теневасетавэн]
+     теневась+V+TV+Hab+Mod/narr+ScSg3: [теневасьтавы, теневасетавы]
+     теневась+V+TV+Hab+Mod/narr+ScDu1: [теневасьтавэни’, теневасетавэни’]
+     теневась+V+TV+Hab+Mod/narr+ScDu2: [теневасьтавэди’, теневасетавэди’]
+     теневась+V+TV+Hab+Mod/narr+ScDu3: [теневасьтавэхэ’, теневасетавэхэ’]
+     теневась+V+TV+Hab+Mod/narr+ScPl1: [теневасьтавэва”, теневасетавэва”]
+     теневась+V+TV+Hab+Mod/narr+ScPl2: [теневасьтавэда”, теневасетавэда”]
+     теневась+V+TV+Hab+Mod/narr+ScPl3: [теневасьтавы”, теневасетавы”]
+     теневась+V+TV+Ind+Aor+ScSg1+OcSg3: теневав
+     теневась+V+TV+Ind+Aor+ScSg2+OcSg3: теневар
+     теневась+V+TV+Ind+Aor+ScSg3+OcSg3: теневада
+     теневась+V+TV+Ind+Aor+ScDu1+OcSg3: теневами’
+     теневась+V+TV+Ind+Aor+ScDu2+OcSg3: теневари’
+     теневась+V+TV+Ind+Aor+ScDu3+OcSg3: теневади’
+     теневась+V+TV+Ind+Aor+ScPl1+OcSg3: теневава”
+     теневась+V+TV+Ind+Aor+ScPl2+OcSg3: теневара”
+     теневась+V+TV+Ind+Aor+ScPl3+OcSg3: теневадо’
+     теневась+V+TV+Ind+Aor+ScSg1+OcDu3: теневаӈахаюн
+     теневась+V+TV+Ind+Aor+ScSg2+OcDu3: теневаӈахаюд
+     теневась+V+TV+Ind+Aor+ScSg3+OcDu3: теневаӈахаюда
+     теневась+V+TV+Ind+Aor+ScDu1+OcDu3: теневаӈахаюни’
+     теневась+V+TV+Ind+Aor+ScDu2+OcDu3: теневаӈахаюди’
+     теневась+V+TV+Ind+Aor+ScDu3+OcDu3: теневаӈахаюди’
+     теневась+V+TV+Ind+Aor+ScPl1+OcDu3: теневаӈахаюна”
+     теневась+V+TV+Ind+Aor+ScPl2+OcDu3: теневаӈахаюда”
+     теневась+V+TV+Ind+Aor+ScPl3+OcDu3: теневаӈахаюдо’
+     теневась+V+TV+Ind+Aor+ScSg1+OcPl3: теневын
+     теневась+V+TV+Ind+Aor+ScSg2+OcPl3: теневыд
+     теневась+V+TV+Ind+Aor+ScSg3+OcPl3: теневыда
+     теневась+V+TV+Ind+Aor+ScDu1+OcPl3: теневыни’
+     теневась+V+TV+Ind+Aor+ScDu2+OcPl3: теневыди’
+     теневась+V+TV+Ind+Aor+ScDu3+OcPl3: теневыди’
+     теневась+V+TV+Ind+Aor+ScPl1+OcPl3: теневына”
+     теневась+V+TV+Ind+Aor+ScPl2+OcPl3: теневыда”
+     теневась+V+TV+Ind+Aor+ScPl3+OcPl3: теневыдо’
+     теневась+V+TV+Ind+Prt1+ScSg1+OcSg3: теневавась
+     теневась+V+TV+Ind+Prt1+ScSg2+OcSg3: теневарась
+     теневась+V+TV+Ind+Prt1+ScSg3+OcSg3: теневадась
+     теневась+V+TV+Ind+Prt1+ScDu1+OcSg3: теневаминзь
+     теневась+V+TV+Ind+Prt1+ScDu2+OcSg3: теневаринзь
+     теневась+V+TV+Ind+Prt1+ScDu3+OcSg3: теневадинзь
+     теневась+V+TV+Ind+Prt1+ScPl1+OcSg3: теневаваць
+     теневась+V+TV+Ind+Prt1+ScPl2+OcSg3: теневараць
+     теневась+V+TV+Ind+Prt1+ScPl3+OcSg3: теневадонзь
+     теневась+V+TV+Ind+Prt1+ScSg1+OcDu3: теневаӈахаюнась
+     теневась+V+TV+Ind+Prt1+ScSg2+OcDu3: теневаӈахаюдась
+     теневась+V+TV+Ind+Prt1+ScSg3+OcDu3: теневаӈахаюдась
+     теневась+V+TV+Ind+Prt1+ScDu1+OcDu3: теневаӈахаюнинзь
+     теневась+V+TV+Ind+Prt1+ScDu2+OcDu3: теневаӈахаюдинзь
+     теневась+V+TV+Ind+Prt1+ScDu3+OcDu3: теневаӈахаюдинзь
+     теневась+V+TV+Ind+Prt1+ScPl1+OcDu3: теневаӈахаюнаць
+     теневась+V+TV+Ind+Prt1+ScPl2+OcDu3: теневаӈахаюдаць
+     теневась+V+TV+Ind+Prt1+ScPl3+OcDu3: теневаӈахаюдонзь
+     теневась+V+TV+Ind+Prt1+ScSg1+OcPl3: теневынась
+     теневась+V+TV+Ind+Prt1+ScSg2+OcPl3: теневыдась
+     теневась+V+TV+Ind+Prt1+ScSg3+OcPl3: теневыдась
+     теневась+V+TV+Ind+Prt1+ScDu1+OcPl3: теневынинзь
+     теневась+V+TV+Ind+Prt1+ScDu2+OcPl3: теневыдинзь
+     теневась+V+TV+Ind+Prt1+ScDu3+OcPl3: теневыдинзь
+     теневась+V+TV+Ind+Prt1+ScPl1+OcPl3: теневынаць
+     теневась+V+TV+Ind+Prt1+ScPl2+OcPl3: теневыдаць
+     теневась+V+TV+Ind+Prt1+ScPl3+OcPl3: теневыдонзь
+     теневась+V+TV+Hort+ScSg1+OcSg3: [теневахав, теневахув]
+     теневась+V+TV+Hort+ScDu1+OcSg3: теневахами’
+     теневась+V+TV+Hort+ScPl1+OcSg3: теневахава”
+     теневась+V+TV+Hort+ScSg1+OcDu3: теневахахаюн
+     теневась+V+TV+Hort+ScDu1+OcDu3: теневахахаюни’
+     теневась+V+TV+Hort+ScPl1+OcDu3: теневахахаюна”
+     теневась+V+TV+Hort+ScSg1+OcPl3: теневахан
+     теневась+V+TV+Hort+ScDu1+OcPl3: теневахани’
+     теневась+V+TV+Hort+ScPl1+OcPl3: теневахана”
+     теневась+V+TV+Imprt+ScSg2+OcSg3: теневад
+     теневась+V+TV+Imprt+ScDu2+OcSg3: теневари’
+     теневась+V+TV+Imprt+ScPl2+OcSg3: теневара”
+     теневась+V+TV+Imprt+ScSg2+OcDu3: теневахаюн”
+     теневась+V+TV+Imprt+ScDu2+OcDu3: теневаӈахаюди’
+     теневась+V+TV+Imprt+ScPl2+OcDu3: теневаӈахаюда”
+     теневась+V+TV+Imprt+ScSg2+OcPl3: теневан”
+     теневась+V+TV+Imprt+ScDu2+OcPl3: теневыди’
+     теневась+V+TV+Imprt+ScPl2+OcPl3: теневыда”
+     теневась+V+TV+Opt+ScSg3+OcSg3: теневамда
+     теневась+V+TV+Opt+ScDu3+OcSg3: теневамди’
+     теневась+V+TV+Opt+ScPl3+OcSg3: теневамдо’
+     теневась+V+TV+Opt+ScSg3+OcDu3: теневаӈахаюдамда
+     теневась+V+TV+Opt+ScDu3+OcDu3: теневаӈахаюдамди’
+     теневась+V+TV+Opt+ScPl3+OcDu3: теневаӈахаюдамдо’
+     теневась+V+TV+Opt+ScSg3+OcPl3: теневыдамда
+     теневась+V+TV+Opt+ScDu3+OcPl3: теневыдамди’
+     теневась+V+TV+Opt+ScPl3+OcPl3: теневыдамдо’
+     теневась+V+TV+Conj+Aor+ScSg1+OcSg3: теневаив
+     теневась+V+TV+Conj+Aor+ScSg2+OcSg3: теневаир
+     теневась+V+TV+Conj+Aor+ScSg3+OcSg3: теневаида
+     теневась+V+TV+Conj+Aor+ScDu1+OcSg3: теневаими’
+     теневась+V+TV+Conj+Aor+ScDu2+OcSg3: теневаири’
+     теневась+V+TV+Conj+Aor+ScDu3+OcSg3: теневаиди’
+     теневась+V+TV+Conj+Aor+ScPl1+OcSg3: теневаива”
+     теневась+V+TV+Conj+Aor+ScPl2+OcSg3: теневаира”
+     теневась+V+TV+Conj+Aor+ScPl3+OcSg3: теневаидо’
+     теневась+V+TV+Conj+Aor+ScSg1+OcDu3: теневаихиюн
+     теневась+V+TV+Conj+Aor+ScSg2+OcDu3: теневаихиюд
+     теневась+V+TV+Conj+Aor+ScSg3+OcDu3: теневаихиюда
+     теневась+V+TV+Conj+Aor+ScDu1+OcDu3: теневаихиюни’
+     теневась+V+TV+Conj+Aor+ScDu2+OcDu3: теневаихиюди’
+     теневась+V+TV+Conj+Aor+ScDu3+OcDu3: теневаихиюди’
+     теневась+V+TV+Conj+Aor+ScPl1+OcDu3: теневаихиюна”
+     теневась+V+TV+Conj+Aor+ScPl2+OcDu3: теневаихиюда”
+     теневась+V+TV+Conj+Aor+ScPl3+OcDu3: теневаихиюдо’
+     теневась+V+TV+Conj+Aor+ScSg1+OcPl3: теневаин
+     теневась+V+TV+Conj+Aor+ScSg2+OcPl3: теневаид
+     теневась+V+TV+Conj+Aor+ScSg3+OcPl3: теневаида
+     теневась+V+TV+Conj+Aor+ScDu1+OcPl3: теневаини’
+     теневась+V+TV+Conj+Aor+ScDu2+OcPl3: теневаиди’
+     теневась+V+TV+Conj+Aor+ScDu3+OcPl3: теневаиди’
+     теневась+V+TV+Conj+Aor+ScPl1+OcPl3: теневаина”
+     теневась+V+TV+Conj+Aor+ScPl2+OcPl3: теневаида”
+     теневась+V+TV+Conj+Aor+ScPl3+OcPl3: теневаидо’
+     теневась+V+TV+Conj+Prt1+ScSg1+OcSg3: теневаивась
+     теневась+V+TV+Conj+Prt1+ScSg2+OcSg3: теневаирась
+     теневась+V+TV+Conj+Prt1+ScSg3+OcSg3: теневаидась
+     теневась+V+TV+Conj+Prt1+ScDu1+OcSg3: теневаиминзь
+     теневась+V+TV+Conj+Prt1+ScDu2+OcSg3: теневаиринзь
+     теневась+V+TV+Conj+Prt1+ScDu3+OcSg3: теневаидинзь
+     теневась+V+TV+Conj+Prt1+ScPl1+OcSg3: теневаиваць
+     теневась+V+TV+Conj+Prt1+ScPl2+OcSg3: теневаираць
+     теневась+V+TV+Conj+Prt1+ScPl3+OcSg3: теневаидонзь
+     теневась+V+TV+Conj+Prt1+ScSg1+OcDu3: теневаихиюнась
+     теневась+V+TV+Conj+Prt1+ScSg2+OcDu3: теневаихиюдась
+     теневась+V+TV+Conj+Prt1+ScSg3+OcDu3: теневаихиюдась
+     теневась+V+TV+Conj+Prt1+ScDu1+OcDu3: теневаихиюнинзь
+     теневась+V+TV+Conj+Prt1+ScDu2+OcDu3: теневаихиюдинзь
+     теневась+V+TV+Conj+Prt1+ScDu3+OcDu3: теневаихиюдинзь
+     теневась+V+TV+Conj+Prt1+ScPl1+OcDu3: теневаихиюнаць
+     теневась+V+TV+Conj+Prt1+ScPl2+OcDu3: теневаихиюдаць
+     теневась+V+TV+Conj+Prt1+ScPl3+OcDu3: теневаихиюдонзь
+     теневась+V+TV+Conj+Prt1+ScSg1+OcPl3: теневаинась
+     теневась+V+TV+Conj+Prt1+ScSg2+OcPl3: теневаидась
+     теневась+V+TV+Conj+Prt1+ScSg3+OcPl3: теневаидась
+     теневась+V+TV+Conj+Prt1+ScDu1+OcPl3: теневаининзь
+     теневась+V+TV+Conj+Prt1+ScDu2+OcPl3: теневаидинзь
+     теневась+V+TV+Conj+Prt1+ScDu3+OcPl3: теневаидинзь
+     теневась+V+TV+Conj+Prt1+ScPl1+OcPl3: теневаинаць
+     теневась+V+TV+Conj+Prt1+ScPl2+OcPl3: теневаидаць
+     теневась+V+TV+Conj+Prt1+ScPl3+OcPl3: теневаидонзь
+     теневась+V+TV+Mod/nec+ScSg1+OcSg3: теневабцув
+     теневась+V+TV+Mod/nec+ScSg2+OcSg3: теневабцур
+     теневась+V+TV+Mod/nec+ScSg3+OcSg3: теневабцуда
+     теневась+V+TV+Mod/nec+ScDu1+OcSg3: теневабцуми’
+     теневась+V+TV+Mod/nec+ScDu2+OcSg3: теневабцури’
+     теневась+V+TV+Mod/nec+ScDu3+OcSg3: теневабцуди’
+     теневась+V+TV+Mod/nec+ScPl1+OcSg3: теневабцува”
+     теневась+V+TV+Mod/nec+ScPl2+OcSg3: теневабцура”
+     теневась+V+TV+Mod/nec+ScPl3+OcSg3: теневабцудо’
+     теневась+V+TV+Mod/nec+ScSg1+OcDu3: теневабцухуюн
+     теневась+V+TV+Mod/nec+ScSg2+OcDu3: теневабцухуюд
+     теневась+V+TV+Mod/nec+ScSg3+OcDu3: теневабцухуюда
+     теневась+V+TV+Mod/nec+ScDu1+OcDu3: теневабцухуюни’
+     теневась+V+TV+Mod/nec+ScDu2+OcDu3: теневабцухуюди’
+     теневась+V+TV+Mod/nec+ScDu3+OcDu3: теневабцухуюди’
+     теневась+V+TV+Mod/nec+ScPl1+OcDu3: теневабцухуюна”
+     теневась+V+TV+Mod/nec+ScPl2+OcDu3: теневабцухуюда”
+     теневась+V+TV+Mod/nec+ScPl3+OcDu3: теневабцухуюдо’
+     теневась+V+TV+Mod/nec+ScSg1+OcPl3: теневабцун
+     теневась+V+TV+Mod/nec+ScSg2+OcPl3: теневабцуд
+     теневась+V+TV+Mod/nec+ScSg3+OcPl3: теневабцуда
+     теневась+V+TV+Mod/nec+ScDu1+OcPl3: теневабцуни’
+     теневась+V+TV+Mod/nec+ScDu2+OcPl3: теневабцуди’
+     теневась+V+TV+Mod/nec+ScDu3+OcPl3: теневабцуди’
+     теневась+V+TV+Mod/nec+ScPl1+OcPl3: теневабцуна”
+     теневась+V+TV+Mod/nec+ScPl2+OcPl3: теневабцуда”
+     теневась+V+TV+Mod/nec+ScPl3+OcPl3: теневабцудо’
+     теневась+V+TV+Mod/int+ScSg1+OcSg3: теневасав
+     теневась+V+TV+Mod/int+ScSg2+OcSg3: теневасар
+     теневась+V+TV+Mod/int+ScSg3+OcSg3: теневасада
+     теневась+V+TV+Mod/int+ScDu1+OcSg3: теневасами’
+     теневась+V+TV+Mod/int+ScDu2+OcSg3: теневасари’
+     теневась+V+TV+Mod/int+ScDu3+OcSg3: теневасади’
+     теневась+V+TV+Mod/int+ScPl1+OcSg3: теневасава”
+     теневась+V+TV+Mod/int+ScPl2+OcSg3: теневасара”
+     теневась+V+TV+Mod/int+ScPl3+OcSg3: теневасадо’
+     теневась+V+TV+Mod/int+ScSg1+OcDu3: теневасахаюн
+     теневась+V+TV+Mod/int+ScSg2+OcDu3: теневасахаюд
+     теневась+V+TV+Mod/int+ScSg3+OcDu3: теневасахаюда
+     теневась+V+TV+Mod/int+ScDu1+OcDu3: теневасахаюни’
+     теневась+V+TV+Mod/int+ScDu2+OcDu3: теневасахаюди’
+     теневась+V+TV+Mod/int+ScDu3+OcDu3: теневасахаюди’
+     теневась+V+TV+Mod/int+ScPl1+OcDu3: теневасахаюна”
+     теневась+V+TV+Mod/int+ScPl2+OcDu3: теневасахаюда”
+     теневась+V+TV+Mod/int+ScPl3+OcDu3: теневасахаюдо’
+     теневась+V+TV+Mod/int+ScSg1+OcPl3: теневасян
+     теневась+V+TV+Mod/int+ScSg2+OcPl3: теневасяд
+     теневась+V+TV+Mod/int+ScSg3+OcPl3: теневасьда
+     теневась+V+TV+Mod/int+ScDu1+OcPl3: теневасьни’
+     теневась+V+TV+Mod/int+ScDu2+OcPl3: теневасьди’
+     теневась+V+TV+Mod/int+ScDu3+OcPl3: теневасьди’
+     теневась+V+TV+Mod/int+ScPl1+OcPl3: теневасьна”
+     теневась+V+TV+Mod/int+ScPl2+OcPl3: теневасьда”
+     теневась+V+TV+Mod/int+ScPl3+OcPl3: теневасьдо’
+     теневась+V+TV+Mod/narr+Aor+ScSg1+OcSg3: теневавэв
+     теневась+V+TV+Mod/narr+Aor+ScSg2+OcSg3: теневавэр
+     теневась+V+TV+Mod/narr+Aor+ScSg3+OcSg3: теневавэда
+     теневась+V+TV+Mod/narr+Aor+ScDu1+OcSg3: теневавэми’
+     теневась+V+TV+Mod/narr+Aor+ScDu2+OcSg3: теневавэри’
+     теневась+V+TV+Mod/narr+Aor+ScDu3+OcSg3: теневавэди’
+     теневась+V+TV+Mod/narr+Aor+ScPl1+OcSg3: теневавэва”
+     теневась+V+TV+Mod/narr+Aor+ScPl2+OcSg3: теневавэра”
+     теневась+V+TV+Mod/narr+Aor+ScPl3+OcSg3: теневавэдо’
+     теневась+V+TV+Mod/narr+Aor+ScSg1+OcDu3: теневавэхэюн
+     теневась+V+TV+Mod/narr+Aor+ScSg2+OcDu3: теневавэхэюд
+     теневась+V+TV+Mod/narr+Aor+ScSg3+OcDu3: теневавэхэюда
+     теневась+V+TV+Mod/narr+Aor+ScDu1+OcDu3: теневавэхэюни’
+     теневась+V+TV+Mod/narr+Aor+ScDu2+OcDu3: теневавэхэюди’
+     теневась+V+TV+Mod/narr+Aor+ScDu3+OcDu3: теневавэхэюди’
+     теневась+V+TV+Mod/narr+Aor+ScPl1+OcDu3: теневавэхэюна”
+     теневась+V+TV+Mod/narr+Aor+ScPl2+OcDu3: теневавэхэюда”
+     теневась+V+TV+Mod/narr+Aor+ScPl3+OcDu3: теневавэхэюдо’
+     теневась+V+TV+Mod/narr+Aor+ScSg1+OcPl3: теневавын
+     теневась+V+TV+Mod/narr+Aor+ScSg2+OcPl3: теневавыд
+     теневась+V+TV+Mod/narr+Aor+ScSg3+OcPl3: теневавыда
+     теневась+V+TV+Mod/narr+Aor+ScDu1+OcPl3: теневавыни’
+     теневась+V+TV+Mod/narr+Aor+ScDu2+OcPl3: теневавыди’
+     теневась+V+TV+Mod/narr+Aor+ScDu3+OcPl3: теневавыди’
+     теневась+V+TV+Mod/narr+Aor+ScPl1+OcPl3: теневавына”
+     теневась+V+TV+Mod/narr+Aor+ScPl2+OcPl3: теневавыда”
+     теневась+V+TV+Mod/narr+Aor+ScPl3+OcPl3: теневавыдо’
+     теневась+V+TV+Mod/narr+Prt1+ScSg1+OcSg3: теневавэвась
+     теневась+V+TV+Mod/narr+Prt1+ScSg2+OcSg3: теневавэрась
+     теневась+V+TV+Mod/narr+Prt1+ScSg3+OcSg3: теневавэдась
+     теневась+V+TV+Mod/narr+Prt1+ScDu1+OcSg3: теневавэминзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu2+OcSg3: теневавэринзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu3+OcSg3: теневавэдинзь
+     теневась+V+TV+Mod/narr+Prt1+ScPl1+OcSg3: теневавэваць
+     теневась+V+TV+Mod/narr+Prt1+ScPl2+OcSg3: теневавэраць
+     теневась+V+TV+Mod/narr+Prt1+ScPl3+OcSg3: теневавэдонзь
+     теневась+V+TV+Mod/narr+Prt1+ScSg1+OcDu3: теневавэхэюнась
+     теневась+V+TV+Mod/narr+Prt1+ScSg2+OcDu3: теневавэхэюдась
+     теневась+V+TV+Mod/narr+Prt1+ScSg3+OcDu3: теневавэхэюдась
+     теневась+V+TV+Mod/narr+Prt1+ScDu1+OcDu3: теневавэхэюнинзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu2+OcDu3: теневавэхэюдинзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu3+OcDu3: теневавэхэюдинзь
+     теневась+V+TV+Mod/narr+Prt1+ScPl1+OcDu3: теневавэхэюнаць
+     теневась+V+TV+Mod/narr+Prt1+ScPl2+OcDu3: теневавэхэюдаць
+     теневась+V+TV+Mod/narr+Prt1+ScPl3+OcDu3: теневавэхэюдонзь
+     теневась+V+TV+Mod/narr+Prt1+ScSg1+OcPl3: теневавынась
+     теневась+V+TV+Mod/narr+Prt1+ScSg2+OcPl3: теневавыдась
+     теневась+V+TV+Mod/narr+Prt1+ScSg3+OcPl3: теневавыдась
+     теневась+V+TV+Mod/narr+Prt1+ScDu1+OcPl3: теневавынинзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu2+OcPl3: теневавыдинзь
+     теневась+V+TV+Mod/narr+Prt1+ScDu3+OcPl3: теневавыдинзь
+     теневась+V+TV+Mod/narr+Prt1+ScPl1+OcPl3: теневавынаць
+     теневась+V+TV+Mod/narr+Prt1+ScPl2+OcPl3: теневавыдаць
+     теневась+V+TV+Mod/narr+Prt1+ScPl3+OcPl3: теневавыдонзь
+     теневась+V+TV+Mod/prob+Aor+ScSg1+OcSg3: теневанакэв
+     теневась+V+TV+Mod/prob+Aor+ScSg2+OcSg3: теневанакэр
+     теневась+V+TV+Mod/prob+Aor+ScSg3+OcSg3: теневанакэда
+     теневась+V+TV+Mod/prob+Aor+ScDu1+OcSg3: теневанакэми’
+     теневась+V+TV+Mod/prob+Aor+ScDu2+OcSg3: теневанакэри’
+     теневась+V+TV+Mod/prob+Aor+ScDu3+OcSg3: теневанакэди’
+     теневась+V+TV+Mod/prob+Aor+ScPl1+OcSg3: теневанакэва”
+     теневась+V+TV+Mod/prob+Aor+ScPl2+OcSg3: теневанакэра”
+     теневась+V+TV+Mod/prob+Aor+ScPl3+OcSg3: теневанакэдо’
+     теневась+V+TV+Mod/prob+Aor+ScSg1+OcDu3: теневанакэхэюн
+     теневась+V+TV+Mod/prob+Aor+ScSg2+OcDu3: теневанакэхэюд
+     теневась+V+TV+Mod/prob+Aor+ScSg3+OcDu3: теневанакэхэюда
+     теневась+V+TV+Mod/prob+Aor+ScDu1+OcDu3: теневанакэхэюни’
+     теневась+V+TV+Mod/prob+Aor+ScDu2+OcDu3: теневанакэхэюди’
+     теневась+V+TV+Mod/prob+Aor+ScDu3+OcDu3: теневанакэхэюди’
+     теневась+V+TV+Mod/prob+Aor+ScPl1+OcDu3: теневанакэхэюна”
+     теневась+V+TV+Mod/prob+Aor+ScPl2+OcDu3: теневанакэхэюда”
+     теневась+V+TV+Mod/prob+Aor+ScPl3+OcDu3: теневанакэхэюдо’
+     теневась+V+TV+Mod/prob+Aor+ScSg1+OcPl3: теневанакын
+     теневась+V+TV+Mod/prob+Aor+ScSg2+OcPl3: теневанакыд
+     теневась+V+TV+Mod/prob+Aor+ScSg3+OcPl3: теневанакыда
+     теневась+V+TV+Mod/prob+Aor+ScDu1+OcPl3: теневанакыни’
+     теневась+V+TV+Mod/prob+Aor+ScDu2+OcPl3: теневанакыди’
+     теневась+V+TV+Mod/prob+Aor+ScDu3+OcPl3: теневанакыди’
+     теневась+V+TV+Mod/prob+Aor+ScPl1+OcPl3: теневанакына”
+     теневась+V+TV+Mod/prob+Aor+ScPl2+OcPl3: теневанакыда”
+     теневась+V+TV+Mod/prob+Aor+ScPl3+OcPl3: теневанакыдо’
+     теневась+V+TV+Mod/obl+ScSg1+OcSg3: теневабцакэв
+     теневась+V+TV+Mod/obl+ScSg2+OcSg3: теневабцакэр
+     теневась+V+TV+Mod/obl+ScSg3+OcSg3: теневабцакэда
+     теневась+V+TV+Mod/obl+ScDu1+OcSg3: теневабцакэми’
+     теневась+V+TV+Mod/obl+ScDu2+OcSg3: теневабцакэри’
+     теневась+V+TV+Mod/obl+ScDu3+OcSg3: теневабцакэди’
+     теневась+V+TV+Mod/obl+ScPl1+OcSg3: теневабцакэва”
+     теневась+V+TV+Mod/obl+ScPl2+OcSg3: теневабцакэра”
+     теневась+V+TV+Mod/obl+ScPl3+OcSg3: теневабцакэдо’
+     теневась+V+TV+Mod/obl+ScSg1+OcDu3: теневабцакэхэюн
+     теневась+V+TV+Mod/obl+ScSg2+OcDu3: теневабцакэхэюд
+     теневась+V+TV+Mod/obl+ScSg3+OcDu3: теневабцакэхэюда
+     теневась+V+TV+Mod/obl+ScDu1+OcDu3: теневабцакэхэюни’
+     теневась+V+TV+Mod/obl+ScDu2+OcDu3: теневабцакэхэюди’
+     теневась+V+TV+Mod/obl+ScDu3+OcDu3: теневабцакэхэюди’
+     теневась+V+TV+Mod/obl+ScPl1+OcDu3: теневабцакэхэюна”
+     теневась+V+TV+Mod/obl+ScPl2+OcDu3: теневабцакэхэюда”
+     теневась+V+TV+Mod/obl+ScPl3+OcDu3: теневабцакэхэюдо’
+     теневась+V+TV+Mod/obl+ScSg1+OcPl3: теневабцакын
+     теневась+V+TV+Mod/obl+ScSg2+OcPl3: теневабцакыд
+     теневась+V+TV+Mod/obl+ScSg3+OcPl3: теневабцакыда
+     теневась+V+TV+Mod/obl+ScDu1+OcPl3: теневабцакыни’
+     теневась+V+TV+Mod/obl+ScDu2+OcPl3: теневабцакыди’
+     теневась+V+TV+Mod/obl+ScDu3+OcPl3: теневабцакыди’
+     теневась+V+TV+Mod/obl+ScPl1+OcPl3: теневабцакына”
+     теневась+V+TV+Mod/obl+ScPl2+OcPl3: теневабцакыда”
+     теневась+V+TV+Mod/obl+ScPl3+OcPl3: теневабцакыдо’
+     теневась+V+TV+Mod/impfappr+Aor+ScSg1+OcSg3: теневанарахав
+     теневась+V+TV+Mod/impfappr+Aor+ScSg2+OcSg3: теневанарахар
+     теневась+V+TV+Mod/impfappr+Aor+ScSg3+OcSg3: теневанарахада
+     теневась+V+TV+Mod/impfappr+Aor+ScDu1+OcSg3: теневанарахами’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu2+OcSg3: теневанарахари’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu3+OcSg3: теневанарахади’
+     теневась+V+TV+Mod/impfappr+Aor+ScPl1+OcSg3: теневанарахава”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl2+OcSg3: теневанарахара”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl3+OcSg3: теневанарахадо’
+     теневась+V+TV+Mod/impfappr+Aor+ScSg1+OcDu3: теневанарахахаюн
+     теневась+V+TV+Mod/impfappr+Aor+ScSg2+OcDu3: теневанарахахаюд
+     теневась+V+TV+Mod/impfappr+Aor+ScSg3+OcDu3: теневанарахахаюда
+     теневась+V+TV+Mod/impfappr+Aor+ScDu1+OcDu3: теневанарахахаюни’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu2+OcDu3: теневанарахахаюди’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu3+OcDu3: теневанарахахаюди’
+     теневась+V+TV+Mod/impfappr+Aor+ScPl1+OcDu3: теневанарахахаюна”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl2+OcDu3: теневанарахахаюда”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl3+OcDu3: теневанарахахаюдо’
+     теневась+V+TV+Mod/impfappr+Aor+ScSg1+OcPl3: теневанарыхын
+     теневась+V+TV+Mod/impfappr+Aor+ScSg2+OcPl3: теневанарыхыд
+     теневась+V+TV+Mod/impfappr+Aor+ScSg3+OcPl3: теневанарыхыда
+     теневась+V+TV+Mod/impfappr+Aor+ScDu1+OcPl3: теневанарыхыни’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu2+OcPl3: теневанарыхыди’
+     теневась+V+TV+Mod/impfappr+Aor+ScDu3+OcPl3: теневанарыхыди’
+     теневась+V+TV+Mod/impfappr+Aor+ScPl1+OcPl3: теневанарыхына”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl2+OcPl3: теневанарыхыда”
+     теневась+V+TV+Mod/impfappr+Aor+ScPl3+OcPl3: теневанарыхыдо’
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg1+OcSg3: теневанарахавась
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg2+OcSg3: теневанарахарась
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg3+OcSg3: теневанарахадась
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu1+OcSg3: теневанарахаминзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu2+OcSg3: теневанарахаринзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu3+OcSg3: теневанарахадинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl1+OcSg3: теневанарахаваць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl2+OcSg3: теневанарахараць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl3+OcSg3: теневанарахадонзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg1+OcDu3: теневанарахахаюнась
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg2+OcDu3: теневанарахахаюдась
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg3+OcDu3: теневанарахахаюдась
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu1+OcDu3: теневанарахахаюнинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu2+OcDu3: теневанарахахаюдинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu3+OcDu3: теневанарахахаюдинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl1+OcDu3: теневанарахахаюнаць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl2+OcDu3: теневанарахахаюдаць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl3+OcDu3: теневанарахахаюдонзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg1+OcPl3: теневанарыхынась
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg2+OcPl3: теневанарыхыдась
+     теневась+V+TV+Mod/impfappr+Prt1+ScSg3+OcPl3: теневанарыхыдась
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu1+OcPl3: теневанарыхынинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu2+OcPl3: теневанарыхыдинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScDu3+OcPl3: теневанарыхыдинзь
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl1+OcPl3: теневанарыхынаць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl2+OcPl3: теневанарыхыдаць
+     теневась+V+TV+Mod/impfappr+Prt1+ScPl3+OcPl3: теневанарыхыдонзь
+     теневась+V+TV+Mod/perfappr+ScSg1+OcSg3: теневавэрахав
+     теневась+V+TV+Mod/perfappr+ScSg2+OcSg3: теневавэрахар
+     теневась+V+TV+Mod/perfappr+ScSg3+OcSg3: теневавэрахада
+     теневась+V+TV+Mod/perfappr+ScDu1+OcSg3: теневавэрахами’
+     теневась+V+TV+Mod/perfappr+ScDu2+OcSg3: теневавэрахари’
+     теневась+V+TV+Mod/perfappr+ScDu3+OcSg3: теневавэрахади’
+     теневась+V+TV+Mod/perfappr+ScPl1+OcSg3: теневавэрахава”
+     теневась+V+TV+Mod/perfappr+ScPl2+OcSg3: теневавэрахара”
+     теневась+V+TV+Mod/perfappr+ScPl3+OcSg3: теневавэрахадо’
+     теневась+V+TV+Mod/perfappr+ScSg1+OcDu3: теневавэрахахаюн
+     теневась+V+TV+Mod/perfappr+ScSg2+OcDu3: теневавэрахахаюд
+     теневась+V+TV+Mod/perfappr+ScSg3+OcDu3: теневавэрахахаюда
+     теневась+V+TV+Mod/perfappr+ScDu1+OcDu3: теневавэрахахаюни’
+     теневась+V+TV+Mod/perfappr+ScDu2+OcDu3: теневавэрахахаюди’
+     теневась+V+TV+Mod/perfappr+ScDu3+OcDu3: теневавэрахахаюди’
+     теневась+V+TV+Mod/perfappr+ScPl1+OcDu3: теневавэрахахаюна”
+     теневась+V+TV+Mod/perfappr+ScPl2+OcDu3: теневавэрахахаюда”
+     теневась+V+TV+Mod/perfappr+ScPl3+OcDu3: теневавэрахахаюдо’
+     теневась+V+TV+Mod/perfappr+ScSg1+OcPl3: теневавэрыхын
+     теневась+V+TV+Mod/perfappr+ScSg2+OcPl3: теневавэрыхыд
+     теневась+V+TV+Mod/perfappr+ScSg3+OcPl3: теневавэрыхыда
+     теневась+V+TV+Mod/perfappr+ScDu1+OcPl3: теневавэрыхыни’
+     теневась+V+TV+Mod/perfappr+ScDu2+OcPl3: теневавэрыхыди’
+     теневась+V+TV+Mod/perfappr+ScDu3+OcPl3: теневавэрыхыди’
+     теневась+V+TV+Mod/perfappr+ScPl1+OcPl3: теневавэрыхына”
+     теневась+V+TV+Mod/perfappr+ScPl2+OcPl3: теневавэрыхыда”
+     теневась+V+TV+Mod/perfappr+ScPl3+OcPl3: теневавэрыхыдо’
+     теневась+V+TV+Mod/futappr+ScSg1+OcSg3: [теневавандархав, теневавндархав, теневувндархав]
+     теневась+V+TV+Mod/futappr+ScSg2+OcSg3: [теневавандархар, теневавндархар, теневувндархар]
+     теневась+V+TV+Mod/futappr+ScSg3+OcSg3: [теневавандархада, теневавндархада, теневувндархада]
+     теневась+V+TV+Mod/futappr+ScDu1+OcSg3: [теневавандархами’, теневавндархами’, теневувндархами’]
+     теневась+V+TV+Mod/futappr+ScDu2+OcSg3: [теневавандархари’, теневавндархари’, теневувндархари’]
+     теневась+V+TV+Mod/futappr+ScDu3+OcSg3: [теневавандархади’, теневавндархади’, теневувндархади’]
+     теневась+V+TV+Mod/futappr+ScPl1+OcSg3: [теневавандархава”, теневавндархава”, теневувндархава”]
+     теневась+V+TV+Mod/futappr+ScPl2+OcSg3: [теневавандархара”, теневавндархара”, теневувндархара”]
+     теневась+V+TV+Mod/futappr+ScPl3+OcSg3: [теневавандархадо’, теневавндархадо’, теневувндархадо’]
+     теневась+V+TV+Mod/futappr+ScSg1+OcDu3: [теневавандархахаюн, теневавндархахаюн, теневувндархахаюн]
+     теневась+V+TV+Mod/futappr+ScSg2+OcDu3: [теневавандархахаюд, теневавндархахаюд, теневувндархахаюд]
+     теневась+V+TV+Mod/futappr+ScSg3+OcDu3: [теневавандархахаюда, теневавндархахаюда, теневувндархахаюда]
+     теневась+V+TV+Mod/futappr+ScDu1+OcDu3: [теневавандархахаюни’, теневавндархахаюни’, теневувндархахаюни’]
+     теневась+V+TV+Mod/futappr+ScDu2+OcDu3: [теневавандархахаюди’, теневавндархахаюди’, теневувндархахаюди’]
+     теневась+V+TV+Mod/futappr+ScDu3+OcDu3: [теневавандархахаюди’, теневавндархахаюди’, теневувндархахаюди’]
+     теневась+V+TV+Mod/futappr+ScPl1+OcDu3: [теневавандархахаюна”, теневавндархахаюна”, теневувндархахаюна”]
+     теневась+V+TV+Mod/futappr+ScPl2+OcDu3: [теневавандархахаюда”, теневавндархахаюда”, теневувндархахаюда”]
+     теневась+V+TV+Mod/futappr+ScPl3+OcDu3: [теневавандархахаюдо’, теневавндархахаюдо’, теневувндархахаюдо’]
+     теневась+V+TV+Mod/futappr+ScSg1+OcPl3: [теневавандархын, теневавндархын, теневувндархын]
+     теневась+V+TV+Mod/futappr+ScSg2+OcPl3: [теневавандархыд, теневавндархыд, теневувндархыд]
+     теневась+V+TV+Mod/futappr+ScSg3+OcPl3: [теневавандархыда, теневавндархыда, теневувндархыда]
+     теневась+V+TV+Mod/futappr+ScDu1+OcPl3: [теневавандархыни’, теневавндархыни’, теневувндархыни’]
+     теневась+V+TV+Mod/futappr+ScDu2+OcPl3: [теневавандархыди’, теневавндархыди’, теневувндархыди’]
+     теневась+V+TV+Mod/futappr+ScDu3+OcPl3: [теневавандархыди’, теневавндархыди’, теневувндархыди’]
+     теневась+V+TV+Mod/futappr+ScPl1+OcPl3: [теневавандархына”, теневавндархына”, теневувндархына”]
+     теневась+V+TV+Mod/futappr+ScPl2+OcPl3: [теневавандархыда”, теневавндархыда”, теневувндархыда”]
+     теневась+V+TV+Mod/futappr+ScPl3+OcPl3: [теневавандархыдо’, теневавндархыдо’, теневувндархыдо’]
+     теневась+V+TV+Mod/sup+ScSg1+OcSg3: теневаванӈгабяв
+     теневась+V+TV+Mod/sup+ScSg2+OcSg3: теневаванӈгабяр
+     теневась+V+TV+Mod/sup+ScSg3+OcSg3: теневаванӈгабяда
+     теневась+V+TV+Mod/sup+ScDu1+OcSg3: теневаванӈгабями’
+     теневась+V+TV+Mod/sup+ScDu2+OcSg3: теневаванӈгабяри’
+     теневась+V+TV+Mod/sup+ScDu3+OcSg3: теневаванӈгабяди’
+     теневась+V+TV+Mod/sup+ScPl1+OcSg3: теневаванӈгабява”
+     теневась+V+TV+Mod/sup+ScPl2+OcSg3: теневаванӈгабяра”
+     теневась+V+TV+Mod/sup+ScPl3+OcSg3: теневаванӈгабядо’
+     теневась+V+TV+Mod/sup+ScSg1+OcDu3: теневаванӈгабяхаюн
+     теневась+V+TV+Mod/sup+ScSg2+OcDu3: теневаванӈгабяхаюд
+     теневась+V+TV+Mod/sup+ScSg3+OcDu3: теневаванӈгабяхаюда
+     теневась+V+TV+Mod/sup+ScDu1+OcDu3: теневаванӈгабяхаюни’
+     теневась+V+TV+Mod/sup+ScDu2+OcDu3: теневаванӈгабяхаюди’
+     теневась+V+TV+Mod/sup+ScDu3+OcDu3: теневаванӈгабяхаюди’
+     теневась+V+TV+Mod/sup+ScPl1+OcDu3: теневаванӈгабяхаюна”
+     теневась+V+TV+Mod/sup+ScPl2+OcDu3: теневаванӈгабяхаюда”
+     теневась+V+TV+Mod/sup+ScPl3+OcDu3: теневаванӈгабяхаюдо’
+     теневась+V+TV+Mod/sup+ScSg1+OcPl3: теневаванӈгабин
+     теневась+V+TV+Mod/sup+ScSg2+OcPl3: теневаванӈгабид
+     теневась+V+TV+Mod/sup+ScSg3+OcPl3: теневаванӈгабида
+     теневась+V+TV+Mod/sup+ScDu1+OcPl3: теневаванӈгабини’
+     теневась+V+TV+Mod/sup+ScDu2+OcPl3: теневаванӈгабиди’
+     теневась+V+TV+Mod/sup+ScDu3+OcPl3: теневаванӈгабиди’
+     теневась+V+TV+Mod/sup+ScPl1+OcPl3: теневаванӈгабина”
+     теневась+V+TV+Mod/sup+ScPl2+OcPl3: теневаванӈгабида”
+     теневась+V+TV+Mod/sup+ScPl3+OcPl3: теневаванӈгабидо’
+     теневась+V+TV+Mod/hyp+ScSg1+OcSg3: теневархавэв
+     теневась+V+TV+Mod/hyp+ScSg2+OcSg3: теневархавэр
+     теневась+V+TV+Mod/hyp+ScSg3+OcSg3: теневархавэда
+     теневась+V+TV+Mod/hyp+ScDu1+OcSg3: теневархавэми’
+     теневась+V+TV+Mod/hyp+ScDu2+OcSg3: теневархавэри’
+     теневась+V+TV+Mod/hyp+ScDu3+OcSg3: теневархавэди’
+     теневась+V+TV+Mod/hyp+ScPl1+OcSg3: теневархавэва”
+     теневась+V+TV+Mod/hyp+ScPl2+OcSg3: теневархавэра”
+     теневась+V+TV+Mod/hyp+ScPl3+OcSg3: теневархавэдо’
+     теневась+V+TV+Mod/hyp+ScSg1+OcDu3: теневархавэхэюн
+     теневась+V+TV+Mod/hyp+ScSg2+OcDu3: теневархавэхэюд
+     теневась+V+TV+Mod/hyp+ScSg3+OcDu3: теневархавэхэюда
+     теневась+V+TV+Mod/hyp+ScDu1+OcDu3: теневархавэхэюни’
+     теневась+V+TV+Mod/hyp+ScDu2+OcDu3: теневархавэхэюди’
+     теневась+V+TV+Mod/hyp+ScDu3+OcDu3: теневархавэхэюди’
+     теневась+V+TV+Mod/hyp+ScPl1+OcDu3: теневархавэхэюна”
+     теневась+V+TV+Mod/hyp+ScPl2+OcDu3: теневархавэхэюда”
+     теневась+V+TV+Mod/hyp+ScPl3+OcDu3: теневархавэхэюдо’
+     теневась+V+TV+Mod/hyp+ScSg1+OcPl3: теневархавын
+     теневась+V+TV+Mod/hyp+ScSg2+OcPl3: теневархавыд
+     теневась+V+TV+Mod/hyp+ScSg3+OcPl3: теневархавыда
+     теневась+V+TV+Mod/hyp+ScDu1+OcPl3: теневархавыни’
+     теневась+V+TV+Mod/hyp+ScDu2+OcPl3: теневархавыди’
+     теневась+V+TV+Mod/hyp+ScDu3+OcPl3: теневархавыди’
+     теневась+V+TV+Mod/hyp+ScPl1+OcPl3: теневархавына”
+     теневась+V+TV+Mod/hyp+ScPl2+OcPl3: теневархавыда”
+     теневась+V+TV+Mod/hyp+ScPl3+OcPl3: теневархавыдо’
+     теневась+V+TV+Mod/perfprob+ScSg1+OcSg3: теневавэкэв
+     теневась+V+TV+Mod/perfprob+ScSg2+OcSg3: теневавэкэр
+     теневась+V+TV+Mod/perfprob+ScSg3+OcSg3: теневавэкэда
+     теневась+V+TV+Mod/perfprob+ScDu1+OcSg3: теневавэкэми’
+     теневась+V+TV+Mod/perfprob+ScDu2+OcSg3: теневавэкэри’
+     теневась+V+TV+Mod/perfprob+ScDu3+OcSg3: теневавэкэди’
+     теневась+V+TV+Mod/perfprob+ScPl1+OcSg3: теневавэкэва”
+     теневась+V+TV+Mod/perfprob+ScPl2+OcSg3: теневавэкэра”
+     теневась+V+TV+Mod/perfprob+ScPl3+OcSg3: теневавэкэдо’
+     теневась+V+TV+Mod/perfprob+ScSg1+OcDu3: теневавэкэхэюн
+     теневась+V+TV+Mod/perfprob+ScSg2+OcDu3: теневавэкэхэюд
+     теневась+V+TV+Mod/perfprob+ScSg3+OcDu3: теневавэкэхэюда
+     теневась+V+TV+Mod/perfprob+ScDu1+OcDu3: теневавэкэхэюни’
+     теневась+V+TV+Mod/perfprob+ScDu2+OcDu3: теневавэкэхэюди’
+     теневась+V+TV+Mod/perfprob+ScDu3+OcDu3: теневавэкэхэюди’
+     теневась+V+TV+Mod/perfprob+ScPl1+OcDu3: теневавэкэхэюна”
+     теневась+V+TV+Mod/perfprob+ScPl2+OcDu3: теневавэкэхэюда”
+     теневась+V+TV+Mod/perfprob+ScPl3+OcDu3: теневавэкэхэюдо’
+     теневась+V+TV+Mod/perfprob+ScSg1+OcPl3: теневавэкын
+     теневась+V+TV+Mod/perfprob+ScSg2+OcPl3: теневавэкыд
+     теневась+V+TV+Mod/perfprob+ScSg3+OcPl3: теневавэкыда
+     теневась+V+TV+Mod/perfprob+ScDu1+OcPl3: теневавэкыни’
+     теневась+V+TV+Mod/perfprob+ScDu2+OcPl3: теневавэкыди’
+     теневась+V+TV+Mod/perfprob+ScDu3+OcPl3: теневавэкыди’
+     теневась+V+TV+Mod/perfprob+ScPl1+OcPl3: теневавэкына”
+     теневась+V+TV+Mod/perfprob+ScPl2+OcPl3: теневавэкыда”
+     теневась+V+TV+Mod/perfprob+ScPl3+OcPl3: теневавэкыдо’
+     теневась+V+TV+Mod/rep+ScSg1+OcSg3: [теневавнав, теневувнав]
+     теневась+V+TV+Mod/rep+ScSg2+OcSg3: [теневавнар, теневувнар]
+     теневась+V+TV+Mod/rep+ScSg3+OcSg3: [теневавнада, теневувнада]
+     теневась+V+TV+Mod/rep+ScDu1+OcSg3: [теневавнами’, теневувнами’]
+     теневась+V+TV+Mod/rep+ScDu2+OcSg3: [теневавнари’, теневувнари’]
+     теневась+V+TV+Mod/rep+ScDu3+OcSg3: [теневавнади’, теневувнади’]
+     теневась+V+TV+Mod/rep+ScPl1+OcSg3: [теневавнава”, теневувнава”]
+     теневась+V+TV+Mod/rep+ScPl2+OcSg3: [теневавнара”, теневувнара”]
+     теневась+V+TV+Mod/rep+ScPl3+OcSg3: [теневавнадо’, теневувнадо’]
+     теневась+V+TV+Mod/rep+ScSg1+OcDu3: [теневавнахаюн, теневувнахаюн]
+     теневась+V+TV+Mod/rep+ScSg2+OcDu3: [теневавнахаюд, теневувнахаюд]
+     теневась+V+TV+Mod/rep+ScSg3+OcDu3: [теневавнахаюда, теневувнахаюда]
+     теневась+V+TV+Mod/rep+ScDu1+OcDu3: [теневавнахаюни’, теневувнахаюни’]
+     теневась+V+TV+Mod/rep+ScDu2+OcDu3: [теневавнахаюди’, теневувнахаюди’]
+     теневась+V+TV+Mod/rep+ScDu3+OcDu3: [теневавнахаюди’, теневувнахаюди’]
+     теневась+V+TV+Mod/rep+ScPl1+OcDu3: [теневавнахаюна”, теневувнахаюна”]
+     теневась+V+TV+Mod/rep+ScPl2+OcDu3: [теневавнахаюда”, теневувнахаюда”]
+     теневась+V+TV+Mod/rep+ScPl3+OcDu3: [теневавнахаюдо’, теневувнахаюдо’]
+     теневась+V+TV+Mod/rep+ScSg1+OcPl3: [теневавнан, теневувнан]
+     теневась+V+TV+Mod/rep+ScSg2+OcPl3: [теневавнад, теневувнад]
+     теневась+V+TV+Mod/rep+ScSg3+OcPl3: [теневавнада, теневувнада]
+     теневась+V+TV+Mod/rep+ScDu1+OcPl3: [теневавнани’, теневувнани’]
+     теневась+V+TV+Mod/rep+ScDu2+OcPl3: [теневавнади’, теневувнади’]
+     теневась+V+TV+Mod/rep+ScDu3+OcPl3: [теневавнади’, теневувнади’]
+     теневась+V+TV+Mod/rep+ScPl1+OcPl3: [теневавнана”, теневувнана”]
+     теневась+V+TV+Mod/rep+ScPl2+OcPl3: [теневавнада”, теневувнада”]
+     теневась+V+TV+Mod/rep+ScPl3+OcPl3: [теневавнадо’, теневувнадо’]
+     теневась+V+TV+Mod/des+ScSg1+OcSg3: теневарвав
+     теневась+V+TV+Mod/des+ScSg2+OcSg3: теневарвар
+     теневась+V+TV+Mod/des+ScSg3+OcSg3: теневарвада
+     теневась+V+TV+Mod/des+ScDu1+OcSg3: теневарвами’
+     теневась+V+TV+Mod/des+ScDu2+OcSg3: теневарвари’
+     теневась+V+TV+Mod/des+ScDu3+OcSg3: теневарвади’
+     теневась+V+TV+Mod/des+ScPl1+OcSg3: теневарвава”
+     теневась+V+TV+Mod/des+ScPl2+OcSg3: теневарвара”
+     теневась+V+TV+Mod/des+ScPl3+OcSg3: теневарвадо’
+     теневась+V+TV+Mod/des+ScSg1+OcDu3: теневарвахаюн
+     теневась+V+TV+Mod/des+ScSg2+OcDu3: теневарвахаюд
+     теневась+V+TV+Mod/des+ScSg3+OcDu3: теневарвахаюда
+     теневась+V+TV+Mod/des+ScDu1+OcDu3: теневарвахаюни’
+     теневась+V+TV+Mod/des+ScDu2+OcDu3: теневарвахаюди’
+     теневась+V+TV+Mod/des+ScDu3+OcDu3: теневарвахаюди’
+     теневась+V+TV+Mod/des+ScPl1+OcDu3: теневарвахаюна”
+     теневась+V+TV+Mod/des+ScPl2+OcDu3: теневарвахаюда”
+     теневась+V+TV+Mod/des+ScPl3+OcDu3: теневарвахаюдо’
+     теневась+V+TV+Mod/des+ScSg1+OcPl3: теневарбин
+     теневась+V+TV+Mod/des+ScSg2+OcPl3: теневарбид
+     теневась+V+TV+Mod/des+ScSg3+OcPl3: теневарбида
+     теневась+V+TV+Mod/des+ScDu1+OcPl3: теневарбини’
+     теневась+V+TV+Mod/des+ScDu2+OcPl3: теневарбиди’
+     теневась+V+TV+Mod/des+ScDu3+OcPl3: теневарбиди’
+     теневась+V+TV+Mod/des+ScPl1+OcPl3: теневарбина”
+     теневась+V+TV+Mod/des+ScPl2+OcPl3: теневарбида”
+     теневась+V+TV+Mod/des+ScPl3+OcPl3: теневарбидо’
+     теневась+V+TV+Fut+Ind+Aor+ScSg1+OcSg3: теневаӈгув
+     теневась+V+TV+Fut+Ind+Aor+ScSg2+OcSg3: теневаӈгур
+     теневась+V+TV+Fut+Ind+Aor+ScSg3+OcSg3: теневаӈгуда
+     теневась+V+TV+Fut+Ind+Aor+ScDu1+OcSg3: теневаӈгуми’
+     теневась+V+TV+Fut+Ind+Aor+ScDu2+OcSg3: теневаӈгури’
+     теневась+V+TV+Fut+Ind+Aor+ScDu3+OcSg3: теневаӈгуди’
+     теневась+V+TV+Fut+Ind+Aor+ScPl1+OcSg3: теневаӈгува”
+     теневась+V+TV+Fut+Ind+Aor+ScPl2+OcSg3: теневаӈгура”
+     теневась+V+TV+Fut+Ind+Aor+ScPl3+OcSg3: теневаӈгудо’
+     теневась+V+TV+Fut+Ind+Aor+ScSg1+OcDu3: теневаӈгухуюн
+     теневась+V+TV+Fut+Ind+Aor+ScSg2+OcDu3: теневаӈгухуюд
+     теневась+V+TV+Fut+Ind+Aor+ScSg3+OcDu3: теневаӈгухуюда
+     теневась+V+TV+Fut+Ind+Aor+ScDu1+OcDu3: теневаӈгухуюни’
+     теневась+V+TV+Fut+Ind+Aor+ScDu2+OcDu3: теневаӈгухуюди’
+     теневась+V+TV+Fut+Ind+Aor+ScDu3+OcDu3: теневаӈгухуюди’
+     теневась+V+TV+Fut+Ind+Aor+ScPl1+OcDu3: теневаӈгухуюна”
+     теневась+V+TV+Fut+Ind+Aor+ScPl2+OcDu3: теневаӈгухуюда”
+     теневась+V+TV+Fut+Ind+Aor+ScPl3+OcDu3: теневаӈгухуюдо’
+     теневась+V+TV+Fut+Ind+Aor+ScSg1+OcPl3: теневаӈгун
+     теневась+V+TV+Fut+Ind+Aor+ScSg2+OcPl3: теневаӈгуд
+     теневась+V+TV+Fut+Ind+Aor+ScSg3+OcPl3: теневаӈгуда
+     теневась+V+TV+Fut+Ind+Aor+ScDu1+OcPl3: теневаӈгуни’
+     теневась+V+TV+Fut+Ind+Aor+ScDu2+OcPl3: теневаӈгуди’
+     теневась+V+TV+Fut+Ind+Aor+ScDu3+OcPl3: теневаӈгуди’
+     теневась+V+TV+Fut+Ind+Aor+ScPl1+OcPl3: теневаӈгуна”
+     теневась+V+TV+Fut+Ind+Aor+ScPl2+OcPl3: теневаӈгуда”
+     теневась+V+TV+Fut+Ind+Aor+ScPl3+OcPl3: теневаӈгудо’
+     теневась+V+TV+Fut+Ind+Prt1+ScSg1+OcSg3: теневаӈгувась
+     теневась+V+TV+Fut+Ind+Prt1+ScSg2+OcSg3: теневаӈгурась
+     теневась+V+TV+Fut+Ind+Prt1+ScSg3+OcSg3: теневаӈгудась
+     теневась+V+TV+Fut+Ind+Prt1+ScDu1+OcSg3: теневаӈгуминзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu2+OcSg3: теневаӈгуринзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu3+OcSg3: теневаӈгудинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScPl1+OcSg3: теневаӈгуваць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl2+OcSg3: теневаӈгураць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl3+OcSg3: теневаӈгудонзь
+     теневась+V+TV+Fut+Ind+Prt1+ScSg1+OcDu3: теневаӈгухуюнась
+     теневась+V+TV+Fut+Ind+Prt1+ScSg2+OcDu3: теневаӈгухуюдась
+     теневась+V+TV+Fut+Ind+Prt1+ScSg3+OcDu3: теневаӈгухуюдась
+     теневась+V+TV+Fut+Ind+Prt1+ScDu1+OcDu3: теневаӈгухуюнинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu2+OcDu3: теневаӈгухуюдинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu3+OcDu3: теневаӈгухуюдинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScPl1+OcDu3: теневаӈгухуюнаць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl2+OcDu3: теневаӈгухуюдаць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl3+OcDu3: теневаӈгухуюдонзь
+     теневась+V+TV+Fut+Ind+Prt1+ScSg1+OcPl3: теневаӈгунась
+     теневась+V+TV+Fut+Ind+Prt1+ScSg2+OcPl3: теневаӈгудась
+     теневась+V+TV+Fut+Ind+Prt1+ScSg3+OcPl3: теневаӈгудась
+     теневась+V+TV+Fut+Ind+Prt1+ScDu1+OcPl3: теневаӈгунинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu2+OcPl3: теневаӈгудинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScDu3+OcPl3: теневаӈгудинзь
+     теневась+V+TV+Fut+Ind+Prt1+ScPl1+OcPl3: теневаӈгунаць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl2+OcPl3: теневаӈгудаць
+     теневась+V+TV+Fut+Ind+Prt1+ScPl3+OcPl3: теневаӈгудонзь
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcSg3: [теневаӈгодакэв, теневаӈгоданакэв]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcSg3: [теневаӈгодакэр, теневаӈгоданакэр]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcSg3: [теневаӈгодакэда, теневаӈгоданакэда]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcSg3: [теневаӈгодакэми’, теневаӈгоданакэми’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcSg3: [теневаӈгодакэри’, теневаӈгоданакэри’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcSg3: [теневаӈгодакэди’, теневаӈгоданакэди’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcSg3: [теневаӈгодакэва”, теневаӈгоданакэва”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcSg3: [теневаӈгодакэра”, теневаӈгоданакэра”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcSg3: [теневаӈгодакэдо’, теневаӈгоданакэдо’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcDu3: [теневаӈгодакэхэюн, теневаӈгоданакэхэюн]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcDu3: [теневаӈгодакэхэюд, теневаӈгоданакэхэюд]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcDu3: [теневаӈгодакэхэюда, теневаӈгоданакэхэюда]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcDu3: [теневаӈгодакэхэюни’, теневаӈгоданакэхэюни’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcDu3: [теневаӈгодакэхэюди’, теневаӈгоданакэхэюди’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcDu3: [теневаӈгодакэхэюди’, теневаӈгоданакэхэюди’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcDu3: [теневаӈгодакэхэюна”, теневаӈгоданакэхэюна”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcDu3: [теневаӈгодакэхэюда”, теневаӈгоданакэхэюда”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcDu3: [теневаӈгодакэхэюдо’, теневаӈгоданакэхэюдо’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcPl3: [теневаӈгодакын, теневаӈгоданакын]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcPl3: [теневаӈгодакыд, теневаӈгоданакыд]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcPl3: [теневаӈгодакыда, теневаӈгоданакыда]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcPl3: [теневаӈгодакыни’, теневаӈгоданакыни’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcPl3: [теневаӈгодакыди’, теневаӈгоданакыди’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcPl3: [теневаӈгодакыди’, теневаӈгоданакыди’]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcPl3: [теневаӈгодакына”, теневаӈгоданакына”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcPl3: [теневаӈгодакыда”, теневаӈгоданакыда”]
+     теневась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcPl3: [теневаӈгодакыдо’, теневаӈгоданакыдо’]
+     теневась+V+TV+Prec+Hort+ScSg1+OcSg3: [теневахарцюв, теневахарцяв]
+     теневась+V+TV+Prec+Hort+ScDu1+OcSg3: [теневахарцюми’, теневахарцями’]
+     теневась+V+TV+Prec+Hort+ScPl1+OcSg3: [теневахарцюва”, теневахарцява”]
+     теневась+V+TV+Prec+Hort+ScSg1+OcDu3: [теневахарцюхуюн, теневахарцяхаюн]
+     теневась+V+TV+Prec+Hort+ScDu1+OcDu3: [теневахарцюхуюни’, теневахарцяхаюни’]
+     теневась+V+TV+Prec+Hort+ScPl1+OcDu3: [теневахарцюхуюна”, теневахарцяхаюна”]
+     теневась+V+TV+Prec+Hort+ScSg1+OcPl3: [теневахарцюн, теневахарцян]
+     теневась+V+TV+Prec+Hort+ScDu1+OcPl3: [теневахарцюни’, теневахарцяни’]
+     теневась+V+TV+Prec+Hort+ScPl1+OcPl3: [теневахарцюна”, теневахарцяна”]
+     теневась+V+TV+Prec+Imprt+ScSg2+OcSg3: теневахарт
+     теневась+V+TV+Prec+Imprt+ScDu2+OcSg3: [теневахар”ӈари’, теневахарӈари’]
+     теневась+V+TV+Prec+Imprt+ScPl2+OcSg3: [теневахар”ӈара”, теневахарӈара”]
+     теневась+V+TV+Prec+Imprt+ScSg2+OcDu3: теневахаркаюн”
+     теневась+V+TV+Prec+Imprt+ScDu2+OcDu3: [теневахар”ӈахаюди’, теневахарӈахаюди’]
+     теневась+V+TV+Prec+Imprt+ScPl2+OcDu3: [теневахар”ӈахаюда”, теневахарӈахаюда”]
+     теневась+V+TV+Prec+Imprt+ScSg2+OcPl3: теневахаран”
+     теневась+V+TV+Prec+Imprt+ScDu2+OcPl3: теневахаръяди’
+     теневась+V+TV+Prec+Imprt+ScPl2+OcPl3: теневахаръяда”
+     теневась+V+TV+Prec+Opt+ScSg3+OcSg3: [теневахар”ӈамда, теневахарӈамда]
+     теневась+V+TV+Prec+Opt+ScDu3+OcSg3: [теневахар”ӈамди’, теневахарӈамди’]
+     теневась+V+TV+Prec+Opt+ScPl3+OcSg3: [теневахар”ӈамдо’, теневахарӈамдо’]
+     теневась+V+TV+Prec+Opt+ScSg3+OcDu3: [теневахар”ӈахаюдамда, теневахарӈахаюдамда]
+     теневась+V+TV+Prec+Opt+ScDu3+OcDu3: [теневахар”ӈахаюдамди’, теневахарӈахаюдамди’]
+     теневась+V+TV+Prec+Opt+ScPl3+OcDu3: [теневахар”ӈахаюдамдо’, теневахарӈахаюдамдо’]
+     теневась+V+TV+Prec+Opt+ScSg3+OcPl3: теневахаръядамда
+     теневась+V+TV+Prec+Opt+ScDu3+OcPl3: теневахаръядамди’
+     теневась+V+TV+Prec+Opt+ScPl3+OcPl3: теневахаръядамдо’
+     теневась+V+TV+Hab+Ind+Aor+ScSg1+OcSg3: [теневасьтыв, теневасетыв]
+     теневась+V+TV+Hab+Ind+Aor+ScSg2+OcSg3: [теневасьтыр, теневасетыр]
+     теневась+V+TV+Hab+Ind+Aor+ScSg3+OcSg3: [теневасьтыда, теневасетыда]
+     теневась+V+TV+Hab+Ind+Aor+ScDu1+OcSg3: [теневасьтыми’, теневасетыми’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu2+OcSg3: [теневасьтыри’, теневасетыри’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu3+OcSg3: [теневасьтыди’, теневасетыди’]
+     теневась+V+TV+Hab+Ind+Aor+ScPl1+OcSg3: [теневасьтыва”, теневасетыва”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl2+OcSg3: [теневасьтыра”, теневасетыра”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl3+OcSg3: [теневасьтыдо’, теневасетыдо’]
+     теневась+V+TV+Hab+Ind+Aor+ScSg1+OcDu3: [теневасьтыхыюн, теневасетыхыюн]
+     теневась+V+TV+Hab+Ind+Aor+ScSg2+OcDu3: [теневасьтыхыюд, теневасетыхыюд]
+     теневась+V+TV+Hab+Ind+Aor+ScSg3+OcDu3: [теневасьтыхыюда, теневасетыхыюда]
+     теневась+V+TV+Hab+Ind+Aor+ScDu1+OcDu3: [теневасьтыхыюни’, теневасетыхыюни’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu2+OcDu3: [теневасьтыхыюди’, теневасетыхыюди’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu3+OcDu3: [теневасьтыхыюди’, теневасетыхыюди’]
+     теневась+V+TV+Hab+Ind+Aor+ScPl1+OcDu3: [теневасьтыхыюна”, теневасетыхыюна”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl2+OcDu3: [теневасьтыхыюда”, теневасетыхыюда”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl3+OcDu3: [теневасьтыхыюдо’, теневасетыхыюдо’]
+     теневась+V+TV+Hab+Ind+Aor+ScSg1+OcPl3: [теневасьтын, теневасетын]
+     теневась+V+TV+Hab+Ind+Aor+ScSg2+OcPl3: [теневасьтыд, теневасетыд]
+     теневась+V+TV+Hab+Ind+Aor+ScSg3+OcPl3: [теневасьтыда, теневасетыда]
+     теневась+V+TV+Hab+Ind+Aor+ScDu1+OcPl3: [теневасьтыни’, теневасетыни’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu2+OcPl3: [теневасьтыди’, теневасетыди’]
+     теневась+V+TV+Hab+Ind+Aor+ScDu3+OcPl3: [теневасьтыди’, теневасетыди’]
+     теневась+V+TV+Hab+Ind+Aor+ScPl1+OcPl3: [теневасьтына”, теневасетына”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl2+OcPl3: [теневасьтыда”, теневасетыда”]
+     теневась+V+TV+Hab+Ind+Aor+ScPl3+OcPl3: [теневасьтыдо’, теневасетыдо’]
+     теневась+V+TV+Hab+Mod/narr+ScSg1+OcSg3: [теневасьтавэв, теневасетавэв]
+     теневась+V+TV+Hab+Mod/narr+ScSg2+OcSg3: [теневасьтавэр, теневасетавэр]
+     теневась+V+TV+Hab+Mod/narr+ScSg3+OcSg3: [теневасьтавэда, теневасетавэда]
+     теневась+V+TV+Hab+Mod/narr+ScDu1+OcSg3: [теневасьтавэми’, теневасетавэми’]
+     теневась+V+TV+Hab+Mod/narr+ScDu2+OcSg3: [теневасьтавэри’, теневасетавэри’]
+     теневась+V+TV+Hab+Mod/narr+ScDu3+OcSg3: [теневасьтавэди’, теневасетавэди’]
+     теневась+V+TV+Hab+Mod/narr+ScPl1+OcSg3: [теневасьтавэва”, теневасетавэва”]
+     теневась+V+TV+Hab+Mod/narr+ScPl2+OcSg3: [теневасьтавэра”, теневасетавэра”]
+     теневась+V+TV+Hab+Mod/narr+ScPl3+OcSg3: [теневасьтавэдо’, теневасетавэдо’]
+     теневась+V+TV+Hab+Mod/narr+ScSg1+OcDu3: [теневасьтавэхэюн, теневасетавэхэюн]
+     теневась+V+TV+Hab+Mod/narr+ScSg2+OcDu3: [теневасьтавэхэюд, теневасетавэхэюд]
+     теневась+V+TV+Hab+Mod/narr+ScSg3+OcDu3: [теневасьтавэхэюда, теневасетавэхэюда]
+     теневась+V+TV+Hab+Mod/narr+ScDu1+OcDu3: [теневасьтавэхэюни’, теневасетавэхэюни’]
+     теневась+V+TV+Hab+Mod/narr+ScDu2+OcDu3: [теневасьтавэхэюди’, теневасетавэхэюди’]
+     теневась+V+TV+Hab+Mod/narr+ScDu3+OcDu3: [теневасьтавэхэюди’, теневасетавэхэюди’]
+     теневась+V+TV+Hab+Mod/narr+ScPl1+OcDu3: [теневасьтавэхэюна”, теневасетавэхэюна”]
+     теневась+V+TV+Hab+Mod/narr+ScPl2+OcDu3: [теневасьтавэхэюда”, теневасетавэхэюда”]
+     теневась+V+TV+Hab+Mod/narr+ScPl3+OcDu3: [теневасьтавэхэюдо’, теневасетавэхэюдо’]
+     теневась+V+TV+Hab+Mod/narr+ScSg1+OcPl3: [теневасьтавын, теневасетавын]
+     теневась+V+TV+Hab+Mod/narr+ScSg2+OcPl3: [теневасьтавыд, теневасетавыд]
+     теневась+V+TV+Hab+Mod/narr+ScSg3+OcPl3: [теневасьтавыда, теневасетавыда]
+     теневась+V+TV+Hab+Mod/narr+ScDu1+OcPl3: [теневасьтавыни’, теневасетавыни’]
+     теневась+V+TV+Hab+Mod/narr+ScDu2+OcPl3: [теневасьтавыди’, теневасетавыди’]
+     теневась+V+TV+Hab+Mod/narr+ScDu3+OcPl3: [теневасьтавыди’, теневасетавыди’]
+     теневась+V+TV+Hab+Mod/narr+ScPl1+OcPl3: [теневасьтавына”, теневасетавына”]
+     теневась+V+TV+Hab+Mod/narr+ScPl2+OcPl3: [теневасьтавыда”, теневасетавыда”]
+     теневась+V+TV+Hab+Mod/narr+ScPl3+OcPl3: [теневасьтавыдо’, теневасетавыдо’]
