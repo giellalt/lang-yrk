@@ -65,21 +65,21 @@ LEXICON beforesmallhours
 9@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !09:31 - 09:59
 
 LEXICON beforelargehours
-@U.TIME.11@:1%0@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
-@U.TIME.12@:11@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
-@U.TIME.1@:12@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
-@U.TIME.2@:13@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
-@U.TIME.3@:14@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
-@U.TIME.4@:15@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
-@U.TIME.5@:16@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
-@U.TIME.6@:17@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
-@U.TIME.7@:18@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
-@U.TIME.8@:19@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
-@U.TIME.9@:2%0@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
-@U.TIME.10@:21@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
-@U.TIME.11@:22@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
-@U.TIME.12@:23@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
-@U.TIME.1@:%0%0@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
+1%0@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
+11@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
+12@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
+13@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
+14@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
+15@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
+16@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
+17@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
+18@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
+19@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
+2%0@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
+21@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
+22@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
+23@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
+%0%0@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
 
 LEXICON REST
 %01@U.TIME.1@:ӈопойд@U.TIME.1@ AFTpunkt ;
@@ -150,15 +150,15 @@ LEXICON HOUR-30
 !!This deals with 1:30, 2:30
 
 
-1+Use/NG:сидя HALF-HOUR ;
-2+Use/NG:няхарˮ HALF-HOUR ;
-3+Use/NG:тет HALF-HOUR ;
-4+Use/NG:самляӈг HALF-HOUR ;
-5+Use/NG:матˮ HALF-HOUR ;
-6+Use/NG:сиˮив HALF-HOUR ;
-7+Use/NG:сидндет HALF-HOUR ;
-8+Use/NG:хасуюˮ HALF-HOUR ;
-9+Use/NG:юˮ HALF-HOUR ;
+1:сидя+Use/NG HALF-HOUR ;
+2:няхарˮ+Use/NG HALF-HOUR ;
+3:тет+Use/NG HALF-HOUR ;
+4:самляӈг+Use/NG HALF-HOUR ;
+5:матˮ+Use/NG HALF-HOUR ;
+6:сиˮив+Use/NG HALF-HOUR ;
+7:сидндет+Use/NG HALF-HOUR ;
+8:хасуюˮ+Use/NG HALF-HOUR ;
+9:юˮ+Use/NG HALF-HOUR ;
 
 %01:сидя HALF-HOUR ;
 %02:няхарˮ HALF-HOUR ;
@@ -306,4 +306,4 @@ LEXICON HOUR
 @U.TIME.12@:сидя% яӈгня@U.TIME.12@ HOUR-FINAL ;
 
 LEXICON HOUR-FINAL
-: % сяс # ;
+:% сяс # ;
