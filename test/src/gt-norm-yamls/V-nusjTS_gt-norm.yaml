@@ -1,0 +1,2094 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - хось: # Verb 'to find / löytää' - full paradigm - Type 1, transitive
+  #_[1-C]_nú-_’seistä’_IV_=_1-syll_Vow-Stem_[MDTN-koodi_1]
+  #_[1-A]_xo-_’löytää’_TV_=_1-syll_Vow-Stem_[MDTN-koodi_1]
+
+     нусь+V+IV+Ger: нусь
+     нусь+V+IV+GerFin: нуванзь
+     нусь+V+IV+InfImprf+Nom+Sg+Abs: нува
+     нусь+V+IV+InfImprf+Acc+Sg+Abs: нувам’
+     нусь+V+IV+InfImprf+Gen+Sg+Abs: нува’
+     нусь+V+IV+InfImprf+Dat+Sg+Abs: нуван’
+     нусь+V+IV+InfImprf+Loc+Sg+Abs: нувахана
+     нусь+V+IV+InfImprf+Abl+Sg+Abs: нувахад
+     нусь+V+IV+InfImprf+Pros+Sg+Abs: нувавна
+     нусь+V+IV+InfImprf+Nom+Du+Abs: нуваха’
+     нусь+V+IV+InfImprf+Acc+Du+Abs: нуваха’
+     нусь+V+IV+InfImprf+Gen+Du+Abs: нуваха’
+     нусь+V+IV+InfImprf+Nom+Pl+Abs: нува”
+     нусь+V+IV+InfImprf+Acc+Pl+Abs: нуби
+     нусь+V+IV+InfImprf+Gen+Pl+Abs: нуби”
+     нусь+V+IV+InfImprf+Dat+Pl+Abs: нуваха”
+     нусь+V+IV+InfImprf+Loc+Pl+Abs: нуваха”на
+     нусь+V+IV+InfImprf+Abl+Pl+Abs: нувахат
+     нусь+V+IV+InfImprf+Pros+Pl+Abs: нуби”мана
+     нусь+V+IV+InfImprf+Sg+Nom+PxSg1: [нував, нувами]
+     нусь+V+IV+InfImprf+Sg+Acc+PxSg1: [нував, нувами]
+     нусь+V+IV+InfImprf+Sg+Gen+PxSg1: [нуван, нувани]
+     нусь+V+IV+InfImprf+Sg+Dat+PxSg1: [нувахан, нувахани]
+     нусь+V+IV+InfImprf+Sg+Loc+PxSg1: [нуваханан, нуваханани]
+     нусь+V+IV+InfImprf+Sg+Abl+PxSg1: [нувахадан, нувахадани, нувахадни]
+     нусь+V+IV+InfImprf+Sg+Pros+PxSg1: [нувавнан, нувавнани]
+     нусь+V+IV+InfImprf+Du+Nom+PxSg1: [нувахаюн, нувахаюни]
+     нусь+V+IV+InfImprf+Du+Acc+PxSg1: [нувахаюн, нувахаюни]
+     нусь+V+IV+InfImprf+Du+Gen+PxSg1: [нувахаюн, нувахаюни]
+     нусь+V+IV+InfImprf+Pl+Nom+PxSg1: [нубин, нубини]
+     нусь+V+IV+InfImprf+Pl+Acc+PxSg1: [нубин, нубини]
+     нусь+V+IV+InfImprf+Pl+Gen+PxSg1: [нуби”н, нуби”ни]
+     нусь+V+IV+InfImprf+Pl+Dat+PxSg1: [нуваха”н, нуваха”ни]
+     нусь+V+IV+InfImprf+Pl+Loc+PxSg1: [нуваха”нан, нуваха”нани]
+     нусь+V+IV+InfImprf+Pl+Abl+PxSg1: [нувахатан, нувахатани, нувахатни]
+     нусь+V+IV+InfImprf+Pl+Pros+PxSg1: [нуби”манан, нуби”манани]
+     нусь+V+IV+InfImprf+Sg+Nom+PxSg2: нувар
+     нусь+V+IV+InfImprf+Sg+Acc+PxSg2: нувамд
+     нусь+V+IV+InfImprf+Sg+Gen+PxSg2: нуванд
+     нусь+V+IV+InfImprf+Sg+Dat+PxSg2: нуваханд
+     нусь+V+IV+InfImprf+Sg+Loc+PxSg2: нувахананд
+     нусь+V+IV+InfImprf+Sg+Abl+PxSg2: нувахаданд
+     нусь+V+IV+InfImprf+Sg+Pros+PxSg2: нувавнанд
+     нусь+V+IV+InfImprf+Du+Nom+PxSg2: нувахаюд
+     нусь+V+IV+InfImprf+Du+Acc+PxSg2: нувахаюд
+     нусь+V+IV+InfImprf+Du+Gen+PxSg2: нувахают
+     нусь+V+IV+InfImprf+Pl+Nom+PxSg2: нубид
+     нусь+V+IV+InfImprf+Pl+Acc+PxSg2: нубид
+     нусь+V+IV+InfImprf+Pl+Gen+PxSg2: нубит
+     нусь+V+IV+InfImprf+Pl+Dat+PxSg2: нувахат
+     нусь+V+IV+InfImprf+Pl+Loc+PxSg2: нуваха”нат
+     нусь+V+IV+InfImprf+Pl+Abl+PxSg2: нувахатат
+     нусь+V+IV+InfImprf+Pl+Pros+PxSg2: нуби”манат
+     нусь+V+IV+InfImprf+Sg+Nom+PxSg3: нувада
+     нусь+V+IV+InfImprf+Sg+Acc+PxSg3: нувамда
+     нусь+V+IV+InfImprf+Sg+Gen+PxSg3: нуванда
+     нусь+V+IV+InfImprf+Sg+Dat+PxSg3: нуваханда
+     нусь+V+IV+InfImprf+Sg+Loc+PxSg3: нувахананда
+     нусь+V+IV+InfImprf+Sg+Abl+PxSg3: нувахаданда
+     нусь+V+IV+InfImprf+Sg+Pros+PxSg3: нувавнанда
+     нусь+V+IV+InfImprf+Du+Nom+PxSg3: нувахаюда
+     нусь+V+IV+InfImprf+Du+Acc+PxSg3: нувахаюда
+     нусь+V+IV+InfImprf+Du+Gen+PxSg3: нувахаюта
+     нусь+V+IV+InfImprf+Pl+Nom+PxSg3: нубида
+     нусь+V+IV+InfImprf+Pl+Acc+PxSg3: нубида
+     нусь+V+IV+InfImprf+Pl+Gen+PxSg3: нубита
+     нусь+V+IV+InfImprf+Pl+Dat+PxSg3: нувахата
+     нусь+V+IV+InfImprf+Pl+Loc+PxSg3: нуваха”ната
+     нусь+V+IV+InfImprf+Pl+Abl+PxSg3: [нувахатата, нувахатта]
+     нусь+V+IV+InfImprf+Pl+Pros+PxSg3: нуби”маната
+     нусь+V+IV+InfImprf+Sg+Nom+PxDu1: нувами’
+#     нусь+V+IV+InfImprf+Sg+Nom+PxSg1.2: нувами
+     нусь+V+IV+InfImprf+Sg+Acc+PxDu1: нувами’
+#     нусь+V+IV+InfImprf+Sg+Acc+PxSg1.2: нувами
+     нусь+V+IV+InfImprf+Sg+Gen+PxDu1: нувани’
+#     нусь+V+IV+InfImprf+Sg+Gen+PxSg1.2: нувани
+     нусь+V+IV+InfImprf+Sg+Dat+PxDu1: нувахани’
+#     нусь+V+IV+InfImprf+Sg+Dat+PxSg1.2: нувахани
+     нусь+V+IV+InfImprf+Sg+Loc+PxDu1: нуваханани’
+#     нусь+V+IV+InfImprf+Sg+Loc+PxSg1.2: нуваханани
+     нусь+V+IV+InfImprf+Sg+Abl+PxDu1: [нувахадани’, нувахадни’]
+#     нусь+V+IV+InfImprf+Sg+Abl+PxSg1.2: [нувахадани, нувахадни]
+     нусь+V+IV+InfImprf+Sg+Pros+PxDu1: нувавнани’
+#     нусь+V+IV+InfImprf+Sg+Pros+PxSg1.2: нувавнани
+     нусь+V+IV+InfImprf+Du+Nom+PxDu1: нувахаюни’
+#     нусь+V+IV+InfImprf+Du+Nom+PxSg1.2: нувахаюни
+     нусь+V+IV+InfImprf+Du+Acc+PxDu1: нувахаюни’
+#     нусь+V+IV+InfImprf+Du+Acc+PxSg1.2: нувахаюни
+     нусь+V+IV+InfImprf+Du+Gen+PxDu1: нувахаюни’
+#     нусь+V+IV+InfImprf+Du+Gen+PxSg1.2: нувахаюни
+     нусь+V+IV+InfImprf+Pl+Nom+PxDu1: нубини’
+#     нусь+V+IV+InfImprf+Pl+Nom+PxSg1.2: нубини
+     нусь+V+IV+InfImprf+Pl+Acc+PxDu1: нубини’
+#     нусь+V+IV+InfImprf+Pl+Acc+PxSg1.2: нубини
+     нусь+V+IV+InfImprf+Pl+Gen+PxDu1: нуби”ни’
+#     нусь+V+IV+InfImprf+Pl+Gen+PxSg1.2: нуби”ни
+     нусь+V+IV+InfImprf+Pl+Dat+PxDu1: нуваха”ни’
+#     нусь+V+IV+InfImprf+Pl+Dat+PxSg1.2: нуваха”ни
+     нусь+V+IV+InfImprf+Pl+Loc+PxDu1: нуваха”нани’
+#     нусь+V+IV+InfImprf+Pl+Loc+PxSg1.2: нуваха”нани
+     нусь+V+IV+InfImprf+Pl+Abl+PxDu1: [нувахатани’, нувахатни’]
+#     нусь+V+IV+InfImprf+Pl+Abl+PxSg1.2: [нувахатани, нувахатни]
+     нусь+V+IV+InfImprf+Pl+Pros+PxDu1: нуби”манани’
+#     нусь+V+IV+InfImprf+Pl+Pros+PxSg1.2: нуби”манани
+     нусь+V+IV+InfImprf+Sg+Nom+PxDu2: нувари’
+     нусь+V+IV+InfImprf+Sg+Acc+PxDu2: нувамди’
+     нусь+V+IV+InfImprf+Sg+Gen+PxDu2: нуванди’
+     нусь+V+IV+InfImprf+Sg+Dat+PxDu2: нуваханди’
+     нусь+V+IV+InfImprf+Sg+Loc+PxDu2: нувахананди’
+     нусь+V+IV+InfImprf+Sg+Abl+PxDu2: нувахаданди’
+     нусь+V+IV+InfImprf+Sg+Pros+PxDu2: нувавнанди’
+     нусь+V+IV+InfImprf+Du+Nom+PxDu2: нувахаюди’
+     нусь+V+IV+InfImprf+Du+Acc+PxDu2: нувахаюди’
+     нусь+V+IV+InfImprf+Du+Gen+PxDu2: нувахаюти’
+     нусь+V+IV+InfImprf+Pl+Nom+PxDu2: нубиди’
+     нусь+V+IV+InfImprf+Pl+Acc+PxDu2: нубиди’
+     нусь+V+IV+InfImprf+Pl+Gen+PxDu2: нубити’
+     нусь+V+IV+InfImprf+Pl+Dat+PxDu2: нувахати’
+     нусь+V+IV+InfImprf+Pl+Loc+PxDu2: нуваха”нати’
+     нусь+V+IV+InfImprf+Pl+Abl+PxDu2: [нувахатати’, нувахатти’]
+     нусь+V+IV+InfImprf+Pl+Pros+PxDu2: нуби”манати’
+     нусь+V+IV+InfImprf+Sg+Nom+PxDu3: нувади’
+     нусь+V+IV+InfImprf+Sg+Acc+PxDu3: нувамди’
+     нусь+V+IV+InfImprf+Sg+Gen+PxDu3: нуванди’
+     нусь+V+IV+InfImprf+Sg+Dat+PxDu3: нуваханди’
+     нусь+V+IV+InfImprf+Sg+Loc+PxDu3: нувахананди’
+     нусь+V+IV+InfImprf+Sg+Abl+PxDu3: нувахаданди’
+     нусь+V+IV+InfImprf+Sg+Pros+PxDu3: нувавнанди’
+     нусь+V+IV+InfImprf+Du+Nom+PxDu3: нувахаюди’
+     нусь+V+IV+InfImprf+Du+Acc+PxDu3: нувахаюди’
+     нусь+V+IV+InfImprf+Du+Gen+PxDu3: нувахаюти’
+     нусь+V+IV+InfImprf+Pl+Nom+PxDu3: нубиди’
+     нусь+V+IV+InfImprf+Pl+Acc+PxDu3: нубиди’
+     нусь+V+IV+InfImprf+Pl+Gen+PxDu3: нубити’
+     нусь+V+IV+InfImprf+Pl+Dat+PxDu3: нувахати’
+     нусь+V+IV+InfImprf+Pl+Loc+PxDu3: нуваха”нати’
+     нусь+V+IV+InfImprf+Pl+Abl+PxDu3: [нувахатати’, нувахатти’]
+     нусь+V+IV+InfImprf+Pl+Pros+PxDu3: нуби”манати’
+     нусь+V+IV+InfImprf+Sg+Nom+PxPl1: нувава”
+     нусь+V+IV+InfImprf+Sg+Acc+PxPl1: нувава”
+     нусь+V+IV+InfImprf+Sg+Gen+PxPl1: нувана”
+     нусь+V+IV+InfImprf+Sg+Dat+PxPl1: нувахана”
+     нусь+V+IV+InfImprf+Sg+Loc+PxPl1: нуваханана”
+     нусь+V+IV+InfImprf+Sg+Abl+PxPl1: [нувахадана”, нувахадна”]
+     нусь+V+IV+InfImprf+Sg+Pros+PxPl1: нувавнана”
+     нусь+V+IV+InfImprf+Du+Nom+PxPl1: нувахаюна”
+     нусь+V+IV+InfImprf+Du+Acc+PxPl1: нувахаюна”
+     нусь+V+IV+InfImprf+Du+Gen+PxPl1: нувахаюна”
+     нусь+V+IV+InfImprf+Pl+Nom+PxPl1: нубина”
+     нусь+V+IV+InfImprf+Pl+Acc+PxPl1: нубина”
+     нусь+V+IV+InfImprf+Pl+Gen+PxPl1: нуби”на”
+     нусь+V+IV+InfImprf+Pl+Dat+PxPl1: нуваха”на”
+     нусь+V+IV+InfImprf+Pl+Loc+PxPl1: нуваха”нана”
+     нусь+V+IV+InfImprf+Pl+Abl+PxPl1: [нувахатана”, нувахатна”]
+     нусь+V+IV+InfImprf+Pl+Pros+PxPl1: нуби”манана”
+     нусь+V+IV+InfImprf+Sg+Nom+PxPl2: нувара”
+     нусь+V+IV+InfImprf+Sg+Acc+PxPl2: нувамда”
+     нусь+V+IV+InfImprf+Sg+Gen+PxPl2: нуванда”
+     нусь+V+IV+InfImprf+Sg+Dat+PxPl2: нуваханда”
+     нусь+V+IV+InfImprf+Sg+Loc+PxPl2: нувахананда”
+     нусь+V+IV+InfImprf+Sg+Abl+PxPl2: нувахаданда”
+     нусь+V+IV+InfImprf+Sg+Pros+PxPl2: нувавнанда”
+     нусь+V+IV+InfImprf+Du+Nom+PxPl2: нувахаюда”
+     нусь+V+IV+InfImprf+Du+Acc+PxPl2: нувахаюда”
+     нусь+V+IV+InfImprf+Du+Gen+PxPl2: нувахаюта”
+     нусь+V+IV+InfImprf+Pl+Nom+PxPl2: нубида”
+     нусь+V+IV+InfImprf+Pl+Acc+PxPl2: нубида”
+     нусь+V+IV+InfImprf+Pl+Gen+PxPl2: нубита”
+     нусь+V+IV+InfImprf+Pl+Dat+PxPl2: нувахата”
+     нусь+V+IV+InfImprf+Pl+Loc+PxPl2: нуваха”ната”
+     нусь+V+IV+InfImprf+Pl+Abl+PxPl2: [нувахатата”, нувахатта”]
+     нусь+V+IV+InfImprf+Pl+Pros+PxPl2: нуби”маната”
+     нусь+V+IV+InfImprf+Sg+Nom+PxPl3: нувадо’
+     нусь+V+IV+InfImprf+Sg+Acc+PxPl3: нувамдо’
+     нусь+V+IV+InfImprf+Sg+Gen+PxPl3: нувандо’
+     нусь+V+IV+InfImprf+Sg+Dat+PxPl3: нувахандо’
+     нусь+V+IV+InfImprf+Sg+Loc+PxPl3: нуваханандо’
+     нусь+V+IV+InfImprf+Sg+Abl+PxPl3: нувахадандо’
+     нусь+V+IV+InfImprf+Sg+Pros+PxPl3: нувавнандо’
+     нусь+V+IV+InfImprf+Du+Nom+PxPl3: нувахаюдо’
+     нусь+V+IV+InfImprf+Du+Acc+PxPl3: нувахаюдо’
+     нусь+V+IV+InfImprf+Du+Gen+PxPl3: нувахаюто’
+     нусь+V+IV+InfImprf+Pl+Nom+PxPl3: нубидо’
+     нусь+V+IV+InfImprf+Pl+Acc+PxPl3: нубидо’
+     нусь+V+IV+InfImprf+Pl+Gen+PxPl3: нубито’
+     нусь+V+IV+InfImprf+Pl+Dat+PxPl3: нувахато’
+     нусь+V+IV+InfImprf+Pl+Loc+PxPl3: нуваха”нато’
+     нусь+V+IV+InfImprf+Pl+Abl+PxPl3: [нувахатато’, нувахатто’]
+     нусь+V+IV+InfImprf+Pl+Pros+PxPl3: нуби”манато’
+     нусь+V+IV+InfImprf+Pred+Abs: нувад
+     нусь+V+IV+InfImprf+Pred+Nom+PxSg1: [нувадав, нувадув, нувадами]
+     нусь+V+IV+InfImprf+Pred+Acc+PxSg1: [нувадав, нувадув, нувадами]
+     нусь+V+IV+InfImprf+Pred+Gen+PxSg1: [нувадан, нувадани]
+     нусь+V+IV+InfImprf+Pred+Nom+PxSg2: нувадар
+     нусь+V+IV+InfImprf+Pred+Acc+PxSg2: нувадамд
+     нусь+V+IV+InfImprf+Pred+Gen+PxSg2: нуваданд
+     нусь+V+IV+InfImprf+Pred+Nom+PxSg3: нувадада
+     нусь+V+IV+InfImprf+Pred+Acc+PxSg3: нувадамда
+     нусь+V+IV+InfImprf+Pred+Gen+PxSg3: нуваданда
+     нусь+V+IV+InfImprf+Pred+Nom+PxDu1: нувадами’
+#     нусь+V+IV+InfImprf+Pred+Nom+PxSg1.2: нувадами
+     нусь+V+IV+InfImprf+Pred+Acc+PxDu1: нувадами’
+#     нусь+V+IV+InfImprf+Pred+Acc+PxSg1.2: нувадами
+     нусь+V+IV+InfImprf+Pred+Gen+PxDu1: нувадани’
+#     нусь+V+IV+InfImprf+Pred+Gen+PxSg1.2: нувадани
+     нусь+V+IV+InfImprf+Pred+Nom+PxDu2: нувадари’
+     нусь+V+IV+InfImprf+Pred+Acc+PxDu2: нувадамди’
+     нусь+V+IV+InfImprf+Pred+Gen+PxDu2: нуваданди’
+     нусь+V+IV+InfImprf+Pred+Nom+PxDu3: нувадади’
+     нусь+V+IV+InfImprf+Pred+Acc+PxDu3: нувадамди’
+     нусь+V+IV+InfImprf+Pred+Gen+PxDu3: нуваданди’
+     нусь+V+IV+InfImprf+Pred+Nom+PxPl1: нувадава”
+     нусь+V+IV+InfImprf+Pred+Acc+PxPl1: нувадава”
+     нусь+V+IV+InfImprf+Pred+Gen+PxPl1: нувадана”
+     нусь+V+IV+InfImprf+Pred+Nom+PxPl2: нувадара”
+     нусь+V+IV+InfImprf+Pred+Acc+PxPl2: нувадамда”
+     нусь+V+IV+InfImprf+Pred+Gen+PxPl2: нуваданда”
+     нусь+V+IV+InfImprf+Pred+Nom+PxPl3: нувададо’
+     нусь+V+IV+InfImprf+Pred+Acc+PxPl3: нувадамдо’
+     нусь+V+IV+InfImprf+Pred+Gen+PxPl3: нувадандо’
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScSg1: нувадм’
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScSg2: нуван
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScSg3: нува
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScDu1: нувани’
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScDu2: нувади’
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScDu3: нуваха’
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScPl1: нувава”
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScPl2: нувада”
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Aor+ScPl3: нува”
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScSg1: нувадамзь
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScSg2: нуванась
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScSg3: нувась
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScDu1: нуванинзь
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScDu2: нувадинзь
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScDu3: нуваханзь
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScPl1: нуваваць
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScPl2: нувадаць
+     нусь+V+IV+InfImprf+Der/Pr+Abs+Prt1+ScPl3: нуваць
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxSg1: нував
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxSg2: нувар
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxSg3: нувада
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxDu1: нувами’
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxDu2: нувари’
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxDu3: нувади’
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxPl1: нувава”
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxPl2: нувара”
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Aor+PxPl3: нувадо’
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxSg1: нувавась
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxSg2: нуварась
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxSg3: нувадась
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxDu1: нуваминзь
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxDu2: нуваринзь
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxDu3: нувадинзь
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxPl1: нуваваць
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxPl2: нувараць
+     нусь+V+IV+InfImprf+Der/Pr+Sg+Prt1+PxPl3: нувадонзь
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxSg1: нувахаюн
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxSg2: нувахаюд
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxSg3: нувахаюда
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxDu1: нувахаюни’
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxDu2: нувахаюди’
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxDu3: нувахаюди’
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxPl1: нувахаюна”
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxPl2: нувахаюда”
+     нусь+V+IV+InfImprf+Der/Pr+Du+Aor+PxPl3: нувахаюдо’
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxSg1: нувахаюнась
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxSg2: нувахаюдась
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxSg3: нувахаюдась
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxDu1: нувахаюнинзь
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxDu2: нувахаюдинзь
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxDu3: нувахаюдинзь
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxPl1: нувахаюнаць
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxPl2: нувахаюдаць
+     нусь+V+IV+InfImprf+Der/Pr+Du+Prt1+PxPl3: нувахаюдонзь
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxSg1: нубин
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxSg2: нубид
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxSg3: нубида
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxDu1: нубини’
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxDu2: нубиди’
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxDu3: нубиди’
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxPl1: нубина”
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxPl2: нубида”
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Aor+PxPl3: нубидо’
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxSg1: нубинась
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxSg2: нубидась
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxSg3: нубидась
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxDu1: нубининзь
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxDu2: нубидинзь
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxDu3: нубидинзь
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxPl1: нубинаць
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxPl2: нубидаць
+     нусь+V+IV+InfImprf+Der/Pr+Pl+Prt1+PxPl3: нубидонзь
+     нусь+V+IV+InfImprf+Tra: нуваӈэ
+     нусь+V+IV+InfImprf+Car: нуваси”
+     нусь+V+IV+InfImprf+Equ: нувадарем’
+     нусь+V+IV+InfImprf+Equ+lat: нувадарев’
+     нусь+V+IV+InfPrf+Nom+Sg+Abs: ну”ма
+     нусь+V+IV+InfPrf+Acc+Sg+Abs: ну”мам’
+     нусь+V+IV+InfPrf+Gen+Sg+Abs: ну”ма’
+     нусь+V+IV+InfPrf+Dat+Sg+Abs: ну”ман’
+     нусь+V+IV+InfPrf+Loc+Sg+Abs: ну”махана
+     нусь+V+IV+InfPrf+Abl+Sg+Abs: ну”махад
+     нусь+V+IV+InfPrf+Pros+Sg+Abs: ну”мавна
+     нусь+V+IV+InfPrf+Nom+Du+Abs: ну”маха’
+     нусь+V+IV+InfPrf+Acc+Du+Abs: ну”маха’
+     нусь+V+IV+InfPrf+Gen+Du+Abs: ну”маха’
+     нусь+V+IV+InfPrf+Nom+Pl+Abs: ну”ма”
+     нусь+V+IV+InfPrf+Acc+Pl+Abs: ну”ми
+     нусь+V+IV+InfPrf+Gen+Pl+Abs: ну”ми”
+     нусь+V+IV+InfPrf+Dat+Pl+Abs: ну”маха”
+     нусь+V+IV+InfPrf+Loc+Pl+Abs: ну”маха”на
+     нусь+V+IV+InfPrf+Abl+Pl+Abs: ну”махат
+     нусь+V+IV+InfPrf+Pros+Pl+Abs: ну”ми”мана
+     нусь+V+IV+InfPrf+Sg+Nom+PxSg1: [ну”мав, ну”мами]
+     нусь+V+IV+InfPrf+Sg+Acc+PxSg1: [ну”мав, ну”мами]
+     нусь+V+IV+InfPrf+Sg+Gen+PxSg1: [ну”ман, ну”мани]
+     нусь+V+IV+InfPrf+Sg+Dat+PxSg1: [ну”махан, ну”махани]
+     нусь+V+IV+InfPrf+Sg+Loc+PxSg1: [ну”маханан, ну”маханани]
+     нусь+V+IV+InfPrf+Sg+Abl+PxSg1: [ну”махадан, ну”махадани, ну”махадни]
+     нусь+V+IV+InfPrf+Sg+Pros+PxSg1: [ну”мавнан, ну”мавнани]
+     нусь+V+IV+InfPrf+Du+Nom+PxSg1: [ну”махаюн, ну”махаюни]
+     нусь+V+IV+InfPrf+Du+Acc+PxSg1: [ну”махаюн, ну”махаюни]
+     нусь+V+IV+InfPrf+Du+Gen+PxSg1: [ну”махаюн, ну”махаюни]
+     нусь+V+IV+InfPrf+Pl+Nom+PxSg1: [ну”мин, ну”мини]
+     нусь+V+IV+InfPrf+Pl+Acc+PxSg1: [ну”мин, ну”мини]
+     нусь+V+IV+InfPrf+Pl+Gen+PxSg1: [ну”ми”н, ну”ми”ни]
+     нусь+V+IV+InfPrf+Pl+Dat+PxSg1: [ну”маха”н, ну”маха”ни]
+     нусь+V+IV+InfPrf+Pl+Loc+PxSg1: [ну”маха”нан, ну”маха”нани]
+     нусь+V+IV+InfPrf+Pl+Abl+PxSg1: [ну”махатан, ну”махатани, ну”махатни]
+     нусь+V+IV+InfPrf+Pl+Pros+PxSg1: [ну”ми”манан, ну”ми”манани]
+     нусь+V+IV+InfPrf+Sg+Nom+PxSg2: ну”мар
+     нусь+V+IV+InfPrf+Sg+Acc+PxSg2: ну”мамд
+     нусь+V+IV+InfPrf+Sg+Gen+PxSg2: ну”манд
+     нусь+V+IV+InfPrf+Sg+Dat+PxSg2: ну”маханд
+     нусь+V+IV+InfPrf+Sg+Loc+PxSg2: ну”махананд
+     нусь+V+IV+InfPrf+Sg+Abl+PxSg2: ну”махаданд
+     нусь+V+IV+InfPrf+Sg+Pros+PxSg2: ну”мавнанд
+     нусь+V+IV+InfPrf+Du+Nom+PxSg2: ну”махаюд
+     нусь+V+IV+InfPrf+Du+Acc+PxSg2: ну”махаюд
+     нусь+V+IV+InfPrf+Du+Gen+PxSg2: ну”махают
+     нусь+V+IV+InfPrf+Pl+Nom+PxSg2: ну”мид
+     нусь+V+IV+InfPrf+Pl+Acc+PxSg2: ну”мид
+     нусь+V+IV+InfPrf+Pl+Gen+PxSg2: ну”мит
+     нусь+V+IV+InfPrf+Pl+Dat+PxSg2: ну”махат
+     нусь+V+IV+InfPrf+Pl+Loc+PxSg2: ну”маха”нат
+     нусь+V+IV+InfPrf+Pl+Abl+PxSg2: ну”махатат
+     нусь+V+IV+InfPrf+Pl+Pros+PxSg2: ну”ми”манат
+     нусь+V+IV+InfPrf+Sg+Nom+PxSg3: ну”мада
+     нусь+V+IV+InfPrf+Sg+Acc+PxSg3: ну”мамда
+     нусь+V+IV+InfPrf+Sg+Gen+PxSg3: ну”манда
+     нусь+V+IV+InfPrf+Sg+Dat+PxSg3: ну”маханда
+     нусь+V+IV+InfPrf+Sg+Loc+PxSg3: ну”махананда
+     нусь+V+IV+InfPrf+Sg+Abl+PxSg3: ну”махаданда
+     нусь+V+IV+InfPrf+Sg+Pros+PxSg3: ну”мавнанда
+     нусь+V+IV+InfPrf+Du+Nom+PxSg3: ну”махаюда
+     нусь+V+IV+InfPrf+Du+Acc+PxSg3: ну”махаюда
+     нусь+V+IV+InfPrf+Du+Gen+PxSg3: ну”махаюта
+     нусь+V+IV+InfPrf+Pl+Nom+PxSg3: ну”мида
+     нусь+V+IV+InfPrf+Pl+Acc+PxSg3: ну”мида
+     нусь+V+IV+InfPrf+Pl+Gen+PxSg3: ну”мита
+     нусь+V+IV+InfPrf+Pl+Dat+PxSg3: ну”махата
+     нусь+V+IV+InfPrf+Pl+Loc+PxSg3: ну”маха”ната
+     нусь+V+IV+InfPrf+Pl+Abl+PxSg3: [ну”махатата, ну”махатта]
+     нусь+V+IV+InfPrf+Pl+Pros+PxSg3: ну”ми”маната
+     нусь+V+IV+InfPrf+Sg+Nom+PxDu1: ну”мами’
+#     нусь+V+IV+InfPrf+Sg+Nom+PxSg1.2: ну”мами
+     нусь+V+IV+InfPrf+Sg+Acc+PxDu1: ну”мами’
+#     нусь+V+IV+InfPrf+Sg+Acc+PxSg1.2: ну”мами
+     нусь+V+IV+InfPrf+Sg+Gen+PxDu1: ну”мани’
+#     нусь+V+IV+InfPrf+Sg+Gen+PxSg1.2: ну”мани
+     нусь+V+IV+InfPrf+Sg+Dat+PxDu1: ну”махани’
+#     нусь+V+IV+InfPrf+Sg+Dat+PxSg1.2: ну”махани
+     нусь+V+IV+InfPrf+Sg+Loc+PxDu1: ну”маханани’
+#     нусь+V+IV+InfPrf+Sg+Loc+PxSg1.2: ну”маханани
+     нусь+V+IV+InfPrf+Sg+Abl+PxDu1: [ну”махадани’, ну”махадни’]
+#     нусь+V+IV+InfPrf+Sg+Abl+PxSg1.2: [ну”махадани, ну”махадни]
+     нусь+V+IV+InfPrf+Sg+Pros+PxDu1: ну”мавнани’
+#     нусь+V+IV+InfPrf+Sg+Pros+PxSg1.2: ну”мавнани
+     нусь+V+IV+InfPrf+Du+Nom+PxDu1: ну”махаюни’
+#     нусь+V+IV+InfPrf+Du+Nom+PxSg1.2: ну”махаюни
+     нусь+V+IV+InfPrf+Du+Acc+PxDu1: ну”махаюни’
+#     нусь+V+IV+InfPrf+Du+Acc+PxSg1.2: ну”махаюни
+     нусь+V+IV+InfPrf+Du+Gen+PxDu1: ну”махаюни’
+#     нусь+V+IV+InfPrf+Du+Gen+PxSg1.2: ну”махаюни
+     нусь+V+IV+InfPrf+Pl+Nom+PxDu1: ну”мини’
+#     нусь+V+IV+InfPrf+Pl+Nom+PxSg1.2: ну”мини
+     нусь+V+IV+InfPrf+Pl+Acc+PxDu1: ну”мини’
+#     нусь+V+IV+InfPrf+Pl+Acc+PxSg1.2: ну”мини
+     нусь+V+IV+InfPrf+Pl+Gen+PxDu1: ну”ми”ни’
+#     нусь+V+IV+InfPrf+Pl+Gen+PxSg1.2: ну”ми”ни
+     нусь+V+IV+InfPrf+Pl+Dat+PxDu1: ну”маха”ни’
+#     нусь+V+IV+InfPrf+Pl+Dat+PxSg1.2: ну”маха”ни
+     нусь+V+IV+InfPrf+Pl+Loc+PxDu1: ну”маха”нани’
+#     нусь+V+IV+InfPrf+Pl+Loc+PxSg1.2: ну”маха”нани
+     нусь+V+IV+InfPrf+Pl+Abl+PxDu1: [ну”махатани’, ну”махатни’]
+#     нусь+V+IV+InfPrf+Pl+Abl+PxSg1.2: [ну”махатани, ну”махатни]
+     нусь+V+IV+InfPrf+Pl+Pros+PxDu1: ну”ми”манани’
+#     нусь+V+IV+InfPrf+Pl+Pros+PxSg1.2: ну”ми”манани
+     нусь+V+IV+InfPrf+Sg+Nom+PxDu2: ну”мари’
+     нусь+V+IV+InfPrf+Sg+Acc+PxDu2: ну”мамди’
+     нусь+V+IV+InfPrf+Sg+Gen+PxDu2: ну”манди’
+     нусь+V+IV+InfPrf+Sg+Dat+PxDu2: ну”маханди’
+     нусь+V+IV+InfPrf+Sg+Loc+PxDu2: ну”махананди’
+     нусь+V+IV+InfPrf+Sg+Abl+PxDu2: ну”махаданди’
+     нусь+V+IV+InfPrf+Sg+Pros+PxDu2: ну”мавнанди’
+     нусь+V+IV+InfPrf+Du+Nom+PxDu2: ну”махаюди’
+     нусь+V+IV+InfPrf+Du+Acc+PxDu2: ну”махаюди’
+     нусь+V+IV+InfPrf+Du+Gen+PxDu2: ну”махаюти’
+     нусь+V+IV+InfPrf+Pl+Nom+PxDu2: ну”миди’
+     нусь+V+IV+InfPrf+Pl+Acc+PxDu2: ну”миди’
+     нусь+V+IV+InfPrf+Pl+Gen+PxDu2: ну”мити’
+     нусь+V+IV+InfPrf+Pl+Dat+PxDu2: ну”махати’
+     нусь+V+IV+InfPrf+Pl+Loc+PxDu2: ну”маха”нати’
+     нусь+V+IV+InfPrf+Pl+Abl+PxDu2: [ну”махатати’, ну”махатти’]
+     нусь+V+IV+InfPrf+Pl+Pros+PxDu2: ну”ми”манати’
+     нусь+V+IV+InfPrf+Sg+Nom+PxDu3: ну”мади’
+     нусь+V+IV+InfPrf+Sg+Acc+PxDu3: ну”мамди’
+     нусь+V+IV+InfPrf+Sg+Gen+PxDu3: ну”манди’
+     нусь+V+IV+InfPrf+Sg+Dat+PxDu3: ну”маханди’
+     нусь+V+IV+InfPrf+Sg+Loc+PxDu3: ну”махананди’
+     нусь+V+IV+InfPrf+Sg+Abl+PxDu3: ну”махаданди’
+     нусь+V+IV+InfPrf+Sg+Pros+PxDu3: ну”мавнанди’
+     нусь+V+IV+InfPrf+Du+Nom+PxDu3: ну”махаюди’
+     нусь+V+IV+InfPrf+Du+Acc+PxDu3: ну”махаюди’
+     нусь+V+IV+InfPrf+Du+Gen+PxDu3: ну”махаюти’
+     нусь+V+IV+InfPrf+Pl+Nom+PxDu3: ну”миди’
+     нусь+V+IV+InfPrf+Pl+Acc+PxDu3: ну”миди’
+     нусь+V+IV+InfPrf+Pl+Gen+PxDu3: ну”мити’
+     нусь+V+IV+InfPrf+Pl+Dat+PxDu3: ну”махати’
+     нусь+V+IV+InfPrf+Pl+Loc+PxDu3: ну”маха”нати’
+     нусь+V+IV+InfPrf+Pl+Abl+PxDu3: [ну”махатати’, ну”махатти’]
+     нусь+V+IV+InfPrf+Pl+Pros+PxDu3: ну”ми”манати’
+     нусь+V+IV+InfPrf+Sg+Nom+PxPl1: ну”мава”
+     нусь+V+IV+InfPrf+Sg+Acc+PxPl1: ну”мава”
+     нусь+V+IV+InfPrf+Sg+Gen+PxPl1: ну”мана”
+     нусь+V+IV+InfPrf+Sg+Dat+PxPl1: ну”махана”
+     нусь+V+IV+InfPrf+Sg+Loc+PxPl1: ну”маханана”
+     нусь+V+IV+InfPrf+Sg+Abl+PxPl1: [ну”махадана”, ну”махадна”]
+     нусь+V+IV+InfPrf+Sg+Pros+PxPl1: ну”мавнана”
+     нусь+V+IV+InfPrf+Du+Nom+PxPl1: ну”махаюна”
+     нусь+V+IV+InfPrf+Du+Acc+PxPl1: ну”махаюна”
+     нусь+V+IV+InfPrf+Du+Gen+PxPl1: ну”махаюна”
+     нусь+V+IV+InfPrf+Pl+Nom+PxPl1: ну”мина”
+     нусь+V+IV+InfPrf+Pl+Acc+PxPl1: ну”мина”
+     нусь+V+IV+InfPrf+Pl+Gen+PxPl1: ну”ми”на”
+     нусь+V+IV+InfPrf+Pl+Dat+PxPl1: ну”маха”на”
+     нусь+V+IV+InfPrf+Pl+Loc+PxPl1: ну”маха”нана”
+     нусь+V+IV+InfPrf+Pl+Abl+PxPl1: [ну”махатана”, ну”махатна”]
+     нусь+V+IV+InfPrf+Pl+Pros+PxPl1: ну”ми”манана”
+     нусь+V+IV+InfPrf+Sg+Nom+PxPl2: ну”мара”
+     нусь+V+IV+InfPrf+Sg+Acc+PxPl2: ну”мамда”
+     нусь+V+IV+InfPrf+Sg+Gen+PxPl2: ну”манда”
+     нусь+V+IV+InfPrf+Sg+Dat+PxPl2: ну”маханда”
+     нусь+V+IV+InfPrf+Sg+Loc+PxPl2: ну”махананда”
+     нусь+V+IV+InfPrf+Sg+Abl+PxPl2: ну”махаданда”
+     нусь+V+IV+InfPrf+Sg+Pros+PxPl2: ну”мавнанда”
+     нусь+V+IV+InfPrf+Du+Nom+PxPl2: ну”махаюда”
+     нусь+V+IV+InfPrf+Du+Acc+PxPl2: ну”махаюда”
+     нусь+V+IV+InfPrf+Du+Gen+PxPl2: ну”махаюта”
+     нусь+V+IV+InfPrf+Pl+Nom+PxPl2: ну”мида”
+     нусь+V+IV+InfPrf+Pl+Acc+PxPl2: ну”мида”
+     нусь+V+IV+InfPrf+Pl+Gen+PxPl2: ну”мита”
+     нусь+V+IV+InfPrf+Pl+Dat+PxPl2: ну”махата”
+     нусь+V+IV+InfPrf+Pl+Loc+PxPl2: ну”маха”ната”
+     нусь+V+IV+InfPrf+Pl+Abl+PxPl2: [ну”махатата”, ну”махатта”]
+     нусь+V+IV+InfPrf+Pl+Pros+PxPl2: ну”ми”маната”
+     нусь+V+IV+InfPrf+Sg+Nom+PxPl3: ну”мадо’
+     нусь+V+IV+InfPrf+Sg+Acc+PxPl3: ну”мамдо’
+     нусь+V+IV+InfPrf+Sg+Gen+PxPl3: ну”мандо’
+     нусь+V+IV+InfPrf+Sg+Dat+PxPl3: ну”махандо’
+     нусь+V+IV+InfPrf+Sg+Loc+PxPl3: ну”маханандо’
+     нусь+V+IV+InfPrf+Sg+Abl+PxPl3: ну”махадандо’
+     нусь+V+IV+InfPrf+Sg+Pros+PxPl3: ну”мавнандо’
+     нусь+V+IV+InfPrf+Du+Nom+PxPl3: ну”махаюдо’
+     нусь+V+IV+InfPrf+Du+Acc+PxPl3: ну”махаюдо’
+     нусь+V+IV+InfPrf+Du+Gen+PxPl3: ну”махаюто’
+     нусь+V+IV+InfPrf+Pl+Nom+PxPl3: ну”мидо’
+     нусь+V+IV+InfPrf+Pl+Acc+PxPl3: ну”мидо’
+     нусь+V+IV+InfPrf+Pl+Gen+PxPl3: ну”мито’
+     нусь+V+IV+InfPrf+Pl+Dat+PxPl3: ну”махато’
+     нусь+V+IV+InfPrf+Pl+Loc+PxPl3: ну”маха”нато’
+     нусь+V+IV+InfPrf+Pl+Abl+PxPl3: [ну”махатато’, ну”махатто’]
+     нусь+V+IV+InfPrf+Pl+Pros+PxPl3: ну”ми”манато’
+     нусь+V+IV+InfPrf+Pred+Abs: ну”мад
+     нусь+V+IV+InfPrf+Pred+Nom+PxSg1: [ну”мадав, ну”мадув, ну”мадами]
+     нусь+V+IV+InfPrf+Pred+Acc+PxSg1: [ну”мадав, ну”мадув, ну”мадами]
+     нусь+V+IV+InfPrf+Pred+Gen+PxSg1: [ну”мадан, ну”мадани]
+     нусь+V+IV+InfPrf+Pred+Nom+PxSg2: ну”мадар
+     нусь+V+IV+InfPrf+Pred+Acc+PxSg2: ну”мадамд
+     нусь+V+IV+InfPrf+Pred+Gen+PxSg2: ну”маданд
+     нусь+V+IV+InfPrf+Pred+Nom+PxSg3: ну”мадада
+     нусь+V+IV+InfPrf+Pred+Acc+PxSg3: ну”мадамда
+     нусь+V+IV+InfPrf+Pred+Gen+PxSg3: ну”маданда
+     нусь+V+IV+InfPrf+Pred+Nom+PxDu1: ну”мадами’
+#     нусь+V+IV+InfPrf+Pred+Nom+PxSg1.2: ну”мадами
+     нусь+V+IV+InfPrf+Pred+Acc+PxDu1: ну”мадами’
+#     нусь+V+IV+InfPrf+Pred+Acc+PxSg1.2: ну”мадами
+     нусь+V+IV+InfPrf+Pred+Gen+PxDu1: ну”мадани’
+#     нусь+V+IV+InfPrf+Pred+Gen+PxSg1.2: ну”мадани
+     нусь+V+IV+InfPrf+Pred+Nom+PxDu2: ну”мадари’
+     нусь+V+IV+InfPrf+Pred+Acc+PxDu2: ну”мадамди’
+     нусь+V+IV+InfPrf+Pred+Gen+PxDu2: ну”маданди’
+     нусь+V+IV+InfPrf+Pred+Nom+PxDu3: ну”мадади’
+     нусь+V+IV+InfPrf+Pred+Acc+PxDu3: ну”мадамди’
+     нусь+V+IV+InfPrf+Pred+Gen+PxDu3: ну”маданди’
+     нусь+V+IV+InfPrf+Pred+Nom+PxPl1: ну”мадава”
+     нусь+V+IV+InfPrf+Pred+Acc+PxPl1: ну”мадава”
+     нусь+V+IV+InfPrf+Pred+Gen+PxPl1: ну”мадана”
+     нусь+V+IV+InfPrf+Pred+Nom+PxPl2: ну”мадара”
+     нусь+V+IV+InfPrf+Pred+Acc+PxPl2: ну”мадамда”
+     нусь+V+IV+InfPrf+Pred+Gen+PxPl2: ну”маданда”
+     нусь+V+IV+InfPrf+Pred+Nom+PxPl3: ну”мададо’
+     нусь+V+IV+InfPrf+Pred+Acc+PxPl3: ну”мадамдо’
+     нусь+V+IV+InfPrf+Pred+Gen+PxPl3: ну”мадандо’
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScSg1: ну”мадм’
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScSg2: ну”ман
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScSg3: ну”ма
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScDu1: ну”мани’
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScDu2: ну”мади’
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScDu3: ну”маха’
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScPl1: ну”мава”
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScPl2: ну”мада”
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Aor+ScPl3: ну”ма”
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScSg1: ну”мадамзь
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScSg2: ну”манась
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScSg3: ну”мась
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScDu1: ну”манинзь
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScDu2: ну”мадинзь
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScDu3: ну”маханзь
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScPl1: ну”маваць
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScPl2: ну”мадаць
+     нусь+V+IV+InfPrf+Der/Pr+Abs+Prt1+ScPl3: ну”маць
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxSg1: ну”мав
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxSg2: ну”мар
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxSg3: ну”мада
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxDu1: ну”мами’
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxDu2: ну”мари’
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxDu3: ну”мади’
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxPl1: ну”мава”
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxPl2: ну”мара”
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Aor+PxPl3: ну”мадо’
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxSg1: ну”мавась
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxSg2: ну”марась
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxSg3: ну”мадась
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxDu1: ну”маминзь
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxDu2: ну”маринзь
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxDu3: ну”мадинзь
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxPl1: ну”маваць
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxPl2: ну”мараць
+     нусь+V+IV+InfPrf+Der/Pr+Sg+Prt1+PxPl3: ну”мадонзь
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxSg1: ну”махаюн
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxSg2: ну”махаюд
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxSg3: ну”махаюда
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxDu1: ну”махаюни’
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxDu2: ну”махаюди’
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxDu3: ну”махаюди’
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxPl1: ну”махаюна”
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxPl2: ну”махаюда”
+     нусь+V+IV+InfPrf+Der/Pr+Du+Aor+PxPl3: ну”махаюдо’
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxSg1: ну”махаюнась
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxSg2: ну”махаюдась
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxSg3: ну”махаюдась
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxDu1: ну”махаюнинзь
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxDu2: ну”махаюдинзь
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxDu3: ну”махаюдинзь
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxPl1: ну”махаюнаць
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxPl2: ну”махаюдаць
+     нусь+V+IV+InfPrf+Der/Pr+Du+Prt1+PxPl3: ну”махаюдонзь
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxSg1: ну”мин
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxSg2: ну”мид
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxSg3: ну”мида
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxDu1: ну”мини’
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxDu2: ну”миди’
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxDu3: ну”миди’
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxPl1: ну”мина”
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxPl2: ну”мида”
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Aor+PxPl3: ну”мидо’
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxSg1: ну”минась
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxSg2: ну”мидась
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxSg3: ну”мидась
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxDu1: ну”мининзь
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxDu2: ну”мидинзь
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxDu3: ну”мидинзь
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxPl1: ну”минаць
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxPl2: ну”мидаць
+     нусь+V+IV+InfPrf+Der/Pr+Pl+Prt1+PxPl3: ну”мидонзь
+     нусь+V+IV+InfPrf+Tra: ну”маӈэ
+     нусь+V+IV+InfPrf+Car: ну”маси”
+     нусь+V+IV+InfPrf+Equ: ну”мадарем’
+     нусь+V+IV+InfPrf+Equ+lat: ну”мадарев’
+     нусь+V+IV+PrcImprf+Nom+Sg+Abs: нуна
+     нусь+V+IV+PrcImprf+Acc+Sg+Abs: нунам’
+     нусь+V+IV+PrcImprf+Gen+Sg+Abs: нуна’
+     нусь+V+IV+PrcImprf+Dat+Sg+Abs: нунан’
+     нусь+V+IV+PrcImprf+Loc+Sg+Abs: нунахана
+     нусь+V+IV+PrcImprf+Abl+Sg+Abs: нунахад
+     нусь+V+IV+PrcImprf+Pros+Sg+Abs: нунавна
+     нусь+V+IV+PrcImprf+Nom+Du+Abs: нунаха’
+     нусь+V+IV+PrcImprf+Acc+Du+Abs: нунаха’
+     нусь+V+IV+PrcImprf+Gen+Du+Abs: нунаха’
+     нусь+V+IV+PrcImprf+Nom+Pl+Abs: нуна”
+     нусь+V+IV+PrcImprf+Acc+Pl+Abs: нуни
+     нусь+V+IV+PrcImprf+Gen+Pl+Abs: нуни”
+     нусь+V+IV+PrcImprf+Dat+Pl+Abs: нунаха”
+     нусь+V+IV+PrcImprf+Loc+Pl+Abs: нунаха”на
+     нусь+V+IV+PrcImprf+Abl+Pl+Abs: нунахат
+     нусь+V+IV+PrcImprf+Pros+Pl+Abs: нуни”мана
+     нусь+V+IV+PrcImprf+Sg+Nom+PxSg1: [нунав, нунами]
+     нусь+V+IV+PrcImprf+Sg+Acc+PxSg1: [нунав, нунами]
+     нусь+V+IV+PrcImprf+Sg+Gen+PxSg1: [нунан, нунани]
+     нусь+V+IV+PrcImprf+Sg+Dat+PxSg1: [нунахан, нунахани]
+     нусь+V+IV+PrcImprf+Sg+Loc+PxSg1: [нунаханан, нунаханани]
+     нусь+V+IV+PrcImprf+Sg+Abl+PxSg1: [нунахадан, нунахадани, нунахадни]
+     нусь+V+IV+PrcImprf+Sg+Pros+PxSg1: [нунавнан, нунавнани]
+     нусь+V+IV+PrcImprf+Du+Nom+PxSg1: [нунахаюн, нунахаюни]
+     нусь+V+IV+PrcImprf+Du+Acc+PxSg1: [нунахаюн, нунахаюни]
+     нусь+V+IV+PrcImprf+Du+Gen+PxSg1: [нунахаюн, нунахаюни]
+     нусь+V+IV+PrcImprf+Pl+Nom+PxSg1: [нунин, нунини]
+     нусь+V+IV+PrcImprf+Pl+Acc+PxSg1: [нунин, нунини]
+     нусь+V+IV+PrcImprf+Pl+Gen+PxSg1: [нуни”н, нуни”ни]
+     нусь+V+IV+PrcImprf+Pl+Dat+PxSg1: [нунаха”н, нунаха”ни]
+     нусь+V+IV+PrcImprf+Pl+Loc+PxSg1: [нунаха”нан, нунаха”нани]
+     нусь+V+IV+PrcImprf+Pl+Abl+PxSg1: [нунахатан, нунахатани, нунахатни]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxSg1: [нуни”манан, нуни”манани]
+     нусь+V+IV+PrcImprf+Sg+Nom+PxSg2: нунар
+     нусь+V+IV+PrcImprf+Sg+Acc+PxSg2: нунамд
+     нусь+V+IV+PrcImprf+Sg+Gen+PxSg2: нунанд
+     нусь+V+IV+PrcImprf+Sg+Dat+PxSg2: нунаханд
+     нусь+V+IV+PrcImprf+Sg+Loc+PxSg2: нунахананд
+     нусь+V+IV+PrcImprf+Sg+Abl+PxSg2: нунахаданд
+     нусь+V+IV+PrcImprf+Sg+Pros+PxSg2: нунавнанд
+     нусь+V+IV+PrcImprf+Du+Nom+PxSg2: нунахаюд
+     нусь+V+IV+PrcImprf+Du+Acc+PxSg2: нунахаюд
+     нусь+V+IV+PrcImprf+Du+Gen+PxSg2: нунахают
+     нусь+V+IV+PrcImprf+Pl+Nom+PxSg2: нунид
+     нусь+V+IV+PrcImprf+Pl+Acc+PxSg2: нунид
+     нусь+V+IV+PrcImprf+Pl+Gen+PxSg2: нунит
+     нусь+V+IV+PrcImprf+Pl+Dat+PxSg2: нунахат
+     нусь+V+IV+PrcImprf+Pl+Loc+PxSg2: нунаха”нат
+     нусь+V+IV+PrcImprf+Pl+Abl+PxSg2: нунахатат
+     нусь+V+IV+PrcImprf+Pl+Pros+PxSg2: нуни”манат
+     нусь+V+IV+PrcImprf+Sg+Nom+PxSg3: нунада
+     нусь+V+IV+PrcImprf+Sg+Acc+PxSg3: нунамда
+     нусь+V+IV+PrcImprf+Sg+Gen+PxSg3: нунанда
+     нусь+V+IV+PrcImprf+Sg+Dat+PxSg3: нунаханда
+     нусь+V+IV+PrcImprf+Sg+Loc+PxSg3: нунахананда
+     нусь+V+IV+PrcImprf+Sg+Abl+PxSg3: нунахаданда
+     нусь+V+IV+PrcImprf+Sg+Pros+PxSg3: нунавнанда
+     нусь+V+IV+PrcImprf+Du+Nom+PxSg3: нунахаюда
+     нусь+V+IV+PrcImprf+Du+Acc+PxSg3: нунахаюда
+     нусь+V+IV+PrcImprf+Du+Gen+PxSg3: нунахаюта
+     нусь+V+IV+PrcImprf+Pl+Nom+PxSg3: нунида
+     нусь+V+IV+PrcImprf+Pl+Acc+PxSg3: нунида
+     нусь+V+IV+PrcImprf+Pl+Gen+PxSg3: нунита
+     нусь+V+IV+PrcImprf+Pl+Dat+PxSg3: нунахата
+     нусь+V+IV+PrcImprf+Pl+Loc+PxSg3: нунаха”ната
+     нусь+V+IV+PrcImprf+Pl+Abl+PxSg3: [нунахатата, нунахатта]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxSg3: нуни”маната
+     нусь+V+IV+PrcImprf+Sg+Nom+PxDu1: нунами’
+#     нусь+V+IV+PrcImprf+Sg+Nom+PxSg1.2: нунами
+     нусь+V+IV+PrcImprf+Sg+Acc+PxDu1: нунами’
+#     нусь+V+IV+PrcImprf+Sg+Acc+PxSg1.2: нунами
+     нусь+V+IV+PrcImprf+Sg+Gen+PxDu1: нунани’
+#     нусь+V+IV+PrcImprf+Sg+Gen+PxSg1.2: нунани
+     нусь+V+IV+PrcImprf+Sg+Dat+PxDu1: нунахани’
+#     нусь+V+IV+PrcImprf+Sg+Dat+PxSg1.2: нунахани
+     нусь+V+IV+PrcImprf+Sg+Loc+PxDu1: нунаханани’
+#     нусь+V+IV+PrcImprf+Sg+Loc+PxSg1.2: нунаханани
+     нусь+V+IV+PrcImprf+Sg+Abl+PxDu1: [нунахадани’, нунахадни’]
+#     нусь+V+IV+PrcImprf+Sg+Abl+PxSg1.2: [нунахадани, нунахадни]
+     нусь+V+IV+PrcImprf+Sg+Pros+PxDu1: нунавнани’
+#     нусь+V+IV+PrcImprf+Sg+Pros+PxSg1.2: нунавнани
+     нусь+V+IV+PrcImprf+Du+Nom+PxDu1: нунахаюни’
+#     нусь+V+IV+PrcImprf+Du+Nom+PxSg1.2: нунахаюни
+     нусь+V+IV+PrcImprf+Du+Acc+PxDu1: нунахаюни’
+#     нусь+V+IV+PrcImprf+Du+Acc+PxSg1.2: нунахаюни
+     нусь+V+IV+PrcImprf+Du+Gen+PxDu1: нунахаюни’
+#     нусь+V+IV+PrcImprf+Du+Gen+PxSg1.2: нунахаюни
+     нусь+V+IV+PrcImprf+Pl+Nom+PxDu1: нунини’
+#     нусь+V+IV+PrcImprf+Pl+Nom+PxSg1.2: нунини
+     нусь+V+IV+PrcImprf+Pl+Acc+PxDu1: нунини’
+#     нусь+V+IV+PrcImprf+Pl+Acc+PxSg1.2: нунини
+     нусь+V+IV+PrcImprf+Pl+Gen+PxDu1: нуни”ни’
+#     нусь+V+IV+PrcImprf+Pl+Gen+PxSg1.2: нуни”ни
+     нусь+V+IV+PrcImprf+Pl+Dat+PxDu1: нунаха”ни’
+#     нусь+V+IV+PrcImprf+Pl+Dat+PxSg1.2: нунаха”ни
+     нусь+V+IV+PrcImprf+Pl+Loc+PxDu1: нунаха”нани’
+#     нусь+V+IV+PrcImprf+Pl+Loc+PxSg1.2: нунаха”нани
+     нусь+V+IV+PrcImprf+Pl+Abl+PxDu1: [нунахатани’, нунахатни’]
+#     нусь+V+IV+PrcImprf+Pl+Abl+PxSg1.2: [нунахатани, нунахатни]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxDu1: нуни”манани’
+#     нусь+V+IV+PrcImprf+Pl+Pros+PxSg1.2: нуни”манани
+     нусь+V+IV+PrcImprf+Sg+Nom+PxDu2: нунари’
+     нусь+V+IV+PrcImprf+Sg+Acc+PxDu2: нунамди’
+     нусь+V+IV+PrcImprf+Sg+Gen+PxDu2: нунанди’
+     нусь+V+IV+PrcImprf+Sg+Dat+PxDu2: нунаханди’
+     нусь+V+IV+PrcImprf+Sg+Loc+PxDu2: нунахананди’
+     нусь+V+IV+PrcImprf+Sg+Abl+PxDu2: нунахаданди’
+     нусь+V+IV+PrcImprf+Sg+Pros+PxDu2: нунавнанди’
+     нусь+V+IV+PrcImprf+Du+Nom+PxDu2: нунахаюди’
+     нусь+V+IV+PrcImprf+Du+Acc+PxDu2: нунахаюди’
+     нусь+V+IV+PrcImprf+Du+Gen+PxDu2: нунахаюти’
+     нусь+V+IV+PrcImprf+Pl+Nom+PxDu2: нуниди’
+     нусь+V+IV+PrcImprf+Pl+Acc+PxDu2: нуниди’
+     нусь+V+IV+PrcImprf+Pl+Gen+PxDu2: нунити’
+     нусь+V+IV+PrcImprf+Pl+Dat+PxDu2: нунахати’
+     нусь+V+IV+PrcImprf+Pl+Loc+PxDu2: нунаха”нати’
+     нусь+V+IV+PrcImprf+Pl+Abl+PxDu2: [нунахатати’, нунахатти’]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxDu2: нуни”манати’
+     нусь+V+IV+PrcImprf+Sg+Nom+PxDu3: нунади’
+     нусь+V+IV+PrcImprf+Sg+Acc+PxDu3: нунамди’
+     нусь+V+IV+PrcImprf+Sg+Gen+PxDu3: нунанди’
+     нусь+V+IV+PrcImprf+Sg+Dat+PxDu3: нунаханди’
+     нусь+V+IV+PrcImprf+Sg+Loc+PxDu3: нунахананди’
+     нусь+V+IV+PrcImprf+Sg+Abl+PxDu3: нунахаданди’
+     нусь+V+IV+PrcImprf+Sg+Pros+PxDu3: нунавнанди’
+     нусь+V+IV+PrcImprf+Du+Nom+PxDu3: нунахаюди’
+     нусь+V+IV+PrcImprf+Du+Acc+PxDu3: нунахаюди’
+     нусь+V+IV+PrcImprf+Du+Gen+PxDu3: нунахаюти’
+     нусь+V+IV+PrcImprf+Pl+Nom+PxDu3: нуниди’
+     нусь+V+IV+PrcImprf+Pl+Acc+PxDu3: нуниди’
+     нусь+V+IV+PrcImprf+Pl+Gen+PxDu3: нунити’
+     нусь+V+IV+PrcImprf+Pl+Dat+PxDu3: нунахати’
+     нусь+V+IV+PrcImprf+Pl+Loc+PxDu3: нунаха”нати’
+     нусь+V+IV+PrcImprf+Pl+Abl+PxDu3: [нунахатати’, нунахатти’]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxDu3: нуни”манати’
+     нусь+V+IV+PrcImprf+Sg+Nom+PxPl1: нунава”
+     нусь+V+IV+PrcImprf+Sg+Acc+PxPl1: нунава”
+     нусь+V+IV+PrcImprf+Sg+Gen+PxPl1: нунана”
+     нусь+V+IV+PrcImprf+Sg+Dat+PxPl1: нунахана”
+     нусь+V+IV+PrcImprf+Sg+Loc+PxPl1: нунаханана”
+     нусь+V+IV+PrcImprf+Sg+Abl+PxPl1: [нунахадана”, нунахадна”]
+     нусь+V+IV+PrcImprf+Sg+Pros+PxPl1: нунавнана”
+     нусь+V+IV+PrcImprf+Du+Nom+PxPl1: нунахаюна”
+     нусь+V+IV+PrcImprf+Du+Acc+PxPl1: нунахаюна”
+     нусь+V+IV+PrcImprf+Du+Gen+PxPl1: нунахаюна”
+     нусь+V+IV+PrcImprf+Pl+Nom+PxPl1: нунина”
+     нусь+V+IV+PrcImprf+Pl+Acc+PxPl1: нунина”
+     нусь+V+IV+PrcImprf+Pl+Gen+PxPl1: нуни”на”
+     нусь+V+IV+PrcImprf+Pl+Dat+PxPl1: нунаха”на”
+     нусь+V+IV+PrcImprf+Pl+Loc+PxPl1: нунаха”нана”
+     нусь+V+IV+PrcImprf+Pl+Abl+PxPl1: [нунахатана”, нунахатна”]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxPl1: нуни”манана”
+     нусь+V+IV+PrcImprf+Sg+Nom+PxPl2: нунара”
+     нусь+V+IV+PrcImprf+Sg+Acc+PxPl2: нунамда”
+     нусь+V+IV+PrcImprf+Sg+Gen+PxPl2: нунанда”
+     нусь+V+IV+PrcImprf+Sg+Dat+PxPl2: нунаханда”
+     нусь+V+IV+PrcImprf+Sg+Loc+PxPl2: нунахананда”
+     нусь+V+IV+PrcImprf+Sg+Abl+PxPl2: нунахаданда”
+     нусь+V+IV+PrcImprf+Sg+Pros+PxPl2: нунавнанда”
+     нусь+V+IV+PrcImprf+Du+Nom+PxPl2: нунахаюда”
+     нусь+V+IV+PrcImprf+Du+Acc+PxPl2: нунахаюда”
+     нусь+V+IV+PrcImprf+Du+Gen+PxPl2: нунахаюта”
+     нусь+V+IV+PrcImprf+Pl+Nom+PxPl2: нунида”
+     нусь+V+IV+PrcImprf+Pl+Acc+PxPl2: нунида”
+     нусь+V+IV+PrcImprf+Pl+Gen+PxPl2: нунита”
+     нусь+V+IV+PrcImprf+Pl+Dat+PxPl2: нунахата”
+     нусь+V+IV+PrcImprf+Pl+Loc+PxPl2: нунаха”ната”
+     нусь+V+IV+PrcImprf+Pl+Abl+PxPl2: [нунахатата”, нунахатта”]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxPl2: нуни”маната”
+     нусь+V+IV+PrcImprf+Sg+Nom+PxPl3: нунадо’
+     нусь+V+IV+PrcImprf+Sg+Acc+PxPl3: нунамдо’
+     нусь+V+IV+PrcImprf+Sg+Gen+PxPl3: нунандо’
+     нусь+V+IV+PrcImprf+Sg+Dat+PxPl3: нунахандо’
+     нусь+V+IV+PrcImprf+Sg+Loc+PxPl3: нунаханандо’
+     нусь+V+IV+PrcImprf+Sg+Abl+PxPl3: нунахадандо’
+     нусь+V+IV+PrcImprf+Sg+Pros+PxPl3: нунавнандо’
+     нусь+V+IV+PrcImprf+Du+Nom+PxPl3: нунахаюдо’
+     нусь+V+IV+PrcImprf+Du+Acc+PxPl3: нунахаюдо’
+     нусь+V+IV+PrcImprf+Du+Gen+PxPl3: нунахаюто’
+     нусь+V+IV+PrcImprf+Pl+Nom+PxPl3: нунидо’
+     нусь+V+IV+PrcImprf+Pl+Acc+PxPl3: нунидо’
+     нусь+V+IV+PrcImprf+Pl+Gen+PxPl3: нунито’
+     нусь+V+IV+PrcImprf+Pl+Dat+PxPl3: нунахато’
+     нусь+V+IV+PrcImprf+Pl+Loc+PxPl3: нунаха”нато’
+     нусь+V+IV+PrcImprf+Pl+Abl+PxPl3: [нунахатато’, нунахатто’]
+     нусь+V+IV+PrcImprf+Pl+Pros+PxPl3: нуни”манато’
+     нусь+V+IV+PrcImprf+Pred+Abs: нунад
+     нусь+V+IV+PrcImprf+Pred+Nom+PxSg1: [нунадав, нунадув, нунадами]
+     нусь+V+IV+PrcImprf+Pred+Acc+PxSg1: [нунадав, нунадув, нунадами]
+     нусь+V+IV+PrcImprf+Pred+Gen+PxSg1: [нунадан, нунадани]
+     нусь+V+IV+PrcImprf+Pred+Nom+PxSg2: нунадар
+     нусь+V+IV+PrcImprf+Pred+Acc+PxSg2: нунадамд
+     нусь+V+IV+PrcImprf+Pred+Gen+PxSg2: нунаданд
+     нусь+V+IV+PrcImprf+Pred+Nom+PxSg3: нунадада
+     нусь+V+IV+PrcImprf+Pred+Acc+PxSg3: нунадамда
+     нусь+V+IV+PrcImprf+Pred+Gen+PxSg3: нунаданда
+     нусь+V+IV+PrcImprf+Pred+Nom+PxDu1: нунадами’
+#     нусь+V+IV+PrcImprf+Pred+Nom+PxSg1.2: нунадами
+     нусь+V+IV+PrcImprf+Pred+Acc+PxDu1: нунадами’
+#     нусь+V+IV+PrcImprf+Pred+Acc+PxSg1.2: нунадами
+     нусь+V+IV+PrcImprf+Pred+Gen+PxDu1: нунадани’
+#     нусь+V+IV+PrcImprf+Pred+Gen+PxSg1.2: нунадани
+     нусь+V+IV+PrcImprf+Pred+Nom+PxDu2: нунадари’
+     нусь+V+IV+PrcImprf+Pred+Acc+PxDu2: нунадамди’
+     нусь+V+IV+PrcImprf+Pred+Gen+PxDu2: нунаданди’
+     нусь+V+IV+PrcImprf+Pred+Nom+PxDu3: нунадади’
+     нусь+V+IV+PrcImprf+Pred+Acc+PxDu3: нунадамди’
+     нусь+V+IV+PrcImprf+Pred+Gen+PxDu3: нунаданди’
+     нусь+V+IV+PrcImprf+Pred+Nom+PxPl1: нунадава”
+     нусь+V+IV+PrcImprf+Pred+Acc+PxPl1: нунадава”
+     нусь+V+IV+PrcImprf+Pred+Gen+PxPl1: нунадана”
+     нусь+V+IV+PrcImprf+Pred+Nom+PxPl2: нунадара”
+     нусь+V+IV+PrcImprf+Pred+Acc+PxPl2: нунадамда”
+     нусь+V+IV+PrcImprf+Pred+Gen+PxPl2: нунаданда”
+     нусь+V+IV+PrcImprf+Pred+Nom+PxPl3: нунададо’
+     нусь+V+IV+PrcImprf+Pred+Acc+PxPl3: нунадамдо’
+     нусь+V+IV+PrcImprf+Pred+Gen+PxPl3: нунадандо’
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScSg1: нунадм’
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScSg2: нунан
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScSg3: нуна
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScDu1: нунани’
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScDu2: нунади’
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScDu3: нунаха’
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScPl1: нунава”
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScPl2: нунада”
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Aor+ScPl3: нуна”
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScSg1: нунадамзь
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScSg2: нунанась
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScSg3: нунась
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScDu1: нунанинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScDu2: нунадинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScDu3: нунаханзь
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScPl1: нунаваць
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScPl2: нунадаць
+     нусь+V+IV+PrcImprf+Der/Pr+Abs+Prt1+ScPl3: нунаць
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxSg1: нунав
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxSg2: нунар
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxSg3: нунада
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxDu1: нунами’
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxDu2: нунари’
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxDu3: нунади’
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxPl1: нунава”
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxPl2: нунара”
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Aor+PxPl3: нунадо’
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxSg1: нунавась
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxSg2: нунарась
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxSg3: нунадась
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxDu1: нунаминзь
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxDu2: нунаринзь
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxDu3: нунадинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxPl1: нунаваць
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxPl2: нунараць
+     нусь+V+IV+PrcImprf+Der/Pr+Sg+Prt1+PxPl3: нунадонзь
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxSg1: нунахаюн
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxSg2: нунахаюд
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxSg3: нунахаюда
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxDu1: нунахаюни’
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxDu2: нунахаюди’
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxDu3: нунахаюди’
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxPl1: нунахаюна”
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxPl2: нунахаюда”
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Aor+PxPl3: нунахаюдо’
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxSg1: нунахаюнась
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxSg2: нунахаюдась
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxSg3: нунахаюдась
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxDu1: нунахаюнинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxDu2: нунахаюдинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxDu3: нунахаюдинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxPl1: нунахаюнаць
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxPl2: нунахаюдаць
+     нусь+V+IV+PrcImprf+Der/Pr+Du+Prt1+PxPl3: нунахаюдонзь
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxSg1: нунин
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxSg2: нунид
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxSg3: нунида
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxDu1: нунини’
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxDu2: нуниди’
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxDu3: нуниди’
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxPl1: нунина”
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxPl2: нунида”
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Aor+PxPl3: нунидо’
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxSg1: нунинась
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxSg2: нунидась
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxSg3: нунидась
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxDu1: нунининзь
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxDu2: нунидинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxDu3: нунидинзь
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxPl1: нунинаць
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxPl2: нунидаць
+     нусь+V+IV+PrcImprf+Der/Pr+Pl+Prt1+PxPl3: нунидонзь
+     нусь+V+IV+PrcImprf+Tra: нунаӈэ
+     нусь+V+IV+PrcImprf+Car: нунаси”
+     нусь+V+IV+PrcImprf+Equ: нунадарем’
+     нусь+V+IV+PrcImprf+Equ+lat: нунадарев’
+     нусь+V+IV+PrcPrf+Nom+Sg+Abs: нувы
+     нусь+V+IV+PrcPrf+Acc+Sg+Abs: нувым’
+     нусь+V+IV+PrcPrf+Gen+Sg+Abs: нувы’
+     нусь+V+IV+PrcPrf+Dat+Sg+Abs: нувэн’
+     нусь+V+IV+PrcPrf+Loc+Sg+Abs: нувэхэна
+     нусь+V+IV+PrcPrf+Abl+Sg+Abs: нувэхэд
+     нусь+V+IV+PrcPrf+Pros+Sg+Abs: нувэвна
+     нусь+V+IV+PrcPrf+Nom+Du+Abs: нувэхэ’
+     нусь+V+IV+PrcPrf+Acc+Du+Abs: нувэхэ’
+     нусь+V+IV+PrcPrf+Gen+Du+Abs: нувэхэ’
+     нусь+V+IV+PrcPrf+Nom+Pl+Abs: нувы”
+     нусь+V+IV+PrcPrf+Acc+Pl+Abs: нувы
+     нусь+V+IV+PrcPrf+Gen+Pl+Abs: нувы”
+     нусь+V+IV+PrcPrf+Dat+Pl+Abs: нувэхэ”
+     нусь+V+IV+PrcPrf+Loc+Pl+Abs: нувэхэ”на
+     нусь+V+IV+PrcPrf+Abl+Pl+Abs: нувэхэт
+     нусь+V+IV+PrcPrf+Pros+Pl+Abs: нувы”мана
+     нусь+V+IV+PrcPrf+Sg+Nom+PxSg1: [нувэв, нувэми]
+     нусь+V+IV+PrcPrf+Sg+Acc+PxSg1: [нувэв, нувэми]
+     нусь+V+IV+PrcPrf+Sg+Gen+PxSg1: [нувэн, нувэни]
+     нусь+V+IV+PrcPrf+Sg+Dat+PxSg1: [нувэхэн, нувэхэни]
+     нусь+V+IV+PrcPrf+Sg+Loc+PxSg1: [нувэхэнан, нувэхэнани]
+     нусь+V+IV+PrcPrf+Sg+Abl+PxSg1: [нувэхэдан, нувэхэдани, нувэхэдни]
+     нусь+V+IV+PrcPrf+Sg+Pros+PxSg1: [нувэвнан, нувэвнани]
+     нусь+V+IV+PrcPrf+Du+Nom+PxSg1: [нувэхэюн, нувэхэюни]
+     нусь+V+IV+PrcPrf+Du+Acc+PxSg1: [нувэхэюн, нувэхэюни]
+     нусь+V+IV+PrcPrf+Du+Gen+PxSg1: [нувэхэюн, нувэхэюни]
+     нусь+V+IV+PrcPrf+Pl+Nom+PxSg1: [нувын, нувыни]
+     нусь+V+IV+PrcPrf+Pl+Acc+PxSg1: [нувын, нувыни]
+     нусь+V+IV+PrcPrf+Pl+Gen+PxSg1: [нувы”н, нувы”ни]
+     нусь+V+IV+PrcPrf+Pl+Dat+PxSg1: [нувэхэ”н, нувэхэ”ни]
+     нусь+V+IV+PrcPrf+Pl+Loc+PxSg1: [нувэхэ”нан, нувэхэ”нани]
+     нусь+V+IV+PrcPrf+Pl+Abl+PxSg1: [нувэхэтан, нувэхэтани, нувэхэтни]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxSg1: [нувы”манан, нувы”манани]
+     нусь+V+IV+PrcPrf+Sg+Nom+PxSg2: нувэр
+     нусь+V+IV+PrcPrf+Sg+Acc+PxSg2: нувэмд
+     нусь+V+IV+PrcPrf+Sg+Gen+PxSg2: нувэнд
+     нусь+V+IV+PrcPrf+Sg+Dat+PxSg2: нувэхэнд
+     нусь+V+IV+PrcPrf+Sg+Loc+PxSg2: нувэхэнанд
+     нусь+V+IV+PrcPrf+Sg+Abl+PxSg2: нувэхэданд
+     нусь+V+IV+PrcPrf+Sg+Pros+PxSg2: нувэвнанд
+     нусь+V+IV+PrcPrf+Du+Nom+PxSg2: нувэхэюд
+     нусь+V+IV+PrcPrf+Du+Acc+PxSg2: нувэхэюд
+     нусь+V+IV+PrcPrf+Du+Gen+PxSg2: нувэхэют
+     нусь+V+IV+PrcPrf+Pl+Nom+PxSg2: нувыд
+     нусь+V+IV+PrcPrf+Pl+Acc+PxSg2: нувыд
+     нусь+V+IV+PrcPrf+Pl+Gen+PxSg2: нувыт
+     нусь+V+IV+PrcPrf+Pl+Dat+PxSg2: нувэхэт
+     нусь+V+IV+PrcPrf+Pl+Loc+PxSg2: нувэхэ”нат
+     нусь+V+IV+PrcPrf+Pl+Abl+PxSg2: нувэхэтат
+     нусь+V+IV+PrcPrf+Pl+Pros+PxSg2: нувы”манат
+     нусь+V+IV+PrcPrf+Sg+Nom+PxSg3: нувэда
+     нусь+V+IV+PrcPrf+Sg+Acc+PxSg3: нувэмда
+     нусь+V+IV+PrcPrf+Sg+Gen+PxSg3: нувэнда
+     нусь+V+IV+PrcPrf+Sg+Dat+PxSg3: нувэхэнда
+     нусь+V+IV+PrcPrf+Sg+Loc+PxSg3: нувэхэнанда
+     нусь+V+IV+PrcPrf+Sg+Abl+PxSg3: нувэхэданда
+     нусь+V+IV+PrcPrf+Sg+Pros+PxSg3: нувэвнанда
+     нусь+V+IV+PrcPrf+Du+Nom+PxSg3: нувэхэюда
+     нусь+V+IV+PrcPrf+Du+Acc+PxSg3: нувэхэюда
+     нусь+V+IV+PrcPrf+Du+Gen+PxSg3: нувэхэюта
+     нусь+V+IV+PrcPrf+Pl+Nom+PxSg3: нувыда
+     нусь+V+IV+PrcPrf+Pl+Acc+PxSg3: нувыда
+     нусь+V+IV+PrcPrf+Pl+Gen+PxSg3: нувыта
+     нусь+V+IV+PrcPrf+Pl+Dat+PxSg3: нувэхэта
+     нусь+V+IV+PrcPrf+Pl+Loc+PxSg3: нувэхэ”ната
+     нусь+V+IV+PrcPrf+Pl+Abl+PxSg3: [нувэхэтата, нувэхэтта]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxSg3: нувы”маната
+     нусь+V+IV+PrcPrf+Sg+Nom+PxDu1: нувэми’
+#     нусь+V+IV+PrcPrf+Sg+Nom+PxSg1.2: нувэми
+     нусь+V+IV+PrcPrf+Sg+Acc+PxDu1: нувэми’
+#     нусь+V+IV+PrcPrf+Sg+Acc+PxSg1.2: нувэми
+     нусь+V+IV+PrcPrf+Sg+Gen+PxDu1: нувэни’
+#     нусь+V+IV+PrcPrf+Sg+Gen+PxSg1.2: нувэни
+     нусь+V+IV+PrcPrf+Sg+Dat+PxDu1: нувэхэни’
+#     нусь+V+IV+PrcPrf+Sg+Dat+PxSg1.2: нувэхэни
+     нусь+V+IV+PrcPrf+Sg+Loc+PxDu1: нувэхэнани’
+#     нусь+V+IV+PrcPrf+Sg+Loc+PxSg1.2: нувэхэнани
+     нусь+V+IV+PrcPrf+Sg+Abl+PxDu1: [нувэхэдани’, нувэхэдни’]
+#     нусь+V+IV+PrcPrf+Sg+Abl+PxSg1.2: [нувэхэдани, нувэхэдни]
+     нусь+V+IV+PrcPrf+Sg+Pros+PxDu1: нувэвнани’
+#     нусь+V+IV+PrcPrf+Sg+Pros+PxSg1.2: нувэвнани
+     нусь+V+IV+PrcPrf+Du+Nom+PxDu1: нувэхэюни’
+#     нусь+V+IV+PrcPrf+Du+Nom+PxSg1.2: нувэхэюни
+     нусь+V+IV+PrcPrf+Du+Acc+PxDu1: нувэхэюни’
+#     нусь+V+IV+PrcPrf+Du+Acc+PxSg1.2: нувэхэюни
+     нусь+V+IV+PrcPrf+Du+Gen+PxDu1: нувэхэюни’
+#     нусь+V+IV+PrcPrf+Du+Gen+PxSg1.2: нувэхэюни
+     нусь+V+IV+PrcPrf+Pl+Nom+PxDu1: нувыни’
+#     нусь+V+IV+PrcPrf+Pl+Nom+PxSg1.2: нувыни
+     нусь+V+IV+PrcPrf+Pl+Acc+PxDu1: нувыни’
+#     нусь+V+IV+PrcPrf+Pl+Acc+PxSg1.2: нувыни
+     нусь+V+IV+PrcPrf+Pl+Gen+PxDu1: нувы”ни’
+#     нусь+V+IV+PrcPrf+Pl+Gen+PxSg1.2: нувы”ни
+     нусь+V+IV+PrcPrf+Pl+Dat+PxDu1: нувэхэ”ни’
+#     нусь+V+IV+PrcPrf+Pl+Dat+PxSg1.2: нувэхэ”ни
+     нусь+V+IV+PrcPrf+Pl+Loc+PxDu1: нувэхэ”нани’
+#     нусь+V+IV+PrcPrf+Pl+Loc+PxSg1.2: нувэхэ”нани
+     нусь+V+IV+PrcPrf+Pl+Abl+PxDu1: [нувэхэтани’, нувэхэтни’]
+#     нусь+V+IV+PrcPrf+Pl+Abl+PxSg1.2: [нувэхэтани, нувэхэтни]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxDu1: нувы”манани’
+#     нусь+V+IV+PrcPrf+Pl+Pros+PxSg1.2: нувы”манани
+     нусь+V+IV+PrcPrf+Sg+Nom+PxDu2: нувэри’
+     нусь+V+IV+PrcPrf+Sg+Acc+PxDu2: нувэмди’
+     нусь+V+IV+PrcPrf+Sg+Gen+PxDu2: нувэнди’
+     нусь+V+IV+PrcPrf+Sg+Dat+PxDu2: нувэхэнди’
+     нусь+V+IV+PrcPrf+Sg+Loc+PxDu2: нувэхэнанди’
+     нусь+V+IV+PrcPrf+Sg+Abl+PxDu2: нувэхэданди’
+     нусь+V+IV+PrcPrf+Sg+Pros+PxDu2: нувэвнанди’
+     нусь+V+IV+PrcPrf+Du+Nom+PxDu2: нувэхэюди’
+     нусь+V+IV+PrcPrf+Du+Acc+PxDu2: нувэхэюди’
+     нусь+V+IV+PrcPrf+Du+Gen+PxDu2: нувэхэюти’
+     нусь+V+IV+PrcPrf+Pl+Nom+PxDu2: нувыди’
+     нусь+V+IV+PrcPrf+Pl+Acc+PxDu2: нувыди’
+     нусь+V+IV+PrcPrf+Pl+Gen+PxDu2: нувыти’
+     нусь+V+IV+PrcPrf+Pl+Dat+PxDu2: нувэхэти’
+     нусь+V+IV+PrcPrf+Pl+Loc+PxDu2: нувэхэ”нати’
+     нусь+V+IV+PrcPrf+Pl+Abl+PxDu2: [нувэхэтати’, нувэхэтти’]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxDu2: нувы”манати’
+     нусь+V+IV+PrcPrf+Sg+Nom+PxDu3: нувэди’
+     нусь+V+IV+PrcPrf+Sg+Acc+PxDu3: нувэмди’
+     нусь+V+IV+PrcPrf+Sg+Gen+PxDu3: нувэнди’
+     нусь+V+IV+PrcPrf+Sg+Dat+PxDu3: нувэхэнди’
+     нусь+V+IV+PrcPrf+Sg+Loc+PxDu3: нувэхэнанди’
+     нусь+V+IV+PrcPrf+Sg+Abl+PxDu3: нувэхэданди’
+     нусь+V+IV+PrcPrf+Sg+Pros+PxDu3: нувэвнанди’
+     нусь+V+IV+PrcPrf+Du+Nom+PxDu3: нувэхэюди’
+     нусь+V+IV+PrcPrf+Du+Acc+PxDu3: нувэхэюди’
+     нусь+V+IV+PrcPrf+Du+Gen+PxDu3: нувэхэюти’
+     нусь+V+IV+PrcPrf+Pl+Nom+PxDu3: нувыди’
+     нусь+V+IV+PrcPrf+Pl+Acc+PxDu3: нувыди’
+     нусь+V+IV+PrcPrf+Pl+Gen+PxDu3: нувыти’
+     нусь+V+IV+PrcPrf+Pl+Dat+PxDu3: нувэхэти’
+     нусь+V+IV+PrcPrf+Pl+Loc+PxDu3: нувэхэ”нати’
+     нусь+V+IV+PrcPrf+Pl+Abl+PxDu3: [нувэхэтати’, нувэхэтти’]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxDu3: нувы”манати’
+     нусь+V+IV+PrcPrf+Sg+Nom+PxPl1: нувэва”
+     нусь+V+IV+PrcPrf+Sg+Acc+PxPl1: нувэва”
+     нусь+V+IV+PrcPrf+Sg+Gen+PxPl1: нувэна”
+     нусь+V+IV+PrcPrf+Sg+Dat+PxPl1: нувэхэна”
+     нусь+V+IV+PrcPrf+Sg+Loc+PxPl1: нувэхэнана”
+     нусь+V+IV+PrcPrf+Sg+Abl+PxPl1: [нувэхэдана”, нувэхэдна”]
+     нусь+V+IV+PrcPrf+Sg+Pros+PxPl1: нувэвнана”
+     нусь+V+IV+PrcPrf+Du+Nom+PxPl1: нувэхэюна”
+     нусь+V+IV+PrcPrf+Du+Acc+PxPl1: нувэхэюна”
+     нусь+V+IV+PrcPrf+Du+Gen+PxPl1: нувэхэюна”
+     нусь+V+IV+PrcPrf+Pl+Nom+PxPl1: нувына”
+     нусь+V+IV+PrcPrf+Pl+Acc+PxPl1: нувына”
+     нусь+V+IV+PrcPrf+Pl+Gen+PxPl1: нувы”на”
+     нусь+V+IV+PrcPrf+Pl+Dat+PxPl1: нувэхэ”на”
+     нусь+V+IV+PrcPrf+Pl+Loc+PxPl1: нувэхэ”нана”
+     нусь+V+IV+PrcPrf+Pl+Abl+PxPl1: [нувэхэтана”, нувэхэтна”]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxPl1: нувы”манана”
+     нусь+V+IV+PrcPrf+Sg+Nom+PxPl2: нувэра”
+     нусь+V+IV+PrcPrf+Sg+Acc+PxPl2: нувэмда”
+     нусь+V+IV+PrcPrf+Sg+Gen+PxPl2: нувэнда”
+     нусь+V+IV+PrcPrf+Sg+Dat+PxPl2: нувэхэнда”
+     нусь+V+IV+PrcPrf+Sg+Loc+PxPl2: нувэхэнанда”
+     нусь+V+IV+PrcPrf+Sg+Abl+PxPl2: нувэхэданда”
+     нусь+V+IV+PrcPrf+Sg+Pros+PxPl2: нувэвнанда”
+     нусь+V+IV+PrcPrf+Du+Nom+PxPl2: нувэхэюда”
+     нусь+V+IV+PrcPrf+Du+Acc+PxPl2: нувэхэюда”
+     нусь+V+IV+PrcPrf+Du+Gen+PxPl2: нувэхэюта”
+     нусь+V+IV+PrcPrf+Pl+Nom+PxPl2: нувыда”
+     нусь+V+IV+PrcPrf+Pl+Acc+PxPl2: нувыда”
+     нусь+V+IV+PrcPrf+Pl+Gen+PxPl2: нувыта”
+     нусь+V+IV+PrcPrf+Pl+Dat+PxPl2: нувэхэта”
+     нусь+V+IV+PrcPrf+Pl+Loc+PxPl2: нувэхэ”ната”
+     нусь+V+IV+PrcPrf+Pl+Abl+PxPl2: [нувэхэтата”, нувэхэтта”]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxPl2: нувы”маната”
+     нусь+V+IV+PrcPrf+Sg+Nom+PxPl3: нувэдо’
+     нусь+V+IV+PrcPrf+Sg+Acc+PxPl3: нувэмдо’
+     нусь+V+IV+PrcPrf+Sg+Gen+PxPl3: нувэндо’
+     нусь+V+IV+PrcPrf+Sg+Dat+PxPl3: нувэхэндо’
+     нусь+V+IV+PrcPrf+Sg+Loc+PxPl3: нувэхэнандо’
+     нусь+V+IV+PrcPrf+Sg+Abl+PxPl3: нувэхэдандо’
+     нусь+V+IV+PrcPrf+Sg+Pros+PxPl3: нувэвнандо’
+     нусь+V+IV+PrcPrf+Du+Nom+PxPl3: нувэхэюдо’
+     нусь+V+IV+PrcPrf+Du+Acc+PxPl3: нувэхэюдо’
+     нусь+V+IV+PrcPrf+Du+Gen+PxPl3: нувэхэюто’
+     нусь+V+IV+PrcPrf+Pl+Nom+PxPl3: нувыдо’
+     нусь+V+IV+PrcPrf+Pl+Acc+PxPl3: нувыдо’
+     нусь+V+IV+PrcPrf+Pl+Gen+PxPl3: нувыто’
+     нусь+V+IV+PrcPrf+Pl+Dat+PxPl3: нувэхэто’
+     нусь+V+IV+PrcPrf+Pl+Loc+PxPl3: нувэхэ”нато’
+     нусь+V+IV+PrcPrf+Pl+Abl+PxPl3: [нувэхэтато’, нувэхэтто’]
+     нусь+V+IV+PrcPrf+Pl+Pros+PxPl3: нувы”манато’
+     нусь+V+IV+PrcPrf+Pred+Abs: нувэд
+     нусь+V+IV+PrcPrf+Pred+Nom+PxSg1: [нувэдав, нувэдув, нувэдами]
+     нусь+V+IV+PrcPrf+Pred+Acc+PxSg1: [нувэдав, нувэдув, нувэдами]
+     нусь+V+IV+PrcPrf+Pred+Gen+PxSg1: [нувэдан, нувэдани]
+     нусь+V+IV+PrcPrf+Pred+Nom+PxSg2: нувэдар
+     нусь+V+IV+PrcPrf+Pred+Acc+PxSg2: нувэдамд
+     нусь+V+IV+PrcPrf+Pred+Gen+PxSg2: нувэданд
+     нусь+V+IV+PrcPrf+Pred+Nom+PxSg3: нувэдада
+     нусь+V+IV+PrcPrf+Pred+Acc+PxSg3: нувэдамда
+     нусь+V+IV+PrcPrf+Pred+Gen+PxSg3: нувэданда
+     нусь+V+IV+PrcPrf+Pred+Nom+PxDu1: нувэдами’
+#     нусь+V+IV+PrcPrf+Pred+Nom+PxSg1.2: нувэдами
+     нусь+V+IV+PrcPrf+Pred+Acc+PxDu1: нувэдами’
+#     нусь+V+IV+PrcPrf+Pred+Acc+PxSg1.2: нувэдами
+     нусь+V+IV+PrcPrf+Pred+Gen+PxDu1: нувэдани’
+#     нусь+V+IV+PrcPrf+Pred+Gen+PxSg1.2: нувэдани
+     нусь+V+IV+PrcPrf+Pred+Nom+PxDu2: нувэдари’
+     нусь+V+IV+PrcPrf+Pred+Acc+PxDu2: нувэдамди’
+     нусь+V+IV+PrcPrf+Pred+Gen+PxDu2: нувэданди’
+     нусь+V+IV+PrcPrf+Pred+Nom+PxDu3: нувэдади’
+     нусь+V+IV+PrcPrf+Pred+Acc+PxDu3: нувэдамди’
+     нусь+V+IV+PrcPrf+Pred+Gen+PxDu3: нувэданди’
+     нусь+V+IV+PrcPrf+Pred+Nom+PxPl1: нувэдава”
+     нусь+V+IV+PrcPrf+Pred+Acc+PxPl1: нувэдава”
+     нусь+V+IV+PrcPrf+Pred+Gen+PxPl1: нувэдана”
+     нусь+V+IV+PrcPrf+Pred+Nom+PxPl2: нувэдара”
+     нусь+V+IV+PrcPrf+Pred+Acc+PxPl2: нувэдамда”
+     нусь+V+IV+PrcPrf+Pred+Gen+PxPl2: нувэданда”
+     нусь+V+IV+PrcPrf+Pred+Nom+PxPl3: нувэдадо’
+     нусь+V+IV+PrcPrf+Pred+Acc+PxPl3: нувэдамдо’
+     нусь+V+IV+PrcPrf+Pred+Gen+PxPl3: нувэдандо’
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScSg1: нувэдм’
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScSg2: нувэн
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScSg3: нувы
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScDu1: нувэни’
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScDu2: нувэди’
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScDu3: нувэхэ’
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScPl1: нувэва”
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScPl2: нувэда”
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Aor+ScPl3: нувы”
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScSg1: нувэдамзь
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScSg2: нувэнась
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScSg3: [нувысь, нувэсь]
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScDu1: нувэнинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScDu2: нувэдинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScDu3: нувэхэнзь
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScPl1: нувэваць
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScPl2: нувэдаць
+     нусь+V+IV+PrcPrf+Der/Pr+Abs+Prt1+ScPl3: [нувыць, нувэць]
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxSg1: нувэв
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxSg2: нувэр
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxSg3: нувэда
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxDu1: нувэми’
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxDu2: нувэри’
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxDu3: нувэди’
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxPl1: нувэва”
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxPl2: нувэра”
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Aor+PxPl3: нувэдо’
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxSg1: нувэвась
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxSg2: нувэрась
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxSg3: нувэдась
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxDu1: нувэминзь
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxDu2: нувэринзь
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxDu3: нувэдинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxPl1: нувэваць
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxPl2: нувэраць
+     нусь+V+IV+PrcPrf+Der/Pr+Sg+Prt1+PxPl3: нувэдонзь
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxSg1: нувэхэюн
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxSg2: нувэхэюд
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxSg3: нувэхэюда
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxDu1: нувэхэюни’
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxDu2: нувэхэюди’
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxDu3: нувэхэюди’
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxPl1: нувэхэюна”
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxPl2: нувэхэюда”
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Aor+PxPl3: нувэхэюдо’
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxSg1: нувэхэюнась
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxSg2: нувэхэюдась
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxSg3: нувэхэюдась
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxDu1: нувэхэюнинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxDu2: нувэхэюдинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxDu3: нувэхэюдинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxPl1: нувэхэюнаць
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxPl2: нувэхэюдаць
+     нусь+V+IV+PrcPrf+Der/Pr+Du+Prt1+PxPl3: нувэхэюдонзь
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxSg1: нувын
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxSg2: нувыд
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxSg3: нувыда
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxDu1: нувыни’
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxDu2: нувыди’
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxDu3: нувыди’
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxPl1: нувына”
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxPl2: нувыда”
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Aor+PxPl3: нувыдо’
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxSg1: нувынась
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxSg2: нувыдась
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxSg3: нувыдась
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxDu1: нувынинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxDu2: нувыдинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxDu3: нувыдинзь
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxPl1: нувынаць
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxPl2: нувыдаць
+     нусь+V+IV+PrcPrf+Der/Pr+Pl+Prt1+PxPl3: нувыдонзь
+     нусь+V+IV+PrcPrf+Tra: нувэӈэ
+     нусь+V+IV+PrcPrf+Car: нувэси”
+     нусь+V+IV+PrcPrf+Equ: нувэдарем’
+     нусь+V+IV+PrcPrf+Equ+lat: нувэдарев’
+     нусь+V+IV+PrcFut+Nom+Sg+Abs: [нуванда, нувнда]
+     нусь+V+IV+PrcFut+Acc+Sg+Abs: [нувандам’, нувндам’]
+     нусь+V+IV+PrcFut+Gen+Sg+Abs: [нуванда’, нувнда’]
+     нусь+V+IV+PrcFut+Dat+Sg+Abs: [нувандан’, нувндан’]
+     нусь+V+IV+PrcFut+Loc+Sg+Abs: [нувандахана, нувндахана]
+     нусь+V+IV+PrcFut+Abl+Sg+Abs: [нувандахад, нувндахад]
+     нусь+V+IV+PrcFut+Pros+Sg+Abs: [нувандавна, нувндавна]
+     нусь+V+IV+PrcFut+Nom+Du+Abs: [нувандаха’, нувндаха’]
+     нусь+V+IV+PrcFut+Acc+Du+Abs: [нувандаха’, нувндаха’]
+     нусь+V+IV+PrcFut+Gen+Du+Abs: [нувандаха’, нувндаха’]
+     нусь+V+IV+PrcFut+Nom+Pl+Abs: [нуванда”, нувнда”]
+     нусь+V+IV+PrcFut+Acc+Pl+Abs: [нуванди, нувнди]
+     нусь+V+IV+PrcFut+Gen+Pl+Abs: [нуванди”, нувнди”]
+     нусь+V+IV+PrcFut+Dat+Pl+Abs: [нувандаха”, нувндаха”]
+     нусь+V+IV+PrcFut+Loc+Pl+Abs: [нувандаха”на, нувндаха”на]
+     нусь+V+IV+PrcFut+Abl+Pl+Abs: [нувандахат, нувндахат]
+     нусь+V+IV+PrcFut+Pros+Pl+Abs: [нуванди”мна, нувнди”мна]
+     нусь+V+IV+PrcFut+Sg+Nom+PxSg1: [нувандав, нувндав, нувандами, нувндами]
+     нусь+V+IV+PrcFut+Sg+Acc+PxSg1: [нувандав, нувндав, нувандами, нувндами]
+     нусь+V+IV+PrcFut+Sg+Gen+PxSg1: [нувандан, нувндан, нувандани, нувндани]
+     нусь+V+IV+PrcFut+Sg+Dat+PxSg1: [нувандахан, нувндахан, нувандахани, нувндахани]
+     нусь+V+IV+PrcFut+Sg+Loc+PxSg1: [нувандаханан, нувндаханан, нувандаханани, нувндаханани]
+     нусь+V+IV+PrcFut+Sg+Abl+PxSg1: [нувандахадан, нувндахадан, нувандахадани, нувндахадани]
+     нусь+V+IV+PrcFut+Sg+Pros+PxSg1: [нувандавнан, нувндавнан, нувандавнани, нувндавнани]
+     нусь+V+IV+PrcFut+Du+Nom+PxSg1: [нувандахаюн, нувндахаюн, нувандахаюни, нувндахаюни]
+     нусь+V+IV+PrcFut+Du+Acc+PxSg1: [нувандахаюн, нувндахаюн, нувандахаюни, нувндахаюни]
+     нусь+V+IV+PrcFut+Du+Gen+PxSg1: [нувандахаюн, нувндахаюн, нувандахаюни, нувндахаюни]
+     нусь+V+IV+PrcFut+Pl+Nom+PxSg1: [нувандин, нувндин, нувандини, нувндини]
+     нусь+V+IV+PrcFut+Pl+Acc+PxSg1: [нувандин, нувндин, нувандини, нувндини]
+     нусь+V+IV+PrcFut+Pl+Gen+PxSg1: [нуванди”н, нувнди”н, нуванди”ни, нувнди”ни]
+     нусь+V+IV+PrcFut+Pl+Dat+PxSg1: [нувандаха”н, нувндаха”н, нувандаха”ни, нувндаха”ни]
+     нусь+V+IV+PrcFut+Pl+Loc+PxSg1: [нувандаха”нан, нувндаха”нан, нувандаха”нани, нувндаха”нани]
+     нусь+V+IV+PrcFut+Pl+Abl+PxSg1: [нувандахатан, нувндахатан, нувандахатани, нувндахатани]
+     нусь+V+IV+PrcFut+Pl+Pros+PxSg1: [нуванди”мнан, нувнди”мнан, нуванди”мнани, нувнди”мнани]
+     нусь+V+IV+PrcFut+Sg+Nom+PxSg2: [нувандар, нувндар]
+     нусь+V+IV+PrcFut+Sg+Acc+PxSg2: [нувандамд, нувндамд]
+     нусь+V+IV+PrcFut+Sg+Gen+PxSg2: [нуванданд, нувнданд]
+     нусь+V+IV+PrcFut+Sg+Dat+PxSg2: [нувандаханд, нувндаханд]
+     нусь+V+IV+PrcFut+Sg+Loc+PxSg2: [нувандахананд, нувндахананд]
+     нусь+V+IV+PrcFut+Sg+Abl+PxSg2: [нувандахаданд, нувндахаданд]
+     нусь+V+IV+PrcFut+Sg+Pros+PxSg2: [нувандавнанд, нувндавнанд]
+     нусь+V+IV+PrcFut+Du+Nom+PxSg2: [нувандахаюд, нувндахаюд]
+     нусь+V+IV+PrcFut+Du+Acc+PxSg2: [нувандахаюд, нувндахаюд]
+     нусь+V+IV+PrcFut+Du+Gen+PxSg2: [нувандахают, нувндахают]
+     нусь+V+IV+PrcFut+Pl+Nom+PxSg2: [нувандид, нувндид]
+     нусь+V+IV+PrcFut+Pl+Acc+PxSg2: [нувандид, нувндид]
+     нусь+V+IV+PrcFut+Pl+Gen+PxSg2: [нувандит, нувндит]
+     нусь+V+IV+PrcFut+Pl+Dat+PxSg2: [нувандахат, нувндахат]
+     нусь+V+IV+PrcFut+Pl+Loc+PxSg2: [нувандаха”нат, нувндаха”нат]
+     нусь+V+IV+PrcFut+Pl+Abl+PxSg2: [нувандахатат, нувндахатат]
+     нусь+V+IV+PrcFut+Pl+Pros+PxSg2: [нуванди”мнат, нувнди”мнат]
+     нусь+V+IV+PrcFut+Sg+Nom+PxSg3: [нувандада, нувндада]
+     нусь+V+IV+PrcFut+Sg+Acc+PxSg3: [нувандамда, нувндамда]
+     нусь+V+IV+PrcFut+Sg+Gen+PxSg3: [нуванданда, нувнданда]
+     нусь+V+IV+PrcFut+Sg+Dat+PxSg3: [нувандаханда, нувндаханда]
+     нусь+V+IV+PrcFut+Sg+Loc+PxSg3: [нувандахананда, нувндахананда]
+     нусь+V+IV+PrcFut+Sg+Abl+PxSg3: [нувандахаданда, нувндахаданда]
+     нусь+V+IV+PrcFut+Sg+Pros+PxSg3: [нувандавнанда, нувндавнанда]
+     нусь+V+IV+PrcFut+Du+Nom+PxSg3: [нувандахаюда, нувндахаюда]
+     нусь+V+IV+PrcFut+Du+Acc+PxSg3: [нувандахаюда, нувндахаюда]
+     нусь+V+IV+PrcFut+Du+Gen+PxSg3: [нувандахаюта, нувндахаюта]
+     нусь+V+IV+PrcFut+Pl+Nom+PxSg3: [нувандида, нувндида]
+     нусь+V+IV+PrcFut+Pl+Acc+PxSg3: [нувандида, нувндида]
+     нусь+V+IV+PrcFut+Pl+Gen+PxSg3: [нувандита, нувндита]
+     нусь+V+IV+PrcFut+Pl+Dat+PxSg3: [нувандахата, нувндахата]
+     нусь+V+IV+PrcFut+Pl+Loc+PxSg3: [нувандаха”ната, нувндаха”ната]
+     нусь+V+IV+PrcFut+Pl+Abl+PxSg3: [нувандахатата, нувндахатата]
+     нусь+V+IV+PrcFut+Pl+Pros+PxSg3: [нуванди”мната, нувнди”мната]
+     нусь+V+IV+PrcFut+Sg+Nom+PxDu1: [нувандами’, нувндами’]
+#     нусь+V+IV+PrcFut+Sg+Nom+PxSg1.2: [нувандами, нувндами]
+     нусь+V+IV+PrcFut+Sg+Acc+PxDu1: [нувандами’, нувндами’]
+#     нусь+V+IV+PrcFut+Sg+Acc+PxSg1.2: [нувандами, нувндами]
+     нусь+V+IV+PrcFut+Sg+Gen+PxDu1: [нувандани’, нувндани’]
+#     нусь+V+IV+PrcFut+Sg+Gen+PxSg1.2: [нувандани, нувндани]
+     нусь+V+IV+PrcFut+Sg+Dat+PxDu1: [нувандахани’, нувндахани’]
+#     нусь+V+IV+PrcFut+Sg+Dat+PxSg1.2: [нувандахани, нувндахани]
+     нусь+V+IV+PrcFut+Sg+Loc+PxDu1: [нувандаханани’, нувндаханани’]
+#     нусь+V+IV+PrcFut+Sg+Loc+PxSg1.2: [нувандаханани, нувндаханани]
+     нусь+V+IV+PrcFut+Sg+Abl+PxDu1: [нувандахадани’, нувндахадани’]
+#     нусь+V+IV+PrcFut+Sg+Abl+PxSg1.2: [нувандахадани, нувндахадани]
+     нусь+V+IV+PrcFut+Sg+Pros+PxDu1: [нувандавнани’, нувндавнани’]
+#     нусь+V+IV+PrcFut+Sg+Pros+PxSg1.2: [нувандавнани, нувндавнани]
+     нусь+V+IV+PrcFut+Du+Nom+PxDu1: [нувандахаюни’, нувндахаюни’]
+#     нусь+V+IV+PrcFut+Du+Nom+PxSg1.2: [нувандахаюни, нувндахаюни]
+     нусь+V+IV+PrcFut+Du+Acc+PxDu1: [нувандахаюни’, нувндахаюни’]
+#     нусь+V+IV+PrcFut+Du+Acc+PxSg1.2: [нувандахаюни, нувндахаюни]
+     нусь+V+IV+PrcFut+Du+Gen+PxDu1: [нувандахаюни’, нувндахаюни’]
+#     нусь+V+IV+PrcFut+Du+Gen+PxSg1.2: [нувандахаюни, нувндахаюни]
+     нусь+V+IV+PrcFut+Pl+Nom+PxDu1: [нувандини’, нувндини’]
+#     нусь+V+IV+PrcFut+Pl+Nom+PxSg1.2: [нувандини, нувндини]
+     нусь+V+IV+PrcFut+Pl+Acc+PxDu1: [нувандини’, нувндини’]
+#     нусь+V+IV+PrcFut+Pl+Acc+PxSg1.2: [нувандини, нувндини]
+     нусь+V+IV+PrcFut+Pl+Gen+PxDu1: [нуванди”ни’, нувнди”ни’]
+#     нусь+V+IV+PrcFut+Pl+Gen+PxSg1.2: [нуванди”ни, нувнди”ни]
+     нусь+V+IV+PrcFut+Pl+Dat+PxDu1: [нувандаха”ни’, нувндаха”ни’]
+#     нусь+V+IV+PrcFut+Pl+Dat+PxSg1.2: [нувандаха”ни, нувндаха”ни]
+     нусь+V+IV+PrcFut+Pl+Loc+PxDu1: [нувандаха”нани’, нувндаха”нани’]
+#     нусь+V+IV+PrcFut+Pl+Loc+PxSg1.2: [нувандаха”нани, нувндаха”нани]
+     нусь+V+IV+PrcFut+Pl+Abl+PxDu1: [нувандахатани’, нувндахатани’]
+#     нусь+V+IV+PrcFut+Pl+Abl+PxSg1.2: [нувандахатани, нувндахатани]
+     нусь+V+IV+PrcFut+Pl+Pros+PxDu1: [нуванди”мнани’, нувнди”мнани’]
+#     нусь+V+IV+PrcFut+Pl+Pros+PxSg1.2: [нуванди”мнани, нувнди”мнани]
+     нусь+V+IV+PrcFut+Sg+Nom+PxDu2: [нувандари’, нувндари’]
+     нусь+V+IV+PrcFut+Sg+Acc+PxDu2: [нувандамди’, нувндамди’]
+     нусь+V+IV+PrcFut+Sg+Gen+PxDu2: [нуванданди’, нувнданди’]
+     нусь+V+IV+PrcFut+Sg+Dat+PxDu2: [нувандаханди’, нувндаханди’]
+     нусь+V+IV+PrcFut+Sg+Loc+PxDu2: [нувандахананди’, нувндахананди’]
+     нусь+V+IV+PrcFut+Sg+Abl+PxDu2: [нувандахаданди’, нувндахаданди’]
+     нусь+V+IV+PrcFut+Sg+Pros+PxDu2: [нувандавнанди’, нувндавнанди’]
+     нусь+V+IV+PrcFut+Du+Nom+PxDu2: [нувандахаюди’, нувндахаюди’]
+     нусь+V+IV+PrcFut+Du+Acc+PxDu2: [нувандахаюди’, нувндахаюди’]
+     нусь+V+IV+PrcFut+Du+Gen+PxDu2: [нувандахаюти’, нувндахаюти’]
+     нусь+V+IV+PrcFut+Pl+Nom+PxDu2: [нувандиди’, нувндиди’]
+     нусь+V+IV+PrcFut+Pl+Acc+PxDu2: [нувандиди’, нувндиди’]
+     нусь+V+IV+PrcFut+Pl+Gen+PxDu2: [нувандити’, нувндити’]
+     нусь+V+IV+PrcFut+Pl+Dat+PxDu2: [нувандахати’, нувндахати’]
+     нусь+V+IV+PrcFut+Pl+Loc+PxDu2: [нувандаха”нати’, нувндаха”нати’]
+     нусь+V+IV+PrcFut+Pl+Abl+PxDu2: [нувандахатати’, нувндахатати’]
+     нусь+V+IV+PrcFut+Pl+Pros+PxDu2: [нуванди”мнати’, нувнди”мнати’]
+     нусь+V+IV+PrcFut+Sg+Nom+PxDu3: [нувандади’, нувндади’]
+     нусь+V+IV+PrcFut+Sg+Acc+PxDu3: [нувандамди’, нувндамди’]
+     нусь+V+IV+PrcFut+Sg+Gen+PxDu3: [нуванданди’, нувнданди’]
+     нусь+V+IV+PrcFut+Sg+Dat+PxDu3: [нувандаханди’, нувндаханди’]
+     нусь+V+IV+PrcFut+Sg+Loc+PxDu3: [нувандахананди’, нувндахананди’]
+     нусь+V+IV+PrcFut+Sg+Abl+PxDu3: [нувандахаданди’, нувндахаданди’]
+     нусь+V+IV+PrcFut+Sg+Pros+PxDu3: [нувандавнанди’, нувндавнанди’]
+     нусь+V+IV+PrcFut+Du+Nom+PxDu3: [нувандахаюди’, нувндахаюди’]
+     нусь+V+IV+PrcFut+Du+Acc+PxDu3: [нувандахаюди’, нувндахаюди’]
+     нусь+V+IV+PrcFut+Du+Gen+PxDu3: [нувандахаюти’, нувндахаюти’]
+     нусь+V+IV+PrcFut+Pl+Nom+PxDu3: [нувандиди’, нувндиди’]
+     нусь+V+IV+PrcFut+Pl+Acc+PxDu3: [нувандиди’, нувндиди’]
+     нусь+V+IV+PrcFut+Pl+Gen+PxDu3: [нувандити’, нувндити’]
+     нусь+V+IV+PrcFut+Pl+Dat+PxDu3: [нувандахати’, нувндахати’]
+     нусь+V+IV+PrcFut+Pl+Loc+PxDu3: [нувандаха”нати’, нувндаха”нати’]
+     нусь+V+IV+PrcFut+Pl+Abl+PxDu3: [нувандахатати’, нувндахатати’]
+     нусь+V+IV+PrcFut+Pl+Pros+PxDu3: [нуванди”мнати’, нувнди”мнати’]
+     нусь+V+IV+PrcFut+Sg+Nom+PxPl1: [нувандава”, нувндава”]
+     нусь+V+IV+PrcFut+Sg+Acc+PxPl1: [нувандава”, нувндава”]
+     нусь+V+IV+PrcFut+Sg+Gen+PxPl1: [нувандана”, нувндана”]
+     нусь+V+IV+PrcFut+Sg+Dat+PxPl1: [нувандахана”, нувндахана”]
+     нусь+V+IV+PrcFut+Sg+Loc+PxPl1: [нувандаханана”, нувндаханана”]
+     нусь+V+IV+PrcFut+Sg+Abl+PxPl1: [нувандахадана”, нувндахадана”]
+     нусь+V+IV+PrcFut+Sg+Pros+PxPl1: [нувандавнана”, нувндавнана”]
+     нусь+V+IV+PrcFut+Du+Nom+PxPl1: [нувандахаюна”, нувндахаюна”]
+     нусь+V+IV+PrcFut+Du+Acc+PxPl1: [нувандахаюна”, нувндахаюна”]
+     нусь+V+IV+PrcFut+Du+Gen+PxPl1: [нувандахаюна”, нувндахаюна”]
+     нусь+V+IV+PrcFut+Pl+Nom+PxPl1: [нувандина”, нувндина”]
+     нусь+V+IV+PrcFut+Pl+Acc+PxPl1: [нувандина”, нувндина”]
+     нусь+V+IV+PrcFut+Pl+Gen+PxPl1: [нуванди”на”, нувнди”на”]
+     нусь+V+IV+PrcFut+Pl+Dat+PxPl1: [нувандаха”на”, нувндаха”на”]
+     нусь+V+IV+PrcFut+Pl+Loc+PxPl1: [нувандаха”нана”, нувндаха”нана”]
+     нусь+V+IV+PrcFut+Pl+Abl+PxPl1: [нувандахатана”, нувндахатана”]
+     нусь+V+IV+PrcFut+Pl+Pros+PxPl1: [нуванди”мнана”, нувнди”мнана”]
+     нусь+V+IV+PrcFut+Sg+Nom+PxPl2: [нувандара”, нувндара”]
+     нусь+V+IV+PrcFut+Sg+Acc+PxPl2: [нувандамда”, нувндамда”]
+     нусь+V+IV+PrcFut+Sg+Gen+PxPl2: [нуванданда”, нувнданда”]
+     нусь+V+IV+PrcFut+Sg+Dat+PxPl2: [нувандаханда”, нувндаханда”]
+     нусь+V+IV+PrcFut+Sg+Loc+PxPl2: [нувандахананда”, нувндахананда”]
+     нусь+V+IV+PrcFut+Sg+Abl+PxPl2: [нувандахаданда”, нувндахаданда”]
+     нусь+V+IV+PrcFut+Sg+Pros+PxPl2: [нувандавнанда”, нувндавнанда”]
+     нусь+V+IV+PrcFut+Du+Nom+PxPl2: [нувандахаюда”, нувндахаюда”]
+     нусь+V+IV+PrcFut+Du+Acc+PxPl2: [нувандахаюда”, нувндахаюда”]
+     нусь+V+IV+PrcFut+Du+Gen+PxPl2: [нувандахаюта”, нувндахаюта”]
+     нусь+V+IV+PrcFut+Pl+Nom+PxPl2: [нувандида”, нувндида”]
+     нусь+V+IV+PrcFut+Pl+Acc+PxPl2: [нувандида”, нувндида”]
+     нусь+V+IV+PrcFut+Pl+Gen+PxPl2: [нувандита”, нувндита”]
+     нусь+V+IV+PrcFut+Pl+Dat+PxPl2: [нувандахата”, нувндахата”]
+     нусь+V+IV+PrcFut+Pl+Loc+PxPl2: [нувандаха”ната”, нувндаха”ната”]
+     нусь+V+IV+PrcFut+Pl+Abl+PxPl2: [нувандахатата”, нувндахатата”]
+     нусь+V+IV+PrcFut+Pl+Pros+PxPl2: [нуванди”мната”, нувнди”мната”]
+     нусь+V+IV+PrcFut+Sg+Nom+PxPl3: [нувандадо’, нувндадо’]
+     нусь+V+IV+PrcFut+Sg+Acc+PxPl3: [нувандамдо’, нувндамдо’]
+     нусь+V+IV+PrcFut+Sg+Gen+PxPl3: [нувандандо’, нувндандо’]
+     нусь+V+IV+PrcFut+Sg+Dat+PxPl3: [нувандахандо’, нувндахандо’]
+     нусь+V+IV+PrcFut+Sg+Loc+PxPl3: [нувандаханандо’, нувндаханандо’]
+     нусь+V+IV+PrcFut+Sg+Abl+PxPl3: [нувандахадандо’, нувндахадандо’]
+     нусь+V+IV+PrcFut+Sg+Pros+PxPl3: [нувандавнандо’, нувндавнандо’]
+     нусь+V+IV+PrcFut+Du+Nom+PxPl3: [нувандахаюдо’, нувндахаюдо’]
+     нусь+V+IV+PrcFut+Du+Acc+PxPl3: [нувандахаюдо’, нувндахаюдо’]
+     нусь+V+IV+PrcFut+Du+Gen+PxPl3: [нувандахаюто’, нувндахаюто’]
+     нусь+V+IV+PrcFut+Pl+Nom+PxPl3: [нувандидо’, нувндидо’]
+     нусь+V+IV+PrcFut+Pl+Acc+PxPl3: [нувандидо’, нувндидо’]
+     нусь+V+IV+PrcFut+Pl+Gen+PxPl3: [нувандито’, нувндито’]
+     нусь+V+IV+PrcFut+Pl+Dat+PxPl3: [нувандахато’, нувндахато’]
+     нусь+V+IV+PrcFut+Pl+Loc+PxPl3: [нувандаха”нато’, нувндаха”нато’]
+     нусь+V+IV+PrcFut+Pl+Abl+PxPl3: [нувандахатато’, нувндахатато’]
+     нусь+V+IV+PrcFut+Pl+Pros+PxPl3: [нуванди”мнато’, нувнди”мнато’]
+     нусь+V+IV+PrcFut+Pred+Abs: [нувандад, нувндад]
+     нусь+V+IV+PrcFut+Pred+Nom+PxSg1: [нувандадав, нувндадав, нувандадув, нувндадув, нувандадами, нувандадми, нувндадами, нувндадми]
+     нусь+V+IV+PrcFut+Pred+Acc+PxSg1: [нувандадав, нувндадав, нувандадув, нувндадув, нувандадами, нувандадми, нувндадами, нувндадми]
+     нусь+V+IV+PrcFut+Pred+Gen+PxSg1: [нувандадан, нувндадан, нувандадани, нувандадни, нувндадани, нувндадни]
+     нусь+V+IV+PrcFut+Pred+Nom+PxSg2: [нувандадар, нувндадар]
+     нусь+V+IV+PrcFut+Pred+Acc+PxSg2: [нувандадамд, нувндадамд]
+     нусь+V+IV+PrcFut+Pred+Gen+PxSg2: [нувандаданд, нувндаданд]
+     нусь+V+IV+PrcFut+Pred+Nom+PxSg3: [нувандадада, нувандадда, нувндадада, нувндадда]
+     нусь+V+IV+PrcFut+Pred+Acc+PxSg3: [нувандадамда, нувндадамда]
+     нусь+V+IV+PrcFut+Pred+Gen+PxSg3: [нувандаданда, нувндаданда]
+     нусь+V+IV+PrcFut+Pred+Nom+PxDu1: [нувандадами’, нувандадми’, нувндадами’, нувндадми’]
+#     нусь+V+IV+PrcFut+Pred+Nom+PxSg1.2: нув(а)ндад(а)ми
+     нусь+V+IV+PrcFut+Pred+Acc+PxDu1: [нувандадами’, нувандадми’, нувндадами’, нувндадми’]
+#     нусь+V+IV+PrcFut+Pred+Acc+PxSg1.2: нув(а)ндад(а)ми
+     нусь+V+IV+PrcFut+Pred+Gen+PxDu1: [нувандадани’, нувандадни’, нувндадани’, нувндадни’]
+#     нусь+V+IV+PrcFut+Pred+Gen+PxSg1.2: нув(а)ндад(а)ни
+     нусь+V+IV+PrcFut+Pred+Nom+PxDu2: [нувандадари’, нувандадри’, нувндадари’, нувндадри’]
+     нусь+V+IV+PrcFut+Pred+Acc+PxDu2: [нувандадамди’, нувндадамди’]
+     нусь+V+IV+PrcFut+Pred+Gen+PxDu2: [нувандаданди’, нувндаданди’]
+     нусь+V+IV+PrcFut+Pred+Nom+PxDu3: [нувандадади’, нувандадди’, нувндадади’, нувндадди’]
+     нусь+V+IV+PrcFut+Pred+Acc+PxDu3: [нувандадамди’, нувндадамди’]
+     нусь+V+IV+PrcFut+Pred+Gen+PxDu3: [нувандаданди’, нувндаданди’]
+     нусь+V+IV+PrcFut+Pred+Nom+PxPl1: [нувандадава”, нувандадва”, нувндадава”, нувндадва”]
+     нусь+V+IV+PrcFut+Pred+Acc+PxPl1: [нувандадава”, нувандадва”, нувндадава”, нувндадва”]
+     нусь+V+IV+PrcFut+Pred+Gen+PxPl1: [нувандадана”, нувандадна”, нувндадана”, нувндадна”]
+     нусь+V+IV+PrcFut+Pred+Nom+PxPl2: [нувандадара”, нувандадра”, нувндадара”, нувндадра”]
+     нусь+V+IV+PrcFut+Pred+Acc+PxPl2: [нувандадамда”, нувндадамда”]
+     нусь+V+IV+PrcFut+Pred+Gen+PxPl2: [нувандаданда”, нувндаданда”]
+     нусь+V+IV+PrcFut+Pred+Nom+PxPl3: [нувандададо’, нувандаддо’, нувндададо’, нувндаддо’]
+     нусь+V+IV+PrcFut+Pred+Acc+PxPl3: [нувандадамдо’, нувндадамдо’]
+     нусь+V+IV+PrcFut+Pred+Gen+PxPl3: [нувандадандо’, нувндадандо’]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScSg1: [нувандадм’, нувндадм’]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScSg2: [нувандан, нувндан]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScSg3: [нуванда, нувнда]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScDu1: [нувандани’, нувндани’]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScDu2: [нувандади’, нувндади’]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScDu3: [нувандаха’, нувндаха’]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScPl1: [нувандава”, нувндава”]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScPl2: [нувандада”, нувндада”]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Aor+ScPl3: [нуванда”, нувнда”]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScSg1: [нувандадамзь, нувндадамзь]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScSg2: [нуванданась, нувнданась]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScSg3: [нувандась, нувндась]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScDu1: [нуванданинзь, нувнданинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScDu2: [нувандадинзь, нувндадинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScDu3: [нувандаханзь, нувндаханзь]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScPl1: [нувандаваць, нувндаваць]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScPl2: [нувандадаць, нувндадаць]
+     нусь+V+IV+PrcFut+Der/Pr+Abs+Prt1+ScPl3: [нувандаць, нувндаць]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxSg1: [нувандав, нувндав]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxSg2: [нувандар, нувндар]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxSg3: [нувандада, нувндада]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxDu1: [нувандами’, нувндами’]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxDu2: [нувандари’, нувндари’]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxDu3: [нувандади’, нувндади’]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxPl1: [нувандава”, нувндава”]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxPl2: [нувандара”, нувндара”]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Aor+PxPl3: [нувандадо’, нувндадо’]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxSg1: [нувандавась, нувндавась]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxSg2: [нувандарась, нувндарась]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxSg3: [нувандадась, нувндадась]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxDu1: [нувандаминзь, нувндаминзь]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxDu2: [нувандаринзь, нувндаринзь]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxDu3: [нувандадинзь, нувндадинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxPl1: [нувандаваць, нувндаваць]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxPl2: [нувандараць, нувндараць]
+     нусь+V+IV+PrcFut+Der/Pr+Sg+Prt1+PxPl3: [нувандадонзь, нувндадонзь]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxSg1: [нувандахаюн, нувндахаюн]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxSg2: [нувандахаюд, нувндахаюд]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxSg3: [нувандахаюда, нувндахаюда]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxDu1: [нувандахаюни’, нувндахаюни’]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxDu2: [нувандахаюди’, нувндахаюди’]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxDu3: [нувандахаюди’, нувндахаюди’]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxPl1: [нувандахаюна”, нувндахаюна”]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxPl2: [нувандахаюда”, нувндахаюда”]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Aor+PxPl3: [нувандахаюдо’, нувндахаюдо’]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxSg1: [нувандахаюнась, нувндахаюнась]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxSg2: [нувандахаюдась, нувндахаюдась]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxSg3: [нувандахаюдась, нувндахаюдась]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxDu1: [нувандахаюнинзь, нувндахаюнинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxDu2: [нувандахаюдинзь, нувндахаюдинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxDu3: [нувандахаюдинзь, нувндахаюдинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxPl1: [нувандахаюнаць, нувндахаюнаць]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxPl2: [нувандахаюдаць, нувндахаюдаць]
+     нусь+V+IV+PrcFut+Der/Pr+Du+Prt1+PxPl3: [нувандахаюдонзь, нувндахаюдонзь]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxSg1: [нувандин, нувндин]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxSg2: [нувандид, нувндид]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxSg3: [нувандида, нувндида]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxDu1: [нувандини’, нувндини’]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxDu2: [нувандиди’, нувндиди’]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxDu3: [нувандиди’, нувндиди’]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxPl1: [нувандина”, нувндина”]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxPl2: [нувандида”, нувндида”]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Aor+PxPl3: [нувандидо’, нувндидо’]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxSg1: [нувандинась, нувндинась]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxSg2: [нувандидась, нувндидась]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxSg3: [нувандидась, нувндидась]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxDu1: [нувандининзь, нувндининзь]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxDu2: [нувандидинзь, нувндидинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxDu3: [нувандидинзь, нувндидинзь]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxPl1: [нувандинаць, нувндинаць]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxPl2: [нувандидаць, нувндидаць]
+     нусь+V+IV+PrcFut+Der/Pr+Pl+Prt1+PxPl3: [нувандидонзь, нувндидонзь]
+     нусь+V+IV+PrcFut+Tra: [нувандаӈэ, нувндаӈэ]
+     нусь+V+IV+PrcFut+Car: [нувандаси”, нувндаси”]
+     нусь+V+IV+PrcFut+Equ: [нувандадрем’, нувндадрем’]
+     нусь+V+IV+PrcFut+Equ+lat: [нувандадрев’, нувндадрев’]
+     нусь+V+IV+PrcNeg+Nom+Sg+Abs: нувдавэй
+     нусь+V+IV+PrcNeg+Acc+Sg+Abs: нувдавэйм’
+     нусь+V+IV+PrcNeg+Gen+Sg+Abs: нувдавэй’
+     нусь+V+IV+PrcNeg+Dat+Sg+Abs: нувдавэн’
+     нусь+V+IV+PrcNeg+Loc+Sg+Abs: нувдавэхэна
+     нусь+V+IV+PrcNeg+Abl+Sg+Abs: нувдавэхэд
+     нусь+V+IV+PrcNeg+Pros+Sg+Abs: нувдавэвна
+     нусь+V+IV+PrcNeg+Nom+Du+Abs: нувдавэхэ’
+     нусь+V+IV+PrcNeg+Acc+Du+Abs: нувдавэхэ’
+     нусь+V+IV+PrcNeg+Gen+Du+Abs: нувдавэхэ’
+     нусь+V+IV+PrcNeg+Nom+Pl+Abs: нувдавэй”
+     нусь+V+IV+PrcNeg+Acc+Pl+Abs: нувдавэй
+     нусь+V+IV+PrcNeg+Gen+Pl+Abs: нувдавэй”
+     нусь+V+IV+PrcNeg+Dat+Pl+Abs: нувдавэхэ”
+     нусь+V+IV+PrcNeg+Loc+Pl+Abs: нувдавэхэ”на
+     нусь+V+IV+PrcNeg+Abl+Pl+Abs: нувдавэхэт
+     нусь+V+IV+PrcNeg+Pros+Pl+Abs: нувдавэй”мана
+     нусь+V+IV+PrcNeg+Sg+Nom+PxSg1: [нувдавэв, нувдавэми]
+     нусь+V+IV+PrcNeg+Sg+Acc+PxSg1: [нувдавэв, нувдавэми]
+     нусь+V+IV+PrcNeg+Sg+Gen+PxSg1: [нувдавэн, нувдавэни]
+     нусь+V+IV+PrcNeg+Sg+Dat+PxSg1: [нувдавэхэн, нувдавэхэни]
+     нусь+V+IV+PrcNeg+Sg+Loc+PxSg1: [нувдавэхэнан, нувдавэхэнани]
+     нусь+V+IV+PrcNeg+Sg+Abl+PxSg1: [нувдавэхэдан, нувдавэхэдани, нувдавэхэдни]
+     нусь+V+IV+PrcNeg+Sg+Pros+PxSg1: [нувдавэвнан, нувдавэвнани]
+     нусь+V+IV+PrcNeg+Du+Nom+PxSg1: [нувдавэхэюн, нувдавэхэюни]
+     нусь+V+IV+PrcNeg+Du+Acc+PxSg1: [нувдавэхэюн, нувдавэхэюни]
+     нусь+V+IV+PrcNeg+Du+Gen+PxSg1: [нувдавэхэюн, нувдавэхэюни]
+     нусь+V+IV+PrcNeg+Pl+Nom+PxSg1: [нувдавэян, нувдавэйни]
+     нусь+V+IV+PrcNeg+Pl+Acc+PxSg1: [нувдавэян, нувдавэйни]
+     нусь+V+IV+PrcNeg+Pl+Gen+PxSg1: [нувдавэя”н, нувдавэй”ни]
+     нусь+V+IV+PrcNeg+Pl+Dat+PxSg1: [нувдавэхэ”н, нувдавэхэ”ни]
+     нусь+V+IV+PrcNeg+Pl+Loc+PxSg1: [нувдавэхэ”нан, нувдавэхэ”нани]
+     нусь+V+IV+PrcNeg+Pl+Abl+PxSg1: [нувдавэхэтан, нувдавэхэтани, нувдавэхэтни]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxSg1: [нувдавэй”манан, нувдавэй”манани]
+     нусь+V+IV+PrcNeg+Sg+Nom+PxSg2: нувдавэр
+     нусь+V+IV+PrcNeg+Sg+Acc+PxSg2: нувдавэмд
+     нусь+V+IV+PrcNeg+Sg+Gen+PxSg2: нувдавэнд
+     нусь+V+IV+PrcNeg+Sg+Dat+PxSg2: нувдавэхэнд
+     нусь+V+IV+PrcNeg+Sg+Loc+PxSg2: нувдавэхэнанд
+     нусь+V+IV+PrcNeg+Sg+Abl+PxSg2: нувдавэхэданд
+     нусь+V+IV+PrcNeg+Sg+Pros+PxSg2: нувдавэвнанд
+     нусь+V+IV+PrcNeg+Du+Nom+PxSg2: нувдавэхэюд
+     нусь+V+IV+PrcNeg+Du+Acc+PxSg2: нувдавэхэюд
+     нусь+V+IV+PrcNeg+Du+Gen+PxSg2: нувдавэхэют
+     нусь+V+IV+PrcNeg+Pl+Nom+PxSg2: нувдавэяд
+     нусь+V+IV+PrcNeg+Pl+Acc+PxSg2: нувдавэяд
+     нусь+V+IV+PrcNeg+Pl+Gen+PxSg2: нувдавэят
+     нусь+V+IV+PrcNeg+Pl+Dat+PxSg2: нувдавэхэт
+     нусь+V+IV+PrcNeg+Pl+Loc+PxSg2: нувдавэхэ”нат
+     нусь+V+IV+PrcNeg+Pl+Abl+PxSg2: нувдавэхэтат
+     нусь+V+IV+PrcNeg+Pl+Pros+PxSg2: нувдавэй”манат
+     нусь+V+IV+PrcNeg+Sg+Nom+PxSg3: нувдавэда
+     нусь+V+IV+PrcNeg+Sg+Acc+PxSg3: нувдавэмда
+     нусь+V+IV+PrcNeg+Sg+Gen+PxSg3: нувдавэнда
+     нусь+V+IV+PrcNeg+Sg+Dat+PxSg3: нувдавэхэнда
+     нусь+V+IV+PrcNeg+Sg+Loc+PxSg3: нувдавэхэнанда
+     нусь+V+IV+PrcNeg+Sg+Abl+PxSg3: нувдавэхэданда
+     нусь+V+IV+PrcNeg+Sg+Pros+PxSg3: нувдавэвнанда
+     нусь+V+IV+PrcNeg+Du+Nom+PxSg3: нувдавэхэюда
+     нусь+V+IV+PrcNeg+Du+Acc+PxSg3: нувдавэхэюда
+     нусь+V+IV+PrcNeg+Du+Gen+PxSg3: нувдавэхэюта
+     нусь+V+IV+PrcNeg+Pl+Nom+PxSg3: нувдавэйда
+     нусь+V+IV+PrcNeg+Pl+Acc+PxSg3: нувдавэйда
+     нусь+V+IV+PrcNeg+Pl+Gen+PxSg3: нувдавэйта
+     нусь+V+IV+PrcNeg+Pl+Dat+PxSg3: нувдавэхэта
+     нусь+V+IV+PrcNeg+Pl+Loc+PxSg3: нувдавэхэ”ната
+     нусь+V+IV+PrcNeg+Pl+Abl+PxSg3: [нувдавэхэтата, нувдавэхэтта]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxSg3: нувдавэй”маната
+     нусь+V+IV+PrcNeg+Sg+Nom+PxDu1: нувдавэми’
+#     нусь+V+IV+PrcNeg+Sg+Nom+PxSg1.2: нувдавэми
+     нусь+V+IV+PrcNeg+Sg+Acc+PxDu1: нувдавэми’
+#     нусь+V+IV+PrcNeg+Sg+Acc+PxSg1.2: нувдавэми
+     нусь+V+IV+PrcNeg+Sg+Gen+PxDu1: нувдавэни’
+#     нусь+V+IV+PrcNeg+Sg+Gen+PxSg1.2: нувдавэни
+     нусь+V+IV+PrcNeg+Sg+Dat+PxDu1: нувдавэхэни’
+#     нусь+V+IV+PrcNeg+Sg+Dat+PxSg1.2: нувдавэхэни
+     нусь+V+IV+PrcNeg+Sg+Loc+PxDu1: нувдавэхэнани’
+#     нусь+V+IV+PrcNeg+Sg+Loc+PxSg1.2: нувдавэхэнани
+     нусь+V+IV+PrcNeg+Sg+Abl+PxDu1: [нувдавэхэдани’, нувдавэхэдни’]
+#     нусь+V+IV+PrcNeg+Sg+Abl+PxSg1.2: [нувдавэхэдани, нувдавэхэдни]
+     нусь+V+IV+PrcNeg+Sg+Pros+PxDu1: нувдавэвнани’
+#     нусь+V+IV+PrcNeg+Sg+Pros+PxSg1.2: нувдавэвнани
+     нусь+V+IV+PrcNeg+Du+Nom+PxDu1: нувдавэхэюни’
+#     нусь+V+IV+PrcNeg+Du+Nom+PxSg1.2: нувдавэхэюни
+     нусь+V+IV+PrcNeg+Du+Acc+PxDu1: нувдавэхэюни’
+#     нусь+V+IV+PrcNeg+Du+Acc+PxSg1.2: нувдавэхэюни
+     нусь+V+IV+PrcNeg+Du+Gen+PxDu1: нувдавэхэюни’
+#     нусь+V+IV+PrcNeg+Du+Gen+PxSg1.2: нувдавэхэюни
+     нусь+V+IV+PrcNeg+Pl+Nom+PxDu1: нувдавэйни’
+#     нусь+V+IV+PrcNeg+Pl+Nom+PxSg1.2: нувдавэйни
+     нусь+V+IV+PrcNeg+Pl+Acc+PxDu1: нувдавэйни’
+#     нусь+V+IV+PrcNeg+Pl+Acc+PxSg1.2: нувдавэйни
+     нусь+V+IV+PrcNeg+Pl+Gen+PxDu1: нувдавэй”ни’
+#     нусь+V+IV+PrcNeg+Pl+Gen+PxSg1.2: нувдавэй”ни
+     нусь+V+IV+PrcNeg+Pl+Dat+PxDu1: нувдавэхэ”ни’
+#     нусь+V+IV+PrcNeg+Pl+Dat+PxSg1.2: нувдавэхэ”ни
+     нусь+V+IV+PrcNeg+Pl+Loc+PxDu1: нувдавэхэ”нани’
+#     нусь+V+IV+PrcNeg+Pl+Loc+PxSg1.2: нувдавэхэ”нани
+     нусь+V+IV+PrcNeg+Pl+Abl+PxDu1: [нувдавэхэтани’, нувдавэхэтни’]
+#     нусь+V+IV+PrcNeg+Pl+Abl+PxSg1.2: [нувдавэхэтани, нувдавэхэтни]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxDu1: нувдавэй”манани’
+#     нусь+V+IV+PrcNeg+Pl+Pros+PxSg1.2: нувдавэй”манани
+     нусь+V+IV+PrcNeg+Sg+Nom+PxDu2: нувдавэри’
+     нусь+V+IV+PrcNeg+Sg+Acc+PxDu2: нувдавэмди’
+     нусь+V+IV+PrcNeg+Sg+Gen+PxDu2: нувдавэнди’
+     нусь+V+IV+PrcNeg+Sg+Dat+PxDu2: нувдавэхэнди’
+     нусь+V+IV+PrcNeg+Sg+Loc+PxDu2: нувдавэхэнанди’
+     нусь+V+IV+PrcNeg+Sg+Abl+PxDu2: нувдавэхэданди’
+     нусь+V+IV+PrcNeg+Sg+Pros+PxDu2: нувдавэвнанди’
+     нусь+V+IV+PrcNeg+Du+Nom+PxDu2: нувдавэхэюди’
+     нусь+V+IV+PrcNeg+Du+Acc+PxDu2: нувдавэхэюди’
+     нусь+V+IV+PrcNeg+Du+Gen+PxDu2: нувдавэхэюти’
+     нусь+V+IV+PrcNeg+Pl+Nom+PxDu2: нувдавэйди’
+     нусь+V+IV+PrcNeg+Pl+Acc+PxDu2: нувдавэйди’
+     нусь+V+IV+PrcNeg+Pl+Gen+PxDu2: нувдавэйти’
+     нусь+V+IV+PrcNeg+Pl+Dat+PxDu2: нувдавэхэти’
+     нусь+V+IV+PrcNeg+Pl+Loc+PxDu2: нувдавэхэ”нати’
+     нусь+V+IV+PrcNeg+Pl+Abl+PxDu2: [нувдавэхэтати’, нувдавэхэтти’]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxDu2: нувдавэй”манати’
+     нусь+V+IV+PrcNeg+Sg+Nom+PxDu3: нувдавэди’
+     нусь+V+IV+PrcNeg+Sg+Acc+PxDu3: нувдавэмди’
+     нусь+V+IV+PrcNeg+Sg+Gen+PxDu3: нувдавэнди’
+     нусь+V+IV+PrcNeg+Sg+Dat+PxDu3: нувдавэхэнди’
+     нусь+V+IV+PrcNeg+Sg+Loc+PxDu3: нувдавэхэнанди’
+     нусь+V+IV+PrcNeg+Sg+Abl+PxDu3: нувдавэхэданди’
+     нусь+V+IV+PrcNeg+Sg+Pros+PxDu3: нувдавэвнанди’
+     нусь+V+IV+PrcNeg+Du+Nom+PxDu3: нувдавэхэюди’
+     нусь+V+IV+PrcNeg+Du+Acc+PxDu3: нувдавэхэюди’
+     нусь+V+IV+PrcNeg+Du+Gen+PxDu3: нувдавэхэюти’
+     нусь+V+IV+PrcNeg+Pl+Nom+PxDu3: нувдавэйди’
+     нусь+V+IV+PrcNeg+Pl+Acc+PxDu3: нувдавэйди’
+     нусь+V+IV+PrcNeg+Pl+Gen+PxDu3: нувдавэйти’
+     нусь+V+IV+PrcNeg+Pl+Dat+PxDu3: нувдавэхэти’
+     нусь+V+IV+PrcNeg+Pl+Loc+PxDu3: нувдавэхэ”нати’
+     нусь+V+IV+PrcNeg+Pl+Abl+PxDu3: [нувдавэхэтати’, нувдавэхэтти’]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxDu3: нувдавэй”манати’
+     нусь+V+IV+PrcNeg+Sg+Nom+PxPl1: нувдавэва”
+     нусь+V+IV+PrcNeg+Sg+Acc+PxPl1: нувдавэва”
+     нусь+V+IV+PrcNeg+Sg+Gen+PxPl1: нувдавэна”
+     нусь+V+IV+PrcNeg+Sg+Dat+PxPl1: нувдавэхэна”
+     нусь+V+IV+PrcNeg+Sg+Loc+PxPl1: нувдавэхэнана”
+     нусь+V+IV+PrcNeg+Sg+Abl+PxPl1: [нувдавэхэдана”, нувдавэхэдна”]
+     нусь+V+IV+PrcNeg+Sg+Pros+PxPl1: нувдавэвнана”
+     нусь+V+IV+PrcNeg+Du+Nom+PxPl1: нувдавэхэюна”
+     нусь+V+IV+PrcNeg+Du+Acc+PxPl1: нувдавэхэюна”
+     нусь+V+IV+PrcNeg+Du+Gen+PxPl1: нувдавэхэюна”
+     нусь+V+IV+PrcNeg+Pl+Nom+PxPl1: нувдавэйна”
+     нусь+V+IV+PrcNeg+Pl+Acc+PxPl1: нувдавэйна”
+     нусь+V+IV+PrcNeg+Pl+Gen+PxPl1: нувдавэй”на”
+     нусь+V+IV+PrcNeg+Pl+Dat+PxPl1: нувдавэхэ”на”
+     нусь+V+IV+PrcNeg+Pl+Loc+PxPl1: нувдавэхэ”нана”
+     нусь+V+IV+PrcNeg+Pl+Abl+PxPl1: [нувдавэхэтана”, нувдавэхэтна”]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxPl1: нувдавэй”манана”
+     нусь+V+IV+PrcNeg+Sg+Nom+PxPl2: нувдавэра”
+     нусь+V+IV+PrcNeg+Sg+Acc+PxPl2: нувдавэмда”
+     нусь+V+IV+PrcNeg+Sg+Gen+PxPl2: нувдавэнда”
+     нусь+V+IV+PrcNeg+Sg+Dat+PxPl2: нувдавэхэнда”
+     нусь+V+IV+PrcNeg+Sg+Loc+PxPl2: нувдавэхэнанда”
+     нусь+V+IV+PrcNeg+Sg+Abl+PxPl2: нувдавэхэданда”
+     нусь+V+IV+PrcNeg+Sg+Pros+PxPl2: нувдавэвнанда”
+     нусь+V+IV+PrcNeg+Du+Nom+PxPl2: нувдавэхэюда”
+     нусь+V+IV+PrcNeg+Du+Acc+PxPl2: нувдавэхэюда”
+     нусь+V+IV+PrcNeg+Du+Gen+PxPl2: нувдавэхэюта”
+     нусь+V+IV+PrcNeg+Pl+Nom+PxPl2: нувдавэйда”
+     нусь+V+IV+PrcNeg+Pl+Acc+PxPl2: нувдавэйда”
+     нусь+V+IV+PrcNeg+Pl+Gen+PxPl2: нувдавэйта”
+     нусь+V+IV+PrcNeg+Pl+Dat+PxPl2: нувдавэхэта”
+     нусь+V+IV+PrcNeg+Pl+Loc+PxPl2: нувдавэхэ”ната”
+     нусь+V+IV+PrcNeg+Pl+Abl+PxPl2: [нувдавэхэтата”, нувдавэхэтта”]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxPl2: нувдавэй”маната”
+     нусь+V+IV+PrcNeg+Sg+Nom+PxPl3: нувдавэдо’
+     нусь+V+IV+PrcNeg+Sg+Acc+PxPl3: нувдавэмдо’
+     нусь+V+IV+PrcNeg+Sg+Gen+PxPl3: нувдавэндо’
+     нусь+V+IV+PrcNeg+Sg+Dat+PxPl3: нувдавэхэндо’
+     нусь+V+IV+PrcNeg+Sg+Loc+PxPl3: нувдавэхэнандо’
+     нусь+V+IV+PrcNeg+Sg+Abl+PxPl3: нувдавэхэдандо’
+     нусь+V+IV+PrcNeg+Sg+Pros+PxPl3: нувдавэвнандо’
+     нусь+V+IV+PrcNeg+Du+Nom+PxPl3: нувдавэхэюдо’
+     нусь+V+IV+PrcNeg+Du+Acc+PxPl3: нувдавэхэюдо’
+     нусь+V+IV+PrcNeg+Du+Gen+PxPl3: нувдавэхэюто’
+     нусь+V+IV+PrcNeg+Pl+Nom+PxPl3: нувдавэйдо’
+     нусь+V+IV+PrcNeg+Pl+Acc+PxPl3: нувдавэйдо’
+     нусь+V+IV+PrcNeg+Pl+Gen+PxPl3: нувдавэйто’
+     нусь+V+IV+PrcNeg+Pl+Dat+PxPl3: нувдавэхэто’
+     нусь+V+IV+PrcNeg+Pl+Loc+PxPl3: нувдавэхэ”нато’
+     нусь+V+IV+PrcNeg+Pl+Abl+PxPl3: [нувдавэхэтато’, нувдавэхэтто’]
+     нусь+V+IV+PrcNeg+Pl+Pros+PxPl3: нувдавэй”манато’
+     нусь+V+IV+PrcNeg+Pred+Abs: нувдавэд
+     нусь+V+IV+PrcNeg+Pred+Nom+PxSg1: [нувдавэдав, нувдавэдув, нувдавэдами]
+     нусь+V+IV+PrcNeg+Pred+Acc+PxSg1: [нувдавэдав, нувдавэдув, нувдавэдами]
+     нусь+V+IV+PrcNeg+Pred+Gen+PxSg1: [нувдавэдан, нувдавэдани]
+     нусь+V+IV+PrcNeg+Pred+Nom+PxSg2: нувдавэдар
+     нусь+V+IV+PrcNeg+Pred+Acc+PxSg2: нувдавэдамд
+     нусь+V+IV+PrcNeg+Pred+Gen+PxSg2: нувдавэданд
+     нусь+V+IV+PrcNeg+Pred+Nom+PxSg3: нувдавэдада
+     нусь+V+IV+PrcNeg+Pred+Acc+PxSg3: нувдавэдамда
+     нусь+V+IV+PrcNeg+Pred+Gen+PxSg3: нувдавэданда
+     нусь+V+IV+PrcNeg+Pred+Nom+PxDu1: нувдавэдами’
+#     нусь+V+IV+PrcNeg+Pred+Nom+PxSg1.2: нувдавэдами
+     нусь+V+IV+PrcNeg+Pred+Acc+PxDu1: нувдавэдами’
+#     нусь+V+IV+PrcNeg+Pred+Acc+PxSg1.2: нувдавэдами
+     нусь+V+IV+PrcNeg+Pred+Gen+PxDu1: нувдавэдани’
+#     нусь+V+IV+PrcNeg+Pred+Gen+PxSg1.2: нувдавэдани
+     нусь+V+IV+PrcNeg+Pred+Nom+PxDu2: нувдавэдари’
+     нусь+V+IV+PrcNeg+Pred+Acc+PxDu2: нувдавэдамди’
+     нусь+V+IV+PrcNeg+Pred+Gen+PxDu2: нувдавэданди’
+     нусь+V+IV+PrcNeg+Pred+Nom+PxDu3: нувдавэдади’
+     нусь+V+IV+PrcNeg+Pred+Acc+PxDu3: нувдавэдамди’
+     нусь+V+IV+PrcNeg+Pred+Gen+PxDu3: нувдавэданди’
+     нусь+V+IV+PrcNeg+Pred+Nom+PxPl1: нувдавэдава”
+     нусь+V+IV+PrcNeg+Pred+Acc+PxPl1: нувдавэдава”
+     нусь+V+IV+PrcNeg+Pred+Gen+PxPl1: нувдавэдана”
+     нусь+V+IV+PrcNeg+Pred+Nom+PxPl2: нувдавэдара”
+     нусь+V+IV+PrcNeg+Pred+Acc+PxPl2: нувдавэдамда”
+     нусь+V+IV+PrcNeg+Pred+Gen+PxPl2: нувдавэданда”
+     нусь+V+IV+PrcNeg+Pred+Nom+PxPl3: нувдавэдадо’
+     нусь+V+IV+PrcNeg+Pred+Acc+PxPl3: нувдавэдамдо’
+     нусь+V+IV+PrcNeg+Pred+Gen+PxPl3: нувдавэдандо’
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScSg1: нувдавэдм’
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScSg2: нувдавэн
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScSg3: нувдавэй
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScDu1: нувдавэни’
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScDu2: нувдавэди’
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScDu3: нувдавэхэ’
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScPl1: нувдавэва”
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScPl2: нувдавэда”
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Aor+ScPl3: нувдавэй”
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScSg1: нувдавэдамзь
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScSg2: нувдавэнась
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScSg3: [нувдавэясь, нувдавэсь]
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScDu1: нувдавэнинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScDu2: нувдавэдинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScDu3: нувдавэхэнзь
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScPl1: нувдавэваць
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScPl2: нувдавэдаць
+     нусь+V+IV+PrcNeg+Der/Pr+Abs+Prt1+ScPl3: [нувдавэяць, нувдавэць]
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxSg1: нувдавэв
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxSg2: нувдавэр
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxSg3: нувдавэда
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxDu1: нувдавэми’
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxDu2: нувдавэри’
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxDu3: нувдавэди’
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxPl1: нувдавэва”
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxPl2: нувдавэра”
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Aor+PxPl3: нувдавэдо’
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxSg1: нувдавэвась
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxSg2: нувдавэрась
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxSg3: нувдавэдась
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxDu1: нувдавэминзь
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxDu2: нувдавэринзь
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxDu3: нувдавэдинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxPl1: нувдавэваць
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxPl2: нувдавэраць
+     нусь+V+IV+PrcNeg+Der/Pr+Sg+Prt1+PxPl3: нувдавэдонзь
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxSg1: нувдавэхэюн
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxSg2: нувдавэхэюд
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxSg3: нувдавэхэюда
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxDu1: нувдавэхэюни’
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxDu2: нувдавэхэюди’
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxDu3: нувдавэхэюди’
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxPl1: нувдавэхэюна”
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxPl2: нувдавэхэюда”
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Aor+PxPl3: нувдавэхэюдо’
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxSg1: нувдавэхэюнась
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxSg2: нувдавэхэюдась
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxSg3: нувдавэхэюдась
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxDu1: нувдавэхэюнинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxDu2: нувдавэхэюдинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxDu3: нувдавэхэюдинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxPl1: нувдавэхэюнаць
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxPl2: нувдавэхэюдаць
+     нусь+V+IV+PrcNeg+Der/Pr+Du+Prt1+PxPl3: нувдавэхэюдонзь
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxSg1: нувдавэян
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxSg2: нувдавэяд
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxSg3: нувдавэйда
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxDu1: нувдавэйни’
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxDu2: нувдавэйди’
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxDu3: нувдавэйди’
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxPl1: нувдавэйна”
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxPl2: нувдавэйда”
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Aor+PxPl3: нувдавэйдо’
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxSg1: нувдавэйнась
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxSg2: нувдавэйдась
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxSg3: нувдавэйдась
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxDu1: нувдавэйнинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxDu2: нувдавэйдинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxDu3: нувдавэйдинзь
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxPl1: нувдавэйнаць
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxPl2: нувдавэйдаць
+     нусь+V+IV+PrcNeg+Der/Pr+Pl+Prt1+PxPl3: нувдавэйдонзь
+     нусь+V+IV+PrcNeg+Tra: нувдавэӈэ
+     нусь+V+IV+PrcNeg+Car: нувдавэси”
+     нусь+V+IV+PrcNeg+Equ: нувдавэдарем’
+     нусь+V+IV+PrcNeg+Equ+lat: нувдавэдарев’
+     нусь+V+IV+ConNeg: ну”
+     нусь+V+IV+Fut+ConNeg: нуӈгу”
+     нусь+V+IV+Hab+ConNeg: [нусьту”, нусету”]
+     нусь+V+IV+Subord/бˮ1+Abs: нуб”
+     нусь+V+IV+Subord/бˮ1+PxSg1: [нуба”н, нуб”ни]
+     нусь+V+IV+Subord/бˮ1+PxSg2: нубат
+     нусь+V+IV+Subord/бˮ1+PxSg3: нубта
+     нусь+V+IV+Subord/бˮ1+PxDu1: нуб”ни’
+#     нусь+V+IV+Subord/бˮ1+PxSg1.2: нуб”ни
+     нусь+V+IV+Subord/бˮ1+PxDu2: нубти’
+     нусь+V+IV+Subord/бˮ1+PxDu3: нубти’
+     нусь+V+IV+Subord/бˮ1+PxPl1: нуб”на”
+     нусь+V+IV+Subord/бˮ1+PxPl2: нубта”
+     нусь+V+IV+Subord/бˮ1+PxPl3: нубто’
+     нусь+V+IV+Subord/бˮна2+PxSg1: [нуб”нан, нуб”нани]
+     нусь+V+IV+Subord/бˮна2+PxSg2: нуб”нанд
+     нусь+V+IV+Subord/бˮна2+PxSg3: нуб”нанда
+     нусь+V+IV+Subord/бˮна2+PxDu1: нуб”нани’
+#     нусь+V+IV+Subord/бˮна2+PxSg1.2: нуб”нани
+     нусь+V+IV+Subord/бˮна2+PxDu2: нуб”нанди’
+     нусь+V+IV+Subord/бˮна2+PxDu3: нуб”нанди’
+     нусь+V+IV+Subord/бˮна2+PxPl1: нуб”нана”
+     нусь+V+IV+Subord/бˮна2+PxPl2: нуб”нанда”
+     нусь+V+IV+Subord/бˮна2+PxPl3: нуб”нандо’
+     нусь+V+IV+Fut+Subord/бˮ1+Abs: [нуӈгоб”, нуӈгодаб”]
+     нусь+V+IV+Fut+Subord/бˮ1+PxSg1: [нуӈгоба”н, нуӈгодаба”н, нуӈгоб”ни, нуӈгоба”ни, нуӈгодаб”ни]
+     нусь+V+IV+Fut+Subord/бˮ1+PxSg2: [нуӈгобат, нуӈгодабат]
+     нусь+V+IV+Fut+Subord/бˮ1+PxSg3: [нуӈгобта, нуӈгобата, нуӈгодабта]
+     нусь+V+IV+Fut+Subord/бˮ1+PxDu1: [нуӈгоб”ни’, нуӈгоба”ни’, нуӈгодаб”ни’]
+#     нусь+V+IV+Fut+Subord/бˮ1+PxSg1.2: [нуӈгоб”ни, нуӈгоба”ни, нуӈгодаб”ни]
+     нусь+V+IV+Fut+Subord/бˮ1+PxDu2: [нуӈгобти’, нуӈгобати’, нуӈгодабти’]
+     нусь+V+IV+Fut+Subord/бˮ1+PxDu3: [нуӈгобти’, нуӈгобати’, нуӈгодабти’]
+     нусь+V+IV+Fut+Subord/бˮ1+PxPl1: [нуӈгоб”на”, нуӈгоба”на”, нуӈгодаб”на”]
+     нусь+V+IV+Fut+Subord/бˮ1+PxPl2: [нуӈгобта”, нуӈгобата”, нуӈгодабта”]
+     нусь+V+IV+Fut+Subord/бˮ1+PxPl3: [нуӈгобто’, нуӈгобато’, нуӈгодабто’]
+     нусь+V+IV+Fut+Subord/бˮна2+PxSg1: [нуӈгоб”нан, нуӈгоба”нан, нуӈгодаб”нан, нуӈгоб”нани, нуӈгоба”нани, нуӈгодаб”нани]
+     нусь+V+IV+Fut+Subord/бˮна2+PxSg2: [нуӈгоб”нанд, нуӈгоба”нанд, нуӈгодаб”нанд]
+     нусь+V+IV+Fut+Subord/бˮна2+PxSg3: [нуӈгоб”нанда, нуӈгоба”нанда, нуӈгодаб”нанда]
+     нусь+V+IV+Fut+Subord/бˮна2+PxDu1: [нуӈгоб”нани’, нуӈгоба”нани’, нуӈгодаб”нани’]
+#     нусь+V+IV+Fut+Subord/бˮна2+PxSg1.2: [нуӈгоб”нани, нуӈгоба”нани, нуӈгодаб”нани]
+     нусь+V+IV+Fut+Subord/бˮна2+PxDu2: [нуӈгоб”нанди’, нуӈгоба”нанди’, нуӈгодаб”нанди’]
+     нусь+V+IV+Fut+Subord/бˮна2+PxDu3: [нуӈгоб”нанди’, нуӈгоба”нанди’, нуӈгодаб”нанди’]
+     нусь+V+IV+Fut+Subord/бˮна2+PxPl1: [нуӈгоб”нана”, нуӈгоба”нана”, нуӈгодаб”нана”]
+     нусь+V+IV+Fut+Subord/бˮна2+PxPl2: [нуӈгоб”нанда”, нуӈгоба”нанда”, нуӈгодаб”нанда”]
+     нусь+V+IV+Fut+Subord/бˮна2+PxPl3: [нуӈгоб”нандо’, нуӈгоба”нандо’, нуӈгодаб”нандо’]
+     нусь+V+IV+Evas+Abs: нувоӈгад
+     нусь+V+IV+Evas+PxSg1: [нувоӈгадан, нувоӈгадани, нувоӈгадни]
+     нусь+V+IV+Evas+PxSg2: нувоӈгаданд
+     нусь+V+IV+Evas+PxSg3: нувоӈгаданда
+     нусь+V+IV+Evas+PxDu1: [нувоӈгадани’, нувоӈгадни’]
+#     нусь+V+IV+Evas+PxSg1.2: [нувоӈгадани, нувоӈгадни]
+     нусь+V+IV+Evas+PxDu2: нувоӈгаданди’
+     нусь+V+IV+Evas+PxDu3: нувоӈгаданди’
+     нусь+V+IV+Evas+PxPl1: [нувоӈгадана”, нувоӈгадна”]
+     нусь+V+IV+Evas+PxPl2: нувоӈгаданда”
+     нусь+V+IV+Evas+PxPl3: нувоӈгадандо’
+     нусь+V+IV+Aud+Aor+PxSg1: [нувон, нуванон]
+     нусь+V+IV+Aud+Aor+PxSg2: [нувонд, нуванонд]
+     нусь+V+IV+Aud+Aor+PxSg3: [нувонда, нуванонда]
+     нусь+V+IV+Aud+Aor+PxDu1: [нувони’, нуванони’]
+     нусь+V+IV+Aud+Aor+PxDu2: [нувонди’, нуванонди’]
+     нусь+V+IV+Aud+Aor+PxDu3: [нувонди’, нуванонди’]
+     нусь+V+IV+Aud+Aor+PxPl1: [нувона”, нуванона”]
+     нусь+V+IV+Aud+Aor+PxPl2: [нувонда”, нуванонда”]
+     нусь+V+IV+Aud+Aor+PxPl3: [нувондо’, нуванондо’]
+     нусь+V+IV+Aud+Prt1+PxSg1: [нувонась, нуванонась]
+     нусь+V+IV+Aud+Prt1+PxSg2: [нувондась, нуванондась]
+     нусь+V+IV+Aud+Prt1+PxSg3: [нувондась, нуванондась]
+     нусь+V+IV+Aud+Prt1+PxDu1: [нувонинзь, нуванонинзь]
+     нусь+V+IV+Aud+Prt1+PxDu2: [нувондинзь, нуванондинзь]
+     нусь+V+IV+Aud+Prt1+PxDu3: [нувондинзь, нуванондинзь]
+     нусь+V+IV+Aud+Prt1+PxPl1: [нувонаць, нуванонаць]
+     нусь+V+IV+Aud+Prt1+PxPl2: [нувондаць, нуванондаць]
+     нусь+V+IV+Aud+Prt1+PxPl3: [нувондонзь, нуванондонзь]
+     нусь+V+IV+Ind+Aor+ScSg1: нудм’
+     нусь+V+IV+Ind+Aor+ScSg2: нун
+     нусь+V+IV+Ind+Aor+ScSg3: ну
+     нусь+V+IV+Ind+Aor+ScDu1: нуни’
+     нусь+V+IV+Ind+Aor+ScDu2: нуди’
+     нусь+V+IV+Ind+Aor+ScDu3: нуӈаха’
+     нусь+V+IV+Ind+Aor+ScPl1: нува”
+     нусь+V+IV+Ind+Aor+ScPl2: нуда”
+     нусь+V+IV+Ind+Aor+ScPl3: ну”
+     нусь+V+IV+Ind+Prt1+ScSg1: нудамзь
+     нусь+V+IV+Ind+Prt1+ScSg2: нунась
+     нусь+V+IV+Ind+Prt1+ScSg3: нусь
+     нусь+V+IV+Ind+Prt1+ScDu1: нунинзь
+     нусь+V+IV+Ind+Prt1+ScDu2: нудинзь
+     нусь+V+IV+Ind+Prt1+ScDu3: нуӈаханзь
+     нусь+V+IV+Ind+Prt1+ScPl1: нуваць
+     нусь+V+IV+Ind+Prt1+ScPl2: нудаць
+     нусь+V+IV+Ind+Prt1+ScPl3: нуць
+     нусь+V+IV+Hort+ScSg1: нухудм’
+     нусь+V+IV+Hort+ScDu1: нухуни’
+     нусь+V+IV+Hort+ScPl1: нухува”
+     нусь+V+IV+Imprt+ScSg2: ну”
+     нусь+V+IV+Imprt+ScDu2: нуди’
+     нусь+V+IV+Imprt+ScPl2: нуда”
+     нусь+V+IV+Opt+ScSg3: нуя
+     нусь+V+IV+Opt+ScDu3: нуяха’
+     нусь+V+IV+Opt+ScPl3: нуя”
+     нусь+V+IV+Conj+Aor+ScSg1: нуидм’
+     нусь+V+IV+Conj+Aor+ScSg2: нуин
+     нусь+V+IV+Conj+Aor+ScSg3: нуи
+     нусь+V+IV+Conj+Aor+ScDu1: нуини’
+     нусь+V+IV+Conj+Aor+ScDu2: нуиди’
+     нусь+V+IV+Conj+Aor+ScDu3: нуихи’
+     нусь+V+IV+Conj+Aor+ScPl1: нуива”
+     нусь+V+IV+Conj+Aor+ScPl2: нуида”
+     нусь+V+IV+Conj+Aor+ScPl3: нуи”
+     нусь+V+IV+Conj+Prt1+ScSg1: нуидамзь
+     нусь+V+IV+Conj+Prt1+ScSg2: нуинась
+     нусь+V+IV+Conj+Prt1+ScSg3: нуись
+     нусь+V+IV+Conj+Prt1+ScDu1: нуининзь
+     нусь+V+IV+Conj+Prt1+ScDu2: нуидинзь
+     нусь+V+IV+Conj+Prt1+ScDu3: нуихинзь
+     нусь+V+IV+Conj+Prt1+ScPl1: нуиваць
+     нусь+V+IV+Conj+Prt1+ScPl2: нуидаць
+     нусь+V+IV+Conj+Prt1+ScPl3: нуиць
+     нусь+V+IV+Mod/nec+ScSg1: нубцудм’
+     нусь+V+IV+Mod/nec+ScSg2: нубцун
+     нусь+V+IV+Mod/nec+ScSg3: нубцу
+     нусь+V+IV+Mod/nec+ScDu1: нубцуни’
+     нусь+V+IV+Mod/nec+ScDu2: нубцуди’
+     нусь+V+IV+Mod/nec+ScDu3: нубцуху’
+     нусь+V+IV+Mod/nec+ScPl1: нубцува”
+     нусь+V+IV+Mod/nec+ScPl2: нубцуда”
+     нусь+V+IV+Mod/nec+ScPl3: нубцу”
+     нусь+V+IV+Mod/int+ScSg1: нусадм’
+     нусь+V+IV+Mod/int+ScSg2: нусан
+     нусь+V+IV+Mod/int+ScSg3: нуса
+     нусь+V+IV+Mod/int+ScDu1: нусани’
+     нусь+V+IV+Mod/int+ScDu2: нусади’
+     нусь+V+IV+Mod/int+ScDu3: нусаха’
+     нусь+V+IV+Mod/int+ScPl1: нусава”
+     нусь+V+IV+Mod/int+ScPl2: нусада”
+     нусь+V+IV+Mod/int+ScPl3: нуса”
+     нусь+V+IV+Mod/narr+Aor+ScSg1: нувэдм’
+     нусь+V+IV+Mod/narr+Aor+ScSg2: нувэн
+     нусь+V+IV+Mod/narr+Aor+ScSg3: нувы
+     нусь+V+IV+Mod/narr+Aor+ScDu1: нувэни’
+     нусь+V+IV+Mod/narr+Aor+ScDu2: нувэди’
+     нусь+V+IV+Mod/narr+Aor+ScDu3: нувэхэ’
+     нусь+V+IV+Mod/narr+Aor+ScPl1: нувэва”
+     нусь+V+IV+Mod/narr+Aor+ScPl2: нувэда”
+     нусь+V+IV+Mod/narr+Aor+ScPl3: нувы”
+     нусь+V+IV+Mod/narr+Prt1+ScSg1: нувэдамзь
+     нусь+V+IV+Mod/narr+Prt1+ScSg2: нувэнась
+     нусь+V+IV+Mod/narr+Prt1+ScSg3: [нувысь, нувэсь]
+     нусь+V+IV+Mod/narr+Prt1+ScDu1: нувэнинзь
+     нусь+V+IV+Mod/narr+Prt1+ScDu2: нувэдинзь
+     нусь+V+IV+Mod/narr+Prt1+ScDu3: нувэхэнзь
+     нусь+V+IV+Mod/narr+Prt1+ScPl1: нувэваць
+     нусь+V+IV+Mod/narr+Prt1+ScPl2: нувэдаць
+     нусь+V+IV+Mod/narr+Prt1+ScPl3: [нувыць, нувэць]
+     нусь+V+IV+Mod/prob+Aor+ScSg1: нунакэдм’
+     нусь+V+IV+Mod/prob+Aor+ScSg2: нунакэн
+     нусь+V+IV+Mod/prob+Aor+ScSg3: нунакы
+     нусь+V+IV+Mod/prob+Aor+ScDu1: нунакэни’
+     нусь+V+IV+Mod/prob+Aor+ScDu2: нунакэди’
+     нусь+V+IV+Mod/prob+Aor+ScDu3: нунакэхэ’
+     нусь+V+IV+Mod/prob+Aor+ScPl1: нунакэва”
+     нусь+V+IV+Mod/prob+Aor+ScPl2: нунакэда”
+     нусь+V+IV+Mod/prob+Aor+ScPl3: нунакы”
+     нусь+V+IV+Mod/obl+ScSg1: нубцакэдм’
+     нусь+V+IV+Mod/obl+ScSg2: нубцакэн
+     нусь+V+IV+Mod/obl+ScSg3: нубцакы
+     нусь+V+IV+Mod/obl+ScDu1: нубцакэни’
+     нусь+V+IV+Mod/obl+ScDu2: нубцакэди’
+     нусь+V+IV+Mod/obl+ScDu3: нубцакэхэ’
+     нусь+V+IV+Mod/obl+ScPl1: нубцакэва”
+     нусь+V+IV+Mod/obl+ScPl2: нубцакэда”
+     нусь+V+IV+Mod/obl+ScPl3: нубцакы”
+     нусь+V+IV+Mod/impfappr+Aor+ScSg1: нунарахадм’
+     нусь+V+IV+Mod/impfappr+Aor+ScSg2: нунарахан
+     нусь+V+IV+Mod/impfappr+Aor+ScSg3: нунараха
+     нусь+V+IV+Mod/impfappr+Aor+ScDu1: нунарахани’
+     нусь+V+IV+Mod/impfappr+Aor+ScDu2: нунарахади’
+     нусь+V+IV+Mod/impfappr+Aor+ScDu3: нунарахаха’
+     нусь+V+IV+Mod/impfappr+Aor+ScPl1: нунарахава”
+     нусь+V+IV+Mod/impfappr+Aor+ScPl2: нунарахада”
+     нусь+V+IV+Mod/impfappr+Aor+ScPl3: нунараха”
+     нусь+V+IV+Mod/impfappr+Prt1+ScSg1: нунарахадамзь
+     нусь+V+IV+Mod/impfappr+Prt1+ScSg2: нунараханась
+     нусь+V+IV+Mod/impfappr+Prt1+ScSg3: нунарахась
+     нусь+V+IV+Mod/impfappr+Prt1+ScDu1: нунараханинзь
+     нусь+V+IV+Mod/impfappr+Prt1+ScDu2: нунарахадинзь
+     нусь+V+IV+Mod/impfappr+Prt1+ScDu3: нунарахаханзь
+     нусь+V+IV+Mod/impfappr+Prt1+ScPl1: нунарахаваць
+     нусь+V+IV+Mod/impfappr+Prt1+ScPl2: нунарахадаць
+     нусь+V+IV+Mod/impfappr+Prt1+ScPl3: нунарахаць
+     нусь+V+IV+Mod/perfappr+ScSg1: нувэрахадм’
+     нусь+V+IV+Mod/perfappr+ScSg2: нувэрахан
+     нусь+V+IV+Mod/perfappr+ScSg3: нувэраха
+     нусь+V+IV+Mod/perfappr+ScDu1: нувэрахани’
+     нусь+V+IV+Mod/perfappr+ScDu2: нувэрахади’
+     нусь+V+IV+Mod/perfappr+ScDu3: нувэрахаха’
+     нусь+V+IV+Mod/perfappr+ScPl1: нувэрахава”
+     нусь+V+IV+Mod/perfappr+ScPl2: нувэрахада”
+     нусь+V+IV+Mod/perfappr+ScPl3: нувэраха”
+     нусь+V+IV+Mod/futappr+ScSg1: [нувандархадм’, нувндархадм’]
+     нусь+V+IV+Mod/futappr+ScSg2: [нувандархан, нувндархан]
+     нусь+V+IV+Mod/futappr+ScSg3: [нувандарха, нувндарха]
+     нусь+V+IV+Mod/futappr+ScDu1: [нувандархани’, нувндархани’]
+     нусь+V+IV+Mod/futappr+ScDu2: [нувандархади’, нувндархади’]
+     нусь+V+IV+Mod/futappr+ScDu3: [нувандархаха’, нувндархаха’]
+     нусь+V+IV+Mod/futappr+ScPl1: [нувандархава”, нувндархава”]
+     нусь+V+IV+Mod/futappr+ScPl2: [нувандархада”, нувндархада”]
+     нусь+V+IV+Mod/futappr+ScPl3: [нувандарха”, нувндарха”]
+     нусь+V+IV+Mod/sup+ScSg1: нуванӈгабядм’
+     нусь+V+IV+Mod/sup+ScSg2: нуванӈгабян
+     нусь+V+IV+Mod/sup+ScSg3: нуванӈгабя
+     нусь+V+IV+Mod/sup+ScDu1: нуванӈгабяни’
+     нусь+V+IV+Mod/sup+ScDu2: нуванӈгабяди’
+     нусь+V+IV+Mod/sup+ScDu3: нуванӈгабяха’
+     нусь+V+IV+Mod/sup+ScPl1: нуванӈгабява”
+     нусь+V+IV+Mod/sup+ScPl2: нуванӈгабяда”
+     нусь+V+IV+Mod/sup+ScPl3: нуванӈгабя”
+     нусь+V+IV+Mod/hyp+ScSg1: нурхавэдм’
+     нусь+V+IV+Mod/hyp+ScSg2: нурхавэн
+     нусь+V+IV+Mod/hyp+ScSg3: нурхавы
+     нусь+V+IV+Mod/hyp+ScDu1: нурхавэни’
+     нусь+V+IV+Mod/hyp+ScDu2: нурхавэди’
+     нусь+V+IV+Mod/hyp+ScDu3: нурхавэхэ’
+     нусь+V+IV+Mod/hyp+ScPl1: нурхавэва”
+     нусь+V+IV+Mod/hyp+ScPl2: нурхавэда”
+     нусь+V+IV+Mod/hyp+ScPl3: нурхавы”
+     нусь+V+IV+Mod/perfprob+ScSg1: нувэкэдм’
+     нусь+V+IV+Mod/perfprob+ScSg2: нувэкэн
+     нусь+V+IV+Mod/perfprob+ScSg3: нувэкы
+     нусь+V+IV+Mod/perfprob+ScDu1: нувэкэни’
+     нусь+V+IV+Mod/perfprob+ScDu2: нувэкэди’
+     нусь+V+IV+Mod/perfprob+ScDu3: нувэкэхэ’
+     нусь+V+IV+Mod/perfprob+ScPl1: нувэкэва”
+     нусь+V+IV+Mod/perfprob+ScPl2: нувэкэда”
+     нусь+V+IV+Mod/perfprob+ScPl3: нувэкы”
+     нусь+V+IV+Mod/rep+ScSg1: нувнадм’
+     нусь+V+IV+Mod/rep+ScSg2: нувнан
+     нусь+V+IV+Mod/rep+ScSg3: нувна
+     нусь+V+IV+Mod/rep+ScDu1: нувнани’
+     нусь+V+IV+Mod/rep+ScDu2: нувнади’
+     нусь+V+IV+Mod/rep+ScDu3: нувнаха’
+     нусь+V+IV+Mod/rep+ScPl1: нувнава”
+     нусь+V+IV+Mod/rep+ScPl2: нувнада”
+     нусь+V+IV+Mod/rep+ScPl3: нувна”
+     нусь+V+IV+Mod/des+ScSg1: нурвадм’
+     нусь+V+IV+Mod/des+ScSg2: нурван
+     нусь+V+IV+Mod/des+ScSg3: нурва
+     нусь+V+IV+Mod/des+ScDu1: нурвани’
+     нусь+V+IV+Mod/des+ScDu2: нурвади’
+     нусь+V+IV+Mod/des+ScDu3: нурваха’
+     нусь+V+IV+Mod/des+ScPl1: нурвава”
+     нусь+V+IV+Mod/des+ScPl2: нурвада”
+     нусь+V+IV+Mod/des+ScPl3: нурва”
+     нусь+V+IV+Fut+Ind+Aor+ScSg1: нуӈгудм’
+     нусь+V+IV+Fut+Ind+Aor+ScSg2: нуӈгун
+     нусь+V+IV+Fut+Ind+Aor+ScSg3: нуӈгу
+     нусь+V+IV+Fut+Ind+Aor+ScDu1: нуӈгуни’
+     нусь+V+IV+Fut+Ind+Aor+ScDu2: нуӈгуди’
+     нусь+V+IV+Fut+Ind+Aor+ScDu3: нуӈгуху’
+     нусь+V+IV+Fut+Ind+Aor+ScPl1: нуӈгува”
+     нусь+V+IV+Fut+Ind+Aor+ScPl2: нуӈгуда”
+     нусь+V+IV+Fut+Ind+Aor+ScPl3: нуӈгу”
+     нусь+V+IV+Fut+Ind+Prt1+ScSg1: нуӈгудамзь
+     нусь+V+IV+Fut+Ind+Prt1+ScSg2: нуӈгунась
+     нусь+V+IV+Fut+Ind+Prt1+ScSg3: нуӈгусь
+     нусь+V+IV+Fut+Ind+Prt1+ScDu1: нуӈгунинзь
+     нусь+V+IV+Fut+Ind+Prt1+ScDu2: нуӈгудинзь
+     нусь+V+IV+Fut+Ind+Prt1+ScDu3: нуӈгухунзь
+     нусь+V+IV+Fut+Ind+Prt1+ScPl1: нуӈгуваць
+     нусь+V+IV+Fut+Ind+Prt1+ScPl2: нуӈгудаць
+     нусь+V+IV+Fut+Ind+Prt1+ScPl3: нуӈгуць
+     нусь+V+IV+Fut+Mod/prob+Aor+ScSg1: [нуӈгодакэдм’, нуӈгоданакэдм’]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScSg2: [нуӈгодакэн, нуӈгоданакэн]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScSg3: [нуӈгодакы, нуӈгоданакы]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScDu1: [нуӈгодакэни’, нуӈгоданакэни’]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScDu2: [нуӈгодакэди’, нуӈгоданакэди’]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScDu3: [нуӈгодакэхэ’, нуӈгоданакэхэ’]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScPl1: [нуӈгодакэва”, нуӈгоданакэва”]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScPl2: [нуӈгодакэда”, нуӈгоданакэда”]
+     нусь+V+IV+Fut+Mod/prob+Aor+ScPl3: [нуӈгодакы”, нуӈгоданакы”]
+     нусь+V+IV+Prec+Hort+ScSg1: [нухурцюдм’, нухурцядм’]
+     нусь+V+IV+Prec+Hort+ScDu1: [нухурцюни’, нухурцяни’]
+     нусь+V+IV+Prec+Hort+ScPl1: [нухурцюва”, нухурцява”]
+     нусь+V+IV+Prec+Imprt+ScSg2: нухур”
+     нусь+V+IV+Prec+Imprt+ScDu2: [нухур”ӈади’, нухурӈади’]
+     нусь+V+IV+Prec+Imprt+ScPl2: [нухур”ӈада”, нухурӈада”]
+     нусь+V+IV+Prec+Opt+ScSg3: [нухур”ӈая, нухурӈая]
+     нусь+V+IV+Prec+Opt+ScDu3: [нухур”ӈаяха’, нухурӈаяха’]
+     нусь+V+IV+Prec+Opt+ScPl3: [нухур”ӈая”, нухурӈая”]
+     нусь+V+IV+Hab+Ind+Aor+ScSg1: [нусьтыдм’, нусетыдм’]
+     нусь+V+IV+Hab+Ind+Aor+ScSg2: [нусьтын, нусетын]
+     нусь+V+IV+Hab+Ind+Aor+ScSg3: [нусьты, нусеты]
+     нусь+V+IV+Hab+Ind+Aor+ScDu1: [нусьтыни’, нусетыни’]
+     нусь+V+IV+Hab+Ind+Aor+ScDu2: [нусьтыди’, нусетыди’]
+     нусь+V+IV+Hab+Ind+Aor+ScDu3: [нусьтыхы’, нусетыхы’]
+     нусь+V+IV+Hab+Ind+Aor+ScPl1: [нусьтыва”, нусетыва”]
+     нусь+V+IV+Hab+Ind+Aor+ScPl2: [нусьтыда”, нусетыда”]
+     нусь+V+IV+Hab+Ind+Aor+ScPl3: [нусьты”, нусеты”]
+     нусь+V+IV+Hab+Mod/narr+ScSg1: [нусьтавэдм’, нусетавэдм’]
+     нусь+V+IV+Hab+Mod/narr+ScSg2: [нусьтавэн, нусетавэн]
+     нусь+V+IV+Hab+Mod/narr+ScSg3: [нусьтавы, нусетавы]
+     нусь+V+IV+Hab+Mod/narr+ScDu1: [нусьтавэни’, нусетавэни’]
+     нусь+V+IV+Hab+Mod/narr+ScDu2: [нусьтавэди’, нусетавэди’]
+     нусь+V+IV+Hab+Mod/narr+ScDu3: [нусьтавэхэ’, нусетавэхэ’]
+     нусь+V+IV+Hab+Mod/narr+ScPl1: [нусьтавэва”, нусетавэва”]
+     нусь+V+IV+Hab+Mod/narr+ScPl2: [нусьтавэда”, нусетавэда”]
+     нусь+V+IV+Hab+Mod/narr+ScPl3: [нусьтавы”, нусетавы”]
