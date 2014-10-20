@@ -10,7 +10,7 @@
 
 LEXICON Root
 HUNDREDSM ;		     ! 200M
-юрˮ:1 HUNDREDM ; ! 100M
+1:юрˮ HUNDREDM ; ! 100M
 TENSM ;		         ! 20-99M
 TEENSM ;	         ! 10-19M
 1MILJON ;            ! 1M
@@ -18,11 +18,11 @@ ONESM ;		         ! 1-9M
 1GIGA ;            	 ! 1G
 ONESG ;		         ! 1-9G
 HUNDREDST ;	         ! 200000-999999
-юрˮ:1 HUNDREDT ; ! 100000-100999
+1:юрˮ HUNDREDT ; ! 100000-100999
 TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
-ёнарˮ% :1 THOUSAND ; ! 1000-1999
+1:ёнарˮ%  THOUSAND ; ! 1000-1999
 ORD_THOUSAND ;
 ORD_HUNDREDS ;
 
@@ -32,107 +32,106 @@ TEENS ;			     ! 10-19
 ONES ;			     ! 1-9
 
 LEXICON ONESG
-ӈопой% :  1GIGA ;
+:ӈопой%   1GIGA ;
 
-сидя:2 GIGA ;
-няхарˮ:3 GIGA ;
-тет:4 GIGA ;
+2:сидя GIGA ;
+3:няхарˮ GIGA ;
+4:тет GIGA ;
 
-самляӈг:5 GIGA ;
-матˮ:6 GIGA ;
-сиˮив:7 GIGA ;
+5:самляӈг GIGA ;
+6:матˮ GIGA ;
+7:сиˮив GIGA ;
 
-сидндет:8 GIGA ;
-хасуюˮ:9 GIGA ; 
+8:сидндет GIGA ;
+9:хасуюˮ GIGA ; 
 
 LEXICON 1GIGA
-миллиард% :1 OVERMILLIONS ;
+1:миллиард%  OVERMILLIONS ;
 
 LEXICON GIGA
-% миллиард% : OVERMILLIONS ;
+:% миллиард%  OVERMILLIONS ;
 
 LEXICON HUNDREDSM
 
-сидя:2 CUODIM ;
-няхарˮ:3 CUODIM ;
-тетˮ:4 CUODIM ;
+2:сидя CUODIM ;
+3:няхарˮ CUODIM ;
+4:тетˮ CUODIM ;
 
-самляӈг:5 CUODIM ;
-матˮ:6 CUODIM ;
-сиˮив:7 CUODIM ;
+5:самляӈг CUODIM ;
+6:матˮ CUODIM ;
+7:сиˮив CUODIM ;
 
-сидндет:8 CUODIM ;
-хасуюˮ:9 CUODIM ;
+8:сидндет CUODIM ;
+9:хасуюˮ CUODIM ;
 
 LEXICON CUODIM
-юрˮ: HUNDREDM ; !200, not 100
+:юрˮ HUNDREDM ; !200, not 100
 
 LEXICON HUNDREDM
 TENSM ;
 TEENSM ;
-:%0 ONESM ;
-:%0%0 MILJON ;
+%0: ONESM ;
+%0%0: MILJON ;
 
 LEXICON TEENSM
-:1 TEENM ;
+1: TEENM ;
 
 LEXICON TEENM
-ӈопой:1 LOHKAIM ;
+1:ӈопой LOHKAIM ;
 
-сидя:2 LOHKAIM ;
-няхарˮ:3 LOHKAIM ;
-тет:4 LOHKAIM ;
+2:сидя LOHKAIM ;
+3:няхарˮ LOHKAIM ;
+4:тет LOHKAIM ;
 
-самляӈг:5 LOHKAIM ;
-матˮ:6 LOHKAIM ;
-сиˮив:7 LOHKAIM ;
+5:самляӈг LOHKAIM ;
+6:матˮ LOHKAIM ;
+7:сиˮив LOHKAIM ;
 
-сидндет:8 LOHKAIM ;
-хасуюˮ:9 LOHKAIM ;
+8:сидндет LOHKAIM ;
+9:хасуюˮ LOHKAIM ;
 
 LEXICON LOHKAIM
-% яӈгня: MILJON ;
+:% яӈгня MILJON ;
 
 LEXICON TENSM
-юˮ:1%0 MILJON ;
+1%0:юˮ MILJON ;
 
-сидя:2 LÅGEVM ;
-няхарˮ:3 LÅGEVM ;
-тет:4 LÅGEVM ;
+2:сидя LÅGEVM ;
+3:няхарˮ LÅGEVM ;
+4:тет LÅGEVM ;
 
-самляӈг:5 LÅGEVM ;
-матˮ:6 LÅGEVM ;
-сиˮив:7 LÅGEVM ;
+5:самляӈг LÅGEVM ;
+6:матˮ LÅGEVM ;
+7:сиˮив LÅGEVM ;
 
-
-сидндет:8 LÅGEVM ;
-хасуюˮ:9 LÅGEVM ;
+8:сидндет LÅGEVM ;
+9:хасуюˮ LÅGEVM ;
 
 LEXICON LÅGEVM
-юˮ:%0 MILJON ;
-юˮ: ONESM ;
+%0:юˮ MILJON ;
+:юˮ ONESM ;
 
 LEXICON ONESM
-ӈопой% :  1MILJON ;
+:ӈопой%   1MILJON ;
 
-сидя:2 MILJON ;
-няхарˮ:3 MILJON ;
-тет:4 MILJON ;
+2:сидя MILJON ;
+3:няхарˮ MILJON ;
+4:тет MILJON ;
 
-самляӈг:5 MILJON ;
-матˮ:6 MILJON ;
-сиˮив:7 MILJON ;
+5:самляӈг MILJON ;
+6:матˮ MILJON ;
+7:сиˮив MILJON ;
 
 
-сидндет:8 MILJON ;
-хасуюˮ:9 MILJON ; 
+8:сидндет MILJON ;
+9:хасуюˮ MILJON ; 
 
 LEXICON 1MILJON
-миллион% :1 OVERTHOUSANDS ;
-миллион% :1 OVERTHOUSANDS ;
+1:миллион%  OVERTHOUSANDS ;
+1:миллион%  OVERTHOUSANDS ;
 
 LEXICON MILJON
-% миллион% : OVERTHOUSANDS ;
+:% миллион%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -140,123 +139,121 @@ LEXICON MILJON
 
 LEXICON OVERMILLIONS
 HUNDREDSM ;
-юрˮ:1 HUNDREDM ;
-:%0 TENSM ;
-:%0 TEENSM ;
-:%0%0 1MILJON ;
-:%0%0 ONESM ;
-:%0%0%0 HUNDREDST ;		        ! x00.000.000
-юрˮ:%0%0%01 HUNDREDT ;    ! 100.000.000
-:%0%0%0%0 TENST ;		        !  20.000.000
-:%0%0%0%0 TEENST ;		    !  10.000.000
-:%0%0%0%0%0 ONEST ;		    !   2.000.000
-ёнарˮ:%0%0%0%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0%0%0%0 TENS ;
-:%0%0%0%0%0%0%0 TEENS ;
-:%0%0%0%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0%0%0%0 # ;	     !  x000000
+1:юрˮ HUNDREDM ;
+%0: TENSM ;
+%0: TEENSM ;
+%0%0: 1MILJON ;
+%0%0: ONESM ;
+%0%0%0:%  HUNDREDST ;		        ! x00.000.000
+%0%0%01:юрˮ%  HUNDREDT ;    ! 100.000.000
+%0%0%0%0: TENST ;		        !  20.000.000
+%0%0%0%0: TEENST ;		    !  10.000.000
+%0%0%0%0%0:%  ONEST ;		    !   2.000.000
+%0%0%0%0%01:ёнарˮ THOUSAND ;	!   1.000.000
+%0%0%0%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0%0%0%0: TENS ;
+%0%0%0%0%0%0%0: TEENS ;
+%0%0%0%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0%0%0%0: # ;	     !  x000000
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		        ! x00.000.000
-% юрˮ:1 HUNDREDT ;    ! 100.000.000
-:%0 TENST ;		        !  20.000.000
-:%0 TEENST ;		    !  10.000.000
-:%0%0 ONEST ;		    !   2.000.000
-% ёнарˮ:%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0 TENS ;
-:%0%0%0%0 TEENS ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 # ;	     !  x000000
+1:% юрˮ%  HUNDREDT ;    ! 100.000.000
+%0: TENST ;		        !  20.000.000
+%0: TEENST ;		    !  10.000.000
+%0%0:%  ONEST ;		    !   2.000.000
+%0%01:% ёнарˮ THOUSAND ;	!   1.000.000
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0: TENS ;
+%0%0%0%0: TEENS ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0: # ;	     !  x000000
 
 LEXICON HUNDREDST
 
-сидя:2 CUODIT ;
-няхарˮ:3 CUODIT ;	! 300000-399999
-тет:4 CUODIT ;	! 400000-499999
+2:сидя%  CUODIT ;
+3:няхарˮ%  CUODIT ;	! 300000-399999
+4:тет%  CUODIT ;	! 400000-499999
 
-самляӈг:5 CUODIT ;	! 500000-599999
-матˮ:6 CUODIT ;	! 600000-699999
-сиˮив:7 CUODIT ;
+5:самляӈг%  CUODIT ;	! 500000-599999
+6:матˮ%  CUODIT ;	! 600000-699999
+7:сиˮив%  CUODIT ;
 
-сидндет:8 CUODIT ;	! 800000-899999
-хасуюрˮ:9 HUNDREDT ;	! 900000-999999
+8:сидндет%  CUODIT ;	! 800000-899999
+9:хасуюрˮ%  HUNDREDT ;	! 900000-999999
 
 LEXICON CUODIT
-юрˮ: HUNDREDT ;	! 200000-199999
+:юрˮ%  HUNDREDT ;	! 200000-199999
 
 LEXICON HUNDREDT	     ! X = 1-9, Y = 0-9
 TENST ;			     ! X2XYYY, X10YYY
 TEENST ;		     ! X1XYYY
-ӈопой:%01 THOUSANDS ;
-:%0 ONEST ;		     ! XX0YYY
-:%0%0 THOUSANDS ;	 ! X00YYY
+%01:ӈопой THOUSANDS ;
+%0:%  ONEST ;		     ! XX0YYY
+%0%0: THOUSANDS ;	 ! X00YYY
 
 LEXICON TEENST
-:1 TEENT ;
+1: TEENT ;
 
 LEXICON TEENT
-юˮ:%0 THOUSANDS ;
-ӈопой:1 LOHKAIT ;
+%0:юˮ THOUSANDS ;
+1:ӈопой LOHKAIT ;
 
-сидя:2 LOHKAIT ;
-няхарˮ:3 LOHKAIT ;
-тет:4 LOHKAIT ;
+2:сидя LOHKAIT ;
+3:няхарˮ LOHKAIT ;
+4:тет LOHKAIT ;
 
-самляӈг:5 LOHKAIT ;
-матˮ:6 LOHKAIT ;
-сиˮив:7 LOHKAIT ;
+5:самляӈг LOHKAIT ;
+6:матˮ LOHKAIT ;
+7:сиˮив LOHKAIT ;
 
-
-сидндет:8 LOHKAIT ;
-хасуюˮ:9 LOHKAIT ;
+8:сидндет LOHKAIT ;
+9:хасуюˮ LOHKAIT ;
 
 LEXICON LOHKAIT
-% яӈгня: THOUSANDS ;
+:% яӈгня THOUSANDS ;
 
 LEXICON TENST
 
-сидя:2 LÅGEVT ;
-няхарˮ:3 LÅGEVT ;
-тет:4 LÅGEVT ;
+2:сидя LÅGEVT ;
+3:няхарˮ LÅGEVT ;
+4:тет LÅGEVT ;
 
-самляӈг:5 LÅGEVT ;
-матˮ:6 LÅGEVT ;
-сиˮив:7 LÅGEVT ;
+5:самляӈг LÅGEVT ;
+6:матˮ LÅGEVT ;
+7:сиˮив LÅGEVT ;
 
-сидндет:8 LÅGEVT ;
-хасуюˮ:9 LÅGEVT ;
+8:сидндет LÅGEVT ;
+9:хасуюˮ LÅGEVT ;
 
 LEXICON LÅGEVT
-юˮ:%0 THOUSANDS ;
-юˮ#ӈопой#ёнарˮ:1 THOUSAND ;
-юˮ: ONEST ;
+%0:юˮ THOUSANDS ;
+1:юˮ% ӈопой% ёнарˮ THOUSAND ;
+:юˮ%  ONEST ;
 
 LEXICON ONEST
 
-сидя:2 THOUSANDS ;
-няхарˮ:3 THOUSANDS ;
-тет:4 THOUSANDS ;
+2:сидя THOUSANDS ;
+3:няхарˮ THOUSANDS ;
+4:тет THOUSANDS ;
 
-самляӈг:5 THOUSANDS ;
-матˮ:6 THOUSANDS ;
-сиˮив:7 THOUSANDS ;
+5:самляӈг THOUSANDS ;
+6:матˮ THOUSANDS ;
+7:сиˮив THOUSANDS ;
 
-
-сидндет:8 THOUSANDS ;
-хасуюˮ:9 THOUSANDS ;
+8:сидндет THOUSANDS ;
+9:хасуюˮ THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-% ёнарˮ% : THOUSAND ;
+:% ёнарˮ%  THOUSAND ;
 
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1020-1099
-:%0 TEENS ;	   ! 1010-1019
-:%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 # ;	   ! 1000
+%0: TENS ;	   ! 1020-1099
+%0: TEENS ;	   ! 1010-1019
+%0%0: ONES ;	   ! 1001-1009
+%0%0%0: # ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -264,53 +261,53 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-юрˮ:1 HUNDRED ;
+1:юрˮ HUNDRED ;
 
 
 LEXICON HUNDREDS
 
-сидя:2 CUODI ;
-няхарˮ:3 CUODI ;
-тет:4 CUODI ;
-самляӈг:5 CUODI ;
-матˮ:6 CUODI ;
-сиˮив:7 CUODI ;
-сидндет:8 CUODI ;
-хасуёнарˮ:9 HUNDRED ;
+2:сидя CUODI ;
+3:няхарˮ CUODI ;
+4:тет CUODI ;
+5:самляӈг CUODI ;
+6:матˮ CUODI ;
+7:сиˮив CUODI ;
+8:сидндет CUODI ;
+9:хасуёнарˮ HUNDRED ;
 
 LEXICON CUODI
-% юрˮ: HUNDRED ;
+:% юрˮ HUNDRED ;
 
 LEXICON HUNDRED
-% : TENS ;
-% : TEENS ;
-% :%0 ONES ;
-:%0%0 # ;
+:%  TENS ;
+:%  TEENS ;
+%0:%  ONES ;
+%0%0: # ;
 
 LEXICON TEENS
-:1 TEEN ;
+1: TEEN ;
 !яӈгня:1 TEEN2 ;
 
 LEXICON TEEN
-ӈопой:1 LOHKAI ;
-сидя:2 LOHKAI ;
-няхарˮ:3 LOHKAI ;
-тет:4 LOHKAI ;
-самляӈг:5 LOHKAI ;
-матˮ:6 LOHKAI ;
-сиˮив:7 LOHKAI ;
-сидндет:8 LOHKAI ;
-хасуюˮ:9 LOHKAI ;
+1:ӈопой LOHKAI ;
+2:сидя LOHKAI ;
+3:няхарˮ LOHKAI ;
+4:тет LOHKAI ;
+5:самляӈг LOHKAI ;
+6:матˮ LOHKAI ;
+7:сиˮив LOHKAI ;
+8:сидндет LOHKAI ;
+9:хасуюˮ LOHKAI ;
 
-нюртей% яӈгня:1%. # ;
-нябимдей% яӈгня:2%. # ;
-няхарамдэй% яӈгня:3%. # ;
-тетимдей% яӈгня:4%. # ;
-самлянзимдей% яӈгня:5%. # ;
-матдомдэй% яӈгня:6%. # ;
-сиˮивмдей% яӈгня:7%. # ;
-сиднтетимдей% яӈгня:8%. # ;
-хасуюдимдей% яӈгня:9%. # ;
+1%.:нюртей% яӈгня # ;
+2%.:нябимдей% яӈгня # ;
+3%.:няхарамдэй% яӈгня  # ;
+4%.:тетимдей% яӈгня  # ;
+5%.:самлянзимдей% яӈгня  # ;
+6%.:матдомдэй% яӈгня  # ;
+7%.:сиˮивмдей% яӈгня  # ;
+8%.:сиднтетимдей% яӈгня  # ;
+9%.:хасуюдимдей% яӈгня  # ;
 
 
 ! LEXICON TEEN2
@@ -329,33 +326,33 @@ LEXICON TEEN
 ! хасуюˮ:9 # ;
 
 LEXICON LOHKAI
-% яӈгня: # ;
+:% яӈгня # ;
 
 LEXICON TENS
-юˮ:1%0 # ;
+1%0:юˮ # ;
 
-сидя% юˮ% :2 LÅGEV ;
-няхарˮ% юˮ% :3 LÅGEV ;
-тет% юˮ% :4 LÅGEV ;
-самляӈг% юˮ% :5 LÅGEV ;
-матˮ% юˮ% :6 LÅGEV ;
-сиˮив% юˮ% :7 LÅGEV ;
-сидндет% юˮ% :8 LÅGEV ;
-хасуюрˮ% :9 LÅGEV ;
+2:сидя% юˮ%   LÅGEV ;
+3:няхарˮ% юˮ%   LÅGEV ;
+4:тет% юˮ%   LÅGEV ;
+5:самляӈг% юˮ%   LÅGEV ;
+6:матˮ% юˮ%   LÅGEV ;
+7:сиˮив% юˮ%   LÅGEV ;
+8:сидндет% юˮ%   LÅGEV ;
+9:хасуюрˮ%   LÅGEV ;
 
-юдимдей:1%0. # ;
-нябимдэй% юˮ:2%0%. # ;
-няхарамдэй% юˮ:3%0%. # ;
-тетимдей% юˮ:4%0%. # ;
-самлянзимдей% юˮ:5%0%. # ;
-матдомдэй% юˮ:6%0%. # ;
-сиˮивмдей% юˮ:7%0%. # ;
-сиднтетимдей% юˮ:8%0%. # ;
-хасуюримдей:9%0%. # ;
+1%0%.:юдимдей  # ;
+2%0%.:нябимдэй% юˮ  # ;
+3%0%.:няхарамдэй% юˮ  # ;
+4%0%.:тетимдей% юˮ  # ;
+5%0%.:самлянзимдей% юˮ  # ;
+6%0%.:матдомдэй% юˮ  # ;
+7%0%.:сиˮивмдей% юˮ  # ;
+8%0%.:сиднтетимдей% юˮ  # ;
+9%0%.:хасуюримдей  # ;
 
 
 LEXICON LÅGEV
-:%0 # ;
+%0: # ;
 : ONES ;
 
 LEXICON ONES
@@ -363,47 +360,47 @@ LEXICON ONES
  ORDINAL ;
 
 LEXICON CARDINAL
-ӈопой:1 # ;
-сидя:2 # ;
-няхарˮ:3 # ;
-тет:4 # ;
-самляӈг:5 # ;
-матˮ:6 # ;
-сиˮив:7 # ;
-сидндет:8 # ;
-хасуюˮ:9 # ;
+1:ӈопой # ;
+2:сидя # ;
+3:няхарˮ # ;
+4:тет # ;
+5:самляӈг # ;
+6:матˮ # ;
+7:сиˮив # ;
+8:сидндет # ;
+9:хасуюˮ # ;
 
 LEXICON ORDINAL
- :%0%. # ;
-нюртей:1%. # ;
-нябимдей:2%. # ;
-няхарамдэй:3%. # ;
-тетимдей:4%. # ;
-самлянзимдей:5%. # ;
-матдомдэй:6%. # ;
-сибимдей:7%. # ;
-!сиˮивумдей:7%. # ;
-сиднтетимдей:8%. # ;
-хасуюдимдей:9%. # ;
+%0%.: # ;
+1%.:нюртей # ; 
+2%.:нябимдей #  ;
+3%.:няхарамдэй #  ;
+4%.:тетимдей # ;
+5%.:самлянзимдей # ;
+6%.:матдомдэй # ;
+7%.:сибимдей # ;
+!сиˮивумдей # ;
+8%.:сиднтетимдей # ;
+9%.:хасуюдимдей # ;
 
 LEXICON ORD_HUNDREDT
-юрˮ% : ORDINAL ;
-юрˮ% : LÅGEV ;
-юрˮ% : ORD_1to99T ;
+:юрˮ%  ORDINAL ;
+:юрˮ%  LÅGEV ;
+:юрˮ%  ORD_1to99T ;
 
 LEXICON ORD_1to99T
- :%0 ORDINAL ;
- :1 ORD_THOUSAND ;
- :1 ORD_HUNDREDS ;
+%0: ORDINAL ;
+1: ORD_THOUSAND ;
+1: ORD_HUNDREDS ;
 !10to99T ;
 
 LEXICON ORD_THOUSAND
 ! % ёнарˮ% :%0%0 ORDINAL ;
-ёнримдей:%0%0%0%. # ;
-ёнрадимдей:%0%0%0%. # ;
+%0%0%0%.:ёнримдей # ;
+%0%0%0%.:ёнрадимдей # ;
 
 LEXICON ORD_HUNDREDS
 ! % юрˮ% :%0%0 ORDINAL ;
-юримдей:%0%0%. # ; 
+%0%0%.:юримдей # ; 
 
 
