@@ -1,0 +1,2805 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below) 
+# Then: run analyser, then correct. 
+
+
+  Verb - хось: # Verb 'to find / löytää' - full paradigm - Type 1, transitive
+  #_[1-A]_xo-_’löytää’_TV_=_1-syll_Vow-Stem_[MDTN-koodi_1]
+
+     хось+V+TV+Ger: хось
+     хось+V+TV+GerFin: хованзь
+     хось+V+TV+InfImprf+Nom+Sg+Abs: хова
+     хось+V+TV+InfImprf+Acc+Sg+Abs: ховам’
+     хось+V+TV+InfImprf+Gen+Sg+Abs: хова’
+     хось+V+TV+InfImprf+Dat+Sg+Abs: хован’
+     хось+V+TV+InfImprf+Loc+Sg+Abs: ховахана
+     хось+V+TV+InfImprf+Abl+Sg+Abs: ховахад
+     хось+V+TV+InfImprf+Pros+Sg+Abs: ховавна
+     хось+V+TV+InfImprf+Nom+Du+Abs: ховаха’
+     хось+V+TV+InfImprf+Acc+Du+Abs: ховаха’
+     хось+V+TV+InfImprf+Gen+Du+Abs: ховаха’
+     хось+V+TV+InfImprf+Nom+Pl+Abs: хова”
+     хось+V+TV+InfImprf+Acc+Pl+Abs: хоби
+     хось+V+TV+InfImprf+Gen+Pl+Abs: хоби”
+     хось+V+TV+InfImprf+Dat+Pl+Abs: ховаха”
+     хось+V+TV+InfImprf+Loc+Pl+Abs: ховаха”на
+     хось+V+TV+InfImprf+Abl+Pl+Abs: ховахат
+     хось+V+TV+InfImprf+Pros+Pl+Abs: хоби”мана
+     хось+V+TV+InfImprf+Sg+Nom+PxSg1: [ховав, ховами]
+#     хось+V+TV+InfImprf+Sg+Nom+PxSg1.2: ховами
+     хось+V+TV+InfImprf+Sg+Acc+PxSg1: [ховав, ховами]
+#     хось+V+TV+InfImprf+Sg+Acc+PxSg1.2: ховами
+     хось+V+TV+InfImprf+Sg+Gen+PxSg1: [хован, ховани]
+#     хось+V+TV+InfImprf+Sg+Gen+PxSg1.2: ховани
+     хось+V+TV+InfImprf+Sg+Dat+PxSg1: [ховахан, ховахани]
+#     хось+V+TV+InfImprf+Sg+Dat+PxSg1.2: ховахани
+     хось+V+TV+InfImprf+Sg+Loc+PxSg1: [ховаханан, ховаханани]
+#     хось+V+TV+InfImprf+Sg+Loc+PxSg1.2: ховаханани
+     хось+V+TV+InfImprf+Sg+Abl+PxSg1: [ховахадан, ховахадани, ховахадни]
+#     хось+V+TV+InfImprf+Sg+Abl+PxSg1.2: [ховахадани, ховахадни]
+     хось+V+TV+InfImprf+Sg+Pros+PxSg1: [ховавнан, ховавнани]
+#     хось+V+TV+InfImprf+Sg+Pros+PxSg1.2: ховавнани
+     хось+V+TV+InfImprf+Du+Nom+PxSg1: [ховахаюн, ховахаюни]
+#     хось+V+TV+InfImprf+Du+Nom+PxSg1.2: ховахаюни
+     хось+V+TV+InfImprf+Du+Acc+PxSg1: [ховахаюн, ховахаюни]
+#     хось+V+TV+InfImprf+Du+Acc+PxSg1.2: ховахаюни
+     хось+V+TV+InfImprf+Du+Gen+PxSg1: [ховахаюн, ховахаюни]
+#     хось+V+TV+InfImprf+Du+Gen+PxSg1.2: ховахаюни
+     хось+V+TV+InfImprf+Pl+Nom+PxSg1: [хобин, хобини]
+#     хось+V+TV+InfImprf+Pl+Nom+PxSg1.2: хобини
+     хось+V+TV+InfImprf+Pl+Acc+PxSg1: [хобин, хобини]
+#     хось+V+TV+InfImprf+Pl+Acc+PxSg1.2: хобини
+     хось+V+TV+InfImprf+Pl+Gen+PxSg1: [хоби”н, хоби”ни]
+#     хось+V+TV+InfImprf+Pl+Gen+PxSg1.2: хоби”ни
+     хось+V+TV+InfImprf+Pl+Dat+PxSg1: [ховаха”н, ховаха”ни]
+#     хось+V+TV+InfImprf+Pl+Dat+PxSg1.2: ховаха”ни
+     хось+V+TV+InfImprf+Pl+Loc+PxSg1: [ховаха”нан, ховаха”нани]
+#     хось+V+TV+InfImprf+Pl+Loc+PxSg1.2: ховаха”нани
+     хось+V+TV+InfImprf+Pl+Abl+PxSg1: [ховахатан, ховахатани, ховахатни]
+#     хось+V+TV+InfImprf+Pl+Abl+PxSg1.2: [ховахатани, ховахатни]
+     хось+V+TV+InfImprf+Pl+Pros+PxSg1: [хоби”манан, хоби”манани]
+#     хось+V+TV+InfImprf+Pl+Pros+PxSg1.2: хоби”манани
+     хось+V+TV+InfImprf+Sg+Nom+PxSg2: ховар
+     хось+V+TV+InfImprf+Sg+Acc+PxSg2: ховамд
+     хось+V+TV+InfImprf+Sg+Gen+PxSg2: хованд
+     хось+V+TV+InfImprf+Sg+Dat+PxSg2: ховаханд
+     хось+V+TV+InfImprf+Sg+Loc+PxSg2: ховахананд
+     хось+V+TV+InfImprf+Sg+Abl+PxSg2: ховахаданд
+     хось+V+TV+InfImprf+Sg+Pros+PxSg2: ховавнанд
+     хось+V+TV+InfImprf+Du+Nom+PxSg2: ховахаюд
+     хось+V+TV+InfImprf+Du+Acc+PxSg2: ховахаюд
+     хось+V+TV+InfImprf+Du+Gen+PxSg2: ховахают
+     хось+V+TV+InfImprf+Pl+Nom+PxSg2: хобид
+     хось+V+TV+InfImprf+Pl+Acc+PxSg2: хобид
+     хось+V+TV+InfImprf+Pl+Gen+PxSg2: хобит
+     хось+V+TV+InfImprf+Pl+Dat+PxSg2: ховахат
+     хось+V+TV+InfImprf+Pl+Loc+PxSg2: ховаха”нат
+     хось+V+TV+InfImprf+Pl+Abl+PxSg2: ховахатат
+     хось+V+TV+InfImprf+Pl+Pros+PxSg2: хоби”манат
+     хось+V+TV+InfImprf+Sg+Nom+PxSg3: ховада
+     хось+V+TV+InfImprf+Sg+Acc+PxSg3: ховамда
+     хось+V+TV+InfImprf+Sg+Gen+PxSg3: хованда
+     хось+V+TV+InfImprf+Sg+Dat+PxSg3: ховаханда
+     хось+V+TV+InfImprf+Sg+Loc+PxSg3: ховахананда
+     хось+V+TV+InfImprf+Sg+Abl+PxSg3: ховахаданда
+     хось+V+TV+InfImprf+Sg+Pros+PxSg3: ховавнанда
+     хось+V+TV+InfImprf+Du+Nom+PxSg3: ховахаюда
+     хось+V+TV+InfImprf+Du+Acc+PxSg3: ховахаюда
+     хось+V+TV+InfImprf+Du+Gen+PxSg3: ховахаюта
+     хось+V+TV+InfImprf+Pl+Nom+PxSg3: хобида
+     хось+V+TV+InfImprf+Pl+Acc+PxSg3: хобида
+     хось+V+TV+InfImprf+Pl+Gen+PxSg3: хобита
+     хось+V+TV+InfImprf+Pl+Dat+PxSg3: ховахата
+     хось+V+TV+InfImprf+Pl+Loc+PxSg3: ховаха”ната
+     хось+V+TV+InfImprf+Pl+Abl+PxSg3: [ховахатата, ховахатта]
+     хось+V+TV+InfImprf+Pl+Pros+PxSg3: хоби”маната
+     хось+V+TV+InfImprf+Sg+Nom+PxDu1: ховами’
+     хось+V+TV+InfImprf+Sg+Acc+PxDu1: ховами’
+     хось+V+TV+InfImprf+Sg+Gen+PxDu1: ховани’
+     хось+V+TV+InfImprf+Sg+Dat+PxDu1: ховахани’
+     хось+V+TV+InfImprf+Sg+Loc+PxDu1: ховаханани’
+     хось+V+TV+InfImprf+Sg+Abl+PxDu1: [ховахадани’, ховахадни’]
+     хось+V+TV+InfImprf+Sg+Pros+PxDu1: ховавнани’
+     хось+V+TV+InfImprf+Du+Nom+PxDu1: ховахаюни’
+     хось+V+TV+InfImprf+Du+Acc+PxDu1: ховахаюни’
+     хось+V+TV+InfImprf+Du+Gen+PxDu1: ховахаюни’
+     хось+V+TV+InfImprf+Pl+Nom+PxDu1: хобини’
+     хось+V+TV+InfImprf+Pl+Acc+PxDu1: хобини’
+     хось+V+TV+InfImprf+Pl+Gen+PxDu1: хоби”ни’
+     хось+V+TV+InfImprf+Pl+Dat+PxDu1: ховаха”ни’
+     хось+V+TV+InfImprf+Pl+Loc+PxDu1: ховаха”нани’
+     хось+V+TV+InfImprf+Pl+Abl+PxDu1: [ховахатани’, ховахатни’]
+     хось+V+TV+InfImprf+Pl+Pros+PxDu1: хоби”манани’
+     хось+V+TV+InfImprf+Sg+Nom+PxDu2: ховари’
+     хось+V+TV+InfImprf+Sg+Acc+PxDu2: ховамди’
+     хось+V+TV+InfImprf+Sg+Gen+PxDu2: хованди’
+     хось+V+TV+InfImprf+Sg+Dat+PxDu2: ховаханди’
+     хось+V+TV+InfImprf+Sg+Loc+PxDu2: ховахананди’
+     хось+V+TV+InfImprf+Sg+Abl+PxDu2: ховахаданди’
+     хось+V+TV+InfImprf+Sg+Pros+PxDu2: ховавнанди’
+     хось+V+TV+InfImprf+Du+Nom+PxDu2: ховахаюди’
+     хось+V+TV+InfImprf+Du+Acc+PxDu2: ховахаюди’
+     хось+V+TV+InfImprf+Du+Gen+PxDu2: ховахаюти’
+     хось+V+TV+InfImprf+Pl+Nom+PxDu2: хобиди’
+     хось+V+TV+InfImprf+Pl+Acc+PxDu2: хобиди’
+     хось+V+TV+InfImprf+Pl+Gen+PxDu2: хобити’
+     хось+V+TV+InfImprf+Pl+Dat+PxDu2: ховахати’
+     хось+V+TV+InfImprf+Pl+Loc+PxDu2: ховаха”нати’
+     хось+V+TV+InfImprf+Pl+Abl+PxDu2: [ховахатати’, ховахатти’]
+     хось+V+TV+InfImprf+Pl+Pros+PxDu2: хоби”манати’
+     хось+V+TV+InfImprf+Sg+Nom+PxDu3: ховади’
+     хось+V+TV+InfImprf+Sg+Acc+PxDu3: ховамди’
+     хось+V+TV+InfImprf+Sg+Gen+PxDu3: хованди’
+     хось+V+TV+InfImprf+Sg+Dat+PxDu3: ховаханди’
+     хось+V+TV+InfImprf+Sg+Loc+PxDu3: ховахананди’
+     хось+V+TV+InfImprf+Sg+Abl+PxDu3: ховахаданди’
+     хось+V+TV+InfImprf+Sg+Pros+PxDu3: ховавнанди’
+     хось+V+TV+InfImprf+Du+Nom+PxDu3: ховахаюди’
+     хось+V+TV+InfImprf+Du+Acc+PxDu3: ховахаюди’
+     хось+V+TV+InfImprf+Du+Gen+PxDu3: ховахаюти’
+     хось+V+TV+InfImprf+Pl+Nom+PxDu3: хобиди’
+     хось+V+TV+InfImprf+Pl+Acc+PxDu3: хобиди’
+     хось+V+TV+InfImprf+Pl+Gen+PxDu3: хобити’
+     хось+V+TV+InfImprf+Pl+Dat+PxDu3: ховахати’
+     хось+V+TV+InfImprf+Pl+Loc+PxDu3: ховаха”нати’
+     хось+V+TV+InfImprf+Pl+Abl+PxDu3: [ховахатати’, ховахатти’]
+     хось+V+TV+InfImprf+Pl+Pros+PxDu3: хоби”манати’
+     хось+V+TV+InfImprf+Sg+Nom+PxPl1: ховава”
+     хось+V+TV+InfImprf+Sg+Acc+PxPl1: ховава”
+     хось+V+TV+InfImprf+Sg+Gen+PxPl1: хована”
+     хось+V+TV+InfImprf+Sg+Dat+PxPl1: ховахана”
+     хось+V+TV+InfImprf+Sg+Loc+PxPl1: ховаханана”
+     хось+V+TV+InfImprf+Sg+Abl+PxPl1: [ховахадана”, ховахадна”]
+     хось+V+TV+InfImprf+Sg+Pros+PxPl1: ховавнана”
+     хось+V+TV+InfImprf+Du+Nom+PxPl1: ховахаюна”
+     хось+V+TV+InfImprf+Du+Acc+PxPl1: ховахаюна”
+     хось+V+TV+InfImprf+Du+Gen+PxPl1: ховахаюна”
+     хось+V+TV+InfImprf+Pl+Nom+PxPl1: хобина”
+     хось+V+TV+InfImprf+Pl+Acc+PxPl1: хобина”
+     хось+V+TV+InfImprf+Pl+Gen+PxPl1: хоби”на”
+     хось+V+TV+InfImprf+Pl+Dat+PxPl1: ховаха”на”
+     хось+V+TV+InfImprf+Pl+Loc+PxPl1: ховаха”нана”
+     хось+V+TV+InfImprf+Pl+Abl+PxPl1: [ховахатана”, ховахатна”]
+     хось+V+TV+InfImprf+Pl+Pros+PxPl1: хоби”манана”
+     хось+V+TV+InfImprf+Sg+Nom+PxPl2: ховара”
+     хось+V+TV+InfImprf+Sg+Acc+PxPl2: ховамда”
+     хось+V+TV+InfImprf+Sg+Gen+PxPl2: хованда”
+     хось+V+TV+InfImprf+Sg+Dat+PxPl2: ховаханда”
+     хось+V+TV+InfImprf+Sg+Loc+PxPl2: ховахананда”
+     хось+V+TV+InfImprf+Sg+Abl+PxPl2: ховахаданда”
+     хось+V+TV+InfImprf+Sg+Pros+PxPl2: ховавнанда”
+     хось+V+TV+InfImprf+Du+Nom+PxPl2: ховахаюда”
+     хось+V+TV+InfImprf+Du+Acc+PxPl2: ховахаюда”
+     хось+V+TV+InfImprf+Du+Gen+PxPl2: ховахаюта”
+     хось+V+TV+InfImprf+Pl+Nom+PxPl2: хобида”
+     хось+V+TV+InfImprf+Pl+Acc+PxPl2: хобида”
+     хось+V+TV+InfImprf+Pl+Gen+PxPl2: хобита”
+     хось+V+TV+InfImprf+Pl+Dat+PxPl2: ховахата”
+     хось+V+TV+InfImprf+Pl+Loc+PxPl2: ховаха”ната”
+     хось+V+TV+InfImprf+Pl+Abl+PxPl2: [ховахатата”, ховахатта”]
+     хось+V+TV+InfImprf+Pl+Pros+PxPl2: хоби”маната”
+     хось+V+TV+InfImprf+Sg+Nom+PxPl3: ховадо’
+     хось+V+TV+InfImprf+Sg+Acc+PxPl3: ховамдо’
+     хось+V+TV+InfImprf+Sg+Gen+PxPl3: ховандо’
+     хось+V+TV+InfImprf+Sg+Dat+PxPl3: ховахандо’
+     хось+V+TV+InfImprf+Sg+Loc+PxPl3: ховаханандо’
+     хось+V+TV+InfImprf+Sg+Abl+PxPl3: ховахадандо’
+     хось+V+TV+InfImprf+Sg+Pros+PxPl3: ховавнандо’
+     хось+V+TV+InfImprf+Du+Nom+PxPl3: ховахаюдо’
+     хось+V+TV+InfImprf+Du+Acc+PxPl3: ховахаюдо’
+     хось+V+TV+InfImprf+Du+Gen+PxPl3: ховахаюто’
+     хось+V+TV+InfImprf+Pl+Nom+PxPl3: хобидо’
+     хось+V+TV+InfImprf+Pl+Acc+PxPl3: хобидо’
+     хось+V+TV+InfImprf+Pl+Gen+PxPl3: хобито’
+     хось+V+TV+InfImprf+Pl+Dat+PxPl3: ховахато’
+     хось+V+TV+InfImprf+Pl+Loc+PxPl3: ховаха”нато’
+     хось+V+TV+InfImprf+Pl+Abl+PxPl3: [ховахатато’, ховахатто’]
+     хось+V+TV+InfImprf+Pl+Pros+PxPl3: хоби”манато’
+     хось+V+TV+InfImprf+Pred+Abs: ховад
+     хось+V+TV+InfImprf+Pred+Nom+PxSg1: [ховадав, ховадув, ховадами]
+#     хось+V+TV+InfImprf+Pred+Nom+PxSg1.2: ховадами
+     хось+V+TV+InfImprf+Pred+Acc+PxSg1: [ховадав, ховадув, ховадами]
+#     хось+V+TV+InfImprf+Pred+Acc+PxSg1.2: ховадами
+     хось+V+TV+InfImprf+Pred+Gen+PxSg1: [ховадан, ховадани]
+#     хось+V+TV+InfImprf+Pred+Gen+PxSg1.2: ховадани
+     хось+V+TV+InfImprf+Pred+Nom+PxSg2: ховадар
+     хось+V+TV+InfImprf+Pred+Acc+PxSg2: ховадамд
+     хось+V+TV+InfImprf+Pred+Gen+PxSg2: ховаданд
+     хось+V+TV+InfImprf+Pred+Nom+PxSg3: ховадада
+     хось+V+TV+InfImprf+Pred+Acc+PxSg3: ховадамда
+     хось+V+TV+InfImprf+Pred+Gen+PxSg3: ховаданда
+     хось+V+TV+InfImprf+Pred+Nom+PxDu1: ховадами’
+     хось+V+TV+InfImprf+Pred+Acc+PxDu1: ховадами’
+     хось+V+TV+InfImprf+Pred+Gen+PxDu1: ховадани’
+     хось+V+TV+InfImprf+Pred+Nom+PxDu2: ховадари’
+     хось+V+TV+InfImprf+Pred+Acc+PxDu2: ховадамди’
+     хось+V+TV+InfImprf+Pred+Gen+PxDu2: ховаданди’
+     хось+V+TV+InfImprf+Pred+Nom+PxDu3: ховадади’
+     хось+V+TV+InfImprf+Pred+Acc+PxDu3: ховадамди’
+     хось+V+TV+InfImprf+Pred+Gen+PxDu3: ховаданди’
+     хось+V+TV+InfImprf+Pred+Nom+PxPl1: ховадава”
+     хось+V+TV+InfImprf+Pred+Acc+PxPl1: ховадава”
+     хось+V+TV+InfImprf+Pred+Gen+PxPl1: ховадана”
+     хось+V+TV+InfImprf+Pred+Nom+PxPl2: ховадара”
+     хось+V+TV+InfImprf+Pred+Acc+PxPl2: ховадамда”
+     хось+V+TV+InfImprf+Pred+Gen+PxPl2: ховаданда”
+     хось+V+TV+InfImprf+Pred+Nom+PxPl3: ховададо’
+     хось+V+TV+InfImprf+Pred+Acc+PxPl3: ховадамдо’
+     хось+V+TV+InfImprf+Pred+Gen+PxPl3: ховадандо’
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScSg1: ховадм’
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScSg2: хован
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScSg3: хова
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScDu1: ховани’
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScDu2: ховади’
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScDu3: ховаха’
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScPl1: ховава”
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScPl2: ховада”
+     хось+V+TV+InfImprf+Der/Pr+Abs+Aor+ScPl3: хова”
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScSg1: ховадамзь
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScSg2: хованась
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScSg3: ховась
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScDu1: хованинзь
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScDu2: ховадинзь
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScDu3: ховаханзь
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScPl1: ховаваць
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScPl2: ховадаць
+     хось+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScPl3: ховаць
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg1: ховав
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg2: ховар
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg3: ховада
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu1: ховами’
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu2: ховари’
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu3: ховади’
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl1: ховава”
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl2: ховара”
+     хось+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl3: ховадо’
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg1: ховавась
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg2: ховарась
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg3: ховадась
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu1: ховаминзь
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu2: ховаринзь
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu3: ховадинзь
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl1: ховаваць
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl2: ховараць
+     хось+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl3: ховадонзь
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg1: ховахаюн
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg2: ховахаюд
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg3: ховахаюда
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu1: ховахаюни’
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu2: ховахаюди’
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu3: ховахаюди’
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl1: ховахаюна”
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl2: ховахаюда”
+     хось+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl3: ховахаюдо’
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg1: ховахаюнась
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg2: ховахаюдась
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg3: ховахаюдась
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu1: ховахаюнинзь
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu2: ховахаюдинзь
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu3: ховахаюдинзь
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl1: ховахаюнаць
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl2: ховахаюдаць
+     хось+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl3: ховахаюдонзь
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg1: хобин
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg2: хобид
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg3: хобида
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu1: хобини’
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu2: хобиди’
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu3: хобиди’
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl1: хобина”
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl2: хобида”
+     хось+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl3: хобидо’
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg1: хобинась
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg2: хобидась
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg3: хобидась
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu1: хобининзь
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu2: хобидинзь
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu3: хобидинзь
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl1: хобинаць
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl2: хобидаць
+     хось+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl3: хобидонзь
+     хось+V+TV+InfImprf+Tra: ховаӈэ
+     хось+V+TV+InfImprf+Car: ховаси”
+     хось+V+TV+InfImprf+Equ: ховадарем’
+     хось+V+TV+InfImprf+Equ+lat: ховадарев’
+     хось+V+TV+InfPrf+Nom+Sg+Abs: хо”ма
+     хось+V+TV+InfPrf+Acc+Sg+Abs: хо”мам’
+     хось+V+TV+InfPrf+Gen+Sg+Abs: хо”ма’
+     хось+V+TV+InfPrf+Dat+Sg+Abs: хо”ман’
+     хось+V+TV+InfPrf+Loc+Sg+Abs: хо”махана
+     хось+V+TV+InfPrf+Abl+Sg+Abs: хо”махад
+     хось+V+TV+InfPrf+Pros+Sg+Abs: хо”мавна
+     хось+V+TV+InfPrf+Nom+Du+Abs: хо”маха’
+     хось+V+TV+InfPrf+Acc+Du+Abs: хо”маха’
+     хось+V+TV+InfPrf+Gen+Du+Abs: хо”маха’
+     хось+V+TV+InfPrf+Nom+Pl+Abs: хо”ма”
+     хось+V+TV+InfPrf+Acc+Pl+Abs: хо”ми
+     хось+V+TV+InfPrf+Gen+Pl+Abs: хо”ми”
+     хось+V+TV+InfPrf+Dat+Pl+Abs: хо”маха”
+     хось+V+TV+InfPrf+Loc+Pl+Abs: хо”маха”на
+     хось+V+TV+InfPrf+Abl+Pl+Abs: хо”махат
+     хось+V+TV+InfPrf+Pros+Pl+Abs: хо”ми”мана
+     хось+V+TV+InfPrf+Sg+Nom+PxSg1: [хо”мав, хо”мами]
+#     хось+V+TV+InfPrf+Sg+Nom+PxSg1.2: хо”мами
+     хось+V+TV+InfPrf+Sg+Acc+PxSg1: [хо”мав, хо”мами]
+#     хось+V+TV+InfPrf+Sg+Acc+PxSg1.2: хо”мами
+     хось+V+TV+InfPrf+Sg+Gen+PxSg1: [хо”ман, хо”мани]
+#     хось+V+TV+InfPrf+Sg+Gen+PxSg1.2: хо”мани
+     хось+V+TV+InfPrf+Sg+Dat+PxSg1: [хо”махан, хо”махани]
+#     хось+V+TV+InfPrf+Sg+Dat+PxSg1.2: хо”махани
+     хось+V+TV+InfPrf+Sg+Loc+PxSg1: [хо”маханан, хо”маханани]
+#     хось+V+TV+InfPrf+Sg+Loc+PxSg1.2: хо”маханани
+     хось+V+TV+InfPrf+Sg+Abl+PxSg1: [хо”махадан, хо”махадани, хо”махадни]
+#     хось+V+TV+InfPrf+Sg+Abl+PxSg1.2: [хо”махадани, хо”махадни]
+     хось+V+TV+InfPrf+Sg+Pros+PxSg1: [хо”мавнан, хо”мавнани]
+#     хось+V+TV+InfPrf+Sg+Pros+PxSg1.2: хо”мавнани
+     хось+V+TV+InfPrf+Du+Nom+PxSg1: [хо”махаюн, хо”махаюни]
+#     хось+V+TV+InfPrf+Du+Nom+PxSg1.2: хо”махаюни
+     хось+V+TV+InfPrf+Du+Acc+PxSg1: [хо”махаюн, хо”махаюни]
+#     хось+V+TV+InfPrf+Du+Acc+PxSg1.2: хо”махаюни
+     хось+V+TV+InfPrf+Du+Gen+PxSg1: [хо”махаюн, хо”махаюни]
+#     хось+V+TV+InfPrf+Du+Gen+PxSg1.2: хо”махаюни
+     хось+V+TV+InfPrf+Pl+Nom+PxSg1: [хо”мин, хо”мини]
+#     хось+V+TV+InfPrf+Pl+Nom+PxSg1.2: хо”мини
+     хось+V+TV+InfPrf+Pl+Acc+PxSg1: [хо”мин, хо”мини]
+#     хось+V+TV+InfPrf+Pl+Acc+PxSg1.2: хо”мини
+     хось+V+TV+InfPrf+Pl+Gen+PxSg1: [хо”ми”н, хо”ми”ни]
+#     хось+V+TV+InfPrf+Pl+Gen+PxSg1.2: хо”ми”ни
+     хось+V+TV+InfPrf+Pl+Dat+PxSg1: [хо”маха”н, хо”маха”ни]
+#     хось+V+TV+InfPrf+Pl+Dat+PxSg1.2: хо”маха”ни
+     хось+V+TV+InfPrf+Pl+Loc+PxSg1: [хо”маха”нан, хо”маха”нани]
+#     хось+V+TV+InfPrf+Pl+Loc+PxSg1.2: хо”маха”нани
+     хось+V+TV+InfPrf+Pl+Abl+PxSg1: [хо”махатан, хо”махатани, хо”махатни]
+#     хось+V+TV+InfPrf+Pl+Abl+PxSg1.2: [хо”махатани, хо”махатни]
+     хось+V+TV+InfPrf+Pl+Pros+PxSg1: [хо”ми”манан, хо”ми”манани]
+#     хось+V+TV+InfPrf+Pl+Pros+PxSg1.2: хо”ми”манани
+     хось+V+TV+InfPrf+Sg+Nom+PxSg2: хо”мар
+     хось+V+TV+InfPrf+Sg+Acc+PxSg2: хо”мамд
+     хось+V+TV+InfPrf+Sg+Gen+PxSg2: хо”манд
+     хось+V+TV+InfPrf+Sg+Dat+PxSg2: хо”маханд
+     хось+V+TV+InfPrf+Sg+Loc+PxSg2: хо”махананд
+     хось+V+TV+InfPrf+Sg+Abl+PxSg2: хо”махаданд
+     хось+V+TV+InfPrf+Sg+Pros+PxSg2: хо”мавнанд
+     хось+V+TV+InfPrf+Du+Nom+PxSg2: хо”махаюд
+     хось+V+TV+InfPrf+Du+Acc+PxSg2: хо”махаюд
+     хось+V+TV+InfPrf+Du+Gen+PxSg2: хо”махают
+     хось+V+TV+InfPrf+Pl+Nom+PxSg2: хо”мид
+     хось+V+TV+InfPrf+Pl+Acc+PxSg2: хо”мид
+     хось+V+TV+InfPrf+Pl+Gen+PxSg2: хо”мит
+     хось+V+TV+InfPrf+Pl+Dat+PxSg2: хо”махат
+     хось+V+TV+InfPrf+Pl+Loc+PxSg2: хо”маха”нат
+     хось+V+TV+InfPrf+Pl+Abl+PxSg2: хо”махатат
+     хось+V+TV+InfPrf+Pl+Pros+PxSg2: хо”ми”манат
+     хось+V+TV+InfPrf+Sg+Nom+PxSg3: хо”мада
+     хось+V+TV+InfPrf+Sg+Acc+PxSg3: хо”мамда
+     хось+V+TV+InfPrf+Sg+Gen+PxSg3: хо”манда
+     хось+V+TV+InfPrf+Sg+Dat+PxSg3: хо”маханда
+     хось+V+TV+InfPrf+Sg+Loc+PxSg3: хо”махананда
+     хось+V+TV+InfPrf+Sg+Abl+PxSg3: хо”махаданда
+     хось+V+TV+InfPrf+Sg+Pros+PxSg3: хо”мавнанда
+     хось+V+TV+InfPrf+Du+Nom+PxSg3: хо”махаюда
+     хось+V+TV+InfPrf+Du+Acc+PxSg3: хо”махаюда
+     хось+V+TV+InfPrf+Du+Gen+PxSg3: хо”махаюта
+     хось+V+TV+InfPrf+Pl+Nom+PxSg3: хо”мида
+     хось+V+TV+InfPrf+Pl+Acc+PxSg3: хо”мида
+     хось+V+TV+InfPrf+Pl+Gen+PxSg3: хо”мита
+     хось+V+TV+InfPrf+Pl+Dat+PxSg3: хо”махата
+     хось+V+TV+InfPrf+Pl+Loc+PxSg3: хо”маха”ната
+     хось+V+TV+InfPrf+Pl+Abl+PxSg3: [хо”махатата, хо”махатта]
+     хось+V+TV+InfPrf+Pl+Pros+PxSg3: хо”ми”маната
+     хось+V+TV+InfPrf+Sg+Nom+PxDu1: хо”мами’
+     хось+V+TV+InfPrf+Sg+Acc+PxDu1: хо”мами’
+     хось+V+TV+InfPrf+Sg+Gen+PxDu1: хо”мани’
+     хось+V+TV+InfPrf+Sg+Dat+PxDu1: хо”махани’
+     хось+V+TV+InfPrf+Sg+Loc+PxDu1: хо”маханани’
+     хось+V+TV+InfPrf+Sg+Abl+PxDu1: [хо”махадани’, хо”махадни’]
+     хось+V+TV+InfPrf+Sg+Pros+PxDu1: хо”мавнани’
+     хось+V+TV+InfPrf+Du+Nom+PxDu1: хо”махаюни’
+     хось+V+TV+InfPrf+Du+Acc+PxDu1: хо”махаюни’
+     хось+V+TV+InfPrf+Du+Gen+PxDu1: хо”махаюни’
+     хось+V+TV+InfPrf+Pl+Nom+PxDu1: хо”мини’
+     хось+V+TV+InfPrf+Pl+Acc+PxDu1: хо”мини’
+     хось+V+TV+InfPrf+Pl+Gen+PxDu1: хо”ми”ни’
+     хось+V+TV+InfPrf+Pl+Dat+PxDu1: хо”маха”ни’
+     хось+V+TV+InfPrf+Pl+Loc+PxDu1: хо”маха”нани’
+     хось+V+TV+InfPrf+Pl+Abl+PxDu1: [хо”махатани’, хо”махатни’]
+     хось+V+TV+InfPrf+Pl+Pros+PxDu1: хо”ми”манани’
+     хось+V+TV+InfPrf+Sg+Nom+PxDu2: хо”мари’
+     хось+V+TV+InfPrf+Sg+Acc+PxDu2: хо”мамди’
+     хось+V+TV+InfPrf+Sg+Gen+PxDu2: хо”манди’
+     хось+V+TV+InfPrf+Sg+Dat+PxDu2: хо”маханди’
+     хось+V+TV+InfPrf+Sg+Loc+PxDu2: хо”махананди’
+     хось+V+TV+InfPrf+Sg+Abl+PxDu2: хо”махаданди’
+     хось+V+TV+InfPrf+Sg+Pros+PxDu2: хо”мавнанди’
+     хось+V+TV+InfPrf+Du+Nom+PxDu2: хо”махаюди’
+     хось+V+TV+InfPrf+Du+Acc+PxDu2: хо”махаюди’
+     хось+V+TV+InfPrf+Du+Gen+PxDu2: хо”махаюти’
+     хось+V+TV+InfPrf+Pl+Nom+PxDu2: хо”миди’
+     хось+V+TV+InfPrf+Pl+Acc+PxDu2: хо”миди’
+     хось+V+TV+InfPrf+Pl+Gen+PxDu2: хо”мити’
+     хось+V+TV+InfPrf+Pl+Dat+PxDu2: хо”махати’
+     хось+V+TV+InfPrf+Pl+Loc+PxDu2: хо”маха”нати’
+     хось+V+TV+InfPrf+Pl+Abl+PxDu2: [хо”махатати’, хо”махатти’]
+     хось+V+TV+InfPrf+Pl+Pros+PxDu2: хо”ми”манати’
+     хось+V+TV+InfPrf+Sg+Nom+PxDu3: хо”мади’
+     хось+V+TV+InfPrf+Sg+Acc+PxDu3: хо”мамди’
+     хось+V+TV+InfPrf+Sg+Gen+PxDu3: хо”манди’
+     хось+V+TV+InfPrf+Sg+Dat+PxDu3: хо”маханди’
+     хось+V+TV+InfPrf+Sg+Loc+PxDu3: хо”махананди’
+     хось+V+TV+InfPrf+Sg+Abl+PxDu3: хо”махаданди’
+     хось+V+TV+InfPrf+Sg+Pros+PxDu3: хо”мавнанди’
+     хось+V+TV+InfPrf+Du+Nom+PxDu3: хо”махаюди’
+     хось+V+TV+InfPrf+Du+Acc+PxDu3: хо”махаюди’
+     хось+V+TV+InfPrf+Du+Gen+PxDu3: хо”махаюти’
+     хось+V+TV+InfPrf+Pl+Nom+PxDu3: хо”миди’
+     хось+V+TV+InfPrf+Pl+Acc+PxDu3: хо”миди’
+     хось+V+TV+InfPrf+Pl+Gen+PxDu3: хо”мити’
+     хось+V+TV+InfPrf+Pl+Dat+PxDu3: хо”махати’
+     хось+V+TV+InfPrf+Pl+Loc+PxDu3: хо”маха”нати’
+     хось+V+TV+InfPrf+Pl+Abl+PxDu3: [хо”махатати’, хо”махатти’]
+     хось+V+TV+InfPrf+Pl+Pros+PxDu3: хо”ми”манати’
+     хось+V+TV+InfPrf+Sg+Nom+PxPl1: хо”мава”
+     хось+V+TV+InfPrf+Sg+Acc+PxPl1: хо”мава”
+     хось+V+TV+InfPrf+Sg+Gen+PxPl1: хо”мана”
+     хось+V+TV+InfPrf+Sg+Dat+PxPl1: хо”махана”
+     хось+V+TV+InfPrf+Sg+Loc+PxPl1: хо”маханана”
+     хось+V+TV+InfPrf+Sg+Abl+PxPl1: [хо”махадана”, хо”махадна”]
+     хось+V+TV+InfPrf+Sg+Pros+PxPl1: хо”мавнана”
+     хось+V+TV+InfPrf+Du+Nom+PxPl1: хо”махаюна”
+     хось+V+TV+InfPrf+Du+Acc+PxPl1: хо”махаюна”
+     хось+V+TV+InfPrf+Du+Gen+PxPl1: хо”махаюна”
+     хось+V+TV+InfPrf+Pl+Nom+PxPl1: хо”мина”
+     хось+V+TV+InfPrf+Pl+Acc+PxPl1: хо”мина”
+     хось+V+TV+InfPrf+Pl+Gen+PxPl1: хо”ми”на”
+     хось+V+TV+InfPrf+Pl+Dat+PxPl1: хо”маха”на”
+     хось+V+TV+InfPrf+Pl+Loc+PxPl1: хо”маха”нана”
+     хось+V+TV+InfPrf+Pl+Abl+PxPl1: [хо”махатана”, хо”махатна”]
+     хось+V+TV+InfPrf+Pl+Pros+PxPl1: хо”ми”манана”
+     хось+V+TV+InfPrf+Sg+Nom+PxPl2: хо”мара”
+     хось+V+TV+InfPrf+Sg+Acc+PxPl2: хо”мамда”
+     хось+V+TV+InfPrf+Sg+Gen+PxPl2: хо”манда”
+     хось+V+TV+InfPrf+Sg+Dat+PxPl2: хо”маханда”
+     хось+V+TV+InfPrf+Sg+Loc+PxPl2: хо”махананда”
+     хось+V+TV+InfPrf+Sg+Abl+PxPl2: хо”махаданда”
+     хось+V+TV+InfPrf+Sg+Pros+PxPl2: хо”мавнанда”
+     хось+V+TV+InfPrf+Du+Nom+PxPl2: хо”махаюда”
+     хось+V+TV+InfPrf+Du+Acc+PxPl2: хо”махаюда”
+     хось+V+TV+InfPrf+Du+Gen+PxPl2: хо”махаюта”
+     хось+V+TV+InfPrf+Pl+Nom+PxPl2: хо”мида”
+     хось+V+TV+InfPrf+Pl+Acc+PxPl2: хо”мида”
+     хось+V+TV+InfPrf+Pl+Gen+PxPl2: хо”мита”
+     хось+V+TV+InfPrf+Pl+Dat+PxPl2: хо”махата”
+     хось+V+TV+InfPrf+Pl+Loc+PxPl2: хо”маха”ната”
+     хось+V+TV+InfPrf+Pl+Abl+PxPl2: [хо”махатата”, хо”махатта”]
+     хось+V+TV+InfPrf+Pl+Pros+PxPl2: хо”ми”маната”
+     хось+V+TV+InfPrf+Sg+Nom+PxPl3: хо”мадо’
+     хось+V+TV+InfPrf+Sg+Acc+PxPl3: хо”мамдо’
+     хось+V+TV+InfPrf+Sg+Gen+PxPl3: хо”мандо’
+     хось+V+TV+InfPrf+Sg+Dat+PxPl3: хо”махандо’
+     хось+V+TV+InfPrf+Sg+Loc+PxPl3: хо”маханандо’
+     хось+V+TV+InfPrf+Sg+Abl+PxPl3: хо”махадандо’
+     хось+V+TV+InfPrf+Sg+Pros+PxPl3: хо”мавнандо’
+     хось+V+TV+InfPrf+Du+Nom+PxPl3: хо”махаюдо’
+     хось+V+TV+InfPrf+Du+Acc+PxPl3: хо”махаюдо’
+     хось+V+TV+InfPrf+Du+Gen+PxPl3: хо”махаюто’
+     хось+V+TV+InfPrf+Pl+Nom+PxPl3: хо”мидо’
+     хось+V+TV+InfPrf+Pl+Acc+PxPl3: хо”мидо’
+     хось+V+TV+InfPrf+Pl+Gen+PxPl3: хо”мито’
+     хось+V+TV+InfPrf+Pl+Dat+PxPl3: хо”махато’
+     хось+V+TV+InfPrf+Pl+Loc+PxPl3: хо”маха”нато’
+     хось+V+TV+InfPrf+Pl+Abl+PxPl3: [хо”махатато’, хо”махатто’]
+     хось+V+TV+InfPrf+Pl+Pros+PxPl3: хо”ми”манато’
+     хось+V+TV+InfPrf+Pred+Abs: хо”мад
+     хось+V+TV+InfPrf+Pred+Nom+PxSg1: [хо”мадав, хо”мадув, хо”мадами]
+#     хось+V+TV+InfPrf+Pred+Nom+PxSg1.2: хо”мадами
+     хось+V+TV+InfPrf+Pred+Acc+PxSg1: [хо”мадав, хо”мадув, хо”мадами]
+#     хось+V+TV+InfPrf+Pred+Acc+PxSg1.2: хо”мадами
+     хось+V+TV+InfPrf+Pred+Gen+PxSg1: [хо”мадан, хо”мадани]
+#     хось+V+TV+InfPrf+Pred+Gen+PxSg1.2: хо”мадани
+     хось+V+TV+InfPrf+Pred+Nom+PxSg2: хо”мадар
+     хось+V+TV+InfPrf+Pred+Acc+PxSg2: хо”мадамд
+     хось+V+TV+InfPrf+Pred+Gen+PxSg2: хо”маданд
+     хось+V+TV+InfPrf+Pred+Nom+PxSg3: хо”мадада
+     хось+V+TV+InfPrf+Pred+Acc+PxSg3: хо”мадамда
+     хось+V+TV+InfPrf+Pred+Gen+PxSg3: хо”маданда
+     хось+V+TV+InfPrf+Pred+Nom+PxDu1: хо”мадами’
+     хось+V+TV+InfPrf+Pred+Acc+PxDu1: хо”мадами’
+     хось+V+TV+InfPrf+Pred+Gen+PxDu1: хо”мадани’
+     хось+V+TV+InfPrf+Pred+Nom+PxDu2: хо”мадари’
+     хось+V+TV+InfPrf+Pred+Acc+PxDu2: хо”мадамди’
+     хось+V+TV+InfPrf+Pred+Gen+PxDu2: хо”маданди’
+     хось+V+TV+InfPrf+Pred+Nom+PxDu3: хо”мадади’
+     хось+V+TV+InfPrf+Pred+Acc+PxDu3: хо”мадамди’
+     хось+V+TV+InfPrf+Pred+Gen+PxDu3: хо”маданди’
+     хось+V+TV+InfPrf+Pred+Nom+PxPl1: хо”мадава”
+     хось+V+TV+InfPrf+Pred+Acc+PxPl1: хо”мадава”
+     хось+V+TV+InfPrf+Pred+Gen+PxPl1: хо”мадана”
+     хось+V+TV+InfPrf+Pred+Nom+PxPl2: хо”мадара”
+     хось+V+TV+InfPrf+Pred+Acc+PxPl2: хо”мадамда”
+     хось+V+TV+InfPrf+Pred+Gen+PxPl2: хо”маданда”
+     хось+V+TV+InfPrf+Pred+Nom+PxPl3: хо”мададо’
+     хось+V+TV+InfPrf+Pred+Acc+PxPl3: хо”мадамдо’
+     хось+V+TV+InfPrf+Pred+Gen+PxPl3: хо”мадандо’
+
+# What part of speech is this
+# After each derivation there should be a new pos
+  Verb - хось with Pr derivation: # Verb 'to find / löytää' - full paradigm
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScSg1: хо”мадм’
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScSg2: хо”ман
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScSg3: хо”ма
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScDu1: хо”мани’
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScDu2: хо”мади’
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScDu3: хо”маха’
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScPl1: хо”мава”
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScPl2: хо”мада”
+     хось+V+TV+InfPrf+Der/Pr+Abs+Aor+ScPl3: хо”ма”
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScSg1: хо”мадамзь
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScSg2: хо”манась
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScSg3: хо”мась
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScDu1: хо”манинзь
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScDu2: хо”мадинзь
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScDu3: хо”маханзь
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScPl1: хо”маваць
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScPl2: хо”мадаць
+     хось+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScPl3: хо”маць
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg1: хо”мав
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg2: хо”мар
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg3: хо”мада
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu1: хо”мами’
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu2: хо”мари’
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu3: хо”мади’
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl1: хо”мава”
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl2: хо”мара”
+     хось+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl3: хо”мадо’
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg1: хо”мавась
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg2: хо”марась
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg3: хо”мадась
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu1: хо”маминзь
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu2: хо”маринзь
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu3: хо”мадинзь
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl1: хо”маваць
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl2: хо”мараць
+     хось+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl3: хо”мадонзь
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg1: хо”махаюн
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg2: хо”махаюд
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg3: хо”махаюда
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu1: хо”махаюни’
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu2: хо”махаюди’
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu3: хо”махаюди’
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl1: хо”махаюна”
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl2: хо”махаюда”
+     хось+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl3: хо”махаюдо’
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg1: хо”махаюнась
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg2: хо”махаюдась
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg3: хо”махаюдась
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu1: хо”махаюнинзь
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu2: хо”махаюдинзь
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu3: хо”махаюдинзь
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl1: хо”махаюнаць
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl2: хо”махаюдаць
+     хось+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl3: хо”махаюдонзь
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg1: хо”мин
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg2: хо”мид
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg3: хо”мида
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu1: хо”мини’
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu2: хо”миди’
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu3: хо”миди’
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl1: хо”мина”
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl2: хо”мида”
+     хось+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl3: хо”мидо’
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg1: хо”минась
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg2: хо”мидась
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg3: хо”мидась
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu1: хо”мининзь
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu2: хо”мидинзь
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu3: хо”мидинзь
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl1: хо”минаць
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl2: хо”мидаць
+     хось+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl3: хо”мидонзь
+     хось+V+TV+InfPrf+Tra: хо”маӈэ
+     хось+V+TV+InfPrf+Car: хо”маси”
+     хось+V+TV+InfPrf+Equ: хо”мадарем’
+     хось+V+TV+InfPrf+Equ+lat: хо”мадарев’
+     хось+V+TV+PrcImprf+Nom+Sg+Abs: хона
+     хось+V+TV+PrcImprf+Acc+Sg+Abs: хонам’
+     хось+V+TV+PrcImprf+Gen+Sg+Abs: хона’
+     хось+V+TV+PrcImprf+Dat+Sg+Abs: хонан’
+     хось+V+TV+PrcImprf+Loc+Sg+Abs: хонахана
+     хось+V+TV+PrcImprf+Abl+Sg+Abs: хонахад
+     хось+V+TV+PrcImprf+Pros+Sg+Abs: хонавна
+     хось+V+TV+PrcImprf+Nom+Du+Abs: хонаха’
+     хось+V+TV+PrcImprf+Acc+Du+Abs: хонаха’
+     хось+V+TV+PrcImprf+Gen+Du+Abs: хонаха’
+     хось+V+TV+PrcImprf+Nom+Pl+Abs: хона”
+     хось+V+TV+PrcImprf+Acc+Pl+Abs: хони
+     хось+V+TV+PrcImprf+Gen+Pl+Abs: хони”
+     хось+V+TV+PrcImprf+Dat+Pl+Abs: хонаха”
+     хось+V+TV+PrcImprf+Loc+Pl+Abs: хонаха”на
+     хось+V+TV+PrcImprf+Abl+Pl+Abs: хонахат
+     хось+V+TV+PrcImprf+Pros+Pl+Abs: хони”мана
+     хось+V+TV+PrcImprf+Sg+Nom+PxSg1: [хонав, хонами]
+#     хось+V+TV+PrcImprf+Sg+Nom+PxSg1.2: хонами
+     хось+V+TV+PrcImprf+Sg+Acc+PxSg1: [хонав, хонами]
+#     хось+V+TV+PrcImprf+Sg+Acc+PxSg1.2: хонами
+     хось+V+TV+PrcImprf+Sg+Gen+PxSg1: [хонан, хонани]
+#     хось+V+TV+PrcImprf+Sg+Gen+PxSg1.2: хонани
+     хось+V+TV+PrcImprf+Sg+Dat+PxSg1: [хонахан, хонахани]
+#     хось+V+TV+PrcImprf+Sg+Dat+PxSg1.2: хонахани
+     хось+V+TV+PrcImprf+Sg+Loc+PxSg1: [хонаханан, хонаханани]
+#     хось+V+TV+PrcImprf+Sg+Loc+PxSg1.2: хонаханани
+     хось+V+TV+PrcImprf+Sg+Abl+PxSg1: [хонахадан, хонахадани, хонахадни]
+#     хось+V+TV+PrcImprf+Sg+Abl+PxSg1.2: [хонахадани, хонахадни]
+     хось+V+TV+PrcImprf+Sg+Pros+PxSg1: [хонавнан, хонавнани]
+#     хось+V+TV+PrcImprf+Sg+Pros+PxSg1.2: хонавнани
+     хось+V+TV+PrcImprf+Du+Nom+PxSg1: [хонахаюн, хонахаюни]
+#     хось+V+TV+PrcImprf+Du+Nom+PxSg1.2: хонахаюни
+     хось+V+TV+PrcImprf+Du+Acc+PxSg1: [хонахаюн, хонахаюни]
+#     хось+V+TV+PrcImprf+Du+Acc+PxSg1.2: хонахаюни
+     хось+V+TV+PrcImprf+Du+Gen+PxSg1: [хонахаюн, хонахаюни]
+#     хось+V+TV+PrcImprf+Du+Gen+PxSg1.2: хонахаюни
+     хось+V+TV+PrcImprf+Pl+Nom+PxSg1: [хонин, хонини]
+#     хось+V+TV+PrcImprf+Pl+Nom+PxSg1.2: хонини
+     хось+V+TV+PrcImprf+Pl+Acc+PxSg1: [хонин, хонини]
+#     хось+V+TV+PrcImprf+Pl+Acc+PxSg1.2: хонини
+     хось+V+TV+PrcImprf+Pl+Gen+PxSg1: [хони”н, хони”ни]
+#     хось+V+TV+PrcImprf+Pl+Gen+PxSg1.2: хони”ни
+     хось+V+TV+PrcImprf+Pl+Dat+PxSg1: [хонаха”н, хонаха”ни]
+#     хось+V+TV+PrcImprf+Pl+Dat+PxSg1.2: хонаха”ни
+     хось+V+TV+PrcImprf+Pl+Loc+PxSg1: [хонаха”нан, хонаха”нани]
+#     хось+V+TV+PrcImprf+Pl+Loc+PxSg1.2: хонаха”нани
+     хось+V+TV+PrcImprf+Pl+Abl+PxSg1: [хонахатан, хонахатани, хонахатни]
+#     хось+V+TV+PrcImprf+Pl+Abl+PxSg1.2: [хонахатани, хонахатни]
+     хось+V+TV+PrcImprf+Pl+Pros+PxSg1: [хони”манан, хони”манани]
+#     хось+V+TV+PrcImprf+Pl+Pros+PxSg1.2: хони”манани
+     хось+V+TV+PrcImprf+Sg+Nom+PxSg2: хонар
+     хось+V+TV+PrcImprf+Sg+Acc+PxSg2: хонамд
+     хось+V+TV+PrcImprf+Sg+Gen+PxSg2: хонанд
+     хось+V+TV+PrcImprf+Sg+Dat+PxSg2: хонаханд
+     хось+V+TV+PrcImprf+Sg+Loc+PxSg2: хонахананд
+     хось+V+TV+PrcImprf+Sg+Abl+PxSg2: хонахаданд
+     хось+V+TV+PrcImprf+Sg+Pros+PxSg2: хонавнанд
+     хось+V+TV+PrcImprf+Du+Nom+PxSg2: хонахаюд
+     хось+V+TV+PrcImprf+Du+Acc+PxSg2: хонахаюд
+     хось+V+TV+PrcImprf+Du+Gen+PxSg2: хонахают
+     хось+V+TV+PrcImprf+Pl+Nom+PxSg2: хонид
+     хось+V+TV+PrcImprf+Pl+Acc+PxSg2: хонид
+     хось+V+TV+PrcImprf+Pl+Gen+PxSg2: хонит
+     хось+V+TV+PrcImprf+Pl+Dat+PxSg2: хонахат
+     хось+V+TV+PrcImprf+Pl+Loc+PxSg2: хонаха”нат
+     хось+V+TV+PrcImprf+Pl+Abl+PxSg2: хонахатат
+     хось+V+TV+PrcImprf+Pl+Pros+PxSg2: хони”манат
+     хось+V+TV+PrcImprf+Sg+Nom+PxSg3: хонада
+     хось+V+TV+PrcImprf+Sg+Acc+PxSg3: хонамда
+     хось+V+TV+PrcImprf+Sg+Gen+PxSg3: хонанда
+     хось+V+TV+PrcImprf+Sg+Dat+PxSg3: хонаханда
+     хось+V+TV+PrcImprf+Sg+Loc+PxSg3: хонахананда
+     хось+V+TV+PrcImprf+Sg+Abl+PxSg3: хонахаданда
+     хось+V+TV+PrcImprf+Sg+Pros+PxSg3: хонавнанда
+     хось+V+TV+PrcImprf+Du+Nom+PxSg3: хонахаюда
+     хось+V+TV+PrcImprf+Du+Acc+PxSg3: хонахаюда
+     хось+V+TV+PrcImprf+Du+Gen+PxSg3: хонахаюта
+     хось+V+TV+PrcImprf+Pl+Nom+PxSg3: хонида
+     хось+V+TV+PrcImprf+Pl+Acc+PxSg3: хонида
+     хось+V+TV+PrcImprf+Pl+Gen+PxSg3: хонита
+     хось+V+TV+PrcImprf+Pl+Dat+PxSg3: хонахата
+     хось+V+TV+PrcImprf+Pl+Loc+PxSg3: хонаха”ната
+     хось+V+TV+PrcImprf+Pl+Abl+PxSg3: [хонахатата, хонахатта]
+     хось+V+TV+PrcImprf+Pl+Pros+PxSg3: хони”маната
+     хось+V+TV+PrcImprf+Sg+Nom+PxDu1: хонами’
+     хось+V+TV+PrcImprf+Sg+Acc+PxDu1: хонами’
+     хось+V+TV+PrcImprf+Sg+Gen+PxDu1: хонани’
+     хось+V+TV+PrcImprf+Sg+Dat+PxDu1: хонахани’
+     хось+V+TV+PrcImprf+Sg+Loc+PxDu1: хонаханани’
+     хось+V+TV+PrcImprf+Sg+Abl+PxDu1: [хонахадани’, хонахадни’]
+     хось+V+TV+PrcImprf+Sg+Pros+PxDu1: хонавнани’
+     хось+V+TV+PrcImprf+Du+Nom+PxDu1: хонахаюни’
+     хось+V+TV+PrcImprf+Du+Acc+PxDu1: хонахаюни’
+     хось+V+TV+PrcImprf+Du+Gen+PxDu1: хонахаюни’
+     хось+V+TV+PrcImprf+Pl+Nom+PxDu1: хонини’
+     хось+V+TV+PrcImprf+Pl+Acc+PxDu1: хонини’
+     хось+V+TV+PrcImprf+Pl+Gen+PxDu1: хони”ни’
+     хось+V+TV+PrcImprf+Pl+Dat+PxDu1: хонаха”ни’
+     хось+V+TV+PrcImprf+Pl+Loc+PxDu1: хонаха”нани’
+     хось+V+TV+PrcImprf+Pl+Abl+PxDu1: [хонахатани’, хонахатни’]
+     хось+V+TV+PrcImprf+Pl+Pros+PxDu1: хони”манани’
+     хось+V+TV+PrcImprf+Sg+Nom+PxDu2: хонари’
+     хось+V+TV+PrcImprf+Sg+Acc+PxDu2: хонамди’
+     хось+V+TV+PrcImprf+Sg+Gen+PxDu2: хонанди’
+     хось+V+TV+PrcImprf+Sg+Dat+PxDu2: хонаханди’
+     хось+V+TV+PrcImprf+Sg+Loc+PxDu2: хонахананди’
+     хось+V+TV+PrcImprf+Sg+Abl+PxDu2: хонахаданди’
+     хось+V+TV+PrcImprf+Sg+Pros+PxDu2: хонавнанди’
+     хось+V+TV+PrcImprf+Du+Nom+PxDu2: хонахаюди’
+     хось+V+TV+PrcImprf+Du+Acc+PxDu2: хонахаюди’
+     хось+V+TV+PrcImprf+Du+Gen+PxDu2: хонахаюти’
+     хось+V+TV+PrcImprf+Pl+Nom+PxDu2: хониди’
+     хось+V+TV+PrcImprf+Pl+Acc+PxDu2: хониди’
+     хось+V+TV+PrcImprf+Pl+Gen+PxDu2: хонити’
+     хось+V+TV+PrcImprf+Pl+Dat+PxDu2: хонахати’
+     хось+V+TV+PrcImprf+Pl+Loc+PxDu2: хонаха”нати’
+     хось+V+TV+PrcImprf+Pl+Abl+PxDu2: [хонахатати’, хонахатти’]
+     хось+V+TV+PrcImprf+Pl+Pros+PxDu2: хони”манати’
+     хось+V+TV+PrcImprf+Sg+Nom+PxDu3: хонади’
+     хось+V+TV+PrcImprf+Sg+Acc+PxDu3: хонамди’
+     хось+V+TV+PrcImprf+Sg+Gen+PxDu3: хонанди’
+     хось+V+TV+PrcImprf+Sg+Dat+PxDu3: хонаханди’
+     хось+V+TV+PrcImprf+Sg+Loc+PxDu3: хонахананди’
+     хось+V+TV+PrcImprf+Sg+Abl+PxDu3: хонахаданди’
+     хось+V+TV+PrcImprf+Sg+Pros+PxDu3: хонавнанди’
+     хось+V+TV+PrcImprf+Du+Nom+PxDu3: хонахаюди’
+     хось+V+TV+PrcImprf+Du+Acc+PxDu3: хонахаюди’
+     хось+V+TV+PrcImprf+Du+Gen+PxDu3: хонахаюти’
+     хось+V+TV+PrcImprf+Pl+Nom+PxDu3: хониди’
+     хось+V+TV+PrcImprf+Pl+Acc+PxDu3: хониди’
+     хось+V+TV+PrcImprf+Pl+Gen+PxDu3: хонити’
+     хось+V+TV+PrcImprf+Pl+Dat+PxDu3: хонахати’
+     хось+V+TV+PrcImprf+Pl+Loc+PxDu3: хонаха”нати’
+     хось+V+TV+PrcImprf+Pl+Abl+PxDu3: [хонахатати’, хонахатти’]
+     хось+V+TV+PrcImprf+Pl+Pros+PxDu3: хони”манати’
+     хось+V+TV+PrcImprf+Sg+Nom+PxPl1: хонава”
+     хось+V+TV+PrcImprf+Sg+Acc+PxPl1: хонава”
+     хось+V+TV+PrcImprf+Sg+Gen+PxPl1: хонана”
+     хось+V+TV+PrcImprf+Sg+Dat+PxPl1: хонахана”
+     хось+V+TV+PrcImprf+Sg+Loc+PxPl1: хонаханана”
+     хось+V+TV+PrcImprf+Sg+Abl+PxPl1: [хонахадана”, хонахадна”]
+     хось+V+TV+PrcImprf+Sg+Pros+PxPl1: хонавнана”
+     хось+V+TV+PrcImprf+Du+Nom+PxPl1: хонахаюна”
+     хось+V+TV+PrcImprf+Du+Acc+PxPl1: хонахаюна”
+     хось+V+TV+PrcImprf+Du+Gen+PxPl1: хонахаюна”
+     хось+V+TV+PrcImprf+Pl+Nom+PxPl1: хонина”
+     хось+V+TV+PrcImprf+Pl+Acc+PxPl1: хонина”
+     хось+V+TV+PrcImprf+Pl+Gen+PxPl1: хони”на”
+     хось+V+TV+PrcImprf+Pl+Dat+PxPl1: хонаха”на”
+     хось+V+TV+PrcImprf+Pl+Loc+PxPl1: хонаха”нана”
+     хось+V+TV+PrcImprf+Pl+Abl+PxPl1: [хонахатана”, хонахатна”]
+     хось+V+TV+PrcImprf+Pl+Pros+PxPl1: хони”манана”
+     хось+V+TV+PrcImprf+Sg+Nom+PxPl2: хонара”
+     хось+V+TV+PrcImprf+Sg+Acc+PxPl2: хонамда”
+     хось+V+TV+PrcImprf+Sg+Gen+PxPl2: хонанда”
+     хось+V+TV+PrcImprf+Sg+Dat+PxPl2: хонаханда”
+     хось+V+TV+PrcImprf+Sg+Loc+PxPl2: хонахананда”
+     хось+V+TV+PrcImprf+Sg+Abl+PxPl2: хонахаданда”
+     хось+V+TV+PrcImprf+Sg+Pros+PxPl2: хонавнанда”
+     хось+V+TV+PrcImprf+Du+Nom+PxPl2: хонахаюда”
+     хось+V+TV+PrcImprf+Du+Acc+PxPl2: хонахаюда”
+     хось+V+TV+PrcImprf+Du+Gen+PxPl2: хонахаюта”
+     хось+V+TV+PrcImprf+Pl+Nom+PxPl2: хонида”
+     хось+V+TV+PrcImprf+Pl+Acc+PxPl2: хонида”
+     хось+V+TV+PrcImprf+Pl+Gen+PxPl2: хонита”
+     хось+V+TV+PrcImprf+Pl+Dat+PxPl2: хонахата”
+     хось+V+TV+PrcImprf+Pl+Loc+PxPl2: хонаха”ната”
+     хось+V+TV+PrcImprf+Pl+Abl+PxPl2: [хонахатата”, хонахатта”]
+     хось+V+TV+PrcImprf+Pl+Pros+PxPl2: хони”маната”
+     хось+V+TV+PrcImprf+Sg+Nom+PxPl3: хонадо’
+     хось+V+TV+PrcImprf+Sg+Acc+PxPl3: хонамдо’
+     хось+V+TV+PrcImprf+Sg+Gen+PxPl3: хонандо’
+     хось+V+TV+PrcImprf+Sg+Dat+PxPl3: хонахандо’
+     хось+V+TV+PrcImprf+Sg+Loc+PxPl3: хонаханандо’
+     хось+V+TV+PrcImprf+Sg+Abl+PxPl3: хонахадандо’
+     хось+V+TV+PrcImprf+Sg+Pros+PxPl3: хонавнандо’
+     хось+V+TV+PrcImprf+Du+Nom+PxPl3: хонахаюдо’
+     хось+V+TV+PrcImprf+Du+Acc+PxPl3: хонахаюдо’
+     хось+V+TV+PrcImprf+Du+Gen+PxPl3: хонахаюто’
+     хось+V+TV+PrcImprf+Pl+Nom+PxPl3: хонидо’
+     хось+V+TV+PrcImprf+Pl+Acc+PxPl3: хонидо’
+     хось+V+TV+PrcImprf+Pl+Gen+PxPl3: хонито’
+     хось+V+TV+PrcImprf+Pl+Dat+PxPl3: хонахато’
+     хось+V+TV+PrcImprf+Pl+Loc+PxPl3: хонаха”нато’
+     хось+V+TV+PrcImprf+Pl+Abl+PxPl3: [хонахатато’, хонахатто’]
+     хось+V+TV+PrcImprf+Pl+Pros+PxPl3: хони”манато’
+     хось+V+TV+PrcImprf+Pred+Abs: хонад
+     хось+V+TV+PrcImprf+Pred+Nom+PxSg1: [хонадав, хонадув, хонадами]
+#     хось+V+TV+PrcImprf+Pred+Nom+PxSg1.2: хонадами
+     хось+V+TV+PrcImprf+Pred+Acc+PxSg1: [хонадав, хонадув, хонадами]
+#     хось+V+TV+PrcImprf+Pred+Acc+PxSg1.2: хонадами
+     хось+V+TV+PrcImprf+Pred+Gen+PxSg1: [хонадан, хонадани]
+#     хось+V+TV+PrcImprf+Pred+Gen+PxSg1.2: хонадани
+     хось+V+TV+PrcImprf+Pred+Nom+PxSg2: хонадар
+     хось+V+TV+PrcImprf+Pred+Acc+PxSg2: хонадамд
+     хось+V+TV+PrcImprf+Pred+Gen+PxSg2: хонаданд
+     хось+V+TV+PrcImprf+Pred+Nom+PxSg3: хонадада
+     хось+V+TV+PrcImprf+Pred+Acc+PxSg3: хонадамда
+     хось+V+TV+PrcImprf+Pred+Gen+PxSg3: хонаданда
+     хось+V+TV+PrcImprf+Pred+Nom+PxDu1: хонадами’
+     хось+V+TV+PrcImprf+Pred+Acc+PxDu1: хонадами’
+     хось+V+TV+PrcImprf+Pred+Gen+PxDu1: хонадани’
+     хось+V+TV+PrcImprf+Pred+Nom+PxDu2: хонадари’
+     хось+V+TV+PrcImprf+Pred+Acc+PxDu2: хонадамди’
+     хось+V+TV+PrcImprf+Pred+Gen+PxDu2: хонаданди’
+     хось+V+TV+PrcImprf+Pred+Nom+PxDu3: хонадади’
+     хось+V+TV+PrcImprf+Pred+Acc+PxDu3: хонадамди’
+     хось+V+TV+PrcImprf+Pred+Gen+PxDu3: хонаданди’
+     хось+V+TV+PrcImprf+Pred+Nom+PxPl1: хонадава”
+     хось+V+TV+PrcImprf+Pred+Acc+PxPl1: хонадава”
+     хось+V+TV+PrcImprf+Pred+Gen+PxPl1: хонадана”
+     хось+V+TV+PrcImprf+Pred+Nom+PxPl2: хонадара”
+     хось+V+TV+PrcImprf+Pred+Acc+PxPl2: хонадамда”
+     хось+V+TV+PrcImprf+Pred+Gen+PxPl2: хонаданда”
+     хось+V+TV+PrcImprf+Pred+Nom+PxPl3: хонададо’
+     хось+V+TV+PrcImprf+Pred+Acc+PxPl3: хонадамдо’
+     хось+V+TV+PrcImprf+Pred+Gen+PxPl3: хонадандо’
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScSg1: хонадм’
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScSg2: хонан
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScSg3: хона
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScDu1: хонани’
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScDu2: хонади’
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScDu3: хонаха’
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScPl1: хонава”
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScPl2: хонада”
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScPl3: хона”
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScSg1: хонадамзь
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScSg2: хонанась
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScSg3: хонась
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScDu1: хонанинзь
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScDu2: хонадинзь
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScDu3: хонаханзь
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScPl1: хонаваць
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScPl2: хонадаць
+     хось+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScPl3: хонаць
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg1: хонав
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg2: хонар
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg3: хонада
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu1: хонами’
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu2: хонари’
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu3: хонади’
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl1: хонава”
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl2: хонара”
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl3: хонадо’
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg1: хонавась
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg2: хонарась
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg3: хонадась
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu1: хонаминзь
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu2: хонаринзь
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu3: хонадинзь
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl1: хонаваць
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl2: хонараць
+     хось+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl3: хонадонзь
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg1: хонахаюн
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg2: хонахаюд
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg3: хонахаюда
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu1: хонахаюни’
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu2: хонахаюди’
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu3: хонахаюди’
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl1: хонахаюна”
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl2: хонахаюда”
+     хось+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl3: хонахаюдо’
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg1: хонахаюнась
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg2: хонахаюдась
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg3: хонахаюдась
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu1: хонахаюнинзь
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu2: хонахаюдинзь
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu3: хонахаюдинзь
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl1: хонахаюнаць
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl2: хонахаюдаць
+     хось+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl3: хонахаюдонзь
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg1: хонин
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg2: хонид
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg3: хонида
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu1: хонини’
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu2: хониди’
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu3: хониди’
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl1: хонина”
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl2: хонида”
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl3: хонидо’
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg1: хонинась
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg2: хонидась
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg3: хонидась
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu1: хонининзь
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu2: хонидинзь
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu3: хонидинзь
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl1: хонинаць
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl2: хонидаць
+     хось+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl3: хонидонзь
+     хось+V+TV+PrcImprf+Tra: хонаӈэ
+     хось+V+TV+PrcImprf+Car: хонаси”
+     хось+V+TV+PrcImprf+Equ: хонадарем’
+     хось+V+TV+PrcImprf+Equ+lat: хонадарев’
+     хось+V+TV+PrcPrf+Nom+Sg+Abs: ховы
+     хось+V+TV+PrcPrf+Acc+Sg+Abs: ховым’
+     хось+V+TV+PrcPrf+Gen+Sg+Abs: ховы’
+     хось+V+TV+PrcPrf+Dat+Sg+Abs: ховэн’
+     хось+V+TV+PrcPrf+Loc+Sg+Abs: ховэхэна
+     хось+V+TV+PrcPrf+Abl+Sg+Abs: ховэхэд
+     хось+V+TV+PrcPrf+Pros+Sg+Abs: ховэвна
+     хось+V+TV+PrcPrf+Nom+Du+Abs: ховэхэ’
+     хось+V+TV+PrcPrf+Acc+Du+Abs: ховэхэ’
+     хось+V+TV+PrcPrf+Gen+Du+Abs: ховэхэ’
+     хось+V+TV+PrcPrf+Nom+Pl+Abs: ховы”
+     хось+V+TV+PrcPrf+Acc+Pl+Abs: ховы
+     хось+V+TV+PrcPrf+Gen+Pl+Abs: ховы”
+     хось+V+TV+PrcPrf+Dat+Pl+Abs: ховэхэ”
+     хось+V+TV+PrcPrf+Loc+Pl+Abs: ховэхэ”на
+     хось+V+TV+PrcPrf+Abl+Pl+Abs: ховэхэт
+     хось+V+TV+PrcPrf+Pros+Pl+Abs: ховы”мана
+     хось+V+TV+PrcPrf+Sg+Nom+PxSg1: [ховэв, ховэми]
+#     хось+V+TV+PrcPrf+Sg+Nom+PxSg1.2: ховэми
+     хось+V+TV+PrcPrf+Sg+Acc+PxSg1: [ховэв, ховэми]
+#     хось+V+TV+PrcPrf+Sg+Acc+PxSg1.2: ховэми
+     хось+V+TV+PrcPrf+Sg+Gen+PxSg1: [ховэн, ховэни]
+#     хось+V+TV+PrcPrf+Sg+Gen+PxSg1.2: ховэни
+     хось+V+TV+PrcPrf+Sg+Dat+PxSg1: [ховэхэн, ховэхэни]
+#     хось+V+TV+PrcPrf+Sg+Dat+PxSg1.2: ховэхэни
+     хось+V+TV+PrcPrf+Sg+Loc+PxSg1: [ховэхэнан, ховэхэнани]
+#     хось+V+TV+PrcPrf+Sg+Loc+PxSg1.2: ховэхэнани
+     хось+V+TV+PrcPrf+Sg+Abl+PxSg1: [ховэхэдан, ховэхэдани, ховэхэдни]
+#     хось+V+TV+PrcPrf+Sg+Abl+PxSg1.2: [ховэхэдани, ховэхэдни]
+     хось+V+TV+PrcPrf+Sg+Pros+PxSg1: [ховэвнан, ховэвнани]
+#     хось+V+TV+PrcPrf+Sg+Pros+PxSg1.2: ховэвнани
+     хось+V+TV+PrcPrf+Du+Nom+PxSg1: [ховэхэюн, ховэхэюни]
+#     хось+V+TV+PrcPrf+Du+Nom+PxSg1.2: ховэхэюни
+     хось+V+TV+PrcPrf+Du+Acc+PxSg1: [ховэхэюн, ховэхэюни]
+#     хось+V+TV+PrcPrf+Du+Acc+PxSg1.2: ховэхэюни
+     хось+V+TV+PrcPrf+Du+Gen+PxSg1: [ховэхэюн, ховэхэюни]
+#     хось+V+TV+PrcPrf+Du+Gen+PxSg1.2: ховэхэюни
+     хось+V+TV+PrcPrf+Pl+Nom+PxSg1: [ховын, ховыни]
+#     хось+V+TV+PrcPrf+Pl+Nom+PxSg1.2: ховыни
+     хось+V+TV+PrcPrf+Pl+Acc+PxSg1: [ховын, ховыни]
+#     хось+V+TV+PrcPrf+Pl+Acc+PxSg1.2: ховыни
+     хось+V+TV+PrcPrf+Pl+Gen+PxSg1: [ховы”н, ховы”ни]
+#     хось+V+TV+PrcPrf+Pl+Gen+PxSg1.2: ховы”ни
+     хось+V+TV+PrcPrf+Pl+Dat+PxSg1: [ховэхэ”н, ховэхэ”ни]
+#     хось+V+TV+PrcPrf+Pl+Dat+PxSg1.2: ховэхэ”ни
+     хось+V+TV+PrcPrf+Pl+Loc+PxSg1: [ховэхэ”нан, ховэхэ”нани]
+#     хось+V+TV+PrcPrf+Pl+Loc+PxSg1.2: ховэхэ”нани
+     хось+V+TV+PrcPrf+Pl+Abl+PxSg1: [ховэхэтан, ховэхэтани, ховэхэтни]
+#     хось+V+TV+PrcPrf+Pl+Abl+PxSg1.2: [ховэхэтани, ховэхэтни]
+     хось+V+TV+PrcPrf+Pl+Pros+PxSg1: [ховы”манан, ховы”манани]
+#     хось+V+TV+PrcPrf+Pl+Pros+PxSg1.2: ховы”манани
+     хось+V+TV+PrcPrf+Sg+Nom+PxSg2: ховэр
+     хось+V+TV+PrcPrf+Sg+Acc+PxSg2: ховэмд
+     хось+V+TV+PrcPrf+Sg+Gen+PxSg2: ховэнд
+     хось+V+TV+PrcPrf+Sg+Dat+PxSg2: ховэхэнд
+     хось+V+TV+PrcPrf+Sg+Loc+PxSg2: ховэхэнанд
+     хось+V+TV+PrcPrf+Sg+Abl+PxSg2: ховэхэданд
+     хось+V+TV+PrcPrf+Sg+Pros+PxSg2: ховэвнанд
+     хось+V+TV+PrcPrf+Du+Nom+PxSg2: ховэхэюд
+     хось+V+TV+PrcPrf+Du+Acc+PxSg2: ховэхэюд
+     хось+V+TV+PrcPrf+Du+Gen+PxSg2: ховэхэют
+     хось+V+TV+PrcPrf+Pl+Nom+PxSg2: ховыд
+     хось+V+TV+PrcPrf+Pl+Acc+PxSg2: ховыд
+     хось+V+TV+PrcPrf+Pl+Gen+PxSg2: ховыт
+     хось+V+TV+PrcPrf+Pl+Dat+PxSg2: ховэхэт
+     хось+V+TV+PrcPrf+Pl+Loc+PxSg2: ховэхэ”нат
+     хось+V+TV+PrcPrf+Pl+Abl+PxSg2: ховэхэтат
+     хось+V+TV+PrcPrf+Pl+Pros+PxSg2: ховы”манат
+     хось+V+TV+PrcPrf+Sg+Nom+PxSg3: ховэда
+     хось+V+TV+PrcPrf+Sg+Acc+PxSg3: ховэмда
+     хось+V+TV+PrcPrf+Sg+Gen+PxSg3: ховэнда
+     хось+V+TV+PrcPrf+Sg+Dat+PxSg3: ховэхэнда
+     хось+V+TV+PrcPrf+Sg+Loc+PxSg3: ховэхэнанда
+     хось+V+TV+PrcPrf+Sg+Abl+PxSg3: ховэхэданда
+     хось+V+TV+PrcPrf+Sg+Pros+PxSg3: ховэвнанда
+     хось+V+TV+PrcPrf+Du+Nom+PxSg3: ховэхэюда
+     хось+V+TV+PrcPrf+Du+Acc+PxSg3: ховэхэюда
+     хось+V+TV+PrcPrf+Du+Gen+PxSg3: ховэхэюта
+     хось+V+TV+PrcPrf+Pl+Nom+PxSg3: ховыда
+     хось+V+TV+PrcPrf+Pl+Acc+PxSg3: ховыда
+     хось+V+TV+PrcPrf+Pl+Gen+PxSg3: ховыта
+     хось+V+TV+PrcPrf+Pl+Dat+PxSg3: ховэхэта
+     хось+V+TV+PrcPrf+Pl+Loc+PxSg3: ховэхэ”ната
+     хось+V+TV+PrcPrf+Pl+Abl+PxSg3: [ховэхэтата, ховэхэтта]
+     хось+V+TV+PrcPrf+Pl+Pros+PxSg3: ховы”маната
+     хось+V+TV+PrcPrf+Sg+Nom+PxDu1: ховэми’
+     хось+V+TV+PrcPrf+Sg+Acc+PxDu1: ховэми’
+     хось+V+TV+PrcPrf+Sg+Gen+PxDu1: ховэни’
+     хось+V+TV+PrcPrf+Sg+Dat+PxDu1: ховэхэни’
+     хось+V+TV+PrcPrf+Sg+Loc+PxDu1: ховэхэнани’
+     хось+V+TV+PrcPrf+Sg+Abl+PxDu1: [ховэхэдани’, ховэхэдни’]
+     хось+V+TV+PrcPrf+Sg+Pros+PxDu1: ховэвнани’
+     хось+V+TV+PrcPrf+Du+Nom+PxDu1: ховэхэюни’
+     хось+V+TV+PrcPrf+Du+Acc+PxDu1: ховэхэюни’
+     хось+V+TV+PrcPrf+Du+Gen+PxDu1: ховэхэюни’
+     хось+V+TV+PrcPrf+Pl+Nom+PxDu1: ховыни’
+     хось+V+TV+PrcPrf+Pl+Acc+PxDu1: ховыни’
+     хось+V+TV+PrcPrf+Pl+Gen+PxDu1: ховы”ни’
+     хось+V+TV+PrcPrf+Pl+Dat+PxDu1: ховэхэ”ни’
+     хось+V+TV+PrcPrf+Pl+Loc+PxDu1: ховэхэ”нани’
+     хось+V+TV+PrcPrf+Pl+Abl+PxDu1: [ховэхэтани’, ховэхэтни’]
+     хось+V+TV+PrcPrf+Pl+Pros+PxDu1: ховы”манани’
+     хось+V+TV+PrcPrf+Sg+Nom+PxDu2: ховэри’
+     хось+V+TV+PrcPrf+Sg+Acc+PxDu2: ховэмди’
+     хось+V+TV+PrcPrf+Sg+Gen+PxDu2: ховэнди’
+     хось+V+TV+PrcPrf+Sg+Dat+PxDu2: ховэхэнди’
+     хось+V+TV+PrcPrf+Sg+Loc+PxDu2: ховэхэнанди’
+     хось+V+TV+PrcPrf+Sg+Abl+PxDu2: ховэхэданди’
+     хось+V+TV+PrcPrf+Sg+Pros+PxDu2: ховэвнанди’
+     хось+V+TV+PrcPrf+Du+Nom+PxDu2: ховэхэюди’
+     хось+V+TV+PrcPrf+Du+Acc+PxDu2: ховэхэюди’
+     хось+V+TV+PrcPrf+Du+Gen+PxDu2: ховэхэюти’
+     хось+V+TV+PrcPrf+Pl+Nom+PxDu2: ховыди’
+     хось+V+TV+PrcPrf+Pl+Acc+PxDu2: ховыди’
+     хось+V+TV+PrcPrf+Pl+Gen+PxDu2: ховыти’
+     хось+V+TV+PrcPrf+Pl+Dat+PxDu2: ховэхэти’
+     хось+V+TV+PrcPrf+Pl+Loc+PxDu2: ховэхэ”нати’
+     хось+V+TV+PrcPrf+Pl+Abl+PxDu2: [ховэхэтати’, ховэхэтти’]
+     хось+V+TV+PrcPrf+Pl+Pros+PxDu2: ховы”манати’
+     хось+V+TV+PrcPrf+Sg+Nom+PxDu3: ховэди’
+     хось+V+TV+PrcPrf+Sg+Acc+PxDu3: ховэмди’
+     хось+V+TV+PrcPrf+Sg+Gen+PxDu3: ховэнди’
+     хось+V+TV+PrcPrf+Sg+Dat+PxDu3: ховэхэнди’
+     хось+V+TV+PrcPrf+Sg+Loc+PxDu3: ховэхэнанди’
+     хось+V+TV+PrcPrf+Sg+Abl+PxDu3: ховэхэданди’
+     хось+V+TV+PrcPrf+Sg+Pros+PxDu3: ховэвнанди’
+     хось+V+TV+PrcPrf+Du+Nom+PxDu3: ховэхэюди’
+     хось+V+TV+PrcPrf+Du+Acc+PxDu3: ховэхэюди’
+     хось+V+TV+PrcPrf+Du+Gen+PxDu3: ховэхэюти’
+     хось+V+TV+PrcPrf+Pl+Nom+PxDu3: ховыди’
+     хось+V+TV+PrcPrf+Pl+Acc+PxDu3: ховыди’
+     хось+V+TV+PrcPrf+Pl+Gen+PxDu3: ховыти’
+     хось+V+TV+PrcPrf+Pl+Dat+PxDu3: ховэхэти’
+     хось+V+TV+PrcPrf+Pl+Loc+PxDu3: ховэхэ”нати’
+     хось+V+TV+PrcPrf+Pl+Abl+PxDu3: [ховэхэтати’, ховэхэтти’]
+     хось+V+TV+PrcPrf+Pl+Pros+PxDu3: ховы”манати’
+     хось+V+TV+PrcPrf+Sg+Nom+PxPl1: ховэва”
+     хось+V+TV+PrcPrf+Sg+Acc+PxPl1: ховэва”
+     хось+V+TV+PrcPrf+Sg+Gen+PxPl1: ховэна”
+     хось+V+TV+PrcPrf+Sg+Dat+PxPl1: ховэхэна”
+     хось+V+TV+PrcPrf+Sg+Loc+PxPl1: ховэхэнана”
+     хось+V+TV+PrcPrf+Sg+Abl+PxPl1: [ховэхэдана”, ховэхэдна”]
+     хось+V+TV+PrcPrf+Sg+Pros+PxPl1: ховэвнана”
+     хось+V+TV+PrcPrf+Du+Nom+PxPl1: ховэхэюна”
+     хось+V+TV+PrcPrf+Du+Acc+PxPl1: ховэхэюна”
+     хось+V+TV+PrcPrf+Du+Gen+PxPl1: ховэхэюна”
+     хось+V+TV+PrcPrf+Pl+Nom+PxPl1: ховына”
+     хось+V+TV+PrcPrf+Pl+Acc+PxPl1: ховына”
+     хось+V+TV+PrcPrf+Pl+Gen+PxPl1: ховы”на”
+     хось+V+TV+PrcPrf+Pl+Dat+PxPl1: ховэхэ”на”
+     хось+V+TV+PrcPrf+Pl+Loc+PxPl1: ховэхэ”нана”
+     хось+V+TV+PrcPrf+Pl+Abl+PxPl1: [ховэхэтана”, ховэхэтна”]
+     хось+V+TV+PrcPrf+Pl+Pros+PxPl1: ховы”манана”
+     хось+V+TV+PrcPrf+Sg+Nom+PxPl2: ховэра”
+     хось+V+TV+PrcPrf+Sg+Acc+PxPl2: ховэмда”
+     хось+V+TV+PrcPrf+Sg+Gen+PxPl2: ховэнда”
+     хось+V+TV+PrcPrf+Sg+Dat+PxPl2: ховэхэнда”
+     хось+V+TV+PrcPrf+Sg+Loc+PxPl2: ховэхэнанда”
+     хось+V+TV+PrcPrf+Sg+Abl+PxPl2: ховэхэданда”
+     хось+V+TV+PrcPrf+Sg+Pros+PxPl2: ховэвнанда”
+     хось+V+TV+PrcPrf+Du+Nom+PxPl2: ховэхэюда”
+     хось+V+TV+PrcPrf+Du+Acc+PxPl2: ховэхэюда”
+     хось+V+TV+PrcPrf+Du+Gen+PxPl2: ховэхэюта”
+     хось+V+TV+PrcPrf+Pl+Nom+PxPl2: ховыда”
+     хось+V+TV+PrcPrf+Pl+Acc+PxPl2: ховыда”
+     хось+V+TV+PrcPrf+Pl+Gen+PxPl2: ховыта”
+     хось+V+TV+PrcPrf+Pl+Dat+PxPl2: ховэхэта”
+     хось+V+TV+PrcPrf+Pl+Loc+PxPl2: ховэхэ”ната”
+     хось+V+TV+PrcPrf+Pl+Abl+PxPl2: [ховэхэтата”, ховэхэтта”]
+     хось+V+TV+PrcPrf+Pl+Pros+PxPl2: ховы”маната”
+     хось+V+TV+PrcPrf+Sg+Nom+PxPl3: ховэдо’
+     хось+V+TV+PrcPrf+Sg+Acc+PxPl3: ховэмдо’
+     хось+V+TV+PrcPrf+Sg+Gen+PxPl3: ховэндо’
+     хось+V+TV+PrcPrf+Sg+Dat+PxPl3: ховэхэндо’
+     хось+V+TV+PrcPrf+Sg+Loc+PxPl3: ховэхэнандо’
+     хось+V+TV+PrcPrf+Sg+Abl+PxPl3: ховэхэдандо’
+     хось+V+TV+PrcPrf+Sg+Pros+PxPl3: ховэвнандо’
+     хось+V+TV+PrcPrf+Du+Nom+PxPl3: ховэхэюдо’
+     хось+V+TV+PrcPrf+Du+Acc+PxPl3: ховэхэюдо’
+     хось+V+TV+PrcPrf+Du+Gen+PxPl3: ховэхэюто’
+     хось+V+TV+PrcPrf+Pl+Nom+PxPl3: ховыдо’
+     хось+V+TV+PrcPrf+Pl+Acc+PxPl3: ховыдо’
+     хось+V+TV+PrcPrf+Pl+Gen+PxPl3: ховыто’
+     хось+V+TV+PrcPrf+Pl+Dat+PxPl3: ховэхэто’
+     хось+V+TV+PrcPrf+Pl+Loc+PxPl3: ховэхэ”нато’
+     хось+V+TV+PrcPrf+Pl+Abl+PxPl3: [ховэхэтато’, ховэхэтто’]
+     хось+V+TV+PrcPrf+Pl+Pros+PxPl3: ховы”манато’
+     хось+V+TV+PrcPrf+Pred+Abs: ховэд
+     хось+V+TV+PrcPrf+Pred+Nom+PxSg1: [ховэдав, ховэдув, ховэдами]
+#     хось+V+TV+PrcPrf+Pred+Nom+PxSg1.2: ховэдами
+     хось+V+TV+PrcPrf+Pred+Acc+PxSg1: [ховэдав, ховэдув, ховэдами]
+#     хось+V+TV+PrcPrf+Pred+Acc+PxSg1.2: ховэдами
+     хось+V+TV+PrcPrf+Pred+Gen+PxSg1: [ховэдан, ховэдани]
+#     хось+V+TV+PrcPrf+Pred+Gen+PxSg1.2: ховэдани
+     хось+V+TV+PrcPrf+Pred+Nom+PxSg2: ховэдар
+     хось+V+TV+PrcPrf+Pred+Acc+PxSg2: ховэдамд
+     хось+V+TV+PrcPrf+Pred+Gen+PxSg2: ховэданд
+     хось+V+TV+PrcPrf+Pred+Nom+PxSg3: ховэдада
+     хось+V+TV+PrcPrf+Pred+Acc+PxSg3: ховэдамда
+     хось+V+TV+PrcPrf+Pred+Gen+PxSg3: ховэданда
+     хось+V+TV+PrcPrf+Pred+Nom+PxDu1: ховэдами’
+     хось+V+TV+PrcPrf+Pred+Acc+PxDu1: ховэдами’
+     хось+V+TV+PrcPrf+Pred+Gen+PxDu1: ховэдани’
+     хось+V+TV+PrcPrf+Pred+Nom+PxDu2: ховэдари’
+     хось+V+TV+PrcPrf+Pred+Acc+PxDu2: ховэдамди’
+     хось+V+TV+PrcPrf+Pred+Gen+PxDu2: ховэданди’
+     хось+V+TV+PrcPrf+Pred+Nom+PxDu3: ховэдади’
+     хось+V+TV+PrcPrf+Pred+Acc+PxDu3: ховэдамди’
+     хось+V+TV+PrcPrf+Pred+Gen+PxDu3: ховэданди’
+     хось+V+TV+PrcPrf+Pred+Nom+PxPl1: ховэдава”
+     хось+V+TV+PrcPrf+Pred+Acc+PxPl1: ховэдава”
+     хось+V+TV+PrcPrf+Pred+Gen+PxPl1: ховэдана”
+     хось+V+TV+PrcPrf+Pred+Nom+PxPl2: ховэдара”
+     хось+V+TV+PrcPrf+Pred+Acc+PxPl2: ховэдамда”
+     хось+V+TV+PrcPrf+Pred+Gen+PxPl2: ховэданда”
+     хось+V+TV+PrcPrf+Pred+Nom+PxPl3: ховэдадо’
+     хось+V+TV+PrcPrf+Pred+Acc+PxPl3: ховэдамдо’
+     хось+V+TV+PrcPrf+Pred+Gen+PxPl3: ховэдандо’
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScSg1: ховэдм’
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScSg2: ховэн
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScSg3: ховы
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScDu1: ховэни’
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScDu2: ховэди’
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScDu3: ховэхэ’
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScPl1: ховэва”
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScPl2: ховэда”
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScPl3: ховы”
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScSg1: ховэдамзь
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScSg2: ховэнась
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScSg3: [ховысь, ховэсь]
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScDu1: ховэнинзь
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScDu2: ховэдинзь
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScDu3: ховэхэнзь
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScPl1: ховэваць
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScPl2: ховэдаць
+     хось+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScPl3: [ховыць, ховэць]
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg1: ховэв
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg2: ховэр
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg3: ховэда
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu1: ховэми’
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu2: ховэри’
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu3: ховэди’
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl1: ховэва”
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl2: ховэра”
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl3: ховэдо’
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg1: ховэвась
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg2: ховэрась
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg3: ховэдась
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu1: ховэминзь
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu2: ховэринзь
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu3: ховэдинзь
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl1: ховэваць
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl2: ховэраць
+     хось+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl3: ховэдонзь
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg1: ховэхэюн
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg2: ховэхэюд
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg3: ховэхэюда
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu1: ховэхэюни’
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu2: ховэхэюди’
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu3: ховэхэюди’
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl1: ховэхэюна”
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl2: ховэхэюда”
+     хось+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl3: ховэхэюдо’
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg1: ховэхэюнась
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg2: ховэхэюдась
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg3: ховэхэюдась
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu1: ховэхэюнинзь
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu2: ховэхэюдинзь
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu3: ховэхэюдинзь
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl1: ховэхэюнаць
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl2: ховэхэюдаць
+     хось+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl3: ховэхэюдонзь
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg1: ховын
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg2: ховыд
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg3: ховыда
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu1: ховыни’
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu2: ховыди’
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu3: ховыди’
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl1: ховына”
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl2: ховыда”
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl3: ховыдо’
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg1: ховынась
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg2: ховыдась
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg3: ховыдась
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu1: ховынинзь
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu2: ховыдинзь
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu3: ховыдинзь
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl1: ховынаць
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl2: ховыдаць
+     хось+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl3: ховыдонзь
+     хось+V+TV+PrcPrf+Tra: ховэӈэ
+     хось+V+TV+PrcPrf+Car: ховэси”
+     хось+V+TV+PrcPrf+Equ: ховэдарем’
+     хось+V+TV+PrcPrf+Equ+lat: ховэдарев’
+     хось+V+TV+PrcFut+Nom+Sg+Abs: [хованда, ховнда]
+     хось+V+TV+PrcFut+Acc+Sg+Abs: [ховандам’, ховндам’]
+     хось+V+TV+PrcFut+Gen+Sg+Abs: [хованда’, ховнда’]
+     хось+V+TV+PrcFut+Dat+Sg+Abs: [ховандан’, ховндан’]
+     хось+V+TV+PrcFut+Loc+Sg+Abs: [ховандахана, ховндахана]
+     хось+V+TV+PrcFut+Abl+Sg+Abs: [ховандахад, ховндахад]
+     хось+V+TV+PrcFut+Pros+Sg+Abs: [ховандавна, ховндавна]
+     хось+V+TV+PrcFut+Nom+Du+Abs: [ховандаха’, ховндаха’]
+     хось+V+TV+PrcFut+Acc+Du+Abs: [ховандаха’, ховндаха’]
+     хось+V+TV+PrcFut+Gen+Du+Abs: [ховандаха’, ховндаха’]
+     хось+V+TV+PrcFut+Nom+Pl+Abs: [хованда”, ховнда”]
+     хось+V+TV+PrcFut+Acc+Pl+Abs: [хованди, ховнди]
+     хось+V+TV+PrcFut+Gen+Pl+Abs: [хованди”, ховнди”]
+     хось+V+TV+PrcFut+Dat+Pl+Abs: [ховандаха”, ховндаха”]
+     хось+V+TV+PrcFut+Loc+Pl+Abs: [ховандаха”на, ховндаха”на]
+     хось+V+TV+PrcFut+Abl+Pl+Abs: [ховандахат, ховндахат]
+     хось+V+TV+PrcFut+Pros+Pl+Abs: [хованди”мна, ховнди”мна]
+     хось+V+TV+PrcFut+Sg+Nom+PxSg1: [ховандав, ховндав, ховандами, ховндами]
+#     хось+V+TV+PrcFut+Sg+Nom+PxSg1.2: [ховандами, ховндами]
+     хось+V+TV+PrcFut+Sg+Acc+PxSg1: [ховандав, ховндав, ховандами, ховндами]
+#     хось+V+TV+PrcFut+Sg+Acc+PxSg1.2: [ховандами, ховндами]
+     хось+V+TV+PrcFut+Sg+Gen+PxSg1: [ховандан, ховндан, ховандани, ховндани]
+#     хось+V+TV+PrcFut+Sg+Gen+PxSg1.2: [ховандани, ховндани]
+     хось+V+TV+PrcFut+Sg+Dat+PxSg1: [ховандахан, ховндахан, ховандахани, ховндахани]
+#     хось+V+TV+PrcFut+Sg+Dat+PxSg1.2: [ховандахани, ховндахани]
+     хось+V+TV+PrcFut+Sg+Loc+PxSg1: [ховандаханан, ховндаханан, ховандаханани, ховндаханани]
+#     хось+V+TV+PrcFut+Sg+Loc+PxSg1.2: [ховандаханани, ховндаханани]
+     хось+V+TV+PrcFut+Sg+Abl+PxSg1: [ховандахадан, ховндахадан, ховандахадани, ховндахадани]
+#     хось+V+TV+PrcFut+Sg+Abl+PxSg1.2: [ховандахадани, ховндахадани]
+     хось+V+TV+PrcFut+Sg+Pros+PxSg1: [ховандавнан, ховндавнан, ховандавнани, ховндавнани]
+#     хось+V+TV+PrcFut+Sg+Pros+PxSg1.2: [ховандавнани, ховндавнани]
+     хось+V+TV+PrcFut+Du+Nom+PxSg1: [ховандахаюн, ховндахаюн, ховандахаюни, ховндахаюни]
+#     хось+V+TV+PrcFut+Du+Nom+PxSg1.2: [ховандахаюни, ховндахаюни]
+     хось+V+TV+PrcFut+Du+Acc+PxSg1: [ховандахаюн, ховндахаюн, ховандахаюни, ховндахаюни]
+#     хось+V+TV+PrcFut+Du+Acc+PxSg1.2: [ховандахаюни, ховндахаюни]
+     хось+V+TV+PrcFut+Du+Gen+PxSg1: [ховандахаюн, ховндахаюн, ховандахаюни, ховндахаюни]
+#     хось+V+TV+PrcFut+Du+Gen+PxSg1.2: [ховандахаюни, ховндахаюни]
+     хось+V+TV+PrcFut+Pl+Nom+PxSg1: [ховандин, ховндин, ховандини, ховндини]
+#     хось+V+TV+PrcFut+Pl+Nom+PxSg1.2: [ховандини, ховндини]
+     хось+V+TV+PrcFut+Pl+Acc+PxSg1: [ховандин, ховндин, ховандини, ховндини]
+#     хось+V+TV+PrcFut+Pl+Acc+PxSg1.2: [ховандини, ховндини]
+     хось+V+TV+PrcFut+Pl+Gen+PxSg1: [хованди”н, ховнди”н, хованди”ни, ховнди”ни]
+#     хось+V+TV+PrcFut+Pl+Gen+PxSg1.2: [хованди”ни, ховнди”ни]
+     хось+V+TV+PrcFut+Pl+Dat+PxSg1: [ховандаха”н, ховндаха”н, ховандаха”ни, ховндаха”ни]
+#     хось+V+TV+PrcFut+Pl+Dat+PxSg1.2: [ховандаха”ни, ховндаха”ни]
+     хось+V+TV+PrcFut+Pl+Loc+PxSg1: [ховандаха”нан, ховндаха”нан, ховандаха”нани, ховндаха”нани]
+#     хось+V+TV+PrcFut+Pl+Loc+PxSg1.2: [ховандаха”нани, ховндаха”нани]
+     хось+V+TV+PrcFut+Pl+Abl+PxSg1: [ховандахатан, ховндахатан, ховандахатани, ховндахатани]
+#     хось+V+TV+PrcFut+Pl+Abl+PxSg1.2: [ховандахатани, ховндахатани]
+     хось+V+TV+PrcFut+Pl+Pros+PxSg1: [хованди”мнан, ховнди”мнан, хованди”мнани, ховнди”мнани]
+#     хось+V+TV+PrcFut+Pl+Pros+PxSg1.2: [хованди”мнани, ховнди”мнани]
+     хось+V+TV+PrcFut+Sg+Nom+PxSg2: [ховандар, ховндар]
+     хось+V+TV+PrcFut+Sg+Acc+PxSg2: [ховандамд, ховндамд]
+     хось+V+TV+PrcFut+Sg+Gen+PxSg2: [хованданд, ховнданд]
+     хось+V+TV+PrcFut+Sg+Dat+PxSg2: [ховандаханд, ховндаханд]
+     хось+V+TV+PrcFut+Sg+Loc+PxSg2: [ховандахананд, ховндахананд]
+     хось+V+TV+PrcFut+Sg+Abl+PxSg2: [ховандахаданд, ховндахаданд]
+     хось+V+TV+PrcFut+Sg+Pros+PxSg2: [ховандавнанд, ховндавнанд]
+     хось+V+TV+PrcFut+Du+Nom+PxSg2: [ховандахаюд, ховндахаюд]
+     хось+V+TV+PrcFut+Du+Acc+PxSg2: [ховандахаюд, ховндахаюд]
+     хось+V+TV+PrcFut+Du+Gen+PxSg2: [ховандахают, ховндахают]
+     хось+V+TV+PrcFut+Pl+Nom+PxSg2: [ховандид, ховндид]
+     хось+V+TV+PrcFut+Pl+Acc+PxSg2: [ховандид, ховндид]
+     хось+V+TV+PrcFut+Pl+Gen+PxSg2: [ховандит, ховндит]
+     хось+V+TV+PrcFut+Pl+Dat+PxSg2: [ховандахат, ховндахат]
+     хось+V+TV+PrcFut+Pl+Loc+PxSg2: [ховандаха”нат, ховндаха”нат]
+     хось+V+TV+PrcFut+Pl+Abl+PxSg2: [ховандахатат, ховндахатат]
+     хось+V+TV+PrcFut+Pl+Pros+PxSg2: [хованди”мнат, ховнди”мнат]
+     хось+V+TV+PrcFut+Sg+Nom+PxSg3: [ховандада, ховндада]
+     хось+V+TV+PrcFut+Sg+Acc+PxSg3: [ховандамда, ховндамда]
+     хось+V+TV+PrcFut+Sg+Gen+PxSg3: [хованданда, ховнданда]
+     хось+V+TV+PrcFut+Sg+Dat+PxSg3: [ховандаханда, ховндаханда]
+     хось+V+TV+PrcFut+Sg+Loc+PxSg3: [ховандахананда, ховндахананда]
+     хось+V+TV+PrcFut+Sg+Abl+PxSg3: [ховандахаданда, ховндахаданда]
+     хось+V+TV+PrcFut+Sg+Pros+PxSg3: [ховандавнанда, ховндавнанда]
+     хось+V+TV+PrcFut+Du+Nom+PxSg3: [ховандахаюда, ховндахаюда]
+     хось+V+TV+PrcFut+Du+Acc+PxSg3: [ховандахаюда, ховндахаюда]
+     хось+V+TV+PrcFut+Du+Gen+PxSg3: [ховандахаюта, ховндахаюта]
+     хось+V+TV+PrcFut+Pl+Nom+PxSg3: [ховандида, ховндида]
+     хось+V+TV+PrcFut+Pl+Acc+PxSg3: [ховандида, ховндида]
+     хось+V+TV+PrcFut+Pl+Gen+PxSg3: [ховандита, ховндита]
+     хось+V+TV+PrcFut+Pl+Dat+PxSg3: [ховандахата, ховндахата]
+     хось+V+TV+PrcFut+Pl+Loc+PxSg3: [ховандаха”ната, ховндаха”ната]
+     хось+V+TV+PrcFut+Pl+Abl+PxSg3: [ховандахатата, ховндахатата]
+     хось+V+TV+PrcFut+Pl+Pros+PxSg3: [хованди”мната, ховнди”мната]
+     хось+V+TV+PrcFut+Sg+Nom+PxDu1: [ховандами’, ховндами’]
+     хось+V+TV+PrcFut+Sg+Acc+PxDu1: [ховандами’, ховндами’]
+     хось+V+TV+PrcFut+Sg+Gen+PxDu1: [ховандани’, ховндани’]
+     хось+V+TV+PrcFut+Sg+Dat+PxDu1: [ховандахани’, ховндахани’]
+     хось+V+TV+PrcFut+Sg+Loc+PxDu1: [ховандаханани’, ховндаханани’]
+     хось+V+TV+PrcFut+Sg+Abl+PxDu1: [ховандахадани’, ховндахадани’]
+     хось+V+TV+PrcFut+Sg+Pros+PxDu1: [ховандавнани’, ховндавнани’]
+     хось+V+TV+PrcFut+Du+Nom+PxDu1: [ховандахаюни’, ховндахаюни’]
+     хось+V+TV+PrcFut+Du+Acc+PxDu1: [ховандахаюни’, ховндахаюни’]
+     хось+V+TV+PrcFut+Du+Gen+PxDu1: [ховандахаюни’, ховндахаюни’]
+     хось+V+TV+PrcFut+Pl+Nom+PxDu1: [ховандини’, ховндини’]
+     хось+V+TV+PrcFut+Pl+Acc+PxDu1: [ховандини’, ховндини’]
+     хось+V+TV+PrcFut+Pl+Gen+PxDu1: [хованди”ни’, ховнди”ни’]
+     хось+V+TV+PrcFut+Pl+Dat+PxDu1: [ховандаха”ни’, ховндаха”ни’]
+     хось+V+TV+PrcFut+Pl+Loc+PxDu1: [ховандаха”нани’, ховндаха”нани’]
+     хось+V+TV+PrcFut+Pl+Abl+PxDu1: [ховандахатани’, ховндахатани’]
+     хось+V+TV+PrcFut+Pl+Pros+PxDu1: [хованди”мнани’, ховнди”мнани’]
+     хось+V+TV+PrcFut+Sg+Nom+PxDu2: [ховандари’, ховндари’]
+     хось+V+TV+PrcFut+Sg+Acc+PxDu2: [ховандамди’, ховндамди’]
+     хось+V+TV+PrcFut+Sg+Gen+PxDu2: [хованданди’, ховнданди’]
+     хось+V+TV+PrcFut+Sg+Dat+PxDu2: [ховандаханди’, ховндаханди’]
+     хось+V+TV+PrcFut+Sg+Loc+PxDu2: [ховандахананди’, ховндахананди’]
+     хось+V+TV+PrcFut+Sg+Abl+PxDu2: [ховандахаданди’, ховндахаданди’]
+     хось+V+TV+PrcFut+Sg+Pros+PxDu2: [ховандавнанди’, ховндавнанди’]
+     хось+V+TV+PrcFut+Du+Nom+PxDu2: [ховандахаюди’, ховндахаюди’]
+     хось+V+TV+PrcFut+Du+Acc+PxDu2: [ховандахаюди’, ховндахаюди’]
+     хось+V+TV+PrcFut+Du+Gen+PxDu2: [ховандахаюти’, ховндахаюти’]
+     хось+V+TV+PrcFut+Pl+Nom+PxDu2: [ховандиди’, ховндиди’]
+     хось+V+TV+PrcFut+Pl+Acc+PxDu2: [ховандиди’, ховндиди’]
+     хось+V+TV+PrcFut+Pl+Gen+PxDu2: [ховандити’, ховндити’]
+     хось+V+TV+PrcFut+Pl+Dat+PxDu2: [ховандахати’, ховндахати’]
+     хось+V+TV+PrcFut+Pl+Loc+PxDu2: [ховандаха”нати’, ховндаха”нати’]
+     хось+V+TV+PrcFut+Pl+Abl+PxDu2: [ховандахатати’, ховндахатати’]
+     хось+V+TV+PrcFut+Pl+Pros+PxDu2: [хованди”мнати’, ховнди”мнати’]
+     хось+V+TV+PrcFut+Sg+Nom+PxDu3: [ховандади’, ховндади’]
+     хось+V+TV+PrcFut+Sg+Acc+PxDu3: [ховандамди’, ховндамди’]
+     хось+V+TV+PrcFut+Sg+Gen+PxDu3: [хованданди’, ховнданди’]
+     хось+V+TV+PrcFut+Sg+Dat+PxDu3: [ховандаханди’, ховндаханди’]
+     хось+V+TV+PrcFut+Sg+Loc+PxDu3: [ховандахананди’, ховндахананди’]
+     хось+V+TV+PrcFut+Sg+Abl+PxDu3: [ховандахаданди’, ховндахаданди’]
+     хось+V+TV+PrcFut+Sg+Pros+PxDu3: [ховандавнанди’, ховндавнанди’]
+     хось+V+TV+PrcFut+Du+Nom+PxDu3: [ховандахаюди’, ховндахаюди’]
+     хось+V+TV+PrcFut+Du+Acc+PxDu3: [ховандахаюди’, ховндахаюди’]
+     хось+V+TV+PrcFut+Du+Gen+PxDu3: [ховандахаюти’, ховндахаюти’]
+     хось+V+TV+PrcFut+Pl+Nom+PxDu3: [ховандиди’, ховндиди’]
+     хось+V+TV+PrcFut+Pl+Acc+PxDu3: [ховандиди’, ховндиди’]
+     хось+V+TV+PrcFut+Pl+Gen+PxDu3: [ховандити’, ховндити’]
+     хось+V+TV+PrcFut+Pl+Dat+PxDu3: [ховандахати’, ховндахати’]
+     хось+V+TV+PrcFut+Pl+Loc+PxDu3: [ховандаха”нати’, ховндаха”нати’]
+     хось+V+TV+PrcFut+Pl+Abl+PxDu3: [ховандахатати’, ховндахатати’]
+     хось+V+TV+PrcFut+Pl+Pros+PxDu3: [хованди”мнати’, ховнди”мнати’]
+     хось+V+TV+PrcFut+Sg+Nom+PxPl1: [ховандава”, ховндава”]
+     хось+V+TV+PrcFut+Sg+Acc+PxPl1: [ховандава”, ховндава”]
+     хось+V+TV+PrcFut+Sg+Gen+PxPl1: [ховандана”, ховндана”]
+     хось+V+TV+PrcFut+Sg+Dat+PxPl1: [ховандахана”, ховндахана”]
+     хось+V+TV+PrcFut+Sg+Loc+PxPl1: [ховандаханана”, ховндаханана”]
+     хось+V+TV+PrcFut+Sg+Abl+PxPl1: [ховандахадана”, ховндахадана”]
+     хось+V+TV+PrcFut+Sg+Pros+PxPl1: [ховандавнана”, ховндавнана”]
+     хось+V+TV+PrcFut+Du+Nom+PxPl1: [ховандахаюна”, ховндахаюна”]
+     хось+V+TV+PrcFut+Du+Acc+PxPl1: [ховандахаюна”, ховндахаюна”]
+     хось+V+TV+PrcFut+Du+Gen+PxPl1: [ховандахаюна”, ховндахаюна”]
+     хось+V+TV+PrcFut+Pl+Nom+PxPl1: [ховандина”, ховндина”]
+     хось+V+TV+PrcFut+Pl+Acc+PxPl1: [ховандина”, ховндина”]
+     хось+V+TV+PrcFut+Pl+Gen+PxPl1: [хованди”на”, ховнди”на”]
+     хось+V+TV+PrcFut+Pl+Dat+PxPl1: [ховандаха”на”, ховндаха”на”]
+     хось+V+TV+PrcFut+Pl+Loc+PxPl1: [ховандаха”нана”, ховндаха”нана”]
+     хось+V+TV+PrcFut+Pl+Abl+PxPl1: [ховандахатана”, ховндахатана”]
+     хось+V+TV+PrcFut+Pl+Pros+PxPl1: [хованди”мнана”, ховнди”мнана”]
+     хось+V+TV+PrcFut+Sg+Nom+PxPl2: [ховандара”, ховндара”]
+     хось+V+TV+PrcFut+Sg+Acc+PxPl2: [ховандамда”, ховндамда”]
+     хось+V+TV+PrcFut+Sg+Gen+PxPl2: [хованданда”, ховнданда”]
+     хось+V+TV+PrcFut+Sg+Dat+PxPl2: [ховандаханда”, ховндаханда”]
+     хось+V+TV+PrcFut+Sg+Loc+PxPl2: [ховандахананда”, ховндахананда”]
+     хось+V+TV+PrcFut+Sg+Abl+PxPl2: [ховандахаданда”, ховндахаданда”]
+     хось+V+TV+PrcFut+Sg+Pros+PxPl2: [ховандавнанда”, ховндавнанда”]
+     хось+V+TV+PrcFut+Du+Nom+PxPl2: [ховандахаюда”, ховндахаюда”]
+     хось+V+TV+PrcFut+Du+Acc+PxPl2: [ховандахаюда”, ховндахаюда”]
+     хось+V+TV+PrcFut+Du+Gen+PxPl2: [ховандахаюта”, ховндахаюта”]
+     хось+V+TV+PrcFut+Pl+Nom+PxPl2: [ховандида”, ховндида”]
+     хось+V+TV+PrcFut+Pl+Acc+PxPl2: [ховандида”, ховндида”]
+     хось+V+TV+PrcFut+Pl+Gen+PxPl2: [ховандита”, ховндита”]
+     хось+V+TV+PrcFut+Pl+Dat+PxPl2: [ховандахата”, ховндахата”]
+     хось+V+TV+PrcFut+Pl+Loc+PxPl2: [ховандаха”ната”, ховндаха”ната”]
+     хось+V+TV+PrcFut+Pl+Abl+PxPl2: [ховандахатата”, ховндахатата”]
+     хось+V+TV+PrcFut+Pl+Pros+PxPl2: [хованди”мната”, ховнди”мната”]
+     хось+V+TV+PrcFut+Sg+Nom+PxPl3: [ховандадо’, ховндадо’]
+     хось+V+TV+PrcFut+Sg+Acc+PxPl3: [ховандамдо’, ховндамдо’]
+     хось+V+TV+PrcFut+Sg+Gen+PxPl3: [ховандандо’, ховндандо’]
+     хось+V+TV+PrcFut+Sg+Dat+PxPl3: [ховандахандо’, ховндахандо’]
+     хось+V+TV+PrcFut+Sg+Loc+PxPl3: [ховандаханандо’, ховндаханандо’]
+     хось+V+TV+PrcFut+Sg+Abl+PxPl3: [ховандахадандо’, ховндахадандо’]
+     хось+V+TV+PrcFut+Sg+Pros+PxPl3: [ховандавнандо’, ховндавнандо’]
+     хось+V+TV+PrcFut+Du+Nom+PxPl3: [ховандахаюдо’, ховндахаюдо’]
+     хось+V+TV+PrcFut+Du+Acc+PxPl3: [ховандахаюдо’, ховндахаюдо’]
+     хось+V+TV+PrcFut+Du+Gen+PxPl3: [ховандахаюто’, ховндахаюто’]
+     хось+V+TV+PrcFut+Pl+Nom+PxPl3: [ховандидо’, ховндидо’]
+     хось+V+TV+PrcFut+Pl+Acc+PxPl3: [ховандидо’, ховндидо’]
+     хось+V+TV+PrcFut+Pl+Gen+PxPl3: [ховандито’, ховндито’]
+     хось+V+TV+PrcFut+Pl+Dat+PxPl3: [ховандахато’, ховндахато’]
+     хось+V+TV+PrcFut+Pl+Loc+PxPl3: [ховандаха”нато’, ховндаха”нато’]
+     хось+V+TV+PrcFut+Pl+Abl+PxPl3: [ховандахатато’, ховндахатато’]
+     хось+V+TV+PrcFut+Pl+Pros+PxPl3: [хованди”мнато’, ховнди”мнато’]
+     хось+V+TV+PrcFut+Pred+Abs: [ховандад, ховндад]
+     хось+V+TV+PrcFut+Pred+Nom+PxSg1: [ховандадав, ховндадав, ховандадув, ховндадув, ховандадами, ховандадми, ховндадами, ховндадми]
+#     хось+V+TV+PrcFut+Pred+Nom+PxSg1.2: хов(а)ндад(а)ми
+     хось+V+TV+PrcFut+Pred+Acc+PxSg1: [ховандадав, ховндадав, ховандадув, ховндадув, ховандадами, ховандадми, ховндадами, ховндадми]
+#     хось+V+TV+PrcFut+Pred+Acc+PxSg1.2: хов(а)ндад(а)ми
+     хось+V+TV+PrcFut+Pred+Gen+PxSg1: [ховандадан, ховндадан, ховандадани, ховандадни, ховндадани, ховндадни]
+#     хось+V+TV+PrcFut+Pred+Gen+PxSg1.2: хов(а)ндад(а)ни
+     хось+V+TV+PrcFut+Pred+Nom+PxSg2: [ховандадар, ховндадар]
+     хось+V+TV+PrcFut+Pred+Acc+PxSg2: [ховандадамд, ховндадамд]
+     хось+V+TV+PrcFut+Pred+Gen+PxSg2: [ховандаданд, ховндаданд]
+     хось+V+TV+PrcFut+Pred+Nom+PxSg3: [ховандадада, ховандадда, ховндадада, ховндадда]
+     хось+V+TV+PrcFut+Pred+Acc+PxSg3: [ховандадамда, ховндадамда]
+     хось+V+TV+PrcFut+Pred+Gen+PxSg3: [ховандаданда, ховндаданда]
+     хось+V+TV+PrcFut+Pred+Nom+PxDu1: [ховандадами’, ховандадми’, ховндадами’, ховндадми’]
+     хось+V+TV+PrcFut+Pred+Acc+PxDu1: [ховандадами’, ховандадми’, ховндадами’, ховндадми’]
+     хось+V+TV+PrcFut+Pred+Gen+PxDu1: [ховандадани’, ховандадни’, ховндадани’, ховндадни’]
+     хось+V+TV+PrcFut+Pred+Nom+PxDu2: [ховандадари’, ховандадри’, ховндадари’, ховндадри’]
+     хось+V+TV+PrcFut+Pred+Acc+PxDu2: [ховандадамди’, ховндадамди’]
+     хось+V+TV+PrcFut+Pred+Gen+PxDu2: [ховандаданди’, ховндаданди’]
+     хось+V+TV+PrcFut+Pred+Nom+PxDu3: [ховандадади’, ховандадди’, ховндадади’, ховндадди’]
+     хось+V+TV+PrcFut+Pred+Acc+PxDu3: [ховандадамди’, ховндадамди’]
+     хось+V+TV+PrcFut+Pred+Gen+PxDu3: [ховандаданди’, ховндаданди’]
+     хось+V+TV+PrcFut+Pred+Nom+PxPl1: [ховандадава”, ховандадва”, ховндадава”, ховндадва”]
+     хось+V+TV+PrcFut+Pred+Acc+PxPl1: [ховандадава”, ховандадва”, ховндадава”, ховндадва”]
+     хось+V+TV+PrcFut+Pred+Gen+PxPl1: [ховандадана”, ховандадна”, ховндадана”, ховндадна”]
+     хось+V+TV+PrcFut+Pred+Nom+PxPl2: [ховандадара”, ховандадра”, ховндадара”, ховндадра”]
+     хось+V+TV+PrcFut+Pred+Acc+PxPl2: [ховандадамда”, ховндадамда”]
+     хось+V+TV+PrcFut+Pred+Gen+PxPl2: [ховандаданда”, ховндаданда”]
+     хось+V+TV+PrcFut+Pred+Nom+PxPl3: [ховандададо’, ховандаддо’, ховндададо’, ховндаддо’]
+     хось+V+TV+PrcFut+Pred+Acc+PxPl3: [ховандадамдо’, ховндадамдо’]
+     хось+V+TV+PrcFut+Pred+Gen+PxPl3: [ховандадандо’, ховндадандо’]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScSg1: [ховандадм’, ховндадм’]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScSg2: [ховандан, ховндан]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScSg3: [хованда, ховнда]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScDu1: [ховандани’, ховндани’]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScDu2: [ховандади’, ховндади’]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScDu3: [ховандаха’, ховндаха’]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScPl1: [ховандава”, ховндава”]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScPl2: [ховандада”, ховндада”]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Aor+ScPl3: [хованда”, ховнда”]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScSg1: [ховандадамзь, ховндадамзь]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScSg2: [хованданась, ховнданась]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScSg3: [ховандась, ховндась]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScDu1: [хованданинзь, ховнданинзь]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScDu2: [ховандадинзь, ховндадинзь]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScDu3: [ховандаханзь, ховндаханзь]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScPl1: [ховандаваць, ховндаваць]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScPl2: [ховандадаць, ховндадаць]
+     хось+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScPl3: [ховандаць, ховндаць]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg1: [ховандав, ховндав]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg2: [ховандар, ховндар]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg3: [ховандада, ховндада]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu1: [ховандами’, ховндами’]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu2: [ховандари’, ховндари’]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu3: [ховандади’, ховндади’]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl1: [ховандава”, ховндава”]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl2: [ховандара”, ховндара”]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl3: [ховандадо’, ховндадо’]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg1: [ховандавась, ховндавась]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg2: [ховандарась, ховндарась]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg3: [ховандадась, ховндадась]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu1: [ховандаминзь, ховндаминзь]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu2: [ховандаринзь, ховндаринзь]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu3: [ховандадинзь, ховндадинзь]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl1: [ховандаваць, ховндаваць]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl2: [ховандараць, ховндараць]
+     хось+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl3: [ховандадонзь, ховндадонзь]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg1: [ховандахаюн, ховндахаюн]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg2: [ховандахаюд, ховндахаюд]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg3: [ховандахаюда, ховндахаюда]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu1: [ховандахаюни’, ховндахаюни’]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu2: [ховандахаюди’, ховндахаюди’]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu3: [ховандахаюди’, ховндахаюди’]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl1: [ховандахаюна”, ховндахаюна”]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl2: [ховандахаюда”, ховндахаюда”]
+     хось+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl3: [ховандахаюдо’, ховндахаюдо’]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg1: [ховандахаюнась, ховндахаюнась]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg2: [ховандахаюдась, ховндахаюдась]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg3: [ховандахаюдась, ховндахаюдась]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu1: [ховандахаюнинзь, ховндахаюнинзь]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu2: [ховандахаюдинзь, ховндахаюдинзь]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu3: [ховандахаюдинзь, ховндахаюдинзь]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl1: [ховандахаюнаць, ховндахаюнаць]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl2: [ховандахаюдаць, ховндахаюдаць]
+     хось+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl3: [ховандахаюдонзь, ховндахаюдонзь]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg1: [ховандин, ховндин]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg2: [ховандид, ховндид]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg3: [ховандида, ховндида]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu1: [ховандини’, ховндини’]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu2: [ховандиди’, ховндиди’]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu3: [ховандиди’, ховндиди’]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl1: [ховандина”, ховндина”]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl2: [ховандида”, ховндида”]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl3: [ховандидо’, ховндидо’]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg1: [ховандинась, ховндинась]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg2: [ховандидась, ховндидась]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg3: [ховандидась, ховндидась]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu1: [ховандининзь, ховндининзь]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu2: [ховандидинзь, ховндидинзь]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu3: [ховандидинзь, ховндидинзь]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl1: [ховандинаць, ховндинаць]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl2: [ховандидаць, ховндидаць]
+     хось+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl3: [ховандидонзь, ховндидонзь]
+     хось+V+TV+PrcFut+Tra: [ховандаӈэ, ховндаӈэ]
+     хось+V+TV+PrcFut+Car: [ховандаси”, ховндаси”]
+     хось+V+TV+PrcFut+Equ: [ховандадрем’, ховндадрем’]
+     хось+V+TV+PrcFut+Equ+lat: [ховандадрев’, ховндадрев’]
+     хось+V+TV+PrcNeg+Nom+Sg+Abs: ховдавэй
+     хось+V+TV+PrcNeg+Acc+Sg+Abs: ховдавэйм’
+     хось+V+TV+PrcNeg+Gen+Sg+Abs: ховдавэй’
+     хось+V+TV+PrcNeg+Dat+Sg+Abs: ховдавэн’
+     хось+V+TV+PrcNeg+Loc+Sg+Abs: ховдавэхэна
+     хось+V+TV+PrcNeg+Abl+Sg+Abs: ховдавэхэд
+     хось+V+TV+PrcNeg+Pros+Sg+Abs: ховдавэвна
+     хось+V+TV+PrcNeg+Nom+Du+Abs: ховдавэхэ’
+     хось+V+TV+PrcNeg+Acc+Du+Abs: ховдавэхэ’
+     хось+V+TV+PrcNeg+Gen+Du+Abs: ховдавэхэ’
+     хось+V+TV+PrcNeg+Nom+Pl+Abs: ховдавэй”
+     хось+V+TV+PrcNeg+Acc+Pl+Abs: ховдавэй
+     хось+V+TV+PrcNeg+Gen+Pl+Abs: ховдавэй”
+     хось+V+TV+PrcNeg+Dat+Pl+Abs: ховдавэхэ”
+     хось+V+TV+PrcNeg+Loc+Pl+Abs: ховдавэхэ”на
+     хось+V+TV+PrcNeg+Abl+Pl+Abs: ховдавэхэт
+     хось+V+TV+PrcNeg+Pros+Pl+Abs: ховдавэй”мана
+     хось+V+TV+PrcNeg+Sg+Nom+PxSg1: [ховдавэв, ховдавэми]
+#     хось+V+TV+PrcNeg+Sg+Nom+PxSg1.2: ховдавэми
+     хось+V+TV+PrcNeg+Sg+Acc+PxSg1: [ховдавэв, ховдавэми]
+#     хось+V+TV+PrcNeg+Sg+Acc+PxSg1.2: ховдавэми
+     хось+V+TV+PrcNeg+Sg+Gen+PxSg1: [ховдавэн, ховдавэни]
+#     хось+V+TV+PrcNeg+Sg+Gen+PxSg1.2: ховдавэни
+     хось+V+TV+PrcNeg+Sg+Dat+PxSg1: [ховдавэхэн, ховдавэхэни]
+#     хось+V+TV+PrcNeg+Sg+Dat+PxSg1.2: ховдавэхэни
+     хось+V+TV+PrcNeg+Sg+Loc+PxSg1: [ховдавэхэнан, ховдавэхэнани]
+#     хось+V+TV+PrcNeg+Sg+Loc+PxSg1.2: ховдавэхэнани
+     хось+V+TV+PrcNeg+Sg+Abl+PxSg1: [ховдавэхэдан, ховдавэхэдани, ховдавэхэдни]
+#     хось+V+TV+PrcNeg+Sg+Abl+PxSg1.2: [ховдавэхэдани, ховдавэхэдни]
+     хось+V+TV+PrcNeg+Sg+Pros+PxSg1: [ховдавэвнан, ховдавэвнани]
+#     хось+V+TV+PrcNeg+Sg+Pros+PxSg1.2: ховдавэвнани
+     хось+V+TV+PrcNeg+Du+Nom+PxSg1: [ховдавэхэюн, ховдавэхэюни]
+#     хось+V+TV+PrcNeg+Du+Nom+PxSg1.2: ховдавэхэюни
+     хось+V+TV+PrcNeg+Du+Acc+PxSg1: [ховдавэхэюн, ховдавэхэюни]
+#     хось+V+TV+PrcNeg+Du+Acc+PxSg1.2: ховдавэхэюни
+     хось+V+TV+PrcNeg+Du+Gen+PxSg1: [ховдавэхэюн, ховдавэхэюни]
+#     хось+V+TV+PrcNeg+Du+Gen+PxSg1.2: ховдавэхэюни
+     хось+V+TV+PrcNeg+Pl+Nom+PxSg1: [ховдавэян, ховдавэйни]
+#     хось+V+TV+PrcNeg+Pl+Nom+PxSg1.2: ховдавэйни
+     хось+V+TV+PrcNeg+Pl+Acc+PxSg1: [ховдавэян, ховдавэйни]
+#     хось+V+TV+PrcNeg+Pl+Acc+PxSg1.2: ховдавэйни
+     хось+V+TV+PrcNeg+Pl+Gen+PxSg1: [ховдавэя”н, ховдавэй”ни]
+#     хось+V+TV+PrcNeg+Pl+Gen+PxSg1.2: ховдавэй”ни
+     хось+V+TV+PrcNeg+Pl+Dat+PxSg1: [ховдавэхэ”н, ховдавэхэ”ни]
+#     хось+V+TV+PrcNeg+Pl+Dat+PxSg1.2: ховдавэхэ”ни
+     хось+V+TV+PrcNeg+Pl+Loc+PxSg1: [ховдавэхэ”нан, ховдавэхэ”нани]
+#     хось+V+TV+PrcNeg+Pl+Loc+PxSg1.2: ховдавэхэ”нани
+     хось+V+TV+PrcNeg+Pl+Abl+PxSg1: [ховдавэхэтан, ховдавэхэтани, ховдавэхэтни]
+#     хось+V+TV+PrcNeg+Pl+Abl+PxSg1.2: [ховдавэхэтани, ховдавэхэтни]
+     хось+V+TV+PrcNeg+Pl+Pros+PxSg1: [ховдавэй”манан, ховдавэй”манани]
+#     хось+V+TV+PrcNeg+Pl+Pros+PxSg1.2: ховдавэй”манани
+     хось+V+TV+PrcNeg+Sg+Nom+PxSg2: ховдавэр
+     хось+V+TV+PrcNeg+Sg+Acc+PxSg2: ховдавэмд
+     хось+V+TV+PrcNeg+Sg+Gen+PxSg2: ховдавэнд
+     хось+V+TV+PrcNeg+Sg+Dat+PxSg2: ховдавэхэнд
+     хось+V+TV+PrcNeg+Sg+Loc+PxSg2: ховдавэхэнанд
+     хось+V+TV+PrcNeg+Sg+Abl+PxSg2: ховдавэхэданд
+     хось+V+TV+PrcNeg+Sg+Pros+PxSg2: ховдавэвнанд
+     хось+V+TV+PrcNeg+Du+Nom+PxSg2: ховдавэхэюд
+     хось+V+TV+PrcNeg+Du+Acc+PxSg2: ховдавэхэюд
+     хось+V+TV+PrcNeg+Du+Gen+PxSg2: ховдавэхэют
+     хось+V+TV+PrcNeg+Pl+Nom+PxSg2: ховдавэяд
+     хось+V+TV+PrcNeg+Pl+Acc+PxSg2: ховдавэяд
+     хось+V+TV+PrcNeg+Pl+Gen+PxSg2: ховдавэят
+     хось+V+TV+PrcNeg+Pl+Dat+PxSg2: ховдавэхэт
+     хось+V+TV+PrcNeg+Pl+Loc+PxSg2: ховдавэхэ”нат
+     хось+V+TV+PrcNeg+Pl+Abl+PxSg2: ховдавэхэтат
+     хось+V+TV+PrcNeg+Pl+Pros+PxSg2: ховдавэй”манат
+     хось+V+TV+PrcNeg+Sg+Nom+PxSg3: ховдавэда
+     хось+V+TV+PrcNeg+Sg+Acc+PxSg3: ховдавэмда
+     хось+V+TV+PrcNeg+Sg+Gen+PxSg3: ховдавэнда
+     хось+V+TV+PrcNeg+Sg+Dat+PxSg3: ховдавэхэнда
+     хось+V+TV+PrcNeg+Sg+Loc+PxSg3: ховдавэхэнанда
+     хось+V+TV+PrcNeg+Sg+Abl+PxSg3: ховдавэхэданда
+     хось+V+TV+PrcNeg+Sg+Pros+PxSg3: ховдавэвнанда
+     хось+V+TV+PrcNeg+Du+Nom+PxSg3: ховдавэхэюда
+     хось+V+TV+PrcNeg+Du+Acc+PxSg3: ховдавэхэюда
+     хось+V+TV+PrcNeg+Du+Gen+PxSg3: ховдавэхэюта
+     хось+V+TV+PrcNeg+Pl+Nom+PxSg3: ховдавэйда
+     хось+V+TV+PrcNeg+Pl+Acc+PxSg3: ховдавэйда
+     хось+V+TV+PrcNeg+Pl+Gen+PxSg3: ховдавэйта
+     хось+V+TV+PrcNeg+Pl+Dat+PxSg3: ховдавэхэта
+     хось+V+TV+PrcNeg+Pl+Loc+PxSg3: ховдавэхэ”ната
+     хось+V+TV+PrcNeg+Pl+Abl+PxSg3: [ховдавэхэтата, ховдавэхэтта]
+     хось+V+TV+PrcNeg+Pl+Pros+PxSg3: ховдавэй”маната
+     хось+V+TV+PrcNeg+Sg+Nom+PxDu1: ховдавэми’
+     хось+V+TV+PrcNeg+Sg+Acc+PxDu1: ховдавэми’
+     хось+V+TV+PrcNeg+Sg+Gen+PxDu1: ховдавэни’
+     хось+V+TV+PrcNeg+Sg+Dat+PxDu1: ховдавэхэни’
+     хось+V+TV+PrcNeg+Sg+Loc+PxDu1: ховдавэхэнани’
+     хось+V+TV+PrcNeg+Sg+Abl+PxDu1: [ховдавэхэдани’, ховдавэхэдни’]
+     хось+V+TV+PrcNeg+Sg+Pros+PxDu1: ховдавэвнани’
+     хось+V+TV+PrcNeg+Du+Nom+PxDu1: ховдавэхэюни’
+     хось+V+TV+PrcNeg+Du+Acc+PxDu1: ховдавэхэюни’
+     хось+V+TV+PrcNeg+Du+Gen+PxDu1: ховдавэхэюни’
+     хось+V+TV+PrcNeg+Pl+Nom+PxDu1: ховдавэйни’
+     хось+V+TV+PrcNeg+Pl+Acc+PxDu1: ховдавэйни’
+     хось+V+TV+PrcNeg+Pl+Gen+PxDu1: ховдавэй”ни’
+     хось+V+TV+PrcNeg+Pl+Dat+PxDu1: ховдавэхэ”ни’
+     хось+V+TV+PrcNeg+Pl+Loc+PxDu1: ховдавэхэ”нани’
+     хось+V+TV+PrcNeg+Pl+Abl+PxDu1: [ховдавэхэтани’, ховдавэхэтни’]
+     хось+V+TV+PrcNeg+Pl+Pros+PxDu1: ховдавэй”манани’
+     хось+V+TV+PrcNeg+Sg+Nom+PxDu2: ховдавэри’
+     хось+V+TV+PrcNeg+Sg+Acc+PxDu2: ховдавэмди’
+     хось+V+TV+PrcNeg+Sg+Gen+PxDu2: ховдавэнди’
+     хось+V+TV+PrcNeg+Sg+Dat+PxDu2: ховдавэхэнди’
+     хось+V+TV+PrcNeg+Sg+Loc+PxDu2: ховдавэхэнанди’
+     хось+V+TV+PrcNeg+Sg+Abl+PxDu2: ховдавэхэданди’
+     хось+V+TV+PrcNeg+Sg+Pros+PxDu2: ховдавэвнанди’
+     хось+V+TV+PrcNeg+Du+Nom+PxDu2: ховдавэхэюди’
+     хось+V+TV+PrcNeg+Du+Acc+PxDu2: ховдавэхэюди’
+     хось+V+TV+PrcNeg+Du+Gen+PxDu2: ховдавэхэюти’
+     хось+V+TV+PrcNeg+Pl+Nom+PxDu2: ховдавэйди’
+     хось+V+TV+PrcNeg+Pl+Acc+PxDu2: ховдавэйди’
+     хось+V+TV+PrcNeg+Pl+Gen+PxDu2: ховдавэйти’
+     хось+V+TV+PrcNeg+Pl+Dat+PxDu2: ховдавэхэти’
+     хось+V+TV+PrcNeg+Pl+Loc+PxDu2: ховдавэхэ”нати’
+     хось+V+TV+PrcNeg+Pl+Abl+PxDu2: [ховдавэхэтати’, ховдавэхэтти’]
+     хось+V+TV+PrcNeg+Pl+Pros+PxDu2: ховдавэй”манати’
+     хось+V+TV+PrcNeg+Sg+Nom+PxDu3: ховдавэди’
+     хось+V+TV+PrcNeg+Sg+Acc+PxDu3: ховдавэмди’
+     хось+V+TV+PrcNeg+Sg+Gen+PxDu3: ховдавэнди’
+     хось+V+TV+PrcNeg+Sg+Dat+PxDu3: ховдавэхэнди’
+     хось+V+TV+PrcNeg+Sg+Loc+PxDu3: ховдавэхэнанди’
+     хось+V+TV+PrcNeg+Sg+Abl+PxDu3: ховдавэхэданди’
+     хось+V+TV+PrcNeg+Sg+Pros+PxDu3: ховдавэвнанди’
+     хось+V+TV+PrcNeg+Du+Nom+PxDu3: ховдавэхэюди’
+     хось+V+TV+PrcNeg+Du+Acc+PxDu3: ховдавэхэюди’
+     хось+V+TV+PrcNeg+Du+Gen+PxDu3: ховдавэхэюти’
+     хось+V+TV+PrcNeg+Pl+Nom+PxDu3: ховдавэйди’
+     хось+V+TV+PrcNeg+Pl+Acc+PxDu3: ховдавэйди’
+     хось+V+TV+PrcNeg+Pl+Gen+PxDu3: ховдавэйти’
+     хось+V+TV+PrcNeg+Pl+Dat+PxDu3: ховдавэхэти’
+     хось+V+TV+PrcNeg+Pl+Loc+PxDu3: ховдавэхэ”нати’
+     хось+V+TV+PrcNeg+Pl+Abl+PxDu3: [ховдавэхэтати’, ховдавэхэтти’]
+     хось+V+TV+PrcNeg+Pl+Pros+PxDu3: ховдавэй”манати’
+     хось+V+TV+PrcNeg+Sg+Nom+PxPl1: ховдавэва”
+     хось+V+TV+PrcNeg+Sg+Acc+PxPl1: ховдавэва”
+     хось+V+TV+PrcNeg+Sg+Gen+PxPl1: ховдавэна”
+     хось+V+TV+PrcNeg+Sg+Dat+PxPl1: ховдавэхэна”
+     хось+V+TV+PrcNeg+Sg+Loc+PxPl1: ховдавэхэнана”
+     хось+V+TV+PrcNeg+Sg+Abl+PxPl1: [ховдавэхэдана”, ховдавэхэдна”]
+     хось+V+TV+PrcNeg+Sg+Pros+PxPl1: ховдавэвнана”
+     хось+V+TV+PrcNeg+Du+Nom+PxPl1: ховдавэхэюна”
+     хось+V+TV+PrcNeg+Du+Acc+PxPl1: ховдавэхэюна”
+     хось+V+TV+PrcNeg+Du+Gen+PxPl1: ховдавэхэюна”
+     хось+V+TV+PrcNeg+Pl+Nom+PxPl1: ховдавэйна”
+     хось+V+TV+PrcNeg+Pl+Acc+PxPl1: ховдавэйна”
+     хось+V+TV+PrcNeg+Pl+Gen+PxPl1: ховдавэй”на”
+     хось+V+TV+PrcNeg+Pl+Dat+PxPl1: ховдавэхэ”на”
+     хось+V+TV+PrcNeg+Pl+Loc+PxPl1: ховдавэхэ”нана”
+     хось+V+TV+PrcNeg+Pl+Abl+PxPl1: [ховдавэхэтана”, ховдавэхэтна”]
+     хось+V+TV+PrcNeg+Pl+Pros+PxPl1: ховдавэй”манана”
+     хось+V+TV+PrcNeg+Sg+Nom+PxPl2: ховдавэра”
+     хось+V+TV+PrcNeg+Sg+Acc+PxPl2: ховдавэмда”
+     хось+V+TV+PrcNeg+Sg+Gen+PxPl2: ховдавэнда”
+     хось+V+TV+PrcNeg+Sg+Dat+PxPl2: ховдавэхэнда”
+     хось+V+TV+PrcNeg+Sg+Loc+PxPl2: ховдавэхэнанда”
+     хось+V+TV+PrcNeg+Sg+Abl+PxPl2: ховдавэхэданда”
+     хось+V+TV+PrcNeg+Sg+Pros+PxPl2: ховдавэвнанда”
+     хось+V+TV+PrcNeg+Du+Nom+PxPl2: ховдавэхэюда”
+     хось+V+TV+PrcNeg+Du+Acc+PxPl2: ховдавэхэюда”
+     хось+V+TV+PrcNeg+Du+Gen+PxPl2: ховдавэхэюта”
+     хось+V+TV+PrcNeg+Pl+Nom+PxPl2: ховдавэйда”
+     хось+V+TV+PrcNeg+Pl+Acc+PxPl2: ховдавэйда”
+     хось+V+TV+PrcNeg+Pl+Gen+PxPl2: ховдавэйта”
+     хось+V+TV+PrcNeg+Pl+Dat+PxPl2: ховдавэхэта”
+     хось+V+TV+PrcNeg+Pl+Loc+PxPl2: ховдавэхэ”ната”
+     хось+V+TV+PrcNeg+Pl+Abl+PxPl2: [ховдавэхэтата”, ховдавэхэтта”]
+     хось+V+TV+PrcNeg+Pl+Pros+PxPl2: ховдавэй”маната”
+     хось+V+TV+PrcNeg+Sg+Nom+PxPl3: ховдавэдо’
+     хось+V+TV+PrcNeg+Sg+Acc+PxPl3: ховдавэмдо’
+     хось+V+TV+PrcNeg+Sg+Gen+PxPl3: ховдавэндо’
+     хось+V+TV+PrcNeg+Sg+Dat+PxPl3: ховдавэхэндо’
+     хось+V+TV+PrcNeg+Sg+Loc+PxPl3: ховдавэхэнандо’
+     хось+V+TV+PrcNeg+Sg+Abl+PxPl3: ховдавэхэдандо’
+     хось+V+TV+PrcNeg+Sg+Pros+PxPl3: ховдавэвнандо’
+     хось+V+TV+PrcNeg+Du+Nom+PxPl3: ховдавэхэюдо’
+     хось+V+TV+PrcNeg+Du+Acc+PxPl3: ховдавэхэюдо’
+     хось+V+TV+PrcNeg+Du+Gen+PxPl3: ховдавэхэюто’
+     хось+V+TV+PrcNeg+Pl+Nom+PxPl3: ховдавэйдо’
+     хось+V+TV+PrcNeg+Pl+Acc+PxPl3: ховдавэйдо’
+     хось+V+TV+PrcNeg+Pl+Gen+PxPl3: ховдавэйто’
+     хось+V+TV+PrcNeg+Pl+Dat+PxPl3: ховдавэхэто’
+     хось+V+TV+PrcNeg+Pl+Loc+PxPl3: ховдавэхэ”нато’
+     хось+V+TV+PrcNeg+Pl+Abl+PxPl3: [ховдавэхэтато’, ховдавэхэтто’]
+     хось+V+TV+PrcNeg+Pl+Pros+PxPl3: ховдавэй”манато’
+     хось+V+TV+PrcNeg+Pred+Abs: ховдавэд
+     хось+V+TV+PrcNeg+Pred+Nom+PxSg1: [ховдавэдав, ховдавэдув, ховдавэдами]
+#     хось+V+TV+PrcNeg+Pred+Nom+PxSg1.2: ховдавэдами
+     хось+V+TV+PrcNeg+Pred+Acc+PxSg1: [ховдавэдав, ховдавэдув, ховдавэдами]
+#     хось+V+TV+PrcNeg+Pred+Acc+PxSg1.2: ховдавэдами
+     хось+V+TV+PrcNeg+Pred+Gen+PxSg1: [ховдавэдан, ховдавэдани]
+#     хось+V+TV+PrcNeg+Pred+Gen+PxSg1.2: ховдавэдани
+     хось+V+TV+PrcNeg+Pred+Nom+PxSg2: ховдавэдар
+     хось+V+TV+PrcNeg+Pred+Acc+PxSg2: ховдавэдамд
+     хось+V+TV+PrcNeg+Pred+Gen+PxSg2: ховдавэданд
+     хось+V+TV+PrcNeg+Pred+Nom+PxSg3: ховдавэдада
+     хось+V+TV+PrcNeg+Pred+Acc+PxSg3: ховдавэдамда
+     хось+V+TV+PrcNeg+Pred+Gen+PxSg3: ховдавэданда
+     хось+V+TV+PrcNeg+Pred+Nom+PxDu1: ховдавэдами’
+     хось+V+TV+PrcNeg+Pred+Acc+PxDu1: ховдавэдами’
+     хось+V+TV+PrcNeg+Pred+Gen+PxDu1: ховдавэдани’
+     хось+V+TV+PrcNeg+Pred+Nom+PxDu2: ховдавэдари’
+     хось+V+TV+PrcNeg+Pred+Acc+PxDu2: ховдавэдамди’
+     хось+V+TV+PrcNeg+Pred+Gen+PxDu2: ховдавэданди’
+     хось+V+TV+PrcNeg+Pred+Nom+PxDu3: ховдавэдади’
+     хось+V+TV+PrcNeg+Pred+Acc+PxDu3: ховдавэдамди’
+     хось+V+TV+PrcNeg+Pred+Gen+PxDu3: ховдавэданди’
+     хось+V+TV+PrcNeg+Pred+Nom+PxPl1: ховдавэдава”
+     хось+V+TV+PrcNeg+Pred+Acc+PxPl1: ховдавэдава”
+     хось+V+TV+PrcNeg+Pred+Gen+PxPl1: ховдавэдана”
+     хось+V+TV+PrcNeg+Pred+Nom+PxPl2: ховдавэдара”
+     хось+V+TV+PrcNeg+Pred+Acc+PxPl2: ховдавэдамда”
+     хось+V+TV+PrcNeg+Pred+Gen+PxPl2: ховдавэданда”
+     хось+V+TV+PrcNeg+Pred+Nom+PxPl3: ховдавэдадо’
+     хось+V+TV+PrcNeg+Pred+Acc+PxPl3: ховдавэдамдо’
+     хось+V+TV+PrcNeg+Pred+Gen+PxPl3: ховдавэдандо’
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScSg1: ховдавэдм’
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScSg2: ховдавэн
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScSg3: ховдавэй
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScDu1: ховдавэни’
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScDu2: ховдавэди’
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScDu3: ховдавэхэ’
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScPl1: ховдавэва”
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScPl2: ховдавэда”
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScPl3: ховдавэй”
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScSg1: ховдавэдамзь
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScSg2: ховдавэнась
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScSg3: [ховдавэясь, ховдавэсь]
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScDu1: ховдавэнинзь
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScDu2: ховдавэдинзь
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScDu3: ховдавэхэнзь
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScPl1: ховдавэваць
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScPl2: ховдавэдаць
+     хось+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScPl3: [ховдавэяць, ховдавэць]
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg1: ховдавэв
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg2: ховдавэр
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg3: ховдавэда
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu1: ховдавэми’
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu2: ховдавэри’
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu3: ховдавэди’
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl1: ховдавэва”
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl2: ховдавэра”
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl3: ховдавэдо’
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg1: ховдавэвась
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg2: ховдавэрась
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg3: ховдавэдась
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu1: ховдавэминзь
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu2: ховдавэринзь
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu3: ховдавэдинзь
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl1: ховдавэваць
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl2: ховдавэраць
+     хось+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl3: ховдавэдонзь
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg1: ховдавэхэюн
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg2: ховдавэхэюд
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg3: ховдавэхэюда
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu1: ховдавэхэюни’
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu2: ховдавэхэюди’
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu3: ховдавэхэюди’
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl1: ховдавэхэюна”
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl2: ховдавэхэюда”
+     хось+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl3: ховдавэхэюдо’
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg1: ховдавэхэюнась
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg2: ховдавэхэюдась
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg3: ховдавэхэюдась
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu1: ховдавэхэюнинзь
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu2: ховдавэхэюдинзь
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu3: ховдавэхэюдинзь
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl1: ховдавэхэюнаць
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl2: ховдавэхэюдаць
+     хось+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl3: ховдавэхэюдонзь
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg1: ховдавэян
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg2: ховдавэяд
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg3: ховдавэйда
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu1: ховдавэйни’
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu2: ховдавэйди’
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu3: ховдавэйди’
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl1: ховдавэйна”
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl2: ховдавэйда”
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl3: ховдавэйдо’
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg1: ховдавэйнась
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg2: ховдавэйдась
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg3: ховдавэйдась
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu1: ховдавэйнинзь
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu2: ховдавэйдинзь
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu3: ховдавэйдинзь
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl1: ховдавэйнаць
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl2: ховдавэйдаць
+     хось+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl3: ховдавэйдонзь
+     хось+V+TV+PrcNeg+Tra: ховдавэӈэ
+     хось+V+TV+PrcNeg+Car: ховдавэси”
+     хось+V+TV+PrcNeg+Equ: ховдавэдарем’
+     хось+V+TV+PrcNeg+Equ+lat: ховдавэдарев’
+     хось+V+TV+ConNeg: хо”
+     хось+V+TV+Fut+ConNeg: хоӈгу”
+     хось+V+TV+Hab+ConNeg: [хосьту”, хосету”]
+     хось+V+TV+Subord/бˮ1+Abs: хоб”
+     хось+V+TV+Subord/бˮ1+PxSg1: [хоба”н, хоб”ни]
+#     хось+V+TV+Subord/бˮ1+PxSg1.2: хоб”ни
+     хось+V+TV+Subord/бˮ1+PxSg2: хобат
+     хось+V+TV+Subord/бˮ1+PxSg3: хобта
+     хось+V+TV+Subord/бˮ1+PxDu1: хоб”ни’
+     хось+V+TV+Subord/бˮ1+PxDu2: хобти’
+     хось+V+TV+Subord/бˮ1+PxDu3: хобти’
+     хось+V+TV+Subord/бˮ1+PxPl1: хоб”на”
+     хось+V+TV+Subord/бˮ1+PxPl2: хобта”
+     хось+V+TV+Subord/бˮ1+PxPl3: хобто’
+     хось+V+TV+Subord/бˮна2+PxSg1: [хоб”нан, хоб”нани]
+#     хось+V+TV+Subord/бˮна2+PxSg1.2: хоб”нани
+     хось+V+TV+Subord/бˮна2+PxSg2: хоб”нанд
+     хось+V+TV+Subord/бˮна2+PxSg3: хоб”нанда
+     хось+V+TV+Subord/бˮна2+PxDu1: хоб”нани’
+     хось+V+TV+Subord/бˮна2+PxDu2: хоб”нанди’
+     хось+V+TV+Subord/бˮна2+PxDu3: хоб”нанди’
+     хось+V+TV+Subord/бˮна2+PxPl1: хоб”нана”
+     хось+V+TV+Subord/бˮна2+PxPl2: хоб”нанда”
+     хось+V+TV+Subord/бˮна2+PxPl3: хоб”нандо’
+     хось+V+TV+Fut+Subord/бˮ1+Abs: [хоӈгоб”, хоӈгодаб”]
+     хось+V+TV+Fut+Subord/бˮ1+PxSg1: [хоӈгоба”н, хоӈгодаба”н, хоӈгоб”ни, хоӈгоба”ни, хоӈгодаб”ни]
+#     хось+V+TV+Fut+Subord/бˮ1+PxSg1.2: [хоӈгоб”ни, хоӈгоба”ни, хоӈгодаб”ни]
+     хось+V+TV+Fut+Subord/бˮ1+PxSg2: [хоӈгобат, хоӈгодабат]
+     хось+V+TV+Fut+Subord/бˮ1+PxSg3: [хоӈгобта, хоӈгобата, хоӈгодабта]
+     хось+V+TV+Fut+Subord/бˮ1+PxDu1: [хоӈгоб”ни’, хоӈгоба”ни’, хоӈгодаб”ни’]
+     хось+V+TV+Fut+Subord/бˮ1+PxDu2: [хоӈгобти’, хоӈгобати’, хоӈгодабти’]
+     хось+V+TV+Fut+Subord/бˮ1+PxDu3: [хоӈгобти’, хоӈгобати’, хоӈгодабти’]
+     хось+V+TV+Fut+Subord/бˮ1+PxPl1: [хоӈгоб”на”, хоӈгоба”на”, хоӈгодаб”на”]
+     хось+V+TV+Fut+Subord/бˮ1+PxPl2: [хоӈгобта”, хоӈгобата”, хоӈгодабта”]
+     хось+V+TV+Fut+Subord/бˮ1+PxPl3: [хоӈгобто’, хоӈгобато’, хоӈгодабто’]
+     хось+V+TV+Fut+Subord/бˮна2+PxSg1: [хоӈгоб”нан, хоӈгоба”нан, хоӈгодаб”нан, хоӈгоб”нани, хоӈгоба”нани, хоӈгодаб”нани]
+#     хось+V+TV+Fut+Subord/бˮна2+PxSg1.2: [хоӈгоб”нани, хоӈгоба”нани, хоӈгодаб”нани]
+     хось+V+TV+Fut+Subord/бˮна2+PxSg2: [хоӈгоб”нанд, хоӈгоба”нанд, хоӈгодаб”нанд]
+     хось+V+TV+Fut+Subord/бˮна2+PxSg3: [хоӈгоб”нанда, хоӈгоба”нанда, хоӈгодаб”нанда]
+     хось+V+TV+Fut+Subord/бˮна2+PxDu1: [хоӈгоб”нани’, хоӈгоба”нани’, хоӈгодаб”нани’]
+     хось+V+TV+Fut+Subord/бˮна2+PxDu2: [хоӈгоб”нанди’, хоӈгоба”нанди’, хоӈгодаб”нанди’]
+     хось+V+TV+Fut+Subord/бˮна2+PxDu3: [хоӈгоб”нанди’, хоӈгоба”нанди’, хоӈгодаб”нанди’]
+     хось+V+TV+Fut+Subord/бˮна2+PxPl1: [хоӈгоб”нана”, хоӈгоба”нана”, хоӈгодаб”нана”]
+     хось+V+TV+Fut+Subord/бˮна2+PxPl2: [хоӈгоб”нанда”, хоӈгоба”нанда”, хоӈгодаб”нанда”]
+     хось+V+TV+Fut+Subord/бˮна2+PxPl3: [хоӈгоб”нандо’, хоӈгоба”нандо’, хоӈгодаб”нандо’]
+     хось+V+TV+Evas+Abs: ховоӈгад
+     хось+V+TV+Evas+PxSg1: [ховоӈгадан, ховоӈгадани, ховоӈгадни]
+#     хось+V+TV+Evas+PxSg1.2: [ховоӈгадани, ховоӈгадни]
+     хось+V+TV+Evas+PxSg2: ховоӈгаданд
+     хось+V+TV+Evas+PxSg3: ховоӈгаданда
+     хось+V+TV+Evas+PxDu1: [ховоӈгадани’, ховоӈгадни’]
+     хось+V+TV+Evas+PxDu2: ховоӈгаданди’
+     хось+V+TV+Evas+PxDu3: ховоӈгаданди’
+     хось+V+TV+Evas+PxPl1: [ховоӈгадана”, ховоӈгадна”]
+     хось+V+TV+Evas+PxPl2: ховоӈгаданда”
+     хось+V+TV+Evas+PxPl3: ховоӈгадандо’
+     хось+V+TV+Aud+Aor+PxSg1: [ховон, хованон]
+     хось+V+TV+Aud+Aor+PxSg2: [ховонд, хованонд]
+     хось+V+TV+Aud+Aor+PxSg3: [ховонда, хованонда]
+     хось+V+TV+Aud+Aor+PxDu1: [ховони’, хованони’]
+     хось+V+TV+Aud+Aor+PxDu2: [ховонди’, хованонди’]
+     хось+V+TV+Aud+Aor+PxDu3: [ховонди’, хованонди’]
+     хось+V+TV+Aud+Aor+PxPl1: [ховона”, хованона”]
+     хось+V+TV+Aud+Aor+PxPl2: [ховонда”, хованонда”]
+     хось+V+TV+Aud+Aor+PxPl3: [ховондо’, хованондо’]
+     хось+V+TV+Aud+Prt1+PxSg1: [ховонась, хованонась]
+     хось+V+TV+Aud+Prt1+PxSg2: [ховондась, хованондась]
+     хось+V+TV+Aud+Prt1+PxSg3: [ховондась, хованондась]
+     хось+V+TV+Aud+Prt1+PxDu1: [ховонинзь, хованонинзь]
+     хось+V+TV+Aud+Prt1+PxDu2: [ховондинзь, хованондинзь]
+     хось+V+TV+Aud+Prt1+PxDu3: [ховондинзь, хованондинзь]
+     хось+V+TV+Aud+Prt1+PxPl1: [ховонаць, хованонаць]
+     хось+V+TV+Aud+Prt1+PxPl2: [ховондаць, хованондаць]
+     хось+V+TV+Aud+Prt1+PxPl3: [ховондонзь, хованондонзь]
+ #: 
+ #: ◊_subj
+ #: 
+     хось+V+TV+Ind+Aor+ScSg1: ходм’
+     хось+V+TV+Ind+Aor+ScSg2: хон
+     хось+V+TV+Ind+Aor+ScSg3: хо
+     хось+V+TV+Ind+Aor+ScDu1: хони’
+     хось+V+TV+Ind+Aor+ScDu2: ходи’
+     хось+V+TV+Ind+Aor+ScDu3: хоӈаха’
+     хось+V+TV+Ind+Aor+ScPl1: хова”
+     хось+V+TV+Ind+Aor+ScPl2: хода”
+     хось+V+TV+Ind+Aor+ScPl3: хо”
+     хось+V+TV+Ind+Prt1+ScSg1: ходамзь
+     хось+V+TV+Ind+Prt1+ScSg2: хонась
+     хось+V+TV+Ind+Prt1+ScSg3: хось
+     хось+V+TV+Ind+Prt1+ScDu1: хонинзь
+     хось+V+TV+Ind+Prt1+ScDu2: ходинзь
+     хось+V+TV+Ind+Prt1+ScDu3: хоӈаханзь
+     хось+V+TV+Ind+Prt1+ScPl1: ховаць
+     хось+V+TV+Ind+Prt1+ScPl2: ходаць
+     хось+V+TV+Ind+Prt1+ScPl3: хоць
+     хось+V+TV+Hort+ScSg1: хоходм’
+     хось+V+TV+Hort+ScDu1: хохони’
+     хось+V+TV+Hort+ScPl1: хохова”
+     хось+V+TV+Imprt+ScSg2: хо”
+     хось+V+TV+Imprt+ScDu2: ходи’
+     хось+V+TV+Imprt+ScPl2: хода”
+     хось+V+TV+Opt+ScSg3: хоя
+     хось+V+TV+Opt+ScDu3: хояха’
+     хось+V+TV+Opt+ScPl3: хоя”
+     хось+V+TV+Conj+Aor+ScSg1: хоидм’
+     хось+V+TV+Conj+Aor+ScSg2: хоин
+     хось+V+TV+Conj+Aor+ScSg3: хои
+     хось+V+TV+Conj+Aor+ScDu1: хоини’
+     хось+V+TV+Conj+Aor+ScDu2: хоиди’
+     хось+V+TV+Conj+Aor+ScDu3: хоихи’
+     хось+V+TV+Conj+Aor+ScPl1: хоива”
+     хось+V+TV+Conj+Aor+ScPl2: хоида”
+     хось+V+TV+Conj+Aor+ScPl3: хои”
+     хось+V+TV+Conj+Prt1+ScSg1: хоидамзь
+     хось+V+TV+Conj+Prt1+ScSg2: хоинась
+     хось+V+TV+Conj+Prt1+ScSg3: хоись
+     хось+V+TV+Conj+Prt1+ScDu1: хоининзь
+     хось+V+TV+Conj+Prt1+ScDu2: хоидинзь
+     хось+V+TV+Conj+Prt1+ScDu3: хоихинзь
+     хось+V+TV+Conj+Prt1+ScPl1: хоиваць
+     хось+V+TV+Conj+Prt1+ScPl2: хоидаць
+     хось+V+TV+Conj+Prt1+ScPl3: хоиць
+     хось+V+TV+Mod/nec+ScSg1: хобцудм’
+     хось+V+TV+Mod/nec+ScSg2: хобцун
+     хось+V+TV+Mod/nec+ScSg3: хобцу
+     хось+V+TV+Mod/nec+ScDu1: хобцуни’
+     хось+V+TV+Mod/nec+ScDu2: хобцуди’
+     хось+V+TV+Mod/nec+ScDu3: хобцуху’
+     хось+V+TV+Mod/nec+ScPl1: хобцува”
+     хось+V+TV+Mod/nec+ScPl2: хобцуда”
+     хось+V+TV+Mod/nec+ScPl3: хобцу”
+     хось+V+TV+Mod/int+ScSg1: хосадм’
+     хось+V+TV+Mod/int+ScSg2: хосан
+     хось+V+TV+Mod/int+ScSg3: хоса
+     хось+V+TV+Mod/int+ScDu1: хосани’
+     хось+V+TV+Mod/int+ScDu2: хосади’
+     хось+V+TV+Mod/int+ScDu3: хосаха’
+     хось+V+TV+Mod/int+ScPl1: хосава”
+     хось+V+TV+Mod/int+ScPl2: хосада”
+     хось+V+TV+Mod/int+ScPl3: хоса”
+     хось+V+TV+Mod/narr+Aor+ScSg1: ховэдм’
+     хось+V+TV+Mod/narr+Aor+ScSg2: ховэн
+     хось+V+TV+Mod/narr+Aor+ScSg3: ховы
+     хось+V+TV+Mod/narr+Aor+ScDu1: ховэни’
+     хось+V+TV+Mod/narr+Aor+ScDu2: ховэди’
+     хось+V+TV+Mod/narr+Aor+ScDu3: ховэхэ’
+     хось+V+TV+Mod/narr+Aor+ScPl1: ховэва”
+     хось+V+TV+Mod/narr+Aor+ScPl2: ховэда”
+     хось+V+TV+Mod/narr+Aor+ScPl3: ховы”
+     хось+V+TV+Mod/narr+Prt1+ScSg1: ховэдамзь
+     хось+V+TV+Mod/narr+Prt1+ScSg2: ховэнась
+     хось+V+TV+Mod/narr+Prt1+ScSg3: [ховысь, ховэсь]
+     хось+V+TV+Mod/narr+Prt1+ScDu1: ховэнинзь
+     хось+V+TV+Mod/narr+Prt1+ScDu2: ховэдинзь
+     хось+V+TV+Mod/narr+Prt1+ScDu3: ховэхэнзь
+     хось+V+TV+Mod/narr+Prt1+ScPl1: ховэваць
+     хось+V+TV+Mod/narr+Prt1+ScPl2: ховэдаць
+     хось+V+TV+Mod/narr+Prt1+ScPl3: [ховыць, ховэць]
+     хось+V+TV+Mod/prob+Aor+ScSg1: хонакэдм’
+     хось+V+TV+Mod/prob+Aor+ScSg2: хонакэн
+     хось+V+TV+Mod/prob+Aor+ScSg3: хонакы
+     хось+V+TV+Mod/prob+Aor+ScDu1: хонакэни’
+     хось+V+TV+Mod/prob+Aor+ScDu2: хонакэди’
+     хось+V+TV+Mod/prob+Aor+ScDu3: хонакэхэ’
+     хось+V+TV+Mod/prob+Aor+ScPl1: хонакэва”
+     хось+V+TV+Mod/prob+Aor+ScPl2: хонакэда”
+     хось+V+TV+Mod/prob+Aor+ScPl3: хонакы”
+     хось+V+TV+Mod/obl+ScSg1: хобцакэдм’
+     хось+V+TV+Mod/obl+ScSg2: хобцакэн
+     хось+V+TV+Mod/obl+ScSg3: хобцакы
+     хось+V+TV+Mod/obl+ScDu1: хобцакэни’
+     хось+V+TV+Mod/obl+ScDu2: хобцакэди’
+     хось+V+TV+Mod/obl+ScDu3: хобцакэхэ’
+     хось+V+TV+Mod/obl+ScPl1: хобцакэва”
+     хось+V+TV+Mod/obl+ScPl2: хобцакэда”
+     хось+V+TV+Mod/obl+ScPl3: хобцакы”
+     хось+V+TV+Mod/impfappr+Aor+ScSg1: хонарахадм’
+     хось+V+TV+Mod/impfappr+Aor+ScSg2: хонарахан
+     хось+V+TV+Mod/impfappr+Aor+ScSg3: хонараха
+     хось+V+TV+Mod/impfappr+Aor+ScDu1: хонарахани’
+     хось+V+TV+Mod/impfappr+Aor+ScDu2: хонарахади’
+     хось+V+TV+Mod/impfappr+Aor+ScDu3: хонарахаха’
+     хось+V+TV+Mod/impfappr+Aor+ScPl1: хонарахава”
+     хось+V+TV+Mod/impfappr+Aor+ScPl2: хонарахада”
+     хось+V+TV+Mod/impfappr+Aor+ScPl3: хонараха”
+     хось+V+TV+Mod/impfappr+Prt1+ScSg1: хонарахадамзь
+     хось+V+TV+Mod/impfappr+Prt1+ScSg2: хонараханась
+     хось+V+TV+Mod/impfappr+Prt1+ScSg3: хонарахась
+     хось+V+TV+Mod/impfappr+Prt1+ScDu1: хонараханинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu2: хонарахадинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu3: хонарахаханзь
+     хось+V+TV+Mod/impfappr+Prt1+ScPl1: хонарахаваць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl2: хонарахадаць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl3: хонарахаць
+     хось+V+TV+Mod/perfappr+ScSg1: ховэрахадм’
+     хось+V+TV+Mod/perfappr+ScSg2: ховэрахан
+     хось+V+TV+Mod/perfappr+ScSg3: ховэраха
+     хось+V+TV+Mod/perfappr+ScDu1: ховэрахани’
+     хось+V+TV+Mod/perfappr+ScDu2: ховэрахади’
+     хось+V+TV+Mod/perfappr+ScDu3: ховэрахаха’
+     хось+V+TV+Mod/perfappr+ScPl1: ховэрахава”
+     хось+V+TV+Mod/perfappr+ScPl2: ховэрахада”
+     хось+V+TV+Mod/perfappr+ScPl3: ховэраха”
+     хось+V+TV+Mod/futappr+ScSg1: [ховандархадм’, ховндархадм’]
+     хось+V+TV+Mod/futappr+ScSg2: [ховандархан, ховндархан]
+     хось+V+TV+Mod/futappr+ScSg3: [ховандарха, ховндарха]
+     хось+V+TV+Mod/futappr+ScDu1: [ховандархани’, ховндархани’]
+     хось+V+TV+Mod/futappr+ScDu2: [ховандархади’, ховндархади’]
+     хось+V+TV+Mod/futappr+ScDu3: [ховандархаха’, ховндархаха’]
+     хось+V+TV+Mod/futappr+ScPl1: [ховандархава”, ховндархава”]
+     хось+V+TV+Mod/futappr+ScPl2: [ховандархада”, ховндархада”]
+     хось+V+TV+Mod/futappr+ScPl3: [ховандарха”, ховндарха”]
+     хось+V+TV+Mod/sup+ScSg1: хованӈгабядм’
+     хось+V+TV+Mod/sup+ScSg2: хованӈгабян
+     хось+V+TV+Mod/sup+ScSg3: хованӈгабя
+     хось+V+TV+Mod/sup+ScDu1: хованӈгабяни’
+     хось+V+TV+Mod/sup+ScDu2: хованӈгабяди’
+     хось+V+TV+Mod/sup+ScDu3: хованӈгабяха’
+     хось+V+TV+Mod/sup+ScPl1: хованӈгабява”
+     хось+V+TV+Mod/sup+ScPl2: хованӈгабяда”
+     хось+V+TV+Mod/sup+ScPl3: хованӈгабя”
+     хось+V+TV+Mod/hyp+ScSg1: хорхавэдм’
+     хось+V+TV+Mod/hyp+ScSg2: хорхавэн
+     хось+V+TV+Mod/hyp+ScSg3: хорхавы
+     хось+V+TV+Mod/hyp+ScDu1: хорхавэни’
+     хось+V+TV+Mod/hyp+ScDu2: хорхавэди’
+     хось+V+TV+Mod/hyp+ScDu3: хорхавэхэ’
+     хось+V+TV+Mod/hyp+ScPl1: хорхавэва”
+     хось+V+TV+Mod/hyp+ScPl2: хорхавэда”
+     хось+V+TV+Mod/hyp+ScPl3: хорхавы”
+     хось+V+TV+Mod/perfprob+ScSg1: ховэкэдм’
+     хось+V+TV+Mod/perfprob+ScSg2: ховэкэн
+     хось+V+TV+Mod/perfprob+ScSg3: ховэкы
+     хось+V+TV+Mod/perfprob+ScDu1: ховэкэни’
+     хось+V+TV+Mod/perfprob+ScDu2: ховэкэди’
+     хось+V+TV+Mod/perfprob+ScDu3: ховэкэхэ’
+     хось+V+TV+Mod/perfprob+ScPl1: ховэкэва”
+     хось+V+TV+Mod/perfprob+ScPl2: ховэкэда”
+     хось+V+TV+Mod/perfprob+ScPl3: ховэкы”
+     хось+V+TV+Mod/rep+ScSg1: ховнадм’
+     хось+V+TV+Mod/rep+ScSg2: ховнан
+     хось+V+TV+Mod/rep+ScSg3: ховна
+     хось+V+TV+Mod/rep+ScDu1: ховнани’
+     хось+V+TV+Mod/rep+ScDu2: ховнади’
+     хось+V+TV+Mod/rep+ScDu3: ховнаха’
+     хось+V+TV+Mod/rep+ScPl1: ховнава”
+     хось+V+TV+Mod/rep+ScPl2: ховнада”
+     хось+V+TV+Mod/rep+ScPl3: ховна”
+     хось+V+TV+Mod/des+ScSg1: хорвадм’
+     хось+V+TV+Mod/des+ScSg2: хорван
+     хось+V+TV+Mod/des+ScSg3: хорва
+     хось+V+TV+Mod/des+ScDu1: хорвани’
+     хось+V+TV+Mod/des+ScDu2: хорвади’
+     хось+V+TV+Mod/des+ScDu3: хорваха’
+     хось+V+TV+Mod/des+ScPl1: хорвава”
+     хось+V+TV+Mod/des+ScPl2: хорвада”
+     хось+V+TV+Mod/des+ScPl3: хорва”
+     хось+V+TV+Fut+Ind+Aor+ScSg1: хоӈгудм’
+     хось+V+TV+Fut+Ind+Aor+ScSg2: хоӈгун
+     хось+V+TV+Fut+Ind+Aor+ScSg3: хоӈгу
+     хось+V+TV+Fut+Ind+Aor+ScDu1: хоӈгуни’
+     хось+V+TV+Fut+Ind+Aor+ScDu2: хоӈгуди’
+     хось+V+TV+Fut+Ind+Aor+ScDu3: хоӈгуху’
+     хось+V+TV+Fut+Ind+Aor+ScPl1: хоӈгува”
+     хось+V+TV+Fut+Ind+Aor+ScPl2: хоӈгуда”
+     хось+V+TV+Fut+Ind+Aor+ScPl3: хоӈгу”
+     хось+V+TV+Fut+Ind+Prt1+ScSg1: хоӈгудамзь
+     хось+V+TV+Fut+Ind+Prt1+ScSg2: хоӈгунась
+     хось+V+TV+Fut+Ind+Prt1+ScSg3: хоӈгусь
+     хось+V+TV+Fut+Ind+Prt1+ScDu1: хоӈгунинзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu2: хоӈгудинзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu3: хоӈгухунзь
+     хось+V+TV+Fut+Ind+Prt1+ScPl1: хоӈгуваць
+     хось+V+TV+Fut+Ind+Prt1+ScPl2: хоӈгудаць
+     хось+V+TV+Fut+Ind+Prt1+ScPl3: хоӈгуць
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg1: [хоӈгодакэдм’, хоӈгоданакэдм’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg2: [хоӈгодакэн, хоӈгоданакэн]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg3: [хоӈгодакы, хоӈгоданакы]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu1: [хоӈгодакэни’, хоӈгоданакэни’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu2: [хоӈгодакэди’, хоӈгоданакэди’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu3: [хоӈгодакэхэ’, хоӈгоданакэхэ’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl1: [хоӈгодакэва”, хоӈгоданакэва”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl2: [хоӈгодакэда”, хоӈгоданакэда”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl3: [хоӈгодакы”, хоӈгоданакы”]
+     хось+V+TV+Prec+Hort+ScSg1: [хохорцюдм’, хохорцядм’]
+     хось+V+TV+Prec+Hort+ScDu1: [хохорцюни’, хохорцяни’]
+     хось+V+TV+Prec+Hort+ScPl1: [хохорцюва”, хохорцява”]
+     хось+V+TV+Prec+Imprt+ScSg2: хохор”
+     хось+V+TV+Prec+Imprt+ScDu2: [хохор”ӈади’, хохорӈади’]
+     хось+V+TV+Prec+Imprt+ScPl2: [хохор”ӈада”, хохорӈада”]
+     хось+V+TV+Prec+Opt+ScSg3: [хохор”ӈая, хохорӈая]
+     хось+V+TV+Prec+Opt+ScDu3: [хохор”ӈаяха’, хохорӈаяха’]
+     хось+V+TV+Prec+Opt+ScPl3: [хохор”ӈая”, хохорӈая”]
+     хось+V+TV+Hab+Ind+Aor+ScSg1: [хосьтыдм’, хосетыдм’]
+     хось+V+TV+Hab+Ind+Aor+ScSg2: [хосьтын, хосетын]
+     хось+V+TV+Hab+Ind+Aor+ScSg3: [хосьты, хосеты]
+     хось+V+TV+Hab+Ind+Aor+ScDu1: [хосьтыни’, хосетыни’]
+     хось+V+TV+Hab+Ind+Aor+ScDu2: [хосьтыди’, хосетыди’]
+     хось+V+TV+Hab+Ind+Aor+ScDu3: [хосьтыхы’, хосетыхы’]
+     хось+V+TV+Hab+Ind+Aor+ScPl1: [хосьтыва”, хосетыва”]
+     хось+V+TV+Hab+Ind+Aor+ScPl2: [хосьтыда”, хосетыда”]
+     хось+V+TV+Hab+Ind+Aor+ScPl3: [хосьты”, хосеты”]
+     хось+V+TV+Hab+Mod/narr+ScSg1: [хосьтавэдм’, хосетавэдм’]
+     хось+V+TV+Hab+Mod/narr+ScSg2: [хосьтавэн, хосетавэн]
+     хось+V+TV+Hab+Mod/narr+ScSg3: [хосьтавы, хосетавы]
+     хось+V+TV+Hab+Mod/narr+ScDu1: [хосьтавэни’, хосетавэни’]
+     хось+V+TV+Hab+Mod/narr+ScDu2: [хосьтавэди’, хосетавэди’]
+     хось+V+TV+Hab+Mod/narr+ScDu3: [хосьтавэхэ’, хосетавэхэ’]
+     хось+V+TV+Hab+Mod/narr+ScPl1: [хосьтавэва”, хосетавэва”]
+     хось+V+TV+Hab+Mod/narr+ScPl2: [хосьтавэда”, хосетавэда”]
+     хось+V+TV+Hab+Mod/narr+ScPl3: [хосьтавы”, хосетавы”]
+ #: 
+ #: ◊_obj
+ #: 
+     хось+V+TV+Ind+Aor+ScSg1+OcSg3: хов
+     хось+V+TV+Ind+Aor+ScSg2+OcSg3: хор
+     хось+V+TV+Ind+Aor+ScSg3+OcSg3: хода
+     хось+V+TV+Ind+Aor+ScDu1+OcSg3: хоми’
+     хось+V+TV+Ind+Aor+ScDu2+OcSg3: хори’
+     хось+V+TV+Ind+Aor+ScDu3+OcSg3: ходи’
+     хось+V+TV+Ind+Aor+ScPl1+OcSg3: хова”
+     хось+V+TV+Ind+Aor+ScPl2+OcSg3: хора”
+     хось+V+TV+Ind+Aor+ScPl3+OcSg3: ходо’
+     хось+V+TV+Ind+Aor+ScSg1+OcDu3: хоӈахаюн
+     хось+V+TV+Ind+Aor+ScSg2+OcDu3: хоӈахаюд
+     хось+V+TV+Ind+Aor+ScSg3+OcDu3: хоӈахаюда
+     хось+V+TV+Ind+Aor+ScDu1+OcDu3: хоӈахаюни’
+     хось+V+TV+Ind+Aor+ScDu2+OcDu3: хоӈахаюди’
+     хось+V+TV+Ind+Aor+ScDu3+OcDu3: хоӈахаюди’
+     хось+V+TV+Ind+Aor+ScPl1+OcDu3: хоӈахаюна”
+     хось+V+TV+Ind+Aor+ScPl2+OcDu3: хоӈахаюда”
+     хось+V+TV+Ind+Aor+ScPl3+OcDu3: хоӈахаюдо’
+     хось+V+TV+Ind+Aor+ScSg1+OcPl3: хоян
+     хось+V+TV+Ind+Aor+ScSg2+OcPl3: хояд
+     хось+V+TV+Ind+Aor+ScSg3+OcPl3: хойда
+     хось+V+TV+Ind+Aor+ScDu1+OcPl3: хойни’
+     хось+V+TV+Ind+Aor+ScDu2+OcPl3: хойди’
+     хось+V+TV+Ind+Aor+ScDu3+OcPl3: хойди’
+     хось+V+TV+Ind+Aor+ScPl1+OcPl3: хойна”
+     хось+V+TV+Ind+Aor+ScPl2+OcPl3: хойда”
+     хось+V+TV+Ind+Aor+ScPl3+OcPl3: хойдо’
+     хось+V+TV+Ind+Prt1+ScSg1+OcSg3: ховась
+     хось+V+TV+Ind+Prt1+ScSg2+OcSg3: хорась
+     хось+V+TV+Ind+Prt1+ScSg3+OcSg3: ходась
+     хось+V+TV+Ind+Prt1+ScDu1+OcSg3: хоминзь
+     хось+V+TV+Ind+Prt1+ScDu2+OcSg3: хоринзь
+     хось+V+TV+Ind+Prt1+ScDu3+OcSg3: ходинзь
+     хось+V+TV+Ind+Prt1+ScPl1+OcSg3: ховаць
+     хось+V+TV+Ind+Prt1+ScPl2+OcSg3: хораць
+     хось+V+TV+Ind+Prt1+ScPl3+OcSg3: ходонзь
+     хось+V+TV+Ind+Prt1+ScSg1+OcDu3: хоӈахаюнась
+     хось+V+TV+Ind+Prt1+ScSg2+OcDu3: хоӈахаюдась
+     хось+V+TV+Ind+Prt1+ScSg3+OcDu3: хоӈахаюдась
+     хось+V+TV+Ind+Prt1+ScDu1+OcDu3: хоӈахаюнинзь
+     хось+V+TV+Ind+Prt1+ScDu2+OcDu3: хоӈахаюдинзь
+     хось+V+TV+Ind+Prt1+ScDu3+OcDu3: хоӈахаюдинзь
+     хось+V+TV+Ind+Prt1+ScPl1+OcDu3: хоӈахаюнаць
+     хось+V+TV+Ind+Prt1+ScPl2+OcDu3: хоӈахаюдаць
+     хось+V+TV+Ind+Prt1+ScPl3+OcDu3: хоӈахаюдонзь
+     хось+V+TV+Ind+Prt1+ScSg1+OcPl3: хойнась
+     хось+V+TV+Ind+Prt1+ScSg2+OcPl3: хойдась
+     хось+V+TV+Ind+Prt1+ScSg3+OcPl3: хойдась
+     хось+V+TV+Ind+Prt1+ScDu1+OcPl3: хойнинзь
+     хось+V+TV+Ind+Prt1+ScDu2+OcPl3: хойдинзь
+     хось+V+TV+Ind+Prt1+ScDu3+OcPl3: хойдинзь
+     хось+V+TV+Ind+Prt1+ScPl1+OcPl3: хойнаць
+     хось+V+TV+Ind+Prt1+ScPl2+OcPl3: хойдаць
+     хось+V+TV+Ind+Prt1+ScPl3+OcPl3: хойдонзь
+     хось+V+TV+Hort+ScSg1+OcSg3: [хохов, хохув]
+     хось+V+TV+Hort+ScDu1+OcSg3: хохоми’
+     хось+V+TV+Hort+ScPl1+OcSg3: хохова”
+     хось+V+TV+Hort+ScSg1+OcDu3: хохохоюн
+     хось+V+TV+Hort+ScDu1+OcDu3: хохохоюни’
+     хось+V+TV+Hort+ScPl1+OcDu3: хохохоюна”
+     хось+V+TV+Hort+ScSg1+OcPl3: хохон
+     хось+V+TV+Hort+ScDu1+OcPl3: хохони’
+     хось+V+TV+Hort+ScPl1+OcPl3: хохона”
+     хось+V+TV+Imprt+ScSg2+OcSg3: ход
+     хось+V+TV+Imprt+ScDu2+OcSg3: хори’
+     хось+V+TV+Imprt+ScPl2+OcSg3: хора”
+     хось+V+TV+Imprt+ScSg2+OcDu3: хохоюн”
+     хось+V+TV+Imprt+ScDu2+OcDu3: хоӈахаюди’
+     хось+V+TV+Imprt+ScPl2+OcDu3: хоӈахаюда”
+     хось+V+TV+Imprt+ScSg2+OcPl3: хон”
+     хось+V+TV+Imprt+ScDu2+OcPl3: хойди’
+     хось+V+TV+Imprt+ScPl2+OcPl3: хойда”
+     хось+V+TV+Opt+ScSg3+OcSg3: хомда
+     хось+V+TV+Opt+ScDu3+OcSg3: хомди’
+     хось+V+TV+Opt+ScPl3+OcSg3: хомдо’
+     хось+V+TV+Opt+ScSg3+OcDu3: хоӈахаюдамда
+     хось+V+TV+Opt+ScDu3+OcDu3: хоӈахаюдамди’
+     хось+V+TV+Opt+ScPl3+OcDu3: хоӈахаюдамдо’
+     хось+V+TV+Opt+ScSg3+OcPl3: хойдамда
+     хось+V+TV+Opt+ScDu3+OcPl3: хойдамди’
+     хось+V+TV+Opt+ScPl3+OcPl3: хойдамдо’
+     хось+V+TV+Conj+Aor+ScSg1+OcSg3: хоив
+     хось+V+TV+Conj+Aor+ScSg2+OcSg3: хоир
+     хось+V+TV+Conj+Aor+ScSg3+OcSg3: хоида
+     хось+V+TV+Conj+Aor+ScDu1+OcSg3: хоими’
+     хось+V+TV+Conj+Aor+ScDu2+OcSg3: хоири’
+     хось+V+TV+Conj+Aor+ScDu3+OcSg3: хоиди’
+     хось+V+TV+Conj+Aor+ScPl1+OcSg3: хоива”
+     хось+V+TV+Conj+Aor+ScPl2+OcSg3: хоира”
+     хось+V+TV+Conj+Aor+ScPl3+OcSg3: хоидо’
+     хось+V+TV+Conj+Aor+ScSg1+OcDu3: хоихиюн
+     хось+V+TV+Conj+Aor+ScSg2+OcDu3: хоихиюд
+     хось+V+TV+Conj+Aor+ScSg3+OcDu3: хоихиюда
+     хось+V+TV+Conj+Aor+ScDu1+OcDu3: хоихиюни’
+     хось+V+TV+Conj+Aor+ScDu2+OcDu3: хоихиюди’
+     хось+V+TV+Conj+Aor+ScDu3+OcDu3: хоихиюди’
+     хось+V+TV+Conj+Aor+ScPl1+OcDu3: хоихиюна”
+     хось+V+TV+Conj+Aor+ScPl2+OcDu3: хоихиюда”
+     хось+V+TV+Conj+Aor+ScPl3+OcDu3: хоихиюдо’
+     хось+V+TV+Conj+Aor+ScSg1+OcPl3: хоин
+     хось+V+TV+Conj+Aor+ScSg2+OcPl3: хоид
+     хось+V+TV+Conj+Aor+ScSg3+OcPl3: хоида
+     хось+V+TV+Conj+Aor+ScDu1+OcPl3: хоини’
+     хось+V+TV+Conj+Aor+ScDu2+OcPl3: хоиди’
+     хось+V+TV+Conj+Aor+ScDu3+OcPl3: хоиди’
+     хось+V+TV+Conj+Aor+ScPl1+OcPl3: хоина”
+     хось+V+TV+Conj+Aor+ScPl2+OcPl3: хоида”
+     хось+V+TV+Conj+Aor+ScPl3+OcPl3: хоидо’
+     хось+V+TV+Conj+Prt1+ScSg1+OcSg3: хоивась
+     хось+V+TV+Conj+Prt1+ScSg2+OcSg3: хоирась
+     хось+V+TV+Conj+Prt1+ScSg3+OcSg3: хоидась
+     хось+V+TV+Conj+Prt1+ScDu1+OcSg3: хоиминзь
+     хось+V+TV+Conj+Prt1+ScDu2+OcSg3: хоиринзь
+     хось+V+TV+Conj+Prt1+ScDu3+OcSg3: хоидинзь
+     хось+V+TV+Conj+Prt1+ScPl1+OcSg3: хоиваць
+     хось+V+TV+Conj+Prt1+ScPl2+OcSg3: хоираць
+     хось+V+TV+Conj+Prt1+ScPl3+OcSg3: хоидонзь
+     хось+V+TV+Conj+Prt1+ScSg1+OcDu3: хоихиюнась
+     хось+V+TV+Conj+Prt1+ScSg2+OcDu3: хоихиюдась
+     хось+V+TV+Conj+Prt1+ScSg3+OcDu3: хоихиюдась
+     хось+V+TV+Conj+Prt1+ScDu1+OcDu3: хоихиюнинзь
+     хось+V+TV+Conj+Prt1+ScDu2+OcDu3: хоихиюдинзь
+     хось+V+TV+Conj+Prt1+ScDu3+OcDu3: хоихиюдинзь
+     хось+V+TV+Conj+Prt1+ScPl1+OcDu3: хоихиюнаць
+     хось+V+TV+Conj+Prt1+ScPl2+OcDu3: хоихиюдаць
+     хось+V+TV+Conj+Prt1+ScPl3+OcDu3: хоихиюдонзь
+     хось+V+TV+Conj+Prt1+ScSg1+OcPl3: хоинась
+     хось+V+TV+Conj+Prt1+ScSg2+OcPl3: хоидась
+     хось+V+TV+Conj+Prt1+ScSg3+OcPl3: хоидась
+     хось+V+TV+Conj+Prt1+ScDu1+OcPl3: хоининзь
+     хось+V+TV+Conj+Prt1+ScDu2+OcPl3: хоидинзь
+     хось+V+TV+Conj+Prt1+ScDu3+OcPl3: хоидинзь
+     хось+V+TV+Conj+Prt1+ScPl1+OcPl3: хоинаць
+     хось+V+TV+Conj+Prt1+ScPl2+OcPl3: хоидаць
+     хось+V+TV+Conj+Prt1+ScPl3+OcPl3: хоидонзь
+     хось+V+TV+Mod/nec+ScSg1+OcSg3: хобцув
+     хось+V+TV+Mod/nec+ScSg2+OcSg3: хобцур
+     хось+V+TV+Mod/nec+ScSg3+OcSg3: хобцуда
+     хось+V+TV+Mod/nec+ScDu1+OcSg3: хобцуми’
+     хось+V+TV+Mod/nec+ScDu2+OcSg3: хобцури’
+     хось+V+TV+Mod/nec+ScDu3+OcSg3: хобцуди’
+     хось+V+TV+Mod/nec+ScPl1+OcSg3: хобцува”
+     хось+V+TV+Mod/nec+ScPl2+OcSg3: хобцура”
+     хось+V+TV+Mod/nec+ScPl3+OcSg3: хобцудо’
+     хось+V+TV+Mod/nec+ScSg1+OcDu3: хобцухуюн
+     хось+V+TV+Mod/nec+ScSg2+OcDu3: хобцухуюд
+     хось+V+TV+Mod/nec+ScSg3+OcDu3: хобцухуюда
+     хось+V+TV+Mod/nec+ScDu1+OcDu3: хобцухуюни’
+     хось+V+TV+Mod/nec+ScDu2+OcDu3: хобцухуюди’
+     хось+V+TV+Mod/nec+ScDu3+OcDu3: хобцухуюди’
+     хось+V+TV+Mod/nec+ScPl1+OcDu3: хобцухуюна”
+     хось+V+TV+Mod/nec+ScPl2+OcDu3: хобцухуюда”
+     хось+V+TV+Mod/nec+ScPl3+OcDu3: хобцухуюдо’
+     хось+V+TV+Mod/nec+ScSg1+OcPl3: хобцун
+     хось+V+TV+Mod/nec+ScSg2+OcPl3: хобцуд
+     хось+V+TV+Mod/nec+ScSg3+OcPl3: хобцуда
+     хось+V+TV+Mod/nec+ScDu1+OcPl3: хобцуни’
+     хось+V+TV+Mod/nec+ScDu2+OcPl3: хобцуди’
+     хось+V+TV+Mod/nec+ScDu3+OcPl3: хобцуди’
+     хось+V+TV+Mod/nec+ScPl1+OcPl3: хобцуна”
+     хось+V+TV+Mod/nec+ScPl2+OcPl3: хобцуда”
+     хось+V+TV+Mod/nec+ScPl3+OcPl3: хобцудо’
+     хось+V+TV+Mod/int+ScSg1+OcSg3: хосав
+     хось+V+TV+Mod/int+ScSg2+OcSg3: хосар
+     хось+V+TV+Mod/int+ScSg3+OcSg3: хосада
+     хось+V+TV+Mod/int+ScDu1+OcSg3: хосами’
+     хось+V+TV+Mod/int+ScDu2+OcSg3: хосари’
+     хось+V+TV+Mod/int+ScDu3+OcSg3: хосади’
+     хось+V+TV+Mod/int+ScPl1+OcSg3: хосава”
+     хось+V+TV+Mod/int+ScPl2+OcSg3: хосара”
+     хось+V+TV+Mod/int+ScPl3+OcSg3: хосадо’
+     хось+V+TV+Mod/int+ScSg1+OcDu3: хосахаюн
+     хось+V+TV+Mod/int+ScSg2+OcDu3: хосахаюд
+     хось+V+TV+Mod/int+ScSg3+OcDu3: хосахаюда
+     хось+V+TV+Mod/int+ScDu1+OcDu3: хосахаюни’
+     хось+V+TV+Mod/int+ScDu2+OcDu3: хосахаюди’
+     хось+V+TV+Mod/int+ScDu3+OcDu3: хосахаюди’
+     хось+V+TV+Mod/int+ScPl1+OcDu3: хосахаюна”
+     хось+V+TV+Mod/int+ScPl2+OcDu3: хосахаюда”
+     хось+V+TV+Mod/int+ScPl3+OcDu3: хосахаюдо’
+     хось+V+TV+Mod/int+ScSg1+OcPl3: хосян
+     хось+V+TV+Mod/int+ScSg2+OcPl3: хосяд
+     хось+V+TV+Mod/int+ScSg3+OcPl3: хосьда
+     хось+V+TV+Mod/int+ScDu1+OcPl3: хосьни’
+     хось+V+TV+Mod/int+ScDu2+OcPl3: хосьди’
+     хось+V+TV+Mod/int+ScDu3+OcPl3: хосьди’
+     хось+V+TV+Mod/int+ScPl1+OcPl3: хосьна”
+     хось+V+TV+Mod/int+ScPl2+OcPl3: хосьда”
+     хось+V+TV+Mod/int+ScPl3+OcPl3: хосьдо’
+     хось+V+TV+Mod/narr+Aor+ScSg1+OcSg3: ховэв
+     хось+V+TV+Mod/narr+Aor+ScSg2+OcSg3: ховэр
+     хось+V+TV+Mod/narr+Aor+ScSg3+OcSg3: ховэда
+     хось+V+TV+Mod/narr+Aor+ScDu1+OcSg3: ховэми’
+     хось+V+TV+Mod/narr+Aor+ScDu2+OcSg3: ховэри’
+     хось+V+TV+Mod/narr+Aor+ScDu3+OcSg3: ховэди’
+     хось+V+TV+Mod/narr+Aor+ScPl1+OcSg3: ховэва”
+     хось+V+TV+Mod/narr+Aor+ScPl2+OcSg3: ховэра”
+     хось+V+TV+Mod/narr+Aor+ScPl3+OcSg3: ховэдо’
+     хось+V+TV+Mod/narr+Aor+ScSg1+OcDu3: ховэхэюн
+     хось+V+TV+Mod/narr+Aor+ScSg2+OcDu3: ховэхэюд
+     хось+V+TV+Mod/narr+Aor+ScSg3+OcDu3: ховэхэюда
+     хось+V+TV+Mod/narr+Aor+ScDu1+OcDu3: ховэхэюни’
+     хось+V+TV+Mod/narr+Aor+ScDu2+OcDu3: ховэхэюди’
+     хось+V+TV+Mod/narr+Aor+ScDu3+OcDu3: ховэхэюди’
+     хось+V+TV+Mod/narr+Aor+ScPl1+OcDu3: ховэхэюна”
+     хось+V+TV+Mod/narr+Aor+ScPl2+OcDu3: ховэхэюда”
+     хось+V+TV+Mod/narr+Aor+ScPl3+OcDu3: ховэхэюдо’
+     хось+V+TV+Mod/narr+Aor+ScSg1+OcPl3: ховын
+     хось+V+TV+Mod/narr+Aor+ScSg2+OcPl3: ховыд
+     хось+V+TV+Mod/narr+Aor+ScSg3+OcPl3: ховыда
+     хось+V+TV+Mod/narr+Aor+ScDu1+OcPl3: ховыни’
+     хось+V+TV+Mod/narr+Aor+ScDu2+OcPl3: ховыди’
+     хось+V+TV+Mod/narr+Aor+ScDu3+OcPl3: ховыди’
+     хось+V+TV+Mod/narr+Aor+ScPl1+OcPl3: ховына”
+     хось+V+TV+Mod/narr+Aor+ScPl2+OcPl3: ховыда”
+     хось+V+TV+Mod/narr+Aor+ScPl3+OcPl3: ховыдо’
+     хось+V+TV+Mod/narr+Prt1+ScSg1+OcSg3: ховэвась
+     хось+V+TV+Mod/narr+Prt1+ScSg2+OcSg3: ховэрась
+     хось+V+TV+Mod/narr+Prt1+ScSg3+OcSg3: ховэдась
+     хось+V+TV+Mod/narr+Prt1+ScDu1+OcSg3: ховэминзь
+     хось+V+TV+Mod/narr+Prt1+ScDu2+OcSg3: ховэринзь
+     хось+V+TV+Mod/narr+Prt1+ScDu3+OcSg3: ховэдинзь
+     хось+V+TV+Mod/narr+Prt1+ScPl1+OcSg3: ховэваць
+     хось+V+TV+Mod/narr+Prt1+ScPl2+OcSg3: ховэраць
+     хось+V+TV+Mod/narr+Prt1+ScPl3+OcSg3: ховэдонзь
+     хось+V+TV+Mod/narr+Prt1+ScSg1+OcDu3: ховэхэюнась
+     хось+V+TV+Mod/narr+Prt1+ScSg2+OcDu3: ховэхэюдась
+     хось+V+TV+Mod/narr+Prt1+ScSg3+OcDu3: ховэхэюдась
+     хось+V+TV+Mod/narr+Prt1+ScDu1+OcDu3: ховэхэюнинзь
+     хось+V+TV+Mod/narr+Prt1+ScDu2+OcDu3: ховэхэюдинзь
+     хось+V+TV+Mod/narr+Prt1+ScDu3+OcDu3: ховэхэюдинзь
+     хось+V+TV+Mod/narr+Prt1+ScPl1+OcDu3: ховэхэюнаць
+     хось+V+TV+Mod/narr+Prt1+ScPl2+OcDu3: ховэхэюдаць
+     хось+V+TV+Mod/narr+Prt1+ScPl3+OcDu3: ховэхэюдонзь
+     хось+V+TV+Mod/narr+Prt1+ScSg1+OcPl3: ховынась
+     хось+V+TV+Mod/narr+Prt1+ScSg2+OcPl3: ховыдась
+     хось+V+TV+Mod/narr+Prt1+ScSg3+OcPl3: ховыдась
+     хось+V+TV+Mod/narr+Prt1+ScDu1+OcPl3: ховынинзь
+     хось+V+TV+Mod/narr+Prt1+ScDu2+OcPl3: ховыдинзь
+     хось+V+TV+Mod/narr+Prt1+ScDu3+OcPl3: ховыдинзь
+     хось+V+TV+Mod/narr+Prt1+ScPl1+OcPl3: ховынаць
+     хось+V+TV+Mod/narr+Prt1+ScPl2+OcPl3: ховыдаць
+     хось+V+TV+Mod/narr+Prt1+ScPl3+OcPl3: ховыдонзь
+     хось+V+TV+Mod/prob+Aor+ScSg1+OcSg3: хонакэв
+     хось+V+TV+Mod/prob+Aor+ScSg2+OcSg3: хонакэр
+     хось+V+TV+Mod/prob+Aor+ScSg3+OcSg3: хонакэда
+     хось+V+TV+Mod/prob+Aor+ScDu1+OcSg3: хонакэми’
+     хось+V+TV+Mod/prob+Aor+ScDu2+OcSg3: хонакэри’
+     хось+V+TV+Mod/prob+Aor+ScDu3+OcSg3: хонакэди’
+     хось+V+TV+Mod/prob+Aor+ScPl1+OcSg3: хонакэва”
+     хось+V+TV+Mod/prob+Aor+ScPl2+OcSg3: хонакэра”
+     хось+V+TV+Mod/prob+Aor+ScPl3+OcSg3: хонакэдо’
+     хось+V+TV+Mod/prob+Aor+ScSg1+OcDu3: хонакэхэюн
+     хось+V+TV+Mod/prob+Aor+ScSg2+OcDu3: хонакэхэюд
+     хось+V+TV+Mod/prob+Aor+ScSg3+OcDu3: хонакэхэюда
+     хось+V+TV+Mod/prob+Aor+ScDu1+OcDu3: хонакэхэюни’
+     хось+V+TV+Mod/prob+Aor+ScDu2+OcDu3: хонакэхэюди’
+     хось+V+TV+Mod/prob+Aor+ScDu3+OcDu3: хонакэхэюди’
+     хось+V+TV+Mod/prob+Aor+ScPl1+OcDu3: хонакэхэюна”
+     хось+V+TV+Mod/prob+Aor+ScPl2+OcDu3: хонакэхэюда”
+     хось+V+TV+Mod/prob+Aor+ScPl3+OcDu3: хонакэхэюдо’
+     хось+V+TV+Mod/prob+Aor+ScSg1+OcPl3: хонакын
+     хось+V+TV+Mod/prob+Aor+ScSg2+OcPl3: хонакыд
+     хось+V+TV+Mod/prob+Aor+ScSg3+OcPl3: хонакыда
+     хось+V+TV+Mod/prob+Aor+ScDu1+OcPl3: хонакыни’
+     хось+V+TV+Mod/prob+Aor+ScDu2+OcPl3: хонакыди’
+     хось+V+TV+Mod/prob+Aor+ScDu3+OcPl3: хонакыди’
+     хось+V+TV+Mod/prob+Aor+ScPl1+OcPl3: хонакына”
+     хось+V+TV+Mod/prob+Aor+ScPl2+OcPl3: хонакыда”
+     хось+V+TV+Mod/prob+Aor+ScPl3+OcPl3: хонакыдо’
+     хось+V+TV+Mod/obl+ScSg1+OcSg3: хобцакэв
+     хось+V+TV+Mod/obl+ScSg2+OcSg3: хобцакэр
+     хось+V+TV+Mod/obl+ScSg3+OcSg3: хобцакэда
+     хось+V+TV+Mod/obl+ScDu1+OcSg3: хобцакэми’
+     хось+V+TV+Mod/obl+ScDu2+OcSg3: хобцакэри’
+     хось+V+TV+Mod/obl+ScDu3+OcSg3: хобцакэди’
+     хось+V+TV+Mod/obl+ScPl1+OcSg3: хобцакэва”
+     хось+V+TV+Mod/obl+ScPl2+OcSg3: хобцакэра”
+     хось+V+TV+Mod/obl+ScPl3+OcSg3: хобцакэдо’
+     хось+V+TV+Mod/obl+ScSg1+OcDu3: хобцакэхэюн
+     хось+V+TV+Mod/obl+ScSg2+OcDu3: хобцакэхэюд
+     хось+V+TV+Mod/obl+ScSg3+OcDu3: хобцакэхэюда
+     хось+V+TV+Mod/obl+ScDu1+OcDu3: хобцакэхэюни’
+     хось+V+TV+Mod/obl+ScDu2+OcDu3: хобцакэхэюди’
+     хось+V+TV+Mod/obl+ScDu3+OcDu3: хобцакэхэюди’
+     хось+V+TV+Mod/obl+ScPl1+OcDu3: хобцакэхэюна”
+     хось+V+TV+Mod/obl+ScPl2+OcDu3: хобцакэхэюда”
+     хось+V+TV+Mod/obl+ScPl3+OcDu3: хобцакэхэюдо’
+     хось+V+TV+Mod/obl+ScSg1+OcPl3: хобцакын
+     хось+V+TV+Mod/obl+ScSg2+OcPl3: хобцакыд
+     хось+V+TV+Mod/obl+ScSg3+OcPl3: хобцакыда
+     хось+V+TV+Mod/obl+ScDu1+OcPl3: хобцакыни’
+     хось+V+TV+Mod/obl+ScDu2+OcPl3: хобцакыди’
+     хось+V+TV+Mod/obl+ScDu3+OcPl3: хобцакыди’
+     хось+V+TV+Mod/obl+ScPl1+OcPl3: хобцакына”
+     хось+V+TV+Mod/obl+ScPl2+OcPl3: хобцакыда”
+     хось+V+TV+Mod/obl+ScPl3+OcPl3: хобцакыдо’
+     хось+V+TV+Mod/impfappr+Aor+ScSg1+OcSg3: хонарахав
+     хось+V+TV+Mod/impfappr+Aor+ScSg2+OcSg3: хонарахар
+     хось+V+TV+Mod/impfappr+Aor+ScSg3+OcSg3: хонарахада
+     хось+V+TV+Mod/impfappr+Aor+ScDu1+OcSg3: хонарахами’
+     хось+V+TV+Mod/impfappr+Aor+ScDu2+OcSg3: хонарахари’
+     хось+V+TV+Mod/impfappr+Aor+ScDu3+OcSg3: хонарахади’
+     хось+V+TV+Mod/impfappr+Aor+ScPl1+OcSg3: хонарахава”
+     хось+V+TV+Mod/impfappr+Aor+ScPl2+OcSg3: хонарахара”
+     хось+V+TV+Mod/impfappr+Aor+ScPl3+OcSg3: хонарахадо’
+     хось+V+TV+Mod/impfappr+Aor+ScSg1+OcDu3: хонарахахаюн
+     хось+V+TV+Mod/impfappr+Aor+ScSg2+OcDu3: хонарахахаюд
+     хось+V+TV+Mod/impfappr+Aor+ScSg3+OcDu3: хонарахахаюда
+     хось+V+TV+Mod/impfappr+Aor+ScDu1+OcDu3: хонарахахаюни’
+     хось+V+TV+Mod/impfappr+Aor+ScDu2+OcDu3: хонарахахаюди’
+     хось+V+TV+Mod/impfappr+Aor+ScDu3+OcDu3: хонарахахаюди’
+     хось+V+TV+Mod/impfappr+Aor+ScPl1+OcDu3: хонарахахаюна”
+     хось+V+TV+Mod/impfappr+Aor+ScPl2+OcDu3: хонарахахаюда”
+     хось+V+TV+Mod/impfappr+Aor+ScPl3+OcDu3: хонарахахаюдо’
+     хось+V+TV+Mod/impfappr+Aor+ScSg1+OcPl3: хонарыхын
+     хось+V+TV+Mod/impfappr+Aor+ScSg2+OcPl3: хонарыхыд
+     хось+V+TV+Mod/impfappr+Aor+ScSg3+OcPl3: хонарыхыда
+     хось+V+TV+Mod/impfappr+Aor+ScDu1+OcPl3: хонарыхыни’
+     хось+V+TV+Mod/impfappr+Aor+ScDu2+OcPl3: хонарыхыди’
+     хось+V+TV+Mod/impfappr+Aor+ScDu3+OcPl3: хонарыхыди’
+     хось+V+TV+Mod/impfappr+Aor+ScPl1+OcPl3: хонарыхына”
+     хось+V+TV+Mod/impfappr+Aor+ScPl2+OcPl3: хонарыхыда”
+     хось+V+TV+Mod/impfappr+Aor+ScPl3+OcPl3: хонарыхыдо’
+     хось+V+TV+Mod/impfappr+Prt1+ScSg1+OcSg3: хонарахавась
+     хось+V+TV+Mod/impfappr+Prt1+ScSg2+OcSg3: хонарахарась
+     хось+V+TV+Mod/impfappr+Prt1+ScSg3+OcSg3: хонарахадась
+     хось+V+TV+Mod/impfappr+Prt1+ScDu1+OcSg3: хонарахаминзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu2+OcSg3: хонарахаринзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu3+OcSg3: хонарахадинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScPl1+OcSg3: хонарахаваць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl2+OcSg3: хонарахараць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl3+OcSg3: хонарахадонзь
+     хось+V+TV+Mod/impfappr+Prt1+ScSg1+OcDu3: хонарахахаюнась
+     хось+V+TV+Mod/impfappr+Prt1+ScSg2+OcDu3: хонарахахаюдась
+     хось+V+TV+Mod/impfappr+Prt1+ScSg3+OcDu3: хонарахахаюдась
+     хось+V+TV+Mod/impfappr+Prt1+ScDu1+OcDu3: хонарахахаюнинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu2+OcDu3: хонарахахаюдинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu3+OcDu3: хонарахахаюдинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScPl1+OcDu3: хонарахахаюнаць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl2+OcDu3: хонарахахаюдаць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl3+OcDu3: хонарахахаюдонзь
+     хось+V+TV+Mod/impfappr+Prt1+ScSg1+OcPl3: хонарыхынась
+     хось+V+TV+Mod/impfappr+Prt1+ScSg2+OcPl3: хонарыхыдась
+     хось+V+TV+Mod/impfappr+Prt1+ScSg3+OcPl3: хонарыхыдась
+     хось+V+TV+Mod/impfappr+Prt1+ScDu1+OcPl3: хонарыхынинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu2+OcPl3: хонарыхыдинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScDu3+OcPl3: хонарыхыдинзь
+     хось+V+TV+Mod/impfappr+Prt1+ScPl1+OcPl3: хонарыхынаць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl2+OcPl3: хонарыхыдаць
+     хось+V+TV+Mod/impfappr+Prt1+ScPl3+OcPl3: хонарыхыдонзь
+     хось+V+TV+Mod/perfappr+ScSg1+OcSg3: ховэрахав
+     хось+V+TV+Mod/perfappr+ScSg2+OcSg3: ховэрахар
+     хось+V+TV+Mod/perfappr+ScSg3+OcSg3: ховэрахада
+     хось+V+TV+Mod/perfappr+ScDu1+OcSg3: ховэрахами’
+     хось+V+TV+Mod/perfappr+ScDu2+OcSg3: ховэрахари’
+     хось+V+TV+Mod/perfappr+ScDu3+OcSg3: ховэрахади’
+     хось+V+TV+Mod/perfappr+ScPl1+OcSg3: ховэрахава”
+     хось+V+TV+Mod/perfappr+ScPl2+OcSg3: ховэрахара”
+     хось+V+TV+Mod/perfappr+ScPl3+OcSg3: ховэрахадо’
+     хось+V+TV+Mod/perfappr+ScSg1+OcDu3: ховэрахахаюн
+     хось+V+TV+Mod/perfappr+ScSg2+OcDu3: ховэрахахаюд
+     хось+V+TV+Mod/perfappr+ScSg3+OcDu3: ховэрахахаюда
+     хось+V+TV+Mod/perfappr+ScDu1+OcDu3: ховэрахахаюни’
+     хось+V+TV+Mod/perfappr+ScDu2+OcDu3: ховэрахахаюди’
+     хось+V+TV+Mod/perfappr+ScDu3+OcDu3: ховэрахахаюди’
+     хось+V+TV+Mod/perfappr+ScPl1+OcDu3: ховэрахахаюна”
+     хось+V+TV+Mod/perfappr+ScPl2+OcDu3: ховэрахахаюда”
+     хось+V+TV+Mod/perfappr+ScPl3+OcDu3: ховэрахахаюдо’
+     хось+V+TV+Mod/perfappr+ScSg1+OcPl3: ховэрыхын
+     хось+V+TV+Mod/perfappr+ScSg2+OcPl3: ховэрыхыд
+     хось+V+TV+Mod/perfappr+ScSg3+OcPl3: ховэрыхыда
+     хось+V+TV+Mod/perfappr+ScDu1+OcPl3: ховэрыхыни’
+     хось+V+TV+Mod/perfappr+ScDu2+OcPl3: ховэрыхыди’
+     хось+V+TV+Mod/perfappr+ScDu3+OcPl3: ховэрыхыди’
+     хось+V+TV+Mod/perfappr+ScPl1+OcPl3: ховэрыхына”
+     хось+V+TV+Mod/perfappr+ScPl2+OcPl3: ховэрыхыда”
+     хось+V+TV+Mod/perfappr+ScPl3+OcPl3: ховэрыхыдо’
+     хось+V+TV+Mod/futappr+ScSg1+OcSg3: [ховандархав, ховндархав]
+     хось+V+TV+Mod/futappr+ScSg2+OcSg3: [ховандархар, ховндархар]
+     хось+V+TV+Mod/futappr+ScSg3+OcSg3: [ховандархада, ховндархада]
+     хось+V+TV+Mod/futappr+ScDu1+OcSg3: [ховандархами’, ховндархами’]
+     хось+V+TV+Mod/futappr+ScDu2+OcSg3: [ховандархари’, ховндархари’]
+     хось+V+TV+Mod/futappr+ScDu3+OcSg3: [ховандархади’, ховндархади’]
+     хось+V+TV+Mod/futappr+ScPl1+OcSg3: [ховандархава”, ховндархава”]
+     хось+V+TV+Mod/futappr+ScPl2+OcSg3: [ховандархара”, ховндархара”]
+     хось+V+TV+Mod/futappr+ScPl3+OcSg3: [ховандархадо’, ховндархадо’]
+     хось+V+TV+Mod/futappr+ScSg1+OcDu3: [ховандархахаюн, ховндархахаюн]
+     хось+V+TV+Mod/futappr+ScSg2+OcDu3: [ховандархахаюд, ховндархахаюд]
+     хось+V+TV+Mod/futappr+ScSg3+OcDu3: [ховандархахаюда, ховндархахаюда]
+     хось+V+TV+Mod/futappr+ScDu1+OcDu3: [ховандархахаюни’, ховндархахаюни’]
+     хось+V+TV+Mod/futappr+ScDu2+OcDu3: [ховандархахаюди’, ховндархахаюди’]
+     хось+V+TV+Mod/futappr+ScDu3+OcDu3: [ховандархахаюди’, ховндархахаюди’]
+     хось+V+TV+Mod/futappr+ScPl1+OcDu3: [ховандархахаюна”, ховндархахаюна”]
+     хось+V+TV+Mod/futappr+ScPl2+OcDu3: [ховандархахаюда”, ховндархахаюда”]
+     хось+V+TV+Mod/futappr+ScPl3+OcDu3: [ховандархахаюдо’, ховндархахаюдо’]
+     хось+V+TV+Mod/futappr+ScSg1+OcPl3: [ховандархын, ховндархын]
+     хось+V+TV+Mod/futappr+ScSg2+OcPl3: [ховандархыд, ховндархыд]
+     хось+V+TV+Mod/futappr+ScSg3+OcPl3: [ховандархыда, ховндархыда]
+     хось+V+TV+Mod/futappr+ScDu1+OcPl3: [ховандархыни’, ховндархыни’]
+     хось+V+TV+Mod/futappr+ScDu2+OcPl3: [ховандархыди’, ховндархыди’]
+     хось+V+TV+Mod/futappr+ScDu3+OcPl3: [ховандархыди’, ховндархыди’]
+     хось+V+TV+Mod/futappr+ScPl1+OcPl3: [ховандархына”, ховндархына”]
+     хось+V+TV+Mod/futappr+ScPl2+OcPl3: [ховандархыда”, ховндархыда”]
+     хось+V+TV+Mod/futappr+ScPl3+OcPl3: [ховандархыдо’, ховндархыдо’]
+     хось+V+TV+Mod/sup+ScSg1+OcSg3: хованӈгабяв
+     хось+V+TV+Mod/sup+ScSg2+OcSg3: хованӈгабяр
+     хось+V+TV+Mod/sup+ScSg3+OcSg3: хованӈгабяда
+     хось+V+TV+Mod/sup+ScDu1+OcSg3: хованӈгабями’
+     хось+V+TV+Mod/sup+ScDu2+OcSg3: хованӈгабяри’
+     хось+V+TV+Mod/sup+ScDu3+OcSg3: хованӈгабяди’
+     хось+V+TV+Mod/sup+ScPl1+OcSg3: хованӈгабява”
+     хось+V+TV+Mod/sup+ScPl2+OcSg3: хованӈгабяра”
+     хось+V+TV+Mod/sup+ScPl3+OcSg3: хованӈгабядо’
+     хось+V+TV+Mod/sup+ScSg1+OcDu3: хованӈгабяхаюн
+     хось+V+TV+Mod/sup+ScSg2+OcDu3: хованӈгабяхаюд
+     хось+V+TV+Mod/sup+ScSg3+OcDu3: хованӈгабяхаюда
+     хось+V+TV+Mod/sup+ScDu1+OcDu3: хованӈгабяхаюни’
+     хось+V+TV+Mod/sup+ScDu2+OcDu3: хованӈгабяхаюди’
+     хось+V+TV+Mod/sup+ScDu3+OcDu3: хованӈгабяхаюди’
+     хось+V+TV+Mod/sup+ScPl1+OcDu3: хованӈгабяхаюна”
+     хось+V+TV+Mod/sup+ScPl2+OcDu3: хованӈгабяхаюда”
+     хось+V+TV+Mod/sup+ScPl3+OcDu3: хованӈгабяхаюдо’
+     хось+V+TV+Mod/sup+ScSg1+OcPl3: хованӈгабин
+     хось+V+TV+Mod/sup+ScSg2+OcPl3: хованӈгабид
+     хось+V+TV+Mod/sup+ScSg3+OcPl3: хованӈгабида
+     хось+V+TV+Mod/sup+ScDu1+OcPl3: хованӈгабини’
+     хось+V+TV+Mod/sup+ScDu2+OcPl3: хованӈгабиди’
+     хось+V+TV+Mod/sup+ScDu3+OcPl3: хованӈгабиди’
+     хось+V+TV+Mod/sup+ScPl1+OcPl3: хованӈгабина”
+     хось+V+TV+Mod/sup+ScPl2+OcPl3: хованӈгабида”
+     хось+V+TV+Mod/sup+ScPl3+OcPl3: хованӈгабидо’
+     хось+V+TV+Mod/hyp+ScSg1+OcSg3: хорхавэв
+     хось+V+TV+Mod/hyp+ScSg2+OcSg3: хорхавэр
+     хось+V+TV+Mod/hyp+ScSg3+OcSg3: хорхавэда
+     хось+V+TV+Mod/hyp+ScDu1+OcSg3: хорхавэми’
+     хось+V+TV+Mod/hyp+ScDu2+OcSg3: хорхавэри’
+     хось+V+TV+Mod/hyp+ScDu3+OcSg3: хорхавэди’
+     хось+V+TV+Mod/hyp+ScPl1+OcSg3: хорхавэва”
+     хось+V+TV+Mod/hyp+ScPl2+OcSg3: хорхавэра”
+     хось+V+TV+Mod/hyp+ScPl3+OcSg3: хорхавэдо’
+     хось+V+TV+Mod/hyp+ScSg1+OcDu3: хорхавэхэюн
+     хось+V+TV+Mod/hyp+ScSg2+OcDu3: хорхавэхэюд
+     хось+V+TV+Mod/hyp+ScSg3+OcDu3: хорхавэхэюда
+     хось+V+TV+Mod/hyp+ScDu1+OcDu3: хорхавэхэюни’
+     хось+V+TV+Mod/hyp+ScDu2+OcDu3: хорхавэхэюди’
+     хось+V+TV+Mod/hyp+ScDu3+OcDu3: хорхавэхэюди’
+     хось+V+TV+Mod/hyp+ScPl1+OcDu3: хорхавэхэюна”
+     хось+V+TV+Mod/hyp+ScPl2+OcDu3: хорхавэхэюда”
+     хось+V+TV+Mod/hyp+ScPl3+OcDu3: хорхавэхэюдо’
+     хось+V+TV+Mod/hyp+ScSg1+OcPl3: хорхавын
+     хось+V+TV+Mod/hyp+ScSg2+OcPl3: хорхавыд
+     хось+V+TV+Mod/hyp+ScSg3+OcPl3: хорхавыда
+     хось+V+TV+Mod/hyp+ScDu1+OcPl3: хорхавыни’
+     хось+V+TV+Mod/hyp+ScDu2+OcPl3: хорхавыди’
+     хось+V+TV+Mod/hyp+ScDu3+OcPl3: хорхавыди’
+     хось+V+TV+Mod/hyp+ScPl1+OcPl3: хорхавына”
+     хось+V+TV+Mod/hyp+ScPl2+OcPl3: хорхавыда”
+     хось+V+TV+Mod/hyp+ScPl3+OcPl3: хорхавыдо’
+     хось+V+TV+Mod/perfprob+ScSg1+OcSg3: ховэкэв
+     хось+V+TV+Mod/perfprob+ScSg2+OcSg3: ховэкэр
+     хось+V+TV+Mod/perfprob+ScSg3+OcSg3: ховэкэда
+     хось+V+TV+Mod/perfprob+ScDu1+OcSg3: ховэкэми’
+     хось+V+TV+Mod/perfprob+ScDu2+OcSg3: ховэкэри’
+     хось+V+TV+Mod/perfprob+ScDu3+OcSg3: ховэкэди’
+     хось+V+TV+Mod/perfprob+ScPl1+OcSg3: ховэкэва”
+     хось+V+TV+Mod/perfprob+ScPl2+OcSg3: ховэкэра”
+     хось+V+TV+Mod/perfprob+ScPl3+OcSg3: ховэкэдо’
+     хось+V+TV+Mod/perfprob+ScSg1+OcDu3: ховэкэхэюн
+     хось+V+TV+Mod/perfprob+ScSg2+OcDu3: ховэкэхэюд
+     хось+V+TV+Mod/perfprob+ScSg3+OcDu3: ховэкэхэюда
+     хось+V+TV+Mod/perfprob+ScDu1+OcDu3: ховэкэхэюни’
+     хось+V+TV+Mod/perfprob+ScDu2+OcDu3: ховэкэхэюди’
+     хось+V+TV+Mod/perfprob+ScDu3+OcDu3: ховэкэхэюди’
+     хось+V+TV+Mod/perfprob+ScPl1+OcDu3: ховэкэхэюна”
+     хось+V+TV+Mod/perfprob+ScPl2+OcDu3: ховэкэхэюда”
+     хось+V+TV+Mod/perfprob+ScPl3+OcDu3: ховэкэхэюдо’
+     хось+V+TV+Mod/perfprob+ScSg1+OcPl3: ховэкын
+     хось+V+TV+Mod/perfprob+ScSg2+OcPl3: ховэкыд
+     хось+V+TV+Mod/perfprob+ScSg3+OcPl3: ховэкыда
+     хось+V+TV+Mod/perfprob+ScDu1+OcPl3: ховэкыни’
+     хось+V+TV+Mod/perfprob+ScDu2+OcPl3: ховэкыди’
+     хось+V+TV+Mod/perfprob+ScDu3+OcPl3: ховэкыди’
+     хось+V+TV+Mod/perfprob+ScPl1+OcPl3: ховэкына”
+     хось+V+TV+Mod/perfprob+ScPl2+OcPl3: ховэкыда”
+     хось+V+TV+Mod/perfprob+ScPl3+OcPl3: ховэкыдо’
+     хось+V+TV+Mod/rep+ScSg1+OcSg3: ховнав
+     хось+V+TV+Mod/rep+ScSg2+OcSg3: ховнар
+     хось+V+TV+Mod/rep+ScSg3+OcSg3: ховнада
+     хось+V+TV+Mod/rep+ScDu1+OcSg3: ховнами’
+     хось+V+TV+Mod/rep+ScDu2+OcSg3: ховнари’
+     хось+V+TV+Mod/rep+ScDu3+OcSg3: ховнади’
+     хось+V+TV+Mod/rep+ScPl1+OcSg3: ховнава”
+     хось+V+TV+Mod/rep+ScPl2+OcSg3: ховнара”
+     хось+V+TV+Mod/rep+ScPl3+OcSg3: ховнадо’
+     хось+V+TV+Mod/rep+ScSg1+OcDu3: ховнахаюн
+     хось+V+TV+Mod/rep+ScSg2+OcDu3: ховнахаюд
+     хось+V+TV+Mod/rep+ScSg3+OcDu3: ховнахаюда
+     хось+V+TV+Mod/rep+ScDu1+OcDu3: ховнахаюни’
+     хось+V+TV+Mod/rep+ScDu2+OcDu3: ховнахаюди’
+     хось+V+TV+Mod/rep+ScDu3+OcDu3: ховнахаюди’
+     хось+V+TV+Mod/rep+ScPl1+OcDu3: ховнахаюна”
+     хось+V+TV+Mod/rep+ScPl2+OcDu3: ховнахаюда”
+     хось+V+TV+Mod/rep+ScPl3+OcDu3: ховнахаюдо’
+     хось+V+TV+Mod/rep+ScSg1+OcPl3: ховнан
+     хось+V+TV+Mod/rep+ScSg2+OcPl3: ховнад
+     хось+V+TV+Mod/rep+ScSg3+OcPl3: ховнада
+     хось+V+TV+Mod/rep+ScDu1+OcPl3: ховнани’
+     хось+V+TV+Mod/rep+ScDu2+OcPl3: ховнади’
+     хось+V+TV+Mod/rep+ScDu3+OcPl3: ховнади’
+     хось+V+TV+Mod/rep+ScPl1+OcPl3: ховнана”
+     хось+V+TV+Mod/rep+ScPl2+OcPl3: ховнада”
+     хось+V+TV+Mod/rep+ScPl3+OcPl3: ховнадо’
+     хось+V+TV+Mod/des+ScSg1+OcSg3: хорвав
+     хось+V+TV+Mod/des+ScSg2+OcSg3: хорвар
+     хось+V+TV+Mod/des+ScSg3+OcSg3: хорвада
+     хось+V+TV+Mod/des+ScDu1+OcSg3: хорвами’
+     хось+V+TV+Mod/des+ScDu2+OcSg3: хорвари’
+     хось+V+TV+Mod/des+ScDu3+OcSg3: хорвади’
+     хось+V+TV+Mod/des+ScPl1+OcSg3: хорвава”
+     хось+V+TV+Mod/des+ScPl2+OcSg3: хорвара”
+     хось+V+TV+Mod/des+ScPl3+OcSg3: хорвадо’
+     хось+V+TV+Mod/des+ScSg1+OcDu3: хорвахаюн
+     хось+V+TV+Mod/des+ScSg2+OcDu3: хорвахаюд
+     хось+V+TV+Mod/des+ScSg3+OcDu3: хорвахаюда
+     хось+V+TV+Mod/des+ScDu1+OcDu3: хорвахаюни’
+     хось+V+TV+Mod/des+ScDu2+OcDu3: хорвахаюди’
+     хось+V+TV+Mod/des+ScDu3+OcDu3: хорвахаюди’
+     хось+V+TV+Mod/des+ScPl1+OcDu3: хорвахаюна”
+     хось+V+TV+Mod/des+ScPl2+OcDu3: хорвахаюда”
+     хось+V+TV+Mod/des+ScPl3+OcDu3: хорвахаюдо’
+     хось+V+TV+Mod/des+ScSg1+OcPl3: хорбин
+     хось+V+TV+Mod/des+ScSg2+OcPl3: хорбид
+     хось+V+TV+Mod/des+ScSg3+OcPl3: хорбида
+     хось+V+TV+Mod/des+ScDu1+OcPl3: хорбини’
+     хось+V+TV+Mod/des+ScDu2+OcPl3: хорбиди’
+     хось+V+TV+Mod/des+ScDu3+OcPl3: хорбиди’
+     хось+V+TV+Mod/des+ScPl1+OcPl3: хорбина”
+     хось+V+TV+Mod/des+ScPl2+OcPl3: хорбида”
+     хось+V+TV+Mod/des+ScPl3+OcPl3: хорбидо’
+     хось+V+TV+Fut+Ind+Aor+ScSg1+OcSg3: хоӈгув
+     хось+V+TV+Fut+Ind+Aor+ScSg2+OcSg3: хоӈгур
+     хось+V+TV+Fut+Ind+Aor+ScSg3+OcSg3: хоӈгуда
+     хось+V+TV+Fut+Ind+Aor+ScDu1+OcSg3: хоӈгуми’
+     хось+V+TV+Fut+Ind+Aor+ScDu2+OcSg3: хоӈгури’
+     хось+V+TV+Fut+Ind+Aor+ScDu3+OcSg3: хоӈгуди’
+     хось+V+TV+Fut+Ind+Aor+ScPl1+OcSg3: хоӈгува”
+     хось+V+TV+Fut+Ind+Aor+ScPl2+OcSg3: хоӈгура”
+     хось+V+TV+Fut+Ind+Aor+ScPl3+OcSg3: хоӈгудо’
+     хось+V+TV+Fut+Ind+Aor+ScSg1+OcDu3: хоӈгухуюн
+     хось+V+TV+Fut+Ind+Aor+ScSg2+OcDu3: хоӈгухуюд
+     хось+V+TV+Fut+Ind+Aor+ScSg3+OcDu3: хоӈгухуюда
+     хось+V+TV+Fut+Ind+Aor+ScDu1+OcDu3: хоӈгухуюни’
+     хось+V+TV+Fut+Ind+Aor+ScDu2+OcDu3: хоӈгухуюди’
+     хось+V+TV+Fut+Ind+Aor+ScDu3+OcDu3: хоӈгухуюди’
+     хось+V+TV+Fut+Ind+Aor+ScPl1+OcDu3: хоӈгухуюна”
+     хось+V+TV+Fut+Ind+Aor+ScPl2+OcDu3: хоӈгухуюда”
+     хось+V+TV+Fut+Ind+Aor+ScPl3+OcDu3: хоӈгухуюдо’
+     хось+V+TV+Fut+Ind+Aor+ScSg1+OcPl3: хоӈгун
+     хось+V+TV+Fut+Ind+Aor+ScSg2+OcPl3: хоӈгуд
+     хось+V+TV+Fut+Ind+Aor+ScSg3+OcPl3: хоӈгуда
+     хось+V+TV+Fut+Ind+Aor+ScDu1+OcPl3: хоӈгуни’
+     хось+V+TV+Fut+Ind+Aor+ScDu2+OcPl3: хоӈгуди’
+     хось+V+TV+Fut+Ind+Aor+ScDu3+OcPl3: хоӈгуди’
+     хось+V+TV+Fut+Ind+Aor+ScPl1+OcPl3: хоӈгуна”
+     хось+V+TV+Fut+Ind+Aor+ScPl2+OcPl3: хоӈгуда”
+     хось+V+TV+Fut+Ind+Aor+ScPl3+OcPl3: хоӈгудо’
+     хось+V+TV+Fut+Ind+Prt1+ScSg1+OcSg3: хоӈгувась
+     хось+V+TV+Fut+Ind+Prt1+ScSg2+OcSg3: хоӈгурась
+     хось+V+TV+Fut+Ind+Prt1+ScSg3+OcSg3: хоӈгудась
+     хось+V+TV+Fut+Ind+Prt1+ScDu1+OcSg3: хоӈгуминзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu2+OcSg3: хоӈгуринзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu3+OcSg3: хоӈгудинзь
+     хось+V+TV+Fut+Ind+Prt1+ScPl1+OcSg3: хоӈгуваць
+     хось+V+TV+Fut+Ind+Prt1+ScPl2+OcSg3: хоӈгураць
+     хось+V+TV+Fut+Ind+Prt1+ScPl3+OcSg3: хоӈгудонзь
+     хось+V+TV+Fut+Ind+Prt1+ScSg1+OcDu3: хоӈгухуюнась
+     хось+V+TV+Fut+Ind+Prt1+ScSg2+OcDu3: хоӈгухуюдась
+     хось+V+TV+Fut+Ind+Prt1+ScSg3+OcDu3: хоӈгухуюдась
+     хось+V+TV+Fut+Ind+Prt1+ScDu1+OcDu3: хоӈгухуюнинзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu2+OcDu3: хоӈгухуюдинзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu3+OcDu3: хоӈгухуюдинзь
+     хось+V+TV+Fut+Ind+Prt1+ScPl1+OcDu3: хоӈгухуюнаць
+     хось+V+TV+Fut+Ind+Prt1+ScPl2+OcDu3: хоӈгухуюдаць
+     хось+V+TV+Fut+Ind+Prt1+ScPl3+OcDu3: хоӈгухуюдонзь
+     хось+V+TV+Fut+Ind+Prt1+ScSg1+OcPl3: хоӈгунась
+     хось+V+TV+Fut+Ind+Prt1+ScSg2+OcPl3: хоӈгудась
+     хось+V+TV+Fut+Ind+Prt1+ScSg3+OcPl3: хоӈгудась
+     хось+V+TV+Fut+Ind+Prt1+ScDu1+OcPl3: хоӈгунинзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu2+OcPl3: хоӈгудинзь
+     хось+V+TV+Fut+Ind+Prt1+ScDu3+OcPl3: хоӈгудинзь
+     хось+V+TV+Fut+Ind+Prt1+ScPl1+OcPl3: хоӈгунаць
+     хось+V+TV+Fut+Ind+Prt1+ScPl2+OcPl3: хоӈгудаць
+     хось+V+TV+Fut+Ind+Prt1+ScPl3+OcPl3: хоӈгудонзь
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg1+OcSg3: [хоӈгодакэв, хоӈгоданакэв]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg2+OcSg3: [хоӈгодакэр, хоӈгоданакэр]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg3+OcSg3: [хоӈгодакэда, хоӈгоданакэда]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu1+OcSg3: [хоӈгодакэми’, хоӈгоданакэми’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu2+OcSg3: [хоӈгодакэри’, хоӈгоданакэри’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu3+OcSg3: [хоӈгодакэди’, хоӈгоданакэди’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl1+OcSg3: [хоӈгодакэва”, хоӈгоданакэва”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl2+OcSg3: [хоӈгодакэра”, хоӈгоданакэра”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl3+OcSg3: [хоӈгодакэдо’, хоӈгоданакэдо’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg1+OcDu3: [хоӈгодакэхэюн, хоӈгоданакэхэюн]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg2+OcDu3: [хоӈгодакэхэюд, хоӈгоданакэхэюд]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg3+OcDu3: [хоӈгодакэхэюда, хоӈгоданакэхэюда]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu1+OcDu3: [хоӈгодакэхэюни’, хоӈгоданакэхэюни’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu2+OcDu3: [хоӈгодакэхэюди’, хоӈгоданакэхэюди’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu3+OcDu3: [хоӈгодакэхэюди’, хоӈгоданакэхэюди’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl1+OcDu3: [хоӈгодакэхэюна”, хоӈгоданакэхэюна”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl2+OcDu3: [хоӈгодакэхэюда”, хоӈгоданакэхэюда”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl3+OcDu3: [хоӈгодакэхэюдо’, хоӈгоданакэхэюдо’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg1+OcPl3: [хоӈгодакын, хоӈгоданакын]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg2+OcPl3: [хоӈгодакыд, хоӈгоданакыд]
+     хось+V+TV+Fut+Mod/prob+Aor+ScSg3+OcPl3: [хоӈгодакыда, хоӈгоданакыда]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu1+OcPl3: [хоӈгодакыни’, хоӈгоданакыни’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu2+OcPl3: [хоӈгодакыди’, хоӈгоданакыди’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScDu3+OcPl3: [хоӈгодакыди’, хоӈгоданакыди’]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl1+OcPl3: [хоӈгодакына”, хоӈгоданакына”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl2+OcPl3: [хоӈгодакыда”, хоӈгоданакыда”]
+     хось+V+TV+Fut+Mod/prob+Aor+ScPl3+OcPl3: [хоӈгодакыдо’, хоӈгоданакыдо’]
+     хось+V+TV+Prec+Hort+ScSg1+OcSg3: [хохорцюв, хохорцяв]
+     хось+V+TV+Prec+Hort+ScDu1+OcSg3: [хохорцюми’, хохорцями’]
+     хось+V+TV+Prec+Hort+ScPl1+OcSg3: [хохорцюва”, хохорцява”]
+     хось+V+TV+Prec+Hort+ScSg1+OcDu3: [хохорцюхуюн, хохорцяхаюн]
+     хось+V+TV+Prec+Hort+ScDu1+OcDu3: [хохорцюхуюни’, хохорцяхаюни’]
+     хось+V+TV+Prec+Hort+ScPl1+OcDu3: [хохорцюхуюна”, хохорцяхаюна”]
+     хось+V+TV+Prec+Hort+ScSg1+OcPl3: [хохорцюн, хохорцян]
+     хось+V+TV+Prec+Hort+ScDu1+OcPl3: [хохорцюни’, хохорцяни’]
+     хось+V+TV+Prec+Hort+ScPl1+OcPl3: [хохорцюна”, хохорцяна”]
+     хось+V+TV+Prec+Imprt+ScSg2+OcSg3: хохорт
+     хось+V+TV+Prec+Imprt+ScDu2+OcSg3: [хохор”ӈари’, хохорӈари’]
+     хось+V+TV+Prec+Imprt+ScPl2+OcSg3: [хохор”ӈара”, хохорӈара”]
+     хось+V+TV+Prec+Imprt+ScSg2+OcDu3: хохоркаюн”
+     хось+V+TV+Prec+Imprt+ScDu2+OcDu3: [хохор”ӈахаюди’, хохорӈахаюди’]
+     хось+V+TV+Prec+Imprt+ScPl2+OcDu3: [хохор”ӈахаюда”, хохорӈахаюда”]
+     хось+V+TV+Prec+Imprt+ScSg2+OcPl3: хохоран”
+     хось+V+TV+Prec+Imprt+ScDu2+OcPl3: хохоръяди’
+     хось+V+TV+Prec+Imprt+ScPl2+OcPl3: хохоръяда”
+     хось+V+TV+Prec+Opt+ScSg3+OcSg3: [хохор”ӈамда, хохорӈамда]
+     хось+V+TV+Prec+Opt+ScDu3+OcSg3: [хохор”ӈамди’, хохорӈамди’]
+     хось+V+TV+Prec+Opt+ScPl3+OcSg3: [хохор”ӈамдо’, хохорӈамдо’]
+     хось+V+TV+Prec+Opt+ScSg3+OcDu3: [хохор”ӈахаюдамда, хохорӈахаюдамда]
+     хось+V+TV+Prec+Opt+ScDu3+OcDu3: [хохор”ӈахаюдамди’, хохорӈахаюдамди’]
+     хось+V+TV+Prec+Opt+ScPl3+OcDu3: [хохор”ӈахаюдамдо’, хохорӈахаюдамдо’]
+     хось+V+TV+Prec+Opt+ScSg3+OcPl3: хохоръядамда
+     хось+V+TV+Prec+Opt+ScDu3+OcPl3: хохоръядамди’
+     хось+V+TV+Prec+Opt+ScPl3+OcPl3: хохоръядамдо’
+     хось+V+TV+Hab+Ind+Aor+ScSg1+OcSg3: [хосьтыв, хосетыв]
+     хось+V+TV+Hab+Ind+Aor+ScSg2+OcSg3: [хосьтыр, хосетыр]
+     хось+V+TV+Hab+Ind+Aor+ScSg3+OcSg3: [хосьтыда, хосетыда]
+     хось+V+TV+Hab+Ind+Aor+ScDu1+OcSg3: [хосьтыми’, хосетыми’]
+     хось+V+TV+Hab+Ind+Aor+ScDu2+OcSg3: [хосьтыри’, хосетыри’]
+     хось+V+TV+Hab+Ind+Aor+ScDu3+OcSg3: [хосьтыди’, хосетыди’]
+     хось+V+TV+Hab+Ind+Aor+ScPl1+OcSg3: [хосьтыва”, хосетыва”]
+     хось+V+TV+Hab+Ind+Aor+ScPl2+OcSg3: [хосьтыра”, хосетыра”]
+     хось+V+TV+Hab+Ind+Aor+ScPl3+OcSg3: [хосьтыдо’, хосетыдо’]
+     хось+V+TV+Hab+Ind+Aor+ScSg1+OcDu3: [хосьтыхыюн, хосетыхыюн]
+     хось+V+TV+Hab+Ind+Aor+ScSg2+OcDu3: [хосьтыхыюд, хосетыхыюд]
+     хось+V+TV+Hab+Ind+Aor+ScSg3+OcDu3: [хосьтыхыюда, хосетыхыюда]
+     хось+V+TV+Hab+Ind+Aor+ScDu1+OcDu3: [хосьтыхыюни’, хосетыхыюни’]
+     хось+V+TV+Hab+Ind+Aor+ScDu2+OcDu3: [хосьтыхыюди’, хосетыхыюди’]
+     хось+V+TV+Hab+Ind+Aor+ScDu3+OcDu3: [хосьтыхыюди’, хосетыхыюди’]
+     хось+V+TV+Hab+Ind+Aor+ScPl1+OcDu3: [хосьтыхыюна”, хосетыхыюна”]
+     хось+V+TV+Hab+Ind+Aor+ScPl2+OcDu3: [хосьтыхыюда”, хосетыхыюда”]
+     хось+V+TV+Hab+Ind+Aor+ScPl3+OcDu3: [хосьтыхыюдо’, хосетыхыюдо’]
+     хось+V+TV+Hab+Ind+Aor+ScSg1+OcPl3: [хосьтын, хосетын]
+     хось+V+TV+Hab+Ind+Aor+ScSg2+OcPl3: [хосьтыд, хосетыд]
+     хось+V+TV+Hab+Ind+Aor+ScSg3+OcPl3: [хосьтыда, хосетыда]
+     хось+V+TV+Hab+Ind+Aor+ScDu1+OcPl3: [хосьтыни’, хосетыни’]
+     хось+V+TV+Hab+Ind+Aor+ScDu2+OcPl3: [хосьтыди’, хосетыди’]
+     хось+V+TV+Hab+Ind+Aor+ScDu3+OcPl3: [хосьтыди’, хосетыди’]
+     хось+V+TV+Hab+Ind+Aor+ScPl1+OcPl3: [хосьтына”, хосетына”]
+     хось+V+TV+Hab+Ind+Aor+ScPl2+OcPl3: [хосьтыда”, хосетыда”]
+     хось+V+TV+Hab+Ind+Aor+ScPl3+OcPl3: [хосьтыдо’, хосетыдо’]
+     хось+V+TV+Hab+Mod/narr+ScSg1+OcSg3: [хосьтавэв, хосетавэв]
+     хось+V+TV+Hab+Mod/narr+ScSg2+OcSg3: [хосьтавэр, хосетавэр]
+     хось+V+TV+Hab+Mod/narr+ScSg3+OcSg3: [хосьтавэда, хосетавэда]
+     хось+V+TV+Hab+Mod/narr+ScDu1+OcSg3: [хосьтавэми’, хосетавэми’]
+     хось+V+TV+Hab+Mod/narr+ScDu2+OcSg3: [хосьтавэри’, хосетавэри’]
+     хось+V+TV+Hab+Mod/narr+ScDu3+OcSg3: [хосьтавэди’, хосетавэди’]
+     хось+V+TV+Hab+Mod/narr+ScPl1+OcSg3: [хосьтавэва”, хосетавэва”]
+     хось+V+TV+Hab+Mod/narr+ScPl2+OcSg3: [хосьтавэра”, хосетавэра”]
+     хось+V+TV+Hab+Mod/narr+ScPl3+OcSg3: [хосьтавэдо’, хосетавэдо’]
+     хось+V+TV+Hab+Mod/narr+ScSg1+OcDu3: [хосьтавэхэюн, хосетавэхэюн]
+     хось+V+TV+Hab+Mod/narr+ScSg2+OcDu3: [хосьтавэхэюд, хосетавэхэюд]
+     хось+V+TV+Hab+Mod/narr+ScSg3+OcDu3: [хосьтавэхэюда, хосетавэхэюда]
+     хось+V+TV+Hab+Mod/narr+ScDu1+OcDu3: [хосьтавэхэюни’, хосетавэхэюни’]
+     хось+V+TV+Hab+Mod/narr+ScDu2+OcDu3: [хосьтавэхэюди’, хосетавэхэюди’]
+     хось+V+TV+Hab+Mod/narr+ScDu3+OcDu3: [хосьтавэхэюди’, хосетавэхэюди’]
+     хось+V+TV+Hab+Mod/narr+ScPl1+OcDu3: [хосьтавэхэюна”, хосетавэхэюна”]
+     хось+V+TV+Hab+Mod/narr+ScPl2+OcDu3: [хосьтавэхэюда”, хосетавэхэюда”]
+     хось+V+TV+Hab+Mod/narr+ScPl3+OcDu3: [хосьтавэхэюдо’, хосетавэхэюдо’]
+     хось+V+TV+Hab+Mod/narr+ScSg1+OcPl3: [хосьтавын, хосетавын]
+     хось+V+TV+Hab+Mod/narr+ScSg2+OcPl3: [хосьтавыд, хосетавыд]
+     хось+V+TV+Hab+Mod/narr+ScSg3+OcPl3: [хосьтавыда, хосетавыда]
+     хось+V+TV+Hab+Mod/narr+ScDu1+OcPl3: [хосьтавыни’, хосетавыни’]
+     хось+V+TV+Hab+Mod/narr+ScDu2+OcPl3: [хосьтавыди’, хосетавыди’]
+     хось+V+TV+Hab+Mod/narr+ScDu3+OcPl3: [хосьтавыди’, хосетавыди’]
+     хось+V+TV+Hab+Mod/narr+ScPl1+OcPl3: [хосьтавына”, хосетавына”]
+     хось+V+TV+Hab+Mod/narr+ScPl2+OcPl3: [хосьтавыда”, хосетавыда”]
+     хось+V+TV+Hab+Mod/narr+ScPl3+OcPl3: [хосьтавыдо’, хосетавыдо’]
