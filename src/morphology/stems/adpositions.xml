@@ -6,40 +6,6 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
-      <l pos="Po">ерня</l>
-
-      <stg>
-        <st Contlex="POSTP_LOC">ерня</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="est">
-        <t pos="Pr">keskel</t>
-
-        <t pos="Pr">keset</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Po">keskellä</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t/>
-      </tg>
-    </mg>
-
-    <!--  -->
-  </e>
-
-  <e>
-    <lg>
       <l pos="Po">едʼ</l>
 
       <stg>
@@ -102,6 +68,40 @@
 
   <e>
     <lg>
+      <l pos="Po">ерня</l>
+
+      <stg>
+        <st Contlex="POSTP_LOC">ерня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Pr">keskel</t>
+
+        <t pos="Pr">keset</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">keskellä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Po">етʼ</l>
 
       <stg>
@@ -158,6 +158,38 @@
         <t pos="Po">vastapäätä</t>
 
         <t pos="Po">kautta</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">еˮливна</l>
+
+      <stg>
+        <st Contlex="POSTP_PROS">еˮливна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="Po">vain varten</tf>
       </tg>
 
       <tg xml:lang="rus">
@@ -653,15 +685,45 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>in</t>
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>sees</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Po">sisällä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">мюняʼ</l>
+
+      <stg>
+        <st Contlex="POSTP_DAT">мюня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>into</t>
+      </tg>
+
+      <tg xml:lang="est">
+        <t>sisse</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">sisään</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -717,11 +779,11 @@
       <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t>in</t>
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>sees</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -751,7 +813,7 @@
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>kaasa</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -781,7 +843,7 @@
       </tg>
 
       <tg xml:lang="est">
-        <t/>
+        <t>kõrvale</t>
       </tg>
 
       <tg xml:lang="fin">
@@ -2720,6 +2782,100 @@
     </mg>
 
     <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">хыд</l>
+
+      <stg>
+        <st Contlex="POSTP_ABL">хы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">läheeltä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">хымна</l>
+
+      <stg>
+        <st Contlex="POSTP_PROS">хыʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Pr"/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Po"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <tf pos="Po">läheeltä ohi</tf>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Pr">поблизости</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">хына</l>
+
+      <stg>
+        <st Contlex="POSTP_LOC">хы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t pos="Po"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">viereessä</t>
+
+        <t pos="Po">läheellä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
   </e>
 
   <e>
