@@ -22,10 +22,6 @@ LEXICON A_ХУСУВЭЙ  !!≈ * __@CODE@__ хусувэй: 10 !!ProsSg -ювн
 +A: SGNOMSUF ;
 +A+Der/MWN: NMN_ХУСУВЭЙ ;
 
-LEXICON A_ЕД/ХАНО
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ЕД/ХАНО ;
-
 LEXICON A_ЕД/ХУСУВЭЙ
 +A: SGNOMSUF ;
 +A+Der/MWN: NMN_ЕД/ХУСУВЭЙ ;
@@ -35,6 +31,10 @@ LEXICON A_ХАНО  !!≈ * __@CODE@__ хӑн: 11 !!ProsSg -увна
 !! хӑн xən°    хӑнӑн’ xənən°h        хӑн” xən°q     хӑно xəno
 +A: SGNOMSUF ;
 +A+Der/MWN: NMN_ХАНО ;
+
+LEXICON A_ЕД/ХАНО
++A: SGNOMSUF ;
++A+Der/MWN: NMN_ЕД/ХАНО ;
 
 LEXICON A_ЕД !!≈ * __@CODE@__ ед: 13 !!ProsSg -увна /-ювна
 +A: SGNOMSUF ;

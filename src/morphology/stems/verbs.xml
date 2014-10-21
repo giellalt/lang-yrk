@@ -140917,6 +140917,8 @@
 
       <stg>
         <st Contlex="IV_ЯˮАВЛУ">такла</st>
+
+        <st Contlex="IV_ВАДЮ">таклё</st>
       </stg>
     </lg>
 
@@ -159802,6 +159804,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">тэˮламба</st>
+
+        <st Contlex="TV_ПЭБЮ">тайламба</st>
       </stg>
     </lg>
 
@@ -177583,9 +177587,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">хасалтась</l>
+      <l pos="V" val="IV">хасалтанась</l>
 
       <stg>
+        <st Contlex="IV_ЛАХАНА">хасалтана</st>
+
         <st Contlex="IV_ЛАХАНА">хасалта</st>
       </stg>
     </lg>
@@ -181023,7 +181029,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">sulaa rajusti</t>
+        <tf pos="V" val="IV">sulaa rajusti</tf>
       </tg>
     </mg>
   </e>
@@ -181041,7 +181047,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">sulaa, kypsyä</t>
+        <t pos="V" val="IV">sulaa</t>
+
+        <t pos="V" val="IV">kypsyä</t>
       </tg>
     </mg>
   </e>
@@ -205411,6 +205419,8 @@
 
       <stg>
         <st Contlex="IV_ТИР-Pal/Var">ёр</st>
+
+        <st Contlex="IV_САС">ёра</st>
       </stg>
     </lg>
 
