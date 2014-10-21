@@ -1022,11 +1022,11 @@ Rules
 !2014-03-24 "0:а between Д1: %> and  мна"
 !2014-03-24 ¶¶ __@RULENAME@__
 !2014-03-24  0:а <=> Д1: %> _ м н а ;
-!2014-03-24 
-!2014-03-24 "й:0 when followed by vowel in VowelPalatalization"
-!2014-03-24 ¶¶ __@RULENAME@__
-!2014-03-24  й:0 <=> _ %> [ а: | у: ] ;
-!2014-03-24 
+
+ "й:0 when followed by vowel in VowelPalatalization"
+!! __@RULENAME@__
+  й:0 <=> _ %> [ а: | у: ] ;
+
 !2014-03-24 "а:я VowelPalatalization left"
 !2014-03-24 ¶¶ __@RULENAME@__
 !2014-03-24  а:я <= [ й:0 | ь:0 ] %> _ ;
@@ -1325,20 +1325,20 @@ Rules
 !2014-03-24         Vow %> ъ: _ (%>) [ н | д ] Vow ;
 !2014-03-24 
 !2014-03-24 
-!2014-03-24 ¶¶ ¶¶VOWEL LOSS
-!2014-03-24 
-!2014-03-24 "а:0 vowel loss in plural accusative and elsewhere LEFT"
-!2014-03-24 ¶¶ __@RULENAME@__
-!2014-03-24  а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
+!! !!VOWEL LOSS
+
+ "а:0 vowel loss in plural accusative and elsewhere LEFT"
+!! __@RULENAME@__
+  а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ к: а ʼ ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
 !2014-03-24         Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
 !2014-03-24            в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
-!2014-03-24         
-!2014-03-24 
-!2014-03-24 "а:0 vowel loss in plural accusative and elsewhere RIGHT"
-!2014-03-24 ¶¶ __@RULENAME@__
-!2014-03-24  а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
+
+
+ "а:0 vowel loss in plural accusative and elsewhere RIGHT"
+!! __@RULENAME@__
+  а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ к: а ʼ ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
 !2014-03-24         Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
