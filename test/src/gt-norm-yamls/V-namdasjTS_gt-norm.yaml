@@ -1,0 +1,2794 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - намдась: # Verb 'to hear / kuulla' - full paradigm - Type 1, transitive
+ #_[4-A-tr]_nəmtə-_’kuulla’_TV_=_Bi-Syll_ə-vartalo_[MDTN-koodit_ə,_yə]
+     намдась+V+TV+Ger: [намда, намдась]
+     намдась+V+TV+GerFin: намдванзь
+     намдась+V+TV+InfImprf+Sg+Nom+Abs: намдва
+     намдась+V+TV+InfImprf+Sg+Acc+Abs: намдвам’
+     намдась+V+TV+InfImprf+Sg+Gen+Abs: намдва’
+     намдась+V+TV+InfImprf+Sg+Dat+Abs: намдван’
+     намдась+V+TV+InfImprf+Sg+Loc+Abs: намдвахана
+     намдась+V+TV+InfImprf+Sg+Abl+Abs: намдвахад
+     намдась+V+TV+InfImprf+Sg+Pros+Abs: намдвавна
+     намдась+V+TV+InfImprf+Du+Nom+Abs: намдваха’
+     намдась+V+TV+InfImprf+Du+Acc+Abs: намдваха’
+     намдась+V+TV+InfImprf+Du+Gen+Abs: намдваха’
+     намдась+V+TV+InfImprf+Pl+Nom+Abs: намдва”
+     намдась+V+TV+InfImprf+Pl+Acc+Abs: намдби
+     намдась+V+TV+InfImprf+Pl+Gen+Abs: намдби”
+     намдась+V+TV+InfImprf+Pl+Dat+Abs: намдваха”
+     намдась+V+TV+InfImprf+Pl+Loc+Abs: намдваха”на
+     намдась+V+TV+InfImprf+Pl+Abl+Abs: намдвахат
+     намдась+V+TV+InfImprf+Pl+Pros+Abs: намдби”мна
+     намдась+V+TV+InfImprf+Sg+Nom+PxSg1: [намдвав, намдвами]
+     намдась+V+TV+InfImprf+Sg+Acc+PxSg1: [намдвав, намдвами]
+     намдась+V+TV+InfImprf+Sg+Gen+PxSg1: [намдван, намдвани]
+     намдась+V+TV+InfImprf+Sg+Dat+PxSg1: [намдвахан, намдвахани]
+     намдась+V+TV+InfImprf+Sg+Loc+PxSg1: [намдваханан, намдваханани]
+     намдась+V+TV+InfImprf+Sg+Abl+PxSg1: [намдвахадан, намдвахадани]
+     намдась+V+TV+InfImprf+Sg+Pros+PxSg1: [намдвавнан, намдвавнани]
+     намдась+V+TV+InfImprf+Du+Nom+PxSg1: [намдвахаюн, намдвахаюни]
+     намдась+V+TV+InfImprf+Du+Acc+PxSg1: [намдвахаюн, намдвахаюни]
+     намдась+V+TV+InfImprf+Du+Gen+PxSg1: [намдвахаюн, намдвахаюни]
+     намдась+V+TV+InfImprf+Pl+Nom+PxSg1: [намдбин, намдбини]
+     намдась+V+TV+InfImprf+Pl+Acc+PxSg1: [намдбин, намдбини]
+     намдась+V+TV+InfImprf+Pl+Gen+PxSg1: [намдби”н, намдби”ни]
+     намдась+V+TV+InfImprf+Pl+Dat+PxSg1: [намдваха”н, намдваха”ни]
+     намдась+V+TV+InfImprf+Pl+Loc+PxSg1: [намдваха”нан, намдваха”нани]
+     намдась+V+TV+InfImprf+Pl+Abl+PxSg1: [намдвахатан, намдвахатани]
+     намдась+V+TV+InfImprf+Pl+Pros+PxSg1: [намдби”мнан, намдби”мнани]
+     намдась+V+TV+InfImprf+Sg+Nom+PxSg2: намдвар
+     намдась+V+TV+InfImprf+Sg+Acc+PxSg2: намдвамд
+     намдась+V+TV+InfImprf+Sg+Gen+PxSg2: намдванд
+     намдась+V+TV+InfImprf+Sg+Dat+PxSg2: намдваханд
+     намдась+V+TV+InfImprf+Sg+Loc+PxSg2: намдвахананд
+     намдась+V+TV+InfImprf+Sg+Abl+PxSg2: намдвахаданд
+     намдась+V+TV+InfImprf+Sg+Pros+PxSg2: намдвавнанд
+     намдась+V+TV+InfImprf+Du+Nom+PxSg2: намдвахаюд
+     намдась+V+TV+InfImprf+Du+Acc+PxSg2: намдвахаюд
+     намдась+V+TV+InfImprf+Du+Gen+PxSg2: намдвахают
+     намдась+V+TV+InfImprf+Pl+Nom+PxSg2: намдбид
+     намдась+V+TV+InfImprf+Pl+Acc+PxSg2: намдбид
+     намдась+V+TV+InfImprf+Pl+Gen+PxSg2: намдбит
+     намдась+V+TV+InfImprf+Pl+Dat+PxSg2: намдвахат
+     намдась+V+TV+InfImprf+Pl+Loc+PxSg2: намдваха”нат
+     намдась+V+TV+InfImprf+Pl+Abl+PxSg2: намдвахатат
+     намдась+V+TV+InfImprf+Pl+Pros+PxSg2: намдби”мнат
+     намдась+V+TV+InfImprf+Sg+Nom+PxSg3: намдвада
+     намдась+V+TV+InfImprf+Sg+Acc+PxSg3: намдвамда
+     намдась+V+TV+InfImprf+Sg+Gen+PxSg3: намдванда
+     намдась+V+TV+InfImprf+Sg+Dat+PxSg3: намдваханда
+     намдась+V+TV+InfImprf+Sg+Loc+PxSg3: намдвахананда
+     намдась+V+TV+InfImprf+Sg+Abl+PxSg3: намдвахаданда
+     намдась+V+TV+InfImprf+Sg+Pros+PxSg3: намдвавнанда
+     намдась+V+TV+InfImprf+Du+Nom+PxSg3: намдвахаюда
+     намдась+V+TV+InfImprf+Du+Acc+PxSg3: намдвахаюда
+     намдась+V+TV+InfImprf+Du+Gen+PxSg3: намдвахаюта
+     намдась+V+TV+InfImprf+Pl+Nom+PxSg3: намдбида
+     намдась+V+TV+InfImprf+Pl+Acc+PxSg3: намдбида
+     намдась+V+TV+InfImprf+Pl+Gen+PxSg3: намдбита
+     намдась+V+TV+InfImprf+Pl+Dat+PxSg3: намдвахата
+     намдась+V+TV+InfImprf+Pl+Loc+PxSg3: намдваха”ната
+     намдась+V+TV+InfImprf+Pl+Abl+PxSg3: намдвахатата
+     намдась+V+TV+InfImprf+Pl+Pros+PxSg3: намдби”мната
+     намдась+V+TV+InfImprf+Sg+Nom+PxDu1: намдвами’
+#     намдась+V+TV+InfImprf+Sg+Nom+PxSg1.2: намдвами
+     намдась+V+TV+InfImprf+Sg+Acc+PxDu1: намдвами’
+#     намдась+V+TV+InfImprf+Sg+Acc+PxSg1.2: намдвами
+     намдась+V+TV+InfImprf+Sg+Gen+PxDu1: намдвани’
+#     намдась+V+TV+InfImprf+Sg+Gen+PxSg1.2: намдвани
+     намдась+V+TV+InfImprf+Sg+Dat+PxDu1: намдвахани’
+#     намдась+V+TV+InfImprf+Sg+Dat+PxSg1.2: намдвахани
+     намдась+V+TV+InfImprf+Sg+Loc+PxDu1: намдваханани’
+#     намдась+V+TV+InfImprf+Sg+Loc+PxSg1.2: намдваханани
+     намдась+V+TV+InfImprf+Sg+Abl+PxDu1: намдвахадани’
+#     намдась+V+TV+InfImprf+Sg+Abl+PxSg1.2: намдвахадани
+     намдась+V+TV+InfImprf+Sg+Pros+PxDu1: намдвавнани’
+#     намдась+V+TV+InfImprf+Sg+Pros+PxSg1.2: намдвавнани
+     намдась+V+TV+InfImprf+Du+Nom+PxDu1: намдвахаюни’
+#     намдась+V+TV+InfImprf+Du+Nom+PxSg1.2: намдвахаюни
+     намдась+V+TV+InfImprf+Du+Acc+PxDu1: намдвахаюни’
+#     намдась+V+TV+InfImprf+Du+Acc+PxSg1.2: намдвахаюни
+     намдась+V+TV+InfImprf+Du+Gen+PxDu1: намдвахаюни’
+#     намдась+V+TV+InfImprf+Du+Gen+PxSg1.2: намдвахаюни
+     намдась+V+TV+InfImprf+Pl+Nom+PxDu1: намдбини’
+#     намдась+V+TV+InfImprf+Pl+Nom+PxSg1.2: намдбини
+     намдась+V+TV+InfImprf+Pl+Acc+PxDu1: намдбини’
+#     намдась+V+TV+InfImprf+Pl+Acc+PxSg1.2: намдбини
+     намдась+V+TV+InfImprf+Pl+Gen+PxDu1: намдби”ни’
+#     намдась+V+TV+InfImprf+Pl+Gen+PxSg1.2: намдби”ни
+     намдась+V+TV+InfImprf+Pl+Dat+PxDu1: намдваха”ни’
+#     намдась+V+TV+InfImprf+Pl+Dat+PxSg1.2: намдваха”ни
+     намдась+V+TV+InfImprf+Pl+Loc+PxDu1: намдваха”нани’
+#     намдась+V+TV+InfImprf+Pl+Loc+PxSg1.2: намдваха”нани
+     намдась+V+TV+InfImprf+Pl+Abl+PxDu1: намдвахатани’
+#     намдась+V+TV+InfImprf+Pl+Abl+PxSg1.2: намдвахатани
+     намдась+V+TV+InfImprf+Pl+Pros+PxDu1: намдби”мнани’
+#     намдась+V+TV+InfImprf+Pl+Pros+PxSg1.2: намдби”мнани
+     намдась+V+TV+InfImprf+Sg+Nom+PxDu2: намдвари’
+     намдась+V+TV+InfImprf+Sg+Acc+PxDu2: намдвамди’
+     намдась+V+TV+InfImprf+Sg+Gen+PxDu2: намдванди’
+     намдась+V+TV+InfImprf+Sg+Dat+PxDu2: намдваханди’
+     намдась+V+TV+InfImprf+Sg+Loc+PxDu2: намдвахананди’
+     намдась+V+TV+InfImprf+Sg+Abl+PxDu2: намдвахаданди’
+     намдась+V+TV+InfImprf+Sg+Pros+PxDu2: намдвавнанди’
+     намдась+V+TV+InfImprf+Du+Nom+PxDu2: намдвахаюди’
+     намдась+V+TV+InfImprf+Du+Acc+PxDu2: намдвахаюди’
+     намдась+V+TV+InfImprf+Du+Gen+PxDu2: намдвахаюти’
+     намдась+V+TV+InfImprf+Pl+Nom+PxDu2: намдбиди’
+     намдась+V+TV+InfImprf+Pl+Acc+PxDu2: намдбиди’
+     намдась+V+TV+InfImprf+Pl+Gen+PxDu2: намдбити’
+     намдась+V+TV+InfImprf+Pl+Dat+PxDu2: намдвахати’
+     намдась+V+TV+InfImprf+Pl+Loc+PxDu2: намдваха”нати’
+     намдась+V+TV+InfImprf+Pl+Abl+PxDu2: намдвахатати’
+     намдась+V+TV+InfImprf+Pl+Pros+PxDu2: намдби”мнати’
+     намдась+V+TV+InfImprf+Sg+Nom+PxDu3: намдвади’
+     намдась+V+TV+InfImprf+Sg+Acc+PxDu3: намдвамди’
+     намдась+V+TV+InfImprf+Sg+Gen+PxDu3: намдванди’
+     намдась+V+TV+InfImprf+Sg+Dat+PxDu3: намдваханди’
+     намдась+V+TV+InfImprf+Sg+Loc+PxDu3: намдвахананди’
+     намдась+V+TV+InfImprf+Sg+Abl+PxDu3: намдвахаданди’
+     намдась+V+TV+InfImprf+Sg+Pros+PxDu3: намдвавнанди’
+     намдась+V+TV+InfImprf+Du+Nom+PxDu3: намдвахаюди’
+     намдась+V+TV+InfImprf+Du+Acc+PxDu3: намдвахаюди’
+     намдась+V+TV+InfImprf+Du+Gen+PxDu3: намдвахаюти’
+     намдась+V+TV+InfImprf+Pl+Nom+PxDu3: намдбиди’
+     намдась+V+TV+InfImprf+Pl+Acc+PxDu3: намдбиди’
+     намдась+V+TV+InfImprf+Pl+Gen+PxDu3: намдбити’
+     намдась+V+TV+InfImprf+Pl+Dat+PxDu3: намдвахати’
+     намдась+V+TV+InfImprf+Pl+Loc+PxDu3: намдваха”нати’
+     намдась+V+TV+InfImprf+Pl+Abl+PxDu3: намдвахатати’
+     намдась+V+TV+InfImprf+Pl+Pros+PxDu3: намдби”мнати’
+     намдась+V+TV+InfImprf+Sg+Nom+PxPl1: намдвава”
+     намдась+V+TV+InfImprf+Sg+Acc+PxPl1: намдвава”
+     намдась+V+TV+InfImprf+Sg+Gen+PxPl1: намдвана”
+     намдась+V+TV+InfImprf+Sg+Dat+PxPl1: намдвахана”
+     намдась+V+TV+InfImprf+Sg+Loc+PxPl1: намдваханана”
+     намдась+V+TV+InfImprf+Sg+Abl+PxPl1: намдвахадана”
+     намдась+V+TV+InfImprf+Sg+Pros+PxPl1: намдвавнана”
+     намдась+V+TV+InfImprf+Du+Nom+PxPl1: намдвахаюна”
+     намдась+V+TV+InfImprf+Du+Acc+PxPl1: намдвахаюна”
+     намдась+V+TV+InfImprf+Du+Gen+PxPl1: намдвахаюна”
+     намдась+V+TV+InfImprf+Pl+Nom+PxPl1: намдбина”
+     намдась+V+TV+InfImprf+Pl+Acc+PxPl1: намдбина”
+     намдась+V+TV+InfImprf+Pl+Gen+PxPl1: намдби”на”
+     намдась+V+TV+InfImprf+Pl+Dat+PxPl1: намдваха”на”
+     намдась+V+TV+InfImprf+Pl+Loc+PxPl1: намдваха”нана”
+     намдась+V+TV+InfImprf+Pl+Abl+PxPl1: намдвахатана”
+     намдась+V+TV+InfImprf+Pl+Pros+PxPl1: намдби”мнана”
+     намдась+V+TV+InfImprf+Sg+Nom+PxPl2: намдвара”
+     намдась+V+TV+InfImprf+Sg+Acc+PxPl2: намдвамда”
+     намдась+V+TV+InfImprf+Sg+Gen+PxPl2: намдванда”
+     намдась+V+TV+InfImprf+Sg+Dat+PxPl2: намдваханда”
+     намдась+V+TV+InfImprf+Sg+Loc+PxPl2: намдвахананда”
+     намдась+V+TV+InfImprf+Sg+Abl+PxPl2: намдвахаданда”
+     намдась+V+TV+InfImprf+Sg+Pros+PxPl2: намдвавнанда”
+     намдась+V+TV+InfImprf+Du+Nom+PxPl2: намдвахаюда”
+     намдась+V+TV+InfImprf+Du+Acc+PxPl2: намдвахаюда”
+     намдась+V+TV+InfImprf+Du+Gen+PxPl2: намдвахаюта”
+     намдась+V+TV+InfImprf+Pl+Nom+PxPl2: намдбида”
+     намдась+V+TV+InfImprf+Pl+Acc+PxPl2: намдбида”
+     намдась+V+TV+InfImprf+Pl+Gen+PxPl2: намдбита”
+     намдась+V+TV+InfImprf+Pl+Dat+PxPl2: намдвахата”
+     намдась+V+TV+InfImprf+Pl+Loc+PxPl2: намдваха”ната”
+     намдась+V+TV+InfImprf+Pl+Abl+PxPl2: намдвахатата”
+     намдась+V+TV+InfImprf+Pl+Pros+PxPl2: намдби”мната”
+     намдась+V+TV+InfImprf+Sg+Nom+PxPl3: намдвадо’
+     намдась+V+TV+InfImprf+Sg+Acc+PxPl3: намдвамдо’
+     намдась+V+TV+InfImprf+Sg+Gen+PxPl3: намдвандо’
+     намдась+V+TV+InfImprf+Sg+Dat+PxPl3: намдвахандо’
+     намдась+V+TV+InfImprf+Sg+Loc+PxPl3: намдваханандо’
+     намдась+V+TV+InfImprf+Sg+Abl+PxPl3: намдвахадандо’
+     намдась+V+TV+InfImprf+Sg+Pros+PxPl3: намдвавнандо’
+     намдась+V+TV+InfImprf+Du+Nom+PxPl3: намдвахаюдо’
+     намдась+V+TV+InfImprf+Du+Acc+PxPl3: намдвахаюдо’
+     намдась+V+TV+InfImprf+Du+Gen+PxPl3: намдвахаюто’
+     намдась+V+TV+InfImprf+Pl+Nom+PxPl3: намдбидо’
+     намдась+V+TV+InfImprf+Pl+Acc+PxPl3: намдбидо’
+     намдась+V+TV+InfImprf+Pl+Gen+PxPl3: намдбито’
+     намдась+V+TV+InfImprf+Pl+Dat+PxPl3: намдвахато’
+     намдась+V+TV+InfImprf+Pl+Loc+PxPl3: намдваха”нато’
+     намдась+V+TV+InfImprf+Pl+Abl+PxPl3: намдвахатато’
+     намдась+V+TV+InfImprf+Pl+Pros+PxPl3: намдби”мнато’
+     намдась+V+TV+InfImprf+Pred+Abs: намдвад
+     намдась+V+TV+InfImprf+Pred+Nom+PxSg1: [намдвадав, намдвадув, намдвадами, намдвадми]
+     намдась+V+TV+InfImprf+Pred+Acc+PxSg1: [намдвадав, намдвадув, намдвадами, намдвадми]
+     намдась+V+TV+InfImprf+Pred+Gen+PxSg1: [намдвадан, намдвадани, намдвадни]
+     намдась+V+TV+InfImprf+Pred+Nom+PxSg2: намдвадар
+     намдась+V+TV+InfImprf+Pred+Acc+PxSg2: намдвадамд
+     намдась+V+TV+InfImprf+Pred+Gen+PxSg2: намдваданд
+     намдась+V+TV+InfImprf+Pred+Nom+PxSg3: [намдвадада, намдвадда]
+     намдась+V+TV+InfImprf+Pred+Acc+PxSg3: намдвадамда
+     намдась+V+TV+InfImprf+Pred+Gen+PxSg3: намдваданда
+     намдась+V+TV+InfImprf+Pred+Nom+PxDu1: [намдвадами’, намдвадми’]
+#     намдась+V+TV+InfImprf+Pred+Nom+PxSg1.2: [намдвадами, намдвадми]
+     намдась+V+TV+InfImprf+Pred+Acc+PxDu1: [намдвадами’, намдвадми’]
+#     намдась+V+TV+InfImprf+Pred+Acc+PxSg1.2: [намдвадами, намдвадми]
+     намдась+V+TV+InfImprf+Pred+Gen+PxDu1: [намдвадани’, намдвадни’]
+#     намдась+V+TV+InfImprf+Pred+Gen+PxSg1.2: [намдвадани, намдвадни]
+     намдась+V+TV+InfImprf+Pred+Nom+PxDu2: [намдвадари’, намдвадри’]
+     намдась+V+TV+InfImprf+Pred+Acc+PxDu2: намдвадамди’
+     намдась+V+TV+InfImprf+Pred+Gen+PxDu2: намдваданди’
+     намдась+V+TV+InfImprf+Pred+Nom+PxDu3: [намдвадади’, намдвадди’]
+     намдась+V+TV+InfImprf+Pred+Acc+PxDu3: намдвадамди’
+     намдась+V+TV+InfImprf+Pred+Gen+PxDu3: намдваданди’
+     намдась+V+TV+InfImprf+Pred+Nom+PxPl1: [намдвадава”, намдвадва”]
+     намдась+V+TV+InfImprf+Pred+Acc+PxPl1: [намдвадава”, намдвадва”]
+     намдась+V+TV+InfImprf+Pred+Gen+PxPl1: [намдвадана”, намдвадна”]
+     намдась+V+TV+InfImprf+Pred+Nom+PxPl2: [намдвадара”, намдвадра”]
+     намдась+V+TV+InfImprf+Pred+Acc+PxPl2: намдвадамда”
+     намдась+V+TV+InfImprf+Pred+Gen+PxPl2: намдваданда”
+     намдась+V+TV+InfImprf+Pred+Nom+PxPl3: [намдвададо’, намдваддо’]
+     намдась+V+TV+InfImprf+Pred+Acc+PxPl3: намдвадамдо’
+     намдась+V+TV+InfImprf+Pred+Gen+PxPl3: намдвадандо’
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Sg1: намдвадм’
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Sg2: намдван
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Sg3: намдва
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Du1: намдвани’
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Du2: намдвади’
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Du3: намдваха’
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Pl1: намдвава”
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Pl2: намдвада”
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Aor+Pl3: намдва”
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Sg1: намдвадамзь
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Sg2: намдванась
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Sg3: намдвась
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Du1: намдванинзь
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Du2: намдвадинзь
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Du3: намдваханзь
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Pl1: намдваваць
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Pl2: намдвадаць
+     намдась+V+TV+InfImprf+Der/Pr+Abs+Prt1+Pl3: намдваць
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg1: намдвав
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg2: намдвар
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg3: намдвада
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu1: намдвами’
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu2: намдвари’
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu3: намдвади’
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl1: намдвава”
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl2: намдвара”
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl3: намдвадо’
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg1: намдвавась
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg2: намдварась
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg3: намдвадась
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu1: намдваминзь
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu2: намдваринзь
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu3: намдвадинзь
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl1: намдваваць
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl2: намдвараць
+     намдась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl3: намдвадонзь
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg1: намдвахаюн
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg2: намдвахаюд
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg3: намдвахаюда
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu1: намдвахаюни’
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu2: намдвахаюди’
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu3: намдвахаюди’
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl1: намдвахаюна”
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl2: намдвахаюда”
+     намдась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl3: намдвахаюдо’
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg1: намдвахаюнась
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg2: намдвахаюдась
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg3: намдвахаюдась
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu1: намдвахаюнинзь
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu2: намдвахаюдинзь
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu3: намдвахаюдинзь
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl1: намдвахаюнаць
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl2: намдвахаюдаць
+     намдась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl3: намдвахаюдонзь
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg1: намдбин
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg2: намдбид
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg3: намдбида
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu1: намдбини’
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu2: намдбиди’
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu3: намдбиди’
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl1: намдбина”
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl2: намдбида”
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl3: намдбидо’
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg1: намдбинась
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg2: намдбидась
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg3: намдбидась
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu1: намдбининзь
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu2: намдбидинзь
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu3: намдбидинзь
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl1: намдбинаць
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl2: намдбидаць
+     намдась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl3: намдбидонзь
+     намдась+V+TV+InfImprf+Tra: намдваӈэ
+     намдась+V+TV+InfImprf+Car: намдваси”
+     намдась+V+TV+InfImprf+Equ: намдвадрем’
+     намдась+V+TV+InfImprf+Equ+lat: намдвадрев’
+     намдась+V+TV+InfPrf+Sg+Nom+Abs: намд”ма
+     намдась+V+TV+InfPrf+Sg+Acc+Abs: намд”мам’
+     намдась+V+TV+InfPrf+Sg+Gen+Abs: намд”ма’
+     намдась+V+TV+InfPrf+Sg+Dat+Abs: намд”ман’
+     намдась+V+TV+InfPrf+Sg+Loc+Abs: намд”махана
+     намдась+V+TV+InfPrf+Sg+Abl+Abs: намд”махад
+     намдась+V+TV+InfPrf+Sg+Pros+Abs: намд”мавна
+     намдась+V+TV+InfPrf+Du+Nom+Abs: намд”маха’
+     намдась+V+TV+InfPrf+Du+Acc+Abs: намд”маха’
+     намдась+V+TV+InfPrf+Du+Gen+Abs: намд”маха’
+     намдась+V+TV+InfPrf+Pl+Nom+Abs: намд”ма”
+     намдась+V+TV+InfPrf+Pl+Acc+Abs: намд”ми
+     намдась+V+TV+InfPrf+Pl+Gen+Abs: намд”ми”
+     намдась+V+TV+InfPrf+Pl+Dat+Abs: намд”маха”
+     намдась+V+TV+InfPrf+Pl+Loc+Abs: намд”маха”на
+     намдась+V+TV+InfPrf+Pl+Abl+Abs: намд”махат
+     намдась+V+TV+InfPrf+Pl+Pros+Abs: намд”ми”мна
+     намдась+V+TV+InfPrf+Sg+Nom+PxSg1: [намд”мав, намд”мами]
+     намдась+V+TV+InfPrf+Sg+Acc+PxSg1: [намд”мав, намд”мами]
+     намдась+V+TV+InfPrf+Sg+Gen+PxSg1: [намд”ман, намд”мани]
+     намдась+V+TV+InfPrf+Sg+Dat+PxSg1: [намд”махан, намд”махани]
+     намдась+V+TV+InfPrf+Sg+Loc+PxSg1: [намд”маханан, намд”маханани]
+     намдась+V+TV+InfPrf+Sg+Abl+PxSg1: [намд”махадан, намд”махадани]
+     намдась+V+TV+InfPrf+Sg+Pros+PxSg1: [намд”мавнан, намд”мавнани]
+     намдась+V+TV+InfPrf+Du+Nom+PxSg1: [намд”махаюн, намд”махаюни]
+     намдась+V+TV+InfPrf+Du+Acc+PxSg1: [намд”махаюн, намд”махаюни]
+     намдась+V+TV+InfPrf+Du+Gen+PxSg1: [намд”махаюн, намд”махаюни]
+     намдась+V+TV+InfPrf+Pl+Nom+PxSg1: [намд”мин, намд”мини]
+     намдась+V+TV+InfPrf+Pl+Acc+PxSg1: [намд”мин, намд”мини]
+     намдась+V+TV+InfPrf+Pl+Gen+PxSg1: [намд”ми”н, намд”ми”ни]
+     намдась+V+TV+InfPrf+Pl+Dat+PxSg1: [намд”маха”н, намд”маха”ни]
+     намдась+V+TV+InfPrf+Pl+Loc+PxSg1: [намд”маха”нан, намд”маха”нани]
+     намдась+V+TV+InfPrf+Pl+Abl+PxSg1: [намд”махатан, намд”махатани]
+     намдась+V+TV+InfPrf+Pl+Pros+PxSg1: [намд”ми”мнан, намд”ми”мнани]
+     намдась+V+TV+InfPrf+Sg+Nom+PxSg2: намд”мар
+     намдась+V+TV+InfPrf+Sg+Acc+PxSg2: намд”мамд
+     намдась+V+TV+InfPrf+Sg+Gen+PxSg2: намд”манд
+     намдась+V+TV+InfPrf+Sg+Dat+PxSg2: намд”маханд
+     намдась+V+TV+InfPrf+Sg+Loc+PxSg2: намд”махананд
+     намдась+V+TV+InfPrf+Sg+Abl+PxSg2: намд”махаданд
+     намдась+V+TV+InfPrf+Sg+Pros+PxSg2: намд”мавнанд
+     намдась+V+TV+InfPrf+Du+Nom+PxSg2: намд”махаюд
+     намдась+V+TV+InfPrf+Du+Acc+PxSg2: намд”махаюд
+     намдась+V+TV+InfPrf+Du+Gen+PxSg2: намд”махают
+     намдась+V+TV+InfPrf+Pl+Nom+PxSg2: намд”мид
+     намдась+V+TV+InfPrf+Pl+Acc+PxSg2: намд”мид
+     намдась+V+TV+InfPrf+Pl+Gen+PxSg2: намд”мит
+     намдась+V+TV+InfPrf+Pl+Dat+PxSg2: намд”махат
+     намдась+V+TV+InfPrf+Pl+Loc+PxSg2: намд”маха”нат
+     намдась+V+TV+InfPrf+Pl+Abl+PxSg2: намд”махатат
+     намдась+V+TV+InfPrf+Pl+Pros+PxSg2: намд”ми”мнат
+     намдась+V+TV+InfPrf+Sg+Nom+PxSg3: намд”мада
+     намдась+V+TV+InfPrf+Sg+Acc+PxSg3: намд”мамда
+     намдась+V+TV+InfPrf+Sg+Gen+PxSg3: намд”манда
+     намдась+V+TV+InfPrf+Sg+Dat+PxSg3: намд”маханда
+     намдась+V+TV+InfPrf+Sg+Loc+PxSg3: намд”махананда
+     намдась+V+TV+InfPrf+Sg+Abl+PxSg3: намд”махаданда
+     намдась+V+TV+InfPrf+Sg+Pros+PxSg3: намд”мавнанда
+     намдась+V+TV+InfPrf+Du+Nom+PxSg3: намд”махаюда
+     намдась+V+TV+InfPrf+Du+Acc+PxSg3: намд”махаюда
+     намдась+V+TV+InfPrf+Du+Gen+PxSg3: намд”махаюта
+     намдась+V+TV+InfPrf+Pl+Nom+PxSg3: намд”мида
+     намдась+V+TV+InfPrf+Pl+Acc+PxSg3: намд”мида
+     намдась+V+TV+InfPrf+Pl+Gen+PxSg3: намд”мита
+     намдась+V+TV+InfPrf+Pl+Dat+PxSg3: намд”махата
+     намдась+V+TV+InfPrf+Pl+Loc+PxSg3: намд”маха”ната
+     намдась+V+TV+InfPrf+Pl+Abl+PxSg3: намд”махатата
+     намдась+V+TV+InfPrf+Pl+Pros+PxSg3: намд”ми”мната
+     намдась+V+TV+InfPrf+Sg+Nom+PxDu1: намд”мами’
+#     намдась+V+TV+InfPrf+Sg+Nom+PxSg1.2: намд”мами
+     намдась+V+TV+InfPrf+Sg+Acc+PxDu1: намд”мами’
+#     намдась+V+TV+InfPrf+Sg+Acc+PxSg1.2: намд”мами
+     намдась+V+TV+InfPrf+Sg+Gen+PxDu1: намд”мани’
+#     намдась+V+TV+InfPrf+Sg+Gen+PxSg1.2: намд”мани
+     намдась+V+TV+InfPrf+Sg+Dat+PxDu1: намд”махани’
+#     намдась+V+TV+InfPrf+Sg+Dat+PxSg1.2: намд”махани
+     намдась+V+TV+InfPrf+Sg+Loc+PxDu1: намд”маханани’
+#     намдась+V+TV+InfPrf+Sg+Loc+PxSg1.2: намд”маханани
+     намдась+V+TV+InfPrf+Sg+Abl+PxDu1: намд”махадани’
+#     намдась+V+TV+InfPrf+Sg+Abl+PxSg1.2: намд”махадани
+     намдась+V+TV+InfPrf+Sg+Pros+PxDu1: намд”мавнани’
+#     намдась+V+TV+InfPrf+Sg+Pros+PxSg1.2: намд”мавнани
+     намдась+V+TV+InfPrf+Du+Nom+PxDu1: намд”махаюни’
+#     намдась+V+TV+InfPrf+Du+Nom+PxSg1.2: намд”махаюни
+     намдась+V+TV+InfPrf+Du+Acc+PxDu1: намд”махаюни’
+#     намдась+V+TV+InfPrf+Du+Acc+PxSg1.2: намд”махаюни
+     намдась+V+TV+InfPrf+Du+Gen+PxDu1: намд”махаюни’
+#     намдась+V+TV+InfPrf+Du+Gen+PxSg1.2: намд”махаюни
+     намдась+V+TV+InfPrf+Pl+Nom+PxDu1: намд”мини’
+#     намдась+V+TV+InfPrf+Pl+Nom+PxSg1.2: намд”мини
+     намдась+V+TV+InfPrf+Pl+Acc+PxDu1: намд”мини’
+#     намдась+V+TV+InfPrf+Pl+Acc+PxSg1.2: намд”мини
+     намдась+V+TV+InfPrf+Pl+Gen+PxDu1: намд”ми”ни’
+#     намдась+V+TV+InfPrf+Pl+Gen+PxSg1.2: намд”ми”ни
+     намдась+V+TV+InfPrf+Pl+Dat+PxDu1: намд”маха”ни’
+#     намдась+V+TV+InfPrf+Pl+Dat+PxSg1.2: намд”маха”ни
+     намдась+V+TV+InfPrf+Pl+Loc+PxDu1: намд”маха”нани’
+#     намдась+V+TV+InfPrf+Pl+Loc+PxSg1.2: намд”маха”нани
+     намдась+V+TV+InfPrf+Pl+Abl+PxDu1: намд”махатани’
+#     намдась+V+TV+InfPrf+Pl+Abl+PxSg1.2: намд”махатани
+     намдась+V+TV+InfPrf+Pl+Pros+PxDu1: намд”ми”мнани’
+#     намдась+V+TV+InfPrf+Pl+Pros+PxSg1.2: намд”ми”мнани
+     намдась+V+TV+InfPrf+Sg+Nom+PxDu2: намд”мари’
+     намдась+V+TV+InfPrf+Sg+Acc+PxDu2: намд”мамди’
+     намдась+V+TV+InfPrf+Sg+Gen+PxDu2: намд”манди’
+     намдась+V+TV+InfPrf+Sg+Dat+PxDu2: намд”маханди’
+     намдась+V+TV+InfPrf+Sg+Loc+PxDu2: намд”махананди’
+     намдась+V+TV+InfPrf+Sg+Abl+PxDu2: намд”махаданди’
+     намдась+V+TV+InfPrf+Sg+Pros+PxDu2: намд”мавнанди’
+     намдась+V+TV+InfPrf+Du+Nom+PxDu2: намд”махаюди’
+     намдась+V+TV+InfPrf+Du+Acc+PxDu2: намд”махаюди’
+     намдась+V+TV+InfPrf+Du+Gen+PxDu2: намд”махаюти’
+     намдась+V+TV+InfPrf+Pl+Nom+PxDu2: намд”миди’
+     намдась+V+TV+InfPrf+Pl+Acc+PxDu2: намд”миди’
+     намдась+V+TV+InfPrf+Pl+Gen+PxDu2: намд”мити’
+     намдась+V+TV+InfPrf+Pl+Dat+PxDu2: намд”махати’
+     намдась+V+TV+InfPrf+Pl+Loc+PxDu2: намд”маха”нати’
+     намдась+V+TV+InfPrf+Pl+Abl+PxDu2: намд”махатати’
+     намдась+V+TV+InfPrf+Pl+Pros+PxDu2: намд”ми”мнати’
+     намдась+V+TV+InfPrf+Sg+Nom+PxDu3: намд”мади’
+     намдась+V+TV+InfPrf+Sg+Acc+PxDu3: намд”мамди’
+     намдась+V+TV+InfPrf+Sg+Gen+PxDu3: намд”манди’
+     намдась+V+TV+InfPrf+Sg+Dat+PxDu3: намд”маханди’
+     намдась+V+TV+InfPrf+Sg+Loc+PxDu3: намд”махананди’
+     намдась+V+TV+InfPrf+Sg+Abl+PxDu3: намд”махаданди’
+     намдась+V+TV+InfPrf+Sg+Pros+PxDu3: намд”мавнанди’
+     намдась+V+TV+InfPrf+Du+Nom+PxDu3: намд”махаюди’
+     намдась+V+TV+InfPrf+Du+Acc+PxDu3: намд”махаюди’
+     намдась+V+TV+InfPrf+Du+Gen+PxDu3: намд”махаюти’
+     намдась+V+TV+InfPrf+Pl+Nom+PxDu3: намд”миди’
+     намдась+V+TV+InfPrf+Pl+Acc+PxDu3: намд”миди’
+     намдась+V+TV+InfPrf+Pl+Gen+PxDu3: намд”мити’
+     намдась+V+TV+InfPrf+Pl+Dat+PxDu3: намд”махати’
+     намдась+V+TV+InfPrf+Pl+Loc+PxDu3: намд”маха”нати’
+     намдась+V+TV+InfPrf+Pl+Abl+PxDu3: намд”махатати’
+     намдась+V+TV+InfPrf+Pl+Pros+PxDu3: намд”ми”мнати’
+     намдась+V+TV+InfPrf+Sg+Nom+PxPl1: намд”мава”
+     намдась+V+TV+InfPrf+Sg+Acc+PxPl1: намд”мава”
+     намдась+V+TV+InfPrf+Sg+Gen+PxPl1: намд”мана”
+     намдась+V+TV+InfPrf+Sg+Dat+PxPl1: намд”махана”
+     намдась+V+TV+InfPrf+Sg+Loc+PxPl1: намд”маханана”
+     намдась+V+TV+InfPrf+Sg+Abl+PxPl1: намд”махадана”
+     намдась+V+TV+InfPrf+Sg+Pros+PxPl1: намд”мавнана”
+     намдась+V+TV+InfPrf+Du+Nom+PxPl1: намд”махаюна”
+     намдась+V+TV+InfPrf+Du+Acc+PxPl1: намд”махаюна”
+     намдась+V+TV+InfPrf+Du+Gen+PxPl1: намд”махаюна”
+     намдась+V+TV+InfPrf+Pl+Nom+PxPl1: намд”мина”
+     намдась+V+TV+InfPrf+Pl+Acc+PxPl1: намд”мина”
+     намдась+V+TV+InfPrf+Pl+Gen+PxPl1: намд”ми”на”
+     намдась+V+TV+InfPrf+Pl+Dat+PxPl1: намд”маха”на”
+     намдась+V+TV+InfPrf+Pl+Loc+PxPl1: намд”маха”нана”
+     намдась+V+TV+InfPrf+Pl+Abl+PxPl1: намд”махатана”
+     намдась+V+TV+InfPrf+Pl+Pros+PxPl1: намд”ми”мнана”
+     намдась+V+TV+InfPrf+Sg+Nom+PxPl2: намд”мара”
+     намдась+V+TV+InfPrf+Sg+Acc+PxPl2: намд”мамда”
+     намдась+V+TV+InfPrf+Sg+Gen+PxPl2: намд”манда”
+     намдась+V+TV+InfPrf+Sg+Dat+PxPl2: намд”маханда”
+     намдась+V+TV+InfPrf+Sg+Loc+PxPl2: намд”махананда”
+     намдась+V+TV+InfPrf+Sg+Abl+PxPl2: намд”махаданда”
+     намдась+V+TV+InfPrf+Sg+Pros+PxPl2: намд”мавнанда”
+     намдась+V+TV+InfPrf+Du+Nom+PxPl2: намд”махаюда”
+     намдась+V+TV+InfPrf+Du+Acc+PxPl2: намд”махаюда”
+     намдась+V+TV+InfPrf+Du+Gen+PxPl2: намд”махаюта”
+     намдась+V+TV+InfPrf+Pl+Nom+PxPl2: намд”мида”
+     намдась+V+TV+InfPrf+Pl+Acc+PxPl2: намд”мида”
+     намдась+V+TV+InfPrf+Pl+Gen+PxPl2: намд”мита”
+     намдась+V+TV+InfPrf+Pl+Dat+PxPl2: намд”махата”
+     намдась+V+TV+InfPrf+Pl+Loc+PxPl2: намд”маха”ната”
+     намдась+V+TV+InfPrf+Pl+Abl+PxPl2: намд”махатата”
+     намдась+V+TV+InfPrf+Pl+Pros+PxPl2: намд”ми”мната”
+     намдась+V+TV+InfPrf+Sg+Nom+PxPl3: намд”мадо’
+     намдась+V+TV+InfPrf+Sg+Acc+PxPl3: намд”мамдо’
+     намдась+V+TV+InfPrf+Sg+Gen+PxPl3: намд”мандо’
+     намдась+V+TV+InfPrf+Sg+Dat+PxPl3: намд”махандо’
+     намдась+V+TV+InfPrf+Sg+Loc+PxPl3: намд”маханандо’
+     намдась+V+TV+InfPrf+Sg+Abl+PxPl3: намд”махадандо’
+     намдась+V+TV+InfPrf+Sg+Pros+PxPl3: намд”мавнандо’
+     намдась+V+TV+InfPrf+Du+Nom+PxPl3: намд”махаюдо’
+     намдась+V+TV+InfPrf+Du+Acc+PxPl3: намд”махаюдо’
+     намдась+V+TV+InfPrf+Du+Gen+PxPl3: намд”махаюто’
+     намдась+V+TV+InfPrf+Pl+Nom+PxPl3: намд”мидо’
+     намдась+V+TV+InfPrf+Pl+Acc+PxPl3: намд”мидо’
+     намдась+V+TV+InfPrf+Pl+Gen+PxPl3: намд”мито’
+     намдась+V+TV+InfPrf+Pl+Dat+PxPl3: намд”махато’
+     намдась+V+TV+InfPrf+Pl+Loc+PxPl3: намд”маха”нато’
+     намдась+V+TV+InfPrf+Pl+Abl+PxPl3: намд”махатато’
+     намдась+V+TV+InfPrf+Pl+Pros+PxPl3: намд”ми”мнато’
+     намдась+V+TV+InfPrf+Pred+Abs: намд”мад
+     намдась+V+TV+InfPrf+Pred+Nom+PxSg1: [намд”мадав, намд”мадув, намд”мадами, намд”мадми]
+     намдась+V+TV+InfPrf+Pred+Acc+PxSg1: [намд”мадав, намд”мадув, намд”мадами, намд”мадми]
+     намдась+V+TV+InfPrf+Pred+Gen+PxSg1: [намд”мадан, намд”мадани, намд”мадни]
+     намдась+V+TV+InfPrf+Pred+Nom+PxSg2: намд”мадар
+     намдась+V+TV+InfPrf+Pred+Acc+PxSg2: намд”мадамд
+     намдась+V+TV+InfPrf+Pred+Gen+PxSg2: намд”маданд
+     намдась+V+TV+InfPrf+Pred+Nom+PxSg3: [намд”мадада, намд”мадда]
+     намдась+V+TV+InfPrf+Pred+Acc+PxSg3: намд”мадамда
+     намдась+V+TV+InfPrf+Pred+Gen+PxSg3: намд”маданда
+     намдась+V+TV+InfPrf+Pred+Nom+PxDu1: [намд”мадами’, намд”мадми’]
+#     намдась+V+TV+InfPrf+Pred+Nom+PxSg1.2: [намд”мадами, намд”мадми]
+     намдась+V+TV+InfPrf+Pred+Acc+PxDu1: [намд”мадами’, намд”мадми’]
+#     намдась+V+TV+InfPrf+Pred+Acc+PxSg1.2: [намд”мадами, намд”мадми]
+     намдась+V+TV+InfPrf+Pred+Gen+PxDu1: [намд”мадани’, намд”мадни’]
+#     намдась+V+TV+InfPrf+Pred+Gen+PxSg1.2: [намд”мадани, намд”мадни]
+     намдась+V+TV+InfPrf+Pred+Nom+PxDu2: [намд”мадари’, намд”мадри’]
+     намдась+V+TV+InfPrf+Pred+Acc+PxDu2: намд”мадамди’
+     намдась+V+TV+InfPrf+Pred+Gen+PxDu2: намд”маданди’
+     намдась+V+TV+InfPrf+Pred+Nom+PxDu3: [намд”мадади’, намд”мадди’]
+     намдась+V+TV+InfPrf+Pred+Acc+PxDu3: намд”мадамди’
+     намдась+V+TV+InfPrf+Pred+Gen+PxDu3: намд”маданди’
+     намдась+V+TV+InfPrf+Pred+Nom+PxPl1: [намд”мадава”, намд”мадва”]
+     намдась+V+TV+InfPrf+Pred+Acc+PxPl1: [намд”мадава”, намд”мадва”]
+     намдась+V+TV+InfPrf+Pred+Gen+PxPl1: [намд”мадана”, намд”мадна”]
+     намдась+V+TV+InfPrf+Pred+Nom+PxPl2: [намд”мадара”, намд”мадра”]
+     намдась+V+TV+InfPrf+Pred+Acc+PxPl2: намд”мадамда”
+     намдась+V+TV+InfPrf+Pred+Gen+PxPl2: намд”маданда”
+     намдась+V+TV+InfPrf+Pred+Nom+PxPl3: [намд”мададо’, намд”маддо’]
+     намдась+V+TV+InfPrf+Pred+Acc+PxPl3: намд”мадамдо’
+     намдась+V+TV+InfPrf+Pred+Gen+PxPl3: намд”мадандо’
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Sg1: намд”мадм’
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Sg2: намд”ман
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Sg3: намд”ма
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Du1: намд”мани’
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Du2: намд”мади’
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Du3: намд”маха’
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Pl1: намд”мава”
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Pl2: намд”мада”
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Aor+Pl3: намд”ма”
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Sg1: намд”мадамзь
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Sg2: намд”манась
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Sg3: намд”мась
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Du1: намд”манинзь
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Du2: намд”мадинзь
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Du3: намд”маханзь
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Pl1: намд”маваць
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Pl2: намд”мадаць
+     намдась+V+TV+InfPrf+Der/Pr+Abs+Prt1+Pl3: намд”маць
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg1: намд”мав
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg2: намд”мар
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg3: намд”мада
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu1: намд”мами’
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu2: намд”мари’
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu3: намд”мади’
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl1: намд”мава”
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl2: намд”мара”
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl3: намд”мадо’
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg1: намд”мавась
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg2: намд”марась
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg3: намд”мадась
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu1: намд”маминзь
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu2: намд”маринзь
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu3: намд”мадинзь
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl1: намд”маваць
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl2: намд”мараць
+     намдась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl3: намд”мадонзь
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg1: намд”махаюн
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg2: намд”махаюд
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg3: намд”махаюда
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu1: намд”махаюни’
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu2: намд”махаюди’
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu3: намд”махаюди’
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl1: намд”махаюна”
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl2: намд”махаюда”
+     намдась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl3: намд”махаюдо’
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg1: намд”махаюнась
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg2: намд”махаюдась
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg3: намд”махаюдась
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu1: намд”махаюнинзь
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu2: намд”махаюдинзь
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu3: намд”махаюдинзь
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl1: намд”махаюнаць
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl2: намд”махаюдаць
+     намдась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl3: намд”махаюдонзь
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg1: намд”мин
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg2: намд”мид
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg3: намд”мида
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu1: намд”мини’
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu2: намд”миди’
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu3: намд”миди’
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl1: намд”мина”
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl2: намд”мида”
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl3: намд”мидо’
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg1: намд”минась
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg2: намд”мидась
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg3: намд”мидась
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu1: намд”мининзь
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu2: намд”мидинзь
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu3: намд”мидинзь
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl1: намд”минаць
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl2: намд”мидаць
+     намдась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl3: намд”мидонзь
+     намдась+V+TV+InfPrf+Tra: намд”маӈэ
+     намдась+V+TV+InfPrf+Car: намд”маси”
+     намдась+V+TV+InfPrf+Equ: намд”мадрем’
+     намдась+V+TV+InfPrf+Equ+lat: намд”мадрев’
+     намдась+V+TV+PrcImprf+Sg+Nom+Abs: [намдана, намдна]
+     намдась+V+TV+PrcImprf+Sg+Acc+Abs: [намданам’, намднам’]
+     намдась+V+TV+PrcImprf+Sg+Gen+Abs: [намдана’, намдна’]
+     намдась+V+TV+PrcImprf+Sg+Dat+Abs: [намданан’, намднан’]
+     намдась+V+TV+PrcImprf+Sg+Loc+Abs: [намданахана, намднахана]
+     намдась+V+TV+PrcImprf+Sg+Abl+Abs: [намданахад, намднахад]
+     намдась+V+TV+PrcImprf+Sg+Pros+Abs: [намданавна, намднавна]
+     намдась+V+TV+PrcImprf+Du+Nom+Abs: [намданаха’, намднаха’]
+     намдась+V+TV+PrcImprf+Du+Acc+Abs: [намданаха’, намднаха’]
+     намдась+V+TV+PrcImprf+Du+Gen+Abs: [намданаха’, намднаха’]
+     намдась+V+TV+PrcImprf+Pl+Nom+Abs: [намдана”, намдна”]
+     намдась+V+TV+PrcImprf+Pl+Acc+Abs: [намдани, намдни]
+     намдась+V+TV+PrcImprf+Pl+Gen+Abs: [намдани”, намдни”]
+     намдась+V+TV+PrcImprf+Pl+Dat+Abs: [намданаха”, намднаха”]
+     намдась+V+TV+PrcImprf+Pl+Loc+Abs: [намданаха”на, намднаха”на]
+     намдась+V+TV+PrcImprf+Pl+Abl+Abs: [намданахат, намднахат]
+     намдась+V+TV+PrcImprf+Pl+Pros+Abs: [намдани”мна, намдни”мна]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxSg1: [намданав, намднав, намданами, намднами]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxSg1: [намданав, намднав, намданами, намднами]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxSg1: [намданан, намднан, намданани, намднани]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxSg1: [намданахан, намднахан, намданахани, намднахани]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxSg1: [намданаханан, намднаханан, намданаханани, намднаханани]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxSg1: [намданахадан, намднахадан, намданахадани, намднахадани]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxSg1: [намданавнан, намднавнан, намданавнани, намднавнани]
+     намдась+V+TV+PrcImprf+Du+Nom+PxSg1: [намданахаюн, намднахаюн, намданахаюни, намднахаюни]
+     намдась+V+TV+PrcImprf+Du+Acc+PxSg1: [намданахаюн, намднахаюн, намданахаюни, намднахаюни]
+     намдась+V+TV+PrcImprf+Du+Gen+PxSg1: [намданахаюн, намднахаюн, намданахаюни, намднахаюни]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxSg1: [намданин, намднин, намданини, намднини]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxSg1: [намданин, намднин, намданини, намднини]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxSg1: [намдани”н, намдни”н, намдани”ни, намдни”ни]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxSg1: [намданаха”н, намднаха”н, намданаха”ни, намднаха”ни]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxSg1: [намданаха”нан, намднаха”нан, намданаха”нани, намднаха”нани]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxSg1: [намданахатан, намднахатан, намданахатани, намднахатани]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxSg1: [намдани”мнан, намдни”мнан, намдани”мнани, намдни”мнани]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxSg2: [намданар, намднар]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxSg2: [намданамд, намднамд]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxSg2: [намдананд, намднанд]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxSg2: [намданаханд, намднаханд]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxSg2: [намданахананд, намднахананд]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxSg2: [намданахаданд, намднахаданд]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxSg2: [намданавнанд, намднавнанд]
+     намдась+V+TV+PrcImprf+Du+Nom+PxSg2: [намданахаюд, намднахаюд]
+     намдась+V+TV+PrcImprf+Du+Acc+PxSg2: [намданахаюд, намднахаюд]
+     намдась+V+TV+PrcImprf+Du+Gen+PxSg2: [намданахают, намднахают]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxSg2: [намданид, намднид]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxSg2: [намданид, намднид]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxSg2: [намданит, намднит]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxSg2: [намданахат, намднахат]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxSg2: [намданаха”нат, намднаха”нат]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxSg2: [намданахатат, намднахатат]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxSg2: [намдани”мнат, намдни”мнат]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxSg3: [намданада, намднада]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxSg3: [намданамда, намднамда]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxSg3: [намдананда, намднанда]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxSg3: [намданаханда, намднаханда]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxSg3: [намданахананда, намднахананда]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxSg3: [намданахаданда, намднахаданда]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxSg3: [намданавнанда, намднавнанда]
+     намдась+V+TV+PrcImprf+Du+Nom+PxSg3: [намданахаюда, намднахаюда]
+     намдась+V+TV+PrcImprf+Du+Acc+PxSg3: [намданахаюда, намднахаюда]
+     намдась+V+TV+PrcImprf+Du+Gen+PxSg3: [намданахаюта, намднахаюта]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxSg3: [намданида, намднида]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxSg3: [намданида, намднида]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxSg3: [намданита, намднита]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxSg3: [намданахата, намднахата]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxSg3: [намданаха”ната, намднаха”ната]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxSg3: [намданахатата, намднахатата]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxSg3: [намдани”мната, намдни”мната]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxDu1: [намданами’, намднами’]
+#     намдась+V+TV+PrcImprf+Sg+Nom+PxSg1.2: [намданами, намднами]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxDu1: [намданами’, намднами’]
+#     намдась+V+TV+PrcImprf+Sg+Acc+PxSg1.2: [намданами, намднами]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxDu1: [намданани’, намднани’]
+#     намдась+V+TV+PrcImprf+Sg+Gen+PxSg1.2: [намданани, намднани]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxDu1: [намданахани’, намднахани’]
+#     намдась+V+TV+PrcImprf+Sg+Dat+PxSg1.2: [намданахани, намднахани]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxDu1: [намданаханани’, намднаханани’]
+#     намдась+V+TV+PrcImprf+Sg+Loc+PxSg1.2: [намданаханани, намднаханани]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxDu1: [намданахадани’, намднахадани’]
+#     намдась+V+TV+PrcImprf+Sg+Abl+PxSg1.2: [намданахадани, намднахадани]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxDu1: [намданавнани’, намднавнани’]
+#     намдась+V+TV+PrcImprf+Sg+Pros+PxSg1.2: [намданавнани, намднавнани]
+     намдась+V+TV+PrcImprf+Du+Nom+PxDu1: [намданахаюни’, намднахаюни’]
+#     намдась+V+TV+PrcImprf+Du+Nom+PxSg1.2: [намданахаюни, намднахаюни]
+     намдась+V+TV+PrcImprf+Du+Acc+PxDu1: [намданахаюни’, намднахаюни’]
+#     намдась+V+TV+PrcImprf+Du+Acc+PxSg1.2: [намданахаюни, намднахаюни]
+     намдась+V+TV+PrcImprf+Du+Gen+PxDu1: [намданахаюни’, намднахаюни’]
+#     намдась+V+TV+PrcImprf+Du+Gen+PxSg1.2: [намданахаюни, намднахаюни]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxDu1: [намданини’, намднини’]
+#     намдась+V+TV+PrcImprf+Pl+Nom+PxSg1.2: [намданини, намднини]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxDu1: [намданини’, намднини’]
+#     намдась+V+TV+PrcImprf+Pl+Acc+PxSg1.2: [намданини, намднини]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxDu1: [намдани”ни’, намдни”ни’]
+#     намдась+V+TV+PrcImprf+Pl+Gen+PxSg1.2: [намдани”ни, намдни”ни]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxDu1: [намданаха”ни’, намднаха”ни’]
+#     намдась+V+TV+PrcImprf+Pl+Dat+PxSg1.2: [намданаха”ни, намднаха”ни]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxDu1: [намданаха”нани’, намднаха”нани’]
+#     намдась+V+TV+PrcImprf+Pl+Loc+PxSg1.2: [намданаха”нани, намднаха”нани]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxDu1: [намданахатани’, намднахатани’]
+#     намдась+V+TV+PrcImprf+Pl+Abl+PxSg1.2: [намданахатани, намднахатани]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxDu1: [намдани”мнани’, намдни”мнани’]
+#     намдась+V+TV+PrcImprf+Pl+Pros+PxSg1.2: [намдани”мнани, намдни”мнани]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxDu2: [намданари’, намднари’]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxDu2: [намданамди’, намднамди’]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxDu2: [намдананди’, намднанди’]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxDu2: [намданаханди’, намднаханди’]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxDu2: [намданахананди’, намднахананди’]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxDu2: [намданахаданди’, намднахаданди’]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxDu2: [намданавнанди’, намднавнанди’]
+     намдась+V+TV+PrcImprf+Du+Nom+PxDu2: [намданахаюди’, намднахаюди’]
+     намдась+V+TV+PrcImprf+Du+Acc+PxDu2: [намданахаюди’, намднахаюди’]
+     намдась+V+TV+PrcImprf+Du+Gen+PxDu2: [намданахаюти’, намднахаюти’]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxDu2: [намданиди’, намдниди’]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxDu2: [намданиди’, намдниди’]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxDu2: [намданити’, намднити’]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxDu2: [намданахати’, намднахати’]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxDu2: [намданаха”нати’, намднаха”нати’]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxDu2: [намданахатати’, намднахатати’]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxDu2: [намдани”мнати’, намдни”мнати’]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxDu3: [намданади’, намднади’]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxDu3: [намданамди’, намднамди’]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxDu3: [намдананди’, намднанди’]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxDu3: [намданаханди’, намднаханди’]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxDu3: [намданахананди’, намднахананди’]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxDu3: [намданахаданди’, намднахаданди’]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxDu3: [намданавнанди’, намднавнанди’]
+     намдась+V+TV+PrcImprf+Du+Nom+PxDu3: [намданахаюди’, намднахаюди’]
+     намдась+V+TV+PrcImprf+Du+Acc+PxDu3: [намданахаюди’, намднахаюди’]
+     намдась+V+TV+PrcImprf+Du+Gen+PxDu3: [намданахаюти’, намднахаюти’]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxDu3: [намданиди’, намдниди’]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxDu3: [намданиди’, намдниди’]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxDu3: [намданити’, намднити’]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxDu3: [намданахати’, намднахати’]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxDu3: [намданаха”нати’, намднаха”нати’]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxDu3: [намданахатати’, намднахатати’]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxDu3: [намдани”мнати’, намдни”мнати’]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxPl1: [намданава”, намднава”]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxPl1: [намданава”, намднава”]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxPl1: [намданана”, намднана”]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxPl1: [намданахана”, намднахана”]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxPl1: [намданаханана”, намднаханана”]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxPl1: [намданахадана”, намднахадана”]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxPl1: [намданавнана”, намднавнана”]
+     намдась+V+TV+PrcImprf+Du+Nom+PxPl1: [намданахаюна”, намднахаюна”]
+     намдась+V+TV+PrcImprf+Du+Acc+PxPl1: [намданахаюна”, намднахаюна”]
+     намдась+V+TV+PrcImprf+Du+Gen+PxPl1: [намданахаюна”, намднахаюна”]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxPl1: [намданина”, намднина”]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxPl1: [намданина”, намднина”]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxPl1: [намдани”на”, намдни”на”]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxPl1: [намданаха”на”, намднаха”на”]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxPl1: [намданаха”нана”, намднаха”нана”]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxPl1: [намданахатана”, намднахатана”]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxPl1: [намдани”мнана”, намдни”мнана”]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxPl2: [намданара”, намднара”]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxPl2: [намданамда”, намднамда”]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxPl2: [намдананда”, намднанда”]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxPl2: [намданаханда”, намднаханда”]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxPl2: [намданахананда”, намднахананда”]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxPl2: [намданахаданда”, намднахаданда”]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxPl2: [намданавнанда”, намднавнанда”]
+     намдась+V+TV+PrcImprf+Du+Nom+PxPl2: [намданахаюда”, намднахаюда”]
+     намдась+V+TV+PrcImprf+Du+Acc+PxPl2: [намданахаюда”, намднахаюда”]
+     намдась+V+TV+PrcImprf+Du+Gen+PxPl2: [намданахаюта”, намднахаюта”]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxPl2: [намданида”, намднида”]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxPl2: [намданида”, намднида”]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxPl2: [намданита”, намднита”]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxPl2: [намданахата”, намднахата”]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxPl2: [намданаха”ната”, намднаха”ната”]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxPl2: [намданахатата”, намднахатата”]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxPl2: [намдани”мната”, намдни”мната”]
+     намдась+V+TV+PrcImprf+Sg+Nom+PxPl3: [намданадо’, намднадо’]
+     намдась+V+TV+PrcImprf+Sg+Acc+PxPl3: [намданамдо’, намднамдо’]
+     намдась+V+TV+PrcImprf+Sg+Gen+PxPl3: [намданандо’, намднандо’]
+     намдась+V+TV+PrcImprf+Sg+Dat+PxPl3: [намданахандо’, намднахандо’]
+     намдась+V+TV+PrcImprf+Sg+Loc+PxPl3: [намданаханандо’, намднаханандо’]
+     намдась+V+TV+PrcImprf+Sg+Abl+PxPl3: [намданахадандо’, намднахадандо’]
+     намдась+V+TV+PrcImprf+Sg+Pros+PxPl3: [намданавнандо’, намднавнандо’]
+     намдась+V+TV+PrcImprf+Du+Nom+PxPl3: [намданахаюдо’, намднахаюдо’]
+     намдась+V+TV+PrcImprf+Du+Acc+PxPl3: [намданахаюдо’, намднахаюдо’]
+     намдась+V+TV+PrcImprf+Du+Gen+PxPl3: [намданахаюто’, намднахаюто’]
+     намдась+V+TV+PrcImprf+Pl+Nom+PxPl3: [намданидо’, намднидо’]
+     намдась+V+TV+PrcImprf+Pl+Acc+PxPl3: [намданидо’, намднидо’]
+     намдась+V+TV+PrcImprf+Pl+Gen+PxPl3: [намданито’, намднито’]
+     намдась+V+TV+PrcImprf+Pl+Dat+PxPl3: [намданахато’, намднахато’]
+     намдась+V+TV+PrcImprf+Pl+Loc+PxPl3: [намданаха”нато’, намднаха”нато’]
+     намдась+V+TV+PrcImprf+Pl+Abl+PxPl3: [намданахатато’, намднахатато’]
+     намдась+V+TV+PrcImprf+Pl+Pros+PxPl3: [намдани”мнато’, намдни”мнато’]
+     намдась+V+TV+PrcImprf+Pred+Abs: [намданад, намднад]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxSg1: [намданадав, намднадав, намданадув, намднадув, намданадами, намданадми, намднадами, намднадми]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxSg1: [намданадав, намднадав, намданадув, намднадув, намданадами, намданадми, намднадами, намднадми]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxSg1: [намданадан, намднадан, намданадани, намданадни, намднадани, намднадни]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxSg2: [намданадар, намднадар]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxSg2: [намданадамд, намднадамд]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxSg2: [намданаданд, намднаданд]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxSg3: [намданадада, намданадда, намднадада, намднадда]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxSg3: [намданадамда, намднадамда]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxSg3: [намданаданда, намднаданда]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxDu1: [намданадами’, намданадми’, намднадами’, намднадми’]
+#     намдась+V+TV+PrcImprf+Pred+Nom+PxSg1.2: [намданадами, намданадми, намднадами, намднадми]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxDu1: [намданадами’, намданадми’, намднадами’, намднадми’]
+#     намдась+V+TV+PrcImprf+Pred+Acc+PxSg1.2: [намданадами, намданадми, намднадами, намднадми]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxDu1: [намданадани’, намданадни’, намднадани’, намднадни’]
+#     намдась+V+TV+PrcImprf+Pred+Gen+PxSg1.2: [намданадани, намданадни, намднадани, намднадни]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxDu2: [намданадари’, намданадри’, намднадари’, намднадри’]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxDu2: [намданадамди’, намднадамди’]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxDu2: [намданаданди’, намднаданди’]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxDu3: [намданадади’, намданадди’, намднадади’, намднадди’]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxDu3: [намданадамди’, намднадамди’]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxDu3: [намданаданди’, намднаданди’]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxPl1: [намданадава”, намданадва”, намднадава”, намднадва”]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxPl1: [намданадава”, намданадва”, намднадава”, намднадва”]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxPl1: [намданадана”, намданадна”, намднадана”, намднадна”]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxPl2: [намданадара”, намданадра”, намднадара”, намднадра”]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxPl2: [намданадамда”, намднадамда”]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxPl2: [намданаданда”, намднаданда”]
+     намдась+V+TV+PrcImprf+Pred+Nom+PxPl3: [намданададо’, намданаддо’, намднададо’, намднаддо’]
+     намдась+V+TV+PrcImprf+Pred+Acc+PxPl3: [намданадамдо’, намднадамдо’]
+     намдась+V+TV+PrcImprf+Pred+Gen+PxPl3: [намданадандо’, намднадандо’]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Sg1: [намданадм’, намднадм’]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Sg2: [намданан, намднан]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Sg3: [намдана, намдна]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Du1: [намданани’, намднани’]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Du2: [намданади’, намднади’]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Du3: [намданаха’, намднаха’]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Pl1: [намданава”, намднава”]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Pl2: [намданада”, намднада”]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Aor+Pl3: [намдана”, намдна”]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Sg1: [намданадамзь, намднадамзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Sg2: [намдананась, намднанась]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Sg3: [намданась, намднась]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Du1: [намдананинзь, намднанинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Du2: [намданадинзь, намднадинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Du3: [намданаханзь, намднаханзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Pl1: [намданаваць, намднаваць]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Pl2: [намданадаць, намднадаць]
+     намдась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+Pl3: [намданаць, намднаць]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg1: [намданав, намднав]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg2: [намданар, намднар]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg3: [намданада, намднада]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu1: [намданами’, намднами’]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu2: [намданари’, намднари’]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu3: [намданади’, намднади’]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl1: [намданава”, намднава”]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl2: [намданара”, намднара”]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl3: [намданадо’, намднадо’]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg1: [намданавась, намднавась]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg2: [намданарась, намднарась]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg3: [намданадась, намднадась]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu1: [намданаминзь, намднаминзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu2: [намданаринзь, намднаринзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu3: [намданадинзь, намднадинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl1: [намданаваць, намднаваць]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl2: [намданараць, намднараць]
+     намдась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl3: [намданадонзь, намднадонзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg1: [намданахаюн, намднахаюн]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg2: [намданахаюд, намднахаюд]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg3: [намданахаюда, намднахаюда]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu1: [намданахаюни’, намднахаюни’]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu2: [намданахаюди’, намднахаюди’]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu3: [намданахаюди’, намднахаюди’]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl1: [намданахаюна”, намднахаюна”]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl2: [намданахаюда”, намднахаюда”]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl3: [намданахаюдо’, намднахаюдо’]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg1: [намданахаюнась, намднахаюнась]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg2: [намданахаюдась, намднахаюдась]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg3: [намданахаюдась, намднахаюдась]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu1: [намданахаюнинзь, намднахаюнинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu2: [намданахаюдинзь, намднахаюдинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu3: [намданахаюдинзь, намднахаюдинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl1: [намданахаюнаць, намднахаюнаць]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl2: [намданахаюдаць, намднахаюдаць]
+     намдась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl3: [намданахаюдонзь, намднахаюдонзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg1: [намданин, намднин]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg2: [намданид, намднид]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg3: [намданида, намднида]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu1: [намданини’, намднини’]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu2: [намданиди’, намдниди’]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu3: [намданиди’, намдниди’]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl1: [намданина”, намднина”]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl2: [намданида”, намднида”]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl3: [намданидо’, намднидо’]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg1: [намданинась, намднинась]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg2: [намданидась, намднидась]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg3: [намданидась, намднидась]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu1: [намданининзь, намднининзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu2: [намданидинзь, намднидинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu3: [намданидинзь, намднидинзь]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl1: [намданинаць, намднинаць]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl2: [намданидаць, намднидаць]
+     намдась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl3: [намданидонзь, намднидонзь]
+     намдась+V+TV+PrcImprf+Tra: [намданаӈэ, намднаӈэ]
+     намдась+V+TV+PrcImprf+Car: [намданаси”, намднаси”]
+     намдась+V+TV+PrcImprf+Equ: [намданадрем’, намднадрем’]
+     намдась+V+TV+PrcImprf+Equ+lat: [намданадрев’, намднадрев’]
+     намдась+V+TV+PrcPrf+Sg+Nom+Abs: намдвы
+     намдась+V+TV+PrcPrf+Sg+Acc+Abs: намдвым’
+     намдась+V+TV+PrcPrf+Sg+Gen+Abs: намдвы’
+     намдась+V+TV+PrcPrf+Sg+Dat+Abs: намдвэн’
+     намдась+V+TV+PrcPrf+Sg+Loc+Abs: намдвэхэна
+     намдась+V+TV+PrcPrf+Sg+Abl+Abs: намдвэхэд
+     намдась+V+TV+PrcPrf+Sg+Pros+Abs: намдвэвна
+     намдась+V+TV+PrcPrf+Du+Nom+Abs: намдвэхэ’
+     намдась+V+TV+PrcPrf+Du+Acc+Abs: намдвэхэ’
+     намдась+V+TV+PrcPrf+Du+Gen+Abs: намдвэхэ’
+     намдась+V+TV+PrcPrf+Pl+Nom+Abs: намдвы”
+     намдась+V+TV+PrcPrf+Pl+Acc+Abs: намдвы
+     намдась+V+TV+PrcPrf+Pl+Gen+Abs: намдвы”
+     намдась+V+TV+PrcPrf+Pl+Dat+Abs: намдвэхэ”
+     намдась+V+TV+PrcPrf+Pl+Loc+Abs: намдвэхэ”на
+     намдась+V+TV+PrcPrf+Pl+Abl+Abs: намдвэхэт
+     намдась+V+TV+PrcPrf+Pl+Pros+Abs: намдвы”мана
+     намдась+V+TV+PrcPrf+Sg+Nom+PxSg1: [намдвэв, намдвэми]
+     намдась+V+TV+PrcPrf+Sg+Acc+PxSg1: [намдвэв, намдвэми]
+     намдась+V+TV+PrcPrf+Sg+Gen+PxSg1: [намдвэн, намдвэни]
+     намдась+V+TV+PrcPrf+Sg+Dat+PxSg1: [намдвэхэн, намдвэхэни]
+     намдась+V+TV+PrcPrf+Sg+Loc+PxSg1: [намдвэхэнан, намдвэхэнани]
+     намдась+V+TV+PrcPrf+Sg+Abl+PxSg1: [намдвэхэдан, намдвэхэдани]
+     намдась+V+TV+PrcPrf+Sg+Pros+PxSg1: [намдвэвнан, намдвэвнани]
+     намдась+V+TV+PrcPrf+Du+Nom+PxSg1: [намдвэхэюн, намдвэхэюни]
+     намдась+V+TV+PrcPrf+Du+Acc+PxSg1: [намдвэхэюн, намдвэхэюни]
+     намдась+V+TV+PrcPrf+Du+Gen+PxSg1: [намдвэхэюн, намдвэхэюни]
+     намдась+V+TV+PrcPrf+Pl+Nom+PxSg1: [намдвын, намдвыни]
+     намдась+V+TV+PrcPrf+Pl+Acc+PxSg1: [намдвын, намдвыни]
+     намдась+V+TV+PrcPrf+Pl+Gen+PxSg1: [намдвы”н, намдвы”ни]
+     намдась+V+TV+PrcPrf+Pl+Dat+PxSg1: [намдвэхэ”н, намдвэхэ”ни]
+     намдась+V+TV+PrcPrf+Pl+Loc+PxSg1: [намдвэхэ”нан, намдвэхэ”нани]
+     намдась+V+TV+PrcPrf+Pl+Abl+PxSg1: [намдвэхэтан, намдвэхэтани]
+     намдась+V+TV+PrcPrf+Pl+Pros+PxSg1: [намдвы”манан, намдвы”манани]
+     намдась+V+TV+PrcPrf+Sg+Nom+PxSg2: намдвэр
+     намдась+V+TV+PrcPrf+Sg+Acc+PxSg2: намдвэмд
+     намдась+V+TV+PrcPrf+Sg+Gen+PxSg2: намдвэнд
+     намдась+V+TV+PrcPrf+Sg+Dat+PxSg2: намдвэхэнд
+     намдась+V+TV+PrcPrf+Sg+Loc+PxSg2: намдвэхэнанд
+     намдась+V+TV+PrcPrf+Sg+Abl+PxSg2: намдвэхэданд
+     намдась+V+TV+PrcPrf+Sg+Pros+PxSg2: намдвэвнанд
+     намдась+V+TV+PrcPrf+Du+Nom+PxSg2: намдвэхэюд
+     намдась+V+TV+PrcPrf+Du+Acc+PxSg2: намдвэхэюд
+     намдась+V+TV+PrcPrf+Du+Gen+PxSg2: намдвэхэют
+     намдась+V+TV+PrcPrf+Pl+Nom+PxSg2: намдвыд
+     намдась+V+TV+PrcPrf+Pl+Acc+PxSg2: намдвыд
+     намдась+V+TV+PrcPrf+Pl+Gen+PxSg2: намдвыт
+     намдась+V+TV+PrcPrf+Pl+Dat+PxSg2: намдвэхэт
+     намдась+V+TV+PrcPrf+Pl+Loc+PxSg2: намдвэхэ”нат
+     намдась+V+TV+PrcPrf+Pl+Abl+PxSg2: намдвэхэтат
+     намдась+V+TV+PrcPrf+Pl+Pros+PxSg2: намдвы”манат
+     намдась+V+TV+PrcPrf+Sg+Nom+PxSg3: намдвэда
+     намдась+V+TV+PrcPrf+Sg+Acc+PxSg3: намдвэмда
+     намдась+V+TV+PrcPrf+Sg+Gen+PxSg3: намдвэнда
+     намдась+V+TV+PrcPrf+Sg+Dat+PxSg3: намдвэхэнда
+     намдась+V+TV+PrcPrf+Sg+Loc+PxSg3: намдвэхэнанда
+     намдась+V+TV+PrcPrf+Sg+Abl+PxSg3: намдвэхэданда
+     намдась+V+TV+PrcPrf+Sg+Pros+PxSg3: намдвэвнанда
+     намдась+V+TV+PrcPrf+Du+Nom+PxSg3: намдвэхэюда
+     намдась+V+TV+PrcPrf+Du+Acc+PxSg3: намдвэхэюда
+     намдась+V+TV+PrcPrf+Du+Gen+PxSg3: намдвэхэюта
+     намдась+V+TV+PrcPrf+Pl+Nom+PxSg3: намдвыда
+     намдась+V+TV+PrcPrf+Pl+Acc+PxSg3: намдвыда
+     намдась+V+TV+PrcPrf+Pl+Gen+PxSg3: намдвыта
+     намдась+V+TV+PrcPrf+Pl+Dat+PxSg3: намдвэхэта
+     намдась+V+TV+PrcPrf+Pl+Loc+PxSg3: намдвэхэ”ната
+     намдась+V+TV+PrcPrf+Pl+Abl+PxSg3: намдвэхэтата
+     намдась+V+TV+PrcPrf+Pl+Pros+PxSg3: намдвы”маната
+     намдась+V+TV+PrcPrf+Sg+Nom+PxDu1: намдвэми’
+#     намдась+V+TV+PrcPrf+Sg+Nom+PxSg1.2: намдвэми
+     намдась+V+TV+PrcPrf+Sg+Acc+PxDu1: намдвэми’
+#     намдась+V+TV+PrcPrf+Sg+Acc+PxSg1.2: намдвэми
+     намдась+V+TV+PrcPrf+Sg+Gen+PxDu1: намдвэни’
+#     намдась+V+TV+PrcPrf+Sg+Gen+PxSg1.2: намдвэни
+     намдась+V+TV+PrcPrf+Sg+Dat+PxDu1: намдвэхэни’
+#     намдась+V+TV+PrcPrf+Sg+Dat+PxSg1.2: намдвэхэни
+     намдась+V+TV+PrcPrf+Sg+Loc+PxDu1: намдвэхэнани’
+#     намдась+V+TV+PrcPrf+Sg+Loc+PxSg1.2: намдвэхэнани
+     намдась+V+TV+PrcPrf+Sg+Abl+PxDu1: намдвэхэдани’
+#     намдась+V+TV+PrcPrf+Sg+Abl+PxSg1.2: намдвэхэдани
+     намдась+V+TV+PrcPrf+Sg+Pros+PxDu1: намдвэвнани’
+#     намдась+V+TV+PrcPrf+Sg+Pros+PxSg1.2: намдвэвнани
+     намдась+V+TV+PrcPrf+Du+Nom+PxDu1: намдвэхэюни’
+#     намдась+V+TV+PrcPrf+Du+Nom+PxSg1.2: намдвэхэюни
+     намдась+V+TV+PrcPrf+Du+Acc+PxDu1: намдвэхэюни’
+#     намдась+V+TV+PrcPrf+Du+Acc+PxSg1.2: намдвэхэюни
+     намдась+V+TV+PrcPrf+Du+Gen+PxDu1: намдвэхэюни’
+#     намдась+V+TV+PrcPrf+Du+Gen+PxSg1.2: намдвэхэюни
+     намдась+V+TV+PrcPrf+Pl+Nom+PxDu1: намдвыни’
+#     намдась+V+TV+PrcPrf+Pl+Nom+PxSg1.2: намдвыни
+     намдась+V+TV+PrcPrf+Pl+Acc+PxDu1: намдвыни’
+#     намдась+V+TV+PrcPrf+Pl+Acc+PxSg1.2: намдвыни
+     намдась+V+TV+PrcPrf+Pl+Gen+PxDu1: намдвы”ни’
+#     намдась+V+TV+PrcPrf+Pl+Gen+PxSg1.2: намдвы”ни
+     намдась+V+TV+PrcPrf+Pl+Dat+PxDu1: намдвэхэ”ни’
+#     намдась+V+TV+PrcPrf+Pl+Dat+PxSg1.2: намдвэхэ”ни
+     намдась+V+TV+PrcPrf+Pl+Loc+PxDu1: намдвэхэ”нани’
+#     намдась+V+TV+PrcPrf+Pl+Loc+PxSg1.2: намдвэхэ”нани
+     намдась+V+TV+PrcPrf+Pl+Abl+PxDu1: намдвэхэтани’
+#     намдась+V+TV+PrcPrf+Pl+Abl+PxSg1.2: намдвэхэтани
+     намдась+V+TV+PrcPrf+Pl+Pros+PxDu1: намдвы”манани’
+#     намдась+V+TV+PrcPrf+Pl+Pros+PxSg1.2: намдвы”манани
+     намдась+V+TV+PrcPrf+Sg+Nom+PxDu2: намдвэри’
+     намдась+V+TV+PrcPrf+Sg+Acc+PxDu2: намдвэмди’
+     намдась+V+TV+PrcPrf+Sg+Gen+PxDu2: намдвэнди’
+     намдась+V+TV+PrcPrf+Sg+Dat+PxDu2: намдвэхэнди’
+     намдась+V+TV+PrcPrf+Sg+Loc+PxDu2: намдвэхэнанди’
+     намдась+V+TV+PrcPrf+Sg+Abl+PxDu2: намдвэхэданди’
+     намдась+V+TV+PrcPrf+Sg+Pros+PxDu2: намдвэвнанди’
+     намдась+V+TV+PrcPrf+Du+Nom+PxDu2: намдвэхэюди’
+     намдась+V+TV+PrcPrf+Du+Acc+PxDu2: намдвэхэюди’
+     намдась+V+TV+PrcPrf+Du+Gen+PxDu2: намдвэхэюти’
+     намдась+V+TV+PrcPrf+Pl+Nom+PxDu2: намдвыди’
+     намдась+V+TV+PrcPrf+Pl+Acc+PxDu2: намдвыди’
+     намдась+V+TV+PrcPrf+Pl+Gen+PxDu2: намдвыти’
+     намдась+V+TV+PrcPrf+Pl+Dat+PxDu2: намдвэхэти’
+     намдась+V+TV+PrcPrf+Pl+Loc+PxDu2: намдвэхэ”нати’
+     намдась+V+TV+PrcPrf+Pl+Abl+PxDu2: намдвэхэтати’
+     намдась+V+TV+PrcPrf+Pl+Pros+PxDu2: намдвы”манати’
+     намдась+V+TV+PrcPrf+Sg+Nom+PxDu3: намдвэди’
+     намдась+V+TV+PrcPrf+Sg+Acc+PxDu3: намдвэмди’
+     намдась+V+TV+PrcPrf+Sg+Gen+PxDu3: намдвэнди’
+     намдась+V+TV+PrcPrf+Sg+Dat+PxDu3: намдвэхэнди’
+     намдась+V+TV+PrcPrf+Sg+Loc+PxDu3: намдвэхэнанди’
+     намдась+V+TV+PrcPrf+Sg+Abl+PxDu3: намдвэхэданди’
+     намдась+V+TV+PrcPrf+Sg+Pros+PxDu3: намдвэвнанди’
+     намдась+V+TV+PrcPrf+Du+Nom+PxDu3: намдвэхэюди’
+     намдась+V+TV+PrcPrf+Du+Acc+PxDu3: намдвэхэюди’
+     намдась+V+TV+PrcPrf+Du+Gen+PxDu3: намдвэхэюти’
+     намдась+V+TV+PrcPrf+Pl+Nom+PxDu3: намдвыди’
+     намдась+V+TV+PrcPrf+Pl+Acc+PxDu3: намдвыди’
+     намдась+V+TV+PrcPrf+Pl+Gen+PxDu3: намдвыти’
+     намдась+V+TV+PrcPrf+Pl+Dat+PxDu3: намдвэхэти’
+     намдась+V+TV+PrcPrf+Pl+Loc+PxDu3: намдвэхэ”нати’
+     намдась+V+TV+PrcPrf+Pl+Abl+PxDu3: намдвэхэтати’
+     намдась+V+TV+PrcPrf+Pl+Pros+PxDu3: намдвы”манати’
+     намдась+V+TV+PrcPrf+Sg+Nom+PxPl1: намдвэва”
+     намдась+V+TV+PrcPrf+Sg+Acc+PxPl1: намдвэва”
+     намдась+V+TV+PrcPrf+Sg+Gen+PxPl1: намдвэна”
+     намдась+V+TV+PrcPrf+Sg+Dat+PxPl1: намдвэхэна”
+     намдась+V+TV+PrcPrf+Sg+Loc+PxPl1: намдвэхэнана”
+     намдась+V+TV+PrcPrf+Sg+Abl+PxPl1: намдвэхэдана”
+     намдась+V+TV+PrcPrf+Sg+Pros+PxPl1: намдвэвнана”
+     намдась+V+TV+PrcPrf+Du+Nom+PxPl1: намдвэхэюна”
+     намдась+V+TV+PrcPrf+Du+Acc+PxPl1: намдвэхэюна”
+     намдась+V+TV+PrcPrf+Du+Gen+PxPl1: намдвэхэюна”
+     намдась+V+TV+PrcPrf+Pl+Nom+PxPl1: намдвына”
+     намдась+V+TV+PrcPrf+Pl+Acc+PxPl1: намдвына”
+     намдась+V+TV+PrcPrf+Pl+Gen+PxPl1: намдвы”на”
+     намдась+V+TV+PrcPrf+Pl+Dat+PxPl1: намдвэхэ”на”
+     намдась+V+TV+PrcPrf+Pl+Loc+PxPl1: намдвэхэ”нана”
+     намдась+V+TV+PrcPrf+Pl+Abl+PxPl1: намдвэхэтана”
+     намдась+V+TV+PrcPrf+Pl+Pros+PxPl1: намдвы”манана”
+     намдась+V+TV+PrcPrf+Sg+Nom+PxPl2: намдвэра”
+     намдась+V+TV+PrcPrf+Sg+Acc+PxPl2: намдвэмда”
+     намдась+V+TV+PrcPrf+Sg+Gen+PxPl2: намдвэнда”
+     намдась+V+TV+PrcPrf+Sg+Dat+PxPl2: намдвэхэнда”
+     намдась+V+TV+PrcPrf+Sg+Loc+PxPl2: намдвэхэнанда”
+     намдась+V+TV+PrcPrf+Sg+Abl+PxPl2: намдвэхэданда”
+     намдась+V+TV+PrcPrf+Sg+Pros+PxPl2: намдвэвнанда”
+     намдась+V+TV+PrcPrf+Du+Nom+PxPl2: намдвэхэюда”
+     намдась+V+TV+PrcPrf+Du+Acc+PxPl2: намдвэхэюда”
+     намдась+V+TV+PrcPrf+Du+Gen+PxPl2: намдвэхэюта”
+     намдась+V+TV+PrcPrf+Pl+Nom+PxPl2: намдвыда”
+     намдась+V+TV+PrcPrf+Pl+Acc+PxPl2: намдвыда”
+     намдась+V+TV+PrcPrf+Pl+Gen+PxPl2: намдвыта”
+     намдась+V+TV+PrcPrf+Pl+Dat+PxPl2: намдвэхэта”
+     намдась+V+TV+PrcPrf+Pl+Loc+PxPl2: намдвэхэ”ната”
+     намдась+V+TV+PrcPrf+Pl+Abl+PxPl2: намдвэхэтата”
+     намдась+V+TV+PrcPrf+Pl+Pros+PxPl2: намдвы”маната”
+     намдась+V+TV+PrcPrf+Sg+Nom+PxPl3: намдвэдо’
+     намдась+V+TV+PrcPrf+Sg+Acc+PxPl3: намдвэмдо’
+     намдась+V+TV+PrcPrf+Sg+Gen+PxPl3: намдвэндо’
+     намдась+V+TV+PrcPrf+Sg+Dat+PxPl3: намдвэхэндо’
+     намдась+V+TV+PrcPrf+Sg+Loc+PxPl3: намдвэхэнандо’
+     намдась+V+TV+PrcPrf+Sg+Abl+PxPl3: намдвэхэдандо’
+     намдась+V+TV+PrcPrf+Sg+Pros+PxPl3: намдвэвнандо’
+     намдась+V+TV+PrcPrf+Du+Nom+PxPl3: намдвэхэюдо’
+     намдась+V+TV+PrcPrf+Du+Acc+PxPl3: намдвэхэюдо’
+     намдась+V+TV+PrcPrf+Du+Gen+PxPl3: намдвэхэюто’
+     намдась+V+TV+PrcPrf+Pl+Nom+PxPl3: намдвыдо’
+     намдась+V+TV+PrcPrf+Pl+Acc+PxPl3: намдвыдо’
+     намдась+V+TV+PrcPrf+Pl+Gen+PxPl3: намдвыто’
+     намдась+V+TV+PrcPrf+Pl+Dat+PxPl3: намдвэхэто’
+     намдась+V+TV+PrcPrf+Pl+Loc+PxPl3: намдвэхэ”нато’
+     намдась+V+TV+PrcPrf+Pl+Abl+PxPl3: намдвэхэтато’
+     намдась+V+TV+PrcPrf+Pl+Pros+PxPl3: намдвы”манато’
+     намдась+V+TV+PrcPrf+Pred+Abs: намдвэд
+     намдась+V+TV+PrcPrf+Pred+Nom+PxSg1: [намдвэдав, намдвэдув, намдвэдами, намдвэдми]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxSg1: [намдвэдав, намдвэдув, намдвэдами, намдвэдми]
+     намдась+V+TV+PrcPrf+Pred+Gen+PxSg1: [намдвэдан, намдвэдани, намдвэдни]
+     намдась+V+TV+PrcPrf+Pred+Nom+PxSg2: намдвэдар
+     намдась+V+TV+PrcPrf+Pred+Acc+PxSg2: намдвэдамд
+     намдась+V+TV+PrcPrf+Pred+Gen+PxSg2: намдвэданд
+     намдась+V+TV+PrcPrf+Pred+Nom+PxSg3: [намдвэдада, намдвэдда]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxSg3: намдвэдамда
+     намдась+V+TV+PrcPrf+Pred+Gen+PxSg3: намдвэданда
+     намдась+V+TV+PrcPrf+Pred+Nom+PxDu1: [намдвэдами’, намдвэдми’]
+#     намдась+V+TV+PrcPrf+Pred+Nom+PxSg1.2: [намдвэдами, намдвэдми]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxDu1: [намдвэдами’, намдвэдми’]
+#     намдась+V+TV+PrcPrf+Pred+Acc+PxSg1.2: [намдвэдами, намдвэдми]
+     намдась+V+TV+PrcPrf+Pred+Gen+PxDu1: [намдвэдани’, намдвэдни’]
+#     намдась+V+TV+PrcPrf+Pred+Gen+PxSg1.2: [намдвэдани, намдвэдни]
+     намдась+V+TV+PrcPrf+Pred+Nom+PxDu2: [намдвэдари’, намдвэдри’]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxDu2: намдвэдамди’
+     намдась+V+TV+PrcPrf+Pred+Gen+PxDu2: намдвэданди’
+     намдась+V+TV+PrcPrf+Pred+Nom+PxDu3: [намдвэдади’, намдвэдди’]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxDu3: намдвэдамди’
+     намдась+V+TV+PrcPrf+Pred+Gen+PxDu3: намдвэданди’
+     намдась+V+TV+PrcPrf+Pred+Nom+PxPl1: [намдвэдава”, намдвэдва”]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxPl1: [намдвэдава”, намдвэдва”]
+     намдась+V+TV+PrcPrf+Pred+Gen+PxPl1: [намдвэдана”, намдвэдна”]
+     намдась+V+TV+PrcPrf+Pred+Nom+PxPl2: [намдвэдара”, намдвэдра”]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxPl2: намдвэдамда”
+     намдась+V+TV+PrcPrf+Pred+Gen+PxPl2: намдвэданда”
+     намдась+V+TV+PrcPrf+Pred+Nom+PxPl3: [намдвэдадо’, намдвэддо’]
+     намдась+V+TV+PrcPrf+Pred+Acc+PxPl3: намдвэдамдо’
+     намдась+V+TV+PrcPrf+Pred+Gen+PxPl3: намдвэдандо’
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Sg1: намдвэдм’
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Sg2: намдвэн
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Sg3: намдвы
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Du1: намдвэни’
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Du2: намдвэди’
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Du3: намдвэхэ’
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Pl1: намдвэва”
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Pl2: намдвэда”
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Aor+Pl3: намдвы”
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Sg1: намдвэдамзь
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Sg2: намдвэнась
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Sg3: [намдвысь, намдвэсь]
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Du1: намдвэнинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Du2: намдвэдинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Du3: намдвэхэнзь
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Pl1: намдвэваць
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Pl2: намдвэдаць
+     намдась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+Pl3: [намдвыць, намдвэць]
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg1: намдвэв
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg2: намдвэр
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg3: намдвэда
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu1: намдвэми’
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu2: намдвэри’
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu3: намдвэди’
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl1: намдвэва”
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl2: намдвэра”
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl3: намдвэдо’
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg1: намдвэвась
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg2: намдвэрась
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg3: намдвэдась
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu1: намдвэминзь
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu2: намдвэринзь
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu3: намдвэдинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl1: намдвэваць
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl2: намдвэраць
+     намдась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl3: намдвэдонзь
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg1: намдвэхэюн
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg2: намдвэхэюд
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg3: намдвэхэюда
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu1: намдвэхэюни’
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu2: намдвэхэюди’
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu3: намдвэхэюди’
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl1: намдвэхэюна”
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl2: намдвэхэюда”
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl3: намдвэхэюдо’
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg1: намдвэхэюнась
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg2: намдвэхэюдась
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg3: намдвэхэюдась
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu1: намдвэхэюнинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu2: намдвэхэюдинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu3: намдвэхэюдинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl1: намдвэхэюнаць
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl2: намдвэхэюдаць
+     намдась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl3: намдвэхэюдонзь
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg1: намдвын
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg2: намдвыд
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg3: намдвыда
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu1: намдвыни’
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu2: намдвыди’
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu3: намдвыди’
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl1: намдвына”
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl2: намдвыда”
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl3: намдвыдо’
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg1: намдвынась
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg2: намдвыдась
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg3: намдвыдась
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu1: намдвынинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu2: намдвыдинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu3: намдвыдинзь
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl1: намдвынаць
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl2: намдвыдаць
+     намдась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl3: намдвыдонзь
+     намдась+V+TV+PrcPrf+Tra: намдвэӈэ
+     намдась+V+TV+PrcPrf+Car: намдвэси”
+     намдась+V+TV+PrcPrf+Equ: намдвэдрем’
+     намдась+V+TV+PrcPrf+Equ+lat: намдвэдрев’
+     намдась+V+TV+PrcFut+Sg+Nom+Abs: [намдавнда, намдувнда]
+     намдась+V+TV+PrcFut+Sg+Acc+Abs: [намдавндам’, намдувндам’]
+     намдась+V+TV+PrcFut+Sg+Gen+Abs: [намдавнда’, намдувнда’]
+     намдась+V+TV+PrcFut+Sg+Dat+Abs: [намдавндан’, намдувндан’]
+     намдась+V+TV+PrcFut+Sg+Loc+Abs: [намдавндахана, намдувндахана]
+     намдась+V+TV+PrcFut+Sg+Abl+Abs: [намдавндахад, намдувндахад]
+     намдась+V+TV+PrcFut+Sg+Pros+Abs: [намдавндавна, намдувндавна]
+     намдась+V+TV+PrcFut+Du+Nom+Abs: [намдавндаха’, намдувндаха’]
+     намдась+V+TV+PrcFut+Du+Acc+Abs: [намдавндаха’, намдувндаха’]
+     намдась+V+TV+PrcFut+Du+Gen+Abs: [намдавндаха’, намдувндаха’]
+     намдась+V+TV+PrcFut+Pl+Nom+Abs: [намдавнда”, намдувнда”]
+     намдась+V+TV+PrcFut+Pl+Acc+Abs: [намдавнди, намдувнди]
+     намдась+V+TV+PrcFut+Pl+Gen+Abs: [намдавнди”, намдувнди”]
+     намдась+V+TV+PrcFut+Pl+Dat+Abs: [намдавндаха”, намдувндаха”]
+     намдась+V+TV+PrcFut+Pl+Loc+Abs: [намдавндаха”на, намдувндаха”на]
+     намдась+V+TV+PrcFut+Pl+Abl+Abs: [намдавндахат, намдувндахат]
+     намдась+V+TV+PrcFut+Pl+Pros+Abs: [намдавнди”мна, намдувнди”мна]
+     намдась+V+TV+PrcFut+Sg+Nom+PxSg1: [намдавндав, намдувндав, намдавндами, намдувндами]
+     намдась+V+TV+PrcFut+Sg+Acc+PxSg1: [намдавндав, намдувндав, намдавндами, намдувндами]
+     намдась+V+TV+PrcFut+Sg+Gen+PxSg1: [намдавндан, намдувндан, намдавндани, намдувндани]
+     намдась+V+TV+PrcFut+Sg+Dat+PxSg1: [намдавндахан, намдувндахан, намдавндахани, намдувндахани]
+     намдась+V+TV+PrcFut+Sg+Loc+PxSg1: [намдавндаханан, намдувндаханан, намдавндаханани, намдувндаханани]
+     намдась+V+TV+PrcFut+Sg+Abl+PxSg1: [намдавндахадан, намдувндахадан, намдавндахадани, намдувндахадани]
+     намдась+V+TV+PrcFut+Sg+Pros+PxSg1: [намдавндавнан, намдувндавнан, намдавндавнани, намдувндавнани]
+     намдась+V+TV+PrcFut+Du+Nom+PxSg1: [намдавндахаюн, намдувндахаюн, намдавндахаюни, намдувндахаюни]
+     намдась+V+TV+PrcFut+Du+Acc+PxSg1: [намдавндахаюн, намдувндахаюн, намдавндахаюни, намдувндахаюни]
+     намдась+V+TV+PrcFut+Du+Gen+PxSg1: [намдавндахаюн, намдувндахаюн, намдавндахаюни, намдувндахаюни]
+     намдась+V+TV+PrcFut+Pl+Nom+PxSg1: [намдавндин, намдувндин, намдавндини, намдувндини]
+     намдась+V+TV+PrcFut+Pl+Acc+PxSg1: [намдавндин, намдувндин, намдавндини, намдувндини]
+     намдась+V+TV+PrcFut+Pl+Gen+PxSg1: [намдавнди”н, намдувнди”н, намдавнди”ни, намдувнди”ни]
+     намдась+V+TV+PrcFut+Pl+Dat+PxSg1: [намдавндаха”н, намдувндаха”н, намдавндаха”ни, намдувндаха”ни]
+     намдась+V+TV+PrcFut+Pl+Loc+PxSg1: [намдавндаха”нан, намдувндаха”нан, намдавндаха”нани, намдувндаха”нани]
+     намдась+V+TV+PrcFut+Pl+Abl+PxSg1: [намдавндахатан, намдувндахатан, намдавндахатани, намдувндахатани]
+     намдась+V+TV+PrcFut+Pl+Pros+PxSg1: [намдавнди”мнан, намдувнди”мнан, намдавнди”мнани, намдувнди”мнани]
+     намдась+V+TV+PrcFut+Sg+Nom+PxSg2: [намдавндар, намдувндар]
+     намдась+V+TV+PrcFut+Sg+Acc+PxSg2: [намдавндамд, намдувндамд]
+     намдась+V+TV+PrcFut+Sg+Gen+PxSg2: [намдавнданд, намдувнданд]
+     намдась+V+TV+PrcFut+Sg+Dat+PxSg2: [намдавндаханд, намдувндаханд]
+     намдась+V+TV+PrcFut+Sg+Loc+PxSg2: [намдавндахананд, намдувндахананд]
+     намдась+V+TV+PrcFut+Sg+Abl+PxSg2: [намдавндахаданд, намдувндахаданд]
+     намдась+V+TV+PrcFut+Sg+Pros+PxSg2: [намдавндавнанд, намдувндавнанд]
+     намдась+V+TV+PrcFut+Du+Nom+PxSg2: [намдавндахаюд, намдувндахаюд]
+     намдась+V+TV+PrcFut+Du+Acc+PxSg2: [намдавндахаюд, намдувндахаюд]
+     намдась+V+TV+PrcFut+Du+Gen+PxSg2: [намдавндахают, намдувндахают]
+     намдась+V+TV+PrcFut+Pl+Nom+PxSg2: [намдавндид, намдувндид]
+     намдась+V+TV+PrcFut+Pl+Acc+PxSg2: [намдавндид, намдувндид]
+     намдась+V+TV+PrcFut+Pl+Gen+PxSg2: [намдавндит, намдувндит]
+     намдась+V+TV+PrcFut+Pl+Dat+PxSg2: [намдавндахат, намдувндахат]
+     намдась+V+TV+PrcFut+Pl+Loc+PxSg2: [намдавндаха”нат, намдувндаха”нат]
+     намдась+V+TV+PrcFut+Pl+Abl+PxSg2: [намдавндахатат, намдувндахатат]
+     намдась+V+TV+PrcFut+Pl+Pros+PxSg2: [намдавнди”мнат, намдувнди”мнат]
+     намдась+V+TV+PrcFut+Sg+Nom+PxSg3: [намдавндада, намдувндада]
+     намдась+V+TV+PrcFut+Sg+Acc+PxSg3: [намдавндамда, намдувндамда]
+     намдась+V+TV+PrcFut+Sg+Gen+PxSg3: [намдавнданда, намдувнданда]
+     намдась+V+TV+PrcFut+Sg+Dat+PxSg3: [намдавндаханда, намдувндаханда]
+     намдась+V+TV+PrcFut+Sg+Loc+PxSg3: [намдавндахананда, намдувндахананда]
+     намдась+V+TV+PrcFut+Sg+Abl+PxSg3: [намдавндахаданда, намдувндахаданда]
+     намдась+V+TV+PrcFut+Sg+Pros+PxSg3: [намдавндавнанда, намдувндавнанда]
+     намдась+V+TV+PrcFut+Du+Nom+PxSg3: [намдавндахаюда, намдувндахаюда]
+     намдась+V+TV+PrcFut+Du+Acc+PxSg3: [намдавндахаюда, намдувндахаюда]
+     намдась+V+TV+PrcFut+Du+Gen+PxSg3: [намдавндахаюта, намдувндахаюта]
+     намдась+V+TV+PrcFut+Pl+Nom+PxSg3: [намдавндида, намдувндида]
+     намдась+V+TV+PrcFut+Pl+Acc+PxSg3: [намдавндида, намдувндида]
+     намдась+V+TV+PrcFut+Pl+Gen+PxSg3: [намдавндита, намдувндита]
+     намдась+V+TV+PrcFut+Pl+Dat+PxSg3: [намдавндахата, намдувндахата]
+     намдась+V+TV+PrcFut+Pl+Loc+PxSg3: [намдавндаха”ната, намдувндаха”ната]
+     намдась+V+TV+PrcFut+Pl+Abl+PxSg3: [намдавндахатата, намдувндахатата]
+     намдась+V+TV+PrcFut+Pl+Pros+PxSg3: [намдавнди”мната, намдувнди”мната]
+     намдась+V+TV+PrcFut+Sg+Nom+PxDu1: [намдавндами’, намдувндами’]
+#     намдась+V+TV+PrcFut+Sg+Nom+PxSg1.2: [намдавндами, намдувндами]
+     намдась+V+TV+PrcFut+Sg+Acc+PxDu1: [намдавндами’, намдувндами’]
+#     намдась+V+TV+PrcFut+Sg+Acc+PxSg1.2: [намдавндами, намдувндами]
+     намдась+V+TV+PrcFut+Sg+Gen+PxDu1: [намдавндани’, намдувндани’]
+#     намдась+V+TV+PrcFut+Sg+Gen+PxSg1.2: [намдавндани, намдувндани]
+     намдась+V+TV+PrcFut+Sg+Dat+PxDu1: [намдавндахани’, намдувндахани’]
+#     намдась+V+TV+PrcFut+Sg+Dat+PxSg1.2: [намдавндахани, намдувндахани]
+     намдась+V+TV+PrcFut+Sg+Loc+PxDu1: [намдавндаханани’, намдувндаханани’]
+#     намдась+V+TV+PrcFut+Sg+Loc+PxSg1.2: [намдавндаханани, намдувндаханани]
+     намдась+V+TV+PrcFut+Sg+Abl+PxDu1: [намдавндахадани’, намдувндахадани’]
+#     намдась+V+TV+PrcFut+Sg+Abl+PxSg1.2: [намдавндахадани, намдувндахадани]
+     намдась+V+TV+PrcFut+Sg+Pros+PxDu1: [намдавндавнани’, намдувндавнани’]
+#     намдась+V+TV+PrcFut+Sg+Pros+PxSg1.2: [намдавндавнани, намдувндавнани]
+     намдась+V+TV+PrcFut+Du+Nom+PxDu1: [намдавндахаюни’, намдувндахаюни’]
+#     намдась+V+TV+PrcFut+Du+Nom+PxSg1.2: [намдавндахаюни, намдувндахаюни]
+     намдась+V+TV+PrcFut+Du+Acc+PxDu1: [намдавндахаюни’, намдувндахаюни’]
+#     намдась+V+TV+PrcFut+Du+Acc+PxSg1.2: [намдавндахаюни, намдувндахаюни]
+     намдась+V+TV+PrcFut+Du+Gen+PxDu1: [намдавндахаюни’, намдувндахаюни’]
+#     намдась+V+TV+PrcFut+Du+Gen+PxSg1.2: [намдавндахаюни, намдувндахаюни]
+     намдась+V+TV+PrcFut+Pl+Nom+PxDu1: [намдавндини’, намдувндини’]
+#     намдась+V+TV+PrcFut+Pl+Nom+PxSg1.2: [намдавндини, намдувндини]
+     намдась+V+TV+PrcFut+Pl+Acc+PxDu1: [намдавндини’, намдувндини’]
+#     намдась+V+TV+PrcFut+Pl+Acc+PxSg1.2: [намдавндини, намдувндини]
+     намдась+V+TV+PrcFut+Pl+Gen+PxDu1: [намдавнди”ни’, намдувнди”ни’]
+#     намдась+V+TV+PrcFut+Pl+Gen+PxSg1.2: [намдавнди”ни, намдувнди”ни]
+     намдась+V+TV+PrcFut+Pl+Dat+PxDu1: [намдавндаха”ни’, намдувндаха”ни’]
+#     намдась+V+TV+PrcFut+Pl+Dat+PxSg1.2: [намдавндаха”ни, намдувндаха”ни]
+     намдась+V+TV+PrcFut+Pl+Loc+PxDu1: [намдавндаха”нани’, намдувндаха”нани’]
+#     намдась+V+TV+PrcFut+Pl+Loc+PxSg1.2: [намдавндаха”нани, намдувндаха”нани]
+     намдась+V+TV+PrcFut+Pl+Abl+PxDu1: [намдавндахатани’, намдувндахатани’]
+#     намдась+V+TV+PrcFut+Pl+Abl+PxSg1.2: [намдавндахатани, намдувндахатани]
+     намдась+V+TV+PrcFut+Pl+Pros+PxDu1: [намдавнди”мнани’, намдувнди”мнани’]
+#     намдась+V+TV+PrcFut+Pl+Pros+PxSg1.2: [намдавнди”мнани, намдувнди”мнани]
+     намдась+V+TV+PrcFut+Sg+Nom+PxDu2: [намдавндари’, намдувндари’]
+     намдась+V+TV+PrcFut+Sg+Acc+PxDu2: [намдавндамди’, намдувндамди’]
+     намдась+V+TV+PrcFut+Sg+Gen+PxDu2: [намдавнданди’, намдувнданди’]
+     намдась+V+TV+PrcFut+Sg+Dat+PxDu2: [намдавндаханди’, намдувндаханди’]
+     намдась+V+TV+PrcFut+Sg+Loc+PxDu2: [намдавндахананди’, намдувндахананди’]
+     намдась+V+TV+PrcFut+Sg+Abl+PxDu2: [намдавндахаданди’, намдувндахаданди’]
+     намдась+V+TV+PrcFut+Sg+Pros+PxDu2: [намдавндавнанди’, намдувндавнанди’]
+     намдась+V+TV+PrcFut+Du+Nom+PxDu2: [намдавндахаюди’, намдувндахаюди’]
+     намдась+V+TV+PrcFut+Du+Acc+PxDu2: [намдавндахаюди’, намдувндахаюди’]
+     намдась+V+TV+PrcFut+Du+Gen+PxDu2: [намдавндахаюти’, намдувндахаюти’]
+     намдась+V+TV+PrcFut+Pl+Nom+PxDu2: [намдавндиди’, намдувндиди’]
+     намдась+V+TV+PrcFut+Pl+Acc+PxDu2: [намдавндиди’, намдувндиди’]
+     намдась+V+TV+PrcFut+Pl+Gen+PxDu2: [намдавндити’, намдувндити’]
+     намдась+V+TV+PrcFut+Pl+Dat+PxDu2: [намдавндахати’, намдувндахати’]
+     намдась+V+TV+PrcFut+Pl+Loc+PxDu2: [намдавндаха”нати’, намдувндаха”нати’]
+     намдась+V+TV+PrcFut+Pl+Abl+PxDu2: [намдавндахатати’, намдувндахатати’]
+     намдась+V+TV+PrcFut+Pl+Pros+PxDu2: [намдавнди”мнати’, намдувнди”мнати’]
+     намдась+V+TV+PrcFut+Sg+Nom+PxDu3: [намдавндади’, намдувндади’]
+     намдась+V+TV+PrcFut+Sg+Acc+PxDu3: [намдавндамди’, намдувндамди’]
+     намдась+V+TV+PrcFut+Sg+Gen+PxDu3: [намдавнданди’, намдувнданди’]
+     намдась+V+TV+PrcFut+Sg+Dat+PxDu3: [намдавндаханди’, намдувндаханди’]
+     намдась+V+TV+PrcFut+Sg+Loc+PxDu3: [намдавндахананди’, намдувндахананди’]
+     намдась+V+TV+PrcFut+Sg+Abl+PxDu3: [намдавндахаданди’, намдувндахаданди’]
+     намдась+V+TV+PrcFut+Sg+Pros+PxDu3: [намдавндавнанди’, намдувндавнанди’]
+     намдась+V+TV+PrcFut+Du+Nom+PxDu3: [намдавндахаюди’, намдувндахаюди’]
+     намдась+V+TV+PrcFut+Du+Acc+PxDu3: [намдавндахаюди’, намдувндахаюди’]
+     намдась+V+TV+PrcFut+Du+Gen+PxDu3: [намдавндахаюти’, намдувндахаюти’]
+     намдась+V+TV+PrcFut+Pl+Nom+PxDu3: [намдавндиди’, намдувндиди’]
+     намдась+V+TV+PrcFut+Pl+Acc+PxDu3: [намдавндиди’, намдувндиди’]
+     намдась+V+TV+PrcFut+Pl+Gen+PxDu3: [намдавндити’, намдувндити’]
+     намдась+V+TV+PrcFut+Pl+Dat+PxDu3: [намдавндахати’, намдувндахати’]
+     намдась+V+TV+PrcFut+Pl+Loc+PxDu3: [намдавндаха”нати’, намдувндаха”нати’]
+     намдась+V+TV+PrcFut+Pl+Abl+PxDu3: [намдавндахатати’, намдувндахатати’]
+     намдась+V+TV+PrcFut+Pl+Pros+PxDu3: [намдавнди”мнати’, намдувнди”мнати’]
+     намдась+V+TV+PrcFut+Sg+Nom+PxPl1: [намдавндава”, намдувндава”]
+     намдась+V+TV+PrcFut+Sg+Acc+PxPl1: [намдавндава”, намдувндава”]
+     намдась+V+TV+PrcFut+Sg+Gen+PxPl1: [намдавндана”, намдувндана”]
+     намдась+V+TV+PrcFut+Sg+Dat+PxPl1: [намдавндахана”, намдувндахана”]
+     намдась+V+TV+PrcFut+Sg+Loc+PxPl1: [намдавндаханана”, намдувндаханана”]
+     намдась+V+TV+PrcFut+Sg+Abl+PxPl1: [намдавндахадана”, намдувндахадана”]
+     намдась+V+TV+PrcFut+Sg+Pros+PxPl1: [намдавндавнана”, намдувндавнана”]
+     намдась+V+TV+PrcFut+Du+Nom+PxPl1: [намдавндахаюна”, намдувндахаюна”]
+     намдась+V+TV+PrcFut+Du+Acc+PxPl1: [намдавндахаюна”, намдувндахаюна”]
+     намдась+V+TV+PrcFut+Du+Gen+PxPl1: [намдавндахаюна”, намдувндахаюна”]
+     намдась+V+TV+PrcFut+Pl+Nom+PxPl1: [намдавндина”, намдувндина”]
+     намдась+V+TV+PrcFut+Pl+Acc+PxPl1: [намдавндина”, намдувндина”]
+     намдась+V+TV+PrcFut+Pl+Gen+PxPl1: [намдавнди”на”, намдувнди”на”]
+     намдась+V+TV+PrcFut+Pl+Dat+PxPl1: [намдавндаха”на”, намдувндаха”на”]
+     намдась+V+TV+PrcFut+Pl+Loc+PxPl1: [намдавндаха”нана”, намдувндаха”нана”]
+     намдась+V+TV+PrcFut+Pl+Abl+PxPl1: [намдавндахатана”, намдувндахатана”]
+     намдась+V+TV+PrcFut+Pl+Pros+PxPl1: [намдавнди”мнана”, намдувнди”мнана”]
+     намдась+V+TV+PrcFut+Sg+Nom+PxPl2: [намдавндара”, намдувндара”]
+     намдась+V+TV+PrcFut+Sg+Acc+PxPl2: [намдавндамда”, намдувндамда”]
+     намдась+V+TV+PrcFut+Sg+Gen+PxPl2: [намдавнданда”, намдувнданда”]
+     намдась+V+TV+PrcFut+Sg+Dat+PxPl2: [намдавндаханда”, намдувндаханда”]
+     намдась+V+TV+PrcFut+Sg+Loc+PxPl2: [намдавндахананда”, намдувндахананда”]
+     намдась+V+TV+PrcFut+Sg+Abl+PxPl2: [намдавндахаданда”, намдувндахаданда”]
+     намдась+V+TV+PrcFut+Sg+Pros+PxPl2: [намдавндавнанда”, намдувндавнанда”]
+     намдась+V+TV+PrcFut+Du+Nom+PxPl2: [намдавндахаюда”, намдувндахаюда”]
+     намдась+V+TV+PrcFut+Du+Acc+PxPl2: [намдавндахаюда”, намдувндахаюда”]
+     намдась+V+TV+PrcFut+Du+Gen+PxPl2: [намдавндахаюта”, намдувндахаюта”]
+     намдась+V+TV+PrcFut+Pl+Nom+PxPl2: [намдавндида”, намдувндида”]
+     намдась+V+TV+PrcFut+Pl+Acc+PxPl2: [намдавндида”, намдувндида”]
+     намдась+V+TV+PrcFut+Pl+Gen+PxPl2: [намдавндита”, намдувндита”]
+     намдась+V+TV+PrcFut+Pl+Dat+PxPl2: [намдавндахата”, намдувндахата”]
+     намдась+V+TV+PrcFut+Pl+Loc+PxPl2: [намдавндаха”ната”, намдувндаха”ната”]
+     намдась+V+TV+PrcFut+Pl+Abl+PxPl2: [намдавндахатата”, намдувндахатата”]
+     намдась+V+TV+PrcFut+Pl+Pros+PxPl2: [намдавнди”мната”, намдувнди”мната”]
+     намдась+V+TV+PrcFut+Sg+Nom+PxPl3: [намдавндадо’, намдувндадо’]
+     намдась+V+TV+PrcFut+Sg+Acc+PxPl3: [намдавндамдо’, намдувндамдо’]
+     намдась+V+TV+PrcFut+Sg+Gen+PxPl3: [намдавндандо’, намдувндандо’]
+     намдась+V+TV+PrcFut+Sg+Dat+PxPl3: [намдавндахандо’, намдувндахандо’]
+     намдась+V+TV+PrcFut+Sg+Loc+PxPl3: [намдавндаханандо’, намдувндаханандо’]
+     намдась+V+TV+PrcFut+Sg+Abl+PxPl3: [намдавндахадандо’, намдувндахадандо’]
+     намдась+V+TV+PrcFut+Sg+Pros+PxPl3: [намдавндавнандо’, намдувндавнандо’]
+     намдась+V+TV+PrcFut+Du+Nom+PxPl3: [намдавндахаюдо’, намдувндахаюдо’]
+     намдась+V+TV+PrcFut+Du+Acc+PxPl3: [намдавндахаюдо’, намдувндахаюдо’]
+     намдась+V+TV+PrcFut+Du+Gen+PxPl3: [намдавндахаюто’, намдувндахаюто’]
+     намдась+V+TV+PrcFut+Pl+Nom+PxPl3: [намдавндидо’, намдувндидо’]
+     намдась+V+TV+PrcFut+Pl+Acc+PxPl3: [намдавндидо’, намдувндидо’]
+     намдась+V+TV+PrcFut+Pl+Gen+PxPl3: [намдавндито’, намдувндито’]
+     намдась+V+TV+PrcFut+Pl+Dat+PxPl3: [намдавндахато’, намдувндахато’]
+     намдась+V+TV+PrcFut+Pl+Loc+PxPl3: [намдавндаха”нато’, намдувндаха”нато’]
+     намдась+V+TV+PrcFut+Pl+Abl+PxPl3: [намдавндахатато’, намдувндахатато’]
+     намдась+V+TV+PrcFut+Pl+Pros+PxPl3: [намдавнди”мнато’, намдувнди”мнато’]
+     намдась+V+TV+PrcFut+Pred+Abs: [намдавндад, намдувндад]
+     намдась+V+TV+PrcFut+Pred+Nom+PxSg1: [намдавндадав, намдувндадав, намдавндадами, намдавндадми, намдувндадами, намдувндадми]
+     намдась+V+TV+PrcFut+Pred+Acc+PxSg1: [намдавндадав, намдувндадав, намдавндадами, намдавндадми, намдувндадами, намдувндадми]
+     намдась+V+TV+PrcFut+Pred+Gen+PxSg1: [намдавндадан, намдувндадан, намдавндадани, намдавндадни, намдувндадани, намдувндадни]
+     намдась+V+TV+PrcFut+Pred+Nom+PxSg2: [намдавндадар, намдувндадар]
+     намдась+V+TV+PrcFut+Pred+Acc+PxSg2: [намдавндадамд, намдувндадамд]
+     намдась+V+TV+PrcFut+Pred+Gen+PxSg2: [намдавндаданд, намдувндаданд]
+     намдась+V+TV+PrcFut+Pred+Nom+PxSg3: [намдавндадада, намдавндадда, намдувндадада, намдувндадда]
+     намдась+V+TV+PrcFut+Pred+Acc+PxSg3: [намдавндадамда, намдувндадамда]
+     намдась+V+TV+PrcFut+Pred+Gen+PxSg3: [намдавндаданда, намдувндаданда]
+     намдась+V+TV+PrcFut+Pred+Nom+PxDu1: [намдавндадами’, намдавндадми’, намдувндадами’, намдувндадми’]
+#     намдась+V+TV+PrcFut+Pred+Nom+PxSg1.2: [намдавндадами, намдавндадми, намдувндадами, намдувндадми]
+     намдась+V+TV+PrcFut+Pred+Acc+PxDu1: [намдавндадами’, намдавндадми’, намдувндадами’, намдувндадми’]
+#     намдась+V+TV+PrcFut+Pred+Acc+PxSg1.2: [намдавндадами, намдавндадми, намдувндадами, намдувндадми]
+     намдась+V+TV+PrcFut+Pred+Gen+PxDu1: [намдавндадани’, намдавндадни’, намдувндадани’, намдувндадни’]
+#     намдась+V+TV+PrcFut+Pred+Gen+PxSg1.2: [намдавндадани, намдавндадни, намдувндадани, намдувндадни]
+     намдась+V+TV+PrcFut+Pred+Nom+PxDu2: [намдавндадари’, намдавндадри’, намдувндадари’, намдувндадри’]
+     намдась+V+TV+PrcFut+Pred+Acc+PxDu2: [намдавндадамди’, намдувндадамди’]
+     намдась+V+TV+PrcFut+Pred+Gen+PxDu2: [намдавндаданди’, намдувндаданди’]
+     намдась+V+TV+PrcFut+Pred+Nom+PxDu3: [намдавндадади’, намдавндадди’, намдувндадади’, намдувндадди’]
+     намдась+V+TV+PrcFut+Pred+Acc+PxDu3: [намдавндадамди’, намдувндадамди’]
+     намдась+V+TV+PrcFut+Pred+Gen+PxDu3: [намдавндаданди’, намдувндаданди’]
+     намдась+V+TV+PrcFut+Pred+Nom+PxPl1: [намдавндадава”, намдавндадва”, намдувндадава”, намдувндадва”]
+     намдась+V+TV+PrcFut+Pred+Acc+PxPl1: [намдавндадава”, намдавндадва”, намдувндадава”, намдувндадва”]
+     намдась+V+TV+PrcFut+Pred+Gen+PxPl1: [намдавндадана”, намдавндадна”, намдувндадана”, намдувндадна”]
+     намдась+V+TV+PrcFut+Pred+Nom+PxPl2: [намдавндадара”, намдавндадра”, намдувндадара”, намдувндадра”]
+     намдась+V+TV+PrcFut+Pred+Acc+PxPl2: [намдавндадамда”, намдувндадамда”]
+     намдась+V+TV+PrcFut+Pred+Gen+PxPl2: [намдавндаданда”, намдувндаданда”]
+     намдась+V+TV+PrcFut+Pred+Nom+PxPl3: [намдавндададо’, намдавндаддо’, намдувндададо’, намдувндаддо’]
+     намдась+V+TV+PrcFut+Pred+Acc+PxPl3: [намдавндадамдо’, намдувндадамдо’]
+     намдась+V+TV+PrcFut+Pred+Gen+PxPl3: [намдавндадандо’, намдувндадандо’]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Sg1: [намдавндадм’, намдувндадм’]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Sg2: [намдавндан, намдувндан]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Sg3: [намдавнда, намдувнда]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Du1: [намдавндани’, намдувндани’]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Du2: [намдавндади’, намдувндади’]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Du3: [намдавндаха’, намдувндаха’]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Pl1: [намдавндава”, намдувндава”]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Pl2: [намдавндада”, намдувндада”]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Aor+Pl3: [намдавнда”, намдувнда”]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Sg1: [намдавндадамзь, намдувндадамзь]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Sg2: [намдавнданась, намдувнданась]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Sg3: [намдавндась, намдувндась]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Du1: [намдавнданинзь, намдувнданинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Du2: [намдавндадинзь, намдувндадинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Du3: [намдавндаханзь, намдувндаханзь]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Pl1: [намдавндаваць, намдувндаваць]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Pl2: [намдавндадаць, намдувндадаць]
+     намдась+V+TV+PrcFut+Der/Pr+Abs+Prt1+Pl3: [намдавндаць, намдувндаць]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg1: [намдавндав, намдувндав]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg2: [намдавндар, намдувндар]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg3: [намдавндада, намдувндада]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu1: [намдавндами’, намдувндами’]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu2: [намдавндари’, намдувндари’]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu3: [намдавндади’, намдувндади’]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl1: [намдавндава”, намдувндава”]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl2: [намдавндара”, намдувндара”]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl3: [намдавндадо’, намдувндадо’]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg1: [намдавндавась, намдувндавась]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg2: [намдавндарась, намдувндарась]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg3: [намдавндадась, намдувндадась]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu1: [намдавндаминзь, намдувндаминзь]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu2: [намдавндаринзь, намдувндаринзь]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu3: [намдавндадинзь, намдувндадинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl1: [намдавндаваць, намдувндаваць]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl2: [намдавндараць, намдувндараць]
+     намдась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl3: [намдавндадонзь, намдувндадонзь]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg1: [намдавндахаюн, намдувндахаюн]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg2: [намдавндахаюд, намдувндахаюд]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg3: [намдавндахаюда, намдувндахаюда]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu1: [намдавндахаюни’, намдувндахаюни’]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu2: [намдавндахаюди’, намдувндахаюди’]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu3: [намдавндахаюди’, намдувндахаюди’]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl1: [намдавндахаюна”, намдувндахаюна”]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl2: [намдавндахаюда”, намдувндахаюда”]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl3: [намдавндахаюдо’, намдувндахаюдо’]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg1: [намдавндахаюнась, намдувндахаюнась]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg2: [намдавндахаюдась, намдувндахаюдась]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg3: [намдавндахаюдась, намдувндахаюдась]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu1: [намдавндахаюнинзь, намдувндахаюнинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu2: [намдавндахаюдинзь, намдувндахаюдинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu3: [намдавндахаюдинзь, намдувндахаюдинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl1: [намдавндахаюнаць, намдувндахаюнаць]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl2: [намдавндахаюдаць, намдувндахаюдаць]
+     намдась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl3: [намдавндахаюдонзь, намдувндахаюдонзь]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg1: [намдавндин, намдувндин]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg2: [намдавндид, намдувндид]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg3: [намдавндида, намдувндида]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu1: [намдавндини’, намдувндини’]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu2: [намдавндиди’, намдувндиди’]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu3: [намдавндиди’, намдувндиди’]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl1: [намдавндина”, намдувндина”]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl2: [намдавндида”, намдувндида”]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl3: [намдавндидо’, намдувндидо’]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg1: [намдавндинась, намдувндинась]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg2: [намдавндидась, намдувндидась]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg3: [намдавндидась, намдувндидась]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu1: [намдавндининзь, намдувндининзь]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu2: [намдавндидинзь, намдувндидинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu3: [намдавндидинзь, намдувндидинзь]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl1: [намдавндинаць, намдувндинаць]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl2: [намдавндидаць, намдувндидаць]
+     намдась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl3: [намдавндидонзь, намдувндидонзь]
+     намдась+V+TV+PrcFut+Tra: [намдавндаӈэ, намдувндаӈэ]
+     намдась+V+TV+PrcFut+Car: [намдавндаси”, намдувндаси”]
+     намдась+V+TV+PrcFut+Equ: [намдавндадрем’, намдувндадрем’]
+     намдась+V+TV+PrcFut+Equ+lat: [намдавндадрев’, намдувндадрев’]
+     намдась+V+TV+PrcNeg+Sg+Nom+Abs: [намдавдавэй, намдувдавэй]
+     намдась+V+TV+PrcNeg+Sg+Acc+Abs: [намдавдавэйм’, намдувдавэйм’]
+     намдась+V+TV+PrcNeg+Sg+Gen+Abs: [намдавдавэй’, намдувдавэй’]
+     намдась+V+TV+PrcNeg+Sg+Dat+Abs: [намдавдавэн’, намдувдавэн’]
+     намдась+V+TV+PrcNeg+Sg+Loc+Abs: [намдавдавэхэна, намдувдавэхэна]
+     намдась+V+TV+PrcNeg+Sg+Abl+Abs: [намдавдавэхэд, намдувдавэхэд]
+     намдась+V+TV+PrcNeg+Sg+Pros+Abs: [намдавдавэвна, намдувдавэвна]
+     намдась+V+TV+PrcNeg+Du+Nom+Abs: [намдавдавэхэ’, намдувдавэхэ’]
+     намдась+V+TV+PrcNeg+Du+Acc+Abs: [намдавдавэхэ’, намдувдавэхэ’]
+     намдась+V+TV+PrcNeg+Du+Gen+Abs: [намдавдавэхэ’, намдувдавэхэ’]
+     намдась+V+TV+PrcNeg+Pl+Nom+Abs: [намдавдавэй”, намдувдавэй”]
+     намдась+V+TV+PrcNeg+Pl+Acc+Abs: [намдавдавэй, намдувдавэй]
+     намдась+V+TV+PrcNeg+Pl+Gen+Abs: [намдавдавэй”, намдувдавэй”]
+     намдась+V+TV+PrcNeg+Pl+Dat+Abs: [намдавдавэхэ”, намдувдавэхэ”]
+     намдась+V+TV+PrcNeg+Pl+Loc+Abs: [намдавдавэхэ”на, намдувдавэхэ”на]
+     намдась+V+TV+PrcNeg+Pl+Abl+Abs: [намдавдавэхэт, намдувдавэхэт]
+     намдась+V+TV+PrcNeg+Pl+Pros+Abs: [намдавдавэй”мана, намдувдавэй”мана]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxSg1: [намдавдавэв, намдувдавэв, намдавдавэми, намдувдавэми]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxSg1: [намдавдавэв, намдувдавэв, намдавдавэми, намдувдавэми]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxSg1: [намдавдавэн, намдувдавэн, намдавдавэни, намдувдавэни]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxSg1: [намдавдавэхэн, намдувдавэхэн, намдавдавэхэни, намдувдавэхэни]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxSg1: [намдавдавэхэнан, намдувдавэхэнан, намдавдавэхэнани, намдувдавэхэнани]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxSg1: [намдавдавэхэдан, намдувдавэхэдан, намдавдавэхэдани, намдавдавэхэдни, намдувдавэхэдани, намдувдавэхэдни]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxSg1: [намдавдавэвнан, намдувдавэвнан, намдавдавэвнани, намдувдавэвнани]
+     намдась+V+TV+PrcNeg+Du+Nom+PxSg1: [намдавдавэхэюн, намдувдавэхэюн, намдавдавэхэюни, намдувдавэхэюни]
+     намдась+V+TV+PrcNeg+Du+Acc+PxSg1: [намдавдавэхэюн, намдувдавэхэюн, намдавдавэхэюни, намдувдавэхэюни]
+     намдась+V+TV+PrcNeg+Du+Gen+PxSg1: [намдавдавэхэюн, намдувдавэхэюн, намдавдавэхэюни, намдувдавэхэюни]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxSg1: [намдавдавэян, намдувдавэян, намдавдавэйни, намдувдавэйни]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxSg1: [намдавдавэян, намдувдавэян, намдавдавэйни, намдувдавэйни]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxSg1: [намдавдавэя”н, намдувдавэя”н, намдавдавэй”ни, намдувдавэй”ни]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxSg1: [намдавдавэхэ”н, намдувдавэхэ”н, намдавдавэхэ”ни, намдувдавэхэ”ни]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxSg1: [намдавдавэхэ”нан, намдувдавэхэ”нан, намдавдавэхэ”нани, намдувдавэхэ”нани]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxSg1: [намдавдавэхэтан, намдувдавэхэтан, намдавдавэхэтани, намдавдавэхэтни, намдувдавэхэтани, намдувдавэхэтни]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxSg1: [намдавдавэй”манан, намдувдавэй”манан, намдавдавэй”манани, намдувдавэй”манани]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxSg2: [намдавдавэр, намдувдавэр]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxSg2: [намдавдавэмд, намдувдавэмд]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxSg2: [намдавдавэнд, намдувдавэнд]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxSg2: [намдавдавэхэнд, намдувдавэхэнд]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxSg2: [намдавдавэхэнанд, намдувдавэхэнанд]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxSg2: [намдавдавэхэданд, намдувдавэхэданд]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxSg2: [намдавдавэвнанд, намдувдавэвнанд]
+     намдась+V+TV+PrcNeg+Du+Nom+PxSg2: [намдавдавэхэюд, намдувдавэхэюд]
+     намдась+V+TV+PrcNeg+Du+Acc+PxSg2: [намдавдавэхэюд, намдувдавэхэюд]
+     намдась+V+TV+PrcNeg+Du+Gen+PxSg2: [намдавдавэхэют, намдувдавэхэют]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxSg2: [намдавдавэяд, намдувдавэяд]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxSg2: [намдавдавэяд, намдувдавэяд]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxSg2: [намдавдавэят, намдувдавэят]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxSg2: [намдавдавэхэт, намдувдавэхэт]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxSg2: [намдавдавэхэ”нат, намдувдавэхэ”нат]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxSg2: [намдавдавэхэтат, намдувдавэхэтат]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxSg2: [намдавдавэй”манат, намдувдавэй”манат]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxSg3: [намдавдавэда, намдувдавэда]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxSg3: [намдавдавэмда, намдувдавэмда]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxSg3: [намдавдавэнда, намдувдавэнда]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxSg3: [намдавдавэхэнда, намдувдавэхэнда]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxSg3: [намдавдавэхэнанда, намдувдавэхэнанда]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxSg3: [намдавдавэхэданда, намдувдавэхэданда]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxSg3: [намдавдавэвнанда, намдувдавэвнанда]
+     намдась+V+TV+PrcNeg+Du+Nom+PxSg3: [намдавдавэхэюда, намдувдавэхэюда]
+     намдась+V+TV+PrcNeg+Du+Acc+PxSg3: [намдавдавэхэюда, намдувдавэхэюда]
+     намдась+V+TV+PrcNeg+Du+Gen+PxSg3: [намдавдавэхэюта, намдувдавэхэюта]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxSg3: [намдавдавэйда, намдувдавэйда]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxSg3: [намдавдавэйда, намдувдавэйда]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxSg3: [намдавдавэйта, намдувдавэйта]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxSg3: [намдавдавэхэта, намдувдавэхэта]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxSg3: [намдавдавэхэ”ната, намдувдавэхэ”ната]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxSg3: [намдавдавэхэтата, намдавдавэхэтта, намдувдавэхэтата, намдувдавэхэтта]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxSg3: [намдавдавэй”маната, намдувдавэй”маната]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxDu1: [намдавдавэми’, намдувдавэми’]
+#     намдась+V+TV+PrcNeg+Sg+Nom+PxSg1.2: [намдавдавэми, намдувдавэми]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxDu1: [намдавдавэми’, намдувдавэми’]
+#     намдась+V+TV+PrcNeg+Sg+Acc+PxSg1.2: [намдавдавэми, намдувдавэми]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxDu1: [намдавдавэни’, намдувдавэни’]
+#     намдась+V+TV+PrcNeg+Sg+Gen+PxSg1.2: [намдавдавэни, намдувдавэни]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxDu1: [намдавдавэхэни’, намдувдавэхэни’]
+#     намдась+V+TV+PrcNeg+Sg+Dat+PxSg1.2: [намдавдавэхэни, намдувдавэхэни]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxDu1: [намдавдавэхэнани’, намдувдавэхэнани’]
+#     намдась+V+TV+PrcNeg+Sg+Loc+PxSg1.2: [намдавдавэхэнани, намдувдавэхэнани]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxDu1: [намдавдавэхэдани’, намдавдавэхэдни’, намдувдавэхэдани’, намдувдавэхэдни’]
+#     намдась+V+TV+PrcNeg+Sg+Abl+PxSg1.2: [намдавдавэхэдани, намдавдавэхэдни, намдувдавэхэдани, намдувдавэхэдни]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxDu1: [намдавдавэвнани’, намдувдавэвнани’]
+#     намдась+V+TV+PrcNeg+Sg+Pros+PxSg1.2: [намдавдавэвнани, намдувдавэвнани]
+     намдась+V+TV+PrcNeg+Du+Nom+PxDu1: [намдавдавэхэюни’, намдувдавэхэюни’]
+#     намдась+V+TV+PrcNeg+Du+Nom+PxSg1.2: [намдавдавэхэюни, намдувдавэхэюни]
+     намдась+V+TV+PrcNeg+Du+Acc+PxDu1: [намдавдавэхэюни’, намдувдавэхэюни’]
+#     намдась+V+TV+PrcNeg+Du+Acc+PxSg1.2: [намдавдавэхэюни, намдувдавэхэюни]
+     намдась+V+TV+PrcNeg+Du+Gen+PxDu1: [намдавдавэхэюни’, намдувдавэхэюни’]
+#     намдась+V+TV+PrcNeg+Du+Gen+PxSg1.2: [намдавдавэхэюни, намдувдавэхэюни]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxDu1: [намдавдавэйни’, намдувдавэйни’]
+#     намдась+V+TV+PrcNeg+Pl+Nom+PxSg1.2: [намдавдавэйни, намдувдавэйни]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxDu1: [намдавдавэйни’, намдувдавэйни’]
+#     намдась+V+TV+PrcNeg+Pl+Acc+PxSg1.2: [намдавдавэйни, намдувдавэйни]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxDu1: [намдавдавэй”ни’, намдувдавэй”ни’]
+#     намдась+V+TV+PrcNeg+Pl+Gen+PxSg1.2: [намдавдавэй”ни, намдувдавэй”ни]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxDu1: [намдавдавэхэ”ни’, намдувдавэхэ”ни’]
+#     намдась+V+TV+PrcNeg+Pl+Dat+PxSg1.2: [намдавдавэхэ”ни, намдувдавэхэ”ни]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxDu1: [намдавдавэхэ”нани’, намдувдавэхэ”нани’]
+#     намдась+V+TV+PrcNeg+Pl+Loc+PxSg1.2: [намдавдавэхэ”нани, намдувдавэхэ”нани]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxDu1: [намдавдавэхэтани’, намдавдавэхэтни’, намдувдавэхэтани’, намдувдавэхэтни’]
+#     намдась+V+TV+PrcNeg+Pl+Abl+PxSg1.2: [намдавдавэхэтани, намдавдавэхэтни, намдувдавэхэтани, намдувдавэхэтни]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxDu1: [намдавдавэй”манани’, намдувдавэй”манани’]
+#     намдась+V+TV+PrcNeg+Pl+Pros+PxSg1.2: [намдавдавэй”манани, намдувдавэй”манани]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxDu2: [намдавдавэри’, намдувдавэри’]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxDu2: [намдавдавэмди’, намдувдавэмди’]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxDu2: [намдавдавэнди’, намдувдавэнди’]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxDu2: [намдавдавэхэнди’, намдувдавэхэнди’]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxDu2: [намдавдавэхэнанди’, намдувдавэхэнанди’]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxDu2: [намдавдавэхэданди’, намдувдавэхэданди’]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxDu2: [намдавдавэвнанди’, намдувдавэвнанди’]
+     намдась+V+TV+PrcNeg+Du+Nom+PxDu2: [намдавдавэхэюди’, намдувдавэхэюди’]
+     намдась+V+TV+PrcNeg+Du+Acc+PxDu2: [намдавдавэхэюди’, намдувдавэхэюди’]
+     намдась+V+TV+PrcNeg+Du+Gen+PxDu2: [намдавдавэхэюти’, намдувдавэхэюти’]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxDu2: [намдавдавэйди’, намдувдавэйди’]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxDu2: [намдавдавэйди’, намдувдавэйди’]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxDu2: [намдавдавэйти’, намдувдавэйти’]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxDu2: [намдавдавэхэти’, намдувдавэхэти’]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxDu2: [намдавдавэхэ”нати’, намдувдавэхэ”нати’]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxDu2: [намдавдавэхэтати’, намдавдавэхэтти’, намдувдавэхэтати’, намдувдавэхэтти’]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxDu2: [намдавдавэй”манати’, намдувдавэй”манати’]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxDu3: [намдавдавэди’, намдувдавэди’]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxDu3: [намдавдавэмди’, намдувдавэмди’]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxDu3: [намдавдавэнди’, намдувдавэнди’]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxDu3: [намдавдавэхэнди’, намдувдавэхэнди’]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxDu3: [намдавдавэхэнанди’, намдувдавэхэнанди’]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxDu3: [намдавдавэхэданди’, намдувдавэхэданди’]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxDu3: [намдавдавэвнанди’, намдувдавэвнанди’]
+     намдась+V+TV+PrcNeg+Du+Nom+PxDu3: [намдавдавэхэюди’, намдувдавэхэюди’]
+     намдась+V+TV+PrcNeg+Du+Acc+PxDu3: [намдавдавэхэюди’, намдувдавэхэюди’]
+     намдась+V+TV+PrcNeg+Du+Gen+PxDu3: [намдавдавэхэюти’, намдувдавэхэюти’]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxDu3: [намдавдавэйди’, намдувдавэйди’]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxDu3: [намдавдавэйди’, намдувдавэйди’]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxDu3: [намдавдавэйти’, намдувдавэйти’]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxDu3: [намдавдавэхэти’, намдувдавэхэти’]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxDu3: [намдавдавэхэ”нати’, намдувдавэхэ”нати’]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxDu3: [намдавдавэхэтати’, намдавдавэхэтти’, намдувдавэхэтати’, намдувдавэхэтти’]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxDu3: [намдавдавэй”манати’, намдувдавэй”манати’]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxPl1: [намдавдавэва”, намдувдавэва”]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxPl1: [намдавдавэва”, намдувдавэва”]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxPl1: [намдавдавэна”, намдувдавэна”]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxPl1: [намдавдавэхэна”, намдувдавэхэна”]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxPl1: [намдавдавэхэнана”, намдувдавэхэнана”]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxPl1: [намдавдавэхэдана”, намдавдавэхэдна”, намдувдавэхэдана”, намдувдавэхэдна”]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxPl1: [намдавдавэвнана”, намдувдавэвнана”]
+     намдась+V+TV+PrcNeg+Du+Nom+PxPl1: [намдавдавэхэюна”, намдувдавэхэюна”]
+     намдась+V+TV+PrcNeg+Du+Acc+PxPl1: [намдавдавэхэюна”, намдувдавэхэюна”]
+     намдась+V+TV+PrcNeg+Du+Gen+PxPl1: [намдавдавэхэюна”, намдувдавэхэюна”]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxPl1: [намдавдавэйна”, намдувдавэйна”]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxPl1: [намдавдавэйна”, намдувдавэйна”]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxPl1: [намдавдавэй”на”, намдувдавэй”на”]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxPl1: [намдавдавэхэ”на”, намдувдавэхэ”на”]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxPl1: [намдавдавэхэ”нана”, намдувдавэхэ”нана”]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxPl1: [намдавдавэхэтана”, намдавдавэхэтна”, намдувдавэхэтана”, намдувдавэхэтна”]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxPl1: [намдавдавэй”манана”, намдувдавэй”манана”]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxPl2: [намдавдавэра”, намдувдавэра”]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxPl2: [намдавдавэмда”, намдувдавэмда”]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxPl2: [намдавдавэнда”, намдувдавэнда”]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxPl2: [намдавдавэхэнда”, намдувдавэхэнда”]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxPl2: [намдавдавэхэнанда”, намдувдавэхэнанда”]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxPl2: [намдавдавэхэданда”, намдувдавэхэданда”]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxPl2: [намдавдавэвнанда”, намдувдавэвнанда”]
+     намдась+V+TV+PrcNeg+Du+Nom+PxPl2: [намдавдавэхэюда”, намдувдавэхэюда”]
+     намдась+V+TV+PrcNeg+Du+Acc+PxPl2: [намдавдавэхэюда”, намдувдавэхэюда”]
+     намдась+V+TV+PrcNeg+Du+Gen+PxPl2: [намдавдавэхэюта”, намдувдавэхэюта”]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxPl2: [намдавдавэйда”, намдувдавэйда”]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxPl2: [намдавдавэйда”, намдувдавэйда”]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxPl2: [намдавдавэйта”, намдувдавэйта”]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxPl2: [намдавдавэхэта”, намдувдавэхэта”]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxPl2: [намдавдавэхэ”ната”, намдувдавэхэ”ната”]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxPl2: [намдавдавэхэтата”, намдавдавэхэтта”, намдувдавэхэтата”, намдувдавэхэтта”]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxPl2: [намдавдавэй”маната”, намдувдавэй”маната”]
+     намдась+V+TV+PrcNeg+Sg+Nom+PxPl3: [намдавдавэдо’, намдувдавэдо’]
+     намдась+V+TV+PrcNeg+Sg+Acc+PxPl3: [намдавдавэмдо’, намдувдавэмдо’]
+     намдась+V+TV+PrcNeg+Sg+Gen+PxPl3: [намдавдавэндо’, намдувдавэндо’]
+     намдась+V+TV+PrcNeg+Sg+Dat+PxPl3: [намдавдавэхэндо’, намдувдавэхэндо’]
+     намдась+V+TV+PrcNeg+Sg+Loc+PxPl3: [намдавдавэхэнандо’, намдувдавэхэнандо’]
+     намдась+V+TV+PrcNeg+Sg+Abl+PxPl3: [намдавдавэхэдандо’, намдувдавэхэдандо’]
+     намдась+V+TV+PrcNeg+Sg+Pros+PxPl3: [намдавдавэвнандо’, намдувдавэвнандо’]
+     намдась+V+TV+PrcNeg+Du+Nom+PxPl3: [намдавдавэхэюдо’, намдувдавэхэюдо’]
+     намдась+V+TV+PrcNeg+Du+Acc+PxPl3: [намдавдавэхэюдо’, намдувдавэхэюдо’]
+     намдась+V+TV+PrcNeg+Du+Gen+PxPl3: [намдавдавэхэюто’, намдувдавэхэюто’]
+     намдась+V+TV+PrcNeg+Pl+Nom+PxPl3: [намдавдавэйдо’, намдувдавэйдо’]
+     намдась+V+TV+PrcNeg+Pl+Acc+PxPl3: [намдавдавэйдо’, намдувдавэйдо’]
+     намдась+V+TV+PrcNeg+Pl+Gen+PxPl3: [намдавдавэйто’, намдувдавэйто’]
+     намдась+V+TV+PrcNeg+Pl+Dat+PxPl3: [намдавдавэхэто’, намдувдавэхэто’]
+     намдась+V+TV+PrcNeg+Pl+Loc+PxPl3: [намдавдавэхэ”нато’, намдувдавэхэ”нато’]
+     намдась+V+TV+PrcNeg+Pl+Abl+PxPl3: [намдавдавэхэтато’, намдавдавэхэтто’, намдувдавэхэтато’, намдувдавэхэтто’]
+     намдась+V+TV+PrcNeg+Pl+Pros+PxPl3: [намдавдавэй”манато’, намдувдавэй”манато’]
+     намдась+V+TV+PrcNeg+Pred+Abs: [намдавдавэд, намдувдавэд]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxSg1: [намдавдавэдав, намдувдавэдав, намдавдавэдами, намдувдавэдами]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxSg1: [намдавдавэдав, намдувдавэдав, намдавдавэдами, намдувдавэдами]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxSg1: [намдавдавэдан, намдувдавэдан, намдавдавэдани, намдувдавэдани]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxSg2: [намдавдавэдар, намдувдавэдар]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxSg2: [намдавдавэдамд, намдувдавэдамд]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxSg2: [намдавдавэданд, намдувдавэданд]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxSg3: [намдавдавэдада, намдувдавэдада]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxSg3: [намдавдавэдамда, намдувдавэдамда]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxSg3: [намдавдавэданда, намдувдавэданда]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxDu1: [намдавдавэдами’, намдувдавэдами’]
+#     намдась+V+TV+PrcNeg+Pred+Nom+PxSg1.2: [намдавдавэдами, намдувдавэдами]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxDu1: [намдавдавэдами’, намдувдавэдами’]
+#     намдась+V+TV+PrcNeg+Pred+Acc+PxSg1.2: [намдавдавэдами, намдувдавэдами]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxDu1: [намдавдавэдани’, намдувдавэдани’]
+#     намдась+V+TV+PrcNeg+Pred+Gen+PxSg1.2: [намдавдавэдани, намдувдавэдани]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxDu2: [намдавдавэдари’, намдувдавэдари’]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxDu2: [намдавдавэдамди’, намдувдавэдамди’]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxDu2: [намдавдавэданди’, намдувдавэданди’]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxDu3: [намдавдавэдади’, намдувдавэдади’]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxDu3: [намдавдавэдамди’, намдувдавэдамди’]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxDu3: [намдавдавэданди’, намдувдавэданди’]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxPl1: [намдавдавэдава”, намдувдавэдава”]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxPl1: [намдавдавэдава”, намдувдавэдава”]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxPl1: [намдавдавэдана”, намдувдавэдана”]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxPl2: [намдавдавэдара”, намдувдавэдара”]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxPl2: [намдавдавэдамда”, намдувдавэдамда”]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxPl2: [намдавдавэданда”, намдувдавэданда”]
+     намдась+V+TV+PrcNeg+Pred+Nom+PxPl3: [намдавдавэдадо’, намдувдавэдадо’]
+     намдась+V+TV+PrcNeg+Pred+Acc+PxPl3: [намдавдавэдамдо’, намдувдавэдамдо’]
+     намдась+V+TV+PrcNeg+Pred+Gen+PxPl3: [намдавдавэдандо’, намдувдавэдандо’]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Sg1: [намдавдавэдм’, намдувдавэдм’]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Sg2: [намдавдавэн, намдувдавэн]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Sg3: [намдавдавэй, намдувдавэй]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Du1: [намдавдавэни’, намдувдавэни’]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Du2: [намдавдавэди’, намдувдавэди’]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Du3: [намдавдавэхэ’, намдувдавэхэ’]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Pl1: [намдавдавэва”, намдувдавэва”]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Pl2: [намдавдавэда”, намдувдавэда”]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Aor+Pl3: [намдавдавэй”, намдувдавэй”]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Sg1: [намдавдавэдамзь, намдувдавэдамзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Sg2: [намдавдавэнась, намдувдавэнась]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Sg3: [намдавдавэясь, намдавдавэсь, намдувдавэясь, намдувдавэсь]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Du1: [намдавдавэнинзь, намдувдавэнинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Du2: [намдавдавэдинзь, намдувдавэдинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Du3: [намдавдавэхэнзь, намдувдавэхэнзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Pl1: [намдавдавэваць, намдувдавэваць]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Pl2: [намдавдавэдаць, намдувдавэдаць]
+     намдась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+Pl3: [намдавдавэяць, намдавдавэць, намдувдавэяць, намдувдавэць]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg1: [намдавдавэв, намдувдавэв]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg2: [намдавдавэр, намдувдавэр]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg3: [намдавдавэда, намдувдавэда]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu1: [намдавдавэми’, намдувдавэми’]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu2: [намдавдавэри’, намдувдавэри’]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu3: [намдавдавэди’, намдувдавэди’]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl1: [намдавдавэва”, намдувдавэва”]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl2: [намдавдавэра”, намдувдавэра”]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl3: [намдавдавэдо’, намдувдавэдо’]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg1: [намдавдавэвась, намдувдавэвась]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg2: [намдавдавэрась, намдувдавэрась]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg3: [намдавдавэдась, намдувдавэдась]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu1: [намдавдавэминзь, намдувдавэминзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu2: [намдавдавэринзь, намдувдавэринзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu3: [намдавдавэдинзь, намдувдавэдинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl1: [намдавдавэваць, намдувдавэваць]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl2: [намдавдавэраць, намдувдавэраць]
+     намдась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl3: [намдавдавэдонзь, намдувдавэдонзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg1: [намдавдавэхэюн, намдувдавэхэюн]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg2: [намдавдавэхэюд, намдувдавэхэюд]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg3: [намдавдавэхэюда, намдувдавэхэюда]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu1: [намдавдавэхэюни’, намдувдавэхэюни’]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu2: [намдавдавэхэюди’, намдувдавэхэюди’]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu3: [намдавдавэхэюди’, намдувдавэхэюди’]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl1: [намдавдавэхэюна”, намдувдавэхэюна”]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl2: [намдавдавэхэюда”, намдувдавэхэюда”]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl3: [намдавдавэхэюдо’, намдувдавэхэюдо’]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg1: [намдавдавэхэюнась, намдувдавэхэюнась]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg2: [намдавдавэхэюдась, намдувдавэхэюдась]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg3: [намдавдавэхэюдась, намдувдавэхэюдась]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu1: [намдавдавэхэюнинзь, намдувдавэхэюнинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu2: [намдавдавэхэюдинзь, намдувдавэхэюдинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu3: [намдавдавэхэюдинзь, намдувдавэхэюдинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl1: [намдавдавэхэюнаць, намдувдавэхэюнаць]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl2: [намдавдавэхэюдаць, намдувдавэхэюдаць]
+     намдась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl3: [намдавдавэхэюдонзь, намдувдавэхэюдонзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg1: [намдавдавэян, намдувдавэян]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg2: [намдавдавэяд, намдувдавэяд]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg3: [намдавдавэйда, намдувдавэйда]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu1: [намдавдавэйни’, намдувдавэйни’]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu2: [намдавдавэйди’, намдувдавэйди’]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu3: [намдавдавэйди’, намдувдавэйди’]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl1: [намдавдавэйна”, намдувдавэйна”]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl2: [намдавдавэйда”, намдувдавэйда”]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl3: [намдавдавэйдо’, намдувдавэйдо’]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg1: [намдавдавэйнась, намдувдавэйнась]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg2: [намдавдавэйдась, намдувдавэйдась]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg3: [намдавдавэйдась, намдувдавэйдась]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu1: [намдавдавэйнинзь, намдувдавэйнинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu2: [намдавдавэйдинзь, намдувдавэйдинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu3: [намдавдавэйдинзь, намдувдавэйдинзь]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl1: [намдавдавэйнаць, намдувдавэйнаць]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl2: [намдавдавэйдаць, намдувдавэйдаць]
+     намдась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl3: [намдавдавэйдонзь, намдувдавэйдонзь]
+     намдась+V+TV+PrcNeg+Tra: [намдавдавэӈэ, намдувдавэӈэ]
+     намдась+V+TV+PrcNeg+Car: [намдавдавэси”, намдувдавэси”]
+     намдась+V+TV+PrcNeg+Equ: [намдавдавэдарем’, намдувдавэдарем’]
+     намдась+V+TV+PrcNeg+Equ+lat: [намдавдавэдарев’, намдувдавэдарев’]
+     намдась+V+TV+ConNeg: намд”
+     намдась+V+TV+Fut+ConNeg: [намдаӈгу”, намдӈгу”]
+     намдась+V+TV+Hab+ConNeg: [намдсяту”, намдсету”]
+     намдась+V+TV+Subord/бˮ1+Abs: намдаб”
+     намдась+V+TV+Subord/бˮ1+PxSg1: [намдба”н, намдаб”ни, намдба”ни]
+     намдась+V+TV+Subord/бˮ1+PxSg2: намдбат
+     намдась+V+TV+Subord/бˮ1+PxSg3: [намдабта, намдбата]
+     намдась+V+TV+Subord/бˮ1+PxDu1: [намдаб”ни’, намдба”ни’]
+#     намдась+V+TV+Subord/бˮ1+PxSg1.2: [намдаб”ни, намдба”ни]
+     намдась+V+TV+Subord/бˮ1+PxDu2: [намдабти’, намдбати’]
+     намдась+V+TV+Subord/бˮ1+PxDu3: [намдабти’, намдбати’]
+     намдась+V+TV+Subord/бˮ1+PxPl1: [намдаб”на”, намдба”на”]
+     намдась+V+TV+Subord/бˮ1+PxPl2: [намдабта”, намдбата”]
+     намдась+V+TV+Subord/бˮ1+PxPl3: [намдабто’, намдбато’]
+     намдась+V+TV+Subord/бˮна2+PxSg1: [намдаб”нан, намдба”нан, намдаб”нани, намдба”нани]
+     намдась+V+TV+Subord/бˮна2+PxSg2: [намдаб”нанд, намдба”нанд]
+     намдась+V+TV+Subord/бˮна2+PxSg3: [намдаб”нанда, намдба”нанда]
+     намдась+V+TV+Subord/бˮна2+PxDu1: [намдаб”нани’, намдба”нани’]
+#     намдась+V+TV+Subord/бˮна2+PxSg1.2: [намдаб”нани, намдба”нани]
+     намдась+V+TV+Subord/бˮна2+PxDu2: [намдаб”нанди’, намдба”нанди’]
+     намдась+V+TV+Subord/бˮна2+PxDu3: [намдаб”нанди’, намдба”нанди’]
+     намдась+V+TV+Subord/бˮна2+PxPl1: [намдаб”нана”, намдба”нана”]
+     намдась+V+TV+Subord/бˮна2+PxPl2: [намдаб”нанда”, намдба”нанда”]
+     намдась+V+TV+Subord/бˮна2+PxPl3: [намдаб”нандо’, намдба”нандо’]
+     намдась+V+TV+Fut+Subord/бˮ1+Abs: [намдаӈгоб”, намдӈгоб”]
+     намдась+V+TV+Fut+Subord/бˮ1+PxSg1: [намдаӈгоба”н, намдӈгоба”н, намдаӈгоб”ни, намдӈгоб”ни]
+     намдась+V+TV+Fut+Subord/бˮ1+PxSg2: [намдаӈгобат, намдӈгобат]
+     намдась+V+TV+Fut+Subord/бˮ1+PxSg3: [намдаӈгобта, намдӈгобта]
+     намдась+V+TV+Fut+Subord/бˮ1+PxDu1: [намдаӈгоб”ни’, намдӈгоб”ни’]
+#     намдась+V+TV+Fut+Subord/бˮ1+PxSg1.2: [намдаӈгоб”ни, намдӈгоб”ни]
+     намдась+V+TV+Fut+Subord/бˮ1+PxDu2: [намдаӈгобти’, намдӈгобти’]
+     намдась+V+TV+Fut+Subord/бˮ1+PxDu3: [намдаӈгобти’, намдӈгобти’]
+     намдась+V+TV+Fut+Subord/бˮ1+PxPl1: [намдаӈгоб”на”, намдӈгоб”на”]
+     намдась+V+TV+Fut+Subord/бˮ1+PxPl2: [намдаӈгобта”, намдӈгобта”]
+     намдась+V+TV+Fut+Subord/бˮ1+PxPl3: [намдаӈгобто’, намдӈгобто’]
+     намдась+V+TV+Fut+Subord/бˮна2+PxSg1: [намдаӈгоб”нан, намдӈгоб”нан, намдаӈгоб”нани, намдӈгоб”нани]
+     намдась+V+TV+Fut+Subord/бˮна2+PxSg2: [намдаӈгоб”нанд, намдӈгоб”нанд]
+     намдась+V+TV+Fut+Subord/бˮна2+PxSg3: [намдаӈгоб”нанда, намдӈгоб”нанда]
+     намдась+V+TV+Fut+Subord/бˮна2+PxDu1: [намдаӈгоб”нани’, намдӈгоб”нани’]
+#     намдась+V+TV+Fut+Subord/бˮна2+PxSg1.2: [намдаӈгоб”нани, намдӈгоб”нани]
+     намдась+V+TV+Fut+Subord/бˮна2+PxDu2: [намдаӈгоб”нанди’, намдӈгоб”нанди’]
+     намдась+V+TV+Fut+Subord/бˮна2+PxDu3: [намдаӈгоб”нанди’, намдӈгоб”нанди’]
+     намдась+V+TV+Fut+Subord/бˮна2+PxPl1: [намдаӈгоб”нана”, намдӈгоб”нана”]
+     намдась+V+TV+Fut+Subord/бˮна2+PxPl2: [намдаӈгоб”нанда”, намдӈгоб”нанда”]
+     намдась+V+TV+Fut+Subord/бˮна2+PxPl3: [намдаӈгоб”нандо’, намдӈгоб”нандо’]
+     намдась+V+TV+Evas+Abs: намдвоӈгад
+     намдась+V+TV+Evas+PxSg1: [намдвоӈгадан, намдвоӈгдан, намдвоӈгадани, намдвоӈгдани]
+     намдась+V+TV+Evas+PxSg2: [намдвоӈгаданд, намдвоӈгданд]
+     намдась+V+TV+Evas+PxSg3: [намдвоӈгаданда, намдвоӈгданда]
+     намдась+V+TV+Evas+PxDu1: [намдвоӈгадани’, намдвоӈгдани’]
+#     намдась+V+TV+Evas+PxSg1.2: [намдвоӈгадани, намдвоӈгдани]
+     намдась+V+TV+Evas+PxDu2: [намдвоӈгаданди’, намдвоӈгданди’]
+     намдась+V+TV+Evas+PxDu3: [намдвоӈгаданди’, намдвоӈгданди’]
+     намдась+V+TV+Evas+PxPl1: [намдвоӈгадана”, намдвоӈгдана”]
+     намдась+V+TV+Evas+PxPl2: [намдвоӈгаданда”, намдвоӈгданда”]
+     намдась+V+TV+Evas+PxPl3: [намдвоӈгадандо’, намдвоӈгдандо’]
+     намдась+V+TV+Aud+Aor+PxSg1: [намдвон, намдванон]
+     намдась+V+TV+Aud+Aor+PxSg2: [намдвонд, намдванонд]
+     намдась+V+TV+Aud+Aor+PxSg3: [намдвонда, намдванонда]
+     намдась+V+TV+Aud+Aor+PxDu1: [намдвони’, намдванони’]
+     намдась+V+TV+Aud+Aor+PxDu2: [намдвонди’, намдванонди’]
+     намдась+V+TV+Aud+Aor+PxDu3: [намдвонди’, намдванонди’]
+     намдась+V+TV+Aud+Aor+PxPl1: [намдвона”, намдванона”]
+     намдась+V+TV+Aud+Aor+PxPl2: [намдвонда”, намдванонда”]
+     намдась+V+TV+Aud+Aor+PxPl3: [намдвондо’, намдванондо’]
+     намдась+V+TV+Aud+Prt1+PxSg1: [намдвонась, намдванонась]
+     намдась+V+TV+Aud+Prt1+PxSg2: [намдвондась, намдванондась]
+     намдась+V+TV+Aud+Prt1+PxSg3: [намдвондась, намдванондась]
+     намдась+V+TV+Aud+Prt1+PxDu1: [намдвонинзь, намдванонинзь]
+     намдась+V+TV+Aud+Prt1+PxDu2: [намдвондинзь, намдванондинзь]
+     намдась+V+TV+Aud+Prt1+PxDu3: [намдвондинзь, намдванондинзь]
+     намдась+V+TV+Aud+Prt1+PxPl1: [намдвонаць, намдванонаць]
+     намдась+V+TV+Aud+Prt1+PxPl2: [намдвондаць, намдванондаць]
+     намдась+V+TV+Aud+Prt1+PxPl3: [намдвондонзь, намдванондонзь]
+     намдась+V+TV+Ind+Aor+ScSg1: намдадм’
+     намдась+V+TV+Ind+Aor+ScSg2: намдан
+     намдась+V+TV+Ind+Aor+ScSg3: намда
+     намдась+V+TV+Ind+Aor+ScDu1: намдани’
+     намдась+V+TV+Ind+Aor+ScDu2: намдади’
+     намдась+V+TV+Ind+Aor+ScDu3: намдӈаха’
+     намдась+V+TV+Ind+Aor+ScPl1: намдава”
+     намдась+V+TV+Ind+Aor+ScPl2: намдада”
+     намдась+V+TV+Ind+Aor+ScPl3: намда”
+     намдась+V+TV+Ind+Prt1+ScSg1: намдадамзь
+     намдась+V+TV+Ind+Prt1+ScSg2: намданась
+     намдась+V+TV+Ind+Prt1+ScSg3: намдась
+     намдась+V+TV+Ind+Prt1+ScDu1: намданинзь
+     намдась+V+TV+Ind+Prt1+ScDu2: намдадинзь
+     намдась+V+TV+Ind+Prt1+ScDu3: намдӈаханзь
+     намдась+V+TV+Ind+Prt1+ScPl1: намдаваць
+     намдась+V+TV+Ind+Prt1+ScPl2: намдадаць
+     намдась+V+TV+Ind+Prt1+ScPl3: намдаць
+     намдась+V+TV+Hort+ScSg1: намдхадм’
+     намдась+V+TV+Hort+ScDu1: намдхани’
+     намдась+V+TV+Hort+ScPl1: намдхава”
+     намдась+V+TV+Imprt+ScSg2: намд”
+     намдась+V+TV+Imprt+ScDu2: намдади’
+     намдась+V+TV+Imprt+ScPl2: намдада”
+     намдась+V+TV+Opt+ScSg3: намдая
+     намдась+V+TV+Opt+ScDu3: намдаяха’
+     намдась+V+TV+Opt+ScPl3: намдая”
+     намдась+V+TV+Conj+Aor+ScSg1: намдъидм’
+     намдась+V+TV+Conj+Aor+ScSg2: намдъин
+     намдась+V+TV+Conj+Aor+ScSg3: намдъи
+     намдась+V+TV+Conj+Aor+ScDu1: намдъини’
+     намдась+V+TV+Conj+Aor+ScDu2: намдъиди’
+     намдась+V+TV+Conj+Aor+ScDu3: намдъихи’
+     намдась+V+TV+Conj+Aor+ScPl1: намдъива”
+     намдась+V+TV+Conj+Aor+ScPl2: намдъида”
+     намдась+V+TV+Conj+Aor+ScPl3: намдъи”
+     намдась+V+TV+Conj+Prt1+ScSg1: намдъидамзь
+     намдась+V+TV+Conj+Prt1+ScSg2: намдъинась
+     намдась+V+TV+Conj+Prt1+ScSg3: намдъись
+     намдась+V+TV+Conj+Prt1+ScDu1: намдъининзь
+     намдась+V+TV+Conj+Prt1+ScDu2: намдъидинзь
+     намдась+V+TV+Conj+Prt1+ScDu3: намдъихинзь
+     намдась+V+TV+Conj+Prt1+ScPl1: намдъиваць
+     намдась+V+TV+Conj+Prt1+ScPl2: намдъидаць
+     намдась+V+TV+Conj+Prt1+ScPl3: намдъиць
+     намдась+V+TV+Mod/nec+ScSg1: намдбцудм’
+     намдась+V+TV+Mod/nec+ScSg2: намдбцун
+     намдась+V+TV+Mod/nec+ScSg3: намдбцу
+     намдась+V+TV+Mod/nec+ScDu1: намдбцуни’
+     намдась+V+TV+Mod/nec+ScDu2: намдбцуди’
+     намдась+V+TV+Mod/nec+ScDu3: намдбцуху’
+     намдась+V+TV+Mod/nec+ScPl1: намдбцува”
+     намдась+V+TV+Mod/nec+ScPl2: намдбцуда”
+     намдась+V+TV+Mod/nec+ScPl3: намдбцу”
+     намдась+V+TV+Mod/int+ScSg1: намдсадм’
+     намдась+V+TV+Mod/int+ScSg2: намдсан
+     намдась+V+TV+Mod/int+ScSg3: намдса
+     намдась+V+TV+Mod/int+ScDu1: намдсани’
+     намдась+V+TV+Mod/int+ScDu2: намдсади’
+     намдась+V+TV+Mod/int+ScDu3: намдсаха’
+     намдась+V+TV+Mod/int+ScPl1: намдсава”
+     намдась+V+TV+Mod/int+ScPl2: намдсада”
+     намдась+V+TV+Mod/int+ScPl3: намдса”
+     намдась+V+TV+Mod/narr+Aor+ScSg1: намдвэдм’
+     намдась+V+TV+Mod/narr+Aor+ScSg2: намдвэн
+     намдась+V+TV+Mod/narr+Aor+ScSg3: намдвы
+     намдась+V+TV+Mod/narr+Aor+ScDu1: намдвэни’
+     намдась+V+TV+Mod/narr+Aor+ScDu2: намдвэди’
+     намдась+V+TV+Mod/narr+Aor+ScDu3: намдвэхэ’
+     намдась+V+TV+Mod/narr+Aor+ScPl1: намдвэва”
+     намдась+V+TV+Mod/narr+Aor+ScPl2: намдвэда”
+     намдась+V+TV+Mod/narr+Aor+ScPl3: намдвы”
+     намдась+V+TV+Mod/narr+Prt1+ScSg1: намдвэдамзь
+     намдась+V+TV+Mod/narr+Prt1+ScSg2: намдвэнась
+     намдась+V+TV+Mod/narr+Prt1+ScSg3: [намдвысь, намдвэсь]
+     намдась+V+TV+Mod/narr+Prt1+ScDu1: намдвэнинзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu2: намдвэдинзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu3: намдвэхэнзь
+     намдась+V+TV+Mod/narr+Prt1+ScPl1: намдвэваць
+     намдась+V+TV+Mod/narr+Prt1+ScPl2: намдвэдаць
+     намдась+V+TV+Mod/narr+Prt1+ScPl3: [намдвыць, намдвэць]
+     намдась+V+TV+Mod/prob+Aor+ScSg1: [намданакэдм’, намднакэдм’]
+     намдась+V+TV+Mod/prob+Aor+ScSg2: [намданакэн, намднакэн]
+     намдась+V+TV+Mod/prob+Aor+ScSg3: [намданакы, намднакы]
+     намдась+V+TV+Mod/prob+Aor+ScDu1: [намданакэни’, намднакэни’]
+     намдась+V+TV+Mod/prob+Aor+ScDu2: [намданакэди’, намднакэди’]
+     намдась+V+TV+Mod/prob+Aor+ScDu3: [намданакэхэ’, намднакэхэ’]
+     намдась+V+TV+Mod/prob+Aor+ScPl1: [намданакэва”, намднакэва”]
+     намдась+V+TV+Mod/prob+Aor+ScPl2: [намданакэда”, намднакэда”]
+     намдась+V+TV+Mod/prob+Aor+ScPl3: [намданакы”, намднакы”]
+     намдась+V+TV+Mod/obl+ScSg1: намдбцакэдм’
+     намдась+V+TV+Mod/obl+ScSg2: намдбцакэн
+     намдась+V+TV+Mod/obl+ScSg3: намдбцакы
+     намдась+V+TV+Mod/obl+ScDu1: намдбцакэни’
+     намдась+V+TV+Mod/obl+ScDu2: намдбцакэди’
+     намдась+V+TV+Mod/obl+ScDu3: намдбцакэхэ’
+     намдась+V+TV+Mod/obl+ScPl1: намдбцакэва”
+     намдась+V+TV+Mod/obl+ScPl2: намдбцакэда”
+     намдась+V+TV+Mod/obl+ScPl3: намдбцакы”
+     намдась+V+TV+Mod/impfappr+Aor+ScSg1: [намданархадм’, намднархадм’]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg2: [намданархан, намднархан]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg3: [намданарха, намднарха]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu1: [намданархани’, намднархани’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu2: [намданархади’, намднархади’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu3: [намданархаха’, намднархаха’]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl1: [намданархава”, намднархава”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl2: [намданархада”, намднархада”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl3: [намданарха”, намднарха”]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg1: [намданархадамзь, намднархадамзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg2: [намданарханась, намднарханась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg3: [намданархась, намднархась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu1: [намданарханинзь, намднарханинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu2: [намданархадинзь, намднархадинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu3: [намданархаханзь, намднархаханзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl1: [намданархаваць, намднархаваць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl2: [намданархадаць, намднархадаць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl3: [намданархаць, намднархаць]
+     намдась+V+TV+Mod/perfappr+ScSg1: намдвэрхадм’
+     намдась+V+TV+Mod/perfappr+ScSg2: намдвэрхан
+     намдась+V+TV+Mod/perfappr+ScSg3: намдвэрха
+     намдась+V+TV+Mod/perfappr+ScDu1: намдвэрхани’
+     намдась+V+TV+Mod/perfappr+ScDu2: намдвэрхади’
+     намдась+V+TV+Mod/perfappr+ScDu3: намдвэрхаха’
+     намдась+V+TV+Mod/perfappr+ScPl1: намдвэрхава”
+     намдась+V+TV+Mod/perfappr+ScPl2: намдвэрхада”
+     намдась+V+TV+Mod/perfappr+ScPl3: намдвэрха”
+     намдась+V+TV+Mod/futappr+ScSg1: [намдавандархадм’, намдавндархадм’, намдувндархадм’]
+     намдась+V+TV+Mod/futappr+ScSg2: [намдавандархан, намдавндархан, намдувндархан]
+     намдась+V+TV+Mod/futappr+ScSg3: [намдавандарха, намдавндарха, намдувндарха]
+     намдась+V+TV+Mod/futappr+ScDu1: [намдавандархани’, намдавндархани’, намдувндархани’]
+     намдась+V+TV+Mod/futappr+ScDu2: [намдавандархади’, намдавндархади’, намдувндархади’]
+     намдась+V+TV+Mod/futappr+ScDu3: [намдавандархаха’, намдавндархаха’, намдувндархаха’]
+     намдась+V+TV+Mod/futappr+ScPl1: [намдавандархава”, намдавндархава”, намдувндархава”]
+     намдась+V+TV+Mod/futappr+ScPl2: [намдавандархада”, намдавндархада”, намдувндархада”]
+     намдась+V+TV+Mod/futappr+ScPl3: [намдавандарха”, намдавндарха”, намдувндарха”]
+     намдась+V+TV+Mod/sup+ScSg1: намдванӈгабядм’
+     намдась+V+TV+Mod/sup+ScSg2: намдванӈгабян
+     намдась+V+TV+Mod/sup+ScSg3: намдванӈгабя
+     намдась+V+TV+Mod/sup+ScDu1: намдванӈгабяни’
+     намдась+V+TV+Mod/sup+ScDu2: намдванӈгабяди’
+     намдась+V+TV+Mod/sup+ScDu3: намдванӈгабяха’
+     намдась+V+TV+Mod/sup+ScPl1: намдванӈгабява”
+     намдась+V+TV+Mod/sup+ScPl2: намдванӈгабяда”
+     намдась+V+TV+Mod/sup+ScPl3: намдванӈгабя”
+     намдась+V+TV+Mod/hyp+ScSg1: намдрахавэдм’
+     намдась+V+TV+Mod/hyp+ScSg2: намдрахавэн
+     намдась+V+TV+Mod/hyp+ScSg3: намдрахавы
+     намдась+V+TV+Mod/hyp+ScDu1: намдрахавэни’
+     намдась+V+TV+Mod/hyp+ScDu2: намдрахавэди’
+     намдась+V+TV+Mod/hyp+ScDu3: намдрахавэхэ’
+     намдась+V+TV+Mod/hyp+ScPl1: намдрахавэва”
+     намдась+V+TV+Mod/hyp+ScPl2: намдрахавэда”
+     намдась+V+TV+Mod/hyp+ScPl3: намдрахавы”
+     намдась+V+TV+Mod/perfprob+ScSg1: намдвэкэдм’
+     намдась+V+TV+Mod/perfprob+ScSg2: намдвэкэн
+     намдась+V+TV+Mod/perfprob+ScSg3: намдвэкы
+     намдась+V+TV+Mod/perfprob+ScDu1: намдвэкэни’
+     намдась+V+TV+Mod/perfprob+ScDu2: намдвэкэди’
+     намдась+V+TV+Mod/perfprob+ScDu3: намдвэкэхэ’
+     намдась+V+TV+Mod/perfprob+ScPl1: намдвэкэва”
+     намдась+V+TV+Mod/perfprob+ScPl2: намдвэкэда”
+     намдась+V+TV+Mod/perfprob+ScPl3: намдвэкы”
+     намдась+V+TV+Mod/rep+ScSg1: [намдавнадм’, намдувнадм’]
+     намдась+V+TV+Mod/rep+ScSg2: [намдавнан, намдувнан]
+     намдась+V+TV+Mod/rep+ScSg3: [намдавна, намдувна]
+     намдась+V+TV+Mod/rep+ScDu1: [намдавнани’, намдувнани’]
+     намдась+V+TV+Mod/rep+ScDu2: [намдавнади’, намдувнади’]
+     намдась+V+TV+Mod/rep+ScDu3: [намдавнаха’, намдувнаха’]
+     намдась+V+TV+Mod/rep+ScPl1: [намдавнава”, намдувнава”]
+     намдась+V+TV+Mod/rep+ScPl2: [намдавнада”, намдувнада”]
+     намдась+V+TV+Mod/rep+ScPl3: [намдавна”, намдувна”]
+     намдась+V+TV+Mod/des+ScSg1: намдравадм’
+     намдась+V+TV+Mod/des+ScSg2: намдраван
+     намдась+V+TV+Mod/des+ScSg3: намдрава
+     намдась+V+TV+Mod/des+ScDu1: намдравани’
+     намдась+V+TV+Mod/des+ScDu2: намдравади’
+     намдась+V+TV+Mod/des+ScDu3: намдраваха’
+     намдась+V+TV+Mod/des+ScPl1: намдравава”
+     намдась+V+TV+Mod/des+ScPl2: намдравада”
+     намдась+V+TV+Mod/des+ScPl3: намдрава”
+     намдась+V+TV+Fut+Ind+Aor+ScSg1: [намдаӈгудм’, намдӈгудм’]
+     намдась+V+TV+Fut+Ind+Aor+ScSg2: [намдаӈгун, намдӈгун]
+     намдась+V+TV+Fut+Ind+Aor+ScSg3: [намдаӈгу, намдӈгу]
+     намдась+V+TV+Fut+Ind+Aor+ScDu1: [намдаӈгуни’, намдӈгуни’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu2: [намдаӈгуди’, намдӈгуди’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu3: [намдаӈгуху’, намдӈгуху’]
+     намдась+V+TV+Fut+Ind+Aor+ScPl1: [намдаӈгува”, намдӈгува”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl2: [намдаӈгуда”, намдӈгуда”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl3: [намдаӈгу”, намдӈгу”]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg1: [намдаӈгудамзь, намдӈгудамзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg2: [намдаӈгунась, намдӈгунась]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg3: [намдаӈгусь, намдӈгусь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu1: [намдаӈгунинзь, намдӈгунинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu2: [намдаӈгудинзь, намдӈгудинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu3: [намдаӈгухунзь, намдӈгухунзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl1: [намдаӈгуваць, намдӈгуваць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl2: [намдаӈгудаць, намдӈгудаць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl3: [намдаӈгуць, намдӈгуць]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg1: [намдаӈгодакэдм’, намдӈгодакэдм’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg2: [намдаӈгодакэн, намдӈгодакэн]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg3: [намдаӈгодакы, намдӈгодакы]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu1: [намдаӈгодакэни’, намдӈгодакэни’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu2: [намдаӈгодакэди’, намдӈгодакэди’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu3: [намдаӈгодакэхэ’, намдӈгодакэхэ’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl1: [намдаӈгодакэва”, намдӈгодакэва”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl2: [намдаӈгодакэда”, намдӈгодакэда”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl3: [намдаӈгодакы”, намдӈгодакы”]
+     намдась+V+TV+Prec+Hort+ScSg1: [намдхарцюдм’, намдхарцядм’]
+     намдась+V+TV+Prec+Hort+ScDu1: [намдхарцюни’, намдхарцьни’]
+     намдась+V+TV+Prec+Hort+ScPl1: [намдхарцюва”, намдхарцьва”]
+     намдась+V+TV+Prec+Imprt+ScSg2: намдхар”
+     намдась+V+TV+Prec+Imprt+ScDu2: [намдхар”ӈади’, намдхарӈади’]
+     намдась+V+TV+Prec+Imprt+ScPl2: [намдхар”ӈада”, намдхарӈада”]
+     намдась+V+TV+Prec+Opt+ScSg3: [намдхар”ӈая, намдхарӈая]
+     намдась+V+TV+Prec+Opt+ScDu3: [намдхар”ӈаяха’, намдхарӈаяха’]
+     намдась+V+TV+Prec+Opt+ScPl3: [намдхар”ӈая”, намдхарӈая”]
+     намдась+V+TV+Hab+Ind+Aor+ScSg1: [намдсятыдм’, намдсетыдм’]
+     намдась+V+TV+Hab+Ind+Aor+ScSg2: [намдсятын, намдсетын]
+     намдась+V+TV+Hab+Ind+Aor+ScSg3: [намдсяты, намдсеты]
+     намдась+V+TV+Hab+Ind+Aor+ScDu1: [намдсятыни’, намдсетыни’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu2: [намдсятыди’, намдсетыди’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu3: [намдсятыхы’, намдсетыхы’]
+     намдась+V+TV+Hab+Ind+Aor+ScPl1: [намдсятыва”, намдсетыва”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl2: [намдсятыда”, намдсетыда”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl3: [намдсяты”, намдсеты”]
+     намдась+V+TV+Hab+Mod/narr+ScSg1: [намдсятвэдм’, намдсетвэдм’]
+     намдась+V+TV+Hab+Mod/narr+ScSg2: [намдсятвэн, намдсетвэн]
+     намдась+V+TV+Hab+Mod/narr+ScSg3: [намдсятвы, намдсетвы]
+     намдась+V+TV+Hab+Mod/narr+ScDu1: [намдсятвэни’, намдсетвэни’]
+     намдась+V+TV+Hab+Mod/narr+ScDu2: [намдсятвэди’, намдсетвэди’]
+     намдась+V+TV+Hab+Mod/narr+ScDu3: [намдсятвэхэ’, намдсетвэхэ’]
+     намдась+V+TV+Hab+Mod/narr+ScPl1: [намдсятвэва”, намдсетвэва”]
+     намдась+V+TV+Hab+Mod/narr+ScPl2: [намдсятвэда”, намдсетвэда”]
+     намдась+V+TV+Hab+Mod/narr+ScPl3: [намдсятвы”, намдсетвы”]
+     намдась+V+TV+Ind+Aor+ScSg1+OcSg3: намдав
+     намдась+V+TV+Ind+Aor+ScSg2+OcSg3: намдар
+     намдась+V+TV+Ind+Aor+ScSg3+OcSg3: намдада
+     намдась+V+TV+Ind+Aor+ScDu1+OcSg3: намдами’
+     намдась+V+TV+Ind+Aor+ScDu2+OcSg3: намдари’
+     намдась+V+TV+Ind+Aor+ScDu3+OcSg3: намдади’
+     намдась+V+TV+Ind+Aor+ScPl1+OcSg3: намдава”
+     намдась+V+TV+Ind+Aor+ScPl2+OcSg3: намдара”
+     намдась+V+TV+Ind+Aor+ScPl3+OcSg3: намдадо’
+     намдась+V+TV+Ind+Aor+ScSg1+OcDu3: намдӈахаюн
+     намдась+V+TV+Ind+Aor+ScSg2+OcDu3: намдӈахаюд
+     намдась+V+TV+Ind+Aor+ScSg3+OcDu3: намдӈахаюда
+     намдась+V+TV+Ind+Aor+ScDu1+OcDu3: намдӈахаюни’
+     намдась+V+TV+Ind+Aor+ScDu2+OcDu3: намдӈахаюди’
+     намдась+V+TV+Ind+Aor+ScDu3+OcDu3: намдӈахаюди’
+     намдась+V+TV+Ind+Aor+ScPl1+OcDu3: намдӈахаюна”
+     намдась+V+TV+Ind+Aor+ScPl2+OcDu3: намдӈахаюда”
+     намдась+V+TV+Ind+Aor+ScPl3+OcDu3: намдӈахаюдо’
+     намдась+V+TV+Ind+Aor+ScSg1+OcPl3: намдын
+     намдась+V+TV+Ind+Aor+ScSg2+OcPl3: намдыд
+     намдась+V+TV+Ind+Aor+ScSg3+OcPl3: намдыда
+     намдась+V+TV+Ind+Aor+ScDu1+OcPl3: намдыни’
+     намдась+V+TV+Ind+Aor+ScDu2+OcPl3: намдыди’
+     намдась+V+TV+Ind+Aor+ScDu3+OcPl3: намдыди’
+     намдась+V+TV+Ind+Aor+ScPl1+OcPl3: намдына”
+     намдась+V+TV+Ind+Aor+ScPl2+OcPl3: намдыда”
+     намдась+V+TV+Ind+Aor+ScPl3+OcPl3: намдыдо’
+     намдась+V+TV+Ind+Prt1+ScSg1+OcSg3: намдавась
+     намдась+V+TV+Ind+Prt1+ScSg2+OcSg3: намдарась
+     намдась+V+TV+Ind+Prt1+ScSg3+OcSg3: намдадась
+     намдась+V+TV+Ind+Prt1+ScDu1+OcSg3: намдаминзь
+     намдась+V+TV+Ind+Prt1+ScDu2+OcSg3: намдаринзь
+     намдась+V+TV+Ind+Prt1+ScDu3+OcSg3: намдадинзь
+     намдась+V+TV+Ind+Prt1+ScPl1+OcSg3: намдаваць
+     намдась+V+TV+Ind+Prt1+ScPl2+OcSg3: намдараць
+     намдась+V+TV+Ind+Prt1+ScPl3+OcSg3: намдадонзь
+     намдась+V+TV+Ind+Prt1+ScSg1+OcDu3: намдӈахаюнась
+     намдась+V+TV+Ind+Prt1+ScSg2+OcDu3: намдӈахаюдась
+     намдась+V+TV+Ind+Prt1+ScSg3+OcDu3: намдӈахаюдась
+     намдась+V+TV+Ind+Prt1+ScDu1+OcDu3: намдӈахаюнинзь
+     намдась+V+TV+Ind+Prt1+ScDu2+OcDu3: намдӈахаюдинзь
+     намдась+V+TV+Ind+Prt1+ScDu3+OcDu3: намдӈахаюдинзь
+     намдась+V+TV+Ind+Prt1+ScPl1+OcDu3: намдӈахаюнаць
+     намдась+V+TV+Ind+Prt1+ScPl2+OcDu3: намдӈахаюдаць
+     намдась+V+TV+Ind+Prt1+ScPl3+OcDu3: намдӈахаюдонзь
+     намдась+V+TV+Ind+Prt1+ScSg1+OcPl3: намдынась
+     намдась+V+TV+Ind+Prt1+ScSg2+OcPl3: намдыдась
+     намдась+V+TV+Ind+Prt1+ScSg3+OcPl3: намдыдась
+     намдась+V+TV+Ind+Prt1+ScDu1+OcPl3: намдынинзь
+     намдась+V+TV+Ind+Prt1+ScDu2+OcPl3: намдыдинзь
+     намдась+V+TV+Ind+Prt1+ScDu3+OcPl3: намдыдинзь
+     намдась+V+TV+Ind+Prt1+ScPl1+OcPl3: намдынаць
+     намдась+V+TV+Ind+Prt1+ScPl2+OcPl3: намдыдаць
+     намдась+V+TV+Ind+Prt1+ScPl3+OcPl3: намдыдонзь
+     намдась+V+TV+Hort+ScSg1+OcSg3: [намдхав, намдхув]
+     намдась+V+TV+Hort+ScDu1+OcSg3: намдхами’
+     намдась+V+TV+Hort+ScPl1+OcSg3: намдхава”
+     намдась+V+TV+Hort+ScSg1+OcDu3: намдхахаюн
+     намдась+V+TV+Hort+ScDu1+OcDu3: намдхахаюни’
+     намдась+V+TV+Hort+ScPl1+OcDu3: намдхахаюна”
+     намдась+V+TV+Hort+ScSg1+OcPl3: намдхан
+     намдась+V+TV+Hort+ScDu1+OcPl3: намдхани’
+     намдась+V+TV+Hort+ScPl1+OcPl3: намдхана”
+     намдась+V+TV+Imprt+ScSg2+OcSg3: намдад
+     намдась+V+TV+Imprt+ScDu2+OcSg3: намдари’
+     намдась+V+TV+Imprt+ScPl2+OcSg3: намдара”
+     намдась+V+TV+Imprt+ScSg2+OcDu3: намдхаюн”
+     намдась+V+TV+Imprt+ScDu2+OcDu3: намдӈахаюди’
+     намдась+V+TV+Imprt+ScPl2+OcDu3: намдӈахаюда”
+     намдась+V+TV+Imprt+ScSg2+OcPl3: намдан”
+     намдась+V+TV+Imprt+ScDu2+OcPl3: намдыди’
+     намдась+V+TV+Imprt+ScPl2+OcPl3: намдыда”
+     намдась+V+TV+Opt+ScSg3+OcSg3: намдамда
+     намдась+V+TV+Opt+ScDu3+OcSg3: намдамди’
+     намдась+V+TV+Opt+ScPl3+OcSg3: намдамдо’
+     намдась+V+TV+Opt+ScSg3+OcDu3: намдӈахаюдамда
+     намдась+V+TV+Opt+ScDu3+OcDu3: намдӈахаюдамди’
+     намдась+V+TV+Opt+ScPl3+OcDu3: намдӈахаюдамдо’
+     намдась+V+TV+Opt+ScSg3+OcPl3: намдыдамда
+     намдась+V+TV+Opt+ScDu3+OcPl3: намдыдамди’
+     намдась+V+TV+Opt+ScPl3+OcPl3: намдыдамдо’
+     намдась+V+TV+Conj+Aor+ScSg1+OcSg3: намдъив
+     намдась+V+TV+Conj+Aor+ScSg2+OcSg3: намдъир
+     намдась+V+TV+Conj+Aor+ScSg3+OcSg3: намдъида
+     намдась+V+TV+Conj+Aor+ScDu1+OcSg3: намдъими’
+     намдась+V+TV+Conj+Aor+ScDu2+OcSg3: намдъири’
+     намдась+V+TV+Conj+Aor+ScDu3+OcSg3: намдъиди’
+     намдась+V+TV+Conj+Aor+ScPl1+OcSg3: намдъива”
+     намдась+V+TV+Conj+Aor+ScPl2+OcSg3: намдъира”
+     намдась+V+TV+Conj+Aor+ScPl3+OcSg3: намдъидо’
+     намдась+V+TV+Conj+Aor+ScSg1+OcDu3: намдъихиюн
+     намдась+V+TV+Conj+Aor+ScSg2+OcDu3: намдъихиюд
+     намдась+V+TV+Conj+Aor+ScSg3+OcDu3: намдъихиюда
+     намдась+V+TV+Conj+Aor+ScDu1+OcDu3: намдъихиюни’
+     намдась+V+TV+Conj+Aor+ScDu2+OcDu3: намдъихиюди’
+     намдась+V+TV+Conj+Aor+ScDu3+OcDu3: намдъихиюди’
+     намдась+V+TV+Conj+Aor+ScPl1+OcDu3: намдъихиюна”
+     намдась+V+TV+Conj+Aor+ScPl2+OcDu3: намдъихиюда”
+     намдась+V+TV+Conj+Aor+ScPl3+OcDu3: намдъихиюдо’
+     намдась+V+TV+Conj+Aor+ScSg1+OcPl3: намдъин
+     намдась+V+TV+Conj+Aor+ScSg2+OcPl3: намдъид
+     намдась+V+TV+Conj+Aor+ScSg3+OcPl3: намдъида
+     намдась+V+TV+Conj+Aor+ScDu1+OcPl3: намдъини’
+     намдась+V+TV+Conj+Aor+ScDu2+OcPl3: намдъиди’
+     намдась+V+TV+Conj+Aor+ScDu3+OcPl3: намдъиди’
+     намдась+V+TV+Conj+Aor+ScPl1+OcPl3: намдъина”
+     намдась+V+TV+Conj+Aor+ScPl2+OcPl3: намдъида”
+     намдась+V+TV+Conj+Aor+ScPl3+OcPl3: намдъидо’
+     намдась+V+TV+Conj+Prt1+ScSg1+OcSg3: намдъивась
+     намдась+V+TV+Conj+Prt1+ScSg2+OcSg3: намдъирась
+     намдась+V+TV+Conj+Prt1+ScSg3+OcSg3: намдъидась
+     намдась+V+TV+Conj+Prt1+ScDu1+OcSg3: намдъиминзь
+     намдась+V+TV+Conj+Prt1+ScDu2+OcSg3: намдъиринзь
+     намдась+V+TV+Conj+Prt1+ScDu3+OcSg3: намдъидинзь
+     намдась+V+TV+Conj+Prt1+ScPl1+OcSg3: намдъиваць
+     намдась+V+TV+Conj+Prt1+ScPl2+OcSg3: намдъираць
+     намдась+V+TV+Conj+Prt1+ScPl3+OcSg3: намдъидонзь
+     намдась+V+TV+Conj+Prt1+ScSg1+OcDu3: намдъихиюнась
+     намдась+V+TV+Conj+Prt1+ScSg2+OcDu3: намдъихиюдась
+     намдась+V+TV+Conj+Prt1+ScSg3+OcDu3: намдъихиюдась
+     намдась+V+TV+Conj+Prt1+ScDu1+OcDu3: намдъихиюнинзь
+     намдась+V+TV+Conj+Prt1+ScDu2+OcDu3: намдъихиюдинзь
+     намдась+V+TV+Conj+Prt1+ScDu3+OcDu3: намдъихиюдинзь
+     намдась+V+TV+Conj+Prt1+ScPl1+OcDu3: намдъихиюнаць
+     намдась+V+TV+Conj+Prt1+ScPl2+OcDu3: намдъихиюдаць
+     намдась+V+TV+Conj+Prt1+ScPl3+OcDu3: намдъихиюдонзь
+     намдась+V+TV+Conj+Prt1+ScSg1+OcPl3: намдъинась
+     намдась+V+TV+Conj+Prt1+ScSg2+OcPl3: намдъидась
+     намдась+V+TV+Conj+Prt1+ScSg3+OcPl3: намдъидась
+     намдась+V+TV+Conj+Prt1+ScDu1+OcPl3: намдъининзь
+     намдась+V+TV+Conj+Prt1+ScDu2+OcPl3: намдъидинзь
+     намдась+V+TV+Conj+Prt1+ScDu3+OcPl3: намдъидинзь
+     намдась+V+TV+Conj+Prt1+ScPl1+OcPl3: намдъинаць
+     намдась+V+TV+Conj+Prt1+ScPl2+OcPl3: намдъидаць
+     намдась+V+TV+Conj+Prt1+ScPl3+OcPl3: намдъидонзь
+     намдась+V+TV+Mod/nec+ScSg1+OcSg3: намдбцув
+     намдась+V+TV+Mod/nec+ScSg2+OcSg3: намдбцур
+     намдась+V+TV+Mod/nec+ScSg3+OcSg3: намдбцуда
+     намдась+V+TV+Mod/nec+ScDu1+OcSg3: намдбцуми’
+     намдась+V+TV+Mod/nec+ScDu2+OcSg3: намдбцури’
+     намдась+V+TV+Mod/nec+ScDu3+OcSg3: намдбцуди’
+     намдась+V+TV+Mod/nec+ScPl1+OcSg3: намдбцува”
+     намдась+V+TV+Mod/nec+ScPl2+OcSg3: намдбцура”
+     намдась+V+TV+Mod/nec+ScPl3+OcSg3: намдбцудо’
+     намдась+V+TV+Mod/nec+ScSg1+OcDu3: намдбцухуюн
+     намдась+V+TV+Mod/nec+ScSg2+OcDu3: намдбцухуюд
+     намдась+V+TV+Mod/nec+ScSg3+OcDu3: намдбцухуюда
+     намдась+V+TV+Mod/nec+ScDu1+OcDu3: намдбцухуюни’
+     намдась+V+TV+Mod/nec+ScDu2+OcDu3: намдбцухуюди’
+     намдась+V+TV+Mod/nec+ScDu3+OcDu3: намдбцухуюди’
+     намдась+V+TV+Mod/nec+ScPl1+OcDu3: намдбцухуюна”
+     намдась+V+TV+Mod/nec+ScPl2+OcDu3: намдбцухуюда”
+     намдась+V+TV+Mod/nec+ScPl3+OcDu3: намдбцухуюдо’
+     намдась+V+TV+Mod/nec+ScSg1+OcPl3: намдбцун
+     намдась+V+TV+Mod/nec+ScSg2+OcPl3: намдбцуд
+     намдась+V+TV+Mod/nec+ScSg3+OcPl3: намдбцуда
+     намдась+V+TV+Mod/nec+ScDu1+OcPl3: намдбцуни’
+     намдась+V+TV+Mod/nec+ScDu2+OcPl3: намдбцуди’
+     намдась+V+TV+Mod/nec+ScDu3+OcPl3: намдбцуди’
+     намдась+V+TV+Mod/nec+ScPl1+OcPl3: намдбцуна”
+     намдась+V+TV+Mod/nec+ScPl2+OcPl3: намдбцуда”
+     намдась+V+TV+Mod/nec+ScPl3+OcPl3: намдбцудо’
+     намдась+V+TV+Mod/int+ScSg1+OcSg3: намдсав
+     намдась+V+TV+Mod/int+ScSg2+OcSg3: намдсар
+     намдась+V+TV+Mod/int+ScSg3+OcSg3: намдсада
+     намдась+V+TV+Mod/int+ScDu1+OcSg3: намдсами’
+     намдась+V+TV+Mod/int+ScDu2+OcSg3: намдсари’
+     намдась+V+TV+Mod/int+ScDu3+OcSg3: намдсади’
+     намдась+V+TV+Mod/int+ScPl1+OcSg3: намдсава”
+     намдась+V+TV+Mod/int+ScPl2+OcSg3: намдсара”
+     намдась+V+TV+Mod/int+ScPl3+OcSg3: намдсадо’
+     намдась+V+TV+Mod/int+ScSg1+OcDu3: намдсахаюн
+     намдась+V+TV+Mod/int+ScSg2+OcDu3: намдсахаюд
+     намдась+V+TV+Mod/int+ScSg3+OcDu3: намдсахаюда
+     намдась+V+TV+Mod/int+ScDu1+OcDu3: намдсахаюни’
+     намдась+V+TV+Mod/int+ScDu2+OcDu3: намдсахаюди’
+     намдась+V+TV+Mod/int+ScDu3+OcDu3: намдсахаюди’
+     намдась+V+TV+Mod/int+ScPl1+OcDu3: намдсахаюна”
+     намдась+V+TV+Mod/int+ScPl2+OcDu3: намдсахаюда”
+     намдась+V+TV+Mod/int+ScPl3+OcDu3: намдсахаюдо’
+     намдась+V+TV+Mod/int+ScSg1+OcPl3: намдсян
+     намдась+V+TV+Mod/int+ScSg2+OcPl3: намдсяд
+     намдась+V+TV+Mod/int+ScSg3+OcPl3: намдсяда
+     намдась+V+TV+Mod/int+ScDu1+OcPl3: намдсяни’
+     намдась+V+TV+Mod/int+ScDu2+OcPl3: намдсяди’
+     намдась+V+TV+Mod/int+ScDu3+OcPl3: намдсяди’
+     намдась+V+TV+Mod/int+ScPl1+OcPl3: намдсяна”
+     намдась+V+TV+Mod/int+ScPl2+OcPl3: намдсяда”
+     намдась+V+TV+Mod/int+ScPl3+OcPl3: намдсядо’
+     намдась+V+TV+Mod/narr+Aor+ScSg1+OcSg3: намдвэв
+     намдась+V+TV+Mod/narr+Aor+ScSg2+OcSg3: намдвэр
+     намдась+V+TV+Mod/narr+Aor+ScSg3+OcSg3: намдвэда
+     намдась+V+TV+Mod/narr+Aor+ScDu1+OcSg3: намдвэми’
+     намдась+V+TV+Mod/narr+Aor+ScDu2+OcSg3: намдвэри’
+     намдась+V+TV+Mod/narr+Aor+ScDu3+OcSg3: намдвэди’
+     намдась+V+TV+Mod/narr+Aor+ScPl1+OcSg3: намдвэва”
+     намдась+V+TV+Mod/narr+Aor+ScPl2+OcSg3: намдвэра”
+     намдась+V+TV+Mod/narr+Aor+ScPl3+OcSg3: намдвэдо’
+     намдась+V+TV+Mod/narr+Aor+ScSg1+OcDu3: намдвэхэюн
+     намдась+V+TV+Mod/narr+Aor+ScSg2+OcDu3: намдвэхэюд
+     намдась+V+TV+Mod/narr+Aor+ScSg3+OcDu3: намдвэхэюда
+     намдась+V+TV+Mod/narr+Aor+ScDu1+OcDu3: намдвэхэюни’
+     намдась+V+TV+Mod/narr+Aor+ScDu2+OcDu3: намдвэхэюди’
+     намдась+V+TV+Mod/narr+Aor+ScDu3+OcDu3: намдвэхэюди’
+     намдась+V+TV+Mod/narr+Aor+ScPl1+OcDu3: намдвэхэюна”
+     намдась+V+TV+Mod/narr+Aor+ScPl2+OcDu3: намдвэхэюда”
+     намдась+V+TV+Mod/narr+Aor+ScPl3+OcDu3: намдвэхэюдо’
+     намдась+V+TV+Mod/narr+Aor+ScSg1+OcPl3: намдвын
+     намдась+V+TV+Mod/narr+Aor+ScSg2+OcPl3: намдвыд
+     намдась+V+TV+Mod/narr+Aor+ScSg3+OcPl3: намдвыда
+     намдась+V+TV+Mod/narr+Aor+ScDu1+OcPl3: намдвыни’
+     намдась+V+TV+Mod/narr+Aor+ScDu2+OcPl3: намдвыди’
+     намдась+V+TV+Mod/narr+Aor+ScDu3+OcPl3: намдвыди’
+     намдась+V+TV+Mod/narr+Aor+ScPl1+OcPl3: намдвына”
+     намдась+V+TV+Mod/narr+Aor+ScPl2+OcPl3: намдвыда”
+     намдась+V+TV+Mod/narr+Aor+ScPl3+OcPl3: намдвыдо’
+     намдась+V+TV+Mod/narr+Prt1+ScSg1+OcSg3: намдвэвась
+     намдась+V+TV+Mod/narr+Prt1+ScSg2+OcSg3: намдвэрась
+     намдась+V+TV+Mod/narr+Prt1+ScSg3+OcSg3: намдвэдась
+     намдась+V+TV+Mod/narr+Prt1+ScDu1+OcSg3: намдвэминзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu2+OcSg3: намдвэринзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu3+OcSg3: намдвэдинзь
+     намдась+V+TV+Mod/narr+Prt1+ScPl1+OcSg3: намдвэваць
+     намдась+V+TV+Mod/narr+Prt1+ScPl2+OcSg3: намдвэраць
+     намдась+V+TV+Mod/narr+Prt1+ScPl3+OcSg3: намдвэдонзь
+     намдась+V+TV+Mod/narr+Prt1+ScSg1+OcDu3: намдвэхэюнась
+     намдась+V+TV+Mod/narr+Prt1+ScSg2+OcDu3: намдвэхэюдась
+     намдась+V+TV+Mod/narr+Prt1+ScSg3+OcDu3: намдвэхэюдась
+     намдась+V+TV+Mod/narr+Prt1+ScDu1+OcDu3: намдвэхэюнинзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu2+OcDu3: намдвэхэюдинзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu3+OcDu3: намдвэхэюдинзь
+     намдась+V+TV+Mod/narr+Prt1+ScPl1+OcDu3: намдвэхэюнаць
+     намдась+V+TV+Mod/narr+Prt1+ScPl2+OcDu3: намдвэхэюдаць
+     намдась+V+TV+Mod/narr+Prt1+ScPl3+OcDu3: намдвэхэюдонзь
+     намдась+V+TV+Mod/narr+Prt1+ScSg1+OcPl3: намдвынась
+     намдась+V+TV+Mod/narr+Prt1+ScSg2+OcPl3: намдвыдась
+     намдась+V+TV+Mod/narr+Prt1+ScSg3+OcPl3: намдвыдась
+     намдась+V+TV+Mod/narr+Prt1+ScDu1+OcPl3: намдвынинзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu2+OcPl3: намдвыдинзь
+     намдась+V+TV+Mod/narr+Prt1+ScDu3+OcPl3: намдвыдинзь
+     намдась+V+TV+Mod/narr+Prt1+ScPl1+OcPl3: намдвынаць
+     намдась+V+TV+Mod/narr+Prt1+ScPl2+OcPl3: намдвыдаць
+     намдась+V+TV+Mod/narr+Prt1+ScPl3+OcPl3: намдвыдонзь
+     намдась+V+TV+Mod/prob+Aor+ScSg1+OcSg3: [намданакэв, намднакэв]
+     намдась+V+TV+Mod/prob+Aor+ScSg2+OcSg3: [намданакэр, намднакэр]
+     намдась+V+TV+Mod/prob+Aor+ScSg3+OcSg3: [намданакэда, намднакэда]
+     намдась+V+TV+Mod/prob+Aor+ScDu1+OcSg3: [намданакэми’, намднакэми’]
+     намдась+V+TV+Mod/prob+Aor+ScDu2+OcSg3: [намданакэри’, намднакэри’]
+     намдась+V+TV+Mod/prob+Aor+ScDu3+OcSg3: [намданакэди’, намднакэди’]
+     намдась+V+TV+Mod/prob+Aor+ScPl1+OcSg3: [намданакэва”, намднакэва”]
+     намдась+V+TV+Mod/prob+Aor+ScPl2+OcSg3: [намданакэра”, намднакэра”]
+     намдась+V+TV+Mod/prob+Aor+ScPl3+OcSg3: [намданакэдо’, намднакэдо’]
+     намдась+V+TV+Mod/prob+Aor+ScSg1+OcDu3: [намданакэхэюн, намднакэхэюн]
+     намдась+V+TV+Mod/prob+Aor+ScSg2+OcDu3: [намданакэхэюд, намднакэхэюд]
+     намдась+V+TV+Mod/prob+Aor+ScSg3+OcDu3: [намданакэхэюда, намднакэхэюда]
+     намдась+V+TV+Mod/prob+Aor+ScDu1+OcDu3: [намданакэхэюни’, намднакэхэюни’]
+     намдась+V+TV+Mod/prob+Aor+ScDu2+OcDu3: [намданакэхэюди’, намднакэхэюди’]
+     намдась+V+TV+Mod/prob+Aor+ScDu3+OcDu3: [намданакэхэюди’, намднакэхэюди’]
+     намдась+V+TV+Mod/prob+Aor+ScPl1+OcDu3: [намданакэхэюна”, намднакэхэюна”]
+     намдась+V+TV+Mod/prob+Aor+ScPl2+OcDu3: [намданакэхэюда”, намднакэхэюда”]
+     намдась+V+TV+Mod/prob+Aor+ScPl3+OcDu3: [намданакэхэюдо’, намднакэхэюдо’]
+     намдась+V+TV+Mod/prob+Aor+ScSg1+OcPl3: [намданакын, намднакын]
+     намдась+V+TV+Mod/prob+Aor+ScSg2+OcPl3: [намданакыд, намднакыд]
+     намдась+V+TV+Mod/prob+Aor+ScSg3+OcPl3: [намданакыда, намднакыда]
+     намдась+V+TV+Mod/prob+Aor+ScDu1+OcPl3: [намданакыни’, намднакыни’]
+     намдась+V+TV+Mod/prob+Aor+ScDu2+OcPl3: [намданакыди’, намднакыди’]
+     намдась+V+TV+Mod/prob+Aor+ScDu3+OcPl3: [намданакыди’, намднакыди’]
+     намдась+V+TV+Mod/prob+Aor+ScPl1+OcPl3: [намданакына”, намднакына”]
+     намдась+V+TV+Mod/prob+Aor+ScPl2+OcPl3: [намданакыда”, намднакыда”]
+     намдась+V+TV+Mod/prob+Aor+ScPl3+OcPl3: [намданакыдо’, намднакыдо’]
+     намдась+V+TV+Mod/obl+ScSg1+OcSg3: намдбцакэв
+     намдась+V+TV+Mod/obl+ScSg2+OcSg3: намдбцакэр
+     намдась+V+TV+Mod/obl+ScSg3+OcSg3: намдбцакэда
+     намдась+V+TV+Mod/obl+ScDu1+OcSg3: намдбцакэми’
+     намдась+V+TV+Mod/obl+ScDu2+OcSg3: намдбцакэри’
+     намдась+V+TV+Mod/obl+ScDu3+OcSg3: намдбцакэди’
+     намдась+V+TV+Mod/obl+ScPl1+OcSg3: намдбцакэва”
+     намдась+V+TV+Mod/obl+ScPl2+OcSg3: намдбцакэра”
+     намдась+V+TV+Mod/obl+ScPl3+OcSg3: намдбцакэдо’
+     намдась+V+TV+Mod/obl+ScSg1+OcDu3: намдбцакэхэюн
+     намдась+V+TV+Mod/obl+ScSg2+OcDu3: намдбцакэхэюд
+     намдась+V+TV+Mod/obl+ScSg3+OcDu3: намдбцакэхэюда
+     намдась+V+TV+Mod/obl+ScDu1+OcDu3: намдбцакэхэюни’
+     намдась+V+TV+Mod/obl+ScDu2+OcDu3: намдбцакэхэюди’
+     намдась+V+TV+Mod/obl+ScDu3+OcDu3: намдбцакэхэюди’
+     намдась+V+TV+Mod/obl+ScPl1+OcDu3: намдбцакэхэюна”
+     намдась+V+TV+Mod/obl+ScPl2+OcDu3: намдбцакэхэюда”
+     намдась+V+TV+Mod/obl+ScPl3+OcDu3: намдбцакэхэюдо’
+     намдась+V+TV+Mod/obl+ScSg1+OcPl3: намдбцакын
+     намдась+V+TV+Mod/obl+ScSg2+OcPl3: намдбцакыд
+     намдась+V+TV+Mod/obl+ScSg3+OcPl3: намдбцакыда
+     намдась+V+TV+Mod/obl+ScDu1+OcPl3: намдбцакыни’
+     намдась+V+TV+Mod/obl+ScDu2+OcPl3: намдбцакыди’
+     намдась+V+TV+Mod/obl+ScDu3+OcPl3: намдбцакыди’
+     намдась+V+TV+Mod/obl+ScPl1+OcPl3: намдбцакына”
+     намдась+V+TV+Mod/obl+ScPl2+OcPl3: намдбцакыда”
+     намдась+V+TV+Mod/obl+ScPl3+OcPl3: намдбцакыдо’
+     намдась+V+TV+Mod/impfappr+Aor+ScSg1+OcSg3: [намданархав, намднархав]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg2+OcSg3: [намданархар, намднархар]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg3+OcSg3: [намданархада, намднархада]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu1+OcSg3: [намданархами’, намднархами’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu2+OcSg3: [намданархари’, намднархари’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu3+OcSg3: [намданархади’, намднархади’]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl1+OcSg3: [намданархава”, намднархава”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl2+OcSg3: [намданархара”, намднархара”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl3+OcSg3: [намданархадо’, намднархадо’]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg1+OcDu3: [намданархахаюн, намднархахаюн]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg2+OcDu3: [намданархахаюд, намднархахаюд]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg3+OcDu3: [намданархахаюда, намднархахаюда]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu1+OcDu3: [намданархахаюни’, намднархахаюни’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu2+OcDu3: [намданархахаюди’, намднархахаюди’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu3+OcDu3: [намданархахаюди’, намднархахаюди’]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl1+OcDu3: [намданархахаюна”, намднархахаюна”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl2+OcDu3: [намданархахаюда”, намднархахаюда”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl3+OcDu3: [намданархахаюдо’, намднархахаюдо’]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg1+OcPl3: [намданархын, намднархын]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg2+OcPl3: [намданархыд, намднархыд]
+     намдась+V+TV+Mod/impfappr+Aor+ScSg3+OcPl3: [намданархыда, намднархыда]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu1+OcPl3: [намданархыни’, намднархыни’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu2+OcPl3: [намданархыди’, намднархыди’]
+     намдась+V+TV+Mod/impfappr+Aor+ScDu3+OcPl3: [намданархыди’, намднархыди’]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl1+OcPl3: [намданархына”, намднархына”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl2+OcPl3: [намданархыда”, намднархыда”]
+     намдась+V+TV+Mod/impfappr+Aor+ScPl3+OcPl3: [намданархыдо’, намднархыдо’]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg1+OcSg3: [намданархавась, намднархавась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg2+OcSg3: [намданархарась, намднархарась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg3+OcSg3: [намданархадась, намднархадась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu1+OcSg3: [намданархаминзь, намднархаминзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu2+OcSg3: [намданархаринзь, намднархаринзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu3+OcSg3: [намданархадинзь, намднархадинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl1+OcSg3: [намданархаваць, намднархаваць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl2+OcSg3: [намданархараць, намднархараць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl3+OcSg3: [намданархадонзь, намднархадонзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg1+OcDu3: [намданархахаюнась, намднархахаюнась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg2+OcDu3: [намданархахаюдась, намднархахаюдась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg3+OcDu3: [намданархахаюдась, намднархахаюдась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu1+OcDu3: [намданархахаюнинзь, намднархахаюнинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu2+OcDu3: [намданархахаюдинзь, намднархахаюдинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu3+OcDu3: [намданархахаюдинзь, намднархахаюдинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl1+OcDu3: [намданархахаюнаць, намднархахаюнаць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl2+OcDu3: [намданархахаюдаць, намднархахаюдаць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl3+OcDu3: [намданархахаюдонзь, намднархахаюдонзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg1+OcPl3: [намданархынась, намднархынась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg2+OcPl3: [намданархыдась, намднархыдась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScSg3+OcPl3: [намданархыдась, намднархыдась]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu1+OcPl3: [намданархынинзь, намднархынинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu2+OcPl3: [намданархыдинзь, намднархыдинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScDu3+OcPl3: [намданархыдинзь, намднархыдинзь]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl1+OcPl3: [намданархынаць, намднархынаць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl2+OcPl3: [намданархыдаць, намднархыдаць]
+     намдась+V+TV+Mod/impfappr+Prt1+ScPl3+OcPl3: [намданархыдонзь, намднархыдонзь]
+     намдась+V+TV+Mod/perfappr+ScSg1+OcSg3: намдвэрхав
+     намдась+V+TV+Mod/perfappr+ScSg2+OcSg3: намдвэрхар
+     намдась+V+TV+Mod/perfappr+ScSg3+OcSg3: намдвэрхада
+     намдась+V+TV+Mod/perfappr+ScDu1+OcSg3: намдвэрхами’
+     намдась+V+TV+Mod/perfappr+ScDu2+OcSg3: намдвэрхари’
+     намдась+V+TV+Mod/perfappr+ScDu3+OcSg3: намдвэрхади’
+     намдась+V+TV+Mod/perfappr+ScPl1+OcSg3: намдвэрхава”
+     намдась+V+TV+Mod/perfappr+ScPl2+OcSg3: намдвэрхара”
+     намдась+V+TV+Mod/perfappr+ScPl3+OcSg3: намдвэрхадо’
+     намдась+V+TV+Mod/perfappr+ScSg1+OcDu3: намдвэрхахаюн
+     намдась+V+TV+Mod/perfappr+ScSg2+OcDu3: намдвэрхахаюд
+     намдась+V+TV+Mod/perfappr+ScSg3+OcDu3: намдвэрхахаюда
+     намдась+V+TV+Mod/perfappr+ScDu1+OcDu3: намдвэрхахаюни’
+     намдась+V+TV+Mod/perfappr+ScDu2+OcDu3: намдвэрхахаюди’
+     намдась+V+TV+Mod/perfappr+ScDu3+OcDu3: намдвэрхахаюди’
+     намдась+V+TV+Mod/perfappr+ScPl1+OcDu3: намдвэрхахаюна”
+     намдась+V+TV+Mod/perfappr+ScPl2+OcDu3: намдвэрхахаюда”
+     намдась+V+TV+Mod/perfappr+ScPl3+OcDu3: намдвэрхахаюдо’
+     намдась+V+TV+Mod/perfappr+ScSg1+OcPl3: намдвэрхын
+     намдась+V+TV+Mod/perfappr+ScSg2+OcPl3: намдвэрхыд
+     намдась+V+TV+Mod/perfappr+ScSg3+OcPl3: намдвэрхыда
+     намдась+V+TV+Mod/perfappr+ScDu1+OcPl3: намдвэрхыни’
+     намдась+V+TV+Mod/perfappr+ScDu2+OcPl3: намдвэрхыди’
+     намдась+V+TV+Mod/perfappr+ScDu3+OcPl3: намдвэрхыди’
+     намдась+V+TV+Mod/perfappr+ScPl1+OcPl3: намдвэрхына”
+     намдась+V+TV+Mod/perfappr+ScPl2+OcPl3: намдвэрхыда”
+     намдась+V+TV+Mod/perfappr+ScPl3+OcPl3: намдвэрхыдо’
+     намдась+V+TV+Mod/futappr+ScSg1+OcSg3: [намдавандархав, намдавндархав, намдувндархав]
+     намдась+V+TV+Mod/futappr+ScSg2+OcSg3: [намдавандархар, намдавндархар, намдувндархар]
+     намдась+V+TV+Mod/futappr+ScSg3+OcSg3: [намдавандархада, намдавндархада, намдувндархада]
+     намдась+V+TV+Mod/futappr+ScDu1+OcSg3: [намдавандархами’, намдавндархами’, намдувндархами’]
+     намдась+V+TV+Mod/futappr+ScDu2+OcSg3: [намдавандархари’, намдавндархари’, намдувндархари’]
+     намдась+V+TV+Mod/futappr+ScDu3+OcSg3: [намдавандархади’, намдавндархади’, намдувндархади’]
+     намдась+V+TV+Mod/futappr+ScPl1+OcSg3: [намдавандархава”, намдавндархава”, намдувндархава”]
+     намдась+V+TV+Mod/futappr+ScPl2+OcSg3: [намдавандархара”, намдавндархара”, намдувндархара”]
+     намдась+V+TV+Mod/futappr+ScPl3+OcSg3: [намдавандархадо’, намдавндархадо’, намдувндархадо’]
+     намдась+V+TV+Mod/futappr+ScSg1+OcDu3: [намдавандархахаюн, намдавндархахаюн, намдувндархахаюн]
+     намдась+V+TV+Mod/futappr+ScSg2+OcDu3: [намдавандархахаюд, намдавндархахаюд, намдувндархахаюд]
+     намдась+V+TV+Mod/futappr+ScSg3+OcDu3: [намдавандархахаюда, намдавндархахаюда, намдувндархахаюда]
+     намдась+V+TV+Mod/futappr+ScDu1+OcDu3: [намдавандархахаюни’, намдавндархахаюни’, намдувндархахаюни’]
+     намдась+V+TV+Mod/futappr+ScDu2+OcDu3: [намдавандархахаюди’, намдавндархахаюди’, намдувндархахаюди’]
+     намдась+V+TV+Mod/futappr+ScDu3+OcDu3: [намдавандархахаюди’, намдавндархахаюди’, намдувндархахаюди’]
+     намдась+V+TV+Mod/futappr+ScPl1+OcDu3: [намдавандархахаюна”, намдавндархахаюна”, намдувндархахаюна”]
+     намдась+V+TV+Mod/futappr+ScPl2+OcDu3: [намдавандархахаюда”, намдавндархахаюда”, намдувндархахаюда”]
+     намдась+V+TV+Mod/futappr+ScPl3+OcDu3: [намдавандархахаюдо’, намдавндархахаюдо’, намдувндархахаюдо’]
+     намдась+V+TV+Mod/futappr+ScSg1+OcPl3: [намдавандархын, намдавндархын, намдувндархын]
+     намдась+V+TV+Mod/futappr+ScSg2+OcPl3: [намдавандархыд, намдавндархыд, намдувндархыд]
+     намдась+V+TV+Mod/futappr+ScSg3+OcPl3: [намдавандархыда, намдавндархыда, намдувндархыда]
+     намдась+V+TV+Mod/futappr+ScDu1+OcPl3: [намдавандархыни’, намдавндархыни’, намдувндархыни’]
+     намдась+V+TV+Mod/futappr+ScDu2+OcPl3: [намдавандархыди’, намдавндархыди’, намдувндархыди’]
+     намдась+V+TV+Mod/futappr+ScDu3+OcPl3: [намдавандархыди’, намдавндархыди’, намдувндархыди’]
+     намдась+V+TV+Mod/futappr+ScPl1+OcPl3: [намдавандархына”, намдавндархына”, намдувндархына”]
+     намдась+V+TV+Mod/futappr+ScPl2+OcPl3: [намдавандархыда”, намдавндархыда”, намдувндархыда”]
+     намдась+V+TV+Mod/futappr+ScPl3+OcPl3: [намдавандархыдо’, намдавндархыдо’, намдувндархыдо’]
+     намдась+V+TV+Mod/sup+ScSg1+OcSg3: намдванӈгабяв
+     намдась+V+TV+Mod/sup+ScSg2+OcSg3: намдванӈгабяр
+     намдась+V+TV+Mod/sup+ScSg3+OcSg3: намдванӈгабяда
+     намдась+V+TV+Mod/sup+ScDu1+OcSg3: намдванӈгабями’
+     намдась+V+TV+Mod/sup+ScDu2+OcSg3: намдванӈгабяри’
+     намдась+V+TV+Mod/sup+ScDu3+OcSg3: намдванӈгабяди’
+     намдась+V+TV+Mod/sup+ScPl1+OcSg3: намдванӈгабява”
+     намдась+V+TV+Mod/sup+ScPl2+OcSg3: намдванӈгабяра”
+     намдась+V+TV+Mod/sup+ScPl3+OcSg3: намдванӈгабядо’
+     намдась+V+TV+Mod/sup+ScSg1+OcDu3: намдванӈгабяхаюн
+     намдась+V+TV+Mod/sup+ScSg2+OcDu3: намдванӈгабяхаюд
+     намдась+V+TV+Mod/sup+ScSg3+OcDu3: намдванӈгабяхаюда
+     намдась+V+TV+Mod/sup+ScDu1+OcDu3: намдванӈгабяхаюни’
+     намдась+V+TV+Mod/sup+ScDu2+OcDu3: намдванӈгабяхаюди’
+     намдась+V+TV+Mod/sup+ScDu3+OcDu3: намдванӈгабяхаюди’
+     намдась+V+TV+Mod/sup+ScPl1+OcDu3: намдванӈгабяхаюна”
+     намдась+V+TV+Mod/sup+ScPl2+OcDu3: намдванӈгабяхаюда”
+     намдась+V+TV+Mod/sup+ScPl3+OcDu3: намдванӈгабяхаюдо’
+     намдась+V+TV+Mod/sup+ScSg1+OcPl3: намдванӈгабин
+     намдась+V+TV+Mod/sup+ScSg2+OcPl3: намдванӈгабид
+     намдась+V+TV+Mod/sup+ScSg3+OcPl3: намдванӈгабида
+     намдась+V+TV+Mod/sup+ScDu1+OcPl3: намдванӈгабини’
+     намдась+V+TV+Mod/sup+ScDu2+OcPl3: намдванӈгабиди’
+     намдась+V+TV+Mod/sup+ScDu3+OcPl3: намдванӈгабиди’
+     намдась+V+TV+Mod/sup+ScPl1+OcPl3: намдванӈгабина”
+     намдась+V+TV+Mod/sup+ScPl2+OcPl3: намдванӈгабида”
+     намдась+V+TV+Mod/sup+ScPl3+OcPl3: намдванӈгабидо’
+     намдась+V+TV+Mod/hyp+ScSg1+OcSg3: намдрахавэв
+     намдась+V+TV+Mod/hyp+ScSg2+OcSg3: намдрахавэр
+     намдась+V+TV+Mod/hyp+ScSg3+OcSg3: намдрахавэда
+     намдась+V+TV+Mod/hyp+ScDu1+OcSg3: намдрахавэми’
+     намдась+V+TV+Mod/hyp+ScDu2+OcSg3: намдрахавэри’
+     намдась+V+TV+Mod/hyp+ScDu3+OcSg3: намдрахавэди’
+     намдась+V+TV+Mod/hyp+ScPl1+OcSg3: намдрахавэва”
+     намдась+V+TV+Mod/hyp+ScPl2+OcSg3: намдрахавэра”
+     намдась+V+TV+Mod/hyp+ScPl3+OcSg3: намдрахавэдо’
+     намдась+V+TV+Mod/hyp+ScSg1+OcDu3: намдрахавэхэюн
+     намдась+V+TV+Mod/hyp+ScSg2+OcDu3: намдрахавэхэюд
+     намдась+V+TV+Mod/hyp+ScSg3+OcDu3: намдрахавэхэюда
+     намдась+V+TV+Mod/hyp+ScDu1+OcDu3: намдрахавэхэюни’
+     намдась+V+TV+Mod/hyp+ScDu2+OcDu3: намдрахавэхэюди’
+     намдась+V+TV+Mod/hyp+ScDu3+OcDu3: намдрахавэхэюди’
+     намдась+V+TV+Mod/hyp+ScPl1+OcDu3: намдрахавэхэюна”
+     намдась+V+TV+Mod/hyp+ScPl2+OcDu3: намдрахавэхэюда”
+     намдась+V+TV+Mod/hyp+ScPl3+OcDu3: намдрахавэхэюдо’
+     намдась+V+TV+Mod/hyp+ScSg1+OcPl3: намдрахавын
+     намдась+V+TV+Mod/hyp+ScSg2+OcPl3: намдрахавыд
+     намдась+V+TV+Mod/hyp+ScSg3+OcPl3: намдрахавыда
+     намдась+V+TV+Mod/hyp+ScDu1+OcPl3: намдрахавыни’
+     намдась+V+TV+Mod/hyp+ScDu2+OcPl3: намдрахавыди’
+     намдась+V+TV+Mod/hyp+ScDu3+OcPl3: намдрахавыди’
+     намдась+V+TV+Mod/hyp+ScPl1+OcPl3: намдрахавына”
+     намдась+V+TV+Mod/hyp+ScPl2+OcPl3: намдрахавыда”
+     намдась+V+TV+Mod/hyp+ScPl3+OcPl3: намдрахавыдо’
+     намдась+V+TV+Mod/perfprob+ScSg1+OcSg3: намдвэкэв
+     намдась+V+TV+Mod/perfprob+ScSg2+OcSg3: намдвэкэр
+     намдась+V+TV+Mod/perfprob+ScSg3+OcSg3: намдвэкэда
+     намдась+V+TV+Mod/perfprob+ScDu1+OcSg3: намдвэкэми’
+     намдась+V+TV+Mod/perfprob+ScDu2+OcSg3: намдвэкэри’
+     намдась+V+TV+Mod/perfprob+ScDu3+OcSg3: намдвэкэди’
+     намдась+V+TV+Mod/perfprob+ScPl1+OcSg3: намдвэкэва”
+     намдась+V+TV+Mod/perfprob+ScPl2+OcSg3: намдвэкэра”
+     намдась+V+TV+Mod/perfprob+ScPl3+OcSg3: намдвэкэдо’
+     намдась+V+TV+Mod/perfprob+ScSg1+OcDu3: намдвэкэхэюн
+     намдась+V+TV+Mod/perfprob+ScSg2+OcDu3: намдвэкэхэюд
+     намдась+V+TV+Mod/perfprob+ScSg3+OcDu3: намдвэкэхэюда
+     намдась+V+TV+Mod/perfprob+ScDu1+OcDu3: намдвэкэхэюни’
+     намдась+V+TV+Mod/perfprob+ScDu2+OcDu3: намдвэкэхэюди’
+     намдась+V+TV+Mod/perfprob+ScDu3+OcDu3: намдвэкэхэюди’
+     намдась+V+TV+Mod/perfprob+ScPl1+OcDu3: намдвэкэхэюна”
+     намдась+V+TV+Mod/perfprob+ScPl2+OcDu3: намдвэкэхэюда”
+     намдась+V+TV+Mod/perfprob+ScPl3+OcDu3: намдвэкэхэюдо’
+     намдась+V+TV+Mod/perfprob+ScSg1+OcPl3: намдвэкын
+     намдась+V+TV+Mod/perfprob+ScSg2+OcPl3: намдвэкыд
+     намдась+V+TV+Mod/perfprob+ScSg3+OcPl3: намдвэкыда
+     намдась+V+TV+Mod/perfprob+ScDu1+OcPl3: намдвэкыни’
+     намдась+V+TV+Mod/perfprob+ScDu2+OcPl3: намдвэкыди’
+     намдась+V+TV+Mod/perfprob+ScDu3+OcPl3: намдвэкыди’
+     намдась+V+TV+Mod/perfprob+ScPl1+OcPl3: намдвэкына”
+     намдась+V+TV+Mod/perfprob+ScPl2+OcPl3: намдвэкыда”
+     намдась+V+TV+Mod/perfprob+ScPl3+OcPl3: намдвэкыдо’
+     намдась+V+TV+Mod/rep+ScSg1+OcSg3: [намдавнав, намдувнав]
+     намдась+V+TV+Mod/rep+ScSg2+OcSg3: [намдавнар, намдувнар]
+     намдась+V+TV+Mod/rep+ScSg3+OcSg3: [намдавнада, намдувнада]
+     намдась+V+TV+Mod/rep+ScDu1+OcSg3: [намдавнами’, намдувнами’]
+     намдась+V+TV+Mod/rep+ScDu2+OcSg3: [намдавнари’, намдувнари’]
+     намдась+V+TV+Mod/rep+ScDu3+OcSg3: [намдавнади’, намдувнади’]
+     намдась+V+TV+Mod/rep+ScPl1+OcSg3: [намдавнава”, намдувнава”]
+     намдась+V+TV+Mod/rep+ScPl2+OcSg3: [намдавнара”, намдувнара”]
+     намдась+V+TV+Mod/rep+ScPl3+OcSg3: [намдавнадо’, намдувнадо’]
+     намдась+V+TV+Mod/rep+ScSg1+OcDu3: [намдавнахаюн, намдувнахаюн]
+     намдась+V+TV+Mod/rep+ScSg2+OcDu3: [намдавнахаюд, намдувнахаюд]
+     намдась+V+TV+Mod/rep+ScSg3+OcDu3: [намдавнахаюда, намдувнахаюда]
+     намдась+V+TV+Mod/rep+ScDu1+OcDu3: [намдавнахаюни’, намдувнахаюни’]
+     намдась+V+TV+Mod/rep+ScDu2+OcDu3: [намдавнахаюди’, намдувнахаюди’]
+     намдась+V+TV+Mod/rep+ScDu3+OcDu3: [намдавнахаюди’, намдувнахаюди’]
+     намдась+V+TV+Mod/rep+ScPl1+OcDu3: [намдавнахаюна”, намдувнахаюна”]
+     намдась+V+TV+Mod/rep+ScPl2+OcDu3: [намдавнахаюда”, намдувнахаюда”]
+     намдась+V+TV+Mod/rep+ScPl3+OcDu3: [намдавнахаюдо’, намдувнахаюдо’]
+     намдась+V+TV+Mod/rep+ScSg1+OcPl3: [намдавнан, намдувнан]
+     намдась+V+TV+Mod/rep+ScSg2+OcPl3: [намдавнад, намдувнад]
+     намдась+V+TV+Mod/rep+ScSg3+OcPl3: [намдавнада, намдувнада]
+     намдась+V+TV+Mod/rep+ScDu1+OcPl3: [намдавнани’, намдувнани’]
+     намдась+V+TV+Mod/rep+ScDu2+OcPl3: [намдавнади’, намдувнади’]
+     намдась+V+TV+Mod/rep+ScDu3+OcPl3: [намдавнади’, намдувнади’]
+     намдась+V+TV+Mod/rep+ScPl1+OcPl3: [намдавнана”, намдувнана”]
+     намдась+V+TV+Mod/rep+ScPl2+OcPl3: [намдавнада”, намдувнада”]
+     намдась+V+TV+Mod/rep+ScPl3+OcPl3: [намдавнадо’, намдувнадо’]
+     намдась+V+TV+Mod/des+ScSg1+OcSg3: намдравав
+     намдась+V+TV+Mod/des+ScSg2+OcSg3: намдравар
+     намдась+V+TV+Mod/des+ScSg3+OcSg3: намдравада
+     намдась+V+TV+Mod/des+ScDu1+OcSg3: намдравами’
+     намдась+V+TV+Mod/des+ScDu2+OcSg3: намдравари’
+     намдась+V+TV+Mod/des+ScDu3+OcSg3: намдравади’
+     намдась+V+TV+Mod/des+ScPl1+OcSg3: намдравава”
+     намдась+V+TV+Mod/des+ScPl2+OcSg3: намдравара”
+     намдась+V+TV+Mod/des+ScPl3+OcSg3: намдравадо’
+     намдась+V+TV+Mod/des+ScSg1+OcDu3: намдравахаюн
+     намдась+V+TV+Mod/des+ScSg2+OcDu3: намдравахаюд
+     намдась+V+TV+Mod/des+ScSg3+OcDu3: намдравахаюда
+     намдась+V+TV+Mod/des+ScDu1+OcDu3: намдравахаюни’
+     намдась+V+TV+Mod/des+ScDu2+OcDu3: намдравахаюди’
+     намдась+V+TV+Mod/des+ScDu3+OcDu3: намдравахаюди’
+     намдась+V+TV+Mod/des+ScPl1+OcDu3: намдравахаюна”
+     намдась+V+TV+Mod/des+ScPl2+OcDu3: намдравахаюда”
+     намдась+V+TV+Mod/des+ScPl3+OcDu3: намдравахаюдо’
+     намдась+V+TV+Mod/des+ScSg1+OcPl3: намдрабин
+     намдась+V+TV+Mod/des+ScSg2+OcPl3: намдрабид
+     намдась+V+TV+Mod/des+ScSg3+OcPl3: намдрабида
+     намдась+V+TV+Mod/des+ScDu1+OcPl3: намдрабини’
+     намдась+V+TV+Mod/des+ScDu2+OcPl3: намдрабиди’
+     намдась+V+TV+Mod/des+ScDu3+OcPl3: намдрабиди’
+     намдась+V+TV+Mod/des+ScPl1+OcPl3: намдрабина”
+     намдась+V+TV+Mod/des+ScPl2+OcPl3: намдрабида”
+     намдась+V+TV+Mod/des+ScPl3+OcPl3: намдрабидо’
+     намдась+V+TV+Fut+Ind+Aor+ScSg1+OcSg3: [намдаӈгув, намдӈгув]
+     намдась+V+TV+Fut+Ind+Aor+ScSg2+OcSg3: [намдаӈгур, намдӈгур]
+     намдась+V+TV+Fut+Ind+Aor+ScSg3+OcSg3: [намдаӈгуда, намдӈгуда]
+     намдась+V+TV+Fut+Ind+Aor+ScDu1+OcSg3: [намдаӈгуми’, намдӈгуми’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu2+OcSg3: [намдаӈгури’, намдӈгури’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu3+OcSg3: [намдаӈгуди’, намдӈгуди’]
+     намдась+V+TV+Fut+Ind+Aor+ScPl1+OcSg3: [намдаӈгува”, намдӈгува”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl2+OcSg3: [намдаӈгура”, намдӈгура”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl3+OcSg3: [намдаӈгудо’, намдӈгудо’]
+     намдась+V+TV+Fut+Ind+Aor+ScSg1+OcDu3: [намдаӈгухуюн, намдӈгухуюн]
+     намдась+V+TV+Fut+Ind+Aor+ScSg2+OcDu3: [намдаӈгухуюд, намдӈгухуюд]
+     намдась+V+TV+Fut+Ind+Aor+ScSg3+OcDu3: [намдаӈгухуюда, намдӈгухуюда]
+     намдась+V+TV+Fut+Ind+Aor+ScDu1+OcDu3: [намдаӈгухуюни’, намдӈгухуюни’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu2+OcDu3: [намдаӈгухуюди’, намдӈгухуюди’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu3+OcDu3: [намдаӈгухуюди’, намдӈгухуюди’]
+     намдась+V+TV+Fut+Ind+Aor+ScPl1+OcDu3: [намдаӈгухуюна”, намдӈгухуюна”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl2+OcDu3: [намдаӈгухуюда”, намдӈгухуюда”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl3+OcDu3: [намдаӈгухуюдо’, намдӈгухуюдо’]
+     намдась+V+TV+Fut+Ind+Aor+ScSg1+OcPl3: [намдаӈгун, намдӈгун]
+     намдась+V+TV+Fut+Ind+Aor+ScSg2+OcPl3: [намдаӈгуд, намдӈгуд]
+     намдась+V+TV+Fut+Ind+Aor+ScSg3+OcPl3: [намдаӈгуда, намдӈгуда]
+     намдась+V+TV+Fut+Ind+Aor+ScDu1+OcPl3: [намдаӈгуни’, намдӈгуни’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu2+OcPl3: [намдаӈгуди’, намдӈгуди’]
+     намдась+V+TV+Fut+Ind+Aor+ScDu3+OcPl3: [намдаӈгуди’, намдӈгуди’]
+     намдась+V+TV+Fut+Ind+Aor+ScPl1+OcPl3: [намдаӈгуна”, намдӈгуна”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl2+OcPl3: [намдаӈгуда”, намдӈгуда”]
+     намдась+V+TV+Fut+Ind+Aor+ScPl3+OcPl3: [намдаӈгудо’, намдӈгудо’]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg1+OcSg3: [намдаӈгувась, намдӈгувась]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg2+OcSg3: [намдаӈгурась, намдӈгурась]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg3+OcSg3: [намдаӈгудась, намдӈгудась]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu1+OcSg3: [намдаӈгуминзь, намдӈгуминзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu2+OcSg3: [намдаӈгуринзь, намдӈгуринзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu3+OcSg3: [намдаӈгудинзь, намдӈгудинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl1+OcSg3: [намдаӈгуваць, намдӈгуваць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl2+OcSg3: [намдаӈгураць, намдӈгураць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl3+OcSg3: [намдаӈгудонзь, намдӈгудонзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg1+OcDu3: [намдаӈгухуюнась, намдӈгухуюнась]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg2+OcDu3: [намдаӈгухуюдась, намдӈгухуюдась]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg3+OcDu3: [намдаӈгухуюдась, намдӈгухуюдась]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu1+OcDu3: [намдаӈгухуюнинзь, намдӈгухуюнинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu2+OcDu3: [намдаӈгухуюдинзь, намдӈгухуюдинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu3+OcDu3: [намдаӈгухуюдинзь, намдӈгухуюдинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl1+OcDu3: [намдаӈгухуюнаць, намдӈгухуюнаць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl2+OcDu3: [намдаӈгухуюдаць, намдӈгухуюдаць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl3+OcDu3: [намдаӈгухуюдонзь, намдӈгухуюдонзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg1+OcPl3: [намдаӈгунась, намдӈгунась]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg2+OcPl3: [намдаӈгудась, намдӈгудась]
+     намдась+V+TV+Fut+Ind+Prt1+ScSg3+OcPl3: [намдаӈгудась, намдӈгудась]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu1+OcPl3: [намдаӈгунинзь, намдӈгунинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu2+OcPl3: [намдаӈгудинзь, намдӈгудинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScDu3+OcPl3: [намдаӈгудинзь, намдӈгудинзь]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl1+OcPl3: [намдаӈгунаць, намдӈгунаць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl2+OcPl3: [намдаӈгудаць, намдӈгудаць]
+     намдась+V+TV+Fut+Ind+Prt1+ScPl3+OcPl3: [намдаӈгудонзь, намдӈгудонзь]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcSg3: [намдаӈгодакэв, намдӈгодакэв]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcSg3: [намдаӈгодакэр, намдӈгодакэр]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcSg3: [намдаӈгодакэда, намдӈгодакэда]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcSg3: [намдаӈгодакэми’, намдӈгодакэми’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcSg3: [намдаӈгодакэри’, намдӈгодакэри’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcSg3: [намдаӈгодакэди’, намдӈгодакэди’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcSg3: [намдаӈгодакэва”, намдӈгодакэва”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcSg3: [намдаӈгодакэра”, намдӈгодакэра”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcSg3: [намдаӈгодакэдо’, намдӈгодакэдо’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcDu3: [намдаӈгодакэхэюн, намдӈгодакэхэюн]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcDu3: [намдаӈгодакэхэюд, намдӈгодакэхэюд]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcDu3: [намдаӈгодакэхэюда, намдӈгодакэхэюда]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcDu3: [намдаӈгодакэхэюни’, намдӈгодакэхэюни’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcDu3: [намдаӈгодакэхэюди’, намдӈгодакэхэюди’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcDu3: [намдаӈгодакэхэюди’, намдӈгодакэхэюди’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcDu3: [намдаӈгодакэхэюна”, намдӈгодакэхэюна”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcDu3: [намдаӈгодакэхэюда”, намдӈгодакэхэюда”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcDu3: [намдаӈгодакэхэюдо’, намдӈгодакэхэюдо’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcPl3: [намдаӈгодакын, намдӈгодакын]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcPl3: [намдаӈгодакыд, намдӈгодакыд]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcPl3: [намдаӈгодакыда, намдӈгодакыда]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcPl3: [намдаӈгодакыни’, намдӈгодакыни’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcPl3: [намдаӈгодакыди’, намдӈгодакыди’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcPl3: [намдаӈгодакыди’, намдӈгодакыди’]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcPl3: [намдаӈгодакына”, намдӈгодакына”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcPl3: [намдаӈгодакыда”, намдӈгодакыда”]
+     намдась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcPl3: [намдаӈгодакыдо’, намдӈгодакыдо’]
+     намдась+V+TV+Prec+Hort+ScSg1+OcSg3: [намдхарцюв, намдхарцяв]
+     намдась+V+TV+Prec+Hort+ScDu1+OcSg3: [намдхарцюми’, намдхарцьми’]
+     намдась+V+TV+Prec+Hort+ScPl1+OcSg3: [намдхарцюва”, намдхарцьва”]
+     намдась+V+TV+Prec+Hort+ScSg1+OcDu3: [намдхарцюхуюн, намдхарцьхаюн]
+     намдась+V+TV+Prec+Hort+ScDu1+OcDu3: [намдхарцюхуюни’, намдхарцьхаюни’]
+     намдась+V+TV+Prec+Hort+ScPl1+OcDu3: [намдхарцюхуюна”, намдхарцьхаюна”]
+     намдась+V+TV+Prec+Hort+ScSg1+OcPl3: [намдхарцюн, намдхарцян]
+     намдась+V+TV+Prec+Hort+ScDu1+OcPl3: [намдхарцюни’, намдхарцьни’]
+     намдась+V+TV+Prec+Hort+ScPl1+OcPl3: [намдхарцюна”, намдхарцьна”]
+     намдась+V+TV+Prec+Imprt+ScSg2+OcSg3: намдхарт
+     намдась+V+TV+Prec+Imprt+ScDu2+OcSg3: [намдхар”ӈари’, намдхарӈари’]
+     намдась+V+TV+Prec+Imprt+ScPl2+OcSg3: [намдхар”ӈара”, намдхарӈара”]
+     намдась+V+TV+Prec+Imprt+ScSg2+OcDu3: [намдхаркаюн”, намдхаркюн”]
+     намдась+V+TV+Prec+Imprt+ScDu2+OcDu3: [намдхар”ӈахаюди’, намдхарӈахаюди’]
+     намдась+V+TV+Prec+Imprt+ScPl2+OcDu3: [намдхар”ӈахаюда”, намдхарӈахаюда”]
+     намдась+V+TV+Prec+Imprt+ScSg2+OcPl3: намдхаран”
+     намдась+V+TV+Prec+Imprt+ScDu2+OcPl3: намдхаръяди’
+     намдась+V+TV+Prec+Imprt+ScPl2+OcPl3: намдхаръяда”
+     намдась+V+TV+Prec+Opt+ScSg3+OcSg3: [намдхар”ӈамда, намдхарӈамда]
+     намдась+V+TV+Prec+Opt+ScDu3+OcSg3: [намдхар”ӈамди’, намдхарӈамди’]
+     намдась+V+TV+Prec+Opt+ScPl3+OcSg3: [намдхар”ӈамдо’, намдхарӈамдо’]
+     намдась+V+TV+Prec+Opt+ScSg3+OcDu3: [намдхар”ӈахаюдамда, намдхарӈахаюдамда]
+     намдась+V+TV+Prec+Opt+ScDu3+OcDu3: [намдхар”ӈахаюдамди’, намдхарӈахаюдамди’]
+     намдась+V+TV+Prec+Opt+ScPl3+OcDu3: [намдхар”ӈахаюдамдо’, намдхарӈахаюдамдо’]
+     намдась+V+TV+Prec+Opt+ScSg3+OcPl3: намдхаръядамда
+     намдась+V+TV+Prec+Opt+ScDu3+OcPl3: намдхаръядамди’
+     намдась+V+TV+Prec+Opt+ScPl3+OcPl3: намдхаръядамдо’
+     намдась+V+TV+Hab+Ind+Aor+ScSg1+OcSg3: [намдсятыв, намдсетыв]
+     намдась+V+TV+Hab+Ind+Aor+ScSg2+OcSg3: [намдсятыр, намдсетыр]
+     намдась+V+TV+Hab+Ind+Aor+ScSg3+OcSg3: [намдсятыда, намдсетыда]
+     намдась+V+TV+Hab+Ind+Aor+ScDu1+OcSg3: [намдсятыми’, намдсетыми’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu2+OcSg3: [намдсятыри’, намдсетыри’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu3+OcSg3: [намдсятыди’, намдсетыди’]
+     намдась+V+TV+Hab+Ind+Aor+ScPl1+OcSg3: [намдсятыва”, намдсетыва”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl2+OcSg3: [намдсятыра”, намдсетыра”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl3+OcSg3: [намдсятыдо’, намдсетыдо’]
+     намдась+V+TV+Hab+Ind+Aor+ScSg1+OcDu3: [намдсятыхыюн, намдсетыхыюн]
+     намдась+V+TV+Hab+Ind+Aor+ScSg2+OcDu3: [намдсятыхыюд, намдсетыхыюд]
+     намдась+V+TV+Hab+Ind+Aor+ScSg3+OcDu3: [намдсятыхыюда, намдсетыхыюда]
+     намдась+V+TV+Hab+Ind+Aor+ScDu1+OcDu3: [намдсятыхыюни’, намдсетыхыюни’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu2+OcDu3: [намдсятыхыюди’, намдсетыхыюди’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu3+OcDu3: [намдсятыхыюди’, намдсетыхыюди’]
+     намдась+V+TV+Hab+Ind+Aor+ScPl1+OcDu3: [намдсятыхыюна”, намдсетыхыюна”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl2+OcDu3: [намдсятыхыюда”, намдсетыхыюда”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl3+OcDu3: [намдсятыхыюдо’, намдсетыхыюдо’]
+     намдась+V+TV+Hab+Ind+Aor+ScSg1+OcPl3: [намдсятын, намдсетын]
+     намдась+V+TV+Hab+Ind+Aor+ScSg2+OcPl3: [намдсятыд, намдсетыд]
+     намдась+V+TV+Hab+Ind+Aor+ScSg3+OcPl3: [намдсятыда, намдсетыда]
+     намдась+V+TV+Hab+Ind+Aor+ScDu1+OcPl3: [намдсятыни’, намдсетыни’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu2+OcPl3: [намдсятыди’, намдсетыди’]
+     намдась+V+TV+Hab+Ind+Aor+ScDu3+OcPl3: [намдсятыди’, намдсетыди’]
+     намдась+V+TV+Hab+Ind+Aor+ScPl1+OcPl3: [намдсятына”, намдсетына”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl2+OcPl3: [намдсятыда”, намдсетыда”]
+     намдась+V+TV+Hab+Ind+Aor+ScPl3+OcPl3: [намдсятыдо’, намдсетыдо’]
+     намдась+V+TV+Hab+Mod/narr+ScSg1+OcSg3: [намдсятвэв, намдсетвэв]
+     намдась+V+TV+Hab+Mod/narr+ScSg2+OcSg3: [намдсятвэр, намдсетвэр]
+     намдась+V+TV+Hab+Mod/narr+ScSg3+OcSg3: [намдсятвэда, намдсетвэда]
+     намдась+V+TV+Hab+Mod/narr+ScDu1+OcSg3: [намдсятвэми’, намдсетвэми’]
+     намдась+V+TV+Hab+Mod/narr+ScDu2+OcSg3: [намдсятвэри’, намдсетвэри’]
+     намдась+V+TV+Hab+Mod/narr+ScDu3+OcSg3: [намдсятвэди’, намдсетвэди’]
+     намдась+V+TV+Hab+Mod/narr+ScPl1+OcSg3: [намдсятвэва”, намдсетвэва”]
+     намдась+V+TV+Hab+Mod/narr+ScPl2+OcSg3: [намдсятвэра”, намдсетвэра”]
+     намдась+V+TV+Hab+Mod/narr+ScPl3+OcSg3: [намдсятвэдо’, намдсетвэдо’]
+     намдась+V+TV+Hab+Mod/narr+ScSg1+OcDu3: [намдсятвэхэюн, намдсетвэхэюн]
+     намдась+V+TV+Hab+Mod/narr+ScSg2+OcDu3: [намдсятвэхэюд, намдсетвэхэюд]
+     намдась+V+TV+Hab+Mod/narr+ScSg3+OcDu3: [намдсятвэхэюда, намдсетвэхэюда]
+     намдась+V+TV+Hab+Mod/narr+ScDu1+OcDu3: [намдсятвэхэюни’, намдсетвэхэюни’]
+     намдась+V+TV+Hab+Mod/narr+ScDu2+OcDu3: [намдсятвэхэюди’, намдсетвэхэюди’]
+     намдась+V+TV+Hab+Mod/narr+ScDu3+OcDu3: [намдсятвэхэюди’, намдсетвэхэюди’]
+     намдась+V+TV+Hab+Mod/narr+ScPl1+OcDu3: [намдсятвэхэюна”, намдсетвэхэюна”]
+     намдась+V+TV+Hab+Mod/narr+ScPl2+OcDu3: [намдсятвэхэюда”, намдсетвэхэюда”]
+     намдась+V+TV+Hab+Mod/narr+ScPl3+OcDu3: [намдсятвэхэюдо’, намдсетвэхэюдо’]
+     намдась+V+TV+Hab+Mod/narr+ScSg1+OcPl3: [намдсятвын, намдсетвын]
+     намдась+V+TV+Hab+Mod/narr+ScSg2+OcPl3: [намдсятвыд, намдсетвыд]
+     намдась+V+TV+Hab+Mod/narr+ScSg3+OcPl3: [намдсятвыда, намдсетвыда]
+     намдась+V+TV+Hab+Mod/narr+ScDu1+OcPl3: [намдсятвыни’, намдсетвыни’]
+     намдась+V+TV+Hab+Mod/narr+ScDu2+OcPl3: [намдсятвыди’, намдсетвыди’]
+     намдась+V+TV+Hab+Mod/narr+ScDu3+OcPl3: [намдсятвыди’, намдсетвыди’]
+     намдась+V+TV+Hab+Mod/narr+ScPl1+OcPl3: [намдсятвына”, намдсетвына”]
+     намдась+V+TV+Hab+Mod/narr+ScPl2+OcPl3: [намдсятвыда”, намдсетвыда”]
+     намдась+V+TV+Hab+Mod/narr+ScPl3+OcPl3: [намдсятвыдо’, намдсетвыдо’]
