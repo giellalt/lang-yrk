@@ -95,6 +95,9 @@ LEXICON IV_НАМДА !!≈ * __@CODE@__ намдась:намда
 LEXICON TV_НАМДА
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_НАМДА ;
 
+LEXICON VR_НАМДА
+V-NEW_НАМДА ;
+
 LEXICON IV_ВАДЮ
 +V+IV: V-01_ВАДЮ       ;
 
@@ -3098,7 +3101,8 @@ LEXICON PRC_PALVAR2
 +PrcImprf:%>тя NMN_ӇОДИ ;
 
 LEXICON V-NEW_НАМДА
- V-NEW_MUTUAL ;
+:%^VowLoss V-NEW_MUTUAL ;
++Ger:%>сь K ;
 +Ger: K ;
  V-NEW_MUTUAL-PRCFUT_внд ;
 :%^VowRaise V-NEW_MUTUAL-PRCFUT_внд ;
@@ -3128,6 +3132,7 @@ LEXICON V-NEW_НАМДА
 
 LEXICON V-NEW_ЛАХАНА
  V-NEW_MUTUAL ;
++Ger:%>сь K ;
 +Ger: K ;
  V-NEW_MUTUAL-PRCFUT_внд ;
 :%^VowRaise V-NEW_MUTUAL-PRCFUT_внд ;
@@ -3155,6 +3160,7 @@ LEXICON V-NEW_ЛАХАНА
 
 LEXICON V-NEW_ХО
 !! * Yaml: __V-xosjTS__
++Ger:%>сь K ;
  V-NEW_MUTUAL ;
  V-NEW_MUTUAL-PRCFUT_ванд ;
  V-NEW_MUTUAL-PRCFUT_внд ;
@@ -3172,7 +3178,6 @@ LEXICON V-NEW_ХО
 
 LEXICON V-NEW_MUTUAL
 @R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL ;
-+Ger:%>сь K ;
 +GerFin:%>ванзь K ;
 +InfImprf+Sg+Nom+Abs:%>ва K ;
 +InfImprf+Sg+Acc+Abs:%>вам’ K ;
