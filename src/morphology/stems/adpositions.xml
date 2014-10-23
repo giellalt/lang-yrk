@@ -424,6 +424,8 @@
 
       <stg>
         <st Contlex="POSTP_PROS-Pal/Var">ир</st>
+
+        <st Contlex="POSTP_PROS">ир</st>
       </stg>
     </lg>
 
@@ -473,7 +475,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Po">vieressä</t>
+        <t pos="Po">viereessä</t>
 
         <t pos="Po">vastapäätä</t>
       </tg>
@@ -514,8 +516,72 @@
         <t/>
       </tg>
     </mg>
+  </e>
 
-    <!--  -->
+  <e>
+    <lg>
+      <l pos="Po">ирнямна</l>
+
+      <stg>
+        <st Contlex="POSTP_PROS">ирня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">rinnakkain</t>
+
+        <t pos="Po">rinnalla</t>
+
+        <t pos="Po">ohi</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">ирняна</l>
+
+      <stg>
+        <st Contlex="POSTP_LOC">ирня</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Po">vieressä</t>
+
+        <t pos="Po">vastapäätä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+    </mg>
   </e>
 
   <e>
