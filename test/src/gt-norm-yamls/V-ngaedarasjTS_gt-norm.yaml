@@ -1,0 +1,2794 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - хось: # Verb 'to send / lähettää' - full paradigm - Type 1, transitive
+  #_[5-B-tr]_ŋædara-_’lähettää’_TV_=_ODD-SYLL_a-vartalo_[MDTN-koodit_a,_ya]
+     ӈэдарась+V+TV+Ger: [ӈэдара, ӈэдарась]
+     ӈэдарась+V+TV+GerFin: ӈэдараванзь
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+Abs: ӈэдарава
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+Abs: ӈэдаравам’
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+Abs: ӈэдарава’
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+Abs: ӈэдараван’
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+Abs: ӈэдаравахана
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+Abs: ӈэдаравахад
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+Abs: ӈэдарававна
+     ӈэдарась+V+TV+InfImprf+Du+Nom+Abs: ӈэдараваха’
+     ӈэдарась+V+TV+InfImprf+Du+Acc+Abs: ӈэдараваха’
+     ӈэдарась+V+TV+InfImprf+Du+Gen+Abs: ӈэдараваха’
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+Abs: ӈэдарава”
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+Abs: ӈэдараби
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+Abs: ӈэдараби”
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+Abs: ӈэдараваха”
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+Abs: ӈэдараваха”на
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+Abs: ӈэдаравахат
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+Abs: ӈэдараби”мана
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxSg1: [ӈэдаравав, ӈэдаравами]
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxSg1: [ӈэдаравав, ӈэдаравами]
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxSg1: [ӈэдараван, ӈэдаравани]
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxSg1: [ӈэдаравахан, ӈэдаравахани]
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxSg1: [ӈэдараваханан, ӈэдараваханани]
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxSg1: [ӈэдаравахадан, ӈэдаравахадани, ӈэдаравахадни]
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxSg1: [ӈэдарававнан, ӈэдарававнани]
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxSg1: [ӈэдаравахаюн, ӈэдаравахаюни]
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxSg1: [ӈэдаравахаюн, ӈэдаравахаюни]
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxSg1: [ӈэдаравахаюн, ӈэдаравахаюни]
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxSg1: [ӈэдарабин, ӈэдарабини]
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxSg1: [ӈэдарабин, ӈэдарабини]
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxSg1: [ӈэдараби”н, ӈэдараби”ни]
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxSg1: [ӈэдараваха”н, ӈэдараваха”ни]
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxSg1: [ӈэдараваха”нан, ӈэдараваха”нани]
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxSg1: [ӈэдаравахатан, ӈэдаравахатани, ӈэдаравахатни]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxSg1: [ӈэдараби”манан, ӈэдараби”манани]
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxSg2: ӈэдаравар
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxSg2: ӈэдаравамд
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxSg2: ӈэдараванд
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxSg2: ӈэдараваханд
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxSg2: ӈэдаравахананд
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxSg2: ӈэдаравахаданд
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxSg2: ӈэдарававнанд
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxSg2: ӈэдаравахаюд
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxSg2: ӈэдаравахаюд
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxSg2: ӈэдаравахают
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxSg2: ӈэдарабид
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxSg2: ӈэдарабид
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxSg2: ӈэдарабит
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxSg2: ӈэдаравахат
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxSg2: ӈэдараваха”нат
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxSg2: ӈэдаравахатат
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxSg2: ӈэдараби”манат
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxSg3: ӈэдаравада
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxSg3: ӈэдаравамда
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxSg3: ӈэдараванда
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxSg3: ӈэдараваханда
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxSg3: ӈэдаравахананда
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxSg3: ӈэдаравахаданда
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxSg3: ӈэдарававнанда
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxSg3: ӈэдаравахаюда
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxSg3: ӈэдаравахаюда
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxSg3: ӈэдаравахаюта
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxSg3: ӈэдарабида
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxSg3: ӈэдарабида
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxSg3: ӈэдарабита
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxSg3: ӈэдаравахата
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxSg3: ӈэдараваха”ната
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxSg3: [ӈэдаравахатата, ӈэдаравахатта]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxSg3: ӈэдараби”маната
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxDu1: ӈэдаравами’
+#     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxSg1.2: ӈэдаравами
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxDu1: ӈэдаравами’
+#     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxSg1.2: ӈэдаравами
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxDu1: ӈэдаравани’
+#     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxSg1.2: ӈэдаравани
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxDu1: ӈэдаравахани’
+#     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxSg1.2: ӈэдаравахани
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxDu1: ӈэдараваханани’
+#     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxSg1.2: ӈэдараваханани
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxDu1: [ӈэдаравахадани’, ӈэдаравахадни’]
+#     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxSg1.2: [ӈэдаравахадани, ӈэдаравахадни]
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxDu1: ӈэдарававнани’
+#     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxSg1.2: ӈэдарававнани
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxDu1: ӈэдаравахаюни’
+#     ӈэдарась+V+TV+InfImprf+Du+Nom+PxSg1.2: ӈэдаравахаюни
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxDu1: ӈэдаравахаюни’
+#     ӈэдарась+V+TV+InfImprf+Du+Acc+PxSg1.2: ӈэдаравахаюни
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxDu1: ӈэдаравахаюни’
+#     ӈэдарась+V+TV+InfImprf+Du+Gen+PxSg1.2: ӈэдаравахаюни
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxDu1: ӈэдарабини’
+#     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxSg1.2: ӈэдарабини
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxDu1: ӈэдарабини’
+#     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxSg1.2: ӈэдарабини
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxDu1: ӈэдараби”ни’
+#     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxSg1.2: ӈэдараби”ни
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxDu1: ӈэдараваха”ни’
+#     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxSg1.2: ӈэдараваха”ни
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxDu1: ӈэдараваха”нани’
+#     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxSg1.2: ӈэдараваха”нани
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxDu1: [ӈэдаравахатани’, ӈэдаравахатни’]
+#     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxSg1.2: [ӈэдаравахатани, ӈэдаравахатни]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxDu1: ӈэдараби”манани’
+#     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxSg1.2: ӈэдараби”манани
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxDu2: ӈэдаравари’
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxDu2: ӈэдаравамди’
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxDu2: ӈэдараванди’
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxDu2: ӈэдараваханди’
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxDu2: ӈэдаравахананди’
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxDu2: ӈэдаравахаданди’
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxDu2: ӈэдарававнанди’
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxDu2: ӈэдаравахаюди’
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxDu2: ӈэдаравахаюди’
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxDu2: ӈэдаравахаюти’
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxDu2: ӈэдарабиди’
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxDu2: ӈэдарабиди’
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxDu2: ӈэдарабити’
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxDu2: ӈэдаравахати’
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxDu2: ӈэдараваха”нати’
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxDu2: [ӈэдаравахатати’, ӈэдаравахатти’]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxDu2: ӈэдараби”манати’
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxDu3: ӈэдаравади’
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxDu3: ӈэдаравамди’
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxDu3: ӈэдараванди’
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxDu3: ӈэдараваханди’
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxDu3: ӈэдаравахананди’
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxDu3: ӈэдаравахаданди’
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxDu3: ӈэдарававнанди’
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxDu3: ӈэдаравахаюди’
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxDu3: ӈэдаравахаюди’
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxDu3: ӈэдаравахаюти’
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxDu3: ӈэдарабиди’
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxDu3: ӈэдарабиди’
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxDu3: ӈэдарабити’
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxDu3: ӈэдаравахати’
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxDu3: ӈэдараваха”нати’
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxDu3: [ӈэдаравахатати’, ӈэдаравахатти’]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxDu3: ӈэдараби”манати’
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxPl1: ӈэдаравава”
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxPl1: ӈэдаравава”
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxPl1: ӈэдаравана”
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxPl1: ӈэдаравахана”
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxPl1: ӈэдараваханана”
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxPl1: [ӈэдаравахадана”, ӈэдаравахадна”]
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxPl1: ӈэдарававнана”
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxPl1: ӈэдаравахаюна”
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxPl1: ӈэдаравахаюна”
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxPl1: ӈэдаравахаюна”
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxPl1: ӈэдарабина”
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxPl1: ӈэдарабина”
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxPl1: ӈэдараби”на”
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxPl1: ӈэдараваха”на”
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxPl1: ӈэдараваха”нана”
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxPl1: [ӈэдаравахатана”, ӈэдаравахатна”]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxPl1: ӈэдараби”манана”
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxPl2: ӈэдаравара”
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxPl2: ӈэдаравамда”
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxPl2: ӈэдараванда”
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxPl2: ӈэдараваханда”
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxPl2: ӈэдаравахананда”
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxPl2: ӈэдаравахаданда”
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxPl2: ӈэдарававнанда”
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxPl2: ӈэдаравахаюда”
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxPl2: ӈэдаравахаюда”
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxPl2: ӈэдаравахаюта”
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxPl2: ӈэдарабида”
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxPl2: ӈэдарабида”
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxPl2: ӈэдарабита”
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxPl2: ӈэдаравахата”
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxPl2: ӈэдараваха”ната”
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxPl2: [ӈэдаравахатата”, ӈэдаравахатта”]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxPl2: ӈэдараби”маната”
+     ӈэдарась+V+TV+InfImprf+Sg+Nom+PxPl3: ӈэдаравадо’
+     ӈэдарась+V+TV+InfImprf+Sg+Acc+PxPl3: ӈэдаравамдо’
+     ӈэдарась+V+TV+InfImprf+Sg+Gen+PxPl3: ӈэдаравандо’
+     ӈэдарась+V+TV+InfImprf+Sg+Dat+PxPl3: ӈэдаравахандо’
+     ӈэдарась+V+TV+InfImprf+Sg+Loc+PxPl3: ӈэдараваханандо’
+     ӈэдарась+V+TV+InfImprf+Sg+Abl+PxPl3: ӈэдаравахадандо’
+     ӈэдарась+V+TV+InfImprf+Sg+Pros+PxPl3: ӈэдарававнандо’
+     ӈэдарась+V+TV+InfImprf+Du+Nom+PxPl3: ӈэдаравахаюдо’
+     ӈэдарась+V+TV+InfImprf+Du+Acc+PxPl3: ӈэдаравахаюдо’
+     ӈэдарась+V+TV+InfImprf+Du+Gen+PxPl3: ӈэдаравахаюто’
+     ӈэдарась+V+TV+InfImprf+Pl+Nom+PxPl3: ӈэдарабидо’
+     ӈэдарась+V+TV+InfImprf+Pl+Acc+PxPl3: ӈэдарабидо’
+     ӈэдарась+V+TV+InfImprf+Pl+Gen+PxPl3: ӈэдарабито’
+     ӈэдарась+V+TV+InfImprf+Pl+Dat+PxPl3: ӈэдаравахато’
+     ӈэдарась+V+TV+InfImprf+Pl+Loc+PxPl3: ӈэдараваха”нато’
+     ӈэдарась+V+TV+InfImprf+Pl+Abl+PxPl3: [ӈэдаравахатато’, ӈэдаравахатто’]
+     ӈэдарась+V+TV+InfImprf+Pl+Pros+PxPl3: ӈэдараби”манато’
+     ӈэдарась+V+TV+InfImprf+Pred+Abs: ӈэдаравад
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxSg1: [ӈэдаравадав, ӈэдаравадув, ӈэдаравадами]
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxSg1: [ӈэдаравадав, ӈэдаравадув, ӈэдаравадами]
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxSg1: [ӈэдаравадан, ӈэдаравадани]
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxSg2: ӈэдаравадар
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxSg2: ӈэдаравадамд
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxSg2: ӈэдараваданд
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxSg3: ӈэдаравадада
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxSg3: ӈэдаравадамда
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxSg3: ӈэдараваданда
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxDu1: ӈэдаравадами’
+#     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxSg1.2: ӈэдаравадами
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxDu1: ӈэдаравадами’
+#     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxSg1.2: ӈэдаравадами
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxDu1: ӈэдаравадани’
+#     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxSg1.2: ӈэдаравадани
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxDu2: ӈэдаравадари’
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxDu2: ӈэдаравадамди’
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxDu2: ӈэдараваданди’
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxDu3: ӈэдаравадади’
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxDu3: ӈэдаравадамди’
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxDu3: ӈэдараваданди’
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxPl1: ӈэдаравадава”
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxPl1: ӈэдаравадава”
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxPl1: ӈэдаравадана”
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxPl2: ӈэдаравадара”
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxPl2: ӈэдаравадамда”
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxPl2: ӈэдараваданда”
+     ӈэдарась+V+TV+InfImprf+Pred+Nom+PxPl3: ӈэдаравададо’
+     ӈэдарась+V+TV+InfImprf+Pred+Acc+PxPl3: ӈэдаравадамдо’
+     ӈэдарась+V+TV+InfImprf+Pred+Gen+PxPl3: ӈэдаравадандо’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScSg1: ӈэдаравадм’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScSg2: ӈэдараван
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScSg3: ӈэдарава
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScDu1: ӈэдаравани’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScDu2: ӈэдаравади’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScDu3: ӈэдараваха’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScPl1: ӈэдаравава”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScPl2: ӈэдаравада”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Aor+ScPl3: ӈэдарава”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScSg1: ӈэдаравадамзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScSg2: ӈэдараванась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScSg3: ӈэдаравась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScDu1: ӈэдараванинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScDu2: ӈэдаравадинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScDu3: ӈэдараваханзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScPl1: ӈэдарававаць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScPl2: ӈэдаравадаць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Abs+Prt1+ScPl3: ӈэдараваць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg1: ӈэдаравав
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg2: ӈэдаравар
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxSg3: ӈэдаравада
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu1: ӈэдаравами’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu2: ӈэдаравари’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxDu3: ӈэдаравади’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl1: ӈэдаравава”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl2: ӈэдаравара”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Aor+PxPl3: ӈэдаравадо’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg1: ӈэдарававась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg2: ӈэдараварась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxSg3: ӈэдаравадась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu1: ӈэдараваминзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu2: ӈэдараваринзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxDu3: ӈэдаравадинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl1: ӈэдарававаць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl2: ӈэдаравараць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Sg+Prt1+PxPl3: ӈэдаравадонзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg1: ӈэдаравахаюн
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg2: ӈэдаравахаюд
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxSg3: ӈэдаравахаюда
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu1: ӈэдаравахаюни’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu2: ӈэдаравахаюди’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxDu3: ӈэдаравахаюди’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl1: ӈэдаравахаюна”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl2: ӈэдаравахаюда”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Aor+PxPl3: ӈэдаравахаюдо’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg1: ӈэдаравахаюнась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg2: ӈэдаравахаюдась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxSg3: ӈэдаравахаюдась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu1: ӈэдаравахаюнинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu2: ӈэдаравахаюдинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxDu3: ӈэдаравахаюдинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl1: ӈэдаравахаюнаць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl2: ӈэдаравахаюдаць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Du+Prt1+PxPl3: ӈэдаравахаюдонзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg1: ӈэдарабин
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg2: ӈэдарабид
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxSg3: ӈэдарабида
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu1: ӈэдарабини’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu2: ӈэдарабиди’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxDu3: ӈэдарабиди’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl1: ӈэдарабина”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl2: ӈэдарабида”
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Aor+PxPl3: ӈэдарабидо’
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg1: ӈэдарабинась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg2: ӈэдарабидась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxSg3: ӈэдарабидась
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu1: ӈэдарабининзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu2: ӈэдарабидинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxDu3: ӈэдарабидинзь
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl1: ӈэдарабинаць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl2: ӈэдарабидаць
+     ӈэдарась+V+TV+InfImprf+Der/Pr+Pl+Prt1+PxPl3: ӈэдарабидонзь
+     ӈэдарась+V+TV+InfImprf+Tra: ӈэдараваӈэ
+     ӈэдарась+V+TV+InfImprf+Car: ӈэдараваси”
+     ӈэдарась+V+TV+InfImprf+Equ: ӈэдаравадарем’
+     ӈэдарась+V+TV+InfImprf+Equ+Lat: ӈэдаравадарев’
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+Abs: ӈэдара”ма
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+Abs: ӈэдара”мам’
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+Abs: ӈэдара”ма’
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+Abs: ӈэдара”ман’
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+Abs: ӈэдара”махана
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+Abs: ӈэдара”махад
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+Abs: ӈэдара”мавна
+     ӈэдарась+V+TV+InfPrf+Du+Nom+Abs: ӈэдара”маха’
+     ӈэдарась+V+TV+InfPrf+Du+Acc+Abs: ӈэдара”маха’
+     ӈэдарась+V+TV+InfPrf+Du+Gen+Abs: ӈэдара”маха’
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+Abs: ӈэдара”ма”
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+Abs: ӈэдара”ми
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+Abs: ӈэдара”ми”
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+Abs: ӈэдара”маха”
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+Abs: ӈэдара”маха”на
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+Abs: ӈэдара”махат
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+Abs: ӈэдара”ми”мана
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxSg1: [ӈэдара”мав, ӈэдара”мами]
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxSg1: [ӈэдара”мав, ӈэдара”мами]
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxSg1: [ӈэдара”ман, ӈэдара”мани]
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxSg1: [ӈэдара”махан, ӈэдара”махани]
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxSg1: [ӈэдара”маханан, ӈэдара”маханани]
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxSg1: [ӈэдара”махадан, ӈэдара”махадани, ӈэдара”махадни]
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxSg1: [ӈэдара”мавнан, ӈэдара”мавнани]
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxSg1: [ӈэдара”махаюн, ӈэдара”махаюни]
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxSg1: [ӈэдара”махаюн, ӈэдара”махаюни]
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxSg1: [ӈэдара”махаюн, ӈэдара”махаюни]
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxSg1: [ӈэдара”мин, ӈэдара”мини]
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxSg1: [ӈэдара”мин, ӈэдара”мини]
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxSg1: [ӈэдара”ми”н, ӈэдара”ми”ни]
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxSg1: [ӈэдара”маха”н, ӈэдара”маха”ни]
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxSg1: [ӈэдара”маха”нан, ӈэдара”маха”нани]
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxSg1: [ӈэдара”махатан, ӈэдара”махатани, ӈэдара”махатни]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxSg1: [ӈэдара”ми”манан, ӈэдара”ми”манани]
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxSg2: ӈэдара”мар
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxSg2: ӈэдара”мамд
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxSg2: ӈэдара”манд
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxSg2: ӈэдара”маханд
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxSg2: ӈэдара”махананд
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxSg2: ӈэдара”махаданд
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxSg2: ӈэдара”мавнанд
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxSg2: ӈэдара”махаюд
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxSg2: ӈэдара”махаюд
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxSg2: ӈэдара”махают
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxSg2: ӈэдара”мид
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxSg2: ӈэдара”мид
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxSg2: ӈэдара”мит
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxSg2: ӈэдара”махат
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxSg2: ӈэдара”маха”нат
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxSg2: ӈэдара”махатат
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxSg2: ӈэдара”ми”манат
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxSg3: ӈэдара”мада
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxSg3: ӈэдара”мамда
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxSg3: ӈэдара”манда
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxSg3: ӈэдара”маханда
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxSg3: ӈэдара”махананда
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxSg3: ӈэдара”махаданда
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxSg3: ӈэдара”мавнанда
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxSg3: ӈэдара”махаюда
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxSg3: ӈэдара”махаюда
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxSg3: ӈэдара”махаюта
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxSg3: ӈэдара”мида
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxSg3: ӈэдара”мида
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxSg3: ӈэдара”мита
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxSg3: ӈэдара”махата
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxSg3: ӈэдара”маха”ната
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxSg3: [ӈэдара”махатата, ӈэдара”махатта]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxSg3: ӈэдара”ми”маната
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxDu1: ӈэдара”мами’
+#     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxSg1.2: ӈэдара”мами
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxDu1: ӈэдара”мами’
+#     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxSg1.2: ӈэдара”мами
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxDu1: ӈэдара”мани’
+#     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxSg1.2: ӈэдара”мани
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxDu1: ӈэдара”махани’
+#     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxSg1.2: ӈэдара”махани
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxDu1: ӈэдара”маханани’
+#     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxSg1.2: ӈэдара”маханани
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxDu1: [ӈэдара”махадани’, ӈэдара”махадни’]
+#     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxSg1.2: [ӈэдара”махадани, ӈэдара”махадни]
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxDu1: ӈэдара”мавнани’
+#     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxSg1.2: ӈэдара”мавнани
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxDu1: ӈэдара”махаюни’
+#     ӈэдарась+V+TV+InfPrf+Du+Nom+PxSg1.2: ӈэдара”махаюни
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxDu1: ӈэдара”махаюни’
+#     ӈэдарась+V+TV+InfPrf+Du+Acc+PxSg1.2: ӈэдара”махаюни
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxDu1: ӈэдара”махаюни’
+#     ӈэдарась+V+TV+InfPrf+Du+Gen+PxSg1.2: ӈэдара”махаюни
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxDu1: ӈэдара”мини’
+#     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxSg1.2: ӈэдара”мини
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxDu1: ӈэдара”мини’
+#     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxSg1.2: ӈэдара”мини
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxDu1: ӈэдара”ми”ни’
+#     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxSg1.2: ӈэдара”ми”ни
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxDu1: ӈэдара”маха”ни’
+#     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxSg1.2: ӈэдара”маха”ни
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxDu1: ӈэдара”маха”нани’
+#     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxSg1.2: ӈэдара”маха”нани
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxDu1: [ӈэдара”махатани’, ӈэдара”махатни’]
+#     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxSg1.2: [ӈэдара”махатани, ӈэдара”махатни]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxDu1: ӈэдара”ми”манани’
+#     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxSg1.2: ӈэдара”ми”манани
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxDu2: ӈэдара”мари’
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxDu2: ӈэдара”мамди’
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxDu2: ӈэдара”манди’
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxDu2: ӈэдара”маханди’
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxDu2: ӈэдара”махананди’
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxDu2: ӈэдара”махаданди’
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxDu2: ӈэдара”мавнанди’
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxDu2: ӈэдара”махаюди’
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxDu2: ӈэдара”махаюди’
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxDu2: ӈэдара”махаюти’
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxDu2: ӈэдара”миди’
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxDu2: ӈэдара”миди’
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxDu2: ӈэдара”мити’
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxDu2: ӈэдара”махати’
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxDu2: ӈэдара”маха”нати’
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxDu2: [ӈэдара”махатати’, ӈэдара”махатти’]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxDu2: ӈэдара”ми”манати’
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxDu3: ӈэдара”мади’
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxDu3: ӈэдара”мамди’
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxDu3: ӈэдара”манди’
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxDu3: ӈэдара”маханди’
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxDu3: ӈэдара”махананди’
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxDu3: ӈэдара”махаданди’
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxDu3: ӈэдара”мавнанди’
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxDu3: ӈэдара”махаюди’
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxDu3: ӈэдара”махаюди’
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxDu3: ӈэдара”махаюти’
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxDu3: ӈэдара”миди’
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxDu3: ӈэдара”миди’
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxDu3: ӈэдара”мити’
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxDu3: ӈэдара”махати’
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxDu3: ӈэдара”маха”нати’
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxDu3: [ӈэдара”махатати’, ӈэдара”махатти’]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxDu3: ӈэдара”ми”манати’
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxPl1: ӈэдара”мава”
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxPl1: ӈэдара”мава”
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxPl1: ӈэдара”мана”
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxPl1: ӈэдара”махана”
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxPl1: ӈэдара”маханана”
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxPl1: [ӈэдара”махадана”, ӈэдара”махадна”]
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxPl1: ӈэдара”мавнана”
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxPl1: ӈэдара”махаюна”
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxPl1: ӈэдара”махаюна”
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxPl1: ӈэдара”махаюна”
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxPl1: ӈэдара”мина”
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxPl1: ӈэдара”мина”
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxPl1: ӈэдара”ми”на”
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxPl1: ӈэдара”маха”на”
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxPl1: ӈэдара”маха”нана”
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxPl1: [ӈэдара”махатана”, ӈэдара”махатна”]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxPl1: ӈэдара”ми”манана”
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxPl2: ӈэдара”мара”
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxPl2: ӈэдара”мамда”
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxPl2: ӈэдара”манда”
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxPl2: ӈэдара”маханда”
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxPl2: ӈэдара”махананда”
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxPl2: ӈэдара”махаданда”
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxPl2: ӈэдара”мавнанда”
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxPl2: ӈэдара”махаюда”
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxPl2: ӈэдара”махаюда”
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxPl2: ӈэдара”махаюта”
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxPl2: ӈэдара”мида”
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxPl2: ӈэдара”мида”
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxPl2: ӈэдара”мита”
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxPl2: ӈэдара”махата”
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxPl2: ӈэдара”маха”ната”
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxPl2: [ӈэдара”махатата”, ӈэдара”махатта”]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxPl2: ӈэдара”ми”маната”
+     ӈэдарась+V+TV+InfPrf+Sg+Nom+PxPl3: ӈэдара”мадо’
+     ӈэдарась+V+TV+InfPrf+Sg+Acc+PxPl3: ӈэдара”мамдо’
+     ӈэдарась+V+TV+InfPrf+Sg+Gen+PxPl3: ӈэдара”мандо’
+     ӈэдарась+V+TV+InfPrf+Sg+Dat+PxPl3: ӈэдара”махандо’
+     ӈэдарась+V+TV+InfPrf+Sg+Loc+PxPl3: ӈэдара”маханандо’
+     ӈэдарась+V+TV+InfPrf+Sg+Abl+PxPl3: ӈэдара”махадандо’
+     ӈэдарась+V+TV+InfPrf+Sg+Pros+PxPl3: ӈэдара”мавнандо’
+     ӈэдарась+V+TV+InfPrf+Du+Nom+PxPl3: ӈэдара”махаюдо’
+     ӈэдарась+V+TV+InfPrf+Du+Acc+PxPl3: ӈэдара”махаюдо’
+     ӈэдарась+V+TV+InfPrf+Du+Gen+PxPl3: ӈэдара”махаюто’
+     ӈэдарась+V+TV+InfPrf+Pl+Nom+PxPl3: ӈэдара”мидо’
+     ӈэдарась+V+TV+InfPrf+Pl+Acc+PxPl3: ӈэдара”мидо’
+     ӈэдарась+V+TV+InfPrf+Pl+Gen+PxPl3: ӈэдара”мито’
+     ӈэдарась+V+TV+InfPrf+Pl+Dat+PxPl3: ӈэдара”махато’
+     ӈэдарась+V+TV+InfPrf+Pl+Loc+PxPl3: ӈэдара”маха”нато’
+     ӈэдарась+V+TV+InfPrf+Pl+Abl+PxPl3: [ӈэдара”махатато’, ӈэдара”махатто’]
+     ӈэдарась+V+TV+InfPrf+Pl+Pros+PxPl3: ӈэдара”ми”манато’
+     ӈэдарась+V+TV+InfPrf+Pred+Abs: ӈэдара”мад
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxSg1: [ӈэдара”мадав, ӈэдара”мадув, ӈэдара”мадами]
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxSg1: [ӈэдара”мадав, ӈэдара”мадув, ӈэдара”мадами]
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxSg1: [ӈэдара”мадан, ӈэдара”мадани]
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxSg2: ӈэдара”мадар
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxSg2: ӈэдара”мадамд
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxSg2: ӈэдара”маданд
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxSg3: ӈэдара”мадада
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxSg3: ӈэдара”мадамда
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxSg3: ӈэдара”маданда
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxDu1: ӈэдара”мадами’
+#     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxSg1.2: ӈэдара”мадами
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxDu1: ӈэдара”мадами’
+#     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxSg1.2: ӈэдара”мадами
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxDu1: ӈэдара”мадани’
+#     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxSg1.2: ӈэдара”мадани
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxDu2: ӈэдара”мадари’
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxDu2: ӈэдара”мадамди’
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxDu2: ӈэдара”маданди’
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxDu3: ӈэдара”мадади’
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxDu3: ӈэдара”мадамди’
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxDu3: ӈэдара”маданди’
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxPl1: ӈэдара”мадава”
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxPl1: ӈэдара”мадава”
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxPl1: ӈэдара”мадана”
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxPl2: ӈэдара”мадара”
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxPl2: ӈэдара”мадамда”
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxPl2: ӈэдара”маданда”
+     ӈэдарась+V+TV+InfPrf+Pred+Nom+PxPl3: ӈэдара”мададо’
+     ӈэдарась+V+TV+InfPrf+Pred+Acc+PxPl3: ӈэдара”мадамдо’
+     ӈэдарась+V+TV+InfPrf+Pred+Gen+PxPl3: ӈэдара”мадандо’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScSg1: ӈэдара”мадм’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScSg2: ӈэдара”ман
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScSg3: ӈэдара”ма
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScDu1: ӈэдара”мани’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScDu2: ӈэдара”мади’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScDu3: ӈэдара”маха’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScPl1: ӈэдара”мава”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScPl2: ӈэдара”мада”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Aor+ScPl3: ӈэдара”ма”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScSg1: ӈэдара”мадамзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScSg2: ӈэдара”манась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScSg3: ӈэдара”мась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScDu1: ӈэдара”манинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScDu2: ӈэдара”мадинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScDu3: ӈэдара”маханзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScPl1: ӈэдара”маваць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScPl2: ӈэдара”мадаць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Abs+Prt1+ScPl3: ӈэдара”маць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg1: ӈэдара”мав
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg2: ӈэдара”мар
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxSg3: ӈэдара”мада
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu1: ӈэдара”мами’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu2: ӈэдара”мари’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxDu3: ӈэдара”мади’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl1: ӈэдара”мава”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl2: ӈэдара”мара”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Aor+PxPl3: ӈэдара”мадо’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg1: ӈэдара”мавась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg2: ӈэдара”марась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxSg3: ӈэдара”мадась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu1: ӈэдара”маминзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu2: ӈэдара”маринзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxDu3: ӈэдара”мадинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl1: ӈэдара”маваць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl2: ӈэдара”мараць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Sg+Prt1+PxPl3: ӈэдара”мадонзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg1: ӈэдара”махаюн
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg2: ӈэдара”махаюд
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxSg3: ӈэдара”махаюда
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu1: ӈэдара”махаюни’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu2: ӈэдара”махаюди’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxDu3: ӈэдара”махаюди’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl1: ӈэдара”махаюна”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl2: ӈэдара”махаюда”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Aor+PxPl3: ӈэдара”махаюдо’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg1: ӈэдара”махаюнась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg2: ӈэдара”махаюдась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxSg3: ӈэдара”махаюдась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu1: ӈэдара”махаюнинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu2: ӈэдара”махаюдинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxDu3: ӈэдара”махаюдинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl1: ӈэдара”махаюнаць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl2: ӈэдара”махаюдаць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Du+Prt1+PxPl3: ӈэдара”махаюдонзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg1: ӈэдара”мин
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg2: ӈэдара”мид
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxSg3: ӈэдара”мида
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu1: ӈэдара”мини’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu2: ӈэдара”миди’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxDu3: ӈэдара”миди’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl1: ӈэдара”мина”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl2: ӈэдара”мида”
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Aor+PxPl3: ӈэдара”мидо’
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg1: ӈэдара”минась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg2: ӈэдара”мидась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxSg3: ӈэдара”мидась
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu1: ӈэдара”мининзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu2: ӈэдара”мидинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxDu3: ӈэдара”мидинзь
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl1: ӈэдара”минаць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl2: ӈэдара”мидаць
+     ӈэдарась+V+TV+InfPrf+Der/Pr+Pl+Prt1+PxPl3: ӈэдара”мидонзь
+     ӈэдарась+V+TV+InfPrf+Tra: ӈэдара”маӈэ
+     ӈэдарась+V+TV+InfPrf+Car: ӈэдара”маси”
+     ӈэдарась+V+TV+InfPrf+Equ: ӈэдара”мадарем’
+     ӈэдарась+V+TV+InfPrf+Equ+Lat: ӈэдара”мадарев’
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+Abs: ӈэдарана
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+Abs: ӈэдаранам’
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+Abs: ӈэдарана’
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+Abs: ӈэдаранан’
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+Abs: ӈэдаранахана
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+Abs: ӈэдаранахад
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+Abs: ӈэдаранавна
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+Abs: ӈэдаранаха’
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+Abs: ӈэдаранаха’
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+Abs: ӈэдаранаха’
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+Abs: ӈэдарана”
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+Abs: ӈэдарани
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+Abs: ӈэдарани”
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+Abs: ӈэдаранаха”
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+Abs: ӈэдаранаха”на
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+Abs: ӈэдаранахат
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+Abs: ӈэдарани”мана
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxSg1: [ӈэдаранав, ӈэдаранами]
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxSg1: [ӈэдаранав, ӈэдаранами]
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxSg1: [ӈэдаранан, ӈэдаранани]
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxSg1: [ӈэдаранахан, ӈэдаранахани]
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxSg1: [ӈэдаранаханан, ӈэдаранаханани]
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxSg1: [ӈэдаранахадан, ӈэдаранахадани, ӈэдаранахадни]
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxSg1: [ӈэдаранавнан, ӈэдаранавнани]
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxSg1: [ӈэдаранахаюн, ӈэдаранахаюни]
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxSg1: [ӈэдаранахаюн, ӈэдаранахаюни]
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxSg1: [ӈэдаранахаюн, ӈэдаранахаюни]
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxSg1: [ӈэдаранин, ӈэдаранини]
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxSg1: [ӈэдаранин, ӈэдаранини]
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxSg1: [ӈэдарани”н, ӈэдарани”ни]
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxSg1: [ӈэдаранаха”н, ӈэдаранаха”ни]
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxSg1: [ӈэдаранаха”нан, ӈэдаранаха”нани]
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxSg1: [ӈэдаранахатан, ӈэдаранахатани, ӈэдаранахатни]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxSg1: [ӈэдарани”манан, ӈэдарани”манани]
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxSg2: ӈэдаранар
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxSg2: ӈэдаранамд
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxSg2: ӈэдарананд
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxSg2: ӈэдаранаханд
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxSg2: ӈэдаранахананд
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxSg2: ӈэдаранахаданд
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxSg2: ӈэдаранавнанд
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxSg2: ӈэдаранахаюд
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxSg2: ӈэдаранахаюд
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxSg2: ӈэдаранахают
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxSg2: ӈэдаранид
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxSg2: ӈэдаранид
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxSg2: ӈэдаранит
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxSg2: ӈэдаранахат
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxSg2: ӈэдаранаха”нат
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxSg2: ӈэдаранахатат
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxSg2: ӈэдарани”манат
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxSg3: ӈэдаранада
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxSg3: ӈэдаранамда
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxSg3: ӈэдарананда
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxSg3: ӈэдаранаханда
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxSg3: ӈэдаранахананда
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxSg3: ӈэдаранахаданда
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxSg3: ӈэдаранавнанда
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxSg3: ӈэдаранахаюда
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxSg3: ӈэдаранахаюда
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxSg3: ӈэдаранахаюта
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxSg3: ӈэдаранида
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxSg3: ӈэдаранида
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxSg3: ӈэдаранита
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxSg3: ӈэдаранахата
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxSg3: ӈэдаранаха”ната
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxSg3: [ӈэдаранахатата, ӈэдаранахатта]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxSg3: ӈэдарани”маната
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxDu1: ӈэдаранами’
+#     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxSg1.2: ӈэдаранами
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxDu1: ӈэдаранами’
+#     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxSg1.2: ӈэдаранами
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxDu1: ӈэдаранани’
+#     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxSg1.2: ӈэдаранани
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxDu1: ӈэдаранахани’
+#     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxSg1.2: ӈэдаранахани
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxDu1: ӈэдаранаханани’
+#     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxSg1.2: ӈэдаранаханани
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxDu1: [ӈэдаранахадани’, ӈэдаранахадни’]
+#     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxSg1.2: [ӈэдаранахадани, ӈэдаранахадни]
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxDu1: ӈэдаранавнани’
+#     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxSg1.2: ӈэдаранавнани
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxDu1: ӈэдаранахаюни’
+#     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxSg1.2: ӈэдаранахаюни
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxDu1: ӈэдаранахаюни’
+#     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxSg1.2: ӈэдаранахаюни
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxDu1: ӈэдаранахаюни’
+#     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxSg1.2: ӈэдаранахаюни
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxDu1: ӈэдаранини’
+#     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxSg1.2: ӈэдаранини
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxDu1: ӈэдаранини’
+#     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxSg1.2: ӈэдаранини
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxDu1: ӈэдарани”ни’
+#     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxSg1.2: ӈэдарани”ни
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxDu1: ӈэдаранаха”ни’
+#     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxSg1.2: ӈэдаранаха”ни
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxDu1: ӈэдаранаха”нани’
+#     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxSg1.2: ӈэдаранаха”нани
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxDu1: [ӈэдаранахатани’, ӈэдаранахатни’]
+#     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxSg1.2: [ӈэдаранахатани, ӈэдаранахатни]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxDu1: ӈэдарани”манани’
+#     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxSg1.2: ӈэдарани”манани
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxDu2: ӈэдаранари’
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxDu2: ӈэдаранамди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxDu2: ӈэдарананди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxDu2: ӈэдаранаханди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxDu2: ӈэдаранахананди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxDu2: ӈэдаранахаданди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxDu2: ӈэдаранавнанди’
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxDu2: ӈэдаранахаюди’
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxDu2: ӈэдаранахаюди’
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxDu2: ӈэдаранахаюти’
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxDu2: ӈэдараниди’
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxDu2: ӈэдараниди’
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxDu2: ӈэдаранити’
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxDu2: ӈэдаранахати’
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxDu2: ӈэдаранаха”нати’
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxDu2: [ӈэдаранахатати’, ӈэдаранахатти’]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxDu2: ӈэдарани”манати’
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxDu3: ӈэдаранади’
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxDu3: ӈэдаранамди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxDu3: ӈэдарананди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxDu3: ӈэдаранаханди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxDu3: ӈэдаранахананди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxDu3: ӈэдаранахаданди’
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxDu3: ӈэдаранавнанди’
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxDu3: ӈэдаранахаюди’
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxDu3: ӈэдаранахаюди’
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxDu3: ӈэдаранахаюти’
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxDu3: ӈэдараниди’
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxDu3: ӈэдараниди’
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxDu3: ӈэдаранити’
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxDu3: ӈэдаранахати’
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxDu3: ӈэдаранаха”нати’
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxDu3: [ӈэдаранахатати’, ӈэдаранахатти’]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxDu3: ӈэдарани”манати’
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxPl1: ӈэдаранава”
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxPl1: ӈэдаранава”
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxPl1: ӈэдаранана”
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxPl1: ӈэдаранахана”
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxPl1: ӈэдаранаханана”
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxPl1: [ӈэдаранахадана”, ӈэдаранахадна”]
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxPl1: ӈэдаранавнана”
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxPl1: ӈэдаранахаюна”
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxPl1: ӈэдаранахаюна”
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxPl1: ӈэдаранахаюна”
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxPl1: ӈэдаранина”
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxPl1: ӈэдаранина”
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxPl1: ӈэдарани”на”
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxPl1: ӈэдаранаха”на”
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxPl1: ӈэдаранаха”нана”
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxPl1: [ӈэдаранахатана”, ӈэдаранахатна”]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxPl1: ӈэдарани”манана”
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxPl2: ӈэдаранара”
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxPl2: ӈэдаранамда”
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxPl2: ӈэдарананда”
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxPl2: ӈэдаранаханда”
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxPl2: ӈэдаранахананда”
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxPl2: ӈэдаранахаданда”
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxPl2: ӈэдаранавнанда”
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxPl2: ӈэдаранахаюда”
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxPl2: ӈэдаранахаюда”
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxPl2: ӈэдаранахаюта”
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxPl2: ӈэдаранида”
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxPl2: ӈэдаранида”
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxPl2: ӈэдаранита”
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxPl2: ӈэдаранахата”
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxPl2: ӈэдаранаха”ната”
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxPl2: [ӈэдаранахатата”, ӈэдаранахатта”]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxPl2: ӈэдарани”маната”
+     ӈэдарась+V+TV+PrcImprf+Sg+Nom+PxPl3: ӈэдаранадо’
+     ӈэдарась+V+TV+PrcImprf+Sg+Acc+PxPl3: ӈэдаранамдо’
+     ӈэдарась+V+TV+PrcImprf+Sg+Gen+PxPl3: ӈэдаранандо’
+     ӈэдарась+V+TV+PrcImprf+Sg+Dat+PxPl3: ӈэдаранахандо’
+     ӈэдарась+V+TV+PrcImprf+Sg+Loc+PxPl3: ӈэдаранаханандо’
+     ӈэдарась+V+TV+PrcImprf+Sg+Abl+PxPl3: ӈэдаранахадандо’
+     ӈэдарась+V+TV+PrcImprf+Sg+Pros+PxPl3: ӈэдаранавнандо’
+     ӈэдарась+V+TV+PrcImprf+Du+Nom+PxPl3: ӈэдаранахаюдо’
+     ӈэдарась+V+TV+PrcImprf+Du+Acc+PxPl3: ӈэдаранахаюдо’
+     ӈэдарась+V+TV+PrcImprf+Du+Gen+PxPl3: ӈэдаранахаюто’
+     ӈэдарась+V+TV+PrcImprf+Pl+Nom+PxPl3: ӈэдаранидо’
+     ӈэдарась+V+TV+PrcImprf+Pl+Acc+PxPl3: ӈэдаранидо’
+     ӈэдарась+V+TV+PrcImprf+Pl+Gen+PxPl3: ӈэдаранито’
+     ӈэдарась+V+TV+PrcImprf+Pl+Dat+PxPl3: ӈэдаранахато’
+     ӈэдарась+V+TV+PrcImprf+Pl+Loc+PxPl3: ӈэдаранаха”нато’
+     ӈэдарась+V+TV+PrcImprf+Pl+Abl+PxPl3: [ӈэдаранахатато’, ӈэдаранахатто’]
+     ӈэдарась+V+TV+PrcImprf+Pl+Pros+PxPl3: ӈэдарани”манато’
+     ӈэдарась+V+TV+PrcImprf+Pred+Abs: ӈэдаранад
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxSg1: [ӈэдаранадав, ӈэдаранадув, ӈэдаранадами]
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxSg1: [ӈэдаранадав, ӈэдаранадув, ӈэдаранадами]
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxSg1: [ӈэдаранадан, ӈэдаранадани]
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxSg2: ӈэдаранадар
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxSg2: ӈэдаранадамд
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxSg2: ӈэдаранаданд
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxSg3: ӈэдаранадада
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxSg3: ӈэдаранадамда
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxSg3: ӈэдаранаданда
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxDu1: ӈэдаранадами’
+#     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxSg1.2: ӈэдаранадами
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxDu1: ӈэдаранадами’
+#     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxSg1.2: ӈэдаранадами
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxDu1: ӈэдаранадани’
+#     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxSg1.2: ӈэдаранадани
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxDu2: ӈэдаранадари’
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxDu2: ӈэдаранадамди’
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxDu2: ӈэдаранаданди’
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxDu3: ӈэдаранадади’
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxDu3: ӈэдаранадамди’
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxDu3: ӈэдаранаданди’
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxPl1: ӈэдаранадава”
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxPl1: ӈэдаранадава”
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxPl1: ӈэдаранадана”
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxPl2: ӈэдаранадара”
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxPl2: ӈэдаранадамда”
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxPl2: ӈэдаранаданда”
+     ӈэдарась+V+TV+PrcImprf+Pred+Nom+PxPl3: ӈэдаранададо’
+     ӈэдарась+V+TV+PrcImprf+Pred+Acc+PxPl3: ӈэдаранадамдо’
+     ӈэдарась+V+TV+PrcImprf+Pred+Gen+PxPl3: ӈэдаранадандо’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScSg1: ӈэдаранадм’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScSg2: ӈэдаранан
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScSg3: ӈэдарана
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScDu1: ӈэдаранани’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScDu2: ӈэдаранади’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScDu3: ӈэдаранаха’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScPl1: ӈэдаранава”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScPl2: ӈэдаранада”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Aor+ScPl3: ӈэдарана”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScSg1: ӈэдаранадамзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScSg2: ӈэдарананась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScSg3: ӈэдаранась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScDu1: ӈэдарананинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScDu2: ӈэдаранадинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScDu3: ӈэдаранаханзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScPl1: ӈэдаранаваць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScPl2: ӈэдаранадаць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Abs+Prt1+ScPl3: ӈэдаранаць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg1: ӈэдаранав
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg2: ӈэдаранар
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxSg3: ӈэдаранада
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu1: ӈэдаранами’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu2: ӈэдаранари’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxDu3: ӈэдаранади’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl1: ӈэдаранава”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl2: ӈэдаранара”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Aor+PxPl3: ӈэдаранадо’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg1: ӈэдаранавась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg2: ӈэдаранарась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxSg3: ӈэдаранадась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu1: ӈэдаранаминзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu2: ӈэдаранаринзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxDu3: ӈэдаранадинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl1: ӈэдаранаваць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl2: ӈэдаранараць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Sg+Prt1+PxPl3: ӈэдаранадонзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg1: ӈэдаранахаюн
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg2: ӈэдаранахаюд
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxSg3: ӈэдаранахаюда
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu1: ӈэдаранахаюни’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu2: ӈэдаранахаюди’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxDu3: ӈэдаранахаюди’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl1: ӈэдаранахаюна”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl2: ӈэдаранахаюда”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Aor+PxPl3: ӈэдаранахаюдо’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg1: ӈэдаранахаюнась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg2: ӈэдаранахаюдась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxSg3: ӈэдаранахаюдась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu1: ӈэдаранахаюнинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu2: ӈэдаранахаюдинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxDu3: ӈэдаранахаюдинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl1: ӈэдаранахаюнаць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl2: ӈэдаранахаюдаць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Du+Prt1+PxPl3: ӈэдаранахаюдонзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg1: ӈэдаранин
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg2: ӈэдаранид
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxSg3: ӈэдаранида
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu1: ӈэдаранини’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu2: ӈэдараниди’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxDu3: ӈэдараниди’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl1: ӈэдаранина”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl2: ӈэдаранида”
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Aor+PxPl3: ӈэдаранидо’
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg1: ӈэдаранинась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg2: ӈэдаранидась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxSg3: ӈэдаранидась
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu1: ӈэдаранининзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu2: ӈэдаранидинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxDu3: ӈэдаранидинзь
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl1: ӈэдаранинаць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl2: ӈэдаранидаць
+     ӈэдарась+V+TV+PrcImprf+Der/Pr+Pl+Prt1+PxPl3: ӈэдаранидонзь
+     ӈэдарась+V+TV+PrcImprf+Tra: ӈэдаранаӈэ
+     ӈэдарась+V+TV+PrcImprf+Car: ӈэдаранаси”
+     ӈэдарась+V+TV+PrcImprf+Equ: ӈэдаранадарем’
+     ӈэдарась+V+TV+PrcImprf+Equ+Lat: ӈэдаранадарев’
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+Abs: ӈэдаравы
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+Abs: ӈэдаравым’
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+Abs: ӈэдаравы’
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+Abs: ӈэдаравэн’
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+Abs: ӈэдаравэхэна
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+Abs: ӈэдаравэхэд
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+Abs: ӈэдаравэвна
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+Abs: ӈэдаравэхэ’
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+Abs: ӈэдаравэхэ’
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+Abs: ӈэдаравэхэ’
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+Abs: ӈэдаравы”
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+Abs: ӈэдаравы
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+Abs: ӈэдаравы”
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+Abs: ӈэдаравэхэ”
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+Abs: ӈэдаравэхэ”на
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+Abs: ӈэдаравэхэт
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+Abs: ӈэдаравы”мана
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxSg1: [ӈэдаравэв, ӈэдаравэми]
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxSg1: [ӈэдаравэв, ӈэдаравэми]
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxSg1: [ӈэдаравэн, ӈэдаравэни]
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxSg1: [ӈэдаравэхэн, ӈэдаравэхэни]
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxSg1: [ӈэдаравэхэнан, ӈэдаравэхэнани]
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxSg1: [ӈэдаравэхэдан, ӈэдаравэхэдани, ӈэдаравэхэдни]
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxSg1: [ӈэдаравэвнан, ӈэдаравэвнани]
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxSg1: [ӈэдаравэхэюн, ӈэдаравэхэюни]
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxSg1: [ӈэдаравэхэюн, ӈэдаравэхэюни]
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxSg1: [ӈэдаравэхэюн, ӈэдаравэхэюни]
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxSg1: [ӈэдаравын, ӈэдаравыни]
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxSg1: [ӈэдаравын, ӈэдаравыни]
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxSg1: [ӈэдаравы”н, ӈэдаравы”ни]
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxSg1: [ӈэдаравэхэ”н, ӈэдаравэхэ”ни]
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxSg1: [ӈэдаравэхэ”нан, ӈэдаравэхэ”нани]
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxSg1: [ӈэдаравэхэтан, ӈэдаравэхэтани, ӈэдаравэхэтни]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxSg1: [ӈэдаравы”манан, ӈэдаравы”манани]
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxSg2: ӈэдаравэр
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxSg2: ӈэдаравэмд
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxSg2: ӈэдаравэнд
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxSg2: ӈэдаравэхэнд
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxSg2: ӈэдаравэхэнанд
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxSg2: ӈэдаравэхэданд
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxSg2: ӈэдаравэвнанд
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxSg2: ӈэдаравэхэюд
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxSg2: ӈэдаравэхэюд
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxSg2: ӈэдаравэхэют
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxSg2: ӈэдаравыд
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxSg2: ӈэдаравыд
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxSg2: ӈэдаравыт
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxSg2: ӈэдаравэхэт
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxSg2: ӈэдаравэхэ”нат
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxSg2: ӈэдаравэхэтат
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxSg2: ӈэдаравы”манат
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxSg3: ӈэдаравэда
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxSg3: ӈэдаравэмда
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxSg3: ӈэдаравэнда
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxSg3: ӈэдаравэхэнда
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxSg3: ӈэдаравэхэнанда
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxSg3: ӈэдаравэхэданда
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxSg3: ӈэдаравэвнанда
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxSg3: ӈэдаравэхэюда
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxSg3: ӈэдаравэхэюда
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxSg3: ӈэдаравэхэюта
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxSg3: ӈэдаравыда
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxSg3: ӈэдаравыда
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxSg3: ӈэдаравыта
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxSg3: ӈэдаравэхэта
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxSg3: ӈэдаравэхэ”ната
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxSg3: [ӈэдаравэхэтата, ӈэдаравэхэтта]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxSg3: ӈэдаравы”маната
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxDu1: ӈэдаравэми’
+#     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxSg1.2: ӈэдаравэми
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxDu1: ӈэдаравэми’
+#     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxSg1.2: ӈэдаравэми
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxDu1: ӈэдаравэни’
+#     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxSg1.2: ӈэдаравэни
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxDu1: ӈэдаравэхэни’
+#     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxSg1.2: ӈэдаравэхэни
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxDu1: ӈэдаравэхэнани’
+#     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxSg1.2: ӈэдаравэхэнани
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxDu1: [ӈэдаравэхэдани’, ӈэдаравэхэдни’]
+#     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxSg1.2: [ӈэдаравэхэдани, ӈэдаравэхэдни]
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxDu1: ӈэдаравэвнани’
+#     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxSg1.2: ӈэдаравэвнани
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxDu1: ӈэдаравэхэюни’
+#     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxSg1.2: ӈэдаравэхэюни
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxDu1: ӈэдаравэхэюни’
+#     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxSg1.2: ӈэдаравэхэюни
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxDu1: ӈэдаравэхэюни’
+#     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxSg1.2: ӈэдаравэхэюни
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxDu1: ӈэдаравыни’
+#     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxSg1.2: ӈэдаравыни
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxDu1: ӈэдаравыни’
+#     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxSg1.2: ӈэдаравыни
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxDu1: ӈэдаравы”ни’
+#     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxSg1.2: ӈэдаравы”ни
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxDu1: ӈэдаравэхэ”ни’
+#     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxSg1.2: ӈэдаравэхэ”ни
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxDu1: ӈэдаравэхэ”нани’
+#     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxSg1.2: ӈэдаравэхэ”нани
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxDu1: [ӈэдаравэхэтани’, ӈэдаравэхэтни’]
+#     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxSg1.2: [ӈэдаравэхэтани, ӈэдаравэхэтни]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxDu1: ӈэдаравы”манани’
+#     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxSg1.2: ӈэдаравы”манани
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxDu2: ӈэдаравэри’
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxDu2: ӈэдаравэмди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxDu2: ӈэдаравэнди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxDu2: ӈэдаравэхэнди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxDu2: ӈэдаравэхэнанди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxDu2: ӈэдаравэхэданди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxDu2: ӈэдаравэвнанди’
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxDu2: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxDu2: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxDu2: ӈэдаравэхэюти’
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxDu2: ӈэдаравыди’
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxDu2: ӈэдаравыди’
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxDu2: ӈэдаравыти’
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxDu2: ӈэдаравэхэти’
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxDu2: ӈэдаравэхэ”нати’
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxDu2: [ӈэдаравэхэтати’, ӈэдаравэхэтти’]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxDu2: ӈэдаравы”манати’
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxDu3: ӈэдаравэди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxDu3: ӈэдаравэмди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxDu3: ӈэдаравэнди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxDu3: ӈэдаравэхэнди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxDu3: ӈэдаравэхэнанди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxDu3: ӈэдаравэхэданди’
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxDu3: ӈэдаравэвнанди’
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxDu3: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxDu3: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxDu3: ӈэдаравэхэюти’
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxDu3: ӈэдаравыди’
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxDu3: ӈэдаравыди’
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxDu3: ӈэдаравыти’
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxDu3: ӈэдаравэхэти’
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxDu3: ӈэдаравэхэ”нати’
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxDu3: [ӈэдаравэхэтати’, ӈэдаравэхэтти’]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxDu3: ӈэдаравы”манати’
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxPl1: ӈэдаравэва”
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxPl1: ӈэдаравэва”
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxPl1: ӈэдаравэна”
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxPl1: ӈэдаравэхэна”
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxPl1: ӈэдаравэхэнана”
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxPl1: [ӈэдаравэхэдана”, ӈэдаравэхэдна”]
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxPl1: ӈэдаравэвнана”
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxPl1: ӈэдаравэхэюна”
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxPl1: ӈэдаравэхэюна”
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxPl1: ӈэдаравэхэюна”
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxPl1: ӈэдаравына”
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxPl1: ӈэдаравына”
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxPl1: ӈэдаравы”на”
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxPl1: ӈэдаравэхэ”на”
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxPl1: ӈэдаравэхэ”нана”
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxPl1: [ӈэдаравэхэтана”, ӈэдаравэхэтна”]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxPl1: ӈэдаравы”манана”
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxPl2: ӈэдаравэра”
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxPl2: ӈэдаравэмда”
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxPl2: ӈэдаравэнда”
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxPl2: ӈэдаравэхэнда”
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxPl2: ӈэдаравэхэнанда”
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxPl2: ӈэдаравэхэданда”
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxPl2: ӈэдаравэвнанда”
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxPl2: ӈэдаравэхэюда”
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxPl2: ӈэдаравэхэюда”
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxPl2: ӈэдаравэхэюта”
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxPl2: ӈэдаравыда”
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxPl2: ӈэдаравыда”
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxPl2: ӈэдаравыта”
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxPl2: ӈэдаравэхэта”
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxPl2: ӈэдаравэхэ”ната”
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxPl2: [ӈэдаравэхэтата”, ӈэдаравэхэтта”]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxPl2: ӈэдаравы”маната”
+     ӈэдарась+V+TV+PrcPrf+Sg+Nom+PxPl3: ӈэдаравэдо’
+     ӈэдарась+V+TV+PrcPrf+Sg+Acc+PxPl3: ӈэдаравэмдо’
+     ӈэдарась+V+TV+PrcPrf+Sg+Gen+PxPl3: ӈэдаравэндо’
+     ӈэдарась+V+TV+PrcPrf+Sg+Dat+PxPl3: ӈэдаравэхэндо’
+     ӈэдарась+V+TV+PrcPrf+Sg+Loc+PxPl3: ӈэдаравэхэнандо’
+     ӈэдарась+V+TV+PrcPrf+Sg+Abl+PxPl3: ӈэдаравэхэдандо’
+     ӈэдарась+V+TV+PrcPrf+Sg+Pros+PxPl3: ӈэдаравэвнандо’
+     ӈэдарась+V+TV+PrcPrf+Du+Nom+PxPl3: ӈэдаравэхэюдо’
+     ӈэдарась+V+TV+PrcPrf+Du+Acc+PxPl3: ӈэдаравэхэюдо’
+     ӈэдарась+V+TV+PrcPrf+Du+Gen+PxPl3: ӈэдаравэхэюто’
+     ӈэдарась+V+TV+PrcPrf+Pl+Nom+PxPl3: ӈэдаравыдо’
+     ӈэдарась+V+TV+PrcPrf+Pl+Acc+PxPl3: ӈэдаравыдо’
+     ӈэдарась+V+TV+PrcPrf+Pl+Gen+PxPl3: ӈэдаравыто’
+     ӈэдарась+V+TV+PrcPrf+Pl+Dat+PxPl3: ӈэдаравэхэто’
+     ӈэдарась+V+TV+PrcPrf+Pl+Loc+PxPl3: ӈэдаравэхэ”нато’
+     ӈэдарась+V+TV+PrcPrf+Pl+Abl+PxPl3: [ӈэдаравэхэтато’, ӈэдаравэхэтто’]
+     ӈэдарась+V+TV+PrcPrf+Pl+Pros+PxPl3: ӈэдаравы”манато’
+     ӈэдарась+V+TV+PrcPrf+Pred+Abs: ӈэдаравэд
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxSg1: [ӈэдаравэдав, ӈэдаравэдув, ӈэдаравэдами]
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxSg1: [ӈэдаравэдав, ӈэдаравэдув, ӈэдаравэдами]
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxSg1: [ӈэдаравэдан, ӈэдаравэдани]
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxSg2: ӈэдаравэдар
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxSg2: ӈэдаравэдамд
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxSg2: ӈэдаравэданд
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxSg3: ӈэдаравэдада
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxSg3: ӈэдаравэдамда
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxSg3: ӈэдаравэданда
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxDu1: ӈэдаравэдами’
+#     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxSg1.2: ӈэдаравэдами
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxDu1: ӈэдаравэдами’
+#     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxSg1.2: ӈэдаравэдами
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxDu1: ӈэдаравэдани’
+#     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxSg1.2: ӈэдаравэдани
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxDu2: ӈэдаравэдари’
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxDu2: ӈэдаравэдамди’
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxDu2: ӈэдаравэданди’
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxDu3: ӈэдаравэдади’
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxDu3: ӈэдаравэдамди’
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxDu3: ӈэдаравэданди’
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxPl1: ӈэдаравэдава”
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxPl1: ӈэдаравэдава”
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxPl1: ӈэдаравэдана”
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxPl2: ӈэдаравэдара”
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxPl2: ӈэдаравэдамда”
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxPl2: ӈэдаравэданда”
+     ӈэдарась+V+TV+PrcPrf+Pred+Nom+PxPl3: ӈэдаравэдадо’
+     ӈэдарась+V+TV+PrcPrf+Pred+Acc+PxPl3: ӈэдаравэдамдо’
+     ӈэдарась+V+TV+PrcPrf+Pred+Gen+PxPl3: ӈэдаравэдандо’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScSg1: ӈэдаравэдм’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScSg2: ӈэдаравэн
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScSg3: ӈэдаравы
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScDu1: ӈэдаравэни’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScDu2: ӈэдаравэди’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScDu3: ӈэдаравэхэ’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScPl1: ӈэдаравэва”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScPl2: ӈэдаравэда”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Aor+ScPl3: ӈэдаравы”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScSg1: ӈэдаравэдамзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScSg2: ӈэдаравэнась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScSg3: [ӈэдаравысь, ӈэдаравэсь]
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScDu1: ӈэдаравэнинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScDu2: ӈэдаравэдинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScDu3: ӈэдаравэхэнзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScPl1: ӈэдаравэваць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScPl2: ӈэдаравэдаць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Abs+Prt1+ScPl3: [ӈэдаравыць, ӈэдаравэць]
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg1: ӈэдаравэв
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg2: ӈэдаравэр
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxSg3: ӈэдаравэда
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu1: ӈэдаравэми’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu2: ӈэдаравэри’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxDu3: ӈэдаравэди’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl1: ӈэдаравэва”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl2: ӈэдаравэра”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Aor+PxPl3: ӈэдаравэдо’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg1: ӈэдаравэвась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg2: ӈэдаравэрась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxSg3: ӈэдаравэдась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu1: ӈэдаравэминзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu2: ӈэдаравэринзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxDu3: ӈэдаравэдинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl1: ӈэдаравэваць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl2: ӈэдаравэраць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Sg+Prt1+PxPl3: ӈэдаравэдонзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg1: ӈэдаравэхэюн
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg2: ӈэдаравэхэюд
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxSg3: ӈэдаравэхэюда
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu1: ӈэдаравэхэюни’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu2: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxDu3: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl1: ӈэдаравэхэюна”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl2: ӈэдаравэхэюда”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Aor+PxPl3: ӈэдаравэхэюдо’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg1: ӈэдаравэхэюнась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg2: ӈэдаравэхэюдась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxSg3: ӈэдаравэхэюдась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu1: ӈэдаравэхэюнинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu2: ӈэдаравэхэюдинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxDu3: ӈэдаравэхэюдинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl1: ӈэдаравэхэюнаць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl2: ӈэдаравэхэюдаць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Du+Prt1+PxPl3: ӈэдаравэхэюдонзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg1: ӈэдаравын
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg2: ӈэдаравыд
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxSg3: ӈэдаравыда
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu1: ӈэдаравыни’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu2: ӈэдаравыди’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxDu3: ӈэдаравыди’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl1: ӈэдаравына”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl2: ӈэдаравыда”
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Aor+PxPl3: ӈэдаравыдо’
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg1: ӈэдаравынась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg2: ӈэдаравыдась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxSg3: ӈэдаравыдась
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu1: ӈэдаравынинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu2: ӈэдаравыдинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxDu3: ӈэдаравыдинзь
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl1: ӈэдаравынаць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl2: ӈэдаравыдаць
+     ӈэдарась+V+TV+PrcPrf+Der/Pr+Pl+Prt1+PxPl3: ӈэдаравыдонзь
+     ӈэдарась+V+TV+PrcPrf+Tra: ӈэдаравэӈэ
+     ӈэдарась+V+TV+PrcPrf+Car: ӈэдаравэси”
+     ӈэдарась+V+TV+PrcPrf+Equ: ӈэдаравэдарем’
+     ӈэдарась+V+TV+PrcPrf+Equ+Lat: ӈэдаравэдарев’
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+Abs: [ӈэдараванда, ӈэдаравнда]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+Abs: [ӈэдаравандам’, ӈэдаравндам’]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+Abs: [ӈэдараванда’, ӈэдаравнда’]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+Abs: [ӈэдаравандан’, ӈэдаравндан’]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+Abs: [ӈэдаравандахана, ӈэдаравндахана]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+Abs: [ӈэдаравандахад, ӈэдаравндахад]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+Abs: [ӈэдаравандавна, ӈэдаравндавна]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+Abs: [ӈэдаравандаха’, ӈэдаравндаха’]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+Abs: [ӈэдаравандаха’, ӈэдаравндаха’]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+Abs: [ӈэдаравандаха’, ӈэдаравндаха’]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+Abs: [ӈэдараванда”, ӈэдаравнда”]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+Abs: [ӈэдараванди, ӈэдаравнди]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+Abs: [ӈэдараванди”, ӈэдаравнди”]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+Abs: [ӈэдаравандаха”, ӈэдаравндаха”]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+Abs: [ӈэдаравандаха”на, ӈэдаравндаха”на]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+Abs: [ӈэдаравандахат, ӈэдаравндахат]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+Abs: [ӈэдараванди”мна, ӈэдаравнди”мна]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxSg1: [ӈэдаравандав, ӈэдаравндав, ӈэдаравандами, ӈэдаравндами]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxSg1: [ӈэдаравандав, ӈэдаравндав, ӈэдаравандами, ӈэдаравндами]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxSg1: [ӈэдаравандан, ӈэдаравндан, ӈэдаравандани, ӈэдаравндани]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxSg1: [ӈэдаравандахан, ӈэдаравндахан, ӈэдаравандахани, ӈэдаравндахани]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxSg1: [ӈэдаравандаханан, ӈэдаравндаханан, ӈэдаравандаханани, ӈэдаравндаханани]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxSg1: [ӈэдаравандахадан, ӈэдаравндахадан, ӈэдаравандахадани, ӈэдаравндахадани]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxSg1: [ӈэдаравандавнан, ӈэдаравндавнан, ӈэдаравандавнани, ӈэдаравндавнани]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxSg1: [ӈэдаравандахаюн, ӈэдаравндахаюн, ӈэдаравандахаюни, ӈэдаравндахаюни]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxSg1: [ӈэдаравандахаюн, ӈэдаравндахаюн, ӈэдаравандахаюни, ӈэдаравндахаюни]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxSg1: [ӈэдаравандахаюн, ӈэдаравндахаюн, ӈэдаравандахаюни, ӈэдаравндахаюни]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxSg1: [ӈэдаравандин, ӈэдаравндин, ӈэдаравандини, ӈэдаравндини]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxSg1: [ӈэдаравандин, ӈэдаравндин, ӈэдаравандини, ӈэдаравндини]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxSg1: [ӈэдараванди”н, ӈэдаравнди”н, ӈэдараванди”ни, ӈэдаравнди”ни]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxSg1: [ӈэдаравандаха”н, ӈэдаравндаха”н, ӈэдаравандаха”ни, ӈэдаравндаха”ни]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxSg1: [ӈэдаравандаха”нан, ӈэдаравндаха”нан, ӈэдаравандаха”нани, ӈэдаравндаха”нани]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxSg1: [ӈэдаравандахатан, ӈэдаравндахатан, ӈэдаравандахатани, ӈэдаравндахатани]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxSg1: [ӈэдараванди”мнан, ӈэдаравнди”мнан, ӈэдараванди”мнани, ӈэдаравнди”мнани]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxSg2: [ӈэдаравандар, ӈэдаравндар]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxSg2: [ӈэдаравандамд, ӈэдаравндамд]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxSg2: [ӈэдараванданд, ӈэдаравнданд]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxSg2: [ӈэдаравандаханд, ӈэдаравндаханд]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxSg2: [ӈэдаравандахананд, ӈэдаравндахананд]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxSg2: [ӈэдаравандахаданд, ӈэдаравндахаданд]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxSg2: [ӈэдаравандавнанд, ӈэдаравндавнанд]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxSg2: [ӈэдаравандахаюд, ӈэдаравндахаюд]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxSg2: [ӈэдаравандахаюд, ӈэдаравндахаюд]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxSg2: [ӈэдаравандахают, ӈэдаравндахают]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxSg2: [ӈэдаравандид, ӈэдаравндид]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxSg2: [ӈэдаравандид, ӈэдаравндид]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxSg2: [ӈэдаравандит, ӈэдаравндит]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxSg2: [ӈэдаравандахат, ӈэдаравндахат]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxSg2: [ӈэдаравандаха”нат, ӈэдаравндаха”нат]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxSg2: [ӈэдаравандахатат, ӈэдаравндахатат]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxSg2: [ӈэдараванди”мнат, ӈэдаравнди”мнат]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxSg3: [ӈэдаравандада, ӈэдаравндада]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxSg3: [ӈэдаравандамда, ӈэдаравндамда]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxSg3: [ӈэдараванданда, ӈэдаравнданда]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxSg3: [ӈэдаравандаханда, ӈэдаравндаханда]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxSg3: [ӈэдаравандахананда, ӈэдаравндахананда]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxSg3: [ӈэдаравандахаданда, ӈэдаравндахаданда]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxSg3: [ӈэдаравандавнанда, ӈэдаравндавнанда]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxSg3: [ӈэдаравандахаюда, ӈэдаравндахаюда]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxSg3: [ӈэдаравандахаюда, ӈэдаравндахаюда]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxSg3: [ӈэдаравандахаюта, ӈэдаравндахаюта]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxSg3: [ӈэдаравандида, ӈэдаравндида]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxSg3: [ӈэдаравандида, ӈэдаравндида]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxSg3: [ӈэдаравандита, ӈэдаравндита]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxSg3: [ӈэдаравандахата, ӈэдаравндахата]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxSg3: [ӈэдаравандаха”ната, ӈэдаравндаха”ната]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxSg3: [ӈэдаравандахатата, ӈэдаравндахатата]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxSg3: [ӈэдараванди”мната, ӈэдаравнди”мната]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxDu1: [ӈэдаравандами’, ӈэдаравндами’]
+#     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxSg1.2: [ӈэдаравандами, ӈэдаравндами]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxDu1: [ӈэдаравандами’, ӈэдаравндами’]
+#     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxSg1.2: [ӈэдаравандами, ӈэдаравндами]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxDu1: [ӈэдаравандани’, ӈэдаравндани’]
+#     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxSg1.2: [ӈэдаравандани, ӈэдаравндани]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxDu1: [ӈэдаравандахани’, ӈэдаравндахани’]
+#     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxSg1.2: [ӈэдаравандахани, ӈэдаравндахани]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxDu1: [ӈэдаравандаханани’, ӈэдаравндаханани’]
+#     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxSg1.2: [ӈэдаравандаханани, ӈэдаравндаханани]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxDu1: [ӈэдаравандахадани’, ӈэдаравндахадани’]
+#     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxSg1.2: [ӈэдаравандахадани, ӈэдаравндахадани]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxDu1: [ӈэдаравандавнани’, ӈэдаравндавнани’]
+#     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxSg1.2: [ӈэдаравандавнани, ӈэдаравндавнани]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxDu1: [ӈэдаравандахаюни’, ӈэдаравндахаюни’]
+#     ӈэдарась+V+TV+PrcFut+Du+Nom+PxSg1.2: [ӈэдаравандахаюни, ӈэдаравндахаюни]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxDu1: [ӈэдаравандахаюни’, ӈэдаравндахаюни’]
+#     ӈэдарась+V+TV+PrcFut+Du+Acc+PxSg1.2: [ӈэдаравандахаюни, ӈэдаравндахаюни]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxDu1: [ӈэдаравандахаюни’, ӈэдаравндахаюни’]
+#     ӈэдарась+V+TV+PrcFut+Du+Gen+PxSg1.2: [ӈэдаравандахаюни, ӈэдаравндахаюни]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxDu1: [ӈэдаравандини’, ӈэдаравндини’]
+#     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxSg1.2: [ӈэдаравандини, ӈэдаравндини]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxDu1: [ӈэдаравандини’, ӈэдаравндини’]
+#     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxSg1.2: [ӈэдаравандини, ӈэдаравндини]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxDu1: [ӈэдараванди”ни’, ӈэдаравнди”ни’]
+#     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxSg1.2: [ӈэдараванди”ни, ӈэдаравнди”ни]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxDu1: [ӈэдаравандаха”ни’, ӈэдаравндаха”ни’]
+#     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxSg1.2: [ӈэдаравандаха”ни, ӈэдаравндаха”ни]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxDu1: [ӈэдаравандаха”нани’, ӈэдаравндаха”нани’]
+#     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxSg1.2: [ӈэдаравандаха”нани, ӈэдаравндаха”нани]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxDu1: [ӈэдаравандахатани’, ӈэдаравндахатани’]
+#     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxSg1.2: [ӈэдаравандахатани, ӈэдаравндахатани]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxDu1: [ӈэдараванди”мнани’, ӈэдаравнди”мнани’]
+#     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxSg1.2: [ӈэдараванди”мнани, ӈэдаравнди”мнани]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxDu2: [ӈэдаравандари’, ӈэдаравндари’]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxDu2: [ӈэдаравандамди’, ӈэдаравндамди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxDu2: [ӈэдараванданди’, ӈэдаравнданди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxDu2: [ӈэдаравандаханди’, ӈэдаравндаханди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxDu2: [ӈэдаравандахананди’, ӈэдаравндахананди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxDu2: [ӈэдаравандахаданди’, ӈэдаравндахаданди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxDu2: [ӈэдаравандавнанди’, ӈэдаравндавнанди’]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxDu2: [ӈэдаравандахаюди’, ӈэдаравндахаюди’]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxDu2: [ӈэдаравандахаюди’, ӈэдаравндахаюди’]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxDu2: [ӈэдаравандахаюти’, ӈэдаравндахаюти’]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxDu2: [ӈэдаравандиди’, ӈэдаравндиди’]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxDu2: [ӈэдаравандиди’, ӈэдаравндиди’]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxDu2: [ӈэдаравандити’, ӈэдаравндити’]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxDu2: [ӈэдаравандахати’, ӈэдаравндахати’]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxDu2: [ӈэдаравандаха”нати’, ӈэдаравндаха”нати’]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxDu2: [ӈэдаравандахатати’, ӈэдаравндахатати’]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxDu2: [ӈэдараванди”мнати’, ӈэдаравнди”мнати’]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxDu3: [ӈэдаравандади’, ӈэдаравндади’]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxDu3: [ӈэдаравандамди’, ӈэдаравндамди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxDu3: [ӈэдараванданди’, ӈэдаравнданди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxDu3: [ӈэдаравандаханди’, ӈэдаравндаханди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxDu3: [ӈэдаравандахананди’, ӈэдаравндахананди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxDu3: [ӈэдаравандахаданди’, ӈэдаравндахаданди’]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxDu3: [ӈэдаравандавнанди’, ӈэдаравндавнанди’]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxDu3: [ӈэдаравандахаюди’, ӈэдаравндахаюди’]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxDu3: [ӈэдаравандахаюди’, ӈэдаравндахаюди’]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxDu3: [ӈэдаравандахаюти’, ӈэдаравндахаюти’]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxDu3: [ӈэдаравандиди’, ӈэдаравндиди’]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxDu3: [ӈэдаравандиди’, ӈэдаравндиди’]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxDu3: [ӈэдаравандити’, ӈэдаравндити’]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxDu3: [ӈэдаравандахати’, ӈэдаравндахати’]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxDu3: [ӈэдаравандаха”нати’, ӈэдаравндаха”нати’]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxDu3: [ӈэдаравандахатати’, ӈэдаравндахатати’]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxDu3: [ӈэдараванди”мнати’, ӈэдаравнди”мнати’]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxPl1: [ӈэдаравандава”, ӈэдаравндава”]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxPl1: [ӈэдаравандава”, ӈэдаравндава”]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxPl1: [ӈэдаравандана”, ӈэдаравндана”]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxPl1: [ӈэдаравандахана”, ӈэдаравндахана”]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxPl1: [ӈэдаравандаханана”, ӈэдаравндаханана”]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxPl1: [ӈэдаравандахадана”, ӈэдаравндахадана”]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxPl1: [ӈэдаравандавнана”, ӈэдаравндавнана”]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxPl1: [ӈэдаравандахаюна”, ӈэдаравндахаюна”]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxPl1: [ӈэдаравандахаюна”, ӈэдаравндахаюна”]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxPl1: [ӈэдаравандахаюна”, ӈэдаравндахаюна”]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxPl1: [ӈэдаравандина”, ӈэдаравндина”]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxPl1: [ӈэдаравандина”, ӈэдаравндина”]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxPl1: [ӈэдараванди”на”, ӈэдаравнди”на”]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxPl1: [ӈэдаравандаха”на”, ӈэдаравндаха”на”]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxPl1: [ӈэдаравандаха”нана”, ӈэдаравндаха”нана”]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxPl1: [ӈэдаравандахатана”, ӈэдаравндахатана”]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxPl1: [ӈэдараванди”мнана”, ӈэдаравнди”мнана”]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxPl2: [ӈэдаравандара”, ӈэдаравндара”]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxPl2: [ӈэдаравандамда”, ӈэдаравндамда”]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxPl2: [ӈэдараванданда”, ӈэдаравнданда”]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxPl2: [ӈэдаравандаханда”, ӈэдаравндаханда”]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxPl2: [ӈэдаравандахананда”, ӈэдаравндахананда”]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxPl2: [ӈэдаравандахаданда”, ӈэдаравндахаданда”]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxPl2: [ӈэдаравандавнанда”, ӈэдаравндавнанда”]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxPl2: [ӈэдаравандахаюда”, ӈэдаравндахаюда”]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxPl2: [ӈэдаравандахаюда”, ӈэдаравндахаюда”]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxPl2: [ӈэдаравандахаюта”, ӈэдаравндахаюта”]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxPl2: [ӈэдаравандида”, ӈэдаравндида”]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxPl2: [ӈэдаравандида”, ӈэдаравндида”]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxPl2: [ӈэдаравандита”, ӈэдаравндита”]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxPl2: [ӈэдаравандахата”, ӈэдаравндахата”]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxPl2: [ӈэдаравандаха”ната”, ӈэдаравндаха”ната”]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxPl2: [ӈэдаравандахатата”, ӈэдаравндахатата”]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxPl2: [ӈэдараванди”мната”, ӈэдаравнди”мната”]
+     ӈэдарась+V+TV+PrcFut+Sg+Nom+PxPl3: [ӈэдаравандадо’, ӈэдаравндадо’]
+     ӈэдарась+V+TV+PrcFut+Sg+Acc+PxPl3: [ӈэдаравандамдо’, ӈэдаравндамдо’]
+     ӈэдарась+V+TV+PrcFut+Sg+Gen+PxPl3: [ӈэдаравандандо’, ӈэдаравндандо’]
+     ӈэдарась+V+TV+PrcFut+Sg+Dat+PxPl3: [ӈэдаравандахандо’, ӈэдаравндахандо’]
+     ӈэдарась+V+TV+PrcFut+Sg+Loc+PxPl3: [ӈэдаравандаханандо’, ӈэдаравндаханандо’]
+     ӈэдарась+V+TV+PrcFut+Sg+Abl+PxPl3: [ӈэдаравандахадандо’, ӈэдаравндахадандо’]
+     ӈэдарась+V+TV+PrcFut+Sg+Pros+PxPl3: [ӈэдаравандавнандо’, ӈэдаравндавнандо’]
+     ӈэдарась+V+TV+PrcFut+Du+Nom+PxPl3: [ӈэдаравандахаюдо’, ӈэдаравндахаюдо’]
+     ӈэдарась+V+TV+PrcFut+Du+Acc+PxPl3: [ӈэдаравандахаюдо’, ӈэдаравндахаюдо’]
+     ӈэдарась+V+TV+PrcFut+Du+Gen+PxPl3: [ӈэдаравандахаюто’, ӈэдаравндахаюто’]
+     ӈэдарась+V+TV+PrcFut+Pl+Nom+PxPl3: [ӈэдаравандидо’, ӈэдаравндидо’]
+     ӈэдарась+V+TV+PrcFut+Pl+Acc+PxPl3: [ӈэдаравандидо’, ӈэдаравндидо’]
+     ӈэдарась+V+TV+PrcFut+Pl+Gen+PxPl3: [ӈэдаравандито’, ӈэдаравндито’]
+     ӈэдарась+V+TV+PrcFut+Pl+Dat+PxPl3: [ӈэдаравандахато’, ӈэдаравндахато’]
+     ӈэдарась+V+TV+PrcFut+Pl+Loc+PxPl3: [ӈэдаравандаха”нато’, ӈэдаравндаха”нато’]
+     ӈэдарась+V+TV+PrcFut+Pl+Abl+PxPl3: [ӈэдаравандахатато’, ӈэдаравндахатато’]
+     ӈэдарась+V+TV+PrcFut+Pl+Pros+PxPl3: [ӈэдараванди”мнато’, ӈэдаравнди”мнато’]
+     ӈэдарась+V+TV+PrcFut+Pred+Abs: [ӈэдаравандад, ӈэдаравндад]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxSg1: [ӈэдаравандадав, ӈэдаравндадав, ӈэдаравандадув, ӈэдаравндадув, ӈэдаравандадами, ӈэдаравандадми, ӈэдаравндадами, ӈэдаравндадми]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxSg1: [ӈэдаравандадав, ӈэдаравндадав, ӈэдаравандадув, ӈэдаравндадув, ӈэдаравандадами, ӈэдаравандадми, ӈэдаравндадами, ӈэдаравндадми]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxSg1: [ӈэдаравандадан, ӈэдаравндадан, ӈэдаравандадани, ӈэдаравандадни, ӈэдаравндадани, ӈэдаравндадни]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxSg2: [ӈэдаравандадар, ӈэдаравндадар]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxSg2: [ӈэдаравандадамд, ӈэдаравндадамд]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxSg2: [ӈэдаравандаданд, ӈэдаравндаданд]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxSg3: [ӈэдаравандадада, ӈэдаравандадда, ӈэдаравндадада, ӈэдаравндадда]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxSg3: [ӈэдаравандадамда, ӈэдаравндадамда]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxSg3: [ӈэдаравандаданда, ӈэдаравндаданда]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxDu1: [ӈэдаравандадами’, ӈэдаравандадми’, ӈэдаравндадами’, ӈэдаравндадми’]
+#     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxSg1.2: [ӈэдаравандадами, ӈэдаравандадми, ӈэдаравндадами, ӈэдаравндадми]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxDu1: [ӈэдаравандадами’, ӈэдаравандадми’, ӈэдаравндадами’, ӈэдаравндадми’]
+#     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxSg1.2: [ӈэдаравандадами, ӈэдаравандадми, ӈэдаравндадами, ӈэдаравндадми]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxDu1: [ӈэдаравандадани’, ӈэдаравандадни’, ӈэдаравндадани’, ӈэдаравндадни’]
+#     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxSg1.2: [ӈэдаравандадани, ӈэдаравандадни, ӈэдаравндадани, ӈэдаравндадни]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxDu2: [ӈэдаравандадари’, ӈэдаравандадри’, ӈэдаравндадари’, ӈэдаравндадри’]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxDu2: [ӈэдаравандадамди’, ӈэдаравндадамди’]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxDu2: [ӈэдаравандаданди’, ӈэдаравндаданди’]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxDu3: [ӈэдаравандадади’, ӈэдаравандадди’, ӈэдаравндадади’, ӈэдаравндадди’]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxDu3: [ӈэдаравандадамди’, ӈэдаравндадамди’]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxDu3: [ӈэдаравандаданди’, ӈэдаравндаданди’]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxPl1: [ӈэдаравандадава”, ӈэдаравандадва”, ӈэдаравндадава”, ӈэдаравндадва”]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxPl1: [ӈэдаравандадава”, ӈэдаравандадва”, ӈэдаравндадава”, ӈэдаравндадва”]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxPl1: [ӈэдаравандадана”, ӈэдаравандадна”, ӈэдаравндадана”, ӈэдаравндадна”]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxPl2: [ӈэдаравандадара”, ӈэдаравандадра”, ӈэдаравндадара”, ӈэдаравндадра”]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxPl2: [ӈэдаравандадамда”, ӈэдаравндадамда”]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxPl2: [ӈэдаравандаданда”, ӈэдаравндаданда”]
+     ӈэдарась+V+TV+PrcFut+Pred+Nom+PxPl3: [ӈэдаравандададо’, ӈэдаравандаддо’, ӈэдаравндададо’, ӈэдаравндаддо’]
+     ӈэдарась+V+TV+PrcFut+Pred+Acc+PxPl3: [ӈэдаравандадамдо’, ӈэдаравндадамдо’]
+     ӈэдарась+V+TV+PrcFut+Pred+Gen+PxPl3: [ӈэдаравандадандо’, ӈэдаравндадандо’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScSg1: [ӈэдаравандадм’, ӈэдаравндадм’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScSg2: [ӈэдаравандан, ӈэдаравндан]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScSg3: [ӈэдараванда, ӈэдаравнда]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScDu1: [ӈэдаравандани’, ӈэдаравндани’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScDu2: [ӈэдаравандади’, ӈэдаравндади’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScDu3: [ӈэдаравандаха’, ӈэдаравндаха’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScPl1: [ӈэдаравандава”, ӈэдаравндава”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScPl2: [ӈэдаравандада”, ӈэдаравндада”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Aor+ScPl3: [ӈэдараванда”, ӈэдаравнда”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScSg1: [ӈэдаравандадамзь, ӈэдаравндадамзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScSg2: [ӈэдараванданась, ӈэдаравнданась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScSg3: [ӈэдаравандась, ӈэдаравндась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScDu1: [ӈэдараванданинзь, ӈэдаравнданинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScDu2: [ӈэдаравандадинзь, ӈэдаравндадинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScDu3: [ӈэдаравандаханзь, ӈэдаравндаханзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScPl1: [ӈэдаравандаваць, ӈэдаравндаваць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScPl2: [ӈэдаравандадаць, ӈэдаравндадаць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Abs+Prt1+ScPl3: [ӈэдаравандаць, ӈэдаравндаць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg1: [ӈэдаравандав, ӈэдаравндав]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg2: [ӈэдаравандар, ӈэдаравндар]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxSg3: [ӈэдаравандада, ӈэдаравндада]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu1: [ӈэдаравандами’, ӈэдаравндами’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu2: [ӈэдаравандари’, ӈэдаравндари’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxDu3: [ӈэдаравандади’, ӈэдаравндади’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl1: [ӈэдаравандава”, ӈэдаравндава”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl2: [ӈэдаравандара”, ӈэдаравндара”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Aor+PxPl3: [ӈэдаравандадо’, ӈэдаравндадо’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg1: [ӈэдаравандавась, ӈэдаравндавась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg2: [ӈэдаравандарась, ӈэдаравндарась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxSg3: [ӈэдаравандадась, ӈэдаравндадась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu1: [ӈэдаравандаминзь, ӈэдаравндаминзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu2: [ӈэдаравандаринзь, ӈэдаравндаринзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxDu3: [ӈэдаравандадинзь, ӈэдаравндадинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl1: [ӈэдаравандаваць, ӈэдаравндаваць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl2: [ӈэдаравандараць, ӈэдаравндараць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Sg+Prt1+PxPl3: [ӈэдаравандадонзь, ӈэдаравндадонзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg1: [ӈэдаравандахаюн, ӈэдаравндахаюн]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg2: [ӈэдаравандахаюд, ӈэдаравндахаюд]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxSg3: [ӈэдаравандахаюда, ӈэдаравндахаюда]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu1: [ӈэдаравандахаюни’, ӈэдаравндахаюни’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu2: [ӈэдаравандахаюди’, ӈэдаравндахаюди’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxDu3: [ӈэдаравандахаюди’, ӈэдаравндахаюди’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl1: [ӈэдаравандахаюна”, ӈэдаравндахаюна”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl2: [ӈэдаравандахаюда”, ӈэдаравндахаюда”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Aor+PxPl3: [ӈэдаравандахаюдо’, ӈэдаравндахаюдо’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg1: [ӈэдаравандахаюнась, ӈэдаравндахаюнась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg2: [ӈэдаравандахаюдась, ӈэдаравндахаюдась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxSg3: [ӈэдаравандахаюдась, ӈэдаравндахаюдась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu1: [ӈэдаравандахаюнинзь, ӈэдаравндахаюнинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu2: [ӈэдаравандахаюдинзь, ӈэдаравндахаюдинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxDu3: [ӈэдаравандахаюдинзь, ӈэдаравндахаюдинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl1: [ӈэдаравандахаюнаць, ӈэдаравндахаюнаць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl2: [ӈэдаравандахаюдаць, ӈэдаравндахаюдаць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Du+Prt1+PxPl3: [ӈэдаравандахаюдонзь, ӈэдаравндахаюдонзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg1: [ӈэдаравандин, ӈэдаравндин]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg2: [ӈэдаравандид, ӈэдаравндид]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxSg3: [ӈэдаравандида, ӈэдаравндида]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu1: [ӈэдаравандини’, ӈэдаравндини’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu2: [ӈэдаравандиди’, ӈэдаравндиди’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxDu3: [ӈэдаравандиди’, ӈэдаравндиди’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl1: [ӈэдаравандина”, ӈэдаравндина”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl2: [ӈэдаравандида”, ӈэдаравндида”]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Aor+PxPl3: [ӈэдаравандидо’, ӈэдаравндидо’]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg1: [ӈэдаравандинась, ӈэдаравндинась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg2: [ӈэдаравандидась, ӈэдаравндидась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxSg3: [ӈэдаравандидась, ӈэдаравндидась]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu1: [ӈэдаравандининзь, ӈэдаравндининзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu2: [ӈэдаравандидинзь, ӈэдаравндидинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxDu3: [ӈэдаравандидинзь, ӈэдаравндидинзь]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl1: [ӈэдаравандинаць, ӈэдаравндинаць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl2: [ӈэдаравандидаць, ӈэдаравндидаць]
+     ӈэдарась+V+TV+PrcFut+Der/Pr+Pl+Prt1+PxPl3: [ӈэдаравандидонзь, ӈэдаравндидонзь]
+     ӈэдарась+V+TV+PrcFut+Tra: [ӈэдаравандаӈэ, ӈэдаравндаӈэ]
+     ӈэдарась+V+TV+PrcFut+Car: [ӈэдаравандаси”, ӈэдаравндаси”]
+     ӈэдарась+V+TV+PrcFut+Equ: [ӈэдаравандадрем’, ӈэдаравндадрем’]
+     ӈэдарась+V+TV+PrcFut+Equ+Lat: [ӈэдаравандадрев’, ӈэдаравндадрев’]
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+Abs: ӈэдаравдавэй
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+Abs: ӈэдаравдавэйм’
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+Abs: ӈэдаравдавэй’
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+Abs: ӈэдаравдавэн’
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+Abs: ӈэдаравдавэхэна
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+Abs: ӈэдаравдавэхэд
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+Abs: ӈэдаравдавэвна
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+Abs: ӈэдаравдавэхэ’
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+Abs: ӈэдаравдавэхэ’
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+Abs: ӈэдаравдавэхэ’
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+Abs: ӈэдаравдавэй”
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+Abs: ӈэдаравдавэй
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+Abs: ӈэдаравдавэй”
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+Abs: ӈэдаравдавэхэ”
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+Abs: ӈэдаравдавэхэ”на
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+Abs: ӈэдаравдавэхэт
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+Abs: ӈэдаравдавэй”мана
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxSg1: [ӈэдаравдавэв, ӈэдаравдавэми]
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxSg1: [ӈэдаравдавэв, ӈэдаравдавэми]
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxSg1: [ӈэдаравдавэн, ӈэдаравдавэни]
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxSg1: [ӈэдаравдавэхэн, ӈэдаравдавэхэни]
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxSg1: [ӈэдаравдавэхэнан, ӈэдаравдавэхэнани]
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxSg1: [ӈэдаравдавэхэдан, ӈэдаравдавэхэдани, ӈэдаравдавэхэдни]
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxSg1: [ӈэдаравдавэвнан, ӈэдаравдавэвнани]
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxSg1: [ӈэдаравдавэхэюн, ӈэдаравдавэхэюни]
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxSg1: [ӈэдаравдавэхэюн, ӈэдаравдавэхэюни]
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxSg1: [ӈэдаравдавэхэюн, ӈэдаравдавэхэюни]
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxSg1: [ӈэдаравдавэян, ӈэдаравдавэйни]
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxSg1: [ӈэдаравдавэян, ӈэдаравдавэйни]
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxSg1: [ӈэдаравдавэя”н, ӈэдаравдавэй”ни]
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxSg1: [ӈэдаравдавэхэ”н, ӈэдаравдавэхэ”ни]
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxSg1: [ӈэдаравдавэхэ”нан, ӈэдаравдавэхэ”нани]
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxSg1: [ӈэдаравдавэхэтан, ӈэдаравдавэхэтани, ӈэдаравдавэхэтни]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxSg1: [ӈэдаравдавэй”манан, ӈэдаравдавэй”манани]
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxSg2: ӈэдаравдавэр
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxSg2: ӈэдаравдавэмд
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxSg2: ӈэдаравдавэнд
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxSg2: ӈэдаравдавэхэнд
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxSg2: ӈэдаравдавэхэнанд
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxSg2: ӈэдаравдавэхэданд
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxSg2: ӈэдаравдавэвнанд
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxSg2: ӈэдаравдавэхэюд
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxSg2: ӈэдаравдавэхэюд
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxSg2: ӈэдаравдавэхэют
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxSg2: ӈэдаравдавэяд
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxSg2: ӈэдаравдавэяд
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxSg2: ӈэдаравдавэят
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxSg2: ӈэдаравдавэхэт
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxSg2: ӈэдаравдавэхэ”нат
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxSg2: ӈэдаравдавэхэтат
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxSg2: ӈэдаравдавэй”манат
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxSg3: ӈэдаравдавэда
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxSg3: ӈэдаравдавэмда
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxSg3: ӈэдаравдавэнда
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxSg3: ӈэдаравдавэхэнда
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxSg3: ӈэдаравдавэхэнанда
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxSg3: ӈэдаравдавэхэданда
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxSg3: ӈэдаравдавэвнанда
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxSg3: ӈэдаравдавэхэюда
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxSg3: ӈэдаравдавэхэюда
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxSg3: ӈэдаравдавэхэюта
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxSg3: ӈэдаравдавэйда
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxSg3: ӈэдаравдавэйда
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxSg3: ӈэдаравдавэйта
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxSg3: ӈэдаравдавэхэта
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxSg3: ӈэдаравдавэхэ”ната
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxSg3: [ӈэдаравдавэхэтата, ӈэдаравдавэхэтта]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxSg3: ӈэдаравдавэй”маната
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxDu1: ӈэдаравдавэми’
+#     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxSg1.2: ӈэдаравдавэми
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxDu1: ӈэдаравдавэми’
+#     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxSg1.2: ӈэдаравдавэми
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxDu1: ӈэдаравдавэни’
+#     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxSg1.2: ӈэдаравдавэни
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxDu1: ӈэдаравдавэхэни’
+#     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxSg1.2: ӈэдаравдавэхэни
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxDu1: ӈэдаравдавэхэнани’
+#     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxSg1.2: ӈэдаравдавэхэнани
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxDu1: [ӈэдаравдавэхэдани’, ӈэдаравдавэхэдни’]
+#     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxSg1.2: [ӈэдаравдавэхэдани, ӈэдаравдавэхэдни]
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxDu1: ӈэдаравдавэвнани’
+#     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxSg1.2: ӈэдаравдавэвнани
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxDu1: ӈэдаравдавэхэюни’
+#     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxSg1.2: ӈэдаравдавэхэюни
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxDu1: ӈэдаравдавэхэюни’
+#     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxSg1.2: ӈэдаравдавэхэюни
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxDu1: ӈэдаравдавэхэюни’
+#     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxSg1.2: ӈэдаравдавэхэюни
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxDu1: ӈэдаравдавэйни’
+#     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxSg1.2: ӈэдаравдавэйни
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxDu1: ӈэдаравдавэйни’
+#     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxSg1.2: ӈэдаравдавэйни
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxDu1: ӈэдаравдавэй”ни’
+#     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxSg1.2: ӈэдаравдавэй”ни
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxDu1: ӈэдаравдавэхэ”ни’
+#     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxSg1.2: ӈэдаравдавэхэ”ни
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxDu1: ӈэдаравдавэхэ”нани’
+#     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxSg1.2: ӈэдаравдавэхэ”нани
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxDu1: [ӈэдаравдавэхэтани’, ӈэдаравдавэхэтни’]
+#     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxSg1.2: [ӈэдаравдавэхэтани, ӈэдаравдавэхэтни]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxDu1: ӈэдаравдавэй”манани’
+#     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxSg1.2: ӈэдаравдавэй”манани
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxDu2: ӈэдаравдавэри’
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxDu2: ӈэдаравдавэмди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxDu2: ӈэдаравдавэнди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxDu2: ӈэдаравдавэхэнди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxDu2: ӈэдаравдавэхэнанди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxDu2: ӈэдаравдавэхэданди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxDu2: ӈэдаравдавэвнанди’
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxDu2: ӈэдаравдавэхэюди’
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxDu2: ӈэдаравдавэхэюди’
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxDu2: ӈэдаравдавэхэюти’
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxDu2: ӈэдаравдавэйди’
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxDu2: ӈэдаравдавэйди’
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxDu2: ӈэдаравдавэйти’
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxDu2: ӈэдаравдавэхэти’
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxDu2: ӈэдаравдавэхэ”нати’
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxDu2: [ӈэдаравдавэхэтати’, ӈэдаравдавэхэтти’]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxDu2: ӈэдаравдавэй”манати’
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxDu3: ӈэдаравдавэди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxDu3: ӈэдаравдавэмди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxDu3: ӈэдаравдавэнди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxDu3: ӈэдаравдавэхэнди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxDu3: ӈэдаравдавэхэнанди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxDu3: ӈэдаравдавэхэданди’
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxDu3: ӈэдаравдавэвнанди’
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxDu3: ӈэдаравдавэхэюди’
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxDu3: ӈэдаравдавэхэюди’
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxDu3: ӈэдаравдавэхэюти’
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxDu3: ӈэдаравдавэйди’
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxDu3: ӈэдаравдавэйди’
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxDu3: ӈэдаравдавэйти’
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxDu3: ӈэдаравдавэхэти’
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxDu3: ӈэдаравдавэхэ”нати’
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxDu3: [ӈэдаравдавэхэтати’, ӈэдаравдавэхэтти’]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxDu3: ӈэдаравдавэй”манати’
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxPl1: ӈэдаравдавэва”
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxPl1: ӈэдаравдавэва”
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxPl1: ӈэдаравдавэна”
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxPl1: ӈэдаравдавэхэна”
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxPl1: ӈэдаравдавэхэнана”
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxPl1: [ӈэдаравдавэхэдана”, ӈэдаравдавэхэдна”]
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxPl1: ӈэдаравдавэвнана”
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxPl1: ӈэдаравдавэхэюна”
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxPl1: ӈэдаравдавэхэюна”
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxPl1: ӈэдаравдавэхэюна”
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxPl1: ӈэдаравдавэйна”
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxPl1: ӈэдаравдавэйна”
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxPl1: ӈэдаравдавэй”на”
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxPl1: ӈэдаравдавэхэ”на”
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxPl1: ӈэдаравдавэхэ”нана”
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxPl1: [ӈэдаравдавэхэтана”, ӈэдаравдавэхэтна”]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxPl1: ӈэдаравдавэй”манана”
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxPl2: ӈэдаравдавэра”
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxPl2: ӈэдаравдавэмда”
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxPl2: ӈэдаравдавэнда”
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxPl2: ӈэдаравдавэхэнда”
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxPl2: ӈэдаравдавэхэнанда”
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxPl2: ӈэдаравдавэхэданда”
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxPl2: ӈэдаравдавэвнанда”
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxPl2: ӈэдаравдавэхэюда”
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxPl2: ӈэдаравдавэхэюда”
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxPl2: ӈэдаравдавэхэюта”
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxPl2: ӈэдаравдавэйда”
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxPl2: ӈэдаравдавэйда”
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxPl2: ӈэдаравдавэйта”
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxPl2: ӈэдаравдавэхэта”
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxPl2: ӈэдаравдавэхэ”ната”
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxPl2: [ӈэдаравдавэхэтата”, ӈэдаравдавэхэтта”]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxPl2: ӈэдаравдавэй”маната”
+     ӈэдарась+V+TV+PrcNeg+Sg+Nom+PxPl3: ӈэдаравдавэдо’
+     ӈэдарась+V+TV+PrcNeg+Sg+Acc+PxPl3: ӈэдаравдавэмдо’
+     ӈэдарась+V+TV+PrcNeg+Sg+Gen+PxPl3: ӈэдаравдавэндо’
+     ӈэдарась+V+TV+PrcNeg+Sg+Dat+PxPl3: ӈэдаравдавэхэндо’
+     ӈэдарась+V+TV+PrcNeg+Sg+Loc+PxPl3: ӈэдаравдавэхэнандо’
+     ӈэдарась+V+TV+PrcNeg+Sg+Abl+PxPl3: ӈэдаравдавэхэдандо’
+     ӈэдарась+V+TV+PrcNeg+Sg+Pros+PxPl3: ӈэдаравдавэвнандо’
+     ӈэдарась+V+TV+PrcNeg+Du+Nom+PxPl3: ӈэдаравдавэхэюдо’
+     ӈэдарась+V+TV+PrcNeg+Du+Acc+PxPl3: ӈэдаравдавэхэюдо’
+     ӈэдарась+V+TV+PrcNeg+Du+Gen+PxPl3: ӈэдаравдавэхэюто’
+     ӈэдарась+V+TV+PrcNeg+Pl+Nom+PxPl3: ӈэдаравдавэйдо’
+     ӈэдарась+V+TV+PrcNeg+Pl+Acc+PxPl3: ӈэдаравдавэйдо’
+     ӈэдарась+V+TV+PrcNeg+Pl+Gen+PxPl3: ӈэдаравдавэйто’
+     ӈэдарась+V+TV+PrcNeg+Pl+Dat+PxPl3: ӈэдаравдавэхэто’
+     ӈэдарась+V+TV+PrcNeg+Pl+Loc+PxPl3: ӈэдаравдавэхэ”нато’
+     ӈэдарась+V+TV+PrcNeg+Pl+Abl+PxPl3: [ӈэдаравдавэхэтато’, ӈэдаравдавэхэтто’]
+     ӈэдарась+V+TV+PrcNeg+Pl+Pros+PxPl3: ӈэдаравдавэй”манато’
+     ӈэдарась+V+TV+PrcNeg+Pred+Abs: ӈэдаравдавэд
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxSg1: [ӈэдаравдавэдав, ӈэдаравдавэдув, ӈэдаравдавэдами]
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxSg1: [ӈэдаравдавэдав, ӈэдаравдавэдув, ӈэдаравдавэдами]
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxSg1: [ӈэдаравдавэдан, ӈэдаравдавэдани]
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxSg2: ӈэдаравдавэдар
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxSg2: ӈэдаравдавэдамд
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxSg2: ӈэдаравдавэданд
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxSg3: ӈэдаравдавэдада
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxSg3: ӈэдаравдавэдамда
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxSg3: ӈэдаравдавэданда
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxDu1: ӈэдаравдавэдами’
+#     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxSg1.2: ӈэдаравдавэдами
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxDu1: ӈэдаравдавэдами’
+#     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxSg1.2: ӈэдаравдавэдами
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxDu1: ӈэдаравдавэдани’
+#     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxSg1.2: ӈэдаравдавэдани
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxDu2: ӈэдаравдавэдари’
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxDu2: ӈэдаравдавэдамди’
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxDu2: ӈэдаравдавэданди’
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxDu3: ӈэдаравдавэдади’
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxDu3: ӈэдаравдавэдамди’
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxDu3: ӈэдаравдавэданди’
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxPl1: ӈэдаравдавэдава”
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxPl1: ӈэдаравдавэдава”
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxPl1: ӈэдаравдавэдана”
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxPl2: ӈэдаравдавэдара”
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxPl2: ӈэдаравдавэдамда”
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxPl2: ӈэдаравдавэданда”
+     ӈэдарась+V+TV+PrcNeg+Pred+Nom+PxPl3: ӈэдаравдавэдадо’
+     ӈэдарась+V+TV+PrcNeg+Pred+Acc+PxPl3: ӈэдаравдавэдамдо’
+     ӈэдарась+V+TV+PrcNeg+Pred+Gen+PxPl3: ӈэдаравдавэдандо’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScSg1: ӈэдаравдавэдм’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScSg2: ӈэдаравдавэн
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScSg3: ӈэдаравдавэй
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScDu1: ӈэдаравдавэни’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScDu2: ӈэдаравдавэди’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScDu3: ӈэдаравдавэхэ’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScPl1: ӈэдаравдавэва”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScPl2: ӈэдаравдавэда”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Aor+ScPl3: ӈэдаравдавэй”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScSg1: ӈэдаравдавэдамзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScSg2: ӈэдаравдавэнась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScSg3: [ӈэдаравдавэясь, ӈэдаравдавэсь]
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScDu1: ӈэдаравдавэнинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScDu2: ӈэдаравдавэдинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScDu3: ӈэдаравдавэхэнзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScPl1: ӈэдаравдавэваць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScPl2: ӈэдаравдавэдаць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Abs+Prt1+ScPl3: [ӈэдаравдавэяць, ӈэдаравдавэць]
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg1: ӈэдаравдавэв
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg2: ӈэдаравдавэр
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxSg3: ӈэдаравдавэда
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu1: ӈэдаравдавэми’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu2: ӈэдаравдавэри’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxDu3: ӈэдаравдавэди’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl1: ӈэдаравдавэва”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl2: ӈэдаравдавэра”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Aor+PxPl3: ӈэдаравдавэдо’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg1: ӈэдаравдавэвась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg2: ӈэдаравдавэрась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxSg3: ӈэдаравдавэдась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu1: ӈэдаравдавэминзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu2: ӈэдаравдавэринзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxDu3: ӈэдаравдавэдинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl1: ӈэдаравдавэваць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl2: ӈэдаравдавэраць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Sg+Prt1+PxPl3: ӈэдаравдавэдонзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg1: ӈэдаравдавэхэюн
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg2: ӈэдаравдавэхэюд
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxSg3: ӈэдаравдавэхэюда
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu1: ӈэдаравдавэхэюни’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu2: ӈэдаравдавэхэюди’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxDu3: ӈэдаравдавэхэюди’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl1: ӈэдаравдавэхэюна”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl2: ӈэдаравдавэхэюда”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Aor+PxPl3: ӈэдаравдавэхэюдо’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg1: ӈэдаравдавэхэюнась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg2: ӈэдаравдавэхэюдась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxSg3: ӈэдаравдавэхэюдась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu1: ӈэдаравдавэхэюнинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu2: ӈэдаравдавэхэюдинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxDu3: ӈэдаравдавэхэюдинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl1: ӈэдаравдавэхэюнаць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl2: ӈэдаравдавэхэюдаць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Du+Prt1+PxPl3: ӈэдаравдавэхэюдонзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg1: ӈэдаравдавэян
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg2: ӈэдаравдавэяд
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxSg3: ӈэдаравдавэйда
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu1: ӈэдаравдавэйни’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu2: ӈэдаравдавэйди’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxDu3: ӈэдаравдавэйди’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl1: ӈэдаравдавэйна”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl2: ӈэдаравдавэйда”
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Aor+PxPl3: ӈэдаравдавэйдо’
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg1: ӈэдаравдавэйнась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg2: ӈэдаравдавэйдась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxSg3: ӈэдаравдавэйдась
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu1: ӈэдаравдавэйнинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu2: ӈэдаравдавэйдинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxDu3: ӈэдаравдавэйдинзь
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl1: ӈэдаравдавэйнаць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl2: ӈэдаравдавэйдаць
+     ӈэдарась+V+TV+PrcNeg+Der/Pr+Pl+Prt1+PxPl3: ӈэдаравдавэйдонзь
+     ӈэдарась+V+TV+PrcNeg+Tra: ӈэдаравдавэӈэ
+     ӈэдарась+V+TV+PrcNeg+Car: ӈэдаравдавэси”
+     ӈэдарась+V+TV+PrcNeg+Equ: ӈэдаравдавэдарем’
+     ӈэдарась+V+TV+PrcNeg+Equ+Lat: ӈэдаравдавэдарев’
+     ӈэдарась+V+TV+ConNeg: ӈэдара”
+     ӈэдарась+V+TV+Fut+ConNeg: ӈэдараӈгу”
+     ӈэдарась+V+TV+Hab+ConNeg: [ӈэдарасьту”, ӈэдарасету”]
+     ӈэдарась+V+TV+Subord/бˮ1+Abs: ӈэдараб”
+     ӈэдарась+V+TV+Subord/бˮ1+PxSg1: [ӈэдараба”н, ӈэдараб”ни]
+     ӈэдарась+V+TV+Subord/бˮ1+PxSg2: ӈэдарабат
+     ӈэдарась+V+TV+Subord/бˮ1+PxSg3: ӈэдарабта
+     ӈэдарась+V+TV+Subord/бˮ1+PxDu1: ӈэдараб”ни’
+#     ӈэдарась+V+TV+Subord/бˮ1+PxSg1.2: ӈэдараб”ни
+     ӈэдарась+V+TV+Subord/бˮ1+PxDu2: ӈэдарабти’
+     ӈэдарась+V+TV+Subord/бˮ1+PxDu3: ӈэдарабти’
+     ӈэдарась+V+TV+Subord/бˮ1+PxPl1: ӈэдараб”на”
+     ӈэдарась+V+TV+Subord/бˮ1+PxPl2: ӈэдарабта”
+     ӈэдарась+V+TV+Subord/бˮ1+PxPl3: ӈэдарабто’
+     ӈэдарась+V+TV+Subord/бˮна2+PxSg1: [ӈэдараб”нан, ӈэдараб”нани]
+     ӈэдарась+V+TV+Subord/бˮна2+PxSg2: ӈэдараб”нанд
+     ӈэдарась+V+TV+Subord/бˮна2+PxSg3: ӈэдараб”нанда
+     ӈэдарась+V+TV+Subord/бˮна2+PxDu1: ӈэдараб”нани’
+#     ӈэдарась+V+TV+Subord/бˮна2+PxSg1.2: ӈэдараб”нани
+     ӈэдарась+V+TV+Subord/бˮна2+PxDu2: ӈэдараб”нанди’
+     ӈэдарась+V+TV+Subord/бˮна2+PxDu3: ӈэдараб”нанди’
+     ӈэдарась+V+TV+Subord/бˮна2+PxPl1: ӈэдараб”нана”
+     ӈэдарась+V+TV+Subord/бˮна2+PxPl2: ӈэдараб”нанда”
+     ӈэдарась+V+TV+Subord/бˮна2+PxPl3: ӈэдараб”нандо’
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+Abs: [ӈэдараӈгоб”, ӈэдараӈгодаб”]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxSg1: [ӈэдараӈгоба”н, ӈэдараӈгодаба”н, ӈэдараӈгоб”ни, ӈэдараӈгоба”ни, ӈэдараӈгодаб”ни]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxSg2: [ӈэдараӈгобат, ӈэдараӈгодабат]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxSg3: [ӈэдараӈгобта, ӈэдараӈгобата, ӈэдараӈгодабта]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxDu1: [ӈэдараӈгоб”ни’, ӈэдараӈгоба”ни’, ӈэдараӈгодаб”ни’]
+#     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxSg1.2: [ӈэдараӈгоб”ни, ӈэдараӈгоба”ни, ӈэдараӈгодаб”ни]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxDu2: [ӈэдараӈгобти’, ӈэдараӈгобати’, ӈэдараӈгодабти’]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxDu3: [ӈэдараӈгобти’, ӈэдараӈгобати’, ӈэдараӈгодабти’]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxPl1: [ӈэдараӈгоб”на”, ӈэдараӈгоба”на”, ӈэдараӈгодаб”на”]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxPl2: [ӈэдараӈгобта”, ӈэдараӈгобата”, ӈэдараӈгодабта”]
+     ӈэдарась+V+TV+Fut+Subord/бˮ1+PxPl3: [ӈэдараӈгобто’, ӈэдараӈгобато’, ӈэдараӈгодабто’]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxSg1: [ӈэдараӈгоб”нан, ӈэдараӈгоба”нан, ӈэдараӈгодаб”нан]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxSg2: [ӈэдараӈгоб”нанд, ӈэдараӈгоба”нанд, ӈэдараӈгодаб”нанд]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxSg3: [ӈэдараӈгоб”нанда, ӈэдараӈгоба”нанда, ӈэдараӈгодаб”нанда]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxDu1: [ӈэдараӈгоб”нани’, ӈэдараӈгоба”нани’, ӈэдараӈгодаб”нани’]
+#     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxSg1.2: [ӈэдараӈгоб”нани, ӈэдараӈгоба”нани, ӈэдараӈгодаб”нани]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxDu2: [ӈэдараӈгоб”нанди’, ӈэдараӈгоба”нанди’, ӈэдараӈгодаб”нанди’]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxDu3: [ӈэдараӈгоб”нанди’, ӈэдараӈгоба”нанди’, ӈэдараӈгодаб”нанди’]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxPl1: [ӈэдараӈгоб”нана”, ӈэдараӈгоба”нана”, ӈэдараӈгодаб”нана”]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxPl2: [ӈэдараӈгоб”нанда”, ӈэдараӈгоба”нанда”, ӈэдараӈгодаб”нанда”]
+     ӈэдарась+V+TV+Fut+Subord/бˮна2+PxPl3: [ӈэдараӈгоб”нандо’, ӈэдараӈгоба”нандо’, ӈэдараӈгодаб”нандо’]
+     ӈэдарась+V+TV+Evas+Abs: ӈэдаравоӈгад
+     ӈэдарась+V+TV+Evas+PxSg1: [ӈэдаравоӈгадан, ӈэдаравоӈгадани, ӈэдаравоӈгадни]
+     ӈэдарась+V+TV+Evas+PxSg2: ӈэдаравоӈгаданд
+     ӈэдарась+V+TV+Evas+PxSg3: ӈэдаравоӈгаданда
+     ӈэдарась+V+TV+Evas+PxDu1: [ӈэдаравоӈгадани’, ӈэдаравоӈгадни’]
+#     ӈэдарась+V+TV+Evas+PxSg1.2: [ӈэдаравоӈгадани, ӈэдаравоӈгадни]
+     ӈэдарась+V+TV+Evas+PxDu2: ӈэдаравоӈгаданди’
+     ӈэдарась+V+TV+Evas+PxDu3: ӈэдаравоӈгаданди’
+     ӈэдарась+V+TV+Evas+PxPl1: [ӈэдаравоӈгадана”, ӈэдаравоӈгадна”]
+     ӈэдарась+V+TV+Evas+PxPl2: ӈэдаравоӈгаданда”
+     ӈэдарась+V+TV+Evas+PxPl3: ӈэдаравоӈгадандо’
+     ӈэдарась+V+TV+Aud+Aor+PxSg1: [ӈэдаравон, ӈэдараванон]
+     ӈэдарась+V+TV+Aud+Aor+PxSg2: [ӈэдаравонд, ӈэдараванонд]
+     ӈэдарась+V+TV+Aud+Aor+PxSg3: [ӈэдаравонда, ӈэдараванонда]
+     ӈэдарась+V+TV+Aud+Aor+PxDu1: [ӈэдаравони’, ӈэдараванони’]
+     ӈэдарась+V+TV+Aud+Aor+PxDu2: [ӈэдаравонди’, ӈэдараванонди’]
+     ӈэдарась+V+TV+Aud+Aor+PxDu3: [ӈэдаравонди’, ӈэдараванонди’]
+     ӈэдарась+V+TV+Aud+Aor+PxPl1: [ӈэдаравона”, ӈэдараванона”]
+     ӈэдарась+V+TV+Aud+Aor+PxPl2: [ӈэдаравонда”, ӈэдараванонда”]
+     ӈэдарась+V+TV+Aud+Aor+PxPl3: [ӈэдаравондо’, ӈэдараванондо’]
+     ӈэдарась+V+TV+Aud+Prt1+PxSg1: [ӈэдаравонась, ӈэдараванонась]
+     ӈэдарась+V+TV+Aud+Prt1+PxSg2: [ӈэдаравондась, ӈэдараванондась]
+     ӈэдарась+V+TV+Aud+Prt1+PxSg3: [ӈэдаравондась, ӈэдараванондась]
+     ӈэдарась+V+TV+Aud+Prt1+PxDu1: [ӈэдаравонинзь, ӈэдараванонинзь]
+     ӈэдарась+V+TV+Aud+Prt1+PxDu2: [ӈэдаравондинзь, ӈэдараванондинзь]
+     ӈэдарась+V+TV+Aud+Prt1+PxDu3: [ӈэдаравондинзь, ӈэдараванондинзь]
+     ӈэдарась+V+TV+Aud+Prt1+PxPl1: [ӈэдаравонаць, ӈэдараванонаць]
+     ӈэдарась+V+TV+Aud+Prt1+PxPl2: [ӈэдаравондаць, ӈэдараванондаць]
+     ӈэдарась+V+TV+Aud+Prt1+PxPl3: [ӈэдаравондонзь, ӈэдараванондонзь]
+     ӈэдарась+V+TV+Ind+Aor+ScSg1: ӈэдарадм’
+     ӈэдарась+V+TV+Ind+Aor+ScSg2: ӈэдаран
+     ӈэдарась+V+TV+Ind+Aor+ScSg3: ӈэдара
+     ӈэдарась+V+TV+Ind+Aor+ScDu1: ӈэдарани’
+     ӈэдарась+V+TV+Ind+Aor+ScDu2: ӈэдаради’
+     ӈэдарась+V+TV+Ind+Aor+ScDu3: ӈэдараӈаха’
+     ӈэдарась+V+TV+Ind+Aor+ScPl1: ӈэдарава”
+     ӈэдарась+V+TV+Ind+Aor+ScPl2: ӈэдарада”
+     ӈэдарась+V+TV+Ind+Aor+ScPl3: ӈэдара”
+     ӈэдарась+V+TV+Ind+Prt1+ScSg1: ӈэдарадамзь
+     ӈэдарась+V+TV+Ind+Prt1+ScSg2: ӈэдаранась
+     ӈэдарась+V+TV+Ind+Prt1+ScSg3: ӈэдарась
+     ӈэдарась+V+TV+Ind+Prt1+ScDu1: ӈэдаранинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu2: ӈэдарадинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu3: ӈэдараӈаханзь
+     ӈэдарась+V+TV+Ind+Prt1+ScPl1: ӈэдараваць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl2: ӈэдарадаць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl3: ӈэдараць
+     ӈэдарась+V+TV+Hort+ScSg1: ӈэдарахадм’
+     ӈэдарась+V+TV+Hort+ScDu1: ӈэдарахани’
+     ӈэдарась+V+TV+Hort+ScPl1: ӈэдарахава”
+     ӈэдарась+V+TV+Imprt+ScSg2: ӈэдара”
+     ӈэдарась+V+TV+Imprt+ScDu2: ӈэдаради’
+     ӈэдарась+V+TV+Imprt+ScPl2: ӈэдарада”
+     ӈэдарась+V+TV+Opt+ScSg3: ӈэдарая
+     ӈэдарась+V+TV+Opt+ScDu3: ӈэдараяха’
+     ӈэдарась+V+TV+Opt+ScPl3: ӈэдарая”
+     ӈэдарась+V+TV+Conj+Aor+ScSg1: ӈэдараидм’
+     ӈэдарась+V+TV+Conj+Aor+ScSg2: ӈэдараин
+     ӈэдарась+V+TV+Conj+Aor+ScSg3: ӈэдараи
+     ӈэдарась+V+TV+Conj+Aor+ScDu1: ӈэдараини’
+     ӈэдарась+V+TV+Conj+Aor+ScDu2: ӈэдараиди’
+     ӈэдарась+V+TV+Conj+Aor+ScDu3: ӈэдараихи’
+     ӈэдарась+V+TV+Conj+Aor+ScPl1: ӈэдараива”
+     ӈэдарась+V+TV+Conj+Aor+ScPl2: ӈэдараида”
+     ӈэдарась+V+TV+Conj+Aor+ScPl3: ӈэдараи”
+     ӈэдарась+V+TV+Conj+Prt1+ScSg1: ӈэдараидамзь
+     ӈэдарась+V+TV+Conj+Prt1+ScSg2: ӈэдараинась
+     ӈэдарась+V+TV+Conj+Prt1+ScSg3: ӈэдараись
+     ӈэдарась+V+TV+Conj+Prt1+ScDu1: ӈэдараининзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu2: ӈэдараидинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu3: ӈэдараихинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScPl1: ӈэдараиваць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl2: ӈэдараидаць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl3: ӈэдараиць
+     ӈэдарась+V+TV+Mod/nec+ScSg1: ӈэдарабцудм’
+     ӈэдарась+V+TV+Mod/nec+ScSg2: ӈэдарабцун
+     ӈэдарась+V+TV+Mod/nec+ScSg3: ӈэдарабцу
+     ӈэдарась+V+TV+Mod/nec+ScDu1: ӈэдарабцуни’
+     ӈэдарась+V+TV+Mod/nec+ScDu2: ӈэдарабцуди’
+     ӈэдарась+V+TV+Mod/nec+ScDu3: ӈэдарабцуху’
+     ӈэдарась+V+TV+Mod/nec+ScPl1: ӈэдарабцува”
+     ӈэдарась+V+TV+Mod/nec+ScPl2: ӈэдарабцуда”
+     ӈэдарась+V+TV+Mod/nec+ScPl3: ӈэдарабцу”
+     ӈэдарась+V+TV+Mod/int+ScSg1: ӈэдарасадм’
+     ӈэдарась+V+TV+Mod/int+ScSg2: ӈэдарасан
+     ӈэдарась+V+TV+Mod/int+ScSg3: ӈэдараса
+     ӈэдарась+V+TV+Mod/int+ScDu1: ӈэдарасани’
+     ӈэдарась+V+TV+Mod/int+ScDu2: ӈэдарасади’
+     ӈэдарась+V+TV+Mod/int+ScDu3: ӈэдарасаха’
+     ӈэдарась+V+TV+Mod/int+ScPl1: ӈэдарасава”
+     ӈэдарась+V+TV+Mod/int+ScPl2: ӈэдарасада”
+     ӈэдарась+V+TV+Mod/int+ScPl3: ӈэдараса”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg1: ӈэдаравэдм’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg2: ӈэдаравэн
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg3: ӈэдаравы
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu1: ӈэдаравэни’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu2: ӈэдаравэди’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu3: ӈэдаравэхэ’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl1: ӈэдаравэва”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl2: ӈэдаравэда”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl3: ӈэдаравы”
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg1: ӈэдаравэдамзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg2: ӈэдаравэнась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg3: [ӈэдаравысь, ӈэдаравэсь]
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu1: ӈэдаравэнинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu2: ӈэдаравэдинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu3: ӈэдаравэхэнзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl1: ӈэдаравэваць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl2: ӈэдаравэдаць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl3: [ӈэдаравыць, ӈэдаравэць]
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg1: ӈэдаранакэдм’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg2: ӈэдаранакэн
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg3: ӈэдаранакы
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu1: ӈэдаранакэни’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu2: ӈэдаранакэди’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu3: ӈэдаранакэхэ’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl1: ӈэдаранакэва”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl2: ӈэдаранакэда”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl3: ӈэдаранакы”
+     ӈэдарась+V+TV+Mod/obl+ScSg1: ӈэдарабцакэдм’
+     ӈэдарась+V+TV+Mod/obl+ScSg2: ӈэдарабцакэн
+     ӈэдарась+V+TV+Mod/obl+ScSg3: ӈэдарабцакы
+     ӈэдарась+V+TV+Mod/obl+ScDu1: ӈэдарабцакэни’
+     ӈэдарась+V+TV+Mod/obl+ScDu2: ӈэдарабцакэди’
+     ӈэдарась+V+TV+Mod/obl+ScDu3: ӈэдарабцакэхэ’
+     ӈэдарась+V+TV+Mod/obl+ScPl1: ӈэдарабцакэва”
+     ӈэдарась+V+TV+Mod/obl+ScPl2: ӈэдарабцакэда”
+     ӈэдарась+V+TV+Mod/obl+ScPl3: ӈэдарабцакы”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg1: ӈэдаранарахадм’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg2: ӈэдаранарахан
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg3: ӈэдаранараха
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu1: ӈэдаранарахани’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu2: ӈэдаранарахади’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu3: ӈэдаранарахаха’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl1: ӈэдаранарахава”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl2: ӈэдаранарахада”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl3: ӈэдаранараха”
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg1: ӈэдаранарахадамзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg2: ӈэдаранараханась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg3: ӈэдаранарахась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu1: ӈэдаранараханинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu2: ӈэдаранарахадинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu3: ӈэдаранарахаханзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl1: ӈэдаранарахаваць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl2: ӈэдаранарахадаць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl3: ӈэдаранарахаць
+     ӈэдарась+V+TV+Mod/perfappr+ScSg1: ӈэдаравэрахадм’
+     ӈэдарась+V+TV+Mod/perfappr+ScSg2: ӈэдаравэрахан
+     ӈэдарась+V+TV+Mod/perfappr+ScSg3: ӈэдаравэраха
+     ӈэдарась+V+TV+Mod/perfappr+ScDu1: ӈэдаравэрахани’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu2: ӈэдаравэрахади’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu3: ӈэдаравэрахаха’
+     ӈэдарась+V+TV+Mod/perfappr+ScPl1: ӈэдаравэрахава”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl2: ӈэдаравэрахада”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl3: ӈэдаравэраха”
+     ӈэдарась+V+TV+Mod/futappr+ScSg1: [ӈэдаравандархадм’, ӈэдаравндархадм’]
+     ӈэдарась+V+TV+Mod/futappr+ScSg2: [ӈэдаравандархан, ӈэдаравндархан]
+     ӈэдарась+V+TV+Mod/futappr+ScSg3: [ӈэдаравандарха, ӈэдаравндарха]
+     ӈэдарась+V+TV+Mod/futappr+ScDu1: [ӈэдаравандархани’, ӈэдаравндархани’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu2: [ӈэдаравандархади’, ӈэдаравндархади’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu3: [ӈэдаравандархаха’, ӈэдаравндархаха’]
+     ӈэдарась+V+TV+Mod/futappr+ScPl1: [ӈэдаравандархава”, ӈэдаравндархава”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl2: [ӈэдаравандархада”, ӈэдаравндархада”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl3: [ӈэдаравандарха”, ӈэдаравндарха”]
+     ӈэдарась+V+TV+Mod/sup+ScSg1: ӈэдараванӈгабядм’
+     ӈэдарась+V+TV+Mod/sup+ScSg2: ӈэдараванӈгабян
+     ӈэдарась+V+TV+Mod/sup+ScSg3: ӈэдараванӈгабя
+     ӈэдарась+V+TV+Mod/sup+ScDu1: ӈэдараванӈгабяни’
+     ӈэдарась+V+TV+Mod/sup+ScDu2: ӈэдараванӈгабяди’
+     ӈэдарась+V+TV+Mod/sup+ScDu3: ӈэдараванӈгабяха’
+     ӈэдарась+V+TV+Mod/sup+ScPl1: ӈэдараванӈгабява”
+     ӈэдарась+V+TV+Mod/sup+ScPl2: ӈэдараванӈгабяда”
+     ӈэдарась+V+TV+Mod/sup+ScPl3: ӈэдараванӈгабя”
+     ӈэдарась+V+TV+Mod/hyp+ScSg1: ӈэдарархавэдм’
+     ӈэдарась+V+TV+Mod/hyp+ScSg2: ӈэдарархавэн
+     ӈэдарась+V+TV+Mod/hyp+ScSg3: ӈэдарархавы
+     ӈэдарась+V+TV+Mod/hyp+ScDu1: ӈэдарархавэни’
+     ӈэдарась+V+TV+Mod/hyp+ScDu2: ӈэдарархавэди’
+     ӈэдарась+V+TV+Mod/hyp+ScDu3: ӈэдарархавэхэ’
+     ӈэдарась+V+TV+Mod/hyp+ScPl1: ӈэдарархавэва”
+     ӈэдарась+V+TV+Mod/hyp+ScPl2: ӈэдарархавэда”
+     ӈэдарась+V+TV+Mod/hyp+ScPl3: ӈэдарархавы”
+     ӈэдарась+V+TV+Mod/perfprob+ScSg1: ӈэдаравэкэдм’
+     ӈэдарась+V+TV+Mod/perfprob+ScSg2: ӈэдаравэкэн
+     ӈэдарась+V+TV+Mod/perfprob+ScSg3: ӈэдаравэкы
+     ӈэдарась+V+TV+Mod/perfprob+ScDu1: ӈэдаравэкэни’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu2: ӈэдаравэкэди’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu3: ӈэдаравэкэхэ’
+     ӈэдарась+V+TV+Mod/perfprob+ScPl1: ӈэдаравэкэва”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl2: ӈэдаравэкэда”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl3: ӈэдаравэкы”
+     ӈэдарась+V+TV+Mod/rep+ScSg1: ӈэдаравнадм’
+     ӈэдарась+V+TV+Mod/rep+ScSg2: ӈэдаравнан
+     ӈэдарась+V+TV+Mod/rep+ScSg3: ӈэдаравна
+     ӈэдарась+V+TV+Mod/rep+ScDu1: ӈэдаравнани’
+     ӈэдарась+V+TV+Mod/rep+ScDu2: ӈэдаравнади’
+     ӈэдарась+V+TV+Mod/rep+ScDu3: ӈэдаравнаха’
+     ӈэдарась+V+TV+Mod/rep+ScPl1: ӈэдаравнава”
+     ӈэдарась+V+TV+Mod/rep+ScPl2: ӈэдаравнада”
+     ӈэдарась+V+TV+Mod/rep+ScPl3: ӈэдаравна”
+     ӈэдарась+V+TV+Mod/des+ScSg1: ӈэдарарвадм’
+     ӈэдарась+V+TV+Mod/des+ScSg2: ӈэдарарван
+     ӈэдарась+V+TV+Mod/des+ScSg3: ӈэдарарва
+     ӈэдарась+V+TV+Mod/des+ScDu1: ӈэдарарвани’
+     ӈэдарась+V+TV+Mod/des+ScDu2: ӈэдарарвади’
+     ӈэдарась+V+TV+Mod/des+ScDu3: ӈэдарарваха’
+     ӈэдарась+V+TV+Mod/des+ScPl1: ӈэдарарвава”
+     ӈэдарась+V+TV+Mod/des+ScPl2: ӈэдарарвада”
+     ӈэдарась+V+TV+Mod/des+ScPl3: ӈэдарарва”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg1: ӈэдараӈгудм’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg2: ӈэдараӈгун
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg3: ӈэдараӈгу
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu1: ӈэдараӈгуни’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu2: ӈэдараӈгуди’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu3: ӈэдараӈгуху’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl1: ӈэдараӈгува”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl2: ӈэдараӈгуда”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl3: ӈэдараӈгу”
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg1: ӈэдараӈгудамзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg2: ӈэдараӈгунась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg3: ӈэдараӈгусь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu1: ӈэдараӈгунинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu2: ӈэдараӈгудинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu3: ӈэдараӈгухунзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl1: ӈэдараӈгуваць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl2: ӈэдараӈгудаць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl3: ӈэдараӈгуць
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg1: [ӈэдараӈгодакэдм’, ӈэдараӈгоданакэдм’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg2: [ӈэдараӈгодакэн, ӈэдараӈгоданакэн]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg3: [ӈэдараӈгодакы, ӈэдараӈгоданакы]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu1: [ӈэдараӈгодакэни’, ӈэдараӈгоданакэни’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu2: [ӈэдараӈгодакэди’, ӈэдараӈгоданакэди’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu3: [ӈэдараӈгодакэхэ’, ӈэдараӈгоданакэхэ’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl1: [ӈэдараӈгодакэва”, ӈэдараӈгоданакэва”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl2: [ӈэдараӈгодакэда”, ӈэдараӈгоданакэда”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl3: [ӈэдараӈгодакы”, ӈэдараӈгоданакы”]
+     ӈэдарась+V+TV+Prec+Hort+ScSg1: [ӈэдарахарцюдм’, ӈэдарахарцядм’]
+     ӈэдарась+V+TV+Prec+Hort+ScDu1: [ӈэдарахарцюни’, ӈэдарахарцяни’]
+     ӈэдарась+V+TV+Prec+Hort+ScPl1: [ӈэдарахарцюва”, ӈэдарахарцява”]
+     ӈэдарась+V+TV+Prec+Imprt+ScSg2: ӈэдарахар”
+     ӈэдарась+V+TV+Prec+Imprt+ScDu2: [ӈэдарахар”ӈади’, ӈэдарахарӈади’]
+     ӈэдарась+V+TV+Prec+Imprt+ScPl2: [ӈэдарахар”ӈада”, ӈэдарахарӈада”]
+     ӈэдарась+V+TV+Prec+Opt+ScSg3: [ӈэдарахар”ӈая, ӈэдарахарӈая]
+     ӈэдарась+V+TV+Prec+Opt+ScDu3: [ӈэдарахар”ӈаяха’, ӈэдарахарӈаяха’]
+     ӈэдарась+V+TV+Prec+Opt+ScPl3: [ӈэдарахар”ӈая”, ӈэдарахарӈая”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg1: [ӈэдарасьтыдм’, ӈэдарасетыдм’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg2: [ӈэдарасьтын, ӈэдарасетын]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg3: [ӈэдарасьты, ӈэдарасеты]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu1: [ӈэдарасьтыни’, ӈэдарасетыни’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu2: [ӈэдарасьтыди’, ӈэдарасетыди’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu3: [ӈэдарасьтыхы’, ӈэдарасетыхы’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl1: [ӈэдарасьтыва”, ӈэдарасетыва”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl2: [ӈэдарасьтыда”, ӈэдарасетыда”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl3: [ӈэдарасьты”, ӈэдарасеты”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg1: [ӈэдарасьтавэдм’, ӈэдарасетавэдм’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg2: [ӈэдарасьтавэн, ӈэдарасетавэн]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg3: [ӈэдарасьтавы, ӈэдарасетавы]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu1: [ӈэдарасьтавэни’, ӈэдарасетавэни’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu2: [ӈэдарасьтавэди’, ӈэдарасетавэди’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu3: [ӈэдарасьтавэхэ’, ӈэдарасетавэхэ’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl1: [ӈэдарасьтавэва”, ӈэдарасетавэва”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl2: [ӈэдарасьтавэда”, ӈэдарасетавэда”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl3: [ӈэдарасьтавы”, ӈэдарасетавы”]
+     ӈэдарась+V+TV+Ind+Aor+ScSg1+OcSg3: ӈэдарав
+     ӈэдарась+V+TV+Ind+Aor+ScSg2+OcSg3: ӈэдарар
+     ӈэдарась+V+TV+Ind+Aor+ScSg3+OcSg3: ӈэдарада
+     ӈэдарась+V+TV+Ind+Aor+ScDu1+OcSg3: ӈэдарами’
+     ӈэдарась+V+TV+Ind+Aor+ScDu2+OcSg3: ӈэдарари’
+     ӈэдарась+V+TV+Ind+Aor+ScDu3+OcSg3: ӈэдаради’
+     ӈэдарась+V+TV+Ind+Aor+ScPl1+OcSg3: ӈэдарава”
+     ӈэдарась+V+TV+Ind+Aor+ScPl2+OcSg3: ӈэдарара”
+     ӈэдарась+V+TV+Ind+Aor+ScPl3+OcSg3: ӈэдарадо’
+     ӈэдарась+V+TV+Ind+Aor+ScSg1+OcDu3: ӈэдараӈахаюн
+     ӈэдарась+V+TV+Ind+Aor+ScSg2+OcDu3: ӈэдараӈахаюд
+     ӈэдарась+V+TV+Ind+Aor+ScSg3+OcDu3: ӈэдараӈахаюда
+     ӈэдарась+V+TV+Ind+Aor+ScDu1+OcDu3: ӈэдараӈахаюни’
+     ӈэдарась+V+TV+Ind+Aor+ScDu2+OcDu3: ӈэдараӈахаюди’
+     ӈэдарась+V+TV+Ind+Aor+ScDu3+OcDu3: ӈэдараӈахаюди’
+     ӈэдарась+V+TV+Ind+Aor+ScPl1+OcDu3: ӈэдараӈахаюна”
+     ӈэдарась+V+TV+Ind+Aor+ScPl2+OcDu3: ӈэдараӈахаюда”
+     ӈэдарась+V+TV+Ind+Aor+ScPl3+OcDu3: ӈэдараӈахаюдо’
+     ӈэдарась+V+TV+Ind+Aor+ScSg1+OcPl3: ӈэдарэян
+     ӈэдарась+V+TV+Ind+Aor+ScSg2+OcPl3: ӈэдарэяд
+     ӈэдарась+V+TV+Ind+Aor+ScSg3+OcPl3: ӈэдарэйда
+     ӈэдарась+V+TV+Ind+Aor+ScDu1+OcPl3: ӈэдарэйни’
+     ӈэдарась+V+TV+Ind+Aor+ScDu2+OcPl3: ӈэдарэйди’
+     ӈэдарась+V+TV+Ind+Aor+ScDu3+OcPl3: ӈэдарэйди’
+     ӈэдарась+V+TV+Ind+Aor+ScPl1+OcPl3: ӈэдарэйна”
+     ӈэдарась+V+TV+Ind+Aor+ScPl2+OcPl3: ӈэдарэйда”
+     ӈэдарась+V+TV+Ind+Aor+ScPl3+OcPl3: ӈэдарэйдо’
+     ӈэдарась+V+TV+Ind+Prt1+ScSg1+OcSg3: ӈэдаравась
+     ӈэдарась+V+TV+Ind+Prt1+ScSg2+OcSg3: ӈэдарарась
+     ӈэдарась+V+TV+Ind+Prt1+ScSg3+OcSg3: ӈэдарадась
+     ӈэдарась+V+TV+Ind+Prt1+ScDu1+OcSg3: ӈэдараминзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu2+OcSg3: ӈэдараринзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu3+OcSg3: ӈэдарадинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScPl1+OcSg3: ӈэдараваць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl2+OcSg3: ӈэдарараць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl3+OcSg3: ӈэдарадонзь
+     ӈэдарась+V+TV+Ind+Prt1+ScSg1+OcDu3: ӈэдараӈахаюнась
+     ӈэдарась+V+TV+Ind+Prt1+ScSg2+OcDu3: ӈэдараӈахаюдась
+     ӈэдарась+V+TV+Ind+Prt1+ScSg3+OcDu3: ӈэдараӈахаюдась
+     ӈэдарась+V+TV+Ind+Prt1+ScDu1+OcDu3: ӈэдараӈахаюнинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu2+OcDu3: ӈэдараӈахаюдинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu3+OcDu3: ӈэдараӈахаюдинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScPl1+OcDu3: ӈэдараӈахаюнаць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl2+OcDu3: ӈэдараӈахаюдаць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl3+OcDu3: ӈэдараӈахаюдонзь
+     ӈэдарась+V+TV+Ind+Prt1+ScSg1+OcPl3: ӈэдарэйнась
+     ӈэдарась+V+TV+Ind+Prt1+ScSg2+OcPl3: ӈэдарэйдась
+     ӈэдарась+V+TV+Ind+Prt1+ScSg3+OcPl3: ӈэдарэйдась
+     ӈэдарась+V+TV+Ind+Prt1+ScDu1+OcPl3: ӈэдарэйнинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu2+OcPl3: ӈэдарэйдинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScDu3+OcPl3: ӈэдарэйдинзь
+     ӈэдарась+V+TV+Ind+Prt1+ScPl1+OcPl3: ӈэдарэйнаць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl2+OcPl3: ӈэдарэйдаць
+     ӈэдарась+V+TV+Ind+Prt1+ScPl3+OcPl3: ӈэдарэйдонзь
+     ӈэдарась+V+TV+Hort+ScSg1+OcSg3: [ӈэдарахав, ӈэдарахув]
+     ӈэдарась+V+TV+Hort+ScDu1+OcSg3: ӈэдарахами’
+     ӈэдарась+V+TV+Hort+ScPl1+OcSg3: ӈэдарахава”
+     ӈэдарась+V+TV+Hort+ScSg1+OcDu3: ӈэдарахахаюн
+     ӈэдарась+V+TV+Hort+ScDu1+OcDu3: ӈэдарахахаюни’
+     ӈэдарась+V+TV+Hort+ScPl1+OcDu3: ӈэдарахахаюна”
+     ӈэдарась+V+TV+Hort+ScSg1+OcPl3: ӈэдарахан
+     ӈэдарась+V+TV+Hort+ScDu1+OcPl3: ӈэдарахани’
+     ӈэдарась+V+TV+Hort+ScPl1+OcPl3: ӈэдарахана”
+     ӈэдарась+V+TV+Imprt+ScSg2+OcSg3: ӈэдарад
+     ӈэдарась+V+TV+Imprt+ScDu2+OcSg3: ӈэдарари’
+     ӈэдарась+V+TV+Imprt+ScPl2+OcSg3: ӈэдарара”
+     ӈэдарась+V+TV+Imprt+ScSg2+OcDu3: ӈэдарахаюн”
+     ӈэдарась+V+TV+Imprt+ScDu2+OcDu3: ӈэдараӈахаюди’
+     ӈэдарась+V+TV+Imprt+ScPl2+OcDu3: ӈэдараӈахаюда”
+     ӈэдарась+V+TV+Imprt+ScSg2+OcPl3: ӈэдаран”
+     ӈэдарась+V+TV+Imprt+ScDu2+OcPl3: ӈэдарэйди’
+     ӈэдарась+V+TV+Imprt+ScPl2+OcPl3: ӈэдарэйда”
+     ӈэдарась+V+TV+Opt+ScSg3+OcSg3: ӈэдарамда
+     ӈэдарась+V+TV+Opt+ScDu3+OcSg3: ӈэдарамди’
+     ӈэдарась+V+TV+Opt+ScPl3+OcSg3: ӈэдарамдо’
+     ӈэдарась+V+TV+Opt+ScSg3+OcDu3: ӈэдараӈахаюдамда
+     ӈэдарась+V+TV+Opt+ScDu3+OcDu3: ӈэдараӈахаюдамди’
+     ӈэдарась+V+TV+Opt+ScPl3+OcDu3: ӈэдараӈахаюдамдо’
+     ӈэдарась+V+TV+Opt+ScSg3+OcPl3: ӈэдарэйдамда
+     ӈэдарась+V+TV+Opt+ScDu3+OcPl3: ӈэдарэйдамди’
+     ӈэдарась+V+TV+Opt+ScPl3+OcPl3: ӈэдарэйдамдо’
+     ӈэдарась+V+TV+Conj+Aor+ScSg1+OcSg3: ӈэдараив
+     ӈэдарась+V+TV+Conj+Aor+ScSg2+OcSg3: ӈэдараир
+     ӈэдарась+V+TV+Conj+Aor+ScSg3+OcSg3: ӈэдараида
+     ӈэдарась+V+TV+Conj+Aor+ScDu1+OcSg3: ӈэдараими’
+     ӈэдарась+V+TV+Conj+Aor+ScDu2+OcSg3: ӈэдараири’
+     ӈэдарась+V+TV+Conj+Aor+ScDu3+OcSg3: ӈэдараиди’
+     ӈэдарась+V+TV+Conj+Aor+ScPl1+OcSg3: ӈэдараива”
+     ӈэдарась+V+TV+Conj+Aor+ScPl2+OcSg3: ӈэдараира”
+     ӈэдарась+V+TV+Conj+Aor+ScPl3+OcSg3: ӈэдараидо’
+     ӈэдарась+V+TV+Conj+Aor+ScSg1+OcDu3: ӈэдараихиюн
+     ӈэдарась+V+TV+Conj+Aor+ScSg2+OcDu3: ӈэдараихиюд
+     ӈэдарась+V+TV+Conj+Aor+ScSg3+OcDu3: ӈэдараихиюда
+     ӈэдарась+V+TV+Conj+Aor+ScDu1+OcDu3: ӈэдараихиюни’
+     ӈэдарась+V+TV+Conj+Aor+ScDu2+OcDu3: ӈэдараихиюди’
+     ӈэдарась+V+TV+Conj+Aor+ScDu3+OcDu3: ӈэдараихиюди’
+     ӈэдарась+V+TV+Conj+Aor+ScPl1+OcDu3: ӈэдараихиюна”
+     ӈэдарась+V+TV+Conj+Aor+ScPl2+OcDu3: ӈэдараихиюда”
+     ӈэдарась+V+TV+Conj+Aor+ScPl3+OcDu3: ӈэдараихиюдо’
+     ӈэдарась+V+TV+Conj+Aor+ScSg1+OcPl3: ӈэдараин
+     ӈэдарась+V+TV+Conj+Aor+ScSg2+OcPl3: ӈэдараид
+     ӈэдарась+V+TV+Conj+Aor+ScSg3+OcPl3: ӈэдараида
+     ӈэдарась+V+TV+Conj+Aor+ScDu1+OcPl3: ӈэдараини’
+     ӈэдарась+V+TV+Conj+Aor+ScDu2+OcPl3: ӈэдараиди’
+     ӈэдарась+V+TV+Conj+Aor+ScDu3+OcPl3: ӈэдараиди’
+     ӈэдарась+V+TV+Conj+Aor+ScPl1+OcPl3: ӈэдараина”
+     ӈэдарась+V+TV+Conj+Aor+ScPl2+OcPl3: ӈэдараида”
+     ӈэдарась+V+TV+Conj+Aor+ScPl3+OcPl3: ӈэдараидо’
+     ӈэдарась+V+TV+Conj+Prt1+ScSg1+OcSg3: ӈэдараивась
+     ӈэдарась+V+TV+Conj+Prt1+ScSg2+OcSg3: ӈэдараирась
+     ӈэдарась+V+TV+Conj+Prt1+ScSg3+OcSg3: ӈэдараидась
+     ӈэдарась+V+TV+Conj+Prt1+ScDu1+OcSg3: ӈэдараиминзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu2+OcSg3: ӈэдараиринзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu3+OcSg3: ӈэдараидинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScPl1+OcSg3: ӈэдараиваць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl2+OcSg3: ӈэдараираць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl3+OcSg3: ӈэдараидонзь
+     ӈэдарась+V+TV+Conj+Prt1+ScSg1+OcDu3: ӈэдараихиюнась
+     ӈэдарась+V+TV+Conj+Prt1+ScSg2+OcDu3: ӈэдараихиюдась
+     ӈэдарась+V+TV+Conj+Prt1+ScSg3+OcDu3: ӈэдараихиюдась
+     ӈэдарась+V+TV+Conj+Prt1+ScDu1+OcDu3: ӈэдараихиюнинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu2+OcDu3: ӈэдараихиюдинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu3+OcDu3: ӈэдараихиюдинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScPl1+OcDu3: ӈэдараихиюнаць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl2+OcDu3: ӈэдараихиюдаць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl3+OcDu3: ӈэдараихиюдонзь
+     ӈэдарась+V+TV+Conj+Prt1+ScSg1+OcPl3: ӈэдараинась
+     ӈэдарась+V+TV+Conj+Prt1+ScSg2+OcPl3: ӈэдараидась
+     ӈэдарась+V+TV+Conj+Prt1+ScSg3+OcPl3: ӈэдараидась
+     ӈэдарась+V+TV+Conj+Prt1+ScDu1+OcPl3: ӈэдараининзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu2+OcPl3: ӈэдараидинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScDu3+OcPl3: ӈэдараидинзь
+     ӈэдарась+V+TV+Conj+Prt1+ScPl1+OcPl3: ӈэдараинаць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl2+OcPl3: ӈэдараидаць
+     ӈэдарась+V+TV+Conj+Prt1+ScPl3+OcPl3: ӈэдараидонзь
+     ӈэдарась+V+TV+Mod/nec+ScSg1+OcSg3: ӈэдарабцув
+     ӈэдарась+V+TV+Mod/nec+ScSg2+OcSg3: ӈэдарабцур
+     ӈэдарась+V+TV+Mod/nec+ScSg3+OcSg3: ӈэдарабцуда
+     ӈэдарась+V+TV+Mod/nec+ScDu1+OcSg3: ӈэдарабцуми’
+     ӈэдарась+V+TV+Mod/nec+ScDu2+OcSg3: ӈэдарабцури’
+     ӈэдарась+V+TV+Mod/nec+ScDu3+OcSg3: ӈэдарабцуди’
+     ӈэдарась+V+TV+Mod/nec+ScPl1+OcSg3: ӈэдарабцува”
+     ӈэдарась+V+TV+Mod/nec+ScPl2+OcSg3: ӈэдарабцура”
+     ӈэдарась+V+TV+Mod/nec+ScPl3+OcSg3: ӈэдарабцудо’
+     ӈэдарась+V+TV+Mod/nec+ScSg1+OcDu3: ӈэдарабцухуюн
+     ӈэдарась+V+TV+Mod/nec+ScSg2+OcDu3: ӈэдарабцухуюд
+     ӈэдарась+V+TV+Mod/nec+ScSg3+OcDu3: ӈэдарабцухуюда
+     ӈэдарась+V+TV+Mod/nec+ScDu1+OcDu3: ӈэдарабцухуюни’
+     ӈэдарась+V+TV+Mod/nec+ScDu2+OcDu3: ӈэдарабцухуюди’
+     ӈэдарась+V+TV+Mod/nec+ScDu3+OcDu3: ӈэдарабцухуюди’
+     ӈэдарась+V+TV+Mod/nec+ScPl1+OcDu3: ӈэдарабцухуюна”
+     ӈэдарась+V+TV+Mod/nec+ScPl2+OcDu3: ӈэдарабцухуюда”
+     ӈэдарась+V+TV+Mod/nec+ScPl3+OcDu3: ӈэдарабцухуюдо’
+     ӈэдарась+V+TV+Mod/nec+ScSg1+OcPl3: ӈэдарабцун
+     ӈэдарась+V+TV+Mod/nec+ScSg2+OcPl3: ӈэдарабцуд
+     ӈэдарась+V+TV+Mod/nec+ScSg3+OcPl3: ӈэдарабцуда
+     ӈэдарась+V+TV+Mod/nec+ScDu1+OcPl3: ӈэдарабцуни’
+     ӈэдарась+V+TV+Mod/nec+ScDu2+OcPl3: ӈэдарабцуди’
+     ӈэдарась+V+TV+Mod/nec+ScDu3+OcPl3: ӈэдарабцуди’
+     ӈэдарась+V+TV+Mod/nec+ScPl1+OcPl3: ӈэдарабцуна”
+     ӈэдарась+V+TV+Mod/nec+ScPl2+OcPl3: ӈэдарабцуда”
+     ӈэдарась+V+TV+Mod/nec+ScPl3+OcPl3: ӈэдарабцудо’
+     ӈэдарась+V+TV+Mod/int+ScSg1+OcSg3: ӈэдарасав
+     ӈэдарась+V+TV+Mod/int+ScSg2+OcSg3: ӈэдарасар
+     ӈэдарась+V+TV+Mod/int+ScSg3+OcSg3: ӈэдарасада
+     ӈэдарась+V+TV+Mod/int+ScDu1+OcSg3: ӈэдарасами’
+     ӈэдарась+V+TV+Mod/int+ScDu2+OcSg3: ӈэдарасари’
+     ӈэдарась+V+TV+Mod/int+ScDu3+OcSg3: ӈэдарасади’
+     ӈэдарась+V+TV+Mod/int+ScPl1+OcSg3: ӈэдарасава”
+     ӈэдарась+V+TV+Mod/int+ScPl2+OcSg3: ӈэдарасара”
+     ӈэдарась+V+TV+Mod/int+ScPl3+OcSg3: ӈэдарасадо’
+     ӈэдарась+V+TV+Mod/int+ScSg1+OcDu3: ӈэдарасахаюн
+     ӈэдарась+V+TV+Mod/int+ScSg2+OcDu3: ӈэдарасахаюд
+     ӈэдарась+V+TV+Mod/int+ScSg3+OcDu3: ӈэдарасахаюда
+     ӈэдарась+V+TV+Mod/int+ScDu1+OcDu3: ӈэдарасахаюни’
+     ӈэдарась+V+TV+Mod/int+ScDu2+OcDu3: ӈэдарасахаюди’
+     ӈэдарась+V+TV+Mod/int+ScDu3+OcDu3: ӈэдарасахаюди’
+     ӈэдарась+V+TV+Mod/int+ScPl1+OcDu3: ӈэдарасахаюна”
+     ӈэдарась+V+TV+Mod/int+ScPl2+OcDu3: ӈэдарасахаюда”
+     ӈэдарась+V+TV+Mod/int+ScPl3+OcDu3: ӈэдарасахаюдо’
+     ӈэдарась+V+TV+Mod/int+ScSg1+OcPl3: ӈэдарасян
+     ӈэдарась+V+TV+Mod/int+ScSg2+OcPl3: ӈэдарасяд
+     ӈэдарась+V+TV+Mod/int+ScSg3+OcPl3: ӈэдарасьда
+     ӈэдарась+V+TV+Mod/int+ScDu1+OcPl3: ӈэдарасьни’
+     ӈэдарась+V+TV+Mod/int+ScDu2+OcPl3: ӈэдарасьди’
+     ӈэдарась+V+TV+Mod/int+ScDu3+OcPl3: ӈэдарасьди’
+     ӈэдарась+V+TV+Mod/int+ScPl1+OcPl3: ӈэдарасьна”
+     ӈэдарась+V+TV+Mod/int+ScPl2+OcPl3: ӈэдарасьда”
+     ӈэдарась+V+TV+Mod/int+ScPl3+OcPl3: ӈэдарасьдо’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg1+OcSg3: ӈэдаравэв
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg2+OcSg3: ӈэдаравэр
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg3+OcSg3: ӈэдаравэда
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu1+OcSg3: ӈэдаравэми’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu2+OcSg3: ӈэдаравэри’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu3+OcSg3: ӈэдаравэди’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl1+OcSg3: ӈэдаравэва”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl2+OcSg3: ӈэдаравэра”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl3+OcSg3: ӈэдаравэдо’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg1+OcDu3: ӈэдаравэхэюн
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg2+OcDu3: ӈэдаравэхэюд
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg3+OcDu3: ӈэдаравэхэюда
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu1+OcDu3: ӈэдаравэхэюни’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu2+OcDu3: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu3+OcDu3: ӈэдаравэхэюди’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl1+OcDu3: ӈэдаравэхэюна”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl2+OcDu3: ӈэдаравэхэюда”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl3+OcDu3: ӈэдаравэхэюдо’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg1+OcPl3: ӈэдаравын
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg2+OcPl3: ӈэдаравыд
+     ӈэдарась+V+TV+Mod/narr+Aor+ScSg3+OcPl3: ӈэдаравыда
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu1+OcPl3: ӈэдаравыни’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu2+OcPl3: ӈэдаравыди’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScDu3+OcPl3: ӈэдаравыди’
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl1+OcPl3: ӈэдаравына”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl2+OcPl3: ӈэдаравыда”
+     ӈэдарась+V+TV+Mod/narr+Aor+ScPl3+OcPl3: ӈэдаравыдо’
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg1+OcSg3: ӈэдаравэвась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg2+OcSg3: ӈэдаравэрась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg3+OcSg3: ӈэдаравэдась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu1+OcSg3: ӈэдаравэминзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu2+OcSg3: ӈэдаравэринзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu3+OcSg3: ӈэдаравэдинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl1+OcSg3: ӈэдаравэваць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl2+OcSg3: ӈэдаравэраць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl3+OcSg3: ӈэдаравэдонзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg1+OcDu3: ӈэдаравэхэюнась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg2+OcDu3: ӈэдаравэхэюдась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg3+OcDu3: ӈэдаравэхэюдась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu1+OcDu3: ӈэдаравэхэюнинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu2+OcDu3: ӈэдаравэхэюдинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu3+OcDu3: ӈэдаравэхэюдинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl1+OcDu3: ӈэдаравэхэюнаць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl2+OcDu3: ӈэдаравэхэюдаць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl3+OcDu3: ӈэдаравэхэюдонзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg1+OcPl3: ӈэдаравынась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg2+OcPl3: ӈэдаравыдась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScSg3+OcPl3: ӈэдаравыдась
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu1+OcPl3: ӈэдаравынинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu2+OcPl3: ӈэдаравыдинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScDu3+OcPl3: ӈэдаравыдинзь
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl1+OcPl3: ӈэдаравынаць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl2+OcPl3: ӈэдаравыдаць
+     ӈэдарась+V+TV+Mod/narr+Prt1+ScPl3+OcPl3: ӈэдаравыдонзь
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg1+OcSg3: ӈэдаранакэв
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg2+OcSg3: ӈэдаранакэр
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg3+OcSg3: ӈэдаранакэда
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu1+OcSg3: ӈэдаранакэми’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu2+OcSg3: ӈэдаранакэри’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu3+OcSg3: ӈэдаранакэди’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl1+OcSg3: ӈэдаранакэва”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl2+OcSg3: ӈэдаранакэра”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl3+OcSg3: ӈэдаранакэдо’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg1+OcDu3: ӈэдаранакэхэюн
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg2+OcDu3: ӈэдаранакэхэюд
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg3+OcDu3: ӈэдаранакэхэюда
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu1+OcDu3: ӈэдаранакэхэюни’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu2+OcDu3: ӈэдаранакэхэюди’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu3+OcDu3: ӈэдаранакэхэюди’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl1+OcDu3: ӈэдаранакэхэюна”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl2+OcDu3: ӈэдаранакэхэюда”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl3+OcDu3: ӈэдаранакэхэюдо’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg1+OcPl3: ӈэдаранакын
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg2+OcPl3: ӈэдаранакыд
+     ӈэдарась+V+TV+Mod/prob+Aor+ScSg3+OcPl3: ӈэдаранакыда
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu1+OcPl3: ӈэдаранакыни’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu2+OcPl3: ӈэдаранакыди’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScDu3+OcPl3: ӈэдаранакыди’
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl1+OcPl3: ӈэдаранакына”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl2+OcPl3: ӈэдаранакыда”
+     ӈэдарась+V+TV+Mod/prob+Aor+ScPl3+OcPl3: ӈэдаранакыдо’
+     ӈэдарась+V+TV+Mod/obl+ScSg1+OcSg3: ӈэдарабцакэв
+     ӈэдарась+V+TV+Mod/obl+ScSg2+OcSg3: ӈэдарабцакэр
+     ӈэдарась+V+TV+Mod/obl+ScSg3+OcSg3: ӈэдарабцакэда
+     ӈэдарась+V+TV+Mod/obl+ScDu1+OcSg3: ӈэдарабцакэми’
+     ӈэдарась+V+TV+Mod/obl+ScDu2+OcSg3: ӈэдарабцакэри’
+     ӈэдарась+V+TV+Mod/obl+ScDu3+OcSg3: ӈэдарабцакэди’
+     ӈэдарась+V+TV+Mod/obl+ScPl1+OcSg3: ӈэдарабцакэва”
+     ӈэдарась+V+TV+Mod/obl+ScPl2+OcSg3: ӈэдарабцакэра”
+     ӈэдарась+V+TV+Mod/obl+ScPl3+OcSg3: ӈэдарабцакэдо’
+     ӈэдарась+V+TV+Mod/obl+ScSg1+OcDu3: ӈэдарабцакэхэюн
+     ӈэдарась+V+TV+Mod/obl+ScSg2+OcDu3: ӈэдарабцакэхэюд
+     ӈэдарась+V+TV+Mod/obl+ScSg3+OcDu3: ӈэдарабцакэхэюда
+     ӈэдарась+V+TV+Mod/obl+ScDu1+OcDu3: ӈэдарабцакэхэюни’
+     ӈэдарась+V+TV+Mod/obl+ScDu2+OcDu3: ӈэдарабцакэхэюди’
+     ӈэдарась+V+TV+Mod/obl+ScDu3+OcDu3: ӈэдарабцакэхэюди’
+     ӈэдарась+V+TV+Mod/obl+ScPl1+OcDu3: ӈэдарабцакэхэюна”
+     ӈэдарась+V+TV+Mod/obl+ScPl2+OcDu3: ӈэдарабцакэхэюда”
+     ӈэдарась+V+TV+Mod/obl+ScPl3+OcDu3: ӈэдарабцакэхэюдо’
+     ӈэдарась+V+TV+Mod/obl+ScSg1+OcPl3: ӈэдарабцакын
+     ӈэдарась+V+TV+Mod/obl+ScSg2+OcPl3: ӈэдарабцакыд
+     ӈэдарась+V+TV+Mod/obl+ScSg3+OcPl3: ӈэдарабцакыда
+     ӈэдарась+V+TV+Mod/obl+ScDu1+OcPl3: ӈэдарабцакыни’
+     ӈэдарась+V+TV+Mod/obl+ScDu2+OcPl3: ӈэдарабцакыди’
+     ӈэдарась+V+TV+Mod/obl+ScDu3+OcPl3: ӈэдарабцакыди’
+     ӈэдарась+V+TV+Mod/obl+ScPl1+OcPl3: ӈэдарабцакына”
+     ӈэдарась+V+TV+Mod/obl+ScPl2+OcPl3: ӈэдарабцакыда”
+     ӈэдарась+V+TV+Mod/obl+ScPl3+OcPl3: ӈэдарабцакыдо’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg1+OcSg3: ӈэдаранарахав
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg2+OcSg3: ӈэдаранарахар
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg3+OcSg3: ӈэдаранарахада
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu1+OcSg3: ӈэдаранарахами’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu2+OcSg3: ӈэдаранарахари’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu3+OcSg3: ӈэдаранарахади’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl1+OcSg3: ӈэдаранарахава”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl2+OcSg3: ӈэдаранарахара”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl3+OcSg3: ӈэдаранарахадо’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg1+OcDu3: ӈэдаранарахахаюн
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg2+OcDu3: ӈэдаранарахахаюд
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg3+OcDu3: ӈэдаранарахахаюда
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu1+OcDu3: ӈэдаранарахахаюни’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu2+OcDu3: ӈэдаранарахахаюди’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu3+OcDu3: ӈэдаранарахахаюди’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl1+OcDu3: ӈэдаранарахахаюна”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl2+OcDu3: ӈэдаранарахахаюда”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl3+OcDu3: ӈэдаранарахахаюдо’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg1+OcPl3: ӈэдаранарыхын
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg2+OcPl3: ӈэдаранарыхыд
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScSg3+OcPl3: ӈэдаранарыхыда
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu1+OcPl3: ӈэдаранарыхыни’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu2+OcPl3: ӈэдаранарыхыди’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScDu3+OcPl3: ӈэдаранарыхыди’
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl1+OcPl3: ӈэдаранарыхына”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl2+OcPl3: ӈэдаранарыхыда”
+     ӈэдарась+V+TV+Mod/impfappr+Aor+ScPl3+OcPl3: ӈэдаранарыхыдо’
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg1+OcSg3: ӈэдаранарахавась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg2+OcSg3: ӈэдаранарахарась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg3+OcSg3: ӈэдаранарахадась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu1+OcSg3: ӈэдаранарахаминзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu2+OcSg3: ӈэдаранарахаринзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu3+OcSg3: ӈэдаранарахадинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl1+OcSg3: ӈэдаранарахаваць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl2+OcSg3: ӈэдаранарахараць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl3+OcSg3: ӈэдаранарахадонзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg1+OcDu3: ӈэдаранарахахаюнась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg2+OcDu3: ӈэдаранарахахаюдась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg3+OcDu3: ӈэдаранарахахаюдась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu1+OcDu3: ӈэдаранарахахаюнинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu2+OcDu3: ӈэдаранарахахаюдинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu3+OcDu3: ӈэдаранарахахаюдинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl1+OcDu3: ӈэдаранарахахаюнаць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl2+OcDu3: ӈэдаранарахахаюдаць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl3+OcDu3: ӈэдаранарахахаюдонзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg1+OcPl3: ӈэдаранарыхынась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg2+OcPl3: ӈэдаранарыхыдась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScSg3+OcPl3: ӈэдаранарыхыдась
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu1+OcPl3: ӈэдаранарыхынинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu2+OcPl3: ӈэдаранарыхыдинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScDu3+OcPl3: ӈэдаранарыхыдинзь
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl1+OcPl3: ӈэдаранарыхынаць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl2+OcPl3: ӈэдаранарыхыдаць
+     ӈэдарась+V+TV+Mod/impfappr+Prt1+ScPl3+OcPl3: ӈэдаранарыхыдонзь
+     ӈэдарась+V+TV+Mod/perfappr+ScSg1+OcSg3: ӈэдаравэрахав
+     ӈэдарась+V+TV+Mod/perfappr+ScSg2+OcSg3: ӈэдаравэрахар
+     ӈэдарась+V+TV+Mod/perfappr+ScSg3+OcSg3: ӈэдаравэрахада
+     ӈэдарась+V+TV+Mod/perfappr+ScDu1+OcSg3: ӈэдаравэрахами’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu2+OcSg3: ӈэдаравэрахари’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu3+OcSg3: ӈэдаравэрахади’
+     ӈэдарась+V+TV+Mod/perfappr+ScPl1+OcSg3: ӈэдаравэрахава”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl2+OcSg3: ӈэдаравэрахара”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl3+OcSg3: ӈэдаравэрахадо’
+     ӈэдарась+V+TV+Mod/perfappr+ScSg1+OcDu3: ӈэдаравэрахахаюн
+     ӈэдарась+V+TV+Mod/perfappr+ScSg2+OcDu3: ӈэдаравэрахахаюд
+     ӈэдарась+V+TV+Mod/perfappr+ScSg3+OcDu3: ӈэдаравэрахахаюда
+     ӈэдарась+V+TV+Mod/perfappr+ScDu1+OcDu3: ӈэдаравэрахахаюни’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu2+OcDu3: ӈэдаравэрахахаюди’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu3+OcDu3: ӈэдаравэрахахаюди’
+     ӈэдарась+V+TV+Mod/perfappr+ScPl1+OcDu3: ӈэдаравэрахахаюна”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl2+OcDu3: ӈэдаравэрахахаюда”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl3+OcDu3: ӈэдаравэрахахаюдо’
+     ӈэдарась+V+TV+Mod/perfappr+ScSg1+OcPl3: ӈэдаравэрыхын
+     ӈэдарась+V+TV+Mod/perfappr+ScSg2+OcPl3: ӈэдаравэрыхыд
+     ӈэдарась+V+TV+Mod/perfappr+ScSg3+OcPl3: ӈэдаравэрыхыда
+     ӈэдарась+V+TV+Mod/perfappr+ScDu1+OcPl3: ӈэдаравэрыхыни’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu2+OcPl3: ӈэдаравэрыхыди’
+     ӈэдарась+V+TV+Mod/perfappr+ScDu3+OcPl3: ӈэдаравэрыхыди’
+     ӈэдарась+V+TV+Mod/perfappr+ScPl1+OcPl3: ӈэдаравэрыхына”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl2+OcPl3: ӈэдаравэрыхыда”
+     ӈэдарась+V+TV+Mod/perfappr+ScPl3+OcPl3: ӈэдаравэрыхыдо’
+     ӈэдарась+V+TV+Mod/futappr+ScSg1+OcSg3: [ӈэдаравандархав, ӈэдаравндархав]
+     ӈэдарась+V+TV+Mod/futappr+ScSg2+OcSg3: [ӈэдаравандархар, ӈэдаравндархар]
+     ӈэдарась+V+TV+Mod/futappr+ScSg3+OcSg3: [ӈэдаравандархада, ӈэдаравндархада]
+     ӈэдарась+V+TV+Mod/futappr+ScDu1+OcSg3: [ӈэдаравандархами’, ӈэдаравндархами’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu2+OcSg3: [ӈэдаравандархари’, ӈэдаравндархари’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu3+OcSg3: [ӈэдаравандархади’, ӈэдаравндархади’]
+     ӈэдарась+V+TV+Mod/futappr+ScPl1+OcSg3: [ӈэдаравандархава”, ӈэдаравндархава”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl2+OcSg3: [ӈэдаравандархара”, ӈэдаравндархара”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl3+OcSg3: [ӈэдаравандархадо’, ӈэдаравндархадо’]
+     ӈэдарась+V+TV+Mod/futappr+ScSg1+OcDu3: [ӈэдаравандархахаюн, ӈэдаравндархахаюн]
+     ӈэдарась+V+TV+Mod/futappr+ScSg2+OcDu3: [ӈэдаравандархахаюд, ӈэдаравндархахаюд]
+     ӈэдарась+V+TV+Mod/futappr+ScSg3+OcDu3: [ӈэдаравандархахаюда, ӈэдаравндархахаюда]
+     ӈэдарась+V+TV+Mod/futappr+ScDu1+OcDu3: [ӈэдаравандархахаюни’, ӈэдаравндархахаюни’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu2+OcDu3: [ӈэдаравандархахаюди’, ӈэдаравндархахаюди’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu3+OcDu3: [ӈэдаравандархахаюди’, ӈэдаравндархахаюди’]
+     ӈэдарась+V+TV+Mod/futappr+ScPl1+OcDu3: [ӈэдаравандархахаюна”, ӈэдаравндархахаюна”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl2+OcDu3: [ӈэдаравандархахаюда”, ӈэдаравндархахаюда”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl3+OcDu3: [ӈэдаравандархахаюдо’, ӈэдаравндархахаюдо’]
+     ӈэдарась+V+TV+Mod/futappr+ScSg1+OcPl3: [ӈэдаравандархын, ӈэдаравндархын]
+     ӈэдарась+V+TV+Mod/futappr+ScSg2+OcPl3: [ӈэдаравандархыд, ӈэдаравндархыд]
+     ӈэдарась+V+TV+Mod/futappr+ScSg3+OcPl3: [ӈэдаравандархыда, ӈэдаравндархыда]
+     ӈэдарась+V+TV+Mod/futappr+ScDu1+OcPl3: [ӈэдаравандархыни’, ӈэдаравндархыни’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu2+OcPl3: [ӈэдаравандархыди’, ӈэдаравндархыди’]
+     ӈэдарась+V+TV+Mod/futappr+ScDu3+OcPl3: [ӈэдаравандархыди’, ӈэдаравндархыди’]
+     ӈэдарась+V+TV+Mod/futappr+ScPl1+OcPl3: [ӈэдаравандархына”, ӈэдаравндархына”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl2+OcPl3: [ӈэдаравандархыда”, ӈэдаравндархыда”]
+     ӈэдарась+V+TV+Mod/futappr+ScPl3+OcPl3: [ӈэдаравандархыдо’, ӈэдаравндархыдо’]
+     ӈэдарась+V+TV+Mod/sup+ScSg1+OcSg3: ӈэдараванӈгабяв
+     ӈэдарась+V+TV+Mod/sup+ScSg2+OcSg3: ӈэдараванӈгабяр
+     ӈэдарась+V+TV+Mod/sup+ScSg3+OcSg3: ӈэдараванӈгабяда
+     ӈэдарась+V+TV+Mod/sup+ScDu1+OcSg3: ӈэдараванӈгабями’
+     ӈэдарась+V+TV+Mod/sup+ScDu2+OcSg3: ӈэдараванӈгабяри’
+     ӈэдарась+V+TV+Mod/sup+ScDu3+OcSg3: ӈэдараванӈгабяди’
+     ӈэдарась+V+TV+Mod/sup+ScPl1+OcSg3: ӈэдараванӈгабява”
+     ӈэдарась+V+TV+Mod/sup+ScPl2+OcSg3: ӈэдараванӈгабяра”
+     ӈэдарась+V+TV+Mod/sup+ScPl3+OcSg3: ӈэдараванӈгабядо’
+     ӈэдарась+V+TV+Mod/sup+ScSg1+OcDu3: ӈэдараванӈгабяхаюн
+     ӈэдарась+V+TV+Mod/sup+ScSg2+OcDu3: ӈэдараванӈгабяхаюд
+     ӈэдарась+V+TV+Mod/sup+ScSg3+OcDu3: ӈэдараванӈгабяхаюда
+     ӈэдарась+V+TV+Mod/sup+ScDu1+OcDu3: ӈэдараванӈгабяхаюни’
+     ӈэдарась+V+TV+Mod/sup+ScDu2+OcDu3: ӈэдараванӈгабяхаюди’
+     ӈэдарась+V+TV+Mod/sup+ScDu3+OcDu3: ӈэдараванӈгабяхаюди’
+     ӈэдарась+V+TV+Mod/sup+ScPl1+OcDu3: ӈэдараванӈгабяхаюна”
+     ӈэдарась+V+TV+Mod/sup+ScPl2+OcDu3: ӈэдараванӈгабяхаюда”
+     ӈэдарась+V+TV+Mod/sup+ScPl3+OcDu3: ӈэдараванӈгабяхаюдо’
+     ӈэдарась+V+TV+Mod/sup+ScSg1+OcPl3: ӈэдараванӈгабин
+     ӈэдарась+V+TV+Mod/sup+ScSg2+OcPl3: ӈэдараванӈгабид
+     ӈэдарась+V+TV+Mod/sup+ScSg3+OcPl3: ӈэдараванӈгабида
+     ӈэдарась+V+TV+Mod/sup+ScDu1+OcPl3: ӈэдараванӈгабини’
+     ӈэдарась+V+TV+Mod/sup+ScDu2+OcPl3: ӈэдараванӈгабиди’
+     ӈэдарась+V+TV+Mod/sup+ScDu3+OcPl3: ӈэдараванӈгабиди’
+     ӈэдарась+V+TV+Mod/sup+ScPl1+OcPl3: ӈэдараванӈгабина”
+     ӈэдарась+V+TV+Mod/sup+ScPl2+OcPl3: ӈэдараванӈгабида”
+     ӈэдарась+V+TV+Mod/sup+ScPl3+OcPl3: ӈэдараванӈгабидо’
+     ӈэдарась+V+TV+Mod/hyp+ScSg1+OcSg3: ӈэдарархавэв
+     ӈэдарась+V+TV+Mod/hyp+ScSg2+OcSg3: ӈэдарархавэр
+     ӈэдарась+V+TV+Mod/hyp+ScSg3+OcSg3: ӈэдарархавэда
+     ӈэдарась+V+TV+Mod/hyp+ScDu1+OcSg3: ӈэдарархавэми’
+     ӈэдарась+V+TV+Mod/hyp+ScDu2+OcSg3: ӈэдарархавэри’
+     ӈэдарась+V+TV+Mod/hyp+ScDu3+OcSg3: ӈэдарархавэди’
+     ӈэдарась+V+TV+Mod/hyp+ScPl1+OcSg3: ӈэдарархавэва”
+     ӈэдарась+V+TV+Mod/hyp+ScPl2+OcSg3: ӈэдарархавэра”
+     ӈэдарась+V+TV+Mod/hyp+ScPl3+OcSg3: ӈэдарархавэдо’
+     ӈэдарась+V+TV+Mod/hyp+ScSg1+OcDu3: ӈэдарархавэхэюн
+     ӈэдарась+V+TV+Mod/hyp+ScSg2+OcDu3: ӈэдарархавэхэюд
+     ӈэдарась+V+TV+Mod/hyp+ScSg3+OcDu3: ӈэдарархавэхэюда
+     ӈэдарась+V+TV+Mod/hyp+ScDu1+OcDu3: ӈэдарархавэхэюни’
+     ӈэдарась+V+TV+Mod/hyp+ScDu2+OcDu3: ӈэдарархавэхэюди’
+     ӈэдарась+V+TV+Mod/hyp+ScDu3+OcDu3: ӈэдарархавэхэюди’
+     ӈэдарась+V+TV+Mod/hyp+ScPl1+OcDu3: ӈэдарархавэхэюна”
+     ӈэдарась+V+TV+Mod/hyp+ScPl2+OcDu3: ӈэдарархавэхэюда”
+     ӈэдарась+V+TV+Mod/hyp+ScPl3+OcDu3: ӈэдарархавэхэюдо’
+     ӈэдарась+V+TV+Mod/hyp+ScSg1+OcPl3: ӈэдарархавын
+     ӈэдарась+V+TV+Mod/hyp+ScSg2+OcPl3: ӈэдарархавыд
+     ӈэдарась+V+TV+Mod/hyp+ScSg3+OcPl3: ӈэдарархавыда
+     ӈэдарась+V+TV+Mod/hyp+ScDu1+OcPl3: ӈэдарархавыни’
+     ӈэдарась+V+TV+Mod/hyp+ScDu2+OcPl3: ӈэдарархавыди’
+     ӈэдарась+V+TV+Mod/hyp+ScDu3+OcPl3: ӈэдарархавыди’
+     ӈэдарась+V+TV+Mod/hyp+ScPl1+OcPl3: ӈэдарархавына”
+     ӈэдарась+V+TV+Mod/hyp+ScPl2+OcPl3: ӈэдарархавыда”
+     ӈэдарась+V+TV+Mod/hyp+ScPl3+OcPl3: ӈэдарархавыдо’
+     ӈэдарась+V+TV+Mod/perfprob+ScSg1+OcSg3: ӈэдаравэкэв
+     ӈэдарась+V+TV+Mod/perfprob+ScSg2+OcSg3: ӈэдаравэкэр
+     ӈэдарась+V+TV+Mod/perfprob+ScSg3+OcSg3: ӈэдаравэкэда
+     ӈэдарась+V+TV+Mod/perfprob+ScDu1+OcSg3: ӈэдаравэкэми’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu2+OcSg3: ӈэдаравэкэри’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu3+OcSg3: ӈэдаравэкэди’
+     ӈэдарась+V+TV+Mod/perfprob+ScPl1+OcSg3: ӈэдаравэкэва”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl2+OcSg3: ӈэдаравэкэра”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl3+OcSg3: ӈэдаравэкэдо’
+     ӈэдарась+V+TV+Mod/perfprob+ScSg1+OcDu3: ӈэдаравэкэхэюн
+     ӈэдарась+V+TV+Mod/perfprob+ScSg2+OcDu3: ӈэдаравэкэхэюд
+     ӈэдарась+V+TV+Mod/perfprob+ScSg3+OcDu3: ӈэдаравэкэхэюда
+     ӈэдарась+V+TV+Mod/perfprob+ScDu1+OcDu3: ӈэдаравэкэхэюни’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu2+OcDu3: ӈэдаравэкэхэюди’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu3+OcDu3: ӈэдаравэкэхэюди’
+     ӈэдарась+V+TV+Mod/perfprob+ScPl1+OcDu3: ӈэдаравэкэхэюна”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl2+OcDu3: ӈэдаравэкэхэюда”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl3+OcDu3: ӈэдаравэкэхэюдо’
+     ӈэдарась+V+TV+Mod/perfprob+ScSg1+OcPl3: ӈэдаравэкын
+     ӈэдарась+V+TV+Mod/perfprob+ScSg2+OcPl3: ӈэдаравэкыд
+     ӈэдарась+V+TV+Mod/perfprob+ScSg3+OcPl3: ӈэдаравэкыда
+     ӈэдарась+V+TV+Mod/perfprob+ScDu1+OcPl3: ӈэдаравэкыни’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu2+OcPl3: ӈэдаравэкыди’
+     ӈэдарась+V+TV+Mod/perfprob+ScDu3+OcPl3: ӈэдаравэкыди’
+     ӈэдарась+V+TV+Mod/perfprob+ScPl1+OcPl3: ӈэдаравэкына”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl2+OcPl3: ӈэдаравэкыда”
+     ӈэдарась+V+TV+Mod/perfprob+ScPl3+OcPl3: ӈэдаравэкыдо’
+     ӈэдарась+V+TV+Mod/rep+ScSg1+OcSg3: ӈэдаравнав
+     ӈэдарась+V+TV+Mod/rep+ScSg2+OcSg3: ӈэдаравнар
+     ӈэдарась+V+TV+Mod/rep+ScSg3+OcSg3: ӈэдаравнада
+     ӈэдарась+V+TV+Mod/rep+ScDu1+OcSg3: ӈэдаравнами’
+     ӈэдарась+V+TV+Mod/rep+ScDu2+OcSg3: ӈэдаравнари’
+     ӈэдарась+V+TV+Mod/rep+ScDu3+OcSg3: ӈэдаравнади’
+     ӈэдарась+V+TV+Mod/rep+ScPl1+OcSg3: ӈэдаравнава”
+     ӈэдарась+V+TV+Mod/rep+ScPl2+OcSg3: ӈэдаравнара”
+     ӈэдарась+V+TV+Mod/rep+ScPl3+OcSg3: ӈэдаравнадо’
+     ӈэдарась+V+TV+Mod/rep+ScSg1+OcDu3: ӈэдаравнахаюн
+     ӈэдарась+V+TV+Mod/rep+ScSg2+OcDu3: ӈэдаравнахаюд
+     ӈэдарась+V+TV+Mod/rep+ScSg3+OcDu3: ӈэдаравнахаюда
+     ӈэдарась+V+TV+Mod/rep+ScDu1+OcDu3: ӈэдаравнахаюни’
+     ӈэдарась+V+TV+Mod/rep+ScDu2+OcDu3: ӈэдаравнахаюди’
+     ӈэдарась+V+TV+Mod/rep+ScDu3+OcDu3: ӈэдаравнахаюди’
+     ӈэдарась+V+TV+Mod/rep+ScPl1+OcDu3: ӈэдаравнахаюна”
+     ӈэдарась+V+TV+Mod/rep+ScPl2+OcDu3: ӈэдаравнахаюда”
+     ӈэдарась+V+TV+Mod/rep+ScPl3+OcDu3: ӈэдаравнахаюдо’
+     ӈэдарась+V+TV+Mod/rep+ScSg1+OcPl3: ӈэдаравнан
+     ӈэдарась+V+TV+Mod/rep+ScSg2+OcPl3: ӈэдаравнад
+     ӈэдарась+V+TV+Mod/rep+ScSg3+OcPl3: ӈэдаравнада
+     ӈэдарась+V+TV+Mod/rep+ScDu1+OcPl3: ӈэдаравнани’
+     ӈэдарась+V+TV+Mod/rep+ScDu2+OcPl3: ӈэдаравнади’
+     ӈэдарась+V+TV+Mod/rep+ScDu3+OcPl3: ӈэдаравнади’
+     ӈэдарась+V+TV+Mod/rep+ScPl1+OcPl3: ӈэдаравнана”
+     ӈэдарась+V+TV+Mod/rep+ScPl2+OcPl3: ӈэдаравнада”
+     ӈэдарась+V+TV+Mod/rep+ScPl3+OcPl3: ӈэдаравнадо’
+     ӈэдарась+V+TV+Mod/des+ScSg1+OcSg3: ӈэдарарвав
+     ӈэдарась+V+TV+Mod/des+ScSg2+OcSg3: ӈэдарарвар
+     ӈэдарась+V+TV+Mod/des+ScSg3+OcSg3: ӈэдарарвада
+     ӈэдарась+V+TV+Mod/des+ScDu1+OcSg3: ӈэдарарвами’
+     ӈэдарась+V+TV+Mod/des+ScDu2+OcSg3: ӈэдарарвари’
+     ӈэдарась+V+TV+Mod/des+ScDu3+OcSg3: ӈэдарарвади’
+     ӈэдарась+V+TV+Mod/des+ScPl1+OcSg3: ӈэдарарвава”
+     ӈэдарась+V+TV+Mod/des+ScPl2+OcSg3: ӈэдарарвара”
+     ӈэдарась+V+TV+Mod/des+ScPl3+OcSg3: ӈэдарарвадо’
+     ӈэдарась+V+TV+Mod/des+ScSg1+OcDu3: ӈэдарарвахаюн
+     ӈэдарась+V+TV+Mod/des+ScSg2+OcDu3: ӈэдарарвахаюд
+     ӈэдарась+V+TV+Mod/des+ScSg3+OcDu3: ӈэдарарвахаюда
+     ӈэдарась+V+TV+Mod/des+ScDu1+OcDu3: ӈэдарарвахаюни’
+     ӈэдарась+V+TV+Mod/des+ScDu2+OcDu3: ӈэдарарвахаюди’
+     ӈэдарась+V+TV+Mod/des+ScDu3+OcDu3: ӈэдарарвахаюди’
+     ӈэдарась+V+TV+Mod/des+ScPl1+OcDu3: ӈэдарарвахаюна”
+     ӈэдарась+V+TV+Mod/des+ScPl2+OcDu3: ӈэдарарвахаюда”
+     ӈэдарась+V+TV+Mod/des+ScPl3+OcDu3: ӈэдарарвахаюдо’
+     ӈэдарась+V+TV+Mod/des+ScSg1+OcPl3: ӈэдарарбин
+     ӈэдарась+V+TV+Mod/des+ScSg2+OcPl3: ӈэдарарбид
+     ӈэдарась+V+TV+Mod/des+ScSg3+OcPl3: ӈэдарарбида
+     ӈэдарась+V+TV+Mod/des+ScDu1+OcPl3: ӈэдарарбини’
+     ӈэдарась+V+TV+Mod/des+ScDu2+OcPl3: ӈэдарарбиди’
+     ӈэдарась+V+TV+Mod/des+ScDu3+OcPl3: ӈэдарарбиди’
+     ӈэдарась+V+TV+Mod/des+ScPl1+OcPl3: ӈэдарарбина”
+     ӈэдарась+V+TV+Mod/des+ScPl2+OcPl3: ӈэдарарбида”
+     ӈэдарась+V+TV+Mod/des+ScPl3+OcPl3: ӈэдарарбидо’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg1+OcSg3: ӈэдараӈгув
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg2+OcSg3: ӈэдараӈгур
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg3+OcSg3: ӈэдараӈгуда
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu1+OcSg3: ӈэдараӈгуми’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu2+OcSg3: ӈэдараӈгури’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu3+OcSg3: ӈэдараӈгуди’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl1+OcSg3: ӈэдараӈгува”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl2+OcSg3: ӈэдараӈгура”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl3+OcSg3: ӈэдараӈгудо’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg1+OcDu3: ӈэдараӈгухуюн
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg2+OcDu3: ӈэдараӈгухуюд
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg3+OcDu3: ӈэдараӈгухуюда
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu1+OcDu3: ӈэдараӈгухуюни’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu2+OcDu3: ӈэдараӈгухуюди’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu3+OcDu3: ӈэдараӈгухуюди’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl1+OcDu3: ӈэдараӈгухуюна”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl2+OcDu3: ӈэдараӈгухуюда”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl3+OcDu3: ӈэдараӈгухуюдо’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg1+OcPl3: ӈэдараӈгун
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg2+OcPl3: ӈэдараӈгуд
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScSg3+OcPl3: ӈэдараӈгуда
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu1+OcPl3: ӈэдараӈгуни’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu2+OcPl3: ӈэдараӈгуди’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScDu3+OcPl3: ӈэдараӈгуди’
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl1+OcPl3: ӈэдараӈгуна”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl2+OcPl3: ӈэдараӈгуда”
+     ӈэдарась+V+TV+Fut+Ind+Aor+ScPl3+OcPl3: ӈэдараӈгудо’
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg1+OcSg3: ӈэдараӈгувась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg2+OcSg3: ӈэдараӈгурась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg3+OcSg3: ӈэдараӈгудась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu1+OcSg3: ӈэдараӈгуминзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu2+OcSg3: ӈэдараӈгуринзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu3+OcSg3: ӈэдараӈгудинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl1+OcSg3: ӈэдараӈгуваць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl2+OcSg3: ӈэдараӈгураць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl3+OcSg3: ӈэдараӈгудонзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg1+OcDu3: ӈэдараӈгухуюнась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg2+OcDu3: ӈэдараӈгухуюдась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg3+OcDu3: ӈэдараӈгухуюдась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu1+OcDu3: ӈэдараӈгухуюнинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu2+OcDu3: ӈэдараӈгухуюдинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu3+OcDu3: ӈэдараӈгухуюдинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl1+OcDu3: ӈэдараӈгухуюнаць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl2+OcDu3: ӈэдараӈгухуюдаць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl3+OcDu3: ӈэдараӈгухуюдонзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg1+OcPl3: ӈэдараӈгунась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg2+OcPl3: ӈэдараӈгудась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScSg3+OcPl3: ӈэдараӈгудась
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu1+OcPl3: ӈэдараӈгунинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu2+OcPl3: ӈэдараӈгудинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScDu3+OcPl3: ӈэдараӈгудинзь
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl1+OcPl3: ӈэдараӈгунаць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl2+OcPl3: ӈэдараӈгудаць
+     ӈэдарась+V+TV+Fut+Ind+Prt1+ScPl3+OcPl3: ӈэдараӈгудонзь
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcSg3: [ӈэдараӈгодакэв, ӈэдараӈгоданакэв]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcSg3: [ӈэдараӈгодакэр, ӈэдараӈгоданакэр]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcSg3: [ӈэдараӈгодакэда, ӈэдараӈгоданакэда]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcSg3: [ӈэдараӈгодакэми’, ӈэдараӈгоданакэми’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcSg3: [ӈэдараӈгодакэри’, ӈэдараӈгоданакэри’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcSg3: [ӈэдараӈгодакэди’, ӈэдараӈгоданакэди’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcSg3: [ӈэдараӈгодакэва”, ӈэдараӈгоданакэва”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcSg3: [ӈэдараӈгодакэра”, ӈэдараӈгоданакэра”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcSg3: [ӈэдараӈгодакэдо’, ӈэдараӈгоданакэдо’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcDu3: [ӈэдараӈгодакэхэюн, ӈэдараӈгоданакэхэюн]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcDu3: [ӈэдараӈгодакэхэюд, ӈэдараӈгоданакэхэюд]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcDu3: [ӈэдараӈгодакэхэюда, ӈэдараӈгоданакэхэюда]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcDu3: [ӈэдараӈгодакэхэюни’, ӈэдараӈгоданакэхэюни’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcDu3: [ӈэдараӈгодакэхэюди’, ӈэдараӈгоданакэхэюди’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcDu3: [ӈэдараӈгодакэхэюди’, ӈэдараӈгоданакэхэюди’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcDu3: [ӈэдараӈгодакэхэюна”, ӈэдараӈгоданакэхэюна”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcDu3: [ӈэдараӈгодакэхэюда”, ӈэдараӈгоданакэхэюда”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcDu3: [ӈэдараӈгодакэхэюдо’, ӈэдараӈгоданакэхэюдо’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg1+OcPl3: [ӈэдараӈгодакын, ӈэдараӈгоданакын]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg2+OcPl3: [ӈэдараӈгодакыд, ӈэдараӈгоданакыд]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScSg3+OcPl3: [ӈэдараӈгодакыда, ӈэдараӈгоданакыда]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu1+OcPl3: [ӈэдараӈгодакыни’, ӈэдараӈгоданакыни’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu2+OcPl3: [ӈэдараӈгодакыди’, ӈэдараӈгоданакыди’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScDu3+OcPl3: [ӈэдараӈгодакыди’, ӈэдараӈгоданакыди’]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl1+OcPl3: [ӈэдараӈгодакына”, ӈэдараӈгоданакына”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl2+OcPl3: [ӈэдараӈгодакыда”, ӈэдараӈгоданакыда”]
+     ӈэдарась+V+TV+Fut+Mod/prob+Aor+ScPl3+OcPl3: [ӈэдараӈгодакыдо’, ӈэдараӈгоданакыдо’]
+     ӈэдарась+V+TV+Prec+Hort+ScSg1+OcSg3: [ӈэдарахарцюв, ӈэдарахарцяв]
+     ӈэдарась+V+TV+Prec+Hort+ScDu1+OcSg3: [ӈэдарахарцюми’, ӈэдарахарцями’]
+     ӈэдарась+V+TV+Prec+Hort+ScPl1+OcSg3: [ӈэдарахарцюва”, ӈэдарахарцява”]
+     ӈэдарась+V+TV+Prec+Hort+ScSg1+OcDu3: [ӈэдарахарцюхуюн, ӈэдарахарцяхаюн]
+     ӈэдарась+V+TV+Prec+Hort+ScDu1+OcDu3: [ӈэдарахарцюхуюни’, ӈэдарахарцяхаюни’]
+     ӈэдарась+V+TV+Prec+Hort+ScPl1+OcDu3: [ӈэдарахарцюхуюна”, ӈэдарахарцяхаюна”]
+     ӈэдарась+V+TV+Prec+Hort+ScSg1+OcPl3: [ӈэдарахарцюн, ӈэдарахарцян]
+     ӈэдарась+V+TV+Prec+Hort+ScDu1+OcPl3: [ӈэдарахарцюни’, ӈэдарахарцяни’]
+     ӈэдарась+V+TV+Prec+Hort+ScPl1+OcPl3: [ӈэдарахарцюна”, ӈэдарахарцяна”]
+     ӈэдарась+V+TV+Prec+Imprt+ScSg2+OcSg3: ӈэдарахарт
+     ӈэдарась+V+TV+Prec+Imprt+ScDu2+OcSg3: [ӈэдарахар”ӈари’, ӈэдарахарӈари’]
+     ӈэдарась+V+TV+Prec+Imprt+ScPl2+OcSg3: [ӈэдарахар”ӈара”, ӈэдарахарӈара”]
+     ӈэдарась+V+TV+Prec+Imprt+ScSg2+OcDu3: ӈэдарахаркаюн”
+     ӈэдарась+V+TV+Prec+Imprt+ScDu2+OcDu3: [ӈэдарахар”ӈахаюди’, ӈэдарахарӈахаюди’]
+     ӈэдарась+V+TV+Prec+Imprt+ScPl2+OcDu3: [ӈэдарахар”ӈахаюда”, ӈэдарахарӈахаюда”]
+     ӈэдарась+V+TV+Prec+Imprt+ScSg2+OcPl3: ӈэдарахаран”
+     ӈэдарась+V+TV+Prec+Imprt+ScDu2+OcPl3: ӈэдарахаръяди’
+     ӈэдарась+V+TV+Prec+Imprt+ScPl2+OcPl3: ӈэдарахаръяда”
+     ӈэдарась+V+TV+Prec+Opt+ScSg3+OcSg3: [ӈэдарахар”ӈамда, ӈэдарахарӈамда]
+     ӈэдарась+V+TV+Prec+Opt+ScDu3+OcSg3: [ӈэдарахар”ӈамди’, ӈэдарахарӈамди’]
+     ӈэдарась+V+TV+Prec+Opt+ScPl3+OcSg3: [ӈэдарахар”ӈамдо’, ӈэдарахарӈамдо’]
+     ӈэдарась+V+TV+Prec+Opt+ScSg3+OcDu3: [ӈэдарахар”ӈахаюдамда, ӈэдарахарӈахаюдамда]
+     ӈэдарась+V+TV+Prec+Opt+ScDu3+OcDu3: [ӈэдарахар”ӈахаюдамди’, ӈэдарахарӈахаюдамди’]
+     ӈэдарась+V+TV+Prec+Opt+ScPl3+OcDu3: [ӈэдарахар”ӈахаюдамдо’, ӈэдарахарӈахаюдамдо’]
+     ӈэдарась+V+TV+Prec+Opt+ScSg3+OcPl3: ӈэдарахаръядамда
+     ӈэдарась+V+TV+Prec+Opt+ScDu3+OcPl3: ӈэдарахаръядамди’
+     ӈэдарась+V+TV+Prec+Opt+ScPl3+OcPl3: ӈэдарахаръядамдо’
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg1+OcSg3: [ӈэдарасьтыв, ӈэдарасетыв]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg2+OcSg3: [ӈэдарасьтыр, ӈэдарасетыр]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg3+OcSg3: [ӈэдарасьтыда, ӈэдарасетыда]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu1+OcSg3: [ӈэдарасьтыми’, ӈэдарасетыми’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu2+OcSg3: [ӈэдарасьтыри’, ӈэдарасетыри’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu3+OcSg3: [ӈэдарасьтыди’, ӈэдарасетыди’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl1+OcSg3: [ӈэдарасьтыва”, ӈэдарасетыва”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl2+OcSg3: [ӈэдарасьтыра”, ӈэдарасетыра”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl3+OcSg3: [ӈэдарасьтыдо’, ӈэдарасетыдо’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg1+OcDu3: [ӈэдарасьтыхыюн, ӈэдарасетыхыюн]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg2+OcDu3: [ӈэдарасьтыхыюд, ӈэдарасетыхыюд]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg3+OcDu3: [ӈэдарасьтыхыюда, ӈэдарасетыхыюда]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu1+OcDu3: [ӈэдарасьтыхыюни’, ӈэдарасетыхыюни’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu2+OcDu3: [ӈэдарасьтыхыюди’, ӈэдарасетыхыюди’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu3+OcDu3: [ӈэдарасьтыхыюди’, ӈэдарасетыхыюди’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl1+OcDu3: [ӈэдарасьтыхыюна”, ӈэдарасетыхыюна”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl2+OcDu3: [ӈэдарасьтыхыюда”, ӈэдарасетыхыюда”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl3+OcDu3: [ӈэдарасьтыхыюдо’, ӈэдарасетыхыюдо’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg1+OcPl3: [ӈэдарасьтын, ӈэдарасетын]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg2+OcPl3: [ӈэдарасьтыд, ӈэдарасетыд]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScSg3+OcPl3: [ӈэдарасьтыда, ӈэдарасетыда]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu1+OcPl3: [ӈэдарасьтыни’, ӈэдарасетыни’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu2+OcPl3: [ӈэдарасьтыди’, ӈэдарасетыди’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScDu3+OcPl3: [ӈэдарасьтыди’, ӈэдарасетыди’]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl1+OcPl3: [ӈэдарасьтына”, ӈэдарасетына”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl2+OcPl3: [ӈэдарасьтыда”, ӈэдарасетыда”]
+     ӈэдарась+V+TV+Hab+Ind+Aor+ScPl3+OcPl3: [ӈэдарасьтыдо’, ӈэдарасетыдо’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg1+OcSg3: [ӈэдарасьтавэв, ӈэдарасетавэв]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg2+OcSg3: [ӈэдарасьтавэр, ӈэдарасетавэр]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg3+OcSg3: [ӈэдарасьтавэда, ӈэдарасетавэда]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu1+OcSg3: [ӈэдарасьтавэми’, ӈэдарасетавэми’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu2+OcSg3: [ӈэдарасьтавэри’, ӈэдарасетавэри’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu3+OcSg3: [ӈэдарасьтавэди’, ӈэдарасетавэди’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl1+OcSg3: [ӈэдарасьтавэва”, ӈэдарасетавэва”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl2+OcSg3: [ӈэдарасьтавэра”, ӈэдарасетавэра”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl3+OcSg3: [ӈэдарасьтавэдо’, ӈэдарасетавэдо’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg1+OcDu3: [ӈэдарасьтавэхэюн, ӈэдарасетавэхэюн]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg2+OcDu3: [ӈэдарасьтавэхэюд, ӈэдарасетавэхэюд]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg3+OcDu3: [ӈэдарасьтавэхэюда, ӈэдарасетавэхэюда]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu1+OcDu3: [ӈэдарасьтавэхэюни’, ӈэдарасетавэхэюни’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu2+OcDu3: [ӈэдарасьтавэхэюди’, ӈэдарасетавэхэюди’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu3+OcDu3: [ӈэдарасьтавэхэюди’, ӈэдарасетавэхэюди’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl1+OcDu3: [ӈэдарасьтавэхэюна”, ӈэдарасетавэхэюна”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl2+OcDu3: [ӈэдарасьтавэхэюда”, ӈэдарасетавэхэюда”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl3+OcDu3: [ӈэдарасьтавэхэюдо’, ӈэдарасетавэхэюдо’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg1+OcPl3: [ӈэдарасьтавын, ӈэдарасетавын]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg2+OcPl3: [ӈэдарасьтавыд, ӈэдарасетавыд]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScSg3+OcPl3: [ӈэдарасьтавыда, ӈэдарасетавыда]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu1+OcPl3: [ӈэдарасьтавыни’, ӈэдарасетавыни’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu2+OcPl3: [ӈэдарасьтавыди’, ӈэдарасетавыди’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScDu3+OcPl3: [ӈэдарасьтавыди’, ӈэдарасетавыди’]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl1+OcPl3: [ӈэдарасьтавына”, ӈэдарасетавына”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl2+OcPl3: [ӈэдарасьтавыда”, ӈэдарасетавыда”]
+     ӈэдарась+V+TV+Hab+Mod/narr+ScPl3+OcPl3: [ӈэдарасьтавыдо’, ӈэдарасетавыдо’]
