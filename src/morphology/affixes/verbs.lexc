@@ -184,6 +184,13 @@ LEXICON TV_ЛАХАНА-Pal/Var
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
 +V+TV: PRC_PALVAR ;
 
+LEXICON IV_ӇЭДАРА
++V+IV: V-NEW_ӇЭДАРА ;
+LEXICON TV_ӇЭДАРА
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ӇЭДАРА ;
+LEXICON VR_ӇЭДАРА
++V+Refl: V-NEW_ӇЭДАРА-REFL ;
+
 LEXICON IV_СЯНАКУ
 +V+IV: V-01_СЯНАКУ       ;
 
@@ -3231,6 +3238,37 @@ LEXICON V-NEW_ЛАХАНА
 @R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
 @R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_ванд ;
+
+LEXICON V-NEW_ӇЭДАРА
+ V-NEW_MUTUAL ;
++Ger:%>сь K ;
++Ger: K ;
+ V-NEW_MUTUAL-PRCFUT_внд ;
+ V-NEW_MUTUAL-PRCFUT_ванд ;
+!:%^VowRaise V-NEW_MUTUAL-PRCFUT_внд ;
+ V-NEW_MUTUAL-PRCNEG ;
+!:%^VowRaise V-NEW_MUTUAL-PRCNEG ;
+ V-NEW_MUTUAL-PRCIMPF ;
+ V-NEW_MUTUAL-MODFUTAPPR_внд ;
+!:%^VowRaise V-NEW_MUTUAL-MODFUTAPPR_внд ;
+ V-NEW_MUTUAL-MODFUTAPPR_ванд ;
+ V-NEW_MUTUAL-MODREP ;
+!:%^VowRaise V-NEW_MUTUAL-MODREP ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
+!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
+!+PrcFut+Nom+Sg+Abs
+!€# яˮавла%^VowRaise%>ˮ
+!€0 яˮавлу00ˮ
++ConNeg:%>” K ;
++Imprt+ScSg2:%>” K ;
+@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
+!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_ванд ;
+
+LEXICON	V-NEW_ӇЭДАРА-REFL
+#;
+
 
 LEXICON V-NEW_ХО
 !! * Yaml: __V-xosjTS__
