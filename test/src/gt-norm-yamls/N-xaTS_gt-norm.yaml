@@ -32,23 +32,23 @@ Tests:
      ха+N+Pl+Loc: хахаˮна
      ха+N+Pl+Abl: хахат
      ха+N+Pl+Pros: хавоˮмана
-     ха+N+Sg+Nom+PxSg1: хав
-     ха+N+Sg+Acc+PxSg1: хав
-     ха+N+Sg+Gen+PxSg1: хан
-     ха+N+Sg+Dat+PxSg1: хахан
-     ха+N+Sg+Loc+PxSg1: хаханан
-     ха+N+Sg+Abl+PxSg1: хахадан
-     ха+N+Sg+Pros+PxSg1: хавнан
-     ха+N+Du+Nom+PxSg1: хахаюн
-     ха+N+Du+Acc+PxSg1: хахаюн
-     ха+N+Du+Gen+PxSg1: хахаюн
-     ха+N+Pl+Nom+PxSg1: хавон
-     ха+N+Pl+Acc+PxSg1: хавон
-     ха+N+Pl+Gen+PxSg1: хавоˮн
-     ха+N+Pl+Dat+PxSg1: хахаˮн
-     ха+N+Pl+Loc+PxSg1: хахаˮнан
-     ха+N+Pl+Abl+PxSg1: хахатан
-     ха+N+Pl+Pros+PxSg1: хавоˮманан
+     ха+N+Sg+Nom+PxSg1: [хав, хами]
+     ха+N+Sg+Acc+PxSg1: [хав, хами]
+     ха+N+Sg+Gen+PxSg1: [хан, хани]
+     ха+N+Sg+Dat+PxSg1: [хахан, хахани]
+     ха+N+Sg+Loc+PxSg1: [хаханан, хаханани]
+     ха+N+Sg+Abl+PxSg1: [хахадан, хахадани]
+     ха+N+Sg+Pros+PxSg1: [хавнан, хавнани]
+     ха+N+Du+Nom+PxSg1: [хахаюн, хахаюни]
+     ха+N+Du+Acc+PxSg1: [хахаюн, хахаюни]
+     ха+N+Du+Gen+PxSg1: [хахаюн, хахаюни]
+     ха+N+Pl+Nom+PxSg1: [хавон, хавони]
+     ха+N+Pl+Acc+PxSg1: [хавон, хавони]
+     ха+N+Pl+Gen+PxSg1: [хавоˮн, хавоˮни]
+     ха+N+Pl+Dat+PxSg1: [хахаˮн, хахаˮни]
+     ха+N+Pl+Loc+PxSg1: [хахаˮнан, хахаˮнани]
+     ха+N+Pl+Abl+PxSg1: [хахатан, хахатани]
+     ха+N+Pl+Pros+PxSg1: [хавоˮманан, хавоˮманани]
      ха+N+Sg+Nom+PxSg2: хар
      ха+N+Sg+Acc+PxSg2: хамд
      ха+N+Sg+Gen+PxSg2: ханд
@@ -203,9 +203,9 @@ Tests:
      ха+N+Pl+Abl+PxPl3: хахататоʼ
      ха+N+Pl+Pros+PxPl3: хавоˮманатоʼ
      ха+N+Pred+Abs: хад
-     ха+N+Pred+Nom+PxSg1: [хадав, хадув]
-     ха+N+Pred+Acc+PxSg1: [хадав, хадув]
-     ха+N+Pred+Gen+PxSg1: хадан
+     ха+N+Pred+Nom+PxSg1: [хадав, хадув, хадами, хадми]
+     ха+N+Pred+Acc+PxSg1: [хадав, хадув, хадами, хадми]
+     ха+N+Pred+Gen+PxSg1: [хадан, хадани, хадни]
      ха+N+Pred+Nom+PxSg2: хадар
      ха+N+Pred+Acc+PxSg2: хадамд
      ха+N+Pred+Gen+PxSg2: хаданд

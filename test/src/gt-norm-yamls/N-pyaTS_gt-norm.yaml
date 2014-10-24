@@ -32,23 +32,23 @@ Tests:
      пя+N+Pl+Loc: пяхаˮна
      пя+N+Pl+Abl: пяхат
      пя+N+Pl+Pros: пяˮамна
-     пя+N+Sg+Nom+PxSg1: пяв
-     пя+N+Sg+Acc+PxSg1: пяв
-     пя+N+Sg+Gen+PxSg1: пян
-     пя+N+Sg+Dat+PxSg1: пяхан
-     пя+N+Sg+Loc+PxSg1: пяханан
-     пя+N+Sg+Abl+PxSg1: пяхадан
-     пя+N+Sg+Pros+PxSg1: пявнан
-     пя+N+Du+Nom+PxSg1: пяхаюн
-     пя+N+Du+Acc+PxSg1: пяхаюн
-     пя+N+Du+Gen+PxSg1: пяхаюн
-     пя+N+Pl+Nom+PxSg1: пин
-     пя+N+Pl+Acc+PxSg1: пин
-     пя+N+Pl+Gen+PxSg1: пиˮин
-     пя+N+Pl+Dat+PxSg1: пяхаˮн
-     пя+N+Pl+Loc+PxSg1: пяхаˮнан
-     пя+N+Pl+Abl+PxSg1: пяхатан
-     пя+N+Pl+Pros+PxSg1: пяˮамнан
+     пя+N+Sg+Nom+PxSg1: [пяв, пями]
+     пя+N+Sg+Acc+PxSg1: [пяв, пями]
+     пя+N+Sg+Gen+PxSg1: [пян, пяни]
+     пя+N+Sg+Dat+PxSg1: [пяхан, пяхани]
+     пя+N+Sg+Loc+PxSg1: [пяханан, пяханани]
+     пя+N+Sg+Abl+PxSg1: [пяхадан, пяхадани]
+     пя+N+Sg+Pros+PxSg1: [пявнан, пявнани]
+     пя+N+Du+Nom+PxSg1: [пяхаюн, пяхаюни]
+     пя+N+Du+Acc+PxSg1: [пяхаюн, пяхаюни]
+     пя+N+Du+Gen+PxSg1: [пяхаюн, пяхаюни]
+     пя+N+Pl+Nom+PxSg1: [пин, пини]
+     пя+N+Pl+Acc+PxSg1: [пин, пини]
+     пя+N+Pl+Gen+PxSg1: [пиˮин, пиˮни]
+     пя+N+Pl+Dat+PxSg1: [пяхаˮн, пяхаˮни]
+     пя+N+Pl+Loc+PxSg1: [пяхаˮнан, пяхаˮнани]
+     пя+N+Pl+Abl+PxSg1: [пяхатан, пяхатани]
+     пя+N+Pl+Pros+PxSg1: [пяˮамнан, пяˮамнани]
      пя+N+Sg+Nom+PxSg2: пяр
      пя+N+Sg+Acc+PxSg2: пямд
      пя+N+Sg+Gen+PxSg2: пянд
@@ -203,9 +203,9 @@ Tests:
      пя+N+Pl+Abl+PxPl3: пяхататоʼ
      пя+N+Pl+Pros+PxPl3: пяˮамнатоʼ
      пя+N+Pred+Abs: пяд
-     пя+N+Pred+Nom+PxSg1: [пядав, пядув]
-     пя+N+Pred+Acc+PxSg1: [пядав, пядув]
-     пя+N+Pred+Gen+PxSg1: пядан
+     пя+N+Pred+Nom+PxSg1: [пядав, пядув, пядами, пядми]
+     пя+N+Pred+Acc+PxSg1: [пядав, пядув, пядами, пядми]
+     пя+N+Pred+Gen+PxSg1: [пядан, пядани, пядни]
      пя+N+Pred+Nom+PxSg2: пядар
      пя+N+Pred+Acc+PxSg2: пядамд
      пя+N+Pred+Gen+PxSg2: пяданд

@@ -1,0 +1,313 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - ӈэ: # Noun 'leg; foot/(fin) jalka' - full paradigm /Type 1  /
+# ŋæ ʼjalkaʼ nomini = vaihtelematon yksitavuinen vokaalivartalo [MDTN-koodi 1 ≡]
+     ӈэ+N+Sg+Nom: ӈэ
+     ӈэ+N+Sg+Acc: ӈэмʼ
+     ӈэ+N+Sg+Gen: ӈэʼ
+     ӈэ+N+Sg+Dat: ӈэнʼ
+     ӈэ+N+Sg+Loc: ӈэхэна
+     ӈэ+N+Sg+Abl: ӈэхэд
+     ӈэ+N+Sg+Pros: ӈэвна
+     ӈэ+N+Du+Nom: ӈэхэʼ
+     ӈэ+N+Du+Acc: ӈэхэʼ
+     ӈэ+N+Du+Gen: ӈэхэʼ
+     ӈэ+N+Pl+Nom: ӈэˮ
+     ӈэ+N+Pl+Acc: ӈэ
+     ӈэ+N+Pl+Gen: ӈэˮ
+     ӈэ+N+Pl+Dat: ӈэхэˮ
+     ӈэ+N+Pl+Loc: ӈэхэˮна
+     ӈэ+N+Pl+Abl: ӈэхэт
+     ӈэ+N+Pl+Pros: ӈэˮэмна
+     ӈэ+N+Sg+Nom+PxSg1: [ӈэв, ӈэми]
+     ӈэ+N+Sg+Acc+PxSg1: [ӈэв, ӈэми]
+     ӈэ+N+Sg+Gen+PxSg1: [ӈэн, ӈэни]
+     ӈэ+N+Sg+Dat+PxSg1: [ӈэхэн, ӈэхэни]
+     ӈэ+N+Sg+Loc+PxSg1: [ӈэхэнан, ӈэхэнани]
+     ӈэ+N+Sg+Abl+PxSg1: [ӈэхэдан, ӈэхэдани]
+     ӈэ+N+Sg+Pros+PxSg1: [ӈэвнан, ӈэвнани]
+     ӈэ+N+Du+Nom+PxSg1: [ӈэхэюн, ӈэхэюни]
+     ӈэ+N+Du+Acc+PxSg1: [ӈэхэюн, ӈэхэюни]
+     ӈэ+N+Du+Gen+PxSg1: [ӈэхэюн, ӈэхэюни]
+     ӈэ+N+Pl+Nom+PxSg1: [ӈэн, ӈэни]
+     ӈэ+N+Pl+Acc+PxSg1: [ӈэн, ӈэни]
+     ӈэ+N+Pl+Gen+PxSg1: [ӈэˮэн, ӈэˮни]
+     ӈэ+N+Pl+Dat+PxSg1: [ӈэхэˮн, ӈэхэˮни]
+     ӈэ+N+Pl+Loc+PxSg1: [ӈэхэˮнан, ӈэхэˮнани]
+     ӈэ+N+Pl+Abl+PxSg1: [ӈэхэтан, ӈэхэтани]
+     ӈэ+N+Pl+Pros+PxSg1: [ӈэˮэмнан, ӈэˮэмнани]
+     ӈэ+N+Sg+Nom+PxSg2: ӈэр
+     ӈэ+N+Sg+Acc+PxSg2: ӈэмд
+     ӈэ+N+Sg+Gen+PxSg2: ӈэнд
+     ӈэ+N+Sg+Dat+PxSg2: ӈэхэнд
+     ӈэ+N+Sg+Loc+PxSg2: ӈэхэнанд
+     ӈэ+N+Sg+Abl+PxSg2: ӈэхэданд
+     ӈэ+N+Sg+Pros+PxSg2: ӈэвнанд
+     ӈэ+N+Du+Nom+PxSg2: ӈэхэюд
+     ӈэ+N+Du+Acc+PxSg2: ӈэхэюд
+     ӈэ+N+Du+Gen+PxSg2: ӈэхэют
+     ӈэ+N+Pl+Nom+PxSg2: ӈэд
+     ӈэ+N+Pl+Acc+PxSg2: ӈэд
+     ӈэ+N+Pl+Gen+PxSg2: ӈэт
+     ӈэ+N+Pl+Dat+PxSg2: ӈэхэт
+     ӈэ+N+Pl+Loc+PxSg2: ӈэхэˮнат
+     ӈэ+N+Pl+Abl+PxSg2: ӈэхэтат
+     ӈэ+N+Pl+Pros+PxSg2: ӈэˮэмнат
+     ӈэ+N+Sg+Nom+PxSg3: ӈэда
+     ӈэ+N+Sg+Acc+PxSg3: ӈэмда
+     ӈэ+N+Sg+Gen+PxSg3: ӈэнда
+     ӈэ+N+Sg+Dat+PxSg3: ӈэхэнда
+     ӈэ+N+Sg+Loc+PxSg3: ӈэхэнанда
+     ӈэ+N+Sg+Abl+PxSg3: ӈэхэданда
+     ӈэ+N+Sg+Pros+PxSg3: ӈэвнанда
+     ӈэ+N+Du+Nom+PxSg3: ӈэхэюда
+     ӈэ+N+Du+Acc+PxSg3: ӈэхэюда
+     ӈэ+N+Du+Gen+PxSg3: ӈэхэюта
+     ӈэ+N+Pl+Nom+PxSg3: ӈэда
+     ӈэ+N+Pl+Acc+PxSg3: ӈэда
+     ӈэ+N+Pl+Gen+PxSg3: ӈэта
+     ӈэ+N+Pl+Dat+PxSg3: ӈэхэта
+     ӈэ+N+Pl+Loc+PxSg3: ӈэхэˮната
+     ӈэ+N+Pl+Abl+PxSg3: ӈэхэтата
+     ӈэ+N+Pl+Pros+PxSg3: ӈэˮэмната
+     ӈэ+N+Sg+Nom+PxDu1: ӈэмиʼ
+#     ӈэ+N+Sg+Nom+PxSg1.2: ӈэми
+     ӈэ+N+Sg+Acc+PxDu1: ӈэмиʼ
+#     ӈэ+N+Sg+Acc+PxSg1.2: ӈэми
+     ӈэ+N+Sg+Gen+PxDu1: ӈэниʼ
+#     ӈэ+N+Sg+Gen+PxSg1.2: ӈэни
+     ӈэ+N+Sg+Dat+PxDu1: ӈэхэниʼ
+#     ӈэ+N+Sg+Dat+PxSg1.2: ӈэхэни
+     ӈэ+N+Sg+Loc+PxDu1: ӈэхэнаниʼ
+#     ӈэ+N+Sg+Loc+PxSg1.2: ӈэхэнани
+     ӈэ+N+Sg+Abl+PxDu1: ӈэхэданиʼ
+#     ӈэ+N+Sg+Abl+PxSg1.2: ӈэхэдани
+     ӈэ+N+Sg+Pros+PxDu1: ӈэвнаниʼ
+#     ӈэ+N+Sg+Pros+PxSg1.2: ӈэвнани
+     ӈэ+N+Du+Nom+PxDu1: ӈэхэюниʼ
+#     ӈэ+N+Du+Nom+PxSg1.2: ӈэхэюни
+     ӈэ+N+Du+Acc+PxDu1: ӈэхэюниʼ
+#     ӈэ+N+Du+Acc+PxSg1.2: ӈэхэюни
+     ӈэ+N+Du+Gen+PxDu1: ӈэхэюниʼ
+#     ӈэ+N+Du+Gen+PxSg1.2: ӈэхэюни
+     ӈэ+N+Pl+Nom+PxDu1: ӈэниʼ
+#     ӈэ+N+Pl+Nom+PxSg1.2: ӈэни
+     ӈэ+N+Pl+Acc+PxDu1: ӈэниʼ
+#     ӈэ+N+Pl+Acc+PxSg1.2: ӈэни
+     ӈэ+N+Pl+Gen+PxDu1: ӈэˮниʼ
+#     ӈэ+N+Pl+Gen+PxSg1.2: ӈэˮни
+     ӈэ+N+Pl+Dat+PxDu1: ӈэхэˮниʼ
+#     ӈэ+N+Pl+Dat+PxSg1.2: ӈэхэˮни
+     ӈэ+N+Pl+Loc+PxDu1: ӈэхэˮнаниʼ
+#     ӈэ+N+Pl+Loc+PxSg1.2: ӈэхэˮнани
+     ӈэ+N+Pl+Abl+PxDu1: ӈэхэтаниʼ
+#     ӈэ+N+Pl+Abl+PxSg1.2: ӈэхэтани
+     ӈэ+N+Pl+Pros+PxDu1: ӈэˮэмнаниʼ
+#     ӈэ+N+Pl+Pros+PxSg1.2: ӈэˮэмнани
+     ӈэ+N+Sg+Nom+PxDu2: ӈэриʼ
+     ӈэ+N+Sg+Acc+PxDu2: ӈэмдиʼ
+     ӈэ+N+Sg+Gen+PxDu2: ӈэндиʼ
+     ӈэ+N+Sg+Dat+PxDu2: ӈэхэндиʼ
+     ӈэ+N+Sg+Loc+PxDu2: ӈэхэнандиʼ
+     ӈэ+N+Sg+Abl+PxDu2: ӈэхэдандиʼ
+     ӈэ+N+Sg+Pros+PxDu2: ӈэвнандиʼ
+     ӈэ+N+Du+Nom+PxDu2: ӈэхэюдиʼ
+     ӈэ+N+Du+Acc+PxDu2: ӈэхэюдиʼ
+     ӈэ+N+Du+Gen+PxDu2: ӈэхэютиʼ
+     ӈэ+N+Pl+Nom+PxDu2: ӈэдиʼ
+     ӈэ+N+Pl+Acc+PxDu2: ӈэдиʼ
+     ӈэ+N+Pl+Gen+PxDu2: ӈэтиʼ
+     ӈэ+N+Pl+Dat+PxDu2: ӈэхэтиʼ
+     ӈэ+N+Pl+Loc+PxDu2: ӈэхэˮнатиʼ
+     ӈэ+N+Pl+Abl+PxDu2: ӈэхэтатиʼ
+     ӈэ+N+Pl+Pros+PxDu2: ӈэˮэмнатиʼ
+     ӈэ+N+Sg+Nom+PxDu3: ӈэдиʼ
+     ӈэ+N+Sg+Acc+PxDu3: ӈэмдиʼ
+     ӈэ+N+Sg+Gen+PxDu3: ӈэндиʼ
+     ӈэ+N+Sg+Dat+PxDu3: ӈэхэндиʼ
+     ӈэ+N+Sg+Loc+PxDu3: ӈэхэнандиʼ
+     ӈэ+N+Sg+Abl+PxDu3: ӈэхэдандиʼ
+     ӈэ+N+Sg+Pros+PxDu3: ӈэвнандиʼ
+     ӈэ+N+Du+Nom+PxDu3: ӈэхэюдиʼ
+     ӈэ+N+Du+Acc+PxDu3: ӈэхэюдиʼ
+     ӈэ+N+Du+Gen+PxDu3: ӈэхэютиʼ
+     ӈэ+N+Pl+Nom+PxDu3: ӈэдиʼ
+     ӈэ+N+Pl+Acc+PxDu3: ӈэдиʼ
+     ӈэ+N+Pl+Gen+PxDu3: ӈэтиʼ
+     ӈэ+N+Pl+Dat+PxDu3: ӈэхэтиʼ
+     ӈэ+N+Pl+Loc+PxDu3: ӈэхэˮнатиʼ
+     ӈэ+N+Pl+Abl+PxDu3: ӈэхэтатиʼ
+     ӈэ+N+Pl+Pros+PxDu3: ӈэˮэмнатиʼ
+     ӈэ+N+Sg+Nom+PxPl1: ӈэваˮ
+     ӈэ+N+Sg+Acc+PxPl1: ӈэваˮ
+     ӈэ+N+Sg+Gen+PxPl1: ӈэнаˮ
+     ӈэ+N+Sg+Dat+PxPl1: ӈэхэнаˮ
+     ӈэ+N+Sg+Loc+PxPl1: ӈэхэнанаˮ
+     ӈэ+N+Sg+Abl+PxPl1: ӈэхэданаˮ
+     ӈэ+N+Sg+Pros+PxPl1: ӈэвнанаˮ
+     ӈэ+N+Du+Nom+PxPl1: ӈэхэюнаˮ
+     ӈэ+N+Du+Acc+PxPl1: ӈэхэюнаˮ
+     ӈэ+N+Du+Gen+PxPl1: ӈэхэюнаˮ
+     ӈэ+N+Pl+Nom+PxPl1: ӈэнаˮ
+     ӈэ+N+Pl+Acc+PxPl1: ӈэнаˮ
+     ӈэ+N+Pl+Gen+PxPl1: ӈэˮнаˮ
+     ӈэ+N+Pl+Dat+PxPl1: ӈэхэˮнаˮ
+     ӈэ+N+Pl+Loc+PxPl1: ӈэхэˮнанаˮ
+     ӈэ+N+Pl+Abl+PxPl1: ӈэхэтанаˮ
+     ӈэ+N+Pl+Pros+PxPl1: ӈэˮэмнанаˮ
+     ӈэ+N+Sg+Nom+PxPl2: ӈэраˮ
+     ӈэ+N+Sg+Acc+PxPl2: ӈэмдаˮ
+     ӈэ+N+Sg+Gen+PxPl2: ӈэндаˮ
+     ӈэ+N+Sg+Dat+PxPl2: ӈэхэндаˮ
+     ӈэ+N+Sg+Loc+PxPl2: ӈэхэнандаˮ
+     ӈэ+N+Sg+Abl+PxPl2: ӈэхэдандаˮ
+     ӈэ+N+Sg+Pros+PxPl2: ӈэвнандаˮ
+     ӈэ+N+Du+Nom+PxPl2: ӈэхэюдаˮ
+     ӈэ+N+Du+Acc+PxPl2: ӈэхэюдаˮ
+     ӈэ+N+Du+Gen+PxPl2: ӈэхэютаˮ
+     ӈэ+N+Pl+Nom+PxPl2: ӈэдаˮ
+     ӈэ+N+Pl+Acc+PxPl2: ӈэдаˮ
+     ӈэ+N+Pl+Gen+PxPl2: ӈэтаˮ
+     ӈэ+N+Pl+Dat+PxPl2: ӈэхэтаˮ
+     ӈэ+N+Pl+Loc+PxPl2: ӈэхэˮнатаˮ
+     ӈэ+N+Pl+Abl+PxPl2: ӈэхэтатаˮ
+     ӈэ+N+Pl+Pros+PxPl2: ӈэˮэмнатаˮ
+     ӈэ+N+Sg+Nom+PxPl3: ӈэдоʼ
+     ӈэ+N+Sg+Acc+PxPl3: ӈэмдоʼ
+     ӈэ+N+Sg+Gen+PxPl3: ӈэндоʼ
+     ӈэ+N+Sg+Dat+PxPl3: ӈэхэндоʼ
+     ӈэ+N+Sg+Loc+PxPl3: ӈэхэнандоʼ
+     ӈэ+N+Sg+Abl+PxPl3: ӈэхэдандоʼ
+     ӈэ+N+Sg+Pros+PxPl3: ӈэвнандоʼ
+     ӈэ+N+Du+Nom+PxPl3: ӈэхэюдоʼ
+     ӈэ+N+Du+Acc+PxPl3: ӈэхэюдоʼ
+     ӈэ+N+Du+Gen+PxPl3: ӈэхэютоʼ
+     ӈэ+N+Pl+Nom+PxPl3: ӈэдоʼ
+     ӈэ+N+Pl+Acc+PxPl3: ӈэдоʼ
+     ӈэ+N+Pl+Gen+PxPl3: ӈэтоʼ
+     ӈэ+N+Pl+Dat+PxPl3: ӈэхэтоʼ
+     ӈэ+N+Pl+Loc+PxPl3: ӈэхэˮнатоʼ
+     ӈэ+N+Pl+Abl+PxPl3: ӈэхэтатоʼ
+     ӈэ+N+Pl+Pros+PxPl3: ӈэˮэмнатоʼ
+     ӈэ+N+Pred+Abs: ӈэд
+     ӈэ+N+Pred+Nom+PxSg1: [ӈэдав, ӈэдув, ӈэдами, ӈэдми]
+     ӈэ+N+Pred+Acc+PxSg1: [ӈэдав, ӈэдув, ӈэдами, ӈэдми]
+     ӈэ+N+Pred+Gen+PxSg1: [ӈэдан, ӈэдани, ӈэдни]
+     ӈэ+N+Pred+Nom+PxSg2: ӈэдар
+     ӈэ+N+Pred+Acc+PxSg2: ӈэдамд
+     ӈэ+N+Pred+Gen+PxSg2: ӈэданд
+     ӈэ+N+Pred+Nom+PxSg3: [ӈэдада, ӈэдда]
+     ӈэ+N+Pred+Acc+PxSg3: ӈэдамда
+     ӈэ+N+Pred+Gen+PxSg3: ӈэданда
+     ӈэ+N+Pred+Nom+PxDu1: [ӈэдамиʼ, ӈэдмиʼ]
+#     ӈэ+N+Pred+Nom+PxSg1.2: [ӈэдами, ӈэдми]
+     ӈэ+N+Pred+Acc+PxDu1: [ӈэдамиʼ, ӈэдмиʼ]
+#     ӈэ+N+Pred+Acc+PxSg1.2: [ӈэдами, ӈэдми]
+     ӈэ+N+Pred+Gen+PxDu1: [ӈэданиʼ, ӈэдниʼ]
+#     ӈэ+N+Pred+Gen+PxSg1.2: [ӈэдани, ӈэдни]
+     ӈэ+N+Pred+Nom+PxDu2: [ӈэдариʼ, ӈэдриʼ]
+     ӈэ+N+Pred+Acc+PxDu2: ӈэдамдиʼ
+     ӈэ+N+Pred+Gen+PxDu2: ӈэдандиʼ
+     ӈэ+N+Pred+Nom+PxDu3: [ӈэдадиʼ, ӈэддиʼ]
+     ӈэ+N+Pred+Acc+PxDu3: ӈэдамдиʼ
+     ӈэ+N+Pred+Gen+PxDu3: ӈэдандиʼ
+     ӈэ+N+Pred+Nom+PxPl1: [ӈэдаваˮ, ӈэдваˮ]
+     ӈэ+N+Pred+Acc+PxPl1: [ӈэдаваˮ, ӈэдваˮ]
+     ӈэ+N+Pred+Gen+PxPl1: [ӈэданаˮ, ӈэднаˮ]
+     ӈэ+N+Pred+Nom+PxPl2: [ӈэдараˮ, ӈэдраˮ]
+     ӈэ+N+Pred+Acc+PxPl2: ӈэдамдаˮ
+     ӈэ+N+Pred+Gen+PxPl2: ӈэдандаˮ
+     ӈэ+N+Pred+Nom+PxPl3: [ӈэдадоʼ, ӈэддоʼ]
+     ӈэ+N+Pred+Acc+PxPl3: ӈэдамдоʼ
+     ӈэ+N+Pred+Gen+PxPl3: ӈэдандоʼ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ӈэдмʼ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ӈэн
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ӈэ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: ӈэниʼ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: ӈэдиʼ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэʼ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: ӈэваˮ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: ӈэдаˮ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: ӈэˮ
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: ӈэдамзь
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: ӈэнась
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: ӈэсь
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: ӈэнинзь
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: ӈэдинзь
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэнзь
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: ӈэваць
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: ӈэдаць
+     ӈэ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: ӈэць
+     ӈэ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: ӈэв
+     ӈэ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ӈэр
+     ӈэ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: ӈэда
+     ӈэ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: ӈэмиʼ
+     ӈэ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: ӈэриʼ
+     ӈэ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: ӈэдиʼ
+     ӈэ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: ӈэваˮ
+     ӈэ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: ӈэраˮ
+     ӈэ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: ӈэдоʼ
+     ӈэ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэвась
+     ӈэ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэрась
+     ӈэ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдась
+     ӈэ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэминзь
+     ӈэ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэринзь
+     ӈэ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдинзь
+     ӈэ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: ӈэваць
+     ӈэ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: ӈэраць
+     ӈэ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: ӈэдонзь
+     ӈэ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюн
+     ӈэ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюд
+     ӈэ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюда
+     ӈэ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюниʼ
+     ӈэ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдиʼ
+     ӈэ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдиʼ
+     ӈэ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюнаˮ
+     ӈэ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдаˮ
+     ӈэ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: ӈэхэюдоʼ
+     ӈэ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюнась
+     ӈэ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдась
+     ӈэ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдась
+     ӈэ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюнинзь
+     ӈэ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдинзь
+     ӈэ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдинзь
+     ӈэ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюнаць
+     ӈэ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдаць
+     ӈэ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: ӈэхэюдонзь
+     ӈэ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: ӈэн
+     ӈэ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: ӈэд
+     ӈэ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: ӈэда
+     ӈэ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: ӈэниʼ
+     ӈэ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: ӈэдиʼ
+     ӈэ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: ӈэдиʼ
+     ӈэ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ӈэнаˮ
+     ӈэ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ӈэдаˮ
+     ӈэ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ӈэдоʼ
+     ӈэ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэнась
+     ӈэ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдась
+     ӈэ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдась
+     ӈэ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэнинзь
+     ӈэ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдинзь
+     ӈэ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдинзь
+     ӈэ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ӈэнаць
+     ӈэ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдаць
+     ӈэ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ӈэдонзь
+     ӈэ+N+Tra: ӈэӈэ
+     ӈэ+N+Car: ӈэсиˮ
+     ӈэ+N+Equ: ӈэдремʼ
+     ӈэ+N+Equ+Lat: ӈэдревʼ
+

@@ -32,23 +32,23 @@ Tests:
      ты+N+Pl+Loc: тэхэˮна
      ты+N+Pl+Abl: тэхэт
      ты+N+Pl+Pros: тэˮэмна
-     ты+N+Sg+Nom+PxSg1: тэв
-     ты+N+Sg+Acc+PxSg1: тэв
-     ты+N+Sg+Gen+PxSg1: тэн
-     ты+N+Sg+Dat+PxSg1: тэхэн
-     ты+N+Sg+Loc+PxSg1: тэхэнан
-     ты+N+Sg+Abl+PxSg1: тэхэдан
-     ты+N+Sg+Pros+PxSg1: тэвнан
-     ты+N+Du+Nom+PxSg1: тэхэюн
-     ты+N+Du+Acc+PxSg1: тэхэюн
-     ты+N+Du+Gen+PxSg1: тэхэюн
-     ты+N+Pl+Nom+PxSg1: тын
-     ты+N+Pl+Acc+PxSg1: тын
-     ты+N+Pl+Gen+PxSg1: тыˮын
-     ты+N+Pl+Dat+PxSg1: тэхэˮн
-     ты+N+Pl+Loc+PxSg1: тэхэˮнан
-     ты+N+Pl+Abl+PxSg1: тэхэтан
-     ты+N+Pl+Pros+PxSg1: тэˮэмнан
+     ты+N+Sg+Nom+PxSg1: [тэв, тэми]
+     ты+N+Sg+Acc+PxSg1: [тэв, тэми]
+     ты+N+Sg+Gen+PxSg1: [тэн, тэни]
+     ты+N+Sg+Dat+PxSg1: [тэхэн, тэхэни]
+     ты+N+Sg+Loc+PxSg1: [тэхэнан, тэхэнани]
+     ты+N+Sg+Abl+PxSg1: [тэхэдан, тэхэдани]
+     ты+N+Sg+Pros+PxSg1: [тэвнан, тэвнани]
+     ты+N+Du+Nom+PxSg1: [тэхэюн, тэхэюни]
+     ты+N+Du+Acc+PxSg1: [тэхэюн, тэхэюни]
+     ты+N+Du+Gen+PxSg1: [тэхэюн, тэхэюни]
+     ты+N+Pl+Nom+PxSg1: [тын, тыни]
+     ты+N+Pl+Acc+PxSg1: [тын, тыни]
+     ты+N+Pl+Gen+PxSg1: [тыˮын, тыˮни]
+     ты+N+Pl+Dat+PxSg1: [тэхэˮн, тэхэˮни]
+     ты+N+Pl+Loc+PxSg1: [тэхэˮнан, тэхэˮнани]
+     ты+N+Pl+Abl+PxSg1: [тэхэтан, тэхэтани]
+     ты+N+Pl+Pros+PxSg1: [тэˮэмнан, тэˮэмнани]
      ты+N+Sg+Nom+PxSg2: тэр
      ты+N+Sg+Acc+PxSg2: тэмд
      ты+N+Sg+Gen+PxSg2: тэнд
@@ -203,9 +203,9 @@ Tests:
      ты+N+Pl+Abl+PxPl3: тэхэтатоʼ
      ты+N+Pl+Pros+PxPl3: тэˮэмнатоʼ
      ты+N+Pred+Abs: тэд
-     ты+N+Pred+Nom+PxSg1: [тэдав, тэдув]
-     ты+N+Pred+Acc+PxSg1: [тэдав, тэдув]
-     ты+N+Pred+Gen+PxSg1: тэдан
+     ты+N+Pred+Nom+PxSg1: [тэдав, тэдув, тэдами, тэдми]
+     ты+N+Pred+Acc+PxSg1: [тэдав, тэдув, тэдами, тэдми]
+     ты+N+Pred+Gen+PxSg1: [тэдан, тэдани, тэдни]
      ты+N+Pred+Nom+PxSg2: тэдар
      ты+N+Pred+Acc+PxSg2: тэдамд
      ты+N+Pred+Gen+PxSg2: тэданд

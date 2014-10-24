@@ -397,7 +397,7 @@ Nenets nouns inflect in cases.
  * __LEXICON N_ӇЭ__ ӈэ:ӈэ 1  ProsSg -вна
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
-Yaml: __xo__
+Yaml: __xo, ngaeTS__
 
 
  * __LEXICON N_ӇЭ-Pal/Var__ ӈэ:ӈэ 1  ProsSg -вна
@@ -409,7 +409,7 @@ no change in stem
 хӑби:8 ProsSg -вна
 
  * __LEXICON N_Ё__ я:я 2 ProsSg -вна
-Yaml: __ya__
+Yaml: __ya, yaTS__
 /total=3/
 я ya	ян’ yan°h	я” yaq	ё yo
 
@@ -418,15 +418,16 @@ Yaml: __ya__
 я:я 2 ProsSg -вна
 
  * __LEXICON N_ПИ__ пя:пя 3 ProsSg -вна
-Yaml: __pyi__
+Yaml: __pyi, pyaTS__
 /total=3/
 пя pya	пян’ pyan°h	пя” pyaq	пи pyí
 
 
  * __LEXICON N_ТЫ__ ты: 4 ProsSg -вна
-Yaml: __ty__
+Yaml: __tyTS__
 /total=4/
 ты ti	тэ̇н’ ten°h	ты” tiq	ты tí
+
 
 
 
@@ -434,9 +435,12 @@ Yaml: __ty__
 /total=1/
 ха xa	хан’ xan°h	ха” xaq	хаво xawo
 
+
  * __LEXICON N_СЁЁ__ сё: 6 ProsSg -вна
 /total=0/
+  * Yaml: __syoyoTS__
 сё syo	сён’ syon°h	сё” syoq	сёё syoyo
+
 
  * __LEXICON N_ИБЕ__ и: 7 ProsSg -вна
 /total=0/
@@ -479,6 +483,7 @@ Yaml: __xano__
  * __LEXICON N_МАРАӇГЫ__ мӑраӈга: 14PProsSg -вна
 /total=15/
 мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңга” məraŋkaq	мӑраңгы məraŋki
+
 
 
 
@@ -960,6 +965,8 @@ Conjugation of nouns and adjectives
 
 
 !!NEW
+
+
 
 
 
