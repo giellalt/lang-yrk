@@ -294,42 +294,39 @@ Multichar_Symbols
 
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{ая%}    !!≈ * __@CODE@__ in Pros
- %{оё%}    !!≈ * __@CODE@__ in +N+Sg+Nom+PxPl3
- %{рл%}	   !!≈ * __@CODE@__ +N+Sg+Nom+PxSg2
+ %{ая%}    !!≈ * __ @CODE@ __ in Pros
+ %{оё%}    !!≈ * __ @CODE@ __ in +N+Sg+Nom+PxPl3
+ %{рл%}	   !!≈ * __ @CODE@ __ +N+Sg+Nom+PxSg2
+ %{аяуюØ%} !!≈ * __ @CODE@ __ хан+N+Sg+Acc+PxSg1: ханув, ханав
+ %{увм%}   !!≈ * __ @CODE@ __ +N+Sg+Pros
+ %{вм%}	   !!≈ * __ @CODE@ __ +N+Sg+Nom+PxSg1
 
- %{аяуюØ%} !!≈ * __@CODE@__ хан+N+Sg+Acc+PxSg1: ханув, ханав
- %{увм%}   !!≈ * __@CODE@__ +N+Sg+Pros
- %{вм%}	   !!≈ * __@CODE@__ +N+Sg+Nom+PxSg1
+!! And the following triggers to control variation:
+ {front}   !!≈ * __ @CODE@ __
+ {back}    !!≈ * __ @CODE@ __
+ %^SCSG2   !!≈ * __ @CODE@ __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ %^PLNOM   !!≈ * __ @CODE@ __ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ %^PalVariation !!≈ * __ @CODE@ __ This allows for тарД1%>д%{оё%}нзь
 
-!! And following triggers to control variation
- {front}   !!≈ * __@CODE@__
- {back}      !!≈ * __@CODE@__
- %^SCSG2    !!≈ * __@CODE@__ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- %^PLNOM    !!≈ * __@CODE@__ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
- %^PalVariation !!≈ * __@CODE@__ This allows for тарД1%>д%{оё%}нзь
+!! Protoletters for xfst:
+ %{ауоэØ%}   !!≈ * __ @CODE@ __  А1:а А1:у А1:о А1:э schwa
+ %{ауоэиыØ%} !!≈ * __ @CODE@ __ before pros
 
-! Protoletters for xfst
-
- %{ауоэØ%} !!≈ * __@CODE@__  А1:а А1:у А1:о А1:э schwa
-
- %{ауоэиыØ%} !!≈ * __@CODE@__ before pros
-
- !! This is the schwa or reduced vowel occurring after x in case endings
- ! -хА1на -хА1д
+!! This is the schwa or reduced vowel occurring after x in case endings
+! -хА1на -хА1д
 
 А2  !!≈ * __@CODE@__ Alternating between zero and а
 
-Д1   !!≈ * __@CODE@__
-С1   !!≈ * __@CODE@__
-Н1   !!≈ * __@CODE@__
-Ӈ1        !!≈ * __@CODE@__ = These are proto-glottals
+Д1  !!≈ * __@CODE@__
+С1  !!≈ * __@CODE@__
+Н1  !!≈ * __@CODE@__
+Ӈ1  !!≈ * __@CODE@__ = These are proto-glottals
 
-Г1   !!≈ * __@CODE@__
-В1   !!≈ * __@CODE@__
-Е1   !!≈ * __@CODE@__
-Е2   !!≈ * __@CODE@__
-Ы1   !!≈ * __@CODE@__
+Г1  !!≈ * __@CODE@__
+В1  !!≈ * __@CODE@__
+Е1  !!≈ * __@CODE@__
+Е2  !!≈ * __@CODE@__
+Ы1  !!≈ * __@CODE@__
 Ы2  !!≈ * __@CODE@__ = These are for developing underlying morphology rules
 
 !! !!Triggers
