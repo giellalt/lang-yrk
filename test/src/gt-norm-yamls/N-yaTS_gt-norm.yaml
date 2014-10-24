@@ -32,23 +32,23 @@ Tests:
      я+N+Pl+Loc: яхаˮна
      я+N+Pl+Abl: яхат
      я+N+Pl+Pros: [яˮамна, ёˮомна]
-     я+N+Sg+Nom+PxSg1: яв
-     я+N+Sg+Acc+PxSg1: яв
-     я+N+Sg+Gen+PxSg1: ян
-     я+N+Sg+Dat+PxSg1: яхан
-     я+N+Sg+Loc+PxSg1: яханан
-     я+N+Sg+Abl+PxSg1: яхадан
-     я+N+Sg+Pros+PxSg1: явнан
-     я+N+Du+Nom+PxSg1: яхаюн
-     я+N+Du+Acc+PxSg1: яхаюн
-     я+N+Du+Gen+PxSg1: яхаюн
-     я+N+Pl+Nom+PxSg1: ён
-     я+N+Pl+Acc+PxSg1: ён
-     я+N+Pl+Gen+PxSg1: ёˮон
-     я+N+Pl+Dat+PxSg1: яхаˮн
-     я+N+Pl+Loc+PxSg1: яхаˮнан
-     я+N+Pl+Abl+PxSg1: яхатан
-     я+N+Pl+Pros+PxSg1: [яˮамнан, ёˮомнан]
+     я+N+Sg+Nom+PxSg1: [яв, ями]
+     я+N+Sg+Acc+PxSg1: [яв, ями]
+     я+N+Sg+Gen+PxSg1: [ян, яни]
+     я+N+Sg+Dat+PxSg1: [яхан, яхани]
+     я+N+Sg+Loc+PxSg1: [яханан, яханани]
+     я+N+Sg+Abl+PxSg1: [яхадан, яхадани]
+     я+N+Sg+Pros+PxSg1: [явнан, явнани]
+     я+N+Du+Nom+PxSg1: [яхаюн, яхаюни]
+     я+N+Du+Acc+PxSg1: [яхаюн, яхаюни]
+     я+N+Du+Gen+PxSg1: [яхаюн, яхаюни]
+     я+N+Pl+Nom+PxSg1: [ён, ёни]
+     я+N+Pl+Acc+PxSg1: [ён, ёни]
+     я+N+Pl+Gen+PxSg1: [ёˮон, ёˮни]
+     я+N+Pl+Dat+PxSg1: [яхаˮн, яхаˮни]
+     я+N+Pl+Loc+PxSg1: [яхаˮнан, яхаˮнани]
+     я+N+Pl+Abl+PxSg1: [яхатан, яхатани]
+     я+N+Pl+Pros+PxSg1: [яˮамнан, ёˮомнан, яˮамнани, ёˮомнани]
      я+N+Sg+Nom+PxSg2: яр
      я+N+Sg+Acc+PxSg2: ямд
      я+N+Sg+Gen+PxSg2: янд
@@ -203,9 +203,9 @@ Tests:
      я+N+Pl+Abl+PxPl3: яхататоʼ
      я+N+Pl+Pros+PxPl3: [яˮамнатоʼ, ёˮомнатоʼ]
      я+N+Pred+Abs: яд
-     я+N+Pred+Nom+PxSg1: [ядав, ядув]
-     я+N+Pred+Acc+PxSg1: [ядав, ядув]
-     я+N+Pred+Gen+PxSg1: ядан
+     я+N+Pred+Nom+PxSg1: [ядав, ядув, ядами, ядми]
+     я+N+Pred+Acc+PxSg1: [ядав, ядув, ядами, ядми]
+     я+N+Pred+Gen+PxSg1: [ядан, ядани, ядни]
      я+N+Pred+Nom+PxSg2: ядар
      я+N+Pred+Acc+PxSg2: ядамд
      я+N+Pred+Gen+PxSg2: яданд
