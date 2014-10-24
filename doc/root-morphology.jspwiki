@@ -7,9 +7,7 @@ INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
 The morphological analyses of wordforms of the TUNDRA NENETS language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
-
- * +WORK WORK HAS TO BE DONE Do not remove, replaces +TYÄ
-
+ * __+WORK__ WORK HAS TO BE DONE Do not remove, replaces +TYÄ
 The parts-of-speech are:
 
  * __+N	__
@@ -277,25 +275,23 @@ source and target part-of-speech.
 
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
- * __%{ая%}__ in Pros
- * __%{оё%}__ in +N+Sg+Nom+PxPl3
- * __%{рл%}	__ +N+Sg+Nom+PxSg2
+ * __ %{ая%} __ in Pros
+ * __ %{оё%} __ in +N+Sg+Nom+PxPl3
+ * __ %{рл%}	 __ +N+Sg+Nom+PxSg2
+ * __ %{аяуюØ%} __ хан+N+Sg+Acc+PxSg1: ханув, ханав
+ * __ %{увм%} __ +N+Sg+Pros
+ * __ %{вм%}	 __ +N+Sg+Nom+PxSg1
 
- * __%{аяуюØ%}__ хан+N+Sg+Acc+PxSg1: ханув, ханав
- * __%{увм%}__ +N+Sg+Pros
- * __%{вм%}	__ +N+Sg+Nom+PxSg1
+And the following triggers to control variation:
+ * __ {front} __
+ * __ {back} __
+ * __ %^SCSG2 __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ * __ %^PalVariation __ This allows for тарД1%>д%{оё%}нзь
 
-And following triggers to control variation
- * __{front}__
- * __{back}__
- * __%^SCSG2__ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- * __%^PLNOM__ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
- * __%^PalVariation__ This allows for тарД1%>д%{оё%}нзь
-
-
- * __%{ауоэØ%}__  А1:а А1:у А1:о А1:э schwa
-
- * __%{ауоэиыØ%}__ before pros
+Protoletters for xfst:
+ * __ %{ауоэØ%} __  А1:а А1:у А1:о А1:э schwa
+ * __ %{ауоэиыØ%} __ before pros
 
 This is the schwa or reduced vowel occurring after x in case endings
 

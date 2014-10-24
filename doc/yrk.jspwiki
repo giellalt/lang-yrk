@@ -18,9 +18,7 @@ INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
 The morphological analyses of wordforms of the TUNDRA NENETS language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
-
- * +WORK WORK HAS TO BE DONE Do not remove, replaces +TYÄ
-
+ * __+WORK__ WORK HAS TO BE DONE Do not remove, replaces +TYÄ
 The parts-of-speech are:
 
  * __+N	__
@@ -288,25 +286,23 @@ source and target part-of-speech.
 
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
- * __%{ая%}__ in Pros
- * __%{оё%}__ in +N+Sg+Nom+PxPl3
- * __%{рл%}	__ +N+Sg+Nom+PxSg2
+ * __ %{ая%} __ in Pros
+ * __ %{оё%} __ in +N+Sg+Nom+PxPl3
+ * __ %{рл%}	 __ +N+Sg+Nom+PxSg2
+ * __ %{аяуюØ%} __ хан+N+Sg+Acc+PxSg1: ханув, ханав
+ * __ %{увм%} __ +N+Sg+Pros
+ * __ %{вм%}	 __ +N+Sg+Nom+PxSg1
 
- * __%{аяуюØ%}__ хан+N+Sg+Acc+PxSg1: ханув, ханав
- * __%{увм%}__ +N+Sg+Pros
- * __%{вм%}	__ +N+Sg+Nom+PxSg1
+And the following triggers to control variation:
+ * __ {front} __
+ * __ {back} __
+ * __ %^SCSG2 __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ * __ %^PalVariation __ This allows for тарД1%>д%{оё%}нзь
 
-And following triggers to control variation
- * __{front}__
- * __{back}__
- * __%^SCSG2__ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- * __%^PLNOM__ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
- * __%^PalVariation__ This allows for тарД1%>д%{оё%}нзь
-
-
- * __%{ауоэØ%}__  А1:а А1:у А1:о А1:э schwa
-
- * __%{ауоэиыØ%}__ before pros
+Protoletters for xfst:
+ * __ %{ауоэØ%} __  А1:а А1:у А1:о А1:э schwa
+ * __ %{ауоэиыØ%} __ before pros
 
 This is the schwa or reduced vowel occurring after x in case endings
 
@@ -1542,8 +1538,8 @@ Non-finites
 
 !!Archiphonemes for vowels
 
- *  %{ауоэØ%}:а   А1:а А1:у А1:о А1:э SCHWA
- * %{ауоэиыØ%}:0  before pros
+ * %{ауоэØ%}:а  А1:а А1:у А1:о А1:э SCHWA
+ * %{ауоэиыØ%}:0 before pros
 
  * А2:а  
 
@@ -1830,15 +1826,24 @@ __%{ая%}:я VowelPalatalization right__
 
 __%{оё%}:ё VowelPalatalization right__
 
-__%{оё%}:ё VowelPalatalization right__
 
-__%{оё%}:ё VowelPalatalization right__
+The rule __%{ауоэØ%} <-> у__:
+{{{
+  %{ауоэØ%}:у <=> [ :у | :ю ]  %> [ к: | х ]        _   ; 
+                                  [ к: | х ]  :у  х _ ю ; 
+}}}
 
-__%{оё%}:ё VowelPalatalization right__
+The rule __%{ауоэØ%} -> о__:
+{{{
+ %{ауоэØ%}:о <=> [ :о | :ё ] (%^VowLower:0|%^A2O:0) %> [ к: | ˮ | х ]       _   ;  ! 2013-10-22 хоˮомна
+                                                       [ к:     | х ] :о  х _ ю ; 
+}}}
 
-__%{оё%}:ё VowelPalatalization right__
+__%{ауоэØ%} -> о__
 
-__%{оё%}:ё VowelPalatalization right__
+__%{ауоэØ%} -> о__
+
+__%{ауоэØ%} -> о__
 
 
 
@@ -1913,8 +1918,16 @@ __n to t after non-nasal glottal__
 
 __d to t after non-nasal glottal__
 
-__d to t after non-nasal glottal__
 
+The rule __ъ:0 with Conj after vowels__:
+{{{
+ ъ:0 <=> Vow:    (%^VowFronting:) %> _ [ и: | я: ]                       ; 
+            :Vow ( ˮ | %^A2I:   ) %> _        я: ((%^A2I:) %>) [ н | д ] ;  ! нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
+}}}
+
+In the first context ...
+
+In the second context ...
 
 
 __с => ц affrication after Stop__
