@@ -7,6 +7,11 @@ Nenets nouns inflect in cases.
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 Yaml: __xo, ngaeTS__
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
+
 
 
  * __LEXICON N_ӇЭ-Pal/Var__ ӈэ:ӈэ 1  ProsSg -вна
@@ -21,6 +26,16 @@ no change in stem
 Yaml: __ya, yaTS__
 /total=3/
 я ya	ян’ yan°h	я” yaq	ё yo
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
++Pl+Acc X +Abs +PxSg. +PxDu. +PxPl.
++Pl+Gen X +Abs +PxSg. +PxDu. +PxPl.
++Pl+Nom X +PxSg. +PxDu. +PxPl.
++Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3
++Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3
+
 
 та:та 
 ӈэ:ӈэ 1  ProsSg -вна
@@ -41,6 +56,7 @@ Yaml: __tyTS__
 
 
  * __LEXICON N_ХАВО__ ха: 5 ProsSg -вна
+Yaml: __tyTS__
 /total=1/
 ха xa	хан’ xan°h	ха” xaq	хаво xawo
 
@@ -190,6 +206,17 @@ Yaml: __yam__
  * __LEXICON N_МУНО__ муʼ:му 27  ProsSg -мна
 н /total=2/
 му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
+Extra variants
++Sg+Abl+PxSg1, +N+Sg+Pros+PxSg1, +N+Du+Nom+PxSg1
++N+Du+Acc+PxSg1, +N+Du+Gen+PxSg1
++N+Pl+Dat+PxSg1, +N+Pl+Loc+PxSg1
++N+Pl+Abl+PxSg1
++Du+Nom
+
 
 
 
@@ -253,8 +280,15 @@ Where is the variation?
 
  * __LEXICON N_МЯДО__ мяˮ:мя 35   ProsSg -мна
 /total=18/
-Yaml: __myado__
+Yaml: __myadoTS__
 мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
+
+
+
 
 
  * __LEXICON N_ВАР/ТАРЕ__ мяˮ:мя 35   ProsSg -мна
@@ -574,6 +608,36 @@ Conjugation of nouns and adjectives
 
 
 !!NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

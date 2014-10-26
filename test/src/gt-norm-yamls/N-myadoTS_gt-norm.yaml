@@ -33,23 +33,26 @@ Tests:
      мяˮ+N+Pl+Loc: [мякаˮна, мякˮна]
      мяˮ+N+Pl+Abl: мякат
      мяˮ+N+Pl+Pros: мядоˮмана
-     мяˮ+N+Sg+Nom+PxSg1: мяˮам
-     мяˮ+N+Sg+Acc+PxSg1: мяˮам
-     мяˮ+N+Sg+Gen+PxSg1: мяˮан
-     мяˮ+N+Sg+Dat+PxSg1: мякан
-     мяˮ+N+Sg+Loc+PxSg1: [мяканан, мякнан]
-     мяˮ+N+Sg+Abl+PxSg1: [мякадан, мякдан]
-     мяˮ+N+Sg+Pros+PxSg1: мяˮамнан
-     мяˮ+N+Du+Nom+PxSg1: [мякаюн, мякюн]
-     мяˮ+N+Du+Acc+PxSg1: [мякаюн, мякюн]
-     мяˮ+N+Du+Gen+PxSg1: [мякаюн, мякюн]
-     мяˮ+N+Pl+Nom+PxSg1: мядон
-     мяˮ+N+Pl+Acc+PxSg1: мядон
-     мяˮ+N+Pl+Gen+PxSg1: мядоˮн
-     мяˮ+N+Pl+Dat+PxSg1: мякаˮн
-     мяˮ+N+Pl+Loc+PxSg1: [мякаˮнан, мякˮнан]
-     мяˮ+N+Pl+Abl+PxSg1: [мякатан, мяктан]
-     мяˮ+N+Pl+Pros+PxSg1: мядоˮманан
+     мяˮ+N+Sg+Nom+PxSg1: [мяˮам, мяˮми]
+     мяˮ+N+Sg+Acc+PxSg1: [мяˮам, мяˮми]
+     мяˮ+N+Sg+Gen+PxSg1: [мяˮан, мяˮни]
+#     мяˮ+N+Sg+Nom+PxSg1: мяˮми # +Use/SpellNoSugg
+#     мяˮ+N+Sg+Acc+PxSg1: мяˮми # +Use/SpellNoSugg
+#     мяˮ+N+Sg+Gen+PxSg1: мяˮни # +Use/SpellNoSugg
+     мяˮ+N+Sg+Dat+PxSg1: [мякан, мякани, мякни]
+     мяˮ+N+Sg+Loc+PxSg1: [мяканан, мякнан, мяканани, мякнани]
+     мяˮ+N+Sg+Abl+PxSg1: [мякадан, мякдан, мякадани, мякдани]
+     мяˮ+N+Sg+Pros+PxSg1: [мяˮамнан, мяˮамнани]
+     мяˮ+N+Du+Nom+PxSg1: [мякаюн, мякюн, мякаюни, мякюни]
+     мяˮ+N+Du+Acc+PxSg1: [мякаюн, мякюн, мякаюни, мякюни]
+     мяˮ+N+Du+Gen+PxSg1: [мякаюн, мякюн, мякаюни, мякюни]
+     мяˮ+N+Pl+Nom+PxSg1: [мядон, мядони]
+     мяˮ+N+Pl+Acc+PxSg1: [мядон, мядони]
+     мяˮ+N+Pl+Gen+PxSg1: [мядоˮн, мядоˮни]
+     мяˮ+N+Pl+Dat+PxSg1: [мякаˮн, мякаˮни, мякˮни]
+     мяˮ+N+Pl+Loc+PxSg1: [мякаˮнан, мякˮнан, мякаˮнани, мякˮнани]
+     мяˮ+N+Pl+Abl+PxSg1: [мякатан, мяктан, мякатани, мяктани]
+     мяˮ+N+Pl+Pros+PxSg1: [мядоˮманан, мядоˮманани]
      мяˮ+N+Sg+Nom+PxSg2: мяˮал
      мяˮ+N+Sg+Acc+PxSg2: мят
      мяˮ+N+Sg+Gen+PxSg2: мят
@@ -85,39 +88,36 @@ Tests:
      мяˮ+N+Pl+Abl+PxSg3: [мякатата, мяктата]
      мяˮ+N+Pl+Pros+PxSg3: мядоˮманата
      мяˮ+N+Sg+Nom+PxDu1: мяˮмиʼ
-     мяˮ+N+Sg+Nom+PxSg1: мяˮми # +Use/SpellNoSugg
      мяˮ+N+Sg+Acc+PxDu1: мяˮмиʼ
-     мяˮ+N+Sg+Acc+PxSg1: мяˮми # +Use/SpellNoSugg
      мяˮ+N+Sg+Gen+PxDu1: мяˮниʼ
-     мяˮ+N+Sg+Gen+PxSg1: мяˮни # +Use/SpellNoSugg
      мяˮ+N+Sg+Dat+PxDu1: [мяканиʼ, мякниʼ]
-     мяˮ+N+Sg+Dat+PxSg1: [мякани, мякни] # +Use/SpellNoSugg
+#     мяˮ+N+Sg+Dat+PxSg1: [мякани, мякни] # +Use/SpellNoSugg
      мяˮ+N+Sg+Loc+PxDu1: [мякананиʼ, мякнаниʼ]
-     мяˮ+N+Sg+Loc+PxSg1: [мяканани, мякнани] # +Use/SpellNoSugg
+#     мяˮ+N+Sg+Loc+PxSg1: [мяканани, мякнани] # +Use/SpellNoSugg
      мяˮ+N+Sg+Abl+PxDu1: [мякаданиʼ, мякданиʼ]
-     мяˮ+N+Sg+Abl+PxSg1: [мякадани, мякдани] # +Use/SpellNoSugg
+#     мяˮ+N+Sg+Abl+PxSg1: [мякадани, мякдани] # +Use/SpellNoSugg
      мяˮ+N+Sg+Pros+PxDu1: мяˮамнаниʼ
-     мяˮ+N+Sg+Pros+PxSg1: мяˮамнани # +Use/SpellNoSugg
+#     мяˮ+N+Sg+Pros+PxSg1: мяˮамнани # +Use/SpellNoSugg
      мяˮ+N+Du+Nom+PxDu1: [мякаюниʼ, мякюниʼ]
-     мяˮ+N+Du+Nom+PxSg1: [мякаюни, мякюни] # +Use/SpellNoSugg
+#     мяˮ+N+Du+Nom+PxSg1: [мякаюни, мякюни] # +Use/SpellNoSugg
      мяˮ+N+Du+Acc+PxDu1: [мякаюниʼ, мякюниʼ]
-     мяˮ+N+Du+Acc+PxSg1: [мякаюни, мякюни] # +Use/SpellNoSugg
+#     мяˮ+N+Du+Acc+PxSg1: [мякаюни, мякюни] # +Use/SpellNoSugg
      мяˮ+N+Du+Gen+PxDu1: [мякаюниʼ, мякюниʼ]
-     мяˮ+N+Du+Gen+PxSg1: [мякаюни, мякюни] # +Use/SpellNoSugg
+#     мяˮ+N+Du+Gen+PxSg1: [мякаюни, мякюни] # +Use/SpellNoSugg
      мяˮ+N+Pl+Nom+PxDu1: мядониʼ
-     мяˮ+N+Pl+Nom+PxSg1: мядони # +Use/SpellNoSugg
+#     мяˮ+N+Pl+Nom+PxSg1: мядони # +Use/SpellNoSugg
      мяˮ+N+Pl+Acc+PxDu1: мядониʼ
-     мяˮ+N+Pl+Acc+PxSg1: мядони # +Use/SpellNoSugg
+#     мяˮ+N+Pl+Acc+PxSg1: мядони # +Use/SpellNoSugg
      мяˮ+N+Pl+Gen+PxDu1: мядоˮниʼ
-     мяˮ+N+Pl+Gen+PxSg1: мядоˮни # +Use/SpellNoSugg
+#     мяˮ+N+Pl+Gen+PxSg1: мядоˮни # +Use/SpellNoSugg
      мяˮ+N+Pl+Dat+PxDu1: [мякаˮниʼ, мякˮниʼ]
-     мяˮ+N+Pl+Dat+PxSg1: [мякаˮни, мякˮни] # +Use/SpellNoSugg
+#     мяˮ+N+Pl+Dat+PxSg1: [мякаˮни, мякˮни] # +Use/SpellNoSugg
      мяˮ+N+Pl+Loc+PxDu1: [мякаˮнаниʼ, мякˮнаниʼ]
-     мяˮ+N+Pl+Loc+PxSg1: [мякаˮнани, мякˮнани] # +Use/SpellNoSugg
+#     мяˮ+N+Pl+Loc+PxSg1: [мякаˮнани, мякˮнани] # +Use/SpellNoSugg
      мяˮ+N+Pl+Abl+PxDu1: [мякатаниʼ, мяктаниʼ]
-     мяˮ+N+Pl+Abl+PxSg1: [мякатани, мяктани] # +Use/SpellNoSugg
+#     мяˮ+N+Pl+Abl+PxSg1: [мякатани, мяктани] # +Use/SpellNoSugg
      мяˮ+N+Pl+Pros+PxDu1: мядоˮмананиʼ
-     мяˮ+N+Pl+Pros+PxSg1: мядоˮманани # +Use/SpellNoSugg
+#     мяˮ+N+Pl+Pros+PxSg1: мядоˮманани # +Use/SpellNoSugg
      мяˮ+N+Sg+Nom+PxDu2: мяˮлиʼ
      мяˮ+N+Sg+Acc+PxDu2: мятиʼ
      мяˮ+N+Sg+Gen+PxDu2: мятиʼ
@@ -204,9 +204,9 @@ Tests:
      мяˮ+N+Pl+Abl+PxPl3: [мякататоʼ, мяктатоʼ]
      мяˮ+N+Pl+Pros+PxPl3: мядоˮманатоʼ
      мяˮ+N+Pred+Abs: мят
-     мяˮ+N+Pred+Nom+PxSg1: [мятав, мятув]
-     мяˮ+N+Pred+Acc+PxSg1: [мятав, мятув]
-     мяˮ+N+Pred+Gen+PxSg1: мятан
+     мяˮ+N+Pred+Nom+PxSg1: [мятав, мятув, мятами, мятми]
+     мяˮ+N+Pred+Acc+PxSg1: [мятав, мятув, мятами, мятми]
+     мяˮ+N+Pred+Gen+PxSg1: [мятан, мятани, мятни]
      мяˮ+N+Pred+Nom+PxSg2: мятар
      мяˮ+N+Pred+Acc+PxSg2: мятамд
      мяˮ+N+Pred+Gen+PxSg2: мятанд
@@ -214,11 +214,11 @@ Tests:
      мяˮ+N+Pred+Acc+PxSg3: [мятамда, мятмда]
      мяˮ+N+Pred+Gen+PxSg3: [мятанда, мятнда]
      мяˮ+N+Pred+Nom+PxDu1: [мятамиʼ, мятмиʼ]
-     мяˮ+N+Pred+Nom+PxSg1: [мятами, мятми] # +Use/SpellNoSugg
+#     мяˮ+N+Pred+Nom+PxSg1: [мятами, мятми] # +Use/SpellNoSugg
      мяˮ+N+Pred+Acc+PxDu1: [мятамиʼ, мятмиʼ]
-     мяˮ+N+Pred+Acc+PxSg1: [мятами, мятми] # +Use/SpellNoSugg
+#     мяˮ+N+Pred+Acc+PxSg1: [мятами, мятми] # +Use/SpellNoSugg
      мяˮ+N+Pred+Gen+PxDu1: [мятаниʼ, мятниʼ]
-     мяˮ+N+Pred+Gen+PxSg1: [мятани, мятни] # +Use/SpellNoSugg
+#     мяˮ+N+Pred+Gen+PxSg1: [мятани, мятни] # +Use/SpellNoSugg
      мяˮ+N+Pred+Nom+PxDu2: мятриʼ
      мяˮ+N+Pred+Acc+PxDu2: [мятамдиʼ, мятмдиʼ]
      мяˮ+N+Pred+Gen+PxDu2: [мятандиʼ, мятндиʼ]
