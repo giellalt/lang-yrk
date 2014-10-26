@@ -394,6 +394,11 @@ Nenets nouns inflect in cases.
 no change in stem
 ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
 Yaml: __xo, ngaeTS__
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
+
 
 
  * __LEXICON N_ӇЭ-Pal/Var__ ӈэ:ӈэ 1  ProsSg -вна
@@ -408,6 +413,16 @@ no change in stem
 Yaml: __ya, yaTS__
 /total=3/
 я ya	ян’ yan°h	я” yaq	ё yo
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
++Pl+Acc X +Abs +PxSg. +PxDu. +PxPl.
++Pl+Gen X +Abs +PxSg. +PxDu. +PxPl.
++Pl+Nom X +PxSg. +PxDu. +PxPl.
++Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3
++Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3
+
 
 та:та 
 ӈэ:ӈэ 1  ProsSg -вна
@@ -428,6 +443,7 @@ Yaml: __tyTS__
 
 
  * __LEXICON N_ХАВО__ ха: 5 ProsSg -вна
+Yaml: __tyTS__
 /total=1/
 ха xa	хан’ xan°h	ха” xaq	хаво xawo
 
@@ -577,6 +593,17 @@ Yaml: __yam__
  * __LEXICON N_МУНО__ муʼ:му 27  ProsSg -мна
 н /total=2/
 му’(н) múh	мунд’ múnt°h	мун” mún°q	муно múno
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
+Extra variants
++Sg+Abl+PxSg1, +N+Sg+Pros+PxSg1, +N+Du+Nom+PxSg1
++N+Du+Acc+PxSg1, +N+Du+Gen+PxSg1
++N+Pl+Dat+PxSg1, +N+Pl+Loc+PxSg1
++N+Pl+Abl+PxSg1
++Du+Nom
+
 
 
 
@@ -640,8 +667,15 @@ Where is the variation?
 
  * __LEXICON N_МЯДО__ мяˮ:мя 35   ProsSg -мна
 /total=18/
-Yaml: __myado__
+Yaml: __myadoTS__
 мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
+
+
+
 
 
  * __LEXICON N_ВАР/ТАРЕ__ мяˮ:мя 35   ProsSg -мна
@@ -961,6 +995,36 @@ Conjugation of nouns and adjectives
 
 
 !!NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1620,189 +1684,222 @@ hash
 !!!Rules
 
 
-__°:0 in Pros LEFT__
+
+
+__к: -> г after nasal glottal__
+
+
+__к: to х after Vowels__
+
+__nTod__
+
+__Н1:н GlottalNasalToSurface__
+
+
+__Н1:ӈ GlottalNasalToSurface__
+
+__Ӈ1:ӈ GlottalNasalToSurface__
+
+__Ӈ1:н GlottalNasalToSurface__
+
+__Ӈ1:ъ GlottalNasalToSurface__
+
+__Н1:0 GlottalNasalToSurface__
+
+
+__Ӈ1:0 GlottalNasalToSurface__
+
+
+
+__Д1:0 GlottalNonNasalToZERO LEFT__
+
+__Д1:0 GlottalNonNasalToZERO LEFT__
+
+RIGHT ARROW ONLY Д1:0
+
+__С1:0 GlottalNonNasalToZERO__
+
+
+
+__С1:ˮ UnderlyingToGlottal__
+
+__Д1:ˮ UnderlyingToGlottal LEFT__
+
+
+__Д1:ˮ UnderlyingToGlottal LEFT__
+
+RIGHT ARROW ONLY Д1:ˮ
+
+
+__Н1:ʼ UnderlyingToGlottal__
+
+
+__с => ц affrication after Stop__
+
+__с => з after nasal__
+
+__v To m __
+
+__%{рл%}:л__
+
+
+__%{рл%}:р__
+
+__%{рл%}:р__
+
+__муН1%>мд examples:__
+
+__му00нд examples:__
+
+
+__0:а in single-syllable__
+
+
+__0:а in single-syllable__
 Second Vowel Center
 Stems C*VC (underline)
-
-
-
-
+  # Cns* Vow Cns _ %> [ к: | %{рл%}: Vow: | м и | н и | ӈ э | °: м ʼ | °: ʼ | °: ˮ | д: [ °: Cns | %{ая%}: ] | с и ] ;
 Affixes
 C*V%>C (underline)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-__°:0 in Pros RIGHT__
+  # Cns* Vow [ [Н1:|Д1:|С1:] ] %> 0: м:  _ н %{ая%}:  ;
+ # Cns* Vow [ [Н1:|Д1:|С1:] ] %> к: _  [ ю DentStops | д | т | ʼ | ˮ # ]  ;
+     # (2InitSylls) Cns* Vow Н1:  %> д _  [  р ] [ а | и ]  ;
+        Vow ( Н1: ) %> (н:) _ ;
+    # (2InitSylls) Cns* Vow Cns _ ( Ӈ1: | С1: ) %> [ °: ц ь °: | с: Vow ];
+    # (2InitSylls) Cns* Vow Cns _ ( Ӈ1: | С1: ) %> °: ц ь °: ;
+   # (2InitSylls) Cns* Vow Cns _ С1: %> °: ц ь °: ;
+   # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [ д: [ °: [м °:] | %{ая%}: ]| д: [ %{ая%}: | %{оё%}: | а | о ] ] ;
+      # (2InitSylls) Cns* Vow Cns _ [ [Н1:|Д1:|С1:] ] [ %> [ к: а | ӈ э | к: °: (ˮ) DentStops ((°:) DentStops ) [ :Vow | °: # | °: %> ]| м Vow | н Vow | ( м:|н:) д: [ %{ая%}: | %{оё%}: | и | а | о ] | [ к: | м ] °: [(ˮ) н [ %{ая%}: | з | д а ] | м и | м а | н и | т ә: | ю DentStops |  [ д | т] ә: ] | %{рл%}: :Vow ] | е | о ] ;
+C*VC+%>C_
+THIRD VOWEL CENTER
+       # Cns* Vow: Cns :Vow [ [Н1:|Д1:|С1:] ] %> (н:|к:) _ [ ʼ | ˮ # ] ;
+       # (2InitSylls) Cns* Vow: Cns °: [ Ӈ1: | С1: ] е %> ˮ м _ н %{ая%}: ;
+     :Vow %> _  ;
+__0:а in single-syllable__
 Second Vowel Center
 Stems
-
-
 AFFIXES
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RIGHT ARROW ONLY IN °:0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-__°:а in Pros LEFT__
-Second Vowel Center
-
-
-
-C*VC (underline)
-
-
-
-
-
-
-
-
-
+  # (2InitSylls) Cns* Vow %> ˮ 0: Cns _  ;
+ # Cns* Vow [ [Н1:|Д1:|С1:] ] %> к: _  [ ю DentStops | д | т | ʼ | ˮ # ]  ;
+     # (2InitSylls) Cns* Vow [ [Н1:|Д1:|С1:] ]  %> д: _  [  р ] [ Vow ]  ;
+    # (2InitSylls) Cns* Vow Cns _ ( Ӈ1: | С1: ) %> [ °: ц ь °: | с: Vow ];
+   # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [ д: [ °: [м °:] ]| д: [ а | о ] ] ;
+   # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [ д: [ °: [м °:] | %{ая%}: ]| д: [ %{ая%}: | %{оё%}: | а | о ] ] ;
+   # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [ д: [ °: [м °:] | %{ая%}: | и ]| ( м:|н:) д: [ %{ая%}: | %{оё%}: | и | а | о ] ] ;
+      # (2InitSylls) Cns* Vow Cns _ [ [Н1:|Д1:|С1:] ] [ %> [ к: а | ӈ э | к: °: (ˮ) DentStops ((°:) DentStops ) [ :Vow | °: # | °: %> ]| м Vow | н Vow | ( м:|н:) д: [ %{ая%}: | %{оё%}: | и | а | о ] | [ к: | м ] °: [(ˮ) н [ %{ая%}: | з | д а ] | м и | м а | н и | т ә: | ю DentStops |  [ д | т] ә: ] | %{рл%}: :Vow ] | е | о ] ;
+C*VC+%>C_
 THIRD VOWEL CENTER
-
-
-
-
-
-
-
-
-
+       # Cns* Vow: Cns :Vow [ [Н1:|Д1:|С1:] ] %> (н:|к:) _ [ ʼ | ˮ # ] ;
+       # (2InitSylls) 2VowCenterLC %> м: _ н %{ая%}: ;
+     :Vow %> _  ;
+      _ (Ӈ1:) # ;
+     # (2InitSylls) Cns* Vow (Н1:)  %> д _  [[ д | м | м д | н д | в | н  ] [ °: | Vow ]| м ʼ ]  ;
+RIGHT ARROW ONLY IN °:0
+Second Vowel Center
+C*V>C_
+     # (2InitSylls) Cns* Vow:  %> д _  р [ °: | Vow ]  ;
+C*VC_
+   # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [[ м: | н: ] д: [ %{ая%}: | %{оё%}: | и | а | о ]| д [ и | о | %{оё%}: ] ] ;
+C*VC+>C_
+     # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
+C*VC>CVC_
+     # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
+__0:а in single-syllable__
+Second Vowel Center
+C*V%>C_
+       # (2InitSylls) Cns*  Vow  %> д _  р [ °: | и ʼ | а ˮ ] # ;
+C*VQ%>_
+  # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) [Н1:|Д1:|С1:] ] %> к: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
+C*VC (underline)
+   # (2InitSylls) Cns* Vow Cns _ ([Н1:|Д1:|С1:] ) [ %> [ (0:) %{рл%}: °:0 | 0: м °: | [ м: | н: ] д: [ °: ] | д: °: # | д: м ʼ | с ь °: ] | (%^SCSG2:) %> н: °: (ʼ) # ] ;
+        # (2InitSylls) Cns* Vow Cns _ [ [Н1:|Д1:|С1:] ] (%^SCSG2:) %> [ °: (м) ʼ| м °: # | н: (д) °: |  %{рл%}: °:0 | [ м: д | н д ] °: | д [ °: # |  м ʼ | ә: ] | н:д [ °: # ] | к: °: [ ʼ | ˮ # ] | °: ˮ # | °: ц ь °: ]  ;
+   # (2InitSylls) Cns* Vow Cns °: С1: %> _ ц ь	°: ;
+THIRD VOWEL CENTER
+       # Cns* Vow: Cns [ °:  [ [Н1:|Д1:|С1:] ] | а | я ] %> к: _ [ ʼ | ˮ # ] ;
+       # Cns* Vow Cns [ °: Ӈ1: | °: С1: ] %> д _  р :Vow ;
+   # (2InitSylls) Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ н а | н и | т а | т и | т о ]  ;
+     # Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ т а | н и ]  ;
 FOURTH VOWEL CENTER
-
-__°:а in Pros RIGHT__
+__0:а in single-syllable__
 Second Vowel	Center
-
-
-
-
-
-
-
-
-
-
+       # Cns*  Vow  Н1: %> _ ц ь °: ;
+  # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) [Н1:|Д1:|С1:] ] %> к: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
+  # (2InitSylls) Cns* Vow [ [Н1:|Д1:|С1:] ] %> к: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
+   # (2InitSylls) Cns* Vow Cns _ ([Н1:|Д1:|С1:] ) [ %> [ (0:) %{рл%}: °:0 | [ м: | н: ] д: [ °: ] | д: °: # | д: м ʼ | с ь °: | °: ц ь °: ] | (%^SCSG2:) %> н °: (ʼ) # ] ;
+        # (2InitSylls) Cns* Vow Cns _ [ [Н1:|Д1:|С1:] ] (%^SCSG2:) %> [ °: (м) ʼ| м °: # | н: (д) °: | [ м: д | н д ] °: | д [ °: # |  м ʼ | ә: ] | н:д [ °: # ] | к: °: [ ʼ | ˮ # ] | °: ˮ # | °: ц ь °: ]  ;
+   # (2InitSylls) Cns* Vow Cns °: С1: %> _ ц ь °: ;
 Third Vowel Center
-
-
-
-
-
-
-
-
+       # Cns* Vow: Cns [ °:  [ [Н1:|Д1:|С1:] ] | а | я ] %> к: _ [ ʼ | ˮ # ] ;
+       # Cns* Vow: Cns :Vow [ (Cns (%^PalVariation:)) [Н1:|Д1:|С1:] ] %> к: _ [ ʼ | ˮ # ] ;
+       # Cns* Vow Cns [ °: Ӈ1: | °: С1: ] %> [ д | к: ] _  [ (ˮ) [ Cns -  [ в | м ] | м [Cns|Vow]  ] | ю ] ;
+       # Cns* Vow Cns [ °: Ӈ1: | °: С1: ] %> д _  р :Vow ;
 FOURTH VOWEL CENTER
-
-
 RIGHT ARROW ONLY IN °:а
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-__°:у in Pros LEFT__
-
-__°:у in Pros RIGHT__
-
-
-
-
+     # (2InitSylls) Cns* Vow:  %> д _  р [ °: | Vow ]  ;
+     # (2InitSylls) Cns* Vow: Д1: %> д: _ [м|н] [ °: | Vow ]  ;
+   # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [[ м: | н: ] д: [ %{ая%}: | %{оё%}: | и | а | о ]| д [ и | о | %{оё%}: | а ] ] ;
+     # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
+__0:а in single-syllable__
+__0:а in single-syllable__
 
 __ә:у in extra short to у__
 
 
-__°:о in extra short to о__
-
+__ә:у in extra short to у__
+# (2InitSylls) Cns* [ о | :ё ] %> к:х _  [ д | н | т | ʼ | ˮ | ю ]  ;
 
 __ә:о in extra short to о__
 
 
-__°:и in extra short to и__
-
+__ә:о in extra short to о__
 
 __ә:и in extra short to и__
 
 
-__°:ы in extra short to ы__
-
+__ә:и in extra short to и__
 
 __ә:ы in extra short to ы__
 
 
-__°:э in extra short to э__
+__ә:ы in extra short to ы__
 
 __ә:э in extra short to э__
 
 __ә:а in extra short to а__
 
 
-__0:а in Pros LEFT__
+__ә:а in extra short to а__
 
-__0:а in Pros RIGHT__
+__ма%>ˮ0м°н%{ая%} examples:__
 
+__ма0ˮам0на examples:__
+
+__ман°С1%>0%{рл%}° examples:__
+
+__манаˮ0ал0 examples:__
+
+__ман°С1%>0м° examples:__
+
+__манаˮ0ам0 examples:__
+__ә:а in extra short to а__
+
+__ма%>ˮ0м°н%{ая%} examples:__
+
+__ма0ˮам0на examples:__
+    # (2InitSylls) Cns* Vow Cns °: С1: %> _ %{рл%}: °:  ;
+
+__ман°С1%>0%{рл%}° examples:__
+
+__манаˮ0ал0 examples:__
+
+__ман°С1%>0м° examples:__
+
+__манаˮ0ам0 examples:__
 RIGHT ARROW ONLY
+
+__хан%>м° examples:__
+
+__хан0в0 examples:__
 
 __0:э in Pros__
 
@@ -1834,16 +1931,17 @@ The rule __%{ауоэØ%} <-> у__:
 }}}
 
 The rule __%{ауоэØ%} -> о__:
-{{{
  %{ауоэØ%}:о <=> [ :о | :ё ] (%^VowLower:0|%^A2O:0) %> [ к: | ˮ | х ]       _   ;  ! 2013-10-22 хоˮомна
-                                                       [ к:     | х ] :о  х _ ю ; 
-}}}
+                                       [ к:     | х ] :о  х _ ю ; 
 
-__%{ауоэØ%} -> о__
+The rule __%{ауоэØ%} -> а__:
+                               [ к:     | х ] :а  х _ ю ; 
 
-__%{ауоэØ%} -> о__
+__%{ауоэØ%} -> а__
 
-__%{ауоэØ%} -> о__
+__%{ауоэØ%} -> а__
+
+__%{ауоэØ%} -> а__
 
 
 
@@ -1852,7 +1950,7 @@ __%{ауоэØ%} -> о__
 
 __i2e StemFinalYToE LEFT__
 
-__i2e StemFinalYToE RIGHT__
+__i2e StemFinalYToE LEFT__
 
 
 __a:o in я__
@@ -1893,7 +1991,6 @@ __mToV__
 
 
 
-__mToV__
 
 __m loss before Labial followed by nonglottal cons or vows __
 
@@ -1909,9 +2006,7 @@ __н loss after glottal before д: __
 
 __r To 0 before glottal and р or л__
 
-__nTod__
-
-__nTod__
+__r To 0 before glottal and р or л__
 т:д <=>   Н1: %> _ а ;
 
 __n to t after non-nasal glottal__
@@ -1930,27 +2025,14 @@ In the first context ...
 In the second context ...
 
 
-__с => ц affrication after Stop__
-
-__с => з after nasal__
-
 
 
 __ˮ:0__
-
-__к: -> г after nasal glottal__
-
-__к: to х after Vowels__
 
 !!Realization of glottal stops
 
 !SURFACE CONSONANT
 
-
-__%{рл%}:л__
-
-
-__%{рл%}:р__
 
 __х:с in яха__
 
@@ -1961,47 +2043,13 @@ __С1:с GlottalNonNasalToSurface__
 __Д1:д GlottalNonNasalToSurface__
 
 
-__Н1:н GlottalNasalToSurface__
-
-__Н1:ӈ GlottalNasalToSurface__
-
-__Ӈ1:ӈ GlottalNasalToSurface__
-
-__Ӈ1:н GlottalNasalToSurface__
-
-__Ӈ1:ъ GlottalNasalToSurface__
 
 
-
-
-
-__Н1:0 GlottalNasalToSurface__
-
-__Ӈ1:0 GlottalNasalToSurface__
-
-
-
-__Д1:0 GlottalNonNasalToZERO LEFT__
-
-__Д1:0 GlottalNonNasalToZERO RIGHT__
-
-RIGHT ARROW ONLY Д1:0
-
-__С1:0 GlottalNonNasalToZERO__
 
 
 
 __ь:0 with  GlottalNonNasalToZERO__
 
 
-__С1:ˮ UnderlyingToGlottal__
 
-__Д1:ˮ UnderlyingToGlottal LEFT__
-
-__Д1:ˮ UnderlyingToGlottal RIGHT__
-
-RIGHT ARROW ONLY Д1:ˮ
-
-
-__Н1:ʼ UnderlyingToGlottal__
 
