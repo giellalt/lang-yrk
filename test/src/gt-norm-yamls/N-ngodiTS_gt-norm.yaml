@@ -32,23 +32,23 @@ Tests:
      ӈодя+N+Pl+Loc: ӈодяхаˮна
      ӈодя+N+Pl+Abl: ӈодяхат
      ӈодя+N+Pl+Pros: ӈодиˮмана
-     ӈодя+N+Sg+Nom+PxSg1: ӈодяв
-     ӈодя+N+Sg+Acc+PxSg1: ӈодяв
-     ӈодя+N+Sg+Gen+PxSg1: ӈодян
-     ӈодя+N+Sg+Dat+PxSg1: ӈодяхан
-     ӈодя+N+Sg+Loc+PxSg1: ӈодяханан
-     ӈодя+N+Sg+Abl+PxSg1: ӈодяхадан
-     ӈодя+N+Sg+Pros+PxSg1: ӈодявнан
-     ӈодя+N+Du+Nom+PxSg1: ӈодяхаюн
-     ӈодя+N+Du+Acc+PxSg1: ӈодяхаюн
-     ӈодя+N+Du+Gen+PxSg1: ӈодяхаюн
-     ӈодя+N+Pl+Nom+PxSg1: ӈодин
-     ӈодя+N+Pl+Acc+PxSg1: ӈодин
-     ӈодя+N+Pl+Gen+PxSg1: ӈодиˮн
-     ӈодя+N+Pl+Dat+PxSg1: ӈодяхаˮн
-     ӈодя+N+Pl+Loc+PxSg1: ӈодяхаˮнан
-     ӈодя+N+Pl+Abl+PxSg1: ӈодяхатан
-     ӈодя+N+Pl+Pros+PxSg1: ӈодиˮманан
+     ӈодя+N+Sg+Nom+PxSg1: [ӈодяв, ӈодями]
+     ӈодя+N+Sg+Acc+PxSg1: [ӈодяв, ӈодями]
+     ӈодя+N+Sg+Gen+PxSg1: [ӈодян, ӈодяни]
+     ӈодя+N+Sg+Dat+PxSg1: [ӈодяхан, ӈодяхани]
+     ӈодя+N+Sg+Loc+PxSg1: [ӈодяханан, ӈодяханани]
+     ӈодя+N+Sg+Abl+PxSg1: [ӈодяхадан, ӈодяхадани, ӈодяхадни]
+     ӈодя+N+Sg+Pros+PxSg1: [ӈодявнан, ӈодявнани]
+     ӈодя+N+Du+Nom+PxSg1: [ӈодяхаюн, ӈодяхаюни]
+     ӈодя+N+Du+Acc+PxSg1: [ӈодяхаюн, ӈодяхаюни]
+     ӈодя+N+Du+Gen+PxSg1: [ӈодяхаюн, ӈодяхаюни]
+     ӈодя+N+Pl+Nom+PxSg1: [ӈодин, ӈодини]
+     ӈодя+N+Pl+Acc+PxSg1: [ӈодин, ӈодини]
+     ӈодя+N+Pl+Gen+PxSg1: [ӈодиˮн, ӈодиˮни]
+     ӈодя+N+Pl+Dat+PxSg1: [ӈодяхаˮн, ӈодяхаˮни]
+     ӈодя+N+Pl+Loc+PxSg1: [ӈодяхаˮнан, ӈодяхаˮнани]
+     ӈодя+N+Pl+Abl+PxSg1: [ӈодяхатан, ӈодяхатани, ӈодяхатни]
+     ӈодя+N+Pl+Pros+PxSg1: [ӈодиˮманан, ӈодиˮманани]
      ӈодя+N+Sg+Nom+PxSg2: ӈодяр
      ӈодя+N+Sg+Acc+PxSg2: ӈодямд
      ӈодя+N+Sg+Gen+PxSg2: ӈодянд
@@ -84,39 +84,39 @@ Tests:
      ӈодя+N+Pl+Abl+PxSg3: [ӈодяхатата, ӈодяхатта]
      ӈодя+N+Pl+Pros+PxSg3: ӈодиˮманата
      ӈодя+N+Sg+Nom+PxDu1: ӈодямиʼ
-     ӈодя+N+Sg+Nom+PxSg1: ӈодями #+Use/SpellNoSugg
+#     ӈодя+N+Sg+Nom+PxSg1: ӈодями #+Use/SpellNoSugg
      ӈодя+N+Sg+Acc+PxDu1: ӈодямиʼ
-     ӈодя+N+Sg+Acc+PxSg1: ӈодями #+Use/SpellNoSugg
+#     ӈодя+N+Sg+Acc+PxSg1: ӈодями #+Use/SpellNoSugg
      ӈодя+N+Sg+Gen+PxDu1: ӈодяниʼ
-     ӈодя+N+Sg+Gen+PxSg1: ӈодяни #+Use/SpellNoSugg
+#     ӈодя+N+Sg+Gen+PxSg1: ӈодяни #+Use/SpellNoSugg
      ӈодя+N+Sg+Dat+PxDu1: ӈодяханиʼ
-     ӈодя+N+Sg+Dat+PxSg1: ӈодяхани #+Use/SpellNoSugg
+#     ӈодя+N+Sg+Dat+PxSg1: ӈодяхани #+Use/SpellNoSugg
      ӈодя+N+Sg+Loc+PxDu1: ӈодяхананиʼ
-     ӈодя+N+Sg+Loc+PxSg1: ӈодяханани #+Use/SpellNoSugg
+#     ӈодя+N+Sg+Loc+PxSg1: ӈодяханани #+Use/SpellNoSugg
      ӈодя+N+Sg+Abl+PxDu1: [ӈодяхаданиʼ, ӈодяхадниʼ]
-     ӈодя+N+Sg+Abl+PxSg1: [ӈодяхадани, ӈодяхадни] #+Use/SpellNoSugg
+#     ӈодя+N+Sg+Abl+PxSg1: [ӈодяхадани, ӈодяхадни] #+Use/SpellNoSugg
      ӈодя+N+Sg+Pros+PxDu1: ӈодявнаниʼ
-     ӈодя+N+Sg+Pros+PxSg1: ӈодявнани #+Use/SpellNoSugg
+#     ӈодя+N+Sg+Pros+PxSg1: ӈодявнани #+Use/SpellNoSugg
      ӈодя+N+Du+Nom+PxDu1: ӈодяхаюниʼ
-     ӈодя+N+Du+Nom+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
+#     ӈодя+N+Du+Nom+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
      ӈодя+N+Du+Acc+PxDu1: ӈодяхаюниʼ
-     ӈодя+N+Du+Acc+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
+#     ӈодя+N+Du+Acc+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
      ӈодя+N+Du+Gen+PxDu1: ӈодяхаюниʼ
-     ӈодя+N+Du+Gen+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
+#     ӈодя+N+Du+Gen+PxSg1: ӈодяхаюни #+Use/SpellNoSugg
      ӈодя+N+Pl+Nom+PxDu1: ӈодиниʼ
-     ӈодя+N+Pl+Nom+PxSg1: ӈодини #+Use/SpellNoSugg
+#     ӈодя+N+Pl+Nom+PxSg1: ӈодини #+Use/SpellNoSugg
      ӈодя+N+Pl+Acc+PxDu1: ӈодиниʼ
-     ӈодя+N+Pl+Acc+PxSg1: ӈодини #+Use/SpellNoSugg
+#     ӈодя+N+Pl+Acc+PxSg1: ӈодини #+Use/SpellNoSugg
      ӈодя+N+Pl+Gen+PxDu1: ӈодиˮниʼ
-     ӈодя+N+Pl+Gen+PxSg1: ӈодиˮни #+Use/SpellNoSugg
+#     ӈодя+N+Pl+Gen+PxSg1: ӈодиˮни #+Use/SpellNoSugg
      ӈодя+N+Pl+Dat+PxDu1: ӈодяхаˮниʼ
-     ӈодя+N+Pl+Dat+PxSg1: ӈодяхаˮни #+Use/SpellNoSugg
+#     ӈодя+N+Pl+Dat+PxSg1: ӈодяхаˮни #+Use/SpellNoSugg
      ӈодя+N+Pl+Loc+PxDu1: ӈодяхаˮнаниʼ
-     ӈодя+N+Pl+Loc+PxSg1: ӈодяхаˮнани #+Use/SpellNoSugg
+#     ӈодя+N+Pl+Loc+PxSg1: ӈодяхаˮнани #+Use/SpellNoSugg
      ӈодя+N+Pl+Abl+PxDu1: [ӈодяхатаниʼ, ӈодяхатниʼ]
-     ӈодя+N+Pl+Abl+PxSg1: [ӈодяхатани, ӈодяхатни] #+Use/SpellNoSugg
+#     ӈодя+N+Pl+Abl+PxSg1: [ӈодяхатани, ӈодяхатни] #+Use/SpellNoSugg
      ӈодя+N+Pl+Pros+PxDu1: ӈодиˮмананиʼ
-     ӈодя+N+Pl+Pros+PxSg1: ӈодиˮманани #+Use/SpellNoSugg
+#     ӈодя+N+Pl+Pros+PxSg1: ӈодиˮманани #+Use/SpellNoSugg
      ӈодя+N+Sg+Nom+PxDu2: ӈодяриʼ
      ӈодя+N+Sg+Acc+PxDu2: ӈодямдиʼ
      ӈодя+N+Sg+Gen+PxDu2: ӈодяндиʼ
@@ -203,9 +203,9 @@ Tests:
      ӈодя+N+Pl+Abl+PxPl3: [ӈодяхататоʼ, ӈодяхаттоʼ]
      ӈодя+N+Pl+Pros+PxPl3: ӈодиˮманатоʼ
      ӈодя+N+Pred+Abs: ӈодяд
-     ӈодя+N+Pred+Nom+PxSg1: [ӈодядав, ӈодядув]
-     ӈодя+N+Pred+Acc+PxSg1: [ӈодядав, ӈодядув]
-     ӈодя+N+Pred+Gen+PxSg1: ӈодядан
+     ӈодя+N+Pred+Nom+PxSg1: [ӈодядав, ӈодядув, ӈодядами]
+     ӈодя+N+Pred+Acc+PxSg1: [ӈодядав, ӈодядув, ӈодядами]
+     ӈодя+N+Pred+Gen+PxSg1: [ӈодядан, ӈодядани]
      ӈодя+N+Pred+Nom+PxSg2: ӈодядар
      ӈодя+N+Pred+Acc+PxSg2: ӈодядамд
      ӈодя+N+Pred+Gen+PxSg2: ӈодяданд
@@ -213,11 +213,11 @@ Tests:
      ӈодя+N+Pred+Acc+PxSg3: ӈодядамда
      ӈодя+N+Pred+Gen+PxSg3: ӈодяданда
      ӈодя+N+Pred+Nom+PxDu1: ӈодядамиʼ
-     ӈодя+N+Pred+Nom+PxSg1: ӈодядами #+Use/SpellNoSugg
+#     ӈодя+N+Pred+Nom+PxSg1: ӈодядами #+Use/SpellNoSugg
      ӈодя+N+Pred+Acc+PxDu1: ӈодядамиʼ
-     ӈодя+N+Pred+Acc+PxSg1: ӈодядами #+Use/SpellNoSugg
+#     ӈодя+N+Pred+Acc+PxSg1: ӈодядами #+Use/SpellNoSugg
      ӈодя+N+Pred+Gen+PxDu1: ӈодяданиʼ
-     ӈодя+N+Pred+Gen+PxSg1: ӈодядани #+Use/SpellNoSugg
+#     ӈодя+N+Pred+Gen+PxSg1: ӈодядани #+Use/SpellNoSugg
      ӈодя+N+Pred+Nom+PxDu2: ӈодядариʼ
      ӈодя+N+Pred+Acc+PxDu2: ӈодядамдиʼ
      ӈодя+N+Pred+Gen+PxDu2: ӈодядандиʼ

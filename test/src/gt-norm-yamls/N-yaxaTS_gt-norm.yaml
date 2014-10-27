@@ -33,23 +33,23 @@ Tests:
      яха+N+Pl+Loc: яхахаˮна
      яха+N+Pl+Abl: яхахат
      яха+N+Pl+Pros: есиˮмана
-     яха+N+Sg+Nom+PxSg1: яхав
-     яха+N+Sg+Acc+PxSg1: яхав
-     яха+N+Sg+Gen+PxSg1: яхан
-     яха+N+Sg+Dat+PxSg1: яхахан
-     яха+N+Sg+Loc+PxSg1: яхаханан
-     яха+N+Sg+Abl+PxSg1: яхахадан
-     яха+N+Sg+Pros+PxSg1: яхавнан
-     яха+N+Du+Nom+PxSg1: яхахаюн
-     яха+N+Du+Acc+PxSg1: яхахаюн
-     яха+N+Du+Gen+PxSg1: яхахаюн
-     яха+N+Pl+Nom+PxSg1: есин
-     яха+N+Pl+Acc+PxSg1: есин
-     яха+N+Pl+Gen+PxSg1: есиˮн
-     яха+N+Pl+Dat+PxSg1: яхахаˮн
-     яха+N+Pl+Loc+PxSg1: яхахаˮнан
-     яха+N+Pl+Abl+PxSg1: яхахатан
-     яха+N+Pl+Pros+PxSg1: есиˮманан
+     яха+N+Sg+Abl+PxSg1: [яхахадан, яхахадани, яхахадни]
+     яха+N+Sg+Acc+PxSg1: [яхав, яхами]
+     яха+N+Sg+Dat+PxSg1: [яхахан, яхахани]
+     яха+N+Sg+Gen+PxSg1: [яхан, яхани]
+     яха+N+Sg+Loc+PxSg1: [яхаханан, яхаханани]
+     яха+N+Sg+Nom+PxSg1: [яхав, яхами]
+     яха+N+Sg+Pros+PxSg1: [яхавнан, яхавнани]
+     яха+N+Du+Acc+PxSg1: [яхахаюн, яхахаюни]
+     яха+N+Du+Gen+PxSg1: [яхахаюн, яхахаюни]
+     яха+N+Du+Nom+PxSg1: [яхахаюн, яхахаюни]
+     яха+N+Pl+Abl+PxSg1: [яхахатан, яхахатани, яхахатни]
+     яха+N+Pl+Acc+PxSg1: [есин, есини]
+     яха+N+Pl+Dat+PxSg1: [яхахаˮн, яхахаˮни]
+     яха+N+Pl+Gen+PxSg1: [есиˮн, есиˮни]
+     яха+N+Pl+Loc+PxSg1: [яхахаˮнан, яхахаˮнани]
+     яха+N+Pl+Nom+PxSg1: [есин, есини]
+     яха+N+Pl+Pros+PxSg1: [есиˮманан, есиˮманани]
      яха+N+Sg+Nom+PxSg2: яхар
      яха+N+Sg+Acc+PxSg2: яхамд
      яха+N+Sg+Gen+PxSg2: яханд
@@ -204,36 +204,36 @@ Tests:
      яха+N+Pl+Abl+PxPl3: [яхахататоʼ, яхахаттоʼ]
      яха+N+Pl+Pros+PxPl3: есиˮманатоʼ
      яха+N+Pred+Abs: яхад
-     яха+N+Pred+Nom+PxSg1: [яхадав, яхадув]
-     яха+N+Pred+Acc+PxSg1: [яхадав, яхадув]
-     яха+N+Pred+Gen+PxSg1: яхадан
-     яха+N+Pred+Nom+PxSg2: яхадар
+     яха+N+Pred+Acc+PxSg1: [яхадав, яхадув, яхадами]
+#     яха+N+Pred+Acc+PxSg1.2: яхадами
+     яха+N+Pred+Gen+PxSg1: [яхадан, яхадани]
+#     яха+N+Pred+Gen+PxSg1.2: яхадани
+     яха+N+Pred+Nom+PxSg1: [яхадав, яхадув, яхадами]
+#     яха+N+Pred+Nom+PxSg1.2: яхадами
      яха+N+Pred+Acc+PxSg2: яхадамд
      яха+N+Pred+Gen+PxSg2: яхаданд
-     яха+N+Pred+Nom+PxSg3: яхадада
+     яха+N+Pred+Nom+PxSg2: яхадар
      яха+N+Pred+Acc+PxSg3: яхадамда
      яха+N+Pred+Gen+PxSg3: яхаданда
-     яха+N+Pred+Nom+PxDu1: яхадамиʼ
-#     яха+N+Pred+Nom+PxSg1.2: яхадами
+     яха+N+Pred+Nom+PxSg3: яхадада
      яха+N+Pred+Acc+PxDu1: яхадамиʼ
-#     яха+N+Pred+Acc+PxSg1.2: яхадами
      яха+N+Pred+Gen+PxDu1: яхаданиʼ
-#     яха+N+Pred+Gen+PxSg1.2: яхадани
-     яха+N+Pred+Nom+PxDu2: яхадариʼ
+     яха+N+Pred+Nom+PxDu1: яхадамиʼ
      яха+N+Pred+Acc+PxDu2: яхадамдиʼ
      яха+N+Pred+Gen+PxDu2: яхадандиʼ
-     яха+N+Pred+Nom+PxDu3: яхададиʼ
+     яха+N+Pred+Nom+PxDu2: яхадариʼ
      яха+N+Pred+Acc+PxDu3: яхадамдиʼ
      яха+N+Pred+Gen+PxDu3: яхадандиʼ
-     яха+N+Pred+Nom+PxPl1: яхадаваˮ
+     яха+N+Pred+Nom+PxDu3: яхададиʼ
      яха+N+Pred+Acc+PxPl1: яхадаваˮ
      яха+N+Pred+Gen+PxPl1: яхаданаˮ
-     яха+N+Pred+Nom+PxPl2: яхадараˮ
+     яха+N+Pred+Nom+PxPl1: яхадаваˮ
      яха+N+Pred+Acc+PxPl2: яхадамдаˮ
      яха+N+Pred+Gen+PxPl2: яхадандаˮ
-     яха+N+Pred+Nom+PxPl3: яхададоʼ
+     яха+N+Pred+Nom+PxPl2: яхадараˮ
      яха+N+Pred+Acc+PxPl3: яхадамдоʼ
      яха+N+Pred+Gen+PxPl3: яхадандоʼ
+     яха+N+Pred+Nom+PxPl3: яхададоʼ
      яха+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: яхадмʼ
      яха+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: яхан
      яха+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: яха
