@@ -399,16 +399,6 @@ Yaml: __xo, ngaeTS__
 +Nom+Der/Pr+V+Ind+Aor+ScSg3
 +Nom+Der/Pr+V+Ind+Aor+ScPl3
 
-
-
- * __LEXICON N_ӇЭ-Pal/Var__ ӈэ:ӈэ 1  ProsSg -вна
-no change in stem
-ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
-
-
- * __LEXICON N_ӇЭ/ХАБИЕ__ ӈэ:ӈэ 1  ProsSg -вна
-хӑби:8 ProsSg -вна
-
  * __LEXICON N_Ё__ я:я 2 ProsSg -вна
 Yaml: __ya, yaTS__
 /total=3/
@@ -417,6 +407,7 @@ Yaml: __ya, yaTS__
 +Sg+Acc, +Sg+Gen, +Sg+Nom,
 +Nom+Der/Pr+V+Ind+Aor+ScSg3
 +Nom+Der/Pr+V+Ind+Aor+ScPl3
+
 +Pl+Acc X +Abs +PxSg. +PxDu. +PxPl.
 +Pl+Gen X +Abs +PxSg. +PxDu. +PxPl.
 +Pl+Nom X +PxSg. +PxDu. +PxPl.
@@ -424,14 +415,11 @@ Yaml: __ya, yaTS__
 +Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3
 
 
-та:та 
-ӈэ:ӈэ 1  ProsSg -вна
-я:я 2 ProsSg -вна
-
  * __LEXICON N_ПИ__ пя:пя 3 ProsSg -вна
 Yaml: __pyi, pyaTS__
 /total=3/
 пя pya	пян’ pyan°h	пя” pyaq	пи pyí
+
 
 
  * __LEXICON N_ТЫ__ ты: 4 ProsSg -вна
@@ -448,10 +436,12 @@ Yaml: __tyTS__
 ха xa	хан’ xan°h	ха” xaq	хаво xawo
 
 
+
  * __LEXICON N_СЁЁ__ сё: 6 ProsSg -вна
 /total=0/
   * Yaml: __syoyoTS__
 сё syo	сён’ syon°h	сё” syoq	сёё syoyo
+
 
 
  * __LEXICON N_ИБЕ__ и: 7 ProsSg -вна
@@ -462,10 +452,10 @@ Yaml: __tyTS__
 /total=0/
 хӑби xəbyi	хӑбин’ xəbyin°h	хӑби” xəbyiq	хӑбие xəbyiy
 
-
- * __LEXICON N_ПАНЫ__ пӑны:пӑны!ProsSg -(э)вна
+ * __LEXICON N_ПАНЫ__ пӑны:пӑн 9 ы!ProsSg -(э)вна
 /total=30/
 пӑны pəni°	пӑнэн’ pənen°h	пӑны” pəni°q	пӑны pəni°
+
 
  * __LEXICON N_ХУСУВЭЙ__ хусувэй: 10 ProsSg -ювна
 /total=17/
@@ -483,14 +473,9 @@ Yaml: __xano__
 /total=3/
 тир tyír°	тирӑн’ tyírən°h	тир” tyír°q	тире tyírye
 
-
  * __LEXICON N_ЕД__ ед: 13 ProsSg -увна /-ювна
 /total=98/
 ед yed°	едӑн’ yedən°h	ед” yed°q	ед yed°
-
-
-
-
 
  * __LEXICON N_МАРАӇГЫ__ мӑраӈга: 14PProsSg -вна
 /total=15/
@@ -499,96 +484,61 @@ Yaml: __xano__
 
 
 
-
  * __LEXICON N_ӇУДИ__ ӈуда: 15 ProsSg -вна
 /total=53/
 ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
-Yaml: __N-ngudi__
+Yaml: __N-ngudiTS__
 
- * __LEXICON NMN_ӇУДИ__ ӈуда: 15 ProsSg -вна
-Yaml: __ngudi__
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  * __LEXICON N_ЕСИ__ ая̆ха: 16PProsSg -вна
 /total=1/
 я̆ха yəxa	я̆хан’ yəxan°h	я̆ха” yəxaq	еси yesy
+Yaml: __N-yaxaTS__
+
+
 
  * __LEXICON N_ӇОДИ__ ӈодя: 17 ProsSg -вна
-
-
-
- * __LEXICON NMN_ӇОДИ__
-/total=28/
-ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
+Yaml: __N-ngodiTS__
 
 
  * __LEXICON N_ЯЛЭ__ яля: 18 ProsSg -вна
 /total=2/
 яля yalya	ялян’ yalyan°h	яля” yalyaq	ялэ yale
 
-
  * __LEXICON N_ХОБ__ хоба:хоба 19 ProsSg -вна
 Yaml: __xob__
 /total=25/
 хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
- * __+N: POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * __LEXICON NMN_ХОБ__ хоба:хоба 19 ProsSg -вна
-Yaml: __xob__
-/total=25/
-хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-
-
 
  * __LEXICON N_ТЁН__ тёня:тёня 20 ProsSg -вна
 Yaml: __tyon__
 /total=14/
 
-
- * __LEXICON NMN_ПИСЬ__ пися: 21 ProsSg -вна
+ * __LEXICON N_ПИСЬ__ пися: 21 ProsSg -вна
 /total=10/
-пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+пися pyísya  писян’ pyísyan°h пися” pyísyaq  пись pyísy°
 
  * __LEXICON N_ХАСЕВ__ хасава: 22 ProsSg -вна
 /total=1/
-хасава xasawa	хасаван’ xasawan°h	хасава” xasawaq	хасев xasyew°
- * __+N: POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+хасава xasawa        хасаван’ xasawan°h      хасава” xasawaq хасев xasyew°
 
  * __LEXICON N_ӇАНУ__ ӈӑно: 23 ProsSg -вна
 Yaml: __nano__
 /total=57/
 ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑно” ŋənoq	ңӑну ŋənu
 
-
- * __LEXICON NMN_ӇАНУ__ ӈӑно: 23 ProsSg -вна
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
  * __LEXICON N_ЯКЫ__ якэ: 24 ProsSg -вна
 /total=4/
-якэ yake	якэн’ yaken°h	якэ” yakeq	якы yaki
+якэ yake     якэн’ yaken°h   якэ” yakeq      якы yaki
 
  * __LEXICON N_ӇУВО__ ӈумʼ:ӈум 25 ProsSg -(м)на
 Yaml: __yam__
 /total=3/
-ңум’ ŋum	ңумд’ ŋumt°h	ңув” ŋuw°q	ңуво ŋuwo
-
- * __LEXICON NMN_ӇУВО__ ӈумʼ:ӈум 25 
- * __:ʼ POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
 
  * __LEXICON N_НЮБЕ__ нюмʼ: 26  ProsSg -(м)на
 /total=0/
-нюм’ nyum	нюмд’ nyumt°h	нюв” nyuw°q	нюбе nyubye
-
-
-
- * __LEXICON NMN_НЮБЕ__ нюмʼ: 26
+нюм’ nyum    нюмд’ nyumt°h   нюв” nyuw°q     нюбе nyubye
 
  * __LEXICON N_МУНО__ муʼ:му 27  ProsSg -мна
 н /total=2/
@@ -604,40 +554,20 @@ Extra variants
 +N+Pl+Abl+PxSg1
 +Du+Nom
 
-
-
-
- * __LEXICON NMN_МУНО__ муʼ: 27  ProsSg -мна
-
-
-No n2d
-
-
-
-
-
-
  * __LEXICON N_ПОЁ__ поʼ:по 28  ProsSg -мна
 Yaml: __poyo__
 ң /total=2/
 по’(ң) poh	понд’ pont°h	пой” poy°q	поё poyo
 Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
- * __+N:Ӈ1 POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  * __LEXICON N_ВЫӇО__ выʼ:вы 29  ProsSg -мна /-мана
 ң /total=16/
 вы’(ң) wíh	вы̄нд’ wínt°h	вы” wí°q	выңо wíŋo
- * __+N:Ӈ1 POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  * __LEXICON N_ИЛЪЕ__ илʼ:ил 30   ProsSg -мана
 Yaml: __ilje__
 ң /total=13/
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
-
-
- * __:Ӈ1 SGNOMSUF ;__ 
- * __:Ӈ1 SG-NOM-STEM ;__ 
- * __:Ӈ1 POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
  * __LEXICON N_НЕНЭЦИЕ__ ненэцьʼ:ненэць 30   ProsSg -мана
 Yaml: __nyenecyh__
@@ -657,10 +587,6 @@ Yaml: __nyenecyh__
 тӑр” tər	тӑрт’ tərt°h	тӑр” tər°q	тӑре tərye
 Vowel variation
 
-Where is the variation?
-
- * __LEXICON NMN_ТАРЕ__ тӑрˮ:тар 33   ProsSg -мня
-
  * __LEXICON N_МАНСО__ мӑнˮ: 34   ProsSg -мна
 /total=6/
 мӑн”(с) mən°q	мӑнӑт’ mənət°h	мӑнӑс” mənəs°q	мӑнсо mən°so
@@ -673,6 +599,101 @@ Yaml: __myadoTS__
 +Sg+Acc, +Sg+Gen, +Sg+Nom,
 +Nom+Der/Pr+V+Ind+Aor+ScSg3
 +Nom+Der/Pr+V+Ind+Aor+ScPl3
+
+ * __LEXICON N_ИДЕ__ иˮ: 36   ProsSg -мна
+Yaml: __yidye__
+/total=1/
+и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
++Pl+Nom +Abs
++Sg+Acc, +Sg+Gen, +Sg+Nom,
++Nom+Der/Pr+V+Ind+Aor+ScSg3
++Nom+Der/Pr+V+Ind+Aor+ScPl3
+ * __!:Д1 POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+ * __LEXICON N_ӇЭ-Pal/Var__ ӈэ:ӈэ 1  ProsSg -вна
+no change in stem
+ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
+
+
+ * __LEXICON N_ӇЭ/ХАБИЕ__ ӈэ:ӈэ 1  ProsSg -вна
+хӑби:8 ProsSg -вна
+
+
+та:та 
+ӈэ:ӈэ 1  ProsSg -вна
+я:я 2 ProsSg -вна
+
+
+
+
+
+
+ * __LEXICON NMN_ӇУДИ__ ӈуда: 15 ProsSg -вна
+Yaml: __ngudi__
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * __LEXICON NMN_ӇОДИ__
+/total=28/
+ңодя ŋodya	ңодян’ ŋodyan°h	ңодя” ŋodyaq	ңоди ŋodyi
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+ * __LEXICON NMN_ХОБ__ хоба:хоба 19 ProsSg -вна
+Yaml: __xob__
+/total=25/
+хоба xoba	хобан’ xoban°h	хоба” xobaq	хоб xob°
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+ * __LEXICON NMN_ПИСЬ__ пися: 21 ProsSg -вна
+/total=10/
+пися pyísya	писян’ pyísyan°h пися” pyísyaq	пись pyísy°
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+ * __LEXICON NMN_ӇАНУ__ ӈӑно: 23 ProsSg -вна
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * __LEXICON NMN_ӇУВО__ ӈумʼ:ӈум 25 
+ * __:ʼ POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+ * __LEXICON NMN_НЮБЕ__ нюмʼ: 26
+
+
+
+ * __LEXICON NMN_МУНО__ муʼ: 27  ProsSg -мна
+
+
+No n2d
+
+
+
+
+
+
+
+ * __:Ӈ1 SGNOMSUF ;__ 
+ * __:Ӈ1 SG-NOM-STEM ;__ 
+ * __:Ӈ1 POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+ * __LEXICON NMN_ТАРЕ__ тӑрˮ:тар 33   ProsSg -мня
 
 
 
@@ -689,11 +710,6 @@ Yaml: __waro__
 Yaml: __myado__
  * __:Д1 SGLOCSUF_Хна ;__ мякна
  * __:Д1 POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * __LEXICON N_ИДЕ__ иˮ: 36   ProsSg -мна
-Yaml: __yidye__
-/total=1/
-и”(д) yiq	ит’ yit°h	ид” yid°q	иде yidye
 
 Where is the variation?
 
@@ -731,36 +747,7 @@ NMN
  * __PLACCSUF_Zero ;__ => PL-ACC_STEM
  * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- * __LEXICON NMN_Ё__ я:я 2 ProsSg -вна
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
-
- * __LEXICON NMN_ПИ__ пя: 3 ProsSg -вна
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * __LEXICON NMN_ТЫ__ ты:ты 4 ProsSg -вна
-/total=4/
-ты ti        тэ̇н’ ten°h     ты” tiq ты tí
- * __+Pl+Pros:%^VowLower%>ˮэмна K ;__ This will need schwa to surface
- * __:%^VowLower POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * __LEXICON NMN_ХАВО__ ха: 5 rosSg -вна
-/total=1/
-ха xa        хан’ xan°h      ха” xaq хаво xawo
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * __LEXICON NMN_СЁЁ__ сё: 6 ProsSg -вна
-/total=0/
-сё syo       сён’ syon°h     сё” syoq        сёё syoyo
- * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * __LEXICON NMN_ИБЕ__ и: 7 ProsSg -вна
-/total=0/
-и yí ин’ yín°h       и” yíq  ибе yíbye
-
- * __LEXICON NMN_ХАБИЕ__ хӑби:8 ProsSg -вна
-/total=0/
-хӑби xəbyi  хӑбин’ xəbyin°h        хӑби” xəbyiq   хӑбие xəbyiy
 
  * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
@@ -995,6 +982,17 @@ Conjugation of nouns and adjectives
 
 
 !!NEW
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1711,6 +1709,7 @@ __Ӈ1:0 GlottalNasalToSurface__
 
 
 
+
 __Д1:0 GlottalNonNasalToZERO LEFT__
 
 __Д1:0 GlottalNonNasalToZERO LEFT__
@@ -1753,9 +1752,11 @@ __му00нд examples:__
 
 
 __0:а in single-syllable__
+__°:а at end of stem__
 
 
-__0:а in single-syllable__
+
+__°:а at end of stem__
 Second Vowel Center
 Stems C*VC (underline)
   # Cns* Vow Cns _ %> [ к: | %{рл%}: Vow: | м и | н и | ӈ э | °: м ʼ | °: ʼ | °: ˮ | д: [ °: Cns | %{ая%}: ] | с и ] ;
@@ -1769,13 +1770,13 @@ C*V%>C (underline)
     # (2InitSylls) Cns* Vow Cns _ ( Ӈ1: | С1: ) %> °: ц ь °: ;
    # (2InitSylls) Cns* Vow Cns _ С1: %> °: ц ь °: ;
    # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [ д: [ °: [м °:] | %{ая%}: ]| д: [ %{ая%}: | %{оё%}: | а | о ] ] ;
-      # (2InitSylls) Cns* Vow Cns _ [ [Н1:|Д1:|С1:] ] [ %> [ к: а | ӈ э | к: °: (ˮ) DentStops ((°:) DentStops ) [ :Vow | °: # | °: %> ]| м Vow | н Vow | ( м:|н:) д: [ %{ая%}: | %{оё%}: | и | а | о ] | [ к: | м ] °: [(ˮ) н [ %{ая%}: | з | д а ] | м и | м а | н и | т ә: | ю DentStops |  [ д | т] ә: ] | %{рл%}: :Vow ] | е | о ] ;
+      # (2InitSylls) Cns* Vow Cns _ [ [Н1:|Д1:|С1:] ] [ %> [ к:] а | ӈ э | к: °: (ˮ) DentStops ((°:) DentStops ) [ :Vow | °: # | °: %> ]| м Vow | н Vow | ( м:|н:) д: [ %{ая%}: | %{оё%}: | и | а | о ] | [ к: | м ] °: [(ˮ) н [ %{ая%}: | з | д а ] | м и | м а | н и | т ә: | ю DentStops |  [ д | т] ә: ] | %{рл%}: :Vow ] | е | о ] ;
 C*VC+%>C_
 THIRD VOWEL CENTER
        # Cns* Vow: Cns :Vow [ [Н1:|Д1:|С1:] ] %> (н:|к:) _ [ ʼ | ˮ # ] ;
        # (2InitSylls) Cns* Vow: Cns °: [ Ӈ1: | С1: ] е %> ˮ м _ н %{ая%}: ;
      :Vow %> _  ;
-__0:а in single-syllable__
+__°:а at end of stem__
 Second Vowel Center
 Stems
 AFFIXES
@@ -1804,7 +1805,7 @@ C*VC+>C_
      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
 C*VC>CVC_
      # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
-__0:а in single-syllable__
+__°:а at end of stem__
 Second Vowel Center
 C*V%>C_
        # (2InitSylls) Cns*  Vow  %> д _  р [ °: | и ʼ | а ˮ ] # ;
@@ -1820,7 +1821,7 @@ THIRD VOWEL CENTER
    # (2InitSylls) Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ н а | н и | т а | т и | т о ]  ;
      # Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ т а | н и ]  ;
 FOURTH VOWEL CENTER
-__0:а in single-syllable__
+__°:а at end of stem__
 Second Vowel	Center
        # Cns*  Vow  Н1: %> _ ц ь °: ;
   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) [Н1:|Д1:|С1:] ] %> к: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
@@ -1839,8 +1840,8 @@ RIGHT ARROW ONLY IN °:а
      # (2InitSylls) Cns* Vow: Д1: %> д: _ [м|н] [ °: | Vow ]  ;
    # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [[ м: | н: ] д: [ %{ая%}: | %{оё%}: | и | а | о ]| д [ и | о | %{оё%}: | а ] ] ;
      # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
-__0:а in single-syllable__
-__0:а in single-syllable__
+__°:а at end of stem__
+__°:а at end of stem__
 
 __ә:у in extra short to у__
 
