@@ -39,7 +39,7 @@ Multichar_Symbols
 
 !Сейчас половина десятого.  -  Теда’ ю’ сяс’ пеля.
 !Сейчас без пятнадцати двенадцать.  -  Теда’ самлянг яӈганя минутаси сидя яӈгня сяс.
-!Сейчас одиннадцать часов сорок минут. -  Теда’ ӈоб яӈганяд тет ю’’ минута.
+!Сейчас одиннадцать часов сорок минут. -  Тедаʼ ӈоб яӈганяд тет юˮ минута.
 
 LEXICON Root
 
@@ -67,18 +67,18 @@ LEXICON beforesmallhours
 LEXICON beforelargehours
 1%0@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
 11@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
-12@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
-13@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
-14@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
-15@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
-16@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
-17@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
-18@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
-19@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
-2%0@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
-21@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
-22@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
-23@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
+12@U.TIME.13@:@U.TIME.13@ BEFpunkt ; !12:29 - 12:59
+13@U.TIME.14@:@U.TIME.14@ BEFpunkt ; !13:29 - 13:59
+14@U.TIME.15@:@U.TIME.15@ BEFpunkt ; !14:29 - 14:59
+15@U.TIME.16@:@U.TIME.16@ BEFpunkt ; !15:29 - 15:59
+16@U.TIME.17@:@U.TIME.17@ BEFpunkt ; !16:29 - 16:59
+17@U.TIME.18@:@U.TIME.18@ BEFpunkt ; !17:29 - 17:59
+18@U.TIME.19@:@U.TIME.19@ BEFpunkt ; !18:29 - 18:59
+19@U.TIME.20@:@U.TIME.20@ BEFpunkt ; !19:31 - 19:59
+2%0@U.TIME.21@:@U.TIME.21@ BEFpunkt ; !20:31 - 20:59
+21@U.TIME.22@:@U.TIME.22@ BEFpunkt ; !21:31 - 21:59
+22@U.TIME.23@:@U.TIME.23@ BEFpunkt ; !22:29 - 22:59
+23@U.TIME.24@:@U.TIME.24@ BEFpunkt ; !23:29 - 23:59
 %0%0@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
 
 LEXICON REST
@@ -122,28 +122,28 @@ LEXICON REST
 11@U.TIME.11@:ӈобʼ% яӈгня@U.TIME.11@ WHOLE-HOUR ;
 12@U.TIME.12@:сидя% яӈгня@U.TIME.12@ WHOLE-HOUR ;
 
-13@U.TIME.1@:ӈопой@U.TIME.1@ WHOLE-HOUR ;
-14@U.TIME.2@:сидя@U.TIME.2@ WHOLE-HOUR ;
-15@U.TIME.3@:няхарˮ@U.TIME.3@ WHOLE-HOUR ;
-16@U.TIME.4@:тет@U.TIME.4@ WHOLE-HOUR ;
-17@U.TIME.5@:самляӈг@U.TIME.5@ WHOLE-HOUR ;
-18@U.TIME.6@:матˮ@U.TIME.6@ WHOLE-HOUR ;
-19@U.TIME.7@:сиˮив@U.TIME.7@ WHOLE-HOUR ;
-2%0@U.TIME.8@:сидндет@U.TIME.8@ WHOLE-HOUR ;
-21@U.TIME.9@:хасуюˮ@U.TIME.9@ WHOLE-HOUR ;
-22@U.TIME.10@:юˮ@U.TIME.10@ WHOLE-HOUR ;
-23@U.TIME.11@:ӈобʼ% яӈгня@U.TIME.11@ WHOLE-HOUR ;
-%0%0@U.TIME.12@:сидя% яӈгня@U.TIME.12@ WHOLE-HOUR ;
+13@U.TIME.13@:ӈопой@U.TIME.13@ WHOLE-HOUR ;
+14@U.TIME.14@:сидя@U.TIME.14@ WHOLE-HOUR ;
+15@U.TIME.15@:няхарˮ@U.TIME.15@ WHOLE-HOUR ;
+16@U.TIME.16@:тет@U.TIME.16@ WHOLE-HOUR ;
+17@U.TIME.17@:самляӈг@U.TIME.17@ WHOLE-HOUR ;
+18@U.TIME.18@:матˮ@U.TIME.18@ WHOLE-HOUR ;
+19@U.TIME.19@:сиˮив@U.TIME.19@ WHOLE-HOUR ;
+2%0@U.TIME.20@:сидндет@U.TIME.20@ WHOLE-HOUR ;
+21@U.TIME.21@:хасуюˮ@U.TIME.21@ WHOLE-HOUR ;
+22@U.TIME.22@:юˮ@U.TIME.22@ WHOLE-HOUR ;
+23@U.TIME.23@:ӈобʼ% яӈгня@U.TIME.23@ WHOLE-HOUR ;
+%0%0@U.TIME.24@:сидя% яӈгня@U.TIME.24@ WHOLE-HOUR ;
 
 
 LEXICON BEFpunkt
-%::+Use/NA BEF ;
-%.:+Use/NA BEF ;
+%:: BEF ;
+%.:+Use/NG BEF ;
 
 LEXICON AFTpunkt
-%::+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
-%.:+Use/NA H-MAFT_minutes ; ! 2.00 = göökte
-:+Use/NA HOUR ; ! 2 = göökte
+%::+Use/NG H-MAFT_minutes ; ! 2:00 = göökte
+%.:+Use/NG H-MAFT_minutes ; ! 2.00 = göökte
+:+Use/NG HOUR ; ! 2 = göökte
 
 
 LEXICON HOUR-30
