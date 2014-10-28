@@ -1298,6 +1298,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Минлей</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">минлей</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Minlej (mytologinen rautasiipinen lintu)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Мордовия</l>
 
       <stg>
@@ -1338,6 +1362,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Moskova</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Мяци</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Мяци</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Mjatsi (miehennimi)</t>
       </tg>
     </mg>
   </e>
