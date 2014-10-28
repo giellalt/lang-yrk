@@ -2314,7 +2314,9 @@ LEXICON verbs
 лёдырць:лёдыр IV_ТИР  "touhuta" ;
 лёресь:лёре IV_ИЛЕ  "juosta" ;
 маˮалкось:маˮалко IV_СЯНАКУ  "kerätä yhteen" ;
+маˮалкось:малко IV_СЯНАКУ  "kerätä yhteen" ;
 маˮалкурць:маˮалкур IV_ТИР  "kerätä yhteen" ;
+маˮалкурць:малкур IV_ТИР  "kerätä yhteen" ;
 маˮлайбтембась:маˮлайбтемба TV_ПЭБЮ  "kerätä" ;
 маˮлайбтесь:маˮлайбте TV_ИЛЕ  "kerätä" ;
 маˮламбась:маˮламба TV_ПЭБЮ  "kokoilla" ;
@@ -2324,8 +2326,11 @@ LEXICON verbs
 маˮлаясь:маˮлая IV_ЯˮАВЛУ  "olla kyttyräinen" ;
 маˮлаӈгась:маˮлаӈга IV_ЛАХАНА  "keräytyä" ;
 маˮлаӈгось:маˮлаӈго IV_СЯНАКУ  "keräillä" ;
-маˮлелабтабась:маˮлелабтаба TV_ПЭБЮ  "kumartua" ;
+маˮлелабтамбась:маˮлелабтамба TV_ПЭБЮ  "kumartua" ;
+маˮлелабтамбась:маˮлелабтаба TV_ПЭБЮ  "kumartua" ;
+маˮлелабтамбась:малелабтамба TV_ПЭБЮ  "kumartua" ;
 маˮлелабтась:маˮлелабта TV_ХАДА  "kumartua" ;
+маˮлелабтась:малелабта TV_ХАДА  "kumartua" ;
 маˮлертанась:маˮлерта VR_ЛАХАНА  "kumartua" ;
 маˮлертанась:маˮлертана VR_НАМДА  "kumartua" ;
 маˮлерць:маˮлер VR_ТИР  "kumartua" ;
@@ -2386,6 +2391,7 @@ LEXICON verbs
 мадёрць:мадюр VR_ТИР  "muuttua epätasaiseksi" ;
 мадёрць:мадёр VR_ТИР  "muuttua epätasaiseksi" ;
 мадёрӈгась:мадёрӈга IV_ЛАХАНА  "muuttua epätasaiseksi" ;
+мадёрӈгась:мадюрӈга IV_ЛАХАНА  "muuttua epätasaiseksi" ;
 мадёсясь:мадёся IV_ЯˮАВЛУ  "olla tasainen" ;
 маикарць:маикар IV_ТИР  "liikkua hädin tuskin" ;
 маилабтамбась:маилабтамба TV_ПЭБЮ  "panna nopeasti liikkumaan" ;
@@ -2419,7 +2425,9 @@ LEXICON verbs
 макабтёсь:макабтё IV_ВАДЮ  "seisoa pystyssä" ;
 макась:мака VR_ХАДА  "nousta seisomaan" ;
 макахалць:макахал VR_ТИР  "tököttää" ;
+макахалць:макал VR_ТИР  "tököttää" ;
 макахалӈгась:макахалӈга IV_НАМДА  "tunkeutua sisään pää ylöspäin" ;
+макахалӈгась:макалӈга IV_ЛАХАНА  "tunkeutua sisään pää ylöspäin" ;
 макодасясь:макодася IV_ЯˮАВЛУ  "olla ilman tukipylväitä" ;
 макодаць:макода IV_САС  "olla tukipylväillä" ;
 макылтась:макылта IV_ЛАХАНА  "olla väsynyt" ;
@@ -2497,8 +2505,10 @@ LEXICON verbs
 мамзэрць:мамзар TV_ТИР  "vitkastella" ;
 мамзэрць:мамзэр TV_ТИР  "vitkastella" ;
 мамӈгалць:мамӈгал VR_ТИР  "souketa alhaalta" ;
+мамӈгалць:мамгал VR_ТИР  "souketa alhaalta" ;
 мамӈгалӈгась:мамӈгалӈга IV_ЛАХАНА  "souketa alhaalta" ;
 мамӈгась:мамӈга IV_ХАДА  "olla alhaalta soukka" ;
+мамӈгась:мамга IV_ХАДА  "olla alhaalta soukka" ;
 манамзь:манам VR_ӇАРАМ  "valahtaa" ;
 манамламбась:манамламба TV_ПЭБЮ  "valaa" ;
 манамлась:манамла TV_ӇЭДАРА  "valaa" ;
@@ -2508,7 +2518,8 @@ LEXICON verbs
 мандалабтась:мандалабта TV_ХАДА  "kerätä kasaan" ;
 мандалайбтесь:мандалайбте IV_ИЛЕ  "olla kerätty kasaan" ;
 мандалтась:мандалта IV_ЛАХАНА  "olla kerällä" ;
-мандалтась:мандалта VR_ЛАХАНА  "kasautua" ;
+мандалтанась:мандалтана VR_ЛАХАНА  "kasautua" ;
+мандалтанась:мандалта VR_ЛАХАНА  "kasautua" ;
 мандалюрць:мандалюр IV_ТИР  "olla kasassa" ;
 мандалёсь:мандалё IV_ВАДЮ  "olla kasassa" ;
 мандась:манда TV_ХАДА  "laittaa pyöreitä esineita toisensa päälle" ;
@@ -2579,7 +2590,7 @@ LEXICON verbs
 мантырць:мантыр IV_ТИР  "kaatua" ;
 мантыръебтесь:мантыръебте IV_ИЛЕ  "vieriä nurinniskoin" ;
 манъёлась:манъёла TV_ӇЭДАРА  "kierittää" ;
-манъёлась:манъёла VR_ӇЭДАРА  "alkaa lojua" ;
+манъёлась:манъёла VR_ЛАХАНА  "alkaa lojua" ;
 манъёрць:манъёр IV_ТИР  "lojua" ;
 манылтась:манылта IV_ЛАХАНА  "olla täyteen mätetty" ;
 манэˮебтесь:манэˮебте TV_ИЛЕ  "saada nähdä" ;
@@ -2757,12 +2768,14 @@ LEXICON verbs
 маӈгалць:маӈгал TV_ТИР  "painaa itsensä vastaan" ;
 маӈгалъясь:маӈгалъя IV_ЯˮАВЛУ  "haisea väljähtyneelle" ;
 маӈгалӈгась:маӈгалӈга IV_ЛАХАНА  "mennä käppyrään" ;
+маӈгалӈгась:маӈгалӈга IV_ЛАХАНА  "pilaantua" ;
 маӈгарпась:маӈгарпа TV_ПЭБЮ  "venäyttää" ;
 маӈгарць:маӈгар TV_ТИР  "venäyttää" ;
 маӈгась:маӈга TV_НАМДА  "ottaa jatkuvasti luokseen sänkyyn" ;
 маӈгаць:маӈга TV_САС  "hautoa" ;
 маӈгбалтамбась:маӈгбалтамба TV_ПЭБЮ  "tehdä köyhäksi" ;
 маӈгбалтанась:маӈгбалтана IV_НАМДА  "köyhistyä" ;
+маӈгбалтанась:маӈгбалта VR_ ЛАХАНА  "köyhistyä" ;
 маӈгбалтась:маӈгбалта TV_ӇЭДАРА  "tehdä köyhäksi" ;
 маӈгбалць:маӈгбал VR_ТИР  "köyhistyä" ;
 маӈгбась:маӈгба IV_ПЭБЮ  "olla köyhä" ;
@@ -2806,6 +2819,7 @@ LEXICON verbs
 мерцямдалць:мерцямдал VR_ТИР  "alkaa tulla tuuliseksi" ;
 мерцямдамбась:мерцямдамба TV_ПЭБЮ  "aiheuttaa tuulta" ;
 мерцямданась:мерцямдана IV_НАМДА  "muuttua tuuliseksi" ;
+мерцямданась:мерцямда IV_ЛАХАНА  "muuttua tuuliseksi" ;
 мерцямдась:мерцямда TV_ӇЭДАРА  "aiheuttaa tuulta" ;
 мерцямзь:мерцям IV_ӇАРАМ  "muuttua tuuliseksi" ;
 мерцясясь:мерцяся IV_ЯˮАВЛУ  "olla tuuleton" ;
@@ -2823,6 +2837,7 @@ LEXICON verbs
 меямзь:меям IV_ӇАРАМ  "saada miniäksi" ;
 меӈгаць:меӈга IV_САС  "olla lahdelmilla" ;
 меӈготярць:меӈготяр IV_ТИР  "olla eksyksissä" ;
+меӈготярць:мэӈготяр IV_ТИР  "olla eksyksissä" ;
 мивсясь:мився IV_ЯˮАВЛУ  "olla näkymäton, olla rumannäköinen" ;
 мидерць:мидер IV_ТИР  "muuttua" ;
 милась:мила TV_НАМДА  "alkaa rakentaa" ;
@@ -3143,7 +3158,7 @@ LEXICON verbs
 мэятась:мэята IV_ЛАХАНА  "harrastaa muokkausta" ;
 мэёмдамбась:мэёмдамба TV_ПЭБЮ  "vahvistaa" ;
 мэёмданась:мэёмдана IV_НАМДА  "vahvistua" ;
-мэёмдась:мэюмда IV_ЛАХАНА  "vahvistaa" ;
+мэёмданась:мэюмда IV_ЛАХАНА  "vahvistua" ;
 мэёмдась:мэёмда IV_ЛАХАНА  "vahvistaa" ;
 мэёмдась:мэёмда TV_ӇЭДАРА  "vahvistaa" ;
 мэёмзь:мэём IV_ӇАРАМ  "vahvistua" ;

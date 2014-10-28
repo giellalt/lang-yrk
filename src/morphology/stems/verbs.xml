@@ -44831,6 +44831,8 @@
 
       <stg>
         <st Contlex="IV_СЯНАКУ">маˮалко</st>
+
+        <st Contlex="IV_СЯНАКУ">малко</st>
       </stg>
     </lg>
 
@@ -44855,6 +44857,8 @@
 
       <stg>
         <st Contlex="IV_ТИР">маˮалкур</st>
+
+        <st Contlex="IV_ТИР">малкур</st>
       </stg>
     </lg>
 
@@ -45057,10 +45061,14 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">маˮлелабтабась</l>
+      <l pos="V" val="TV">маˮлелабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">маˮлелабтамба</st>
+
         <st Contlex="TV_ПЭБЮ">маˮлелабтаба</st>
+
+        <st Contlex="TV_ПЭБЮ">малелабтамба</st>
       </stg>
     </lg>
 
@@ -45083,6 +45091,8 @@
 
       <stg>
         <st Contlex="TV_ХАДА">маˮлелабта</st>
+
+        <st Contlex="TV_ХАДА">малелабта</st>
       </stg>
     </lg>
 
@@ -46237,6 +46247,8 @@
 
       <stg>
         <st Contlex="IV_ЛАХАНА">мадёрӈга</st>
+
+        <st Contlex="IV_ЛАХАНА">мадюрӈга</st>
       </stg>
     </lg>
 
@@ -46813,6 +46825,8 @@
 
       <stg>
         <st Contlex="VR_ТИР">макахал</st>
+
+        <st Contlex="VR_ТИР">макал</st>
       </stg>
     </lg>
 
@@ -46831,6 +46845,8 @@
 
       <stg>
         <st Contlex="IV_НАМДА">макахалӈга</st>
+
+        <st Contlex="IV_ЛАХАНА">макалӈга</st>
       </stg>
     </lg>
 
@@ -48279,6 +48295,8 @@
 
       <stg>
         <st Contlex="VR_ТИР">мамӈгал</st>
+
+        <st Contlex="VR_ТИР">мамгал</st>
       </stg>
     </lg>
 
@@ -48315,6 +48333,8 @@
 
       <stg>
         <st Contlex="IV_ХАДА">мамӈга</st>
+
+        <st Contlex="IV_ХАДА">мамга</st>
       </stg>
     </lg>
 
@@ -48507,9 +48527,11 @@
 
   <e>
     <lg>
-      <l pos="V" type="VR">мандалтась</l>
+      <l pos="V" type="VR">мандалтанась</l>
 
       <stg>
+        <st Contlex="VR_ЛАХАНА">мандалтана</st>
+
         <st Contlex="VR_ЛАХАНА">мандалта</st>
       </stg>
     </lg>
@@ -49802,7 +49824,7 @@
       <l pos="V" type="VR">манъёлась</l>
 
       <stg>
-        <st Contlex="VR_ӇЭДАРА">манъёла</st>
+        <st Contlex="VR_ЛАХАНА">манъёла</st>
       </stg>
     </lg>
 
@@ -53253,6 +53275,24 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">маӈгалӈгась</l>
+
+      <stg>
+        <st Contlex="IV_ЛАХАНА">маӈгалӈга</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">pilaantua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">маӈгарпась</l>
 
       <stg>
@@ -53349,6 +53389,8 @@
 
       <stg>
         <st Contlex="IV_НАМДА">маӈгбалтана</st>
+
+        <st Contlex="VR_ ЛАХАНА">маӈгбалта</st>
       </stg>
     </lg>
 
@@ -54168,6 +54210,8 @@
 
       <stg>
         <st Contlex="IV_НАМДА">мерцямдана</st>
+
+        <st Contlex="IV_ЛАХАНА">мерцямда</st>
       </stg>
     </lg>
 
@@ -54450,6 +54494,8 @@
 
       <stg>
         <st Contlex="IV_ТИР">меӈготяр</st>
+
+        <st Contlex="IV_ТИР">мэӈготяр</st>
       </stg>
     </lg>
 
@@ -60629,23 +60675,7 @@
 
       <stg>
         <st Contlex="IV_НАМДА">мэёмдана</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV">vahvistua</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">мэёмдась</l>
-
-      <stg>
         <st Contlex="IV_ЛАХАНА">мэюмда</st>
       </stg>
     </lg>
@@ -60654,9 +60684,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">vahvistaa</t>
-
-        <t pos="V" val="IV">lujittaa</t>
+        <t pos="V" val="IV">vahvistua</t>
       </tg>
     </mg>
   </e>
@@ -61562,8 +61590,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="TV">ryhtyä väliaikaisesti asumaan vieraiden
-        luona</t>
+        <t pos="V" type="TV">ryhtyä väliaikaisesti asumaan vieraiden luona</t>
       </tg>
     </mg>
   </e>
@@ -70544,7 +70571,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="TV">pitää isäkseen </t>
+        <t pos="V" val="TV">pitää isäkseen</t>
 
         <t pos="V" val="TV">nimittää isäkseen</t>
       </tg>
@@ -81173,8 +81200,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="TV">näyttää jotakin, jota ennen ei ollut
-        näkyvissä</t>
+        <t pos="V" val="TV">näyttää jotakin, jota ennen ei ollut näkyvissä</t>
       </tg>
     </mg>
   </e>
@@ -149810,8 +149836,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="TV">kehiä lankaa neulalle verkonkorjausta
-        varten</t>
+        <t pos="V" type="TV">kehiä lankaa neulalle verkonkorjausta varten</t>
       </tg>
     </mg>
   </e>
@@ -178220,8 +178245,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="R">muuttua valkoiseksi useilla mustilla
-        karvoilla</t>
+        <t pos="V" type="R">muuttua valkoiseksi useilla mustilla karvoilla</t>
       </tg>
     </mg>
   </e>
@@ -205769,8 +205793,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="TV">käyttää jalkojen peittämiseen ja
-        lämmitykseen</t>
+        <t pos="V" type="TV">käyttää jalkojen peittämiseen ja lämmitykseen</t>
       </tg>
     </mg>
   </e>
@@ -208686,8 +208709,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">ruveta metsästämään riekkoja soitimen aikana
-        houkutuslinnun avulla</t>
+        <t pos="V">ruveta metsästämään riekkoja soitimen aikana houkutuslinnun
+        avulla</t>
       </tg>
     </mg>
   </e>
@@ -213933,8 +213956,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="R">osoittautua voimattomaksi (vihollista
-        vastaan)</t>
+        <t pos="V" type="R">osoittautua voimattomaksi (vihollista vastaan)</t>
       </tg>
     </mg>
 
