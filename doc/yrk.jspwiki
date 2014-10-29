@@ -398,6 +398,9 @@ Yaml: __xo, ngaeTS__
 +Sg+Acc, +Sg+Gen, +Sg+Nom,
 +Nom+Der/Pr+V+Ind+Aor+ScSg3
 +Nom+Der/Pr+V+Ind+Aor+ScPl3
++Pred+Acc+PxSg1+Use/SpellNoSugg, PxDu1, PxPl1
++Pred+Gen+PxSg1+Use/SpellNoSugg, PxDu1, PxPl1
++Pred+Nom+PxSg1+Use/SpellNoSugg, +PxSg3, PxDu. PxPl.
 
  * __LEXICON N_Ё__ я:я 2 ProsSg -вна
 Yaml: __ya, yaTS__
@@ -568,6 +571,29 @@ Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
 Yaml: __ilje__
 ң /total=13/
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
++Pred+Acc+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Gen+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Nom+PxSg1+Use/SpellNoSugg, +PxSg3, PxDu. PxPl.
++Equ, +Equ+Lat
+
++Du{+Acc|+Gen|+Nom}
++Pl+Dat, +Nom+Der/Pr+V+Ind+Aor+ScDu3, +Nom+Der/Pr+V+Ind+Prt1+ScDu3
++Pl+Dat+PxSg{1|2}
++Sg+Dat{+PxSg{1|2|3}|+PxDu{2|3}|+PxPl{2|3}}
++Pl+Abl; +Sg+Abl
++Sg+Acc+PxSg2
++Sg+Gen{+PxPl1|+PxSg1+Use/SpellNoSugg|+PxSg2}
+
++Sg+Acc{+PxDu1|+PxPl1}
++Sg+Gen+PxDu1
++Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
++Nom+Der/Pr+V+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
++Nom+Der/Pr+V+Ind+Prt1+Sc{Sg1|Sg2}
++Sg+Nom{X}+Der/Pr+V+Ind{Y}+ScSg3
+{X}= +PxSg3, +PxDu1, +PxDu3, +PxPl1, +PxPl3 
+{Y}= +Aor, +Prt1
++Tra
+
 
  * __LEXICON N_НЕНЭЦИЕ__ ненэцьʼ:ненэць 30   ProsSg -мана
 Yaml: __nyenecyh__
@@ -982,6 +1008,11 @@ Conjugation of nouns and adjectives
 
 
 !!NEW
+
+
+
+
+
 
 
 
@@ -1700,13 +1731,14 @@ __Ӈ1:ӈ GlottalNasalToSurface__
 
 __Ӈ1:н GlottalNasalToSurface__
 
+
+
 __Ӈ1:ъ GlottalNasalToSurface__
 
 __Н1:0 GlottalNasalToSurface__
 
 
 __Ӈ1:0 GlottalNasalToSurface__
-
 
 
 
@@ -1755,8 +1787,12 @@ __0:а in single-syllable__
 __°:а at end of stem__
 
 
+__ʼ:н__
 
-__°:а at end of stem__
+
+
+
+__ʼ:н__
 Second Vowel Center
 Stems C*VC (underline)
   # Cns* Vow Cns _ %> [ к: | %{рл%}: Vow: | м и | н и | ӈ э | °: м ʼ | °: ʼ | °: ˮ | д: [ °: Cns | %{ая%}: ] | с и ] ;
@@ -1776,7 +1812,7 @@ THIRD VOWEL CENTER
        # Cns* Vow: Cns :Vow [ [Н1:|Д1:|С1:] ] %> (н:|к:) _ [ ʼ | ˮ # ] ;
        # (2InitSylls) Cns* Vow: Cns °: [ Ӈ1: | С1: ] е %> ˮ м _ н %{ая%}: ;
      :Vow %> _  ;
-__°:а at end of stem__
+__ʼ:н__
 Second Vowel Center
 Stems
 AFFIXES
@@ -1805,7 +1841,7 @@ C*VC+>C_
      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
 C*VC>CVC_
      # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
-__°:а at end of stem__
+__ʼ:н__
 Second Vowel Center
 C*V%>C_
        # (2InitSylls) Cns*  Vow  %> д _  р [ °: | и ʼ | а ˮ ] # ;
@@ -1821,7 +1857,7 @@ THIRD VOWEL CENTER
    # (2InitSylls) Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ н а | н и | т а | т и | т о ]  ;
      # Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ т а | н и ]  ;
 FOURTH VOWEL CENTER
-__°:а at end of stem__
+__ʼ:н__
 Second Vowel	Center
        # Cns*  Vow  Н1: %> _ ц ь °: ;
   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) [Н1:|Д1:|С1:] ] %> к: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
@@ -1840,8 +1876,8 @@ RIGHT ARROW ONLY IN °:а
      # (2InitSylls) Cns* Vow: Д1: %> д: _ [м|н] [ °: | Vow ]  ;
    # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [[ м: | н: ] д: [ %{ая%}: | %{оё%}: | и | а | о ]| д [ и | о | %{оё%}: | а ] ] ;
      # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
-__°:а at end of stem__
-__°:а at end of stem__
+__ʼ:н__
+__ʼ:н__
 
 __ә:у in extra short to у__
 
