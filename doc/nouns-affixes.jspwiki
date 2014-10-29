@@ -105,12 +105,10 @@ Yaml: __xano__
 ңуда ŋuda	ңудан’ ŋudan°h	ңуда” ŋudaq	ңуди ŋudyi
 Yaml: __N-ngudiTS__
 
-
  * __LEXICON N_ЕСИ__ ая̆ха: 16PProsSg -вна
 /total=1/
 я̆ха yəxa	я̆хан’ yəxan°h	я̆ха” yəxaq	еси yesy
 Yaml: __N-yaxaTS__
-
 
 
  * __LEXICON N_ӇОДИ__ ӈодя: 17 ProsSg -вна
@@ -195,8 +193,9 @@ Yaml: __ilje__
 +Pl+Dat+PxSg{1|2}
 +Sg+Dat{+PxSg{1|2|3}|+PxDu{2|3}|+PxPl{2|3}}
 +Pl+Abl; +Sg+Abl
-+Sg+Acc+PxSg2
-+Sg+Gen{+PxPl1|+PxSg1+Use/SpellNoSugg|+PxSg2}
++Sg+Acc+PxSg2, +PxDu1
++Sg+Gen{+PxDu1|+PxPl1|+PxSg1+Use/SpellNoSugg|+PxSg2}
++Sg+Nom+PxDu1
 +Sg+Acc{+PxDu1|+PxPl1}
 +Sg+Gen+PxDu1
 +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
@@ -678,6 +677,12 @@ Conjugation of nouns and adjectives
 
 
 !!NEW
+
+
+
+
+
+
 
 
 
