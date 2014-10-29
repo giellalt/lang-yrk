@@ -113,13 +113,14 @@ __Ӈ1:ӈ GlottalNasalToSurface__
 
 __Ӈ1:н GlottalNasalToSurface__
 
+
+
 __Ӈ1:ъ GlottalNasalToSurface__
 
 __Н1:0 GlottalNasalToSurface__
 
 
 __Ӈ1:0 GlottalNasalToSurface__
-
 
 
 
@@ -168,8 +169,12 @@ __0:а in single-syllable__
 __°:а at end of stem__
 
 
+__ʼ:н__
 
-__°:а at end of stem__
+
+
+
+__ʼ:н__
 Second Vowel Center
 Stems C*VC (underline)
   # Cns* Vow Cns _ %> [ к: | %{рл%}: Vow: | м и | н и | ӈ э | °: м ʼ | °: ʼ | °: ˮ | д: [ °: Cns | %{ая%}: ] | с и ] ;
@@ -189,7 +194,7 @@ THIRD VOWEL CENTER
        # Cns* Vow: Cns :Vow [ [Н1:|Д1:|С1:] ] %> (н:|к:) _ [ ʼ | ˮ # ] ;
        # (2InitSylls) Cns* Vow: Cns °: [ Ӈ1: | С1: ] е %> ˮ м _ н %{ая%}: ;
      :Vow %> _  ;
-__°:а at end of stem__
+__ʼ:н__
 Second Vowel Center
 Stems
 AFFIXES
@@ -218,7 +223,7 @@ C*VC+>C_
      # (2InitSylls) Cns* Vow: (Cns (%^PalVariation:)) [ Д1: | С1: ] %> д: _ [м|н|р|м д|н д|д] [ °: | Vow ]  ;
 C*VC>CVC_
      # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
-__°:а at end of stem__
+__ʼ:н__
 Second Vowel Center
 C*V%>C_
        # (2InitSylls) Cns*  Vow  %> д _  р [ °: | и ʼ | а ˮ ] # ;
@@ -234,7 +239,7 @@ THIRD VOWEL CENTER
    # (2InitSylls) Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ н а | н и | т а | т и | т о ]  ;
      # Cns* Vow ( [Н1:|Д1:|С1:] ) %> к: °: [ т | д ] _ [ т а | н и ]  ;
 FOURTH VOWEL CENTER
-__°:а at end of stem__
+__ʼ:н__
 Second Vowel	Center
        # Cns*  Vow  Н1: %> _ ц ь °: ;
   # (2InitSylls) Cns* Vow [ (Cns (%^PalVariation:)) [Н1:|Д1:|С1:] ] %> к: _ [ DentStops: (д) °: # | н [ д а (ˮ) | д и ʼ | д о ʼ | з ь °: ] # | ˮ н [ °: | д а | д и ʼ ] # ]   ;
@@ -253,8 +258,8 @@ RIGHT ARROW ONLY IN °:а
      # (2InitSylls) Cns* Vow: Д1: %> д: _ [м|н] [ °: | Vow ]  ;
    # (2InitSylls) Cns* Vow Cns _ Ӈ1: %> [[ м: | н: ] д: [ %{ая%}: | %{оё%}: | и | а | о ]| д [ и | о | %{оё%}: | а ] ] ;
      # Cns* Vow Cns °: [ [Н1:|Д1:|С1:] ] %> к: °: [ д | т ] _ [ н Vow | т Vow ]  ;
-__°:а at end of stem__
-__°:а at end of stem__
+__ʼ:н__
+__ʼ:н__
 
 __ә:у in extra short to у__
 
