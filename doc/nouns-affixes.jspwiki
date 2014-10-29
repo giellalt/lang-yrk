@@ -188,7 +188,6 @@ Yaml: __ilje__
 +Pred+Gen+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
 +Pred+Nom+PxSg1+Use/SpellNoSugg, +PxSg3, PxDu. PxPl.
 +Equ, +Equ+Lat
-
 +Du{+Acc|+Gen|+Nom}
 +Pl+Dat, +Nom+Der/Pr+V+Ind+Aor+ScDu3, +Nom+Der/Pr+V+Ind+Prt1+ScDu3
 +Pl+Dat+PxSg{1|2}
@@ -196,7 +195,6 @@ Yaml: __ilje__
 +Pl+Abl; +Sg+Abl
 +Sg+Acc+PxSg2
 +Sg+Gen{+PxPl1|+PxSg1+Use/SpellNoSugg|+PxSg2}
-
 +Sg+Acc{+PxDu1|+PxPl1}
 +Sg+Gen+PxDu1
 +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
@@ -212,10 +210,50 @@ Yaml: __ilje__
 Yaml: __nyenecyh__
 ң /total=13/
 ил’(ң) yil°h	илӑнд’ yilənt°h	ила” yilə°q	илъе yil°ye
++Pred+Acc+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Gen+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Nom+PxSg1+Use/SpellNoSugg, +PxSg3, PxDu. PxPl.
++Equ, +Equ+Lat
++Du{+Acc|+Gen|+Nom}
++Pl+Dat, +Nom+Der/Pr+V+Ind+Aor+ScDu3, +Nom+Der/Pr+V+Ind+Prt1+ScDu3
++Pl+Dat+PxSg{1|2}
++Sg+Dat{+PxSg{1|2|3}|+PxDu{2|3}|+PxPl{2|3}}
++Pl+Abl; +Sg+Abl
++Sg+Acc+PxSg2
++Sg+Gen{+PxPl1|+PxSg1+Use/SpellNoSugg|+PxSg2}
++Sg+Acc{+PxDu1|+PxPl1}
++Sg+Gen+PxDu1
++Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
++Nom+Der/Pr+V+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
++Nom+Der/Pr+V+Ind+Prt1+Sc{Sg1|Sg2}
++Sg+Nom{X}+Der/Pr+V+Ind{Y}+ScSg3
+{X}= +PxSg3, +PxDu1, +PxDu3, +PxPl1, +PxPl3
+{Y}= +Aor, +Prt1
++Tra
 
  * __LEXICON N_ПАХАЁ__ пӑхӑʼ: 31   ProsSg -мна
 ң /total=2/
 пӑхӑ’(ң) pəx°h	пӑхӑнд’ pəxənt°h	пӑха” pəxə°q	пӑхӑё pəx°yo
++Pred+Acc+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Gen+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Nom+PxSg1+Use/SpellNoSugg, +PxSg3, PxDu. PxPl.
++Equ, +Equ+Lat
++Du{+Acc|+Gen|+Nom}
++Pl+Dat, +Nom+Der/Pr+V+Ind+Aor+ScDu3, +Nom+Der/Pr+V+Ind+Prt1+ScDu3
++Pl+Dat+PxSg{1|2}
++Sg+Dat{+PxSg{1|2|3}|+PxDu{2|3}|+PxPl{2|3}}
++Pl+Abl; +Sg+Abl
++Sg+Acc+PxSg2
++Sg+Gen{+PxPl1|+PxSg1+Use/SpellNoSugg|+PxSg2}
++Sg+Acc{+PxDu1|+PxPl1}
++Sg+Gen+PxDu1
++Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
++Nom+Der/Pr+V+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
++Nom+Der/Pr+V+Ind+Prt1+Sc{Sg1|Sg2}
++Sg+Nom{X}+Der/Pr+V+Ind{Y}+ScSg3
+{X}= +PxSg3, +PxDu1, +PxDu3, +PxPl1, +PxPl3
+{Y}= +Aor, +Prt1
++Tra
 
  * __LEXICON N_СЕРО__ серˮ: 32   ProsSg -мана / -мня
 /total=16/
@@ -234,10 +272,27 @@ Vowel variation
 /total=18/
 Yaml: __myadoTS__
 мя”(д) myaq	мят’ myat°h	мяд” myad°q	мядо myado
-+Pl+Nom +Abs
-+Sg+Acc, +Sg+Gen, +Sg+Nom,
-+Nom+Der/Pr+V+Ind+Aor+ScSg3
-+Nom+Der/Pr+V+Ind+Aor+ScPl3
++Pred+Acc+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Gen+PxSg1+Use/SpellNoSugg, PxDu1, PxPl.
++Pred+Nom+PxSg1+Use/SpellNoSugg, +PxSg3, PxDu. PxPl.
++Equ, +Equ+Lat
++Du{+Acc|+Gen|+Nom}
++Pl+Dat, +Nom+Der/Pr+V+Ind+Aor+ScDu3, +Nom+Der/Pr+V+Ind+Prt1+ScDu3
++Pl+Dat+PxSg{1|2}
++Sg+Dat{+PxSg{1|2|3}|+PxDu{2|3}|+PxPl{2|3}}
++Pl+Abl; +Sg+Abl
++Sg+Acc+PxSg2
++Sg+Gen{+PxPl1|+PxSg1+Use/SpellNoSugg|+PxSg2}
++Sg+Acc{+PxDu1|+PxPl1}
++Sg+Gen+PxDu1
++Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
++Nom+Der/Pr+V+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
++Nom+Der/Pr+V+Ind+Prt1+Sc{Sg1|Sg2}
++Sg+Nom{X}+Der/Pr+V+Ind{Y}+ScSg3
+{X}= +PxSg3, +PxDu1, +PxDu3, +PxPl1, +PxPl3 
+{Y}= +Aor, +Prt1
++Tra
+
 
  * __LEXICON N_ИДЕ__ иˮ: 36   ProsSg -мна
 Yaml: __yidye__
