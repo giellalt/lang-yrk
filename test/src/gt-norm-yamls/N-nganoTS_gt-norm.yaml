@@ -33,23 +33,23 @@ Tests:
      ӈано+N+Pl+Loc: ӈанохоˮна
      ӈано+N+Pl+Abl: ӈанохот
      ӈано+N+Pl+Pros: ӈануˮмана
-     ӈано+N+Sg+Nom+PxSg1: ӈанов
-     ӈано+N+Sg+Acc+PxSg1: ӈанов
-     ӈано+N+Sg+Gen+PxSg1: ӈанон
-     ӈано+N+Sg+Dat+PxSg1: ӈанохон
-     ӈано+N+Sg+Loc+PxSg1: ӈанохонан
-     ӈано+N+Sg+Abl+PxSg1: ӈаноходан
-     ӈано+N+Sg+Pros+PxSg1: ӈановнан
-     ӈано+N+Du+Nom+PxSg1: ӈанохоюн
-     ӈано+N+Du+Acc+PxSg1: ӈанохоюн
-     ӈано+N+Du+Gen+PxSg1: ӈанохоюн
-     ӈано+N+Pl+Nom+PxSg1: ӈанун
-     ӈано+N+Pl+Acc+PxSg1: ӈанун
-     ӈано+N+Pl+Gen+PxSg1: ӈануˮн
-     ӈано+N+Pl+Dat+PxSg1: ӈанохоˮн
-     ӈано+N+Pl+Loc+PxSg1: ӈанохоˮнан
-     ӈано+N+Pl+Abl+PxSg1: ӈанохотан
-     ӈано+N+Pl+Pros+PxSg1: ӈануˮманан
+     ӈано+N+Sg+Nom+PxSg1: [ӈанов, ӈаноми]
+     ӈано+N+Sg+Acc+PxSg1: [ӈанов, ӈаноми]
+     ӈано+N+Sg+Gen+PxSg1: [ӈанон, ӈанони]
+     ӈано+N+Sg+Dat+PxSg1: [ӈанохон, ӈанохони]
+     ӈано+N+Sg+Loc+PxSg1: [ӈанохонан, ӈанохонани]
+     ӈано+N+Sg+Abl+PxSg1: [ӈаноходан, ӈаноходани, ӈаноходни]
+     ӈано+N+Sg+Pros+PxSg1: [ӈановнан, ӈановнани]
+     ӈано+N+Du+Nom+PxSg1: [ӈанохоюн, ӈанохоюни]
+     ӈано+N+Du+Acc+PxSg1: [ӈанохоюн, ӈанохоюни]
+     ӈано+N+Du+Gen+PxSg1: [ӈанохоюн, ӈанохоюни]
+     ӈано+N+Pl+Nom+PxSg1: [ӈанун, ӈануни]
+     ӈано+N+Pl+Acc+PxSg1: [ӈанун, ӈануни]
+     ӈано+N+Pl+Gen+PxSg1: [ӈануˮн, ӈануˮни]
+     ӈано+N+Pl+Dat+PxSg1: [ӈанохоˮн, ӈанохоˮни]
+     ӈано+N+Pl+Loc+PxSg1: [ӈанохоˮнан, ӈанохоˮнани]
+     ӈано+N+Pl+Abl+PxSg1: [ӈанохотан, ӈанохотани, ӈанохотни]
+     ӈано+N+Pl+Pros+PxSg1: [ӈануˮманан, ӈануˮманани]
      ӈано+N+Sg+Nom+PxSg2: ӈанор
      ӈано+N+Sg+Acc+PxSg2: ӈаномд
      ӈано+N+Sg+Gen+PxSg2: ӈанонд
@@ -85,39 +85,39 @@ Tests:
      ӈано+N+Pl+Abl+PxSg3: [ӈанохотата, ӈанохотта]
      ӈано+N+Pl+Pros+PxSg3: ӈануˮманата
      ӈано+N+Sg+Nom+PxDu1: ӈаномиʼ
-     ӈано+N+Sg+Nom+PxSg1: ӈаноми #+Use/SpellNoSugg
+#     ӈано+N+Sg+Nom+PxSg1: ӈаноми #+Use/SpellNoSugg
      ӈано+N+Sg+Acc+PxDu1: ӈаномиʼ
-     ӈано+N+Sg+Acc+PxSg1: ӈаноми #+Use/SpellNoSugg
+#     ӈано+N+Sg+Acc+PxSg1: ӈаноми #+Use/SpellNoSugg
      ӈано+N+Sg+Gen+PxDu1: ӈанониʼ
-     ӈано+N+Sg+Gen+PxSg1: ӈанони #+Use/SpellNoSugg
+#     ӈано+N+Sg+Gen+PxSg1: ӈанони #+Use/SpellNoSugg
      ӈано+N+Sg+Dat+PxDu1: ӈанохониʼ
-     ӈано+N+Sg+Dat+PxSg1: ӈанохони #+Use/SpellNoSugg
+#     ӈано+N+Sg+Dat+PxSg1: ӈанохони #+Use/SpellNoSugg
      ӈано+N+Sg+Loc+PxDu1: ӈанохонаниʼ
-     ӈано+N+Sg+Loc+PxSg1: ӈанохонани #+Use/SpellNoSugg
+#     ӈано+N+Sg+Loc+PxSg1: ӈанохонани #+Use/SpellNoSugg
      ӈано+N+Sg+Abl+PxDu1: [ӈаноходаниʼ, ӈаноходниʼ]
-     ӈано+N+Sg+Abl+PxSg1: [ӈаноходани, ӈаноходни] #+Use/SpellNoSugg
+#     ӈано+N+Sg+Abl+PxSg1: [ӈаноходани, ӈаноходни] #+Use/SpellNoSugg
      ӈано+N+Sg+Pros+PxDu1: ӈановнаниʼ
-     ӈано+N+Sg+Pros+PxSg1: ӈановнани #+Use/SpellNoSugg
+#     ӈано+N+Sg+Pros+PxSg1: ӈановнани #+Use/SpellNoSugg
      ӈано+N+Du+Nom+PxDu1: ӈанохоюниʼ
-     ӈано+N+Du+Nom+PxSg1: ӈанохоюни #+Use/SpellNoSugg
+#     ӈано+N+Du+Nom+PxSg1: ӈанохоюни #+Use/SpellNoSugg
      ӈано+N+Du+Acc+PxDu1: ӈанохоюниʼ
-     ӈано+N+Du+Acc+PxSg1: ӈанохоюни #+Use/SpellNoSugg
+#     ӈано+N+Du+Acc+PxSg1: ӈанохоюни #+Use/SpellNoSugg
      ӈано+N+Du+Gen+PxDu1: ӈанохоюниʼ
-     ӈано+N+Du+Gen+PxSg1: ӈанохоюни #+Use/SpellNoSugg
+#     ӈано+N+Du+Gen+PxSg1: ӈанохоюни #+Use/SpellNoSugg
      ӈано+N+Pl+Nom+PxDu1: ӈануниʼ
-     ӈано+N+Pl+Nom+PxSg1: ӈануни #+Use/SpellNoSugg
+#     ӈано+N+Pl+Nom+PxSg1: ӈануни #+Use/SpellNoSugg
      ӈано+N+Pl+Acc+PxDu1: ӈануниʼ
-     ӈано+N+Pl+Acc+PxSg1: ӈануни #+Use/SpellNoSugg
+#     ӈано+N+Pl+Acc+PxSg1: ӈануни #+Use/SpellNoSugg
      ӈано+N+Pl+Gen+PxDu1: ӈануˮниʼ
-     ӈано+N+Pl+Gen+PxSg1: ӈануˮни #+Use/SpellNoSugg
+#     ӈано+N+Pl+Gen+PxSg1: ӈануˮни #+Use/SpellNoSugg
      ӈано+N+Pl+Dat+PxDu1: ӈанохоˮниʼ
-     ӈано+N+Pl+Dat+PxSg1: ӈанохоˮни #+Use/SpellNoSugg
+#     ӈано+N+Pl+Dat+PxSg1: ӈанохоˮни #+Use/SpellNoSugg
      ӈано+N+Pl+Loc+PxDu1: ӈанохоˮнаниʼ
-     ӈано+N+Pl+Loc+PxSg1: ӈанохоˮнани #+Use/SpellNoSugg
+#     ӈано+N+Pl+Loc+PxSg1: ӈанохоˮнани #+Use/SpellNoSugg
      ӈано+N+Pl+Abl+PxDu1: [ӈанохотаниʼ, ӈанохотниʼ]
-     ӈано+N+Pl+Abl+PxSg1: [ӈанохотани, ӈанохотни] #+Use/SpellNoSugg
+#     ӈано+N+Pl+Abl+PxSg1: [ӈанохотани, ӈанохотни] #+Use/SpellNoSugg
      ӈано+N+Pl+Pros+PxDu1: ӈануˮмананиʼ
-     ӈано+N+Pl+Pros+PxSg1: ӈануˮманани #+Use/SpellNoSugg
+#     ӈано+N+Pl+Pros+PxSg1: ӈануˮманани #+Use/SpellNoSugg
      ӈано+N+Sg+Nom+PxDu2: ӈанориʼ
      ӈано+N+Sg+Acc+PxDu2: ӈаномдиʼ
      ӈано+N+Sg+Gen+PxDu2: ӈанондиʼ
@@ -204,9 +204,9 @@ Tests:
      ӈано+N+Pl+Abl+PxPl3: [ӈанохотатоʼ, ӈанохоттоʼ]
      ӈано+N+Pl+Pros+PxPl3: ӈануˮманатоʼ
      ӈано+N+Pred+Abs: ӈанод
-     ӈано+N+Pred+Nom+PxSg1: [ӈанодав, ӈанодув]
-     ӈано+N+Pred+Acc+PxSg1: [ӈанодав, ӈанодув]
-     ӈано+N+Pred+Gen+PxSg1: ӈанодан
+     ӈано+N+Pred+Nom+PxSg1: [ӈанодав, ӈанодув, ӈанодами]
+     ӈано+N+Pred+Acc+PxSg1: [ӈанодав, ӈанодув, ӈанодами]
+     ӈано+N+Pred+Gen+PxSg1: [ӈанодан, ӈанодани]
      ӈано+N+Pred+Nom+PxSg2: ӈанодар
      ӈано+N+Pred+Acc+PxSg2: ӈанодамд
      ӈано+N+Pred+Gen+PxSg2: ӈаноданд
@@ -214,11 +214,11 @@ Tests:
      ӈано+N+Pred+Acc+PxSg3: ӈанодамда
      ӈано+N+Pred+Gen+PxSg3: ӈаноданда
      ӈано+N+Pred+Nom+PxDu1: ӈанодамиʼ
-     ӈано+N+Pred+Nom+PxSg1: ӈанодами #+Use/SpellNoSugg
+#     ӈано+N+Pred+Nom+PxSg1: ӈанодами #+Use/SpellNoSugg
      ӈано+N+Pred+Acc+PxDu1: ӈанодамиʼ
-     ӈано+N+Pred+Acc+PxSg1: ӈанодами #+Use/SpellNoSugg
+#     ӈано+N+Pred+Acc+PxSg1: ӈанодами #+Use/SpellNoSugg
      ӈано+N+Pred+Gen+PxDu1: ӈаноданиʼ
-     ӈано+N+Pred+Gen+PxSg1: ӈанодани #+Use/SpellNoSugg
+#     ӈано+N+Pred+Gen+PxSg1: ӈанодани #+Use/SpellNoSugg
      ӈано+N+Pred+Nom+PxDu2: ӈанодариʼ
      ӈано+N+Pred+Acc+PxDu2: ӈанодамдиʼ
      ӈано+N+Pred+Gen+PxDu2: ӈанодандиʼ
