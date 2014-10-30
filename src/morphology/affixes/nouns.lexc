@@ -31,6 +31,28 @@ LEXICON N_ӇЭ  !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
 +N: NEW-ODD-SYLL-SGPROSPXSUF_вна ;
 +N: NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 
+LEXICON N_ӇЭ-Pal/Var  !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
+!! no change in stem
+!! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
+!! Yaml: __nyeTS__
++N: NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
++N: NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
++N: NEW-AFF-2CENTERS-PRED-NOM_Дваˮ ;
++N: NEW-AFF-3CENTERS-EQU_Дремʼ ;
++N: NEW-AFF-2CENTERS-CLOSED-PRED-ACC/GEN_Дамда ;
++N: NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дами ;
++N: NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дми ;
++N: NEW-ODD-SYLL-DU-NOM_Каʼ ;
++N: NEW-ODD-SYLL-SG-LOC_Кана ;
++N: NEW-ODD-SYLL-SG-LOC_Каня ; !pal/var
++N: NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS ;
++N: NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS_Дё ; !pal/var
++N: NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
++N: NEW-ODD-SYLL-SGPROSPXSUF_вна ;
++N: NEW-ODD-SYLL-SGPROSPXSUF_вня ; !pal/var
++N: NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
++N: NEW-ODD-SYLL-PLPROSPXSUF_ˮVмня ; !pal/var
+
 LEXICON N_Ё  !!≈ * __@CODE@__ я:я 2 ProsSg -вна
 !! Yaml: __ya, yaTS__
 !! /total=3/
@@ -492,21 +514,20 @@ LEXICON N_ЯКЫ  !!≈ * __@CODE@__ якэ: 24 ProsSg -вна
 +N:%^VowRaise NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
 LEXICON N_ӇУВО  !!≈ * __@CODE@__ ӈумʼ:ӈум 25 ProsSg -(м)на
-!! Yaml: __yam__
+!! Yaml: __yam, ngumhTS__
 !! /total=3/
 !! ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
 +N:Ӈ1 NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 !EVEN
-+N:Ӈ1 NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
-+N:Ӈ1 NEW-AFF-3CENTERS-EQU_Даремʼ ;
 +N:Ӈ1 NEW-AFF-2CENTERS-PRED-NOM_Дваˮ ;
 +N:Ӈ1 NEW-AFF-3CENTERS-EQU_Дремʼ ;
 +N:Ӈ1 NEW-AFF-2CENTERS-CLOSED-PRED-ACC/GEN_Дамда ;
 +N:Ӈ1 NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дами ;
-+N:Ӈ1 NEW-AFF-2CENTERS-CLOSED-PRED-ACC/GEN_Дамда ;
++N:Ӈ1 NEW-AFF-2CENTERS-CLOSED-PRED-ACC/GEN_Дмда ;
 +N:Ӈ1 NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дми ;
-+N:Ӈ1 NEW-ODD-SYLL-DU-NOM_Каʼ ;
-+N:Ӈ1 NEW-EVEN-SYLL-SG-LOC_Кана ;
++N:Ӈ1 NEW-ODD-SYLL-DU-NOM_Кʼ ;
++N:Ӈ1 NEW-ODD-SYLL-SG-LOC_Кана ;
++N:Ӈ1 NEW-ODD-SYLL-SG-LOC_Кна ;
 +N:Ӈ1 NEW-ODD-SYLL-SGPROSPXSUF_вна ;
 +N:Ӈ1 NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS ;
 +N:%^MLenition%>о NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
@@ -832,10 +853,6 @@ LEXICON N_ӇУДИ/ӇЭ
 +N: NMN_ӇУДИ ;
 +N: NMN_ӇЭ ;
 
-LEXICON N_ӇЭ-Pal/Var  !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
-!! no change in stem
-!! ңэ ŋæ     ңэн’ ŋæn°h	ңэ” ŋæq	ңэ ŋæ
- N_ӇЭ ;
 
 
 LEXICON N_ӇЭ/ХАБИЕ  !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
@@ -2752,6 +2769,31 @@ LEXICON NEW-EVEN-SYLL-SGSCHWA-VARIANT-STEMS
 
 
 
+LEXICON NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS_Дё
++Sg+Nom+PxSg3:%>дя K ;
++Sg+Nom+PxPl3:%>дёʼ K ;
++Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3:%>дя K ;
++Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3:%>дёʼ K ;
++Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3:%>дясь K ;
++Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3:%>дёнзь K ;
++Sg+Acc+PxSg3:%>мдя K ;
++Sg+Gen+PxSg3:%>ндя K ;
+
++Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3:%>дя K ;
++Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3:%>дёʼ K ;
++Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3:%>дясь K ;
++Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3:%>дёнзь K ;
++Pl+Loc+PxSg1:%>к%{ауоэØ%}ˮнян K ;
++Pl+Loc+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}ˮняни K ;
++Pl+Acc+PxSg3:%>дя K ;
++Pl+Gen+PxSg3:%>тя K ;
++Pl+Nom+PxSg3:%>дя K ;
++Pl+Acc+PxPl3:%>дёʼ K ;
++Pl+Gen+PxPl3:%>тёʼ K ;
++Pl+Nom+PxPl3:%>дёʼ K ;
++Sg+Acc+PxPl3:%>мдёʼ K ;
++Sg+Gen+PxPl3:%>ндёʼ K ;
+
 LEXICON NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS
 !
 
@@ -2798,6 +2840,29 @@ LEXICON NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS
 !+Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь K ;!NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E
 !+Nom+Der/Pr+V+Ind+Prt1+ScPl3:%>ць K ;!NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E
 +Car:%>сиˮ K ;
+
+
+LEXICON NEW-ODD-SYLL-SG-LOC_Каня
++Sg+Loc:%>к%{ауоэØ%}ня K ; !i2e
++Sg+Loc+PxSg1:%>к%{ауоэØ%}нян K ;
++Sg+Loc+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}няни K ;
++Sg+Loc+PxSg2:%>к%{ауоэØ%}нянд K ;
++Sg+Loc+PxSg3:%>к%{ауоэØ%}нянда K ;
++Sg+Loc+PxDu1:%>к%{ауоэØ%}няниʼ K ;
++Sg+Loc+PxDu2:%>к%{ауоэØ%}няндиʼ K ;
++Sg+Loc+PxDu3:%>к%{ауоэØ%}няндиʼ K ;
++Sg+Loc+PxPl1:%>к%{ауоэØ%}нянаˮ K ;
++Sg+Loc+PxPl2:%>к%{ауоэØ%}няндаˮ K ;
++Sg+Loc+PxPl3:%>к%{ауоэØ%}няндоʼ K ;
++Pl+Loc:%>к%{ауоэØ%}ˮня K ; !i2e
++Pl+Loc+PxSg2:%>к%{ауоэØ%}ˮнят K ;
++Pl+Loc+PxSg3:%>к%{ауоэØ%}ˮнята K ;
++Pl+Loc+PxDu1:%>к%{ауоэØ%}ˮняниʼ K ;
++Pl+Loc+PxDu2:%>к%{ауоэØ%}ˮнятиʼ K ;
++Pl+Loc+PxDu3:%>к%{ауоэØ%}ˮнятиʼ K ;
++Pl+Loc+PxPl1:%>к%{ауоэØ%}ˮнянаˮ K ;
++Pl+Loc+PxPl2:%>к%{ауоэØ%}ˮнятаˮ K ;
++Pl+Loc+PxPl3:%>к%{ауоэØ%}ˮнятоʼ K ;
 
 
 LEXICON NEW-ODD-SYLL-SG-LOC_Кана
@@ -3339,6 +3404,18 @@ LEXICON NEW-ODD-SYLL-DU-NOM_Кʼ
 +Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3:%>минзь K ;
 +Tra:%>ӈэ K ;
 
+LEXICON NEW-ODD-SYLL-SGPROSPXSUF_вня
++Sg+Pros:%>вня K ; !i2e
++Sg+Pros+PxSg1:%>внян K ;
++Sg+Pros+PxSg1+Use/SpellNoSugg:%>вняни K ;
++Sg+Pros+PxSg2:%>внянд K ;
++Sg+Pros+PxSg3:%>внянда K ;
++Sg+Pros+PxDu1:%>вняниʼ K ;
++Sg+Pros+PxDu2:%>вняндиʼ K ;
++Sg+Pros+PxDu3:%>вняндиʼ K ;
++Sg+Pros+PxPl1:%>внянаˮ K ;
++Sg+Pros+PxPl2:%>вняндаˮ K ;
++Sg+Pros+PxPl3:%>вняндоʼ K ;
 
 LEXICON NEW-ODD-SYLL-SGPROSPXSUF_вна
 +Sg+Pros:%>вна K ; !i2e
@@ -3436,6 +3513,19 @@ LEXICON NEW-ODD-SYLL-SGPROSPXSUF_Vмна
 +Pl+Dat+PxPl3:%>ктоʼ K ;
 +Pl+Loc+PxPl3:%>кˮнатоʼ K ;
 +Sg+Abl+PxPl3:%>кдандоʼ K ;
+
+LEXICON NEW-ODD-SYLL-PLPROSPXSUF_ˮVмня
++Pl+Pros:%>ˮ%{ауоэØ%}мня K ; !i2e
++Pl+Pros+PxSg1:%>ˮ%{ауоэØ%}мнян K ; !i2e
++Pl+Pros+PxSg2:%>ˮ%{ауоэØ%}мнят K ; !i2e
++Pl+Pros+PxSg3:%>ˮ%{ауоэØ%}мнята K ; !i2e
++Pl+Pros+PxDu1:%>ˮ%{ауоэØ%}мняниʼ K ; !i2e
++Pl+Pros+PxSg1+Use/SpellNoSugg:%>ˮ%{ауоэØ%}мняни K ; !i2e
++Pl+Pros+PxDu2:%>ˮ%{ауоэØ%}мнятиʼ K ; !i2e
++Pl+Pros+PxDu3:%>ˮ%{ауоэØ%}мнятиʼ K ; !i2e
++Pl+Pros+PxPl1:%>ˮ%{ауоэØ%}мнянаˮ K ; !i2e
++Pl+Pros+PxPl2:%>ˮ%{ауоэØ%}мнятаˮ K ; !i2e
++Pl+Pros+PxPl3:%>ˮ%{ауоэØ%}мнятоʼ K ; !i2e
 
 LEXICON NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна
 +Pl+Pros:%>ˮ%{ауоэØ%}мна K ; !i2e
