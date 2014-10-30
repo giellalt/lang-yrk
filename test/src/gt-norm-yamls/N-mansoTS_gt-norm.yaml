@@ -33,9 +33,11 @@ Tests:
      манˮ+N+Pl+Loc: манкаˮна
      манˮ+N+Pl+Abl: манкат
      манˮ+N+Pl+Pros: мансоˮмна
-     манˮ+N+Sg+Nom+PxSg1: [манаˮм, манˮми]
+#     манˮ+N+Sg+Nom+PxSg1: [манаˮм, манˮми]
+     манˮ+N+Sg+Nom+PxSg1: [манаˮам, манˮми] # This in theory should equal +Der/Pr+V+Ind+Aor+ScSg3
 #     манˮ+N+Sg+Nom+PxSg1: манˮми #+Use/SpellNoSugg
-     манˮ+N+Sg+Acc+PxSg1: [манаˮм, манˮми]
+#     манˮ+N+Sg+Acc+PxSg1: [манаˮм, манˮми]
+     манˮ+N+Sg+Acc+PxSg1: [манаˮам, манˮми] # This in theory should equal +N+Sg+Nom+PxSg1
 #     манˮ+N+Sg+Acc+PxSg1: манˮми #+Use/SpellNoSugg
      манˮ+N+Sg+Gen+PxSg1: [манаˮн, манˮни]
 #     манˮ+N+Sg+Gen+PxSg1: манˮни #+Use/SpellNoSugg
