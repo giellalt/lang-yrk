@@ -548,12 +548,6 @@ Yaml: __yam__
 +Sg+Acc, +Sg+Gen, +Sg+Nom,
 +Nom+Der/Pr+V+Ind+Aor+ScSg3
 +Nom+Der/Pr+V+Ind+Aor+ScPl3
-Extra variants
-+Sg+Abl+PxSg1, +N+Sg+Pros+PxSg1, +N+Du+Nom+PxSg1
-+N+Du+Acc+PxSg1, +N+Du+Gen+PxSg1
-+N+Pl+Dat+PxSg1, +N+Pl+Loc+PxSg1
-+N+Pl+Abl+PxSg1
-+Du+Nom
 
  * __LEXICON N_ПОЁ__ поʼ:по 28  ProsSg -мна
 Yaml: __poyo__
@@ -655,6 +649,7 @@ Vowel variation
  * __LEXICON N_МАНСО__ мӑнˮ: 34   ProsSg -мна
 /total=6/
 мӑн”(с) mən°q	мӑнӑт’ mənət°h	мӑнӑс” mənəs°q	мӑнсо mən°so
+
 
  * __LEXICON N_МЯДО__ мяˮ:мя 35   ProsSg -мна
 /total=18/
@@ -1064,6 +1059,10 @@ Conjugation of nouns and adjectives
 
 
 !!NEW
+
+
+
+
 
 
 
@@ -1853,7 +1852,6 @@ __му00нд examples:__
 
 __0:а in single-syllable__
 __°:а at end of stem__
-
 
 __ʼ:н__
 
