@@ -108,29 +108,7 @@
 
       <stg>
         <st Contlex="NUM_ЕД/ХАНО">самляӈг</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Num">five</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">viisi</t>
-      </tg>
-    </mg>
-
-    <!--  -->
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">самляӈг</l>
-
-      <stg>
         <st Contlex="NUM_ЕД/ХАНО">самбляӈг</st>
       </stg>
     </lg>
@@ -560,28 +538,10 @@
 
       <stg>
         <st Contlex="NUM_ХУСУВЭЙ">самлянзимдей</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Num">fifth</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">viides</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">самблянзюмдей</l>
-
-      <stg>
         <st Contlex="NUM_ХУСУВЭЙ">самблянзюмдей</st>
+
+        <st Contlex="NUM_ХУСУВЭЙ">самлязимдей</st>
       </stg>
     </lg>
 
@@ -628,27 +588,7 @@
 
       <stg>
         <st Contlex="NUM_ХУСУВЭЙ">сибимдей</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Num">seventh</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">seitsemäs</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">сиˮивмдей</l>
-
-      <stg>
         <st Contlex="NUM_ХУСУВЭЙ">сиˮивмдей</st>
       </stg>
     </lg>
@@ -786,27 +726,7 @@
 
       <stg>
         <st Contlex="NUM_ХУСУВЭЙ">ёнрадимдей</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Num">thousandth</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">tuhannes</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">ёнримдей</l>
-
-      <stg>
         <st Contlex="NUM_ХУСУВЭЙ">ёнримдей</st>
 
         <st Contlex="NUM_ХУСУВЭЙ">ёнромдей</st>
