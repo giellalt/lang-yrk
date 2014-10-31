@@ -1,0 +1,311 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+# This has been generated on the basis of the test file N-iljeTS 2014-10-31
+
+  Noun - ёльцьʼ: # Noun 'time /(fin) aika' - partial paradigm /Type 30/
+     ёльцьʼ+N+Sg+Nom: ёльцьʼ
+     ёльцьʼ+N+Sg+Acc: ёльцямʼ
+     ёльцьʼ+N+Sg+Gen: ёльцяʼ
+     ёльцьʼ+N+Sg+Dat: ёльцяндʼ
+     ёльцьʼ+N+Sg+Loc: ёльцьӈгана
+     ёльцьʼ+N+Sg+Abl: ёльцьӈгад
+     ёльцьʼ+N+Sg+Pros: ёльцьмана
+     ёльцьʼ+N+Du+Nom: ёльцяӈгʼ
+     ёльцьʼ+N+Du+Acc: ёльцяӈгʼ
+     ёльцьʼ+N+Du+Gen: ёльцяӈгʼ
+     ёльцьʼ+N+Pl+Nom: ёльцяˮ
+     ёльцьʼ+N+Pl+Acc: ёльце
+     ёльцьʼ+N+Pl+Gen: ёльцеˮ
+     ёльцьʼ+N+Pl+Dat: ёльцяӈгˮ
+     ёльцьʼ+N+Pl+Loc: ёльцьӈгаˮна
+     ёльцьʼ+N+Pl+Abl: ёльцьӈгат
+     ёльцьʼ+N+Pl+Pros: ёльцеˮмна
+     ёльцьʼ+N+Sg+Nom+PxSg1: [ёльцям, ёльцьми]
+     ёльцьʼ+N+Sg+Acc+PxSg1: [ёльцям, ёльцьми]
+     ёльцьʼ+N+Sg+Gen+PxSg1: [ёльцян, ёльцьни]
+     ёльцьʼ+N+Sg+Dat+PxSg1: [ёльцьӈган, ёльцьӈгани]
+     ёльцьʼ+N+Sg+Loc+PxSg1: [ёльцьӈганан, ёльцьӈганани]
+     ёльцьʼ+N+Sg+Abl+PxSg1: [ёльцьӈгадан, ёльцьӈгадани, ёльцьӈгадни]
+     ёльцьʼ+N+Sg+Pros+PxSg1: [ёльцьманан, ёльцьманани]
+     ёльцьʼ+N+Du+Nom+PxSg1: [ёльцьӈгаюн, ёльцьӈгаюни]
+     ёльцьʼ+N+Du+Acc+PxSg1: [ёльцьӈгаюн, ёльцьӈгаюни]
+     ёльцьʼ+N+Du+Gen+PxSg1: [ёльцьӈгаюн, ёльцьӈгаюни]
+     ёльцьʼ+N+Pl+Nom+PxSg1: [ёльцен, ёльцени]
+     ёльцьʼ+N+Pl+Acc+PxSg1: [ёльцен, ёльцени]
+     ёльцьʼ+N+Pl+Gen+PxSg1: [ёльцеˮн, ёльцеˮни]
+     ёльцьʼ+N+Pl+Dat+PxSg1: [ёльцьӈгаˮн, ёльцьӈгаˮни]
+     ёльцьʼ+N+Pl+Loc+PxSg1: [ёльцьӈгаˮнан, ёльцьӈгаˮнани]
+     ёльцьʼ+N+Pl+Abl+PxSg1: [ёльцьӈгатан, ёльцьӈгатани, ёльцьӈгатни]
+     ёльцьʼ+N+Pl+Pros+PxSg1: [ёльцеˮмнан, ёльцеˮмнани]
+     ёльцьʼ+N+Sg+Nom+PxSg2: ёльцял
+     ёльцьʼ+N+Sg+Acc+PxSg2: ёльцянд
+     ёльцьʼ+N+Sg+Gen+PxSg2: ёльцянд
+     ёльцьʼ+N+Sg+Dat+PxSg2: ёльцьӈганд
+     ёльцьʼ+N+Sg+Loc+PxSg2: ёльцьӈгананд
+     ёльцьʼ+N+Sg+Abl+PxSg2: ёльцьӈгаданд
+     ёльцьʼ+N+Sg+Pros+PxSg2: ёльцьмананд
+     ёльцьʼ+N+Du+Nom+PxSg2: ёльцьӈгаюд
+     ёльцьʼ+N+Du+Acc+PxSg2: ёльцьӈгаюд
+     ёльцьʼ+N+Du+Gen+PxSg2: ёльцьӈгают
+     ёльцьʼ+N+Pl+Nom+PxSg2: ёльцед
+     ёльцьʼ+N+Pl+Acc+PxSg2: ёльцед
+     ёльцьʼ+N+Pl+Gen+PxSg2: ёльцет
+     ёльцьʼ+N+Pl+Dat+PxSg2: ёльцьӈгат
+     ёльцьʼ+N+Pl+Loc+PxSg2: ёльцьӈгаˮнат
+     ёльцьʼ+N+Pl+Abl+PxSg2: ёльцьӈгатат
+     ёльцьʼ+N+Pl+Pros+PxSg2: ёльцеˮмнат
+     ёльцьʼ+N+Sg+Nom+PxSg3: [ёльцянда, ёльцьнда]
+     ёльцьʼ+N+Sg+Acc+PxSg3: [ёльцянда, ёльцьнда]
+     ёльцьʼ+N+Sg+Gen+PxSg3: [ёльцянда, ёльцьнда]
+     ёльцьʼ+N+Sg+Dat+PxSg3: ёльцьӈганда
+     ёльцьʼ+N+Sg+Loc+PxSg3: ёльцьӈгананда
+     ёльцьʼ+N+Sg+Abl+PxSg3: ёльцьӈгаданда
+     ёльцьʼ+N+Sg+Pros+PxSg3: ёльцьмананда
+     ёльцьʼ+N+Du+Nom+PxSg3: ёльцьӈгаюда
+     ёльцьʼ+N+Du+Acc+PxSg3: ёльцьӈгаюда
+     ёльцьʼ+N+Du+Gen+PxSg3: ёльцьӈгаюта
+     ёльцьʼ+N+Pl+Nom+PxSg3: ёльцеда
+     ёльцьʼ+N+Pl+Acc+PxSg3: ёльцеда
+     ёльцьʼ+N+Pl+Gen+PxSg3: ёльцета
+     ёльцьʼ+N+Pl+Dat+PxSg3: ёльцьӈгата
+     ёльцьʼ+N+Pl+Loc+PxSg3: ёльцьӈгаˮната
+     ёльцьʼ+N+Pl+Abl+PxSg3: [ёльцьӈгатата, ёльцьӈгатта]
+     ёльцьʼ+N+Pl+Pros+PxSg3: ёльцеˮмната
+     ёльцьʼ+N+Sg+Nom+PxDu1: ёльцьмиʼ
+#     ёльцьʼ+N+Sg+Nom+PxSg1.2: ёльцьми
+     ёльцьʼ+N+Sg+Acc+PxDu1: ёльцьмиʼ
+#     ёльцьʼ+N+Sg+Acc+PxSg1.2: ёльцьми
+     ёльцьʼ+N+Sg+Gen+PxDu1: ёльцьниʼ
+#     ёльцьʼ+N+Sg+Gen+PxSg1.2: ёльцьни
+     ёльцьʼ+N+Sg+Dat+PxDu1: ёльцьӈганиʼ
+#     ёльцьʼ+N+Sg+Dat+PxSg1.2: ёльцьӈгани
+     ёльцьʼ+N+Sg+Loc+PxDu1: ёльцьӈгананиʼ
+#     ёльцьʼ+N+Sg+Loc+PxSg1.2: ёльцьӈганани
+     ёльцьʼ+N+Sg+Abl+PxDu1: [ёльцьӈгаданиʼ, ёльцьӈгадниʼ]
+#     ёльцьʼ+N+Sg+Abl+PxSg1.2: [ёльцьӈгадани, ёльцьӈгадни]
+     ёльцьʼ+N+Sg+Pros+PxDu1: ёльцьмананиʼ
+#     ёльцьʼ+N+Sg+Pros+PxSg1.2: ёльцьманани
+     ёльцьʼ+N+Du+Nom+PxDu1: ёльцьӈгаюниʼ
+#     ёльцьʼ+N+Du+Nom+PxSg1.2: ёльцьӈгаюни
+     ёльцьʼ+N+Du+Acc+PxDu1: ёльцьӈгаюниʼ
+#     ёльцьʼ+N+Du+Acc+PxSg1.2: ёльцьӈгаюни
+     ёльцьʼ+N+Du+Gen+PxDu1: ёльцьӈгаюниʼ
+#     ёльцьʼ+N+Du+Gen+PxSg1.2: ёльцьӈгаюни
+     ёльцьʼ+N+Pl+Nom+PxDu1: ёльцениʼ
+#     ёльцьʼ+N+Pl+Nom+PxSg1.2: ёльцени
+     ёльцьʼ+N+Pl+Acc+PxDu1: ёльцениʼ
+#     ёльцьʼ+N+Pl+Acc+PxSg1.2: ёльцени
+     ёльцьʼ+N+Pl+Gen+PxDu1: ёльцеˮниʼ
+#     ёльцьʼ+N+Pl+Gen+PxSg1.2: ёльцеˮни
+     ёльцьʼ+N+Pl+Dat+PxDu1: ёльцьӈгаˮниʼ
+#     ёльцьʼ+N+Pl+Dat+PxSg1.2: ёльцьӈгаˮни
+     ёльцьʼ+N+Pl+Loc+PxDu1: ёльцьӈгаˮнаниʼ
+#     ёльцьʼ+N+Pl+Loc+PxSg1.2: ёльцьӈгаˮнани
+     ёльцьʼ+N+Pl+Abl+PxDu1: [ёльцьӈгатаниʼ, ёльцьӈгатниʼ]
+#     ёльцьʼ+N+Pl+Abl+PxSg1.2: [ёльцьӈгатани, ёльцьӈгатни]
+     ёльцьʼ+N+Pl+Pros+PxDu1: ёльцеˮмнаниʼ
+#     ёльцьʼ+N+Pl+Pros+PxSg1.2: ёльцеˮмнани
+     ёльцьʼ+N+Sg+Nom+PxDu2: ёльцьлиʼ
+     ёльцьʼ+N+Sg+Acc+PxDu2: [ёльцяндиʼ, ёльцьндиʼ]
+     ёльцьʼ+N+Sg+Gen+PxDu2: [ёльцяндиʼ, ёльцьндиʼ]
+     ёльцьʼ+N+Sg+Dat+PxDu2: ёльцьӈгандиʼ
+     ёльцьʼ+N+Sg+Loc+PxDu2: ёльцьӈганандиʼ
+     ёльцьʼ+N+Sg+Abl+PxDu2: ёльцьӈгадандиʼ
+     ёльцьʼ+N+Sg+Pros+PxDu2: ёльцьманандиʼ
+     ёльцьʼ+N+Du+Nom+PxDu2: ёльцьӈгаюдиʼ
+     ёльцьʼ+N+Du+Acc+PxDu2: ёльцьӈгаюдиʼ
+     ёльцьʼ+N+Du+Gen+PxDu2: ёльцьӈгаютиʼ
+     ёльцьʼ+N+Pl+Nom+PxDu2: ёльцедиʼ
+     ёльцьʼ+N+Pl+Acc+PxDu2: ёльцедиʼ
+     ёльцьʼ+N+Pl+Gen+PxDu2: ёльцетиʼ
+     ёльцьʼ+N+Pl+Dat+PxDu2: ёльцьӈгатиʼ
+     ёльцьʼ+N+Pl+Loc+PxDu2: ёльцьӈгаˮнатиʼ
+     ёльцьʼ+N+Pl+Abl+PxDu2: [ёльцьӈгататиʼ, ёльцьӈгаттиʼ]
+     ёльцьʼ+N+Pl+Pros+PxDu2: ёльцеˮмнатиʼ
+     ёльцьʼ+N+Sg+Nom+PxDu3: [ёльцяндиʼ, ёльцьндиʼ]
+     ёльцьʼ+N+Sg+Acc+PxDu3: [ёльцяндиʼ, ёльцьндиʼ]
+     ёльцьʼ+N+Sg+Gen+PxDu3: [ёльцяндиʼ, ёльцьндиʼ]
+     ёльцьʼ+N+Sg+Dat+PxDu3: ёльцьӈгандиʼ
+     ёльцьʼ+N+Sg+Loc+PxDu3: ёльцьӈганандиʼ
+     ёльцьʼ+N+Sg+Abl+PxDu3: ёльцьӈгадандиʼ
+     ёльцьʼ+N+Sg+Pros+PxDu3: ёльцьманандиʼ
+     ёльцьʼ+N+Du+Nom+PxDu3: ёльцьӈгаюдиʼ
+     ёльцьʼ+N+Du+Acc+PxDu3: ёльцьӈгаюдиʼ
+     ёльцьʼ+N+Du+Gen+PxDu3: ёльцьӈгаютиʼ
+     ёльцьʼ+N+Pl+Nom+PxDu3: ёльцедиʼ
+     ёльцьʼ+N+Pl+Acc+PxDu3: ёльцедиʼ
+     ёльцьʼ+N+Pl+Gen+PxDu3: ёльцетиʼ
+     ёльцьʼ+N+Pl+Dat+PxDu3: ёльцьӈгатиʼ
+     ёльцьʼ+N+Pl+Loc+PxDu3: ёльцьӈгаˮнатиʼ
+     ёльцьʼ+N+Pl+Abl+PxDu3: [ёльцьӈгататиʼ, ёльцьӈгаттиʼ]
+     ёльцьʼ+N+Pl+Pros+PxDu3: ёльцеˮмнатиʼ
+     ёльцьʼ+N+Sg+Nom+PxPl1: ёльцьмаˮ
+     ёльцьʼ+N+Sg+Acc+PxPl1: ёльцьмаˮ
+     ёльцьʼ+N+Sg+Gen+PxPl1: ёльцьнаˮ
+     ёльцьʼ+N+Sg+Dat+PxPl1: ёльцьӈганаˮ
+     ёльцьʼ+N+Sg+Loc+PxPl1: ёльцьӈгананаˮ
+     ёльцьʼ+N+Sg+Abl+PxPl1: [ёльцьӈгаданаˮ, ёльцьӈгаднаˮ]
+     ёльцьʼ+N+Sg+Pros+PxPl1: ёльцьмананаˮ
+     ёльцьʼ+N+Du+Nom+PxPl1: ёльцьӈгаюнаˮ
+     ёльцьʼ+N+Du+Acc+PxPl1: ёльцьӈгаюнаˮ
+     ёльцьʼ+N+Du+Gen+PxPl1: ёльцьӈгаюнаˮ
+     ёльцьʼ+N+Pl+Nom+PxPl1: ёльценаˮ
+     ёльцьʼ+N+Pl+Acc+PxPl1: ёльценаˮ
+     ёльцьʼ+N+Pl+Gen+PxPl1: ёльцеˮнаˮ
+     ёльцьʼ+N+Pl+Dat+PxPl1: ёльцьӈгаˮнаˮ
+     ёльцьʼ+N+Pl+Loc+PxPl1: ёльцьӈгаˮнанаˮ
+     ёльцьʼ+N+Pl+Abl+PxPl1: [ёльцьӈгатанаˮ, ёльцьӈгатнаˮ]
+     ёльцьʼ+N+Pl+Pros+PxPl1: ёльцеˮмнанаˮ
+     ёльцьʼ+N+Sg+Nom+PxPl2: ёльцьлаˮ
+     ёльцьʼ+N+Sg+Acc+PxPl2: [ёльцяндаˮ, ёльцьндаˮ]
+     ёльцьʼ+N+Sg+Gen+PxPl2: [ёльцяндаˮ, ёльцьндаˮ]
+     ёльцьʼ+N+Sg+Dat+PxPl2: ёльцьӈгандаˮ
+     ёльцьʼ+N+Sg+Loc+PxPl2: ёльцьӈганандаˮ
+     ёльцьʼ+N+Sg+Abl+PxPl2: ёльцьӈгадандаˮ
+     ёльцьʼ+N+Sg+Pros+PxPl2: ёльцьманандаˮ
+     ёльцьʼ+N+Du+Nom+PxPl2: ёльцьӈгаюдаˮ
+     ёльцьʼ+N+Du+Acc+PxPl2: ёльцьӈгаюдаˮ
+     ёльцьʼ+N+Du+Gen+PxPl2: ёльцьӈгаютаˮ
+     ёльцьʼ+N+Pl+Nom+PxPl2: ёльцедаˮ
+     ёльцьʼ+N+Pl+Acc+PxPl2: ёльцедаˮ
+     ёльцьʼ+N+Pl+Gen+PxPl2: ёльцетаˮ
+     ёльцьʼ+N+Pl+Dat+PxPl2: ёльцьӈгатаˮ
+     ёльцьʼ+N+Pl+Loc+PxPl2: ёльцьӈгаˮнатаˮ
+     ёльцьʼ+N+Pl+Abl+PxPl2: [ёльцьӈгататаˮ, ёльцьӈгаттаˮ]
+     ёльцьʼ+N+Pl+Pros+PxPl2: ёльцеˮмнатаˮ
+     ёльцьʼ+N+Sg+Nom+PxPl3: [ёльцяндоʼ, ёльцьндоʼ]
+     ёльцьʼ+N+Sg+Acc+PxPl3: [ёльцяндоʼ, ёльцьндоʼ]
+     ёльцьʼ+N+Sg+Gen+PxPl3: [ёльцяндоʼ, ёльцьндоʼ]
+     ёльцьʼ+N+Sg+Dat+PxPl3: ёльцьӈгандоʼ
+     ёльцьʼ+N+Sg+Loc+PxPl3: ёльцьӈганандоʼ
+     ёльцьʼ+N+Sg+Abl+PxPl3: ёльцьӈгадандоʼ
+     ёльцьʼ+N+Sg+Pros+PxPl3: ёльцьманандоʼ
+     ёльцьʼ+N+Du+Nom+PxPl3: ёльцьӈгаюдоʼ
+     ёльцьʼ+N+Du+Acc+PxPl3: ёльцьӈгаюдоʼ
+     ёльцьʼ+N+Du+Gen+PxPl3: ёльцьӈгаютоʼ
+     ёльцьʼ+N+Pl+Nom+PxPl3: ёльцедоʼ
+     ёльцьʼ+N+Pl+Acc+PxPl3: ёльцедоʼ
+     ёльцьʼ+N+Pl+Gen+PxPl3: ёльцетоʼ
+     ёльцьʼ+N+Pl+Dat+PxPl3: ёльцьӈгатоʼ
+     ёльцьʼ+N+Pl+Loc+PxPl3: ёльцьӈгаˮнатоʼ
+     ёльцьʼ+N+Pl+Abl+PxPl3: [ёльцьӈгататоʼ, ёльцьӈгаттоʼ]
+     ёльцьʼ+N+Pl+Pros+PxPl3: ёльцеˮмнатоʼ
+     ёльцьʼ+N+Pred+Abs: ёльцянд
+     ёльцьʼ+N+Pred+Nom+PxSg1: [ёльцяндав, ёльцьндав, ёльцяндув, ёльцьндув, ёльцяндами, ёльцьндами]
+     ёльцьʼ+N+Pred+Acc+PxSg1: [ёльцяндав, ёльцьндав, ёльцяндув, ёльцьндув, ёльцяндами, ёльцьндами]
+     ёльцьʼ+N+Pred+Gen+PxSg1: [ёльцяндан, ёльцьндан, ёльцяндани, ёльцьндани]
+     ёльцьʼ+N+Pred+Nom+PxSg2: [ёльцяндар, ёльцьндар]
+     ёльцьʼ+N+Pred+Acc+PxSg2: [ёльцяндамд, ёльцьндамд]
+     ёльцьʼ+N+Pred+Gen+PxSg2: [ёльцянданд, ёльцьнданд]
+     ёльцьʼ+N+Pred+Nom+PxSg3: [ёльцяндада, ёльцьндада]
+     ёльцьʼ+N+Pred+Acc+PxSg3: [ёльцяндамда, ёльцьндамда]
+     ёльцьʼ+N+Pred+Gen+PxSg3: [ёльцянданда, ёльцьнданда]
+     ёльцьʼ+N+Pred+Nom+PxDu1: [ёльцяндамиʼ, ёльцьндамиʼ]
+#     ёльцьʼ+N+Pred+Nom+PxSg1.2: [ёльцяндами, ёльцьндами]
+     ёльцьʼ+N+Pred+Acc+PxDu1: [ёльцяндамиʼ, ёльцьндамиʼ]
+#     ёльцьʼ+N+Pred+Acc+PxSg1.2: [ёльцяндами, ёльцьндами]
+     ёльцьʼ+N+Pred+Gen+PxDu1: [ёльцянданиʼ, ёльцьнданиʼ]
+#     ёльцьʼ+N+Pred+Gen+PxSg1.2: [ёльцяндани, ёльцьндани]
+     ёльцьʼ+N+Pred+Nom+PxDu2: [ёльцяндариʼ, ёльцьндариʼ]
+     ёльцьʼ+N+Pred+Acc+PxDu2: [ёльцяндамдиʼ, ёльцьндамдиʼ]
+     ёльцьʼ+N+Pred+Gen+PxDu2: [ёльцяндандиʼ, ёльцьндандиʼ]
+     ёльцьʼ+N+Pred+Nom+PxDu3: [ёльцяндадиʼ, ёльцьндадиʼ]
+     ёльцьʼ+N+Pred+Acc+PxDu3: [ёльцяндамдиʼ, ёльцьндамдиʼ]
+     ёльцьʼ+N+Pred+Gen+PxDu3: [ёльцяндандиʼ, ёльцьндандиʼ]
+     ёльцьʼ+N+Pred+Nom+PxPl1: [ёльцяндаваˮ, ёльцьндаваˮ]
+     ёльцьʼ+N+Pred+Acc+PxPl1: [ёльцяндаваˮ, ёльцьндаваˮ]
+     ёльцьʼ+N+Pred+Gen+PxPl1: [ёльцянданаˮ, ёльцьнданаˮ]
+     ёльцьʼ+N+Pred+Nom+PxPl2: [ёльцяндараˮ, ёльцьндараˮ]
+     ёльцьʼ+N+Pred+Acc+PxPl2: [ёльцяндамдаˮ, ёльцьндамдаˮ]
+     ёльцьʼ+N+Pred+Gen+PxPl2: [ёльцяндандаˮ, ёльцьндандаˮ]
+     ёльцьʼ+N+Pred+Nom+PxPl3: [ёльцяндадоʼ, ёльцьндадоʼ]
+     ёльцьʼ+N+Pred+Acc+PxPl3: [ёльцяндамдоʼ, ёльцьндамдоʼ]
+     ёльцьʼ+N+Pred+Gen+PxPl3: [ёльцяндандоʼ, ёльцьндандоʼ]
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: ёльцяндмʼ
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: ёльцянд
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: ёльцьʼ
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: ёльцьниʼ
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: [ёльцяндиʼ, ёльцьндиʼ]
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: ёльцяӈгʼ
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: ёльцьмаˮ
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: [ёльцяндаˮ, ёльцьндаˮ]
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: ёльцяˮ
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: [ёльцяндамзь, ёльцьндамзь]
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: [ёльцяндась, ёльцьндась]
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: ёльцянзь
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: ёльцьнинзь
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: [ёльцяндинзь, ёльцьндинзь]
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈганзь
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: ёльцьмаць
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: [ёльцяндаць, ёльцьндаць]
+     ёльцьʼ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: ёльцяць
+     ёльцьʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: ёльцям
+     ёльцьʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: ёльцял
+     ёльцьʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: [ёльцянда, ёльцьнда]
+     ёльцьʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: ёльцьмиʼ
+     ёльцьʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: ёльцьлиʼ
+     ёльцьʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: [ёльцяндиʼ, ёльцьндиʼ]
+     ёльцьʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: ёльцьмаˮ
+     ёльцьʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: ёльцьлаˮ
+     ёльцьʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: [ёльцяндоʼ, ёльцьндоʼ]
+     ёльцьʼ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: ёльцьмась
+     ёльцьʼ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: ёльцьлась
+     ёльцьʼ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: [ёльцяндась, ёльцьндась]
+     ёльцьʼ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: ёльцьминзь
+     ёльцьʼ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: ёльцьлинзь
+     ёльцьʼ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: [ёльцяндинзь, ёльцьндинзь]
+     ёльцьʼ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: ёльцьмаць
+     ёльцьʼ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: ёльцьлаць
+     ёльцьʼ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: [ёльцяндонзь, ёльцьндонзь]
+     ёльцьʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюн
+     ёльцьʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюд
+     ёльцьʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюда
+     ёльцьʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюниʼ
+     ёльцьʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюдиʼ
+     ёльцьʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюдиʼ
+     ёльцьʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюнаˮ
+     ёльцьʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюдаˮ
+     ёльцьʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: ёльцьӈгаюдоʼ
+     ёльцьʼ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюнась
+     ёльцьʼ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюдась
+     ёльцьʼ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюдась
+     ёльцьʼ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюнинзь
+     ёльцьʼ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюдинзь
+     ёльцьʼ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюдинзь
+     ёльцьʼ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюнаць
+     ёльцьʼ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюдаць
+     ёльцьʼ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: ёльцьӈгаюдонзь
+     ёльцьʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: ёльцен
+     ёльцьʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: ёльцед
+     ёльцьʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: ёльцеда
+     ёльцьʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: ёльцениʼ
+     ёльцьʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: ёльцедиʼ
+     ёльцьʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: ёльцедиʼ
+     ёльцьʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: ёльценаˮ
+     ёльцьʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: ёльцедаˮ
+     ёльцьʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: ёльцедоʼ
+     ёльцьʼ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: ёльценась
+     ёльцьʼ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: ёльцедась
+     ёльцьʼ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: ёльцедась
+     ёльцьʼ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: ёльценинзь
+     ёльцьʼ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: ёльцединзь
+     ёльцьʼ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: ёльцединзь
+     ёльцьʼ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: ёльценаць
+     ёльцьʼ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: ёльцедаць
+     ёльцьʼ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: ёльцедонзь
+     ёльцьʼ+N+Tra: ёльцьӈэ
+     ёльцьʼ+N+Car: [ёльцянзиˮ, ёльцьнзиˮ]
+     ёльцьʼ+N+Equ: [ёльцяндаремʼ, ёльцьндаремʼ]
+     ёльцьʼ+N+Equ+Lat: [ёльцяндаревʼ, ёльцьндаревʼ]
