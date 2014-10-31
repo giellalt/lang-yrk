@@ -1362,7 +1362,7 @@ Rules
 
  "й:0 when followed by vowel in VowelPalatalization"
 !! __@RULENAME@__
-  й:0 <=> _ %> [ а: | у: ] ;
+  й:0 <=> _ %> [ а: | у: | е ] ;
 
 
 "а:я VowelPalatalization left"
@@ -1977,7 +1977,7 @@ Rules
 "ь:0 with  GlottalNonNasalToZERO"
 !! __@RULENAME@__
   ь:0 <=> С1: _ %> [ к: | н ] ;
-      _ [%> [ а: | у: | и ]|и|а:] ;
+      _ [%> [ а: | у: | и ]|и|а:|е] ;
 
 
 
