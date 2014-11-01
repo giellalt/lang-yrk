@@ -2414,10 +2414,10 @@
 
   <e>
     <lg>
-      <l pos="Adv">невхэна</l>
+      <l pos="Adv">невхына</l>
 
       <stg>
-        <st Contlex="ADV-TEMP_">невхэна</st>
+        <st Contlex="ADV-TEMP_">невхына</st>
 
         <st Contlex="ADV-TEMP_">невхэхэна</st>
       </stg>
@@ -2434,6 +2434,50 @@
         <t pos="Adv">aikaisemmin</t>
 
         <t pos="Adv">muinoin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">невхынзерʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">невхынзерʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">vanhan tavan mukaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">недбясиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">недбясиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">for free</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ilmaiseksi</t>
       </tg>
     </mg>
   </e>

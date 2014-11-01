@@ -6210,6 +6210,46 @@
 
   <e>
     <lg>
+      <l pos="A">навэй</l>
+
+      <stg>
+        <st Contlex="A_ЕД">навэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">runsas</t>
+
+        <t pos="A">lukuisa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">надналу</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">надналу</st>
+
+        <st Contlex="A_ӇЭ">надли</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">räkäinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">накрёй</l>
 
       <stg>
@@ -6282,6 +6322,34 @@
 
       <tg xml:lang="fin">
         <t pos="A">meluisa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нараний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">нараний</st>
+
+        <st Contlex="A_ӇЭ">нараняӈы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">keväinen</t>
       </tg>
     </mg>
   </e>
@@ -6946,6 +7014,26 @@
         <t pos="A">luisu</t>
 
         <t pos="A">vieru</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">неӈгый</l>
+
+      <stg>
+        <st Contlex="A_ЕД">неӈгый</st>
+
+        <st Contlex="A_ӇЭ">нейӈгу</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">naisiin menevä</t>
       </tg>
     </mg>
   </e>
