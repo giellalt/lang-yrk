@@ -63769,8 +63769,6 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">kuulla</t>
-
         <t pos="V">totella</t>
       </tg>
     </mg>
@@ -63845,9 +63843,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">kuulla</t>
-
         <t pos="V">totella</t>
+
+        <t pos="V">kuulla</t>
       </tg>
     </mg>
   </e>
@@ -65519,6 +65517,8 @@
       <l pos="V" val="TV">недадамбась</l>
 
       <stg>
+        <st Contlex="TV_ПЭБЮ">недадамба</st>
+
         <st Contlex="TV_ПЭБЮ">недарамба</st>
       </stg>
     </lg>
@@ -65564,24 +65564,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" type="TV">raivata tie</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">недарамбась</l>
-
-      <stg>
-        <st Contlex="TV_ПЭБЮ">недадамба</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">ajaa läpi pororaidolla</t>
       </tg>
     </mg>
   </e>
@@ -66019,7 +66001,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="TV"/>
+        <t pos="V" val="TV">lyödä sisään</t>
+
+        <t pos="V" val="TV">hakata sisään</t>
       </tg>
     </mg>
   </e>
@@ -160802,6 +160786,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">тэврамба</st>
+
+        <st Contlex="TV_ПЭБЮ">тэвраба</st>
       </stg>
     </lg>
 
