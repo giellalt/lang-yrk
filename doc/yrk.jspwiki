@@ -1163,6 +1163,7 @@ Conjugation of nouns and adjectives
 
 
 
+
  * __LEXICON IV_ӇЭ__ ӈэсь:ӈэ
 
 
@@ -1182,6 +1183,10 @@ Conjugation of nouns and adjectives
 
 
  * __LEXICON IV_ЯКУ__ якась:яка
+
+
+
+
 
 
 
@@ -1262,6 +1267,8 @@ Not yet written.
  *  PRC-NEG ; 	+PrcNeg +PrcFut
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
+V_refl 
+
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
@@ -1311,11 +1318,20 @@ V_refl 2013-03-04
  *  PRC-NEG ; 	+PrcNeg +PrcFut
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
-* Yaml: __V-xadabasj, V-pewasj__
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+* Yaml: __V-pewasj__
+
+
+
+
+ * ! PRC-NEG ; 	+PrcNeg +PrcFut
+ * !:%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 
+
+* Yaml: __V-xadabasj__
+
+
+
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -1376,7 +1392,7 @@ V_refl 2013-03-04
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+
 
 V_refl 2013-03-04
 
@@ -1668,6 +1684,7 @@ Non-finites
  * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
  * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
  * __+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; __ Vowel removed
+
 
 
 
