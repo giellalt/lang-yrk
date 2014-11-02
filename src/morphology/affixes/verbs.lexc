@@ -13,6 +13,9 @@ LEXICON IV_МЭ
 LEXICON TV_МЭ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МЭ       ;
 
+LEXICON VR_МЭ
++V+Refl: V-01_МЭ-REFL       ;
+
 LEXICON IV_МЫ
 +V+IV: V-01_МЫ       ;
 
@@ -145,6 +148,19 @@ LEXICON TV_ПЭБЮ
 
 !LEXICON VR_ПЭБЮ
 !+V+Refl: V-01_ПЭБЮ-REFL ;
+
+LEXICON IV_ХАДАБАСЬ
++V+IV: V-NEW_ХАДАБАСЬ       ;
+
+!LEXICON IV_ХАДАБАСЬ-Pal/Var
+!+V+IV: V-01_ХАДАБАСЬ       ;
+!+V+IV: PRC_PALVAR ;
+
+LEXICON TV_ХАДАБАСЬ
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ХАДАБАСЬ       ;
+
+!LEXICON VR_ХАДАБАСЬ
+!+V+Refl: V-NEW_ХАДАБАСЬ-REFL ;
 
 LEXICON IV_ХАДА !!≈ * __@CODE@__ хадась:хада
 !+V+IV: V-01_ХАДА       ;
@@ -372,6 +388,17 @@ LEXICON V-01_МЭ
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
+
+LEXICON V-01_МЭ-REFL !! V_refl 
+ IND-AOR-RCSG1	;
+ IND-AOR-RCSG2	;
+ IND-AOR-RCSG3	;
+ IND-AOR-RCDU1	;
+ IND-AOR-RCDU2 	;
+ IND-AOR-RCDU3 	;
+ IND-AOR-RCPL1 	;
+ IND-AOR-RCPL2 	;
+ IND-AOR-RCPL3 	;
 
 
 LEXICON V-01_МЫ
@@ -1023,50 +1050,97 @@ LEXICON V-01_ӇЭСУ
 :%^VowRaise CONNEG ;
 
 LEXICON V-01_ПЭБЮ
-!! * Yaml: __V-xadabasj, V-pewasj__
-+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
-+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCDU3 ;
-+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
-+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
- V_PREC ;
-:%^VowLoss V_Hort ;
-@R.CONJ.ObjAll@ V_Hort-Obj ;
-:%^A2I V_Imprt-Scsg2 ;
-:%^A2I V_Imprt ;
-@R.CONJ.ObjAll@ V_Imprt-Obj ;
- V_Opt ;
-@R.CONJ.ObjAll@ V_Opt-Obj ;
- V_Subord ;
- V_AUD ;
-:%^VowLoss V_Conj ;
- V_Mod/appr ;
- V_Mod/des ;
- V_Mod/futappr ;
- V_Mod/hyp ;
- V_Mod/int ;
- V_Mod/narr ;
- V_Mod/narrPrt ;
- V_Mod/nec ;
- V_Mod/perfprob ;
- V_Mod/prob ;
- V_Mod/perfappr ;
- V_Mod/obl ;
- V_Mod/rep ;
- V_Mod/sup ;
-:%^A2I IND-AOR		;
-:%^A2I IND-AOR-SG3 	;
-:%^A2I IND-AOR-DU3 	;
-+Ind:%^A2I IND-4-PRT1-DU3 ;
-+Ind:%^A2I IND-4-PRT1		;
- V_Fut_ӇГУ ;
- PRC ;
-:ʼ PRC-IMPRF ;
- PRC-FUT_ВАНДА ;
- PRC-FUT_ВНДА ;
-:%^VowRaise PRC-FUT_ВНДА ;
- PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
-:%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
-:%^VowFronting%^VowRaise CONNEG ;
+!! * Yaml: __V-pewasj__
+ V-NEW_BI-SYLL-MUTUAL-MINUS-V ;
+:%^A2I V-NEW_BI-SYLL-MUTUAL-ZERO ;
+ V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO ;
+ V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
+
+! V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+!
+ V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+! V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+! V-NEW_BI-SYLL-MUTUAL-MODREP ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODREP ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+! V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
+
+
++Ger:%>сь K ;
++Ger: K ;
+ V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
+ V-NEW_BI-SYLL-MUTUAL-PRCFUT_ванд ;
+ V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+ V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
+!+PrcFut+Nom+Sg+Abs
+!€# яˮавла%^VowRaise%>ˮ
+!€0 яˮавлу00ˮ
++ConNeg:%>” K ;
++Imprt+ScSg2:%>” K ;
+!€# тенева%^VowLoss%>”
+!€0 тенев000”
+@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
+ V-NEW_BI-SYLL-MUTUAL-SUBORD_ZERO ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V 
+V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
+ V-NEW_BI-SYLL-MUTUAL-FUT ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-FUT ;
+ V-NEW_BI-SYLL-MUTUAL-MOD/APPR ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-MOD/APPR ;
+
+!+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
+!+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCDU3 ;
+!+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
+!+Ind@R.CONJ.ObjAll@:%^A2I@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+! V_PREC ;
+!:%^VowLoss V_Hort ;
+!@R.CONJ.ObjAll@ V_Hort-Obj ;
+!:%^A2I V_Imprt-Scsg2 ;
+!:%^A2I V_Imprt ;
+!@R.CONJ.ObjAll@ V_Imprt-Obj ;
+! V_Opt ;
+!@R.CONJ.ObjAll@ V_Opt-Obj ;
+! V_Subord ;
+! V_AUD ;
+!:%^VowLoss V_Conj ;
+! V_Mod/appr ;
+! V_Mod/des ;
+! V_Mod/futappr ;
+! V_Mod/hyp ;
+! V_Mod/int ;
+! V_Mod/narr ;
+! V_Mod/narrPrt ;
+! V_Mod/nec ;
+! V_Mod/perfprob ;
+! V_Mod/prob ;
+! V_Mod/perfappr ;
+! V_Mod/obl ;
+! V_Mod/rep ;
+! V_Mod/sup ;
+!:%^A2I IND-AOR		;
+!:%^A2I IND-AOR-SG3 	;
+!:%^A2I IND-AOR-DU3 	;
+!+Ind:%^A2I IND-4-PRT1-DU3 ;
+!+Ind:%^A2I IND-4-PRT1		;
+! V_Fut_ӇГУ ;
+! PRC ;
+!:ʼ PRC-IMPRF ;
+! PRC-FUT_ВАНДА ;
+! PRC-FUT_ВНДА ;
+!:%^VowRaise PRC-FUT_ВНДА ;
+! PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+!:%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+!:%^VowFronting%^VowRaise CONNEG ;
 
 !LEXICON V-01_ПЭБЮ-REFL !! V_refl 
 ! V_IND-Refl ;
@@ -1099,6 +1173,55 @@ LEXICON V-01_ПЭБЮ
 ! PRC-NEG ; != * @CODE@	+PrcNeg +PrcFut
 !:%^VowRaise PRC-NEG ; != * @CODE@	+PrcNeg +PrcFut
 !:%^VowRaise CONNEG ;
+
+LEXICON V-NEW_ХАДАБАСЬ
+!! * Yaml: __V-xadabasj__
+ V-NEW_BI-SYLL-MUTUAL-MINUS-V ;
+:%^A2I V-NEW_BI-SYLL-MUTUAL-ZERO ;
+ V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO ;
+ V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
+
+! V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+!
+ V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+! V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+! V-NEW_BI-SYLL-MUTUAL-MODREP ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODREP ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+! V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
+
+
++Ger:%>сь K ;
++Ger: K ;
+ V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
+ V-NEW_BI-SYLL-MUTUAL-PRCFUT_ванд ;
+ V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+ V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
+!+PrcFut+Nom+Sg+Abs
+!€# яˮавла%^VowRaise%>ˮ
+!€0 яˮавлу00ˮ
++ConNeg:%>” K ;
++Imprt+ScSg2:%>” K ;
+!€# тенева%^VowLoss%>”
+!€0 тенев000”
+@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
+ V-NEW_BI-SYLL-MUTUAL-SUBORD_ZERO ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V 
+V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
+ V-NEW_BI-SYLL-MUTUAL-FUT ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-FUT ;
+ V-NEW_BI-SYLL-MUTUAL-MOD/APPR ;
+!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-MOD/APPR ;
 
 LEXICON V-01_ХАДА
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ӇА ;
@@ -1781,45 +1904,28 @@ LEXICON V-01_ӇАДИМ
  CONNEG ;
 
 LEXICON V-01_ӇАРАМ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
- V_PREC ;
- V_Hort ;
-@R.CONJ.ObjAll@ V_Hort-Obj ;
- V_Imprt ;
- V_Imprt-Scsg2 ;
-@R.CONJ.ObjAll@ V_Imprt-Obj ;
- V_Opt ;
-@R.CONJ.ObjAll@ V_Opt-Obj ;
- V_Conj ;
- V_Mod/appr ;
- V_Mod/des ;
- V_Mod/futappr ;
- V_Mod/hyp ;
- V_Mod/int ;
- V_Mod/narr ;
- V_Mod/narrPrt ;
- V_Mod/nec ;
- V_Mod/perfprob ;
- V_Mod/prob ;
- V_Mod/perfappr ;
- V_Mod/obl ;
- V_Mod/rep ;
- V_Mod/sup ;
- V_Subord ;
- V_AUD ;
- V_HAB ;
- V_Fut_ТА ;
- IND-AOR		;
- IND-AOR-SG3 	;
- IND-AOR-DU3 	;
-+Ind: IND-4-PRT1-DU3 ;
-+Ind: IND-4-PRT1		;
- PRC2 ;
- PRC-IMPRF ;
- PRC-FUT ;
- PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
- CONNEG ;
+ V-NEW_BI-SYLL-MUTUAL-MINUS-V ;
+ V-NEW_BI-SYLL-MUTUAL-ZERO ;
+ V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO ;
+ V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
+ V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+ @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
++Ger:%>сь K ;
++ConNeg:%^MLenition%>” K ;
++Imprt+ScSg2:%^MLenition%>” K ;
+ V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
+!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
+ V-NEW_BI-SYLL-MUTUAL-PRCFUT_ванд ;
+ V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+ V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
+@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
+ V-NEW_BI-SYLL-MUTUAL-SUBORD_ZERO ;
+ V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
+ V-NEW_BI-SYLL-MUTUAL-FUT ;
+ V-NEW_BI-SYLL-MUTUAL-MOD/APPR ;
+
 
 LEXICON V-01_ӇАРАМ-REFL !! V_refl 2013-03-04
 +Ind: IND-AOR-RCSG1	;
@@ -10359,6 +10465,7 @@ LEXICON V-NEW_BI-SYLL-MUTUAL-MOD/APPR
 +Mod/impfappr+Prt1+ScPl1:%>нархаваць K ;
 +Mod/impfappr+Prt1+ScPl2:%>нархадаць K ;
 +Mod/impfappr+Prt1+ScPl3:%>нархаць K ;
+
 
 
 ! vim: set ft=xfst-lexc:
