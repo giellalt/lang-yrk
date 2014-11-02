@@ -3399,7 +3399,7 @@ LEXICON V-NEW_ХО
 LEXICON V-NEW_MUTUAL
 @R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL ;
 +GerFin:%>ванзь K ;
-+InfImprf+Sg+Nom+Abs:%>ва K ;
+!+InfImprf+Sg+Nom+Abs:%>ва K ;
 +InfImprf+Sg+Acc+Abs:%>вамʼ K ;
 +InfImprf+Sg+Gen+Abs:%>ваʼ K ;
 +InfImprf+Sg+Dat+Abs:%>ванʼ K ;
@@ -6912,11 +6912,11 @@ LEXICON MOD/NARR
 +Mod/narr+Prt1+ScPl2:%>вэдаць K ;
 +Mod/narr+Prt1+ScPl3:%>выць K ;
 +Mod/narr+Prt1+ScPl3:%>вэць K ;
++InfImprf+Sg+Nom+Abs:%>ва K ;
 
 
 LEXICON V-NEW_MUTUAL-MINUS-V
 +GerFin:%>ванзь K ;
-+InfImprf+Sg+Nom+Abs:%>ва K ;
 +InfImprf+Sg+Acc+Abs:%>вамʼ K ;
 +InfImprf+Sg+Gen+Abs:%>ваʼ K ;
 +InfImprf+Sg+Dat+Abs:%>ванʼ K ;
