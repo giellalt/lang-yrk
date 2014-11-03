@@ -1183,6 +1183,7 @@ LEXICON V-NEW_ХАДАБАСЬ
 ! V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
 !:%^VowLoss V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
  V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+:%^VowRaise V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
 ! V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
 !:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
 ! V-NEW_BI-SYLL-MUTUAL-MODREP ;
@@ -1192,13 +1193,13 @@ LEXICON V-NEW_ХАДАБАСЬ
 +Ger:%>сь K ;
 +Ger: K ;
  V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
- V-NEW_BI-SYLL-MUTUAL-PRCFUT_ванд ;
+:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
 !+PrcFut+Nom+Sg+Abs
 !€# яˮавла%^VowRaise%>ˮ
 !€0 яˮавлу00ˮ
-+ConNeg:%>ˮ K ;
++ConNeg:%^VowFronting%^VowRaise%>ˮ K ;
 +Imprt+ScSg2:%>ˮ K ;
 !€# тенева%^VowLoss%>ˮ
 !€0 тенев000ˮ
