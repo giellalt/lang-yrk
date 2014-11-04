@@ -1138,8 +1138,8 @@ V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
 ! PRC-FUT_ВАНДА ;
 ! PRC-FUT_ВНДА ;
 !:%^VowRaise PRC-FUT_ВНДА ;
-! PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
-!:%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+! PRC-NEG ; !	+PrcNeg +PrcFut
+!:%^VowRaise PRC-NEG ; !	+PrcNeg +PrcFut
 !:%^VowFronting%^VowRaise CONNEG ;
 
 !LEXICON V-01_ПЭБЮ-REFL !! V_refl 
@@ -2489,10 +2489,10 @@ LEXICON V_Mod/narr-Refl
 LEXICON V_Mod/narrPrt
 +Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
 +Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}ы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ; !!= * @CODE@ хось:ховынась 
++Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}ы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ; ! хось:ховынась 
 +Mod/narr+Prt1+ScSg1:%>%{вм%}эдамзь K ;
 +Mod/narr+Prt1+ScSg2:%>%{вм%}энась K ;
-+Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ; !!= *@CODE@ яˮавлавэсь
++Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ; ! яˮавлавэсь
 +Mod/narr+Prt1+ScSg3:%>%{вм%}Ы2сь K ;
 +Mod/narr+Prt1+ScDu1:%>%{вм%}энинзь K ;
 +Mod/narr+Prt1+ScDu2:%>%{вм%}эдинзь K ;
@@ -3119,7 +3119,7 @@ LEXICON MUTUAL-PRT1-RCDU1
 LEXICON MUTUAL-PRT1-RCDU2
 +Prt1+RcDu2:%>динзь K ;
 LEXICON MUTUAL-PRT1-RCDU3
-+Prt1+RcDu3:%>х%{ауоэØ%}нзь K ; !!+Mod/prob = хэнзь +Mod/narr = ханзь
++Prt1+RcDu3:%>х%{ауоэØ%}нзь K ; !+Mod/prob = хэнзь +Mod/narr = ханзь
 LEXICON MUTUAL-PRT1-RCPL1
 +Prt1+RcPl1:%>наць K ;
 LEXICON MUTUAL-PRT1-RCPL2
@@ -3131,11 +3131,11 @@ LEXICON MUTUAL-PRT1-RCPL3_NORAISING
 
 !! Non-finites
 LEXICON PRC
-+InfImprf:%>%{вм%}а K ; !!≈ * __@CODE@__ Should this form be here 2013-11-25
-+InfPrf:%>ˮма K ; !!≈ * __@CODE@__ Should this	form be	here 2013-11-25
++InfImprf:%>%{вм%}а K ; ! Should this form be here 2013-11-25
++InfPrf:%>ˮма K ; ! Should this	form be	here 2013-11-25
 +InfImprf:%>%{вм%}а NMN_ӇУДИ ;
 +InfPrf:%>ˮма NMN_ӇУДИ ;
-+PrcPrf:%>%{вм%}ы K ; !!≈ * __@CODE@__ Should this form be here 2013-11-25
++PrcPrf:%>%{вм%}ы K ; ! Should this form be here 2013-11-25
 +PrcPrf:%>%{вм%}ы NMN_ПАНЫ ;
 +Ger: K ;
 +Ger:%>сь K ;
@@ -3148,7 +3148,7 @@ LEXICON PRC
 +Fut+Subord+Abs:ӈгобˮ K ;
 
 LEXICON PRC-IMPRF
-+PrcImprf:%>н%{ая%} K ; !!≈ * __@CODE@__ Should this	form be	here 2013-11-25
++PrcImprf:%>н%{ая%} K ; ! Should this	form be	here 2013-11-25
 +PrcImprf:%>н%{ая%} NMN_ӇУДИ ;
 !+PrcImprf:ня K ;
 
@@ -3194,7 +3194,7 @@ LEXICON PRC2
 +GerFin:%>%{вм%}анзь K ;
 +Subord:%>бˮ K ;
 +Evas:%>%{вм%}оӈгада AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	;
-+Evas:%>%{вм%}оӈгда AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	; !!= * __@CODE@__ ABL
++Evas:%>%{вм%}оӈгда AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES	; ! ABL
 +Evas+Abs:%>%{вм%}оӈгад  K	;
 +Fut+ConNeg:%>тˮ K ;
 +Fut+Subord+Abs:%>табˮ K ;
