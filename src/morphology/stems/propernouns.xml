@@ -342,6 +342,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Валентина</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Валентина</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Valentina</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ванойта</l>
 
       <stg>
@@ -1502,6 +1526,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Pando</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Пирцяко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Пирцяко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Pirtsjako (miehennimi)</t>
       </tg>
     </mg>
   </e>
