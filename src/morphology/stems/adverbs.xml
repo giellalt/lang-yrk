@@ -526,6 +526,30 @@
 
   <e>
     <lg>
+      <l pos="Adv">вэняд</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">вэняд</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>from right</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">väärältä puolelta</t>
+
+        <t pos="Adv">oikealta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">вэтамбойʼ</l>
 
       <stg>
@@ -3560,6 +3584,28 @@
 
   <e>
     <lg>
+      <l pos="Adv">писянзиˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">писянзиˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">nauraamatta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">понʼ</l>
 
       <stg>
@@ -3576,6 +3622,54 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">kauan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">понаркаʼ</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">понаркаʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">aika kauan</t>
+
+        <t pos="Adv">aika pitkään</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">понданʼ</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">понданʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kauan</t>
+
+        <t pos="Adv">pitkään</t>
       </tg>
     </mg>
   </e>
