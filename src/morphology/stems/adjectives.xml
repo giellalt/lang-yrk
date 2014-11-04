@@ -8970,6 +8970,24 @@
 
   <e>
     <lg>
+      <l pos="A">партийной</l>
+
+      <stg>
+        <st Contlex="A_ЕД">партийной</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">puolueellinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">партяв</l>
 
       <stg>
@@ -9314,6 +9332,26 @@
 
   <e>
     <lg>
+      <l pos="A">пидерик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">пидерик</st>
+
+        <st Contlex="A_ЕД">пидехад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kiintyvä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">пидехэй</l>
 
       <stg>
@@ -9404,6 +9442,64 @@
 
       <tg xml:lang="fin">
         <t pos="A">ilkeä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пиняӈы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">пиняӈы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">tämä kaukainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пиняӈы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">пиняӈы</st>
+
+        <st Contlex="A_ЕД">пиний</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">ulkoinen</t>
+
+        <t pos="A">ulkopuolinen</t>
+
+        <t pos="A">päällinen</t>
       </tg>
     </mg>
   </e>
@@ -9544,9 +9640,11 @@
 
   <e>
     <lg>
-      <l pos="A">пихы</l>
+      <l pos="A">пихий</l>
 
       <stg>
+        <st Contlex="A_ЕД">пихий</st>
+
         <st Contlex="A_ПАНЫ">пихы</st>
       </stg>
     </lg>
@@ -9688,6 +9786,24 @@
         <t pos="A">parantuva</t>
 
         <t pos="A">kunnon</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">похобэрка</l>
+
+      <stg>
+        <st Contlex="A_МАРАӇГЫ">похобэрка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">suurin piirtein sopiva</t>
       </tg>
     </mg>
   </e>
@@ -10724,6 +10840,24 @@
         <t pos="A">epämiellyttävä</t>
 
         <t pos="A">vihollis-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пёдхад</l>
+
+      <stg>
+        <st Contlex="A_ЕД">пёдхад</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">tappelunhaluinen</t>
       </tg>
     </mg>
   </e>
