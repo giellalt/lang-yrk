@@ -257,20 +257,20 @@ LEXICON TV_САС-Pal/Var
 +V+TV: PRC_PALVAR2 ;
 
 LEXICON IV_ТИР
-+V+IV: V-01_ТИР       ;
++V+IV: V-NEW_ТИР       ;
 
 LEXICON IV_ТИР-Pal/Var
-+V+IV: V-01_ТИР       ;
++V+IV: V-NEW_ТИР       ;
 +V+IV: PRC_PALVAR2 ;
 
 LEXICON VR_ТИР
 +V+Refl: V-01_ТИР-REFL       ;
 
 LEXICON TV_ТИР
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТИР       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ТИР       ;
 
 LEXICON TV_ТИР-Pal/Var
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТИР       ;
++V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ТИР       ;
 +V+TV: PRC_PALVAR2 ;
 
 !! !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
@@ -1177,6 +1177,7 @@ V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
 LEXICON V-NEW_ХАДАБАСЬ
 !! * Yaml: __V-xadabasj__
  MOD/NARR ;
+:%^A2I MOD/IMPFAPPR-SC_нараха ;
 :%^A2I V-NEW_ODD-SYLL-MUTUAL-MINUS-V ;
 :%^A2I V-NEW_ODD-SYLL-MUTUAL-ZERO ;
  V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
@@ -1705,49 +1706,105 @@ LEXICON V-01_САС-REFL ! V_refl 2013-03-04
 +Ind: IND-AOR-RCPL2 	;
 +Ind: IND-AOR-RCPL3 	;
 
-LEXICON V-01_ТИР  !!≈ * __@CODE@__
-+Ind00@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
-+Ind@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
-+Ind@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
+LEXICON V-NEW_ТИР  !!≈ * __@CODE@__
+ CONJ_ъи ;
+ FUT-SC_та ;
+ HORT-SC ;
+: IMPRT-SCSG2 ;
+:ӈа IMPRT-SCDU2 ;
+:ӈа IMPRT-SCPL2 ;
+:ӈа IND-AOR/PRT1-SC ;
+:ӈа IND-AOR-SCDU3 ;
+:ӈа IND-PRT1-SCDU3 ;
+ MOD/HYP-SC_рхавы ;
+:Ӈ1 V-NEW_MUTUAL-MODFUTAPPR_ванд ;
+:ˮ%^SCSG2 MOD/IMPFAPPR_нараха ;
+ MOD/INT-SC_ца ;
+:Ӈ1 MOD/NARR ;
+ MOD/NEC-SC_цу ;
+MOD/OBL-SC_цакэ ;
+:Ӈ1 MOD/PERFAPPR-SC_вэраха ;
+:Ӈ1 MOD/PERFPROB-SC_вэкы ;
+:ˮ%^SCSG2 MOD/PROB-SC ;
+:Ӈ1 MOD/SUP-SC_ванӈгабя ;
+:ӈа OPT-SC ;
+    OPT-OC_ZERO ;
 
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
- V_PREC ;
- V_Hort ;
-@R.CONJ.ObjAll@ V_Hort-Obj ;
- V_Imprt-Scsg2 ;
-:%>ӈа V_Imprt ;
-@R.CONJ.ObjAll@ V_Imprt-Obj ;
-:%>ӈа V_Opt ;
-000@R.CONJ.ObjAll@:%>ӈа@R.CONJ.ObjAll@ V_Opt-Obj ;
- V_Conj ; 
- V_Mod/int ;
- V_Mod/narr ;
- V_Mod/narrPrt ;
- V_Mod/nec_ass ;
- V_Mod/perfprob ;
-:С1 V_Mod/prob ;
- V_Mod/perfappr ;
-:С1 V_Mod/appr_НАРАХА ; 
- V_Mod/des ;
- V_Mod/futappr ;
- V_Mod/hyp ;
- V_Mod/obl ;
- V_Mod/rep ;
- V_Mod/sup ;
- V_HAB ;
- V_Fut_ТА ;
-:С1 V_Subord ;
- V_AUD ;
-:%>ӈа IND-AOR		;
-:%>ӈа IND-AOR-SG3 	;
-:%>ӈа IND-AOR-DU3 	;
-+Ind:%>ӈа IND-4-PRT1-DU3 ;
-+Ind:%>ӈа IND-4-PRT1		;
- PRC2 ;
-:С1 PRC-IMPRF ;
- PRC-FUT ;
- PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
- CONNEG ;
+!2!:ӈа V-NEW_ODD-SYLL-MUTUAL-MINUS-V ;
+!2!:ӈа V-NEW_ODD-SYLL-MUTUAL-ZERO ;
+!2! V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
+!2!! V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+!2!!:%^VowLoss V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+!2! V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+!2!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+!2!! V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+!2!!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+!2!! V-NEW_BI-SYLL-MUTUAL-MODREP ;
+!2!!:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODREP ;
+!2!@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+!2!! V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
+!:ӈа V-NEW_MUTUAL-MINUS-V ;
++Ger:%>сь K ;
++Ger: K ;
+ V-NEW_MUTUAL-PRCFUT_внд ;
+:%^VowRaise V-NEW_MUTUAL-PRCFUT_внд ;
+ V-NEW_MUTUAL-PRCNEG ;
+:%^VowRaise V-NEW_MUTUAL-PRCNEG ;
+ V-NEW_MUTUAL-PRCIMPF ;
+ V-NEW_MUTUAL-MODREP ;
+:%^VowRaise V-NEW_MUTUAL-MODREP ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
+@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
++ConNeg:%^VowLoss%>ˮ K ;
++Imprt+ScSg2:%^VowLoss%>ˮ K ;
+@R.CONJ.ObjAll@:%^VowLoss%>ы%>@R.CONJ.ObjAll@  V-OBJ-NEW_MUTUAL-IND-AOR/PRT1-OCPL3_ын ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
+@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
+@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_ванд ;
+
+
+!+Ind00@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
+!+Ind@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
+!+Ind@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
+!
+!+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+! V_PREC ;
+! V_Hort ;
+!@R.CONJ.ObjAll@ V_Hort-Obj ;
+! V_Imprt-Scsg2 ;
+!:%>ӈа V_Imprt ;
+!@R.CONJ.ObjAll@ V_Imprt-Obj ;
+!:%>ӈа V_Opt ;
+!000@R.CONJ.ObjAll@:%>ӈа@R.CONJ.ObjAll@ V_Opt-Obj ;
+! V_Conj ; 
+! V_Mod/int ;
+! V_Mod/narr ;
+! V_Mod/narrPrt ;
+! V_Mod/nec_ass ;
+! V_Mod/perfprob ;
+!:С1 V_Mod/prob ;
+! V_Mod/perfappr ;
+!:С1 V_Mod/appr_НАРАХА ; 
+! V_Mod/des ;
+! V_Mod/futappr ;
+! V_Mod/hyp ;
+! V_Mod/obl ;
+! V_Mod/rep ;
+! V_Mod/sup ;
+! V_HAB ;
+! V_Fut_ТА ;
+!:С1 V_Subord ;
+! V_AUD ;
+!:%>ӈа IND-AOR		;
+!:%>ӈа IND-AOR-SG3 	;
+!:%>ӈа IND-AOR-DU3 	;
+!+Ind:%>ӈа IND-4-PRT1-DU3 ;
+!+Ind:%>ӈа IND-4-PRT1		;
+! PRC2 ;
+!:С1 PRC-IMPRF ;
+! PRC-FUT ;
+! PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
+! CONNEG ;
 
 
 LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
@@ -1800,7 +1857,7 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  CONNEG ;
 
 
-!! !TWOO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+!! !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 LEXICON V-01_НЭКАЛ  !!≈ * __@CODE@__ нэкалць:нэкал
 +Ind0@R.CONJ.ObjAll@:ӈа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
@@ -4450,50 +4507,11 @@ LEXICON V-NEW_MUTUAL
 +Aud+Prt1+PxPl3:%>вондонзь K ;
 +Aud+Prt1+PxPl3:%>ванондонзь K ;
 !! ◊_subj
-+Ind+Aor+ScSg1:%>дмʼ K ;
-+Ind+Aor+ScSg2:%>н K ;
-+Ind+Aor+ScSg3:%> K ;
-+Ind+Aor+ScDu1:%>ниʼ K ;
-+Ind+Aor+ScDu2:%>диʼ K ;
-+Ind+Aor+ScDu3:%>ӈахаʼ K ;
-+Ind+Aor+ScPl1:%>ваˮ K ;
-+Ind+Aor+ScPl2:%>даˮ K ;
-+Ind+Aor+ScPl3:%>ˮ K ;
-+Ind+Prt1+ScSg1:%>дамзь K ;
-+Ind+Prt1+ScSg2:%>нась K ;
-+Ind+Prt1+ScSg3:%>сь K ;
-+Ind+Prt1+ScDu1:%>нинзь K ;
-+Ind+Prt1+ScDu2:%>динзь K ;
-+Ind+Prt1+ScDu3:%>ӈаханзь K ;
-+Ind+Prt1+ScPl1:%>ваць K ;
-+Ind+Prt1+ScPl2:%>даць K ;
-+Ind+Prt1+ScPl3:%>ць K ;
-+Hort+ScSg1:%>х%{ауоэØ%}дмʼ K ;
-+Hort+ScDu1:%>х%{ауоэØ%}ниʼ K ;
-+Hort+ScPl1:%>х%{ауоэØ%}ваˮ K ;
+ IND-AOR/PRT1-SC ;
+ HORT-SC ;
 +Imprt+ScDu2:%>диʼ K ;
 +Imprt+ScPl2:%>даˮ K ;
-+Opt+ScSg3:%>я K ;
-+Opt+ScDu3:%>яхаʼ K ;
-+Opt+ScPl3:%>яˮ K ;
-+Conj+Aor+ScSg1:%>идмʼ K ;
-+Conj+Aor+ScSg2:%>ин K ;
-+Conj+Aor+ScSg3:%>и K ;
-+Conj+Aor+ScDu1:%>иниʼ K ;
-+Conj+Aor+ScDu2:%>идиʼ K ;
-+Conj+Aor+ScDu3:%>ихиʼ K ;
-+Conj+Aor+ScPl1:%>иваˮ K ;
-+Conj+Aor+ScPl2:%>идаˮ K ;
-+Conj+Aor+ScPl3:%>иˮ K ;
-+Conj+Prt1+ScSg1:%>идамзь K ;
-+Conj+Prt1+ScSg2:%>инась K ;
-+Conj+Prt1+ScSg3:%>ись K ;
-+Conj+Prt1+ScDu1:%>ининзь K ;
-+Conj+Prt1+ScDu2:%>идинзь K ;
-+Conj+Prt1+ScDu3:%>ихинзь K ;
-+Conj+Prt1+ScPl1:%>иваць K ;
-+Conj+Prt1+ScPl2:%>идаць K ;
-+Conj+Prt1+ScPl3:%>иць K ;
+ CONJ-FOR-SC_и ;
 +Mod/nec+ScSg1:%>бцудмʼ K ;
 +Mod/nec+ScSg2:%>бцун K ;
 +Mod/nec+ScSg3:%>бцу K ;
@@ -4532,70 +4550,9 @@ LEXICON V-NEW_MUTUAL
 +Mod/narr+Prt1+ScPl2:%>вэдаць K ;
 +Mod/narr+Prt1+ScPl3:%>выць K ;
 +Mod/narr+Prt1+ScPl3:%>вэць K ;
-+Mod/prob+Aor+ScSg1:%>накэдмʼ K ;
-+Mod/prob+Aor+ScSg2:%>накэн K ;
-+Mod/prob+Aor+ScSg3:%>накы K ;
-+Mod/prob+Aor+ScDu1:%>накэниʼ K ;
-+Mod/prob+Aor+ScDu2:%>накэдиʼ K ;
-+Mod/prob+Aor+ScDu3:%>накэхэʼ K ;
-+Mod/prob+Aor+ScPl1:%>накэваˮ K ;
-+Mod/prob+Aor+ScPl2:%>накэдаˮ K ;
-+Mod/prob+Aor+ScPl3:%>накыˮ K ;
-+Mod/obl+ScSg1:%>бцакэдмʼ K ;
-+Mod/obl+ScSg2:%>бцакэн K ;
-+Mod/obl+ScSg3:%>бцакы K ;
-+Mod/obl+ScDu1:%>бцакэниʼ K ;
-+Mod/obl+ScDu2:%>бцакэдиʼ K ;
-+Mod/obl+ScDu3:%>бцакэхэʼ K ;
-+Mod/obl+ScPl1:%>бцакэваˮ K ;
-+Mod/obl+ScPl2:%>бцакэдаˮ K ;
-+Mod/obl+ScPl3:%>бцакыˮ K ;
-+Mod/impfappr+Aor+ScSg1:%>нарахадмʼ K ;
-+Mod/impfappr+Aor+ScSg2:%>нарахан K ;
-+Mod/impfappr+Aor+ScSg3:%>нараха K ;
-+Mod/impfappr+Aor+ScDu1:%>нараханиʼ K ;
-+Mod/impfappr+Aor+ScDu2:%>нарахадиʼ K ;
-+Mod/impfappr+Aor+ScDu3:%>нарахахаʼ K ;
-+Mod/impfappr+Aor+ScPl1:%>нарахаваˮ K ;
-+Mod/impfappr+Aor+ScPl2:%>нарахадаˮ K ;
-+Mod/impfappr+Aor+ScPl3:%>нарахаˮ K ;
-+Mod/impfappr+Prt1+ScSg1:%>нарахадамзь K ;
-+Mod/impfappr+Prt1+ScSg2:%>нараханась K ;
-+Mod/impfappr+Prt1+ScSg3:%>нарахась K ;
-+Mod/impfappr+Prt1+ScDu1:%>нараханинзь K ;
-+Mod/impfappr+Prt1+ScDu2:%>нарахадинзь K ;
-+Mod/impfappr+Prt1+ScDu3:%>нарахаханзь K ;
-+Mod/impfappr+Prt1+ScPl1:%>нарахаваць K ;
-+Mod/impfappr+Prt1+ScPl2:%>нарахадаць K ;
-+Mod/impfappr+Prt1+ScPl3:%>нарахаць K ;
-+Mod/perfappr+ScSg1:%>вэрахадмʼ K ;
-+Mod/perfappr+ScSg2:%>вэрахан K ;
-+Mod/perfappr+ScSg3:%>вэраха K ;
-+Mod/perfappr+ScDu1:%>вэраханиʼ K ;
-+Mod/perfappr+ScDu2:%>вэрахадиʼ K ;
-+Mod/perfappr+ScDu3:%>вэрахахаʼ K ;
-+Mod/perfappr+ScPl1:%>вэрахаваˮ K ;
-+Mod/perfappr+ScPl2:%>вэрахадаˮ K ;
-+Mod/perfappr+ScPl3:%>вэрахаˮ K ;
 !
-+Mod/sup+ScSg1:%>ванӈгабядмʼ K ;
-+Mod/sup+ScSg2:%>ванӈгабян K ;
-+Mod/sup+ScSg3:%>ванӈгабя K ;
-+Mod/sup+ScDu1:%>ванӈгабяниʼ K ;
-+Mod/sup+ScDu2:%>ванӈгабядиʼ K ;
-+Mod/sup+ScDu3:%>ванӈгабяхаʼ K ;
-+Mod/sup+ScPl1:%>ванӈгабяваˮ K ;
-+Mod/sup+ScPl2:%>ванӈгабядаˮ K ;
-+Mod/sup+ScPl3:%>ванӈгабяˮ K ;
-+Mod/hyp+ScSg1:%>рхавэдмʼ K ;
-+Mod/hyp+ScSg2:%>рхавэн K ;
-+Mod/hyp+ScSg3:%>рхавы K ;
-+Mod/hyp+ScDu1:%>рхавэниʼ K ;
-+Mod/hyp+ScDu2:%>рхавэдиʼ K ;
-+Mod/hyp+ScDu3:%>рхавэхэʼ K ;
-+Mod/hyp+ScPl1:%>рхавэваˮ K ;
-+Mod/hyp+ScPl2:%>рхавэдаˮ K ;
-+Mod/hyp+ScPl3:%>рхавыˮ K ;
+ MOD/IMPFAPPR-SC_нараха ;
+!
 +Mod/perfprob+ScSg1:%>вэкэдмʼ K ;
 +Mod/perfprob+ScSg2:%>вэкэн K ;
 +Mod/perfprob+ScSg3:%>вэкы K ;
@@ -4707,52 +4664,9 @@ LEXICON V-NEW_MUTUAL
 
 LEXICON V-OBJ-NEW_MUTUAL
 !! ◊_obj 
-+Ind+Aor+ScSg1+OcSg3:%>в K ;
-+Ind+Aor+ScSg2+OcSg3:%>р K ;
-+Ind+Aor+ScSg3+OcSg3:%>да K ;
-+Ind+Aor+ScDu1+OcSg3:%>миʼ K ;
-+Ind+Aor+ScDu2+OcSg3:%>риʼ K ;
-+Ind+Aor+ScDu3+OcSg3:%>диʼ K ;
-+Ind+Aor+ScPl1+OcSg3:%>ваˮ K ;
-+Ind+Aor+ScPl2+OcSg3:%>раˮ K ;
-+Ind+Aor+ScPl3+OcSg3:%>доʼ K ;
-+Ind+Aor+ScSg1+OcDu3:%>ӈахаюн K ;
-+Ind+Aor+ScSg2+OcDu3:%>ӈахаюд K ;
-+Ind+Aor+ScSg3+OcDu3:%>ӈахаюда K ;
-+Ind+Aor+ScDu1+OcDu3:%>ӈахаюниʼ K ;
-+Ind+Aor+ScDu2+OcDu3:%>ӈахаюдиʼ K ;
-+Ind+Aor+ScDu3+OcDu3:%>ӈахаюдиʼ K ;
-+Ind+Aor+ScPl1+OcDu3:%>ӈахаюнаˮ K ;
-+Ind+Aor+ScPl2+OcDu3:%>ӈахаюдаˮ K ;
-+Ind+Aor+ScPl3+OcDu3:%>ӈахаюдоʼ K ;
-+Ind+Prt1+ScSg1+OcSg3:%>вась K ;
-+Ind+Prt1+ScSg2+OcSg3:%>рась K ;
-+Ind+Prt1+ScSg3+OcSg3:%>дась K ;
-+Ind+Prt1+ScDu1+OcSg3:%>минзь K ;
-+Ind+Prt1+ScDu2+OcSg3:%>ринзь K ;
-+Ind+Prt1+ScDu3+OcSg3:%>динзь K ;
-+Ind+Prt1+ScPl1+OcSg3:%>ваць K ;
-+Ind+Prt1+ScPl2+OcSg3:%>раць K ;
-+Ind+Prt1+ScPl3+OcSg3:%>донзь K ;
-+Ind+Prt1+ScSg1+OcDu3:%>ӈахаюнась K ;
-+Ind+Prt1+ScSg2+OcDu3:%>ӈахаюдась K ;
-+Ind+Prt1+ScSg3+OcDu3:%>ӈахаюдась K ;
-+Ind+Prt1+ScDu1+OcDu3:%>ӈахаюнинзь K ;
-+Ind+Prt1+ScDu2+OcDu3:%>ӈахаюдинзь K ;
-+Ind+Prt1+ScDu3+OcDu3:%>ӈахаюдинзь K ;
-+Ind+Prt1+ScPl1+OcDu3:%>ӈахаюнаць K ;
-+Ind+Prt1+ScPl2+OcDu3:%>ӈахаюдаць K ;
-+Ind+Prt1+ScPl3+OcDu3:%>ӈахаюдонзь K ;
-+Hort+ScSg1+OcSg3:%>х%{ауоэØ%}в K ;
-+Hort+ScSg1+OcSg3:%>хув K ;
-+Hort+ScDu1+OcSg3:%>х%{ауоэØ%}миʼ K ;
-+Hort+ScPl1+OcSg3:%>х%{ауоэØ%}ваˮ K ;
-+Hort+ScSg1+OcDu3:%>х%{ауоэØ%}х%{ауоэØ%}юн K ;
-+Hort+ScDu1+OcDu3:%>х%{ауоэØ%}х%{ауоэØ%}юниʼ K ;
-+Hort+ScPl1+OcDu3:%>х%{ауоэØ%}х%{ауоэØ%}юнаˮ K ;
-+Hort+ScSg1+OcPl3:%>х%{ауоэØ%}н K ;
-+Hort+ScDu1+OcPl3:%>х%{ауоэØ%}ниʼ K ;
-+Hort+ScPl1+OcPl3:%>х%{ауоэØ%}наˮ K ;
+ IND-AOR-OC ;
+ IND-PRT1-OC ;
+ HORT-OC ;
 +Imprt+ScSg2+OcSg3:%>д K ;
 +Imprt+ScDu2+OcSg3:%>риʼ K ;
 +Imprt+ScPl2+OcSg3:%>раˮ K ;
@@ -4766,60 +4680,9 @@ LEXICON V-OBJ-NEW_MUTUAL
 +Opt+ScSg3+OcDu3:%>ӈахаюдамда K ;
 +Opt+ScDu3+OcDu3:%>ӈахаюдамдиʼ K ;
 +Opt+ScPl3+OcDu3:%>ӈахаюдамдоʼ K ;
-+Conj+Aor+ScSg1+OcSg3:%>ив K ;
-+Conj+Aor+ScSg2+OcSg3:%>ир K ;
-+Conj+Aor+ScSg3+OcSg3:%>ида K ;
-+Conj+Aor+ScDu1+OcSg3:%>имиʼ K ;
-+Conj+Aor+ScDu2+OcSg3:%>ириʼ K ;
-+Conj+Aor+ScDu3+OcSg3:%>идиʼ K ;
-+Conj+Aor+ScPl1+OcSg3:%>иваˮ K ;
-+Conj+Aor+ScPl2+OcSg3:%>ираˮ K ;
-+Conj+Aor+ScPl3+OcSg3:%>идоʼ K ;
-+Conj+Aor+ScSg1+OcDu3:%>ихиюн K ;
-+Conj+Aor+ScSg2+OcDu3:%>ихиюд K ;
-+Conj+Aor+ScSg3+OcDu3:%>ихиюда K ;
-+Conj+Aor+ScDu1+OcDu3:%>ихиюниʼ K ;
-+Conj+Aor+ScDu2+OcDu3:%>ихиюдиʼ K ;
-+Conj+Aor+ScDu3+OcDu3:%>ихиюдиʼ K ;
-+Conj+Aor+ScPl1+OcDu3:%>ихиюнаˮ K ;
-+Conj+Aor+ScPl2+OcDu3:%>ихиюдаˮ K ;
-+Conj+Aor+ScPl3+OcDu3:%>ихиюдоʼ K ;
-+Conj+Aor+ScSg1+OcPl3:%>ин K ;
-+Conj+Aor+ScSg2+OcPl3:%>ид K ;
-+Conj+Aor+ScSg3+OcPl3:%>ида K ;
-+Conj+Aor+ScDu1+OcPl3:%>иниʼ K ;
-+Conj+Aor+ScDu2+OcPl3:%>идиʼ K ;
-+Conj+Aor+ScDu3+OcPl3:%>идиʼ K ;
-+Conj+Aor+ScPl1+OcPl3:%>инаˮ K ;
-+Conj+Aor+ScPl2+OcPl3:%>идаˮ K ;
-+Conj+Aor+ScPl3+OcPl3:%>идоʼ K ;
-+Conj+Prt1+ScSg1+OcSg3:%>ивась K ;
-+Conj+Prt1+ScSg2+OcSg3:%>ирась K ;
-+Conj+Prt1+ScSg3+OcSg3:%>идась K ;
-+Conj+Prt1+ScDu1+OcSg3:%>иминзь K ;
-+Conj+Prt1+ScDu2+OcSg3:%>иринзь K ;
-+Conj+Prt1+ScDu3+OcSg3:%>идинзь K ;
-+Conj+Prt1+ScPl1+OcSg3:%>иваць K ;
-+Conj+Prt1+ScPl2+OcSg3:%>ираць K ;
-+Conj+Prt1+ScPl3+OcSg3:%>идонзь K ;
-+Conj+Prt1+ScSg1+OcDu3:%>ихиюнась K ;
-+Conj+Prt1+ScSg2+OcDu3:%>ихиюдась K ;
-+Conj+Prt1+ScSg3+OcDu3:%>ихиюдась K ;
-+Conj+Prt1+ScDu1+OcDu3:%>ихиюнинзь K ;
-+Conj+Prt1+ScDu2+OcDu3:%>ихиюдинзь K ;
-+Conj+Prt1+ScDu3+OcDu3:%>ихиюдинзь K ;
-+Conj+Prt1+ScPl1+OcDu3:%>ихиюнаць K ;
-+Conj+Prt1+ScPl2+OcDu3:%>ихиюдаць K ;
-+Conj+Prt1+ScPl3+OcDu3:%>ихиюдонзь K ;
-+Conj+Prt1+ScSg1+OcPl3:%>инась K ;
-+Conj+Prt1+ScSg2+OcPl3:%>идась K ;
-+Conj+Prt1+ScSg3+OcPl3:%>идась K ;
-+Conj+Prt1+ScDu1+OcPl3:%>ининзь K ;
-+Conj+Prt1+ScDu2+OcPl3:%>идинзь K ;
-+Conj+Prt1+ScDu3+OcPl3:%>идинзь K ;
-+Conj+Prt1+ScPl1+OcPl3:%>инаць K ;
-+Conj+Prt1+ScPl2+OcPl3:%>идаць K ;
-+Conj+Prt1+ScPl3+OcPl3:%>идонзь K ;
+!
+ CONJ-FOR-OC_и ;
+
 +Mod/nec+ScSg1+OcSg3:%>бцув K ;
 +Mod/nec+ScSg2+OcSg3:%>бцур K ;
 +Mod/nec+ScSg3+OcSg3:%>бцуда K ;
@@ -4982,60 +4845,7 @@ LEXICON V-OBJ-NEW_MUTUAL
 +Mod/obl+ScPl1+OcPl3:%>бцакынаˮ K ;
 +Mod/obl+ScPl2+OcPl3:%>бцакыдаˮ K ;
 +Mod/obl+ScPl3+OcPl3:%>бцакыдоʼ K ;
-+Mod/impfappr+Aor+ScSg1+OcSg3:%>нарахав K ;
-+Mod/impfappr+Aor+ScSg2+OcSg3:%>нарахар K ;
-+Mod/impfappr+Aor+ScSg3+OcSg3:%>нарахада K ;
-+Mod/impfappr+Aor+ScDu1+OcSg3:%>нарахамиʼ K ;
-+Mod/impfappr+Aor+ScDu2+OcSg3:%>нарахариʼ K ;
-+Mod/impfappr+Aor+ScDu3+OcSg3:%>нарахадиʼ K ;
-+Mod/impfappr+Aor+ScPl1+OcSg3:%>нарахаваˮ K ;
-+Mod/impfappr+Aor+ScPl2+OcSg3:%>нарахараˮ K ;
-+Mod/impfappr+Aor+ScPl3+OcSg3:%>нарахадоʼ K ;
-+Mod/impfappr+Aor+ScSg1+OcDu3:%>нарахахаюн K ;
-+Mod/impfappr+Aor+ScSg2+OcDu3:%>нарахахаюд K ;
-+Mod/impfappr+Aor+ScSg3+OcDu3:%>нарахахаюда K ;
-+Mod/impfappr+Aor+ScDu1+OcDu3:%>нарахахаюниʼ K ;
-+Mod/impfappr+Aor+ScDu2+OcDu3:%>нарахахаюдиʼ K ;
-+Mod/impfappr+Aor+ScDu3+OcDu3:%>нарахахаюдиʼ K ;
-+Mod/impfappr+Aor+ScPl1+OcDu3:%>нарахахаюнаˮ K ;
-+Mod/impfappr+Aor+ScPl2+OcDu3:%>нарахахаюдаˮ K ;
-+Mod/impfappr+Aor+ScPl3+OcDu3:%>нарахахаюдоʼ K ;
-+Mod/impfappr+Aor+ScSg1+OcPl3:%>нарыхын K ;
-+Mod/impfappr+Aor+ScSg2+OcPl3:%>нарыхыд K ;
-+Mod/impfappr+Aor+ScSg3+OcPl3:%>нарыхыда K ;
-+Mod/impfappr+Aor+ScDu1+OcPl3:%>нарыхыниʼ K ;
-+Mod/impfappr+Aor+ScDu2+OcPl3:%>нарыхыдиʼ K ;
-+Mod/impfappr+Aor+ScDu3+OcPl3:%>нарыхыдиʼ K ;
-+Mod/impfappr+Aor+ScPl1+OcPl3:%>нарыхынаˮ K ;
-+Mod/impfappr+Aor+ScPl2+OcPl3:%>нарыхыдаˮ K ;
-+Mod/impfappr+Aor+ScPl3+OcPl3:%>нарыхыдоʼ K ;
-+Mod/impfappr+Prt1+ScSg1+OcSg3:%>нарахавась K ;
-+Mod/impfappr+Prt1+ScSg2+OcSg3:%>нарахарась K ;
-+Mod/impfappr+Prt1+ScSg3+OcSg3:%>нарахадась K ;
-+Mod/impfappr+Prt1+ScDu1+OcSg3:%>нарахаминзь K ;
-+Mod/impfappr+Prt1+ScDu2+OcSg3:%>нарахаринзь K ;
-+Mod/impfappr+Prt1+ScDu3+OcSg3:%>нарахадинзь K ;
-+Mod/impfappr+Prt1+ScPl1+OcSg3:%>нарахаваць K ;
-+Mod/impfappr+Prt1+ScPl2+OcSg3:%>нарахараць K ;
-+Mod/impfappr+Prt1+ScPl3+OcSg3:%>нарахадонзь K ;
-+Mod/impfappr+Prt1+ScSg1+OcDu3:%>нарахахаюнась K ;
-+Mod/impfappr+Prt1+ScSg2+OcDu3:%>нарахахаюдась K ;
-+Mod/impfappr+Prt1+ScSg3+OcDu3:%>нарахахаюдась K ;
-+Mod/impfappr+Prt1+ScDu1+OcDu3:%>нарахахаюнинзь K ;
-+Mod/impfappr+Prt1+ScDu2+OcDu3:%>нарахахаюдинзь K ;
-+Mod/impfappr+Prt1+ScDu3+OcDu3:%>нарахахаюдинзь K ;
-+Mod/impfappr+Prt1+ScPl1+OcDu3:%>нарахахаюнаць K ;
-+Mod/impfappr+Prt1+ScPl2+OcDu3:%>нарахахаюдаць K ;
-+Mod/impfappr+Prt1+ScPl3+OcDu3:%>нарахахаюдонзь K ;
-+Mod/impfappr+Prt1+ScSg1+OcPl3:%>нарыхынась K ;
-+Mod/impfappr+Prt1+ScSg2+OcPl3:%>нарыхыдась K ;
-+Mod/impfappr+Prt1+ScSg3+OcPl3:%>нарыхыдась K ;
-+Mod/impfappr+Prt1+ScDu1+OcPl3:%>нарыхынинзь K ;
-+Mod/impfappr+Prt1+ScDu2+OcPl3:%>нарыхыдинзь K ;
-+Mod/impfappr+Prt1+ScDu3+OcPl3:%>нарыхыдинзь K ;
-+Mod/impfappr+Prt1+ScPl1+OcPl3:%>нарыхынаць K ;
-+Mod/impfappr+Prt1+ScPl2+OcPl3:%>нарыхыдаць K ;
-+Mod/impfappr+Prt1+ScPl3+OcPl3:%>нарыхыдонзь K ;
+ MOD/IMPFAPPR-OC_нараха ;
 +Mod/perfappr+ScSg1+OcSg3:%>вэрахав K ;
 +Mod/perfappr+ScSg2+OcSg3:%>вэрахар K ;
 +Mod/perfappr+ScSg3+OcSg3:%>вэрахада K ;
@@ -6518,9 +6328,6 @@ LEXICON V-OBJ-NEW_MUTUAL-IND-AOR/PRT1-OCPL3_ян
 +Imprt+ScDu2+OcPl3:%>йдиʼ K ;
 +Imprt+ScPl2+OcPl3:%>йдаˮ K ;
 !
-+Opt+ScSg3+OcPl3:%>йдамда K ;
-+Opt+ScDu3+OcPl3:%>йдамдиʼ K ;
-+Opt+ScPl3+OcPl3:%>йдамдоʼ K ;
 
 
 LEXICON V-OBJ-NEW_MUTUAL-IND-AOR/PRT1-OCPL3_ын
@@ -6552,9 +6359,6 @@ LEXICON V-OBJ-NEW_MUTUAL-IND-PRT1-OCPL3_ын
 +Imprt+ScDu2+OcPl3:%>диʼ K ;
 +Imprt+ScPl2+OcPl3:%>даˮ K ;
 !
-+Opt+ScSg3+OcPl3:%>дамда K ;
-+Opt+ScDu3+OcPl3:%>дамдиʼ K ;
-+Opt+ScPl3+OcPl3:%>дамдоʼ K ;
 
 LEXICON V-NEW_MUTUAL-PRCIMPF
 +PrcImprf+Sg+Nom+Abs:%>на K ;
@@ -6879,27 +6683,7 @@ LEXICON V-NEW_BI-SYLL-MUTUAL-MINUS-V
 +Ind+Prt1+ScDu3:%>ӈаханзь K ;
  V-NEW_MUTUAL-MINUS-V ;
 
-LEXICON MOD/NARR
-+Mod/narr+Aor+ScSg1:%>вэдмʼ K ;
-+Mod/narr+Aor+ScSg2:%>вэн K ;
-+Mod/narr+Aor+ScSg3:%>вы K ;
-+Mod/narr+Aor+ScDu1:%>вэниʼ K ;
-+Mod/narr+Aor+ScDu2:%>вэдиʼ K ;
-+Mod/narr+Aor+ScDu3:%>вэхэʼ K ;
-+Mod/narr+Aor+ScPl1:%>вэваˮ K ;
-+Mod/narr+Aor+ScPl2:%>вэдаˮ K ;
-+Mod/narr+Aor+ScPl3:%>выˮ K ;
-+Mod/narr+Prt1+ScSg1:%>вэдамзь K ;
-+Mod/narr+Prt1+ScSg2:%>вэнась K ;
-+Mod/narr+Prt1+ScSg3:%>высь K ;
-+Mod/narr+Prt1+ScSg3:%>вэсь K ;
-+Mod/narr+Prt1+ScDu1:%>вэнинзь K ;
-+Mod/narr+Prt1+ScDu2:%>вэдинзь K ;
-+Mod/narr+Prt1+ScDu3:%>вэхэнзь K ;
-+Mod/narr+Prt1+ScPl1:%>вэваць K ;
-+Mod/narr+Prt1+ScPl2:%>вэдаць K ;
-+Mod/narr+Prt1+ScPl3:%>выць K ;
-+Mod/narr+Prt1+ScPl3:%>вэць K ;
+LEXICON WAS-MOD/NARR
 +InfImprf+Sg+Nom+Abs:%>ва K ;
 !
 +InfPrf+Sg+Nom+Abs:%>ˮма K ;
@@ -7934,27 +7718,8 @@ LEXICON V-NEW_MUTUAL-MINUS-V
 +Aud+Prt1+PxPl3:%>вондонзь K ;
 +Aud+Prt1+PxPl3:%>ванондонзь K ;
 !! ◊_subj
-+Hort+ScSg1:%>х%{ауоэØ%}дмʼ K ;
-+Hort+ScDu1:%>х%{ауоэØ%}ниʼ K ;
-+Hort+ScPl1:%>х%{ауоэØ%}ваˮ K ;
-+Conj+Aor+ScSg1:%>ъидмʼ K ;
-+Conj+Aor+ScSg2:%>ъин K ;
-+Conj+Aor+ScSg3:%>ъи K ;
-+Conj+Aor+ScDu1:%>ъиниʼ K ;
-+Conj+Aor+ScDu2:%>ъидиʼ K ;
-+Conj+Aor+ScDu3:%>ъихиʼ K ;
-+Conj+Aor+ScPl1:%>ъиваˮ K ;
-+Conj+Aor+ScPl2:%>ъидаˮ K ;
-+Conj+Aor+ScPl3:%>ъиˮ K ;
-+Conj+Prt1+ScSg1:%>ъидамзь K ;
-+Conj+Prt1+ScSg2:%>ъинась K ;
-+Conj+Prt1+ScSg3:%>ъись K ;
-+Conj+Prt1+ScDu1:%>ъининзь K ;
-+Conj+Prt1+ScDu2:%>ъидинзь K ;
-+Conj+Prt1+ScDu3:%>ъихинзь K ;
-+Conj+Prt1+ScPl1:%>ъиваць K ;
-+Conj+Prt1+ScPl2:%>ъидаць K ;
-+Conj+Prt1+ScPl3:%>ъиць K ;
+ HORT-SC ;
+ CONJ-FOR-SC_ъи ;
 +Mod/nec+ScSg1:%>бцудмʼ K ;
 +Mod/nec+ScSg2:%>бцун K ;
 +Mod/nec+ScSg3:%>бцу K ;
@@ -8034,33 +7799,19 @@ LEXICON V-NEW_MUTUAL-MINUS-V
 +Prec+Imprt+ScDu2:%>х%{ауоэØ%}рӈадиʼ K ;
 +Prec+Imprt+ScPl2:%>х%{ауоэØ%}рˮӈадаˮ K ;
 +Prec+Imprt+ScPl2:%>х%{ауоэØ%}рӈадаˮ K ;
-+Prec+Opt+ScSg3:%>х%{ауоэØ%}рˮӈая K ;
-+Prec+Opt+ScSg3:%>х%{ауоэØ%}рӈая K ;
-+Prec+Opt+ScDu3:%>х%{ауоэØ%}рˮӈаяхаʼ K ;
-+Prec+Opt+ScDu3:%>х%{ауоэØ%}рӈаяхаʼ K ;
-+Prec+Opt+ScPl3:%>х%{ауоэØ%}рˮӈаяˮ K ;
-+Prec+Opt+ScPl3:%>х%{ауоэØ%}рӈаяˮ K ;
+!
++Prec:%>х%{ауоэØ%}рˮӈа OPT-SC ;
++Prec:%>х%{ауоэØ%}рӈа OPT-SC ;
 
 +Hab+ConNeg:%>сятуˮ K ;!
 +Hab+ConNeg:%>сетуˮ K ;
-+Hab+Ind+Aor+ScSg1:%>сятыдмʼ K ;!
-+Hab+Ind+Aor+ScSg1:%>сетыдмʼ K ;
-+Hab+Ind+Aor+ScSg2:%>сятын K ;!
-+Hab+Ind+Aor+ScSg2:%>сетын K ;
-+Hab+Ind+Aor+ScSg3:%>сяты K ;!
-+Hab+Ind+Aor+ScSg3:%>сеты K ;
-+Hab+Ind+Aor+ScDu1:%>сятыниʼ K ;!
-+Hab+Ind+Aor+ScDu1:%>сетыниʼ K ;
-+Hab+Ind+Aor+ScDu2:%>сятыдиʼ K ;!
-+Hab+Ind+Aor+ScDu2:%>сетыдиʼ K ;
-+Hab+Ind+Aor+ScDu3:%>сятыхыʼ K ;!
-+Hab+Ind+Aor+ScDu3:%>сетыхыʼ K ;
-+Hab+Ind+Aor+ScPl1:%>сятываˮ K ;!
-+Hab+Ind+Aor+ScPl1:%>сетываˮ K ;
-+Hab+Ind+Aor+ScPl2:%>сятыдаˮ K ;!
-+Hab+Ind+Aor+ScPl2:%>сетыдаˮ K ;
-+Hab+Ind+Aor+ScPl3:%>сятыˮ K ;!
-+Hab+Ind+Aor+ScPl3:%>сетыˮ K ;
+
++Hab:%>сеты IND-AOR-SC ;
++Hab:%>сяты IND-AOR-SC ;
++Hab:%>сеты IND-AOR-SCDU3 ;
++Hab:%>сяты IND-AOR-SCDU3 ;
+
+
 +Hab+Mod/narr+ScSg1:%>сятвэдмʼ K ;!
 +Hab+Mod/narr+ScSg1:%>сетвэдмʼ K ;
 +Hab+Mod/narr+ScSg2:%>сятвэн K ;!
@@ -8079,6 +7830,7 @@ LEXICON V-NEW_MUTUAL-MINUS-V
 +Hab+Mod/narr+ScPl2:%>сетвэдаˮ K ;
 +Hab+Mod/narr+ScPl3:%>сятвыˮ K ;!
 +Hab+Mod/narr+ScPl3:%>сетвыˮ K ;
+
 +Mod/perfappr+ScSg1:%>вэрхадмʼ K ;
 +Mod/perfappr+ScSg2:%>вэрхан K ;
 +Mod/perfappr+ScSg3:%>вэрха K ;
@@ -8125,60 +7877,7 @@ LEXICON V-OBJ-NEW_ODD-SYLL-MUTUAL-MINUS-V
 +Opt+ScSg3+OcDu3:%>х%{ауоэØ%}юдамда K ;
 +Opt+ScDu3+OcDu3:%>х%{ауоэØ%}юдамдиʼ K ;
 +Opt+ScPl3+OcDu3:%>х%{ауоэØ%}юдамдоʼ K ;
-+Conj+Aor+ScSg1+OcSg3:%>ъив K ;!
-+Conj+Aor+ScSg2+OcSg3:%>ъир K ;!
-+Conj+Aor+ScSg3+OcSg3:%>ъида K ;!
-+Conj+Aor+ScDu1+OcSg3:%>ъимиʼ K ;!
-+Conj+Aor+ScDu2+OcSg3:%>ъириʼ K ;!
-+Conj+Aor+ScDu3+OcSg3:%>ъидиʼ K ;!
-+Conj+Aor+ScPl1+OcSg3:%>ъиваˮ K ;!
-+Conj+Aor+ScPl2+OcSg3:%>ъираˮ K ;!
-+Conj+Aor+ScPl3+OcSg3:%>ъидоʼ K ;!
-+Conj+Aor+ScSg1+OcDu3:%>ъихиюн K ;!
-+Conj+Aor+ScSg2+OcDu3:%>ъихиюд K ;!
-+Conj+Aor+ScSg3+OcDu3:%>ъихиюда K ;!
-+Conj+Aor+ScDu1+OcDu3:%>ъихиюниʼ K ;!
-+Conj+Aor+ScDu2+OcDu3:%>ъихиюдиʼ K ;!
-+Conj+Aor+ScDu3+OcDu3:%>ъихиюдиʼ K ;!
-+Conj+Aor+ScPl1+OcDu3:%>ъихиюнаˮ K ;!
-+Conj+Aor+ScPl2+OcDu3:%>ъихиюдаˮ K ;!
-+Conj+Aor+ScPl3+OcDu3:%>ъихиюдоʼ K ;!
-+Conj+Aor+ScSg1+OcPl3:%>ъин K ;!
-+Conj+Aor+ScSg2+OcPl3:%>ъид K ;!
-+Conj+Aor+ScSg3+OcPl3:%>ъида K ;!
-+Conj+Aor+ScDu1+OcPl3:%>ъиниʼ K ;!
-+Conj+Aor+ScDu2+OcPl3:%>ъидиʼ K ;!
-+Conj+Aor+ScDu3+OcPl3:%>ъидиʼ K ;!
-+Conj+Aor+ScPl1+OcPl3:%>ъинаˮ K ;!
-+Conj+Aor+ScPl2+OcPl3:%>ъидаˮ K ;!
-+Conj+Aor+ScPl3+OcPl3:%>ъидоʼ K ;!
-+Conj+Prt1+ScSg1+OcSg3:%>ъивась K ;!
-+Conj+Prt1+ScSg2+OcSg3:%>ъирась K ;!
-+Conj+Prt1+ScSg3+OcSg3:%>ъидась K ;!
-+Conj+Prt1+ScDu1+OcSg3:%>ъиминзь K ;!
-+Conj+Prt1+ScDu2+OcSg3:%>ъиринзь K ;!
-+Conj+Prt1+ScDu3+OcSg3:%>ъидинзь K ;!
-+Conj+Prt1+ScPl1+OcSg3:%>ъиваць K ;!
-+Conj+Prt1+ScPl2+OcSg3:%>ъираць K ;!
-+Conj+Prt1+ScPl3+OcSg3:%>ъидонзь K ;!
-+Conj+Prt1+ScSg1+OcDu3:%>ъихиюнась K ;!
-+Conj+Prt1+ScSg2+OcDu3:%>ъихиюдась K ;!
-+Conj+Prt1+ScSg3+OcDu3:%>ъихиюдась K ;!
-+Conj+Prt1+ScDu1+OcDu3:%>ъихиюнинзь K ;!
-+Conj+Prt1+ScDu2+OcDu3:%>ъихиюдинзь K ;!
-+Conj+Prt1+ScDu3+OcDu3:%>ъихиюдинзь K ;!
-+Conj+Prt1+ScPl1+OcDu3:%>ъихиюнаць K ;!
-+Conj+Prt1+ScPl2+OcDu3:%>ъихиюдаць K ;!
-+Conj+Prt1+ScPl3+OcDu3:%>ъихиюдонзь K ;!
-+Conj+Prt1+ScSg1+OcPl3:%>ъинась K ;!
-+Conj+Prt1+ScSg2+OcPl3:%>ъидась K ;!
-+Conj+Prt1+ScSg3+OcPl3:%>ъидась K ;!
-+Conj+Prt1+ScDu1+OcPl3:%>ъининзь K ;!
-+Conj+Prt1+ScDu2+OcPl3:%>ъидинзь K ;!
-+Conj+Prt1+ScDu3+OcPl3:%>ъидинзь K ;!
-+Conj+Prt1+ScPl1+OcPl3:%>ъинаць K ;!
-+Conj+Prt1+ScPl2+OcPl3:%>ъидаць K ;!
-+Conj+Prt1+ScPl3+OcPl3:%>ъидонзь K ;!
+ CONJ-FOR-OC_ъи ;
 +Mod/nec+ScSg1+OcSg3:%>бцув K ;
 +Mod/nec+ScSg2+OcSg3:%>бцур K ;
 +Mod/nec+ScSg3+OcSg3:%>бцуда K ;
@@ -8233,6 +7932,7 @@ LEXICON V-OBJ-NEW_ODD-SYLL-MUTUAL-MINUS-V
 +Mod/int+ScPl1+OcPl3:%>сянаˮ K ;!
 +Mod/int+ScPl2+OcPl3:%>сядаˮ K ;!
 +Mod/int+ScPl3+OcPl3:%>сядоʼ K ;!
+!
 +Mod/narr+Aor+ScSg1+OcSg3:%>вэв K ;
 +Mod/narr+Aor+ScSg2+OcSg3:%>вэр K ;
 +Mod/narr+Aor+ScSg3+OcSg3:%>вэда K ;
@@ -8647,60 +8347,9 @@ LEXICON V-OBJ-NEW_BI-SYLL-MUTUAL-MINUS-V
 +Opt+ScSg3+OcDu3:%>ӈахаюдамда K ;
 +Opt+ScDu3+OcDu3:%>ӈахаюдамдиʼ K ;
 +Opt+ScPl3+OcDu3:%>ӈахаюдамдоʼ K ;
-+Conj+Aor+ScSg1+OcSg3:%>ъив K ;!
-+Conj+Aor+ScSg2+OcSg3:%>ъир K ;!
-+Conj+Aor+ScSg3+OcSg3:%>ъида K ;!
-+Conj+Aor+ScDu1+OcSg3:%>ъимиʼ K ;!
-+Conj+Aor+ScDu2+OcSg3:%>ъириʼ K ;!
-+Conj+Aor+ScDu3+OcSg3:%>ъидиʼ K ;!
-+Conj+Aor+ScPl1+OcSg3:%>ъиваˮ K ;!
-+Conj+Aor+ScPl2+OcSg3:%>ъираˮ K ;!
-+Conj+Aor+ScPl3+OcSg3:%>ъидоʼ K ;!
-+Conj+Aor+ScSg1+OcDu3:%>ъихиюн K ;!
-+Conj+Aor+ScSg2+OcDu3:%>ъихиюд K ;!
-+Conj+Aor+ScSg3+OcDu3:%>ъихиюда K ;!
-+Conj+Aor+ScDu1+OcDu3:%>ъихиюниʼ K ;!
-+Conj+Aor+ScDu2+OcDu3:%>ъихиюдиʼ K ;!
-+Conj+Aor+ScDu3+OcDu3:%>ъихиюдиʼ K ;!
-+Conj+Aor+ScPl1+OcDu3:%>ъихиюнаˮ K ;!
-+Conj+Aor+ScPl2+OcDu3:%>ъихиюдаˮ K ;!
-+Conj+Aor+ScPl3+OcDu3:%>ъихиюдоʼ K ;!
-+Conj+Aor+ScSg1+OcPl3:%>ъин K ;!
-+Conj+Aor+ScSg2+OcPl3:%>ъид K ;!
-+Conj+Aor+ScSg3+OcPl3:%>ъида K ;!
-+Conj+Aor+ScDu1+OcPl3:%>ъиниʼ K ;!
-+Conj+Aor+ScDu2+OcPl3:%>ъидиʼ K ;!
-+Conj+Aor+ScDu3+OcPl3:%>ъидиʼ K ;!
-+Conj+Aor+ScPl1+OcPl3:%>ъинаˮ K ;!
-+Conj+Aor+ScPl2+OcPl3:%>ъидаˮ K ;!
-+Conj+Aor+ScPl3+OcPl3:%>ъидоʼ K ;!
-+Conj+Prt1+ScSg1+OcSg3:%>ъивась K ;!
-+Conj+Prt1+ScSg2+OcSg3:%>ъирась K ;!
-+Conj+Prt1+ScSg3+OcSg3:%>ъидась K ;!
-+Conj+Prt1+ScDu1+OcSg3:%>ъиминзь K ;!
-+Conj+Prt1+ScDu2+OcSg3:%>ъиринзь K ;!
-+Conj+Prt1+ScDu3+OcSg3:%>ъидинзь K ;!
-+Conj+Prt1+ScPl1+OcSg3:%>ъиваць K ;!
-+Conj+Prt1+ScPl2+OcSg3:%>ъираць K ;!
-+Conj+Prt1+ScPl3+OcSg3:%>ъидонзь K ;!
-+Conj+Prt1+ScSg1+OcDu3:%>ъихиюнась K ;!
-+Conj+Prt1+ScSg2+OcDu3:%>ъихиюдась K ;!
-+Conj+Prt1+ScSg3+OcDu3:%>ъихиюдась K ;!
-+Conj+Prt1+ScDu1+OcDu3:%>ъихиюнинзь K ;!
-+Conj+Prt1+ScDu2+OcDu3:%>ъихиюдинзь K ;!
-+Conj+Prt1+ScDu3+OcDu3:%>ъихиюдинзь K ;!
-+Conj+Prt1+ScPl1+OcDu3:%>ъихиюнаць K ;!
-+Conj+Prt1+ScPl2+OcDu3:%>ъихиюдаць K ;!
-+Conj+Prt1+ScPl3+OcDu3:%>ъихиюдонзь K ;!
-+Conj+Prt1+ScSg1+OcPl3:%>ъинась K ;!
-+Conj+Prt1+ScSg2+OcPl3:%>ъидась K ;!
-+Conj+Prt1+ScSg3+OcPl3:%>ъидась K ;!
-+Conj+Prt1+ScDu1+OcPl3:%>ъининзь K ;!
-+Conj+Prt1+ScDu2+OcPl3:%>ъидинзь K ;!
-+Conj+Prt1+ScDu3+OcPl3:%>ъидинзь K ;!
-+Conj+Prt1+ScPl1+OcPl3:%>ъинаць K ;!
-+Conj+Prt1+ScPl2+OcPl3:%>ъидаць K ;!
-+Conj+Prt1+ScPl3+OcPl3:%>ъидонзь K ;!
+!
+CONJ-FOR-OC_ъи ;
+
 +Mod/nec+ScSg1+OcSg3:%>бцув K ;
 +Mod/nec+ScSg2+OcSg3:%>бцур K ;
 +Mod/nec+ScSg3+OcSg3:%>бцуда K ;
@@ -9135,22 +8784,7 @@ LEXICON V-OBJ-NEW_BI-SYLL-MUTUAL-MINUS-V
 
 LEXICON V-NEW_ODD-SYLL-MUTUAL-ZERO
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO ;
-+Ind+Aor+ScSg1:%>дмʼ K ;
-+Ind+Aor+ScSg2:%>н K ;
-+Ind+Aor+ScSg3:%> K ;
-+Ind+Aor+ScDu1:%>ниʼ K ;
-+Ind+Aor+ScDu2:%>диʼ K ;
-+Ind+Aor+ScPl1:%>ваˮ K ;
-+Ind+Aor+ScPl2:%>даˮ K ;
-+Ind+Aor+ScPl3:%>ˮ K ;
-+Ind+Prt1+ScSg1:%>дамзь K ;
-+Ind+Prt1+ScSg2:%>нась K ;
-+Ind+Prt1+ScSg3:%>сь K ;
-+Ind+Prt1+ScDu1:%>нинзь K ;
-+Ind+Prt1+ScDu2:%>динзь K ;
-+Ind+Prt1+ScPl1:%>ваць K ;
-+Ind+Prt1+ScPl2:%>даць K ;
-+Ind+Prt1+ScPl3:%>ць K ;
+ IND-AOR/PRT1-SC ;
 +Imprt+ScDu2:%>диʼ K ;
 +Imprt+ScPl2:%>даˮ K ;
 +Opt+ScSg3:%>я K ;
@@ -9170,22 +8804,7 @@ LEXICON V-NEW_ODD-SYLL-MUTUAL-ZERO
 LEXICON V-NEW_BI-SYLL-MUTUAL-ZERO
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO ;
 ! V-NEW_BI-SYLL-MUTUAL-IND
-+Ind+Aor+ScSg1:%>дмʼ K ;
-+Ind+Aor+ScSg2:%>н K ;
-+Ind+Aor+ScSg3:%> K ;
-+Ind+Aor+ScDu1:%>ниʼ K ;
-+Ind+Aor+ScDu2:%>диʼ K ;
-+Ind+Aor+ScPl1:%>ваˮ K ;
-+Ind+Aor+ScPl2:%>даˮ K ;
-+Ind+Aor+ScPl3:%>ˮ K ;
-+Ind+Prt1+ScSg1:%>дамзь K ;
-+Ind+Prt1+ScSg2:%>нась K ;
-+Ind+Prt1+ScSg3:%>сь K ;
-+Ind+Prt1+ScDu1:%>нинзь K ;
-+Ind+Prt1+ScDu2:%>динзь K ;
-+Ind+Prt1+ScPl1:%>ваць K ;
-+Ind+Prt1+ScPl2:%>даць K ;
-+Ind+Prt1+ScPl3:%>ць K ;
+ IND-AOR/PRT1-SC ;
 +Imprt+ScDu2:%>диʼ K ;
 +Imprt+ScPl2:%>даˮ K ;
 +Opt+ScSg3:%>я K ;
@@ -9595,60 +9214,7 @@ LEXICON V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V
 
 
 LEXICON V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V
-+Mod/impfappr+Aor+ScSg1+OcSg3:%>нархав K ;
-+Mod/impfappr+Aor+ScSg2+OcSg3:%>нархар K ;
-+Mod/impfappr+Aor+ScSg3+OcSg3:%>нархада K ;
-+Mod/impfappr+Aor+ScDu1+OcSg3:%>нархамиʼ K ;
-+Mod/impfappr+Aor+ScDu2+OcSg3:%>нархариʼ K ;
-+Mod/impfappr+Aor+ScDu3+OcSg3:%>нархадиʼ K ;
-+Mod/impfappr+Aor+ScPl1+OcSg3:%>нархаваˮ K ;
-+Mod/impfappr+Aor+ScPl2+OcSg3:%>нархараˮ K ;
-+Mod/impfappr+Aor+ScPl3+OcSg3:%>нархадоʼ K ;
-+Mod/impfappr+Aor+ScSg1+OcDu3:%>нархахаюн K ;
-+Mod/impfappr+Aor+ScSg2+OcDu3:%>нархахаюд K ;
-+Mod/impfappr+Aor+ScSg3+OcDu3:%>нархахаюда K ;
-+Mod/impfappr+Aor+ScDu1+OcDu3:%>нархахаюниʼ K ;
-+Mod/impfappr+Aor+ScDu2+OcDu3:%>нархахаюдиʼ K ;
-+Mod/impfappr+Aor+ScDu3+OcDu3:%>нархахаюдиʼ K ;
-+Mod/impfappr+Aor+ScPl1+OcDu3:%>нархахаюнаˮ K ;
-+Mod/impfappr+Aor+ScPl2+OcDu3:%>нархахаюдаˮ K ;
-+Mod/impfappr+Aor+ScPl3+OcDu3:%>нархахаюдоʼ K ;
-+Mod/impfappr+Aor+ScSg1+OcPl3:%>нархын K ;
-+Mod/impfappr+Aor+ScSg2+OcPl3:%>нархыд K ;
-+Mod/impfappr+Aor+ScSg3+OcPl3:%>нархыда K ;
-+Mod/impfappr+Aor+ScDu1+OcPl3:%>нархыниʼ K ;
-+Mod/impfappr+Aor+ScDu2+OcPl3:%>нархыдиʼ K ;
-+Mod/impfappr+Aor+ScDu3+OcPl3:%>нархыдиʼ K ;
-+Mod/impfappr+Aor+ScPl1+OcPl3:%>нархынаˮ K ;
-+Mod/impfappr+Aor+ScPl2+OcPl3:%>нархыдаˮ K ;
-+Mod/impfappr+Aor+ScPl3+OcPl3:%>нархыдоʼ K ;
-+Mod/impfappr+Prt1+ScSg1+OcSg3:%>нархавась K ;
-+Mod/impfappr+Prt1+ScSg2+OcSg3:%>нархарась K ;
-+Mod/impfappr+Prt1+ScSg3+OcSg3:%>нархадась K ;
-+Mod/impfappr+Prt1+ScDu1+OcSg3:%>нархаминзь K ;
-+Mod/impfappr+Prt1+ScDu2+OcSg3:%>нархаринзь K ;
-+Mod/impfappr+Prt1+ScDu3+OcSg3:%>нархадинзь K ;
-+Mod/impfappr+Prt1+ScPl1+OcSg3:%>нархаваць K ;
-+Mod/impfappr+Prt1+ScPl2+OcSg3:%>нархараць K ;
-+Mod/impfappr+Prt1+ScPl3+OcSg3:%>нархадонзь K ;
-+Mod/impfappr+Prt1+ScSg1+OcDu3:%>нархахаюнась K ;
-+Mod/impfappr+Prt1+ScSg2+OcDu3:%>нархахаюдась K ;
-+Mod/impfappr+Prt1+ScSg3+OcDu3:%>нархахаюдась K ;
-+Mod/impfappr+Prt1+ScDu1+OcDu3:%>нархахаюнинзь K ;
-+Mod/impfappr+Prt1+ScDu2+OcDu3:%>нархахаюдинзь K ;
-+Mod/impfappr+Prt1+ScDu3+OcDu3:%>нархахаюдинзь K ;
-+Mod/impfappr+Prt1+ScPl1+OcDu3:%>нархахаюнаць K ;
-+Mod/impfappr+Prt1+ScPl2+OcDu3:%>нархахаюдаць K ;
-+Mod/impfappr+Prt1+ScPl3+OcDu3:%>нархахаюдонзь K ;
-+Mod/impfappr+Prt1+ScSg1+OcPl3:%>нархынась K ;
-+Mod/impfappr+Prt1+ScSg2+OcPl3:%>нархыдась K ;
-+Mod/impfappr+Prt1+ScSg3+OcPl3:%>нархыдась K ;
-+Mod/impfappr+Prt1+ScDu1+OcPl3:%>нархынинзь K ;
-+Mod/impfappr+Prt1+ScDu2+OcPl3:%>нархыдинзь K ;
-+Mod/impfappr+Prt1+ScDu3+OcPl3:%>нархыдинзь K ;
-+Mod/impfappr+Prt1+ScPl1+OcPl3:%>нархынаць K ;
-+Mod/impfappr+Prt1+ScPl2+OcPl3:%>нархыдаць K ;
-+Mod/impfappr+Prt1+ScPl3+OcPl3:%>нархыдонзь K ;
+MOD/IMPFAPPR-OC_нарха ;
 +Mod/prob+Aor+ScSg1+OcSg3:%>накэв K ;
 +Mod/prob+Aor+ScSg2+OcSg3:%>накэр K ;
 +Mod/prob+Aor+ScSg3+OcSg3:%>накэда K ;
@@ -11020,25 +10586,421 @@ LEXICON V-NEW_BI-SYLL-MUTUAL-FUT
 !REMOVE+Fut+Subord/бˮна2+PxPl3:%>ӈгобаˮнандоʼ K ;
 !REMOVE+Fut+Subord/бˮна2+PxPl3:%>ӈгодабˮнандоʼ K ;
 
+LEXICON CONJ_ъи
++Conj:%>ъи AFTER-CONJ-FOR-SC ;
++Conj00@R.CONJ.ObjAll@:%>ъи@R.CONJ.ObjAll@ AFTER-CONJ-FOR-OC ;
+LEXICON CONJ_и
++Conj:%>и AFTER-CONJ-FOR-SC ;
++Conj00@R.CONJ.ObjAll@:%>и@R.CONJ.ObjAll@ AFTER-CONJ-FOR-OC ;
+
+LEXICON CONJ-FOR-SC_и
++Conj:%>и AFTER-CONJ-FOR-SC ;
+
+LEXICON CONJ-FOR-SC_ъи
++Conj:%>ъи AFTER-CONJ-FOR-SC ;
+
+LEXICON AFTER-CONJ-FOR-SC
++Aor+ScSg1:%>дмʼ K ;
++Aor+ScSg2:%>н K ;
++Aor+ScSg3: K ;
++Aor+ScDu1:%>ниʼ K ;
++Aor+ScDu2:%>диʼ K ;
++Aor+ScDu3:%>хиʼ K ;
++Aor+ScPl1:%>ваˮ K ;
++Aor+ScPl2:%>даˮ K ;
++Aor+ScPl3:%>ˮ K ;
++Prt1+ScSg1:%>дамзь K ;
++Prt1+ScSg2:%>нась K ;
++Prt1+ScSg3:%>сь K ;
++Prt1+ScDu1:%>нинзь K ;
++Prt1+ScDu2:%>динзь K ;
++Prt1+ScDu3:%>хинзь K ;
++Prt1+ScPl1:%>ваць K ;
++Prt1+ScPl2:%>даць K ;
++Prt1+ScPl3:%>ць K ;
+
+LEXICON CONJ-FOR-OC_и
++Conj:%>и AFTER-CONJ-FOR-OC ;
+
+LEXICON CONJ-FOR-OC_ъи
++Conj:%>ъи AFTER-CONJ-FOR-OC ;
+
+LEXICON AFTER-CONJ-FOR-OC
++Aor+ScSg1+OcSg3:%>в K ;!
++Aor+ScSg2+OcSg3:%>р K ;!
++Aor+ScSg3+OcSg3:%>да K ;!
++Aor+ScDu1+OcSg3:%>миʼ K ;!
++Aor+ScDu2+OcSg3:%>риʼ K ;!
++Aor+ScDu3+OcSg3:%>диʼ K ;!
++Aor+ScPl1+OcSg3:%>ваˮ K ;!
++Aor+ScPl2+OcSg3:%>раˮ K ;!
++Aor+ScPl3+OcSg3:%>доʼ K ;!
++Aor+ScSg1+OcDu3:%>хиюн K ;!
++Aor+ScSg2+OcDu3:%>хиюд K ;!
++Aor+ScSg3+OcDu3:%>хиюда K ;!
++Aor+ScDu1+OcDu3:%>хиюниʼ K ;!
++Aor+ScDu2+OcDu3:%>хиюдиʼ K ;!
++Aor+ScDu3+OcDu3:%>хиюдиʼ K ;!
++Aor+ScPl1+OcDu3:%>хиюнаˮ K ;!
++Aor+ScPl2+OcDu3:%>хиюдаˮ K ;!
++Aor+ScPl3+OcDu3:%>хиюдоʼ K ;!
++Aor+ScSg1+OcPl3:%>н K ;!
++Aor+ScSg2+OcPl3:%>д K ;!
++Aor+ScSg3+OcPl3:%>да K ;!
++Aor+ScDu1+OcPl3:%>ниʼ K ;!
++Aor+ScDu2+OcPl3:%>диʼ K ;!
++Aor+ScDu3+OcPl3:%>диʼ K ;!
++Aor+ScPl1+OcPl3:%>наˮ K ;!
++Aor+ScPl2+OcPl3:%>даˮ K ;!
++Aor+ScPl3+OcPl3:%>доʼ K ;!
++Prt1+ScSg1+OcSg3:%>вась K ;!
++Prt1+ScSg2+OcSg3:%>рась K ;!
++Prt1+ScSg3+OcSg3:%>дась K ;!
++Prt1+ScDu1+OcSg3:%>минзь K ;!
++Prt1+ScDu2+OcSg3:%>ринзь K ;!
++Prt1+ScDu3+OcSg3:%>динзь K ;!
++Prt1+ScPl1+OcSg3:%>ваць K ;!
++Prt1+ScPl2+OcSg3:%>раць K ;!
++Prt1+ScPl3+OcSg3:%>донзь K ;!
++Prt1+ScSg1+OcDu3:%>хиюнась K ;!
++Prt1+ScSg2+OcDu3:%>хиюдась K ;!
++Prt1+ScSg3+OcDu3:%>хиюдась K ;!
++Prt1+ScDu1+OcDu3:%>хиюнинзь K ;!
++Prt1+ScDu2+OcDu3:%>хиюдинзь K ;!
++Prt1+ScDu3+OcDu3:%>хиюдинзь K ;!
++Prt1+ScPl1+OcDu3:%>хиюнаць K ;!
++Prt1+ScPl2+OcDu3:%>хиюдаць K ;!
++Prt1+ScPl3+OcDu3:%>хиюдонзь K ;!
++Prt1+ScSg1+OcPl3:%>нась K ;!
++Prt1+ScSg2+OcPl3:%>дась K ;!
++Prt1+ScSg3+OcPl3:%>дась K ;!
++Prt1+ScDu1+OcPl3:%>нинзь K ;!
++Prt1+ScDu2+OcPl3:%>динзь K ;!
++Prt1+ScDu3+OcPl3:%>динзь K ;!
++Prt1+ScPl1+OcPl3:%>наць K ;!
++Prt1+ScPl2+OcPl3:%>даць K ;!
++Prt1+ScPl3+OcPl3:%>донзь K ;!
+
+LEXICON DEFAULT-AOR-SC
++Aor: DEFAULT-DEFAULT-SC ;
+LEXICON DEFAULT-DEFAULT-SC
++ScSg1:%>дмʼ K ;
++ScSg2:%>н K ;
++ScSg3: K ;
++ScDu1:%>ниʼ K ;
++ScDu2:%>диʼ K ;
++ScPl1:%>ваˮ K ;
++ScPl2:%>даˮ K ;
++ScPl3:%>ˮ K ;
+LEXICON DEFAULT-DEFAULT-SC_ы/э
++ScSg1:э%>дмʼ K ;
++ScSg2:э%>н K ;
++ScSg3:ы K ;
++ScDu1:э%>ниʼ K ;
++ScDu2:э%>диʼ K ;
++ScPl1:э%>ваˮ K ;
++ScPl2:э%>даˮ K ;
++ScPl3:ы%>ˮ K ;
+
+LEXICON DEFAULT-PRT1-SC
++Prt1+ScSg1:%>дамзь K ;
++Prt1+ScSg2:%>нась K ;
++Prt1+ScSg3:%>сь K ;
++Prt1+ScDu1:%>нинзь K ;
++Prt1+ScDu2:%>динзь K ;
++Prt1+ScPl1:%>ваць K ;
++Prt1+ScPl2:%>даць K ;
++Prt1+ScPl3:%>ць K ;
+LEXICON DEFAULT-AOR-SCDU3
++Aor: DEFAULT-DEFAULT-SCDU3 ;
+
+LEXICON DEFAULT-DEFAULT-SCDU3
++ScDu3:%>к%{ауоэØ%}ʼ K ;
+LEXICON DEFAULT-PRT1-SCDU3
++Prt1+ScDu3:%>к%{ауоэØ%}нзь K ;
+
+LEXICON DEFAULT-AOR-OC
+ DEFAULT-AOR-OCSG3 ;
+ DEFAULT-AOR-OCDU3_ӈа ;
+LEXICON DEFAULT-AOR-OCSG3
++Aor+ScSg1+OcSg3:%>в K ;
++Aor+ScSg2+OcSg3:%>р K ;
++Aor+ScSg3+OcSg3:%>да K ;
++Aor+ScDu1+OcSg3:%>миʼ K ;
++Aor+ScDu2+OcSg3:%>риʼ K ;
++Aor+ScDu3+OcSg3:%>диʼ K ;
++Aor+ScPl1+OcSg3:%>ваˮ K ;
++Aor+ScPl2+OcSg3:%>раˮ K ;
++Aor+ScPl3+OcSg3:%>доʼ K ;
+
+LEXICON DEFAULT-AOR-OCDU3_ӈа
+:ӈа DEFAULT-AOR-OCDU3_ZERO ;
+LEXICON DEFAULT-AOR-OCDU3_ZERO
++Aor+ScSg1+OcDu3:%>к%{ауоэØ%}юн K ;
++Aor+ScSg2+OcDu3:%>к%{ауоэØ%}юд K ;
++Aor+ScSg3+OcDu3:%>к%{ауоэØ%}юда K ;
++Aor+ScDu1+OcDu3:%>к%{ауоэØ%}юниʼ K ;
++Aor+ScDu2+OcDu3:%>к%{ауоэØ%}юдиʼ K ;
++Aor+ScDu3+OcDu3:%>к%{ауоэØ%}юдиʼ K ;
++Aor+ScPl1+OcDu3:%>к%{ауоэØ%}юнаˮ K ;
++Aor+ScPl2+OcDu3:%>к%{ауоэØ%}юдаˮ K ;
++Aor+ScPl3+OcDu3:%>к%{ауоэØ%}юдоʼ K ;
+
+LEXICON DEFAULT-PRT1-OC
+DEFAULT-PRT1-OCSG3 ;
+DEFAULT-PRT1-OCDU3_ӈа ;
+LEXICON DEFAULT-PRT1-OCSG3
++Prt1+ScSg1+OcSg3:%>вась K ;
++Prt1+ScSg2+OcSg3:%>рась K ;
++Prt1+ScSg3+OcSg3:%>дась K ;
++Prt1+ScDu1+OcSg3:%>минзь K ;
++Prt1+ScDu2+OcSg3:%>ринзь K ;
++Prt1+ScDu3+OcSg3:%>динзь K ;
++Prt1+ScPl1+OcSg3:%>ваць K ;
++Prt1+ScPl2+OcSg3:%>раць K ;
++Prt1+ScPl3+OcSg3:%>донзь K ;
+
+LEXICON DEFAULT-PRT1-OCDU3_ӈа
+:ӈа DEFAULT-PRT1-OCDU3_ZERO ;
+LEXICON DEFAULT-PRT1-OCDU3_ZERO
++Prt1+ScSg1+OcDu3:%>к%{ауоэØ%}юнась K ;
++Prt1+ScSg2+OcDu3:%>к%{ауоэØ%}юдась K ;
++Prt1+ScSg3+OcDu3:%>к%{ауоэØ%}юдась K ;
++Prt1+ScDu1+OcDu3:%>к%{ауоэØ%}юнинзь K ;
++Prt1+ScDu2+OcDu3:%>к%{ауоэØ%}юдинзь K ;
++Prt1+ScDu3+OcDu3:%>к%{ауоэØ%}юдинзь K ;
++Prt1+ScPl1+OcDu3:%>к%{ауоэØ%}юнаць K ;
++Prt1+ScPl2+OcDu3:%>к%{ауоэØ%}юдаць K ;
++Prt1+ScPl3+OcDu3:%>к%{ауоэØ%}юдонзь K ;
+
+LEXICON FUT-SC_ӈгу
++Fut:%>ӈгу IND-AOR/PRT1-SC ;
+
+LEXICON FUT-SC_та
++Fut:%>та IND-AOR/PRT1-SC ;
+
+LEXICON HORT-SC
++Hort+ScSg1:%>к%{ауоэØ%}дмʼ K ;
++Hort+ScDu1:%>к%{ауоэØ%}ниʼ K ;
++Hort+ScPl1:%>к%{ауоэØ%}ваˮ K ;
+
+LEXICON HORT-OC
++Hort+ScSg1+OcSg3:%>к%{ауоэØ%}в K ;
++Hort+ScSg1+OcSg3:%>кув K ;
++Hort+ScDu1+OcSg3:%>к%{ауоэØ%}миʼ K ;
++Hort+ScPl1+OcSg3:%>к%{ауоэØ%}ваˮ K ;
++Hort+ScSg1+OcDu3:%>к%{ауоэØ%}х%{ауоэØ%}юн K ;
++Hort+ScDu1+OcDu3:%>к%{ауоэØ%}х%{ауоэØ%}юниʼ K ;
++Hort+ScPl1+OcDu3:%>к%{ауоэØ%}х%{ауоэØ%}юнаˮ K ;
++Hort+ScSg1+OcPl3:%>к%{ауоэØ%}н K ;
++Hort+ScDu1+OcPl3:%>к%{ауоэØ%}ниʼ K ;
++Hort+ScPl1+OcPl3:%>к%{ауоэØ%}наˮ K ;
+
+LEXICON IMPRT-SCSG2
++Imprt+ScSg2:%>ˮ K ;
+LEXICON IMPRT-SCDU2
++Imprt+ScDu2:%>диʼ K ;
+LEXICON IMPRT-SCPL2
++Imprt+ScPl2:%>даˮ K ;
+
+
+LEXICON IND-AOR/PRT1-SC
+ IND-AOR-SC ;
+ IND-PRT1-SC ;
+LEXICON IND-AOR-SC
++Ind: DEFAULT-AOR-SC ;
+
+LEXICON IND-PRT1-SC
++Ind: DEFAULT-PRT1-SC ;
+
+LEXICON IND-AOR-SCDU3
++Ind: DEFAULT-AOR-SCDU3 ;
+LEXICON IND-PRT1-SCDU3
++Ind: DEFAULT-PRT1-SCDU3 ;
+
+LEXICON IND-AOR-OC
++Ind: DEFAULT-AOR-OC ;
+
+LEXICON IND-PRT1-OC
++Ind: DEFAULT-PRT1-OC ;
+
+LEXICON MOD/HYP-SC_рхавы
++Mod/hyp:%>рхав DEFAULT-DEFAULT-SC_ы/э ;
++Mod/hyp:%>рхав DEFAULT-DEFAULT-SCDU3_ы/э ;
+
+
 LEXICON V-NEW_BI-SYLL-MUTUAL-MOD/APPR
-+Mod/impfappr+Aor+ScSg1:%>нархадмʼ K ;
-+Mod/impfappr+Aor+ScSg2:%>нархан K ;
-+Mod/impfappr+Aor+ScSg3:%>нарха K ;
-+Mod/impfappr+Aor+ScDu1:%>нарханиʼ K ;
-+Mod/impfappr+Aor+ScDu2:%>нархадиʼ K ;
-+Mod/impfappr+Aor+ScDu3:%>нархахаʼ K ;
-+Mod/impfappr+Aor+ScPl1:%>нархаваˮ K ;
-+Mod/impfappr+Aor+ScPl2:%>нархадаˮ K ;
-+Mod/impfappr+Aor+ScPl3:%>нархаˮ K ;
-+Mod/impfappr+Prt1+ScSg1:%>нархадамзь K ;
-+Mod/impfappr+Prt1+ScSg2:%>нарханась K ;
-+Mod/impfappr+Prt1+ScSg3:%>нархась K ;
-+Mod/impfappr+Prt1+ScDu1:%>нарханинзь K ;
-+Mod/impfappr+Prt1+ScDu2:%>нархадинзь K ;
-+Mod/impfappr+Prt1+ScDu3:%>нархаханзь K ;
-+Mod/impfappr+Prt1+ScPl1:%>нархаваць K ;
-+Mod/impfappr+Prt1+ScPl2:%>нархадаць K ;
-+Mod/impfappr+Prt1+ScPl3:%>нархаць K ;
+ MOD/IMPFAPPR-SC_нарха ;
+
+LEXICON MOD/IMPFAPPR_нарха
+ MOD/IMPFAPPR-SC_нарха ;
+@R.CONJ.ObjAll@ MOD/IMPFAPPR-OC_нарха ;
+LEXICON MOD/IMPFAPPR_нараха
+ MOD/IMPFAPPR-SC_нараха ;
+@R.CONJ.ObjAll@ MOD/IMPFAPPR-OC_нараха ;
+
+LEXICON MOD/IMPFAPPR-SC_нарха
++Mod/impfappr:%>нарха DEFAULT-AOR-SC ;
++Mod/impfappr:%>нарха DEFAULT-AOR-SCDU3 ;
++Mod/impfappr:%>нарха DEFAULT-PRT1-SC ;
++Mod/impfappr:%>нарха DEFAULT-PRT1-SCDU3 ;
+
+
+LEXICON MOD/IMPFAPPR-SC_нараха
++Mod/impfappr:%>нараха DEFAULT-AOR-SC ;
++Mod/impfappr:%>нараха DEFAULT-AOR-SCDU3 ;
++Mod/impfappr:%>нараха DEFAULT-PRT1-SC ;
++Mod/impfappr:%>нараха DEFAULT-PRT1-SCDU3 ;
+
+
+LEXICON MOD/IMPFAPPR-OC_нарха
++Mod/impfappr:%>нарха DEFAULT-AOR-OCSG3 ;
++Mod/impfappr:%>нарха DEFAULT-AOR-OCDU3_ZERO ;
++Mod/impfappr+Aor+ScSg1+OcPl3:%>нархын K ;
++Mod/impfappr+Aor+ScSg2+OcPl3:%>нархыд K ;
++Mod/impfappr+Aor+ScSg3+OcPl3:%>нархыда K ;
++Mod/impfappr+Aor+ScDu1+OcPl3:%>нархыниʼ K ;
++Mod/impfappr+Aor+ScDu2+OcPl3:%>нархыдиʼ K ;
++Mod/impfappr+Aor+ScDu3+OcPl3:%>нархыдиʼ K ;
++Mod/impfappr+Aor+ScPl1+OcPl3:%>нархынаˮ K ;
++Mod/impfappr+Aor+ScPl2+OcPl3:%>нархыдаˮ K ;
++Mod/impfappr+Aor+ScPl3+OcPl3:%>нархыдоʼ K ;
++Mod/impfappr:%>нарха DEFAULT-PRT1-OCSG3 ;
++Mod/impfappr:%>нарха DEFAULT-PRT1-OCDU3_ZERO ;
++Mod/impfappr+Prt1+ScPl1+OcSg3:%>нархаваць K ;
++Mod/impfappr+Prt1+ScPl2+OcSg3:%>нархараць K ;
++Mod/impfappr+Prt1+ScPl3+OcSg3:%>нархадонзь K ;
++Mod/impfappr+Prt1+ScSg1+OcDu3:%>нархахаюнась K ;
++Mod/impfappr+Prt1+ScSg2+OcDu3:%>нархахаюдась K ;
++Mod/impfappr+Prt1+ScSg3+OcDu3:%>нархахаюдась K ;
++Mod/impfappr+Prt1+ScDu1+OcDu3:%>нархахаюнинзь K ;
++Mod/impfappr+Prt1+ScDu2+OcDu3:%>нархахаюдинзь K ;
++Mod/impfappr+Prt1+ScDu3+OcDu3:%>нархахаюдинзь K ;
++Mod/impfappr+Prt1+ScPl1+OcDu3:%>нархахаюнаць K ;
++Mod/impfappr+Prt1+ScPl2+OcDu3:%>нархахаюдаць K ;
++Mod/impfappr+Prt1+ScPl3+OcDu3:%>нархахаюдонзь K ;
++Mod/impfappr+Prt1+ScSg1+OcPl3:%>нархынась K ;
++Mod/impfappr+Prt1+ScSg2+OcPl3:%>нархыдась K ;
++Mod/impfappr+Prt1+ScSg3+OcPl3:%>нархыдась K ;
++Mod/impfappr+Prt1+ScDu1+OcPl3:%>нархынинзь K ;
++Mod/impfappr+Prt1+ScDu2+OcPl3:%>нархыдинзь K ;
++Mod/impfappr+Prt1+ScDu3+OcPl3:%>нархыдинзь K ;
++Mod/impfappr+Prt1+ScPl1+OcPl3:%>нархынаць K ;
++Mod/impfappr+Prt1+ScPl2+OcPl3:%>нархыдаць K ;
++Mod/impfappr+Prt1+ScPl3+OcPl3:%>нархыдонзь K ;
+
+LEXICON MOD/IMPFAPPR-OC_нараха
++Mod/impfappr:%>нараха DEFAULT-AOR-OCSG3 ;
++Mod/impfappr:%>нараха DEFAULT-AOR-OCDU3_ZERO ;
++Mod/impfappr+Aor+ScSg1+OcPl3:%>нарыхын K ;
++Mod/impfappr+Aor+ScSg2+OcPl3:%>нарыхыд K ;
++Mod/impfappr+Aor+ScSg3+OcPl3:%>нарыхыда K ;
++Mod/impfappr+Aor+ScDu1+OcPl3:%>нарыхыниʼ K ;
++Mod/impfappr+Aor+ScDu2+OcPl3:%>нарыхыдиʼ K ;
++Mod/impfappr+Aor+ScDu3+OcPl3:%>нарыхыдиʼ K ;
++Mod/impfappr+Aor+ScPl1+OcPl3:%>нарыхынаˮ K ;
++Mod/impfappr+Aor+ScPl2+OcPl3:%>нарыхыдаˮ K ;
++Mod/impfappr+Aor+ScPl3+OcPl3:%>нарыхыдоʼ K ;
++Mod/impfappr:%>нараха DEFAULT-PRT1-OCSG3 ;
++Mod/impfappr:%>нараха DEFAULT-PRT1-OCDU3_ZERO ;
++Mod/impfappr+Prt1+ScSg1+OcPl3:%>нарыхынась K ;
++Mod/impfappr+Prt1+ScSg2+OcPl3:%>нарыхыдась K ;
++Mod/impfappr+Prt1+ScSg3+OcPl3:%>нарыхыдась K ;
++Mod/impfappr+Prt1+ScDu1+OcPl3:%>нарыхынинзь K ;
++Mod/impfappr+Prt1+ScDu2+OcPl3:%>нарыхыдинзь K ;
++Mod/impfappr+Prt1+ScDu3+OcPl3:%>нарыхыдинзь K ;
++Mod/impfappr+Prt1+ScPl1+OcPl3:%>нарыхынаць K ;
++Mod/impfappr+Prt1+ScPl2+OcPl3:%>нарыхыдаць K ;
++Mod/impfappr+Prt1+ScPl3+OcPl3:%>нарыхыдонзь K ;
+
+LEXICON MOD/INT-SC_бца !!= * __@CODE@__ ??
++Mod/int:%>бцу DEFAULT-DEFAULT-SC ;
++Mod/int:%>бцу DEFAULT-DEFAULT-SCDU3 ;
+LEXICON MOD/INT-SC_ца
++Mod/int:%>ца DEFAULT-DEFAULT-SC ;
++Mod/int:%>ца DEFAULT-DEFAULT-SCDU3 ;
+
+LEXICON MOD/NARR
++Mod/narr+Aor+ScSg1:%>вэдмʼ K ;
++Mod/narr+Aor+ScSg2:%>вэн K ;
++Mod/narr+Aor+ScSg3:%>вы K ;
++Mod/narr+Aor+ScDu1:%>вэниʼ K ;
++Mod/narr+Aor+ScDu2:%>вэдиʼ K ;
++Mod/narr+Aor+ScDu3:%>вэхэʼ K ;
++Mod/narr+Aor+ScPl1:%>вэваˮ K ;
++Mod/narr+Aor+ScPl2:%>вэдаˮ K ;
++Mod/narr+Aor+ScPl3:%>выˮ K ;
++Mod/narr+Prt1+ScSg1:%>вэдамзь K ;
++Mod/narr+Prt1+ScSg2:%>вэнась K ;
++Mod/narr+Prt1+ScSg3:%>высь K ;
++Mod/narr+Prt1+ScSg3:%>вэсь K ;
++Mod/narr+Prt1+ScDu1:%>вэнинзь K ;
++Mod/narr+Prt1+ScDu2:%>вэдинзь K ;
++Mod/narr+Prt1+ScDu3:%>вэхэнзь K ;
++Mod/narr+Prt1+ScPl1:%>вэваць K ;
++Mod/narr+Prt1+ScPl2:%>вэдаць K ;
++Mod/narr+Prt1+ScPl3:%>выць K ;
++Mod/narr+Prt1+ScPl3:%>вэць K ;
+
+LEXICON MOD/NEC-SC_бцу
++Mod/nec:%>бцу DEFAULT-DEFAULT-SC ;
++Mod/nec:%>бцу DEFAULT-DEFAULT-SCDU3 ;
+LEXICON MOD/NEC-SC_цу
++Mod/nec:%>цу DEFAULT-DEFAULT-SC ;
++Mod/nec:%>цу DEFAULT-DEFAULT-SCDU3 ;
+
+LEXICON MOD/OBL-SC_бцакэ
+:б MOD/OBL-SC_цакэ ;
+LEXICON MOD/OBL-SC_цакэ
++Mod/obl+ScSg1:%>цакэдмʼ K ;
++Mod/obl+ScSg2:%>цакэн K ;
++Mod/obl+ScSg3:%>цакы K ;
++Mod/obl+ScDu1:%>цакэниʼ K ;
++Mod/obl+ScDu2:%>цакэдиʼ K ;
++Mod/obl+ScDu3:%>цакэхэʼ K ;
++Mod/obl+ScPl1:%>цакэваˮ K ;
++Mod/obl+ScPl2:%>цакэдаˮ K ;
++Mod/obl+ScPl3:%>цакыˮ K ;
+
+
+LEXICON MOD/PROB-SC
++Mod/prob+Aor+ScSg1:%>накэдмʼ K ;
++Mod/prob+Aor+ScSg2:%>накэн K ;
++Mod/prob+Aor+ScSg3:%>накы K ;
++Mod/prob+Aor+ScDu1:%>накэниʼ K ;
++Mod/prob+Aor+ScDu2:%>накэдиʼ K ;
++Mod/prob+Aor+ScDu3:%>накэхэʼ K ;
++Mod/prob+Aor+ScPl1:%>накэваˮ K ;
++Mod/prob+Aor+ScPl2:%>накэдаˮ K ;
++Mod/prob+Aor+ScPl3:%>накыˮ K ;
+
+LEXICON MOD/PERFAPPR-SC_вэрха
++Mod/perfappr:%>вэрха DEFAULT-DEFAULT-SC ;
++Mod/perfappr:%>вэрха DEFAULT-DEFAULT-SCDU3 ;
+
+LEXICON MOD/PERFAPPR-SC_вэраха
++Mod/perfappr:%>вэраха DEFAULT-DEFAULT-SC ;
++Mod/perfappr:%>вэраха DEFAULT-DEFAULT-SCDU3 ;
+
+LEXICON MOD/PERFPROB-SC_вэкы
++Mod/perfprob:%>вэк DEFAULT-DEFAULT-SC_ы/э ;
+
+LEXICON MOD/SUP-SC_ванӈгабя
++Mod/sup:%>ванӈгабя DEFAULT-DEFAULT-SC ;
++Mod/sup:%>ванӈгабя DEFAULT-DEFAULT-SCDU3 ;
+
+
+LEXICON OPT-SC
++Opt+ScSg3:%>я K ;
++Opt+ScDu3:%>яхаʼ K ;
++Opt+ScPl3:%>яˮ K ;
+
+LEXICON OPT-OC_й
+:й OPT-OC_ZERO ;
+LEXICON OPT-OC_ZERO
++Opt+ScSg3+OcPl3:%>дамда K ;
++Opt+ScDu3+OcPl3:%>дамдиʼ K ;
++Opt+ScPl3+OcPl3:%>дамдоʼ K ;
 
 
 
