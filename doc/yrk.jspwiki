@@ -385,7 +385,9 @@ word classes, or optionally from prefixes:
 
 
 
+!!!Noun inflection
 
+Nenets nouns inflect in cases.
 
 
  * __LEXICON N_ӇЭ__ ӈэ:ӈэ 1  ProsSg -вна
@@ -623,23 +625,44 @@ Where is the variation?
  * __LEXICON N_МЕРЁ__ мерё:мерё
 
 
+NMN
 
 
+ * __LEXICON NMN_ӇЭ__ ӈэ:ӈэ 1  ProsSg -вна
+ * __SG-ACC-STEM ;__ SGACCSUF, SGGENSUF
+ * __SG-NOM-STEM ;__ SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
+ * __PLNOMSUF ;__ 
+ * __PLACCSUF_Zero ;__ => PL-ACC_STEM
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
+9
+ * __:%^VowLower POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+ * __LEXICON NMN_ХУСУВЭЙ__ хусувэй: 10 ProsSg -ювна
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
+ * LEXICON NMN_ХАНО  11 хан:хан
 
 
 
+ * __LEXICON NMN_ТИРЕ__ тир: 12 ProsSg -увна
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+ * __LEXICON NMN_ЕД__ ед: 13 ProsSg -увна /-ювна
+Yaml: __yed__
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+!!NOMINALS "NMN"
+!THREE-SYLLABLE VOWEL-FINAL STEMS
 
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
@@ -666,6 +689,7 @@ Where is the variation?
 
 
 
+таˮ:та
 
 
 
@@ -692,6 +716,7 @@ Where is the variation?
 
 
 
+The singular accusative stem
 
 
 
@@ -701,7 +726,9 @@ Where is the variation?
 
 
 
+ * __LEXICON SGLOCSUF_Хна__ мякна
 
+ * __LEXICON SGLOCSUF_Хана__ серкана
 
 
 
@@ -709,6 +736,7 @@ Where is the variation?
 
 
 
+Start Plural
 
 
 
@@ -719,6 +747,8 @@ Where is the variation?
 
 
 
+What is assumed on the basis of the plural accusative
+ * __+Pl+Pros:%>ˮ%{увм%}А2на 	K	;__ When does this take a vowel хоˮомна
 
 
 
@@ -735,26 +765,35 @@ Where is the variation?
 
 
 
+Possessor Indices
 
 
 
 
+ * __+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>в K ;__ 2013-10-22 Should this also have +ScSg3 marking
 
 
 
+ * __LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES __ singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
 
+ * __LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 __ singular possessa oblique possessor indices
 
 
+SINUGLAR CASES
 
 
 
 
 
+ * __!LEXICON POSSESSA-SG-4-EVAS__ ABL
 
 
+The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
+This line must be removed 2013-03-20
 
 
 
+Dual possessa
 
 
 
@@ -763,6 +802,7 @@ Where is the variation?
 
 
 
+Dual possessa
 
 
 
@@ -772,7 +812,9 @@ Where is the variation?
 
 
 
+Plural Possessa
 
+ *  Could +Sg+Nom+PxSg3:%>да be the basis?
 
 
 
@@ -802,6 +844,7 @@ Where is the variation?
 
 
 
+ * __+PxPl1:наˮ K ; __ The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
 
 
 
@@ -819,9 +862,11 @@ Where is the variation?
 
 
 
+Conjugation of nouns and adjectives
 
 
 
+!!NEW
 
 
 
@@ -1133,9 +1178,15 @@ V_refl 2013-03-04
  * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
 
 
- * __LEXICON V-01_ТИР__
+ * __LEXICON V-NEW_ТИР__
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+V-NEW_BI-SYLL-MUTUAL-MODREP ;
+V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
+
+
+ * ! PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 V_refl 2013-03-04
@@ -1143,7 +1194,7 @@ V_refl 2013-03-04
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
-!TWOO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+!TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  * __LEXICON V-01_НЭКАЛ__ нэкалць:нэкал
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -1389,6 +1440,7 @@ Non-finites
 
 
 
+
  * __+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; __ Vowel removed
  * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
  * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
@@ -1423,11 +1475,16 @@ Non-finites
 
 
 
+
+
+
+
 ◊_obj 
 
 
 
 ◊_obj 
+
 
 
 
@@ -1463,6 +1520,48 @@ Non-finites
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON MOD/INT-SC_бца __ ??
 
 
 
@@ -1598,6 +1697,7 @@ __Н1:0 GlottalNasalToSurface__
 
 
 __Ӈ1:0 GlottalNasalToSurface__
+
 
 
 
@@ -1793,6 +1893,7 @@ __r To 0 before glottal and р or л__
 
 __n to t after non-nasal glottal__
 
+
 __d to t after non-nasal glottal__
 
 
@@ -1808,7 +1909,6 @@ In the second context ...
 
 
 __ˮ:0__
-
 !!Realization of glottal stops
 
 !SURFACE CONSONANT

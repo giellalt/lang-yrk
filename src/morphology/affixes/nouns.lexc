@@ -1,7 +1,7 @@
-££ £££Noun inflection
-£ ---------------
+!! !!!Noun inflection
+! ---------------
 
-££ Nenets nouns inflect in cases.
+!! Nenets nouns inflect in cases.
 
 
 LEXICON N_ӇЭ-RUS 
@@ -1547,7 +1547,7 @@ LEXICON N_МЕРЁ !!≈ * __@CODE@__ мерё:мерё
  N_ӇАНУ ;
 
 
-££ NMN
+!! NMN
 LEXICON NMN_ТИРЕ/ХАНО
  SGDATSUF ;
 :а  SG-ACC-STEM ;
@@ -1556,16 +1556,16 @@ LEXICON NMN_ТИРЕ/ХАНО
  PLACCSUF_Zero ; 
 
 
-LEXICON NMN_ӇЭ ££≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
+LEXICON NMN_ӇЭ !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
  PL-PROS-ALL ;
  PL-GEN-PXSG1 ;
   SGDATSUF ;
-  SG-ACC-STEM ; ££≈ * __@CODE@__ SGACCSUF, SGGENSUF
-  SG-NOM-STEM ; ££≈ * __@CODE@__ SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
+  SG-ACC-STEM ; !!≈ * __@CODE@__ SGACCSUF, SGGENSUF
+  SG-NOM-STEM ; !!≈ * __@CODE@__ SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
  SGPROSSUF ;
-  PLNOMSUF ;  ££≈ * __@CODE@__ 
-  PLACCSUF_Zero ; ££≈ * __@CODE@__ => PL-ACC_STEM
-  POSSESSA-PLURAL ; ££≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  PLNOMSUF ;  !!≈ * __@CODE@__ 
+  PLACCSUF_Zero ; !!≈ * __@CODE@__ => PL-ACC_STEM
+  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 
@@ -1574,7 +1574,7 @@ LEXICON NMN_ӇЭ/Ё
   SG-ACC-STEM ;
   SG-NOM-STEM ;
   PLNOMSUF ;
- PLACCSUF_Zero ; ££
+ PLACCSUF_Zero ; !!
 :%^A2O PLACCSUF_Zero ; 
 
 LEXICON NMN_ӇЭ/СЁЁ/ХАБИЕ
@@ -1583,31 +1583,31 @@ LEXICON NMN_ӇЭ/СЁЁ/ХАБИЕ
  SG-NOM-STEM ;
  SGPROSSUF ;
  PLNOMSUF ;
- PLACCSUF_Zero ; £
- PLACCSUF_Ё ; £
- PLACCSUF_Е ; £
-  POSSESSA-PLURAL ; ££≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ PLACCSUF_Zero ; !
+ PLACCSUF_Ё ; !
+ PLACCSUF_Е ; !
+  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL_ХАЮН ;
 
 
-LEXICON NMN_ПАНЫ ££ 9
+LEXICON NMN_ПАНЫ !! 9
 :%^VowLower SGDATSUF ;
   SG-ACC-STEM ;
 :%^VowLower SG-NOM-STEM ;
   SGPROSSUF ;
   PLNOMSUF ;
-  PLACCSUF_Zero ; £
-:%^VowLower  POSSESSA-PLURAL ; ££≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  PLACCSUF_Zero ; !
+:%^VowLower  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%^VowLower POSSESSA-DUAL ;
 
-LEXICON NMN_ХУСУВЭЙ ££≈ * __@CODE@__ хусувэй: 10 ProsSg -ювна
+LEXICON NMN_ХУСУВЭЙ !!≈ * __@CODE@__ хусувэй: 10 ProsSg -ювна
   SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
  SGPROSSUF ;
   PLNOMSUF ;
-  PLACCSUF_Zero ; £
-  POSSESSA-PLURAL ; ££≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД/ХАНО
@@ -1616,10 +1616,10 @@ LEXICON NMN_ЕД/ХАНО
   SG-NOM-STEM ;
 :%>у SGPROSSUF ;
   PLNOMSUF ;
-  PLACCSUF_Zero ; £
-  PLACCSUF_О ; £
+  PLACCSUF_Zero ; !
+  PLACCSUF_О ; !
   POSSESSA-PLURAL ;
-£:%>о  POSSESSA-PLURAL ;
+!:%>о  POSSESSA-PLURAL ;
  POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД/ХУСУВЭЙ
@@ -1629,9 +1629,9 @@ LEXICON NMN_ЕД/ХУСУВЭЙ
   SG-NOM-STEM ;
  SGPROSSUF ;
   PLNOMSUF ;
-  PLACCSUF_Zero ; £
+  PLACCSUF_Zero ; !
 
-LEXICON NMN_ХАНО ££= * @CODE@ 11 хан:хан
+LEXICON NMN_ХАНО !!= * @CODE@ 11 хан:хан
 	NMN_ХАНО-SG ;
 	NMN_ХАНО-PL ;
 LEXICON NMN_ХАНО-SG
@@ -1642,34 +1642,34 @@ LEXICON NMN_ХАНО-SG
 
 LEXICON NMN_ХАНО-PL
   PLNOMSUF ;
- PLACCSUF_О ; £
+ PLACCSUF_О ; !
  POSSESSA-PLURAL ;
  POSSESSA-DUAL ;
 
 
-LEXICON NMN_ТИРЕ  ££≈ * __@CODE@__ тир: 12 ProsSg -увна
+LEXICON NMN_ТИРЕ  !!≈ * __@CODE@__ тир: 12 ProsSg -увна
 SGDATSUF ;
 :а  SG-ACC-STEM ;
   SG-NOM-STEM ;
 :%>у SGPROSSUF ;
   PLNOMSUF ;
-  PLACCSUF_Е ; £
-  POSSESSA-PLURAL ; ££≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  PLACCSUF_Е ; !
+  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_ЕД  ££≈ * __@CODE@__ ед: 13 ProsSg -увна /-ювна
-££ Yaml: __yed__
+LEXICON NMN_ЕД  !!≈ * __@CODE@__ ед: 13 ProsSg -увна /-ювна
+!! Yaml: __yed__
 :а  SGDATSUF ;
     SG-ACC-STEM ;
     SG-NOM-STEM ;
 :%>у SGPROSSUF ;
     PLNOMSUF ;
-    PLACCSUF_Zero ; £
-  POSSESSA-PLURAL ; ££≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+    PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL_ХАЮН ;
 
-££ ££NOMINALS "NMN"
-££ £THREE-SYLLABLE VOWEL-FINAL STEMS
+!! !!NOMINALS "NMN"
+!! !THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON    NMN_МАРАӇГЫ
     NMN_МАРАӇГЫ-SG ;
     NMN_МАРАӇГЫ-PL ;
@@ -1681,8 +1681,8 @@ LEXICON NMN_МАРАӇГЫ-SG
 
 LEXICON NMN_МАРАӇГЫ-PL
   PLNOMSUF ;
-:%^A2I PLACCSUF_Zero ; £
-  POSSESSA-PLURAL ; ££≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%^A2I PLACCSUF_Zero ; !
+  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 
@@ -1694,7 +1694,7 @@ LEXICON NMN_МАРАӇГЫ-PL
 
 
 LEXICON N_ЯЙ
-£ мея:мея
+! мея:мея
 +N: NMN_ЯЙ ;
 
 LEXICON NMN_ЯЙ
@@ -1712,18 +1712,18 @@ LEXICON NMN_ЯЙ
  DUGENSUF ;
 
  PLNOMSUF ;
- PLACCSUF_Zero ; £
+ PLACCSUF_Zero ; !
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
-£ PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
 
 LEXICON N_СЕЛВ
-£ мея:мея
+! мея:мея
 +N: NMN_СЕЛВ ;
 
 LEXICON NMN_СЕЛВ
@@ -1741,37 +1741,37 @@ LEXICON NMN_СЕЛВ
  DUGENSUF ;
 
  PLNOMSUF ;
- PLACCSUF_Zero ; £
+ PLACCSUF_Zero ; !
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
-£ PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-£LEXICON N-nAI
-£ SGNOMSUF ;
-£ SGACCSUF ;
-£ SGGENSUF ;
-£ SGDATSUF ;
-£ SGLOCSUF ;
-£ SGABLSUF ;
-£ SGPROSSUF ;
-£ SGTRASUF ;
-£
-£ DUNOMSUF ;
-£ DUACCSUF ;
-£ DUGENSUF ;
-£
-£ PLNOMSUF ;
-£ PLACCSUF_I ; £
-£ PLGENSUF_I ; £
-£ PLDATSUF ;
-£ PLLOCSUF ;
-£ PLABLSUF ;
-£ PLPROSSUF ;
-£ PLTRASUF ;
+!LEXICON N-nAI
+! SGNOMSUF ;
+! SGACCSUF ;
+! SGGENSUF ;
+! SGDATSUF ;
+! SGLOCSUF ;
+! SGABLSUF ;
+! SGPROSSUF ;
+! SGTRASUF ;
+!
+! DUNOMSUF ;
+! DUACCSUF ;
+! DUGENSUF ;
+!
+! PLNOMSUF ;
+! PLACCSUF_I ; !
+! PLGENSUF_I ; !
+! PLDATSUF ;
+! PLLOCSUF ;
+! PLABLSUF ;
+! PLPROSSUF ;
+! PLTRASUF ;
 
 
 
@@ -1779,7 +1779,7 @@ LEXICON NMN_СЕЛВ
 +Nom: NOMINAL-CONJUGATION ;
 
 LEXICON N_ИБЯ
-£ибя:ибя
+!ибя:ибя
 +N: NMN_ИБЯ ;
 LEXICON NMN_ИБЯ
  SGNOMSUF ;
@@ -1796,17 +1796,17 @@ LEXICON NMN_ИБЯ
  DUGENSUF ;
 
  PLNOMSUF ;
- PLACCSUF_Zero ; £
+ PLACCSUF_Zero ; !
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
-£ PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 
-LEXICON N_ТАСО ££ таˮ:та
-£+N: NMN_ТАСО ;
+LEXICON N_ТАСО !! таˮ:та
+!+N: NMN_ТАСО ;
 +N:С1 NMN_МУНО ;
 +N:С1о MUNO_O ;
 
@@ -1825,11 +1825,11 @@ LEXICON NMN_ТАСО
  DUGENSUF ;
 
  PLNOMSUF ;
- PLACCSUF_Zero ; £
+ PLACCSUF_Zero ; !
  PLDATSUF ;
  PLLOCSUF ;
  PLABLSUF ;
-£ PLTRASUF ;
+! PLTRASUF ;
 
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
@@ -1838,41 +1838,41 @@ LEXICON N_Cons
 +WORK+N: SGNOMSUF ;
 
 LEXICON N_ConsO
-£вык:вык
+!вык:вык
 +WORK+N: SGNOMSUF ;
 
 
 LEXICON N_ВАР
-£ варˮ:вар
+! варˮ:вар
 +N: NMN_ВАР ;
 
-£ Non-nasal glottal stops
-£2013-05-22£LEXICON NMN_МЯДО
-£2013-05-22£ SGNOMSUF ;
-£2013-05-22£ SGACCSUF ;
-£2013-05-22£ SGGENSUF ;
-£2013-05-22£ SGDATSUF ;
-£2013-05-22£ SGLOCSUF ;
-£2013-05-22£ SGABLSUF ;
-£2013-05-22£ SGPROSSUF ;
-£2013-05-22£ SGTRASUF ;
-£2013-05-22£
-£2013-05-22£ DUNOMSUF ;
-£2013-05-22£ DUACCSUF ;
-£2013-05-22£ DUGENSUF ;
-£2013-05-22£
-£2013-05-22£ PLNOMSUF ;
-£2013-05-22£ PLACCSUF ;
-£2013-05-22£ PLDATSUF ;
-£2013-05-22£ PLLOCSUF ;
-£2013-05-22£ PLABLSUF ;
-£2013-05-22£ PLTRASUF ;
+! Non-nasal glottal stops
+!2013-05-22!LEXICON NMN_МЯДО
+!2013-05-22! SGNOMSUF ;
+!2013-05-22! SGACCSUF ;
+!2013-05-22! SGGENSUF ;
+!2013-05-22! SGDATSUF ;
+!2013-05-22! SGLOCSUF ;
+!2013-05-22! SGABLSUF ;
+!2013-05-22! SGPROSSUF ;
+!2013-05-22! SGTRASUF ;
+!2013-05-22!
+!2013-05-22! DUNOMSUF ;
+!2013-05-22! DUACCSUF ;
+!2013-05-22! DUGENSUF ;
+!2013-05-22!
+!2013-05-22! PLNOMSUF ;
+!2013-05-22! PLACCSUF ;
+!2013-05-22! PLDATSUF ;
+!2013-05-22! PLLOCSUF ;
+!2013-05-22! PLABLSUF ;
+!2013-05-22! PLTRASUF ;
 
-£ POSSESSOR-INDICES ;
+! POSSESSOR-INDICES ;
 
 
 
-£Work required
+!Work required
 LEXICON N_ТЭНО 
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
@@ -1892,9 +1892,9 @@ LEXICON N_ТЭНО
 +N: PLDATSUF ;
 +N: PLLOCSUF ;
 +N: PLABLSUF ;
-£+N: PLTRASUF ;
+!+N: PLTRASUF ;
 
-+N: POSSESSOR-INDICES ; £ 
++N: POSSESSOR-INDICES ; ! 
 +N+Nom: NOMINAL-CONJUGATION ;
 
 LEXICON N-tojo
@@ -1920,10 +1920,10 @@ LEXICON N-xawo
 +N: PLDATSUF ;
 +N:ˮ PLLOCSUF ;
 +N:ˮ PLABLSUF ;
-£+N: PLTRASUF ;
+!+N: PLTRASUF ;
 
 +N+Nom: NOMINAL-CONJUGATION ;
-+N: POSSESSOR-INDICES ; £
++N: POSSESSOR-INDICES ; !
 
 
 LEXICON N-якэ
@@ -1933,17 +1933,17 @@ LEXICON N-N
 +N: SGNOMSUF ;
 +N: SGACCSUF ;
 
-££ The singular accusative stem
+!! The singular accusative stem
 LEXICON SG-ACC-STEM
  SGACCSUF ;
  SGGENSUF ;
 
-£LEXICON SG-DAT-STEM
+!LEXICON SG-DAT-STEM
 LEXICON SG-NOM-STEM
  SGNOMSUF ;
  SGLOCSUF ;
  SGABLSUF ;
-£ SGPROSSUF ;
+! SGPROSSUF ;
  DUNOMSUF ;
  DUACCSUF ;
  DUGENSUF ;
@@ -1954,13 +1954,13 @@ LEXICON SG-NOM-STEM
  POSSESSOR-INDICES ;
 +Nom: NOMINAL-CONJUGATION ;
 +Pred+Abs:%>д K ;
-PRED-POSSESSA ; £ This is perhaps a derivation
+PRED-POSSESSA ; ! This is perhaps a derivation
 +Car:%>сиˮ K ;
-+Equ:%>даремʼ K ; £дремʼ for non-even-syllable stems
-+Equ+Lat:%>даревʼ K ; £древʼ for non-even-syllable stems
++Equ:%>даремʼ K ; !дремʼ for non-even-syllable stems
++Equ+Lat:%>даревʼ K ; !древʼ for non-even-syllable stems
 +Tra:%>ӈэ K ;
 
-LEXICON SGTRASUF £ Not needed any more£
+LEXICON SGTRASUF ! Not needed any more!
 K ;
 
 LEXICON SGNOMSUF
@@ -1976,58 +1976,58 @@ LEXICON SGDATSUF
 +Sg+Dat:%>нʼ K ;
 
 LEXICON SGLOCSUF
-+Sg+Loc:%>х%{ауоэØ%}на K ; £вэсакохона пэдарахана ӈамгэхэна
++Sg+Loc:%>х%{ауоэØ%}на K ; !вэсакохона пэдарахана ӈамгэхэна
 
-LEXICON SGLOCSUF_Хна ££≈ * __@CODE@__ мякна
+LEXICON SGLOCSUF_Хна !!≈ * __@CODE@__ мякна
 +Sg+Loc:%>хна K ;
 
-LEXICON SGLOCSUF_Хана ££≈ * __@CODE@__ серкана
+LEXICON SGLOCSUF_Хана !!≈ * __@CODE@__ серкана
 +Sg+Loc:%>хана K ;
 
 LEXICON SGABLSUF
-+Sg+Abl:%>х%{ауоэØ%}д K ; £вэсакоход пэдарахад ӈамгэхэд
++Sg+Abl:%>х%{ауоэØ%}д K ; !вэсакоход пэдарахад ӈамгэхэд
 
 LEXICON SGPROSSUF
-£+Sg+Pros:%>%{увм%}А2на K ; 
-+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; £2013-10-28
+!+Sg+Pros:%>%{увм%}А2на K ; 
++Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-28
 
 LEXICON SGPROSSUF_АМНА
-£+Sg+Pros:%>амна K ;
-+Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; £2013-10-28
+!+Sg+Pros:%>амна K ;
++Sg+Pros:%>%{ауоэиыØ%}%{увм%}А2н%{ая%}	K ; !2013-10-28
  POSSESSA-SG-PROS_АМНА ;
 
-£ These must be checked
+! These must be checked
 LEXICON DUNOMSUF 
 +Du+Nom:%>х%{ауоэØ%}ʼ K ;
-£+Du+Nom:%>хʼ K ;
+!+Du+Nom:%>хʼ K ;
 
 LEXICON DUACCSUF
 +Du+Acc:%>х%{ауоэØ%}ʼ K ;
-£+Du+Acc:%>хʼ K ;
+!+Du+Acc:%>хʼ K ;
 
 LEXICON DUGENSUF 
 +Du+Gen:%>х%{ауоэØ%}ʼ K ;
-£+Du+Gen:%>хʼ K ;
+!+Du+Gen:%>хʼ K ;
 
-££ Start Plural
+!! Start Plural
 LEXICON PLNOMSUF
 +Pl+Nom:%>ˮ K ;
-£ PLTRASUF ;
+! PLTRASUF ;
 
 LEXICON PLACCSUF
-+Pl+Acc:%>Ы1 K ; £ We need something to trigger а:и 0:о but retain ы:ы
++Pl+Acc:%>Ы1 K ; ! We need something to trigger а:и 0:о but retain ы:ы
 +Pl+Acc:%>Ы1 PL-ACC_STEM ;
 
 LEXICON PLACCSUF_Minus
 :%^VowLoss PL-ACC_STEM ;
 
 LEXICON PLACCSUF_Zero
-£ This has zero ending
-£+Pl+Acc: K ;
+! This has zero ending
+!+Pl+Acc: K ;
  PL-ACC_STEM ;
 
 LEXICON PLACCSUF_I
-+Pl+Acc:%>и  K ; £Stem final е а я may change to и.
++Pl+Acc:%>и  K ; !Stem final е а я may change to и.
 :%>и PL-ACC_STEM ;
 
 LEXICON PLACCSUF_Е
@@ -2039,43 +2039,43 @@ LEXICON PLACCSUF_Ё
 :%>ё PL-ACC_STEM ;
 
 LEXICON PLACCSUF_О
-£+Pl+Acc:%>о  K ; 
+!+Pl+Acc:%>о  K ; 
 :%>о PL-ACC_STEM ;
 
 
-£LEXICON PLACCSUF_AO
-£+Pl+Acc:  K ; £ The rule "a:o in я" This will be pointed to PLACCSUF_Zero
+!LEXICON PLACCSUF_AO
+!+Pl+Acc:  K ; ! The rule "a:o in я" This will be pointed to PLACCSUF_Zero
 
-££ What is assumed on the basis of the plural accusative
+!! What is assumed on the basis of the plural accusative
 LEXICON PL-ACC_STEM
 +Pl+Acc:	K	;
 +Pl+Gen:%>ˮ	K	;
-+Pl+Pros:%>ˮ%{увм%}А2на 	K	; ££≈ * __@CODE@__ When does this take a vowel хоˮомна
++Pl+Pros:%>ˮ%{увм%}А2на 	K	; !!≈ * __@CODE@__ When does this take a vowel хоˮомна
 
  POSSESSA-PL-NOM ;
 +Pl+Acc: POSSESSA-PL-ACC ;
 +Pl+Gen:%>ˮ POSSESSA-PL-GEN ;
   POSSESSA-PL-PROS ;
-£2013-04-22£+Pl+Pros:ˮмана  POSSESSA-PL-PROS ;
+!2013-04-22!+Pl+Pros:ˮмана  POSSESSA-PL-PROS ;
 
 
 
-£LEXICON PLGENSUF
-£+Pl+Gen:%>Ы1ˮ PL-ACC_STEM ;
+!LEXICON PLGENSUF
+!+Pl+Gen:%>Ы1ˮ PL-ACC_STEM ;
 
-£LEXICON PLGENSUF_Glot
-£+Pl+Gen:%>ˮ PL-ACC_STEM ;
-£+Pl+Gen:%>ˮ K ; 
+!LEXICON PLGENSUF_Glot
+!+Pl+Gen:%>ˮ PL-ACC_STEM ;
+!+Pl+Gen:%>ˮ K ; 
 
-£LEXICON PLGENSUF_I
-£+Pl+Gen:%>и  K ; £Stem final е а я may change to и.
+!LEXICON PLGENSUF_I
+!+Pl+Gen:%>и  K ; !Stem final е а я may change to и.
 
-£LEXICON PLGENSUF_О
-£+Pl+Gen:%>оˮ PL-ACC_STEM ;
-£+Pl+Gen:%>оˮ K ;
+!LEXICON PLGENSUF_О
+!+Pl+Gen:%>оˮ PL-ACC_STEM ;
+!+Pl+Gen:%>оˮ K ;
 
-£LEXICON PLGENSUF_AO
-£+Pl+Acc:%>ё  K ; £ This is not suffix, it should replace stem я. Exception list?
+!LEXICON PLGENSUF_AO
+!+Pl+Acc:%>ё  K ; ! This is not suffix, it should replace stem я. Exception list?
 
 LEXICON PLDATSUF
 +Pl+Dat:%>х%{ауоэØ%}ˮ K ;
@@ -2089,17 +2089,17 @@ LEXICON PLABLSUF
 
 
 LEXICON PLPROSSUF
-£+Pl+Pros:%>Ы1ˮмана K ;
+!+Pl+Pros:%>Ы1ˮмана K ;
 +Pl+Pros:%>ˮмна K ;
-£+Pl+Pros:%>ˮмана PL-PROS_POSSESSA ;
-£+Pl+Pros:%>ˮмна K ; £явоˮмна
-+Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; £2013-10-28
+!+Pl+Pros:%>ˮмана PL-PROS_POSSESSA ;
+!+Pl+Pros:%>ˮмна K ; !явоˮмна
++Pl+Pros:%>ˮ%{ауоэиыØ%}%{увм%}н%{ая%}	K ; !2013-10-28
 
 
-£LEXICON  PLTRASUF
-£+Pl+Tra:%>ˮӈэ K ;
+!LEXICON  PLTRASUF
+!+Pl+Tra:%>ˮӈэ K ;
 
-££ Possessor Indices
+!! Possessor Indices
 LEXICON POSSESSOR-INDICES
 
  POSSESSA-SINGULAR ;
@@ -2116,16 +2116,16 @@ LEXICON POSSESSA-SINGULAR
 LEXICON POSSESSA-SG-NOM
 +Sg+Nom+PxSg1:%>%{вм%}   K ;
 +Sg+Nom+PxSg1:%>ми   K ;
-+Sg+Nom+PxSg2:%>%{рл%}   K ; £ (1961: 110) нюр, ӈэсял, мяˮал
++Sg+Nom+PxSg2:%>%{рл%}   K ; ! (1961: 110) нюр, ӈэсял, мяˮал
 +Sg+Nom+PxSg3:%>да  K ;
 +Sg+Nom+PxDu1:%>миʼ K ;
 +Sg+Nom+PxDu2:%>%{рл%}иʼ K ;
 +Sg+Nom+PxDu3:%>диʼ K ;
 +Sg+Nom+PxPl1:%>%{вм%}аˮ K ;
-+Sg+Nom+PxPl2:%>%{рл%}аˮ K ; £ (1961: 110) даˮ but л after Glots and schwa
++Sg+Nom+PxPl2:%>%{рл%}аˮ K ; ! (1961: 110) даˮ but л after Glots and schwa
 +Sg+Nom+PxPl3:%>доʼ K ;
 
-+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>в   K ; ££≈ * __@CODE@__ 2013-10-22 Should this also have +ScSg3 marking
++Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>в   K ; !!≈ * __@CODE@__ 2013-10-22 Should this also have +ScSg3 marking
 +Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3:%>р   K ;
 +Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3:%>да  K ;
 +Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3:%>миʼ K ;
@@ -2147,7 +2147,7 @@ LEXICON POSSESSA-SG-NOM
 
 LEXICON POSSESSA-SG-ACC
 +Sg+Acc+PxSg1:%>%{аяуюØ%}%{вм%}    K ;
-+Sg+Acc+PxSg1:%>ми   K ;£ (1961: 112) нюми, ӈэсями, мяˮми 
++Sg+Acc+PxSg1:%>ми   K ;! (1961: 112) нюми, ӈэсями, мяˮми 
 +Sg+Acc+PxSg2:%>%{аяуюØ%}мд   K ;
 +Sg+Acc+PxSg3:%>%{аяуюØ%}мда  K ;
 +Sg+Acc+PxDu1:%>миʼ  K ;
@@ -2157,9 +2157,9 @@ LEXICON POSSESSA-SG-ACC
 +Sg+Acc+PxPl2:%>мдаˮ K ;
 +Sg+Acc+PxPl3:%>мдоʼ K ;
 
-LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ££= * __@CODE@__ singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
+LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES !!= * __@CODE@__ singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
 +PxSg1:н    K ;
-+PxSg1:ни   K ; £ (1961: 111) нюни, ӈэсяни, мяˮни
++PxSg1:ни   K ; ! (1961: 111) нюни, ӈэсяни, мяˮни
 +PxSg2:нд   K ;
 +PxSg3:нда  K ;
 +PxDu1:ниʼ  K ;
@@ -2169,9 +2169,9 @@ LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ££= * __@CODE@__ sing
 +PxPl2:ндаˮ K ;
 +PxPl3:ндоʼ K ;
 
-LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ££= * __@CODE@__ singular possessa oblique possessor indices
+LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 !!= * __@CODE@__ singular possessa oblique possessor indices
 +PxSg1+Der/Pr+Aor:н    MUTUAL-SG3_NORAISING ;
-+PxSg1+Der/Pr+Aor:ни   MUTUAL-SG3_NORAISING ; £ (1961+Der/Pr+Aor: 111) нюни, ӈэсяни, мяˮни
++PxSg1+Der/Pr+Aor:ни   MUTUAL-SG3_NORAISING ; ! (1961+Der/Pr+Aor: 111) нюни, ӈэсяни, мяˮни
 +PxSg2+Der/Pr+Aor:нд   MUTUAL-SG3_NORAISING ;
 +PxSg3+Der/Pr+Aor:нда  MUTUAL-SG3_NORAISING ;
 +PxDu1+Der/Pr+Aor:ниʼ  MUTUAL-SG3_NORAISING ;
@@ -2191,12 +2191,12 @@ LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED
 +PxPl2+Der/Pr:ндаˮ IND-4-PRT1-SG3 ;
 +PxPl3+Der/Pr:ндоʼ IND-4-PRT1-SG3 ;
 
-££ SINUGLAR CASES
+!! SINUGLAR CASES
 LEXICON SG-LOC
 +Sg+Loc:%>х°на # ;  
 
 LEXICON POSSESSA-SG-GEN
-+Sg+Gen:%>  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ; £ (1961: 111) нюни, ӈэсяни, мяˮни
++Sg+Gen:%>  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ; ! (1961: 111) нюни, ӈэсяни, мяˮни
 
 LEXICON POSSESSA-SG-DAT
 +Sg+Dat:%>х%{ауоэØ%}  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
@@ -2207,17 +2207,17 @@ LEXICON POSSESSA-SG-LOC
 LEXICON POSSESSA-SG-ABL
 +Sg+Abl:%>х%{ауоэØ%}да    AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
-£LEXICON POSSESSA-SG-4-EVAS ££≈ * __@CODE@__ ABL
-£:%>х%{ауоэØ%}да  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
-£:%>х%{ауоэØ%}да  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+!LEXICON POSSESSA-SG-4-EVAS !!≈ * __@CODE@__ ABL
+!:%>х%{ауоэØ%}да  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
+!:%>х%{ауоэØ%}да  AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-SG-PROS
- £ 2012-04-11 Check this for N_Cons and N-D
- £ There might be reason for увна and мна varients
+ ! 2012-04-11 Check this for N_Cons and N-D
+ ! There might be reason for увна and мна varients
 +Sg+Pros:%>%{увм%}А2на AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
-££ The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
-££+Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ  K ; ££ This line must be removed 2013-03-20
+!! The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
+!!+Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ  K ; !! This line must be removed 2013-03-20
 
 LEXICON POSSESSA-SG-PROS_увна
 +Sg+Pros:%>увна    AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
@@ -2226,7 +2226,7 @@ LEXICON POSSESSA-SG-PROS_АМНА
 +Sg+Pros:%>амна     AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
 LEXICON POSSESSA-DUAL
-££ Dual possessa
+!! Dual possessa
 +Du+Nom+PxSg1:%>хюн       K ;
 +Du+Nom+PxSg2:%>хюд       K ;
 +Du+Nom+PxSg3:%>хюда      K ;
@@ -2237,8 +2237,8 @@ LEXICON POSSESSA-DUAL
 +Du+Nom+PxPl2:%>хюдаˮ     K ;
 +Du+Nom+PxPl3:%>хюдоʼ     K  ;
 
-+Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;£хасавахаюн
-+Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; £хасавахаюд
++Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;!хасавахаюн
++Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; !хасавахаюд
 +Du+Nom+PxSg3:%>х%{ауоэØ%}юда      K ;
 +Du+Nom+PxDu1:%>х%{ауоэØ%}юниʼ     K ;
 +Du+Nom+PxDu2:%>х%{ауоэØ%}юдиʼ     K ;
@@ -2277,7 +2277,7 @@ LEXICON POSSESSA-DUAL
 +Du+Acc+PxPl2:%>хюдаˮ K ;
 +Du+Acc+PxPl3:%>хюдоʼ K ;
 
-+Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; £хасавахаюн
++Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; !хасавахаюн
 +Du+Acc+PxSg2:%>х%{ауоэØ%}юд   K ;
 +Du+Acc+PxSg3:%>х%{ауоэØ%}юда  K ;
 +Du+Acc+PxDu1:%>х%{ауоэØ%}юниʼ K ;
@@ -2297,7 +2297,7 @@ LEXICON POSSESSA-DUAL
 +Du+Gen+PxPl2:%>хютаˮ K ;
 +Du+Gen+PxPl3:%>хютоʼ K ;
 
-+Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;£ хасавахаюн
++Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;! хасавахаюн
 +Du+Gen+PxSg2:%>х%{ауоэØ%}ют   K ;
 +Du+Gen+PxSg3:%>х%{ауоэØ%}юта  K ;
 +Du+Gen+PxDu1:%>х%{ауоэØ%}юниʼ K ;
@@ -2308,10 +2308,10 @@ LEXICON POSSESSA-DUAL
 +Du+Gen+PxPl3:%>х%{ауоэØ%}ютоʼ K ;
 
 LEXICON POSSESSA-DUAL_ХАЮН
-££ Dual possessa
+!! Dual possessa
 
-+Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;£хасавахаюн
-+Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; £хасавахаюд
++Du+Nom+PxSg1:%>х%{ауоэØ%}юн       K ;!хасавахаюн
++Du+Nom+PxSg2:%>х%{ауоэØ%}юд       K ; !хасавахаюд
 +Du+Nom+PxSg3:%>х%{ауоэØ%}юда      K ;
 +Du+Nom+PxDu1:%>х%{ауоэØ%}юниʼ     K ;
 +Du+Nom+PxDu2:%>х%{ауоэØ%}юдиʼ     K ;
@@ -2340,7 +2340,7 @@ LEXICON POSSESSA-DUAL_ХАЮН
 +Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдаць     K ;
 +Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu:%>х%{ауоэØ%}юдонзь     K  ;
 
-+Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; £хасавахаюн
++Du+Acc+PxSg1:%>х%{ауоэØ%}юн   K ; !хасавахаюн
 +Du+Acc+PxSg2:%>х%{ауоэØ%}юд   K ;
 +Du+Acc+PxSg3:%>х%{ауоэØ%}юда  K ;
 +Du+Acc+PxDu1:%>х%{ауоэØ%}юниʼ K ;
@@ -2350,7 +2350,7 @@ LEXICON POSSESSA-DUAL_ХАЮН
 +Du+Acc+PxPl2:%>х%{ауоэØ%}юдаˮ K ;
 +Du+Acc+PxPl3:%>х%{ауоэØ%}юдоʼ K ;
 
-+Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;£ хасавахаюн
++Du+Gen+PxSg1:%>х%{ауоэØ%}юн   K ;! хасавахаюн
 +Du+Gen+PxSg2:%>х%{ауоэØ%}ют   K ;
 +Du+Gen+PxSg3:%>х%{ауоэØ%}юта  K ;
 +Du+Gen+PxDu1:%>х%{ауоэØ%}юниʼ K ;
@@ -2367,7 +2367,7 @@ LEXICON POSSESSA-PLURAL
  POSSESSA-PL-OTHER ;
 
 LEXICON POSSESSA-PL-NOM
-££ Plural Possessa
+!! Plural Possessa
  PL-NOM-PXSG1 ;
  PL-NOM-PXSG2 ;
  PL-NOM-PXSG3 ;
@@ -2379,7 +2379,7 @@ LEXICON POSSESSA-PL-NOM
  PL-NOM-PXPL3 ;
 
 LEXICON PRED-POSSESSA
-££= * @CODE@ Could +Sg+Nom+PxSg3:%>да be the basis?
+!!= * @CODE@ Could +Sg+Nom+PxSg3:%>да be the basis?
  PRED-ACC-POSSESSA ;
  PRED-GEN-POSSESSA ;
  PRED-NOM-POSSESSA ;
@@ -2409,7 +2409,7 @@ LEXICON PRED-ACC-POSSESSA
 
 LEXICON PRED-GEN-POSSESSA
 +Pred+Gen+PxSg1:%>да%>н°    K ;
-£+Pred+Gen+PxSg1:%>дә%>н°    K ;
+!+Pred+Gen+PxSg1:%>дә%>н°    K ;
 +Pred+Gen+PxSg1:%>да%>ни   K ;
 +Pred+Gen+PxSg2:%>да%>нд   K ;
 +Pred+Gen+PxSg3:%>да%>нда  K ;
@@ -2468,16 +2468,16 @@ LEXICON PL-NOM-PXPL3
 +Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3:%>доʼ K ;
 +Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3:%>донзь K ;
 
-£+Pl+Gen+PxSg1:%>ˮн   K ; £ Check 2013-01-09 %>н
-£+Pl+Gen+PxSg1:%>ˮни  K ; £ Check 2013-01-09 %>н
-£+Pl+Gen+PxSg2:%>т    K ; £ _*_ˮд : т_
-£+Pl+Gen+PxSg3:%>та   K ; £ _*_ˮд : т_
-£+Pl+Gen+PxDu1:%>ˮниʼ K ;£ Check 2013-01-09 %>ниʼ
-£+Pl+Gen+PxDu2:%>тиʼ  K ;£ _*_ˮд : т_
-£+Pl+Gen+PxDu3:%>тиʼ  K ; £ _*_ˮд : т_
-£+Pl+Gen+PxPl1:%>ˮнаˮ K ; £ Check 2013-01-09 %>наˮ 
-£+Pl+Gen+PxPl2:%>таˮ  K ; £ _*_ˮд : т_
-£+Pl+Gen+PxPl3:%>тоʼ  K ; £ _*_ˮд : т_
+!+Pl+Gen+PxSg1:%>ˮн   K ; ! Check 2013-01-09 %>н
+!+Pl+Gen+PxSg1:%>ˮни  K ; ! Check 2013-01-09 %>н
+!+Pl+Gen+PxSg2:%>т    K ; ! _*_ˮд : т_
+!+Pl+Gen+PxSg3:%>та   K ; ! _*_ˮд : т_
+!+Pl+Gen+PxDu1:%>ˮниʼ K ;! Check 2013-01-09 %>ниʼ
+!+Pl+Gen+PxDu2:%>тиʼ  K ;! _*_ˮд : т_
+!+Pl+Gen+PxDu3:%>тиʼ  K ; ! _*_ˮд : т_
+!+Pl+Gen+PxPl1:%>ˮнаˮ K ; ! Check 2013-01-09 %>наˮ 
+!+Pl+Gen+PxPl2:%>таˮ  K ; ! _*_ˮд : т_
+!+Pl+Gen+PxPl3:%>тоʼ  K ; ! _*_ˮд : т_
 
 
 LEXICON POSSESSA-PL-ACC
@@ -2502,16 +2502,16 @@ LEXICON POSSESSA-PL-GEN
  POSSESSA-PL-ACCGEN_PXPL2 ;
  POSSESSA-PL-ACCGEN_PXPL3 ;
 
-£LEXICON POSSESSA-PL-PROS
-£ POSSESSA-PL-GEN_PXSG1 ;
-£:ˮ POSSESSA-PL-ACCGEN_PXSG2 ;
-£:ˮ POSSESSA-PL-ACCGEN_PXSG3 ;
-£ POSSESSA-PL-ACCGEN_PXDU1 ;
-£:ˮ POSSESSA-PL-ACCGEN_PXDU2 ;
-£:ˮ POSSESSA-PL-ACCGEN_PXDU3 ;
-£ POSSESSA-PL-ACCGEN_PXPL1 ;
-£:ˮ POSSESSA-PL-ACCGEN_PXPL2 ;
-£:ˮ POSSESSA-PL-ACCGEN_PXPL3 ;
+!LEXICON POSSESSA-PL-PROS
+! POSSESSA-PL-GEN_PXSG1 ;
+!:ˮ POSSESSA-PL-ACCGEN_PXSG2 ;
+!:ˮ POSSESSA-PL-ACCGEN_PXSG3 ;
+! POSSESSA-PL-ACCGEN_PXDU1 ;
+!:ˮ POSSESSA-PL-ACCGEN_PXDU2 ;
+!:ˮ POSSESSA-PL-ACCGEN_PXDU3 ;
+! POSSESSA-PL-ACCGEN_PXPL1 ;
+!:ˮ POSSESSA-PL-ACCGEN_PXPL2 ;
+!:ˮ POSSESSA-PL-ACCGEN_PXPL3 ;
 
 
 LEXICON  POSSESSA-PL-ACCGEN_PXSG1
@@ -2540,8 +2540,8 @@ LEXICON  POSSESSA-PL-ACCGEN_PXDU3
 +PxDu3:%>диʼ K ;
 
 LEXICON  POSSESSA-PL-ACCGEN_PXPL1
-+PxPl1:наˮ K ; ££= * __@CODE@__ The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
-£+PxPl1:%>наˮ K ;
++PxPl1:наˮ K ; !!= * __@CODE@__ The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
+!+PxPl1:%>наˮ K ;
 
 LEXICON  POSSESSA-PL-ACCGEN_PXPL2
 +PxPl2:%>даˮ K ;
@@ -2603,7 +2603,7 @@ LEXICON POSSESSA-PL-PROS
 +Pl+Pros+PxPl3:%>ˮ%{увм%}А2натоʼ K ;
 
 LEXICON POSSESSA-PL-PROS_ˮмана
-££+Pl+Pros:ˮмана
+!!+Pl+Pros:ˮмана
 +Pl+Pros+PxSg1:ˮмана%>н   K ;
 +Pl+Pros+PxSg2:ˮмана%>т   K ;
 +Pl+Pros+PxSg3:ˮмана%>та  K ;
@@ -2653,10 +2653,10 @@ LEXICON PL-PROS-PXPL3
 
 
 
-££ Conjugation of nouns and adjectives
+!! Conjugation of nouns and adjectives
 LEXICON NOMINAL-CONJUGATION
 +Der/Pr+V+Ind+Aor+ScSg1:%>дмʼ K ;
-+Der/Pr+V+Ind+Aor+ScSg1:%>мʼ K ; £хомʼ
++Der/Pr+V+Ind+Aor+ScSg1:%>мʼ K ; !хомʼ
 +Der/Pr+V+Ind+Aor+ScSg2:%>н   K ;
 +Der/Pr+V+Ind+Aor+ScSg3:      K ;
 +Der/Pr+V+Ind+Aor+ScDu1:%>ниʼ K ;
@@ -2667,7 +2667,7 @@ LEXICON NOMINAL-CONJUGATION
 +Der/Pr+V+Ind+Aor+ScPl3:%>ˮ   K ;
 
 +Der/Pr+V+Ind+Prt1+ScSg1:%>дамзь K ;
-+Der/Pr+V+Ind+Prt1+ScSg1:%>манзь K ; £хоманзь
++Der/Pr+V+Ind+Prt1+ScSg1:%>манзь K ; !хоманзь
 +Der/Pr+V+Ind+Prt1+ScSg2:%>нась  K ;
 +Der/Pr+V+Ind+Prt1+ScSg3:%>сь    K ;
 +Der/Pr+V+Ind+Prt1+ScDu1:%>нинзь K ;
@@ -2678,7 +2678,7 @@ LEXICON NOMINAL-CONJUGATION
 +Der/Pr+V+Ind+Prt1+ScPl3:%>ць    K ;
 
 
-££ ££NEW
+!! !!NEW
 
 LEXICON N-NEW_ӇЭ
  NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E
@@ -2700,7 +2700,7 @@ LEXICON NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E-OTHERS
 +Sg+Gen:%>ʼ K ;
 +Nom+Der/Pr+V+Ind+Aor+ScSg3: K ;
 +Nom+Der/Pr+V+Ind+Aor+ScPl3:%>ˮ K ;
-£
+!
 +Nom+Der/Pr+V+Ind+Prt1+ScSg3:%>сь K ;
 +Nom+Der/Pr+V+Ind+Prt1+ScPl3:%>ць K ;
 
@@ -2810,7 +2810,7 @@ LEXICON NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS_Дё
 +Sg+Gen+PxPl3:%>ндёʼ K ;
 
 LEXICON NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS
-£
+!
 +Sg+Nom+PxSg3:%>да K ;
 +Sg+Nom+PxDu3:%>диʼ K ;
 +Sg+Nom+PxPl3:%>доʼ K ;
@@ -2829,13 +2829,13 @@ LEXICON NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS
 +Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3:%>донзь K ;
 
 
-£
+!
 +Sg+Acc+PxSg3:%>мда K ;
 +Sg+Acc+PxDu2:%>мдиʼ K ;
 +Sg+Acc+PxDu3:%>мдиʼ K ;
 +Sg+Acc+PxPl2:%>мдаˮ K ;
 +Sg+Acc+PxPl3:%>мдоʼ K ;
-+Sg+Dat:%^SCSG2%>нʼ K ; £i2e
++Sg+Dat:%^SCSG2%>нʼ K ; !i2e
 +Sg+Gen+PxSg1:%>н K ;
 +Sg+Gen+PxSg3:%>нда K ;
 +Sg+Gen+PxDu2:%>ндиʼ K ;
@@ -2857,7 +2857,7 @@ LEXICON NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS
 
 
 LEXICON NEW-ODD-SYLL-SG-LOC_Каня
-+Sg+Loc:%>к%{ауоэØ%}ня K ; £i2e
++Sg+Loc:%>к%{ауоэØ%}ня K ; !i2e
 +Sg+Loc+PxSg1:%>к%{ауоэØ%}нян K ;
 +Sg+Loc+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}няни K ;
 +Sg+Loc+PxSg2:%>к%{ауоэØ%}нянд K ;
@@ -2868,7 +2868,7 @@ LEXICON NEW-ODD-SYLL-SG-LOC_Каня
 +Sg+Loc+PxPl1:%>к%{ауоэØ%}нянаˮ K ;
 +Sg+Loc+PxPl2:%>к%{ауоэØ%}няндаˮ K ;
 +Sg+Loc+PxPl3:%>к%{ауоэØ%}няндоʼ K ;
-+Pl+Loc:%>к%{ауоэØ%}ˮня K ; £i2e
++Pl+Loc:%>к%{ауоэØ%}ˮня K ; !i2e
 +Pl+Loc+PxSg2:%>к%{ауоэØ%}ˮнят K ;
 +Pl+Loc+PxSg3:%>к%{ауоэØ%}ˮнята K ;
 +Pl+Loc+PxDu1:%>к%{ауоэØ%}ˮняниʼ K ;
@@ -2881,8 +2881,8 @@ LEXICON NEW-ODD-SYLL-SG-LOC_Каня
 
 LEXICON NEW-ODD-SYLL-SG-LOC_Кана
 
-£
-+Sg+Loc:%>к%{ауоэØ%}на K ; £i2e
+!
++Sg+Loc:%>к%{ауоэØ%}на K ; !i2e
 +Sg+Loc+PxSg1:%>к%{ауоэØ%}нан K ;
 +Sg+Loc+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}нани K ;
 +Sg+Loc+PxSg2:%>к%{ауоэØ%}нанд K ;
@@ -2893,7 +2893,7 @@ LEXICON NEW-ODD-SYLL-SG-LOC_Кана
 +Sg+Loc+PxPl1:%>к%{ауоэØ%}нанаˮ K ;
 +Sg+Loc+PxPl2:%>к%{ауоэØ%}нандаˮ K ;
 +Sg+Loc+PxPl3:%>к%{ауоэØ%}нандоʼ K ;
-+Pl+Loc:%>к%{ауоэØ%}ˮна K ; £i2e
++Pl+Loc:%>к%{ауоэØ%}ˮна K ; !i2e
 +Sg+Abl+PxSg1:%>к%{ауоэØ%}дан K ;
 +Du+Acc+PxSg1:%>к%{ауоэØ%}юн K ;
 +Du+Acc+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}юни K ;
@@ -2994,9 +2994,9 @@ LEXICON NEW-ODD-SYLL-SG-LOC_Кана
 +Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3:%>к%{ауоэØ%}юдаць K ;
 +Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3:%>к%{ауоэØ%}юдонзь K ;
 
-£
+!
 LEXICON NEW-EVEN-SYLL-SG-LOC_Кана
-+Sg+Loc:%>к%{ауоэØ%}на K ; £i2e
++Sg+Loc:%>к%{ауоэØ%}на K ; !i2e
 +Sg+Loc+PxSg1:%>к%{ауоэØ%}нан K ;
 +Sg+Loc+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}нани K ;
 +Sg+Loc+PxSg2:%>к%{ауоэØ%}нанд K ;
@@ -3007,7 +3007,7 @@ LEXICON NEW-EVEN-SYLL-SG-LOC_Кана
 +Sg+Loc+PxPl1:%>к%{ауоэØ%}нанаˮ K ;
 +Sg+Loc+PxPl2:%>к%{ауоэØ%}нандаˮ K ;
 +Sg+Loc+PxPl3:%>к%{ауоэØ%}нандоʼ K ;
-+Pl+Loc:%>к%{ауоэØ%}ˮна K ; £i2e
++Pl+Loc:%>к%{ауоэØ%}ˮна K ; !i2e
 +Du+Acc+PxSg1:%>к%{ауоэØ%}юн K ;
 +Du+Acc+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}юни K ;
 +Du+Acc+PxSg2:%>к%{ауоэØ%}юд K ;
@@ -3115,11 +3115,11 @@ LEXICON NEW-EVEN-SYLL-SG-LOC_Кана
 +Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3:%>к%{ауоэØ%}юдаць K ;
 +Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3:%>к%{ауоэØ%}юдонзь K ;
 
-£
+!
 
 
 LEXICON NEW-ODD-SYLL-SG-LOC_Кна
-+Sg+Loc:%>кна K ; £i2e
++Sg+Loc:%>кна K ; !i2e
 +Sg+Loc+PxSg1:%>кнан K ;
 +Sg+Loc+PxSg1+Use/SpellNoSugg:%>кнани K ;
 +Sg+Loc+PxSg2:%>кнанд K ;
@@ -3130,7 +3130,7 @@ LEXICON NEW-ODD-SYLL-SG-LOC_Кна
 +Sg+Loc+PxPl1:%>кнанаˮ K ;
 +Sg+Loc+PxPl2:%>кнандаˮ K ;
 +Sg+Loc+PxPl3:%>кнандоʼ K ;
-+Pl+Loc:%>кˮна K ; £i2e
++Pl+Loc:%>кˮна K ; !i2e
 +Sg+Abl+PxSg1:%>кдан K ;
 +Sg+Abl+PxSg1+Use/SpellNoSugg:%>к%{ауоэØ%}дани K ;
 +Du+Acc+PxSg1:%>кюн K ;
@@ -3240,7 +3240,7 @@ LEXICON NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS
 +Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3:%>н K ;
 +Pl+Nom+PxSg2:%>д K ;
 +Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3:%>д K ;
-£
+!
 +Pl+Acc+PxSg1+Use/SpellNoSugg:%>ни K ;
 +Pl+Acc+PxSg3:%>да K ;
 +Pl+Acc+PxDu1:%>ниʼ K ;
@@ -3271,7 +3271,7 @@ LEXICON NEW-EVEN-SYLL-PLVOWELVARIANTS-LESS-PROS
 +Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3:%>н K ;
 +Pl+Nom+PxSg2:%>д K ;
 +Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3:%>д K ;
-£
+!
 +Pl+Acc+PxSg1+Use/SpellNoSugg:%>ни K ;
 +Pl+Acc+PxSg3:%>да K ;
 +Pl+Acc+PxDu1:%>ниʼ K ;
@@ -3299,7 +3299,7 @@ LEXICON NEW-PL-NOM-PXSG3-2-PL3
 +Pl+Nom+PxPl1:%>наˮ K ;
 +Pl+Nom+PxPl2:%>даˮ K ;
 +Pl+Nom+PxPl3:%>доʼ K ;
-£
+!
 +Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3:%>да K ;
 +Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3:%>ниʼ K ;
 +Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3:%>диʼ K ;
@@ -3318,13 +3318,13 @@ LEXICON NEW-PL-NOM-PXSG3-2-PL3
 +Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3:%>донзь K ;
 
 LEXICON NEW-ODD-SYLL-DU-NOM_Каʼ
-+Du+Acc:%>к%{ауоэØ%}ʼ K ; £i2e
-+Du+Gen:%>к%{ауоэØ%}ʼ K ; £i2e
-+Du+Nom:%>к%{ауоэØ%}ʼ K ; £i2e
-+Pl+Dat:%>к%{ауоэØ%}ˮ K ; £i2e
++Du+Acc:%>к%{ауоэØ%}ʼ K ; !i2e
++Du+Gen:%>к%{ауоэØ%}ʼ K ; !i2e
++Du+Nom:%>к%{ауоэØ%}ʼ K ; !i2e
++Pl+Dat:%>к%{ауоэØ%}ˮ K ; !i2e
 +Nom+Der/Pr+V+Ind+Aor+ScDu3:%>к%{ауоэØ%}ʼ K ;
-+Pl+Abl:%>к%{ауоэØ%}т K ; £i2e
-+Sg+Abl:%>к%{ауоэØ%}д K ; £i2e
++Pl+Abl:%>к%{ауоэØ%}т K ; !i2e
++Sg+Abl:%>к%{ауоэØ%}д K ; !i2e
 +Pl+Dat+PxSg1:%>к%{ауоэØ%}ˮн K ;
 +Pl+Dat+PxSg2:%>к%{ауоэØ%}т K ;
 +Sg+Dat+PxSg1:%>к%{ауоэØ%}н K ;
@@ -3342,8 +3342,8 @@ LEXICON NEW-ODD-SYLL-DU-NOM_Каʼ
 +Nom+Der/Pr+V+Ind+Aor+ScSg2:%^SCSG2%>н K ;
 
 +Tra:%>ӈэ K ;
-£
-£ NEW-SG-GEN-PXSG1_ни ;
+!
+! NEW-SG-GEN-PXSG1_ни ;
 +Sg+Gen+PxSg1+Use/SpellNoSugg:%>ни K ;
 +Sg+Acc+PxDu1:%>миʼ K ;
 +Sg+Nom+PxDu1:%>миʼ K ;
@@ -3414,13 +3414,13 @@ LEXICON NEW-SG-GEN-PXSG1_ни
 
 
 LEXICON NEW-ODD-SYLL-DU-NOM_Кʼ
-+Du+Acc:%>кʼ K ; £i2e
-+Du+Gen:%>кʼ K ; £i2e
-+Du+Nom:%>кʼ K ; £i2e
-+Pl+Dat:%>кˮ K ; £i2e
++Du+Acc:%>кʼ K ; !i2e
++Du+Gen:%>кʼ K ; !i2e
++Du+Nom:%>кʼ K ; !i2e
++Pl+Dat:%>кˮ K ; !i2e
 +Nom+Der/Pr+V+Ind+Aor+ScDu3:%>кʼ K ;
-+Pl+Abl:%>к%{ауоэØ%}т K ; £i2e
-+Sg+Abl:%>к%{ауоэØ%}д K ; £i2e
++Pl+Abl:%>к%{ауоэØ%}т K ; !i2e
++Sg+Abl:%>к%{ауоэØ%}д K ; !i2e
 +Pl+Dat+PxSg1:%>к%{ауоэØ%}ˮн K ;
 +Pl+Dat+PxSg2:%>к%{ауоэØ%}т K ;
 +Sg+Dat+PxSg1:%>к%{ауоэØ%}н K ;
@@ -3454,7 +3454,7 @@ LEXICON NEW-ODD-SYLL-DU-NOM_Кʼ
 +Tra:%>ӈэ K ;
 
 LEXICON NEW-SG-PROS_вня
-+Sg+Pros:%>вня K ; £i2e
++Sg+Pros:%>вня K ; !i2e
 +Sg+Pros+PxSg1:%>внян K ;
 +Sg+Pros+PxSg1+Use/SpellNoSugg:%>вняни K ;
 +Sg+Pros+PxSg2:%>внянд K ;
@@ -3467,7 +3467,7 @@ LEXICON NEW-SG-PROS_вня
 +Sg+Pros+PxPl3:%>вняндоʼ K ;
 
 LEXICON NEW-SG-PROS_вна
-+Sg+Pros:%>вна K ; £i2e
++Sg+Pros:%>вна K ; !i2e
 +Sg+Pros+PxSg1:%>внан K ;
 +Sg+Pros+PxSg1+Use/SpellNoSugg:%>внани K ;
 +Sg+Pros+PxSg2:%>внанд K ;
@@ -3500,7 +3500,7 @@ LEXICON NEW-SG-NOM-PXSG1/SG2/DU2/PL2
 
 
 LEXICON NEW-SG-PROS_мана
-+Sg+Pros:%>мана K ; £i2e
++Sg+Pros:%>мана K ; !i2e
 +Sg+Pros+PxSg1:%>манан K ;
 +Sg+Pros+PxSg1+Use/SpellNoSugg:%>манани K ;
 +Sg+Pros+PxSg2:%>мананд K ;
@@ -3567,30 +3567,30 @@ LEXICON NEW-SG-PROS_Vмна
 +Sg+Abl+PxPl3:%>кдандоʼ K ;
 
 LEXICON NEW-ODD-SYLL-PLPROSPXSUF_ˮVмня
-+Pl+Pros:%>ˮ%{ауоэØ%}мня K ; £i2e
-+Pl+Pros+PxSg1:%>ˮ%{ауоэØ%}мнян K ; £i2e
-+Pl+Pros+PxSg2:%>ˮ%{ауоэØ%}мнят K ; £i2e
-+Pl+Pros+PxSg3:%>ˮ%{ауоэØ%}мнята K ; £i2e
-+Pl+Pros+PxDu1:%>ˮ%{ауоэØ%}мняниʼ K ; £i2e
-+Pl+Pros+PxSg1+Use/SpellNoSugg:%>ˮ%{ауоэØ%}мняни K ; £i2e
-+Pl+Pros+PxDu2:%>ˮ%{ауоэØ%}мнятиʼ K ; £i2e
-+Pl+Pros+PxDu3:%>ˮ%{ауоэØ%}мнятиʼ K ; £i2e
-+Pl+Pros+PxPl1:%>ˮ%{ауоэØ%}мнянаˮ K ; £i2e
-+Pl+Pros+PxPl2:%>ˮ%{ауоэØ%}мнятаˮ K ; £i2e
-+Pl+Pros+PxPl3:%>ˮ%{ауоэØ%}мнятоʼ K ; £i2e
++Pl+Pros:%>ˮ%{ауоэØ%}мня K ; !i2e
++Pl+Pros+PxSg1:%>ˮ%{ауоэØ%}мнян K ; !i2e
++Pl+Pros+PxSg2:%>ˮ%{ауоэØ%}мнят K ; !i2e
++Pl+Pros+PxSg3:%>ˮ%{ауоэØ%}мнята K ; !i2e
++Pl+Pros+PxDu1:%>ˮ%{ауоэØ%}мняниʼ K ; !i2e
++Pl+Pros+PxSg1+Use/SpellNoSugg:%>ˮ%{ауоэØ%}мняни K ; !i2e
++Pl+Pros+PxDu2:%>ˮ%{ауоэØ%}мнятиʼ K ; !i2e
++Pl+Pros+PxDu3:%>ˮ%{ауоэØ%}мнятиʼ K ; !i2e
++Pl+Pros+PxPl1:%>ˮ%{ауоэØ%}мнянаˮ K ; !i2e
++Pl+Pros+PxPl2:%>ˮ%{ауоэØ%}мнятаˮ K ; !i2e
++Pl+Pros+PxPl3:%>ˮ%{ауоэØ%}мнятоʼ K ; !i2e
 
 LEXICON NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна
-+Pl+Pros:%>ˮ%{ауоэØ%}мна K ; £i2e
-+Pl+Pros+PxSg1:%>ˮ%{ауоэØ%}мнан K ; £i2e
-+Pl+Pros+PxSg2:%>ˮ%{ауоэØ%}мнат K ; £i2e
-+Pl+Pros+PxSg3:%>ˮ%{ауоэØ%}мната K ; £i2e
-+Pl+Pros+PxDu1:%>ˮ%{ауоэØ%}мнаниʼ K ; £i2e
-+Pl+Pros+PxSg1+Use/SpellNoSugg:%>ˮ%{ауоэØ%}мнани K ; £i2e
-+Pl+Pros+PxDu2:%>ˮ%{ауоэØ%}мнатиʼ K ; £i2e
-+Pl+Pros+PxDu3:%>ˮ%{ауоэØ%}мнатиʼ K ; £i2e
-+Pl+Pros+PxPl1:%>ˮ%{ауоэØ%}мнанаˮ K ; £i2e
-+Pl+Pros+PxPl2:%>ˮ%{ауоэØ%}мнатаˮ K ; £i2e
-+Pl+Pros+PxPl3:%>ˮ%{ауоэØ%}мнатоʼ K ; £i2e
++Pl+Pros:%>ˮ%{ауоэØ%}мна K ; !i2e
++Pl+Pros+PxSg1:%>ˮ%{ауоэØ%}мнан K ; !i2e
++Pl+Pros+PxSg2:%>ˮ%{ауоэØ%}мнат K ; !i2e
++Pl+Pros+PxSg3:%>ˮ%{ауоэØ%}мната K ; !i2e
++Pl+Pros+PxDu1:%>ˮ%{ауоэØ%}мнаниʼ K ; !i2e
++Pl+Pros+PxSg1+Use/SpellNoSugg:%>ˮ%{ауоэØ%}мнани K ; !i2e
++Pl+Pros+PxDu2:%>ˮ%{ауоэØ%}мнатиʼ K ; !i2e
++Pl+Pros+PxDu3:%>ˮ%{ауоэØ%}мнатиʼ K ; !i2e
++Pl+Pros+PxPl1:%>ˮ%{ауоэØ%}мнанаˮ K ; !i2e
++Pl+Pros+PxPl2:%>ˮ%{ауоэØ%}мнатаˮ K ; !i2e
++Pl+Pros+PxPl3:%>ˮ%{ауоэØ%}мнатоʼ K ; !i2e
 +Pl+Gen+PxSg1:%>ˮ%{ауоэØ%}н K ;
 
 
@@ -3622,5 +3622,5 @@ LEXICON NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана
 +Pl+Pros+PxPl3:%>ˮманатоʼ K ;
 +Pl+Gen+PxSg1:%>ˮн K ;
 
-£ vim: set ft=xfst-lexc:
+! vim: set ft=xfst-lexc:
 

@@ -227,9 +227,15 @@ V_refl 2013-03-04
  * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
 
 
- * __LEXICON V-01_ТИР__
+ * __LEXICON V-NEW_ТИР__
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
+V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
+V-NEW_BI-SYLL-MUTUAL-MODREP ;
+V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
+
+
+ * ! PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 V_refl 2013-03-04
@@ -237,7 +243,7 @@ V_refl 2013-03-04
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
-!TWOO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+!TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  * __LEXICON V-01_НЭКАЛ__ нэкалць:нэкал
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -483,6 +489,7 @@ Non-finites
 
 
 
+
  * __+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; __ Vowel removed
  * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
  * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
@@ -517,11 +524,16 @@ Non-finites
 
 
 
+
+
+
+
 ◊_obj 
 
 
 
 ◊_obj 
+
 
 
 
@@ -557,6 +569,48 @@ Non-finites
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON MOD/INT-SC_бца __ ??
 
 
 
