@@ -394,7 +394,7 @@ Rules
 
 "v To m "
 !! __@RULENAME@__
-  в:м <=> [ Ӈ1: | Н1: | Д1: | С1: ] %> (0:) _ ;
+  в:м <=> [ Ӈ1: | Н1: | Д1: | С1: | ˮ: ] %> (0:) _ ;
 !€# ман°С1%>0в
 !€0 манаˮ0ам
 
@@ -1695,16 +1695,16 @@ Rules
 
  "а:0 vowel loss in plural accusative and elsewhere LEFT"
 !! __@RULENAME@__
-  а:0 <= Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
+  а:0 <=> Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ к: а ʼ ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
 !2014-03-24         Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
 !2014-03-24            в _ (ʼ:) %> [ %{вм%}: [ Ы2: | э: | ы | а ] | ӈ г у | ˮ м а: | н: %{ая%}: ] ;
 
 
- "а:0 vowel loss in plural accusative and elsewhere RIGHT"
+! "а:0 vowel loss in plural accusative and elsewhere RIGHT"
 !! __@RULENAME@__
-  а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
+!  а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ӈ: _ к: а ʼ ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
 !2014-03-24         Vow: (%^VowRaise:) %> %{вм%}: _ н а ;
@@ -1835,17 +1835,15 @@ Rules
 !€0 сыл00хавы
 !  р:л <=> [ ʼ: | Ӈ1: ] %> _ ;
 
-"r To 0 after л glottal"
-!! __@RULENAME@__
-  р:0 <=> Vow [ л | р: ] %> _  ;
-!€# сыр%>рхавы
-!€0 сыл00хавы
-
 "r To 0 before glottal and р or л"
 !! __@RULENAME@__
  р:0 <=> Vow _ (%^PalVariation:) Д1: %> %{рл%}:   ;
 !€# тар%^PalVariationД1%>%{рл%}°
 !€0 та0000л0
+ Vow [ л | р: ] %> _  ;
+!€# сыр%>рхавы
+!€0 сыл00хавы
+
 
 !2014-03-24!!"tTod"
 !2014-03-24!!!! __@RULENAME@__
@@ -1858,7 +1856,7 @@ Rules
 !€0 мя000тʼ
 !€# ман°С1%^SCSG2%>нʼ
 !€0 мана000тʼ
-     Cns Ӈ1: %> _ ;
+     Cns Ӈ1: %> _ [ʼ|а|#] ;
 !€# сырӇ1%>нарахав
 !€0 сыр00тарахав
 
@@ -1895,9 +1893,11 @@ Rules
 !2014-03-24  д:л <=> [ Д1:ˮ | ˮ:ˮ  ] %> _ а ц ь ;
 !2014-03-24 
 !2014-03-24 
-!2014-03-24 "b to p after non-nasal glottal"
-!2014-03-24 ¶¶ __@RULENAME@__
-!2014-03-24  б:п <=> [ С1: | Д1: | ˮ: ] %> _ ;
+"b to p after non-nasal glottal"
+!! __@RULENAME@__
+  б:п <=> [ С1: | Д1: | ˮ: ] %> _ ;
+!€# сырˮ%>бˮ
+!€0 сыр00пˮ
 !2014-03-24 !        %> _ ˮ # ; илесь:илебˮ
 !2014-03-24 
 !2014-03-24 "b to 0 between mod/obl"
@@ -1927,7 +1927,9 @@ Rules
 "ˮ:0"
 !! __@RULENAME@__
   ˮ:0 <=> _ %> д: ;
- !2014-02-04!     %> б:п _ ;
+     _ %> б:п ;
+!€# сырˮ%>бˮ
+!€0 сыр00пˮ
           _ %> [ %{рл%}: | %{вм%}: ] ;
           _ %> с: ь ;
       Cns _ %^SCSG2: %> н:т ;
