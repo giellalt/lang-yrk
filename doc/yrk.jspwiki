@@ -1179,11 +1179,10 @@ V_refl 2013-03-04
 
 
  * __LEXICON V-NEW_ТИР__
+  * Yaml: __V-sircj__
 
-V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
-V-NEW_BI-SYLL-MUTUAL-PRCNEG ;
-V-NEW_BI-SYLL-MUTUAL-MODREP ;
-V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
+
+
 
 
  * ! PRC-NEG ; 	+PrcNeg +PrcFut
@@ -1404,7 +1403,6 @@ Non-finites
 
 
 
-
  * __+PrcFut:%>%{вм%}анда K ;__
 
  * __+PrcFut:%>%{вм%}нда K ;__ Should this form be here 2013-11-25
@@ -1427,11 +1425,18 @@ Non-finites
 
 
 
+  * Yaml: __V-laxanasj__
+
+
+
 
 
 
 
 * Yaml: __V-xosjTS__
+
+
+
 
 
 ◊_subj
@@ -1445,6 +1450,7 @@ Non-finites
  * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
  * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
  * __+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; __ Vowel removed
+
 
 
 
@@ -1501,10 +1507,27 @@ Non-finites
  * __LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO __ raise/no
 
 
- * __+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; __ Vowel removed
- * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
- * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
- * __+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; __ Vowel removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1562,6 +1585,30 @@ Non-finites
 
 
  * __LEXICON MOD/INT-SC_бца __ ??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; __ Vowel removed
+ * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
+ * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
+ * __+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; __ Vowel removed
+
 
 
 
@@ -1885,8 +1932,10 @@ __н loss after glottal before д: __
 
 
 __н loss after glottal before д: __
+__r To l after nasal glottal__
 
 __r To 0 before glottal and р or л__
+
 
 __r To 0 before glottal and р or л__
 т:д <=>   Н1: %> _ а ;
@@ -1897,6 +1946,7 @@ __n to t after non-nasal glottal__
 __d to t after non-nasal glottal__
 
 
+__b to p after non-nasal glottal__
 
 The rule __ъ:0 with Conj after vowels__:
 
