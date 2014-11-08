@@ -370,6 +370,7 @@ LEXICON Root
    adverbs  ;		    !!≈ * __@CODE@__
    interjections   ;    !!≈ * __@CODE@__
    nouns   ;		    !!≈ * __@CODE@__
+   particles    ;	    !!≈ * __@CODE@__
    pronouns    ;	    !!≈ * __@CODE@__
    propernouns    ;	    !!≈ * __@CODE@__
    quantifiers    ;	    !!≈ * __@CODE@__
@@ -402,6 +403,9 @@ LEXICON SUBJUNCTION
 
 LEXICON INTERJECTION
 # ;
+
+LEXICON PCLE_
++Pcle: # ;
 
 LEXICON POSTP_
 +Po: K ;
