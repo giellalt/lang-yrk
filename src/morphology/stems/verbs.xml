@@ -106739,9 +106739,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">пынделабтабась</l>
+      <l pos="V" val="TV">пынделабтамбась</l>
 
       <stg>
+        <st Contlex="TV_ХАДАБАСЬ">пынделабтамба</st>
+
         <st Contlex="TV_ХАДАБАСЬ">пынделабтаба</st>
       </stg>
     </lg>
@@ -107171,6 +107173,8 @@
 
       <stg>
         <st Contlex="VR_ӇЭДАРА">пырэла</st>
+
+        <st Contlex="VR_ӇЭДАРА">пырала</st>
       </stg>
     </lg>
 
@@ -108969,6 +108973,8 @@
 
       <stg>
         <st Contlex="IV_ВАДЮ">пэнё</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">пэна</st>
       </stg>
     </lg>
 
@@ -113329,6 +113335,26 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">olla pukeutunut huppuun</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="IV">саведуйӈгось</l>
+
+      <stg>
+        <st Contlex="IV_СЯНАКУ">саведуйӈго</st>
+
+        <st Contlex="IV_СЯНАКУ">заведуйӈго</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">johtaa</t>
       </tg>
     </mg>
   </e>
@@ -119727,6 +119753,8 @@
 
       <stg>
         <st Contlex="IV_ӇАРАМ">саӈгом</st>
+
+        <st Contlex="IV_ӇАРАМ">саӈгум</st>
       </stg>
     </lg>
 

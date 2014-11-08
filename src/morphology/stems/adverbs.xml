@@ -2838,6 +2838,42 @@
 
   <e>
     <lg>
+      <l pos="Adv">ниӈоˮ</l>
+
+      <stg>
+        <st Contlex="PCLE_">ниӈоˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ei</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ниӈэ</l>
+
+      <stg>
+        <st Contlex="PCLE_">ниӈэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ei</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">нулӈгавасиˮ</l>
 
       <stg>
@@ -2996,6 +3032,24 @@
         <t pos="Adv">aluksi</t>
 
         <t pos="Adv">ensiksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">няби</l>
+
+      <stg>
+        <st Contlex="PCLE_">няби</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ja</t>
       </tg>
     </mg>
   </e>
@@ -3768,6 +3822,28 @@
 
   <e>
     <lg>
+      <l pos="Adv">пустойʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">пустойʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">turhaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">пуцейʼ</l>
 
       <stg>
@@ -3838,6 +3914,8 @@
 
       <stg>
         <st Contlex="ADV-TEMP_">пэвсюмняна</st>
+
+        <st Contlex="ADV-TEMP_">пэсьняна</st>
       </stg>
     </lg>
 
@@ -3894,6 +3972,28 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">hyvin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">саванзерʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">саванзерʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">hyvä että</t>
       </tg>
     </mg>
   </e>
@@ -4010,6 +4110,28 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">liian</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">сацярка</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">сацярка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">aika kovasti</t>
       </tg>
     </mg>
   </e>
