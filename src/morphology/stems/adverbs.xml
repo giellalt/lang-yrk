@@ -2836,7 +2836,6 @@
     </mg>
   </e>
 
-
   <e>
     <lg>
       <l pos="Adv">нулӈгавасиˮ</l>
@@ -3000,7 +2999,6 @@
       </tg>
     </mg>
   </e>
-
 
   <e>
     <lg>
@@ -4230,6 +4228,8 @@
 
       <stg>
         <st Contlex="ADV-MANNER_">серциˮ</st>
+
+        <st Contlex="ADV-MANNER_">серципойˮ</st>
       </stg>
     </lg>
 
@@ -4244,6 +4244,50 @@
         <t pos="Adv">jouten</t>
 
         <t pos="Adv">näet</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">сибицювна</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">сибицювна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kevyesti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">сибявна</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">сибявна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kevyesti</t>
       </tg>
     </mg>
   </e>
@@ -4414,6 +4458,8 @@
         <st Contlex="ADV-MANNER_">сюрико</st>
 
         <st Contlex="ADV-MANNER_">сюрикохоя</st>
+
+        <st Contlex="ADV-MANNER_">сирюʼ</st>
       </stg>
     </lg>
 

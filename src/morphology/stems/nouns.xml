@@ -31376,6 +31376,30 @@
 
   <e>
     <lg>
+      <l pos="N">севабтˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">севабт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">ympärys</t>
+
+        <t pos="N">ympärysmitta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">севэй</l>
 
       <stg>
@@ -31538,6 +31562,28 @@
 
   <e>
     <lg>
+      <l pos="N">сейдˮ</l>
+
+      <stg>
+        <st Contlex="N_МЯДО">сейд</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N"/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сейрё</l>
 
       <stg>
@@ -31568,6 +31614,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">tupakan haju</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">секадэˮ</l>
+
+      <stg>
+        <st Contlex="N_ТАСО">секадэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">havupuun pihka</t>
       </tg>
     </mg>
   </e>
@@ -31997,7 +32061,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N"> viila</t>
+        <t pos="N">viila</t>
       </tg>
     </mg>
   </e>
@@ -32028,6 +32092,28 @@
 
   <e>
     <lg>
+      <l pos="N">серобэлава</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">серобэлава</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">toimisto</t>
+
+        <t pos="N">konttori</t>
+
+        <t pos="N">hallinto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">серота</l>
 
       <stg>
@@ -32042,6 +32128,24 @@
         <t pos="N">viekastelija</t>
 
         <t pos="N">kelmi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">серотаˮма</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">серотаˮма</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">suhde</t>
       </tg>
     </mg>
   </e>
@@ -32110,6 +32214,8 @@
 
       <stg>
         <st Contlex="N_МЕРЁ">сесарё</st>
+
+        <st Contlex="N_МЕРЁ">сесрё</st>
       </stg>
     </lg>
 
@@ -32216,6 +32322,46 @@
         <t pos="N">nelikko</t>
 
         <t pos="N">neljännes</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сессия</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ-RUS">сессия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">istunto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сетовод</l>
+
+      <stg>
+        <st Contlex="N_ЕД">сетовод</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kirjanpitäjä</t>
       </tg>
     </mg>
   </e>
@@ -32332,6 +32478,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">yöpymispaikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сеӈгакоця</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">сеӈгакоця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kulkunen</t>
       </tg>
     </mg>
   </e>
@@ -32880,6 +33044,8 @@
 
       <stg>
         <st Contlex="N_ӇУДИ">синдˮма</st>
+
+        <st Contlex="N_ӇОДИ">синдˮмя</st>
       </stg>
     </lg>
 
@@ -33292,6 +33458,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">pörröinen lerpattavilla korvilla eläin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">собас</l>
+
+      <stg>
+        <st Contlex="N_ЕД">собас</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">verkkokäpy</t>
       </tg>
     </mg>
   </e>
@@ -35770,6 +35954,24 @@
 
   <e>
     <lg>
+      <l pos="N">сяко</l>
+
+      <stg>
+        <st Contlex="N_ӇАНУ">сяко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kirjohanhi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сялна</l>
 
       <stg>
@@ -36543,7 +36745,25 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">lyhytkarvainen päällimmäinen turkisvaate</t>
+        <td pos="N">lyhytkarvainen päällimmäinen turkisvaate</td>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сёйʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">сёй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <td pos="N">suppo josta pääsee joen yli</td>
       </tg>
     </mg>
   </e>
@@ -36562,6 +36782,28 @@
 
       <tg xml:lang="fin">
         <t pos="N">hikka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сёйцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">сёйць</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">nielu</t>
+
+        <t pos="N">järvestä alkava joenniska</t>
+
+        <t pos="N">luusua</t>
       </tg>
     </mg>
   </e>
@@ -36608,6 +36850,24 @@
         <t pos="N">sisälmykset</t>
 
         <t pos="N">mieliala</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сёнзяндер</l>
+
+      <stg>
+        <st Contlex="N_ЕД">сёнзяндер</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">sisälmykset</t>
       </tg>
     </mg>
   </e>
@@ -36670,6 +36930,44 @@
 
   <e>
     <lg>
+      <l pos="N">сёхоˮмя</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">сёхоˮмя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">närhi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сёхорма</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">сёхорма</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kakistelu</t>
+
+        <t pos="N">rykiminen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">сёярˮ</l>
 
       <stg>
@@ -36684,6 +36982,44 @@
         <t pos="N">kaari</t>
 
         <t pos="N">vemmel</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сёёˮмя</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">сёёˮмя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kaulain</t>
+
+        <t pos="N">kaulapanta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сёёця</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">сёёця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kaula</t>
       </tg>
     </mg>
   </e>
@@ -49634,6 +49970,8 @@
 
       <stg>
         <st Contlex="N_ӇУДИ-RUS">щётка</st>
+
+        <st Contlex="N_МАРАӇГЫ">сётка</st>
       </stg>
     </lg>
 
