@@ -120804,6 +120804,24 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">сейхамзь</l>
+
+      <stg>
+        <st Contlex="IV_ӇАРАМ">сейхам</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">tulla tupakanhajuiseksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="IV">секадарць</l>
 
       <stg>
@@ -121456,9 +121474,11 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">сензумдась</l>
+      <l pos="V" val="IV">сензумданась</l>
 
       <stg>
+        <st Contlex="IV_ЛАХАНА">сензумдана</st>
+
         <st Contlex="IV_ЛАХАНА">сензумда</st>
       </stg>
     </lg>
@@ -124980,6 +125000,8 @@
 
       <stg>
         <st Contlex="IV_ВАДЮ">сиркэˮлё</st>
+
+        <st Contlex="IV_ВАДЮ">сиркаˮлё</st>
       </stg>
     </lg>
 
