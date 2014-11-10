@@ -11260,6 +11260,8 @@
 
       <stg>
         <st Contlex="A_ХУСУВЭЙ">савамбой</st>
+
+        <st Contlex="A_ХУСУВЭЙ">сомбой</st>
       </stg>
     </lg>
 
@@ -12251,6 +12253,26 @@
       <defNative/>
 
       <tg xml:lang="fin">
+        <t pos="A">kultainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">солтай</l>
+
+      <stg>
+        <st Contlex="A_ЕД">солтай</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">keltainen</t>
+
         <t pos="A">kultainen</t>
       </tg>
     </mg>
