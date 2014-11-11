@@ -16,297 +16,297 @@ Tests:
 # NB! Following stem-final modifications take place in AccPl stem: ва -> би, ка -> ци, га -> зи
 # #+Use/SpellNoSugg
   Noun - тарˮ: # Noun 'hair /(fin) karva' - full paradigm /MDTN-koodi r+ye/
-     тарˮ+N+Sg+Nom: тарˮ
-     тарˮ+N+Sg+Acc: тармʼ
-     тарˮ+N+Sg+Gen: тарʼ
-     тарˮ+N+Sg+Dat: тартʼ
-     тарˮ+N+Sg+Loc: [таркана, тарканя,таркна, таркня]
-     тарˮ+N+Sg+Abl: таркад
-     тарˮ+N+Sg+Pros: [тарˮмна, тарˮмня, тармна, тармня]
-     тарˮ+N+Du+Nom: таркʼ
-     тарˮ+N+Du+Acc: таркʼ
-     тарˮ+N+Du+Gen: таркʼ
-     тарˮ+N+Pl+Nom: тарˮ
-     тарˮ+N+Pl+Acc: таре
-     тарˮ+N+Pl+Gen: тареˮ
-     тарˮ+N+Pl+Dat: таркˮ
-     тарˮ+N+Pl+Loc: [таркаˮна, таркˮна, таркаˮня, таркˮня]
-     тарˮ+N+Pl+Abl: таркат
-     тарˮ+N+Pl+Pros: тареˮмана
-     тарˮ+N+Sg+Nom+PxSg1: [тарˮм, тарм]
-     тарˮ+N+Sg+Acc+PxSg1: [тарˮм, тарм]
-     тарˮ+N+Sg+Gen+PxSg1: [тарˮн, тарн]
-     тарˮ+N+Sg+Dat+PxSg1: таркан
-     тарˮ+N+Sg+Loc+PxSg1: [тарканан, таркнан, тарканян, таркнян]
-     тарˮ+N+Sg+Abl+PxSg1: [таркадан, таркдан]
-     тарˮ+N+Sg+Pros+PxSg1: [тарˮмнан, тармнан, тарˮмнян, тармнян]
-     тарˮ+N+Du+Nom+PxSg1: [таркаюн, таркюн]
-     тарˮ+N+Du+Acc+PxSg1: [таркаюн, таркюн]
-     тарˮ+N+Du+Gen+PxSg1: [таркаюн, таркюн]
-     тарˮ+N+Pl+Nom+PxSg1: тарен
-     тарˮ+N+Pl+Acc+PxSg1: тарен
-     тарˮ+N+Pl+Gen+PxSg1: тареˮн
-     тарˮ+N+Pl+Dat+PxSg1: таркаˮн
-     тарˮ+N+Pl+Loc+PxSg1: [таркаˮнан, таркˮнан, таркаˮнян, таркˮнян]
-     тарˮ+N+Pl+Abl+PxSg1: [таркатан, тарктан]
-     тарˮ+N+Pl+Pros+PxSg1: тареˮманан
-     тарˮ+N+Sg+Nom+PxSg2: тал
-     тарˮ+N+Sg+Acc+PxSg2: тарт
-     тарˮ+N+Sg+Gen+PxSg2: тарт
-     тарˮ+N+Sg+Dat+PxSg2: тарканд
-     тарˮ+N+Sg+Loc+PxSg2: [таркананд, таркнанд, тарканянд, таркнянд]
-     тарˮ+N+Sg+Abl+PxSg2: [таркаданд, таркданд]
-     тарˮ+N+Sg+Pros+PxSg2: [тарˮмнанд, тармнанд, тарˮмнянд, тармнянд]
-     тарˮ+N+Du+Nom+PxSg2: [таркаюд, таркюд]
-     тарˮ+N+Du+Acc+PxSg2: [таркаюд, таркюд]
-     тарˮ+N+Du+Gen+PxSg2: [таркают, таркют]
-     тарˮ+N+Pl+Nom+PxSg2: таред
-     тарˮ+N+Pl+Acc+PxSg2: таред
-     тарˮ+N+Pl+Gen+PxSg2: тарет
-     тарˮ+N+Pl+Dat+PxSg2: таркат
-     тарˮ+N+Pl+Loc+PxSg2: [таркаˮнат, таркˮнат, таркаˮнят, таркˮнят]
-     тарˮ+N+Pl+Abl+PxSg2: [таркатат, тарктат]
-     тарˮ+N+Pl+Pros+PxSg2: тареˮманат
-     тарˮ+N+Sg+Nom+PxSg3: [тарта, тартя]
-     тарˮ+N+Sg+Acc+PxSg3: [тарта, тартя]
-     тарˮ+N+Sg+Gen+PxSg3: [тарта, тартя]
-     тарˮ+N+Sg+Dat+PxSg3: тарканда
-     тарˮ+N+Sg+Loc+PxSg3: [таркананда, таркнанда, тарканянда, таркнянда]
-     тарˮ+N+Sg+Abl+PxSg3: [таркаданда, таркданда]
-     тарˮ+N+Sg+Pros+PxSg3: [тарˮмнанда, тармнанда, тарˮмнянда, тармнянда]
-     тарˮ+N+Du+Nom+PxSg3: [таркаюда, таркюда]
-     тарˮ+N+Du+Acc+PxSg3: [таркаюда, таркюда]
-     тарˮ+N+Du+Gen+PxSg3: [таркаюта, таркюта]
-     тарˮ+N+Pl+Nom+PxSg3: тареда
-     тарˮ+N+Pl+Acc+PxSg3: тареда
-     тарˮ+N+Pl+Gen+PxSg3: тарета
-     тарˮ+N+Pl+Dat+PxSg3: [тарката, таркта]
-     тарˮ+N+Pl+Loc+PxSg3: [таркаˮната, таркˮната, таркаˮнята, таркˮнята]
-     тарˮ+N+Pl+Abl+PxSg3: [таркатата, тарктата]
-     тарˮ+N+Pl+Pros+PxSg3: тареˮманата
-     тарˮ+N+Sg+Nom+PxDu1: [тарˮмиʼ, тармиʼ]
-     тарˮ+N+Sg+Nom+PxSg1: [тарˮми, тарми] #+Use/SpellNoSugg
-     тарˮ+N+Sg+Acc+PxDu1: [тарˮмиʼ, тармиʼ]
-     тарˮ+N+Sg+Acc+PxSg1: [тарˮми, тарми] #+Use/SpellNoSugg
-     тарˮ+N+Sg+Gen+PxDu1: [тарˮниʼ, тарниʼ]
-     тарˮ+N+Sg+Gen+PxSg1: [тарˮни, тарни] #+Use/SpellNoSugg
-     тарˮ+N+Sg+Dat+PxDu1: [тарканиʼ, таркниʼ]
-     тарˮ+N+Sg+Dat+PxSg1: [таркани, таркни] #+Use/SpellNoSugg
-     тарˮ+N+Sg+Loc+PxDu1: [таркананиʼ, таркнаниʼ, тарканяниʼ, таркняниʼ]
-     тарˮ+N+Sg+Loc+PxSg1: [тарканани, таркнани, тарканяни, таркняни] #+Use/SpellNoSugg
-     тарˮ+N+Sg+Abl+PxDu1: [таркаданиʼ, таркданиʼ]
-     тарˮ+N+Sg+Abl+PxSg1: [таркадани, таркдани] #+Use/SpellNoSugg
-     тарˮ+N+Sg+Pros+PxDu1: [тарˮмнаниʼ, тармнаниʼ, тарˮмняниʼ, тармняниʼ]
-     тарˮ+N+Sg+Pros+PxSg1: [тарˮмнани, тармнани, тарˮмняни, тармняни] #+Use/SpellNoSugg
-     тарˮ+N+Du+Nom+PxDu1: [таркаюниʼ, таркюниʼ]
-     тарˮ+N+Du+Nom+PxSg1: [таркаюни, таркюни] #+Use/SpellNoSugg
-     тарˮ+N+Du+Acc+PxDu1: [таркаюниʼ, таркюниʼ]
-     тарˮ+N+Du+Acc+PxSg1: [таркаюни, таркюни] #+Use/SpellNoSugg
-     тарˮ+N+Du+Gen+PxDu1: [таркаюниʼ, таркюниʼ]
-     тарˮ+N+Du+Gen+PxSg1: [таркаюни, таркюни] #+Use/SpellNoSugg
-     тарˮ+N+Pl+Nom+PxDu1: тарениʼ
-     тарˮ+N+Pl+Nom+PxSg1: тарени #+Use/SpellNoSugg
-     тарˮ+N+Pl+Acc+PxDu1: тарениʼ
-     тарˮ+N+Pl+Acc+PxSg1: тарени #+Use/SpellNoSugg
-     тарˮ+N+Pl+Gen+PxDu1: тареˮниʼ
-     тарˮ+N+Pl+Gen+PxSg1: тареˮни #+Use/SpellNoSugg
-     тарˮ+N+Pl+Dat+PxDu1: [таркаˮниʼ, таркˮниʼ]
-     тарˮ+N+Pl+Dat+PxSg1: [таркаˮни, таркˮни] #+Use/SpellNoSugg
-     тарˮ+N+Pl+Loc+PxDu1: [таркаˮнаниʼ, таркˮнаниʼ, таркаˮняниʼ, таркˮняниʼ]
-     тарˮ+N+Pl+Loc+PxSg1: [таркаˮнани, таркˮнани, таркаˮняни, таркˮняни] #+Use/SpellNoSugg
-     тарˮ+N+Pl+Abl+PxDu1: [таркатаниʼ, тарктаниʼ]
-     тарˮ+N+Pl+Abl+PxSg1: [таркатани, тарктани] #+Use/SpellNoSugg
-     тарˮ+N+Pl+Pros+PxDu1: тареˮмананиʼ
-     тарˮ+N+Pl+Pros+PxSg1: тареˮманани #+Use/SpellNoSugg
-     тарˮ+N+Sg+Nom+PxDu2: талиʼ
-     тарˮ+N+Sg+Acc+PxDu2: тартиʼ
-     тарˮ+N+Sg+Gen+PxDu2: тартиʼ
-     тарˮ+N+Sg+Dat+PxDu2: таркандиʼ
-     тарˮ+N+Sg+Loc+PxDu2: [тарканандиʼ, таркнандиʼ, тарканяндиʼ, таркняндиʼ]
-     тарˮ+N+Sg+Abl+PxDu2: [таркадандиʼ, таркдандиʼ]
-     тарˮ+N+Sg+Pros+PxDu2: [тарˮмнандиʼ, тармнандиʼ, тарˮмняндиʼ, тармняндиʼ]
-     тарˮ+N+Du+Nom+PxDu2: [таркаюдиʼ, таркюдиʼ]
-     тарˮ+N+Du+Acc+PxDu2: [таркаюдиʼ, таркюдиʼ]
-     тарˮ+N+Du+Gen+PxDu2: [таркаютиʼ, таркютиʼ]
-     тарˮ+N+Pl+Nom+PxDu2: таредиʼ
-     тарˮ+N+Pl+Acc+PxDu2: таредиʼ
-     тарˮ+N+Pl+Gen+PxDu2: таретиʼ
-     тарˮ+N+Pl+Dat+PxDu2: [таркатиʼ, тарктиʼ]
-     тарˮ+N+Pl+Loc+PxDu2: [таркаˮнатиʼ, таркˮнатиʼ, таркаˮнятиʼ, таркˮнятиʼ]
-     тарˮ+N+Pl+Abl+PxDu2: [таркататиʼ, тарктатиʼ]
-     тарˮ+N+Pl+Pros+PxDu2: тареˮманатиʼ
-     тарˮ+N+Sg+Nom+PxDu3: тартиʼ
-     тарˮ+N+Sg+Acc+PxDu3: тартиʼ
-     тарˮ+N+Sg+Gen+PxDu3: тартиʼ
-     тарˮ+N+Sg+Dat+PxDu3: таркандиʼ
-     тарˮ+N+Sg+Loc+PxDu3: [тарканандиʼ, таркнандиʼ, тарканяндиʼ, таркняндиʼ]
-     тарˮ+N+Sg+Abl+PxDu3: [таркадандиʼ, таркдандиʼ]
-     тарˮ+N+Sg+Pros+PxDu3: [тарˮмнандиʼ, тармнандиʼ, тарˮмняндиʼ, тармняндиʼ]
-     тарˮ+N+Du+Nom+PxDu3: [таркаюдиʼ, таркюдиʼ]
-     тарˮ+N+Du+Acc+PxDu3: [таркаюдиʼ, таркюдиʼ]
-     тарˮ+N+Du+Gen+PxDu3: [таркаютиʼ, таркютиʼ]
-     тарˮ+N+Pl+Nom+PxDu3: таредиʼ
-     тарˮ+N+Pl+Acc+PxDu3: таредиʼ
-     тарˮ+N+Pl+Gen+PxDu3: таретиʼ
-     тарˮ+N+Pl+Dat+PxDu3: [таркатиʼ, тарктиʼ]
-     тарˮ+N+Pl+Loc+PxDu3: [таркаˮнатиʼ, таркˮнатиʼ, таркаˮнятиʼ, таркˮнятиʼ]
-     тарˮ+N+Pl+Abl+PxDu3: [таркататиʼ, тарктатиʼ]
-     тарˮ+N+Pl+Pros+PxDu3: тареˮманатиʼ
-     тарˮ+N+Sg+Nom+PxPl1: [тарˮмаˮ, тармаˮ]
-     тарˮ+N+Sg+Acc+PxPl1: [тарˮмаˮ, тармаˮ]
-     тарˮ+N+Sg+Gen+PxPl1: [тарˮнаˮ, тарнаˮ]
-     тарˮ+N+Sg+Dat+PxPl1: [тарканаˮ, таркнаˮ]
-     тарˮ+N+Sg+Loc+PxPl1: [таркананаˮ, таркнанаˮ, тарканянаˮ, таркнянаˮ]
-     тарˮ+N+Sg+Abl+PxPl1: [таркаданаˮ, таркданаˮ]
-     тарˮ+N+Sg+Pros+PxPl1: [тарˮмнанаˮ, тармнанаˮ, тарˮмнянаˮ, тармнянаˮ]
-     тарˮ+N+Du+Nom+PxPl1: [таркаюнаˮ, таркюнаˮ]
-     тарˮ+N+Du+Acc+PxPl1: [таркаюнаˮ, таркюнаˮ]
-     тарˮ+N+Du+Gen+PxPl1: [таркаюнаˮ, таркюнаˮ]
-     тарˮ+N+Pl+Nom+PxPl1: таренаˮ
-     тарˮ+N+Pl+Acc+PxPl1: таренаˮ
-     тарˮ+N+Pl+Gen+PxPl1: тареˮнаˮ
-     тарˮ+N+Pl+Dat+PxPl1: [таркаˮнаˮ, таркˮнаˮ]
-     тарˮ+N+Pl+Loc+PxPl1: [таркаˮнанаˮ, таркˮнанаˮ, таркаˮнянаˮ, таркˮнянаˮ]
-     тарˮ+N+Pl+Abl+PxPl1: [таркатанаˮ, тарктанаˮ]
-     тарˮ+N+Pl+Pros+PxPl1: тареˮмананаˮ
-     тарˮ+N+Sg+Nom+PxPl2: талаˮ
-     тарˮ+N+Sg+Acc+PxPl2: тартаˮ
-     тарˮ+N+Sg+Gen+PxPl2: тартаˮ
-     тарˮ+N+Sg+Dat+PxPl2: таркандаˮ
-     тарˮ+N+Sg+Loc+PxPl2: [тарканандаˮ, таркнандаˮ, тарканяндаˮ, таркняндаˮ]
-     тарˮ+N+Sg+Abl+PxPl2: [таркадандаˮ, таркдандаˮ]
-     тарˮ+N+Sg+Pros+PxPl2: [тарˮмнандаˮ, тармнандаˮ, тарˮмняндаˮ, тармняндаˮ]
-     тарˮ+N+Du+Nom+PxPl2: [таркаюдаˮ, таркюдаˮ]
-     тарˮ+N+Du+Acc+PxPl2: [таркаюдаˮ, таркюдаˮ]
-     тарˮ+N+Du+Gen+PxPl2: [таркаютаˮ, таркютаˮ]
-     тарˮ+N+Pl+Nom+PxPl2: таредаˮ
-     тарˮ+N+Pl+Acc+PxPl2: таредаˮ
-     тарˮ+N+Pl+Gen+PxPl2: таретаˮ
-     тарˮ+N+Pl+Dat+PxPl2: [таркатаˮ, тарктаˮ]
-     тарˮ+N+Pl+Loc+PxPl2: [таркаˮнатаˮ, таркˮнатаˮ, таркаˮнятаˮ, таркˮнятаˮ]
-     тарˮ+N+Pl+Abl+PxPl2: [таркататаˮ, тарктатаˮ]
-     тарˮ+N+Pl+Pros+PxPl2: тареˮманатаˮ
-     тарˮ+N+Sg+Nom+PxPl3: [тартоʼ, тартёʼ]
-     тарˮ+N+Sg+Acc+PxPl3: [тартоʼ, тартёʼ]
-     тарˮ+N+Sg+Gen+PxPl3: [тартоʼ, тартёʼ]
-     тарˮ+N+Sg+Dat+PxPl3: таркандоʼ
-     тарˮ+N+Sg+Loc+PxPl3: [тарканандоʼ, таркнандоʼ, тарканяндоʼ, таркняндоʼ]
-     тарˮ+N+Sg+Abl+PxPl3: [таркадандоʼ, таркдандоʼ]
-     тарˮ+N+Sg+Pros+PxPl3: [тарˮмнандоʼ, тармнандоʼ, тарˮмняндоʼ, тармняндоʼ]
-     тарˮ+N+Du+Nom+PxPl3: [таркаюдоʼ, таркюдоʼ]
-     тарˮ+N+Du+Acc+PxPl3: [таркаюдоʼ, таркюдоʼ]
-     тарˮ+N+Du+Gen+PxPl3: [таркаютоʼ, таркютоʼ]
-     тарˮ+N+Pl+Nom+PxPl3: таредоʼ
-     тарˮ+N+Pl+Acc+PxPl3: таредоʼ
-     тарˮ+N+Pl+Gen+PxPl3: таретоʼ
-     тарˮ+N+Pl+Dat+PxPl3: [таркатоʼ, тарктоʼ]
-     тарˮ+N+Pl+Loc+PxPl3: [таркаˮнатоʼ, таркˮнатоʼ, таркаˮнятоʼ, таркˮнятоʼ]
-     тарˮ+N+Pl+Abl+PxPl3: [таркататоʼ, тарктатоʼ]
-     тарˮ+N+Pl+Pros+PxPl3: тареˮманатоʼ
-     тарˮ+N+Pred+Abs: тарт
-     тарˮ+N+Pred+Nom+PxSg1: [тартав, тартув]
-     тарˮ+N+Pred+Acc+PxSg1: [тартав, тартув]
-     тарˮ+N+Pred+Gen+PxSg1: тартан
-     тарˮ+N+Pred+Nom+PxSg2: тартар
-     тарˮ+N+Pred+Acc+PxSg2: тартамд
-     тарˮ+N+Pred+Gen+PxSg2: тартанд
-     тарˮ+N+Pred+Nom+PxSg3: [тартада, тартда]
-     тарˮ+N+Pred+Acc+PxSg3: [тартамда, тартмда]
-     тарˮ+N+Pred+Gen+PxSg3: [тартанда, тартнда]
-     тарˮ+N+Pred+Nom+PxDu1: [тартамиʼ, тартмиʼ]
-     тарˮ+N+Pred+Nom+PxSg1: [тартами, тартми] #+Use/SpellNoSugg
-     тарˮ+N+Pred+Acc+PxDu1: [тартамиʼ, тартмиʼ]
-     тарˮ+N+Pred+Acc+PxSg1: [тартами, тартми] #+Use/SpellNoSugg
-     тарˮ+N+Pred+Gen+PxDu1: [тартаниʼ, тартниʼ]
-     тарˮ+N+Pred+Gen+PxSg1: [тартани, тартни] #+Use/SpellNoSugg
-     тарˮ+N+Pred+Nom+PxDu2: тартриʼ
-     тарˮ+N+Pred+Acc+PxDu2: [тартамдиʼ, тартмдиʼ]
-     тарˮ+N+Pred+Gen+PxDu2: [тартандиʼ, тартндиʼ]
-     тарˮ+N+Pred+Nom+PxDu3: [тартадиʼ, тартдиʼ]
-     тарˮ+N+Pred+Acc+PxDu3: [тартамдиʼ, тартмдиʼ]
-     тарˮ+N+Pred+Gen+PxDu3: [тартандиʼ, тартндиʼ]
-     тарˮ+N+Pred+Nom+PxPl1: тартваˮ
-     тарˮ+N+Pred+Acc+PxPl1: тартваˮ
-     тарˮ+N+Pred+Gen+PxPl1: [тартанаˮ, тартнаˮ]
-     тарˮ+N+Pred+Nom+PxPl2: тартраˮ
-     тарˮ+N+Pred+Acc+PxPl2: [тартамдаˮ, тартмдаˮ]
-     тарˮ+N+Pred+Gen+PxPl2: [тартандаˮ, тартндаˮ]
-     тарˮ+N+Pred+Nom+PxPl3: [тартадоʼ, тартдоʼ]
-     тарˮ+N+Pred+Acc+PxPl3: [тартамдоʼ, тартмдоʼ]
-     тарˮ+N+Pred+Gen+PxPl3: [тартандоʼ, тартндоʼ]
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: тартмʼ
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: тарт
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: тарˮ
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: [тарˮниʼ, тарниʼ]
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: тартиʼ
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: таркʼ
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: [тарˮмаˮ, тармаˮ]
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: тартаˮ
-     тарˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: тарˮ
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: тартамзь
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: тартась
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: тарць
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: [тарˮнинзь, тарнинзь]
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: тартинзь
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: тарканзь
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: [тарˮмаць, тармаць]
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: тартаць
-     тарˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: тараць
-     тарˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: [тарˮм, тарм]
-     тарˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: тал
-     тарˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: [тарта, тартя]
-     тарˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: [тарˮмиʼ, тармиʼ]
-     тарˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: талиʼ
-     тарˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: тартиʼ
-     тарˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: [тарˮмаˮ, тармаˮ]
-     тарˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: талаˮ
-     тарˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: [тартоʼ, тартёʼ]
-     тарˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: [тарˮмась, тармась]
-     тарˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: талась
-     тарˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: [тартась, тартясь]
-     тарˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: [тарˮминзь, тарминзь]
-     тарˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: талинзь
-     тарˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: тартинзь
-     тарˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: [тарˮмаць, тармаць]
-     тарˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: талаць
-     тарˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: [тартонзь, тартёнзь]
-     тарˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: [таркаюн, таркюн]
-     тарˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: [таркаюд, таркюд]
-     тарˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: [таркаюда, таркюда]
-     тарˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: [таркаюниʼ, таркюниʼ]
-     тарˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдиʼ, таркюдиʼ]
-     тарˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдиʼ, таркюдиʼ]
-     тарˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: [таркаюнаˮ, таркюнаˮ]
-     тарˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдаˮ, таркюдаˮ]
-     тарˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдоʼ, таркюдоʼ]
-     тарˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюнась, таркюнась]
-     тарˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдась, таркюдась]
-     тарˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдась, таркюдась]
-     тарˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюнинзь, таркюнинзь]
-     тарˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдинзь, таркюдинзь]
-     тарˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдинзь, таркюдинзь]
-     тарˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюнаць, таркюнаць]
-     тарˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдаць, таркюдаць]
-     тарˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдонзь, таркюдонзь]
-     тарˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: тарен
-     тарˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: таред
-     тарˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: тареда
-     тарˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: тарениʼ
-     тарˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: таредиʼ
-     тарˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: таредиʼ
-     тарˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: таренаˮ
-     тарˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: таредаˮ
-     тарˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: таредоʼ
-     тарˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: таренась
-     тарˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: таредась
-     тарˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: таредась
-     тарˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: таренинзь
-     тарˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: тарединзь
-     тарˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: тарединзь
-     тарˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: таренаць
-     тарˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: таредаць
-     тарˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: таредонзь
-     тарˮ+N+Tra: [тарˮӈэ, тарӈэ]
-     тарˮ+N+Car: тарциˮ
-     тарˮ+N+Equ: тартремʼ
-     тарˮ+N+Equ+Lat: тартревʼ
+     тарˮ+Hom2+N+Sg+Nom: тарˮ
+     тарˮ+Hom2+N+Sg+Acc: тармʼ
+     тарˮ+Hom2+N+Sg+Gen: тарʼ
+     тарˮ+Hom2+N+Sg+Dat: тартʼ
+     тарˮ+Hom2+N+Sg+Loc: [таркана, тарканя,таркна, таркня]
+     тарˮ+Hom2+N+Sg+Abl: таркад
+     тарˮ+Hom2+N+Sg+Pros: [тарˮмна, тарˮмня, тармна, тармня]
+     тарˮ+Hom2+N+Du+Nom: таркʼ
+     тарˮ+Hom2+N+Du+Acc: таркʼ
+     тарˮ+Hom2+N+Du+Gen: таркʼ
+     тарˮ+Hom2+N+Pl+Nom: тарˮ
+     тарˮ+Hom2+N+Pl+Acc: таре
+     тарˮ+Hom2+N+Pl+Gen: тареˮ
+     тарˮ+Hom2+N+Pl+Dat: таркˮ
+     тарˮ+Hom2+N+Pl+Loc: [таркаˮна, таркˮна, таркаˮня, таркˮня]
+     тарˮ+Hom2+N+Pl+Abl: таркат
+     тарˮ+Hom2+N+Pl+Pros: тареˮмана
+     тарˮ+Hom2+N+Sg+Nom+PxSg1: [тарˮм, тарм]
+     тарˮ+Hom2+N+Sg+Acc+PxSg1: [тарˮм, тарм]
+     тарˮ+Hom2+N+Sg+Gen+PxSg1: [тарˮн, тарн]
+     тарˮ+Hom2+N+Sg+Dat+PxSg1: таркан
+     тарˮ+Hom2+N+Sg+Loc+PxSg1: [тарканан, таркнан, тарканян, таркнян]
+     тарˮ+Hom2+N+Sg+Abl+PxSg1: [таркадан, таркдан]
+     тарˮ+Hom2+N+Sg+Pros+PxSg1: [тарˮмнан, тармнан, тарˮмнян, тармнян]
+     тарˮ+Hom2+N+Du+Nom+PxSg1: [таркаюн, таркюн]
+     тарˮ+Hom2+N+Du+Acc+PxSg1: [таркаюн, таркюн]
+     тарˮ+Hom2+N+Du+Gen+PxSg1: [таркаюн, таркюн]
+     тарˮ+Hom2+N+Pl+Nom+PxSg1: тарен
+     тарˮ+Hom2+N+Pl+Acc+PxSg1: тарен
+     тарˮ+Hom2+N+Pl+Gen+PxSg1: тареˮн
+     тарˮ+Hom2+N+Pl+Dat+PxSg1: таркаˮн
+     тарˮ+Hom2+N+Pl+Loc+PxSg1: [таркаˮнан, таркˮнан, таркаˮнян, таркˮнян]
+     тарˮ+Hom2+N+Pl+Abl+PxSg1: [таркатан, тарктан]
+     тарˮ+Hom2+N+Pl+Pros+PxSg1: тареˮманан
+     тарˮ+Hom2+N+Sg+Nom+PxSg2: тал
+     тарˮ+Hom2+N+Sg+Acc+PxSg2: тарт
+     тарˮ+Hom2+N+Sg+Gen+PxSg2: тарт
+     тарˮ+Hom2+N+Sg+Dat+PxSg2: тарканд
+     тарˮ+Hom2+N+Sg+Loc+PxSg2: [таркананд, таркнанд, тарканянд, таркнянд]
+     тарˮ+Hom2+N+Sg+Abl+PxSg2: [таркаданд, таркданд]
+     тарˮ+Hom2+N+Sg+Pros+PxSg2: [тарˮмнанд, тармнанд, тарˮмнянд, тармнянд]
+     тарˮ+Hom2+N+Du+Nom+PxSg2: [таркаюд, таркюд]
+     тарˮ+Hom2+N+Du+Acc+PxSg2: [таркаюд, таркюд]
+     тарˮ+Hom2+N+Du+Gen+PxSg2: [таркают, таркют]
+     тарˮ+Hom2+N+Pl+Nom+PxSg2: таред
+     тарˮ+Hom2+N+Pl+Acc+PxSg2: таред
+     тарˮ+Hom2+N+Pl+Gen+PxSg2: тарет
+     тарˮ+Hom2+N+Pl+Dat+PxSg2: таркат
+     тарˮ+Hom2+N+Pl+Loc+PxSg2: [таркаˮнат, таркˮнат, таркаˮнят, таркˮнят]
+     тарˮ+Hom2+N+Pl+Abl+PxSg2: [таркатат, тарктат]
+     тарˮ+Hom2+N+Pl+Pros+PxSg2: тареˮманат
+     тарˮ+Hom2+N+Sg+Nom+PxSg3: [тарта, тартя]
+     тарˮ+Hom2+N+Sg+Acc+PxSg3: [тарта, тартя]
+     тарˮ+Hom2+N+Sg+Gen+PxSg3: [тарта, тартя]
+     тарˮ+Hom2+N+Sg+Dat+PxSg3: тарканда
+     тарˮ+Hom2+N+Sg+Loc+PxSg3: [таркананда, таркнанда, тарканянда, таркнянда]
+     тарˮ+Hom2+N+Sg+Abl+PxSg3: [таркаданда, таркданда]
+     тарˮ+Hom2+N+Sg+Pros+PxSg3: [тарˮмнанда, тармнанда, тарˮмнянда, тармнянда]
+     тарˮ+Hom2+N+Du+Nom+PxSg3: [таркаюда, таркюда]
+     тарˮ+Hom2+N+Du+Acc+PxSg3: [таркаюда, таркюда]
+     тарˮ+Hom2+N+Du+Gen+PxSg3: [таркаюта, таркюта]
+     тарˮ+Hom2+N+Pl+Nom+PxSg3: тареда
+     тарˮ+Hom2+N+Pl+Acc+PxSg3: тареда
+     тарˮ+Hom2+N+Pl+Gen+PxSg3: тарета
+     тарˮ+Hom2+N+Pl+Dat+PxSg3: [тарката, таркта]
+     тарˮ+Hom2+N+Pl+Loc+PxSg3: [таркаˮната, таркˮната, таркаˮнята, таркˮнята]
+     тарˮ+Hom2+N+Pl+Abl+PxSg3: [таркатата, тарктата]
+     тарˮ+Hom2+N+Pl+Pros+PxSg3: тареˮманата
+     тарˮ+Hom2+N+Sg+Nom+PxDu1: [тарˮмиʼ, тармиʼ]
+     тарˮ+Hom2+N+Sg+Nom+PxSg1: [тарˮми, тарми] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Sg+Acc+PxDu1: [тарˮмиʼ, тармиʼ]
+     тарˮ+Hom2+N+Sg+Acc+PxSg1: [тарˮми, тарми] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Sg+Gen+PxDu1: [тарˮниʼ, тарниʼ]
+     тарˮ+Hom2+N+Sg+Gen+PxSg1: [тарˮни, тарни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Sg+Dat+PxDu1: [тарканиʼ, таркниʼ]
+     тарˮ+Hom2+N+Sg+Dat+PxSg1: [таркани, таркни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Sg+Loc+PxDu1: [таркананиʼ, таркнаниʼ, тарканяниʼ, таркняниʼ]
+     тарˮ+Hom2+N+Sg+Loc+PxSg1: [тарканани, таркнани, тарканяни, таркняни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Sg+Abl+PxDu1: [таркаданиʼ, таркданиʼ]
+     тарˮ+Hom2+N+Sg+Abl+PxSg1: [таркадани, таркдани] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Sg+Pros+PxDu1: [тарˮмнаниʼ, тармнаниʼ, тарˮмняниʼ, тармняниʼ]
+     тарˮ+Hom2+N+Sg+Pros+PxSg1: [тарˮмнани, тармнани, тарˮмняни, тармняни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Du+Nom+PxDu1: [таркаюниʼ, таркюниʼ]
+     тарˮ+Hom2+N+Du+Nom+PxSg1: [таркаюни, таркюни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Du+Acc+PxDu1: [таркаюниʼ, таркюниʼ]
+     тарˮ+Hom2+N+Du+Acc+PxSg1: [таркаюни, таркюни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Du+Gen+PxDu1: [таркаюниʼ, таркюниʼ]
+     тарˮ+Hom2+N+Du+Gen+PxSg1: [таркаюни, таркюни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pl+Nom+PxDu1: тарениʼ
+     тарˮ+Hom2+N+Pl+Nom+PxSg1: тарени #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pl+Acc+PxDu1: тарениʼ
+     тарˮ+Hom2+N+Pl+Acc+PxSg1: тарени #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pl+Gen+PxDu1: тареˮниʼ
+     тарˮ+Hom2+N+Pl+Gen+PxSg1: тареˮни #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pl+Dat+PxDu1: [таркаˮниʼ, таркˮниʼ]
+     тарˮ+Hom2+N+Pl+Dat+PxSg1: [таркаˮни, таркˮни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pl+Loc+PxDu1: [таркаˮнаниʼ, таркˮнаниʼ, таркаˮняниʼ, таркˮняниʼ]
+     тарˮ+Hom2+N+Pl+Loc+PxSg1: [таркаˮнани, таркˮнани, таркаˮняни, таркˮняни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pl+Abl+PxDu1: [таркатаниʼ, тарктаниʼ]
+     тарˮ+Hom2+N+Pl+Abl+PxSg1: [таркатани, тарктани] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pl+Pros+PxDu1: тареˮмананиʼ
+     тарˮ+Hom2+N+Pl+Pros+PxSg1: тареˮманани #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Sg+Nom+PxDu2: талиʼ
+     тарˮ+Hom2+N+Sg+Acc+PxDu2: тартиʼ
+     тарˮ+Hom2+N+Sg+Gen+PxDu2: тартиʼ
+     тарˮ+Hom2+N+Sg+Dat+PxDu2: таркандиʼ
+     тарˮ+Hom2+N+Sg+Loc+PxDu2: [тарканандиʼ, таркнандиʼ, тарканяндиʼ, таркняндиʼ]
+     тарˮ+Hom2+N+Sg+Abl+PxDu2: [таркадандиʼ, таркдандиʼ]
+     тарˮ+Hom2+N+Sg+Pros+PxDu2: [тарˮмнандиʼ, тармнандиʼ, тарˮмняндиʼ, тармняндиʼ]
+     тарˮ+Hom2+N+Du+Nom+PxDu2: [таркаюдиʼ, таркюдиʼ]
+     тарˮ+Hom2+N+Du+Acc+PxDu2: [таркаюдиʼ, таркюдиʼ]
+     тарˮ+Hom2+N+Du+Gen+PxDu2: [таркаютиʼ, таркютиʼ]
+     тарˮ+Hom2+N+Pl+Nom+PxDu2: таредиʼ
+     тарˮ+Hom2+N+Pl+Acc+PxDu2: таредиʼ
+     тарˮ+Hom2+N+Pl+Gen+PxDu2: таретиʼ
+     тарˮ+Hom2+N+Pl+Dat+PxDu2: [таркатиʼ, тарктиʼ]
+     тарˮ+Hom2+N+Pl+Loc+PxDu2: [таркаˮнатиʼ, таркˮнатиʼ, таркаˮнятиʼ, таркˮнятиʼ]
+     тарˮ+Hom2+N+Pl+Abl+PxDu2: [таркататиʼ, тарктатиʼ]
+     тарˮ+Hom2+N+Pl+Pros+PxDu2: тареˮманатиʼ
+     тарˮ+Hom2+N+Sg+Nom+PxDu3: тартиʼ
+     тарˮ+Hom2+N+Sg+Acc+PxDu3: тартиʼ
+     тарˮ+Hom2+N+Sg+Gen+PxDu3: тартиʼ
+     тарˮ+Hom2+N+Sg+Dat+PxDu3: таркандиʼ
+     тарˮ+Hom2+N+Sg+Loc+PxDu3: [тарканандиʼ, таркнандиʼ, тарканяндиʼ, таркняндиʼ]
+     тарˮ+Hom2+N+Sg+Abl+PxDu3: [таркадандиʼ, таркдандиʼ]
+     тарˮ+Hom2+N+Sg+Pros+PxDu3: [тарˮмнандиʼ, тармнандиʼ, тарˮмняндиʼ, тармняндиʼ]
+     тарˮ+Hom2+N+Du+Nom+PxDu3: [таркаюдиʼ, таркюдиʼ]
+     тарˮ+Hom2+N+Du+Acc+PxDu3: [таркаюдиʼ, таркюдиʼ]
+     тарˮ+Hom2+N+Du+Gen+PxDu3: [таркаютиʼ, таркютиʼ]
+     тарˮ+Hom2+N+Pl+Nom+PxDu3: таредиʼ
+     тарˮ+Hom2+N+Pl+Acc+PxDu3: таредиʼ
+     тарˮ+Hom2+N+Pl+Gen+PxDu3: таретиʼ
+     тарˮ+Hom2+N+Pl+Dat+PxDu3: [таркатиʼ, тарктиʼ]
+     тарˮ+Hom2+N+Pl+Loc+PxDu3: [таркаˮнатиʼ, таркˮнатиʼ, таркаˮнятиʼ, таркˮнятиʼ]
+     тарˮ+Hom2+N+Pl+Abl+PxDu3: [таркататиʼ, тарктатиʼ]
+     тарˮ+Hom2+N+Pl+Pros+PxDu3: тареˮманатиʼ
+     тарˮ+Hom2+N+Sg+Nom+PxPl1: [тарˮмаˮ, тармаˮ]
+     тарˮ+Hom2+N+Sg+Acc+PxPl1: [тарˮмаˮ, тармаˮ]
+     тарˮ+Hom2+N+Sg+Gen+PxPl1: [тарˮнаˮ, тарнаˮ]
+     тарˮ+Hom2+N+Sg+Dat+PxPl1: [тарканаˮ, таркнаˮ]
+     тарˮ+Hom2+N+Sg+Loc+PxPl1: [таркананаˮ, таркнанаˮ, тарканянаˮ, таркнянаˮ]
+     тарˮ+Hom2+N+Sg+Abl+PxPl1: [таркаданаˮ, таркданаˮ]
+     тарˮ+Hom2+N+Sg+Pros+PxPl1: [тарˮмнанаˮ, тармнанаˮ, тарˮмнянаˮ, тармнянаˮ]
+     тарˮ+Hom2+N+Du+Nom+PxPl1: [таркаюнаˮ, таркюнаˮ]
+     тарˮ+Hom2+N+Du+Acc+PxPl1: [таркаюнаˮ, таркюнаˮ]
+     тарˮ+Hom2+N+Du+Gen+PxPl1: [таркаюнаˮ, таркюнаˮ]
+     тарˮ+Hom2+N+Pl+Nom+PxPl1: таренаˮ
+     тарˮ+Hom2+N+Pl+Acc+PxPl1: таренаˮ
+     тарˮ+Hom2+N+Pl+Gen+PxPl1: тареˮнаˮ
+     тарˮ+Hom2+N+Pl+Dat+PxPl1: [таркаˮнаˮ, таркˮнаˮ]
+     тарˮ+Hom2+N+Pl+Loc+PxPl1: [таркаˮнанаˮ, таркˮнанаˮ, таркаˮнянаˮ, таркˮнянаˮ]
+     тарˮ+Hom2+N+Pl+Abl+PxPl1: [таркатанаˮ, тарктанаˮ]
+     тарˮ+Hom2+N+Pl+Pros+PxPl1: тареˮмананаˮ
+     тарˮ+Hom2+N+Sg+Nom+PxPl2: талаˮ
+     тарˮ+Hom2+N+Sg+Acc+PxPl2: тартаˮ
+     тарˮ+Hom2+N+Sg+Gen+PxPl2: тартаˮ
+     тарˮ+Hom2+N+Sg+Dat+PxPl2: таркандаˮ
+     тарˮ+Hom2+N+Sg+Loc+PxPl2: [тарканандаˮ, таркнандаˮ, тарканяндаˮ, таркняндаˮ]
+     тарˮ+Hom2+N+Sg+Abl+PxPl2: [таркадандаˮ, таркдандаˮ]
+     тарˮ+Hom2+N+Sg+Pros+PxPl2: [тарˮмнандаˮ, тармнандаˮ, тарˮмняндаˮ, тармняндаˮ]
+     тарˮ+Hom2+N+Du+Nom+PxPl2: [таркаюдаˮ, таркюдаˮ]
+     тарˮ+Hom2+N+Du+Acc+PxPl2: [таркаюдаˮ, таркюдаˮ]
+     тарˮ+Hom2+N+Du+Gen+PxPl2: [таркаютаˮ, таркютаˮ]
+     тарˮ+Hom2+N+Pl+Nom+PxPl2: таредаˮ
+     тарˮ+Hom2+N+Pl+Acc+PxPl2: таредаˮ
+     тарˮ+Hom2+N+Pl+Gen+PxPl2: таретаˮ
+     тарˮ+Hom2+N+Pl+Dat+PxPl2: [таркатаˮ, тарктаˮ]
+     тарˮ+Hom2+N+Pl+Loc+PxPl2: [таркаˮнатаˮ, таркˮнатаˮ, таркаˮнятаˮ, таркˮнятаˮ]
+     тарˮ+Hom2+N+Pl+Abl+PxPl2: [таркататаˮ, тарктатаˮ]
+     тарˮ+Hom2+N+Pl+Pros+PxPl2: тареˮманатаˮ
+     тарˮ+Hom2+N+Sg+Nom+PxPl3: [тартоʼ, тартёʼ]
+     тарˮ+Hom2+N+Sg+Acc+PxPl3: [тартоʼ, тартёʼ]
+     тарˮ+Hom2+N+Sg+Gen+PxPl3: [тартоʼ, тартёʼ]
+     тарˮ+Hom2+N+Sg+Dat+PxPl3: таркандоʼ
+     тарˮ+Hom2+N+Sg+Loc+PxPl3: [тарканандоʼ, таркнандоʼ, тарканяндоʼ, таркняндоʼ]
+     тарˮ+Hom2+N+Sg+Abl+PxPl3: [таркадандоʼ, таркдандоʼ]
+     тарˮ+Hom2+N+Sg+Pros+PxPl3: [тарˮмнандоʼ, тармнандоʼ, тарˮмняндоʼ, тармняндоʼ]
+     тарˮ+Hom2+N+Du+Nom+PxPl3: [таркаюдоʼ, таркюдоʼ]
+     тарˮ+Hom2+N+Du+Acc+PxPl3: [таркаюдоʼ, таркюдоʼ]
+     тарˮ+Hom2+N+Du+Gen+PxPl3: [таркаютоʼ, таркютоʼ]
+     тарˮ+Hom2+N+Pl+Nom+PxPl3: таредоʼ
+     тарˮ+Hom2+N+Pl+Acc+PxPl3: таредоʼ
+     тарˮ+Hom2+N+Pl+Gen+PxPl3: таретоʼ
+     тарˮ+Hom2+N+Pl+Dat+PxPl3: [таркатоʼ, тарктоʼ]
+     тарˮ+Hom2+N+Pl+Loc+PxPl3: [таркаˮнатоʼ, таркˮнатоʼ, таркаˮнятоʼ, таркˮнятоʼ]
+     тарˮ+Hom2+N+Pl+Abl+PxPl3: [таркататоʼ, тарктатоʼ]
+     тарˮ+Hom2+N+Pl+Pros+PxPl3: тареˮманатоʼ
+     тарˮ+Hom2+N+Pred+Abs: тарт
+     тарˮ+Hom2+N+Pred+Nom+PxSg1: [тартав, тартув]
+     тарˮ+Hom2+N+Pred+Acc+PxSg1: [тартав, тартув]
+     тарˮ+Hom2+N+Pred+Gen+PxSg1: тартан
+     тарˮ+Hom2+N+Pred+Nom+PxSg2: тартар
+     тарˮ+Hom2+N+Pred+Acc+PxSg2: тартамд
+     тарˮ+Hom2+N+Pred+Gen+PxSg2: тартанд
+     тарˮ+Hom2+N+Pred+Nom+PxSg3: [тартада, тартда]
+     тарˮ+Hom2+N+Pred+Acc+PxSg3: [тартамда, тартмда]
+     тарˮ+Hom2+N+Pred+Gen+PxSg3: [тартанда, тартнда]
+     тарˮ+Hom2+N+Pred+Nom+PxDu1: [тартамиʼ, тартмиʼ]
+     тарˮ+Hom2+N+Pred+Nom+PxSg1: [тартами, тартми] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pred+Acc+PxDu1: [тартамиʼ, тартмиʼ]
+     тарˮ+Hom2+N+Pred+Acc+PxSg1: [тартами, тартми] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pred+Gen+PxDu1: [тартаниʼ, тартниʼ]
+     тарˮ+Hom2+N+Pred+Gen+PxSg1: [тартани, тартни] #+Use/SpellNoSugg
+     тарˮ+Hom2+N+Pred+Nom+PxDu2: тартриʼ
+     тарˮ+Hom2+N+Pred+Acc+PxDu2: [тартамдиʼ, тартмдиʼ]
+     тарˮ+Hom2+N+Pred+Gen+PxDu2: [тартандиʼ, тартндиʼ]
+     тарˮ+Hom2+N+Pred+Nom+PxDu3: [тартадиʼ, тартдиʼ]
+     тарˮ+Hom2+N+Pred+Acc+PxDu3: [тартамдиʼ, тартмдиʼ]
+     тарˮ+Hom2+N+Pred+Gen+PxDu3: [тартандиʼ, тартндиʼ]
+     тарˮ+Hom2+N+Pred+Nom+PxPl1: тартваˮ
+     тарˮ+Hom2+N+Pred+Acc+PxPl1: тартваˮ
+     тарˮ+Hom2+N+Pred+Gen+PxPl1: [тартанаˮ, тартнаˮ]
+     тарˮ+Hom2+N+Pred+Nom+PxPl2: тартраˮ
+     тарˮ+Hom2+N+Pred+Acc+PxPl2: [тартамдаˮ, тартмдаˮ]
+     тарˮ+Hom2+N+Pred+Gen+PxPl2: [тартандаˮ, тартндаˮ]
+     тарˮ+Hom2+N+Pred+Nom+PxPl3: [тартадоʼ, тартдоʼ]
+     тарˮ+Hom2+N+Pred+Acc+PxPl3: [тартамдоʼ, тартмдоʼ]
+     тарˮ+Hom2+N+Pred+Gen+PxPl3: [тартандоʼ, тартндоʼ]
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: тартмʼ
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: тарт
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: тарˮ
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: [тарˮниʼ, тарниʼ]
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: тартиʼ
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: таркʼ
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: [тарˮмаˮ, тармаˮ]
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: тартаˮ
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: тарˮ
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: тартамзь
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: тартась
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: тарць
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: [тарˮнинзь, тарнинзь]
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: тартинзь
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: тарканзь
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: [тарˮмаць, тармаць]
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: тартаць
+     тарˮ+Hom2+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: тараць
+     тарˮ+Hom2+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: [тарˮм, тарм]
+     тарˮ+Hom2+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: тал
+     тарˮ+Hom2+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: [тарта, тартя]
+     тарˮ+Hom2+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: [тарˮмиʼ, тармиʼ]
+     тарˮ+Hom2+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: талиʼ
+     тарˮ+Hom2+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: тартиʼ
+     тарˮ+Hom2+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: [тарˮмаˮ, тармаˮ]
+     тарˮ+Hom2+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: талаˮ
+     тарˮ+Hom2+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: [тартоʼ, тартёʼ]
+     тарˮ+Hom2+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: [тарˮмась, тармась]
+     тарˮ+Hom2+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: талась
+     тарˮ+Hom2+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: [тартась, тартясь]
+     тарˮ+Hom2+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: [тарˮминзь, тарминзь]
+     тарˮ+Hom2+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: талинзь
+     тарˮ+Hom2+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: тартинзь
+     тарˮ+Hom2+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: [тарˮмаць, тармаць]
+     тарˮ+Hom2+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: талаць
+     тарˮ+Hom2+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: [тартонзь, тартёнзь]
+     тарˮ+Hom2+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: [таркаюн, таркюн]
+     тарˮ+Hom2+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: [таркаюд, таркюд]
+     тарˮ+Hom2+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: [таркаюда, таркюда]
+     тарˮ+Hom2+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: [таркаюниʼ, таркюниʼ]
+     тарˮ+Hom2+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдиʼ, таркюдиʼ]
+     тарˮ+Hom2+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдиʼ, таркюдиʼ]
+     тарˮ+Hom2+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: [таркаюнаˮ, таркюнаˮ]
+     тарˮ+Hom2+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдаˮ, таркюдаˮ]
+     тарˮ+Hom2+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: [таркаюдоʼ, таркюдоʼ]
+     тарˮ+Hom2+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюнась, таркюнась]
+     тарˮ+Hom2+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдась, таркюдась]
+     тарˮ+Hom2+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдась, таркюдась]
+     тарˮ+Hom2+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюнинзь, таркюнинзь]
+     тарˮ+Hom2+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдинзь, таркюдинзь]
+     тарˮ+Hom2+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдинзь, таркюдинзь]
+     тарˮ+Hom2+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюнаць, таркюнаць]
+     тарˮ+Hom2+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдаць, таркюдаць]
+     тарˮ+Hom2+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: [таркаюдонзь, таркюдонзь]
+     тарˮ+Hom2+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: тарен
+     тарˮ+Hom2+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: таред
+     тарˮ+Hom2+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: тареда
+     тарˮ+Hom2+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: тарениʼ
+     тарˮ+Hom2+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: таредиʼ
+     тарˮ+Hom2+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: таредиʼ
+     тарˮ+Hom2+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: таренаˮ
+     тарˮ+Hom2+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: таредаˮ
+     тарˮ+Hom2+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: таредоʼ
+     тарˮ+Hom2+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: таренась
+     тарˮ+Hom2+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: таредась
+     тарˮ+Hom2+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: таредась
+     тарˮ+Hom2+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: таренинзь
+     тарˮ+Hom2+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: тарединзь
+     тарˮ+Hom2+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: тарединзь
+     тарˮ+Hom2+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: таренаць
+     тарˮ+Hom2+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: таредаць
+     тарˮ+Hom2+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: таредонзь
+     тарˮ+Hom2+N+Tra: [тарˮӈэ, тарӈэ]
+     тарˮ+Hom2+N+Car: тарциˮ
+     тарˮ+Hom2+N+Equ: тартремʼ
+     тарˮ+Hom2+N+Equ+Lat: тартревʼ
