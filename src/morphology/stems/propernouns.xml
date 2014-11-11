@@ -870,6 +870,8 @@
 
       <stg>
         <st Contlex="PROP_ЕД">Лабцуй</st>
+
+        <st Contlex="PROP_ЕД">Лапцуй</st>
       </stg>
 
       <stress/>
@@ -890,10 +892,10 @@
 
   <e>
     <lg>
-      <l pos="Prop">Лабцуй</l>
+      <l pos="Prop">Лагейской</l>
 
       <stg>
-        <st Contlex="PROP_ЕД">Лапцуй</st>
+        <st Contlex="PROP_ЕД">Лагейской</st>
       </stg>
 
       <stress/>
@@ -907,7 +909,31 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Laptsui</t>
+        <t pos="Prop">Lageiskoi (sukunimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ладукэй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ладукэй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ladukei (nenetsiheimo)</t>
       </tg>
     </mg>
   </e>
@@ -2176,6 +2202,126 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Sobaljov (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Соˮом</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Соˮом</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Otava (Сиˮив Соˮом)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сулей</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Сулей</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Suljei (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сулентьев</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Сулентьев</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sulentjev (sukunimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сусой</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Сусой</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Susoi (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сывне</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Сывне</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Syvne (naisennimi)</t>
       </tg>
     </mg>
   </e>
