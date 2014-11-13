@@ -12416,7 +12416,7 @@
 
   <e>
     <lg>
-      <l pos="A">сырэй</l>
+      <l hid="Hom2" pos="A">сырэй</l>
 
       <stg>
         <st Contlex="A_ЕД">сырэй</st>
@@ -12448,6 +12448,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">ujo</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">сыя</l>
+
+      <stg>
+        <st Contlex="A_ӇОДИ">сыя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">mansilainen</t>
+
+        <t pos="A">mansin</t>
       </tg>
     </mg>
   </e>
@@ -12614,6 +12634,26 @@
 
   <e>
     <lg>
+      <l pos="A">сэхэ</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">сэхэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">villi</t>
+
+        <t pos="A">pelokas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">сюнзавэй</l>
 
       <stg>
@@ -12722,6 +12762,24 @@
 
   <e>
     <lg>
+      <l pos="A">сяˮмэй</l>
+
+      <stg>
+        <st Contlex="A_ХУСУВЭЙ">сяˮмэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">epäpuhdas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">сяˮны</l>
 
       <stg>
@@ -12814,9 +12872,11 @@
 
   <e>
     <lg>
-      <l pos="A">сямдбэй</l>
+      <l pos="A">сямдвы</l>
 
       <stg>
+        <st Contlex="A_ПАНЫ">сямдвы</st>
+
         <st Contlex="A_ХУСУВЭЙ">сямдбэй</st>
       </stg>
     </lg>
@@ -12828,6 +12888,26 @@
         <t pos="A">karstoittunut</t>
 
         <t pos="A">savustettu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">сямдореˮэ</l>
+
+      <stg>
+        <st Contlex="A_ЕД">сямдореˮэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">punaruskea</t>
+
+        <t pos="A">punarautias</t>
       </tg>
     </mg>
   </e>
@@ -12905,7 +12985,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">pakastettu</t>
       </tg>
     </mg>
   </e>
@@ -12926,6 +13006,28 @@
         <t pos="A">paleltunut</t>
 
         <t pos="A">pakkasen purema</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">сядний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">сядний</st>
+
+        <st Contlex="A_ПАНЫ">сядняӈы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">etumainen</t>
+
+        <t pos="A">edessä oleva</t>
       </tg>
     </mg>
   </e>
@@ -12990,6 +13092,28 @@
 
   <e>
     <lg>
+      <l pos="A">сярнэрик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">сярнэрик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">vikisevä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">сярувдавэй</l>
 
       <stg>
@@ -13012,6 +13136,8 @@
 
       <stg>
         <st Contlex="A_ЕД">сятаний</st>
+
+        <st Contlex="A_ПАНЫ">сятаняӈы</st>
       </stg>
     </lg>
 
@@ -13446,6 +13572,24 @@
         <t pos="A">hyvin tumma</t>
 
         <t pos="A">tajuton</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">талм</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">талм</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pilvinen</t>
       </tg>
     </mg>
   </e>
