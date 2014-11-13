@@ -4,7 +4,6 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-
   <e>
     <lg>
       <l pos="Pcle">ниӈоˮ</l>
@@ -55,6 +54,42 @@
 
       <tg xml:lang="fin">
         <t pos="Pcle">ja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pcle">сяхариʼ</l>
+
+      <stg>
+        <st Contlex="PCLE_">сяхариʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">milloin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pcle">ӈоˮ</l>
+
+      <stg>
+        <st Contlex="PCLE_">ӈоˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">olleen</t>
       </tg>
     </mg>
   </e>

@@ -2352,6 +2352,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Сэрˮне</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Сэрˮне</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sernje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Сэрако</l>
 
       <stg>
@@ -2442,6 +2466,52 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Sjunzi (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сюхуней</l>
+
+      <stg>
+        <st Contlex="PROP_ХУСУВЭЙ">Сюхуней</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sjuhunei (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Сявта</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Сявта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sjavta</t>
       </tg>
     </mg>
   </e>
@@ -2586,6 +2656,28 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Takotsja (etunimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Талей</l>
+
+      <stg>
+        <st Contlex="PROP_">Талей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Talej (nenetsiheimo)</t>
       </tg>
     </mg>
   </e>
