@@ -1534,6 +1534,98 @@
 
   <e>
     <lg>
+      <l pos="Prop">Нядаӈгы</l>
+
+      <stg>
+        <st Contlex="PROP_ПАНЫ">Нядаӈгы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Njadangi (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Нядӈаворта</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Нядӈаворта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Njadngavorta (jäkältä syövä myyttinen olento)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Някоця</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ">Някоця</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Njakotsja (miehen nimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Няруй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Няруй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Njarui (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Пандо</l>
 
       <stg>
@@ -2641,7 +2733,7 @@
       <l pos="Prop">Такоця</l>
 
       <stg>
-        <st Contlex="PROP_ӇУДИ">Такоця</st>
+        <st Contlex="PROP_ӇОДИ">Такоця</st>
       </stg>
 
       <stress/>
@@ -3286,6 +3378,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Холӈгув</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Холӈгув</st>
+
+        <st Contlex="PROP_ЕД">Холгов</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Kolgujev</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Хэтанзи</l>
 
       <stg>
@@ -3302,28 +3418,6 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Hetanzi (nenetsien heimo)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Prop">Холӈгув</l>
-
-      <stg>
-        <st Contlex="PROP_ЕД">Холӈгув</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Prop">Kolgujev</t>
       </tg>
     </mg>
   </e>
@@ -3760,6 +3854,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ӈадерˮ</l>
+
+      <stg>
+        <st Contlex="PROP_ВАР">Ӈадер</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngader (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ӈамдарма</l>
 
       <stg>
@@ -3776,6 +3892,98 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Amderma</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈасяда</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Ӈасяда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngasjada (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈокадэта</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Ӈокадэта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngokadeta (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈолей</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Ӈолей</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngolei (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈоци</l>
+
+      <stg>
+        <st Contlex="PROP_">Ӈоци</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngotsi (miehennimi)</t>
       </tg>
     </mg>
   </e>
