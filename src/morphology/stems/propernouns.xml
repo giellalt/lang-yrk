@@ -1512,6 +1512,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Нохо</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Нохо</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Noho (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Нью-Йорк</l>
 
       <stg>
@@ -2962,6 +2986,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Тыко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Тыко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Tyko (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Тысъя</l>
 
       <stg>
@@ -3966,10 +4014,34 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ӈоцˮма</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Ӈоцˮма</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngotsma (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ӈоци</l>
 
       <stg>
-        <st Contlex="PROP_">Ӈоци</st>
+        <st Contlex="PROP_ӇЭ">Ӈоци</st>
       </stg>
 
       <stress/>
@@ -3984,6 +4056,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Ngotsi (miehennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈувэци</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Ӈувэци</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Nguvetsi (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>

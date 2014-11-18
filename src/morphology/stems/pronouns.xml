@@ -952,8 +952,7 @@
 
   <e>
     <lg>
-      <l pos="Pron">
-тюку</l>
+      <l pos="Pron">тюку</l>
 
       <stg>
         <st Contlex="PRON-DEM-ADN_">тюку</st>
@@ -969,6 +968,30 @@
 
       <tg xml:lang="fin">
         <t pos="Pron">se</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">тюкуцей</l>
+
+      <stg>
+        <st Contlex="PRON-DEM-ADN_">тюкуцей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Pron"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">ei tuo, vaan se</t>
       </tg>
     </mg>
 
