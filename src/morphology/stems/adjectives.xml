@@ -9514,6 +9514,24 @@
 
   <e>
     <lg>
+      <l pos="A">пибтяли</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">пибтяли</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">isohuulinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">пиделабэй</l>
 
       <stg>
@@ -9525,7 +9543,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">ruhjottu</t>
+
+        <t pos="A">rutsitettu</t>
+
+        <t pos="A">ryppyinen</t>
       </tg>
     </mg>
   </e>
@@ -11278,6 +11300,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">tappelunhaluinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">российской</l>
+
+      <stg>
+        <st Contlex="A_ЕД">российской</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">Venäjän</t>
       </tg>
     </mg>
   </e>
@@ -14614,6 +14654,8 @@
 
       <stg>
         <st Contlex="A_ЕД">тибей</st>
+
+        <st Contlex="A_ЕД">тимбей</st>
       </stg>
     </lg>
 
@@ -15196,6 +15238,24 @@
 
   <e>
     <lg>
+      <l pos="A">тыбрик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тыбрик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">etujalalla potkiva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">тыналпэй</l>
 
       <stg>
@@ -15388,6 +15448,26 @@
 
   <e>
     <lg>
+      <l pos="A">тэˮэм</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">тэˮэм</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ruskea</t>
+
+        <t pos="A">haalistunut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">тэвасавэй</l>
 
       <stg>
@@ -15440,6 +15520,24 @@
         <t pos="A">saavuttamaton</t>
 
         <t pos="A">epäkypsä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тэдорик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тэдорик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">riidanhaluinen</t>
       </tg>
     </mg>
   </e>
@@ -15594,6 +15692,28 @@
 
   <e>
     <lg>
+      <l pos="A">тэёляв</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тэёляв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">huolimaton</t>
+
+        <t pos="A">siivoton</t>
+
+        <t pos="A">epäsiisti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">тюˮуй</l>
 
       <stg>
@@ -15610,6 +15730,24 @@
         <t pos="A">päällimmäinen</t>
 
         <t pos="A">ylempi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тюксей</l>
+
+      <stg>
+        <st Contlex="A_ХУСУВЭЙ">тюксей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">vajonnut</t>
       </tg>
     </mg>
   </e>
@@ -15712,6 +15850,24 @@
 
   <e>
     <lg>
+      <l pos="A">тянрик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тянрик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">läiskyttävä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">тянёй</l>
 
       <stg>
@@ -15728,6 +15884,32 @@
         <t pos="A">lappea</t>
 
         <t pos="A">litteä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">тянёрка</l>
+
+      <stg>
+        <st Contlex="A_МАРАӇГЫ">тянёрка</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">vähempi</t>
       </tg>
     </mg>
   </e>
@@ -20380,6 +20562,28 @@
 
   <e>
     <lg>
+      <l pos="A">ӈартиӈы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">ӈартиӈы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A">partahylkeen nahasta tehty</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">alempi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ӈарёй</l>
 
       <stg>
@@ -20444,6 +20648,26 @@
 
   <e>
     <lg>
+      <l pos="A">ӈоˮлери</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">ӈоˮлери</st>
+
+        <st Contlex="A_ӇЭ">ӈолери</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ainoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ӈоˮмасавэй</l>
 
       <stg>
@@ -20494,6 +20718,24 @@
         <t pos="A">runsas</t>
 
         <t pos="A">lukuisa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈолякоця</l>
+
+      <stg>
+        <st Contlex="A_ӇОДИ">ӈолякоця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pikku</t>
       </tg>
     </mg>
   </e>
