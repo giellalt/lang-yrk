@@ -6,6 +6,24 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Pcle">валакада</l>
+
+      <stg>
+        <st Contlex="PCLE_">валакада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">mutta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pcle">ниӈоˮ</l>
 
       <stg>
@@ -96,6 +114,24 @@
         <t pos="Pcle">joko</t>
 
         <t pos="Pcle">joko tai</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pcle">ятʼ</l>
+
+      <stg>
+        <st Contlex="PCLE_">ятʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">no niin</t>
       </tg>
     </mg>
   </e>
