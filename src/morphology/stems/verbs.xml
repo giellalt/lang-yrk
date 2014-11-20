@@ -73989,46 +73989,6 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">нэхобтась</l>
-
-      <stg>
-        <st Contlex="TV_ӇЭДАРА">нэхобта</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">temmata</t>
-
-        <t pos="V">kiskaista</t>
-
-        <t pos="V">riipaista</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">нэхорась</l>
-
-      <stg>
-        <st Contlex="IV_ЛАХАНА">нэхора</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">vetää verkkoa puoleensa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" val="TV">нэхэбась</l>
 
       <stg>
@@ -99993,7 +99953,7 @@
       <l pos="V" val="TV">писядась</l>
 
       <stg>
-        <st Contlex="TV_НАМДА">писяада</st>
+        <st Contlex="TV_НАМДА">писяда</st>
       </stg>
     </lg>
 
@@ -100013,27 +99973,9 @@
       <l pos="V" val="IV">писядетась</l>
 
       <stg>
-        <st Contlex="IV_ЛАХАНА">писядадета</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV">ivailla</t>
-
-        <t pos="V" val="IV">pilkata</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">писядетась</l>
-
-      <stg>
         <st Contlex="IV_НАМДА">писядета</st>
+
+        <st Contlex="IV_ЛАХАНА">писядадета</st>
       </stg>
     </lg>
 
@@ -100202,6 +100144,24 @@
 
       <tg xml:lang="fin">
         <t pos="V">nauraa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="IV">писянзь</l>
+
+      <stg>
+        <st Contlex="IV_МИН">писян</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">pyydystää hiiriä</t>
       </tg>
     </mg>
   </e>

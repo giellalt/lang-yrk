@@ -6,6 +6,30 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="Num">нуль</l>
+
+      <stg>
+        <st Contlex="NUM_ЕД">нуль</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Num">zero</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Num">nolla</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Num">ӈопой</l>
 
       <stg>

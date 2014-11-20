@@ -33,6 +33,7 @@ LEXICON nouns
 библиотека:библиотека N_МАРАӇГЫ-RUS  "kirjasto" ;
 билет:билет N_ЕД-RUS  "lippu" ;
 билет:пилет N_ЕД  "lippu" ;
+бинокль:бинокль N_ЕД-RUS  "kiikari" ;
 бинт:бинт N_ЕД-RUS  "sidos" ;
 бомба:бомба N_ӇУДИ-RUS  "pommi" ;
 ботинка:ботинка N_МАРАӇГЫ-RUS  "varsikenkä" ;
@@ -272,6 +273,7 @@ LEXICON nouns
 ентё:ентё N_МЕРЁ  "?hihna, joka erottaa reen keskimmäisiä vetohihnoja" ;
 еня:еня N_ӇОДИ  "öinen vartija" ;
 еняд:еняд N_ЕД  "kanta" ;
+еняд:еняд N_МЯДО  "kanta" ;
 ерˮ:ерˮ N_ТАРЕ  "keskus" ;
 ерˮма:ерˮма N_ӇУДИ  "purettu paikka" ;
 ерaˮма:ерaˮма N_ӇУДИ  "kyntö" ;
@@ -286,6 +288,7 @@ LEXICON nouns
 ерцьха:ерцьха N_ӇУДИ  "kunnioituksen aste" ;
 есʼ:ес N_ВЫӇО  "ansa" ;
 есерˮ:есер N_ВАР/ТАРЕ  "uudin" ;
+есирˮ:есир N_ВАР  "merkki porossa" ;
 еся:еся N_ӇОДИ/ПИСЬ  "rauta" ;
 есяива:есяива N_ӇУДИ  "messinki" ;
 есякоця:есякоця N_ӇОДИ  "rautapala" ;
@@ -305,9 +308,12 @@ LEXICON nouns
 заявления:заявления N_ӇОДИ-RUS  "ilmoitus" ;
 заявления:саявлени N_ӇЭ-RUS  "ilmoitus" ;
 звания:звания N_ӇОДИ-RUS  "arvo" ;
+знамя:знамя N_ӇОДИ-RUS  "lippu" ;
 и:и N_ИБЕ  "merkitys" ;
 иˮ:и N_ИДЕ  "vesi" ;
+иˮли:иˮли N_ӇЭ  "liemi" ;
 иˮмя:иˮмя N_ӇОДИ  "reunus turkiksesta" ;
+иˮмяко:иˮмяко N_ӇАНУ  "reunusnauha" ;
 ибад:ибад N_ЕД  "lämmin aika" ;
 ибадабцо:ибадабцо N_ӇАНУ  "ilman liikunta ennen helteen tuloa" ;
 ибивоˮма:ибивоˮма N_ӇУДИ  "lämpeneminen" ;
@@ -372,27 +378,42 @@ LEXICON nouns
 июнь:июнь N_ЕД-RUS  "kesäkuu" ;
 иӈгней:иӈгней N_ЕД/ХУСУВЭЙ  "ahma" ;
 иӈгыемʼ:иӈгыем N_ӇУВО  "rakeinen lumi" ;
+калась:калась N_ЕД  "rinkilä" ;
+календарь:календарь N_ЕД-RUS  "kalenteri" ;
+календарь:халяндарь N_ЕД  "kalenteri" ;
 канат:канат N_ЕД-RUS  "köysi" ;
 канат:ханат N_ЕД  "köysi" ;
+кандидат:кандидат N_ЕД-RUS  "ehdokas" ;
+каникул:каникул N_ЕД  "loma" ;
+капитализм:капитализм N_ЕД-RUS  "kapitalismi" ;
+капиталист:капиталист N_ЕД-RUS  "kapitalisti" ;
 капитан:капитан N_ЕД-RUS  "kapteeni" ;
 капитан:хапитан N_ЕД  "kapteeni" ;
 капуста:капуста N_МАРАӇГЫ-RUS  "kaali" ;
 капуста:хапуста N_МАРАӇГЫ  "kaali" ;
 карандаш:карандаш N_ЕД-RUS  "lyijykynä" ;
 карандаш:харандас N_ЕД  "lyijykynä" ;
+картинка:картинка N_ӇЭ-RUS  "kuva" ;
+картинка:хартинка N_ӇЭ  "kuva" ;
 картофель:картофель N_ЕД-RUS  "peruna" ;
+катер:катер N_ЕД-RUS  "moottorivene" ;
+катер:хатяр N_ВАР  "moottorivene" ;
 квартира:квартира N_ӇЭ-RUS  "asunto" ;
 килограмм:килограмм N_ЕД-RUS  "kilogramma" ;
 километр:километр N_ЕД-RUS  "kilometri" ;
 кино:кино N_ӇАНУ-RUS  "elokuvateatteri" ;
 класс:класс N_ЕД-RUS  "luokka" ;
 класс:халас N_ЕД  "luokka" ;
+клуб:клуб N_ЕД-RUS  "kerho" ;
+клуб:хулуб N_ЕД  "kerho" ;
 книга:книга N_ӇУДИ/ӇЭ  "kirja" ;
 книга:хыника N_ӇУДИ  "kirja" ;
 колхоз:колхоз N_ЕД-RUS  "kolhoosi" ;
 колхоз:холкос N_ЕД  "kolhoosi" ;
 комитет:комитет N_ЕД-RUS  "komitea" ;
 конференция:конференция N_ӇОДИ-RUS  "konferenssi" ;
+костюм:костюм N_ЕД-RUS  "puku" ;
+кофта:кофта N_ӇУДИ-RUS  "takki" ;
 культура:культура N_МАРАӇГЫ-RUS  "kulttuuri" ;
 курс:курс N_ЕД-RUS  "kurssi" ;
 курс:хурс N_ЕД  "kurssi" ;
@@ -407,6 +428,7 @@ LEXICON nouns
 лабˮна:лабˮна N_ӇУДИ  "jyske" ;
 лабˮна:ламна N_ӇУДИ  "jyske" ;
 лабадяв:лабадяв N_ЕД  "jyrkänne" ;
+лабадяв:лабэдяв N_ЕД  "jyrkänne" ;
 лабак:лабак N_ЕД  "suikale" ;
 лабараˮма:лабараˮма N_ӇУДИ  "vieremäpaikka" ;
 лабас:лабас N_ЕД  "levy" ;
@@ -420,8 +442,10 @@ LEXICON nouns
 лабта:лабта N_ӇУДИ  "tasanko" ;
 лабтандер:лабтандер N_ЕД  "tasankon asukas" ;
 лабтэй:лабтэй N_ЕД  "laatikko" ;
+лабтэйко:лабтэйко N_ӇАНУ  "rasia" ;
 лабук:лабук N_ЕД  "pala" ;
-лабц:лабц N_ЕД  "porolauman polkeama paikka" ;
+лабц:лабц N_ЕД  "porolauman polkeama kohta" ;
+лабцарˮ:лабцар N_ВАР  "litistynyt esine" ;
 лабцеˮмя:лабцеˮмя N_ӇОДИ  "paikka" ;
 лабцеˮмя:лабцьˮмя N_ӇОДИ  "paikka" ;
 лабцо:лабцо N_ӇАНУ  "myrkyllinen kasvi leveillä lehdillä" ;
@@ -560,6 +584,8 @@ LEXICON nouns
 лэндуця:лындуця N_ӇОДИ  "puunhakkuukirves" ;
 лэри:лэри N_ӇЭ  "luuranko" ;
 лэсу:лэсу N_ӇЭ  "säynäs" ;
+лэтад:лэтад N_ЕД  "paksuus" ;
+лэтад:лэт N_ЕД  "paksuus" ;
 лэтраˮма:летраˮма N_ӇУДИ  "varastossa oleva esine" ;
 лэӈгорˮ:лэӈгор N_ВАР  "lumipilvi" ;
 лэё:лэё N_МЕРЁ  "liekki" ;
@@ -571,6 +597,7 @@ LEXICON nouns
 лядтабцьʼ:лядтабць N_ЁЛЬЦЕ  "moukari" ;
 лядхэй:лядхэй N_ЕД/ХУСУВЭЙ  "halkeama" ;
 лямба:лямба N_ӇУДИ  "veto (ilman)" ;
+ляр:ляр N_ЕД  "kiiski" ;
 ляра:ляра N_ХОБ  "ahven" ;
 лярцо:лярцо N_ӇАНУ  "hämähäkki" ;
 лярць:лярць N_ЕД  "pykäläinen metallikoriste" ;
@@ -634,6 +661,7 @@ LEXICON nouns
 мамако:мамако N_ӇАНУ  "äiti" ;
 манˮ:ман N_МАНСО  "pensas" ;
 манˮма:манˮма N_ӇУДИ  "sidonta" ;
+манˮмы:манˮмы N_ПАНЫ  "leipä" ;
 мана:мана N_ӇУДИ  "etuevä" ;
 манак:манак N_ЕД  "karhun etutassu" ;
 мандалˮ:мандал N_ВАР  "samanlaisten esineiden kokonaisuus" ;
@@ -954,6 +982,7 @@ LEXICON nouns
 нарё:нарё N_МЕРЁ  "karjunta" ;
 насoрˮ:насoр N_ВАР  "karheus" ;
 настырˮ:настыр N_ВАР  "lääke" ;
+наука:наука N_ӇУДИ-RUS  "tiede" ;
 нахарˮ:нахар N_ВАР  "pähkinä" ;
 нахарoӈгад:нахарoӈгад N_ЕД  "pähkinähakki" ;
 нацдэй:нацдэй N_ХУСУВЭЙ  "nokkonen" ;
@@ -1049,6 +1078,7 @@ LEXICON nouns
 нойко:нойко N_ӇАНУ  "naisten verkasta päällysvaate" ;
 ноймян:ноймян N_ЕД  "rupla" ;
 норила:норила N_ӇУДИ  "18-20 m pitkä salko verkon jään alle asennusta varten" ;
+норма:норма N_ӇУДИ-RUS  "normi" ;
 норт:норт N_ЕД  "lautapäällysteellä pitkä reki" ;
 носилава:носилава N_ӇУДИ  "naalinmetsästyspaikka" ;
 носиндалава:носиндалава N_ӇУДИ  "naalinmetsästysaika" ;
@@ -1158,6 +1188,7 @@ LEXICON nouns
 нянз:нянз N_ЕД  "kura" ;
 нянзи:нянзи N_ӇЭ-Pal/Var  "suu" ;
 нянзко:нянзко N_ӇАНУ  "liemenvilla" ;
+нянзкоця:нянзкоця N_ӇОДИ  "höyty" ;
 нянко:нянко N_ӇАНУ  "maha" ;
 нянь:нянь N_ХАНО  "leipä" ;
 нянэй:нянэй N_ЕД  "raha" ;
@@ -1206,6 +1237,7 @@ LEXICON nouns
 океан:океан N_ЕД-RUS  "valtameri" ;
 округ:округ N_ЕД-RUS  "piiri" ;
 октябрь:октябрь N_ЕД-RUS  "lokakuu" ;
+омоним:омоним N_ЕД-RUS  "homonyymi" ;
 организация:организация N_ӇОДИ-RUS  "järjestö" ;
 орден:орден N_ЕД-RUS  "kunniamitali" ;
 отряд:отряд N_ЕД-RUS  "osasto" ;
@@ -1396,6 +1428,7 @@ LEXICON nouns
 пиндолава:пиндолава N_ӇУДИ  "puunvalmistelupaikka" ;
 пинзарма:пинзарма N_ӇУДИ  "lehtopöllö" ;
 пинзарма:писарма N_ӇУДИ  "lehtopöllö" ;
+пиняминдя:пиняминдя N_ӇУДИ  "naskali" ;
 пиняӈы:пиняӈы N_ПАНЫ  "susi" ;
 пиняӈы:пихий N_ЕД  "susi" ;
 пионер:пионер N_ЕД-RUS  "pioneeri" ;
@@ -1511,6 +1544,7 @@ LEXICON nouns
 пунанця:пунанця N_ӇОДИ  "pulmunen" ;
 пунзо:пунзо N_ӇАНУ  "poron polvirasva" ;
 пуно:пуно N_ӇАНУ  "sammalkasvi jota käytetään rakennuksissa" ;
+пуно:пуну N_ӇАНУ  "sammalkasvi jota käytetään rakennuksissa" ;
 пуномдˮ:пуномд N_МЯДО  "tuntomerkki" ;
 пунонзь:пунонзь N_ЕД  "pulmunen" ;
 пунрабцо:пунрабцо N_ӇАНУ  "se joka herättää uskoa" ;
@@ -1560,6 +1594,7 @@ LEXICON nouns
 пэварˮ:пэвар N_ВАР  "varjokohta" ;
 пэвва:пэвва N_ӇУДИ  "pimeys" ;
 пэвдё:пэвдё N_МЕРЁ  "halko" ;
+пэвдё:пэвдю N_МЕРЁ  "halko" ;
 пэвсюмбы:пэвсюмбы N_ПАНЫ  "ilta" ;
 пэвсюмдё:пэвсюмдё N_МЕРЁ  "ilta" ;
 пэдабцо:пэдабцо N_ӇАНУ  "väsymys" ;
@@ -2345,7 +2380,7 @@ LEXICON nouns
 тохорцьʼ:тохорць N_ЁЛЬЦЕ  "pieni astia marjoja varten" ;
 тохоця:тохоця N_ӇОДИ  "vaatepala" ;
 тоёцё:тоёцё N_МЕРЁ  "huopa" ;
-трони:трони N_ӇЭ  "reki polttopuita varten" ;
+трактор:трактор N_ЕД-RUS  "traktori" ;
 ту:ту N_ӇЭ  "tuli" ;
 туˮ:ту N_МЯДО  "rasva" ;
 тубка:тубка N_ӇУДИ  "kirves" ;
@@ -2644,6 +2679,8 @@ LEXICON nouns
 харавать:кровать N_ЕД-RUS  "sänky" ;
 харад:хард N_ЕД  "kylä" ;
 харад:харад N_ЕД/ХАНО  "talo" ;
+хараль:хараль N_ЕД  "aitaus" ;
+хараль:кораль N_ЕД-RUS  "aitaus" ;
 харандас:харандас N_ЕД  "lyijykynä" ;
 харандас:карандаш N_ЕД-RUS  "lyijykynä" ;
 харасин:харасин N_ЕД  "lamppuöljy" ;
@@ -2663,6 +2700,7 @@ LEXICON nouns
 харп:харп N_ХАНО  "revontulet" ;
 харта:харта N_ӇУДИ  "kartta" ;
 хартоска:хартоска N_МАРАӇГЫ  "peruna" ;
+хартоска:картошка N_МАРАӇГЫ-RUS  "peruna" ;
 харумдаˮма:харумдаˮма N_ӇУДИ  "sauva jolla taivutetaan tulessa reen jalaksia" ;
 харумдярˮ:харумдяр N_ВАР  "reen jalasten kierous" ;
 харци:харци N_ӇЭ  "peräpuoli" ;
@@ -2726,6 +2764,7 @@ LEXICON nouns
 хорˮ:хор N_ВАР  "tynnyri" ;
 хора:хора N_ХОБ  "uros" ;
 хорабля:хорабля N_ӇОДИ  "laiva" ;
+хорабля:корабль N_ЕД-RUS  "laiva" ;
 хорака:хорака N_МАРАӇГЫ  "kurkku" ;
 хорако:хорако N_ӇАНУ  "ämpäri" ;
 хорацица:хорацица N_ӇУДИ  "sinappi" ;
@@ -3051,6 +3090,7 @@ LEXICON nouns
 ярэй:ярэй N_ХУСУВЭЙ  "lyhyet jänteet poron seljässä" ;
 ясавэй:ясавэй N_ХУСУВЭЙ  "paikan tuntija" ;
 ясацё:ясацё N_МЕРЁ  "kekäle" ;
+ясля:ясля N_ӇОДИ  "päiväkoti" ;
 ясобэрцьʼ:ясобэрць N_ЁЛЬЦЕ  "uuninkoukku" ;
 ятаˮма:ятаˮма N_ӇУДИ  "tulikekäle" ;
 яха:яха N_ЕСИ  "joki" ;
@@ -3073,9 +3113,13 @@ LEXICON nouns
 яӈоˮ:яӈо N_ТАСО  "kerros" ;
 яӈорˮ:яӈор N_ВАР  "rivi" ;
 яӈорэй:яӈорэй N_ХУСУВЭЙ  "takaisin kääntyvä linja" ;
+яӈэсьʼ:яӈэсь N_ВЫӇО  "niinisäkki" ;
+ё:ё N_ӇЭ  "petokalan maha" ;
+ё:ёв N_ЕД  "petokalan maha" ;
 ёʼ:ё N_ВЫӇО  "kulma" ;
 ёˮя:ёˮя N_ӇОДИ  "tuoksu" ;
 ёˮя:ёˮяха N_МАРАӇГЫ  "tuoksu" ;
+ёбтˮ:ёбт N_МЯДО  "pahna" ;
 ёдемы:ёдемы N_ПАНЫ  "pätkä" ;
 ёерˮ:ёер N_ВАР  "viillos" ;
 ёлава:ёлава N_ӇУДИ  "kalastuspaikka" ;
@@ -3086,6 +3130,7 @@ LEXICON nouns
 ёльцьˮма:ёльцьˮма N_ӇУДИ  "mitta" ;
 ёльцьрабцьʼ:ёльцьрабць N_ЁЛЬЦЕ  "mittausväline" ;
 ёмзяʼ:ёмзя N_ВЫӇО  "lumisade" ;
+ёмзяко:ёмзяко N_ӇАНУ  "höytylumi" ;
 ёмпо:ёмпо N_ӇАНУ  "kelmi" ;
 ёнарˮ:ёнар N_ТАРЕ  "reunasta tehty viimeistely" ;
 ёнартеˮмя:ёнартеˮмя N_ӇОДИ  "viimeistely reunuksella" ;
@@ -3172,6 +3217,7 @@ LEXICON nouns
 ӈамзод:ӈамзод N_ЕД  "syötäväksi tarkoitettu poro" ;
 ӈамнерё:ӈамнерё N_МЕРЁ  "runsas tahmea lumi" ;
 ӈамя:ӈамя N_ӇОДИ  "rinta" ;
+ӈамяндер:ӈамяндер N_ЕД  "rintamaito" ;
 ӈандарабцо:ӈандарабцо N_ӇАНУ  "äänekkään naurun syy" ;
 ӈанзи:ӈанзи N_ӇЭ  "virtsa" ;
 ӈано:ӈано N_ӇАНУ  "vene" ;
