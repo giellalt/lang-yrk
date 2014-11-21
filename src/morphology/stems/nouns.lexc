@@ -268,6 +268,7 @@ LEXICON nouns
 енелава:енелава N_ӇУДИ  "ampumispaikka" ;
 енерцьʼ:енерць N_НЕНЭЦИЕ  "ampumisväline" ;
 ензьдей:ензьдей N_ХУСУВЭЙ  "puolukka" ;
+ензьдей:емзядей N_ХУСУВЭЙ  "puolukka" ;
 ентеˮмя:ентеˮмя N_ӇОДИ  "rakennelma jännitetyistä esineistä" ;
 ентяв:ентяв N_ЕД  "viiva" ;
 ентё:ентё N_МЕРЁ  "?hihna, joka erottaa reen keskimmäisiä vetohihnoja" ;
@@ -293,6 +294,7 @@ LEXICON nouns
 есяива:есяива N_ӇУДИ  "messinki" ;
 есякоця:есякоця N_ӇОДИ  "rautapala" ;
 есятеб:есятеб N_ЕД/ТИРЕ  "naula" ;
+есятеда:есятеда N_ӇУДИ  "haapana" ;
 етя:етя N_ӇОДИ  "naaraseläin" ;
 ехэна:ехэна N_ӇУДИ  "sampi" ;
 ея:ея N_ПИСЬ  "kodan päällysteenä käytettävä porontalja" ;
@@ -370,7 +372,9 @@ LEXICON nouns
 иркадё:иркадё N_МЕРЁ  "kirskahdus" ;
 ирна:ирна N_ӇУДИ  "ritinä" ;
 ирнё:ирнё N_МЕРЁ  "kitinä" ;
+исьда:исьда N_ӇУДИ  "peuhaaja" ;
 исьхад:исьхад N_ЕД  "konstailija" ;
+ихибцьʼ:ихибць N_ЁЛЬЦЕ  "saha" ;
 ихилˮ:ихил N_ВАР  "vesi jään päällä keväällä rannan lähellä" ;
 ихилярˮ:ихиляр N_ВАР  "kova jää keväällä tai syksyllä rannan lähellä" ;
 ицьʼ:иць N_ЁЛЬЦЕ  "naru risuja varten" ;
@@ -1077,6 +1081,7 @@ LEXICON nouns
 нойдё:нойдё N_МЕРЁ  "punaisella verkalla koristettu naisten reki" ;
 нойко:нойко N_ӇАНУ  "naisten verkasta päällysvaate" ;
 ноймян:ноймян N_ЕД  "rupla" ;
+нойни:нойни N_ӇЭ  "nauha" ;
 норила:норила N_ӇУДИ  "18-20 m pitkä salko verkon jään alle asennusta varten" ;
 норма:норма N_ӇУДИ-RUS  "normi" ;
 норт:норт N_ЕД  "lautapäällysteellä pitkä reki" ;
@@ -1147,6 +1152,7 @@ LEXICON nouns
 няблюй:няблюй N_ЕД  "syksyinen poronvasikka" ;
 нябы:нябы N_ПАНЫ  "sorsa" ;
 нява:нява N_ХОБ  "jänis" ;
+нявако:нявако N_ӇАНУ  "jänö" ;
 нявды:нявды N_ПАНЫ  "keskonen" ;
 няврё:няврё N_МЕРЁ  "hörökorvainen valkoinen koira" ;
 нявця:нявця N_ӇОДИ  "poikinut poronlehmä" ;
@@ -1163,6 +1169,7 @@ LEXICON nouns
 някця:някця N_ӇОДИ  "hylkeenpoikanen" ;
 нялеко:нялеко N_ӇАНУ  "silmälinssi" ;
 няли:няли N_ӇЭ  "lavertelija" ;
+нялкаравы:нялкаравы N_ПАНЫ  "keskenmeno" ;
 нялкуй:нялкуй N_ЕД  "suussa sulava ruoka" ;
 няло:няло N_ӇАНУ  "siemenkota" ;
 нялоко:нялоко N_ӇАНУ  "viime keväällä synytnyt vasa ennen karvanluontia" ;
@@ -1195,6 +1202,7 @@ LEXICON nouns
 няра:няра N_ӇУДИ  "(turkin) lihapuoli" ;
 нярава:нярава N_ӇУДИ  "vaski" ;
 няркнабцьʼ:няркнабць N_ИЛЪЕ  "huoli" ;
+нярм:нярм N_ЕД  "punaisuus" ;
 нярма:нярма N_ӇУДИ  "rusko" ;
 нярма:нярма N_ӇУДИ  "suojakerros" ;
 нярма:нярˮма N_ӇУДИ  "suojakerros" ;
@@ -1234,6 +1242,7 @@ LEXICON nouns
 нёхолˮ:нёхол N_ВАР  "lika" ;
 нёя:нёя N_ӇОДИ  "made" ;
 овощь:овощь N_ЕД-RUS  "vihannes" ;
+овощь:ӈовось N_ЕД  "vihannes" ;
 океан:океан N_ЕД-RUS  "valtameri" ;
 округ:округ N_ЕД-RUS  "piiri" ;
 октябрь:октябрь N_ЕД-RUS  "lokakuu" ;
@@ -1348,6 +1357,7 @@ LEXICON nouns
 паспарт:паспарт N_ЕД-RUS  "passi" ;
 пасрева:пасрева N_ӇУДИ  "lörpöttely" ;
 пат:пат N_ЕД  "kotelo" ;
+патарˮ:патар N_ВАР  "kesakko" ;
 паток:паток N_ЕД  "piiska" ;
 патриот:патриот N_ЕД-RUS  "patriootti" ;
 патриотизм:патриотизм N_ЕД-RUS  "patriotismi" ;
@@ -3047,6 +3057,7 @@ LEXICON nouns
 ялна:ялна N_ӇУДИ  "jylinä" ;
 ялня:ялня N_ӇОДИ  "jylinä" ;
 ялрё:ялрё N_МЕРЁ  "jylinä" ;
+ялу:ялу N_ӇЭ  "tietty sorsalaji ('vaaleasilmä')" ;
 ялумдˮ:ялумд N_МЯДО  "aamunkoitto" ;
 ялумдаˮма:ялумдаˮма N_ӇУДИ  "valaistus" ;
 ялумдаˮма:ялэмдаˮма N_ӇУДИ  "valaistus" ;
@@ -3105,6 +3116,7 @@ LEXICON nouns
 яёлэця:яёлэця N_ӇОДИ  "heite" ;
 яӈг:яӈг N_ХАНО  "auringossa virttynyt pölkky" ;
 яӈгˮма:яӈгˮма N_ӇУДИ  "eristys" ;
+яӈгабава:яӈгабава N_ӇУДИ  "ruiske" ;
 яӈгабцьʼ:яӈгабць N_ЁЛЬЦЕ  "kanki" ;
 яӈгахалтабцьʼ:яӈгахалтабць N_ЁЛЬЦЕ  "veitsi jolla tehdään reikiä reenkaplaita varten" ;
 яӈгацьʼ:яӈгаць N_НЕНЭЦИЕ  "nuija" ;
@@ -3215,12 +3227,15 @@ LEXICON nouns
 ӈамза:ӈамза N_ӇУДИ  "liha" ;
 ӈамзаяха:ӈамзаяха N_ӇУДИ  "lihan tuoksu" ;
 ӈамзод:ӈамзод N_ЕД  "syötäväksi tarkoitettu poro" ;
+ӈамлава:ӈамлава N_ӇУДИ  "nälkä" ;
 ӈамнерё:ӈамнерё N_МЕРЁ  "runsas tahmea lumi" ;
 ӈамя:ӈамя N_ӇОДИ  "rinta" ;
 ӈамяндер:ӈамяндер N_ЕД  "rintamaito" ;
 ӈандарабцо:ӈандарабцо N_ӇАНУ  "äänekkään naurun syy" ;
 ӈанзи:ӈанзи N_ӇЭ  "virtsa" ;
 ӈано:ӈано N_ӇАНУ  "vene" ;
+ӈанохан:ӈанохан N_ХАНО  "saamelainen" ;
+ӈанохан:ӈаноган N_ХАНО  "saamelainen" ;
 ӈаня:ӈаня N_ӇОДИ  "sisäältä kuuluva ääni" ;
 ӈар:ӈар N_ЕД  "koko" ;
 ӈар:ӈар N_ЕД  "urina" ;
@@ -3280,7 +3295,9 @@ LEXICON nouns
 ӈувондалава:ӈувондалава N_ӇУДИ  "niitty" ;
 ӈувонзьʼ:ӈувонзь N_ЁЛЬЦЕ  "ruohonottopaikka" ;
 ӈувонзьʼ:ӈувось N_ЁЛЬЦЕ  "ruohonottopaikka" ;
+ӈувонзьʼ:ӈунзь N_ЁЛЬЦЕ  "ruohonottopaikka" ;
 ӈувотярˮ:ӈувотяр N_ВАР  "ruohomatto" ;
+ӈувотярˮ:ӈутяр N_ВАР  "ruohomatto" ;
 ӈуда:ӈуда N_ӇУДИ  "käsi" ;
 ӈудандарка:ӈудандарка N_ӇУДИ/ХОБ  "sormi" ;
 ӈумʼ:ӈум N_ӇУВО  "ruoho" ;
@@ -3294,12 +3311,14 @@ LEXICON nouns
 ӈы:ӈы N_ӇЭ  "olemus" ;
 ӈыдёбцьʼ:ӈыдёбць N_ЁЛЬЦЕ  "ripustuspaikka" ;
 ӈыдёнзьʼ:ӈыдёнзь N_ЁЛЬЦЕ  "sanka" ;
+ӈыдёцьʼ:ӈыдёць N_ЁЛЬЦЕ  "ripustin" ;
 ӈыера:ӈыера N_ӇУДИ  "piekana" ;
 ӈылˮ:ӈыл N_МЯДО  "kengänpohja" ;
 ӈылад:ӈылад N_ЕД/ХАНО  "pohja" ;
 ӈылека:ӈылека N_МАРАӇГЫ  "piru" ;
 ӈын:ӈын N_ЕД/ХАНО  "jousi" ;
 ӈынаб:ӈынаб N_ЕД  "appi" ;
+ӈынд:ӈынд N_ЕД  "ahman haju" ;
 ӈыне:ӈыня N_ӇОДИ  "tietty loukku pieneläinten pyydystykseen" ;
 ӈынеʼ:ӈыне N_ВЫӇО  "alanko" ;
 ӈысма:ӈысма N_ӇУДИ  "komi" ;
