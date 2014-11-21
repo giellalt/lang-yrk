@@ -2842,6 +2842,30 @@
 
   <e>
     <lg>
+      <l pos="Adv">нуедʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">нуедʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv">for free</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ilmaiseksi</t>
+
+        <t pos="Adv">veloituksetta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">нулӈгавасиˮ</l>
 
       <stg>
@@ -2906,6 +2930,30 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">heikosti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ныхыʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ныхыʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">voimalla</t>
+
+        <t pos="Adv">hyvin</t>
       </tg>
     </mg>
   </e>
@@ -3268,6 +3316,24 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">poikittain</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">нярмбыхы≈</l>
+
+      <stg>
+        <st Contlex="ADV-REF_">нярмбыхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">punaiseksi</t>
       </tg>
     </mg>
   </e>
@@ -8870,6 +8936,8 @@
 
       <stg>
         <st Contlex="ADV-MANNER_">ӈанинзерʼ</st>
+
+        <st Contlex="ADV-MANNER_">ӈанисерʼ</st>
       </stg>
     </lg>
 
@@ -9142,12 +9210,10 @@
 
   <e>
     <lg>
-      <l pos="Adv">ӈобˮӈар</l>
+      <l pos="Adv">ӈобˮняʼ</l>
 
       <stg>
-        <st Contlex="ADV-MANNER_">ӈобˮӈар</st>
-
-        <st Contlex="ADV-MANNER_">ӈобˮӈарас</st>
+        <st Contlex="ADV-MANNER_">ӈобˮняʼ</st>
       </stg>
     </lg>
 
@@ -9159,31 +9225,7 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">yhtä iso</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Adv">ӈобˮӈок</l>
-
-      <stg>
-        <st Contlex="ADV-MANNER_">ӈобˮӈок</st>
-
-        <st Contlex="ADV-MANNER_">ӈобˮӈокас</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t/>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Adv">yhtä paljon</t>
+        <t pos="Adv">yhdessä</t>
       </tg>
     </mg>
   </e>
@@ -9348,6 +9390,28 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">jatkuvasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ӈобпирувна</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ӈобпирувна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">tasavertaisesti</t>
       </tg>
     </mg>
   </e>
@@ -9802,6 +9866,28 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">vapaasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ӈэвадярциˮ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ӈэвадярциˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">levottomasti</t>
       </tg>
     </mg>
   </e>

@@ -462,6 +462,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Варкута</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Варкута</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Vorkuta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Васька</l>
 
       <stg>
@@ -1845,7 +1869,7 @@
       <l pos="Prop">Пубта</l>
 
       <stg>
-        <st Contlex="PROP_">Пубта</st>
+        <st Contlex="PROP_ӇУДИ">Пубта</st>
       </stg>
 
       <stress/>
@@ -4276,6 +4300,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ӈыйвэй</l>
+
+      <stg>
+        <st Contlex="PROP_ХУСУВЭЙ">Ӈыйвэй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Ngijvei (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ӈэвасяда</l>
 
       <stg>
@@ -4292,6 +4340,28 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Ngevasjada (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ӈэмунзи</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ">Ӈэмунзи</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Nukku-Matti</t>
       </tg>
     </mg>
   </e>
