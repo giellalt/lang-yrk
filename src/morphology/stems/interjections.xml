@@ -208,6 +208,78 @@
 
   <e>
     <lg>
+      <l pos="Interj">ебтаʼ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ебтаʼ</st>
+
+        <st Contlex="INTERJ_">ебтовʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">hei!</t>
+
+        <t pos="Interj">rakas!</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">е-е-е</l>
+
+      <stg>
+        <st Contlex="INTERJ_">е-е-е</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">(varoittava huuto)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">ерамбой</l>
+
+      <stg>
+        <st Contlex="INTERJ_">ерамбой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">aijai</t>
+
+        <t pos="Interj">auts</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Interj">ехэй</l>
 
       <stg>
@@ -484,6 +556,28 @@
 
   <e>
     <lg>
+      <l pos="Interj">мул</l>
+
+      <stg>
+        <st Contlex="INTERJ_">мул</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>(veden ääni)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Interj">няновˮ</l>
 
       <stg>
@@ -544,6 +638,52 @@
 
       <tg xml:lang="fin">
         <t pos="Interj">kiitos</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">пиванзы</l>
+
+      <stg>
+        <st Contlex="INTERJ_">пиванзы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Interj"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">kauheaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">пыль</l>
+
+      <stg>
+        <st Contlex="INTERJ_">пыль</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">loiskis</t>
+
+        <t pos="Interj">molskis</t>
       </tg>
     </mg>
   </e>
@@ -842,6 +982,30 @@
         <t pos="Interj">ai</t>
 
         <t pos="Interj">ah</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">яӈэ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">яӈэ</st>
+
+        <st Contlex="INTERJ_">яӈэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>ouch!</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">ai!</t>
       </tg>
     </mg>
   </e>
