@@ -222,6 +222,54 @@
 
   <e>
     <lg>
+      <l pos="Prop">Баркулёв</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Баркулёв</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Barkuljov</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Бармич</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Бармич</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Barmich</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Белузей</l>
 
       <stg>
@@ -366,6 +414,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Валеев</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Валеев</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Valejev</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Валентина</l>
 
       <stg>
@@ -456,6 +528,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Vara (nenetsiheimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Варка</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Варка</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Varka (naisennimi)</t>
       </tg>
     </mg>
   </e>
@@ -584,10 +680,10 @@
 
   <e>
     <lg>
-      <l pos="Prop">Вэӈга</l>
+      <l pos="Prop">Вэнга</l>
 
       <stg>
-        <st Contlex="PROP_МАРАӇГЫ">Вэӈга</st>
+        <st Contlex="PROP_МАРАӇГЫ">Вэнга</st>
       </stg>
 
       <stress/>
@@ -602,6 +698,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Venga (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Вэнокан</l>
+
+      <stg>
+        <st Contlex="PROP_ХАНО">Вэнокан</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Venokan (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>
@@ -680,6 +800,102 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ебцота</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ">Ебцота</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jebtsota</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Еване</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Еване</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jevanje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Евдения</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ">Евдения</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jevdenija</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Евдя</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ">Евдя</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jevdja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Европа</l>
 
       <stg>
@@ -698,6 +914,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Eurooppa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Евэй</l>
+
+      <stg>
+        <st Contlex="PROP_ХУСУВЭЙ">Евэй</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jevei (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>
@@ -728,6 +968,56 @@
 
   <e>
     <lg>
+      <l pos="Prop">Едэйне</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Едэйне</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jedeinje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Еля</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ">Еля</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jelja</t>
+
+        <t pos="Prop">Jelena</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ензяʼ</l>
 
       <stg>
@@ -744,6 +1034,32 @@
 
       <tg xml:lang="fin">
         <td pos="Prop">osa paikannimistä (Jenisei, Kondinsk jm)</td>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ервко</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Ервко</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jervko (miehennimi)</t>
+
+        <t pos="Prop">Jervko (jumala)</t>
       </tg>
     </mg>
   </e>
@@ -1610,6 +1926,28 @@
 
   <e>
     <lg>
+      <l pos="Prop">Нембёй</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Нембёй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Njembjoi (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Неняӈг</l>
 
       <stg>
@@ -2182,6 +2520,8 @@
 
       <stg>
         <st Contlex="PROP_ЕД">Саляʼ харад</st>
+
+        <st Contlex="PROP_ЕД">Саляӈгарад</st>
       </stg>
 
       <stress/>
@@ -2364,6 +2704,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Satanje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Секо</l>
+
+      <stg>
+        <st Contlex="PROP_ӇАНУ">Секо</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Sjeko (miehennimi)</t>
       </tg>
     </mg>
   </e>
@@ -3588,6 +3952,50 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Kolgujev</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хордэта</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Хордэта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Hordeta (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Хунинда</l>
+
+      <stg>
+        <st Contlex="PROP_ӇУДИ ">Хунинда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Honjinda (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>

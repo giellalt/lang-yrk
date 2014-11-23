@@ -6,6 +6,24 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="A">августхы</l>
+
+      <stg>
+        <st Contlex=" A_ПАНЫ">августхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">elokuinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">автономной</l>
 
       <stg>
@@ -18,6 +36,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">autonominen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">алюминиевой</l>
+
+      <stg>
+        <st Contlex="A_ЕД">алюминиевой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">alumiininen</t>
       </tg>
     </mg>
   </e>
@@ -58,6 +94,24 @@
         <t pos="A">englannin</t>
 
         <t pos="A">englantilainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">апрельхы</l>
+
+      <stg>
+        <st Contlex=" A_ПАНЫ">апрельхы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">huhtikuinen</t>
       </tg>
     </mg>
   </e>
@@ -8814,6 +8868,24 @@
 
   <e>
     <lg>
+      <l pos="A">оранжевой</l>
+
+      <stg>
+        <st Contlex="A_ЕД">оранжевой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">oranssi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">паˮмя</l>
 
       <stg>
@@ -15354,6 +15426,8 @@
 
       <stg>
         <st Contlex="A_ЕД">тосруй</st>
+
+        <st Contlex="A_ЕД">тосруд</st>
       </stg>
     </lg>
 
@@ -19440,6 +19514,8 @@
 
       <stg>
         <st Contlex="A_ПАНЫ">ямгы</st>
+
+        <st Contlex="A_ПАНЫ">явхы</st>
       </stg>
     </lg>
 
