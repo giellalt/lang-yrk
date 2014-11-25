@@ -178,6 +178,24 @@
 
   <e>
     <lg>
+      <l pos="A">вадеко</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">вадеко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">vasen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">вадисей</l>
 
       <stg>
@@ -10296,6 +10314,24 @@
 
   <e>
     <lg>
+      <l pos="A">политической</l>
+
+      <stg>
+        <st Contlex="A_ЕД">политической</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">poliittinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">пондэй</l>
 
       <stg>
@@ -10890,6 +10926,26 @@
 
   <e>
     <lg>
+      <l pos="A">пурˮ</l>
+
+      <stg>
+        <st Contlex="A_МЯДО">пур</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">usvainen</t>
+
+        <t pos="A">sumuinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">пуро</l>
 
       <stg>
@@ -11092,6 +11148,26 @@
         <t pos="A">ratkonut</t>
 
         <t pos="A">ompelusta purkautunut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">пыдикабтˮ</l>
+
+      <stg>
+        <st Contlex="A_МЯДО">пыдикабт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kaltainen</t>
+
+        <t pos="A">näköinen</t>
       </tg>
     </mg>
   </e>
@@ -11690,6 +11766,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">tappelunhaluinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">районной</l>
+
+      <stg>
+        <st Contlex="A_ЕД">районной</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">alueellinen</t>
       </tg>
     </mg>
   </e>
@@ -12994,6 +13088,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">umpeenkasvanut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">спортивной</l>
+
+      <stg>
+        <st Contlex="A_ЕД">спортивной</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">urheilu-</t>
       </tg>
     </mg>
   </e>
@@ -16468,6 +16580,138 @@
 
   <e>
     <lg>
+      <l pos="A">фашистской</l>
+
+      <stg>
+        <st Contlex="A_ЕД">фашистской</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">fasistinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">федеративной</l>
+
+      <stg>
+        <st Contlex="A_ЕД">федеративной</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">föderatiivinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">физической</l>
+
+      <stg>
+        <st Contlex="A_ЕД">физической</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">fyysinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">финансовой</l>
+
+      <stg>
+        <st Contlex="A_ЕД">финансовой</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">finanssi-</t>
+
+        <t pos="A">rahallinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">финской</l>
+
+      <stg>
+        <st Contlex="A_ЕД">финской</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">suomalainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хаˮмбэй</l>
 
       <stg>
@@ -18802,6 +19046,90 @@
 
   <e>
     <lg>
+      <l pos="A">центральной</l>
+
+      <stg>
+        <st Contlex="A_ЕД">центральной</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">keskus-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">экономической</l>
+
+      <stg>
+        <st Contlex="A_ЕД">экономической</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">taloudellinen</t>
+
+        <t pos="A">talous-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">экспортной</l>
+
+      <stg>
+        <st Contlex="A_ЕД">экспортной</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">vienti-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">электрической</l>
+
+      <stg>
+        <st Contlex="A_ЕД">электрической</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">sähköinen</t>
+
+        <t pos="A">sähkö-</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">эстонской</l>
 
       <stg>
@@ -18930,6 +19258,24 @@
 
       <tg xml:lang="fin">
         <t pos="A">unohdettu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">юрлик</l>
+
+      <stg>
+        <st Contlex="A_ЕД">юрлик</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">unohtavainen</t>
       </tg>
     </mg>
   </e>
@@ -20100,6 +20446,8 @@
 
       <stg>
         <st Contlex="A_ЕД">ёˮотик</st>
+
+        <st Contlex="A_ЕД">ётик</st>
       </stg>
     </lg>
 
@@ -21732,6 +22080,26 @@
         <t pos="A">entinen</t>
 
         <t pos="A">edellinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ӈэвари</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">ӈэвари</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">isopäinen</t>
+
+        <t pos="A">kakara</t>
       </tg>
     </mg>
   </e>
