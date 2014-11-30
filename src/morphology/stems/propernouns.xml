@@ -4050,6 +4050,50 @@
 
   <e>
     <lg>
+      <l pos="Prop">Хорэля</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ ">Хорэля</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Horelja (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Худяʼ</l>
+
+      <stg>
+        <st Contlex="PROP_ВЫӇО">Худя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Hudja (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Хунинда</l>
 
       <stg>
@@ -4421,7 +4465,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Prop">Jamal</t>
+        <t pos="Prop">Jamal (niemimaa)</t>
+
+        <t pos="Prop">Jamal (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>
@@ -4470,6 +4516,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Jar (nenetsien heimo)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Яреӈг</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Яреӈг</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jarjeng (miehennimi)</t>
       </tg>
     </mg>
   </e>
