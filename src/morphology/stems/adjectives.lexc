@@ -71,6 +71,7 @@ LEXICON adjectives
 вэцяк:вэцяк A_ЕД  "rikkinäisellä kärjellä" ;
 вэясавэй:вэясавэй A_ХУСУВЭЙ  "verinen" ;
 гражданской:гражданской A_ЕД  "kansalais-" ;
+демократической:демократической A_ЕД  "demokraattinen" ;
 еˮэйсяда:еˮэйсяда A_ӇУДИ  "osaton" ;
 евалтёй:евалтёй A_ЕД  "epäjärjestyksessä oleva" ;
 евалцёй:евалцёй A_ЕД  "sekainen" ;
@@ -822,6 +823,7 @@ LEXICON adjectives
 торанэй:торанэй A_ХУСУВЭЙ  "lyhytkarvainen" ;
 торик:торик A_ЕД  "matala" ;
 торомбэй:торомбэй A_ХУСУВЭЙ  "tottunut" ;
+тос:тос A_ЕД  "taitava" ;
 тосавэй:тосавэй A_ХУСУВЭЙ  "siivekäs" ;
 тосруй:тосруй A_ЕД  "herkkä" ;
 тосруй:тосруд A_ЕД  "herkkä" ;
@@ -838,8 +840,8 @@ LEXICON adjectives
 тыбрик:тыбрик A_ЕД  "etujalalla potkiva" ;
 тыналпэй:тыналпэй A_ХУСУВЭЙ  "kippura-" ;
 тынарпэй:тынарпэй A_ХУСУВЭЙ  "ryppyinen" ;
+тынарцавэй:тынарцавэй A_ХУСУВЭЙ  "ryppyinen" ;
 тынха:тынха A_МАРАӇГЫ  "tylsä" ;
-тынырцавэй:тынырцавэй A_ХУСУВЭЙ  "ryppyinen" ;
 тырабэй:тырабэй A_ХУСУВЭЙ  "kuiva" ;
 тырцорпэй:тырцорпэй A_ХУСУВЭЙ  "pörröinen" ;
 тыя:тыя A_ПИСЬ  "kapea" ;
@@ -975,6 +977,7 @@ LEXICON adjectives
 хувы:хувы A_ПАНЫ  "aamuinen" ;
 хумбахэй:хумбахэй A_ЕД/ХУСУВЭЙ  "vähän kaareva" ;
 хуний:хуний A_ЕД  "eilinen" ;
+хуний:хуняӈы A_ПАНЫ  "eilinen" ;
 хурабэй:бэй A_ХУСУВЭЙ  "sidottu" ;
 хыˮмолпэй:хыˮмолпэй A_ХУСУВЭЙ  "kalpea" ;
 хыдорпэй:хыдорпэй A_ХУСУВЭЙ  "haalistunut" ;
@@ -994,6 +997,7 @@ LEXICON adjectives
 хэбэй:хэбэй A_ХУСУВЭЙ  "muuttunut" ;
 хэбяхасавэй:хэбяхасавэй A_ХУСУВЭЙ  "syntinen" ;
 хэвомбэй:хэвомбэй A_ХУСУВЭЙ  "verinen" ;
+хэвруд:хэвруд A_ЕД  "verinen" ;
 хэвхы:хэвхы A_ПАНЫ  "viereinen" ;
 хэдˮ:хэд A_МЯДО  "pahanilkinen" ;
 хэдембэй:хэдембэй A_ХУСУВЭЙ  "virttynyt" ;
@@ -1002,6 +1006,7 @@ LEXICON adjectives
 хэдёй:хэдёй A_ЕД  "paljas" ;
 хэмʼ:хэм A_ӇУВО  "lyhyt" ;
 хэмзавэй:хэмзавэй A_ХУСУВЭЙ  "verinen" ;
+хэнанди:хэнанди A_ӇЭ  "kurja" ;
 хэнсуй:хэнсуй A_ЕД  "resuinen" ;
 хэхэбэй:хэхэбэй A_ХУСУВЭЙ  "" ;
 хэхэдавдавэй:хэхэдавдавэй A_ХУСУВЭЙ  "kastamaton" ;
@@ -1025,7 +1030,7 @@ LEXICON adjectives
 ютбэй:ютбэй A_ХУСУВЭЙ  "hakattu" ;
 ябеня:ябеня A_ӇОДИ  "humalainen" ;
 ябсавэй:ябсавэй A_ХУСУВЭЙ  "onnekas" ;
-ябта:ябта A_ӇУДИ  "kapea" ;
+ябта:ябта A_ӇУДИ/ХОБ  "kapea" ;
 ябтабэй:ябтабэй A_ХУСУВЭЙ  "sulkinut" ;
 ябтабэй:ябтабэй A_ХУСУВЭЙ  "nihkeä" ;
 ябти:ябти A_ӇЭ  "kova" ;
@@ -1045,13 +1050,16 @@ LEXICON adjectives
 ялмахэй:ялмахэй A_ХУСУВЭЙ  "vaalentunut" ;
 ялморпэй:ялморпэй A_ХУСУВЭЙ  "virttynyt" ;
 ямб:ямб A_ЕД  "pitkä" ;
+ямбˮя:ямбˮя N_ПИСЬ  "hyvin pitkä" ;
 ямбак:ямбак A_ЕД  "hiljainen" ;
 ямбалюй:ямбалюй A_ЕД  "pitkänpuoleinen" ;
+ямбтэй:ямбтэй A_ХУСУВЭЙ  "pitkä" ;
 ямгы:ямгы A_ПАНЫ  "merellinen" ;
 ямгы:явхы A_ПАНЫ  "merellinen" ;
 ямдсавэй:ямдсавэй A_ХУСУВЭЙ  "havu-" ;
 ямидхы:ямидхы A_ПАНЫ  "muinainen" ;
 яна:яна A_ӇУДИ  "rauhallinen" ;
+яна:яна A_ӇУДИ  "vähän kyyryselkäinen" ;
 яндана:яндана A_ӇУДИ  "autio" ;
 яник:яник A_ЕД  "rauhallinen" ;
 яникако:яникако A_ӇАНУ  "rauhallinen" ;
@@ -1066,6 +1074,7 @@ LEXICON adjectives
 ярев:ярев A_ЕД  "puoli" ;
 ярев:яряв A_ЕД  "puoli" ;
 яреӈг:яреӈг A_ЕД  "terävä" ;
+ярняӈгы:ярняӈгы A_ПАНЫ  "sivullinen" ;
 яромбэй:яромбэй A_ХУСУВЭЙ  "kestävä" ;
 яротэй:яротэй A_ХУСУВЭЙ  "mustavalkoraidallinen" ;
 яртараха:яртараха A_МАРАӇГЫ  "surunvoittoinen" ;
@@ -1074,6 +1083,7 @@ LEXICON adjectives
 ярёй:ярёй A_ЕД  "tuulensuojainen" ;
 яюлик:яюлик A_ЕД  "riitaisa" ;
 яӈгэй:яӈгэй A_ЕД  "silmäpuoli" ;
+яӈгэла:яӈгэла A_ӇУДИ  "laulava" ;
 яӈгэхэй:яӈгэхэй A_ЕД/ХУСУВЭЙ  "avattu" ;
 яӈоˮляӈг:яӈоˮляӈг A_ЕД  "monijakoinen" ;
 яӈуй:яӈуй A_ЕД  "ylimääräinen" ;
