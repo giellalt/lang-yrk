@@ -194167,37 +194167,11 @@
       <l pos="V" val="IV">яˮавкабтёсь</l>
 
       <stg>
-        <st Contlex="IV_ЯˮАВЛУ">яˮавкабтa</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V">olla raisu</t>
-
-        <t pos="V">olla ravakka</t>
-
-        <t pos="V">olla rohkea</t>
-
-        <t pos="V">olla ankara</t>
-
-        <t pos="V">olla synkkä</t>
-
-        <t pos="V">olla kaamea</t>
-
-        <t pos="V">olla kamala</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">яˮавкабтёсь</l>
-
-      <stg>
         <st Contlex="IV_ВАДЮ">яˮавкабтё</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">яˮавкабта</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">явкабта</st>
       </stg>
     </lg>
 
@@ -194228,6 +194202,8 @@
 
       <stg>
         <st Contlex="IV_ЯˮАВЛУ">яˮавла</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">явла</st>
       </stg>
     </lg>
 
@@ -194248,6 +194224,8 @@
 
       <stg>
         <st Contlex="IV_ХАДАБАСЬ">яˮавлахамба</st>
+
+        <st Contlex="IV_ХАДАБАСЬ">явлахамба</st>
       </stg>
     </lg>
 
@@ -194268,6 +194246,8 @@
 
       <stg>
         <st Contlex="TV_ӇЭДАРА">яˮавлахамда</st>
+
+        <st Contlex="TV_ӇЭДАРА">явлахамда</st>
       </stg>
     </lg>
 
@@ -194286,6 +194266,8 @@
 
       <stg>
         <st Contlex="IV_ӇАРАМ">яˮавлахам</st>
+
+        <st Contlex="IV_ӇАРАМ">явлахам</st>
       </stg>
     </lg>
 
@@ -194468,6 +194450,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">ябадамба</st>
+
+        <st Contlex="TV_ПЭБЮ">ябэдамба</st>
       </stg>
     </lg>
 
@@ -194696,23 +194680,7 @@
 
       <stg>
         <st Contlex="TV_ТИР">ябелер</st>
-      </stg>
-    </lg>
 
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="TV">juottaa juovuksiin</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">ябелерць</l>
-
-      <stg>
         <st Contlex="TV_ТИР">ябилер</st>
       </stg>
     </lg>
@@ -197898,7 +197866,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ялась</l>
+      <l hid="Hom1" pos="V" val="TV">ялась</l>
 
       <stg>
         <st Contlex="TV_НАМДА">яла</st>
@@ -197916,7 +197884,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ялась</l>
+      <l hid="Hom2" pos="V" val="TV">ялась</l>
 
       <stg>
         <st Contlex="TV_НАМДА">яла</st>
@@ -197954,7 +197922,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ялаць</l>
+      <l hid="Hom1" pos="V" val="TV">ялаць</l>
 
       <stg>
         <st Contlex="TV_САС">яла</st>
@@ -197972,7 +197940,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ялаць</l>
+      <l hid="Hom2" pos="V" val="TV">ялаць</l>
 
       <stg>
         <st Contlex="TV_САС">яла</st>
@@ -197984,6 +197952,24 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="TV">taikoa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l hid="Hom3" pos="V" val="TV">ялаць</l>
+
+      <stg>
+        <st Contlex="TV_САС">яла</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="TV">valmistaa nahkaa</t>
       </tg>
     </mg>
   </e>
@@ -198068,7 +198054,7 @@
 
   <e>
     <lg>
-      <l pos="V" type="IV">ялиберць</l>
+      <l hid="Hom1" pos="V" type="IV">ялиберць</l>
 
       <stg>
         <st Contlex="IV_ТИР">ялибер</st>
@@ -198082,6 +198068,26 @@
         <t pos="V" type="IV">jylistä</t>
 
         <t pos="V" type="IV">jymistä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l hid="Hom2" pos="V" type="IV">ялиберць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">ялибер</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" type="IV">kiilua</t>
+
+        <t pos="V" type="IV">hohtaa</t>
       </tg>
     </mg>
   </e>
@@ -198339,7 +198345,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="IV">ilmestyä (valonpilkahdusesta)</t>
+        <t pos="V" type="IV">ilmestyä (valonpilkahduksesta)</t>
 
         <t pos="V" type="IV">pilkottaa</t>
       </tg>
@@ -198450,7 +198456,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">ялнась</l>
+      <l hid="Hom1" pos="V" val="IV">ялнась</l>
 
       <stg>
         <st Contlex="IV_НАМДА">ялна</st>
@@ -198470,7 +198476,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">ялнась</l>
+      <l hid="Hom2" pos="V" val="IV">ялнась</l>
 
       <stg>
         <st Contlex="IV_НАМДА">ялна</st>
@@ -198488,7 +198494,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">ялнорць</l>
+      <l hid="Hom1" pos="V" val="IV">ялнорць</l>
 
       <stg>
         <st Contlex="IV_ТИР">ялнор</st>
@@ -198500,7 +198506,23 @@
 
       <tg xml:lang="fin">
         <t pos="V">olla mustasukkainen</t>
+      </tg>
+    </mg>
+  </e>
 
+  <e>
+    <lg>
+      <l hid="Hom2" pos="V" val="IV">ялнорць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">ялнор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
         <t pos="V">lähettää epäonnea (šamaanista)</t>
       </tg>
     </mg>
@@ -198562,7 +198584,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">ялуворць</l>
+      <l hid="Hom1" pos="V" val="IV">ялуворць</l>
 
       <stg>
         <st Contlex="IV_ТИР">ялувор</st>
@@ -198578,6 +198600,24 @@
         <t pos="V">koittaa</t>
 
         <t pos="V">valaistautua</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l hid="Hom2" pos="V" val="IV">ялуворць</l>
+
+      <stg>
+        <st Contlex="IV_ТИР">ялувор</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">hävetä</t>
 
         <t pos="V">ujostella</t>
       </tg>
@@ -203276,6 +203316,8 @@
 
       <stg>
         <st Contlex="IV_ӇАРАМ">яӈом</st>
+
+        <st Contlex="IV_ӇАРАМ">явом</st>
       </stg>
     </lg>
 
@@ -203312,6 +203354,8 @@
 
       <stg>
         <st Contlex="TV_ПЭБЮ">яӈопа</st>
+
+        <st Contlex="TV_ПЭБЮ">явопа</st>
       </stg>
     </lg>
 

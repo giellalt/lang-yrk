@@ -8540,6 +8540,8 @@
 
       <stg>
         <st Contlex="ADV-MANNER_">ябтийвана</st>
+
+        <st Contlex="ADV-MANNER_">ябтивана</st>
       </stg>
     </lg>
 
@@ -8556,6 +8558,28 @@
         <t pos="Adv">kovasti</t>
 
         <t pos="Adv">jyrkästi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ябтёйвана</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ябтёйвана</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kosteasti</t>
       </tg>
     </mg>
   </e>
@@ -8580,6 +8604,54 @@
         <t pos="Adv">jalan</t>
 
         <t pos="Adv">kävelemällä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">ядабтё</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">ядабтё</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">vinosti</t>
+
+        <t pos="Adv">vastaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">яднзерʼ</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">яднзерʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">luisua pitkin</t>
+
+        <t pos="Adv">vastaan</t>
       </tg>
     </mg>
   </e>
@@ -8718,6 +8790,10 @@
 
       <stg>
         <st Contlex="ADV-TEMP_">ялэˮ</st>
+
+        <st Contlex="ADV-TEMP_">ялэхэˮ</st>
+
+        <st Contlex="ADV-TEMP_">ялэˮмана</st>
       </stg>
     </lg>
 
@@ -8732,6 +8808,28 @@
         <t pos="Adv">päivittäin</t>
 
         <t pos="Adv">joka päivä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">яляʼ</l>
+
+      <stg>
+        <st Contlex="ADV-TEMP_">яляʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">päivällä</t>
       </tg>
     </mg>
   </e>
