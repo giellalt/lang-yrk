@@ -44,6 +44,10 @@ LEXICON A_ӇУДИ  !!≈ * __@CODE@__ ӈуда: 15 !!ProsSg -вна
 +A: SGNOMSUF ;
 +A+Der/MWN: NMN_ӇУДИ ;
 
+LEXICON A_ӇУДИ/ХОБ
++A: SGNOMSUF ;
++A+Der/MWN: NMN_ӇУДИ/ХОБ ;
+
 LEXICON A_ӇОДИ  !!≈ * __@CODE@__ ӈодя: 17 !!ProsSg -вна
 +A: SGNOMSUF ;
 +A+Der/MWN: N_ӇОДИ ;
@@ -81,6 +85,12 @@ LEXICON A_ӇАНУ  !!≈ * __@CODE@__ ӈӑно: 23 !!ProsSg -вна
 +A: SGNOMSUF ;
 +A+Der/MWN: NMN_ӇАНУ ;
 
+LEXICON A_ЯКЫ  !!≈ * __@CODE@__ якэ: 24 ProsSg -вна
+! /total=4/
+! якэ yake     якэн’ yaken°h   якэˮ yakeq      якы yaki
++A: SGNOMSUF ;
++A+Der/MWN: NMN_ЯКЫ ;
+
 LEXICON A_ӇУВО  !!≈ * __@CODE@__ ӈумʼ:ӈум 25 !!ProsSg -(м)на
 !! ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
 +A:ʼ SGNOMSUF ;
@@ -91,6 +101,13 @@ LEXICON A_НЮБЕ-Pal/Var  !!≈ * __@CODE@__ нюмʼ:нюм 26
 !! нюм’ nyum    нюмд’ nyumt°h   нюв” nyuw°q     нюбе nyubye
 +A:ʼ SGNOMSUF ;
 +A+Der/MWN: NMN_НЮБЕ ;
+
+LEXICON A_ВЫӇО !!≈ * __@CODE@__ выʼ:вы 29  
+! ң /total=16/
+! вы’(ң) wíh    вы̄нд’ wínt°h   выˮ wí°q        выңо wíŋo
++A:ʼ SGNOMSUF ;
++A+Der/MWN: NMN_ВЫӇО ;
+
 
 LEXICON A_МЕРЁ !! Check this
 +A: SGNOMSUF ;
