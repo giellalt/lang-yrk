@@ -3003,6 +3003,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
+        <t pos="A">poljettu</t>
+
         <t pos="A">juntattu</t>
       </tg>
     </mg>
@@ -3021,7 +3023,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">poljettu</t>
+
+        <t pos="A">juntattu</t>
       </tg>
     </mg>
   </e>
@@ -18754,6 +18758,26 @@
 
   <e>
     <lg>
+      <l pos="A">хэˮмядярˮ</l>
+
+      <stg>
+        <st Contlex="A_ВАР">хэˮмядяр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">suostuvainen</t>
+
+        <t pos="A">myöntyväinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хэˮнё</l>
 
       <stg>
@@ -19134,6 +19158,24 @@
         <t pos="A">tottelematon</t>
 
         <t pos="A">kuriton</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хэцелˮ</l>
+
+      <stg>
+        <st Contlex="A_ВАР">хэцел</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kankea</t>
       </tg>
     </mg>
   </e>
