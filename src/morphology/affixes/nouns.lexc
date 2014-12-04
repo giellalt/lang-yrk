@@ -10,26 +10,28 @@ LEXICON N_ӇЭ  !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
 ! no change in stem
 ! ңэ ŋæ     ңэн’ ŋæn°h	ңэˮ ŋæq	ңэ ŋæ
 !! Yaml: __xo, ngaeTS__
-+N: NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
++N: NMN_ӇЭ ;
+LEXICON NMN_ӇЭ
+ NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 ! +Pl+Nom +Abs
 ! +Sg+Acc, +Sg+Gen, +Sg+Nom,
 ! +Nom+Der/Pr+V+Ind+Aor+ScSg3
 ! +Nom+Der/Pr+V+Ind+Aor+ScPl3
-+N: NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
-+N: NEW-AFF-2CENTERS-PRED-NOM_Дваˮ ;
-+N: NEW-AFF-3CENTERS-EQU_Дремʼ ;
-+N: NEW-AFF-2CENTERS-CLOSED-PRED-ACC/GEN_Дамда ;
-+N: NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дами ;
-+N: NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дми ;
+ NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
+ NEW-AFF-2CENTERS-PRED-NOM_Дваˮ ;
+ NEW-AFF-3CENTERS-EQU_Дремʼ ;
+ NEW-AFF-2CENTERS-CLOSED-PRED-ACC/GEN_Дамда ;
+ NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дами ;
+ NEW-ODD-SYLL-SGSCHWA-VARIANT-STEMS-PRED-ACC/GEN/NOM_дми ;
 ! +Pred+Acc+PxSg1+Use/SpellNoSugg, PxDu1, PxPl1
 ! +Pred+Gen+PxSg1+Use/SpellNoSugg, PxDu1, PxPl1
 ! +Pred+Nom+PxSg1+Use/SpellNoSugg, +PxSg3, PxDu. PxPl.
-+N: NEW-ODD-SYLL-DU-NOM_Каʼ ;
-+N: NEW-ODD-SYLL-SG-LOC_Кана ;
-+N: NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS ;
-+N: NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
-+N: NEW-SG-PROS_вна ;
-+N: NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
+ NEW-ODD-SYLL-DU-NOM_Каʼ ;
+ NEW-ODD-SYLL-SG-LOC_Кана ;
+ NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS ;
+ NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
+ NEW-SG-PROS_вна ;
+ NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 
 LEXICON N_ӇЭ-Pal/Var  !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
 ! no change in stem
@@ -221,14 +223,16 @@ LEXICON N_ХАНО  !!≈ * __@CODE@__ хӑн: 11P ProsSg -увна
 !! Yaml: __xano__
 ! /total=27/
 ! хӑн xən°	хӑнӑн’ xənən°h	хӑнˮ xən°q	хӑно xəno
-+N:° NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
-+N:° NEW-EVEN-SYLL-SGSCHWA-VARIANT-STEMS ;
-+N:° NEW-ODD-SYLL-DU-NOM_Каʼ ;
-+N:° NEW-EVEN-SYLL-SG-LOC_Кана ;
-+N:у NEW-SG-PROS_вна ;
-+N:° NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS ;
-+N:о NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
-+N:о NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
++N: NMN_ХАНО ;
+LEXICON NMN_ХАНО
+:° NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
+:° NEW-EVEN-SYLL-SGSCHWA-VARIANT-STEMS ;
+:° NEW-ODD-SYLL-DU-NOM_Каʼ ;
+:° NEW-EVEN-SYLL-SG-LOC_Кана ;
+:у NEW-SG-PROS_вна ;
+:° NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS ;
+:о NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
+:о NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
 
 LEXICON N_ХАНО-SG
@@ -1603,7 +1607,7 @@ LEXICON NMN_ТИРЕ/ХАНО
  PLACCSUF_Zero ; 
 
 
-LEXICON NMN_ӇЭ !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
+LEXICON NMN_ӇЭ-OLD !!≈ * __@CODE@__ ӈэ:ӈэ 1  ProsSg -вна
  PL-PROS-ALL ;
  PL-GEN-PXSG1 ;
   SGDATSUF ;
@@ -1678,7 +1682,7 @@ LEXICON NMN_ЕД/ХУСУВЭЙ
   PLNOMSUF ;
   PLACCSUF_Zero ; !
 
-LEXICON NMN_ХАНО !!= * @CODE@ 11 хан:хан
+LEXICON NMN_ХАНО-OLD !!= * @CODE@ 11 хан:хан
 	NMN_ХАНО-SG ;
 	NMN_ХАНО-PL ;
 LEXICON NMN_ХАНО-SG
