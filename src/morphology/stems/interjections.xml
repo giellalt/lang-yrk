@@ -784,6 +784,8 @@
 
       <stg>
         <st Contlex="INTERJ_">сь-сь</st>
+
+        <st Contlex="INTERJ_">ша-ша</st>
       </stg>
     </lg>
 
@@ -1002,6 +1004,50 @@
         <t pos="Interj">pst!</t>
 
         <t pos="Interj">hss!</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">хэʼ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">хэʼ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">ah!</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Interj">хэˮ</l>
+
+      <stg>
+        <st Contlex="INTERJ_">хэˮ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">voi!</t>
       </tg>
     </mg>
   </e>
