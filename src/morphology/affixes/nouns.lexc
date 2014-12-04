@@ -495,6 +495,9 @@ LEXICON N_ӇАНУ  !!≈ * __@CODE@__ ӈӑно: 23 ProsSg -вна
 LEXICON N_ЯКЫ  !!≈ * __@CODE@__ якэ: 24 ProsSg -вна
 ! /total=4/
 ! якэ yake     якэн’ yaken°h   якэˮ yakeq      якы yaki
+ NMN_ЯКЫ ;
+
+LEXICON NMN_ЯКЫ
 +N: NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 !EVEN
 +N: NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
@@ -598,6 +601,9 @@ LEXICON N_ПОЁ  !!≈ * __@CODE@__ поʼ:по 28  ProsSg -мна
 LEXICON N_ВЫӇО  !!≈ * __@CODE@__ выʼ:вы 29  ProsSg -мна /-мана
 ! ң /total=16/
 ! вы’(ң) wíh	вы̄нд’ wínt°h	выˮ wí°q	выңо wíŋo
+ NMN_ВЫӇО ;
+
+LEXICON NMN_ВЫӇО
 +N:Ӈ1 NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 !EVEN
 +N:Ӈ1 NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
@@ -1027,6 +1033,9 @@ LEXICON NMN_ХОБ  !!≈ * __@CODE@__ хоба:хоба 19 ProsSg -вна
 
 
 LEXICON N_ӇУДИ/ХОБ
+ NMN_ӇУДИ/ХОБ ;
+
+LEXICON NMN_ӇУДИ/ХОБ
 +N: SGDATSUF ;
 +N: SG-ACC-STEM ;
 +N:  SG-NOM-STEM ;
