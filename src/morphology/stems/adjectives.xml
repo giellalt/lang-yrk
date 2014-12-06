@@ -18704,6 +18704,26 @@
 
   <e>
     <lg>
+      <l pos="A">хыӈг</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">хыӈг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kovaääninen</t>
+
+        <t pos="A">äänekäs</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хыӈгарабэй</l>
 
       <stg>
@@ -18870,6 +18890,36 @@
 
   <e>
     <lg>
+      <l pos="A">хэвний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">хэвний</st>
+
+        <st Contlex="A_ПАНЫ">хэвняӈы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="A">sivuittainen</t>
+
+        <t pos="A">vieras</t>
+
+        <t pos="A">sivullinen</t>
+
+        <t pos="A">ulkopuolinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хэвомбэй</l>
 
       <stg>
@@ -18884,6 +18934,28 @@
         <t pos="A">verinen</t>
 
         <t pos="A">verellä peitetty</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хэвота</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">хэвота</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">verensekainen</t>
+
+        <t pos="A">punaposkinen</t>
+
+        <t pos="A">vereväkasvoinen</t>
       </tg>
     </mg>
   </e>
@@ -19176,6 +19248,50 @@
 
       <tg xml:lang="fin">
         <t pos="A">kankea</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хэӈг</l>
+
+      <stg>
+        <st Contlex="A_ХАНО">хэӈг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">tuulensuojainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хэӈгний</l>
+
+      <stg>
+        <st Contlex="A_ЕД">хэӈгний</st>
+
+        <st Contlex="A_ПАНЫ">хэӈгняӈы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="A"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Phrase_A">tuulelta ja sateelta suojattu</t>
+
+        <t pos="A">tuulensuojainen</t>
       </tg>
     </mg>
   </e>

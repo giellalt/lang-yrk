@@ -52916,6 +52916,8 @@
 
       <stg>
         <st Contlex="N_ӇУВО">хынум</st>
+
+        <st Contlex="N_ӇУВО">хэнум</st>
       </stg>
     </lg>
 
@@ -53132,9 +53134,11 @@
 
   <e>
     <lg>
-      <l pos="N">хэʼ</l>
+      <l pos="N">хэ</l>
 
       <stg>
+        <st Contlex="N_ӇЭ">хэ</st>
+
         <st Contlex="N_ВЫӇО">хэ</st>
       </stg>
     </lg>
@@ -53143,9 +53147,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">ukkosenjylinä</t>
+        <t pos="N">pyörre</t>
 
-        <t pos="N">ukkonen</t>
+        <t pos="N">pyörrevirta</t>
+
+        <t pos="N">kurimus</t>
       </tg>
     </mg>
   </e>
@@ -53163,11 +53169,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="N">pyörre</t>
+        <t pos="N">ukkosenjylinä</t>
 
-        <t pos="N">pyörrevirta</t>
-
-        <t pos="N">kurimus</t>
+        <t pos="N">ukkonen</t>
       </tg>
     </mg>
   </e>
@@ -53424,6 +53428,8 @@
         <t pos="N">lähtö</t>
 
         <t pos="N">poistuminen</t>
+
+        <t pos="N">muodostus</t>
       </tg>
     </mg>
   </e>
@@ -53824,6 +53830,30 @@
 
       <tg xml:lang="fin">
         <t pos="N">pyhä reki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">хэӈг</l>
+
+      <stg>
+        <st Contlex="N_ХАНО">хэӈг</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">suoja</t>
+
+        <t pos="N">sateensuoja</t>
       </tg>
     </mg>
   </e>
