@@ -1590,6 +1590,11 @@ LEXICON verbs
 иӈудоць:иӈудо IV_САС  "olla viisas" ;
 иӈуцяламзь:иӈуцялам IV_ӇАРАМ  "tulla käsityskyvyttömäksi" ;
 иӈуцясь:иӈуця IV_ЯˮАВЛУ  "olla käsityskyvytön" ;
+командуйбась:командуйба TV_ПЭБЮ  "komentaa" ;
+командуйӈгось:командуйӈго IV_СЯНАКУ  "komentaa" ;
+командуйӈгось:хомандуйӈго IV_СЯНАКУ  "komentaa" ;
+командуясь:командуя IV_ИЛЕ  "komentaa" ;
+командуясь:хомандуя IV_ИЛЕ  "komentaa" ;
 лаˮамдамбась:лаˮамдамба TV_ПЭБЮ  "sietää" ;
 лаˮамдась:лаˮамда TV_ӇЭДАРА  "sietää" ;
 лаˮамдась:лаˮмада TV_ӇЭДАРА  "sietää" ;
@@ -9891,7 +9896,9 @@ LEXICON verbs
 худырць:худыр IV_ТИР  "liehua" ;
 худёсь:худё IV_ВАДЮ  "kiirehtiä" ;
 хулдамбась:хулдамба TV_ХАДАБАСЬ  "hämmentää" ;
+хулдамбась:хуˮулдамба TV_ХАДАБАСЬ  "hämmentää" ;
 хулдась:хулда TV_ХАДА  "hämmentää" ;
+хулдась:хуˮулда TV_ХАДА  "hämmentää" ;
 хуленась:хулена IV_ӇЭДАРА  "olla kyömyinen" ;
 хулерць:хулер VR_ТИР  "tulla kyömyiseksi" ;
 хулкадарць:хулкадар IV_ТИР  "kulahtaa" ;
@@ -9973,7 +9980,8 @@ LEXICON verbs
 хурцкабтась:хурцкабта TV_ӇЭДАРА  "täyttää melulla" ;
 хурцкось:хурцко IV_СЯНАКУ  "ei kestää melua" ;
 хурыбась:хурыба TV_ХАДАБАСЬ  "hörppiä" ;
-хурёсь:хурё IV_ВАДЮ  "olla sidottu" ;
+хурёсь+Hom1:хурё IV_ВАДЮ  "olla sidottu" ;
+хурёсь+Hom2:хурё IV_ВАДЮ  "olla houkuteltu pois" ;
 хусарамбась:хусарамба TV_ПЭБЮ  "valitella" ;
 хусарась:хусара TV_ӇЭДАРА  "valittaa" ;
 хусаркось:хусарко IV_ӇЭСУ  "valittaa" ;
@@ -10063,6 +10071,7 @@ LEXICON verbs
 хыйрибтамбась:хыйрибтамба TV_ПЭБЮ  "parahtaa" ;
 хыйрибтась:хыйрибта TV_ӇЭДАРА  "kivahtaa" ;
 хылвабтамбась:хылвабтамба TV_ПЭБЮ  "panna liikkumaan" ;
+хылвабтамбась:хулвабтамба TV_ПЭБЮ  "panna liikkumaan" ;
 хылвабтась:хылвабта TV_ӇЭДАРА  "panna liikkumaan" ;
 хылвабтэсь:хылвабтэ VR_ИЛЕ  "alkaa notkesti liikkua" ;
 хылванась:хулвана IV_ИЛЕ  "kiemurrella" ;
