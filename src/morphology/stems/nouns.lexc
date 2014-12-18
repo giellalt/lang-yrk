@@ -413,6 +413,7 @@ LEXICON nouns
 картинка:картинка N_ӇЭ-RUS  "kuva" ;
 картинка:хартинка N_ӇЭ  "kuva" ;
 картофель:картофель N_ЕД-RUS  "peruna" ;
+картофель:хартопель N_ЕД  "peruna" ;
 касса:касса N_ӇЭ-RUS  "kassa" ;
 катер:катер N_ЕД-RUS  "moottorivene" ;
 катер:хатяр N_ВАР  "moottorivene" ;
@@ -2633,6 +2634,7 @@ LEXICON nouns
 хаˮаврабцьʼ:хаˮаврабць N_ЁЛЬЦЕ  "laskeusväline" ;
 хаˮам:хаˮам N_ЕД  "alamäki" ;
 хаˮамъиˮ:хаˮамьи N_МЯДО  "alamäki" ;
+хаˮамъиˮ:хамы N_МЯДО  "alamäki" ;
 хаˮй:хаˮй N_ЕД/ХАНО  "ampumataulu" ;
 хаˮма:хаˮма N_ӇУДИ  "paikka jossa paljon menehtyi" ;
 хаˮмаре:хаˮмаре N_САВНЕ  "huuhkaja" ;
@@ -2684,6 +2686,7 @@ LEXICON nouns
 хаебцод:хаебцод N_ЕД  "esine, jonka poislähtevän täytyy jättää paikalle jäävälle" ;
 хаепя:хаепя N_ӇОДИ  "korvakoru" ;
 хаерˮ:хаер N_ВАР/МЯДО  "aurinko" ;
+хаерˮ:хаяр N_ВАР/МЯДО  "aurinko" ;
 хаерабцо:хаерабцо N_ӇАНУ  "aurinkoinen paikka" ;
 хайпа:хайпа N_ӇУДИ  "tuulen kantama pehmeä lumi" ;
 хакця:хакця N_ӇОДИ  "pieni korva" ;
@@ -2699,7 +2702,11 @@ LEXICON nouns
 халтаˮма:халтаˮма N_ӇУДИ  "riekale" ;
 халтая:халтая N_ӇОДИ  "peseminen" ;
 халтаӈголава:халтаӈголава N_ӇУДИ  "sauna" ;
-халтаӈобцьʼ:халтаӈобць N_ЁЛЬЦЕ  "pesuastia" ;
+халтаӈгобцьʼ:халтаӈгобць N_ЁЛЬЦЕ  "pesuastia" ;
+халтаӈгобцьʼ:халтаӈгось N_ЁЛЬЦЕ  "pesuastia" ;
+халцо:халцо N_ӇАНУ  "mato" ;
+халцоˮлы:халцоˮлы N_ПАНЫ  "kaareke eturivin poron hihnassa jonka kautta vedetään hihnat" ;
+халцоˮлы:халцоˮлэ N_ЯКЫ  "kaareke eturivin poron hihnassa jonka kautta vedetään hihnat" ;
 халы:халы N_ӇЭ  "mato" ;
 хальмер:хальмер N_ЕД  "ruumis" ;
 халэʼ:халэ N_ВЫӇО  "valas" ;
@@ -2709,6 +2716,7 @@ LEXICON nouns
 халесь:холаць N_ЕД  "rinkilä" ;
 халэӈгад:халэӈгад N_ЕД  "koskelo" ;
 халя:халя N_ЯЛЭ  "kala" ;
+халямбэртя:халямбэртя N_ӇОДИ  "kalastaja" ;
 хама:хама N_ӇУДИ  "kutsu" ;
 хамадярˮ:хамадяр N_ВАР  "tarvike" ;
 хамба:хамба N_ХОБ  "aalto" ;
@@ -2722,12 +2730,15 @@ LEXICON nouns
 хамдабабцьʼ:хамдабабць N_ЁЛЬЦЕ  "suppilo" ;
 хамдорцьʼ:хамдорць N_ЁЛЬЦЕ  "pieni marjankeruuastia" ;
 хамдь:хамдь N_ЕД  "jyrkänne" ;
+хамдяʼ:хамдя N_ВЫӇО  "orja" ;
 хамзава:хамзава N_ӇУДИ  "kova halu" ;
 хамзедё:хамзедё N_МЕРЁ  "jylinä" ;
 хамзёдэй:хамзёдэй N_ХУСУВЭЙ  "paikka joessa, jossa kalat muuttavat toiseen virtaan" ;
 хампетка:хампетка N_МАРАӇГЫ  "karkki" ;
 хамэдиˮ:хамэди N_МЯДО  "ymmärrettävyys" ;
-хан:хан N_ХАНО  "reki" ;
+хан+Hom1:хан N_ХАНО  "reki" ;
+хан+Hom2:хан N_ХАНО  "veriuhri" ;
+ханабцо:ханабцо N_ӇАНУ  "lainaksi pyydettävä esine" ;
 ханабцод:ханабцод N_ЕД  "vietäväksi tai annettavaksi tarkoitettu esine" ;
 ханавэй:ханавэй N_ХУСУВЭЙ  "haukka" ;
 ханако:ханако N_ӇАНУ  "kelkka" ;
@@ -2765,6 +2776,9 @@ LEXICON nouns
 ханёй:ханёй N_ЕД  "menestyksekäs metsästäjä" ;
 хар:хар N_ЕД/ХАНО  "veitsi" ;
 хара:хара N_ӇУДИ  "kaarre" ;
+харабля:харабля N_ӇОДИ  "laiva" ;
+харабля:хорабля N_ӇОДИ  "laiva" ;
+харабля:корабль N_ЕД-RUS  "laiva" ;
 харавать:харавать N_ЕД  "sänky" ;
 харавать:кровать N_ЕД-RUS  "sänky" ;
 харад:хард N_ЕД  "kylä" ;
@@ -2788,6 +2802,7 @@ LEXICON nouns
 харнерˮ:харнер N_ВАР  "vääntymä" ;
 харнипаӈг:харнипаӈг N_ХАНО  "kanerva" ;
 харп:харп N_ХАНО  "revontulet" ;
+харсак:харсак N_ЕД  "porontarha" ;
 харта:харта N_ӇУДИ  "kartta" ;
 хартоска:хартоска N_МАРАӇГЫ  "peruna" ;
 хартоска:картошка N_МАРАӇГЫ-RUS  "peruna" ;
@@ -2817,6 +2832,7 @@ LEXICON nouns
 хатарˮ:хатар N_ВАР  "valkoinen poro jolla on paljon mustia karvoja" ;
 хато:хато N_ӇАНУ  "matala paikka isossa vesistössä" ;
 хаце:хаце N_САВНЕ  "häkä" ;
+хацелˮ:хацел N_ВАР  "noki" ;
 хаял:хаял N_ЕД  "kyynel" ;
 хаёбцод:хаёбцод N_ЕД  "se, jolla jäädään" ;
 хаёбцьʼ:хаёбць N_ЁЛЬЦЕ  "jäähyväismuisti" ;
@@ -2864,8 +2880,6 @@ LEXICON nouns
 хор+Hom2:хор N_ЕД-RUS  "kuoro" ;
 хорˮ:хор N_ВАР  "tynnyri" ;
 хора:хора N_ХОБ  "uros" ;
-хорабля:хорабля N_ӇОДИ  "laiva" ;
-хорабля:корабль N_ЕД-RUS  "laiva" ;
 хорака:хорака N_МАРАӇГЫ  "kurkku" ;
 хорако:хорако N_ӇАНУ  "ämpäri" ;
 хорацица:хорацица N_ӇУДИ  "sinappi" ;
