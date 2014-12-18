@@ -17296,6 +17296,24 @@
 
   <e>
     <lg>
+      <l pos="A">халву</l>
+
+      <stg>
+        <st Contlex="A_ӇЭ">халву</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kärttyinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">халей</l>
 
       <stg>
@@ -17344,54 +17362,12 @@
 
   <e>
     <lg>
-      <l pos="A">халкэдюй</l>
-
-      <stg>
-        <st Contlex="A_ЕД">халкэдюй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">pidentynyt</t>
-
-        <t pos="A">pitkä</t>
-
-        <t pos="A">pitkänomainen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">халкэдёй</l>
-
-      <stg>
-        <st Contlex="A_ЕД">халкэдюй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">pidentynyt</t>
-
-        <t pos="A">pitkä</t>
-
-        <t pos="A">pitkänomainen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="A">халкэдёй</l>
 
       <stg>
         <st Contlex="A_ЕД">халкэдёй</st>
+
+        <st Contlex="A_ЕД">халкэдюй</st>
       </stg>
     </lg>
 
@@ -17800,6 +17776,26 @@
 
   <e>
     <lg>
+      <l pos="A">хара</l>
+
+      <stg>
+        <st Contlex="A_ӇУДИ">хара</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">käyrä</t>
+
+        <t pos="A">kaareva</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хараляӈг</l>
 
       <stg>
@@ -18064,6 +18060,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">vetelevä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хаӈэˮ</l>
+
+      <stg>
+        <st Contlex="A_МЯДО">хаӈэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">mielevä</t>
+
+        <t pos="A">järkevä</t>
       </tg>
     </mg>
   </e>
@@ -18516,6 +18532,8 @@
 
       <stg>
         <st Contlex="A_ЕД/ХУСУВЭЙ">хумбахэй</st>
+
+        <st Contlex="A_ЕД/ХУСУВЭЙ">хамбахэй</st>
       </stg>
     </lg>
 

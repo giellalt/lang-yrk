@@ -946,6 +946,30 @@
 
   <e>
     <lg>
+      <l pos="Pron">ханямна</l>
+
+      <stg>
+        <st Contlex="PRON-INTERR_-CXPROS">ханямна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Pron"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">mitä kautta</t>
+      </tg>
+    </mg>
+
+    <!--  -->
+  </e>
+
+  <e>
+    <lg>
       <l pos="Pron">ханяӈы</l>
 
       <stg>
@@ -966,6 +990,28 @@
     </mg>
 
     <!--  -->
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">ханяӈэхэрт</l>
+
+      <stg>
+        <st Contlex="PRON_ЕД">ханяӈэхэрт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Pron">no one</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">ei yksikään</t>
+      </tg>
+    </mg>
   </e>
 
   <e>

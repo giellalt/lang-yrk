@@ -1184,6 +1184,32 @@
 
   <e>
     <lg>
+      <l pos="Prop">Канюков</l>
+
+      <stg>
+        <st Contlex="PROP_ЕД">Канюков</st>
+
+        <st Contlex="PROP_ЕД">Хаников</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Kanjukov</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Карелия</l>
 
       <stg>
@@ -3922,6 +3948,32 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Hadnje (naisennimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Халя</l>
+
+      <stg>
+        <st Contlex="PROP_ӇОДИ">Халя</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Halja (naisennimi)</t>
+
+        <t pos="Prop">Galina</t>
       </tg>
     </mg>
   </e>
