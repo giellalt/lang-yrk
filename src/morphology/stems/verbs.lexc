@@ -9087,14 +9087,17 @@ LEXICON verbs
 хадалоць:хадало TV_САС  "rasvata" ;
 хадамбась:хадамба IV_ХАДАБАСЬ  "olla isoäiti" ;
 хадамбась:хадамба IV_ХАДАБАСЬ  "tuntea epämiellyttävää makua rasvaisen ruoan jälkeen" ;
-хадамзь:хадам IV_ӇАРАМ  "tulla isoäidiksi" ;
-хадарабтабась:хадарабтаба TV_ХАДАБАСЬ  "turmella" ;
+хадамзь+Hom1:хадам IV_ӇАРАМ  "tulla isoäidiksi" ;
+хадамзь+Hom2:хадам IV_ӇАРАМ  "tuntea huonoa makua liian rasvaisen ruuan syömisen jälkeen" ;
+хадарабтамбась:хадарабтамба TV_ХАДАБАСЬ  "turmella" ;
+хадарабтамбась:хадарабтаба TV_ХАДАБАСЬ  "turmella" ;
 хадарабтась:хадарабта TV_ХАДА  "antaa tappaa" ;
 хадарась:хадара VR_ӇЭДАРА  "tulla tapetuksi" ;
 хадараӈгась:хадараӈга IV_НАМДА  "hävitä" ;
 хадась:хада TV_ХАДА  "tappaa" ;
 хадахаˮлась:хадахаˮла IV_ЯˮАВЛУ  "olla vanha" ;
 хадахалась:хадахала IV_ЯˮАВЛУ  "olla kytketty" ;
+хадахалась:хадала IV_ЯˮАВЛУ  "olla kytketty" ;
 хадахалась:хадахала TV_ХАДА  "koukata vaivoin" ;
 хадахалась:хадахала VR_ХАДА  "tarttua" ;
 хадахалбюрць:хадахалбюр TV_ТИР  "ripustaa" ;
@@ -9394,8 +9397,8 @@ LEXICON verbs
 ханзторць:ханзтор IV_ТИР  "katsella" ;
 ханзуворць:ханзувор IV_ТИР  "viiletä" ;
 ханзумдамбась:ханзумдамба TV_ПЭБЮ  "jäähdyttää" ;
-ханзумданась:ханзумда IV_ЛАХАНА  "viiletä" ;
 ханзумданась:ханзумдана IV_НАМДА  "viiletä" ;
+ханзумданась:ханзумда IV_ЛАХАНА  "viiletä" ;
 ханзумдась:ханзумда TV_ӇЭДАРА  "jäähdyttää" ;
 ханзумзь:ханзум IV_ӇАРАМ  "viileytyä" ;
 ханзуяць:ханзуя TV_САС  "käyttää korvikkeena" ;
@@ -9647,6 +9650,8 @@ LEXICON verbs
 хаёˮлась:хаёˮла TV_ӇЭДАРА  "liitää" ;
 хаёˮлась:хаёˮла TV_ӇЭДАРА  "sivuuttaa" ;
 хаёˮлась:хаёˮла TV_ӇЭДАРА  "siristellä" ;
+хаёданась:хаёдана IV_НАМДА  "jäädä jälkeen" ;
+хаёданась:хаёда IV_ЛАХАНА  "jäädä jälkeen" ;
 хаёсь:хаё IV_ӇЭСУ  "jäädä" ;
 хаӈабтэсь:хаӈабтэ VR_ИЛЕ  "leimahtaa isolla liekilla" ;
 хаӈаворць:хаӈавор IV_ТИР  "syttyä" ;
