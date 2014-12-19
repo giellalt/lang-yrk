@@ -173765,7 +173765,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">хадамзь</l>
+      <l hid="Hom1" pos="V" val="IV">хадамзь</l>
 
       <stg>
         <st Contlex="IV_ӇАРАМ">хадам</st>
@@ -173783,9 +173783,30 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">хадарабтабась</l>
+      <l hid="Hom2" pos="V" val="IV">хадамзь</l>
 
       <stg>
+        <st Contlex="IV_ӇАРАМ">хадам</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">tuntea huonoa makua liian rasvaisen ruuan syömisen
+        jälkeen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">хадарабтамбась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДАБАСЬ">хадарабтамба</st>
+
         <st Contlex="TV_ХАДАБАСЬ">хадарабтаба</st>
       </stg>
     </lg>
@@ -173795,6 +173816,8 @@
 
       <tg xml:lang="fin">
         <t pos="V">turmella</t>
+
+        <t pos="V">antaa tappaa</t>
       </tg>
     </mg>
   </e>
@@ -173903,6 +173926,8 @@
 
       <stg>
         <st Contlex="IV_ЯˮАВЛУ">хадахала</st>
+
+        <st Contlex="IV_ЯˮАВЛУ">хадала</st>
       </stg>
     </lg>
 
@@ -179525,25 +179550,9 @@
       <l pos="V" val="IV">ханзумданась</l>
 
       <stg>
-        <st Contlex="IV_ЛАХАНА">ханзумда</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="V" val="IV">viiletä</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">ханзумданась</l>
-
-      <stg>
         <st Contlex="IV_НАМДА">ханзумдана</st>
+
+        <st Contlex="IV_ЛАХАНА">ханзумда</st>
       </stg>
     </lg>
 
@@ -184332,6 +184341,26 @@
         <t pos="V" type="TV">siristellä</t>
 
         <t pos="V">siristää</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="IV">хаёданась</l>
+
+      <stg>
+        <st Contlex="IV_НАМДА">хаёдана</st>
+
+        <st Contlex="IV_ЛАХАНА">хаёда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">jäädä jälkeen</t>
       </tg>
     </mg>
   </e>

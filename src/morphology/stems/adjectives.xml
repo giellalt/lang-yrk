@@ -17074,6 +17074,24 @@
 
   <e>
     <lg>
+      <l pos="A">хаделеˮэ</l>
+
+      <stg>
+        <st Contlex="A_ЕД">хаделеˮэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">kiharatukkainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">хаделпэй</l>
 
       <stg>
@@ -17213,7 +17231,31 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="A"/>
+        <t pos="A">jätetty</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хаевы</l>
+
+      <stg>
+        <st Contlex="A_ПАНЫ">хаевы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">hylätty</t>
+
+        <t pos="A">jätetty</t>
+
+        <t pos="A">suoritettu</t>
+
+        <t pos="A">ohitettu</t>
       </tg>
     </mg>
   </e>
