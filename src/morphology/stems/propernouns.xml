@@ -3708,6 +3708,8 @@
 
       <stg>
         <st Contlex="PROP_ӇУДИ ">Тэсяда</st>
+
+        <st Contlex="PROP_ӇУДИ ">Тэсьда</st>
       </stg>
     </lg>
 
@@ -3798,6 +3800,8 @@
 
       <stg>
         <st Contlex="PROP_ЕД">Тёр</st>
+
+        <st Contlex="PROP_ЕД">Чор</st>
       </stg>
 
       <stress/>
@@ -4328,6 +4332,30 @@
 
   <e>
     <lg>
+      <l pos="Prop">Ючи</l>
+
+      <stg>
+        <st Contlex="PROP_">Ючи</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jutši (nenetsien sukunimi)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Prop">Ябри</l>
 
       <stg>
@@ -4406,6 +4434,8 @@
         <st Contlex="PROP_ӇЭ">Ябтоӈэ</st>
 
         <st Contlex="PROP_ӇЭ">Ябтонэ</st>
+
+        <st Contlex="PROP_ӇЭ">Яптунэ</st>
       </stg>
 
       <stress/>
@@ -4468,6 +4498,30 @@
 
       <tg xml:lang="fin">
         <t pos="Prop">Javtysyi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Prop">Ядне</l>
+
+      <stg>
+        <st Contlex="PROP_ӇЭ-Pal/Var">Ядне</st>
+      </stg>
+
+      <stress/>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative/>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Prop">Jadnje (nenetsien heimo)</t>
       </tg>
     </mg>
   </e>
