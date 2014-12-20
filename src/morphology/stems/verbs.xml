@@ -171592,6 +171592,8 @@
         <st Contlex="IV_СЯНАКУ">хаˮварко</st>
 
         <st Contlex="IV_СЯНАКУ">хаˮаврако</st>
+
+        <st Contlex="IV_СЯНАКУ">хаварко</st>
       </stg>
     </lg>
 
@@ -173884,7 +173886,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">хадась</l>
+      <l hid="Hom1" pos="V" val="TV">хадась</l>
 
       <stg>
         <st Contlex="TV_ХАДА">хада</st>
@@ -173896,6 +173898,42 @@
 
       <tg xml:lang="fin">
         <t pos="V">tappaa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l hid="Hom2" pos="V" val="TV">хадась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДА">хада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">tehdä merkkejä korviin</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l hid="Hom3" pos="V" val="TV">хадась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДА">хада</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">jättää vaille</t>
       </tg>
     </mg>
   </e>
