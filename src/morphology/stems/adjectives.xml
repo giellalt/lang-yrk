@@ -16500,6 +16500,28 @@
 
   <e>
     <lg>
+      <l pos="A">тяханий</l>
+
+      <stg>
+        <st Contlex="A_ЕД">тяханий</st>
+
+        <st Contlex="A_ПАНЫ">тяханяӈы</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">toisella puolella oleva</t>
+
+        <t pos="A">tuonpuoleinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">тяхасо</l>
 
       <stg>
@@ -16976,6 +16998,26 @@
 
       <tg xml:lang="fin">
         <t pos="A">kuollut</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">хабясей</l>
+
+      <stg>
+        <st Contlex="A_ХУСУВЭЙ">хабясей</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">järjetön</t>
+
+        <t pos="A">käsittämätön</t>
       </tg>
     </mg>
   </e>

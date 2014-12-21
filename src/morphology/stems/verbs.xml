@@ -172586,7 +172586,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">хабтась</l>
+      <l hid="Hom1" pos="V" val="TV">хабтась</l>
 
       <stg>
         <st Contlex="TV_ХАДА">хабта</st>
@@ -172600,7 +172600,23 @@
         <t pos="V">toivoa kuolemaa</t>
 
         <t pos="V">valmistaa etukäteen</t>
+      </tg>
+    </mg>
+  </e>
 
+  <e>
+    <lg>
+      <l hid="Hom2" pos="V" val="TV">хабтась</l>
+
+      <stg>
+        <st Contlex="TV_ХАДА">хабта</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
         <t pos="V">sammuttaa</t>
       </tg>
     </mg>

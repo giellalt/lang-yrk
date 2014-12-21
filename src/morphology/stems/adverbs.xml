@@ -6956,6 +6956,8 @@
         <st Contlex="ADV-LOC_">тюˮуʼ</st>
 
         <st Contlex="ADV-LOC_">тюʼ</st>
+
+        <st Contlex="ADV-LOC_">тяˮвуʼ</st>
       </stg>
     </lg>
 
@@ -7250,6 +7252,28 @@
 
   <e>
     <lg>
+      <l pos="Adv">тянёхорт</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">тянёхорт</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ollenkaan</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">тяхамна</l>
 
       <stg>
@@ -7270,6 +7294,32 @@
         <t pos="Adv">liiaksi</t>
 
         <t pos="Adv">lisäksi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">тяхана</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">тяхана</st>
+
+        <st Contlex="ADV-TEMP_">тяхана</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kauempana</t>
+
+        <t pos="Adv">aiemmin</t>
       </tg>
     </mg>
   </e>
@@ -7300,6 +7350,32 @@
 
   <e>
     <lg>
+      <l pos="Adv">тяхасовна</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">тяхасовна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ahkerasti</t>
+
+        <t pos="Adv">huolellisesti</t>
+
+        <t pos="Adv">tarkasti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">хаˮли≈</l>
 
       <stg>
@@ -7312,6 +7388,30 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">vain itse</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">хабянза</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">хабянза</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">taitaen</t>
+
+        <t pos="Adv">taitavasti</t>
       </tg>
     </mg>
   </e>

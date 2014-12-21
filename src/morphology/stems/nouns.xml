@@ -46808,6 +46808,24 @@
 
   <e>
     <lg>
+      <l pos="N">тярондабцьʼ</l>
+
+      <stg>
+        <st Contlex="N_ЁЛЬЦЕ">тярондабць</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">kiduksien poistoväline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">тярорцьʼ</l>
 
       <stg>
@@ -47162,6 +47180,32 @@
 
       <tg xml:lang="fin">
         <t pos="N">föderaatio</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ферма</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ-RUS">ферма</st>
+
+        <st Contlex="N_ӇУДИ">перма</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">farmi</t>
+
+        <t pos="N">maatila</t>
       </tg>
     </mg>
   </e>
