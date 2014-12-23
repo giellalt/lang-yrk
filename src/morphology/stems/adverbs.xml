@@ -5926,6 +5926,8 @@
 
       <stg>
         <st Contlex="ADV-LOC_">таняна</st>
+
+        <st Contlex="ADV-LOC_">тэйняна</st>
       </stg>
     </lg>
 
@@ -6834,6 +6836,32 @@
 
   <e>
     <lg>
+      <l pos="Adv">тихинда</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">тихинда</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">tarkkaan</t>
+
+        <t pos="Adv">oikein</t>
+
+        <t pos="Adv">loppuun asti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">тотревʼ</l>
 
       <stg>
@@ -6870,6 +6898,28 @@
 
       <tg xml:lang="fin">
         <t pos="Adv">molemmat</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Adv">тыякувна</l>
+
+      <stg>
+        <st Contlex="ADV-MANNER_">тыякувна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">kapeasti</t>
       </tg>
     </mg>
   </e>
@@ -7000,6 +7050,30 @@
 
   <e>
     <lg>
+      <l pos="Adv">тюˮуна</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">тюˮуна</st>
+
+        <st Contlex="ADV-LOC_">тюна</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ylhäällä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">тюˮуриʼ</l>
 
       <stg>
@@ -7022,6 +7096,28 @@
 
   <e>
     <lg>
+      <l pos="Adv">тюˮурина</l>
+
+      <stg>
+        <st Contlex="ADV-LOC_">тюˮурина</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="Adv"/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Adv">ylhäällä</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Adv">тюковна</l>
 
       <stg>
@@ -7037,9 +7133,9 @@
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Adv">täällä päin</t>
-
         <t pos="Adv">tätä kautta</t>
+
+        <t pos="Adv">täällä päin</t>
       </tg>
     </mg>
   </e>
