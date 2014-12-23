@@ -156593,7 +156593,7 @@
 
   <e>
     <lg>
-      <l pos="V" type="VR">тись</l>
+      <l hid="Hom1" pos="V" type="VR">тись</l>
 
       <stg>
         <st Contlex="VR_НУ-Pal/Var">ти</st>
@@ -156607,7 +156607,23 @@
         <t pos="V">istuutua</t>
 
         <t pos="V">asettua (kulkuneuvoon)</t>
+      </tg>
+    </mg>
+  </e>
 
+  <e>
+    <lg>
+      <l hid="Hom2" pos="V" type="VR">тись</l>
+
+      <stg>
+        <st Contlex="VR_НУ-Pal/Var">ти</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
         <t pos="V">lähteä lentoon</t>
 
         <t pos="V">lentää pois</t>
@@ -163374,6 +163390,8 @@
 
       <stg>
         <st Contlex="VR_НАМДА">тэˮма</st>
+
+        <st Contlex="VR_НАМДА">тэма</st>
       </stg>
     </lg>
 
@@ -164897,9 +164915,7 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" type="VR">puhua kovalla äänellä</t>
-
-        <t pos="V">huutaa</t>
+        <t pos="V" type="VR">alkaa kaikua</t>
       </tg>
     </mg>
   </e>
