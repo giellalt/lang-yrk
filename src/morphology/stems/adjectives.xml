@@ -12179,6 +12179,8 @@
       <stg>
         <st Contlex="A_ӇЭ">салу</st>
 
+        <st Contlex="A_ӇЭ">сулу</st>
+
         <st Contlex="A_ӇАНУ">сало</st>
       </stg>
     </lg>
@@ -12984,6 +12986,46 @@
 
   <e>
     <lg>
+      <l pos="A">соблеˮэ</l>
+
+      <stg>
+        <st Contlex="A_ЕД">соблеˮэ</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pörröinen</t>
+
+        <t pos="A">tuuheakarvainen</t>
+
+        <t pos="A">lihakas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">соблёв</l>
+
+      <stg>
+        <st Contlex="A_ЕД">соблёв</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">alakuloinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">советской</l>
 
       <stg>
@@ -13056,6 +13098,24 @@
         <t pos="A">keltainen</t>
 
         <t pos="A">kultainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">социалистической</l>
+
+      <stg>
+        <st Contlex="A_ЕД">социалистической</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">sosialistinen</t>
       </tg>
     </mg>
   </e>
