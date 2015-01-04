@@ -203,11 +203,17 @@ LEXICON nouns
 геолог:геолог N_ЕД-RUS  "geologi" ;
 герб:герб N_ЕД-RUS  "vaakuna" ;
 герой:герой N_ЕД-RUS  "sankari" ;
+глагол:глагол N_ЕД-RUS  "verbi" ;
 глобус:глобус N_ЕД-RUS  "karttapallo" ;
 государства:государства N_ХОБ-RUS  "valtio" ;
+государства:государство N_ӇЭ-RUS  "valtio" ;
+градус:градус N_ЕД-RUS  "aste" ;
 гражданин:гражданин N_ЕД-RUS  "kansalainen" ;
 грамм:грамм N_ЕД-RUS  "gramma" ;
 грамм:харам N_ЕД  "gramma" ;
+граната:граната N_ХОБ-RUS  "kranaatti" ;
+гранит:гранит N_ЕД-RUS  "graniitti" ;
+груша:груша N_ХОБ-RUS  "päärynä" ;
 губернатор:губернатор N_ЕД-RUS  "kuvernööri" ;
 дежурный:дежурный N_ЕД-RUS  "päivystäjä" ;
 дежурный:тесурной N_ЕД  "päivystäjä" ;
@@ -314,7 +320,10 @@ LEXICON nouns
 еӈа:еӈа N_ХОБ  "oja" ;
 еӈга:еӈга N_ӇУДИ/ХОБ  "askel" ;
 еӈгалярˮ:еӈгаляр N_ВАР  "ketju" ;
+ёж:ёж N_ЕД-RUS  "siili" ;
+жирафа:жирафа N_ХОБ-RUS  "kirahvi" ;
 журнал:журнал N_ЕД-RUS  "aikakauslehti" ;
+завет:завет N_ЕД-RUS  "neuvo" ;
 завод:завод N_ЕД-RUS  "tehdas" ;
 завод:савод N_ЕД-RUS  "tehdas" ;
 закон:закон N_ЕД-RUS  "laki" ;
@@ -512,6 +521,7 @@ LEXICON nouns
 латхэй:латхэй N_ЕД/ХУСУВЭЙ  "napakohjulla lapsi" ;
 лахабˮ:лахаб N_ВАР  "pintarasva" ;
 лаханако:лаханако N_ӇАНУ  "satu" ;
+лаханорцьʼ:лаханорцьʼ N_ЁЛЬЦЕ  "matkatulkki" ;
 лахарё:лахарё N_МЕРЁ  "keskustelu" ;
 лахацьʼ:лахаць N_НЕНЭЦИЕ  "mätäs" ;
 лаӈг:лаӈг N_ХАНО  "jyrkänne" ;
@@ -558,6 +568,7 @@ LEXICON nouns
 лимбя:лимбя N_ТЁН  "kotka" ;
 лимон:лимон N_ЕД-RUS  "sitruuna" ;
 литра:литра N_ӇУДИ  "litra" ;
+лифт:лифт N_ЕД-RUS  "hissi" ;
 локы:локы N_ПАНЫ  "tylppäpäinen nuoli" ;
 локы:лукы N_ПАНЫ  "tylppäpäinen nuoli" ;
 лолоко:лолоко N_ӇАНУ  "poron sarviin kiinnitettävä puu- tai metallikello" ;
@@ -1098,6 +1109,7 @@ LEXICON nouns
 нибя:нибя N_ТЁН  "neula" ;
 нибяраха:нибяраха N_МАРАӇГЫ  "neulanen" ;
 нидак:нидак N_ЕД  "rusto" ;
+ний:ний N_ЕД  "pinta" ;
 нинˮмя:нинˮмя N_ӇОДИ  "uuma" ;
 нинарˮ:нинар N_ТАРЕ  "rivi" ;
 нинарˮ:ниныр N_ТАРЕ  "rivi" ;
@@ -1108,6 +1120,7 @@ LEXICON nouns
 нир:нир N_ЕД  "kova lumi jään päällä" ;
 нирˮ:нир N_ТАРЕ  "kahva" ;
 нирад:нирад N_ЕД  "poronsarven etumainen haara" ;
+нирнана:нирнана N_ӇУДИ  "jyrsijä" ;
 нирцьʼ:нирць N_ИЛЪЕ  "kulmakarva" ;
 ниселава:ниселава N_ӇУДИ  "poikiminen" ;
 нисюˮмя:нисюˮмя N_ӇОДИ  "poikimisen paikka" ;
@@ -1127,6 +1140,7 @@ LEXICON nouns
 носилава:носилава N_ӇУДИ  "naalinmetsästyspaikka" ;
 носиндалава:носиндалава N_ӇУДИ  "naalinmetsästysaika" ;
 носок:носок N_ЕД  "harppuuna" ;
+ноты:ноты N_ӇЭ  "pikkuasiasta närkästyvä ihminen" ;
 нохо:нохо N_ӇУДИ  "naali" ;
 нохорабцьʼ:нохорабць N_ЁЛЬЦЕ  "verkonvetonaru" ;
 нохоралава:нохоралава N_ӇУДИ  "verkkojen nostopaikka" ;
@@ -1277,6 +1291,7 @@ LEXICON nouns
 нё:нё N_ӇЭ  "ovi" ;
 нёкоця:нёкоця N_ӇОДИ  "luukku" ;
 нёрас:нёрас N_ЕД  "yhdessä pysyvät porot" ;
+нёталˮ:нётал N_ВАР  "porot morsiamen lunnaista" ;
 нётлаˮма:нётлаˮма N_ӇУДИ  "maksu morsiamesta" ;
 нёхолˮ:нёхол N_ВАР  "lika" ;
 нёя:нёя N_ӇОДИ  "made" ;
@@ -2121,6 +2136,7 @@ LEXICON nouns
 сюнз:сюнз N_ЕД  "nuorin lapsi" ;
 сюнка:сюнка N_ӇУДИ  "pieni nartta" ;
 сюны:сюны N_ӇЭ  "siskojen lapset" ;
+сюны:сюнэ N_ӇЭ  "siskojen lapset" ;
 сюр:сюр N_ЕД  "pyörre" ;
 сюрˮ:сюр N_ВАР  "vyötärönmitta" ;
 сюрˮмя:сюрˮмя N_ӇОДИ  "naru housuissa" ;
@@ -3529,6 +3545,7 @@ LEXICON nouns
 ӈыне:ӈыня N_ӇОДИ  "tietty loukku pieneläinten pyydystykseen" ;
 ӈынеʼ:ӈыне N_ВЫӇО  "alanko" ;
 ӈысма:ӈысма N_ӇУДИ  "komi" ;
+ӈысма:ӈызма N_ӇУДИ  "komi" ;
 ӈытабцьʼ:ӈытабць N_ЁЛЬЦЕ  "vaaka" ;
 ӈытарма:ӈытарма N_ӇУДИ  "vainaaja" ;
 ӈытлава:ӈытлава N_ӇУДИ  "kalanhankintavirasto" ;
