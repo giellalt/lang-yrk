@@ -1334,6 +1334,26 @@
 
   <e>
     <lg>
+      <l pos="A">германской</l>
+
+      <stg>
+        <st Contlex="A_ЕД">германской</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">germaaninen</t>
+
+        <t pos="A">saksalainen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">гражданской</l>
 
       <stg>
@@ -7508,6 +7528,24 @@
 
   <e>
     <lg>
+      <l pos="A">нимя</l>
+
+      <stg>
+        <st Contlex="A_ӇОДИ">нимя</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">täysi-ikäinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">ниня</l>
 
       <stg>
@@ -8882,6 +8920,28 @@
 
       <tg xml:lang="fin">
         <t pos="A">puoleinen</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">нёˮлёко</l>
+
+      <stg>
+        <st Contlex="A_ӇАНУ">нёˮлёко</st>
+
+        <st Contlex="A_ӇАНУ">нёляко</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">pieni</t>
+
+        <t pos="A">pikku-</t>
       </tg>
     </mg>
   </e>
@@ -12286,6 +12346,26 @@
         <t pos="A">poisleikattu</t>
 
         <t pos="A">kiristetty</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">саркабэй</l>
+
+      <stg>
+        <st Contlex="A_ХУСУВЭЙ">саркабэй</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">raihnainen</t>
+
+        <t pos="A">rähjäinen</t>
       </tg>
     </mg>
   </e>
