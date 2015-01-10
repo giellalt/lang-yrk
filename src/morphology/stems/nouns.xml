@@ -17569,6 +17569,26 @@
 
   <e>
     <lg>
+      <l pos="N">мяракоця</l>
+
+      <stg>
+        <st Contlex="N_ӇОДИ">мяракоця</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">napinreikä</t>
+
+        <t pos="N">silmukka</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">мяроʼ</l>
 
       <stg>
@@ -23757,6 +23777,8 @@
 
       <stg>
         <st Contlex="N_ӇУДИ">падеˮма</st>
+
+        <st Contlex="N_ӇУДИ">паддеˮма</st>
       </stg>
     </lg>
 
@@ -23771,10 +23793,10 @@
 
   <e>
     <lg>
-      <l pos="N">падеˮма</l>
+      <l pos="N">падеж</l>
 
       <stg>
-        <st Contlex="N_ӇУДИ">паддеˮма</st>
+        <st Contlex="N_ЕД-RUS">падеж</st>
       </stg>
     </lg>
 
@@ -23782,7 +23804,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <td pos="N">paikka, jossa porot vauhkoilivat</td>
+        <t pos="N">sijamuoto</t>
+
+        <t pos="N">kaasus</t>
       </tg>
     </mg>
   </e>
@@ -24505,6 +24529,26 @@
 
   <e>
     <lg>
+      <l pos="N">памятник</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">памятник</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">muistomerkki</t>
+
+        <t pos="N">patsas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">пан</l>
 
       <stg>
@@ -25201,6 +25245,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">pudas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">пароль</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">пароль</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">tunnussana</t>
+
+        <t pos="N">avainsana</t>
       </tg>
     </mg>
   </e>
@@ -45062,6 +45126,8 @@
 
       <stg>
         <st Contlex="N_ТЁН">тунзибя</st>
+
+        <st Contlex="N_ТЁН">тюнзибя</st>
       </stg>
     </lg>
 
@@ -45524,6 +45590,8 @@
 
       <stg>
         <st Contlex="N_ӇОДИ">тыбэртя</st>
+
+        <st Contlex="N_ӇОДИ">тымбэртя</st>
       </stg>
     </lg>
 
