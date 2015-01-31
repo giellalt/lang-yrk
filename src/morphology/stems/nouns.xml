@@ -2400,6 +2400,42 @@
 
   <e>
     <lg>
+      <l pos="N">вирус</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">вирус</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">virus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">виски</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ-RUS">виски</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">viski</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">вовар</l>
 
       <stg>
@@ -3990,6 +4026,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">valtuutettu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">джин</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">джин</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">gini</t>
       </tg>
     </mg>
   </e>
@@ -16777,6 +16831,8 @@
 
       <tg xml:lang="fin">
         <t pos="N">käytettävä esine</t>
+
+        <t pos="N">johtoporo</t>
       </tg>
     </mg>
   </e>
@@ -19514,6 +19570,26 @@
 
       <tg xml:lang="fin">
         <t pos="N">paju</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">нермбэрма</l>
+
+      <stg>
+        <st Contlex="N_ӇУДИ">нермбэрма</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">johtokunta</t>
+
+        <t pos="N">johto</t>
       </tg>
     </mg>
   </e>
@@ -31619,6 +31695,24 @@
 
   <e>
     <lg>
+      <l pos="N">ром</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">ром</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">rommi</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">ручка</l>
 
       <stg>
@@ -35238,6 +35332,24 @@
 
       <tg xml:lang="fin">
         <t pos="N">kahdeksas osa</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">сидр</l>
+
+      <stg>
+        <st Contlex="N_ЕД-RUS">сидр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">siideri</t>
       </tg>
     </mg>
   </e>
