@@ -3338,8 +3338,27 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 !:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODREP ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
 @R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+:%^VowLoss INFPRF ;
+ PRCIMPRF_на ;
+:%^VowLoss PRCIMPRF_на ;
+ PRCFUT_внд ;
+:%^VowRaise PRCFUT_внд ;
+ PRCNEG_вдавэй ;
+:%^VowRaise PRCNEG_вдавэй ;
+:%^VowLoss EVAS_воӈгад ;
 ! V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
-
+0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ MOD/NARR-OC ;
+:%^VowLoss MOD/NARR-SC ;
+0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ MOD/PROB-OC ;
+@R.CONJ.ObjAll@ MOD/PROB-OC ;
+ MOD/PROB-SC ;
+:%^VowLoss MOD/PROB-SC ;
+@R.CONJ.ObjAll@ IND-AOR/PRT1-OC ;
+@R.CONJ.ObjAll@ IND-AOR/PRT1-OCPL3_н ;
+ FUN_1 ;
+:%^VowLoss FUN_1 ;
+0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ HORT-OC ;
+:%^VowLoss HORT-SC ;
 
 +Ger:%>сь K ;
 +Ger: K ;
