@@ -66,12 +66,12 @@ LEXICON PRON-INTERR_
 +Pron+Interr: NMN_ӇАВО ;
 
 LEXICON PRON-INTERR-HUM_
-+Pron+Interr+Hum:  SG-NOM-STEM ;
-+Pron+Interr+Hum:  SG-ACC-STEM ;
-+Pron+Interr+Hum:  SGDATSUF ;
-+Pron+Interr+Hum:  PLNOMSUF ;
-+Pron+Interr+Hum:%^A2I PLACCSUF_Zero ;
-+Pron+Interr+Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++Pron+Interr+Sem/Hum:  SG-NOM-STEM ;
++Pron+Interr+Sem/Hum:  SG-ACC-STEM ;
++Pron+Interr+Sem/Hum:  SGDATSUF ;
++Pron+Interr+Sem/Hum:  PLNOMSUF ;
++Pron+Interr+Sem/Hum:%^A2I PLACCSUF_Zero ;
++Pron+Interr+Sem/Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON PRON-INTERR-QNT_IS-PROS
 +Pron+Interr+Qnt+Pros: K ;
