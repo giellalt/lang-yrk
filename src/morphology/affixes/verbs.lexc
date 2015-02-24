@@ -1057,6 +1057,19 @@ LEXICON V-01_ПЭБЮ
  V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO ;
  V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
 !:%^VowLoss V-NEW_BI-SYLL-MUTUAL-ZERO/MINUS-V ;
+:%^VowLoss V_Mod/narr ;
+:%^VowLoss V_Mod/narrPrt ;
+:%^VowLoss HORT-SC ;
+0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ HORT-OC ;
+ OPT-SC ;
+0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ CONJ-FOR-OC_ъи ;
+:%^VowLoss V_Conj ;
+:%^VowLoss MOD/DES-SC_рава ;
+:%^VowLoss MOD/NEC-SC_бцу ;
+0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ MOD/NEC-OC_бцу ;
+:%^VowLoss MOD/SUP-SC_ванӈгабя ;
+
+
 
 ! V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
 !:%^VowLoss V-NEW_BI-SYLL-MUTUAL-PRCIMPF ;
@@ -1113,7 +1126,6 @@ V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
 !@R.CONJ.ObjAll@ V_Opt-Obj ;
 ! V_Subord ;
 ! V_AUD ;
-!:%^VowLoss V_Conj ;
 ! V_Mod/appr ;
 ! V_Mod/des ;
 ! V_Mod/futappr ;
@@ -9746,6 +9758,10 @@ LEXICON INFPRF
 +InfPrf+Equ:%>ˮмадаремʼ K ;
 +InfPrf+Equ+Lat:%>ˮмадаревʼ K ;
 
+
+LEXICON MOD/DES-SC_рава
++Mod/des:%>рава DEFAULT-DEFAULT-SC ;
++Mod/des:%>рава DEFAULT-DEFAULT-SCDU3 ;
 
 LEXICON MOD/DES-SC_рва
 +Mod/des:%>рва DEFAULT-DEFAULT-SC ;
