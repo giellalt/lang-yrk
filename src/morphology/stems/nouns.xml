@@ -4068,6 +4068,24 @@
 
   <e>
     <lg>
+      <l pos="N">диссертация</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ-RUS">диссертация</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">väitöskirja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">диплом</l>
 
       <stg>
@@ -7110,6 +7128,24 @@
         <t pos="N">kitinä</t>
 
         <t pos="N">narahdus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">история</l>
+
+      <stg>
+        <st Contlex="N_ӇЭ-RUS">история</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="N">historia</t>
       </tg>
     </mg>
   </e>

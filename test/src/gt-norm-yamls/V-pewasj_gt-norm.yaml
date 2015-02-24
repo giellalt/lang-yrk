@@ -195,12 +195,66 @@ Tests:
      пэвась+V+IV+Mod/des+ScPl1: пэврававаˮ
      пэвась+V+IV+Mod/des+ScPl2: пэвравадаˮ
      пэвась+V+IV+Mod/des+ScPl3: пэвраваˮ 
-     пэвась+V+IV+InfImprf: пэвва
-     пэвась+V+IV+InfPrf: пэвˮма
-     пэвась+V+IV+PrcImprf: [пэвда, пэвдя]
-     пэвась+V+IV+PrcPrf: пэввы
-     пэвась+V+IV+PrcFut: [пэваванда, пэвувнда]
-     пэвась+V+IV+PrcNeg: [пэвавдавэй, пэвувдавэй]
+     пэвась+V+IV+InfImprf+Nom+Sg+Abs: пэвва
+     пэвась+V+IV+InfImprf+Acc+Sg+Abs: пэввамʼ
+     пэвась+V+IV+InfImprf+Gen+Sg+Abs: пэвваʼ
+     пэвась+V+IV+InfImprf+Dat+Sg+Abs: пэвванʼ
+     пэвась+V+IV+InfImprf+Loc+Sg+Abs: пэввахана
+     пэвась+V+IV+InfImprf+Abl+Sg+Abs: пэввахад
+     пэвась+V+IV+InfImprf+Pros+Sg+Abs: пэввавна
+     пэвась+V+IV+InfImprf+Nom+Du+Abs: пэввахаʼ
+     пэвась+V+IV+InfImprf+Acc+Du+Abs: пэввахаʼ
+     пэвась+V+IV+InfImprf+Gen+Du+Abs: пэввахаʼ
+     пэвась+V+IV+InfImprf+Nom+Pl+Abs: пэвваˮ
+     пэвась+V+IV+InfImprf+Acc+Pl+Abs: пэвби
+     пэвась+V+IV+InfImprf+Gen+Pl+Abs: пэвбиˮ
+     пэвась+V+IV+InfImprf+Dat+Pl+Abs: пэввахаˮ
+     пэвась+V+IV+InfImprf+Loc+Pl+Abs: пэввахаˮна
+     пэвась+V+IV+InfImprf+Abl+Pl+Abs: пэввахат
+     пэвась+V+IV+InfImprf+Pros+Pl+Abs: пэвбиˮмна
+     пэвась+V+IV+InfPrf+Nom+Sg+Abs: пэвˮма
+     пэвась+V+IV+InfPrf+Acc+Sg+Abs: пэвˮмамʼ
+     пэвась+V+IV+InfPrf+Gen+Sg+Abs: пэвˮмаʼ
+     пэвась+V+IV+InfPrf+Dat+Sg+Abs: пэвˮманʼ
+     пэвась+V+IV+InfPrf+Loc+Sg+Abs: пэвˮмахана
+     пэвась+V+IV+InfPrf+Abl+Sg+Abs: пэвˮмахад
+     пэвась+V+IV+InfPrf+Pros+Sg+Abs: пэвˮмавна
+     пэвась+V+IV+PrcImprf+Nom+Sg+Abs: [пэвда, пэвдя]
+     пэвась+V+IV+PrcImprf+Acc+Sg+Abs: [пэвдамʼ, пэвдямʼ]
+     пэвась+V+IV+PrcImprf+Gen+Sg+Abs: [пэвдаʼ, пэвдяʼ]
+     пэвась+V+IV+PrcImprf+Dat+Sg+Abs: [пэвданʼ, пэвдянʼ]
+     пэвась+V+IV+PrcImprf+Loc+Sg+Abs: [пэвдахана, пэвдяхана]
+     пэвась+V+IV+PrcImprf+Abl+Sg+Abs: [пэвдахад, пэвдяхад]
+     пэвась+V+IV+PrcImprf+Pros+Sg+Abs:[пэвдавна, пэвдявна]
+     пэвась+V+IV+PrcImprf+Nom+Du+Abs: [пэвдахаʼ, пэвдяхаʼ]
+     пэвась+V+IV+PrcImprf+Acc+Du+Abs: [пэвдахаʼ, пэвдяхаʼ]
+     пэвась+V+IV+PrcImprf+Gen+Du+Abs: [пэвдахаʼ, пэвдяхаʼ]
+     пэвась+V+IV+PrcImprf+Nom+Pl+Abs: [пэвдаˮ, пэвдяˮ]
+     пэвась+V+IV+PrcImprf+Acc+Pl+Abs: пэвди 
+     пэвась+V+IV+PrcImprf+Gen+Pl+Abs: пэвдиˮ
+     пэвась+V+IV+PrcImprf+Dat+Pl+Abs: [пэвдахаˮ, пэвдяхаˮ]
+     пэвась+V+IV+PrcImprf+Loc+Pl+Abs: [пэвдахаˮна, пэвдяхаˮна]
+     пэвась+V+IV+PrcImprf+Abl+Pl+Abs: [пэвдахат, пэвдяхат]
+     пэвась+V+IV+PrcImprf+Pros+Pl+Abs: пэвдиˮмна
+     пэвась+V+IV+PrcPrf+Nom+Sg+Abs: пэввы
+     пэвась+V+IV+PrcPrf+Acc+Sg+Abs: пэввымʼ
+     пэвась+V+IV+PrcPrf+Gen+Sg+Abs: пэввыʼ
+     пэвась+V+IV+PrcPrf+Dat+Sg+Abs: пэввэнʼ
+     пэвась+V+IV+PrcPrf+Loc+Sg+Abs: пэввэхэна
+     пэвась+V+IV+PrcPrf+Abl+Sg+Abs: пэввэхэд
+     пэвась+V+IV+PrcPrf+Pros+Sg+Abs: пэввэвна
+     пэвась+V+IV+PrcPrf+Nom+Du+Abs: пэввэхэʼ
+     пэвась+V+IV+PrcPrf+Acc+Du+Abs: пэввэхэʼ
+     пэвась+V+IV+PrcPrf+Gen+Du+Abs: пэввэхэʼ
+     пэвась+V+IV+PrcPrf+Nom+Pl+Abs: пэввыˮ
+     пэвась+V+IV+PrcPrf+Acc+Pl+Abs: пэввы
+     пэвась+V+IV+PrcPrf+Gen+Pl+Abs: пэввыˮ
+     пэвась+V+IV+PrcPrf+Dat+Pl+Abs: пэввэхэˮ
+     пэвась+V+IV+PrcPrf+Loc+Pl+Abs: пэввэхэˮна
+     пэвась+V+IV+PrcPrf+Abl+Pl+Abs: пэввэхэт
+     пэвась+V+IV+PrcPrf+Pros+Pl+Abs: пэввыˮмана
+     пэвась+V+IV+PrcFut+Nom+Sg+Abs: [пэваванда, пэвувнда]
+     пэвась+V+IV+PrcNeg+Nom+Sg+Abs: [пэвавдавэй, пэвувдавэй]
      пэвась+V+IV+Ger: [пэва, пэвась]
      пэвась+V+IV+GerFin: пэвванзь
      пэвась+V+IV+ConNeg: пэбюˮ
