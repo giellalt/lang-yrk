@@ -2027,7 +2027,7 @@ LEXICON IND-AOR !!≈ * __@CODE@__ All except Sg3 Du3
 
 LEXICON IND-AOR-SG1
 +Ind+Aor+ScSg1:%>дмʼ K ;
-+Err/Sub+Ind+Aor+ScSg1:%>мʼ K ;
++Err/Orth+Ind+Aor+ScSg1:%>мʼ K ;
 
 LEXICON IND-AOR-SG2
 +Ind+Aor+ScSg2:%>н K ;
@@ -2367,7 +2367,7 @@ LEXICON V_IND-Refl-PRT1_NORAISING
  
 LEXICON IND-4-PRT1-SG1
 +Prt1+ScSg1:%>дамзь K ;
-!+Err/Sub+V+Ind+Prt1+ScSg1:манзь K ;
+!+Err/Orth+V+Ind+Prt1+ScSg1:манзь K ;
 +Prt1+ScSg1:%>манзь K ;
 
 LEXICON IND-4-PRT1-SG2
@@ -3047,7 +3047,7 @@ LEXICON MUTUAL-PERSON-REFL-3_NORAISING
 
 LEXICON MUTUAL-SG1
 +ScSg1:%>дмʼ K ;
-!+Err/Sub+ScSg1:мʼ K ;
+!+Err/Orth+ScSg1:мʼ K ;
 
 LEXICON MUTUAL-SG2
 +ScSg2:%>н K ;
