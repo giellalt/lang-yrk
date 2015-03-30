@@ -3412,6 +3412,8 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 
 LEXICON V-NEW_ЛАХАНА
 !!= * Yaml: __V-laxanasj__
+ AUD-AOR/PRT1-SC_ванон ;
+ AUD-AOR/PRT1-SC_вон ;
  CONJ_и ;
 :%^VowLoss CONNEG ;
  EVAS_воӈгад ;
@@ -3432,6 +3434,8 @@ LEXICON V-NEW_ЛАХАНА
  MOD/DES-SC_рва ;
  MOD/HYP-SC_рхавы ;
  V-NEW_MUTUAL-MODFUTAPPR_ванд ;
+ V-NEW_BI-SYLL-MUTUAL-FUT ;
+! test 2015-03-30
  MOD/IMPFAPPR_нараха ;
  MOD/INT-SC_са ;
  MOD/NARR-SC ;
@@ -3441,6 +3445,8 @@ LEXICON V-NEW_ЛАХАНА
  MOD/PERFPROB-SC_вэкы ;
  MOD/PROB-SC_ӈгодакыˮ ;
  MOD/PROB-SC_ӈгоданакыˮ ;
+! test 2015-03-30
+ FUT-MOD/PROB-AOR/PRET1-OC ;
  MOD/REP-SC_вна ;
  MOD/SUP-SC_ванӈгабя ;
  OPT-SC ;
