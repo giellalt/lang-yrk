@@ -372,7 +372,7 @@ And the following triggers to control variation:
  * __ {back} __
  * __ %^SCSG2 __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
  * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
- * __ %^PalVariation __ This allows for тарД1%>д%{оё%}нзь
+ * __ %^PalVariation __ This allows for тар%{дˮØ%}%>д%{оё%}нзь
 
 Protoletters for xfst:
  * __ %{ауоэØ%} __  А1:а А1:у А1:о А1:э schwa
@@ -382,10 +382,11 @@ This is the schwa or reduced vowel occurring after x in case endings
 
  * __А2__ Alternating between zero and а
 
- * __Д1__
+These are proto-glottals
+ * __%{дˮØ%}__
  * __С1__
- * __Н1__
- * __Ӈ1__ = These are proto-glottals
+ * __%{нӈʼØ%}__
+ * __%{йнӈъʼØ%}__ = These are proto-glottals
 
  * __Г1__
  * __В1__
