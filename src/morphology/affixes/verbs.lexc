@@ -226,7 +226,7 @@ LEXICON TV_ЯˮАВЛУ
 +V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON IV_МАН  !!≈ * __@CODE@__ манзь:маН1
+LEXICON IV_МАН  !!≈ * __@CODE@__ манзь:ма%{нӈʼØ%}
 !! * Yaml: __manzj__
 +V+IV: V-01_МАН       ;
 
@@ -1536,7 +1536,7 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
 ! IND-AOR-RCPL3 	;
 
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON V-01_МАН   !!≈ * __@CODE@__ манзь:маН1
+LEXICON V-01_МАН   !!≈ * __@CODE@__ манзь:ма%{нӈʼØ%}
 !! * Yaml: __manzj__
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 +Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
@@ -1734,11 +1734,11 @@ LEXICON V-NEW_ТИР  !!≈ * __@CODE@__
 !!= * Yaml: __V-sircj__
  CONJ_ъи ;
  CONNEG ;
-:Ӈ1 EVAS_воӈгад ;
+:%{йнӈъʼØ%} EVAS_воӈгад ;
 :ˮ EVAS_воӈгад ;
  FUT-SC_та ;
 :ˮ GER_сь ;
-:Ӈ1 GERFIN ;
+:%{йнӈъʼØ%} GERFIN ;
  HORT-SC ;
 : IMPRT-SCSG2 ;
 :ӈа IMPRT-SCDU2 ;
@@ -1746,29 +1746,29 @@ LEXICON V-NEW_ТИР  !!≈ * __@CODE@__
 :ӈа IND-AOR/PRT1-SC ;
 :ӈа IND-AOR-SCDU3 ;
 :ӈа IND-PRT1-SCDU3 ;
-:Ӈ1 INFIMPRF ;
+:%{йнӈъʼØ%} INFIMPRF ;
 :о INFPRF ;
  MOD/DES-SC_рва ;
  MOD/HYP-SC_рхавы ;
-:Ӈ1 V-NEW_MUTUAL-MODFUTAPPR_ванд ;
+:%{йнӈъʼØ%} V-NEW_MUTUAL-MODFUTAPPR_ванд ;
 :ˮ%^SCSG2 MOD/IMPFAPPR_нараха ;
 :ˮ MOD/INT-SC_са ;
-:Ӈ1 MOD/NARR-SC ;
+:%{йнӈъʼØ%} MOD/NARR-SC ;
  MOD/NEC-SC_цу ;
 MOD/OBL-SC_цакэ ;
-:Ӈ1 MOD/PERFAPPR-SC_вэраха ;
-:Ӈ1 MOD/PERFPROB-SC_вэкы ;
+:%{йнӈъʼØ%} MOD/PERFAPPR-SC_вэраха ;
+:%{йнӈъʼØ%} MOD/PERFPROB-SC_вэкы ;
 :ˮ%^SCSG2 MOD/PROB-SC ;
-:Ӈ1 MOD/REP-SC_вна ;
-:Ӈ1 MOD/SUP-SC_ванӈгабя ;
+:%{йнӈъʼØ%} MOD/REP-SC_вна ;
+:%{йнӈъʼØ%} MOD/SUP-SC_ванӈгабя ;
 :ӈа OPT-SC ;
     OPT-OC_ZERO ;
-:Ӈ1 PRCFUT_ванд ;
+:%{йнӈъʼØ%} PRCFUT_ванд ;
 :ˮ PRCFUT_ванд ;
 :ˮ%^SCSG2 PRCIMPRF ;
-:Ӈ1 PRCNEG_вдавэй ;
+:%{йнӈъʼØ%} PRCNEG_вдавэй ;
 :ˮ PRCNEG_вдавэй ;
-:Ӈ1 PRCPRF ;
+:%{йнӈъʼØ%} PRCPRF ;
 
 +Subord:ˮ%>бˮ K ;
 :ˮ SUBORD-PX_батоʼ ;
