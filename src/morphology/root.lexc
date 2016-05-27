@@ -516,7 +516,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  {back}    !!≈ * __ @CODE@ __
  %^SCSG2   !!≈ * __ @CODE@ __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
  %^PLNOM   !!≈ * __ @CODE@ __ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
- %^PalVariation !!≈ * __ @CODE@ __ This allows for тарД1%>д%{оё%}нзь
+ %^PalVariation !!≈ * __ @CODE@ __ This allows for тар%{дˮØ%}%>д%{оё%}нзь
 
 !! Protoletters for xfst:
  %{ауоэØ%}   !!≈ * __ @CODE@ __  А1:а А1:у А1:о А1:э schwa
@@ -527,10 +527,11 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 А2  !!≈ * __@CODE@__ Alternating between zero and а
 
-Д1  !!≈ * __@CODE@__
+!! These are proto-glottals
+%{дˮØ%}  !!≈ * __@CODE@__
 С1  !!≈ * __@CODE@__
-Н1  !!≈ * __@CODE@__
-Ӈ1  !!≈ * __@CODE@__ = These are proto-glottals
+ %{нӈʼØ%}  !!≈ * __@CODE@__
+ %{йнӈъʼØ%}  !!≈ * __@CODE@__ = These are proto-glottals
 
 Г1  !!≈ * __@CODE@__
 В1  !!≈ * __@CODE@__
