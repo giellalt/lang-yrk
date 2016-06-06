@@ -63,7 +63,7 @@ LEXICON PRON-DEM-ADN_
 +Pron+Dem: # ;
 
 LEXICON PRON-INTERR_
-+Pron+Interr: NMN_ӇАВО ;
++Pron+Interr: NMN_ҢАВО ;
 
 LEXICON PRON-INTERR-HUM_
 +Pron+Interr+Sem/Hum:  SG-NOM-STEM ;
@@ -76,15 +76,15 @@ LEXICON PRON-INTERR-HUM_
 LEXICON PRON-INTERR-QNT_IS-PROS
 +Pron+Interr+Qnt+Pros: K ;
 
-LEXICON PRON_ӇЭ
-+Pron: NMN_ӇЭ ;
+LEXICON PRON_ҢЭ
++Pron: NMN_ҢЭ ;
 
 LEXICON PRON_ЕД
 +Pron: NMN_ЕД ;
 
-LEXICON PRON_ӇУДИ
-+Pron: NMN_ӇУДИ ;
-+Pron+Lim:ри NMN_ӇЭ ;
+LEXICON PRON_ҢУДИ
++Pron: NMN_ҢУДИ ;
++Pron+Lim:ри NMN_ҢЭ ;
 
 LEXICON PRON_ТИКЫ
 +Pron: NMN_ПАНЫ ;
@@ -104,8 +104,8 @@ LEXICON PRON-INTERR-QNT_
 LEXICON PRON-INTERR-MANNER_
 +Pron+Interr+Manner: # ;
 
-LEXICON PRON-INTERR_ӇУДИ
-+Pron+Interr: NMN_ӇУДИ ;
+LEXICON PRON-INTERR_ҢУДИ
++Pron+Interr: NMN_ҢУДИ ;
 
 LEXICON PRON-INTERR_-CXABL
 +Pron+Interr+Spat+Abl: # ;

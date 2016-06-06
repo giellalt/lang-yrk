@@ -2,10 +2,12 @@
 
 # Glottal stop spellrelax
 # These need to be changed 2016-05-26
- Ӈ (->) Н г, # 04A2 not two letters
- ӈ (->) н г, # 04A3 not two letters
- Ӈ (->) Ң, # 04C7 not U+04A2
- ӈ (->) ң, # 04C8 not U+04A3
+ Ң (->) Н г, # 04A2 not two letters
+ ң (->) н г, # 04A3 not two letters
+ Ң (->) Ҥ, # U+04A2 not 04A4 
+ ң (->) ҥ, # U+04A3 not 04A5
+ Ң (->) Ӈ, # U+04A2 not 04C7 
+ ң (->) ӈ, # U+04A3 not 04C8
 # U+E404 CYRILLIC LETTER E WITH DOT ABOVE
 # U+E405 CYRILLIC SMALL LETTER E WITH DOT ABOVE
  ˮ (->) %", # 02EE not quot " U+0022 
