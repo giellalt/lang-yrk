@@ -345,14 +345,6 @@ Question and Focus particles:
 
 
 Semantics are classified with
- * __! +Sem/Kin__  Kinship term (reflected in special PxSg2 forms),
- * __! +Sem/Divinity__  Divinity (god personified),
- * __! +Sem/Constellation__  Constellation,
- * __! +Sem/Kin	__ Kin term
- * __! +Sem/Patr 	__  Patronym
- * __! +Sem/Rvr__  name of river or water way, media of transportation,
- * __! +Sem/Inanim__  Inanimate,
- * __! +Sem/NonHum__  Nonhuman,
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -396,8 +388,8 @@ This is the schwa or reduced vowel occurring after x in case endings
 These are proto-glottals
  * __%{дˮØ%}__
  * __С1__
- * __%{нӈʼØ%}__
- * __%{йнӈъʼØ%}__ = These are proto-glottals
+ * __%{нңʼØ%}__
+ * __%{йнңъʼØ%}__ = These are proto-glottals
 
  * __Г1__
  * __В1__
@@ -478,10 +470,10 @@ word classes, or optionally from prefixes:
 Nenets nouns inflect in cases.
 
 
- * __LEXICON N_ӇЭ__ ӈэ:ӈэ 1  ProsSg -вна
+ * __LEXICON N_ҢЭ__ ңэ:ңэ 1  ProsSg -вна
 Yaml: __xo, ngaeTS__
 
- * __LEXICON N_ӇЭ-Pal/Var__ ӈэ:ӈэ 1  ProsSg -вна
+ * __LEXICON N_ҢЭ-Pal/Var__ ңэ:ңэ 1  ProsSg -вна
 Yaml: __nyeTS__
 
  * __LEXICON N_Ё__ я:я 2 ProsSg -вна
@@ -525,19 +517,19 @@ Yaml: __xano__
 
  * __LEXICON N_ЕД__ ед: 13 ProsSg -увна /-ювна
 
- * __LEXICON N_МАРАӇГЫ__ мӑраӈга: 14PProsSg -вна
+ * __LEXICON N_МАРАҢГЫ__ мӑраңга: 14PProsSg -вна
 
 
 
 
- * __LEXICON N_ӇУДИ__ ӈуда: 15 ProsSg -вна
+ * __LEXICON N_ҢУДИ__ ңуда: 15 ProsSg -вна
 Yaml: __N-ngudiTS__
 
  * __LEXICON N_ЕСИ__ ая̆ха: 16PProsSg -вна
 Yaml: __N-yaxaTS__
 
 
- * __LEXICON N_ӇОДИ__ ӈодя: 17 ProsSg -вна
+ * __LEXICON N_ҢОДИ__ ңодя: 17 ProsSg -вна
 Yaml: __N-ngodiTS__
 
 
@@ -553,13 +545,13 @@ Yaml: __tyon__
 
  * __LEXICON N_ХАСЕВ__ хасава: 22 ProsSg -вна
 
- * __LEXICON N_ӇАНУ__ ӈӑно: 23 ProsSg -вна
+ * __LEXICON N_ҢАНУ__ ңӑно: 23 ProsSg -вна
 Yaml: __nano__
 
  * __LEXICON N_ЯКЫ__ якэ: 24 ProsSg -вна
 
 
- * __LEXICON N_ӇУВО__ ӈумʼ:ӈум 25 ProsSg -(м)на
+ * __LEXICON N_ҢУВО__ ңумʼ:ңум 25 ProsSg -(м)на
 Yaml: __yam, ngumhTS__
 
  * __LEXICON N_НЮБЕ__ нюмʼ: 26  ProsSg -(м)на
@@ -569,7 +561,7 @@ Yaml: __yam, ngumhTS__
  * __LEXICON N_ПОЁ__ поʼ:по 28  ProsSg -мна
 Yaml: __poyo__
 
- * __LEXICON N_ВЫӇО__ выʼ:вы 29  ProsSg -мна /-мана
+ * __LEXICON N_ВЫҢО__ выʼ:вы 29  ProsSg -мна /-мана
 
 
  * __LEXICON N_ИЛЪЕ__ илʼ:ил 30   ProsSg -мана
@@ -608,7 +600,7 @@ Yaml: __yidye__
 
 
 
- * __LEXICON N_ӇЭ/ХАБИЕ__ ӈэ:ӈэ 1  ProsSg -вна
+ * __LEXICON N_ҢЭ/ХАБИЕ__ ңэ:ңэ 1  ProsSg -вна
 хӑби:8 ProsSg -вна
 
 
@@ -619,11 +611,11 @@ Yaml: __yidye__
 
 
 
- * __LEXICON NMN_ӇУДИ__ ӈуда: 15 ProsSg -вна
+ * __LEXICON NMN_ҢУДИ__ ңуда: 15 ProsSg -вна
 Yaml: __ngudi__
  * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- * __LEXICON NMN_ӇОДИ__
+ * __LEXICON NMN_ҢОДИ__
  * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
@@ -643,10 +635,10 @@ Yaml: __xob__
  * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
- * __LEXICON NMN_ӇАНУ__ ӈӑно: 23 ProsSg -вна
+ * __LEXICON NMN_ҢАНУ__ ңӑно: 23 ProsSg -вна
  * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- * __LEXICON NMN_ӇУВО__ ӈумʼ:ӈум 25 
+ * __LEXICON NMN_ҢУВО__ ңумʼ:ңум 25 
  * __:ʼ POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
@@ -667,9 +659,9 @@ No n2d
 
 
 
- * __:%{йнӈъʼØ%} SGNOMSUF ;__ 
- * __:%{йнӈъʼØ%} SG-NOM-STEM ;__ 
- * __:%{йнӈъʼØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ * __:%{йнңъʼØ%} SGNOMSUF ;__ 
+ * __:%{йнңъʼØ%} SG-NOM-STEM ;__ 
+ * __:%{йнңъʼØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 Where is the variation?
 
@@ -719,7 +711,7 @@ Where is the variation?
 NMN
 
 
- * __LEXICON NMN_ӇЭ-OLD__ ӈэ:ӈэ 1  ProsSg -вна
+ * __LEXICON NMN_ҢЭ-OLD__ ңэ:ңэ 1  ProsSg -вна
  * __SG-ACC-STEM ;__ SGACCSUF, SGGENSUF
  * __SG-NOM-STEM ;__ SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
  * __PLNOMSUF ;__ 
@@ -1067,7 +1059,7 @@ Conjugation of nouns and adjectives
 
 
 
- * __LEXICON IV_ӇЭ__ ӈэсь:ӈэ
+ * __LEXICON IV_ҢЭ__ ңэсь:ңэ
 
 
 
@@ -1126,7 +1118,7 @@ Conjugation of nouns and adjectives
 
 
 !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * __LEXICON IV_МАН__ манзь:ма%{нӈʼØ%}
+ * __LEXICON IV_МАН__ манзь:ма%{нңʼØ%}
 * Yaml: __manzj__
 
 
@@ -1148,7 +1140,7 @@ Conjugation of nouns and adjectives
  * __LEXICON IV_НЭКАЛ__ 
 
 
- * __LEXICON IV_ӇАДИМ/ӇАРАМ__ 2013-12-16
+ * __LEXICON IV_ҢАДИМ/ҢАРАМ__ 2013-12-16
 
 
 
@@ -1212,7 +1204,7 @@ V_refl 2013-03-04
  *  PRC-NEG ; 	+PrcNeg +PrcFut
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
- * __ V_Fut_ӇГУ ; __ is this the stem to use for +Fut+Mod/prob
+ * __ V_Fut_ҢГУ ; __ is this the stem to use for +Fut+Mod/prob
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
@@ -1262,7 +1254,7 @@ V_refl 2013-03-04  а > ы (ъя before х)
 V_refl 2013-03-04
 
 !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * __LEXICON V-01_МАН__ манзь:ма%{нӈʼØ%}
+ * __LEXICON V-01_МАН__ манзь:ма%{нңʼØ%}
 * Yaml: __manzj__
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -1770,8 +1762,8 @@ no vowel loss in stem
 
 
 !!Letters of the alphabet
- * __а б в г д е ё ж з и й к л м н ӈ о п р с т у ф х ц ч ш щ ъ ы ь э ю я__ 
- * __А Б В Г Д Е Ё Ж З И Й К Л М Н Ӈ О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я__ 
+ * __а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я__ 
+ * __А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я__ 
 
  * __°:0__ Directly from Tapani Salminen extra short vowel
 
@@ -1794,15 +1786,15 @@ no vowel loss in stem
 
 !!Archiphonemes for glottals
 
- *  %{нӈʼØ%}:ʼ   
- *  %{нӈʼØ%}:н   
- *  %{нӈʼØ%}:0   
- *  %{йнӈъʼØ%}:й   
- *  %{йнӈъʼØ%}:н   
- *  %{йнӈъʼØ%}:ӈ   
- *  %{йнӈъʼØ%}:ъ   
- *  %{йнӈъʼØ%}:ʼ   
- *  %{йнӈъʼØ%}:0   
+ *  %{нңʼØ%}:ʼ   
+ *  %{нңʼØ%}:н   
+ *  %{нңʼØ%}:0   
+ *  %{йнңъʼØ%}:й   
+ *  %{йнңъʼØ%}:н   
+ *  %{йнңъʼØ%}:ң   
+ *  %{йнңъʼØ%}:ъ   
+ *  %{йнңъʼØ%}:ʼ   
+ *  %{йнңъʼØ%}:0   
  *  %{дˮØ%}:ˮ   
  *  %{дˮØ%}:д   
  *  %{дˮØ%}:0   
@@ -1869,18 +1861,18 @@ hash
 
 
 __к: -> г after nasal glottal__
-* __му%{нӈʼØ%}%>кʼ__
-* __муӈ%>гʼ__
+* __му%{нңʼØ%}%>кʼ__
+* __муң%>гʼ__
 
-* __ил°%{йнӈъʼØ%}%>к°ʼ__
-* __илаӈ%>г0ʼ__
+* __ил°%{йнңъʼØ%}%>к°ʼ__
+* __илаң%>г0ʼ__
 
 
-__ӈум%{йнӈъʼØ%}%>к°н%{ая%} examples:__
+__ңум%{йнңъʼØ%}%>к°н%{ая%} examples:__
 
-__ӈум0%>г0на examples:__
+__ңум0%>г0на examples:__
 
-__ӈум0%>гана examples:__
+__ңум0%>гана examples:__
 
 __к: to х after Vowels__
 
@@ -1898,65 +1890,65 @@ __намд00%>хав examples:__
 
 __nTod__
 
-__му%{нӈʼØ%}%^SCSG2%>нʼ examples:__
+__му%{нңʼØ%}%^SCSG2%>нʼ examples:__
 
 __мун0%>дʼ examples:__
 
-__ӈум%{йнӈъʼØ%}%^SCSG2%>нʼ examples:__
+__ңум%{йнңъʼØ%}%^SCSG2%>нʼ examples:__
 
-__ӈум00%>дʼ examples:__
+__ңум00%>дʼ examples:__
 
-__ӈум%{йнӈъʼØ%}%^SCSG2%>н°ʼ examples:__
+__ңум%{йнңъʼØ%}%^SCSG2%>н°ʼ examples:__
 
-__ӈум00%>д0ʼ examples:__
+__ңум00%>д0ʼ examples:__
 
-__%{нӈʼØ%}:н GlottalNasalToSurface__
+__%{нңʼØ%}:н GlottalNasalToSurface__
 
-__му%{нӈʼØ%}%>нд examples:__
+__му%{нңʼØ%}%>нд examples:__
 
 __мун%>0д examples:__
 
-__му%{нӈʼØ%}%>сь examples:__
+__му%{нңʼØ%}%>сь examples:__
 
 __мун0%>зь examples:__
 
 
-__му%{нӈʼØ%}%^SCSG2%>нʼ examples:__
+__му%{нңʼØ%}%^SCSG2%>нʼ examples:__
 
 __мун0%>дʼ examples:__
 
-__%{нӈʼØ%}:ӈ GlottalNasalToSurface__
+__%{нңʼØ%}:ң GlottalNasalToSurface__
 
-__му%{нӈʼØ%}%>кʼ examples:__
+__му%{нңʼØ%}%>кʼ examples:__
 
-__муӈ%>гʼ examples:__
+__муң%>гʼ examples:__
 
-__%{йнӈъʼØ%}:ӈ GlottalNasalToSurface__
+__%{йнңъʼØ%}:ң GlottalNasalToSurface__
 
-__ил°%{йнӈъʼØ%}%>к°ʼ examples:__
+__ил°%{йнңъʼØ%}%>к°ʼ examples:__
 
-__илаӈ%>г0ʼ examples:__
+__илаң%>г0ʼ examples:__
 
-__%{йнӈъʼØ%}:н GlottalNasalToSurface__
+__%{йнңъʼØ%}:н GlottalNasalToSurface__
 
-__ил°%{йнӈъʼØ%}%^SCSG2%>н examples:__
+__ил°%{йнңъʼØ%}%^SCSG2%>н examples:__
 
 __илан0%>д examples:__
 
 
-__ила%{йнӈъʼØ%}%>сиˮ examples:__
+__ила%{йнңъʼØ%}%>сиˮ examples:__
 
 __илан%>зиˮ examples:__
 
-__ил°%{йнӈъʼØ%}%>н°ʼ examples:__
+__ил°%{йнңъʼØ%}%>н°ʼ examples:__
 
 __илан%>д0ʼ examples:__
 
-__ил°%{йнӈъʼØ%}%>дмʼ examples:__
+__ил°%{йнңъʼØ%}%>дмʼ examples:__
 
 __илан%>дмʼ examples:__
 
-__ил°%{йнӈъʼØ%}%>д°в° examples:__
+__ил°%{йнңъʼØ%}%>д°в° examples:__
 
 __илан%>дав0 examples:__
 
@@ -1967,66 +1959,66 @@ __илан%>дув0 examples:__
 __ил0н%>дув0 examples:__
 
 
-__%{йнӈъʼØ%}:ъ GlottalNasalToSurface__
+__%{йнңъʼØ%}:ъ GlottalNasalToSurface__
 
-__ил°%{йнӈъʼØ%}е examples:__
+__ил°%{йнңъʼØ%}е examples:__
 
 __ил0ъе examples:__
 
-__%{нӈʼØ%}:0 GlottalNasalToSurface__
+__%{нңʼØ%}:0 GlottalNasalToSurface__
 
-__му%{нӈʼØ%}%>мд examples:__
+__му%{нңʼØ%}%>мд examples:__
 
 __му0%>нд examples:__
 
-__му%{нӈʼØ%}%>м°н%{ая%} examples:__
+__му%{нңʼØ%}%>м°н%{ая%} examples:__
 
 __му0%>м0на examples:__
 
 
-__%{йнӈъʼØ%}:0 GlottalNasalToSurface__
+__%{йнңъʼØ%}:0 GlottalNasalToSurface__
 
-__ил°%{йнӈъʼØ%}%^SCSG2%>н examples:__
+__ил°%{йнңъʼØ%}%^SCSG2%>н examples:__
 
 __илан0%>д examples:__
 
 
 
-__ил°%{йнӈъʼØ%}%>°ˮ examples:__
+__ил°%{йнңъʼØ%}%>°ˮ examples:__
 
 __ила0%>0ˮ examples:__
 
-__ил°%{йнӈъʼØ%}%>°ць° examples:__
+__ил°%{йнңъʼØ%}%>°ць° examples:__
 
 __ила0%>0ць0 examples:__
 
-__ил°%{йнӈъʼØ%}%>м°н%{ая%} examples:__
+__ил°%{йнңъʼØ%}%>м°н%{ая%} examples:__
 
 __ил00%>мана examples:__
 
-__ил°%{йнӈъʼØ%}%>н° examples:__
+__ил°%{йнңъʼØ%}%>н° examples:__
 
 __ила0%>н0 examples:__
 
-__ил°%{йнӈъʼØ%}%>%{рл%}° examples:__
+__ил°%{йнңъʼØ%}%>%{рл%}° examples:__
 
 __ила0%>л0 examples:__
 
-__ил°%{йнӈъʼØ%}%>мд° examples:__
+__ил°%{йнңъʼØ%}%>мд° examples:__
 
 __ила0%>нд0 examples:__
 
-__ӈум%{йнӈъʼØ%}%>мʼ examples:__
+__ңум%{йнңъʼØ%}%>мʼ examples:__
 
-__ӈув0%>мʼ examples:__
+__ңув0%>мʼ examples:__
 
-__ӈум%{йнӈъʼØ%}%^SCSG2%>нʼ examples:__
+__ңум%{йнңъʼØ%}%^SCSG2%>нʼ examples:__
 
-__ӈум00%>дʼ examples:__
+__ңум00%>дʼ examples:__
 
-__ӈум%{йнӈъʼØ%}%>0ць examples:__
+__ңум%{йнңъʼØ%}%>0ць examples:__
 
-__ӈув0%>аць examples:__
+__ңув0%>аць examples:__
 
 
 
@@ -2164,7 +2156,7 @@ __тарˮ%>ни examples:__
 __тар0%>ни examples:__
 
 
-__%{нӈʼØ%}:ʼ UnderlyingToGlottal__
+__%{нңʼØ%}:ʼ UnderlyingToGlottal__
 
 
 __с => ц affrication after Stop__
@@ -2180,21 +2172,21 @@ __ман00%>циˮ examples:__
 
 __с => з after nasal__
 
-__му%{нӈʼØ%}%>сь examples:__
+__му%{нңʼØ%}%>сь examples:__
 
 __мун0%>зь examples:__
 
-__ила%{йнӈъʼØ%}%>сиˮ examples:__
+__ила%{йнңъʼØ%}%>сиˮ examples:__
 
 __илан%>зиˮ examples:__
 
-__ил°%{йнӈъʼØ%}%>сиˮ examples:__
+__ил°%{йнңъʼØ%}%>сиˮ examples:__
 
 __ил0н%>зиˮ examples:__
 
-__ӈум%{йнӈъʼØ%}%>сиˮ examples:__
+__ңум%{йнңъʼØ%}%>сиˮ examples:__
 
-__ӈум0%>зиˮ examples:__
+__ңум0%>зиˮ examples:__
 
 __v To m __
 
@@ -2218,15 +2210,15 @@ __%{рл%}:р__
 __0:а in single-syllable__
 * __ман°С1%>0в__
 * __манаˮ%>ам__
-* __ӈум%{йнӈъʼØ%}%>0ць__
-* __ӈув0%>аць__
+* __ңум%{йнңъʼØ%}%>0ць__
+* __ңув0%>аць__
 __°:а at end of stem__
 
 __ед°%^SCSG2%>нʼ examples:__
 
 __еда0%>нʼ examples:__
 
-__ил°%{йнӈъʼØ%}%>мʼ examples:__
+__ил°%{йнңъʼØ%}%>мʼ examples:__
 
 __ила0%>мʼ examples:__
 
@@ -2247,9 +2239,9 @@ __ман°С1%^SCSG2%>нʼ examples:__
 __мана00%>тʼ examples:__
 
 
-__ил°%{йнӈъʼØ%}%>кʼ examples:__
+__ил°%{йнңъʼØ%}%>кʼ examples:__
 
-__илаӈ%>гʼ examples:__
+__илаң%>гʼ examples:__
 
 __ʼ:н__
 
@@ -2280,9 +2272,9 @@ __ә:э in extra short to э__
 
 __ә:а in extra short to а__
 
-__ил°%{йнӈъʼØ%}%>кәд examples:__
+__ил°%{йнңъʼØ%}%>кәд examples:__
 
-__ил0ӈ0гад examples:__
+__ил0ң0гад examples:__
 
 
 __0:а in Pros__
@@ -2318,9 +2310,9 @@ __хан0в0 examples:__
 
 __0:э in Pros__
 
-__ӈэ%>ˮ0м°н%{ая%} examples:__
+__ңэ%>ˮ0м°н%{ая%} examples:__
 
-__ӈэ0ˮэм0на examples:__
+__ңэ0ˮэм0на examples:__
 
 __0:о between two glottals__
 
@@ -2340,15 +2332,15 @@ __си0ˮим0на examples:__
 
 __0:ы between two glottals__
 
-__ӈы%>ˮ0м°н%{ая%} examples:__
+__ңы%>ˮ0м°н%{ая%} examples:__
 
-__ӈы0ˮым0на examples:__
+__ңы0ˮым0на examples:__
 
 __0:у between two glottals__
 
-__ӈу%>ˮ0м°н%{ая%} examples:__
+__ңу%>ˮ0м°н%{ая%} examples:__
 
-__ӈу0ˮум0на examples:__
+__ңу0ˮум0на examples:__
 
 
 
@@ -2412,9 +2404,9 @@ __мя%{дˮØ%}%>%{ауоэØ%}л examples:__
 
 __мяˮ0ал examples:__
 
-__му%{нӈʼØ%}%>к%{ауоэØ%}на  examples:__
+__му%{нңʼØ%}%>к%{ауоэØ%}на  examples:__
 
-__муӈ0гана examples:__
+__муң0гана examples:__
 
 __ед°%>к%{ауоэØ%}на examples:__
 
@@ -2451,18 +2443,18 @@ __хадэби000н examples:__
 __a:o in я__
 
 
-__a:i in мараӈгы__
+__a:i in мараңгы__
 
 __яˮавла%^A2I%>дмʼ examples:__
 
 __яˮавлы00дмʼ examples:__
 
 
-__a:i in ӈуда__
+__a:i in ңуда__
 
-__ӈуда%^A2I examples:__
+__ңуда%^A2I examples:__
 
-__ӈуди0 examples:__
+__ңуди0 examples:__
 
 __хадаба%^StemVowFronting%^A2I%>н examples:__
 
@@ -2479,9 +2471,9 @@ __пя%^A2I examples:__
 
 __пи0 examples:__
 
-__ӈодя%^A2I examples:__
+__ңодя%^A2I examples:__
 
-__ӈоди0 examples:__
+__ңоди0 examples:__
 
 __я:е in яха__
 
@@ -2530,28 +2522,28 @@ __хана0в0 examples:__
 
 __хану0в0 examples:__
 
-__ӈум%{йнӈъʼØ%}%>0ць examples:__
+__ңум%{йнңъʼØ%}%>0ць examples:__
 
-__ӈув00аць examples:__
+__ңув00аць examples:__
 
-__ӈум%{йнӈъʼØ%}%>°мʼ examples:__
+__ңум%{йнңъʼØ%}%>°мʼ examples:__
 
-__ӈув000мʼ examples:__
+__ңув000мʼ examples:__
 
-__ӈум%^MLenition%>о examples:__
+__ңум%^MLenition%>о examples:__
 
-__ӈув00о examples:__
+__ңув00о examples:__
 
 
 
 
 __m loss before Labial followed by nonglottal cons or vows __
 
-__му%{нӈʼØ%}%>мд examples:__
+__му%{нңʼØ%}%>мд examples:__
 
 __мун00д examples:__
 
-__по%{йнӈъʼØ%}%>мд° examples:__
+__по%{йнңъʼØ%}%>мд° examples:__
 
 __пон00д0 examples:__
 
@@ -2559,17 +2551,17 @@ __мя%{дˮØ%}%>мд° examples:__
 
 __мя000т0 examples:__
 
-__ӈум%{йнӈъʼØ%}%>м°н%{ая%} examples:__
+__ңум%{йнңъʼØ%}%>м°н%{ая%} examples:__
 
-__ӈу000м0на examples:__
+__ңу000м0на examples:__
 
 __н loss after glottal before д: __
 
-__му%{нӈʼØ%}%>нд examples:__
+__му%{нңʼØ%}%>нд examples:__
 
 __мун00д examples:__
 
-__по%{йнӈъʼØ%}%>нд° examples:__
+__по%{йнңъʼØ%}%>нд° examples:__
 
 __пон00д0 examples:__
 
@@ -2577,7 +2569,7 @@ __мя%{дˮØ%}%>нд° examples:__
 
 __мя000т0 examples:__
 
-__ил°%{йнӈъʼØ%}%>нд%{ая%} examples:__
+__ил°%{йнңъʼØ%}%>нд%{ая%} examples:__
 
 __ил0н00да examples:__
 
@@ -2608,7 +2600,7 @@ __сыл00хавы examples:__
 
 
 __r To 0 before glottal and р or л__
-т:д <=>   %{нӈʼØ%}: %> _ а ;
+т:д <=>   %{нңʼØ%}: %> _ а ;
 
 __n to t after non-nasal glottal__
 
@@ -2620,7 +2612,7 @@ __ман°С1%^SCSG2%>нʼ examples:__
 
 __мана000тʼ examples:__
 
-__сыр%{йнӈъʼØ%}%>нарахав examples:__
+__сыр%{йнңъʼØ%}%>нарахав examples:__
 
 __сыр00тарахав examples:__
 
@@ -2669,9 +2661,9 @@ __сырˮ%>бˮ examples:__
 __сыр00пˮ examples:__
 
 
-__ӈ:0 Before в:м +Sg+Acc+PxPl1:%>ваˮ__
+__ң:0 Before в:м +Sg+Acc+PxPl1:%>ваˮ__
 
-__илӈ%>ваˮ examples:__
+__илң%>ваˮ examples:__
 
 __ил00маˮ examples:__
 
