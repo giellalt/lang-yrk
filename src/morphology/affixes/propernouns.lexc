@@ -7,11 +7,11 @@ LEXICON PROP_
 +WORK+N+Prop: K ; ! This will need to be elaborated to other noun types.
 
 !! !ONE-SYLLABLE VOWEL-FINAL STEM
-LEXICON PROP_ӇЭ
-+N+Prop: NMN_ӇЭ ;
+LEXICON PROP_ҢЭ
++N+Prop: NMN_ҢЭ ;
 
-LEXICON PROP_ӇЭ-Pal/Var
-+N+Prop:%^PalVariation NMN_ӇЭ ;
+LEXICON PROP_ҢЭ-Pal/Var
++N+Prop:%^PalVariation NMN_ҢЭ ;
 
 !! !ONE-SYLLABLE CONSONANT-FINAL STEM
 LEXICON PROP_ЕД
@@ -28,17 +28,17 @@ LEXICON PROP_ХАНО !!≈ * __@CODE@__ хӑн: 11P ProsSg -увна
 ! хӑн xən°     хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
 +N+Prop: NMN_ХАНО ;
 
-LEXICON PROP_ӇУДИ
-+N+Prop: NMN_ӇУДИ ;
+LEXICON PROP_ҢУДИ
++N+Prop: NMN_ҢУДИ ;
 
-LEXICON PROP_ӇОДИ
-+N+Prop: NMN_ӇОДИ ;
+LEXICON PROP_ҢОДИ
++N+Prop: NMN_ҢОДИ ;
 
-LEXICON PROP_ӇАНУ
-+N+Prop: NMN_ӇАНУ ;
+LEXICON PROP_ҢАНУ
++N+Prop: NMN_ҢАНУ ;
 
 LEXICON PROP_МЕРЁ
-+N+Prop: NMN_ӇАНУ ;
++N+Prop: NMN_ҢАНУ ;
 
 LEXICON PROP_ЯЛЭ  !!≈ * __@CODE@__ яля: 18 ProsSg -вна
 !! /total=2/
@@ -77,12 +77,12 @@ LEXICON PROP_ХАСЕВ  !!≈ * __@CODE@__ хасава: 22 ProsSg -вна
 LEXICON PROP_ХУСУВЭЙ
 +N+Prop: NMN_ХУСУВЭЙ ;
 
-LEXICON PROP_ВЫӇО
-+N+Prop: NMN_ВЫӇО ;
+LEXICON PROP_ВЫҢО
++N+Prop: NMN_ВЫҢО ;
 
 !! !THREE-SYLLABLE VOWEL-FINAL STEM
-LEXICON PROP_МАРАӇГЫ
-+N+Prop: NMN_МАРАӇГЫ ;
+LEXICON PROP_МАРАҢГЫ
++N+Prop: NMN_МАРАҢГЫ ;
 
 LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
     PROP_ ;
