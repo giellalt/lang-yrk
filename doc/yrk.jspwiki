@@ -579,7 +579,6 @@ Yaml: __nyenecyh__
  * __LEXICON N_СЕРО__ серˮ: 32   ProsSg -мана / -мня
 
  * __LEXICON N_ТАРЕ__ тӑрˮ:тар 33   ProsSg -мня
-Vowel variation
 
  * __LEXICON N_МАНСО__ мӑнˮ: 34   ProsSg -мна
 
@@ -590,7 +589,6 @@ Yaml: __myadoTS__
 
  * __LEXICON N_ИДЕ__ иˮ: 36   ProsSg -мна
 Yaml: __yidye__
- * __!:%{дˮØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
@@ -869,11 +867,9 @@ SINUGLAR CASES
 
 
 
- * __!LEXICON POSSESSA-SG-4-EVAS__ ABL
 
 
 The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
-This line must be removed 2013-03-20
 
 
 
@@ -898,7 +894,6 @@ Dual possessa
 
 Plural Possessa
 
- *  Could +Sg+Nom+PxSg3:%>да be the basis?
 
 
 
@@ -1128,7 +1123,6 @@ Conjugation of nouns and adjectives
 
 
  * LEXICON TV_САС  манэць:манэ
-  * Yaml: __V-manecj__
 
 
 
@@ -1223,7 +1217,6 @@ has vowel loss
 
 
 
-V_refl 
 
 * Yaml: __V-xadabasj__
 
@@ -1251,7 +1244,6 @@ V_refl 2013-03-04  а > ы (ъя before х)
  *  PRC-NEG ; 	+PrcNeg +PrcFut
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
-V_refl 2013-03-04
 
 !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  * __LEXICON V-01_МАН__ манзь:ма%{нңʼØ%} 
@@ -1265,13 +1257,11 @@ V_refl 2013-03-04
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
  * LEXICON V-01_САС  манэць:манэ
-  * Yaml: __V-manecj__
 
  * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
 
 
  * __LEXICON V-NEW_ТИР__
-  * Yaml: __V-sircj__
 
 
 
@@ -1516,7 +1506,6 @@ no vowel loss in stem
 
 
 
-  * Yaml: __V-laxanasj__
 
 
 
@@ -2048,7 +2037,6 @@ __тар%^PalVariation%{дˮØ%}%>%{рл%}° examples:__
 
 __та000%>л0 examples:__
 
-__%{дˮØ%}:0 GlottalNonNasalToZERO LEFT__
 
 __мя%{дˮØ%}%>мд° examples:__
 
@@ -2135,7 +2123,6 @@ __тар%{дˮØ%} examples:__
 
 __тарˮ examples:__
 
-__%{дˮØ%}:ˮ UnderlyingToGlottal LEFT__
 
 __тар%{дˮØ%} examples:__
 
@@ -2599,8 +2586,6 @@ __сыр%>рхавы examples:__
 __сыл00хавы examples:__
 
 
-__r To 0 before glottal and р or л__
-т:д <=>   %{нңʼØ%}: %> _ а ;
 
 __n to t after non-nasal glottal__
 
