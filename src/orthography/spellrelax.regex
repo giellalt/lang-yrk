@@ -2,7 +2,7 @@
 
 # Glottal stop spellrelax
 # These need to be changed 2016-05-26
- Ң (->) Н г, # 04A2 not two letters
+[Ң (->) Н г, # 04A2 not two letters
  ң (->) н г, # 04A3 not two letters
  Ң (->) Ҥ, # U+04A2 not 04A4 
  ң (->) ҥ, # U+04A3 not 04A5
@@ -11,32 +11,42 @@
 # U+E404 CYRILLIC LETTER E WITH DOT ABOVE
 # U+E405 CYRILLIC SMALL LETTER E WITH DOT ABOVE
 # These are not reliably distinguished by writers, so just everything to everything.
- ˮ (->) %", # 02EE not quot " U+0022 
+ ˮ (->) %"  , # 02EE not quot " U+0022 
  ˮ (->) %'%', # 02EE not two apostr U+0027 U+0027 
- ˮ (->) %”, # 02EE not (high nine) RIGHT DOUBLE QUOTATION MARK U+201D
+ ˮ (->) %”  , # 02EE not (high nine) RIGHT DOUBLE QUOTATION MARK U+201D
  ˮ (->) %’%’, # 02EE not (high nine) two RIGHT SINGLE QUOTATION MARKS U+2019
- ˮ (->)  %’, # 02EE not (high-9) RIGHT SINGLE QUOTATION MARK U+2019 1937-1960
- ʼ (->) %", # 02EE not quot " U+0022 
+ ˮ (->) %’  , # 02EE not (high-9) RIGHT SINGLE QUOTATION MARK U+2019 1937-1960
+ ʼ (->) %"  , # 02EE not quot " U+0022 
  ʼ (->) %'%', # 02EE not two apostr U+0027 U+0027 
- ʼ (->) %”, # 02EE not (high nine) RIGHT DOUBLE QUOTATION MARK U+201D
+ ʼ (->) %”  , # 02EE not (high nine) RIGHT DOUBLE QUOTATION MARK U+201D
  ʼ (->) %’%’, # 02EE not (high nine) two RIGHT SINGLE QUOTATION MARKS U+2019
- ʼ (->)  %’, # 02EE not (high-9) RIGHT SINGLE QUOTATION MARK U+2019 1937-1960
- ˮ (->)  %', # 02bc not apostr u+0027 (should the apostrophe be commented out?)
- ˮ (->)  ‘, # 02bc not high-6 u+2018
- ˮ (->)  %’, # 02bc not (high-9) right single quotation mark u+2019
- ˮ (->) %´, # 02bc not acute u+00b4
- ˮ (->) %`,  #  02bc not grave u+0060
- ʼ (->)  %', # 02bc not apostr u+0027 (should the apostrophe be commented out?)
- ʼ (->)  ‘, # 02bc not high-6 u+2018
- ʼ (->)  %’, # 02bc not (high-9) right single quotation mark u+2019
- ʼ (->) %´, # 02bc not acute u+00b4
- ʼ (->) %`,  #  02bc not grave u+0060
+ ʼ (->) %’  , # 02EE not (high-9) RIGHT SINGLE QUOTATION MARK U+2019 1937-1960
+ ˮ (->) %'  , # 02bc not apostr u+0027 (should the apostrophe be commented out?)
+ ˮ (->) ‘   , # 02bc not high-6 u+2018
+ ˮ (->) %’  , # 02bc not (high-9) right single quotation mark u+2019
+ ˮ (->) %´  , # 02bc not acute u+00b4
+ ˮ (->) %`  , #  02bc not grave u+0060
+ ʼ (->) %'  , # 02bc not apostr u+0027 (should the apostrophe be commented out?)
+ ʼ (->) ‘   , # 02bc not high-6 u+2018
+ ʼ (->) %’  , # 02bc not (high-9) right single quotation mark u+2019
+ ʼ (->) %´  , # 02bc not acute u+00b4
+ ʼ (->) %`  ] #  02bc not grave u+0060
+.o.
+
 # Eastern dialect differences
- т и (->) ч и || .#. _ .o. ц и (->) ч и || .#. ?+ _ .o.
- т у (->) ч у || .#. _ .o. ц ь у (->) ч у || .#. ?+ _ .o.
- т а (->) ч а || .#. _ .o. ц ь а (->) ч а || .#. ?+ _ .o.
- т ь (->) ч ь || .#. _ .o. ц ь (->) ч ь || .#. ?+ _ .o.
- т е (->) ч е || .#. _ .o. ц е (->) ч е || .#. ?+ _ 
+[т и (->) ч и ,
+ т у (->) ч у ,
+ т а (->) ч а ,
+ т ь (->) ч ь ,
+ т е (->) ч е || .#. _ ]
+
+.o.
+
+[ц и   (->) ч и ,
+ ц ь у (->) ч у ,
+ ц ь а (->) ч а ,
+ ц ь   (->) ч ь ,
+ ц е   (->) ч е || .#. ?+ _ ]
 ;
 
 # Explanation:
