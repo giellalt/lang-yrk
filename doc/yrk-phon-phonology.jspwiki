@@ -55,7 +55,7 @@
 !!triggers
 
  *  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- *  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ *  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
  *  %^A2O:0      
  *  %^A2I:0        
 
@@ -288,6 +288,7 @@ __тар%^PalVariation%{дˮØ%}%>%{рл%}° examples:__
 
 __та000%>л0 examples:__
 
+__%{дˮØ%}:0 GlottalNonNasalToZERO LEFT__
 
 __мя%{дˮØ%}%>мд° examples:__
 
@@ -374,6 +375,7 @@ __тар%{дˮØ%} examples:__
 
 __тарˮ examples:__
 
+__%{дˮØ%}:ˮ UnderlyingToGlottal LEFT__
 
 __тар%{дˮØ%} examples:__
 
@@ -837,6 +839,8 @@ __сыр%>рхавы examples:__
 __сыл00хавы examples:__
 
 
+__r To 0 before glottal and р or л__
+т:д <=>   %{нңʼØ%}: %> _ а ;
 
 __n to t after non-nasal glottal__
 
