@@ -34,7 +34,7 @@ Tests:
      манˮ+N+Pl+Abl: манкат
      манˮ+N+Pl+Pros: мансоˮмна
 #     манˮ+N+Sg+Nom+PxSg1: [манаˮм, манˮми]
-     манˮ+N+Sg+Nom+PxSg1: [манаˮам, манˮми] # This in theory should equal +Der/Pr+V+Ind+Aor+ScSg3
+     манˮ+N+Sg+Nom+PxSg1: [манаˮам, манˮми] # This in theory should equal +Der/Cop+Ind+Aor+ScSg3
 #     манˮ+N+Sg+Nom+PxSg1: манˮми #+Use/SpellNoSugg
 #     манˮ+N+Sg+Acc+PxSg1: [манаˮм, манˮми]
      манˮ+N+Sg+Acc+PxSg1: [манаˮам, манˮми] # This in theory should equal +N+Sg+Nom+PxSg1
@@ -236,78 +236,78 @@ Tests:
      манˮ+N+Pred+Nom+PxPl3: мантадоʼ
      манˮ+N+Pred+Acc+PxPl3: мантамдоʼ
      манˮ+N+Pred+Gen+PxPl3: мантандоʼ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg1: манатмʼ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg2: манат
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScSg3: манˮ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu1: манˮниʼ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu2: мантиʼ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScDu3: манакʼ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl1: манˮмаˮ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl2: мантаˮ
-     манˮ+N+Nom+Der/Pr+V+Ind+Aor+ScPl3: манасˮ
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg1: мантамзь
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg2: мантась
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScSg3: манаць
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu1: манˮнинзь
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu2: мантинзь
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScDu3: манканзь
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl1: манˮмаць
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl2: мантаць
-     манˮ+N+Nom+Der/Pr+V+Ind+Prt1+ScPl3: мансаць
-     манˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3: манаˮам
-     манˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScSg3: манаˮал
-     манˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScSg3: манта
-     манˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScSg3: манˮмиʼ
-     манˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScSg3: манˮлиʼ
-     манˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScSg3: мантиʼ
-     манˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScSg3: манˮмаˮ
-     манˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScSg3: манˮлаˮ
-     манˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScSg3: мантоʼ
-     манˮ+N+Sg+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScSg3: манˮмась
-     манˮ+N+Sg+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScSg3: манˮлась
-     манˮ+N+Sg+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScSg3: мантась
-     манˮ+N+Sg+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScSg3: манˮминзь
-     манˮ+N+Sg+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScSg3: манˮлинзь
-     манˮ+N+Sg+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScSg3: мантинзь
-     манˮ+N+Sg+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScSg3: манˮмаць
-     манˮ+N+Sg+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScSg3: манˮлаць
-     манˮ+N+Sg+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScSg3: мантонзь
-     манˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScDu3: манкаюн
-     манˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScDu3: манкаюд
-     манˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScDu3: манкаюда
-     манˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScDu3: манкаюниʼ
-     манˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScDu3: манкаюдиʼ
-     манˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScDu3: манкаюдиʼ
-     манˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScDu3: манкаюнаˮ
-     манˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScDu3: манкаюдаˮ
-     манˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScDu3: манкаюдоʼ
-     манˮ+N+Du+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScDu3: манкаюнась
-     манˮ+N+Du+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдась
-     манˮ+N+Du+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдась
-     манˮ+N+Du+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScDu3: манкаюнинзь
-     манˮ+N+Du+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдинзь
-     манˮ+N+Du+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдинзь
-     манˮ+N+Du+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScDu3: манкаюнаць
-     манˮ+N+Du+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдаць
-     манˮ+N+Du+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScDu3: манкаюдонзь
-     манˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScPl3: мансон
-     манˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Aor+ScPl3: мансод
-     манˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Aor+ScPl3: мансода
-     манˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3: мансониʼ
-     манˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Aor+ScPl3: мансодиʼ
-     манˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Aor+ScPl3: мансодиʼ
-     манˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Aor+ScPl3: мансонаˮ
-     манˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Aor+ScPl3: мансодаˮ
-     манˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Aor+ScPl3: мансодоʼ
-     манˮ+N+Pl+Nom+PxSg1+Der/Pr+V+Ind+Prt1+ScPl3: мансонась
-     манˮ+N+Pl+Nom+PxSg2+Der/Pr+V+Ind+Prt1+ScPl3: мансодась
-     манˮ+N+Pl+Nom+PxSg3+Der/Pr+V+Ind+Prt1+ScPl3: мансодась
-     манˮ+N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Prt1+ScPl3: мансонинзь
-     манˮ+N+Pl+Nom+PxDu2+Der/Pr+V+Ind+Prt1+ScPl3: мансодинзь
-     манˮ+N+Pl+Nom+PxDu3+Der/Pr+V+Ind+Prt1+ScPl3: мансодинзь
-     манˮ+N+Pl+Nom+PxPl1+Der/Pr+V+Ind+Prt1+ScPl3: мансонаць
-     манˮ+N+Pl+Nom+PxPl2+Der/Pr+V+Ind+Prt1+ScPl3: мансодаць
-     манˮ+N+Pl+Nom+PxPl3+Der/Pr+V+Ind+Prt1+ScPl3: мансодонзь
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScSg1: манатмʼ
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScSg2: манат
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScSg3: манˮ
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScDu1: манˮниʼ
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScDu2: мантиʼ
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScDu3: манакʼ
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScPl1: манˮмаˮ
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScPl2: мантаˮ
+     манˮ+N+Nom+Der/Cop+Ind+Aor+ScPl3: манасˮ
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScSg1: мантамзь
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScSg2: мантась
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScSg3: манаць
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScDu1: манˮнинзь
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScDu2: мантинзь
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScDu3: манканзь
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScPl1: манˮмаць
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScPl2: мантаць
+     манˮ+N+Nom+Der/Cop+Ind+Prt1+ScPl3: мансаць
+     манˮ+N+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3: манаˮам
+     манˮ+N+Sg+Nom+PxSg2+Der/Cop+Ind+Aor+ScSg3: манаˮал
+     манˮ+N+Sg+Nom+PxSg3+Der/Cop+Ind+Aor+ScSg3: манта
+     манˮ+N+Sg+Nom+PxDu1+Der/Cop+Ind+Aor+ScSg3: манˮмиʼ
+     манˮ+N+Sg+Nom+PxDu2+Der/Cop+Ind+Aor+ScSg3: манˮлиʼ
+     манˮ+N+Sg+Nom+PxDu3+Der/Cop+Ind+Aor+ScSg3: мантиʼ
+     манˮ+N+Sg+Nom+PxPl1+Der/Cop+Ind+Aor+ScSg3: манˮмаˮ
+     манˮ+N+Sg+Nom+PxPl2+Der/Cop+Ind+Aor+ScSg3: манˮлаˮ
+     манˮ+N+Sg+Nom+PxPl3+Der/Cop+Ind+Aor+ScSg3: мантоʼ
+     манˮ+N+Sg+Nom+PxSg1+Der/Cop+Ind+Prt1+ScSg3: манˮмась
+     манˮ+N+Sg+Nom+PxSg2+Der/Cop+Ind+Prt1+ScSg3: манˮлась
+     манˮ+N+Sg+Nom+PxSg3+Der/Cop+Ind+Prt1+ScSg3: мантась
+     манˮ+N+Sg+Nom+PxDu1+Der/Cop+Ind+Prt1+ScSg3: манˮминзь
+     манˮ+N+Sg+Nom+PxDu2+Der/Cop+Ind+Prt1+ScSg3: манˮлинзь
+     манˮ+N+Sg+Nom+PxDu3+Der/Cop+Ind+Prt1+ScSg3: мантинзь
+     манˮ+N+Sg+Nom+PxPl1+Der/Cop+Ind+Prt1+ScSg3: манˮмаць
+     манˮ+N+Sg+Nom+PxPl2+Der/Cop+Ind+Prt1+ScSg3: манˮлаць
+     манˮ+N+Sg+Nom+PxPl3+Der/Cop+Ind+Prt1+ScSg3: мантонзь
+     манˮ+N+Du+Nom+PxSg1+Der/Cop+Ind+Aor+ScDu3: манкаюн
+     манˮ+N+Du+Nom+PxSg2+Der/Cop+Ind+Aor+ScDu3: манкаюд
+     манˮ+N+Du+Nom+PxSg3+Der/Cop+Ind+Aor+ScDu3: манкаюда
+     манˮ+N+Du+Nom+PxDu1+Der/Cop+Ind+Aor+ScDu3: манкаюниʼ
+     манˮ+N+Du+Nom+PxDu2+Der/Cop+Ind+Aor+ScDu3: манкаюдиʼ
+     манˮ+N+Du+Nom+PxDu3+Der/Cop+Ind+Aor+ScDu3: манкаюдиʼ
+     манˮ+N+Du+Nom+PxPl1+Der/Cop+Ind+Aor+ScDu3: манкаюнаˮ
+     манˮ+N+Du+Nom+PxPl2+Der/Cop+Ind+Aor+ScDu3: манкаюдаˮ
+     манˮ+N+Du+Nom+PxPl3+Der/Cop+Ind+Aor+ScDu3: манкаюдоʼ
+     манˮ+N+Du+Nom+PxSg1+Der/Cop+Ind+Prt1+ScDu3: манкаюнась
+     манˮ+N+Du+Nom+PxSg2+Der/Cop+Ind+Prt1+ScDu3: манкаюдась
+     манˮ+N+Du+Nom+PxSg3+Der/Cop+Ind+Prt1+ScDu3: манкаюдась
+     манˮ+N+Du+Nom+PxDu1+Der/Cop+Ind+Prt1+ScDu3: манкаюнинзь
+     манˮ+N+Du+Nom+PxDu2+Der/Cop+Ind+Prt1+ScDu3: манкаюдинзь
+     манˮ+N+Du+Nom+PxDu3+Der/Cop+Ind+Prt1+ScDu3: манкаюдинзь
+     манˮ+N+Du+Nom+PxPl1+Der/Cop+Ind+Prt1+ScDu3: манкаюнаць
+     манˮ+N+Du+Nom+PxPl2+Der/Cop+Ind+Prt1+ScDu3: манкаюдаць
+     манˮ+N+Du+Nom+PxPl3+Der/Cop+Ind+Prt1+ScDu3: манкаюдонзь
+     манˮ+N+Pl+Nom+PxSg1+Der/Cop+Ind+Aor+ScPl3: мансон
+     манˮ+N+Pl+Nom+PxSg2+Der/Cop+Ind+Aor+ScPl3: мансод
+     манˮ+N+Pl+Nom+PxSg3+Der/Cop+Ind+Aor+ScPl3: мансода
+     манˮ+N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3: мансониʼ
+     манˮ+N+Pl+Nom+PxDu2+Der/Cop+Ind+Aor+ScPl3: мансодиʼ
+     манˮ+N+Pl+Nom+PxDu3+Der/Cop+Ind+Aor+ScPl3: мансодиʼ
+     манˮ+N+Pl+Nom+PxPl1+Der/Cop+Ind+Aor+ScPl3: мансонаˮ
+     манˮ+N+Pl+Nom+PxPl2+Der/Cop+Ind+Aor+ScPl3: мансодаˮ
+     манˮ+N+Pl+Nom+PxPl3+Der/Cop+Ind+Aor+ScPl3: мансодоʼ
+     манˮ+N+Pl+Nom+PxSg1+Der/Cop+Ind+Prt1+ScPl3: мансонась
+     манˮ+N+Pl+Nom+PxSg2+Der/Cop+Ind+Prt1+ScPl3: мансодась
+     манˮ+N+Pl+Nom+PxSg3+Der/Cop+Ind+Prt1+ScPl3: мансодась
+     манˮ+N+Pl+Nom+PxDu1+Der/Cop+Ind+Prt1+ScPl3: мансонинзь
+     манˮ+N+Pl+Nom+PxDu2+Der/Cop+Ind+Prt1+ScPl3: мансодинзь
+     манˮ+N+Pl+Nom+PxDu3+Der/Cop+Ind+Prt1+ScPl3: мансодинзь
+     манˮ+N+Pl+Nom+PxPl1+Der/Cop+Ind+Prt1+ScPl3: мансонаць
+     манˮ+N+Pl+Nom+PxPl2+Der/Cop+Ind+Prt1+ScPl3: мансодаць
+     манˮ+N+Pl+Nom+PxPl3+Der/Cop+Ind+Prt1+ScPl3: мансодонзь
      манˮ+N+Tra: манˮӈэ
      манˮ+N+Car: манциˮ
      манˮ+N+Equ: мантаремʼ

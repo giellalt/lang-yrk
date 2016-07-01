@@ -347,7 +347,7 @@ source and target part-of-speech.
  * __+Der/xxx__
  * __+Der/MWN__ modifier without noun head
  * __+Der/Pr__ this is used with predication of nominals and deverbal modalities
-
+ * _+Der/Cop_ This will replace the nominal conjugation Der/Pr
 
 
 !!Morphophonology
@@ -365,7 +365,7 @@ And the following triggers to control variation:
  * __ {front} __
  * __ {back} __
  * __ %^SCSG2 __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
  * __ %^PalVariation __ This allows for тар%{дˮØ%}%>д%{оё%}нзь
 
 Protoletters for xfst:
