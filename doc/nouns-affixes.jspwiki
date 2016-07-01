@@ -112,6 +112,7 @@ Yaml: __nyenecyh__
  * __LEXICON N_СЕРО__ серˮ: 32   ProsSg -мана / -мня
 
  * __LEXICON N_ТАРЕ__ тӑрˮ:тар 33   ProsSg -мня
+Vowel variation
 
  * __LEXICON N_МАНСО__ мӑнˮ: 34   ProsSg -мна
 
@@ -122,6 +123,7 @@ Yaml: __myadoTS__
 
  * __LEXICON N_ИДЕ__ иˮ: 36   ProsSg -мна
 Yaml: __yidye__
+ * __!:%{дˮØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
@@ -385,7 +387,7 @@ Possessor Indices
 
 
 
- * __+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>в K ;__ 2013-10-22 Should this also have +ScSg3 marking
+ * __+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в K ;__ 2013-10-22 Should this also have +ScSg3 marking
 
 
 
@@ -400,9 +402,11 @@ SINUGLAR CASES
 
 
 
+ * __!LEXICON POSSESSA-SG-4-EVAS__ ABL
 
 
 The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
+This line must be removed 2013-03-20
 
 
 
@@ -427,6 +431,7 @@ Dual possessa
 
 Plural Possessa
 
+ *  Could +Sg+Nom+PxSg3:%>да be the basis?
 
 
 
