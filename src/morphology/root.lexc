@@ -54,6 +54,12 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Rel     !!≈ * __@CODE@__
 +Indef   !!≈ * __@CODE@__
 +Refr    !!≈ * __@CODE@__ referential adverbs
++Qnt
+
++Hom1
++Hom2
++Hom3
++Hom4
 
 
 !! Adv
@@ -216,6 +222,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +Sup 	     !!≈ * __@CODE@__
  +VGen 	     !!≈ * __@CODE@__
  +VAbess     !!≈ * __@CODE@__
+
+ +Fut
 
 !! Abbreviated words are classified with:
 
@@ -538,6 +546,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 Е1  !!≈ * __@CODE@__
 Е2  !!≈ * __@CODE@__
 Ы1  !!≈ * __@CODE@__
+Д1  !!≈ * __@CODE@__
 Ы2  !!≈ * __@CODE@__ = These are for developing underlying morphology rules
 
 !! !!Triggers
@@ -554,6 +563,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  %^HardFronting  !!≈ * __@CODE@__ яля:ялэ
 %-
 %>
+%'
 
 !! We have manually optimised the structure of our lexicon using the following
 !! flag diacritics to restrict morhpological combinatorics:
