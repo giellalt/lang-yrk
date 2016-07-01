@@ -358,7 +358,7 @@ source and target part-of-speech.
  * __+Der/xxx__
  * __+Der/MWN__ modifier without noun head
  * __+Der/Pr__ this is used with predication of nominals and deverbal modalities
-
+ * _+Der/Cop_ This will replace the nominal conjugation Der/Pr
 
 
 !!Morphophonology
@@ -376,7 +376,7 @@ And the following triggers to control variation:
  * __ {front} __
  * __ {back} __
  * __ %^SCSG2 __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Pr+V+Ind+Aor+ScPl3
+ * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
  * __ %^PalVariation __ This allows for тар%{дˮØ%}%>д%{оё%}нзь
 
 Protoletters for xfst:
@@ -582,6 +582,7 @@ Yaml: __nyenecyh__
  * __LEXICON N_СЕРО__ серˮ: 32   ProsSg -мана / -мня
 
  * __LEXICON N_ТАРЕ__ тӑрˮ:тар 33   ProsSg -мня
+Vowel variation
 
  * __LEXICON N_МАНСО__ мӑнˮ: 34   ProsSg -мна
 
@@ -592,6 +593,7 @@ Yaml: __myadoTS__
 
  * __LEXICON N_ИДЕ__ иˮ: 36   ProsSg -мна
 Yaml: __yidye__
+ * __!:%{дˮØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 
 
@@ -855,7 +857,7 @@ Possessor Indices
 
 
 
- * __+Sg+Nom+PxSg1+Der/Pr+V+Ind+Aor+ScSg3:%>в K ;__ 2013-10-22 Should this also have +ScSg3 marking
+ * __+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в K ;__ 2013-10-22 Should this also have +ScSg3 marking
 
 
 
@@ -870,9 +872,11 @@ SINUGLAR CASES
 
 
 
+ * __!LEXICON POSSESSA-SG-4-EVAS__ ABL
 
 
 The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
+This line must be removed 2013-03-20
 
 
 
@@ -897,6 +901,7 @@ Dual possessa
 
 Plural Possessa
 
+ *  Could +Sg+Nom+PxSg3:%>да be the basis?
 
 
 
@@ -1126,6 +1131,7 @@ Conjugation of nouns and adjectives
 
 
  * LEXICON TV_САС  манэць:манэ
+  * Yaml: __V-manecj__
 
 
 
@@ -1220,6 +1226,7 @@ has vowel loss
 
 
 
+V_refl 
 
 * Yaml: __V-xadabasj__
 
@@ -1247,6 +1254,7 @@ V_refl 2013-03-04  а > ы (ъя before х)
  *  PRC-NEG ; 	+PrcNeg +PrcFut
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
+V_refl 2013-03-04
 
 !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  * __LEXICON V-01_МАН__ манзь:ма%{нңʼØ%} 
@@ -1260,11 +1268,13 @@ V_refl 2013-03-04  а > ы (ъя before х)
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
  * LEXICON V-01_САС  манэць:манэ
+  * Yaml: __V-manecj__
 
  * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
 
 
  * __LEXICON V-NEW_ТИР__
+  * Yaml: __V-sircj__
 
 
 
@@ -1509,6 +1519,7 @@ no vowel loss in stem
 
 
 
+  * Yaml: __V-laxanasj__
 
 
 
