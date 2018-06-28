@@ -141,9 +141,13 @@ Rules
 !!€ ил°%{йнңъʼØ%}%>к°ʼ
 !!€ илаң%>г0ʼ
 
-!!€# ңум%{йнңъʼØ%}%>к°н%{ая%}
-!!€0 ңум0%>г0на
-!!€0 ңум0%>гана
+
+! This test (with two outputs) does not work technically, 
+! the latter output is attached to the next test pair and thus
+! destroying all remaining tests
+!€# ңум%{йнңъʼØ%}%>к°н%{ая%}
+!€0 ңум0%>г0на
+!€0 ңум0%>гана
 
 "к: to х after Vowels"
 !! __@RULENAME@__
@@ -209,9 +213,9 @@ Rules
 !!€0 илан%>д0ʼ
 !!€# ил°%{йнңъʼØ%}%>дмʼ
 !!€0 илан%>дмʼ
-!!€# ил°%{йнңъʼØ%}%>д°в°
-!!€0 илан%>дав0
-!!€0 ил0н%>дав0
+!€# ил°%{йнңъʼØ%}%>д°в° ! commenting out test with two outputs
+!€0 илан%>дав0
+!€0 ил0н%>дав0
 !!€0 илан%>дув0
 !!€0 ил0н%>дув0
 
