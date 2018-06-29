@@ -1055,7 +1055,7 @@ LEXICON V-NEW_ПЭБЮ
 !! has vowel loss
 :%^VowLoss CONJ_ъи ;
 +Ger:%>сь K ;
-+Ger: K ;
+!+Ger: K ; !tt
 :%^VowLoss HORT-SC ;
 :%^A2I IMPRT-SCSG2 ;
 :%^A2I IMPRT-SCDU2 ;
@@ -1215,7 +1215,7 @@ LEXICON V-NEW_ХАДАБАСЬ
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
 ! V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
 +Ger:%>сь K ;
-+Ger: K ;
+!+Ger: K ; ! tt
  V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
 :%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
@@ -1836,6 +1836,7 @@ MOD/OBL-SC_цакэ ;
 
 
 LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
++Ger:%>сь # ; !tt
 
 +Ind:%>ъю IND-AOR-RCSG1	;
 +Ind:%>ъя IND-AOR-RCSG2	;
@@ -3222,7 +3223,7 @@ LEXICON PRC
 +InfPrf:%>ˮма NMN_ҢУДИ ;
 +PrcPrf:%>%{вм%}ы K ; ! Should this form be here 2013-11-25
 +PrcPrf:%>%{вм%}ы NMN_ПАНЫ ;
-+Ger: K ;
+!+Ger: K ; !tt
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
 !+Subord:%>бˮ K	;
@@ -3271,7 +3272,7 @@ LEXICON PRC2
 +PrcPrf:%>%{вм%}ы NMN_ПАНЫ ;
 +PrcFut:%>%{вм%}анда K ;
 +PrcFut:%>%{вм%}нда NMN_ҢУДИ ;
-+Ger: K ;
+!+Ger: K ; !tt
 +Ger:%>сь K ;
 +GerFin:%>%{вм%}анзь K ;
 +Subord:%>бˮ K ;
@@ -3309,7 +3310,7 @@ LEXICON V-NEW_ХАДА
  HAB-FOR-EVEN ;
 
 +Ger:%>сь K ;
-+Ger: K ;
+!+Ger: K ; !tt
  V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
 !:%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
  V-NEW_BI-SYLL-MUTUAL-PRCFUT_ванд ;
@@ -3339,7 +3340,7 @@ V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
 
 
 LEXICON V-NEW_ХАДА-REFL
-#;
++Ger: #;
 
 LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 :%^VowLoss V-NEW_BI-SYLL-MUTUAL-MINUS-V ;
@@ -3385,7 +3386,7 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
  IMPRT-OC_даˮ ;
 
 +Ger:%>сь K ;
-+Ger: K ;
+!+Ger: K ; !tt
  V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
 :%^VowRaise V-NEW_BI-SYLL-MUTUAL-PRCFUT_внд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
@@ -3486,7 +3487,7 @@ LEXICON V-NEW_ЛАХАНА
 LEXICON V-NEW_ҢЭДАРА
  V-NEW_MUTUAL ;
 +Ger:%>сь K ;
-+Ger: K ;
+!+Ger: K ; !tt
  PRCFUT_внд ;
  PRCFUT_ванд ;
 !:%^VowRaise PRCFUT_внд ;
