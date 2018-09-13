@@ -25,7 +25,6 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc   \
 			 stems/acronyms.lexc        \
-			 stems/punctuation.lexc     \
 			 stems/verbs_newwords.lexc  \
 			 affixes/adpositions.lexc   \
 			 affixes/adjectives.lexc    \
@@ -65,7 +64,8 @@ GENERATED_LEXC_SRCS=\
 			$(srcdir)/stems/pronouns.lexc      \
 			$(srcdir)/stems/propernouns.lexc      \
 			$(srcdir)/stems/quantifiers.lexc   \
-			$(srcdir)/stems/verbs.lexc
+			$(srcdir)/stems/verbs.lexc \
+			generated_files/punctuation.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
