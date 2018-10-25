@@ -23,11 +23,14 @@
  ʼ (->) %’  , # 02EE not (high-9) RIGHT SINGLE QUOTATION MARK U+2019 1937-1960
  ˮ (->) %'  , # 02bc not apostr u+0027 (should the apostrophe be commented out?)
  ˮ (->) ‘   , # 02bc not high-6 u+2018
+ ˮ (->) ″   , # 02bc not high-6 u+2033 Double prime
+ ˮ (->) ᾽᾽   , # 02bc not high-6 u+1FBD two x Greek Koronis
  ˮ (->) %’  , # 02bc not (high-9) right single quotation mark u+2019
  ˮ (->) %´  , # 02bc not acute u+00b4
  ˮ (->) %`  , #  02bc not grave u+0060
  ʼ (->) %'  , # 02bc not apostr u+0027 (should the apostrophe be commented out?)
  ʼ (->) ‘   , # 02bc not high-6 u+2018
+ ʼ (->) ᾽   , # 02bc not high-6 u+1FBD Greek Koronis
  ʼ (->) %’  , # 02bc not (high-9) right single quotation mark u+2019
  ʼ (->) %´  , # 02bc not acute u+00b4
  ʼ (->) %`  ] #  02bc not grave u+0060
