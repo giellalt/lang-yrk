@@ -11,7 +11,7 @@ LEXICON IV_МЭ
 +V+IV: V-01_МЭ       ;
 
 LEXICON TV_МЭ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МЭ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_МЭ       ;
 
 LEXICON VR_МЭ
 +V+Refl: V-01_МЭ-REFL       ;
@@ -20,7 +20,7 @@ LEXICON IV_МЫ
 +V+IV: V-01_МЫ       ;
 
 LEXICON TV_МЫ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МЫ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_МЫ       ;
 
 LEXICON VA_НЁ
 +V+Aux: V-01_НЁ       ;
@@ -50,10 +50,10 @@ LEXICON VR_НУ-Pal/Var
 +V+IV: PRC_PALVAR ;
 
 LEXICON TV_НУ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НУ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_НУ       ;
 
 LEXICON TV_НУ-Pal/Var
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НУ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_НУ       ;
 +V+TV: PRC_PALVAR ;
 
 LEXICON IV_НУ/ТУ
@@ -73,7 +73,7 @@ LEXICON IV_ТУ
 +V+IV: V-01_ТУ       ;
 
 LEXICON TV_ТУ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ТУ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_ТУ       ;
 
 LEXICON IV_ХО
 !+V+IV: V-01_ХО  ;
@@ -82,7 +82,7 @@ LEXICON IV_ХО
 
 LEXICON TV_ХО
 !+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ХО       ;
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ХО       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ХО       ;
 
 LEXICON VR_ХО-Pal/Var
 !+V+Refl: V-01_ИЛЕ-REFL  ; verbs still need dealing with
@@ -96,7 +96,7 @@ LEXICON IV_НАМДА !!≈ * __@CODE@__ намдась:намда
 +V+IV: V-NEW_НАМДА ;
 
 LEXICON TV_НАМДА
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_НАМДА ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_НАМДА ;
 
 LEXICON VR_НАМДА
 +V+Refl: V-NEW_НАМДА ;
@@ -105,7 +105,7 @@ LEXICON IV_ВАДЮ
 +V+IV: V-01_ВАДЮ       ;
 
 LEXICON TV_ВАДЮ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ВАДЮ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_ВАДЮ       ;
 
 LEXICON IV_ЯКУ !!≈ * __@CODE@__ якась:яка
 +V+IV: V-01_ЯКУ       ;
@@ -125,7 +125,7 @@ LEXICON VR_ИЛЕ-Pal/Var ! Work needed for variation 2013-09-05
 +V+Refl: PRC_PALVAR ;
 
 LEXICON TV_ИЛЕ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ИЛЕ	;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_ИЛЕ	;
 
 LEXICON IV_НЕНЫ
 +V+IV: V-01_НЕНЫ       ;
@@ -134,7 +134,7 @@ LEXICON IV_ҢЭСУ
 +V+IV: V-01_ҢЭСУ       ;
 
 LEXICON TV_ҢЭСУ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ҢЭСУ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_ҢЭСУ       ;
 
 LEXICON IV_ПЭБЮ
 +V+IV: V-NEW_ПЭБЮ       ;
@@ -144,7 +144,7 @@ LEXICON IV_ПЭБЮ-Pal/Var
 +V+IV: PRC_PALVAR ;
 
 LEXICON TV_ПЭБЮ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ПЭБЮ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ПЭБЮ       ;
 
 !LEXICON VR_ПЭБЮ
 !+V+Refl: V-NEW_ПЭБЮ-REFL ;
@@ -157,7 +157,7 @@ LEXICON IV_ХАДАБАСЬ
 !+V+IV: PRC_PALVAR ;
 
 LEXICON TV_ХАДАБАСЬ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ХАДАБАСЬ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ХАДАБАСЬ       ;
 
 !LEXICON VR_ХАДАБАСЬ
 !+V+Refl: V-NEW_ХАДАБАСЬ-REFL ;
@@ -168,7 +168,7 @@ LEXICON IV_ХАДА !!≈ * __@CODE@__ хадась:хада
 
 LEXICON TV_ХАДА !!≈ * __@CODE@__ хадась:хада
 !+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ХАДА       ;
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ХАДА       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ХАДА       ;
 
 LEXICON VR_ХАДА
 !+V+Refl: V-01_ХАДА-REFL ;
@@ -178,7 +178,7 @@ LEXICON IV_ЮХУ
 +V+IV: V-01_ЮХУ       ;
 
 LEXICON TV_ЮХУ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЮХУ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_ЮХУ       ;
 
 
 !! !THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
@@ -195,16 +195,16 @@ LEXICON VR_ЛАХАНА
 
 LEXICON TV_ЛАХАНА
 !+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; !!= * __@CODE@__ 3-syll
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; !!= * __@CODE@__ 3-syll
 
 LEXICON TV_ЛАХАНА-Pal/Var
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ;
 +V+TV: PRC_PALVAR ;
 
 LEXICON IV_ҢЭДАРА
 +V+IV: V-NEW_ҢЭДАРА ;
 LEXICON TV_ҢЭДАРА
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ҢЭДАРА ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ҢЭДАРА ;
 LEXICON VR_ҢЭДАРА
 +V+Refl: V-NEW_ҢЭДАРА-REFL ;
 
@@ -223,7 +223,7 @@ LEXICON IV_ЯˮАВЛУ-Pal/Var
 !+V+Refl: V-01_ЯˮАВЛУ-REFL      ;
 
 LEXICON TV_ЯˮАВЛУ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 LEXICON IV_МАН  !!≈ * __@CODE@__ манзь:ма%{нңʼØ%} 
@@ -238,7 +238,7 @@ LEXICON IV_МИН-Pal/Var
 +V+IV: PRC_PALVAR2 ;
 
 LEXICON TV_МИН
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_МИН       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_МИН       ;
 
 LEXICON VR_МИН
 +V+Refl: V-01_МИН-REFL ;
@@ -251,10 +251,10 @@ LEXICON VR_САС
 
 LEXICON TV_САС !!= * @CODE@ манэць:манэ
 !!= * Yaml: __V-manecj__
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_САС       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_САС       ;
 
 LEXICON TV_САС-Pal/Var
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_САС       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_САС       ;
 +V+TV: PRC_PALVAR2 ;
 
 LEXICON IV_ТИР
@@ -268,10 +268,10 @@ LEXICON VR_ТИР
 +V+Refl: V-01_ТИР-REFL       ;
 
 LEXICON TV_ТИР
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ТИР       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ТИР       ;
 
 LEXICON TV_ТИР-Pal/Var
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-NEW_ТИР       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-NEW_ТИР       ;
 +V+TV: PRC_PALVAR2 ;
 
 !! !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
@@ -279,7 +279,7 @@ LEXICON IV_НЭКАЛ !!≈ * __@CODE@__
 +V+IV: V-01_НЭКАЛ       ;
 
 LEXICON TV_НЭКАЛ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_НЭКАЛ       ;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_НЭКАЛ       ;
 
 LEXICON IV_ҢАДИМ/ҢАРАМ !!≈ * __@CODE@__ 2013-12-16
 +V+IV: V-01_ҢАДИМ       ;
@@ -300,7 +300,7 @@ LEXICON IV_ҢАРАМ
 +V+IV: V-01_ҢАРАМ       ;
 
 LEXICON TV_ҢАРАМ
-+V+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ҢАРАМ	;
+@P.CONJ.ObjAll@+V+TV:@P.CONJ.ObjAll@ V-01_ҢАРАМ	;
 
 
 
@@ -312,8 +312,8 @@ LEXICON TV_ҢАРАМ
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
 LEXICON V-01_Е
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -351,8 +351,8 @@ LEXICON V-01_Е
  CONNEG ;
 
 LEXICON V-01_МЭ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ҢА ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ҢА ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -403,8 +403,8 @@ LEXICON V-01_МЭ-REFL !! V_refl
 
 
 LEXICON V-01_МЫ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -443,8 +443,8 @@ LEXICON V-01_МЫ
 :%^VowRaise CONNEG ;
 
 LEXICON V-01_НЁ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -480,8 +480,8 @@ LEXICON V-01_НЁ
  CONNEG ;
 
 LEXICON V-01_НИ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ; 
@@ -515,8 +515,8 @@ LEXICON V-01_НИ
  PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 
 LEXICON V-01_НО
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -552,8 +552,8 @@ LEXICON V-01_НО
  CONNEG ;
 
 LEXICON V-01_НУ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -608,8 +608,8 @@ LEXICON V-01_НУ/ТУ
  V-01_ТУ	;
 
 LEXICON V-01_ҢЭ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -649,8 +649,8 @@ LEXICON V-01_ҢЭ
  CONNEG ;
 
 LEXICON V-01_ТО
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -688,8 +688,8 @@ LEXICON V-01_ТО
  CONNEG ;
 
 LEXICON V-01_ТУ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -728,10 +728,10 @@ LEXICON V-01_ТУ
 
 LEXICON V-01_ХО
 !! * Yaml: __V-xosj__
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ҢА ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Ind0@R.CONJ.ObjAll@:ңа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Ind0@R.CONJ.ObjAll@:%>й@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ҢА ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ңа MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@%>й MUTUAL-V_4-PRT1-OCPL3 ;
 !+Ind00@R.CONJ.ObjAll@:%>ъя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
  V_PREC ;
  V_Hort ;
@@ -774,8 +774,8 @@ LEXICON V-01_ХО
  CONNEG ;
 
 LEXICON V-01_ХЭ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -815,8 +815,8 @@ LEXICON V-01_ХЭ
 
 !! !TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON V-01_ВАДЮ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -856,8 +856,8 @@ LEXICON V-01_ВАДЮ
 
 
 LEXICON V-01_ЯКУ !!≈ * __@CODE@__ якась:яка
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -896,8 +896,8 @@ LEXICON V-01_ЯКУ !!≈ * __@CODE@__ якась:яка
 
 
 LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -936,8 +936,8 @@ LEXICON V-01_НЕНЫ !!= * @CODE@ 2013-09-18 This is merely a copy of V-01_МЫ
 :%^VowRaise CONNEG ;
 
 LEXICON V-01_ИЛЕ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1009,8 +1009,8 @@ LEXICON V-01_ИЛЕ-REFL !! V_refl 2013-03-04
  CONNEG ;
 
 LEXICON V-01_ҢЭСУ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1063,8 +1063,8 @@ LEXICON V-NEW_ПЭБЮ
 :%^A2I IND-AOR/PRT1-SC ;
 :%^A2I IND-AOR-SCDU3 ;
 :%^A2I IND-PRT1-SCDU3 ;
-0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ HORT-OC ;
-0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ MOD/DES-OC_рава ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss HORT-OC ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss MOD/DES-OC_рава ;
 :%^VowLoss MOD/DES-SC_рава ;
 :%^VowLoss MOD/INT-SC_са ;
 :%^VowLoss MOD/NARR-SC ;
@@ -1073,7 +1073,7 @@ LEXICON V-NEW_ПЭБЮ
 :%^VowLoss MOD/PROB-SC_дак ; 
  OPT-SC ;
 
-0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ MOD/NEC-OC_бцу ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss MOD/NEC-OC_бцу ;
 :%^VowLoss MOD/SUP-SC_ванңгабя ;
 
 
@@ -1104,12 +1104,12 @@ LEXICON V-NEW_ПЭБЮ
 !:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
 ! V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
 !+PrcFut+Nom+Sg+Abs
-!€# яˮавла%^VowRaise%>ˮ
-!€0 яˮавлу00ˮ
+!!€ яˮавла%^VowRaise%>ˮ
+!!€ яˮавлу0%>ˮ
 +ConNeg:%>ˮ K ;
 +Imprt+ScSg2:%>ˮ K ;
-!€# тенева%^VowLoss%>ˮ
-!€0 тенев000ˮ
+!!€ тенева%^VowLoss%>ˮ
+!!€ тенев00%>ˮ
 !0000@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
 !@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
 !@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
@@ -1221,14 +1221,14 @@ LEXICON V-NEW_ХАДАБАСЬ
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
 !+PrcFut+Nom+Sg+Abs
-!€# яˮавла%^VowRaise%>ˮ
-!€0 яˮавлу00ˮ
+!!€ яˮавла%^VowRaise%>ˮ
+!!€ яˮавлу0%>ˮ
 +ConNeg:%^VowFronting%^VowRaise%>ˮ K ;
 +Imprt+ScSg2:%>ˮ K ;
-!€# тенева%^VowLoss%>ˮ
-!€0 тенев000ˮ
-000@R.CONJ.ObjAll@:%^StemVowFronting%^A2I%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR-OCPL3_ын ;
-00@R.CONJ.ObjAll@:%^A2I%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-PRT1-OCPL3_ын ;
+!!€ тенева%^VowLoss%>ˮ
+!!€ тенев00%>ˮ
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^StemVowFronting%^A2I%>  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR-OCPL3_ын ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^A2I%>  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-PRT1-OCPL3_ын ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
  V-NEW_BI-SYLL-MUTUAL-SUBORD_ZERO ;
@@ -1238,10 +1238,10 @@ V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
 
 
 LEXICON V-01_ХАДА
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ҢА ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Ind0@R.CONJ.ObjAll@:ңа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Ind000@R.CONJ.ObjAll@:%^VowFronting%>ъи@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ҢА ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ңа MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@%^VowFronting%>ъи MUTUAL-V_4-PRT1-OCPL3 ;
 !+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
@@ -1314,8 +1314,8 @@ LEXICON V-01_ХАДА-REFL !! V_refl
  CONNEG ;
 
 LEXICON V-01_ЮХУ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1357,8 +1357,8 @@ LEXICON V-01_ЮХУ
 
 !! !THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON V-01_ЛАХАНА !! а > э in Pl Oc 
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1440,8 +1440,8 @@ LEXICON V-NEW_ЛАХАНА-REFL !! V_refl 2013-03-04  а > ы (ъя before х)
  CONNEG ;
 
 LEXICON V-01_СЯНАКУ
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1482,8 +1482,8 @@ LEXICON V-01_СЯНАКУ
 :%^VowRaise CONNEG ;
 
 LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1538,8 +1538,8 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
 !! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 LEXICON V-01_МАН   !!≈ * __@CODE@__ манзь:ма%{нңʼØ%} 
 !! * Yaml: __manzj__
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1579,8 +1579,8 @@ LEXICON V-01_МАН   !!≈ * __@CODE@__ манзь:ма%{нңʼØ%}
  CONNEG ;
 
 LEXICON V-01_МИН
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1632,8 +1632,8 @@ LEXICON V-01_МИН-REFL !!
 
 
 LEXICON V-01_МИС
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
  V_Hort ;
 @R.CONJ.ObjAll@ V_Hort-Obj ;
@@ -1674,12 +1674,12 @@ LEXICON V-01_МИС
 
 LEXICON V-01_САС !!= * @CODE@ манэць:манэ
 !!= * Yaml: __V-manecj__
-+Ind00@R.CONJ.ObjAll@:ˮңа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
-+Ind@R.CONJ.ObjAll@:ˮ@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
-+Ind@R.CONJ.ObjAll@:ˮ@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
-+Ind00@R.CONJ.ObjAll@:ˮңа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Ind00@R.CONJ.ObjAll@:ˮңа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Ind00@R.CONJ.ObjAll@:%>ˮя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮңа MUTUAL-V_AOR-4-OCSG3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮ  MUTUAL-V_AOR-4-OCDU3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮ MUTUAL-V_AOR-4-OCPL3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮңа MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮңа MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@%>ˮя MUTUAL-V_4-PRT1-OCPL3 ;
 
  V_PREC ;
  V_Hort ;
@@ -1888,12 +1888,12 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
 
 !! !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 LEXICON V-01_НЭКАЛ  !!≈ * __@CODE@__ нэкалць:нэкал
-+Ind0@R.CONJ.ObjAll@:ңа@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCSG3 ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
-+Ind@R.CONJ.ObjAll@:0@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
-+Ind0@R.CONJ.ObjAll@:ңа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Ind0@R.CONJ.ObjAll@:ңа@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Ind00@R.CONJ.ObjAll@:%>ъя@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ңа MUTUAL-V_AOR-4-OCSG3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ңа MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ңа MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@%>ъя MUTUAL-V_4-PRT1-OCPL3 ;
 
 !00@R.CONJ.ObjAll@:ңа@R.CONJ.ObjAll@ V_IND-OCSG3 ;
 !@R.CONJ.ObjAll@ V_IND-OCDU3 ;
@@ -1905,7 +1905,7 @@ LEXICON V-01_НЭКАЛ  !!≈ * __@CODE@__ нэкалць:нэкал
  V_Imprt ;
 @R.CONJ.ObjAll@ V_Imprt-Obj ;
 :%>ңа  V_Opt ;
-000@R.CONJ.ObjAll@:%>ңа@R.CONJ.ObjAll@ V_Opt-Obj ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%>ңа V_Opt-Obj ;
  V_Conj ;
  V_Mod/appr ;
  V_Mod/des ;
@@ -1994,7 +1994,7 @@ LEXICON V-01_ҢАРАМ
  V-NEW_BI-SYLL-MUTUAL-PRCFUT_ванд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
-0000@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss%>э%>  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
  V-NEW_BI-SYLL-MUTUAL-SUBORD_ZERO ;
@@ -2429,7 +2429,7 @@ LEXICON V_Mod/int-Refl_NORAISING
 +Dial/W+Mod/int:%>си MUTUAL-PERSON-REFL_NORAISING ;
 
 LEXICON V_Mod/int-OPL
-+Mod/int00@R.CONJ.ObjAll@:%>ся@R.CONJ.ObjAll@ MUTUAL-PERSON-OCPL ;
+@R.CONJ.ObjAll@+Mod/int:@R.CONJ.ObjAll@%>ся MUTUAL-PERSON-OCPL ;
 
 LEXICON V_Mod/int-NON-OPL
 +Mod/int:%>са MUTUAL-PERSON-NON-OCPL ;
@@ -2573,9 +2573,9 @@ LEXICON V_Mod/narr-Refl
 +Mod/narr:%>%{вм%}э MUTUAL-PRT1-REFL-PERSON ;
 
 LEXICON V_Mod/narrPrt
-+Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}э@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Mod/narr00@R.CONJ.ObjAll@:%>%{вм%}ы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ; ! хось:ховынась 
+@R.CONJ.ObjAll@+Mod/narr:@R.CONJ.ObjAll@%>%{вм%}э MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Mod/narr:@R.CONJ.ObjAll@%>%{вм%}э MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Mod/narr:@R.CONJ.ObjAll@%>%{вм%}ы MUTUAL-V_4-PRT1-OCPL3 ; ! хось:ховынась 
 +Mod/narr+Prt1+ScSg1:%>%{вм%}эдамзь K ;
 +Mod/narr+Prt1+ScSg2:%>%{вм%}энась K ;
 +Mod/narr+Prt1+ScSg3:%>%{вм%}эсь K ; ! яˮавлавэсь
@@ -2691,9 +2691,9 @@ LEXICON V_Mod/perfprob-Refl
 
 LEXICON V_Mod/prob
 +Mod/prob+Aor:%>накэ MUTUAL-PERSON ;
-+Mod/prob0000@R.CONJ.ObjAll@:%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Mod/prob0000@R.CONJ.ObjAll@:%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Mod/prob0000@R.CONJ.ObjAll@:%>накы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+@R.CONJ.ObjAll@+Mod/prob:@R.CONJ.ObjAll@%>накэ MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Mod/prob:@R.CONJ.ObjAll@%>накэ MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Mod/prob:@R.CONJ.ObjAll@%>накы MUTUAL-V_4-PRT1-OCPL3 ;
 +Mod/prob+Prt1+ScSg1:%>накэдамзь K ;
 +Mod/prob+Prt1+ScSg2:%>накэнась K ;
 +Mod/prob+Prt1+ScSg3:%>накысь K ;
@@ -2708,9 +2708,9 @@ LEXICON V_Mod/prob
 
 LEXICON V_Mod/prob-Pal/Var
 +Mod/prob+Aor:%>някэ MUTUAL-PERSON ;
-+Mod/prob0000@R.CONJ.ObjAll@:%>някэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Mod/prob0000@R.CONJ.ObjAll@:%>някэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Mod/prob0000@R.CONJ.ObjAll@:%>някы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+@R.CONJ.ObjAll@+Mod/prob:@R.CONJ.ObjAll@%>някэ MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Mod/prob:@R.CONJ.ObjAll@%>някэ MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Mod/prob:@R.CONJ.ObjAll@%>някы MUTUAL-V_4-PRT1-OCPL3 ;
 +Mod/prob+Prt1+ScSg1:%>някэдамзь K ;
 +Mod/prob+Prt1+ScSg2:%>някэнась K ;
 +Mod/prob+Prt1+ScSg3:%>някысь K ;
@@ -2732,9 +2732,9 @@ LEXICON V_Fut_ҢГУ
 +Fut+Ind:%>ңгу MUTUAL-PRT1-PERSON ;
 ! илесь
 +Fut+Mod/prob:%>ңгоʼ%>накэ MUTUAL-PERSON ;
-+Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ңгоʼ%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
-+Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ңгоʼ%>накэ@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCDU3 ;
-+Fut+Mod/prob00000000@R.CONJ.ObjAll@:%>ңгоʼ%>накы@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCPL3 ;
+@R.CONJ.ObjAll@+Fut+Mod/prob:@R.CONJ.ObjAll@%>ңгоʼ%>накэ MUTUAL-V_4-PRT1-OCSG3 ;
+@R.CONJ.ObjAll@+Fut+Mod/prob:@R.CONJ.ObjAll@%>ңгоʼ%>накэ MUTUAL-V_4-PRT1-OCDU3 ;
+@R.CONJ.ObjAll@+Fut+Mod/prob:@R.CONJ.ObjAll@%>ңгоʼ%>накы MUTUAL-V_4-PRT1-OCPL3 ;
 +Fut:%>ңго V_Subord ;
 
 
@@ -2745,10 +2745,10 @@ LEXICON V_Fut_ТА
 
 LEXICON V_Fut_ТАҢА/ТА
 !+Fut+Ind+Aor:%>таңа MUTUAL-PERSON ;
-+Fut+Ind+Aor@R.CONJ.ObjAll@:%>та@R.CONJ.ObjAll@ MUTUAL-PERSON-OCSG ;
-+Fut+Ind+Aor@R.CONJ.ObjAll@:%>та@R.CONJ.ObjAll@ MUTUAL-PERSON-OCSG ;
-+Fut+Ind+Aor00@R.CONJ.ObjAll@:%>таңа@R.CONJ.ObjAll@ MUTUAL-PERSON-OCDU ;
-+Fut+Ind+Aor@R.CONJ.ObjAll@:%>ты@R.CONJ.ObjAll@ MUTUAL-PERSON-OCPL ;
+@R.CONJ.ObjAll@+Fut+Ind+Aor:@R.CONJ.ObjAll@%>та MUTUAL-PERSON-OCSG ;
+@R.CONJ.ObjAll@+Fut+Ind+Aor:@R.CONJ.ObjAll@%>та MUTUAL-PERSON-OCSG ;
+@R.CONJ.ObjAll@+Fut+Ind+Aor:@R.CONJ.ObjAll@%>таңа MUTUAL-PERSON-OCDU ;
+@R.CONJ.ObjAll@+Fut+Ind+Aor:@R.CONJ.ObjAll@%>ты MUTUAL-PERSON-OCPL ;
 
 +Fut+Ind+Aor:%>та MUTUAL-SG1 ;
 +Fut+Ind+Aor:%>та MUTUAL-DU1 ;
@@ -3321,13 +3321,13 @@ LEXICON V-NEW_ХАДА
  PRCPRF-EVEN ;
 
 !+PrcFut+Nom+Sg+Abs
-!€# яˮавла%^VowRaise%>ˮ
-!€0 яˮавлу00ˮ
+!!€ яˮавла%^VowRaise%>ˮ
+!!€ яˮавлу0%>ˮ
 +ConNeg:%>ˮ K ;
 +Imprt+ScSg2:%>ˮ K ;
-!€# тенева%^VowLoss%>ˮ
-!€0 тенев000ˮ
-0000@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
+!!€ тенева%^VowLoss%>ˮ
+!!€ тенев00%>ˮ
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss%>э%>  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
 !@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
@@ -3360,7 +3360,7 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 ! V-NEW_BI-SYLL-MUTUAL-MODREP ;
 !:%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODREP ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
-0@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowRaise V-OBJ-NEW_BI-SYLL-MUTUAL-RAISE/NO ;
 :%^VowLoss INFPRF ;
  PRCIMPRF_на ;
 :%^VowLoss PRCIMPRF_на ;
@@ -3370,9 +3370,9 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 :%^VowRaise PRCNEG_вдавэй ;
 :%^VowLoss EVAS_воңгад ;
 ! V-OBJ-NEW_BI-SYLL-MUTUAL-MODREP ;
-0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ MOD/NARR-OC ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss MOD/NARR-OC ;
 :%^VowLoss MOD/NARR-SC ;
-0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ MOD/PROB-OC ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss MOD/PROB-OC ;
 @R.CONJ.ObjAll@ MOD/PROB-OC ;
  MOD/PROB-SC ;
 :%^VowLoss MOD/PROB-SC ;
@@ -3380,9 +3380,9 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 @R.CONJ.ObjAll@ IND-AOR/PRT1-OCPL3_н ;
  FUN_1 ;
 :%^VowLoss FUN_1 ;
-0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ FUT-MOD/PROB-AOR/PRET1-OC ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss FUT-MOD/PROB-AOR/PRET1-OC ;
 @R.CONJ.ObjAll@ FUT-MOD/PROB-AOR/PRET1-OC ;
-0@R.CONJ.ObjAll@:%^VowLoss@R.CONJ.ObjAll@ HORT-OC ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss HORT-OC ;
 :%^VowLoss HORT-SC ;
  IMPRT-OC_даˮ ;
 
@@ -3394,15 +3394,15 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 :%^VowRaise V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
  V-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
 !+PrcFut+Nom+Sg+Abs
-!€# яˮавла%^VowRaise%>ˮ
-!€0 яˮавлу00ˮ
+!!€ яˮавла%^VowRaise%>ˮ
+!!€ яˮавлу0%>ˮ
 +ConNeg:%^VowLoss%>ˮ K ;
 +Imprt+ScSg2:%^VowLoss%>ˮ K ;
-!€# тенева%^VowLoss%>ˮ
-!€0 тенев000ˮ
-0000@R.CONJ.ObjAll@:%^VowLoss%>ы%>@R.CONJ.ObjAll@  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ын ;
+!!€ тенева%^VowLoss%>ˮ
+!!€ тенев00%>ˮ
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss%>ы%>  V-OBJ-NEW_BI-SYLL-MUTUAL-IND-AOR/PRT1-OCPL3_ын ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
-0@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowRaise V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_внд ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_BI-SYLL-MUTUAL-MODFUTAPPR_ванд ;
  V-NEW_BI-SYLL-MUTUAL-SUBORD_ZERO ;
 :%^VowLoss V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
@@ -3474,12 +3474,12 @@ LEXICON V-NEW_ЛАХАНА
 !3!@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
 !3!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
 !3!!+PrcFut+Nom+Sg+Abs
-!3!!€# яˮавла%^VowRaise%>ˮ
-!3!!€0 яˮавлу00ˮ
+!3!!!€ яˮавла%^VowRaise%>ˮ
+!3!!!€ яˮавлу0%>ˮ
 !3!+ConNeg:%^VowLoss%>ˮ K ;
 !3!+Imprt+ScSg2:%^VowLoss%>ˮ K ;
-!3!!€# тенева%^VowLoss%>ˮ
-!3!!€0 тенев000ˮ
+!3!!!€ тенева%^VowLoss%>ˮ
+!3!!!€ тенев00%>ˮ
 !3!@R.CONJ.ObjAll@:%^VowLoss%>ы%>@R.CONJ.ObjAll@  V-OBJ-NEW_MUTUAL-IND-AOR/PRT1-OCPL3_ын ;
 !3!@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
 !3!@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
@@ -3503,11 +3503,11 @@ LEXICON V-NEW_ҢЭДАРА
 @R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
 !@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODREP ;
 !+PrcFut+Nom+Sg+Abs
-!€# яˮавла%^VowRaise%>ˮ
-!€0 яˮавлу00ˮ
+!!€ яˮавла%^VowRaise%>ˮ
+!!€ яˮавлу0%>ˮ
 +ConNeg:%>ˮ K ;
 +Imprt+ScSg2:%>ˮ K ;
-0000@R.CONJ.ObjAll@:%^VowLoss%>э%>@R.CONJ.ObjAll@  V-OBJ-NEW_MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%^VowLoss%>э%>  V-OBJ-NEW_MUTUAL-IND-AOR/PRT1-OCPL3_ян ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
 !@R.CONJ.ObjAll@:%^VowRaise@R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_внд ;
 @R.CONJ.ObjAll@ V-OBJ-NEW_MUTUAL-MODFUTAPPR_ванд ;
@@ -3567,7 +3567,7 @@ LEXICON V-NEW_ХО
  MOD/SUP-SC_ванңгабя ;
  OPT-SC ;
 @R.CONJ.ObjAll@ OPT-OC_ZERO ;
-00@R.CONJ.ObjAll@:ңа@R.CONJ.ObjAll@ OPT-OCDU3_хаюдамдоʼ ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ңа OPT-OCDU3_хаюдамдоʼ ;
 @R.CONJ.ObjAll@ OPT-OCPL3_йдамдоʼ ;
  PRCFUT_ванд ;
  PRCFUT_внд ;
@@ -8429,10 +8429,10 @@ LEXICON AUD-AOR/PRT1-SC_ванон
 
 LEXICON CONJ_ъи
 +Conj:%>ъи AFTER-CONJ-FOR-SC ;
-+Conj00@R.CONJ.ObjAll@:%>ъи@R.CONJ.ObjAll@ AFTER-CONJ-FOR-OC ;
+@R.CONJ.ObjAll@+Conj:@R.CONJ.ObjAll@%>ъи AFTER-CONJ-FOR-OC ;
 LEXICON CONJ_и
 +Conj:%>и AFTER-CONJ-FOR-SC ;
-+Conj0@R.CONJ.ObjAll@:%>и@R.CONJ.ObjAll@ AFTER-CONJ-FOR-OC ;
+@R.CONJ.ObjAll@+Conj:@R.CONJ.ObjAll@%>и AFTER-CONJ-FOR-OC ;
 
 LEXICON CONJ-FOR-SC_и
 +Conj:%>и AFTER-CONJ-FOR-SC ;
