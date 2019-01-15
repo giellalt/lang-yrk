@@ -5,40 +5,40 @@
 
  
 LEXICON ADV_ !!≈ * __@CODE@__
-+Adv: # ; 
+: # ; 
 
 LEXICON ADV-LOC_ !!≈ * __@CODE@__
-+Adv+Loc: # ;
++Loc: # ;
 
 LEXICON ADV-TEMP_ !!≈ * __@CODE@__
-+Adv+Temp: # ;
++Temp: # ;
 
 LEXICON ADV-MANNER_ !!≈ * __@CODE@__
-+Adv+Manner: # ;
++Manner: # ;
 
 LEXICON ADV-REF_ !!≈ * __@CODE@__ Some are secodary predicates, conjuctions
-+Adv+Refr+PxSg1:%>н K ;
-+Adv+Refr+PxSg1:%>ни K ;
-+Adv+Refr+PxSg2:%>нд K ;
-+Adv+Refr+PxSg3:%>нда K ;
-+Adv+Refr+PxDu1:%>ниʼ K ;
-+Adv+Refr+PxDu2:%>ндиʼ K ;
-+Adv+Refr+PxDu3:%>ндиʼ K ;
-+Adv+Refr+PxPl1:%>наˮ K ;
-+Adv+Refr+PxPl2:%>ндаˮ K ;
-+Adv+Refr+PxPl3:%>ндоʼ K ;
++Refr+PxSg1:%>н K ;
++Refr+PxSg1:%>ни K ;
++Refr+PxSg2:%>нд K ;
++Refr+PxSg3:%>нда K ;
++Refr+PxDu1:%>ниʼ K ;
++Refr+PxDu2:%>ндиʼ K ;
++Refr+PxDu3:%>ндиʼ K ;
++Refr+PxPl1:%>наˮ K ;
++Refr+PxPl2:%>ндаˮ K ;
++Refr+PxPl3:%>ндоʼ K ;
 
 LEXICON ADV-REF_Д1 !!≈ * __@CODE@__
-+Adv+Refr+PxSg1:ˮ%>н K ;
-+Adv+Refr+PxSg1:ˮ%>ни K ;
-+Adv+Refr+PxSg2:%>т K ;
-+Adv+Refr+PxSg3:%>та K ;
-+Adv+Refr+PxDu1:ˮ%>ниʼ K ;
-+Adv+Refr+PxDu2:%>тиʼ K ;
-+Adv+Refr+PxDu3:%>тиʼ K ;
-+Adv+Refr+PxPl1:ˮ%>наˮ K ;
-+Adv+Refr+PxPl2:%>таˮ K ;
-+Adv+Refr+PxPl3:%>тоʼ K ;
++Refr+PxSg1:ˮ%>н K ;
++Refr+PxSg1:ˮ%>ни K ;
++Refr+PxSg2:%>т K ;
++Refr+PxSg3:%>та K ;
++Refr+PxDu1:ˮ%>ниʼ K ;
++Refr+PxDu2:%>тиʼ K ;
++Refr+PxDu3:%>тиʼ K ;
++Refr+PxPl1:ˮ%>наˮ K ;
++Refr+PxPl2:%>таˮ K ;
++Refr+PxPl3:%>тоʼ K ;
 
 
 
