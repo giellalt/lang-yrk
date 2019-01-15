@@ -3,143 +3,143 @@
 !! Nenets ?? adjectives compare.
 
 LEXICON A_UNDECL
-+A: # ;
+: # ;
 
 !!LEXICON Comparisons
-!!+A+pos:0        Cases   ;
-!!+A+cmp:er       Cases   ;
-!!+A+sup:est      Cases   ;
+!!+pos:0        Cases   ;
+!!+cmp:er       Cases   ;
+!!+sup:est      Cases   ;
 
 LEXICON A_ҢЭ !!≈ * __@CODE@__ ңэ:ңэ 1  
-+A:  SGNOMSUF ;
-+A+Der/MWN: N_ҢЭ ;
+:  SGNOMSUF ;
++Der/MWN: N_ҢЭ ;
 
 LEXICON A_ПАНЫ  !!≈ * __@CODE@__ пӑны:пӑны 9 
-+A:  SGNOMSUF ;
-+A+Der/MWN: NMN_ПАНЫ ;
+:  SGNOMSUF ;
++Der/MWN: NMN_ПАНЫ ;
 
 LEXICON A_ХУСУВЭЙ  !!≈ * __@CODE@__ хусувэй: 10 !!ProsSg -ювна
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ХУСУВЭЙ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ХУСУВЭЙ ;
 
 LEXICON A_ЕД/ХУСУВЭЙ
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ЕД/ХУСУВЭЙ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ЕД/ХУСУВЭЙ ;
 
 LEXICON A_ХАНО  !!≈ * __@CODE@__ хӑн: 11 !!ProsSg -увна
 !! [total=27]
 !! хӑн xən°    хӑнӑн’ xənən°h        хӑн” xən°q     хӑно xəno
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ХАНО ;
+: SGNOMSUF ;
++Der/MWN: NMN_ХАНО ;
 
 LEXICON A_ЕД/ХАНО
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ЕД/ХАНО ;
+: SGNOMSUF ;
++Der/MWN: NMN_ЕД/ХАНО ;
 
 LEXICON A_ЕД !!≈ * __@CODE@__ ед: 13 !!ProsSg -увна /-ювна
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ЕД ;
+: SGNOMSUF ;
++Der/MWN: NMN_ЕД ;
 
 LEXICON A_ҢУДИ  !!≈ * __@CODE@__ ңуда: 15 !!ProsSg -вна
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ҢУДИ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ҢУДИ ;
 
 LEXICON A_ҢУДИ/ХОБ
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ҢУДИ/ХОБ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ҢУДИ/ХОБ ;
 
 LEXICON A_ҢОДИ  !!≈ * __@CODE@__ ңодя: 17 !!ProsSg -вна
-+A: SGNOMSUF ;
-+A+Der/MWN: N_ҢОДИ ;
+: SGNOMSUF ;
++Der/MWN: N_ҢОДИ ;
 
 LEXICON A_ҢОДИ/ТЁН
 !!
-+A: SGNOMSUF ;
-+A+Der/MWN: N_ҢОДИ/ТЁН ;
+: SGNOMSUF ;
++Der/MWN: N_ҢОДИ/ТЁН ;
 
 LEXICON A_МАРАҢГЫ !!
 !!
-+A: SGNOMSUF ;
-+A+Der/MWN: N_МАРАҢГЫ ;
+: SGNOMSUF ;
++Der/MWN: N_МАРАҢГЫ ;
 
 LEXICON A_ХОБ  !!≈ * __@CODE@__ хоба: 19 !!ProsSg -вна
-+A: SGNOMSUF ;
-+A+Der/MWN: N_ХОБ ;
+: SGNOMSUF ;
++Der/MWN: N_ХОБ ;
 
 LEXICON A_МАРАҢГЫ/ХОБ !!
 !!
-+A: SGNOMSUF ;
-+A+Der/MWN: N_МАРАҢГЫ/ХОБ ;
+: SGNOMSUF ;
++Der/MWN: N_МАРАҢГЫ/ХОБ ;
 
 LEXICON A_ТЁН  !!≈ * __@CODE@__ тёня: 20 !!ProsSg -вна
-+A: SGNOMSUF ;
-+A+Der/MWN: N_ТЁН ;
+: SGNOMSUF ;
++Der/MWN: N_ТЁН ;
 
 LEXICON A_ПИСЬ  !!≈ * __@CODE@__ пися: 21 !!ProsSg -вна
-+A: SGNOMSUF ;
-+A+Der/MWN: N_ПИСЬ ;
+: SGNOMSUF ;
++Der/MWN: N_ПИСЬ ;
 
 LEXICON A_ҢАНУ  !!≈ * __@CODE@__ ңӑно: 23 !!ProsSg -вна
 !! [total=57]
 !! ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑно” ŋənoq    ңӑну ŋənu
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ҢАНУ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ҢАНУ ;
 
 LEXICON A_ЯКЫ  !!≈ * __@CODE@__ якэ: 24 ProsSg -вна
 ! /total=4/
 ! якэ yake     якэн’ yaken°h   якэˮ yakeq      якы yaki
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ЯКЫ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ЯКЫ ;
 
 LEXICON A_ҢУВО  !!≈ * __@CODE@__ ңумʼ:ңум 25 !!ProsSg -(м)на
 !! ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
-+A:ʼ SGNOMSUF ;
-+A+Der/MWN: NMN_ҢУВО ;
+:ʼ SGNOMSUF ;
++Der/MWN: NMN_ҢУВО ;
 
 
 LEXICON A_НЮБЕ-Pal/Var  !!≈ * __@CODE@__ нюмʼ:нюм 26
 !! нюм’ nyum    нюмд’ nyumt°h   нюв” nyuw°q     нюбе nyubye
-+A:ʼ SGNOMSUF ;
-+A+Der/MWN: NMN_НЮБЕ ;
+:ʼ SGNOMSUF ;
++Der/MWN: NMN_НЮБЕ ;
 
 LEXICON A_ВЫҢО !!≈ * __@CODE@__ выʼ:вы 29  
 ! ң /total=16/
 ! вы’(ң) wíh    вы̄нд’ wínt°h   выˮ wí°q        выңо wíŋo
-+A:ʼ SGNOMSUF ;
-+A+Der/MWN: NMN_ВЫҢО ;
+:ʼ SGNOMSUF ;
++Der/MWN: NMN_ВЫҢО ;
 
 
 LEXICON A_МЕРЁ !! Check this
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ҢАНУ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ҢАНУ ;
 
 LEXICON A_ВАР
 ! варˮ:вар
  A_МЯДО ;
 
 LEXICON A_МЯДО  !!≈ * __@CODE@__ мяˮ:мя 35   !!ProsSg -мна
-+A:%{дˮØ%} SGNOMSUF ;
-+A+Der/MWN: NMN_МЯДО ;
+:%{дˮØ%} SGNOMSUF ;
++Der/MWN: NMN_МЯДО ;
 
 LEXICON A_САБЦЬ  !!≈ * __@CODE@__ сабць:сабць!!= @CODE@ тир: 12 !!ProsSg -увна
 !! What makes this different from N_ТИРЕ?
-+A: SGNOMSUF ;
-+A+Der/MWN: NMN_ТИРЕ ;
+: SGNOMSUF ;
++Der/MWN: NMN_ТИРЕ ;
 
 LEXICON	    A_САВНЕ !!≈ * __@CODE@__ 
-+WORK+A: K ;
++WORK: K ;
 
 
 
 !!This has to be split into various sublexcons.
 LEXICON A_Cons
-+A: SGNOMSUF ;
-+A+Der/MWN: N_Cons ;
+: SGNOMSUF ;
++Der/MWN: N_Cons ;
 
 !!This has to be split into various sublexcons.
 LEXICON A_Vow
-+A: SGNOMSUF ;
-+A+Der/MWN: N_Vow ;
+: SGNOMSUF ;
++Der/MWN: N_Vow ;
 
 
 ! vim: set ft=xfst-lexc:

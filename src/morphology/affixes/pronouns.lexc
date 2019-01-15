@@ -3,121 +3,121 @@
 !! Nenets pronouns inflect in cases.
 
 LEXICON PRON_
-+WORK+Pron: # ;
++WORK: # ;
 
 LEXICON PersSg1
-+Pron+Pers+Sg1+Nom: # ;
++Pers+Sg1+Nom: # ;
 
 LEXICON PersSg2
-+Pron+Pers+Sg2+Nom: # ;
++Pers+Sg2+Nom: # ;
 
 LEXICON PersSg3
-+Pron+Pers+Sg3+Nom: # ;
++Pers+Sg3+Nom: # ;
 
 LEXICON PersDu1
-+Pron+Pers+Du1+Nom: # ;
++Pers+Du1+Nom: # ;
 
 LEXICON PersDu2
-+Pron+Pers+Du2+Nom: # ;
++Pers+Du2+Nom: # ;
 
 LEXICON PersDu3
-+Pron+Pers+Du3+Nom: # ;
++Pers+Du3+Nom: # ;
 
 LEXICON PersPl1
-+Pron+Pers+Pl1+Nom: # ;
++Pers+Pl1+Nom: # ;
 
 LEXICON PersPl2
-+Pron+Pers+Pl2+Nom: # ;
++Pers+Pl2+Nom: # ;
 
 LEXICON PersPl3
-+Pron+Pers+Pl3+Nom: # ;
++Pers+Pl3+Nom: # ;
 
 LEXICON PersSg1-CxAcc
-+Pron+Pers+Sg1+Acc: # ;
++Pers+Sg1+Acc: # ;
 
 LEXICON PersSg2-CxAcc
-+Pron+Pers+Sg2+Acc: # ;
++Pers+Sg2+Acc: # ;
 
 LEXICON PersSg3-CxAcc
-+Pron+Pers+Sg3+Acc: # ;
++Pers+Sg3+Acc: # ;
 
 LEXICON PersDu1-CxAcc
-+Pron+Pers+Du1+Acc: # ;
++Pers+Du1+Acc: # ;
 
 LEXICON PersDu2-CxAcc
-+Pron+Pers+Du2+Acc: # ;
++Pers+Du2+Acc: # ;
 
 LEXICON PersDu3-CxAcc
-+Pron+Pers+Du3+Acc: # ;
++Pers+Du3+Acc: # ;
 
 LEXICON PersPl1-CxAcc
-+Pron+Pers+Pl1+Acc: # ;
++Pers+Pl1+Acc: # ;
 
 LEXICON PersPl2-CxAcc
-+Pron+Pers+Pl2+Acc: # ;
++Pers+Pl2+Acc: # ;
 
 LEXICON PersPl3-CxAcc
-+Pron+Pers+Pl3+Acc: # ;
++Pers+Pl3+Acc: # ;
 
 LEXICON PRON-DEM-ADN_
-+Pron+Dem: # ;
++Dem: # ;
 
 LEXICON PRON-INTERR_
-+Pron+Interr: NMN_ҢАВО ;
++Interr: NMN_ҢАВО ;
 
 LEXICON PRON-INTERR-HUM_
-+Pron+Interr+Sem/Hum:  SG-NOM-STEM ;
-+Pron+Interr+Sem/Hum:  SG-ACC-STEM ;
-+Pron+Interr+Sem/Hum:  SGDATSUF ;
-+Pron+Interr+Sem/Hum:  PLNOMSUF ;
-+Pron+Interr+Sem/Hum:%^A2I PLACCSUF_Zero ;
-+Pron+Interr+Sem/Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
++Interr+Sem/Hum:  SG-NOM-STEM ;
++Interr+Sem/Hum:  SG-ACC-STEM ;
++Interr+Sem/Hum:  SGDATSUF ;
++Interr+Sem/Hum:  PLNOMSUF ;
++Interr+Sem/Hum:%^A2I PLACCSUF_Zero ;
++Interr+Sem/Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON PRON-INTERR-QNT_IS-PROS
-+Pron+Interr+Qnt+Pros: K ;
++Interr+Qnt+Pros: K ;
 
 LEXICON PRON_ҢЭ
-+Pron: NMN_ҢЭ ;
+: NMN_ҢЭ ;
 
 LEXICON PRON_ЕД
-+Pron: NMN_ЕД ;
+: NMN_ЕД ;
 
 LEXICON PRON_ҢУДИ
-+Pron: NMN_ҢУДИ ;
-+Pron+Lim:ри NMN_ҢЭ ;
+: NMN_ҢУДИ ;
++Lim:ри NMN_ҢЭ ;
 
 LEXICON PRON_ТИКЫ
-+Pron: NMN_ПАНЫ ;
+: NMN_ПАНЫ ;
 
 LEXICON PRON_ПИСЬ
-+Pron: NMN_ПИСЬ ;
+: NMN_ПИСЬ ;
 
 LEXICON PRON-DEM-ADN_ТИКЫ
-+Pron: NMN_ПАНЫ ;
+: NMN_ПАНЫ ;
 
 LEXICON PRON-INTERR-TEMP_
-+Pron+Interr+Temp: # ;
++Interr+Temp: # ;
 
 LEXICON PRON-INTERR-QNT_
-+Pron+Interr+Qnt: # ;
++Interr+Qnt: # ;
 
 LEXICON PRON-INTERR-MANNER_
-+Pron+Interr+Manner: # ;
++Interr+Manner: # ;
 
 LEXICON PRON-INTERR_ҢУДИ
-+Pron+Interr: NMN_ҢУДИ ;
++Interr: NMN_ҢУДИ ;
 
 LEXICON PRON-INTERR_-CXABL
-+Pron+Interr+Spat+Abl: # ;
++Interr+Spat+Abl: # ;
 
 LEXICON PRON-INTERR_-CXLAT
-+Pron+Interr+Spat+Lat: # ;
++Interr+Spat+Lat: # ;
 
 LEXICON PRON-INTERR_-CXLOC
-+Pron+Interr+Spat+Loc: # ;
++Interr+Spat+Loc: # ;
 
 LEXICON PRON-INTERR_-CXPROS
-+Pron+Interr+Spat+Pros: # ;
++Interr+Spat+Pros: # ;
 
 LEXICON ADV-SPAT_-CXLOC
 +Adv+Spat+Loc: # ;
