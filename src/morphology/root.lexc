@@ -626,15 +626,15 @@ LEXICON INTERJECTION
 # ;
 
 LEXICON PCLE_
-+Pcle: # ;
+: # ;
 
 LEXICON POSTP_
-+Po: K ;
+: K ;
 
 LEXICON NUMBERSUF
-+Num: K;
-+Num:%> CASESUF ;
-+Num:%> ORDINAL ;
+: K;
+:%> CASESUF ;
+:%> ORDINAL ;
 
 LEXICON ORDINAL
 +Ord:этӥ K;
