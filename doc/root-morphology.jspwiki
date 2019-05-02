@@ -207,6 +207,7 @@ Other verb forms are
 Abbreviated words are classified with:
 
  * __+ABBR__
+ * +Symbol = independent symbols in the text stream, like £, €, ©
  * __+ACR__
 
 Special symbols are classified with:
@@ -437,6 +438,7 @@ word classes, or optionally from prefixes:
 
  * __V_NEWWORDS ;		__ This is for feeding new verbs.
  * __Punctuation ;__
+ * __Symbols ;__
 
  * __CONJUNCTION ;__
  * __SUBJUNCTION ;__
