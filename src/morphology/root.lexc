@@ -231,6 +231,15 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
  +ACR  !!≈ * __@CODE@__
 
+
+        !! !!Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ ; @CODE@ : Literal »
+ «7     !!≈ ; @CODE@ : Literal «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
+
 !! Special symbols are classified with:
 
 +CLB   !!≈ * __@CODE@__
