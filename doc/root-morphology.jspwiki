@@ -210,6 +210,15 @@ Abbreviated words are classified with:
  * +Symbol = independent symbols in the text stream, like £, €, ©
  * __+ACR__
 
+
+!!Symbols that need to be escaped on the lower side (towards twolc):
+ ; »7 : Literal »
+ ; «7 : Literal «
+{{{
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+}}}
+
 Special symbols are classified with:
 
  * __+CLB__
