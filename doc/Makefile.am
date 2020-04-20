@@ -10,7 +10,7 @@
 JSP_PAGES=root-morphology.jspwiki	\
 		  nouns-affixes.jspwiki         \
 	 	  verbs-affixes.jspwiki		\
-		  yrk-phon-phonology.jspwiki
+		  phonology-morphology.jspwiki
 
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
