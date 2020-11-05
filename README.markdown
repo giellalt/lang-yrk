@@ -23,7 +23,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/yrkdoc/index.html>
+-   <https://giellalt.uit.no/lang/yrk/TundraNenetsDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
