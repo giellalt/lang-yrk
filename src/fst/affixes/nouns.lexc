@@ -1,4 +1,4 @@
-!! !!!Noun inflection
+!! # Noun inflection
 ! ---------------
 
 !! Nenets nouns inflect in cases.
@@ -6,10 +6,10 @@
 
 LEXICON N_ҢЭ-RUS 
 +Rus: N_ҢЭ ;
-LEXICON N_ҢЭ  !!≈ * __@CODE@__ ңэ:ңэ 1  ProsSg -вна
+LEXICON N_ҢЭ  !!≈ * **@CODE@** ңэ:ңэ 1  ProsSg -вна
 ! no change in stem
 ! ңэ ŋæ     ңэн’ ŋæn°h	ңэˮ ŋæq	ңэ ŋæ
-!! Yaml: __xo, ngaeTS__
+!! Yaml: **xo, ngaeTS**
 : NMN_ҢЭ ;
 LEXICON NMN_ҢЭ
  NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -33,10 +33,10 @@ LEXICON NMN_ҢЭ
  NEW-SG-PROS_вна ;
  NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 
-LEXICON N_ҢЭ-Pal/Var  !!≈ * __@CODE@__ ңэ:ңэ 1  ProsSg -вна
+LEXICON N_ҢЭ-Pal/Var  !!≈ * **@CODE@** ңэ:ңэ 1  ProsSg -вна
 ! no change in stem
 ! ңэ ŋæ     ңэн’ ŋæn°h	ңэˮ ŋæq	ңэ ŋæ
-!! Yaml: __nyeTS__
+!! Yaml: **nyeTS**
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 : NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
 : NEW-AFF-2CENTERS-PRED-NOM_Дваˮ ;
@@ -55,8 +55,8 @@ LEXICON N_ҢЭ-Pal/Var  !!≈ * __@CODE@__ ңэ:ңэ 1  ProsSg -вна
 : NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 : NEW-ODD-SYLL-PLPROSPXSUF_ˮVмня ; !pal/var
 
-LEXICON N_Ё  !!≈ * __@CODE@__ я:я 2 ProsSg -вна
-!! Yaml: __ya, yaTS__
+LEXICON N_Ё  !!≈ * **@CODE@** я:я 2 ProsSg -вна
+!! Yaml: **ya, yaTS**
 ! /total=3/
 ! я ya	ян’ yan°h	яˮ yaq	ё yo
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -87,8 +87,8 @@ LEXICON N_Ё  !!≈ * __@CODE@__ я:я 2 ProsSg -вна
 :%^A2O NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 : NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 
-LEXICON N_ПИ  !!≈ * __@CODE@__ пя:пя 3 ProsSg -вна
-!! Yaml: __N-pyaTS__
+LEXICON N_ПИ  !!≈ * **@CODE@** пя:пя 3 ProsSg -вна
+!! Yaml: **N-pyaTS**
 ! /total=3/
 ! пя pya	пян’ pyan°h	пяˮ pyaq	пи pyí
 !: NMN_ПИ ;
@@ -107,8 +107,8 @@ LEXICON N_ПИ  !!≈ * __@CODE@__ пя:пя 3 ProsSg -вна
 :%^A2I NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ; !PLACCSUF_Zero
 : NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 
-LEXICON N_ТЫ  !!≈ * __@CODE@__ ты: 4 ProsSg -вна
-!! Yaml: __tyTS__
+LEXICON N_ТЫ  !!≈ * **@CODE@** ты: 4 ProsSg -вна
+!! Yaml: **tyTS**
 ! /total=4/
 ! ты ti	тэ̇н’ ten°h	тыˮ tiq	ты tí
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -123,8 +123,8 @@ LEXICON N_ТЫ  !!≈ * __@CODE@__ ты: 4 ProsSg -вна
 
 
 
-LEXICON N_ХАВО  !!≈ * __@CODE@__ ха: 5 ProsSg -вна
-!! Yaml: __tyTS__
+LEXICON N_ХАВО  !!≈ * **@CODE@** ха: 5 ProsSg -вна
+!! Yaml: **tyTS**
 ! /total=1/
 ! ха xa	хан’ xan°h	хаˮ xaq	хаво xawo
 !: NMN_ХАВО ;
@@ -148,7 +148,7 @@ LEXICON N_ХАВО  !!≈ * __@CODE@__ ха: 5 ProsSg -вна
 :во NEW-ODD-SYLL-PLPROSPXSUF_ˮVмна ;
 
 
-LEXICON N_СЁЁ  !!≈ * __@CODE@__ сё: 6 ProsSg -вна
+LEXICON N_СЁЁ  !!≈ * **@CODE@** сё: 6 ProsSg -вна
 ! /total=0/
 != * Yaml: __syoyoTS__
 ! сё syo	сён’ syon°h	сёˮ syoq	сёё syoyo
@@ -169,7 +169,7 @@ LEXICON N_СЁЁ  !!≈ * __@CODE@__ сё: 6 ProsSg -вна
 :е NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
 
-LEXICON N_ИБЕ  !!≈ * __@CODE@__ и: 7 ProsSg -вна
+LEXICON N_ИБЕ  !!≈ * **@CODE@** и: 7 ProsSg -вна
 ! /total=0/
 ! и yí	ин’ yín°h	иˮ yíq	ибе yíbye
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -181,7 +181,7 @@ LEXICON N_ИБЕ  !!≈ * __@CODE@__ и: 7 ProsSg -вна
 :бе NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :бе NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ХАБИЕ  !!≈ * __@CODE@__ хӑби:8ProsSg -вна
+LEXICON N_ХАБИЕ  !!≈ * **@CODE@** хӑби:8ProsSg -вна
 ! /total=0/
 ! хӑби xəbyi	хӑбин’ xəbyin°h	хӑбиˮ xəbyiq	хӑбие xəbyiy
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -193,7 +193,7 @@ LEXICON N_ХАБИЕ  !!≈ * __@CODE@__ хӑби:8ProsSg -вна
 :е NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :е NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ПАНЫ  !!≈ * __@CODE@__ пӑны:пӑн 9 ы!ProsSg -(э)вна
+LEXICON N_ПАНЫ  !!≈ * **@CODE@** пӑны:пӑн 9 ы!ProsSg -(э)вна
 ! /total=30/
 ! пӑны pəni°	пӑнэн’ pənen°h	пӑныˮ pəni°q	пӑны pəni°
 :° NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -206,7 +206,7 @@ LEXICON N_ПАНЫ  !!≈ * __@CODE@__ пӑны:пӑн 9 ы!ProsSg -(э)вна
 :%^VowLower NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
 
-LEXICON N_ХУСУВЭЙ  !!≈ * __@CODE@__ хусувэй: 10 ProsSg -ювна
+LEXICON N_ХУСУВЭЙ  !!≈ * **@CODE@** хусувэй: 10 ProsSg -ювна
 ! /total=17/
 ! хусувэй xusuwey°	хусувэн’ xusuwen°h	хусувэйˮ xusuwey°q	хусувэй xusuwey°
 :° NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -219,8 +219,8 @@ LEXICON N_ХУСУВЭЙ  !!≈ * __@CODE@__ хусувэй: 10 ProsSg -ювна
 :° NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
 
-LEXICON N_ХАНО  !!≈ * __@CODE@__ хӑн: 11P ProsSg -увна
-!! Yaml: __xano__
+LEXICON N_ХАНО  !!≈ * **@CODE@** хӑн: 11P ProsSg -увна
+!! Yaml: **xano**
 ! /total=27/
 ! хӑн xən°	хӑнӑн’ xənən°h	хӑнˮ xən°q	хӑно xəno
 : NMN_ХАНО ;
@@ -242,7 +242,7 @@ LEXICON N_ХАНО-PL
 
 LEXICON N_ТИРЕ-RUS  
 +Rus: N_ТИРЕ ;
-LEXICON N_ТИРЕ  !!≈ * __@CODE@__ тир: 12 ProsSg -увна
+LEXICON N_ТИРЕ  !!≈ * **@CODE@** тир: 12 ProsSg -увна
 ! /total=3/
 ! тир tyír°	тирӑн’ tyírən°h	тирˮ tyír°q	тире tyírye
 :° NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -257,7 +257,7 @@ LEXICON N_ТИРЕ  !!≈ * __@CODE@__ тир: 12 ProsSg -увна
 
 LEXICON N_ЕД-RUS
 +Rus: N_ЕД ;
-LEXICON N_ЕД  !!≈ * __@CODE@__ ед: 13 ProsSg -увна /-ювна
+LEXICON N_ЕД  !!≈ * **@CODE@** ед: 13 ProsSg -увна /-ювна
 ! /total=98/
 ! ед yed°	едӑн’ yedən°h	едˮ yed°q	ед yed°
 !:° NMN_МУНО ;
@@ -284,7 +284,7 @@ LEXICON N_ЕД  !!≈ * __@CODE@__ ед: 13 ProsSg -увна /-ювна
 
 LEXICON N_МАРАҢГЫ-RUS
 +Rus: N_МАРАҢГЫ ;
-LEXICON N_МАРАҢГЫ  !!≈ * __@CODE@__ мӑраңга: 14PProsSg -вна
+LEXICON N_МАРАҢГЫ  !!≈ * **@CODE@** мӑраңга: 14PProsSg -вна
 ! /total=15/
 ! мӑраңга məraŋka	мӑраңган’ məraŋkan°h	мӑраңгаˮ məraŋkaq	мӑраңгы məraŋki
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -310,10 +310,10 @@ LEXICON N_МАРАҢГЫ-PL
 LEXICON N_ҢУДИ-RUS 
 +Rus: N_ҢУДИ ;
 
-LEXICON N_ҢУДИ  !!≈ * __@CODE@__ ңуда: 15 ProsSg -вна
+LEXICON N_ҢУДИ  !!≈ * **@CODE@** ңуда: 15 ProsSg -вна
 ! /total=53/
 ! ңуда ŋuda	ңудан’ ŋudan°h	ңудаˮ ŋudaq	ңуди ŋudyi
-!! Yaml: __N-ngudiTS__
+!! Yaml: **N-ngudiTS**
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 : NEW-ODD-SYLL-SGSTEMS-LESS-SCHWA-VARIANTS ;
 !
@@ -329,10 +329,10 @@ LEXICON N_ҢУДИ  !!≈ * __@CODE@__ ңуда: 15 ProsSg -вна
 :%^A2I NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 !+Lim:ри NMN_ҢЭ ;
 
-LEXICON N_ЕСИ  !!≈ * __@CODE@__ ая̆ха: 16PProsSg -вна
+LEXICON N_ЕСИ  !!≈ * **@CODE@** ая̆ха: 16PProsSg -вна
 ! /total=1/
 ! я̆ха yəxa	я̆хан’ yəxan°h	я̆хаˮ yəxaq	еси yesy
-!! Yaml: __N-yaxaTS__
+!! Yaml: **N-yaxaTS**
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 !EVEN
 : NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
@@ -353,8 +353,8 @@ LEXICON N_ЕСИ  !!≈ * __@CODE@__ ая̆ха: 16PProsSg -вна
 
 LEXICON N_ҢОДИ-RUS 
 +Rus: N_ҢОДИ ;
-LEXICON N_ҢОДИ  !!≈ * __@CODE@__ ңодя: 17 ProsSg -вна
-!! Yaml: __N-ngodiTS__
+LEXICON N_ҢОДИ  !!≈ * **@CODE@** ңодя: 17 ProsSg -вна
+!! Yaml: **N-ngodiTS**
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 !EVEN
 : NEW-AFF-2CENTERS-PRED-NOM_Даваˮ ;
@@ -373,7 +373,7 @@ LEXICON N_ҢОДИ  !!≈ * __@CODE@__ ңодя: 17 ProsSg -вна
 :%^A2I NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
 
-LEXICON N_ЯЛЭ  !!≈ * __@CODE@__ яля: 18 ProsSg -вна
+LEXICON N_ЯЛЭ  !!≈ * **@CODE@** яля: 18 ProsSg -вна
 ! /total=2/
 ! яля yalya	ялян’ yalyan°h	яляˮ yalyaq	ялэ yale
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -395,8 +395,8 @@ LEXICON N_ЯЛЭ  !!≈ * __@CODE@__ яля: 18 ProsSg -вна
 
 LEXICON N_ХОБ-RUS
 +Rus: N_ХОБ ;
-LEXICON N_ХОБ  !!≈ * __@CODE@__ хоба:хоба 19 ProsSg -вна
-!! Yaml: __xob__
+LEXICON N_ХОБ  !!≈ * **@CODE@** хоба:хоба 19 ProsSg -вна
+!! Yaml: **xob**
 ! /total=25/
 ! хоба xoba	хобан’ xoban°h	хобаˮ xobaq	хоб xob°
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -416,8 +416,8 @@ LEXICON N_ХОБ  !!≈ * __@CODE@__ хоба:хоба 19 ProsSg -вна
 :%^VowLoss NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :%^VowLoss NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ТЁН  !!≈ * __@CODE@__ тёня:тёня 20 ProsSg -вна
-!! Yaml: __tyon__
+LEXICON N_ТЁН  !!≈ * **@CODE@** тёня:тёня 20 ProsSg -вна
+!! Yaml: **tyon**
 ! /total=14/
 !тёня tyonya	тёнян’ tyonyan°h	тёняˮ tyonyaq	тён tyon°
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -437,7 +437,7 @@ LEXICON N_ТЁН  !!≈ * __@CODE@__ тёня:тёня 20 ProsSg -вна
 :%^PalLoss%^VowLoss NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :%^PalLoss%^VowLoss NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ПИСЬ !!≈ * __@CODE@__ пися: 21 ProsSg -вна
+LEXICON N_ПИСЬ !!≈ * **@CODE@** пися: 21 ProsSg -вна
 ! /total=10/
 ! пися pyísya  писян’ pyísyan°h писяˮ pyísyaq  пись pyísy°
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -457,7 +457,7 @@ LEXICON N_ПИСЬ !!≈ * __@CODE@__ пися: 21 ProsSg -вна
 :%^VowLoss NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :%^VowLoss NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ХАСЕВ  !!≈ * __@CODE@__ хасава: 22 ProsSg -вна
+LEXICON N_ХАСЕВ  !!≈ * **@CODE@** хасава: 22 ProsSg -вна
 ! /total=1/
 ! хасава xasawa        хасаван’ xasawan°h      хасаваˮ xasawaq хасев xasyew°
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -479,8 +479,8 @@ LEXICON N_ХАСЕВ  !!≈ * __@CODE@__ хасава: 22 ProsSg -вна
 
 LEXICON N_ҢАНУ-RUS
 +Rus: N_ҢАНУ ; 
-LEXICON N_ҢАНУ  !!≈ * __@CODE@__ ңӑно: 23 ProsSg -вна
-!! Yaml: __nano__
+LEXICON N_ҢАНУ  !!≈ * **@CODE@** ңӑно: 23 ProsSg -вна
+!! Yaml: **nano**
 ! /total=57/
 ! ңӑно ŋəno	ңӑнон’ ŋənon°h	ңӑноˮ ŋənoq	ңӑну ŋənu
 : NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -496,7 +496,7 @@ LEXICON N_ҢАНУ  !!≈ * __@CODE@__ ңӑно: 23 ProsSg -вна
 :%^VowRaise NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :%^VowRaise NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ЯКЫ  !!≈ * __@CODE@__ якэ: 24 ProsSg -вна
+LEXICON N_ЯКЫ  !!≈ * **@CODE@** якэ: 24 ProsSg -вна
 ! /total=4/
 ! якэ yake     якэн’ yaken°h   якэˮ yakeq      якы yaki
  NMN_ЯКЫ ;
@@ -519,8 +519,8 @@ LEXICON NMN_ЯКЫ
 :%^VowRaise NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :%^VowRaise NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ҢУВО  !!≈ * __@CODE@__ ңумʼ:ңум 25 ProsSg -(м)на
-!! Yaml: __yam, ngumhTS__
+LEXICON N_ҢУВО  !!≈ * **@CODE@** ңумʼ:ңум 25 ProsSg -(м)на
+!! Yaml: **yam, ngumhTS**
 ! /total=3/
 ! ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
 :%{йнңъʼØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -539,7 +539,7 @@ LEXICON N_ҢУВО  !!≈ * __@CODE@__ ңумʼ:ңум 25 ProsSg -(м)на
 :%^MLenition%>о NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :%^MLenition%>о NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_НЮБЕ  !!≈ * __@CODE@__ нюмʼ: 26  ProsSg -(м)на
+LEXICON N_НЮБЕ  !!≈ * **@CODE@** нюмʼ: 26  ProsSg -(м)на
 ! /total=0/
 ! нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
 :%{нңʼØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -557,7 +557,7 @@ LEXICON N_НЮБЕ  !!≈ * __@CODE@__ нюмʼ: 26  ProsSg -(м)на
 :%^MLenition NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :%^MLenition%>е NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_МУНО  !!≈ * __@CODE@__ муʼ:му 27  ProsSg -мна
+LEXICON N_МУНО  !!≈ * **@CODE@** муʼ:му 27  ProsSg -мна
 ! н /total=2/
 ! му’(н) múh	мунд’ múnt°h	мунˮ mún°q	муно múno
 !:%{нңʼØ%} NMN_МУНО ;
@@ -581,8 +581,8 @@ LEXICON N_МУНО  !!≈ * __@CODE@__ муʼ:му 27  ProsSg -мна
 :но NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :но NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ПОЁ  !!≈ * __@CODE@__ поʼ:по 28  ProsSg -мна
-!! Yaml: __poyo__
+LEXICON N_ПОЁ  !!≈ * **@CODE@** поʼ:по 28  ProsSg -мна
+!! Yaml: **poyo**
 ! ң /total=2/
 ! по’(ң) poh	понд’ pont°h	пойˮ poy°q	поё poyo
 ! Sg+Acc+Px2 ja Px3 assimilation -нмд- > -нд-
@@ -602,7 +602,7 @@ LEXICON N_ПОЁ  !!≈ * __@CODE@__ поʼ:по 28  ProsSg -мна
 :ё NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 !:й PLNOMSUF ;
 
-LEXICON N_ВЫҢО  !!≈ * __@CODE@__ выʼ:вы 29  ProsSg -мна /-мана
+LEXICON N_ВЫҢО  !!≈ * **@CODE@** выʼ:вы 29  ProsSg -мна /-мана
 ! ң /total=16/
 ! вы’(ң) wíh	вы̄нд’ wínt°h	выˮ wí°q	выңо wíŋo
  NMN_ВЫҢО ;
@@ -625,8 +625,8 @@ LEXICON NMN_ВЫҢО
 :ңо NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :ңо NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
-LEXICON N_ИЛЪЕ  !!≈ * __@CODE@__ илʼ:ил 30   ProsSg -мана
-!! Yaml: __ilje__
+LEXICON N_ИЛЪЕ  !!≈ * **@CODE@** илʼ:ил 30   ProsSg -мана
+!! Yaml: **ilje**
 ! ң /total=13/
 ! ил’(ң) yil°h	илӑнд’ yilənt°h	илаˮ yilə°q	илъе yil°ye
 :°%{йнңъʼØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -660,6 +660,7 @@ LEXICON N_ИЛЪЕ  !!≈ * __@CODE@__ илʼ:ил 30   ProsSg -мана
 ! +Sg+Acc{+PxDu1|+PxPl1}
 ! +Sg+Gen+PxDu1
 ! +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
+!! | --- 
 ! +Nom+Der/Cop+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
 ! +Nom+Der/Cop+Ind+Prt1+Sc{Sg1|Sg2}
 ! +Sg+Nom{X}+Der/Cop+Ind{Y}+ScSg3
@@ -708,8 +709,8 @@ LEXICON N_ЁЛЬЦЕ
 !: POSSESSOR-INDICES ; !
 
 
-LEXICON N_НЕНЭЦИЕ  !!≈ * __@CODE@__ ненэцьʼ:ненэць 30   ProsSg -мана
-!! Yaml: __nyenecyh__
+LEXICON N_НЕНЭЦИЕ  !!≈ * **@CODE@** ненэцьʼ:ненэць 30   ProsSg -мана
+!! Yaml: **nyenecyh**
 ! ң /total=13/
 ! ил’(ң) yil°h	илӑнд’ yilənt°h	илаˮ yilə°q	илъе yil°ye
 :°%{йнңъʼØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E-SG-NOM ;
@@ -739,6 +740,7 @@ LEXICON N_НЕНЭЦИЕ  !!≈ * __@CODE@__ ненэцьʼ:ненэць 30   Pr
 ! +Sg+Acc{+PxDu1|+PxPl1}
 ! +Sg+Gen+PxDu1
 ! +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
+!! | --- 
 ! +Nom+Der/Cop+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
 ! +Nom+Der/Cop+Ind+Prt1+Sc{Sg1|Sg2}
 ! +Sg+Nom{X}+Der/Cop+Ind{Y}+ScSg3
@@ -748,7 +750,7 @@ LEXICON N_НЕНЭЦИЕ  !!≈ * __@CODE@__ ненэцьʼ:ненэць 30   Pr
 :ие NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :ие NEW-ODD-SYLL-PLPROSPXSUF_ˮмна ;
 
-LEXICON N_ПАХАЁ  !!≈ * __@CODE@__ пӑхӑʼ: 31   ProsSg -мна
+LEXICON N_ПАХАЁ  !!≈ * **@CODE@** пӑхӑʼ: 31   ProsSg -мна
 ! ң /total=2/
 ! пӑхӑ’(ң) pəx°h	пӑхӑнд’ pəxənt°h	пӑхаˮ pəxə°q	пӑхӑё pəx°yo
 :°%{йнңъʼØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -776,6 +778,7 @@ LEXICON N_ПАХАЁ  !!≈ * __@CODE@__ пӑхӑʼ: 31   ProsSg -мна
 ! +Sg+Acc{+PxDu1|+PxPl1}
 ! +Sg+Gen+PxDu1
 ! +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
+!! | --- 
 ! +Nom+Der/Cop+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
 ! +Nom+Der/Cop+Ind+Prt1+Sc{Sg1|Sg2}
 ! +Sg+Nom{X}+Der/Cop+Ind{Y}+ScSg3
@@ -785,7 +788,7 @@ LEXICON N_ПАХАЁ  !!≈ * __@CODE@__ пӑхӑʼ: 31   ProsSg -мна
 :ё NEW-ODD-SYLL-PLVOWELVARIANTS-LESS-PROS ;
 :ё NEW-ODD-SYLL-PLPROSPXSUF_ˮмна ;
 
-LEXICON N_СЕРО  !!≈ * __@CODE@__ серˮ: 32   ProsSg -мана / -мня
+LEXICON N_СЕРО  !!≈ * **@CODE@** серˮ: 32   ProsSg -мана / -мня
 ! /total=16/
 ! серˮ syer	серт’ syert°h	серˮ syer°q	серо syero
 :%{дˮØ%} SGDATSUF ;
@@ -794,7 +797,7 @@ LEXICON N_СЕРО  !!≈ * __@CODE@__ серˮ: 32   ProsSg -мана / -мня
 :%{дˮØ%} PLNOMSUF ;
 :%{дˮØ%} PLACCSUF_О ;
 
-LEXICON N_ТАРЕ  !!≈ * __@CODE@__ тӑрˮ:тар 33   ProsSg -мня
+LEXICON N_ТАРЕ  !!≈ * **@CODE@** тӑрˮ:тар 33   ProsSg -мня
 ! /total=0/
 ! тӑрˮ tər	тӑрт’ tərt°h	тӑрˮ tər°q	тӑре tərye
 :%{дˮØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -827,6 +830,7 @@ LEXICON N_ТАРЕ  !!≈ * __@CODE@__ тӑрˮ:тар 33   ProsSg -мня
 ! +Sg+Acc{+PxDu1|+PxPl1}
 ! +Sg+Gen+PxDu1
 ! +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
+!! | --- 
 ! +Nom+Der/Cop+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
 ! +Nom+Der/Cop+Ind+Prt1+Sc{Sg1|Sg2}
 ! +Sg+Nom{X}+Der/Cop+Ind{Y}+ScSg3
@@ -839,7 +843,7 @@ LEXICON N_ТАРЕ  !!≈ * __@CODE@__ тӑрˮ:тар 33   ProsSg -мня
 !:е MUNO_O ;
 !: NMN_ТАРЕ ;
 
-LEXICON N_МАНСО  !!≈ * __@CODE@__ мӑнˮ: 34   ProsSg -мна
+LEXICON N_МАНСО  !!≈ * **@CODE@** мӑнˮ: 34   ProsSg -мна
 ! /total=6/
 ! мӑнˮ(с) mən°q	мӑнӑт’ mənət°h	мӑнӑсˮ mənəs°q	мӑнсо mən°so
 :°С1 NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -859,9 +863,9 @@ LEXICON N_МАНСО  !!≈ * __@CODE@__ мӑнˮ: 34   ProsSg -мна
 !:аС1 PLNOMSUF ;
 !:С1 PLACCSUF_О ;
 
-LEXICON N_МЯДО  !!≈ * __@CODE@__ мяˮ:мя 35   ProsSg -мна
+LEXICON N_МЯДО  !!≈ * **@CODE@** мяˮ:мя 35   ProsSg -мна
 ! /total=18/
-!! Yaml: __myadoTS__
+!! Yaml: **myadoTS**
 ! мяˮ(д) myaq	мят’ myat°h	мядˮ myad°q	мядо myado
 :%{дˮØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 :%{дˮØ%} NEW-AFF-2CENTERS-PRED-NOM_Дваˮ ;
@@ -889,6 +893,7 @@ LEXICON N_МЯДО  !!≈ * __@CODE@__ мяˮ:мя 35   ProsSg -мна
 ! +Sg+Acc{+PxDu1|+PxPl1}
 ! +Sg+Gen+PxDu1
 ! +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
+!! | --- 
 ! +Nom+Der/Cop+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
 ! +Nom+Der/Cop+Ind+Prt1+Sc{Sg1|Sg2}
 ! +Sg+Nom{X}+Der/Cop+Ind{Y}+ScSg3
@@ -899,8 +904,8 @@ LEXICON N_МЯДО  !!≈ * __@CODE@__ мяˮ:мя 35   ProsSg -мна
 :до NEW-EVEN-SYLL-PLPROSPXSUF_ˮмана ;
 
 
-LEXICON N_ИДЕ  !!≈ * __@CODE@__ иˮ: 36   ProsSg -мна
-!! Yaml: __yidye__
+LEXICON N_ИДЕ  !!≈ * **@CODE@** иˮ: 36   ProsSg -мна
+!! Yaml: **yidye**
 ! /total=1/
 ! иˮ(д) yiq	ит’ yit°h	идˮ yid°q	иде yidye
 :%{дˮØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
@@ -940,7 +945,7 @@ LEXICON N_ҢУДИ/ҢЭ
 
 
 
-LEXICON N_ҢЭ/ХАБИЕ  !!≈ * __@CODE@__ ңэ:ңэ 1  ProsSg -вна
+LEXICON N_ҢЭ/ХАБИЕ  !!≈ * **@CODE@** ңэ:ңэ 1  ProsSg -вна
  !! хӑби:8 ProsSg -вна
 : NMN_ҢЭ ;
 : PLACCSUF_Е ; 
@@ -979,18 +984,18 @@ LEXICON N_ЕД/ТИРЕ/ХАНО
 :  PLNOMSUF ;
 : PLACCSUF_Zero ; 
 
-LEXICON NMN_ҢУДИ  !!≈ * __@CODE@__ ңуда: 15 ProsSg -вна
-!! Yaml: __ngudi__
+LEXICON NMN_ҢУДИ  !!≈ * **@CODE@** ңуда: 15 ProsSg -вна
+!! Yaml: **ngudi**
     SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
  SGPROSSUF ;
   PLNOMSUF ;
 :%^A2I PLACCSUF_Zero ; 
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_ҢОДИ !!≈ * __@CODE@__
+LEXICON NMN_ҢОДИ !!≈ * **@CODE@**
 ! /total=28/
 ! ңодя ŋodya	ңодян’ ŋodyan°h	ңодяˮ ŋodyaq	ңоди ŋodyi
  SGDATSUF ;
@@ -999,7 +1004,7 @@ LEXICON NMN_ҢОДИ !!≈ * __@CODE@__
  SGPROSSUF ;
   PLNOMSUF ;
 :%^A2I PLACCSUF_Zero ;
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 LEXICON N_ҢОДИ/ТЁН
@@ -1022,8 +1027,8 @@ LEXICON N_ҢОДИ/ПИСЬ
 : PLACCSUF_I ;
 : PLACCSUF_Minus ;
 
-LEXICON NMN_ХОБ  !!≈ * __@CODE@__ хоба:хоба 19 ProsSg -вна
-!! Yaml: __xob__
+LEXICON NMN_ХОБ  !!≈ * **@CODE@** хоба:хоба 19 ProsSg -вна
+!! Yaml: **xob**
 ! /total=25/
 ! хоба xoba	хобан’ xoban°h	хобаˮ xobaq	хоб xob°
  SGDATSUF ;
@@ -1032,7 +1037,7 @@ LEXICON NMN_ХОБ  !!≈ * __@CODE@__ хоба:хоба 19 ProsSg -вна
  SGPROSSUF ;
  PLNOMSUF ;
  PLACCSUF_Minus ;
- POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+ POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 
@@ -1061,7 +1066,7 @@ LEXICON N_ВЫҢО/ИЛЪЕ
  N_ИЛЪЕ ;
 
 
-LEXICON NMN_ПИСЬ !!≈ * __@CODE@__ пися: 21 ProsSg -вна
+LEXICON NMN_ПИСЬ !!≈ * **@CODE@** пися: 21 ProsSg -вна
 ! /total=10/
 ! пися pyísya	писян’ pyísyan°h писяˮ pyísyaq	пись pyísy°
  SGDATSUF ;
@@ -1070,11 +1075,11 @@ LEXICON NMN_ПИСЬ !!≈ * __@CODE@__ пися: 21 ProsSg -вна
  SGPROSSUF ;
  PLNOMSUF ;
  PLACCSUF_Minus ;
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 
-LEXICON NMN_ҢАНУ  !!≈ * __@CODE@__ ңӑно: 23 ProsSg -вна
+LEXICON NMN_ҢАНУ  !!≈ * **@CODE@** ңӑно: 23 ProsSg -вна
 	NMN_ҢАНУ-SG ;
 	NMN_ҢАНУ-PL ;
 LEXICON NMN_ҢАНУ-SG  
@@ -1085,17 +1090,17 @@ LEXICON NMN_ҢАНУ-SG
 LEXICON NMN_ҢАНУ-PL  
   PLNOMSUF ;
 :%^VowRaise PLACCSUF_Zero ;
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_ҢУВО  !!≈ * __@CODE@__ ңумʼ:ңум 25 
+LEXICON NMN_ҢУВО  !!≈ * **@CODE@** ңумʼ:ңум 25 
 :ʼ SGDATSUF ;
 :%^MLenition SG-ACC-STEM ;
 :ʼ SG-NOM-STEM ;
 :ʼ SGPROSSUF ;
 :%^MLenition PLNOMSUF ;
 :%^MLenition PLACCSUF_О ;
-:ʼ  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:ʼ  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
 :ʼ POSSESSA-DUAL ;
 
 
@@ -1106,7 +1111,7 @@ LEXICON N_НЮБЕ-Pal/Var/ҢУВО
  N_НЮБЕ-Pal/Var ;
  N_ҢУВО ;
 
-LEXICON NMN_НЮБЕ  !!≈ * __@CODE@__ нюмʼ: 26
+LEXICON NMN_НЮБЕ  !!≈ * **@CODE@** нюмʼ: 26
 :%{нңʼØ%} SGDATSUF ;
 :%{нңʼØ%} SG-ACC-STEM ;
 :%{нңʼØ%} SG-NOM-STEM ;
@@ -1116,7 +1121,7 @@ LEXICON NMN_НЮБЕ  !!≈ * __@CODE@__ нюмʼ: 26
 
 
 
-LEXICON NMN_МУНО  !!≈ * __@CODE@__ муʼ: 27  ProsSg -мна
+LEXICON NMN_МУНО  !!≈ * **@CODE@** муʼ: 27  ProsSg -мна
  SGSCHWA-VARIANT-STEMS ;
  SGSTEMS-LESS-SCHWA-VARIANTS ;
 
@@ -1465,18 +1470,18 @@ LEXICON NMN_ИЛЪЕ
 :%>а%{йнңъʼØ%} SGDATSUF ;
 :%{йнңъʼØ%} SG-ACC-STEM ;
 !:а%{йнңъʼØ%} SG-NOM-STEM ;
-:%{йнңъʼØ%} SGNOMSUF ; !!≈ * __@CODE@__ 
-:%{йнңъʼØ%} SG-NOM-STEM ; !!≈ * __@CODE@__ 
+:%{йнңъʼØ%} SGNOMSUF ; !!≈ * **@CODE@** 
+:%{йнңъʼØ%} SG-NOM-STEM ; !!≈ * **@CODE@** 
 :%{йнңъʼØ%} SGPROSSUF ;
 :а PLNOMSUF ;
 :ъ PLACCSUF_Е ;
-:%{йнңъʼØ%}  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%{йнңъʼØ%}  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%{йнңъʼØ%} POSSESSA-DUAL ;
 
 LEXICON N_ТАРЕ-Pal/Var !! Where is the variation?
 : NMN_ТАРЕ ;
 
-LEXICON NMN_ТАРЕ  !!≈ * __@CODE@__ тӑрˮ:тар 33   ProsSg -мня
+LEXICON NMN_ТАРЕ  !!≈ * **@CODE@** тӑрˮ:тар 33   ProsSg -мня
 :%{дˮØ%} SGDATSUF ;
 :%{дˮØ%} SG-ACC-STEM ;
 :%{дˮØ%} SG-NOM-STEM ;
@@ -1494,13 +1499,13 @@ LEXICON NMN_ТАРЕ  !!≈ * __@CODE@__ тӑрˮ:тар 33   ProsSg -мня
 LEXICON N_ВАР/МЯДО
  N_МЯДО ;
 
-LEXICON N_ВАР/ТАРЕ  !!≈ * __@CODE@__ мяˮ:мя 35   ProsSg -мна
+LEXICON N_ВАР/ТАРЕ  !!≈ * **@CODE@** мяˮ:мя 35   ProsSg -мна
 !  тӑрˮ:тар 33   ProsSg -мня
     N_МЯДО ;
 :%{дˮØ%} PLACCSUF_Е ;
 
-LEXICON NMN_ВАР  !!≈ * __@CODE@__ мяˮ:мя 35   ProsSg -мна
-!! Yaml: __waro__
+LEXICON NMN_ВАР  !!≈ * **@CODE@** мяˮ:мя 35   ProsSg -мна
+!! Yaml: **waro**
 :%{дˮØ%} SGDATSUF ;
 :%{дˮØ%} SG-ACC-STEM ;
 :%{дˮØ%} SG-NOM-STEM ;
@@ -1509,20 +1514,20 @@ LEXICON NMN_ВАР  !!≈ * __@CODE@__ мяˮ:мя 35   ProsSg -мна
  SGPROSSUF ;
 :%{дˮØ%} PLNOMSUF ;
  PLACCSUF_О ;
-:%{дˮØ%}  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%{дˮØ%}  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%{дˮØ%} POSSESSA-DUAL ;
 
-LEXICON NMN_МЯДО  !!≈ * __@CODE@__ мяˮ:мя 35   ProsSg -мна
-!! Yaml: __myado__
+LEXICON NMN_МЯДО  !!≈ * **@CODE@** мяˮ:мя 35   ProsSg -мна
+!! Yaml: **myado**
 :%{дˮØ%} SGDATSUF ;
 :%{дˮØ%} SG-ACC-STEM ;
 :%{дˮØ%} SG-NOM-STEM ;
-:%{дˮØ%} SGLOCSUF_Хна ; !!≈ * __@CODE@__ мякна
+:%{дˮØ%} SGLOCSUF_Хна ; !!≈ * **@CODE@** мякна
 :%{дˮØ%} SGPROSSUF ;
 !:%{дˮØ%} SGPROSSUF_АМНА ;
 :%{дˮØ%} PLNOMSUF ;
 :%{дˮØ%} PLACCSUF_О ;
-:%{дˮØ%}  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%{дˮØ%}  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%{дˮØ%} POSSESSA-DUAL ;
 
 LEXICON N_ИДЕ-Pal/Var !! Where is the variation?
@@ -1534,14 +1539,14 @@ LEXICON NMN_ИДЕ !! Where is the variation?
 :аС1 SG-NOM-STEM ;
 :%{дˮØ%} PLNOMSUF ;
 :%{дˮØ%} PLACCSUF_Е ;
-:%{дˮØ%}  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%{дˮØ%}  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%{дˮØ%} POSSESSA-DUAL ;
 
 LEXICON N_ИДЕ/МЯДО
  N_ИДЕ ;
  N_МЯДО ;
  
-LEXICON N_ТЮСЕ  !!≈ * __@CODE@__ тюˮ:тюсе 
+LEXICON N_ТЮСЕ  !!≈ * **@CODE@** тюˮ:тюсе 
 : NMN_ТЮСЕ ;
 
 LEXICON NMN_ТЮСЕ
@@ -1576,7 +1581,7 @@ LEXICON N_Vow
 !LEXICON N_ЕСЯ  >> N_ҢОДИ/ПИСЬ = 
 !: NMN_Vow ;
 
-LEXICON	    N_САВНЕ !!≈ * __@CODE@__ 
+LEXICON	    N_САВНЕ !!≈ * **@CODE@** 
 +WORK: K ;
 
 !LEXICON	    N_СЁ  >> N_ҢЭ/СЁЁ/ХАБИЕ=
@@ -1588,13 +1593,13 @@ LEXICON	    N_САВНЕ !!≈ * __@CODE@__
 !LEXICON	    N_ЯКЭ  >> N_ЯКЫ
 !: NMN_Vow ;
 
-LEXICON	    N_ПЕНЗЕРЕ !!≈ * __@CODE@__ пензерˮ:пензер
+LEXICON	    N_ПЕНЗЕРЕ !!≈ * **@CODE@** пензерˮ:пензер
  N_ТАРЕ ;
 
-LEXICON	N_САБЦЬ  !!≈ * __@CODE@__ сабць:сабць
+LEXICON	N_САБЦЬ  !!≈ * **@CODE@** сабць:сабць
  N_ТИРЕ ;
 
-LEXICON N_МЕРЁ !!≈ * __@CODE@__ мерё:мерё
+LEXICON N_МЕРЁ !!≈ * **@CODE@** мерё:мерё
  N_ҢАНУ ;
 
 
@@ -1607,16 +1612,16 @@ LEXICON NMN_ТИРЕ/ХАНО
  PLACCSUF_Zero ; 
 
 
-LEXICON NMN_ҢЭ-OLD !!≈ * __@CODE@__ ңэ:ңэ 1  ProsSg -вна
+LEXICON NMN_ҢЭ-OLD !!≈ * **@CODE@** ңэ:ңэ 1  ProsSg -вна
  PL-PROS-ALL ;
  PL-GEN-PXSG1 ;
   SGDATSUF ;
-  SG-ACC-STEM ; !!≈ * __@CODE@__ SGACCSUF, SGGENSUF
-  SG-NOM-STEM ; !!≈ * __@CODE@__ SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
+  SG-ACC-STEM ; !!≈ * **@CODE@** SGACCSUF, SGGENSUF
+  SG-NOM-STEM ; !!≈ * **@CODE@** SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
  SGPROSSUF ;
-  PLNOMSUF ;  !!≈ * __@CODE@__ 
-  PLACCSUF_Zero ; !!≈ * __@CODE@__ => PL-ACC_STEM
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  PLNOMSUF ;  !!≈ * **@CODE@** 
+  PLACCSUF_Zero ; !!≈ * **@CODE@** => PL-ACC_STEM
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 
@@ -1637,7 +1642,7 @@ LEXICON NMN_ҢЭ/СЁЁ/ХАБИЕ
  PLACCSUF_Zero ; !
  PLACCSUF_Ё ; !
  PLACCSUF_Е ; !
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL_ХАЮН ;
 
 
@@ -1648,17 +1653,17 @@ LEXICON NMN_ПАНЫ !! 9
   SGPROSSUF ;
   PLNOMSUF ;
   PLACCSUF_Zero ; !
-:%^VowLower  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+:%^VowLower  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
 :%^VowLower POSSESSA-DUAL ;
 
-LEXICON NMN_ХУСУВЭЙ !!≈ * __@CODE@__ хусувэй: 10 ProsSg -ювна
+LEXICON NMN_ХУСУВЭЙ !!≈ * **@CODE@** хусувэй: 10 ProsSg -ювна
   SGDATSUF ;
   SG-ACC-STEM ;
   SG-NOM-STEM ;
  SGPROSSUF ;
   PLNOMSUF ;
   PLACCSUF_Zero ; !
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 LEXICON NMN_ЕД/ХАНО
@@ -1698,29 +1703,29 @@ LEXICON NMN_ХАНО-PL
  POSSESSA-DUAL ;
 
 
-LEXICON NMN_ТИРЕ  !!≈ * __@CODE@__ тир: 12 ProsSg -увна
+LEXICON NMN_ТИРЕ  !!≈ * **@CODE@** тир: 12 ProsSg -увна
 SGDATSUF ;
 :а  SG-ACC-STEM ;
   SG-NOM-STEM ;
 :%>у SGPROSSUF ;
   PLNOMSUF ;
   PLACCSUF_Е ; !
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
-LEXICON NMN_ЕД  !!≈ * __@CODE@__ ед: 13 ProsSg -увна /-ювна
-!! Yaml: __yed__
+LEXICON NMN_ЕД  !!≈ * **@CODE@** ед: 13 ProsSg -увна /-ювна
+!! Yaml: **yed**
 :а  SGDATSUF ;
     SG-ACC-STEM ;
     SG-NOM-STEM ;
 :%>у SGPROSSUF ;
     PLNOMSUF ;
     PLACCSUF_Zero ; !
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL_ХАЮН ;
 
-!! !!NOMINALS "NMN"
-!! !THREE-SYLLABLE VOWEL-FINAL STEMS
+!! ## NOMINALS "NMN"
+!! ### THREE-SYLLABLE VOWEL-FINAL STEMS
 LEXICON    NMN_МАРАҢГЫ
     NMN_МАРАҢГЫ-SG ;
     NMN_МАРАҢГЫ-PL ;
@@ -1733,7 +1738,7 @@ LEXICON NMN_МАРАҢГЫ-SG
 LEXICON NMN_МАРАҢГЫ-PL
   PLNOMSUF ;
 :%^A2I PLACCSUF_Zero ; !
-  POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+  POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
  POSSESSA-DUAL ;
 
 
@@ -1895,7 +1900,7 @@ LEXICON N_ConsO
 
 LEXICON N_ВАР
 !! варˮ:вар
-!! Yaml: __N-tarTS__
+!! Yaml: **N-tarTS**
 :%{дˮØ%} NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E ;
 :%{дˮØ%} NEW-AFF-2CENTERS-PRED-NOM_Дваˮ ;
 :%{дˮØ%} NEW-AFF-3CENTERS-EQU_Дремʼ ;
@@ -1922,6 +1927,7 @@ LEXICON N_ВАР
 ! +Sg+Acc{+PxDu1|+PxPl1}
 ! +Sg+Gen+PxDu1
 ! +Sg+Nom{PxDu1||PxDu3|+PxPl1|+PxPl3|+PxSg3}
+!! | --- 
 ! +Nom+Der/Cop+Ind+{+Aor|+Prt1}+Sc{Du|Pl}{1|2}
 ! +Nom+Der/Cop+Ind+Prt1+Sc{Sg1|Sg2}
 ! +Sg+Nom{X}+Der/Cop+Ind{Y}+ScSg3
@@ -2040,10 +2046,10 @@ LEXICON SGDATSUF
 LEXICON SGLOCSUF
 +Sg+Loc:%>х%{ауоэØ%}на K ; !вэсакохона пэдарахана ңамгэхэна
 
-LEXICON SGLOCSUF_Хна !!≈ * __@CODE@__ мякна
+LEXICON SGLOCSUF_Хна !!≈ * **@CODE@** мякна
 +Sg+Loc:%>хна K ;
 
-LEXICON SGLOCSUF_Хана !!≈ * __@CODE@__ серкана
+LEXICON SGLOCSUF_Хана !!≈ * **@CODE@** серкана
 +Sg+Loc:%>хана K ;
 
 LEXICON SGABLSUF
@@ -2112,7 +2118,7 @@ LEXICON PLACCSUF_О
 LEXICON PL-ACC_STEM
 +Pl+Acc:	K	;
 +Pl+Gen:%>ˮ	K	;
-+Pl+Pros:%>ˮ%{увм%}А2на 	K	; !!≈ * __@CODE@__ When does this take a vowel хоˮомна
++Pl+Pros:%>ˮ%{увм%}А2на 	K	; !!≈ * **@CODE@** When does this take a vowel хоˮомна
 
  POSSESSA-PL-NOM ;
 +Pl+Acc: POSSESSA-PL-ACC ;
@@ -2187,7 +2193,7 @@ LEXICON POSSESSA-SG-NOM
 +Sg+Nom+PxPl2:%>%{рл%}аˮ K ; ! (1961: 110) даˮ but л after Glots and schwa
 +Sg+Nom+PxPl3:%>доʼ K ;
 
-+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в   K ; !!≈ * __@CODE@__ 2013-10-22 Should this also have +ScSg3 marking
++Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в   K ; !!≈ * **@CODE@** 2013-10-22 Should this also have +ScSg3 marking
 +Sg+Nom+PxSg2+Der/Cop+Ind+Aor+ScSg3:%>р   K ;
 +Sg+Nom+PxSg3+Der/Cop+Ind+Aor+ScSg3:%>да  K ;
 +Sg+Nom+PxDu1+Der/Cop+Ind+Aor+ScSg3:%>миʼ K ;
@@ -2219,7 +2225,7 @@ LEXICON POSSESSA-SG-ACC
 +Sg+Acc+PxPl2:%>мдаˮ K ;
 +Sg+Acc+PxPl3:%>мдоʼ K ;
 
-LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES !!= * __@CODE@__ singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
+LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES !!= * **@CODE@** singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
 +PxSg1:н    K ;
 +PxSg1:ни   K ; ! (1961: 111) нюни, ңэсяни, мяˮни
 +PxSg2:нд   K ;
@@ -2231,7 +2237,7 @@ LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES !!= * __@CODE@__ singul
 +PxPl2:ндаˮ K ;
 +PxPl3:ндоʼ K ;
 
-LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 !!= * __@CODE@__ singular possessa oblique possessor indices
+LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 !!= * **@CODE@** singular possessa oblique possessor indices
 +PxSg1+Der/Cop+Aor:н    MUTUAL-SG3_NORAISING ;
 +PxSg1+Der/Cop+Aor:ни   MUTUAL-SG3_NORAISING ; ! (1961+Der/Cop+Aor: 111) нюни, ңэсяни, мяˮни
 +PxSg2+Der/Cop+Aor:нд   MUTUAL-SG3_NORAISING ;
@@ -2602,7 +2608,7 @@ LEXICON  POSSESSA-PL-ACCGEN_PXDU3
 +PxDu3:%>диʼ K ;
 
 LEXICON  POSSESSA-PL-ACCGEN_PXPL1
-+PxPl1:наˮ K ; !!= * __@CODE@__ The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
++PxPl1:наˮ K ; !!= * **@CODE@** The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
 !+PxPl1:%>наˮ K ;
 
 LEXICON  POSSESSA-PL-ACCGEN_PXPL2
@@ -2740,7 +2746,7 @@ LEXICON NOMINAL-CONJUGATION
 +Der/Cop+Ind+Prt1+ScPl3:%>ць    K ;
 
 
-!! !!NEW
+!! ## NEW
 
 LEXICON N-NEW_ҢЭ
  NEW-ODD-SYLL-NO-VOWEL-CHANGE-I2E

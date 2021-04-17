@@ -1,10 +1,10 @@
-!! !!!Verb inflection
+!! # Verb inflection
 
 LEXICON V_
 +WORK: # ;
 
-!! !!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-LEXICON IV_Е !!≈ * __@CODE@__ есь:е
+!! ## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+LEXICON IV_Е !!≈ * **@CODE@** есь:е
 +IV: V-01_Е ;
 
 LEXICON IV_МЭ
@@ -59,7 +59,7 @@ LEXICON TV_НУ-Pal/Var
 LEXICON IV_НУ/ТУ
 +IV: V-01_НУ/ТУ       ;
 
-LEXICON IV_ҢЭ !!≈ * __@CODE@__ ңэсь:ңэ
+LEXICON IV_ҢЭ !!≈ * **@CODE@** ңэсь:ңэ
 +IV: V-01_ҢЭ       ;
 
 LEXICON IV_ҢЭ-Pal/Var
@@ -91,8 +91,8 @@ LEXICON VR_ХО-Pal/Var
 LEXICON IV_ХЭ
 +IV: V-01_ХЭ       ;
 
-!! !!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-LEXICON IV_НАМДА !!≈ * __@CODE@__ намдась:намда
+!! ## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+LEXICON IV_НАМДА !!≈ * **@CODE@** намдась:намда
 +IV: V-NEW_НАМДА ;
 
 LEXICON TV_НАМДА
@@ -107,7 +107,7 @@ LEXICON IV_ВАДЮ
 LEXICON TV_ВАДЮ
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ВАДЮ       ;
 
-LEXICON IV_ЯКУ !!≈ * __@CODE@__ якась:яка
+LEXICON IV_ЯКУ !!≈ * **@CODE@** якась:яка
 +IV: V-01_ЯКУ       ;
 
 LEXICON IV_ИЛЕ
@@ -162,11 +162,11 @@ LEXICON TV_ХАДАБАСЬ
 !LEXICON VR_ХАДАБАСЬ
 !+Refl: V-NEW_ХАДАБАСЬ-REFL ;
 
-LEXICON IV_ХАДА !!≈ * __@CODE@__ хадась:хада
+LEXICON IV_ХАДА !!≈ * **@CODE@** хадась:хада
 !+IV: V-01_ХАДА       ;
 +IV: V-NEW_ХАДА       ;
 
-LEXICON TV_ХАДА !!≈ * __@CODE@__ хадась:хада
+LEXICON TV_ХАДА !!≈ * **@CODE@** хадась:хада
 !+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ХАДА       ;
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ХАДА       ;
 
@@ -181,7 +181,7 @@ LEXICON TV_ЮХУ
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ЮХУ       ;
 
 
-!! !THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!! ### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON IV_ЛАХАНА
 !+IV: V-01_ЛАХАНА       ;
 +IV: V-NEW_ЛАХАНА       ;
@@ -195,7 +195,7 @@ LEXICON VR_ЛАХАНА
 
 LEXICON TV_ЛАХАНА
 !+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
-@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; !!= * __@CODE@__ 3-syll
+@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; !!= * **@CODE@** 3-syll
 
 LEXICON TV_ЛАХАНА-Pal/Var
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ;
@@ -212,7 +212,7 @@ LEXICON IV_СЯНАКУ
 +IV: V-01_СЯНАКУ       ;
 
 LEXICON IV_ЯˮАВЛУ
-!! * Yaml: __V-yaqwlasj__
+!! * Yaml: **V-yaqwlasj**
 +IV: V-01_ЯˮАВЛУ      ;
 
 LEXICON IV_ЯˮАВЛУ-Pal/Var
@@ -225,9 +225,9 @@ LEXICON IV_ЯˮАВЛУ-Pal/Var
 LEXICON TV_ЯˮАВЛУ
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
-!! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON IV_МАН  !!≈ * __@CODE@__ манзь:ма%{нңʼØ%} 
-!! * Yaml: __manzj__
+!! ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+LEXICON IV_МАН  !!≈ * **@CODE@** манзь:ма%{нңʼØ%} 
+!! * Yaml: **manzj**
 +IV: V-01_МАН       ;
 
 LEXICON IV_МИН
@@ -250,7 +250,7 @@ LEXICON VR_САС
 +Refl: V-01_САС-REFL       ;
 
 LEXICON TV_САС !!= * @CODE@ манэць:манэ
-!!= * Yaml: __V-manecj__
+!!= * Yaml: **V-manecj**
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_САС       ;
 
 LEXICON TV_САС-Pal/Var
@@ -274,14 +274,14 @@ LEXICON TV_ТИР-Pal/Var
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ТИР       ;
 +TV: PRC_PALVAR2 ;
 
-!! !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON IV_НЭКАЛ !!≈ * __@CODE@__ 
+!! ### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+LEXICON IV_НЭКАЛ !!≈ * **@CODE@** 
 +IV: V-01_НЭКАЛ       ;
 
 LEXICON TV_НЭКАЛ
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_НЭКАЛ       ;
 
-LEXICON IV_ҢАДИМ/ҢАРАМ !!≈ * __@CODE@__ 2013-12-16
+LEXICON IV_ҢАДИМ/ҢАРАМ !!≈ * **@CODE@** 2013-12-16
 +IV: V-01_ҢАДИМ       ;
 +IV: V-01_ҢАРАМ       ;
 
@@ -304,12 +304,12 @@ LEXICON TV_ҢАРАМ
 
 
 
-!! !!AFTER +TV, +IV, +Aux, +Refl
+!! ## AFTER +TV, +IV, +Aux, +Refl
 !! Not yet written.
 
-!! !!CONJUGATION BY STEM TYPE
+!! ## CONJUGATION BY STEM TYPE
 
-!! !ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!! ### ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
 LEXICON V-01_Е
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
@@ -727,7 +727,7 @@ LEXICON V-01_ТУ
 :%^VowRaise CONNEG ;
 
 LEXICON V-01_ХО
-!! * Yaml: __V-xosj__
+!! * Yaml: **V-xosj**
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC-WITH-OCDU3-IN_ҢА ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ MUTUAL-V_4-PRT1-OCSG3 ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ңа MUTUAL-V_4-PRT1-OCDU3 ;
@@ -813,7 +813,7 @@ LEXICON V-01_ХЭ
  CONNEG ;
 
 
-!! !TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!! ### TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON V-01_ВАДЮ
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
@@ -855,7 +855,7 @@ LEXICON V-01_ВАДЮ
 :%^VowRaise CONNEG ;
 
 
-LEXICON V-01_ЯКУ !!≈ * __@CODE@__ якась:яка
+LEXICON V-01_ЯКУ !!≈ * **@CODE@** якась:яка
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
@@ -963,7 +963,7 @@ LEXICON V-01_ИЛЕ
  V_Mod/rep ;
  V_Mod/sup ;
  V_HAB ;
- V_Fut_ҢГУ ; !!= * __@CODE@__ is this the stem to use for +Fut+Mod/prob
+ V_Fut_ҢГУ ; !!= * **@CODE@** is this the stem to use for +Fut+Mod/prob
  V_Subord ;
  V_AUD ;
  IND-AOR		;
@@ -1051,7 +1051,7 @@ LEXICON V-01_ҢЭСУ
 :%^VowRaise CONNEG ;
 
 LEXICON V-NEW_ПЭБЮ
-!! * Yaml: __V-pewasj__
+!! * Yaml: **V-pewasj**
 !! has vowel loss
 :%^VowLoss CONJ_ъи ;
 +Ger:%>сь K ;
@@ -1198,7 +1198,7 @@ LEXICON V-NEW_ПЭБЮ
 !:%^VowRaise CONNEG ;
 
 LEXICON V-NEW_ХАДАБАСЬ
-!! * Yaml: __V-xadabasj__
+!! * Yaml: **V-xadabasj**
  MOD/NARR-SC ;
 :%^A2I MOD/IMPFAPPR-SC_нараха ;
 :%^A2I V-NEW_ODD-SYLL-MUTUAL-MINUS-V ;
@@ -1355,7 +1355,7 @@ LEXICON V-01_ЮХУ
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
 
-!! !THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+!! ### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON V-01_ЛАХАНА !! а > э in Pl Oc 
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
@@ -1481,7 +1481,7 @@ LEXICON V-01_СЯНАКУ
 :%^VowRaise PRC-NEG ; !!= * @CODE@	+PrcNeg +PrcFut
 :%^VowRaise CONNEG ;
 
-LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
+LEXICON V-01_ЯˮАВЛУ !!= * **@CODE@** яˮавлась:яˮавла
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
@@ -1535,9 +1535,9 @@ LEXICON V-01_ЯˮАВЛУ !!= * __@CODE@__ яˮавлась:яˮавла
 ! IND-AOR-RCPL2 	;
 ! IND-AOR-RCPL3 	;
 
-!! !ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON V-01_МАН   !!≈ * __@CODE@__ манзь:ма%{нңʼØ%} 
-!! * Yaml: __manzj__
+!! ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+LEXICON V-01_МАН   !!≈ * **@CODE@** манзь:ма%{нңʼØ%} 
+!! * Yaml: **manzj**
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-AOR-OC ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ V_IND-4-PRT1-OC ;
  V_PREC ;
@@ -1673,7 +1673,7 @@ LEXICON V-01_МИС
  CONNEG ;
 
 LEXICON V-01_САС !!= * @CODE@ манэць:манэ
-!!= * Yaml: __V-manecj__
+!!= * Yaml: **V-manecj**
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮңа MUTUAL-V_AOR-4-OCSG3 ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮ  MUTUAL-V_AOR-4-OCDU3 ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ˮ MUTUAL-V_AOR-4-OCPL3 ;
@@ -1730,8 +1730,8 @@ LEXICON V-01_САС-REFL ! V_refl 2013-03-04
 +Ind: IND-AOR-RCPL2 	;
 +Ind: IND-AOR-RCPL3 	;
 
-LEXICON V-NEW_ТИР  !!≈ * __@CODE@__
-!!= * Yaml: __V-sircj__
+LEXICON V-NEW_ТИР  !!≈ * **@CODE@**
+!!= * Yaml: **V-sircj**
  CONJ_ъи ;
  CONNEG ;
 :%{йнңъʼØ%} EVAS_воңгад ;
@@ -1886,8 +1886,8 @@ LEXICON V-01_ТИР-REFL !! V_refl 2013-03-04
  CONNEG ;
 
 
-!! !TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-LEXICON V-01_НЭКАЛ  !!≈ * __@CODE@__ нэкалць:нэкал
+!! ### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+LEXICON V-01_НЭКАЛ  !!≈ * **@CODE@** нэкалць:нэкал
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ңа MUTUAL-V_AOR-4-OCSG3 ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@  MUTUAL-V_AOR-4-OCDU3 ;
 @R.CONJ.ObjAll@+Ind:@R.CONJ.ObjAll@ MUTUAL-V_AOR-4-OCPL3 ;
@@ -2015,7 +2015,7 @@ LEXICON V-01_ҢАРАМ-REFL !! V_refl 2013-03-04
 +Ind: IND-AOR-RCPL3 	;
 
 !! Mutual verbal conjugation
-LEXICON IND-AOR !!≈ * __@CODE@__ All except Sg3 Du3
+LEXICON IND-AOR !!≈ * **@CODE@** All except Sg3 Du3
  IND-AOR-SG1 ;
  IND-AOR-SG2 ;
 ! IND-AOR-SG3 ;
@@ -2492,7 +2492,7 @@ LEXICON V_Hort-Refl
 +Hort:%>х%{ауоэØ%} MUTUAL-RCDU1 ;
 +Hort:%>х%{ауоэØ%} MUTUAL-RCPL1 ;
 
-LEXICON V_PREC !!= * __@CODE@__ Hort
+LEXICON V_PREC !!= * **@CODE@** Hort
 +Prec+Hort:%>харця MUTUAL-SG1 ;
 +Prec+Hort:%>харцю MUTUAL-SG1 ;
 +Prec+Hort:%>харцю MUTUAL-DU1 ;
@@ -2651,7 +2651,7 @@ LEXICON V_Mod/des
 +Mod/des:%>рби MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/des_РАВА
-+Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; !!= * __@CODE@__ Sg3 and Pl3
++Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; !!= * **@CODE@** Sg3 and Pl3
 +Mod/des:%>раби MUTUAL-PERSON-OCPL_NORAISING ;
 
 LEXICON V_Mod/des-Refl
@@ -2858,7 +2858,7 @@ LEXICON V_AUD
 +Aud:%>%{вм%}о%> DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ;
 +Aud:%>%{вм%}ано%> DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ;
 
-LEXICON SG3-PRED-AOR/PRET1 !!= * __@CODE@__ V_AUD picks up possessor indices and comes here
+LEXICON SG3-PRED-AOR/PRET1 !!= * **@CODE@** V_AUD picks up possessor indices and comes here
 +Der/Cop+Aor: MUTUAL-SG3_NORAISING ;
 +Der/Cop: IND-4-PRT1-SG3 ;
 
@@ -3246,11 +3246,11 @@ LEXICON PRC-FUT
  PRC-FUT_ВНДА ;
 
 LEXICON PRC-FUT_ВАНДА
-+PrcFut:%>%{вм%}анда K ; !!≈ * __@CODE@__
++PrcFut:%>%{вм%}анда K ; !!≈ * **@CODE@**
 +PrcFut:%>%{вм%}анда NMN_ҢУДИ ;
 
 LEXICON PRC-FUT_ВНДА
-+PrcFut:%>%{вм%}нда K ; !!≈ * __@CODE@__ Should this form be here 2013-11-25
++PrcFut:%>%{вм%}нда K ; !!≈ * **@CODE@** Should this form be here 2013-11-25
 +PrcFut:%>%{вм%}нда NMN_ҢУДИ ;
 
 LEXICON PRC-NEG
@@ -3260,7 +3260,7 @@ LEXICON PRC-NEG
 LEXICON PRC-NEG_МАДАВЭЙ
 +PrcNeg:%>%{вм%}адавэй K ;
 +PrcNeg:%>%{вм%}адавэй NMN_ХУСУВЭЙ ;
-+PrcFut:%>%{вм%}нда K ; !!≈ * __@CODE@__ Should this form be here 2013-11-25
++PrcFut:%>%{вм%}нда K ; !!≈ * **@CODE@** Should this form be here 2013-11-25
 +PrcFut:%>%{вм%}нда NMN_ҢУДИ ;
 
 LEXICON PRC2
@@ -3343,7 +3343,7 @@ V-NEW_BI-SYLL-MUTUAL-SUBORD_MINUS-V ;
 LEXICON V-NEW_ХАДА-REFL
 +Ger: #;
 
-LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
+LEXICON V-NEW_НАМДА !!= * **@CODE@** намдась:намда schwa-final
 :%^VowLoss V-NEW_BI-SYLL-MUTUAL-MINUS-V ;
  V-NEW_BI-SYLL-MUTUAL-ZERO ;
  V-OBJ-NEW_BI-SYLL-MUTUAL-ZERO ;
@@ -3413,7 +3413,7 @@ LEXICON V-NEW_НАМДА !!= * __@CODE@__ намдась:намда schwa-final
 !
 
 LEXICON V-NEW_ЛАХАНА
-!!= * Yaml: __V-laxanasj__
+!!= * Yaml: **V-laxanasj**
  AUD-AOR/PRT1-SC_ванон ;
  AUD-AOR/PRT1-SC_вон ;
  CONJ_и ;
@@ -3517,7 +3517,7 @@ LEXICON	V-NEW_ҢЭДАРА-REFL
 
 
 LEXICON V-NEW_ХО
-!! * Yaml: __V-xosjTS__
+!! * Yaml: **V-xosjTS**
  AUD-AOR/PRT1-SC_вон ;
  AUD-AOR/PRT1-SC_ванон ;
  CONJ_ъи ;
@@ -3576,7 +3576,7 @@ LEXICON V-NEW_ХО
  PRCPRF-ODD ;
  PREC-SC-ODD ;
 +Subord+Abs:%>бˮ K ;
-+Subord+PxSg1:%>бˮни K ; !!= * __@CODE@__ Do all odd-syllabled words need this?
++Subord+PxSg1:%>бˮни K ; !!= * **@CODE@** Do all odd-syllabled words need this?
  SUBORD-PX_бтоʼ ;
  SUBORD-PX_бˮнандоʼ ;
 
@@ -4772,12 +4772,12 @@ LEXICON V-OBJ-NEW_MUTUAL
 +PrcFut+Pl+Abl+PxPl3:%>вндахататоʼ K ;
 +PrcFut+Pl+Pros+PxPl3:%>вндиˮмнатоʼ K ;
 +PrcFut+Pred+Abs:%>вндад K ;
-+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; !!= * __@CODE@__ Vowel removed
-+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; !!= * __@CODE@__ Vowel removed
++PrcFut+Pred+Nom+PxSg1:%>вндадав K ; !!= * **@CODE@** Vowel removed
++PrcFut+Pred+Nom+PxSg1:%>вндадув K ; !!= * **@CODE@** Vowel removed
 +PrcFut+Pred+Nom+PxSg1+Use/SpellNoSugg:%>вндадами K ;
 +PrcFut+Pred+Nom+PxSg1+Use/SpellNoSugg:%>вндадми K ;
-+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; !!= * __@CODE@__ Vowel removed
-+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; !!= * __@CODE@__ Vowel removed
++PrcFut+Pred+Acc+PxSg1:%>вндадав K ; !!= * **@CODE@** Vowel removed
++PrcFut+Pred+Acc+PxSg1:%>вндадув K ; !!= * **@CODE@** Vowel removed
 +PrcFut+Pred+Acc+PxSg1+Use/SpellNoSugg:%>вндадами K ;
 +PrcFut+Pred+Acc+PxSg1+Use/SpellNoSugg:%>вндадми K ;
 +PrcFut+Pred+Gen+PxSg1:%>вндадан K ;
@@ -8046,7 +8046,7 @@ MOD/IMPFAPPR-OC_нарха ;
 +Mod/prob+Aor+ScPl3+OcPl3:%>накыдоʼ K ;
 
 
-LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO !!= * __@CODE@__ raise/no
+LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO !!= * **@CODE@** raise/no
 !V-NEW_BI-SYLL-MUTUAL-PRCNEG
 #;
 ! V-NEW_BI-SYLL-MUTUAL-MODREP
@@ -9041,7 +9041,7 @@ LEXICON IND-AOR/PRT1-OC
 +Ind+Prt1+ScPl2+OcDu3:%>ңахаюдаць K ;
 +Ind+Prt1+ScPl3+OcDu3:%>ңахаюдонзь K ;
 !
-LEXICON IND-AOR/PRT1-OCPL3_ян !!= * __@CODE@__ ODD-SYLL
+LEXICON IND-AOR/PRT1-OCPL3_ян !!= * **@CODE@** ODD-SYLL
 +Ind+Aor+ScSg1+OcPl3:%>ян K ;
 +Ind+Aor+ScSg2+OcPl3:%>яд K ;
 +Ind+Aor+ScSg3+OcPl3:%>йда K ;
@@ -9885,7 +9885,7 @@ LEXICON MOD/INT-OC_са
 +Mod/int:%>са DEFAULT-DEFAULT-OCDU3 ;
 +Mod/int:%>са DEFAULT-DEFAULT-OCPL3 ;
 
-LEXICON MOD/INT-SC_бца !!= * __@CODE@__ ??
+LEXICON MOD/INT-SC_бца !!= * **@CODE@** ??
 +Mod/int:%>бцу DEFAULT-DEFAULT-SC ;
 +Mod/int:%>бцу DEFAULT-DEFAULT-SCDU3 ;
 LEXICON MOD/INT-SC_са
@@ -10671,12 +10671,12 @@ LEXICON PRCFUT_внд
 +PrcFut+Pl+Abl+PxPl3:%>вндахататоʼ K ;
 +PrcFut+Pl+Pros+PxPl3:%>вндиˮмнатоʼ K ;
 +PrcFut+Pred+Abs:%>вндад K ;
-+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; !!= * __@CODE@__ Vowel removed
-+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; !!= * __@CODE@__ Vowel removed
++PrcFut+Pred+Nom+PxSg1:%>вндадав K ; !!= * **@CODE@** Vowel removed
++PrcFut+Pred+Nom+PxSg1:%>вндадув K ; !!= * **@CODE@** Vowel removed
 +PrcFut+Pred+Nom+PxSg1+Use/SpellNoSugg:%>вндадами K ;
 +PrcFut+Pred+Nom+PxSg1+Use/SpellNoSugg:%>вндадми K ;
-+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; !!= * __@CODE@__ Vowel removed
-+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; !!= * __@CODE@__ Vowel removed
++PrcFut+Pred+Acc+PxSg1:%>вндадав K ; !!= * **@CODE@** Vowel removed
++PrcFut+Pred+Acc+PxSg1:%>вндадув K ; !!= * **@CODE@** Vowel removed
 +PrcFut+Pred+Acc+PxSg1+Use/SpellNoSugg:%>вндадами K ;
 +PrcFut+Pred+Acc+PxSg1+Use/SpellNoSugg:%>вндадми K ;
 +PrcFut+Pred+Gen+PxSg1:%>вндадан K ;

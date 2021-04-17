@@ -6,24 +6,24 @@
 LEXICON PROP_
 +WORK+N+Prop: K ; ! This will need to be elaborated to other noun types.
 
-!! !ONE-SYLLABLE VOWEL-FINAL STEM
+!! ### ONE-SYLLABLE VOWEL-FINAL STEM
 LEXICON PROP_ҢЭ
 +N+Prop: NMN_ҢЭ ;
 
 LEXICON PROP_ҢЭ-Pal/Var
 +N+Prop:%^PalVariation NMN_ҢЭ ;
 
-!! !ONE-SYLLABLE CONSONANT-FINAL STEM
+!! ### ONE-SYLLABLE CONSONANT-FINAL STEM
 LEXICON PROP_ЕД
 +N+Prop: NMN_ЕД ;
 
-!! !TWO-SYLLABLE CONSONANT-FINAL STEM
-LEXICON PROP_ПАНЫ  !!≈ * __@CODE@__ пӑны:пӑны 9
+!! ### TWO-SYLLABLE CONSONANT-FINAL STEM
+LEXICON PROP_ПАНЫ  !!≈ * **@CODE@** пӑны:пӑны 9
 +N+Prop: NMN_ПАНЫ ;
 
 
-LEXICON PROP_ХАНО !!≈ * __@CODE@__ хӑн: 11P ProsSg -увна
-!! Yaml: __xano__
+LEXICON PROP_ХАНО !!≈ * **@CODE@** хӑн: 11P ProsSg -увна
+!! Yaml: **xano**
 ! /total=27/
 ! хӑн xən°     хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
 +N+Prop: NMN_ХАНО ;
@@ -40,7 +40,7 @@ LEXICON PROP_ҢАНУ
 LEXICON PROP_МЕРЁ
 +N+Prop: NMN_ҢАНУ ;
 
-LEXICON PROP_ЯЛЭ  !!≈ * __@CODE@__ яля: 18 ProsSg -вна
+LEXICON PROP_ЯЛЭ  !!≈ * **@CODE@** яля: 18 ProsSg -вна
 !! /total=2/
 !! яля yalya    ялян’ yalyan°h  яля” yalyaq     ялэ yale
 +N+Prop: SGDATSUF ;
@@ -62,7 +62,7 @@ LEXICON PROP_ТАСО
 LEXICON PROP_МЯДО
 +N+Prop: NMN_МЯДО ;
 
-LEXICON PROP_ХАСЕВ  !!≈ * __@CODE@__ хасава: 22 ProsSg -вна
+LEXICON PROP_ХАСЕВ  !!≈ * **@CODE@** хасава: 22 ProsSg -вна
 !! /total=1/
 !! хасава xasawa        хасаван’ xasawan°h      хасава” xasawaq хасев xasyew°
 +N+Prop: SGDATSUF ;
@@ -71,7 +71,7 @@ LEXICON PROP_ХАСЕВ  !!≈ * __@CODE@__ хасава: 22 ProsSg -вна
 +N+Prop: SGPROSSUF ;
 +N+Prop: PLNOMSUF ;
 +N+Prop:%^StemVowFronting PLACCSUF_Minus ;
-+N+Prop:   POSSESSA-PLURAL ; !!≈ * __@CODE@__ +Pl+Dat, +Pl+Loc, +Pl+Abl
++N+Prop:   POSSESSA-PLURAL ; !!≈ * **@CODE@** +Pl+Dat, +Pl+Loc, +Pl+Abl
 +N+Prop: POSSESSA-DUAL ;
 
 LEXICON PROP_ХУСУВЭЙ
@@ -80,7 +80,7 @@ LEXICON PROP_ХУСУВЭЙ
 LEXICON PROP_ВЫҢО
 +N+Prop: NMN_ВЫҢО ;
 
-!! !THREE-SYLLABLE VOWEL-FINAL STEM
+!! ### THREE-SYLLABLE VOWEL-FINAL STEM
 LEXICON PROP_МАРАҢГЫ
 +N+Prop: NMN_МАРАҢГЫ ;
 
