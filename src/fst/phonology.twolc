@@ -1,14 +1,14 @@
-!! !!!Nenets twol file
+!! # Nenets twol file
 
 Alphabet
 
-!! !!Letters of the alphabet
-а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я  !!≈ * __@CODE@__ 
-А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я   !!≈ * __@CODE@__ 
+!! ## Letters of the alphabet
+а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я  !!≈ * **@CODE@** 
+А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я   !!≈ * **@CODE@** 
 
-°:0  !!≈ * __@CODE@__ Directly from Tapani Salminen extra short vowel
+°:0  !!≈ * **@CODE@** Directly from Tapani Salminen extra short vowel
 
-ә:а  !!≈ * __@CODE@__ Directly from Tapani Salminen schwa
+ә:а  !!≈ * **@CODE@** Directly from Tapani Salminen schwa
 
  ˮ ! Non-nasal glottal
  ʼ ! Nasal glottal
@@ -16,7 +16,7 @@ Alphabet
 ! other symbols
    %- !0
 
-!! !!Archiphonemes for vowels
+!! ## Archiphonemes for vowels
 
 %{ауоэØ%}:а   !!≈ * @CODE@  А1:а А1:у А1:о А1:э SCHWA
 %{ауоэиыØ%}:0 !!≈ * @CODE@ before pros
@@ -30,7 +30,7 @@ Alphabet
 Ы2:э  !!= * @CODE@
 Д1:д ! trond added due to compiler complaint
 
-!! !!Archiphonemes for glottals
+!! ## Archiphonemes for glottals
 
  %{нңʼØ%}:ʼ   !!= * @CODE@
  %{нңʼØ%}:н   !!= * @CODE@
@@ -52,21 +52,21 @@ Alphabet
  %{оё%}:о         !!= * @CODE@ in +N+Sg+Nom+PxPl3
  %{рл%}:0	   !!= * @CODE@ +N+Sg+Nom+PxSg2
 
- %{аяуюØ%}:0	!!≈ * __@CODE@__ хан+N+Sg+Acc+PxSg1: ханув, ханав
+ %{аяуюØ%}:0	!!≈ * **@CODE@** хан+N+Sg+Acc+PxSg1: ханув, ханав
 !хонась+V+Refl+Mod/int+RcSg3: хонасьˮ
 
- %{увм%}:0	   !!≈ * __@CODE@__ +N+Sg+Pros
+ %{увм%}:0	   !!≈ * **@CODE@** +N+Sg+Pros
 
- %{вм%}:0	   !!≈ * __@CODE@__ +N+Sg+Nom+PxSg1
+ %{вм%}:0	   !!≈ * **@CODE@** +N+Sg+Nom+PxSg1
 
-!! !!triggers
+!! ## triggers
 
  %^SCSG2:0    !!= * @CODE@ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
  %^PLNOM:0    !!= * @CODE@ disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
  %^A2O:0     !!= * @CODE@ 
  %^A2I:0       !!= * @CODE@ 
 
- %^PalVariation:0 !!≈ * __@CODE@__ This allows for тар%{дˮØ%}%>д%{оё%}нзь
+ %^PalVariation:0 !!≈ * **@CODE@** This allows for тар%{дˮØ%}%>д%{оё%}нзь
 
  %^MLenition:0 !!= * @CODE@ lenition
  %^VowLower:0 !!= * @CODE@ vowel lowering ы:э у:о
@@ -78,7 +78,7 @@ Alphabet
  %^HardFronting:0    !!= * @CODE@  яля:ялэ
 
 
-!! !!Boundary symbols
+!! ## Boundary symbols
 
  %>     !!= * @CODE@ 
  #         !! hash
@@ -126,14 +126,14 @@ PAIRSYLL = [ Vow:+ Cns:+ Vow: Cns:* ] ;
 3VowCenterLC =  Cns* Vow: \[ °: | ә: | Vow: | %{ая%}: | %{оё%}: ]*  [ °: | ә: | Vow: | %{ая%}: | %{оё%}: ] \[ °: | ә: | Vow: | %{ая%}: | %{оё%}: ]* [ °: | ә: | Vow: | %{ая%}: | %{оё%}: ] \[ °: | ә: | Vow: | %{ая%}: | %{оё%}: ]* ;
 
 
-!! !!!Rules
+!! # Rules
 
 Rules
 
 
 
 "к: -> г after nasal glottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  к:г <=> [ ʼ: | %{йнңъʼØ%}: | ң | %{нңʼØ%}: | м ] %> _ ( °: ) ;
 !!€ му%{нңʼØ%}%>кʼ
 !!€ муң%>гʼ
@@ -150,7 +150,7 @@ Rules
 !€0 ңум0%>гана
 
 "к: to х after Vowels"
-!! __@RULENAME@__
+!! **@RULENAME@**
  к:х <=>  [Vow: | °: ] (%^VowLower:|%^VowLoss:) %> _  ;
 !!€# ты%^VowLower%>да
 !!€0 тэ0%>да
@@ -160,7 +160,7 @@ Rules
 !!€0 намд00%>хав
 
 "nTod"
-!! __@RULENAME@__
+!! **@RULENAME@**
  н:д <=>   [ %{йнңъʼØ%}: | %{нңʼØ%}: | ʼ: ] %^SCSG2: %> _  [ʼ|а|#] ;
 !!€# му%{нңʼØ%}%^SCSG2%>нʼ
 !!€0 мун0%>дʼ
@@ -173,7 +173,7 @@ Rules
 !!€0 ңум00%>д0ʼ
 
 "%{нңʼØ%}:н GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{нңʼØ%}:н <=> _ %> [[(м) ʼ| ˮ ] # | [н:|м:] д | д | с: | 0: ц ь # ] ;
 !!€# му%{нңʼØ%}%>нд
 !!€0 мун%>0д
@@ -186,19 +186,19 @@ Rules
 !!€0 мун0%>дʼ
 
 "%{нңʼØ%}:ң GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{нңʼØ%}:ң <=> _ %> [ к: ] ;
 !!€# му%{нңʼØ%}%>кʼ
 !!€0 муң%>гʼ
 
 "%{йнңъʼØ%}:ң GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{йнңъʼØ%}:ң <=> [ Vow: | °: ]  _ %> [ Ы1: | к: | о ] ;
 !!€# ил°%{йнңъʼØ%}%>к°ʼ
 !!€0 илаң%>г0ʼ
 
 "%{йнңъʼØ%}:н GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{йнңъʼØ%}:н <=> [ °:|[Cns - м] (ь:) а: ]  _ [ (%^SCSG2:) %> н:д | %> ( м:0 | н:0 ) д | %> д м ʼ |  %> с: ] ;
 !!€# ил°%{йнңъʼØ%}%^SCSG2%>н
 !!€0 илан0%>д
@@ -221,13 +221,13 @@ Rules
 
 
 "%{йнңъʼØ%}:ъ GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{йнңъʼØ%}:ъ <=> л °: _ е ;
 !!€# ил°%{йнңъʼØ%}е
 !!€# ил0ъе
 
 "%{нңʼØ%}:0 GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{нңʼØ%}:0 <=> _ %>  [ м [ н | а | и ]| ң | %{рл%}: | в: | н [и|а|о|#] ] ;
 !!€# му%{нңʼØ%}%>мд
 !!€0 му0%>нд
@@ -238,7 +238,7 @@ Rules
 
 
 "%{йнңъʼØ%}:0 GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{йнңъʼØ%}:0 <=> [Cns: - м] (°:|(ь:) а:) _ %> [м | ң э |в:| ц ь | ˮ | н и # | н и :н | н #| ʼ | н и ʼ | н а ˮ| %{рл%}: ] ;
 !          Cns: (°:) _ %^SCSG2: %>  н: ;
 !!€# ил°%{йнңъʼØ%}%^SCSG2%>н
@@ -271,7 +271,7 @@ Rules
 
 
 "%{дˮØ%}:0 GlottalNonNasalToZERO LEFT"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{дˮØ%}:0 <=> _ [ %> [ д: | к | с: [ и | ь ] | [м:|н:] д: | ˮ [Vow|Cns] ] | %^SCSG2: %> н: ] ;
  Cns _ %> ˮ # ;
 ! _ [ %> [ д: | к | с: [ и | ь ] | [м:|н:] д: | ˮ [Vow|Cns|#] ] | %^SCSG2: %> н: ] ;
@@ -318,7 +318,7 @@ Rules
 !!€0 тар0%>ни
 
 "С1:0 GlottalNonNasalToZERO"
-!! __@RULENAME@__
+!! **@RULENAME@**
  С1:0 <=> _ %>  [ к: | н: ʼ | ˮ Cns  | [ м: | н: ] д: [  и | а |о| %{оё%}: | %{ая%}: | # ] | с: [ ь | и ] | ц ь | д: [ %{ая%}: | %{оё%}: |  # | (а) [ м: | н: | р | д | в а ˮ | о ] ] | д: а ˮ | д:т а ц ь | д: [ м  |н| и | а  | а в | у в|д|#] ]  ;
 ! _ %>  [ к: | н: °: ʼ | ˮ Cns °: | [ м: | н: ] д: [ °: | и | а |о| %{оё%}: | %{ая%}: ] | с: [ ь | и ] | ц ь | д: [ %{ая%}: | %{оё%}: |  # | (а) [ м: | н: | р | д | в а ˮ | о ] ] | д: а ˮ | д:т а ц ь | д: [ м ʼ | а м з ь | и н з ь | и | а # | а в | у в] ]  ;
 ! _ %> [ к: | н: | б: | с: ь | т ˮ ] ;
@@ -340,7 +340,7 @@ Rules
 
 
 "С1:ˮ UnderlyingToGlottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  С1:ˮ <=> _ [ #: | %> [  ( 0: ) %{рл%}: | м Vow | ң э |( 0: )  в: | ( 0: ) м °: | н [ Vow | # ] | 0: н [ # | %> ] ] ] ;
 !!€# ман°С1%>0в
 !!€0 манаˮ%>ам
@@ -348,7 +348,7 @@ Rules
 ! _ [ #: | %> м н а | %> %{вм%}:м ] ;
 
 "%{дˮØ%}:ˮ UnderlyingToGlottal LEFT"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{дˮØ%}:ˮ <=> _ [%> [ %{ауоэØ%}: [ м | л ] | л Vow | 0: [ :м | :л | н ] # | н Vow | ң э | %{рл%}: | м Vow | в: а  | в: н ] | # ] ;
 !!€# мя%{дˮØ%}%>%{ауоэØ%}л
 !!€0 мяˮ%>ал
@@ -379,13 +379,13 @@ Rules
 
 
 "%{нңʼØ%}:ʼ UnderlyingToGlottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  Cx:ʼ <=> _ #: ;
        where Cx in (%{нңʼØ%} %{йнңъʼØ%}) ;
 
 
 "с => ц affrication after Stop"
-!! __@RULENAME@__
+!! **@RULENAME@**
  с:ц <=> [ С1: | %{дˮØ%}: | ˮ: | л ] %> _ [ ь | и ] ;
         [ л | р ] %> _ [ а | я | и | %{ая%}: | ь ] ;
 !!€# мя%{дˮØ%}%>сь
@@ -395,7 +395,7 @@ Rules
 !!€0 ман00%>циˮ
 
 "с => з after nasal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  с:з <=> [ м | н | %{нңʼØ%}: | %{йнңъʼØ%}: | ʼ: ] %> _ ;
 !!€# му%{нңʼØ%}%>сь
 !!€0 мун0%>зь
@@ -407,14 +407,14 @@ Rules
 !!€0 ңум0%>зиˮ
 
 "v To m "
-!! __@RULENAME@__
+!! **@RULENAME@**
   в:м <=> [ %{йнңъʼØ%}: | ң: | %{нңʼØ%}: | %{дˮØ%}: | С1: | ˮ: ] %> (0:) _ ;
 !!€# ман°С1%>0в
 !!€0 манаˮ%>ам
 
 
 "%{рл%}:л"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{рл%}:л <=> [ %{йнңъʼØ%}: | %{дˮØ%}: | С1: | %{нңʼØ%}: | ʼ: | ˮ: ] %> ( 0: ) _  ;
 !!€# ман°С1%>0%{рл%}
 !!€0 манаˮ%>ал
@@ -426,18 +426,18 @@ Rules
 !2014-03-24         %> %{аяуюØ%}: _ ; 
 
 "%{рл%}:р"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{рл%}:р <=>  [ :Vow | °: | Cns: ] (%^VowLower:0) %> _  ;
 
 !"м:н GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
 ! м:н <=> [ %{нңʼØ%}: | %{йнңъʼØ%}: ] %> _ д ;
 !!!€ му%{нңʼØ%}%>мд
 !!!€ му0%>нд
 
 
 "0:а in single-syllable"
-!! __@RULENAME@__
+!! **@RULENAME@**
 0:а <=> # Cns* Vow:* %{дˮØ%}: %> _ [ м | н | %{рл%}: | ц ь ] # ;
         # Cns* Vow:* %{нңʼØ%}: %> _ ц ь # ;
          # Cns* Vow:* Cns °: С1: %> _ [ %{рл%}: | ц ь | в: ] # ;
@@ -447,7 +447,7 @@ Rules
 !!€ ңум%{йнңъʼØ%}%>0ць
 !!€ ңув0%>аць
 "°:а at end of stem"
-!! __@RULENAME@__
+!! **@RULENAME@**
 °:а <=> Cns _  [[%^SCSG2: %> н: (ʼ)]|%> [ н (д(а)) |д|т| ˮ н | м (д(а)) ]] # ;
         Cns _  %> [д м ʼ | с ь | ц ь | %{рл%}: | [м|н] д а ˮ | [м | н] д [о|и] ʼ ] # ;
 ! Cns _  [[%^SCSG2: %> н: ʼ]|%> [ н (и|д(а)) |д|т| ˮ н | м (д(а)) ]] # ;
@@ -471,7 +471,7 @@ Rules
 !!€0 илаң%>гʼ
 
 "ʼ:н"
-!! __@RULENAME@__
+!! **@RULENAME@**
 ʼ:н <=> [ д | н ] [ о | и ] _ %> с: ь ;
 
  
@@ -1204,7 +1204,7 @@ Rules
 !2014-10-23!
 !2014-10-23!
 "°:у in Pros LEFT"
-!! __@RULENAME@__
+!! **@RULENAME@**
 °:у <=> Cns _ %> в [ н а | # ] ;
 ! # (2InitSylls) Cns* [ у | ю ] %> к: _  [ д | н | т | ʼ | ˮ | ю ]  ;
 !2014-10-23!      # Cns* Vow Cns _ %> м: °: н %{ая%}: ;
@@ -1242,7 +1242,7 @@ Rules
 !2014-10-23!
 
 "ә:у in extra short to у"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ә:у <=> # (2InitSylls) Cns* [ у | ю ] %> к:х _ [ д | н | т | ˮ ]  ;
 
 
@@ -1253,7 +1253,7 @@ Rules
 !2014-10-23!
 
 "ә:о in extra short to о"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ә:о <=> # (2InitSylls) Cns* [ о | :ё ] %> к:х _ [ д | н | т | ˮ ]  ;
 
 
@@ -1263,7 +1263,7 @@ Rules
 !2014-10-23!
 
 "ә:и in extra short to и"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ә:и <=> # (2InitSylls) Cns* и %> к:х _ [ д | н | т | ˮ ]  ;
 
 
@@ -1273,7 +1273,7 @@ Rules
 !2014-10-23!
 
 "ә:ы in extra short to ы"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ә:ы <=> # (2InitSylls) Cns* ы %> к:х _ [ д | н | т | ˮ ]  ;
 
 
@@ -1286,11 +1286,11 @@ Rules
 !2014-10-23!!€0 не0хэданиʼ
 
 "ә:э in extra short to э"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ә:э <=> # (2InitSylls) Cns* [ :э | е ] %> к:х _ [ д | н | т | ˮ ]  ;
 
 "ә:а in extra short to а"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ә:а <=>  [ м: | н: | %{рл%}: | в | т | д | к:г ] _   ;
            # (2InitSylls) Cns* [ а | я ] %> к:х _ [ д | н | т | ˮ ]  ;
         # (2InitSylls) Cns* Vow Cns [ °: %{йнңъʼØ%}: | °: С1: ] %>  [ к:г | к ] (°: д ) _  ;
@@ -1299,7 +1299,7 @@ Rules
 
 
 "0:а in Pros"
-!! __@RULENAME@__
+!! **@RULENAME@**
  0:а <=> # Cns* [ а | я ] %> ˮ _ Cns [ # | %> ]  ;
 !!€# ма%>ˮ0н
 !!€0 ма0ˮан
@@ -1331,14 +1331,14 @@ Rules
 !!€0 хан0в0
 
 "0:э in Pros"
-!! __@RULENAME@__
+!! **@RULENAME@**
  0:э <=> # Cns* [ :э | е ] %> ˮ _ Cns  [ # | %> ]   ;
 ! # (2InitSylls) Cns* [ :э | е ] %> ˮ _ Cns °:  ;
 !!€# ңэ%>ˮ0м°н%{ая%}
 !!€0 ңэ0ˮэм0на
 
 "0:о between two glottals"
-!! __@RULENAME@__
+!! **@RULENAME@**
  0:о <=>
 ! С1: %> _ ˮ м а ;
   #  Cns* [ о | :ё %^A2O: ] %> ˮ _ Cns  [ # | %> ]   ;
@@ -1349,14 +1349,14 @@ Rules
 !!€0 ё00ˮом0на
 
 "0:и after glottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  0:и <=> # Cns* [ :и (%^A2I:)] %> ˮ _ Cns  [ # | %> ]   ;
 ! # (2InitSylls) Cns* [ :и (%^A2I:)] %> ˮ _ Cns °:  ;
 !!€# си%>ˮ0м°н%{ая%}
 !!€0 си0ˮим0на
 
 "0:ы between two glottals"
-!! __@RULENAME@__
+!! **@RULENAME@**
  0:ы <=>
 ! С1: %> _ ˮ м а ;
  # Cns* [ ы ] %> ˮ _ Cns  [ # | %> ]   ;
@@ -1365,7 +1365,7 @@ Rules
 !!€0 ңы0ˮым0на
 
 "0:у between two glottals"
-!! __@RULENAME@__
+!! **@RULENAME@**
  0:у <=>
 ! С1: %> _ ˮ м а ;
       # Cns* [ у | ю ] %> ˮ _ Cns  [ # | %> ]   ;
@@ -1385,12 +1385,12 @@ Rules
 !2014-03-24  0:а <=> %{дˮØ%}: %> _ м н а ;
 
  "й:0 when followed by vowel in VowelPalatalization"
-!! __@RULENAME@__
+!! **@RULENAME@**
   й:0 <=> _ %> [ а: | у: | е ] ;
 
 
 "а:я VowelPalatalization left"
-!! __@RULENAME@__
+!! **@RULENAME@**
 а:я <=> [ й:0 | ь:0 ] %> _ ;
        [ ь:] _ %{йнңъʼØ%}: ;
 
@@ -1400,11 +1400,11 @@ Rules
 !2014-03-24         е %> н _ [ к [ ы | э: ] | р (а) х | # ] ;
 
 "%{ая%}:я VowelPalatalization left"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{ая%}:я <= %> с _ %^VowRaise:0 %> ;
 
 "%{ая%}:я VowelPalatalization right"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{ая%}:я =>  %> с _ %^VowRaise:0 %> ;
   # [[ с | н | т ] [ е | и | ю ] | и ] [( [%{нңʼØ%}:|%{дˮØ%}:|С1:] ) %> (ˮ)| %> ˮ ] [ ( 0: ) м: | к: ] °: (ˮ) н _ ;
   # [[ с | н | т ] [ е | и | ю ] | и ] [( [%{нңʼØ%}:|%{дˮØ%}:|С1:] ) (%^PLNOM:) %> ] [ т | (н|м) д ] _ ;
@@ -1422,7 +1422,7 @@ Rules
 
 
 "%{оё%}:ё VowelPalatalization right"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{оё%}:ё =>
   # [[ с | н | т ] [ е | и | ю ] | и ] [( [%{нңʼØ%}:|%{дˮØ%}:|С1:] ) (%^PLNOM:) %> ] [ т | (н|м) д ] _ ;
 !!€# ню%>д%{оё%}ʼ
@@ -1502,19 +1502,19 @@ Rules
 !2014-03-24 
 
 "%{ауоэØ%} <-> у"
-!! The rule __@RULENAME@__:
+!! The rule **@RULENAME@**:
  %{ауоэØ%}:у <=> [ :у | :ю ]  %> [ к: | х ]        _   ; 
                                  [ к: | х ]  :у  х _ ю ; 
 !!€# ну%>к%{ауоэØ%}рт
 !!€0 ну0хурт
 
 "%{ауоэØ%} -> о"
-!! The rule __@RULENAME@__:
+!! The rule **@RULENAME@**:
 %{ауоэØ%}:о <=> [ :о | :ё ] (%^VowLower:0|%^A2O:0) %> [ к: | ˮ | х ]       _   ;
                                       [ к:     | х ] :о  х _ ю ; 
 
 "%{ауоэØ%} -> а"
-!! The rule __@RULENAME@__:
+!! The rule **@RULENAME@**:
 %{ауоэØ%}:а <=> [ :а | :я ] (%{дˮØ%}:) (%^VowLower:0) %> [ к: | ˮ | х ]   _   ;
               [ :а | :я ] %{дˮØ%}: (%^VowLower:0) %>  _   ;
  [ а: | я: ] %^VowLoss:0 %> [ к: | ˮ | х ]   _   ;
@@ -1530,20 +1530,20 @@ Rules
 !!€# ед00хана
 
  "%{ауоэØ%} -> э"
-!! __@RULENAME@__
+!! **@RULENAME@**
   %{ауоэØ%}:э <=> [ Ы2:э | ы:э | э | :е ] (%^VowLower:0) %> [ к: | х | ˮ ] _ ;
 !2014-03-24 !2013-03-15¶¶[ ы | э | е ]  %> к: _ ;
         [ к: | х ]  :э  х _ ю ;   
 
  "%{ауоэØ%} <-> ы"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{ауоэØ%}:ы <=> [ ы| а:ы  %^A2I: ] %> [ к: | х | ˮ ] _ ;
 !!€# хо%>сеты%>к%{ауоэØ%}ʼ
 !!€0 хо0сеты0хыʼ
               [ ъ | ˮ %> ъ:0 ] и %> [ к: | х ] _ ;
 
  "%{ауоэØ%} <-> и"
-!! __@RULENAME@__
+!! **@RULENAME@**
   %{ауоэØ%}:и <=> [[Vow: | Cns | :ʼ ] %> ъ:0 и | я: %^A2I: | а:и %^A2I: ] %> [ к: | х | ˮ ] _ ;
         [ к: | х ]  :и  х _ ю ;   
 !!€# пя%^A2I%>ˮ%{ауоэØ%}н
@@ -1575,10 +1575,10 @@ Rules
 !2014-03-24  %{ауоэиыØ%}:э <=>  # Cns* [ :е | э ]  [[ [%{нңʼØ%}:|%{дˮØ%}:|С1:] ] %> (ˮ)| %> ˮ ] _ %{увм%}: (А2:) н %{ая%}: ;
 
 
-!! !!VOWEL LOWERING
+!! ## VOWEL LOWERING
 
 "i2e StemFinalYToE LEFT"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ы:э <=>  _ %^VowLower: ;
 ![ %> [ к: °: | к: ә: | с и ˮ | ˮ 0: м: | р | д °: Cns | д | н | м: [ °: | и | а | ә: | д ]  | н [ °: ʼ | и | д ] | %{рл%}: | в [ °: | а | ә: ] | ң э ] ]  ;
 !          _ %^SCSG2: %> н [ а | °: ] ;
@@ -1591,7 +1591,7 @@ Rules
 !          _ %> [ °: ц | с ] ь °: # ;       
 
 "а:э in stem-internal position"
-!! __@RULENAME@__
+!! **@RULENAME@**
  а:э <=> д _ б а: %^StemVowFronting: ;
 !!€# хадаба%^StemVowFronting%^A2I%>н
 !!€0 хадэби000н
@@ -1620,7 +1620,7 @@ Rules
 !2014-03-24 Ы2:ы <= :в _ [ ц | с ] ь [ # | %> ] ; 
 
 "a:o in я"
-!! __@RULENAME@__
+!! **@RULENAME@**
  я:ё <=> _ %^A2O:0 ;
 
 !2014-03-24"a:o in та"
@@ -1632,14 +1632,14 @@ Rules
 !2014-03-24 я:э <=> _ %^HardFronting:0 ;
 
 "a:i in мараңгы"
-!! __@RULENAME@__
+!! **@RULENAME@**
  а:ы <=> [ к | г | х | л ] _ %^A2I:0 ;
 !!€# яˮавла%^A2I%>дмʼ
 !!€0 яˮавлы00дмʼ
 
 
 "a:i in ңуда"
-!! __@RULENAME@__
+!! **@RULENAME@**
  а:и <=> [ Cns: - [ к | л | х | г ] | %{вм%}: ] _ (%^StemVowFronting:) %^A2I:0 ;
 !!€# ңуда%^A2I
 !!€0 ңуди0
@@ -1652,7 +1652,7 @@ Rules
 
 
 "о:у word-final position"
-!! __@RULENAME@__
+!! **@RULENAME@**
  о:у <=> _ %^VowRaise:0 ;
 
 !2014-03-24"ё:ю word-final position"
@@ -1664,7 +1664,7 @@ Rules
 !2014-03-24 э:ы <=>		_ %^VowRaise:0 ;
 
 "я:и word-final position"
-!! __@RULENAME@__
+!! **@RULENAME@**
  я:и <=>		_ %^VowRaise:0 ;
 !"a:i in пя"
     [ . . . . ] - [ а: %^A2I:0 %> ъ: ] _ %^A2I:0 ;
@@ -1675,7 +1675,7 @@ Rules
 !!€0 ңоди0
 
 "я:е in яха"
-!! __@RULENAME@__
+!! **@RULENAME@**
  я:е <=> # _ х: а: %^A2I: ;
 !!€# яха%^A2I
 !!€0 еси0
@@ -1686,12 +1686,12 @@ Rules
 !2014-03-24  а:е <=> Cns _ Cns а: %^StemVowFronting:0 [ %> | # ] ;
 !2014-03-24 
 "а:у яˮавла:яˮавлу LEFT"
-!! __@RULENAME@__
+!! **@RULENAME@**
   а:у <= [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
          [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
 
 "а:у яˮавла:яˮавлу RIGHT"
-!! __@RULENAME@__
+!! **@RULENAME@**
   а:у => [ : : ] - [ й:0 %> | ь:0 %> | р [ в:б | а в | х ] ] _ %^VowRaise:0 ;
          [ : : ] - [ й:0 %> | ь:0 %> | р в:б ]   _ %^VowRaise: %> %{вм%}: д а в э й ;
 !2014-03-24         # Cns* Vow: [ Cns+ Vow: Cns+ Vow: ]* ( %^VowRaise: ) %> д _ %> в [ %> | # ] ;
@@ -1700,7 +1700,7 @@ Rules
 
 
 "а:ю яˮавла:яˮавлу"
-!! __@RULENAME@__
+!! **@RULENAME@**
   а:ю <=> [ в: | б | п ] _ %^VowFronting:0 %^VowRaise:0 ;
 !!€# пэва%^VowFronting%^VowRaise%>ˮ
 !!€0 пэбю000ˮ
@@ -1719,10 +1719,10 @@ Rules
 !2014-03-24         Vow %> ъ: _ (%>) [ н | д ] Vow ;
 !2014-03-24 
 !2014-03-24 
-!! !!VOWEL LOSS
+!! ## VOWEL LOSS
 
  "а:0 vowel loss in plural accusative and elsewhere LEFT"
-!! __@RULENAME@__
+!! **@RULENAME@**
   а:0 <=> Cns _ ( %^StemVowFronting: ) %^VowLoss:0 ;
 
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ң: _ к: а ʼ ;
@@ -1732,7 +1732,7 @@ Rules
 
 
 ! "а:0 vowel loss in plural accusative and elsewhere RIGHT"
-!! __@RULENAME@__
+!! **@RULENAME@**
 !  а:0 => Cns _ ( %^VowFronting: ) %^VowLoss:0 ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: ]+ %> ң: _ к: а ʼ ;
 !2014-03-24         # Cns:* Vow: [ Cns:+  Vow: Cns:+  Vow: ]* (%^VowLower:) %> д _ р е [ м | в ] ;
@@ -1749,7 +1749,7 @@ Rules
 !2014-03-24 !!€0 хона0сь0ˮ
 
 "я:0 Stem vowel loss in plural accusative"
-!! __@RULENAME@__
+!! **@RULENAME@**
  я:0 <=> _ %^PalLoss:0 %^VowLoss:0 ;
          а: %^A2I:0 %> ъ: _ ((%^A2I:) %>) [ н | д ] ;
 !!€# тёня%^PalLoss%^VowLoss
@@ -1766,10 +1766,10 @@ Rules
 !2014-03-24  %{аяуюØ%}:0 <=> :Vow %> _ ;
 
 
-!! !!CONSONANT CHANGES
+!! ## CONSONANT CHANGES
 
 "mToV"
-!! __@RULENAME@__
+!! **@RULENAME@**
  м:в <=> [ Vow | Cns ] %> _ [ °: | а ˮ | а ц | а с ь | ә: с ь ] ;
       # Cns* Vow Cns °: %> _ [ °: | а ˮ | а ц | а с ь ];
 !!€# хан°%>м°
@@ -1791,7 +1791,7 @@ Rules
 
 
 "m loss before Labial followed by nonglottal cons or vows "
-!! __@RULENAME@__
+!! **@RULENAME@**
  м:0 <=> [ %{йнңъʼØ%}: | %{нңʼØ%}: | %{дˮØ%}: | С1: ] %> _ д: ;
 !!€# му%{нңʼØ%}%>мд
 !!€0 мун00д
@@ -1804,7 +1804,7 @@ Rules
 !!€0 ңу000м0на
 
 "н loss after glottal before д: "
-!! __@RULENAME@__
+!! **@RULENAME@**
  н:0 <=> [ %{йнңъʼØ%}: | %{нңʼØ%}: | %{дˮØ%}: | С1: ] %> _ д: ;
 !!€# му%{нңʼØ%}%>нд
 !!€0 мун00д
@@ -1845,7 +1845,7 @@ Rules
 
 
  "в To б "
-!! __@RULENAME@__
+!! **@RULENAME@**
   в:б <=> [ %> р | Vow ] _ а: %^VowFronting:0 Vow %^VowRaise: %> ;
           Vow _ а:  %^A2I: ;
 !2014-03-24 
@@ -1858,14 +1858,14 @@ Rules
 !2014-03-24 
 !2014-03-24 
 "r To l after nasal glottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  р:л <=>  Vow _  %> р: [ в | х ] а ;
 !!€# сыр%>рхавы
 !!€0 сыл00хавы
 !  р:л <=> [ ʼ: | %{йнңъʼØ%}: ] %> _ ;
 
 "r To 0 before glottal and р or л"
-!! __@RULENAME@__
+!! **@RULENAME@**
  р:0 <=> Vow _ (%^PalVariation:) %{дˮØ%}: %> %{рл%}:   ;
 !!€# тар%^PalVariation%{дˮØ%}%>%{рл%}°
 !!€0 та0000л0
@@ -1879,7 +1879,7 @@ Rules
 !2014-03-24!! т:д <=>   %{нңʼØ%}: %> _ а ;
 
 "n to t after non-nasal glottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  н:т <=> [ С1: | %{дˮØ%}: | ˮ: ] %^SCSG2: %> _ [ʼ|а|#] ; 
 !!€# мя%{дˮØ%}%^SCSG2%>нʼ
 !!€0 мя000тʼ
@@ -1900,7 +1900,7 @@ Rules
 ! [ С1: | %{дˮØ%}: | ˮ: ] %> _ [ °: ʼ | а  ] ;
 
 "d to t after non-nasal glottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
  д:т <=> [ С1: | %{дˮØ%}: | ˮ:0 ] %> ( м: | н: )  _ [ %{ая%}: | %{оё%}: | о | у | м | д | в | и | # | а ] ;
 ! [ С1:0 | %{дˮØ%}:0 | ˮ:0 ] %> ( м: | н: ) _ [ %{ая%}: | %{оё%}: | и | °: | а ];
 !!€# мя%{дˮØ%}%>мд
@@ -1923,7 +1923,7 @@ Rules
 !2014-03-24 
 !2014-03-24 
 "b to p after non-nasal glottal"
-!! __@RULENAME@__
+!! **@RULENAME@**
   б:п <=> [ С1: | %{дˮØ%}: | ˮ: ] %> _ ;
 !!€# сырˮ%>бˮ
 !!€0 сыр00пˮ
@@ -1936,13 +1936,13 @@ Rules
 
 
 "ң:0 Before в:м +Sg+Acc+PxPl1:%>ваˮ"
-!! __@RULENAME@__
+!! **@RULENAME@**
 ң:0 <=> Cns _ %> в: а [ ˮ | ц ь] ;
 !!€# илң%>ваˮ
 !!€0 ил00маˮ
 
 "ъ:0 with Conj after vowels"
-!! The rule __@RULENAME@__:
+!! The rule **@RULENAME@**:
 ъ:0 <=> Vow:    (%^VowFronting:) %> _ [ и: | я: ]                       ; 
            :Vow ( ˮ | %^A2I:   ) %> _        я: ((%^A2I:) %>) [ н | д ] ;  ! нэкалць+V+TV+Ind+Prt1+ScPl1+OcPl3: нэкалъянаць
 
@@ -1960,7 +1960,7 @@ Rules
 !2014-03-24     _ %> [ %{рл%}: | %{вм%}: | н: ] ;
  
 "ˮ:0"
-!! __@RULENAME@__
+!! **@RULENAME@**
   ˮ:0 <=> _ %> д: ;
      _ %> б:п ;
 !!€# сырˮ%>бˮ
@@ -1970,16 +1970,16 @@ Rules
       Cns _ %^SCSG2: %> н:т ;
 !!€# сыр%^SCSG2%>накы
 !!€0 сыр00такы
-!! !!Realization of glottal stops
+!! ## Realization of glottal stops
 
-!! !SURFACE CONSONANT
+!! ### SURFACE CONSONANT
 
 !2014-03-24 "%{вм%}:м"
 !2014-03-24 ¶¶ __@RULENAME@__
 !2014-03-24  %{вм%}:м <=> [ %{йнңъʼØ%}: | %{нңʼØ%}: | %{дˮØ%}: | С1: | ʼ: | ˮ: | р | л ] %> _  ;
 
 "х:с in яха"
-!! __@RULENAME@__
+!! **@RULENAME@**
  х:с <=> # я: _ а: %^A2I: ;
 !!€# яха%^A2I
 !!€0 еси0
@@ -1987,7 +1987,7 @@ Rules
 
 
 "С1:с GlottalNonNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  С1:с <=> [ Vow: | °: ] _  %> [  м ʼ | ʼ | ˮ  | 0: ц ь ] # ;
 ! [ Vow: | °: ] _ [ %> [ °: м ʼ #: | °: [ ʼ | ˮ ] #: | °: ц ь °: ] | о ] ;
 ! _  %> [ м #: | ʼ #: | ˮ #: | (0:о) ˮ м а | Ы1: ] ;
@@ -1995,7 +1995,7 @@ Rules
 !!€# ман0с0аць0
 
 "%{дˮØ%}:д GlottalNonNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %{дˮØ%}:д <=> Vow: _ %> [ (м) ʼ # | ˮ # ]  ;
        Vow: _ %> 0: ц ь # ;
 ! Vow: _ [ %> [ °: м ʼ #: | °: [ ʼ | ˮ ] #: | °: ц ь °: ] | о ] ;
@@ -2005,7 +2005,7 @@ Rules
 ! Vow: _ %> [ °: м ʼ #: | °: ʼ #: | ˮ [ # | ң э ] | о | е | ё ] ;
 
  "%{йнңъʼØ%}:й GlottalNasalToSurface"
-!! __@RULENAME@__
+!! **@RULENAME@**
   %{йнңъʼØ%}:й <=> о _ %> [ ʼ | м ʼ  ] ;
  
 !2014-03-24 
@@ -2026,7 +2026,7 @@ Rules
 
 
 "ь:0 with  GlottalNonNasalToZERO"
-!! __@RULENAME@__
+!! **@RULENAME@**
   ь:0 <=> С1: _ %> [ к: | н ] ;
       _ [%> [ а: | у: | и ]|и|а:|е] ;
 

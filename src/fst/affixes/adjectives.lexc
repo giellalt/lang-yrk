@@ -10,15 +10,15 @@ LEXICON A_UNDECL
 !!+cmp:er       Cases   ;
 !!+sup:est      Cases   ;
 
-LEXICON A_ҢЭ !!≈ * __@CODE@__ ңэ:ңэ 1  
+LEXICON A_ҢЭ !!≈ * **@CODE@** ңэ:ңэ 1  
 :  SGNOMSUF ;
 +Der/MWN: N_ҢЭ ;
 
-LEXICON A_ПАНЫ  !!≈ * __@CODE@__ пӑны:пӑны 9 
+LEXICON A_ПАНЫ  !!≈ * **@CODE@** пӑны:пӑны 9 
 :  SGNOMSUF ;
 +Der/MWN: NMN_ПАНЫ ;
 
-LEXICON A_ХУСУВЭЙ  !!≈ * __@CODE@__ хусувэй: 10 !!ProsSg -ювна
+LEXICON A_ХУСУВЭЙ  !!≈ * **@CODE@** хусувэй: 10 !!ProsSg -ювна
 : SGNOMSUF ;
 +Der/MWN: NMN_ХУСУВЭЙ ;
 
@@ -26,7 +26,7 @@ LEXICON A_ЕД/ХУСУВЭЙ
 : SGNOMSUF ;
 +Der/MWN: NMN_ЕД/ХУСУВЭЙ ;
 
-LEXICON A_ХАНО  !!≈ * __@CODE@__ хӑн: 11 !!ProsSg -увна
+LEXICON A_ХАНО  !!≈ * **@CODE@** хӑн: 11 !!ProsSg -увна
 !! [total=27]
 !! хӑн xən°    хӑнӑн’ xənən°h        хӑн” xən°q     хӑно xəno
 : SGNOMSUF ;
@@ -36,11 +36,11 @@ LEXICON A_ЕД/ХАНО
 : SGNOMSUF ;
 +Der/MWN: NMN_ЕД/ХАНО ;
 
-LEXICON A_ЕД !!≈ * __@CODE@__ ед: 13 !!ProsSg -увна /-ювна
+LEXICON A_ЕД !!≈ * **@CODE@** ед: 13 !!ProsSg -увна /-ювна
 : SGNOMSUF ;
 +Der/MWN: NMN_ЕД ;
 
-LEXICON A_ҢУДИ  !!≈ * __@CODE@__ ңуда: 15 !!ProsSg -вна
+LEXICON A_ҢУДИ  !!≈ * **@CODE@** ңуда: 15 !!ProsSg -вна
 : SGNOMSUF ;
 +Der/MWN: NMN_ҢУДИ ;
 
@@ -48,7 +48,7 @@ LEXICON A_ҢУДИ/ХОБ
 : SGNOMSUF ;
 +Der/MWN: NMN_ҢУДИ/ХОБ ;
 
-LEXICON A_ҢОДИ  !!≈ * __@CODE@__ ңодя: 17 !!ProsSg -вна
+LEXICON A_ҢОДИ  !!≈ * **@CODE@** ңодя: 17 !!ProsSg -вна
 : SGNOMSUF ;
 +Der/MWN: N_ҢОДИ ;
 
@@ -62,7 +62,7 @@ LEXICON A_МАРАҢГЫ !!
 : SGNOMSUF ;
 +Der/MWN: N_МАРАҢГЫ ;
 
-LEXICON A_ХОБ  !!≈ * __@CODE@__ хоба: 19 !!ProsSg -вна
+LEXICON A_ХОБ  !!≈ * **@CODE@** хоба: 19 !!ProsSg -вна
 : SGNOMSUF ;
 +Der/MWN: N_ХОБ ;
 
@@ -71,38 +71,38 @@ LEXICON A_МАРАҢГЫ/ХОБ !!
 : SGNOMSUF ;
 +Der/MWN: N_МАРАҢГЫ/ХОБ ;
 
-LEXICON A_ТЁН  !!≈ * __@CODE@__ тёня: 20 !!ProsSg -вна
+LEXICON A_ТЁН  !!≈ * **@CODE@** тёня: 20 !!ProsSg -вна
 : SGNOMSUF ;
 +Der/MWN: N_ТЁН ;
 
-LEXICON A_ПИСЬ  !!≈ * __@CODE@__ пися: 21 !!ProsSg -вна
+LEXICON A_ПИСЬ  !!≈ * **@CODE@** пися: 21 !!ProsSg -вна
 : SGNOMSUF ;
 +Der/MWN: N_ПИСЬ ;
 
-LEXICON A_ҢАНУ  !!≈ * __@CODE@__ ңӑно: 23 !!ProsSg -вна
+LEXICON A_ҢАНУ  !!≈ * **@CODE@** ңӑно: 23 !!ProsSg -вна
 !! [total=57]
 !! ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑно” ŋənoq    ңӑну ŋənu
 : SGNOMSUF ;
 +Der/MWN: NMN_ҢАНУ ;
 
-LEXICON A_ЯКЫ  !!≈ * __@CODE@__ якэ: 24 ProsSg -вна
+LEXICON A_ЯКЫ  !!≈ * **@CODE@** якэ: 24 ProsSg -вна
 ! /total=4/
 ! якэ yake     якэн’ yaken°h   якэˮ yakeq      якы yaki
 : SGNOMSUF ;
 +Der/MWN: NMN_ЯКЫ ;
 
-LEXICON A_ҢУВО  !!≈ * __@CODE@__ ңумʼ:ңум 25 !!ProsSg -(м)на
+LEXICON A_ҢУВО  !!≈ * **@CODE@** ңумʼ:ңум 25 !!ProsSg -(м)на
 !! ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
 :ʼ SGNOMSUF ;
 +Der/MWN: NMN_ҢУВО ;
 
 
-LEXICON A_НЮБЕ-Pal/Var  !!≈ * __@CODE@__ нюмʼ:нюм 26
+LEXICON A_НЮБЕ-Pal/Var  !!≈ * **@CODE@** нюмʼ:нюм 26
 !! нюм’ nyum    нюмд’ nyumt°h   нюв” nyuw°q     нюбе nyubye
 :ʼ SGNOMSUF ;
 +Der/MWN: NMN_НЮБЕ ;
 
-LEXICON A_ВЫҢО !!≈ * __@CODE@__ выʼ:вы 29  
+LEXICON A_ВЫҢО !!≈ * **@CODE@** выʼ:вы 29  
 ! ң /total=16/
 ! вы’(ң) wíh    вы̄нд’ wínt°h   выˮ wí°q        выңо wíŋo
 :ʼ SGNOMSUF ;
@@ -117,16 +117,16 @@ LEXICON A_ВАР
 ! варˮ:вар
  A_МЯДО ;
 
-LEXICON A_МЯДО  !!≈ * __@CODE@__ мяˮ:мя 35   !!ProsSg -мна
+LEXICON A_МЯДО  !!≈ * **@CODE@** мяˮ:мя 35   !!ProsSg -мна
 :%{дˮØ%} SGNOMSUF ;
 +Der/MWN: NMN_МЯДО ;
 
-LEXICON A_САБЦЬ  !!≈ * __@CODE@__ сабць:сабць!!= @CODE@ тир: 12 !!ProsSg -увна
+LEXICON A_САБЦЬ  !!≈ @CODE@ тир: 12 !!ProsSg -увна
 !! What makes this different from N_ТИРЕ?
 : SGNOMSUF ;
 +Der/MWN: NMN_ТИРЕ ;
 
-LEXICON	    A_САВНЕ !!≈ * __@CODE@__ 
+LEXICON	    A_САВНЕ !!≈ * **@CODE@** 
 +WORK: K ;
 
 

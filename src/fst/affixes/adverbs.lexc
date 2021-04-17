@@ -4,19 +4,19 @@
 
 
  
-LEXICON ADV_ !!≈ * __@CODE@__
+LEXICON ADV_ !!≈ * **@CODE@**
 : # ; 
 
-LEXICON ADV-LOC_ !!≈ * __@CODE@__
+LEXICON ADV-LOC_ !!≈ * **@CODE@**
 +Loc: # ;
 
-LEXICON ADV-TEMP_ !!≈ * __@CODE@__
+LEXICON ADV-TEMP_ !!≈ * **@CODE@**
 +Temp: # ;
 
-LEXICON ADV-MANNER_ !!≈ * __@CODE@__
+LEXICON ADV-MANNER_ !!≈ * **@CODE@**
 +Manner: # ;
 
-LEXICON ADV-REF_ !!≈ * __@CODE@__ Some are secodary predicates, conjuctions
+LEXICON ADV-REF_ !!≈ * **@CODE@** Some are secodary predicates, conjuctions
 +Refr+PxSg1:%>н K ;
 +Refr+PxSg1:%>ни K ;
 +Refr+PxSg2:%>нд K ;
@@ -28,7 +28,7 @@ LEXICON ADV-REF_ !!≈ * __@CODE@__ Some are secodary predicates, conjuctions
 +Refr+PxPl2:%>ндаˮ K ;
 +Refr+PxPl3:%>ндоʼ K ;
 
-LEXICON ADV-REF_Д1 !!≈ * __@CODE@__
+LEXICON ADV-REF_Д1 !!≈ * **@CODE@**
 +Refr+PxSg1:ˮ%>н K ;
 +Refr+PxSg1:ˮ%>ни K ;
 +Refr+PxSg2:%>т K ;
