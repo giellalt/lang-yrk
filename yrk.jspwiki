@@ -1,0 +1,2731 @@
+!!!Free and Open source Nenets analyser giella-yrk
+
+;Authors: Sven-Erik Soosaar and Jack Rueter in cooperation with the Divvun and Giellatekno teams, community members
+;Software version: 2012
+;Documentation license: GNU GFDL
+;SVN Revision: $Revision: 68217 $
+;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
+
+!!!giella-yrk
+
+This is free and open source Nenets morphology.
+
+!!!Morphology
+INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
+
+ !!!Definitions for Multichar_Symbols
+
+!!Analysis symbols
+The morphological analyses of wordforms of the TUNDRA NENETS language are presented
+in this system in terms of following the symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+ * __+WORK__ WORK HAS TO BE DONE Do not remove, replaces +TYÄ
+The parts-of-speech are:
+
+ * __+N	__
+ * __+A	__
+ * __+Adv__
+ * __+V	__
+
+ * __+Pron__
+ * __+CS	__
+ * __+CC	__
+ * __+Adp__
+ * __+Po	__
+ * __+Pr	__
+ * __+Interj__
+ * __+Pcle__
+ * __+Num__
+
+
+
+The parts of speech are further split up into:
+
+ * __+Prop__
+ * __+Pers__
+ * __+Dem__
+ * __+Interr__
+ * __+Refl__ reflexive
+ * __+Recipr__
+ * __+Rel__
+ * __+Indef__
+ * __+Refr__ referential adverbs
+
+
+
+Adv
+ * __+Manner__
+ * __+Refr__ (referential),
+ * __+Temp__
+
+The Usage extents are marked using the following tags:
+ * __+Err/Orth__
+ * __+Use/-Spell__
+ * __+Use/SpellNoSugg__ recognized but not suggested in speller
+
+ * __+Rus__ (100% Russian homograph)
+
+
+Dialects
+
+ * __+Dial/W__ (Western dialects),
+ * __+Dial/T__ (Taimyr dialect  ),
+ * __+Dial/E__ (Eastern dialects),
+
+
+The nominals are inflected in the following Case and Number
+
+ * __+Sg__
+ * __+Du__
+ * __+Pl__
+ * __+Acc__
+ * __+Gen__ (Genitive)
+ * __+Abl__
+ * __+Dat__
+ * __+Loc__
+ * __+Nom__
+ * __+Pros__ (Prosecutive)
+ * __+Tra__
+ * __+Abe__
+ * __+Adc__
+ * __+Ins__
+ * __+Apr__
+ * __+Ine__
+ * __+Ill__
+ * __+Ela__
+ * __+Egr__
+ * __+Prl__
+ * __+Pred	__ = predestinative
+
+are these needed?:
+
+ * __+Appr__
+ * __+Advc__
+ * __+Ter__
+ * __+Pro__
+ * __+Car__
+ * __+Equ__
+
+derivative suffixes before case endings
+ * __+Lim__ limitative
+
+
+The possession is marked as such:
+
+
+ * __+PxSg1__
+ * __+PxSg2__
+ * __+PxSg3__
+ * __+PxDu1__
+ * __+PxDu2__
+ * __+PxDu3__
+ * __+PxPl1__
+ * __+PxPl2__
+ * __+PxPl3__
+
+The comparative forms are:
+ * __+Pos__
+ * __+Comp__
+ * __+Superl__
+
+Numerals are classified under:
+
+ * __+Attr__
+ * __+Card__
+ * __+Ord__
+
+Verb moods are:
+
+ * __+Ind__
+ * __+Pot__
+ * __+Conj__
+ * __+Imprt__
+ * __+Opt__
+ * __+Hort__
+ * __+Mod/appr__ approximative imperfective
+ * __+Mod/des__ desiderative
+ * __+Mod/futappr__ approximative futuritive
+ * __+Mod/hyp__ hyperprobablitative
+ * __+Mod/int__ interrogative
+ * __+Mod/narr__ narrative
+ * __+Mod/nec__ necessitativee
+ * __+Mod/obl__ obligative
+ * __+Mod/rep__ reputative
+ * __+Mod/sup__ superprobabilitative
+ * __+Mod/perfappr__ approximative perfective
+ * __+Mod/perfprob__ perfective probabilitative
+ * __+Mod/prob__ imperfective probabilitative
+
+
+Verb tenses are:
+
+ * __+Aor__
+ * __+Prt__
+ * __+Prt1__
+ * __+Prt2__
+
+Verb personal forms are:
+
+Subject
+
+One of the two following
+
+ * __+Sg1__
+ * __+Sg2__
+ * __+Sg3__
+ * __+Pl1__
+ * __+Pl2__
+ * __+Pl3__
+
+ * __+ScSg1__
+ * __+ScSg2__
+ * __+ScSg3__
+ * __+ScDu1__
+ * __+ScDu2__
+ * __+ScDu3__
+ * __+ScPl1__
+ * __+ScPl2__
+ * __+ScPl3__
+
+Object
+ * __+OcSg3__
+ * __+OcDu3__
+ * __+OcPl3__
+
+Other verb forms are
+
+ * __+InfImprf__
+ * __+InfPrf__
+ * __+PrcImprf__
+ * __+PrcPrf__
+ * __+PrcNeg__
+ * __+PrcFut__
+ * __+GerFin__
+ * __+Subord__
+ * __+Aud	__
+ * __+Evas	__
+ * __+Ger 	__
+ * __+ConNeg__
+ * __+ConNegII__
+ * __+Neg 	__
+ * __+ImprtII__
+ * __+PrsPrc__
+ * __+Sup 	__
+ * __+VGen 	__
+ * __+VAbess__
+
+
+Abbreviated words are classified with:
+
+ * __+ABBR__
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+ * __+ACR__
+
+
+!!Symbols that need to be escaped on the lower side (towards twolc):
+ ; »7 : Literal »
+ ; «7 : Literal «
+{{{
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+}}}
+
+Special symbols are classified with:
+
+ * __+CLB__
+ * __+PUNCT__
+ * __+LEFT__
+ * __+RIGHT__
+
+The verbs are syntactically split according to transitivity:
+
+ * __+TV__
+ * __+IV__
+
+ * __+Aux__ auxilliary verb
+
+
+
+Special multiword units are analysed with:
+
+ * __+Multi__
+
+Non-dictionary words can be recognised with:
+
+ * __+Guess__
+
+Question and Focus particles:
+
+ * __+Qst__
+ * __+Foc__
+
+ * __+Sem/Act__ Activity
+ * __+Sem/Amount__ Amount
+ * __+Sem/Ani__ Animate
+ * __+Sem/Aniprod__ Animal Product
+ * __+Sem/Body__ Bodypart
+ * __+Sem/Body-abstr__ siellu, vuoig?a, jierbmi
+ * __+Sem/Build__ Building
+ * __+Sem/Build-part__ Part of Bulding, like the closet
+ * __+Sem/Cat__ Category
+ * __+Sem/Clth__ Clothes
+ * __+Sem/Clth-jewl__ Jewelery
+ * __+Sem/Clth-part__ part of clothes, boallu, sávdnji...
+ * __+Sem/Ctain__ Container
+ * __+Sem/Ctain-abstr__ Abstract container like bank account
+ * __+Sem/Ctain-clth__
+ * __+Sem/Curr__ Currency like dollár, Not Money
+ * __+Sem/Dance__ Dance
+ * __+Sem/Dir__ Direction like GPS-kursa
+ * __+Sem/Domain__ Domain like politics, reindeerherding (a system of actions)
+ * __+Sem/Drink__ Drink
+ * __+Sem/Dummytag__ Dummytag
+ * __+Sem/Edu__ Educational event
+ * __+Sem/Event__ Event
+ * __+Sem/Feat__ Feature, like Árvu
+ * __+Sem/Feat-phys__ Physiological feature, ivdni, fárda
+ * __+Sem/Feat-psych__ Psychological feauture
+ * __+Sem/Feat-measr__ Psychological feauture
+ * __+Sem/Fem__ Female name
+ * __+Sem/Food__ Food
+ * __+Sem/Food-med__ Medicine
+ * __+Sem/Furn__ Furniture
+ * __+Sem/Game__ Game
+ * __+Sem/Geom__ Geometrical object
+ * __+Sem/Group__ Animal or Human Group
+ * __+Sem/Hum__ Human
+ * __+Sem/Hum-abstr__ Human abstract
+ * __+Sem/Ideol__ Ideology
+ * __+Sem/Lang__ Language
+ * __+Sem/Mal__ Male name
+ * __+Sem/Mat__ Material for producing things
+ * __+Sem/Measr__ Measure
+ * __+Sem/Money__ Has to do with money, like wages, not Curr(ency)
+ * __+Sem/Obj__ Object
+ * __+Sem/Obj-clo__ Cloth
+ * __+Sem/Obj-cogn__ Cloth
+ * __+Sem/Obj-el__ (Electrical) machine or apparatus
+ * __+Sem/Obj-ling__ Object with something written on it
+ * __+Sem/Obj-rope__ flexible ropelike object
+ * __+Sem/Obj-surfc__ Surface object
+ * __+Sem/Org__ Organisation
+ * __+Sem/Part__ Feature, oassi, bealli
+ * __+Sem/Perc-cogn__ Cognative perception
+ * __+Sem/Perc-emo__ Emotional perception
+ * __+Sem/Perc-phys__ Physical perception
+ * __+Sem/Perc-psych__ Physical perception
+ * __+Sem/Plant__ Plant
+ * __+Sem/Plant-part__ Plant part
+ * __+Sem/Plc__ Place
+ * __+Sem/Plc-abstr__ Abstract place
+ * __+Sem/Plc-elevate__ Place
+ * __+Sem/Plc-line__ Place
+ * __+Sem/Plc-water__ Place
+ * __+Sem/Pos__ Position (as in social position job)
+ * __+Sem/Process__ Process
+ * __+Sem/Prod__ Product
+ * __+Sem/Prod-audio__ Audio product
+ * __+Sem/Prod-cogn__ Cognition product
+ * __+Sem/Prod-ling__ Linguistic product
+ * __+Sem/Prod-vis__ Visual product
+ * __+Sem/Rel__ Relation
+ * __+Sem/Route__ Name of a Route
+ * __+Sem/Rule__ Rule or convention
+ * __+Sem/Semcon__ Semantic concept
+ * __+Sem/Sign__ Sign (e.g. numbers, punctuation) 
+ * __+Sem/Sport__ Sport
+ * __+Sem/State__ 
+ * __+Sem/State-sick__ Illness
+ * __+Sem/Substnc__ Substance, like Air and Water
+ * __+Sem/Sur__ Surname
+ * __+Sem/Symbol__ Symbol
+ * __+Sem/Time__ Time
+ * __+Sem/Tool__ Prototypical tool for repairing things
+ * __+Sem/Tool-catch__ Tool used for catching (e.g. fish)
+ * __+Sem/Tool-clean__ Tool used for cleaning
+ * __+Sem/Tool-it__ Tool used in IT
+ * __+Sem/Tool-measr__ Tool used for measuring
+ * __+Sem/Tool-music__ Music instrument
+ * __+Sem/Tool-write__ Writing tool
+ * __+Sem/Txt__ Text (girji, lávlla...)
+ * __+Sem/Veh__ Vehicle
+ * __+Sem/Wpn__ Weapon
+ * __+Sem/Wthr__ The Weather or the state of ground
+
+
+
+
+
+Semantics are classified with
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+ * __+V→N__
+ * __+V→V__
+ * __+V→A__
+ * __+Der/xxx__
+ * __+Der/MWN__ modifier without noun head
+ * __+Der/Pr__ this is used with predication of nominals and deverbal modalities
+ * _+Der/Cop_ This will replace the nominal conjugation Der/Pr
+
+
+!!Morphophonology
+
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+ * __ %{ая%} __ in Pros
+ * __ %{оё%} __ in +N+Sg+Nom+PxPl3
+ * __ %{рл%}	 __ +N+Sg+Nom+PxSg2
+ * __ %{аяуюØ%} __ хан+N+Sg+Acc+PxSg1: ханув, ханав
+ * __ %{увм%} __ +N+Sg+Pros
+ * __ %{вм%}	 __ +N+Sg+Nom+PxSg1
+
+And the following triggers to control variation:
+ * __ {front} __
+ * __ {back} __
+ * __ %^SCSG2 __ this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ * __ %^PLNOM __ disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
+ * __ %^PalVariation __ This allows for тар%{дˮØ%}%>д%{оё%}нзь
+
+Protoletters for xfst:
+ * __ %{ауоэØ%} __  А1:а А1:у А1:о А1:э schwa
+ * __ %{ауоэиыØ%} __ before pros
+
+This is the schwa or reduced vowel occurring after x in case endings
+
+ * __А2__ Alternating between zero and а
+
+These are proto-glottals
+ * __%{дˮØ%} __
+ * __С1__
+ * __%{нңʼØ%} __
+ * __%{йнңъʼØ%} __ = These are proto-glottals
+
+ * __Г1__
+ * __В1__
+ * __Е1__
+ * __Е2__
+ * __Ы1__
+ * __Д1__
+ * __Ы2__ = These are for developing underlying morphology rules
+
+!!Triggers
+
+ * __%^A2O__ Initially this is used for the noun "я" to enable a:o
+ * __%^A2I__ for я:и in пя
+ * __%^MLenition__ м:в м:б
+ * __%^VowLower__ vowel lowering ы:э у:о
+ * __%^VowRaise__ э:ы о:у
+ * __%^VowLoss__ stem-final vowel is lost in plural accusative form
+ * __%^StemVowFronting__ хасава:хасев
+ * __%^VowFronting__ хадась:хадэйнинзь
+ * __%^PalLoss__ in combination with stem-final vowel loss
+ * __%^HardFronting__ яля:ялэ
+
+We have manually optimised the structure of our lexicon using the following
+flag diacritics to restrict morhpological combinatorics:
+
+ * __@P.NeedNoun.ON@__
+ * __@D.NeedNoun.ON@__
+ * __@C.NeedNoun@__
+
+Object conjugation
+
+ * __@P.CONJ.ObjAll@__
+ * __@R.CONJ.ObjAll@__
+ * __@C.CONJ@	__
+
+
+!!!The Root lexicon
+
+
+The word forms in Nenets start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+
+ * __adjectives ;	__
+ * __adpositions ;	__
+ * __adverbs ;		__
+ * __interjections ;__
+ * __nouns ;		__
+ * __particles ;	__
+ * __pronouns ;	__
+ * __propernouns ;	__
+ * __quantifiers ;	__
+ * __verbs ;		__
+
+
+ * __V_NEWWORDS ;		__ This is for feeding new verbs.
+ * __Punctuation ;__
+ * __Symbols ;__
+
+ * __CONJUNCTION ;__
+ * __SUBJUNCTION ;__
+ * __INTERJECTION ;__
+ * __POSTPOSITION ;__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!Noun inflection
+
+Nenets nouns inflect in cases.
+
+
+ * __LEXICON N_ҢЭ__ ңэ:ңэ 1  ProsSg -вна
+Yaml: __xo, ngaeTS__
+
+ * __LEXICON N_ҢЭ-Pal/Var__ ңэ:ңэ 1  ProsSg -вна
+Yaml: __nyeTS__
+
+ * __LEXICON N_Ё__ я:я 2 ProsSg -вна
+Yaml: __ya, yaTS__
+
+
+
+ * __LEXICON N_ПИ__ пя:пя 3 ProsSg -вна
+Yaml: __N-pyaTS__
+
+ * __LEXICON N_ТЫ__ ты: 4 ProsSg -вна
+Yaml: __tyTS__
+
+
+
+
+ * __LEXICON N_ХАВО__ ха: 5 ProsSg -вна
+Yaml: __tyTS__
+
+
+
+ * __LEXICON N_СЁЁ__ сё: 6 ProsSg -вна
+
+
+ * __LEXICON N_ИБЕ__ и: 7 ProsSg -вна
+
+ * __LEXICON N_ХАБИЕ__ хӑби:8ProsSg -вна
+
+ * __LEXICON N_ПАНЫ__ пӑны:пӑн 9 ы!ProsSg -(э)вна
+
+
+ * __LEXICON N_ХУСУВЭЙ__ хусувэй: 10 ProsSg -ювна
+
+
+ * __LEXICON N_ХАНО__ хӑн: 11P ProsSg -увна
+Yaml: __xano__
+
+
+
+ * __LEXICON N_ТИРЕ__ тир: 12 ProsSg -увна
+
+ * __LEXICON N_ЕД__ ед: 13 ProsSg -увна /-ювна
+
+ * __LEXICON N_МАРАҢГЫ__ мӑраңга: 14PProsSg -вна
+
+
+
+
+ * __LEXICON N_ҢУДИ__ ңуда: 15 ProsSg -вна
+Yaml: __N-ngudiTS__
+
+ * __LEXICON N_ЕСИ__ ая̆ха: 16PProsSg -вна
+Yaml: __N-yaxaTS__
+
+
+ * __LEXICON N_ҢОДИ__ ңодя: 17 ProsSg -вна
+Yaml: __N-ngodiTS__
+
+
+ * __LEXICON N_ЯЛЭ__ яля: 18 ProsSg -вна
+
+ * __LEXICON N_ХОБ__ хоба:хоба 19 ProsSg -вна
+Yaml: __xob__
+
+ * __LEXICON N_ТЁН__ тёня:тёня 20 ProsSg -вна
+Yaml: __tyon__
+
+ * __LEXICON N_ПИСЬ__ пися: 21 ProsSg -вна
+
+ * __LEXICON N_ХАСЕВ__ хасава: 22 ProsSg -вна
+
+ * __LEXICON N_ҢАНУ__ ңӑно: 23 ProsSg -вна
+Yaml: __nano__
+
+ * __LEXICON N_ЯКЫ__ якэ: 24 ProsSg -вна
+
+
+ * __LEXICON N_ҢУВО__ ңумʼ:ңум 25 ProsSg -(м)на
+Yaml: __yam, ngumhTS__
+
+ * __LEXICON N_НЮБЕ__ нюмʼ: 26  ProsSg -(м)на
+
+ * __LEXICON N_МУНО__ муʼ:му 27  ProsSg -мна
+
+ * __LEXICON N_ПОЁ__ поʼ:по 28  ProsSg -мна
+Yaml: __poyo__
+
+ * __LEXICON N_ВЫҢО__ выʼ:вы 29  ProsSg -мна /-мана
+
+
+ * __LEXICON N_ИЛЪЕ__ илʼ:ил 30   ProsSg -мана
+Yaml: __ilje__
+
+
+
+
+
+ * __LEXICON N_НЕНЭЦИЕ__ ненэцьʼ:ненэць 30   ProsSg -мана
+Yaml: __nyenecyh__
+
+ * __LEXICON N_ПАХАЁ__ пӑхӑʼ: 31   ProsSg -мна
+
+ * __LEXICON N_СЕРО__ серˮ: 32   ProsSg -мана / -мня
+
+ * __LEXICON N_ТАРЕ__ тӑрˮ:тар 33   ProsSg -мня
+
+ * __LEXICON N_МАНСО__ мӑнˮ: 34   ProsSg -мна
+
+
+ * __LEXICON N_МЯДО__ мяˮ:мя 35   ProsSg -мна
+Yaml: __myadoTS__
+
+
+ * __LEXICON N_ИДЕ__ иˮ: 36   ProsSg -мна
+Yaml: __yidye__
+
+
+
+
+
+
+
+
+
+ * __LEXICON N_ҢЭ/ХАБИЕ__ ңэ:ңэ 1  ProsSg -вна
+хӑби:8 ProsSg -вна
+
+
+та:та 
+
+
+
+
+
+
+ * __LEXICON NMN_ҢУДИ__ ңуда: 15 ProsSg -вна
+Yaml: __ngudi__
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * __LEXICON NMN_ҢОДИ__
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+ * __LEXICON NMN_ХОБ__ хоба:хоба 19 ProsSg -вна
+Yaml: __xob__
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+
+ * __LEXICON NMN_ПИСЬ__ пися: 21 ProsSg -вна
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+ * __LEXICON NMN_ҢАНУ__ ңӑно: 23 ProsSg -вна
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * __LEXICON NMN_ҢУВО__ ңумʼ:ңум 25 
+ * __:ʼ POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+ * __LEXICON NMN_НЮБЕ__ нюмʼ: 26
+
+
+
+ * __LEXICON NMN_МУНО__ муʼ: 27  ProsSg -мна
+
+
+No n2d
+
+
+
+
+
+
+
+ * __:%{йнңъʼØ%} SGNOMSUF ;__ 
+ * __:%{йнңъʼØ%} SG-NOM-STEM ;__ 
+ * __:%{йнңъʼØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+ * __LEXICON NMN_ТАРЕ__ тӑрˮ:тар 33   ProsSg -мня
+
+
+
+
+
+ * __LEXICON N_ВАР/ТАРЕ__ мяˮ:мя 35   ProsSg -мна
+
+ * __LEXICON NMN_ВАР__ мяˮ:мя 35   ProsSg -мна
+Yaml: __waro__
+ * __:%{дˮØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * __LEXICON NMN_МЯДО__ мяˮ:мя 35   ProsSg -мна
+Yaml: __myado__
+ * __:%{дˮØ%} SGLOCSUF_Хна ;__ мякна
+ * __:%{дˮØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+Where is the variation?
+ * __:%{дˮØ%} POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+ * __LEXICON N_ТЮСЕ__ тюˮ:тюсе 
+
+
+
+
+
+
+
+ * __LEXICON	 N_САВНЕ__ 
+
+
+
+
+ * __LEXICON	 N_ПЕНЗЕРЕ__ пензерˮ:пензер
+
+ * __LEXICON	N_САБЦЬ__ сабць:сабць
+
+ * __LEXICON N_МЕРЁ__ мерё:мерё
+
+
+NMN
+
+
+ * __LEXICON NMN_ҢЭ-OLD__ ңэ:ңэ 1  ProsSg -вна
+ * __SG-ACC-STEM ;__ SGACCSUF, SGGENSUF
+ * __SG-NOM-STEM ;__ SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
+ * __PLNOMSUF ;__ 
+ * __PLACCSUF_Zero ;__ => PL-ACC_STEM
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+9
+ * __:%^VowLower POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * __LEXICON NMN_ХУСУВЭЙ__ хусувэй: 10 ProsSg -ювна
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+ * LEXICON NMN_ХАНО-OLD  11 хан:хан
+
+
+
+ * __LEXICON NMN_ТИРЕ__ тир: 12 ProsSg -увна
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * __LEXICON NMN_ЕД__ ед: 13 ProsSg -увна /-ювна
+Yaml: __yed__
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+!!NOMINALS "NMN"
+!THREE-SYLLABLE VOWEL-FINAL STEMS
+
+ * __POSSESSA-PLURAL ;__ +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+таˮ:та
+
+
+
+
+
+
+
+
+варˮ:вар
+Yaml: __N-tarTS__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The singular accusative stem
+
+
+
+
+
+
+
+
+
+ * __LEXICON SGLOCSUF_Хна__ мякна
+
+ * __LEXICON SGLOCSUF_Хана__ серкана
+
+
+
+
+
+
+
+Start Plural
+
+
+
+
+
+
+
+
+
+
+What is assumed on the basis of the plural accusative
+ * __+Pl+Pros:%>ˮ%{увм%}А2на 	K	;__ When does this take a vowel хоˮомна
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Possessor Indices
+
+
+
+
+ * __+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в K ;__ 2013-10-22 Should this also have +ScSg3 marking
+
+
+
+ * __LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES __ singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
+
+ * __LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 __ singular possessa oblique possessor indices
+
+
+SINUGLAR CASES
+
+
+
+
+
+
+
+The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
+
+
+
+Dual possessa
+
+
+
+
+
+
+
+
+Dual possessa
+
+
+
+
+
+
+
+
+
+Plural Possessa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __+PxPl1:наˮ K ; __ The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conjugation of nouns and adjectives
+
+
+
+!!NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>NEW-SG-LOC_Кна/Кана
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!Verb inflection
+
+
+!!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+ * __LEXICON IV_Е__ есь:е
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON IV_ҢЭ__ ңэсь:ңэ
+
+
+
+
+
+
+
+
+
+
+!!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+ * __LEXICON IV_НАМДА__ намдась:намда
+
+
+
+
+
+ * __LEXICON IV_ЯКУ__ якась:яка
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON IV_ХАДА__ хадась:хада
+
+ * __LEXICON TV_ХАДА__ хадась:хада
+
+
+
+
+
+!THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
+
+
+ * __@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; __ 3-syll
+
+
+
+
+* Yaml: __V-yaqwlasj__
+
+
+
+
+!ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * __LEXICON IV_МАН__ манзь:ма%{нңʼØ%} 
+* Yaml: __manzj__
+
+
+
+
+
+
+
+ * LEXICON TV_САС  манэць:манэ
+
+
+
+
+
+
+
+!TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * __LEXICON IV_НЭКАЛ__ 
+
+
+ * __LEXICON IV_ҢАДИМ/ҢАРАМ__ 2013-12-16
+
+
+
+
+
+
+
+
+
+!!AFTER +TV, +IV, +Aux, +Refl
+Not yet written.
+
+!!CONJUGATION BY STEM TYPE
+
+!ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 2013-03-04
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+* Yaml: __V-xosj__
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+!TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+ * __LEXICON V-01_ЯКУ__ якась:яка
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+ * LEXICON V-01_НЕНЫ  2013-09-18 This is merely a copy of V-01_МЫ
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+ * __ V_Fut_ҢГУ ; __ is this the stem to use for +Fut+Mod/prob
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 2013-03-04
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+* Yaml: __V-pewasj__
+has vowel loss
+
+
+
+
+
+
+* __яˮавла%^VowRaise%>ˮ __
+* __яˮавлу0%>ˮ __
+* __тенева%^VowLoss%>ˮ __
+* __тенев00%>ˮ __
+
+
+
+* Yaml: __V-xadabasj__
+* __яˮавла%^VowRaise%>ˮ __
+* __яˮавлу0%>ˮ __
+* __тенева%^VowLoss%>ˮ __
+* __тенев00%>ˮ __
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+!THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+а > э in Pl Oc 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 2013-03-04  а > ы (ъя before х)
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+ * __LEXICON V-01_ЯˮАВЛУ __ яˮавлась:яˮавла
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+!ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * __LEXICON V-01_МАН__ манзь:ма%{нңʼØ%} 
+* Yaml: __manzj__
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ * LEXICON V-01_САС  манэць:манэ
+
+ * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
+
+
+ * __LEXICON V-NEW_ТИР__
+
+
+
+
+
+
+
+V_refl 2013-03-04
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+!TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * __LEXICON V-01_НЭКАЛ__ нэкалць:нэкал
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+
+V_refl 2013-03-04
+
+Mutual verbal conjugation
+ * __LEXICON IND-AOR__ All except Sg3 Du3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preterite 1 # This should be for ConjPrt and NarrPrt also.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * +Ind:%>я IND-AOR-RCSG1	;  This should be schwa or something
+
+Other moods
+сь in 2nd, 4th etc non-final syllable 
+
+
+
+
+
+
+
+
+
+ * __LEXICON V_PREC __ Hort
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __+Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; __ Sg3 and Pl3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON SG3-PRED-AOR/PRET1 __ V_AUD picks up possessor indices and comes here
+
+Mutual person ending for nonindicative moods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This need separating 2013-04-23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object
+
+
+Reflexive
+
+
+Reflexive Preterite
+
+Non-finites
+
+
+
+
+ * __+PrcFut:%>%{вм%}анда K ;__
+
+ * __+PrcFut:%>%{вм%}нда K ;__ Should this form be here 2013-11-25
+
+
+ * __+PrcFut:%>%{вм%}нда K ;__ Should this form be here 2013-11-25
+
+
+
+
+
+no vowel loss in stem
+
+
+
+* __яˮавла%^VowRaise%>ˮ __
+* __яˮавлу0%>ˮ __
+* __тенева%^VowLoss%>ˮ __
+* __тенев00%>ˮ __
+
+
+
+ * __LEXICON V-NEW_НАМДА __ намдась:намда schwa-final
+
+
+* __яˮавла%^VowRaise%>ˮ __
+* __яˮавлу0%>ˮ __
+* __тенева%^VowLoss%>ˮ __
+* __тенев00%>ˮ __
+
+
+
+
+
+* __яˮавла%^VowRaise%>ˮ __
+* __яˮавлу0%>ˮ __
+
+
+
+* Yaml: __V-xosjTS__
+ * __+Subord+PxSg1:%>бˮни K ; __ Do all odd-syllabled words need this?
+
+
+
+
+◊_subj
+
+◊_obj 
+
+
+
+
+
+ * __+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; __ Vowel removed
+ * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
+ * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
+ * __+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; __ Vowel removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+◊_subj
+
+
+
+
+
+
+
+
+
+◊_obj 
+
+
+
+◊_obj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO __ raise/no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON IND-AOR/PRT1-OCPL3_ян __ ODD-SYLL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON MOD/INT-SC_бца __ ??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; __ Vowel removed
+ * __+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; __ Vowel removed
+ * __+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; __ Vowel removed
+ * __+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; __ Vowel removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!Nenets twol file
+
+
+!!Letters of the alphabet
+ * __а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я__ 
+ * __А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я__ 
+
+ * __°:0__ Directly from Tapani Salminen extra short vowel
+
+ * __ә:а__ Directly from Tapani Salminen schwa
+
+
+
+!!Archiphonemes for vowels
+
+ * %{ауоэØ%}:а  А1:а А1:у А1:о А1:э SCHWA
+ * %{ауоэиыØ%}:0 before pros
+
+ * А2:а  
+
+ * Ы1:о   
+ * Ы1:е  
+
+ * Ы2:э  
+
+!!Archiphonemes for glottals
+
+ *  %{нңʼØ%}:ʼ   
+ *  %{нңʼØ%}:н   
+ *  %{нңʼØ%}:0   
+ *  %{йнңъʼØ%}:й   
+ *  %{йнңъʼØ%}:н   
+ *  %{йнңъʼØ%}:ң   
+ *  %{йнңъʼØ%}:ъ   
+ *  %{йнңъʼØ%}:ʼ   
+ *  %{йнңъʼØ%}:0   
+ *  %{дˮØ%}:ˮ   
+ *  %{дˮØ%}:д   
+ *  %{дˮØ%}:0   
+ *  С1:ˮ   
+ *  С1:с   
+ *  С1:0   
+
+ *  %{ая%}:а          in Pros
+ *  %{оё%}:о          in +N+Sg+Nom+PxPl3
+ *  %{рл%}:0	    +N+Sg+Nom+PxSg2
+
+ * __%{аяуюØ%}:0	__ хан+N+Sg+Acc+PxSg1: ханув, ханав
+
+ * __%{увм%}:0	__ +N+Sg+Pros
+
+ * __%{вм%}:0	__ +N+Sg+Nom+PxSg1
+
+!!triggers
+
+ *  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+ *  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
+ *  %^A2O:0      
+ *  %^A2I:0        
+
+ * __%^PalVariation:0__ This allows for тар%{дˮØ%}%>д%{оё%}нзь
+
+ *  %^MLenition:0  lenition
+ *  %^VowLower:0  vowel lowering ы:э у:о
+ *  %^VowRaise:0  vowel raising э:ы о:у
+ *  %^VowLoss:0      stem-final vowel is lost in plural accusative
+ *  %^StemVowFronting:0      хасава:хасев
+ *  %^VowFronting:0      хадась:хадэйнинзь
+ *  %^PalLoss:0      in combination with stem-final vowel loss тёня:тён
+ *  %^HardFronting:0      яля:ялэ
+
+
+!!Boundary symbols
+
+ *  %>      
+hash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!Rules
+
+
+
+
+__к: -> г after nasal glottal__
+* __му%{нңʼØ%}%>кʼ __
+* __муң%>гʼ __
+
+* __ил°%{йнңъʼØ%}%>к°ʼ __
+* __илаң%>г0ʼ __
+
+
+
+__к: to х after Vowels__
+
+__ты%^VowLower%>да examples:__
+
+__тэ0%>да examples:__
+
+__ед°%>к%{ауоэØ%}на examples:__
+
+__ед0%>хана examples:__
+
+__намда%^VowLoss%>к%{ауоэØ%}в examples:__
+
+__намд00%>хав examples:__
+
+__nTod__
+
+__му%{нңʼØ%}%^SCSG2%>нʼ examples:__
+
+__мун0%>дʼ examples:__
+
+__ңум%{йнңъʼØ%}%^SCSG2%>нʼ examples:__
+
+__ңум00%>дʼ examples:__
+
+__ңум%{йнңъʼØ%}%^SCSG2%>н°ʼ examples:__
+
+__ңум00%>д0ʼ examples:__
+
+__%{нңʼØ%}:н GlottalNasalToSurface__
+
+__му%{нңʼØ%}%>нд examples:__
+
+__мун%>0д examples:__
+
+__му%{нңʼØ%}%>сь examples:__
+
+__мун0%>зь examples:__
+
+
+__му%{нңʼØ%}%^SCSG2%>нʼ examples:__
+
+__мун0%>дʼ examples:__
+
+__%{нңʼØ%}:ң GlottalNasalToSurface__
+
+__му%{нңʼØ%}%>кʼ examples:__
+
+__муң%>гʼ examples:__
+
+__%{йнңъʼØ%}:ң GlottalNasalToSurface__
+
+__ил°%{йнңъʼØ%}%>к°ʼ examples:__
+
+__илаң%>г0ʼ examples:__
+
+__%{йнңъʼØ%}:н GlottalNasalToSurface__
+
+__ил°%{йнңъʼØ%}%^SCSG2%>н examples:__
+
+__илан0%>д examples:__
+
+
+__ила%{йнңъʼØ%}%>сиˮ examples:__
+
+__илан%>зиˮ examples:__
+
+__ил°%{йнңъʼØ%}%>н°ʼ examples:__
+
+__илан%>д0ʼ examples:__
+
+__ил°%{йнңъʼØ%}%>дмʼ examples:__
+
+__илан%>дмʼ examples:__
+
+__илан%>дув0 examples:__
+
+__ил0н%>дув0 examples:__
+
+
+__%{йнңъʼØ%}:ъ GlottalNasalToSurface__
+
+__ил°%{йнңъʼØ%}е examples:__
+
+__ил0ъе examples:__
+
+__%{нңʼØ%}:0 GlottalNasalToSurface__
+
+__му%{нңʼØ%}%>мд examples:__
+
+__му0%>нд examples:__
+
+__му%{нңʼØ%}%>м°н%{ая%} examples:__
+
+__му0%>м0на examples:__
+
+
+__%{йнңъʼØ%}:0 GlottalNasalToSurface__
+
+__ил°%{йнңъʼØ%}%^SCSG2%>н examples:__
+
+__илан0%>д examples:__
+
+
+
+__ил°%{йнңъʼØ%}%>°ˮ examples:__
+
+__ила0%>0ˮ examples:__
+
+__ил°%{йнңъʼØ%}%>°ць° examples:__
+
+__ила0%>0ць0 examples:__
+
+__ил°%{йнңъʼØ%}%>м°н%{ая%} examples:__
+
+__ил00%>мана examples:__
+
+__ил°%{йнңъʼØ%}%>н° examples:__
+
+__ила0%>н0 examples:__
+
+__ил°%{йнңъʼØ%}%>%{рл%}° examples:__
+
+__ила0%>л0 examples:__
+
+__ил°%{йнңъʼØ%}%>мд° examples:__
+
+__ила0%>нд0 examples:__
+
+__ңум%{йнңъʼØ%}%>мʼ examples:__
+
+__ңув0%>мʼ examples:__
+
+__ңум%{йнңъʼØ%}%^SCSG2%>нʼ examples:__
+
+__ңум00%>дʼ examples:__
+
+__ңум%{йнңъʼØ%}%>0ць examples:__
+
+__ңув0%>аць examples:__
+
+
+
+__%{дˮØ%}:0 GlottalNonNasalToZERO LEFT__
+
+__мя%{дˮØ%}%^SCSG2%>нʼ examples:__
+
+__мя00%>тʼ examples:__
+
+__мя%{дˮØ%}%>мд° examples:__
+
+__мя0%>0т0 examples:__
+
+__мя%{дˮØ%}%>д%{ая%} examples:__
+
+__мя0%>та examples:__
+
+__мя%{дˮØ%}%^SCSG2%>нась examples:__
+
+__мя00%>тась examples:__
+
+__тар%^PalVariation%{дˮØ%}%>°мʼ examples:__
+
+__тар00%>0мʼ examples:__
+
+__тар%^PalVariation%{дˮØ%}%>%{рл%}° examples:__
+
+__та000%>л0 examples:__
+
+
+__мя%{дˮØ%}%>мд° examples:__
+
+__мя0%>0т0 examples:__
+
+__мя%{дˮØ%}%>д%{ая%} examples:__
+
+__мя0%>та examples:__
+
+__мя%{дˮØ%}%^SCSG2%>нась examples:__
+
+__мя00%>тась examples:__
+
+__тар%^PalVariation%{дˮØ%}%>%{рл%}° examples:__
+
+__та000%>л0 examples:__
+
+__тар%^PalVariation%{дˮØ%}%>мд%{ая%} examples:__
+
+__тар00%>0та examples:__
+
+__тар00%>0тя examples:__
+
+RIGHT ARROW ONLY %{дˮØ%}:0
+
+__тар%{дˮØ%}%>ми examples:__
+
+__тарˮ%>ми examples:__
+
+__тар0%>ми examples:__
+
+__тар%{дˮØ%}%>ни examples:__
+
+__тарˮ%>ни examples:__
+
+__тар0%>ни examples:__
+
+__С1:0 GlottalNonNasalToZERO__
+
+__таС1%>мд° examples:__
+
+__та0%>0т0 examples:__
+
+__таС1%>д%{ая%} examples:__
+
+__та0%>та examples:__
+
+__ман°С1%>мд examples:__
+
+__мана0%>0т examples:__
+
+__ман°С1%>дмʼ examples:__
+
+__мана0%>тмʼ examples:__
+
+__таС1%^SCSG2%>нась examples:__
+
+__та00%>тась examples:__
+
+__ман°С1%^SCSG2%>нʼ examples:__
+
+__мана00%>тʼ examples:__
+
+
+
+__С1:ˮ UnderlyingToGlottal__
+
+__ман°С1%>0в examples:__
+
+__манаˮ%>ам examples:__
+
+__%{дˮØ%}:ˮ UnderlyingToGlottal LEFT__
+
+__мя%{дˮØ%}%>%{ауоэØ%}л examples:__
+
+__мяˮ%>ал examples:__
+
+__вар%{дˮØ%}%>вна examples:__
+
+__варˮ%>мна examples:__
+
+
+__тар%{дˮØ%} examples:__
+
+__тарˮ examples:__
+
+
+__тар%{дˮØ%} examples:__
+
+__тарˮ examples:__
+
+RIGHT ARROW ONLY %{дˮØ%}:ˮ
+
+__тар%{дˮØ%}%>ми examples:__
+
+__тарˮ%>ми examples:__
+
+__тар0%>ми examples:__
+
+__тар%{дˮØ%}%>ни examples:__
+
+__тарˮ%>ни examples:__
+
+__тар0%>ни examples:__
+
+
+__%{нңʼØ%}:ʼ UnderlyingToGlottal__
+
+
+__с => ц affrication after Stop__
+
+__мя%{дˮØ%}%>сь examples:__
+
+__мя0%>ць examples:__
+
+
+__ман°С1%>сиˮ examples:__
+
+__ман00%>циˮ examples:__
+
+__с => з after nasal__
+
+__му%{нңʼØ%}%>сь examples:__
+
+__мун0%>зь examples:__
+
+__ила%{йнңъʼØ%}%>сиˮ examples:__
+
+__илан%>зиˮ examples:__
+
+__ил°%{йнңъʼØ%}%>сиˮ examples:__
+
+__ил0н%>зиˮ examples:__
+
+__ңум%{йнңъʼØ%}%>сиˮ examples:__
+
+__ңум0%>зиˮ examples:__
+
+__v To m __
+
+__ман°С1%>0в examples:__
+
+__манаˮ%>ам examples:__
+
+
+__%{рл%}:л__
+
+__ман°С1%>0%{рл%} examples:__
+
+__манаˮ%>ал examples:__
+
+
+__%{рл%}:р__
+
+__%{рл%}:р__
+
+
+__0:а in single-syllable__
+* __ман°С1%>0в __
+* __манаˮ%>ам __
+* __ңум%{йнңъʼØ%}%>0ць __
+* __ңув0%>аць __
+__°:а at end of stem__
+
+__ед°%^SCSG2%>нʼ examples:__
+
+__еда0%>нʼ examples:__
+
+__ил°%{йнңъʼØ%}%>мʼ examples:__
+
+__ила0%>мʼ examples:__
+
+__ман°С1%>мд examples:__
+
+__мана0%>0т examples:__
+
+__ман°С1%>0%{рл%} examples:__
+
+__манаˮ%>ал examples:__
+
+__ман°С1%>0в examples:__
+
+__манаˮ%>ам examples:__
+
+__ман°С1%^SCSG2%>нʼ examples:__
+
+__мана00%>тʼ examples:__
+
+
+__ил°%{йнңъʼØ%}%>кʼ examples:__
+
+__илаң%>гʼ examples:__
+
+__ʼ:н__
+
+
+
+
+
+Second Vowel Center
+__°:у in Pros LEFT__
+
+__ә:у in extra short to у__
+
+
+
+__ә:о in extra short to о__
+
+
+
+__ә:и in extra short to и__
+
+
+
+__ә:ы in extra short to ы__
+
+
+
+__ә:э in extra short to э__
+
+__ә:а in extra short to а__
+
+__ил°%{йнңъʼØ%}%>кәд examples:__
+
+__ил0ң0гад examples:__
+
+
+__0:а in Pros__
+
+__ма%>ˮ0н examples:__
+
+__ма0ˮан examples:__
+
+
+__ма%>ˮ0м°н%{ая%} examples:__
+
+__ма0ˮам0на examples:__
+
+__ман°С1%>0%{рл%}° examples:__
+
+__манаˮ0ал0 examples:__
+
+__ман°С1%>0м° examples:__
+
+__манаˮ0ам0 examples:__
+
+__ман°С1%>0%{рл%}° examples:__
+
+__манаˮ0ал0 examples:__
+
+__ман°С1%>0м° examples:__
+
+__манаˮ0ам0 examples:__
+
+__хан%>м° examples:__
+
+__хан0в0 examples:__
+
+__0:э in Pros__
+
+__ңэ%>ˮ0м°н%{ая%} examples:__
+
+__ңэ0ˮэм0на examples:__
+
+__0:о between two glottals__
+
+__хо%>ˮ0м°н%{ая%} examples:__
+
+__хо0ˮом0на examples:__
+
+__я%^A2O%>ˮ0м°н%{ая%} examples:__
+
+__ё00ˮом0на examples:__
+
+__0:и after glottal__
+
+__си%>ˮ0м°н%{ая%} examples:__
+
+__си0ˮим0на examples:__
+
+__0:ы between two glottals__
+
+__ңы%>ˮ0м°н%{ая%} examples:__
+
+__ңы0ˮым0на examples:__
+
+__0:у between two glottals__
+
+__ңу%>ˮ0м°н%{ая%} examples:__
+
+__ңу0ˮум0на examples:__
+
+
+
+__0:у between two glottals__
+
+
+__а:я VowelPalatalization left__
+
+
+__%{ая%}:я VowelPalatalization left__
+
+__%{ая%}:я VowelPalatalization right__
+
+__тар%^PalVariation%{дˮØ%}%>к°н%{ая%} examples:__
+
+__тар000кана examples:__
+
+__тар000кна examples:__
+
+__тар000каня examples:__
+
+__тар000кня examples:__
+
+__тар%^PalVariation%{дˮØ%}%>д%{ая%} examples:__
+
+__тар000та examples:__
+
+__тар000тя examples:__
+
+
+__%{оё%}:ё VowelPalatalization right__
+
+__ню%>д%{оё%}ʼ examples:__
+
+__ню0доʼ examples:__
+
+__ню0дёʼ examples:__
+
+__тар%^PalVariation%{дˮØ%}%>д%{оё%}ʼ examples:__
+
+__тар000тоʼ examples:__
+
+__тар000тёʼ examples:__
+
+
+The rule __%{ауоэØ%} <-> у__:
+
+__ну%>к%{ауоэØ%}рт examples:__
+
+__ну0хурт examples:__
+
+The rule __%{ауоэØ%} -> о__:
+
+The rule __%{ауоэØ%} -> а__:
+
+__намда%^VowLoss%>к%{ауоэØ%}в examples:__
+
+__намд000хав examples:__
+
+__мя%{дˮØ%}%>%{ауоэØ%}л examples:__
+
+__мяˮ0ал examples:__
+
+__му%{нңʼØ%}%>к%{ауоэØ%}на  examples:__
+
+__муң0гана examples:__
+
+__ед°%>к%{ауоэØ%}на examples:__
+
+__ед00хана examples:__
+
+__%{ауоэØ%} -> а__
+
+__%{ауоэØ%} -> а__
+
+__хо%>сеты%>к%{ауоэØ%}ʼ examples:__
+
+__хо0сеты0хыʼ examples:__
+
+__%{ауоэØ%} -> а__
+
+__пя%^A2I%>ˮ%{ауоэØ%}н examples:__
+
+__пи00ˮин examples:__
+
+
+
+
+!!VOWEL LOWERING
+
+__i2e StemFinalYToE LEFT__
+
+
+__а:э in stem-internal position__
+
+__хадаба%^StemVowFronting%^A2I%>н examples:__
+
+__хадэби000н examples:__
+
+__a:o in я__
+
+
+__a:i in мараңгы__
+
+__яˮавла%^A2I%>дмʼ examples:__
+
+__яˮавлы00дмʼ examples:__
+
+
+__a:i in ңуда__
+
+__ңуда%^A2I examples:__
+
+__ңуди0 examples:__
+
+__хадаба%^StemVowFronting%^A2I%>н examples:__
+
+__хадэби000н examples:__
+
+
+
+__о:у word-final position__
+
+
+__я:и word-final position__
+
+__пя%^A2I examples:__
+
+__пи0 examples:__
+
+__ңодя%^A2I examples:__
+
+__ңоди0 examples:__
+
+__я:е in яха__
+
+__яха%^A2I examples:__
+
+__еси0 examples:__
+
+
+__а:у яˮавла:яˮавлу LEFT__
+
+__а:у яˮавла:яˮавлу RIGHT__
+
+__яˮавла%^VowRaise%>ˮ examples:__
+
+__яˮавлу00ˮ examples:__
+
+
+__а:ю яˮавла:яˮавлу__
+
+__пэва%^VowFronting%^VowRaise%>ˮ examples:__
+
+__пэбю000ˮ examples:__
+!!VOWEL LOSS
+
+__а:ю яˮавла:яˮавлу__
+
+
+
+__а:ю яˮавла:яˮавлу__
+
+__я:0 Stem vowel loss in plural accusative__
+
+__тёня%^PalLoss%^VowLoss examples:__
+
+__тён000 examples:__
+
+
+
+!!CONSONANT CHANGES
+
+__mToV__
+
+__хан°%>м° examples:__
+
+__хана0в0 examples:__
+
+__хану0в0 examples:__
+
+__ңум%{йнңъʼØ%}%>0ць examples:__
+
+__ңув00аць examples:__
+
+__ңум%{йнңъʼØ%}%>°мʼ examples:__
+
+__ңув000мʼ examples:__
+
+__ңум%^MLenition%>о examples:__
+
+__ңув00о examples:__
+
+
+
+
+__m loss before Labial followed by nonglottal cons or vows __
+
+__му%{нңʼØ%}%>мд examples:__
+
+__мун00д examples:__
+
+__по%{йнңъʼØ%}%>мд° examples:__
+
+__пон00д0 examples:__
+
+__мя%{дˮØ%}%>мд° examples:__
+
+__мя000т0 examples:__
+
+__ңум%{йнңъʼØ%}%>м°н%{ая%} examples:__
+
+__ңу000м0на examples:__
+
+__н loss after glottal before д: __
+
+__му%{нңʼØ%}%>нд examples:__
+
+__мун00д examples:__
+
+__по%{йнңъʼØ%}%>нд° examples:__
+
+__пон00д0 examples:__
+
+__мя%{дˮØ%}%>нд° examples:__
+
+__мя000т0 examples:__
+
+__ил°%{йнңъʼØ%}%>нд%{ая%} examples:__
+
+__ил0н00да examples:__
+
+__илан00да examples:__
+
+
+
+
+
+
+
+__н loss after glottal before д: __
+__r To l after nasal glottal__
+
+__сыр%>рхавы examples:__
+
+__сыл00хавы examples:__
+
+__r To 0 before glottal and р or л__
+
+__тар%^PalVariation%{дˮØ%}%>%{рл%}° examples:__
+
+__та0000л0 examples:__
+
+__сыр%>рхавы examples:__
+
+__сыл00хавы examples:__
+
+
+
+__n to t after non-nasal glottal__
+
+__мя%{дˮØ%}%^SCSG2%>нʼ examples:__
+
+__мя000тʼ examples:__
+
+__ман°С1%^SCSG2%>нʼ examples:__
+
+__мана000тʼ examples:__
+
+__сыр%{йнңъʼØ%}%>нарахав examples:__
+
+__сыр00тарахав examples:__
+
+
+__мя%{дˮØ%}%^SCSG2%>нась examples:__
+
+__мя000тась examples:__
+
+__тар%^PalVariation%{дˮØ%}%^SCSG2%>нась examples:__
+
+__тар0000тась examples:__
+
+__ман°С1%^SCSG2%>н°ʼ examples:__
+
+__мана000т0ʼ examples:__
+
+__d to t after non-nasal glottal__
+
+__мя%{дˮØ%}%>мд examples:__
+
+__мя000т examples:__
+
+__ман°С1%>мд examples:__
+
+__мана000т examples:__
+
+
+__мя%{дˮØ%}%>д%{ая%} examples:__
+
+__мя00та examples:__
+
+__мя%{дˮØ%}%>дмʼ examples:__
+
+__мя00тмʼ examples:__
+
+__тар%^PalVariation%{дˮØ%}%>д%{ая%} examples:__
+
+__тар000та examples:__
+
+__тар000тя examples:__
+
+__b to p after non-nasal glottal__
+
+__сырˮ%>бˮ examples:__
+
+__сыр00пˮ examples:__
+
+
+__ң:0 Before в:м +Sg+Acc+PxPl1:%>ваˮ__
+
+__илң%>ваˮ examples:__
+
+__ил00маˮ examples:__
+
+The rule __ъ:0 with Conj after vowels__:
+
+
+In the first context ...
+
+In the second context ...
+
+
+
+
+__ˮ:0__
+
+__сырˮ%>бˮ examples:__
+
+__сыр00пˮ examples:__
+
+__сыр%^SCSG2%>накы examples:__
+
+__сыр00такы examples:__
+!!Realization of glottal stops
+
+!SURFACE CONSONANT
+
+
+__х:с in яха__
+
+__яха%^A2I examples:__
+
+__еси0 examples:__
+
+
+
+__С1:с GlottalNonNasalToSurface__
+
+__ман°С1%>°ць° examples:__
+
+__ман0с0аць0 examples:__
+
+__%{дˮØ%}:д GlottalNonNasalToSurface__
+
+__мя%{дˮØ%}%>°ць° examples:__
+
+__мя00аць0 examples:__
+
+
+__%{дˮØ%}:д GlottalNonNasalToSurface__
+
+
+
+
+
+
+__ь:0 with  GlottalNonNasalToZERO__
+
+
+
+
