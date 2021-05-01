@@ -1,0 +1,43 @@
+Pronoun inflection
+Nenets pronouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ +Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,17 +11,17 @@ in this system in terms of following the symbols.
  * **+WORK** WORK HAS TO BE DONE Do not remove, replaces +TYÄ
 The parts-of-speech are:
 
- * **+N	**
- * **+A	**
+ * **+N**
+ * **+A**
  * **+Adv**
- * **+V	**
+ * **+V**
 
  * **+Pron**
- * **+CS	**
- * **+CC	**
+ * **+CS**
+ * **+CC**
  * **+Adp**
- * **+Po	**
- * **+Pr	**
+ * **+Po**
+ * **+Pr**
  * **+Interj**
  * **+Pcle**
  * **+Num**
@@ -84,7 +84,7 @@ The nominals are inflected in the following Case and Number
  * **+Ela**
  * **+Egr**
  * **+Prl**
- * **+Pred	** = predestinative
+ * **+Pred** = predestinative
 
 are these needed?:
 
@@ -191,16 +191,16 @@ Other verb forms are
  * **+PrcFut**
  * **+GerFin**
  * **+Subord**
- * **+Aud	**
- * **+Evas	**
- * **+Ger 	**
+ * **+Aud**
+ * **+Evas**
+ * **+Ger**
  * **+ConNeg**
  * **+ConNegII**
- * **+Neg 	**
+ * **+Neg**
  * **+ImprtII**
  * **+PrsPrc**
- * **+Sup 	**
- * **+VGen 	**
+ * **+Sup**
+ * **+VGen**
  * **+VAbess**
 
 
@@ -366,10 +366,10 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
  * **%{ая%}** in Pros
  * **%{оё%}** in +N+Sg+Nom+PxPl3
- * **%{рл%}	** +N+Sg+Nom+PxSg2
+ * **%{рл%}** +N+Sg+Nom+PxSg2
  * **%{аяуюØ%}** хан+N+Sg+Acc+PxSg1: ханув, ханав
  * **%{увм%}** +N+Sg+Pros
- * **%{вм%}	** +N+Sg+Nom+PxSg1
+ * **%{вм%}** +N+Sg+Nom+PxSg1
 
 And the following triggers to control variation:
  * **{front}**
@@ -424,7 +424,7 @@ Object conjugation
 
  * **@P.CONJ.ObjAll@**
  * **@R.CONJ.ObjAll@**
- * **@C.CONJ@	**
+ * **@C.CONJ@**
 
 
 # The Root lexicon
@@ -433,19 +433,19 @@ Object conjugation
 The word forms in Nenets start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
- * **adjectives ;	**
- * **adpositions ;	**
- * **adverbs ;		**
+ * **adjectives ;**
+ * **adpositions ;**
+ * **adverbs ;**
  * **interjections ;**
- * **nouns ;		**
- * **particles ;	**
- * **pronouns ;	**
- * **propernouns ;	**
- * **quantifiers ;	**
- * **verbs ;		**
+ * **nouns ;**
+ * **particles ;**
+ * **pronouns ;**
+ * **propernouns ;**
+ * **quantifiers ;**
+ * **verbs ;**
 
 
- * **V_NEWWORDS ;		** This is for feeding new verbs.
+ * **V_NEWWORDS ;** This is for feeding new verbs.
  * **Punctuation ;**
  * **Symbols ;**
 

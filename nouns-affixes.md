@@ -232,14 +232,14 @@ Where is the variation?
 
 
 
- * **LEXICON	 N_САВНЕ** 
+ * **LEXICON N_САВНЕ** 
 
 
 
 
- * **LEXICON	 N_ПЕНЗЕРЕ** пензерˮ:пензер
+ * **LEXICON N_ПЕНЗЕРЕ** пензерˮ:пензер
 
- * **LEXICON	N_САБЦЬ** сабць:сабць
+ * **LEXICON N_САБЦЬ** сабць:сабць
 
  * **LEXICON N_МЕРЁ** мерё:мерё
 
@@ -369,7 +369,7 @@ Start Plural
 
 
 What is assumed on the basis of the plural accusative
- * **+Pl+Pros:%>ˮ%{увм%}А2на 	K	;** When does this take a vowel хоˮомна
+ * **+Pl+Pros:%>ˮ%{увм%}А2на K ;** When does this take a vowel хоˮомна
 
 
 

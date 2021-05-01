@@ -45,11 +45,11 @@
  *  %{оё%}:о          in +N+Sg+Nom+PxPl3
  *  %{рл%}:0	    +N+Sg+Nom+PxSg2
 
- * **%{аяуюØ%}:0	** хан+N+Sg+Acc+PxSg1: ханув, ханав
+ * **%{аяуюØ%}:0** хан+N+Sg+Acc+PxSg1: ханув, ханав
 
- * **%{увм%}:0	** +N+Sg+Pros
+ * **%{увм%}:0** +N+Sg+Pros
 
- * **%{вм%}:0	** +N+Sg+Nom+PxSg1
+ * **%{вм%}:0** +N+Sg+Nom+PxSg1
 
 ## triggers
 

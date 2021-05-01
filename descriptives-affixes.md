@@ -1,0 +1,9 @@
+Descriptives
+Nenets descriptives...
+
+
+
+
+
+
+
