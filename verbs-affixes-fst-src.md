@@ -1,91 +1,155 @@
-# Verb inflection
+# Nenets Verb inflection
 
+**LEXICON V_** for unassigned verbs
 
 ## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
  * **LEXICON IV_Е** есь:е
 
+**LEXICON IV_МЭ** 
 
+**LEXICON TV_МЭ** 
 
+**LEXICON VR_МЭ** 
 
+**LEXICON IV_МЫ** 
 
+**LEXICON TV_МЫ** 
 
+**LEXICON VA_НЁ** 
 
+**LEXICON VA_НИ** 
 
+**LEXICON IV_НИ** 
 
+**LEXICON IV_НО** 
 
+**LEXICON IV_НУ** 
 
+**LEXICON IV_НУ-Pal/Var** 
 
+**LEXICON VR_НУ** 
 
+**LEXICON VR_НУ-Pal/Var** 
 
+**LEXICON TV_НУ** 
 
+**LEXICON TV_НУ-Pal/Var** 
 
+**LEXICON IV_НУ/ТУ** 
 
  * **LEXICON IV_ҢЭ** ңэсь:ңэ
+**LEXICON IV_ҢЭ** 
+
+**LEXICON IV_ҢЭ-Pal/Var** 
 
 
+**LEXICON IV_ТУ** 
+
+**LEXICON TV_ТУ** 
+
+**LEXICON IV_ХО** 
 
 
+**LEXICON TV_ХО** 
 
+**LEXICON VR_ХО-Pal/Var** 
 
-
-
-
+**LEXICON IV_ХЭ** 
 
 ## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
  * **LEXICON IV_НАМДА** намдась:намда
+**LEXICON IV_НАМДА** 
 
+**LEXICON TV_НАМДА** 
 
+**LEXICON VR_НАМДА** 
 
+**LEXICON IV_ВАДЮ** 
 
+**LEXICON TV_ВАДЮ** 
 
  * **LEXICON IV_ЯКУ** якась:яка
 
+**LEXICON IV_ИЛЕ** 
+
+**LEXICON IV_ИЛЕ-Pal/Var** Work needed for variation 2013-03-04
+
+**LEXICON VR_ИЛЕ** 
+
+**LEXICON VR_ИЛЕ-Pal/Var**  Work needed for variation 2013-09-05
+
+**LEXICON TV_ИЛЕ** 
+
+**LEXICON IV_НЕНЫ** 
+
+**LEXICON IV_ҢЭСУ** 
+
+**LEXICON TV_ҢЭСУ** 
+
+**LEXICON IV_ПЭБЮ** 
+
+**LEXICON IV_ПЭБЮ-Pal/Var** 
+
+**LEXICON TV_ПЭБЮ** 
 
 
+**LEXICON IV_ХАДАБАСЬ** 
 
 
-
-
-
-
-
-
-
-
-
-
+**LEXICON TV_ХАДАБАСЬ** 
 
 
  * **LEXICON IV_ХАДА** хадась:хада
 
  * **LEXICON TV_ХАДА** хадась:хада
 
+**LEXICON VR_ХАДА** 
 
+**LEXICON IV_ЮХУ** 
 
+**LEXICON TV_ЮХУ** 
 
 
 ### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+**LEXICON IV_ЛАХАНА** 
 
+**LEXICON IV_ЛАХАНА-Pal/Var** 
 
+**LEXICON VR_ЛАХАНА** 
 
+**LEXICON TV_ЛАХАНА** 
  * **@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; ** 3-syll
 
+**LEXICON TV_ЛАХАНА-Pal/Var** 
 
+**LEXICON IV_ҢЭДАРА** 
+**LEXICON TV_ҢЭДАРА** 
+**LEXICON VR_ҢЭДАРА** 
 
+**LEXICON IV_СЯНАКУ** 
 
+**LEXICON IV_ЯˮАВЛУ** 
 * Yaml: **V-yaqwlasj**
 
+**LEXICON IV_ЯˮАВЛУ-Pal/Var** 
 
 
+**LEXICON TV_ЯˮАВЛУ** 
 
 ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  * **LEXICON IV_МАН** манзь:ма%{нңʼØ%} 
 * Yaml: **manzj**
 
+**LEXICON IV_МИН** 
 
+**LEXICON IV_МИН-Pal/Var** 
 
+**LEXICON TV_МИН** 
 
+**LEXICON VR_МИН** 
 
+**LEXICON IV_САС** 
 
 
  * LEXICON TV_САС  манэць:манэ

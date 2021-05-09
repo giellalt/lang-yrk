@@ -957,17 +957,24 @@ In the second context ...
 
 # Symbol affixes
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 # Noun inflection
 
 Nenets nouns inflect in cases.
 
 
+**LEXICON æLEXNAME@ 
  * **LEXICON N_ҢЭ** ңэ:ңэ 1  ProsSg -вна
 Yaml: **xo, ngaeTS**
+**LEXICON æLEXNAME@ 
 
  * **LEXICON N_ҢЭ-Pal/Var** ңэ:ңэ 1  ProsSg -вна
 Yaml: **nyeTS**
@@ -1534,16 +1541,17 @@ Conjugation of nouns and adjectives
 
 
 
-Descriptives
+# Descriptives
 Nenets descriptives...
 
 
 
+**LEXICON æLEXNAME@ adds the tag **+Descr**
 
 
 
 
-Quantifier inflection
+# Quantifier inflection
 Nenets quantifiers ...
 
  * **LEXICON NUM_МЯДО**
@@ -1574,16 +1582,16 @@ we need to get away from these: NUM_VOW and NUM_CONS
 it's done
 
 
-Adverbs
+# Adverbs
 Nenets adverbs...
 
 
 
- * **LEXICON ADV_**
+ * **LEXICON ADV_** to # without tag
 
- * **LEXICON ADV-LOC_**
+ * **LEXICON ADV-LOC_** to # with tag +Loc
 
- * **LEXICON ADV-TEMP_**
+ * **LEXICON ADV-TEMP_** adds +Temp and goes to #
 
  * **LEXICON ADV-MANNER_**
 
@@ -1594,15 +1602,19 @@ Nenets adverbs...
 
 
 
-Proper noun inflection
+# Proper noun inflection
 Nenets proper nouns inflect in the same cases as regular
 nouns, but with a XXX as separator.
 
+**LEXICON æLEXNAME@ for bunclassified ones
 
 ### ONE-SYLLABLE VOWEL-FINAL STEM
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
 ### ONE-SYLLABLE CONSONANT-FINAL STEM
+**LEXICON æLEXNAME@ 
 
 ### TWO-SYLLABLE CONSONANT-FINAL STEM
  * **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
@@ -1611,128 +1623,205 @@ nouns, but with a XXX as separator.
  * **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
 Yaml: **xano**
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
  * **LEXICON PROP_ЯЛЭ** яля: 18 ProsSg -вна
 /total=2/
-яля yalya    ялян’ yalyan°h  яля” yalyaq     ялэ yale
+яля yalya    ялян’ yalyan°h  яляˮ yalyaq     ялэ yale
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
  * **LEXICON PROP_ХАСЕВ** хасава: 22 ProsSg -вна
 /total=1/
-хасава xasawa        хасаван’ xasawan°h      хасава” xasawaq хасев xasyew°
+хасава xasawa        хасаван’ xasawan°h      хасаваˮ xasawaq хасев xasyew°
  * **+N+Prop: POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
 ### THREE-SYLLABLE VOWEL-FINAL STEM
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@  Here we need some kind of vowel harmony
 
 
 
 
-
-Interjections
+# Interjections
 Nenets interjections...
 
 
 
+**LEXICON æLEXNAME@ just goes to #
 
 
 
 
-# Verb inflection
+# Nenets Verb inflection
 
+**LEXICON V_** for unassigned verbs
 
 ## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
  * **LEXICON IV_Е** есь:е
 
+**LEXICON IV_МЭ** 
 
+**LEXICON TV_МЭ** 
 
+**LEXICON VR_МЭ** 
 
+**LEXICON IV_МЫ** 
 
+**LEXICON TV_МЫ** 
 
+**LEXICON VA_НЁ** 
 
+**LEXICON VA_НИ** 
 
+**LEXICON IV_НИ** 
 
+**LEXICON IV_НО** 
 
+**LEXICON IV_НУ** 
 
+**LEXICON IV_НУ-Pal/Var** 
 
+**LEXICON VR_НУ** 
 
+**LEXICON VR_НУ-Pal/Var** 
 
+**LEXICON TV_НУ** 
 
+**LEXICON TV_НУ-Pal/Var** 
 
+**LEXICON IV_НУ/ТУ** 
 
  * **LEXICON IV_ҢЭ** ңэсь:ңэ
+**LEXICON IV_ҢЭ** 
+
+**LEXICON IV_ҢЭ-Pal/Var** 
 
 
+**LEXICON IV_ТУ** 
+
+**LEXICON TV_ТУ** 
+
+**LEXICON IV_ХО** 
 
 
+**LEXICON TV_ХО** 
 
+**LEXICON VR_ХО-Pal/Var** 
 
-
-
-
+**LEXICON IV_ХЭ** 
 
 ## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
  * **LEXICON IV_НАМДА** намдась:намда
+**LEXICON IV_НАМДА** 
 
+**LEXICON TV_НАМДА** 
 
+**LEXICON VR_НАМДА** 
 
+**LEXICON IV_ВАДЮ** 
 
+**LEXICON TV_ВАДЮ** 
 
  * **LEXICON IV_ЯКУ** якась:яка
 
+**LEXICON IV_ИЛЕ** 
+
+**LEXICON IV_ИЛЕ-Pal/Var** Work needed for variation 2013-03-04
+
+**LEXICON VR_ИЛЕ** 
+
+**LEXICON VR_ИЛЕ-Pal/Var**  Work needed for variation 2013-09-05
+
+**LEXICON TV_ИЛЕ** 
+
+**LEXICON IV_НЕНЫ** 
+
+**LEXICON IV_ҢЭСУ** 
+
+**LEXICON TV_ҢЭСУ** 
+
+**LEXICON IV_ПЭБЮ** 
+
+**LEXICON IV_ПЭБЮ-Pal/Var** 
+
+**LEXICON TV_ПЭБЮ** 
 
 
+**LEXICON IV_ХАДАБАСЬ** 
 
 
-
-
-
-
-
-
-
-
-
-
+**LEXICON TV_ХАДАБАСЬ** 
 
 
  * **LEXICON IV_ХАДА** хадась:хада
 
  * **LEXICON TV_ХАДА** хадась:хада
 
+**LEXICON VR_ХАДА** 
 
+**LEXICON IV_ЮХУ** 
 
+**LEXICON TV_ЮХУ** 
 
 
 ### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+**LEXICON IV_ЛАХАНА** 
 
+**LEXICON IV_ЛАХАНА-Pal/Var** 
 
+**LEXICON VR_ЛАХАНА** 
 
+**LEXICON TV_ЛАХАНА** 
  * **@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; ** 3-syll
 
+**LEXICON TV_ЛАХАНА-Pal/Var** 
 
+**LEXICON IV_ҢЭДАРА** 
+**LEXICON TV_ҢЭДАРА** 
+**LEXICON VR_ҢЭДАРА** 
 
+**LEXICON IV_СЯНАКУ** 
 
+**LEXICON IV_ЯˮАВЛУ** 
 * Yaml: **V-yaqwlasj**
 
+**LEXICON IV_ЯˮАВЛУ-Pal/Var** 
 
 
+**LEXICON TV_ЯˮАВЛУ** 
 
 ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
  * **LEXICON IV_МАН** манзь:ма%{нңʼØ%} 
 * Yaml: **manzj**
 
+**LEXICON IV_МИН** 
 
+**LEXICON IV_МИН-Pal/Var** 
 
+**LEXICON TV_МИН** 
 
+**LEXICON VR_МИН** 
 
+**LEXICON IV_САС** 
 
 
  * LEXICON TV_САС  манэць:манэ
@@ -2379,32 +2468,42 @@ no vowel loss in stem
 
 
 
-Adposition inflection
+# Adposition inflection
 Nenets adpositions inflect in person (and some in local cases).
 
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
 
 
 
-
-
-
-
-
-
-
-
-Clitics inflection
+# Clitics inflection
 Nenets clitics...
 
 
 
+**LEXICON æLEXNAME@ optional +Qst 
 
-
+**LEXICON æLEXNAME@ leads to #.
 
 
 Adjective inflection
-Nenets ?? adjectives compare.
+Nenets  adjectives.
 
+**LEXICON æLEXNAME@ to #
 
 
  * **LEXICON A_ҢЭ** ңэ:ңэ 1  
@@ -2416,7 +2515,7 @@ Nenets ?? adjectives compare.
 
  * **LEXICON A_ХАНО** хӑн: 11 !!ProsSg -увна
 [total=27]
-хӑн xən°    хӑнӑн’ xənən°h        хӑн” xən°q     хӑно xəno
+хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
 
 
  * **LEXICON A_ЕД** ед: 13 !!ProsSg -увна /-ювна
@@ -2437,16 +2536,16 @@ Nenets ?? adjectives compare.
 
  * **LEXICON A_ҢАНУ** ңӑно: 23 !!ProsSg -вна
 [total=57]
-ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑно” ŋənoq    ңӑну ŋənu
+ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
 
  * **LEXICON A_ЯКЫ** якэ: 24 ProsSg -вна
 
  * **LEXICON A_ҢУВО** ңумʼ:ңум 25 !!ProsSg -(м)на
-ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
+ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
 
 
  * **LEXICON A_НЮБЕ-Pal/Var** нюмʼ:нюм 26
-нюм’ nyum    нюмд’ nyumt°h   нюв” nyuw°q     нюбе nyubye
+нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
 
  * **LEXICON A_ВЫҢО** выʼ:вы 29  
 
@@ -2467,47 +2566,85 @@ What makes this different from N_ТИРЕ?
 
 
 
-Pronoun inflection
-Nenets pronouns inflect in cases.
+# Pronoun inflection
+Nenets pronouns inflection
 
+**LEXICON æLEXNAME@ for the unclassified ones
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ etc.
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ etc. 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@  etc.
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
  +Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
 
 

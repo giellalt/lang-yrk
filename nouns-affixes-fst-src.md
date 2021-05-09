@@ -3,8 +3,10 @@
 Nenets nouns inflect in cases.
 
 
+**LEXICON æLEXNAME@ 
  * **LEXICON N_ҢЭ** ңэ:ңэ 1  ProsSg -вна
 Yaml: **xo, ngaeTS**
+**LEXICON æLEXNAME@ 
 
  * **LEXICON N_ҢЭ-Pal/Var** ңэ:ңэ 1  ProsSg -вна
 Yaml: **nyeTS**

@@ -1,4 +1,4 @@
-Quantifier inflection
+# Quantifier inflection
 Nenets quantifiers ...
 
  * **LEXICON NUM_МЯДО**
