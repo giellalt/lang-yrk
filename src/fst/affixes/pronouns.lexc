@@ -1,71 +1,93 @@
-!! Pronoun inflection
+!! # Pronoun inflection
 ! ---------------
-!! Nenets pronouns inflect in cases.
+!! Nenets pronouns inflection
 
 LEXICON PRON_
-+WORK: # ;
+!! **LEXICON æLEXNAME@ for the unclassified ones
++Pron+WORK: # ;
 
 LEXICON PersSg1
+!! **LEXICON æLEXNAME@ 
 +Pers+Sg1+Nom: # ;
 
 LEXICON PersSg2
+!! **LEXICON æLEXNAME@ etc.
 +Pers+Sg2+Nom: # ;
 
 LEXICON PersSg3
+!! **LEXICON æLEXNAME@ 
 +Pers+Sg3+Nom: # ;
 
 LEXICON PersDu1
+!! **LEXICON æLEXNAME@ 
 +Pers+Du1+Nom: # ;
 
 LEXICON PersDu2
+!! **LEXICON æLEXNAME@ 
 +Pers+Du2+Nom: # ;
 
 LEXICON PersDu3
+!! **LEXICON æLEXNAME@ 
 +Pers+Du3+Nom: # ;
 
 LEXICON PersPl1
+!! **LEXICON æLEXNAME@ 
 +Pers+Pl1+Nom: # ;
 
 LEXICON PersPl2
+!! **LEXICON æLEXNAME@ 
 +Pers+Pl2+Nom: # ;
 
 LEXICON PersPl3
+!! **LEXICON æLEXNAME@ 
 +Pers+Pl3+Nom: # ;
 
 LEXICON PersSg1-CxAcc
+!! **LEXICON æLEXNAME@ 
 +Pers+Sg1+Acc: # ;
 
 LEXICON PersSg2-CxAcc
+!! **LEXICON æLEXNAME@ 
 +Pers+Sg2+Acc: # ;
 
 LEXICON PersSg3-CxAcc
+!! **LEXICON æLEXNAME@ 
 +Pers+Sg3+Acc: # ;
 
 LEXICON PersDu1-CxAcc
+!! **LEXICON æLEXNAME@ etc. 
 +Pers+Du1+Acc: # ;
 
 LEXICON PersDu2-CxAcc
+!! **LEXICON æLEXNAME@ 
 +Pers+Du2+Acc: # ;
 
 LEXICON PersDu3-CxAcc
+!! **LEXICON æLEXNAME@ 
 +Pers+Du3+Acc: # ;
 
 LEXICON PersPl1-CxAcc
+!! **LEXICON æLEXNAME@  etc.
 +Pers+Pl1+Acc: # ;
 
 LEXICON PersPl2-CxAcc
+!! **LEXICON æLEXNAME@ 
 +Pers+Pl2+Acc: # ;
 
 LEXICON PersPl3-CxAcc
+!! **LEXICON æLEXNAME@ 
 +Pers+Pl3+Acc: # ;
 
 LEXICON PRON-DEM-ADN_
+!! **LEXICON æLEXNAME@ 
 +Dem: # ;
 
 LEXICON PRON-INTERR_
+!! **LEXICON æLEXNAME@ 
 +Interr: NMN_ҢАВО ;
 
 LEXICON PRON-INTERR-HUM_
+!! **LEXICON æLEXNAME@ 
 +Interr+Sem/Hum:  SG-NOM-STEM ;
 +Interr+Sem/Hum:  SG-ACC-STEM ;
 +Interr+Sem/Hum:  SGDATSUF ;
@@ -74,52 +96,68 @@ LEXICON PRON-INTERR-HUM_
 +Interr+Sem/Hum:  POSSESSA-PLURAL ; !!= @CODE@ +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 LEXICON PRON-INTERR-QNT_IS-PROS
+!! **LEXICON æLEXNAME@ 
 +Interr+Qnt+Pros: K ;
 
 LEXICON PRON_ҢЭ
+!! **LEXICON æLEXNAME@ 
 : NMN_ҢЭ ;
 
 LEXICON PRON_ЕД
+!! **LEXICON æLEXNAME@ 
 : NMN_ЕД ;
 
 LEXICON PRON_ҢУДИ
+!! **LEXICON æLEXNAME@ 
 : NMN_ҢУДИ ;
 +Lim:ри NMN_ҢЭ ;
 
 LEXICON PRON_ТИКЫ
+!! **LEXICON æLEXNAME@ 
 : NMN_ПАНЫ ;
 
 LEXICON PRON_ПИСЬ
+!! **LEXICON æLEXNAME@ 
 : NMN_ПИСЬ ;
 
 LEXICON PRON-DEM-ADN_ТИКЫ
+!! **LEXICON æLEXNAME@ 
 : NMN_ПАНЫ ;
 
 LEXICON PRON-INTERR-TEMP_
+!! **LEXICON æLEXNAME@ 
 +Interr+Temp: # ;
 
 LEXICON PRON-INTERR-QNT_
+!! **LEXICON æLEXNAME@ 
 +Interr+Qnt: # ;
 
 LEXICON PRON-INTERR-MANNER_
+!! **LEXICON æLEXNAME@ 
 +Interr+Manner: # ;
 
 LEXICON PRON-INTERR_ҢУДИ
+!! **LEXICON æLEXNAME@ 
 +Interr: NMN_ҢУДИ ;
 
 LEXICON PRON-INTERR_-CXABL
+!! **LEXICON æLEXNAME@ 
 +Interr+Spat+Abl: # ;
 
 LEXICON PRON-INTERR_-CXLAT
+!! **LEXICON æLEXNAME@ 
 +Interr+Spat+Lat: # ;
 
 LEXICON PRON-INTERR_-CXLOC
+!! **LEXICON æLEXNAME@ 
 +Interr+Spat+Loc: # ;
 
 LEXICON PRON-INTERR_-CXPROS
+!! **LEXICON æLEXNAME@ 
 +Interr+Spat+Pros: # ;
 
 LEXICON ADV-SPAT_-CXLOC
+!! **LEXICON æLEXNAME@ 
 +Adv+Spat+Loc: # ;
 
 ! vim: set ft=xfst-lexc:

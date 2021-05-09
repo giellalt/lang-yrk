@@ -1,8 +1,9 @@
 !! Adjective inflection
 ! --------------------
-!! Nenets ?? adjectives compare.
+!! Nenets  adjectives.
 
 LEXICON A_UNDECL
+!! **LEXICON æLEXNAME@ to #
 : # ;
 
 !!LEXICON Comparisons
@@ -28,7 +29,7 @@ LEXICON A_ЕД/ХУСУВЭЙ
 
 LEXICON A_ХАНО  !!≈ * **@CODE@** хӑн: 11 !!ProsSg -увна
 !! [total=27]
-!! хӑн xən°    хӑнӑн’ xənən°h        хӑн” xən°q     хӑно xəno
+!! хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
 : SGNOMSUF ;
 +Der/MWN: NMN_ХАНО ;
 
@@ -81,7 +82,7 @@ LEXICON A_ПИСЬ  !!≈ * **@CODE@** пися: 21 !!ProsSg -вна
 
 LEXICON A_ҢАНУ  !!≈ * **@CODE@** ңӑно: 23 !!ProsSg -вна
 !! [total=57]
-!! ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑно” ŋənoq    ңӑну ŋənu
+!! ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
 : SGNOMSUF ;
 +Der/MWN: NMN_ҢАНУ ;
 
@@ -92,13 +93,13 @@ LEXICON A_ЯКЫ  !!≈ * **@CODE@** якэ: 24 ProsSg -вна
 +Der/MWN: NMN_ЯКЫ ;
 
 LEXICON A_ҢУВО  !!≈ * **@CODE@** ңумʼ:ңум 25 !!ProsSg -(м)на
-!! ңум’ ŋum     ңумд’ ŋumt°h    ңув” ŋuw°q      ңуво ŋuwo
+!! ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
 :ʼ SGNOMSUF ;
 +Der/MWN: NMN_ҢУВО ;
 
 
 LEXICON A_НЮБЕ-Pal/Var  !!≈ * **@CODE@** нюмʼ:нюм 26
-!! нюм’ nyum    нюмд’ nyumt°h   нюв” nyuw°q     нюбе nyubye
+!! нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
 :ʼ SGNOMSUF ;
 +Der/MWN: NMN_НЮБЕ ;
 

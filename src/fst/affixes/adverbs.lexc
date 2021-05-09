@@ -1,16 +1,16 @@
-!! Adverbs
+!! # Adverbs
 ! --------------------
 !! Nenets adverbs...
 
 
  
-LEXICON ADV_ !!≈ * **@CODE@**
+LEXICON ADV_ !!≈ * **@CODE@** to # without tag
 : # ; 
 
-LEXICON ADV-LOC_ !!≈ * **@CODE@**
+LEXICON ADV-LOC_ !!≈ * **@CODE@** to # with tag +Loc
 +Loc: # ;
 
-LEXICON ADV-TEMP_ !!≈ * **@CODE@**
+LEXICON ADV-TEMP_ !!≈ * **@CODE@** adds +Temp and goes to #
 +Temp: # ;
 
 LEXICON ADV-MANNER_ !!≈ * **@CODE@**

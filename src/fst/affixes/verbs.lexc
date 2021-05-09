@@ -1,68 +1,87 @@
-!! # Verb inflection
+!! # Nenets Verb inflection
 
 LEXICON V_
-+WORK: # ;
+!! **LEXICON @LEXNAME@** for unassigned verbs
++V+WORK: # ;
 
 !! ## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON IV_Е !!≈ * **@CODE@** есь:е
 +IV: V-01_Е ;
 
 LEXICON IV_МЭ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_МЭ       ;
 
 LEXICON TV_МЭ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_МЭ       ;
 
 LEXICON VR_МЭ
+!! **LEXICON @LEXNAME@** 
 +Refl: V-01_МЭ-REFL       ;
 
 LEXICON IV_МЫ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_МЫ       ;
 
 LEXICON TV_МЫ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_МЫ       ;
 
 LEXICON VA_НЁ
+!! **LEXICON @LEXNAME@** 
 +Aux: V-01_НЁ       ;
 
 LEXICON VA_НИ
+!! **LEXICON @LEXNAME@** 
 +Aux: V-01_НИ       ;
 
 LEXICON IV_НИ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_НИ       ;
 
 LEXICON IV_НО
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_НО       ;
 
 LEXICON IV_НУ
+!! **LEXICON @LEXNAME@** 
 !+IV: V-01_НУ       ;
 +IV: V-NEW_ХО       ;
 
 LEXICON IV_НУ-Pal/Var
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_НУ       ;
 +IV: PRC_PALVAR ;
 
 LEXICON VR_НУ
+!! **LEXICON @LEXNAME@** 
 +Refl: V-01_НУ-REFL       ;
 
 LEXICON VR_НУ-Pal/Var
+!! **LEXICON @LEXNAME@** 
 +Refl: V-01_НУ-REFL       ;
 +IV: PRC_PALVAR ;
 
 LEXICON TV_НУ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_НУ       ;
 
 LEXICON TV_НУ-Pal/Var
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_НУ       ;
 +TV: PRC_PALVAR ;
 
 LEXICON IV_НУ/ТУ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_НУ/ТУ       ;
 
 LEXICON IV_ҢЭ !!≈ * **@CODE@** ңэсь:ңэ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ҢЭ       ;
 
 LEXICON IV_ҢЭ-Pal/Var
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ҢЭ       ;
 +IV: PRC_PALVAR ;
 
@@ -70,86 +89,110 @@ LEXICON IV_ҢЭ-Pal/Var
 !!+IV: V-01_ТО       ;
 
 LEXICON IV_ТУ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ТУ       ;
 
 LEXICON TV_ТУ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ТУ       ;
 
 LEXICON IV_ХО
+!! **LEXICON @LEXNAME@** 
 !+IV: V-01_ХО  ;
 +IV: V-NEW_ХО  ;
 
 
 LEXICON TV_ХО
+!! **LEXICON @LEXNAME@** 
 !+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ХО       ;
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ХО       ;
 
 LEXICON VR_ХО-Pal/Var
+!! **LEXICON @LEXNAME@** 
 !+Refl: V-01_ИЛЕ-REFL  ; verbs still need dealing with
 +Refl: PRC_PALVAR ;
 
 LEXICON IV_ХЭ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ХЭ       ;
 
 !! ## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
 LEXICON IV_НАМДА !!≈ * **@CODE@** намдась:намда
+!! **LEXICON @LEXNAME@** 
 +IV: V-NEW_НАМДА ;
 
 LEXICON TV_НАМДА
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_НАМДА ;
 
 LEXICON VR_НАМДА
+!! **LEXICON @LEXNAME@** 
 +Refl: V-NEW_НАМДА ;
 
 LEXICON IV_ВАДЮ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ВАДЮ       ;
 
 LEXICON TV_ВАДЮ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ВАДЮ       ;
 
 LEXICON IV_ЯКУ !!≈ * **@CODE@** якась:яка
 +IV: V-01_ЯКУ       ;
 
 LEXICON IV_ИЛЕ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ИЛЕ	;
 
-LEXICON IV_ИЛЕ-Pal/Var ! Work needed for variation 2013-03-04
+LEXICON IV_ИЛЕ-Pal/Var !
+!! **LEXICON @LEXNAME@** Work needed for variation 2013-03-04
 +IV: V-01_ИЛЕ ;
 +IV: PRC_PALVAR ;
 
 LEXICON VR_ИЛЕ
+!! **LEXICON @LEXNAME@** 
 +Refl: V-01_ИЛЕ-REFL	;
 
-LEXICON VR_ИЛЕ-Pal/Var ! Work needed for variation 2013-09-05
+LEXICON VR_ИЛЕ-Pal/Var 
+!! **LEXICON @LEXNAME@**  Work needed for variation 2013-09-05
 +Refl: V-01_ИЛЕ-REFL  ;
 +Refl: PRC_PALVAR ;
 
 LEXICON TV_ИЛЕ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ИЛЕ	;
 
 LEXICON IV_НЕНЫ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_НЕНЫ       ;
 
 LEXICON IV_ҢЭСУ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ҢЭСУ       ;
 
 LEXICON TV_ҢЭСУ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ҢЭСУ       ;
 
 LEXICON IV_ПЭБЮ
+!! **LEXICON @LEXNAME@** 
 +IV: V-NEW_ПЭБЮ       ;
 
 LEXICON IV_ПЭБЮ-Pal/Var
+!! **LEXICON @LEXNAME@** 
 +IV: V-NEW_ПЭБЮ       ;
 +IV: PRC_PALVAR ;
 
 LEXICON TV_ПЭБЮ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ПЭБЮ       ;
 
 !LEXICON VR_ПЭБЮ
 !+Refl: V-NEW_ПЭБЮ-REFL ;
 
 LEXICON IV_ХАДАБАСЬ
+!! **LEXICON @LEXNAME@** 
 +IV: V-NEW_ХАДАБАСЬ       ;
 
 !LEXICON IV_ХАДАБАСЬ-Pal/Var
@@ -157,6 +200,7 @@ LEXICON IV_ХАДАБАСЬ
 !+IV: PRC_PALVAR ;
 
 LEXICON TV_ХАДАБАСЬ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ХАДАБАСЬ       ;
 
 !LEXICON VR_ХАДАБАСЬ
@@ -171,51 +215,65 @@ LEXICON TV_ХАДА !!≈ * **@CODE@** хадась:хада
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ХАДА       ;
 
 LEXICON VR_ХАДА
+!! **LEXICON @LEXNAME@** 
 !+Refl: V-01_ХАДА-REFL ;
 +Refl: V-NEW_ХАДА-REFL ;
 
 LEXICON IV_ЮХУ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ЮХУ       ;
 
 LEXICON TV_ЮХУ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ЮХУ       ;
 
 
 !! ### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 LEXICON IV_ЛАХАНА
+!! **LEXICON @LEXNAME@** 
 !+IV: V-01_ЛАХАНА       ;
 +IV: V-NEW_ЛАХАНА       ;
 
 LEXICON IV_ЛАХАНА-Pal/Var
+!! **LEXICON @LEXNAME@** 
 +IV: V-NEW_ЛАХАНА       ;
 +IV: PRC_PALVAR ;
 
 LEXICON VR_ЛАХАНА
+!! **LEXICON @LEXNAME@** 
 +Refl: V-NEW_ЛАХАНА-REFL       ;
 
 LEXICON TV_ЛАХАНА
+!! **LEXICON @LEXNAME@** 
 !+TV@P.CONJ.ObjAll@:00@P.CONJ.ObjAll@ V-01_ЛАХАНА       ;
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; !!= * **@CODE@** 3-syll
 
 LEXICON TV_ЛАХАНА-Pal/Var
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ;
 +TV: PRC_PALVAR ;
 
 LEXICON IV_ҢЭДАРА
+!! **LEXICON @LEXNAME@** 
 +IV: V-NEW_ҢЭДАРА ;
 LEXICON TV_ҢЭДАРА
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ҢЭДАРА ;
 LEXICON VR_ҢЭДАРА
+!! **LEXICON @LEXNAME@** 
 +Refl: V-NEW_ҢЭДАРА-REFL ;
 
 LEXICON IV_СЯНАКУ
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_СЯНАКУ       ;
 
 LEXICON IV_ЯˮАВЛУ
+!! **LEXICON @LEXNAME@** 
 !! * Yaml: **V-yaqwlasj**
 +IV: V-01_ЯˮАВЛУ      ;
 
 LEXICON IV_ЯˮАВЛУ-Pal/Var
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_ЯˮАВЛУ	; ! more work to be done with -Pal/Var 2013-03-04
 +IV: PRC_PALVAR ;
 
@@ -223,6 +281,7 @@ LEXICON IV_ЯˮАВЛУ-Pal/Var
 !+Refl: V-01_ЯˮАВЛУ-REFL      ;
 
 LEXICON TV_ЯˮАВЛУ
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_ЯˮАВЛУ      ;
 
 !! ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
@@ -231,19 +290,24 @@ LEXICON IV_МАН  !!≈ * **@CODE@** манзь:ма%{нңʼØ%}
 +IV: V-01_МАН       ;
 
 LEXICON IV_МИН
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_МИН       ;
 
 LEXICON IV_МИН-Pal/Var
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_МИН       ;
 +IV: PRC_PALVAR2 ;
 
 LEXICON TV_МИН
+!! **LEXICON @LEXNAME@** 
 @P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-01_МИН       ;
 
 LEXICON VR_МИН
+!! **LEXICON @LEXNAME@** 
 +Refl: V-01_МИН-REFL ;
 
 LEXICON IV_САС
+!! **LEXICON @LEXNAME@** 
 +IV: V-01_САС       ;
 
 LEXICON VR_САС
