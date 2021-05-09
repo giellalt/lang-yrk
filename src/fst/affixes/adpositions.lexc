@@ -1,13 +1,15 @@
 
-!! Adposition inflection
+!! # Adposition inflection
 ! ---------------
 !! Nenets adpositions inflect in person (and some in local cases).
 
 LEXICON POSTP_ABS
+!! **LEXICON æLEXNAME@ 
 +Abs: K ;
 POSTP_VOW ;
 
 LEXICON POSTP_VOW
+!! **LEXICON æLEXNAME@ 
 : AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 !+PxSg1: н ;
 !+PxSg2: нд ;
@@ -20,10 +22,12 @@ LEXICON POSTP_VOW
 !+PxPl3: ндоʼ ;
 
 LEXICON POSTP_DAT
+!! **LEXICON æLEXNAME@ 
 +Dat:ʼ K ;
 :а POSTP_VOW ;
 
 LEXICON POSTP_LOC
+!! **LEXICON æLEXNAME@ 
 +Loc:на K ;
 +Loc:на AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 
@@ -39,6 +43,7 @@ LEXICON POSTP_LOC
 !+PxPl3: нандоʼ ;
 
 LEXICON POSTP_LOC-Pal/Var
+!! **LEXICON æLEXNAME@ 
 +Loc:ня K ;
 +Loc:ня AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 !+PxSg1: нян ;
@@ -52,6 +57,7 @@ LEXICON POSTP_LOC-Pal/Var
 !+PxPl3: няндоʼ ;
 
 LEXICON POSTP_ABL
+!! **LEXICON æLEXNAME@ 
 +Abl:д K ;
 +Abl:да AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 !+PxSg1: дан ;
@@ -65,6 +71,7 @@ LEXICON POSTP_ABL
 !+PxPl3: дандоʼ ;
 
 LEXICON POSTP_PROS
+!! **LEXICON æLEXNAME@ 
 +Pros:мна K ;
 +Pros:мна AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 !+PxSg1: мнан ;
@@ -78,6 +85,7 @@ LEXICON POSTP_PROS
 !+PxPl3: мнандоʼ ;
 
 LEXICON POSTP_PROS-Pal/Var
+!! **LEXICON æLEXNAME@ 
 +Pros:мня K ;
 +Pros:мня AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ;
 

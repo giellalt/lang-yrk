@@ -1,16 +1,17 @@
-!! Clitics inflection
+!! # Clitics inflection
 ! --------------------
 !! Nenets clitics...
 
 
 
 LEXICON K
+!! **LEXICON æLEXNAME@ optional +Qst 
 !+Qst:а # ;
 +Qst:%>вʼ # ; 
  FINISH ;
 
 LEXICON FINISH
-
+!! **LEXICON æLEXNAME@ leads to #.
  # ; 
 
 ! vim: set ft=xfst-lexc:
