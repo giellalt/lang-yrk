@@ -605,11 +605,1698 @@ These were the set types.
 
 
 
-This is where new words are added as lexc entries before they are
-added to the xml source files.
- V_ "FinnishTRANSLATION" ;
+# Nenets Verb inflection
 
-CONTINUE BELOW
+**LEXICON V_** for unassigned verbs
+
+## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+ * **LEXICON IV_Е** есь:е
+
+**LEXICON IV_МЭ** 
+
+**LEXICON TV_МЭ** 
+
+**LEXICON VR_МЭ** 
+
+**LEXICON IV_МЫ** 
+
+**LEXICON TV_МЫ** 
+
+**LEXICON VA_НЁ** 
+
+**LEXICON VA_НИ** 
+
+**LEXICON IV_НИ** 
+
+**LEXICON IV_НО** 
+
+**LEXICON IV_НУ** 
+
+**LEXICON IV_НУ-Pal/Var** 
+
+**LEXICON VR_НУ** 
+
+**LEXICON VR_НУ-Pal/Var** 
+
+**LEXICON TV_НУ** 
+
+**LEXICON TV_НУ-Pal/Var** 
+
+**LEXICON IV_НУ/ТУ** 
+
+ * **LEXICON IV_ҢЭ** ңэсь:ңэ
+**LEXICON IV_ҢЭ** 
+
+**LEXICON IV_ҢЭ-Pal/Var** 
+
+
+**LEXICON IV_ТУ** 
+
+**LEXICON TV_ТУ** 
+
+**LEXICON IV_ХО** 
+
+
+**LEXICON TV_ХО** 
+
+**LEXICON VR_ХО-Pal/Var** 
+
+**LEXICON IV_ХЭ** 
+
+## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
+ * **LEXICON IV_НАМДА** намдась:намда
+**LEXICON IV_НАМДА** 
+
+**LEXICON TV_НАМДА** 
+
+**LEXICON VR_НАМДА** 
+
+**LEXICON IV_ВАДЮ** 
+
+**LEXICON TV_ВАДЮ** 
+
+ * **LEXICON IV_ЯКУ** якась:яка
+
+**LEXICON IV_ИЛЕ** 
+
+**LEXICON IV_ИЛЕ-Pal/Var** Work needed for variation 2013-03-04
+
+**LEXICON VR_ИЛЕ** 
+
+**LEXICON VR_ИЛЕ-Pal/Var**  Work needed for variation 2013-09-05
+
+**LEXICON TV_ИЛЕ** 
+
+**LEXICON IV_НЕНЫ** 
+
+**LEXICON IV_ҢЭСУ** 
+
+**LEXICON TV_ҢЭСУ** 
+
+**LEXICON IV_ПЭБЮ** 
+
+**LEXICON IV_ПЭБЮ-Pal/Var** 
+
+**LEXICON TV_ПЭБЮ** 
+
+
+**LEXICON IV_ХАДАБАСЬ** 
+
+
+**LEXICON TV_ХАДАБАСЬ** 
+
+
+ * **LEXICON IV_ХАДА** хадась:хада
+
+ * **LEXICON TV_ХАДА** хадась:хада
+
+**LEXICON VR_ХАДА** 
+
+**LEXICON IV_ЮХУ** 
+
+**LEXICON TV_ЮХУ** 
+
+
+### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+**LEXICON IV_ЛАХАНА** 
+
+**LEXICON IV_ЛАХАНА-Pal/Var** 
+
+**LEXICON VR_ЛАХАНА** 
+
+**LEXICON TV_ЛАХАНА** 
+ * **@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; ** 3-syll
+
+**LEXICON TV_ЛАХАНА-Pal/Var** 
+
+**LEXICON IV_ҢЭДАРА** 
+**LEXICON TV_ҢЭДАРА** 
+**LEXICON VR_ҢЭДАРА** 
+
+**LEXICON IV_СЯНАКУ** 
+
+**LEXICON IV_ЯˮАВЛУ** 
+* Yaml: **V-yaqwlasj**
+
+**LEXICON IV_ЯˮАВЛУ-Pal/Var** 
+
+
+**LEXICON TV_ЯˮАВЛУ** 
+
+### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * **LEXICON IV_МАН** манзь:ма%{нңʼØ%} 
+* Yaml: **manzj**
+
+**LEXICON IV_МИН** 
+
+**LEXICON IV_МИН-Pal/Var** 
+
+**LEXICON TV_МИН** 
+
+**LEXICON VR_МИН** 
+
+**LEXICON IV_САС** 
+
+
+ * LEXICON TV_САС  манэць:манэ
+
+
+
+
+
+
+
+### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * **LEXICON IV_НЭКАЛ** 
+
+
+ * **LEXICON IV_ҢАДИМ/ҢАРАМ** 2013-12-16
+
+
+
+
+
+
+
+
+
+## AFTER +TV, +IV, +Aux, +Refl
+Not yet written.
+
+## CONJUGATION BY STEM TYPE
+
+### ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 2013-03-04
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+* Yaml: **V-xosj**
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+### TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+ * **LEXICON V-01_ЯКУ** якась:яка
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+ * LEXICON V-01_НЕНЫ  2013-09-18 This is merely a copy of V-01_МЫ
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+ * ** V_Fut_ҢГУ ; ** is this the stem to use for +Fut+Mod/prob
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 2013-03-04
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+* Yaml: **V-pewasj**
+has vowel loss
+
+
+
+
+
+
+* *яˮавла%^VowRaise%>ˮ*
+* *яˮавлу0%>ˮ*
+* *тенева%^VowLoss%>ˮ*
+* *тенев00%>ˮ*
+
+
+
+* Yaml: **V-xadabasj**
+* *яˮавла%^VowRaise%>ˮ*
+* *яˮавлу0%>ˮ*
+* *тенева%^VowLoss%>ˮ*
+* *тенев00%>ˮ*
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+а > э in Pl Oc 
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+V_refl 2013-03-04  а > ы (ъя before х)
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+ * **LEXICON V-01_ЯˮАВЛУ ** яˮавлась:яˮавла
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+ * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * **LEXICON V-01_МАН** манзь:ма%{нңʼØ%} 
+* Yaml: **manzj**
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ * LEXICON V-01_САС  манэць:манэ
+
+ * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
+
+
+ * **LEXICON V-NEW_ТИР**
+
+
+
+
+
+
+
+V_refl 2013-03-04
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+ * **LEXICON V-01_НЭКАЛ** нэкалць:нэкал
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+ *  PRC-NEG ; 	+PrcNeg +PrcFut
+
+
+
+V_refl 2013-03-04
+
+Mutual verbal conjugation
+ * **LEXICON IND-AOR** All except Sg3 Du3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preterite 1 # This should be for ConjPrt and NarrPrt also.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * +Ind:%>я IND-AOR-RCSG1	;  This should be schwa or something
+
+Other moods
+сь in 2nd, 4th etc non-final syllable 
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_PREC ** Hort
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **+Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; ** Sg3 and Pl3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON SG3-PRED-AOR/PRET1 ** V_AUD picks up possessor indices and comes here
+
+Mutual person ending for nonindicative moods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This need separating 2013-04-23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object
+
+
+Reflexive
+
+
+Reflexive Preterite
+
+Non-finites
+
+
+
+
+ * **+PrcFut:%>%{вм%}анда K ;**
+
+ * **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
+
+
+ * **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
+
+
+
+
+
+no vowel loss in stem
+
+
+
+* *яˮавла%^VowRaise%>ˮ*
+* *яˮавлу0%>ˮ*
+* *тенева%^VowLoss%>ˮ*
+* *тенев00%>ˮ*
+
+
+
+ * **LEXICON V-NEW_НАМДА ** намдась:намда schwa-final
+
+
+* *яˮавла%^VowRaise%>ˮ*
+* *яˮавлу0%>ˮ*
+* *тенева%^VowLoss%>ˮ*
+* *тенев00%>ˮ*
+
+
+
+
+
+* *яˮавла%^VowRaise%>ˮ*
+* *яˮавлу0%>ˮ*
+
+
+
+* Yaml: **V-xosjTS**
+ * **+Subord+PxSg1:%>бˮни K ; ** Do all odd-syllabled words need this?
+
+
+
+
+◊_subj
+
+◊_obj 
+
+
+
+
+
+ * **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
+ * **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
+ * **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
+ * **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+◊_subj
+
+
+
+
+
+
+
+
+
+◊_obj 
+
+
+
+◊_obj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO ** raise/no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON IND-AOR/PRT1-OCPL3_ян ** ODD-SYLL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON MOD/INT-SC_бца ** ??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
+ * **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
+ * **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
+ * **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Proper noun inflection
+Nenets proper nouns inflect in the same cases as regular
+nouns, but with a XXX as separator.
+
+**LEXICON æLEXNAME@ for bunclassified ones
+
+### ONE-SYLLABLE VOWEL-FINAL STEM
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+### ONE-SYLLABLE CONSONANT-FINAL STEM
+**LEXICON æLEXNAME@ 
+
+### TWO-SYLLABLE CONSONANT-FINAL STEM
+ * **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
+
+
+ * **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
+Yaml: **xano**
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+ * **LEXICON PROP_ЯЛЭ** яля: 18 ProsSg -вна
+/total=2/
+яля yalya    ялян’ yalyan°h  яляˮ yalyaq     ялэ yale
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+ * **LEXICON PROP_ХАСЕВ** хасава: 22 ProsSg -вна
+/total=1/
+хасава xasawa        хасаван’ xasawan°h      хасаваˮ xasawaq хасев xasyew°
+ * **+N+Prop: POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+### THREE-SYLLABLE VOWEL-FINAL STEM
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@  Here we need some kind of vowel harmony
+
+
+
+
+# Pronoun inflection
+Nenets pronouns inflection
+
+**LEXICON æLEXNAME@ for the unclassified ones
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ etc.
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ etc. 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@  etc.
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+ +Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+# Interjections
+Nenets interjections...
+
+
+
+**LEXICON æLEXNAME@ just goes to #
+
+
+
+
+Adjective inflection
+Nenets  adjectives.
+
+**LEXICON æLEXNAME@ to #
+
+
+ * **LEXICON A_ҢЭ** ңэ:ңэ 1  
+
+ * **LEXICON A_ПАНЫ** пӑны:пӑны 9 
+
+ * **LEXICON A_ХУСУВЭЙ** хусувэй: 10 !!ProsSg -ювна
+
+
+ * **LEXICON A_ХАНО** хӑн: 11 !!ProsSg -увна
+[total=27]
+хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
+
+
+ * **LEXICON A_ЕД** ед: 13 !!ProsSg -увна /-ювна
+
+ * **LEXICON A_ҢУДИ** ңуда: 15 !!ProsSg -вна
+
+
+ * **LEXICON A_ҢОДИ** ңодя: 17 !!ProsSg -вна
+
+
+
+ * **LEXICON A_ХОБ** хоба: 19 !!ProsSg -вна
+
+
+ * **LEXICON A_ТЁН** тёня: 20 !!ProsSg -вна
+
+ * **LEXICON A_ПИСЬ** пися: 21 !!ProsSg -вна
+
+ * **LEXICON A_ҢАНУ** ңӑно: 23 !!ProsSg -вна
+[total=57]
+ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
+
+ * **LEXICON A_ЯКЫ** якэ: 24 ProsSg -вна
+
+ * **LEXICON A_ҢУВО** ңумʼ:ңум 25 !!ProsSg -(м)на
+ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
+
+
+ * **LEXICON A_НЮБЕ-Pal/Var** нюмʼ:нюм 26
+нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
+
+ * **LEXICON A_ВЫҢО** выʼ:вы 29  
+
+
+Check this
+
+
+ * **LEXICON A_МЯДО** мяˮ:мя 35   !!ProsSg -мна
+
+ LEXICON A_САБЦЬ тир: 12 !!ProsSg -увна
+What makes this different from N_ТИРЕ?
+
+ * **LEXICON A_САВНЕ** 
+
+
+
+
+
+
+
+# Clitics inflection
+Nenets clitics...
+
+
+
+**LEXICON æLEXNAME@ optional +Qst 
+
+**LEXICON æLEXNAME@ leads to #.
+
+
+
+# Adposition inflection
+Nenets adpositions inflect in person (and some in local cases).
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+
+# Adverbs
+Nenets adverbs...
+
+
+
+ * **LEXICON ADV_** to # without tag
+
+ * **LEXICON ADV-LOC_** to # with tag +Loc
+
+ * **LEXICON ADV-TEMP_** adds +Temp and goes to #
+
+ * **LEXICON ADV-MANNER_**
+
+ * **LEXICON ADV-REF_** Some are secodary predicates, conjuctions
+
+ * **LEXICON ADV-REF_Д1**
+
+
+
+
+# Noun inflection
+
+Nenets nouns inflect in cases.
+
+
+**LEXICON æLEXNAME@ 
+ * **LEXICON N_ҢЭ** ңэ:ңэ 1  ProsSg -вна
+Yaml: **xo, ngaeTS**
+**LEXICON æLEXNAME@ 
+
+ * **LEXICON N_ҢЭ-Pal/Var** ңэ:ңэ 1  ProsSg -вна
+Yaml: **nyeTS**
+
+ * **LEXICON N_Ё** я:я 2 ProsSg -вна
+Yaml: **ya, yaTS**
+
+
+
+ * **LEXICON N_ПИ** пя:пя 3 ProsSg -вна
+Yaml: **N-pyaTS**
+
+ * **LEXICON N_ТЫ** ты: 4 ProsSg -вна
+Yaml: **tyTS**
+
+
+
+
+ * **LEXICON N_ХАВО** ха: 5 ProsSg -вна
+Yaml: **tyTS**
+
+
+
+ * **LEXICON N_СЁЁ** сё: 6 ProsSg -вна
+
+
+ * **LEXICON N_ИБЕ** и: 7 ProsSg -вна
+
+ * **LEXICON N_ХАБИЕ** хӑби:8ProsSg -вна
+
+ * **LEXICON N_ПАНЫ** пӑны:пӑн 9 ы!ProsSg -(э)вна
+
+
+ * **LEXICON N_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
+
+
+ * **LEXICON N_ХАНО** хӑн: 11P ProsSg -увна
+Yaml: **xano**
+
+
+
+ * **LEXICON N_ТИРЕ** тир: 12 ProsSg -увна
+
+ * **LEXICON N_ЕД** ед: 13 ProsSg -увна /-ювна
+
+ * **LEXICON N_МАРАҢГЫ** мӑраңга: 14PProsSg -вна
+
+
+
+
+ * **LEXICON N_ҢУДИ** ңуда: 15 ProsSg -вна
+Yaml: **N-ngudiTS**
+
+ * **LEXICON N_ЕСИ** ая̆ха: 16PProsSg -вна
+Yaml: **N-yaxaTS**
+
+
+ * **LEXICON N_ҢОДИ** ңодя: 17 ProsSg -вна
+Yaml: **N-ngodiTS**
+
+
+ * **LEXICON N_ЯЛЭ** яля: 18 ProsSg -вна
+
+ * **LEXICON N_ХОБ** хоба:хоба 19 ProsSg -вна
+Yaml: **xob**
+
+ * **LEXICON N_ТЁН** тёня:тёня 20 ProsSg -вна
+Yaml: **tyon**
+
+ * **LEXICON N_ПИСЬ** пися: 21 ProsSg -вна
+
+ * **LEXICON N_ХАСЕВ** хасава: 22 ProsSg -вна
+
+ * **LEXICON N_ҢАНУ** ңӑно: 23 ProsSg -вна
+Yaml: **nano**
+
+ * **LEXICON N_ЯКЫ** якэ: 24 ProsSg -вна
+
+
+ * **LEXICON N_ҢУВО** ңумʼ:ңум 25 ProsSg -(м)на
+Yaml: **yam, ngumhTS**
+
+ * **LEXICON N_НЮБЕ** нюмʼ: 26  ProsSg -(м)на
+
+ * **LEXICON N_МУНО** муʼ:му 27  ProsSg -мна
+
+ * **LEXICON N_ПОЁ** поʼ:по 28  ProsSg -мна
+Yaml: **poyo**
+
+ * **LEXICON N_ВЫҢО** выʼ:вы 29  ProsSg -мна /-мана
+
+
+ * **LEXICON N_ИЛЪЕ** илʼ:ил 30   ProsSg -мана
+Yaml: **ilje**
+| --- 
+
+
+
+
+
+ * **LEXICON N_НЕНЭЦИЕ** ненэцьʼ:ненэць 30   ProsSg -мана
+Yaml: **nyenecyh**
+| --- 
+
+ * **LEXICON N_ПАХАЁ** пӑхӑʼ: 31   ProsSg -мна
+| --- 
+
+ * **LEXICON N_СЕРО** серˮ: 32   ProsSg -мана / -мня
+
+ * **LEXICON N_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
+| --- 
+
+ * **LEXICON N_МАНСО** мӑнˮ: 34   ProsSg -мна
+
+
+ * **LEXICON N_МЯДО** мяˮ:мя 35   ProsSg -мна
+Yaml: **myadoTS**
+| --- 
+
+
+ * **LEXICON N_ИДЕ** иˮ: 36   ProsSg -мна
+Yaml: **yidye**
+
+
+
+
+
+
+
+
+
+ * **LEXICON N_ҢЭ/ХАБИЕ** ңэ:ңэ 1  ProsSg -вна
+хӑби:8 ProsSg -вна
+
+
+та:та 
+
+
+
+
+
+
+ * **LEXICON NMN_ҢУДИ** ңуда: 15 ProsSg -вна
+Yaml: **ngudi**
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * **LEXICON NMN_ҢОДИ**
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+ * **LEXICON NMN_ХОБ** хоба:хоба 19 ProsSg -вна
+Yaml: **xob**
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+
+ * **LEXICON NMN_ПИСЬ** пися: 21 ProsSg -вна
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+ * **LEXICON NMN_ҢАНУ** ңӑно: 23 ProsSg -вна
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * **LEXICON NMN_ҢУВО** ңумʼ:ңум 25 
+ * **:ʼ POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+ * **LEXICON NMN_НЮБЕ** нюмʼ: 26
+
+
+
+ * **LEXICON NMN_МУНО** муʼ: 27  ProsSg -мна
+
+
+No n2d
+
+
+
+
+
+
+
+ * **:%{йнңъʼØ%} SGNOMSUF ;** 
+ * **:%{йнңъʼØ%} SG-NOM-STEM ;** 
+ * **:%{йнңъʼØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+ * **LEXICON NMN_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
+
+
+
+
+
+ * **LEXICON N_ВАР/ТАРЕ** мяˮ:мя 35   ProsSg -мна
+
+ * **LEXICON NMN_ВАР** мяˮ:мя 35   ProsSg -мна
+Yaml: **waro**
+ * **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * **LEXICON NMN_МЯДО** мяˮ:мя 35   ProsSg -мна
+Yaml: **myado**
+ * **:%{дˮØ%} SGLOCSUF_Хна ;** мякна
+ * **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+Where is the variation?
+ * **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+ * **LEXICON N_ТЮСЕ** тюˮ:тюсе 
+
+
+
+
+
+
+
+ * **LEXICON N_САВНЕ** 
+
+
+
+
+ * **LEXICON N_ПЕНЗЕРЕ** пензерˮ:пензер
+
+ * **LEXICON N_САБЦЬ** сабць:сабць
+
+ * **LEXICON N_МЕРЁ** мерё:мерё
+
+
+NMN
+
+
+ * **LEXICON NMN_ҢЭ-OLD** ңэ:ңэ 1  ProsSg -вна
+ * **SG-ACC-STEM ;** SGACCSUF, SGGENSUF
+ * **SG-NOM-STEM ;** SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
+ * **PLNOMSUF ;** 
+ * **PLACCSUF_Zero ;** => PL-ACC_STEM
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+9
+ * **:%^VowLower POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * **LEXICON NMN_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+ * LEXICON NMN_ХАНО-OLD  11 хан:хан
+
+
+
+ * **LEXICON NMN_ТИРЕ** тир: 12 ProsSg -увна
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+ * **LEXICON NMN_ЕД** ед: 13 ProsSg -увна /-ювна
+Yaml: **yed**
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+## NOMINALS "NMN"
+### THREE-SYLLABLE VOWEL-FINAL STEMS
+
+ * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+таˮ:та
+
+
+
+
+
+
+
+
+варˮ:вар
+Yaml: **N-tarTS**
+| --- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The singular accusative stem
+
+
+
+
+
+
+
+
+
+ * **LEXICON SGLOCSUF_Хна** мякна
+
+ * **LEXICON SGLOCSUF_Хана** серкана
+
+
+
+
+
+
+
+Start Plural
+
+
+
+
+
+
+
+
+
+
+What is assumed on the basis of the plural accusative
+ * **+Pl+Pros:%>ˮ%{увм%}А2на K ;** When does this take a vowel хоˮомна
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Possessor Indices
+
+
+
+
+ * **+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в K ;** 2013-10-22 Should this also have +ScSg3 marking
+
+
+
+ * **LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ** singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
+
+ * **LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ** singular possessa oblique possessor indices
+
+
+SINUGLAR CASES
+
+
+
+
+
+
+
+The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
+
+
+
+Dual possessa
+
+
+
+
+
+
+
+
+Dual possessa
+
+
+
+
+
+
+
+
+
+Plural Possessa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **+PxPl1:наˮ K ; ** The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conjugation of nouns and adjectives
+
+
+
+## NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>NEW-SG-LOC_Кна/Кана
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Quantifier inflection
+Nenets quantifiers ...
+
+ * **LEXICON NUM_МЯДО**
+
+ * **LEXICON NUM_ВАР**
+
+ * **LEXICON NUM_ҢУДИ**
+
+ * **LEXICON NUM_ҢОДИ**
+
+ * **LEXICON NUM_ТАРЕ**
+
+ LEXICON NUM_ЕД  ед: 13 
+
+ * **LEXICON NUM_ЕД/ТИРЕ**
+
+ * **LEXICON NUM_ЕД/ХАНО**
+
+ * **LEXICON NUM_ҢОДИ/ТЁН**
+
+ * **LEXICON NUM_ТИРЕ/ХАНО**
+
+ * **LEXICON NUM_ХУСУВЭЙ**
+
+ * **LEXICON QNT_ХУСУВЭЙ**
+
+we need to get away from these: NUM_VOW and NUM_CONS
+it's done
+
+
+
+# Symbol affixes
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+# Descriptives
+Nenets descriptives...
+
+
+
+**LEXICON æLEXNAME@ adds the tag **+Descr**
+
+
+
 
 # Nenets twol file
 
@@ -1561,1698 +3248,11 @@ In the second context ...
 
 
 
-
-# Symbol affixes
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-# Noun inflection
-
-Nenets nouns inflect in cases.
-
-
-**LEXICON æLEXNAME@ 
- * **LEXICON N_ҢЭ** ңэ:ңэ 1  ProsSg -вна
-Yaml: **xo, ngaeTS**
-**LEXICON æLEXNAME@ 
-
- * **LEXICON N_ҢЭ-Pal/Var** ңэ:ңэ 1  ProsSg -вна
-Yaml: **nyeTS**
-
- * **LEXICON N_Ё** я:я 2 ProsSg -вна
-Yaml: **ya, yaTS**
-
-
-
- * **LEXICON N_ПИ** пя:пя 3 ProsSg -вна
-Yaml: **N-pyaTS**
-
- * **LEXICON N_ТЫ** ты: 4 ProsSg -вна
-Yaml: **tyTS**
-
-
-
-
- * **LEXICON N_ХАВО** ха: 5 ProsSg -вна
-Yaml: **tyTS**
-
-
-
- * **LEXICON N_СЁЁ** сё: 6 ProsSg -вна
-
-
- * **LEXICON N_ИБЕ** и: 7 ProsSg -вна
-
- * **LEXICON N_ХАБИЕ** хӑби:8ProsSg -вна
-
- * **LEXICON N_ПАНЫ** пӑны:пӑн 9 ы!ProsSg -(э)вна
-
-
- * **LEXICON N_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
-
-
- * **LEXICON N_ХАНО** хӑн: 11P ProsSg -увна
-Yaml: **xano**
-
-
-
- * **LEXICON N_ТИРЕ** тир: 12 ProsSg -увна
-
- * **LEXICON N_ЕД** ед: 13 ProsSg -увна /-ювна
-
- * **LEXICON N_МАРАҢГЫ** мӑраңга: 14PProsSg -вна
-
-
-
-
- * **LEXICON N_ҢУДИ** ңуда: 15 ProsSg -вна
-Yaml: **N-ngudiTS**
-
- * **LEXICON N_ЕСИ** ая̆ха: 16PProsSg -вна
-Yaml: **N-yaxaTS**
-
-
- * **LEXICON N_ҢОДИ** ңодя: 17 ProsSg -вна
-Yaml: **N-ngodiTS**
-
-
- * **LEXICON N_ЯЛЭ** яля: 18 ProsSg -вна
-
- * **LEXICON N_ХОБ** хоба:хоба 19 ProsSg -вна
-Yaml: **xob**
-
- * **LEXICON N_ТЁН** тёня:тёня 20 ProsSg -вна
-Yaml: **tyon**
-
- * **LEXICON N_ПИСЬ** пися: 21 ProsSg -вна
-
- * **LEXICON N_ХАСЕВ** хасава: 22 ProsSg -вна
-
- * **LEXICON N_ҢАНУ** ңӑно: 23 ProsSg -вна
-Yaml: **nano**
-
- * **LEXICON N_ЯКЫ** якэ: 24 ProsSg -вна
-
-
- * **LEXICON N_ҢУВО** ңумʼ:ңум 25 ProsSg -(м)на
-Yaml: **yam, ngumhTS**
-
- * **LEXICON N_НЮБЕ** нюмʼ: 26  ProsSg -(м)на
-
- * **LEXICON N_МУНО** муʼ:му 27  ProsSg -мна
-
- * **LEXICON N_ПОЁ** поʼ:по 28  ProsSg -мна
-Yaml: **poyo**
-
- * **LEXICON N_ВЫҢО** выʼ:вы 29  ProsSg -мна /-мана
-
-
- * **LEXICON N_ИЛЪЕ** илʼ:ил 30   ProsSg -мана
-Yaml: **ilje**
-| --- 
-
-
-
-
-
- * **LEXICON N_НЕНЭЦИЕ** ненэцьʼ:ненэць 30   ProsSg -мана
-Yaml: **nyenecyh**
-| --- 
-
- * **LEXICON N_ПАХАЁ** пӑхӑʼ: 31   ProsSg -мна
-| --- 
-
- * **LEXICON N_СЕРО** серˮ: 32   ProsSg -мана / -мня
-
- * **LEXICON N_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
-| --- 
-
- * **LEXICON N_МАНСО** мӑнˮ: 34   ProsSg -мна
-
-
- * **LEXICON N_МЯДО** мяˮ:мя 35   ProsSg -мна
-Yaml: **myadoTS**
-| --- 
-
-
- * **LEXICON N_ИДЕ** иˮ: 36   ProsSg -мна
-Yaml: **yidye**
-
-
-
-
-
-
-
-
-
- * **LEXICON N_ҢЭ/ХАБИЕ** ңэ:ңэ 1  ProsSg -вна
-хӑби:8 ProsSg -вна
-
-
-та:та 
-
-
-
-
-
-
- * **LEXICON NMN_ҢУДИ** ңуда: 15 ProsSg -вна
-Yaml: **ngudi**
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * **LEXICON NMN_ҢОДИ**
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
- * **LEXICON NMN_ХОБ** хоба:хоба 19 ProsSg -вна
-Yaml: **xob**
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-
-
-
-
-
- * **LEXICON NMN_ПИСЬ** пися: 21 ProsSg -вна
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
- * **LEXICON NMN_ҢАНУ** ңӑно: 23 ProsSg -вна
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * **LEXICON NMN_ҢУВО** ңумʼ:ңум 25 
- * **:ʼ POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-
- * **LEXICON NMN_НЮБЕ** нюмʼ: 26
-
-
-
- * **LEXICON NMN_МУНО** муʼ: 27  ProsSg -мна
-
-
-No n2d
-
-
-
-
-
-
-
- * **:%{йнңъʼØ%} SGNOMSUF ;** 
- * **:%{йнңъʼØ%} SG-NOM-STEM ;** 
- * **:%{йнңъʼØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-Where is the variation?
-
- * **LEXICON NMN_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
-
-
-
-
-
- * **LEXICON N_ВАР/ТАРЕ** мяˮ:мя 35   ProsSg -мна
-
- * **LEXICON NMN_ВАР** мяˮ:мя 35   ProsSg -мна
-Yaml: **waro**
- * **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * **LEXICON NMN_МЯДО** мяˮ:мя 35   ProsSg -мна
-Yaml: **myado**
- * **:%{дˮØ%} SGLOCSUF_Хна ;** мякна
- * **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-Where is the variation?
-
-Where is the variation?
- * **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
- * **LEXICON N_ТЮСЕ** тюˮ:тюсе 
-
-
-
-
-
-
-
- * **LEXICON N_САВНЕ** 
-
-
-
-
- * **LEXICON N_ПЕНЗЕРЕ** пензерˮ:пензер
-
- * **LEXICON N_САБЦЬ** сабць:сабць
-
- * **LEXICON N_МЕРЁ** мерё:мерё
-
-
-NMN
-
-
- * **LEXICON NMN_ҢЭ-OLD** ңэ:ңэ 1  ProsSg -вна
- * **SG-ACC-STEM ;** SGACCSUF, SGGENSUF
- * **SG-NOM-STEM ;** SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
- * **PLNOMSUF ;** 
- * **PLACCSUF_Zero ;** => PL-ACC_STEM
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-9
- * **:%^VowLower POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * **LEXICON NMN_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
- * LEXICON NMN_ХАНО-OLD  11 хан:хан
-
-
-
- * **LEXICON NMN_ТИРЕ** тир: 12 ProsSg -увна
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
- * **LEXICON NMN_ЕД** ед: 13 ProsSg -увна /-ювна
-Yaml: **yed**
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-## NOMINALS "NMN"
-### THREE-SYLLABLE VOWEL-FINAL STEMS
-
- * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-таˮ:та
-
-
-
-
-
-
-
-
-варˮ:вар
-Yaml: **N-tarTS**
-| --- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The singular accusative stem
-
-
-
-
-
-
-
-
-
- * **LEXICON SGLOCSUF_Хна** мякна
-
- * **LEXICON SGLOCSUF_Хана** серкана
-
-
-
-
-
-
-
-Start Plural
-
-
-
-
-
-
-
-
-
-
-What is assumed on the basis of the plural accusative
- * **+Pl+Pros:%>ˮ%{увм%}А2на K ;** When does this take a vowel хоˮомна
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Possessor Indices
-
-
-
-
- * **+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в K ;** 2013-10-22 Should this also have +ScSg3 marking
-
-
-
- * **LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ** singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
-
- * **LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ** singular possessa oblique possessor indices
-
-
-SINUGLAR CASES
-
-
-
-
-
-
-
-The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
-
-
-
-Dual possessa
-
-
-
-
-
-
-
-
-Dual possessa
-
-
-
-
-
-
-
-
-
-Plural Possessa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **+PxPl1:наˮ K ; ** The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Conjugation of nouns and adjectives
-
-
-
-## NEW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>NEW-SG-LOC_Кна/Кана
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Descriptives
-Nenets descriptives...
-
-
-
-**LEXICON æLEXNAME@ adds the tag **+Descr**
-
-
-
-
-# Quantifier inflection
-Nenets quantifiers ...
-
- * **LEXICON NUM_МЯДО**
-
- * **LEXICON NUM_ВАР**
-
- * **LEXICON NUM_ҢУДИ**
-
- * **LEXICON NUM_ҢОДИ**
-
- * **LEXICON NUM_ТАРЕ**
-
- LEXICON NUM_ЕД  ед: 13 
-
- * **LEXICON NUM_ЕД/ТИРЕ**
-
- * **LEXICON NUM_ЕД/ХАНО**
-
- * **LEXICON NUM_ҢОДИ/ТЁН**
-
- * **LEXICON NUM_ТИРЕ/ХАНО**
-
- * **LEXICON NUM_ХУСУВЭЙ**
-
- * **LEXICON QNT_ХУСУВЭЙ**
-
-we need to get away from these: NUM_VOW and NUM_CONS
-it's done
-
-
-# Adverbs
-Nenets adverbs...
-
-
-
- * **LEXICON ADV_** to # without tag
-
- * **LEXICON ADV-LOC_** to # with tag +Loc
-
- * **LEXICON ADV-TEMP_** adds +Temp and goes to #
-
- * **LEXICON ADV-MANNER_**
-
- * **LEXICON ADV-REF_** Some are secodary predicates, conjuctions
-
- * **LEXICON ADV-REF_Д1**
-
-
-
-
-# Proper noun inflection
-Nenets proper nouns inflect in the same cases as regular
-nouns, but with a XXX as separator.
-
-**LEXICON æLEXNAME@ for bunclassified ones
-
-### ONE-SYLLABLE VOWEL-FINAL STEM
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-### ONE-SYLLABLE CONSONANT-FINAL STEM
-**LEXICON æLEXNAME@ 
-
-### TWO-SYLLABLE CONSONANT-FINAL STEM
- * **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
-
-
- * **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
-Yaml: **xano**
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
- * **LEXICON PROP_ЯЛЭ** яля: 18 ProsSg -вна
-/total=2/
-яля yalya    ялян’ yalyan°h  яляˮ yalyaq     ялэ yale
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
- * **LEXICON PROP_ХАСЕВ** хасава: 22 ProsSg -вна
-/total=1/
-хасава xasawa        хасаван’ xasawan°h      хасаваˮ xasawaq хасев xasyew°
- * **+N+Prop: POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-### THREE-SYLLABLE VOWEL-FINAL STEM
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@  Here we need some kind of vowel harmony
-
-
-
-
-# Interjections
-Nenets interjections...
-
-
-
-**LEXICON æLEXNAME@ just goes to #
-
-
-
-
-# Nenets Verb inflection
-
-**LEXICON V_** for unassigned verbs
-
-## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
- * **LEXICON IV_Е** есь:е
-
-**LEXICON IV_МЭ** 
-
-**LEXICON TV_МЭ** 
-
-**LEXICON VR_МЭ** 
-
-**LEXICON IV_МЫ** 
-
-**LEXICON TV_МЫ** 
-
-**LEXICON VA_НЁ** 
-
-**LEXICON VA_НИ** 
-
-**LEXICON IV_НИ** 
-
-**LEXICON IV_НО** 
-
-**LEXICON IV_НУ** 
-
-**LEXICON IV_НУ-Pal/Var** 
-
-**LEXICON VR_НУ** 
-
-**LEXICON VR_НУ-Pal/Var** 
-
-**LEXICON TV_НУ** 
-
-**LEXICON TV_НУ-Pal/Var** 
-
-**LEXICON IV_НУ/ТУ** 
-
- * **LEXICON IV_ҢЭ** ңэсь:ңэ
-**LEXICON IV_ҢЭ** 
-
-**LEXICON IV_ҢЭ-Pal/Var** 
-
-
-**LEXICON IV_ТУ** 
-
-**LEXICON TV_ТУ** 
-
-**LEXICON IV_ХО** 
-
-
-**LEXICON TV_ХО** 
-
-**LEXICON VR_ХО-Pal/Var** 
-
-**LEXICON IV_ХЭ** 
-
-## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-
- * **LEXICON IV_НАМДА** намдась:намда
-**LEXICON IV_НАМДА** 
-
-**LEXICON TV_НАМДА** 
-
-**LEXICON VR_НАМДА** 
-
-**LEXICON IV_ВАДЮ** 
-
-**LEXICON TV_ВАДЮ** 
-
- * **LEXICON IV_ЯКУ** якась:яка
-
-**LEXICON IV_ИЛЕ** 
-
-**LEXICON IV_ИЛЕ-Pal/Var** Work needed for variation 2013-03-04
-
-**LEXICON VR_ИЛЕ** 
-
-**LEXICON VR_ИЛЕ-Pal/Var**  Work needed for variation 2013-09-05
-
-**LEXICON TV_ИЛЕ** 
-
-**LEXICON IV_НЕНЫ** 
-
-**LEXICON IV_ҢЭСУ** 
-
-**LEXICON TV_ҢЭСУ** 
-
-**LEXICON IV_ПЭБЮ** 
-
-**LEXICON IV_ПЭБЮ-Pal/Var** 
-
-**LEXICON TV_ПЭБЮ** 
-
-
-**LEXICON IV_ХАДАБАСЬ** 
-
-
-**LEXICON TV_ХАДАБАСЬ** 
-
-
- * **LEXICON IV_ХАДА** хадась:хада
-
- * **LEXICON TV_ХАДА** хадась:хада
-
-**LEXICON VR_ХАДА** 
-
-**LEXICON IV_ЮХУ** 
-
-**LEXICON TV_ЮХУ** 
-
-
-### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-**LEXICON IV_ЛАХАНА** 
-
-**LEXICON IV_ЛАХАНА-Pal/Var** 
-
-**LEXICON VR_ЛАХАНА** 
-
-**LEXICON TV_ЛАХАНА** 
- * **@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; ** 3-syll
-
-**LEXICON TV_ЛАХАНА-Pal/Var** 
-
-**LEXICON IV_ҢЭДАРА** 
-**LEXICON TV_ҢЭДАРА** 
-**LEXICON VR_ҢЭДАРА** 
-
-**LEXICON IV_СЯНАКУ** 
-
-**LEXICON IV_ЯˮАВЛУ** 
-* Yaml: **V-yaqwlasj**
-
-**LEXICON IV_ЯˮАВЛУ-Pal/Var** 
-
-
-**LEXICON TV_ЯˮАВЛУ** 
-
-### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON IV_МАН** манзь:ма%{нңʼØ%} 
-* Yaml: **manzj**
-
-**LEXICON IV_МИН** 
-
-**LEXICON IV_МИН-Pal/Var** 
-
-**LEXICON TV_МИН** 
-
-**LEXICON VR_МИН** 
-
-**LEXICON IV_САС** 
-
-
- * LEXICON TV_САС  манэць:манэ
-
-
-
-
-
-
-
-### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON IV_НЭКАЛ** 
-
-
- * **LEXICON IV_ҢАДИМ/ҢАРАМ** 2013-12-16
-
-
-
-
-
-
-
-
-
-## AFTER +TV, +IV, +Aux, +Refl
-Not yet written.
-
-## CONJUGATION BY STEM TYPE
-
-### ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
-V_refl 
-
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-V_refl 2013-03-04
-
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-* Yaml: **V-xosj**
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-
-### TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
-
- * **LEXICON V-01_ЯКУ** якась:яка
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-
- * LEXICON V-01_НЕНЫ  2013-09-18 This is merely a copy of V-01_МЫ
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
- * ** V_Fut_ҢГУ ; ** is this the stem to use for +Fut+Mod/prob
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-V_refl 2013-03-04
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
-* Yaml: **V-pewasj**
-has vowel loss
-
-
-
-
-
-
-* *яˮавла%^VowRaise%>ˮ*
-* *яˮавлу0%>ˮ*
-* *тенева%^VowLoss%>ˮ*
-* *тенев00%>ˮ*
-
-
-
-* Yaml: **V-xadabasj**
-* *яˮавла%^VowRaise%>ˮ*
-* *яˮавлу0%>ˮ*
-* *тенева%^VowLoss%>ˮ*
-* *тенев00%>ˮ*
-
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-V_refl 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
-### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-а > э in Pl Oc 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-V_refl 2013-03-04  а > ы (ъя before х)
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
- * **LEXICON V-01_ЯˮАВЛУ ** яˮавлась:яˮавла
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
-
-
-### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON V-01_МАН** манзь:ма%{нңʼØ%} 
-* Yaml: **manzj**
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- * LEXICON V-01_САС  манэць:манэ
-
- * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
-
-
- * **LEXICON V-NEW_ТИР**
-
-
-
-
-
-
-
-V_refl 2013-03-04
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-
-### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON V-01_НЭКАЛ** нэкалць:нэкал
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-
-
-V_refl 2013-03-04
-
-Mutual verbal conjugation
- * **LEXICON IND-AOR** All except Sg3 Du3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Preterite 1 # This should be for ConjPrt and NarrPrt also.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * +Ind:%>я IND-AOR-RCSG1	;  This should be schwa or something
-
-Other moods
-сь in 2nd, 4th etc non-final syllable 
-
-
-
-
-
-
-
-
-
- * **LEXICON V_PREC ** Hort
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **+Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; ** Sg3 and Pl3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON SG3-PRED-AOR/PRET1 ** V_AUD picks up possessor indices and comes here
-
-Mutual person ending for nonindicative moods
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-This need separating 2013-04-23
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Object
-
-
-Reflexive
-
-
-Reflexive Preterite
-
-Non-finites
-
-
-
-
- * **+PrcFut:%>%{вм%}анда K ;**
-
- * **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
-
-
- * **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
-
-
-
-
-
-no vowel loss in stem
-
-
-
-* *яˮавла%^VowRaise%>ˮ*
-* *яˮавлу0%>ˮ*
-* *тенева%^VowLoss%>ˮ*
-* *тенев00%>ˮ*
-
-
-
- * **LEXICON V-NEW_НАМДА ** намдась:намда schwa-final
-
-
-* *яˮавла%^VowRaise%>ˮ*
-* *яˮавлу0%>ˮ*
-* *тенева%^VowLoss%>ˮ*
-* *тенев00%>ˮ*
-
-
-
-
-
-* *яˮавла%^VowRaise%>ˮ*
-* *яˮавлу0%>ˮ*
-
-
-
-* Yaml: **V-xosjTS**
- * **+Subord+PxSg1:%>бˮни K ; ** Do all odd-syllabled words need this?
-
-
-
-
-◊_subj
-
-◊_obj 
-
-
-
-
-
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-◊_subj
-
-
-
-
-
-
-
-
-
-◊_obj 
-
-
-
-◊_obj 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO ** raise/no
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON IND-AOR/PRT1-OCPL3_ян ** ODD-SYLL
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON MOD/INT-SC_бца ** ??
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Adposition inflection
-Nenets adpositions inflect in person (and some in local cases).
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-
-
-# Clitics inflection
-Nenets clitics...
-
-
-
-**LEXICON æLEXNAME@ optional +Qst 
-
-**LEXICON æLEXNAME@ leads to #.
-
-
-Adjective inflection
-Nenets  adjectives.
-
-**LEXICON æLEXNAME@ to #
-
-
- * **LEXICON A_ҢЭ** ңэ:ңэ 1  
-
- * **LEXICON A_ПАНЫ** пӑны:пӑны 9 
-
- * **LEXICON A_ХУСУВЭЙ** хусувэй: 10 !!ProsSg -ювна
-
-
- * **LEXICON A_ХАНО** хӑн: 11 !!ProsSg -увна
-[total=27]
-хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
-
-
- * **LEXICON A_ЕД** ед: 13 !!ProsSg -увна /-ювна
-
- * **LEXICON A_ҢУДИ** ңуда: 15 !!ProsSg -вна
-
-
- * **LEXICON A_ҢОДИ** ңодя: 17 !!ProsSg -вна
-
-
-
- * **LEXICON A_ХОБ** хоба: 19 !!ProsSg -вна
-
-
- * **LEXICON A_ТЁН** тёня: 20 !!ProsSg -вна
-
- * **LEXICON A_ПИСЬ** пися: 21 !!ProsSg -вна
-
- * **LEXICON A_ҢАНУ** ңӑно: 23 !!ProsSg -вна
-[total=57]
-ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
-
- * **LEXICON A_ЯКЫ** якэ: 24 ProsSg -вна
-
- * **LEXICON A_ҢУВО** ңумʼ:ңум 25 !!ProsSg -(м)на
-ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
-
-
- * **LEXICON A_НЮБЕ-Pal/Var** нюмʼ:нюм 26
-нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
-
- * **LEXICON A_ВЫҢО** выʼ:вы 29  
-
-
-Check this
-
-
- * **LEXICON A_МЯДО** мяˮ:мя 35   !!ProsSg -мна
-
- LEXICON A_САБЦЬ тир: 12 !!ProsSg -увна
-What makes this different from N_ТИРЕ?
-
- * **LEXICON A_САВНЕ** 
-
-
-
-
-
-
-
-# Pronoun inflection
-Nenets pronouns inflection
-
-**LEXICON æLEXNAME@ for the unclassified ones
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ etc.
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ etc. 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@  etc.
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
- +Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+ V_ "FinnishTRANSLATION" ;
+
+CONTINUE BELOW
 
 
 # Morphology
