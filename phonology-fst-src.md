@@ -1,5 +1,7 @@
 # Nenets twol file
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-yrk/blob/main/src/fst/phonology.twolc) 
+
 
 ## Letters of the alphabet
  * **а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я** 
