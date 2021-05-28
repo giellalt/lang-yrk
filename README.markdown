@@ -77,7 +77,7 @@ svn checkout https://github.com/giellalt/lang-yrk.git/trunk lang-yrk
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-yrk/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-yrk/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
