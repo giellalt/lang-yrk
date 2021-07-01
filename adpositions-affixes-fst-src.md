@@ -21,3 +21,5 @@ Nenets adpositions inflect in person (and some in local cases).
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adpositions.lexc)</small>

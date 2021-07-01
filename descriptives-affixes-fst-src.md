@@ -8,3 +8,5 @@ Nenets descriptives...
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/descriptives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/descriptives.lexc)</small>
