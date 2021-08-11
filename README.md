@@ -3,13 +3,13 @@ The Nenets morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-yrk)](https://github.com/giellalt/lang-yrk/issues)
 [![Build Status](https://github.com/giellalt/lang-yrk/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-yrk/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-yrk)](https://raw.githubusercontent.com/giellalt/lang-yrk/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-yrk)](https://raw.githubusercontent.com/giellalt/lang-yrk/main/LICENSE)
 
 This repository contains finite state source files for the Nenets language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under GNU LGPL
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-yrk/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-yrk/blob/main/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
