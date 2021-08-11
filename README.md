@@ -3,7 +3,7 @@ The Nenets morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-yrk)](https://github.com/giellalt/lang-yrk/issues)
 [![Build Status](https://github.com/giellalt/lang-yrk/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-yrk/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-yrk)](https://raw.githubusercontent.com/giellalt/lang-yrk/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-yrk)](https://github.com/giellalt/lang-yrk/blob/main/LICENSE)
 
 This repository contains finite state source files for the Nenets language,
 for building morphological analysers, proofing tools
