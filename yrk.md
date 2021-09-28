@@ -606,7 +606,14 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-yrk/blob/main/../src/cg3/functions.cg3)</small># Nenets twol file
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-yrk/blob/main/../src/cg3/functions.cg3)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+V_ "FinnishTRANSLATION" ;
+
+CONTINUE BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/stems/verbs_newwords.lexc)</small># Nenets twol file
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-yrk/blob/main/src/fst/phonology.twolc) 
 
@@ -1559,28 +1566,7 @@ In the second context ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/phonology.twolc)</small># Adverbs
-Nenets adverbs...
-
-
-
- * **LEXICON ADV_** to # without tag
-
- * **LEXICON ADV-LOC_** to # with tag +Loc
-
- * **LEXICON ADV-TEMP_** adds +Temp and goes to #
-
- * **LEXICON ADV-MANNER_**
-
- * **LEXICON ADV-REF_** Some are secodary predicates, conjuctions
-
- * **LEXICON ADV-REF_Д1**
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adverbs.lexc)</small># Noun inflection
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/phonology.twolc)</small># Noun inflection
 
 Nenets nouns inflect in cases.
 
@@ -2156,66 +2142,7 @@ Conjugation of nouns and adjectives
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/nouns.lexc)</small># Proper noun inflection
-Nenets proper nouns inflect in the same cases as regular
-nouns, but with a XXX as separator.
-
-**LEXICON æLEXNAME@ for bunclassified ones
-
-### ONE-SYLLABLE VOWEL-FINAL STEM
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-### ONE-SYLLABLE CONSONANT-FINAL STEM
-**LEXICON æLEXNAME@ 
-
-### TWO-SYLLABLE CONSONANT-FINAL STEM
- * **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
-
-
- * **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
-Yaml: **xano**
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
- * **LEXICON PROP_ЯЛЭ** яля: 18 ProsSg -вна
-/total=2/
-яля yalya    ялян’ yalyan°h  яляˮ yalyaq     ялэ yale
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
- * **LEXICON PROP_ХАСЕВ** хасава: 22 ProsSg -вна
-/total=1/
-хасава xasawa        хасаван’ xasawan°h      хасаваˮ xasawaq хасев xasyew°
- * **+N+Prop: POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-### THREE-SYLLABLE VOWEL-FINAL STEM
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@  Here we need some kind of vowel harmony
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/propernouns.lexc)</small># Interjections
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/nouns.lexc)</small># Interjections
 Nenets interjections...
 
 
@@ -2258,7 +2185,20 @@ it's done
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/quantifiers.lexc)</small># Clitics inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/quantifiers.lexc)</small>
+# Symbol affixes
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/symbols.lexc)</small># Clitics inflection
 Nenets clitics...
 
 
@@ -2269,7 +2209,106 @@ Nenets clitics...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/clitics.lexc)</small># Nenets Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/clitics.lexc)</small># Adverbs
+Nenets adverbs...
+
+
+
+ * **LEXICON ADV_** to # without tag
+
+ * **LEXICON ADV-LOC_** to # with tag +Loc
+
+ * **LEXICON ADV-TEMP_** adds +Temp and goes to #
+
+ * **LEXICON ADV-MANNER_**
+
+ * **LEXICON ADV-REF_** Some are secodary predicates, conjuctions
+
+ * **LEXICON ADV-REF_Д1**
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adverbs.lexc)</small># Descriptives
+Nenets descriptives...
+
+
+
+**LEXICON æLEXNAME@ adds the tag **+Descr**
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/descriptives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/descriptives.lexc)</small>Adjective inflection
+Nenets  adjectives.
+
+**LEXICON æLEXNAME@ to #
+
+
+ * **LEXICON A_ҢЭ** ңэ:ңэ 1  
+
+ * **LEXICON A_ПАНЫ** пӑны:пӑны 9 
+
+ * **LEXICON A_ХУСУВЭЙ** хусувэй: 10 !!ProsSg -ювна
+
+
+ * **LEXICON A_ХАНО** хӑн: 11 !!ProsSg -увна
+[total=27]
+хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
+
+
+ * **LEXICON A_ЕД** ед: 13 !!ProsSg -увна /-ювна
+
+ * **LEXICON A_ҢУДИ** ңуда: 15 !!ProsSg -вна
+
+
+ * **LEXICON A_ҢОДИ** ңодя: 17 !!ProsSg -вна
+
+
+
+ * **LEXICON A_ХОБ** хоба: 19 !!ProsSg -вна
+
+
+ * **LEXICON A_ТЁН** тёня: 20 !!ProsSg -вна
+
+ * **LEXICON A_ПИСЬ** пися: 21 !!ProsSg -вна
+
+ * **LEXICON A_ҢАНУ** ңӑно: 23 !!ProsSg -вна
+[total=57]
+ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
+
+ * **LEXICON A_ЯКЫ** якэ: 24 ProsSg -вна
+
+ * **LEXICON A_ҢУВО** ңумʼ:ңум 25 !!ProsSg -(м)на
+ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
+
+
+ * **LEXICON A_НЮБЕ-Pal/Var** нюмʼ:нюм 26
+нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
+
+ * **LEXICON A_ВЫҢО** выʼ:вы 29  
+
+
+Check this
+
+
+ * **LEXICON A_МЯДО** мяˮ:мя 35   !!ProsSg -мна
+
+ LEXICON A_САБЦЬ тир: 12 !!ProsSg -увна
+What makes this different from N_ТИРЕ?
+
+ * **LEXICON A_САВНЕ** 
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adjectives.lexc)</small># Nenets Verb inflection
 
 **LEXICON V_** for unassigned verbs
 
@@ -3067,122 +3106,66 @@ no vowel loss in stem
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
-Nenets  adjectives.
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/verbs.lexc)</small># Proper noun inflection
+Nenets proper nouns inflect in the same cases as regular
+nouns, but with a XXX as separator.
 
-**LEXICON æLEXNAME@ to #
+**LEXICON æLEXNAME@ for bunclassified ones
 
+### ONE-SYLLABLE VOWEL-FINAL STEM
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ҢЭ** ңэ:ңэ 1  
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ПАНЫ** пӑны:пӑны 9 
+### ONE-SYLLABLE CONSONANT-FINAL STEM
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ХУСУВЭЙ** хусувэй: 10 !!ProsSg -ювна
-
-
- * **LEXICON A_ХАНО** хӑн: 11 !!ProsSg -увна
-[total=27]
-хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
-
-
- * **LEXICON A_ЕД** ед: 13 !!ProsSg -увна /-ювна
-
- * **LEXICON A_ҢУДИ** ңуда: 15 !!ProsSg -вна
+### TWO-SYLLABLE CONSONANT-FINAL STEM
+ * **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
 
 
- * **LEXICON A_ҢОДИ** ңодя: 17 !!ProsSg -вна
+ * **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
+Yaml: **xano**
 
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ХОБ** хоба: 19 !!ProsSg -вна
+**LEXICON æLEXNAME@ 
 
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ТЁН** тёня: 20 !!ProsSg -вна
+ * **LEXICON PROP_ЯЛЭ** яля: 18 ProsSg -вна
+/total=2/
+яля yalya    ялян’ yalyan°h  яляˮ yalyaq     ялэ yale
 
- * **LEXICON A_ПИСЬ** пися: 21 !!ProsSg -вна
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ҢАНУ** ңӑно: 23 !!ProsSg -вна
-[total=57]
-ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ЯКЫ** якэ: 24 ProsSg -вна
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ҢУВО** ңумʼ:ңум 25 !!ProsSg -(м)на
-ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
+**LEXICON æLEXNAME@ 
 
+ * **LEXICON PROP_ХАСЕВ** хасава: 22 ProsSg -вна
+/total=1/
+хасава xasawa        хасаван’ xasawan°h      хасаваˮ xasawaq хасев xasyew°
+ * **+N+Prop: POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
 
- * **LEXICON A_НЮБЕ-Pal/Var** нюмʼ:нюм 26
-нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
+**LEXICON æLEXNAME@ 
 
- * **LEXICON A_ВЫҢО** выʼ:вы 29  
+**LEXICON æLEXNAME@ 
 
+### THREE-SYLLABLE VOWEL-FINAL STEM
+**LEXICON æLEXNAME@ 
 
-Check this
-
-
- * **LEXICON A_МЯДО** мяˮ:мя 35   !!ProsSg -мна
-
- LEXICON A_САБЦЬ тир: 12 !!ProsSg -увна
-What makes this different from N_ТИРЕ?
-
- * **LEXICON A_САВНЕ** 
-
-
-
+**LEXICON æLEXNAME@  Here we need some kind of vowel harmony
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adjectives.lexc)</small>
-# Adposition inflection
-Nenets adpositions inflect in person (and some in local cases).
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adpositions.lexc)</small>
-# Symbol affixes
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/symbols.lexc)</small># Descriptives
-Nenets descriptives...
-
-
-
-**LEXICON æLEXNAME@ adds the tag **+Descr**
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/descriptives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/descriptives.lexc)</small># Pronoun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/propernouns.lexc)</small># Pronoun inflection
 Nenets pronouns inflection
 
 **LEXICON æLEXNAME@ for the unclassified ones
@@ -3265,6 +3248,30 @@ Nenets pronouns inflection
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+# Adposition inflection
+Nenets adpositions inflect in person (and some in local cases).
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adpositions.lexc)</small>
 # Morphology
 INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
 
@@ -3735,14 +3742,7 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/root.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-V_ "FinnishTRANSLATION" ;
-
-CONTINUE BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/root.lexc)</small>
 
 
 We describe here how abbreviations are in Nenets are read out, e.g.
