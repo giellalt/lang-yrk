@@ -3,7 +3,7 @@
 **LEXICON V_** for unassigned verbs
 
 ## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
-* **LEXICON IV_Еесь:е** есь:е
+* **LEXICON IV_Е** есь:е
 
 **LEXICON IV_МЭ** 
 
@@ -37,7 +37,7 @@
 
 **LEXICON IV_НУ/ТУ** 
 
-* **LEXICON IV_ҢЭңэсь:ңэ** ңэсь:ңэ
+* **LEXICON IV_ҢЭ** ңэсь:ңэ
 **LEXICON IV_ҢЭ** 
 
 **LEXICON IV_ҢЭ-Pal/Var** 
@@ -58,7 +58,7 @@
 
 ## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
-* **LEXICON IV_НАМДАнамдась:намда** намдась:намда
+* **LEXICON IV_НАМДА** намдась:намда
 **LEXICON IV_НАМДА** 
 
 **LEXICON TV_НАМДА** 
@@ -69,7 +69,7 @@
 
 **LEXICON TV_ВАДЮ** 
 
-* **LEXICON IV_ЯКУякась:яка** якась:яка
+* **LEXICON IV_ЯКУ** якась:яка
 
 **LEXICON IV_ИЛЕ** 
 
@@ -100,9 +100,9 @@
 **LEXICON TV_ХАДАБАСЬ** 
 
 
-* **LEXICON IV_ХАДАхадась:хада** хадась:хада
+* **LEXICON IV_ХАДА** хадась:хада
 
-* **LEXICON TV_ХАДАхадась:хада** хадась:хада
+* **LEXICON TV_ХАДА** хадась:хада
 
 **LEXICON VR_ХАДА** 
 
@@ -119,7 +119,7 @@
 **LEXICON VR_ЛАХАНА** 
 
 **LEXICON TV_ЛАХАНА** 
- * **@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; ** 3-syll
+* **@P.CONJ.ObjAll@+TV:@P.CONJ.ObjAll@ V-NEW_ЛАХАНА       ; ** 3-syll
 
 **LEXICON TV_ЛАХАНА-Pal/Var** 
 
@@ -152,7 +152,7 @@
 **LEXICON IV_САС** 
 
 
- * LEXICON TV_САС  манэць:манэ
+* LEXICON TV_САС  манэць:манэ
 
 
 
@@ -164,7 +164,7 @@
 * **LEXICON IV_НЭКАЛ** 
 
 
-* **LEXICON IV_ҢАДИМ/ҢАРАМ2013-12-16** 2013-12-16
+* **LEXICON IV_ҢАДИМ/ҢАРАМ** 2013-12-16
 
 
 
@@ -181,61 +181,61 @@ Not yet written.
 
 ### ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 
 
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
 
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 * Yaml: **V-xosj**
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 ### TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 
-* **LEXICON V-01_ЯКУякась:яка** якась:яка
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+* **LEXICON V-01_ЯКУ** якась:яка
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
- * LEXICON V-01_НЕНЫ  2013-09-18 This is merely a copy of V-01_МЫ
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+* LEXICON V-01_НЕНЫ  2013-09-18 This is merely a copy of V-01_МЫ
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
- * ** V_Fut_ҢГУ ; ** is this the stem to use for +Fut+Mod/prob
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+* ** V_Fut_ҢГУ ; ** is this the stem to use for +Fut+Mod/prob
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 * Yaml: **V-pewasj**
 has vowel loss
@@ -259,47 +259,47 @@ has vowel loss
 * *тенев00%>ˮ*
 
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 ### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 а > э in Pl Oc 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 V_refl 2013-03-04  а > ы (ъя before х)
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
- * **LEXICON V-01_ЯˮАВЛУ ** яˮавлась:яˮавла
- *  PRC-NEG ; 	+PrcNeg +PrcFut
- * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
+* **LEXICON V-01_ЯˮАВЛУ ** яˮавлась:яˮавла
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+* :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 * **LEXICON V-01_МАН** манзь:ма%{нңʼØ%} 
 * Yaml: **manzj**
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
-
-
- *  PRC-NEG ; 	+PrcNeg +PrcFut
-
- * LEXICON V-01_САС  манэць:манэ
-
- * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
-* **LEXICON V-NEW_ТИР**@CODE@****
+
+*  PRC-NEG ; 	+PrcNeg +PrcFut
+
+* LEXICON V-01_САС  манэць:манэ
+
+* :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
+
+
+* **LEXICON V-NEW_ТИР**
 
 
 
@@ -309,22 +309,22 @@ V_refl 2013-03-04  а > ы (ъя before х)
 
 V_refl 2013-03-04
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 ### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
-* **LEXICON V-01_НЭКАЛнэкалць:нэкал** нэкалць:нэкал
+* **LEXICON V-01_НЭКАЛ** нэкалць:нэкал
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
- *  PRC-NEG ; 	+PrcNeg +PrcFut
+*  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
 
 V_refl 2013-03-04
 
 Mutual verbal conjugation
-* **LEXICON IND-AORDu3** All except Sg3 Du3
+* **LEXICON IND-AOR** All except Sg3 Du3
 
 
 
@@ -376,7 +376,7 @@ Preterite 1 # This should be for ConjPrt and NarrPrt also.
 
 
 
- * +Ind:%>я IND-AOR-RCSG1	;  This should be schwa or something
+* +Ind:%>я IND-AOR-RCSG1	;  This should be schwa or something
 
 Other moods
 сь in 2nd, 4th etc non-final syllable 
@@ -389,7 +389,7 @@ Other moods
 
 
 
- * **LEXICON V_PREC ** Hort
+* **LEXICON V_PREC ** Hort
 
 
 
@@ -423,7 +423,7 @@ Other moods
 
 
 
- * **+Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; ** Sg3 and Pl3
+* **+Mod/des:%>рава MUTUAL-PERSON-NON-OCPL_NORAISING ; ** Sg3 and Pl3
 
 
 
@@ -464,7 +464,7 @@ Other moods
 
 
 
- * **LEXICON SG3-PRED-AOR/PRET1 ** V_AUD picks up possessor indices and comes here
+* **LEXICON SG3-PRED-AOR/PRET1 ** V_AUD picks up possessor indices and comes here
 
 Mutual person ending for nonindicative moods
 
@@ -522,12 +522,12 @@ Non-finites
 
 
 
-* **+PrcFut:%>%{вм%}анда K ;**@CODE@****
+* **+PrcFut:%>%{вм%}анда K ;**
 
-* **+PrcFut:%>%{вм%}нда K ;2013-11-25** Should this form be here 2013-11-25
+* **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
 
 
-* **+PrcFut:%>%{вм%}нда K ;2013-11-25** Should this form be here 2013-11-25
+* **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
 
 
 
@@ -544,7 +544,7 @@ no vowel loss in stem
 
 
 
- * **LEXICON V-NEW_НАМДА ** намдась:намда schwa-final
+* **LEXICON V-NEW_НАМДА ** намдась:намда schwa-final
 
 
 * *яˮавла%^VowRaise%>ˮ*
@@ -562,7 +562,7 @@ no vowel loss in stem
 
 
 * Yaml: **V-xosjTS**
- * **+Subord+PxSg1:%>бˮни K ; ** Do all odd-syllabled words need this?
+* **+Subord+PxSg1:%>бˮни K ; ** Do all odd-syllabled words need this?
 
 
 
@@ -575,10 +575,10 @@ no vowel loss in stem
 
 
 
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
+* **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
+* **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
+* **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
+* **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
 
 
 
@@ -633,7 +633,7 @@ no vowel loss in stem
 
 
 
- * **LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO ** raise/no
+* **LEXICON V-NEW_BI-SYLL-MUTUAL-RAISE/NO ** raise/no
 
 
 
@@ -716,7 +716,7 @@ no vowel loss in stem
 
 
 
- * **LEXICON IND-AOR/PRT1-OCPL3_ян ** ODD-SYLL
+* **LEXICON IND-AOR/PRT1-OCPL3_ян ** ODD-SYLL
 
 
 
@@ -744,7 +744,7 @@ no vowel loss in stem
 
 
 
- * **LEXICON MOD/INT-SC_бца ** ??
+* **LEXICON MOD/INT-SC_бца ** ??
 
 
 
@@ -777,10 +777,10 @@ no vowel loss in stem
 
 
 
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
- * **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
+* **+PrcFut+Pred+Nom+PxSg1:%>вндадав K ; ** Vowel removed
+* **+PrcFut+Pred+Nom+PxSg1:%>вндадув K ; ** Vowel removed
+* **+PrcFut+Pred+Acc+PxSg1:%>вндадав K ; ** Vowel removed
+* **+PrcFut+Pred+Acc+PxSg1:%>вндадув K ; ** Vowel removed
 
 
 

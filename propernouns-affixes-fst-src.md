@@ -13,10 +13,10 @@ nouns, but with a XXX as separator.
 **LEXICON æLEXNAME@ 
 
 ### TWO-SYLLABLE CONSONANT-FINAL STEM
-* **LEXICON PROP_ПАНЫ9** пӑны:пӑны 9
+* **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
 
 
-* **LEXICON PROP_ХАНО-увна** хӑн: 11P ProsSg -увна
+* **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
 Yaml: **xano**
 
 **LEXICON æLEXNAME@ 
@@ -27,7 +27,7 @@ Yaml: **xano**
 
 **LEXICON æLEXNAME@ 
 
-* **LEXICON PROP_ЯЛЭ-вна** яля: 18 ProsSg -вна
+* **LEXICON PROP_ЯЛЭ** яля: 18 ProsSg -вна
 /total=2/
 яля yalya    ялян’ yalyan°h  яляˮ yalyaq     ялэ yale
 
@@ -39,10 +39,10 @@ Yaml: **xano**
 
 **LEXICON æLEXNAME@ 
 
-* **LEXICON PROP_ХАСЕВ-вна** хасава: 22 ProsSg -вна
+* **LEXICON PROP_ХАСЕВ** хасава: 22 ProsSg -вна
 /total=1/
 хасава xasawa        хасаван’ xasawan°h      хасаваˮ xasawaq хасев xasyew°
-* **+N+Prop: POSSESSA-PLURAL ;+Pl+Abl** +Pl+Dat, +Pl+Loc, +Pl+Abl
+* **+N+Prop: POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 **LEXICON æLEXNAME@ 
 

@@ -44,7 +44,7 @@ Nenets pronouns inflection
 **LEXICON æLEXNAME@ 
 
 **LEXICON æLEXNAME@ 
- +Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
++Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
 
 **LEXICON æLEXNAME@ 
 

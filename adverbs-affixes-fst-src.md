@@ -3,17 +3,17 @@ Nenets adverbs...
 
 
 
-* **LEXICON ADV_tag** to # without tag
+* **LEXICON ADV_** to # without tag
 
-* **LEXICON ADV-LOC_+Loc** to # with tag +Loc
+* **LEXICON ADV-LOC_** to # with tag +Loc
 
-* **LEXICON ADV-TEMP_#** adds +Temp and goes to #
+* **LEXICON ADV-TEMP_** adds +Temp and goes to #
 
-* **LEXICON ADV-MANNER_**@CODE@****
+* **LEXICON ADV-MANNER_**
 
-* **LEXICON ADV-REF_conjuctions** Some are secodary predicates, conjuctions
+* **LEXICON ADV-REF_** Some are secodary predicates, conjuctions
 
-* **LEXICON ADV-REF_Д1**@CODE@****
+* **LEXICON ADV-REF_Д1**
 
 
 

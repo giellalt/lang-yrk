@@ -7,74 +7,74 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 * **а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я** 
 * **А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я** 
 
-* **°:0vowel** Directly from Tapani Salminen extra short vowel
+* **°:0** Directly from Tapani Salminen extra short vowel
 
-* **ә:аschwa** Directly from Tapani Salminen schwa
+* **ә:а** Directly from Tapani Salminen schwa
 
 
 
 ## Archiphonemes for vowels
 
-* %{ауоэØ%}:аSCHWA  А1:а А1:у А1:о А1:э SCHWA
-* %{ауоэиыØ%}:0pros before pros
+* %{ауоэØ%}:а  А1:а А1:у А1:о А1:э SCHWA
+* %{ауоэиыØ%}:0 before pros
 
- * А2:а  
+* А2:а  
 
- * Ы1:о   
- * Ы1:е  
+* Ы1:о   
+* Ы1:е  
 
- * Ы2:э  
+* Ы2:э  
 
 ## Archiphonemes for glottals
 
- *  %{нңʼØ%}:ʼ   
- *  %{нңʼØ%}:н   
- *  %{нңʼØ%}:0   
- *  %{йнңъʼØ%}:й   
- *  %{йнңъʼØ%}:н   
- *  %{йнңъʼØ%}:ң   
- *  %{йнңъʼØ%}:ъ   
- *  %{йнңъʼØ%}:ʼ   
- *  %{йнңъʼØ%}:0   
- *  %{дˮØ%}:ˮ   
- *  %{дˮØ%}:д   
- *  %{дˮØ%}:0   
- *  С1:ˮ   
- *  С1:с   
- *  С1:0   
+*  %{нңʼØ%}:ʼ   
+*  %{нңʼØ%}:н   
+*  %{нңʼØ%}:0   
+*  %{йнңъʼØ%}:й   
+*  %{йнңъʼØ%}:н   
+*  %{йнңъʼØ%}:ң   
+*  %{йнңъʼØ%}:ъ   
+*  %{йнңъʼØ%}:ʼ   
+*  %{йнңъʼØ%}:0   
+*  %{дˮØ%}:ˮ   
+*  %{дˮØ%}:д   
+*  %{дˮØ%}:0   
+*  С1:ˮ   
+*  С1:с   
+*  С1:0   
 
- *  %{ая%}:а          in Pros
- *  %{оё%}:о          in +N+Sg+Nom+PxPl3
- *  %{рл%}:0	    +N+Sg+Nom+PxSg2
+*  %{ая%}:а          in Pros
+*  %{оё%}:о          in +N+Sg+Nom+PxPl3
+*  %{рл%}:0	    +N+Sg+Nom+PxSg2
 
-* **%{аяуюØ%}:0ханав** хан+N+Sg+Acc+PxSg1: ханув, ханав
+* **%{аяуюØ%}:0** хан+N+Sg+Acc+PxSg1: ханув, ханав
 
-* **%{увм%}:0+N+Sg+Pros** +N+Sg+Pros
+* **%{увм%}:0** +N+Sg+Pros
 
-* **%{вм%}:0+N+Sg+Nom+PxSg1** +N+Sg+Nom+PxSg1
+* **%{вм%}:0** +N+Sg+Nom+PxSg1
 
 ## triggers
 
- *  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
- *  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
- *  %^A2O:0      
- *  %^A2I:0        
+*  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+*  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
+*  %^A2O:0      
+*  %^A2I:0        
 
-* **%^PalVariation:0тар%{дˮØ%}%>д%{оё%}нзь** This allows for тар%{дˮØ%}%>д%{оё%}нзь
+* **%^PalVariation:0** This allows for тар%{дˮØ%}%>д%{оё%}нзь
 
- *  %^MLenition:0  lenition
- *  %^VowLower:0  vowel lowering ы:э у:о
- *  %^VowRaise:0  vowel raising э:ы о:у
- *  %^VowLoss:0      stem-final vowel is lost in plural accusative
- *  %^StemVowFronting:0      хасава:хасев
- *  %^VowFronting:0      хадась:хадэйнинзь
- *  %^PalLoss:0      in combination with stem-final vowel loss тёня:тён
- *  %^HardFronting:0      яля:ялэ
+*  %^MLenition:0  lenition
+*  %^VowLower:0  vowel lowering ы:э у:о
+*  %^VowRaise:0  vowel raising э:ы о:у
+*  %^VowLoss:0      stem-final vowel is lost in plural accusative
+*  %^StemVowFronting:0      хасава:хасев
+*  %^VowFronting:0      хадась:хадэйнинзь
+*  %^PalLoss:0      in combination with stem-final vowel loss тёня:тён
+*  %^HardFronting:0      яля:ялэ
 
 
 ## Boundary symbols
 
- *  %>      
+*  %>      
 hash
 
 
