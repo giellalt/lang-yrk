@@ -4,19 +4,19 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 
 
 ## Letters of the alphabet
- * **а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я** 
- * **А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я** 
+* **а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я** 
+* **А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я** 
 
- * **°:0** Directly from Tapani Salminen extra short vowel
+* **°:0vowel** Directly from Tapani Salminen extra short vowel
 
- * **ә:а** Directly from Tapani Salminen schwa
+* **ә:аschwa** Directly from Tapani Salminen schwa
 
 
 
 ## Archiphonemes for vowels
 
- * %{ауоэØ%}:а  А1:а А1:у А1:о А1:э SCHWA
- * %{ауоэиыØ%}:0 before pros
+* %{ауоэØ%}:аSCHWA  А1:а А1:у А1:о А1:э SCHWA
+* %{ауоэиыØ%}:0pros before pros
 
  * А2:а  
 
@@ -47,11 +47,11 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
  *  %{оё%}:о          in +N+Sg+Nom+PxPl3
  *  %{рл%}:0	    +N+Sg+Nom+PxSg2
 
- * **%{аяуюØ%}:0** хан+N+Sg+Acc+PxSg1: ханув, ханав
+* **%{аяуюØ%}:0ханав** хан+N+Sg+Acc+PxSg1: ханув, ханав
 
- * **%{увм%}:0** +N+Sg+Pros
+* **%{увм%}:0+N+Sg+Pros** +N+Sg+Pros
 
- * **%{вм%}:0** +N+Sg+Nom+PxSg1
+* **%{вм%}:0+N+Sg+Nom+PxSg1** +N+Sg+Nom+PxSg1
 
 ## triggers
 
@@ -60,7 +60,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
  *  %^A2O:0      
  *  %^A2I:0        
 
- * **%^PalVariation:0** This allows for тар%{дˮØ%}%>д%{оё%}нзь
+* **%^PalVariation:0тар%{дˮØ%}%>д%{оё%}нзь** This allows for тар%{дˮØ%}%>д%{оё%}нзь
 
  *  %^MLenition:0  lenition
  *  %^VowLower:0  vowel lowering ы:э у:о

@@ -3,7 +3,7 @@
 **LEXICON V_** for unassigned verbs
 
 ## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
- * **LEXICON IV_Е** есь:е
+* **LEXICON IV_Еесь:е** есь:е
 
 **LEXICON IV_МЭ** 
 
@@ -37,7 +37,7 @@
 
 **LEXICON IV_НУ/ТУ** 
 
- * **LEXICON IV_ҢЭ** ңэсь:ңэ
+* **LEXICON IV_ҢЭңэсь:ңэ** ңэсь:ңэ
 **LEXICON IV_ҢЭ** 
 
 **LEXICON IV_ҢЭ-Pal/Var** 
@@ -58,7 +58,7 @@
 
 ## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
- * **LEXICON IV_НАМДА** намдась:намда
+* **LEXICON IV_НАМДАнамдась:намда** намдась:намда
 **LEXICON IV_НАМДА** 
 
 **LEXICON TV_НАМДА** 
@@ -69,7 +69,7 @@
 
 **LEXICON TV_ВАДЮ** 
 
- * **LEXICON IV_ЯКУ** якась:яка
+* **LEXICON IV_ЯКУякась:яка** якась:яка
 
 **LEXICON IV_ИЛЕ** 
 
@@ -100,9 +100,9 @@
 **LEXICON TV_ХАДАБАСЬ** 
 
 
- * **LEXICON IV_ХАДА** хадась:хада
+* **LEXICON IV_ХАДАхадась:хада** хадась:хада
 
- * **LEXICON TV_ХАДА** хадась:хада
+* **LEXICON TV_ХАДАхадась:хада** хадась:хада
 
 **LEXICON VR_ХАДА** 
 
@@ -138,7 +138,7 @@
 **LEXICON TV_ЯˮАВЛУ** 
 
 ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON IV_МАН** манзь:ма%{нңʼØ%} 
+* **LEXICON IV_МАН** манзь:ма%{нңʼØ%} 
 * Yaml: **manzj**
 
 **LEXICON IV_МИН** 
@@ -161,10 +161,10 @@
 
 
 ### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON IV_НЭКАЛ** 
+* **LEXICON IV_НЭКАЛ** 
 
 
- * **LEXICON IV_ҢАДИМ/ҢАРАМ** 2013-12-16
+* **LEXICON IV_ҢАДИМ/ҢАРАМ2013-12-16** 2013-12-16
 
 
 
@@ -220,7 +220,7 @@ V_refl 2013-03-04
  * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
 
- * **LEXICON V-01_ЯКУ** якась:яка
+* **LEXICON V-01_ЯКУякась:яка** якась:яка
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
 
@@ -284,7 +284,7 @@ V_refl 2013-03-04  а > ы (ъя before х)
 
 
 ### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON V-01_МАН** манзь:ма%{нңʼØ%} 
+* **LEXICON V-01_МАН** манзь:ма%{нңʼØ%} 
 * Yaml: **manzj**
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -299,7 +299,7 @@ V_refl 2013-03-04  а > ы (ъя before х)
  * :С1 PRC-NEG_МАДАВЭЙ ; 	+PrcNeg +PrcFut
 
 
- * **LEXICON V-NEW_ТИР**
+* **LEXICON V-NEW_ТИР**@CODE@****
 
 
 
@@ -313,7 +313,7 @@ V_refl 2013-03-04
 
 
 ### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
- * **LEXICON V-01_НЭКАЛ** нэкалць:нэкал
+* **LEXICON V-01_НЭКАЛнэкалць:нэкал** нэкалць:нэкал
 
  *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -324,7 +324,7 @@ V_refl 2013-03-04
 V_refl 2013-03-04
 
 Mutual verbal conjugation
- * **LEXICON IND-AOR** All except Sg3 Du3
+* **LEXICON IND-AORDu3** All except Sg3 Du3
 
 
 
@@ -522,12 +522,12 @@ Non-finites
 
 
 
- * **+PrcFut:%>%{вм%}анда K ;**
+* **+PrcFut:%>%{вм%}анда K ;**@CODE@****
 
- * **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
+* **+PrcFut:%>%{вм%}нда K ;2013-11-25** Should this form be here 2013-11-25
 
 
- * **+PrcFut:%>%{вм%}нда K ;** Should this form be here 2013-11-25
+* **+PrcFut:%>%{вм%}нда K ;2013-11-25** Should this form be here 2013-11-25
 
 
 
