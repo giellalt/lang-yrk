@@ -1559,502 +1559,14 @@ In the second context ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/phonology.twolc)</small>
-# Morphology
-INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
-
-# Definitions for Multichar_Symbols
-
-## Analysis symbols
-The morphological analyses of wordforms of the TUNDRA NENETS language are presented
-in this system in terms of following the symbols.
-(It is highly suggested to follow existing standards when adding new tags).
-* **+WORK** WORK HAS TO BE DONE Do not remove, replaces +TYÄ
-The parts-of-speech are:
-
-* **+N**
-* **+A**
-* **+Adv**
-* **+V**
-
-* **+Pron**
-* **+CS**
-* **+CC**
-* **+Adp**
-* **+Po**
-* **+Pr**
-* **+Interj**
-* **+Pcle**
-* **+Num**
-
-
-
-The parts of speech are further split up into:
-
-* **+Prop**
-* **+Pers**
-* **+Dem**
-* **+Interr**
-* **+Refl** reflexive
-* **+Recipr**
-* **+Rel**
-* **+Indef**
-* **+Refr** referential adverbs
-
-
-
-Adv
-* **+Manner**
-* **+Refr** (referential),
-* **+Temp**
-
-The Usage extents are marked using the following tags:
-* **+Err/Orth**
-* **+Use/-Spell**
-* **+Use/SpellNoSugg** recognized but not suggested in speller
-
-* **+Rus** (100% Russian homograph)
-
-
-Dialects
-
-* **+Dial/W** (Western dialects),
-* **+Dial/T** (Taimyr dialect  ),
-* **+Dial/E** (Eastern dialects),
-
-
-The nominals are inflected in the following Case and Number
-
-* **+Sg**
-* **+Du**
-* **+Pl**
-* **+Acc**
-* **+Gen** (Genitive)
-* **+Abl**
-* **+Dat**
-* **+Loc**
-* **+Nom**
-* **+Pros** (Prosecutive)
-* **+Tra**
-* **+Abe**
-* **+Adc**
-* **+Ins**
-* **+Apr**
-* **+Ine**
-* **+Ill**
-* **+Ela**
-* **+Egr**
-* **+Prl**
-* **+Pred** = predestinative
-
-are these needed?:
-
-* **+Appr**
-* **+Advc**
-* **+Ter**
-* **+Pro**
-* **+Car**
-* **+Equ**
-
-derivative suffixes before case endings
-* **+Lim** limitative
-
-
-The possession is marked as such:
-
-
-* **+PxSg1**
-* **+PxSg2**
-* **+PxSg3**
-* **+PxDu1**
-* **+PxDu2**
-* **+PxDu3**
-* **+PxPl1**
-* **+PxPl2**
-* **+PxPl3**
-
-The comparative forms are:
-* **+Pos**
-* **+Comp**
-* **+Superl**
-
-Numerals are classified under:
-
-* **+Attr**
-* **+Card**
-* **+Ord**
-
-Verb moods are:
-
-* **+Ind**
-* **+Pot**
-* **+Conj**
-* **+Imprt**
-* **+Opt**
-* **+Hort**
-* **+Mod/appr** approximative imperfective
-* **+Mod/des** desiderative
-* **+Mod/futappr** approximative futuritive
-* **+Mod/hyp** hyperprobablitative
-* **+Mod/int** interrogative
-* **+Mod/narr** narrative
-* **+Mod/nec** necessitativee
-* **+Mod/obl** obligative
-* **+Mod/rep** reputative
-* **+Mod/sup** superprobabilitative
-* **+Mod/perfappr** approximative perfective
-* **+Mod/perfprob** perfective probabilitative
-* **+Mod/prob** imperfective probabilitative
-
-
-Verb tenses are:
-
-* **+Aor**
-* **+Prt**
-* **+Prt1**
-* **+Prt2**
-
-Verb personal forms are:
-
-Subject
-
-One of the two following
-
-* **+Sg1**
-* **+Sg2**
-* **+Sg3**
-* **+Pl1**
-* **+Pl2**
-* **+Pl3**
-
-* **+ScSg1**
-* **+ScSg2**
-* **+ScSg3**
-* **+ScDu1**
-* **+ScDu2**
-* **+ScDu3**
-* **+ScPl1**
-* **+ScPl2**
-* **+ScPl3**
-
-Object
-* **+OcSg3**
-* **+OcDu3**
-* **+OcPl3**
-
-Other verb forms are
-
-* **+InfImprf**
-* **+InfPrf**
-* **+PrcImprf**
-* **+PrcPrf**
-* **+PrcNeg**
-* **+PrcFut**
-* **+GerFin**
-* **+Subord**
-* **+Aud**
-* **+Evas**
-* **+Ger**
-* **+ConNeg**
-* **+ConNegII**
-* **+Neg**
-* **+ImprtII**
-* **+PrsPrc**
-* **+Sup**
-* **+VGen**
-* **+VAbess**
-
-
-Abbreviated words are classified with:
-
-* **+ABBR**
-* +Symbol = independent symbols in the text stream, like £, €, ©
-* **+ACR**
-
-
-## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7**:  Literal »
-* **«7**:  Literal «
-```
- %[%>%]  - Literal >
- %[%<%]  - Literal <
-```
-
-Special symbols are classified with:
-
-* **+CLB**
-* **+PUNCT**
-* **+LEFT**
-* **+RIGHT**
-
-The verbs are syntactically split according to transitivity:
-
-* **+TV**
-* **+IV**
-
-* **+Aux** auxilliary verb
-
-
-
-Special multiword units are analysed with:
-
-* **+Multi**
-
-Non-dictionary words can be recognised with:
-
-* **+Guess**
-
-Question and Focus particles:
-
-* **+Qst**
-* **+Foc**
-
-* **+Sem/Act** Activity
-* **+Sem/Amount** Amount
-* **+Sem/Ani** Animate
-* **+Sem/Aniprod** Animal Product
-* **+Sem/Body** Bodypart
-* **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
-* **+Sem/Build** Building
-* **+Sem/Build-part** Part of Bulding, like the closet
-* **+Sem/Cat** Category
-* **+Sem/Clth** Clothes
-* **+Sem/Clth-jewl** Jewelery
-* **+Sem/Clth-part** part of clothes, boallu, sávdnji...
-* **+Sem/Ctain** Container
-* **+Sem/Ctain-abstr** Abstract container like bank account
-* **+Sem/Ctain-clth**
-* **+Sem/Curr** Currency like dollár, Not Money
-* **+Sem/Dance** Dance
-* **+Sem/Dir** Direction like GPS-kursa
-* **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
-* **+Sem/Drink** Drink
-* **+Sem/Dummytag** Dummytag
-* **+Sem/Edu** Educational event
-* **+Sem/Event** Event
-* **+Sem/Feat** Feature, like Árvu
-* **+Sem/Feat-phys** Physiological feature, ivdni, fárda
-* **+Sem/Feat-psych** Psychological feauture
-* **+Sem/Feat-measr** Psychological feauture
-* **+Sem/Fem** Female name
-* **+Sem/Food** Food
-* **+Sem/Food-med** Medicine
-* **+Sem/Furn** Furniture
-* **+Sem/Game** Game
-* **+Sem/Geom** Geometrical object
-* **+Sem/Group** Animal or Human Group
-* **+Sem/Hum** Human
-* **+Sem/Hum-abstr** Human abstract
-* **+Sem/Ideol** Ideology
-* **+Sem/Lang** Language
-* **+Sem/Mal** Male name
-* **+Sem/Mat** Material for producing things
-* **+Sem/Measr** Measure
-* **+Sem/Money** Has to do with money, like wages, not Curr(ency)
-* **+Sem/Obj** Object
-* **+Sem/Obj-clo** Cloth
-* **+Sem/Obj-cogn** Cloth
-* **+Sem/Obj-el** (Electrical) machine or apparatus
-* **+Sem/Obj-ling** Object with something written on it
-* **+Sem/Obj-rope** flexible ropelike object
-* **+Sem/Obj-surfc** Surface object
-* **+Sem/Org** Organisation
-* **+Sem/Part** Feature, oassi, bealli
-* **+Sem/Perc-cogn** Cognative perception
-* **+Sem/Perc-emo** Emotional perception
-* **+Sem/Perc-phys** Physical perception
-* **+Sem/Perc-psych** Physical perception
-* **+Sem/Plant** Plant
-* **+Sem/Plant-part** Plant part
-* **+Sem/Plc** Place
-* **+Sem/Plc-abstr** Abstract place
-* **+Sem/Plc-elevate** Place
-* **+Sem/Plc-line** Place
-* **+Sem/Plc-water** Place
-* **+Sem/Pos** Position (as in social position job)
-* **+Sem/Process** Process
-* **+Sem/Prod** Product
-* **+Sem/Prod-audio** Audio product
-* **+Sem/Prod-cogn** Cognition product
-* **+Sem/Prod-ling** Linguistic product
-* **+Sem/Prod-vis** Visual product
-* **+Sem/Rel** Relation
-* **+Sem/Route** Name of a Route
-* **+Sem/Rule** Rule or convention
-* **+Sem/Semcon** Semantic concept
-* **+Sem/Sign** Sign (e.g. numbers, punctuation) 
-* **+Sem/Sport** Sport
-* **+Sem/State** 
-* **+Sem/State-sick** Illness
-* **+Sem/Substnc** Substance, like Air and Water
-* **+Sem/Sur** Surname
-* **+Sem/Symbol** Symbol
-* **+Sem/Time** Time
-* **+Sem/Tool** Prototypical tool for repairing things
-* **+Sem/Tool-catch** Tool used for catching (e.g. fish)
-* **+Sem/Tool-clean** Tool used for cleaning
-* **+Sem/Tool-it** Tool used in IT
-* **+Sem/Tool-measr** Tool used for measuring
-* **+Sem/Tool-music** Music instrument
-* **+Sem/Tool-write** Writing tool
-* **+Sem/Txt** Text (girji, lávlla...)
-* **+Sem/Veh** Vehicle
-* **+Sem/Wpn** Weapon
-* **+Sem/Wthr** The Weather or the state of ground
-
-
-
-
-
-Semantics are classified with
-
-
-Derivations are classified under the morphophonetic form of the suffix, the
-source and target part-of-speech.
-
-* **+V→N**
-* **+V→V**
-* **+V→A**
-* **+Der/xxx**
-* **+Der/MWN** modifier without noun head
-* **+Der/Pr** this is used with predication of nominals and deverbal modalities
-* _+Der/Cop_ This will replace the nominal conjugation Der/Pr
-
-
-## Morphophonology
-
-To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
-* **%{ая%}** in Pros
-* **%{оё%}** in +N+Sg+Nom+PxPl3
-* **%{рл%}** +N+Sg+Nom+PxSg2
-* **%{аяуюØ%}** хан+N+Sg+Acc+PxSg1: ханув, ханав
-* **%{увм%}** +N+Sg+Pros
-* **%{вм%}** +N+Sg+Nom+PxSg1
-
-And the following triggers to control variation:
-* **{front}**
-* **{back}**
-* **%^SCSG2** this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
-* **%^PLNOM** disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
-* **%^PalVariation** This allows for тар%{дˮØ%}%>д%{оё%}нзь
-
-Protoletters for xfst:
-* **%{ауоэØ%}**  А1:а А1:у А1:о А1:э schwa
-* **%{ауоэиыØ%}** before pros
-
-This is the schwa or reduced vowel occurring after x in case endings
-
-* **А2** Alternating between zero and а
-
-These are proto-glottals
-* **%{дˮØ%}**
-* **С1**
-* **%{нңʼØ%}**
-* **%{йнңъʼØ%}** = These are proto-glottals
-
-* **Г1**
-* **В1**
-* **Е1**
-* **Е2**
-* **Ы1**
-* **Д1**
-* **Ы2** = These are for developing underlying morphology rules
-
-## Triggers
-
-* **%^A2O** Initially this is used for the noun "я" to enable a:o
-* **%^A2I** for я:и in пя
-* **%^MLenition** м:в м:б
-* **%^VowLower** vowel lowering ы:э у:о
-* **%^VowRaise** э:ы о:у
-* **%^VowLoss** stem-final vowel is lost in plural accusative form
-* **%^StemVowFronting** хасава:хасев
-* **%^VowFronting** хадась:хадэйнинзь
-* **%^PalLoss** in combination with stem-final vowel loss
-* **%^HardFronting** яля:ялэ
-
-We have manually optimised the structure of our lexicon using the following
-flag diacritics to restrict morhpological combinatorics:
-
-* **@P.NeedNoun.ON@**
-* **@D.NeedNoun.ON@**
-* **@C.NeedNoun@**
-
-Object conjugation
-
-* **@P.CONJ.ObjAll@**
-* **@R.CONJ.ObjAll@**
-* **@C.CONJ@**
-
-
-# The Root lexicon
-
-
-The word forms in Nenets start from the lexeme roots of basic
-word classes, or optionally from prefixes:
-
-* **adjectives ;**
-* **adpositions ;**
-* **adverbs ;**
-* **interjections ;**
-* **nouns ;**
-* **particles ;**
-* **pronouns ;**
-* **propernouns ;**
-* **quantifiers ;**
-* **verbs ;**
-
-
-* **V_NEWWORDS ;** This is for feeding new verbs.
-* **Punctuation ;**
-* **Symbols ;**
-
-* **CONJUNCTION ;**
-* **SUBJUNCTION ;**
-* **INTERJECTION ;**
-* **POSTPOSITION ;**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/phonology.twolc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+V_ "FinnishTRANSLATION" ;
+
+CONTINUE BELOW
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/root.lexc)</small># Interjections
-Nenets interjections...
-
-
-
-**LEXICON æLEXNAME@ just goes to #
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/interjections.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/interjections.lexc)</small>
-# Symbol affixes
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/symbols.lexc)</small># Descriptives
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/stems/verbs_newwords.lexc)</small># Descriptives
 Nenets descriptives...
 
 
@@ -2065,7 +1577,764 @@ Nenets descriptives...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/descriptives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/descriptives.lexc)</small># Proper noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/descriptives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/descriptives.lexc)</small># Noun inflection
+
+Nenets nouns inflect in cases.
+
+
+**LEXICON æLEXNAME@ 
+* **LEXICON N_ҢЭ** ңэ:ңэ 1  ProsSg -вна
+Yaml: **xo, ngaeTS**
+**LEXICON æLEXNAME@ 
+
+* **LEXICON N_ҢЭ-Pal/Var** ңэ:ңэ 1  ProsSg -вна
+Yaml: **nyeTS**
+
+* **LEXICON N_Ё** я:я 2 ProsSg -вна
+Yaml: **ya, yaTS**
+
+
+
+* **LEXICON N_ПИ** пя:пя 3 ProsSg -вна
+Yaml: **N-pyaTS**
+
+* **LEXICON N_ТЫ** ты: 4 ProsSg -вна
+Yaml: **tyTS**
+
+
+
+
+* **LEXICON N_ХАВО** ха: 5 ProsSg -вна
+Yaml: **tyTS**
+
+
+
+* **LEXICON N_СЁЁ** сё: 6 ProsSg -вна
+
+
+* **LEXICON N_ИБЕ** и: 7 ProsSg -вна
+
+* **LEXICON N_ХАБИЕ** хӑби:8ProsSg -вна
+
+* **LEXICON N_ПАНЫ** пӑны:пӑн 9 ы!ProsSg -(э)вна
+
+
+* **LEXICON N_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
+
+
+* **LEXICON N_ХАНО** хӑн: 11P ProsSg -увна
+Yaml: **xano**
+
+
+
+* **LEXICON N_ТИРЕ** тир: 12 ProsSg -увна
+
+* **LEXICON N_ЕД** ед: 13 ProsSg -увна /-ювна
+
+* **LEXICON N_МАРАҢГЫ** мӑраңга: 14PProsSg -вна
+
+
+
+
+* **LEXICON N_ҢУДИ** ңуда: 15 ProsSg -вна
+Yaml: **N-ngudiTS**
+
+* **LEXICON N_ЕСИ** ая̆ха: 16PProsSg -вна
+Yaml: **N-yaxaTS**
+
+
+* **LEXICON N_ҢОДИ** ңодя: 17 ProsSg -вна
+Yaml: **N-ngodiTS**
+
+
+* **LEXICON N_ЯЛЭ** яля: 18 ProsSg -вна
+
+* **LEXICON N_ХОБ** хоба:хоба 19 ProsSg -вна
+Yaml: **xob**
+
+* **LEXICON N_ТЁН** тёня:тёня 20 ProsSg -вна
+Yaml: **tyon**
+
+* **LEXICON N_ПИСЬ** пися: 21 ProsSg -вна
+
+* **LEXICON N_ХАСЕВ** хасава: 22 ProsSg -вна
+
+* **LEXICON N_ҢАНУ** ңӑно: 23 ProsSg -вна
+Yaml: **nano**
+
+* **LEXICON N_ЯКЫ** якэ: 24 ProsSg -вна
+
+
+* **LEXICON N_ҢУВО** ңумʼ:ңум 25 ProsSg -(м)на
+Yaml: **yam, ngumhTS**
+
+* **LEXICON N_НЮБЕ** нюмʼ: 26  ProsSg -(м)на
+
+* **LEXICON N_МУНО** муʼ:му 27  ProsSg -мна
+
+* **LEXICON N_ПОЁ** поʼ:по 28  ProsSg -мна
+Yaml: **poyo**
+
+* **LEXICON N_ВЫҢО** выʼ:вы 29  ProsSg -мна /-мана
+
+
+* **LEXICON N_ИЛЪЕ** илʼ:ил 30   ProsSg -мана
+Yaml: **ilje**
+| --- 
+
+
+
+
+
+* **LEXICON N_НЕНЭЦИЕ** ненэцьʼ:ненэць 30   ProsSg -мана
+Yaml: **nyenecyh**
+| --- 
+
+* **LEXICON N_ПАХАЁ** пӑхӑʼ: 31   ProsSg -мна
+| --- 
+
+* **LEXICON N_СЕРО** серˮ: 32   ProsSg -мана / -мня
+
+* **LEXICON N_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
+| --- 
+
+* **LEXICON N_МАНСО** мӑнˮ: 34   ProsSg -мна
+
+
+* **LEXICON N_МЯДО** мяˮ:мя 35   ProsSg -мна
+Yaml: **myadoTS**
+| --- 
+
+
+* **LEXICON N_ИДЕ** иˮ: 36   ProsSg -мна
+Yaml: **yidye**
+
+
+
+
+
+
+
+
+
+* **LEXICON N_ҢЭ/ХАБИЕ** ңэ:ңэ 1  ProsSg -вна
+хӑби:8 ProsSg -вна
+
+
+та:та 
+
+
+
+
+
+
+* **LEXICON NMN_ҢУДИ** ңуда: 15 ProsSg -вна
+Yaml: **ngudi**
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+* **LEXICON NMN_ҢОДИ**
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+* **LEXICON NMN_ХОБ** хоба:хоба 19 ProsSg -вна
+Yaml: **xob**
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+
+* **LEXICON NMN_ПИСЬ** пися: 21 ProsSg -вна
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+* **LEXICON NMN_ҢАНУ** ңӑно: 23 ProsSg -вна
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+* **LEXICON NMN_ҢУВО** ңумʼ:ңум 25 
+* **:ʼ POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+* **LEXICON NMN_НЮБЕ** нюмʼ: 26
+
+
+
+* **LEXICON NMN_МУНО** муʼ: 27  ProsSg -мна
+
+
+No n2d
+
+
+
+
+
+
+
+* **:%{йнңъʼØ%} SGNOMSUF ;** 
+* **:%{йнңъʼØ%} SG-NOM-STEM ;** 
+* **:%{йнңъʼØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+* **LEXICON NMN_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
+
+
+
+
+
+* **LEXICON N_ВАР/ТАРЕ** мяˮ:мя 35   ProsSg -мна
+
+* **LEXICON NMN_ВАР** мяˮ:мя 35   ProsSg -мна
+Yaml: **waro**
+* **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+* **LEXICON NMN_МЯДО** мяˮ:мя 35   ProsSg -мна
+Yaml: **myado**
+* **:%{дˮØ%} SGLOCSUF_Хна ;** мякна
+* **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+Where is the variation?
+
+Where is the variation?
+* **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+* **LEXICON N_ТЮСЕ** тюˮ:тюсе 
+
+
+
+
+
+
+
+* **LEXICON N_САВНЕ** 
+
+
+
+
+* **LEXICON N_ПЕНЗЕРЕ** пензерˮ:пензер
+
+* **LEXICON N_САБЦЬ** сабць:сабць
+
+* **LEXICON N_МЕРЁ** мерё:мерё
+
+
+NMN
+
+
+* **LEXICON NMN_ҢЭ-OLD** ңэ:ңэ 1  ProsSg -вна
+* **SG-ACC-STEM ;** SGACCSUF, SGGENSUF
+* **SG-NOM-STEM ;** SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
+* **PLNOMSUF ;** 
+* **PLACCSUF_Zero ;** => PL-ACC_STEM
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+9
+* **:%^VowLower POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+* **LEXICON NMN_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+* LEXICON NMN_ХАНО-OLD  11 хан:хан
+
+
+
+* **LEXICON NMN_ТИРЕ** тир: 12 ProsSg -увна
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+* **LEXICON NMN_ЕД** ед: 13 ProsSg -увна /-ювна
+Yaml: **yed**
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+## NOMINALS "NMN"
+### THREE-SYLLABLE VOWEL-FINAL STEMS
+
+* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+таˮ:та
+
+
+
+
+
+
+
+
+варˮ:вар
+Yaml: **N-tarTS**
+| --- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The singular accusative stem
+
+
+
+
+
+
+
+
+
+* **LEXICON SGLOCSUF_Хна** мякна
+
+* **LEXICON SGLOCSUF_Хана** серкана
+
+
+
+
+
+
+
+Start Plural
+
+
+
+
+
+
+
+
+
+
+What is assumed on the basis of the plural accusative
+* **+Pl+Pros:%>ˮ%{увм%}А2на K ;** When does this take a vowel хоˮомна
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Possessor Indices
+
+
+
+
+* **+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в K ;** 2013-10-22 Should this also have +ScSg3 marking
+
+
+
+* **LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ** singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
+
+* **LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ** singular possessa oblique possessor indices
+
+
+SINUGLAR CASES
+
+
+
+
+
+
+
+The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
+
+
+
+Dual possessa
+
+
+
+
+
+
+
+
+Dual possessa
+
+
+
+
+
+
+
+
+
+Plural Possessa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **+PxPl1:наˮ K ; ** The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conjugation of nouns and adjectives
+
+
+
+## NEW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>NEW-SG-LOC_Кна/Кана
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Adposition inflection
+Nenets adpositions inflect in person (and some in local cases).
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adpositions.lexc)</small># Adverbs
+Nenets adverbs...
+
+
+
+* **LEXICON ADV_** to # without tag
+
+* **LEXICON ADV-LOC_** to # with tag +Loc
+
+* **LEXICON ADV-TEMP_** adds +Temp and goes to #
+
+* **LEXICON ADV-MANNER_**
+
+* **LEXICON ADV-REF_** Some are secodary predicates, conjuctions
+
+* **LEXICON ADV-REF_Д1**
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adverbs.lexc)</small># Quantifier inflection
+Nenets quantifiers ...
+
+* **LEXICON NUM_МЯДО**
+
+* **LEXICON NUM_ВАР**
+
+* **LEXICON NUM_ҢУДИ**
+
+* **LEXICON NUM_ҢОДИ**
+
+* **LEXICON NUM_ТАРЕ**
+
+LEXICON NUM_ЕД  ед: 13 
+
+* **LEXICON NUM_ЕД/ТИРЕ**
+
+* **LEXICON NUM_ЕД/ХАНО**
+
+* **LEXICON NUM_ҢОДИ/ТЁН**
+
+* **LEXICON NUM_ТИРЕ/ХАНО**
+
+* **LEXICON NUM_ХУСУВЭЙ**
+
+* **LEXICON QNT_ХУСУВЭЙ**
+
+we need to get away from these: NUM_VOW and NUM_CONS
+it's done
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/quantifiers.lexc)</small># Interjections
+Nenets interjections...
+
+
+
+**LEXICON æLEXNAME@ just goes to #
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/interjections.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/interjections.lexc)</small># Pronoun inflection
+Nenets pronouns inflection
+
+**LEXICON æLEXNAME@ for the unclassified ones
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ etc.
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ etc. 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@  etc.
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
++Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/pronouns.lexc)</small># Clitics inflection
+Nenets clitics...
+
+
+
+**LEXICON æLEXNAME@ optional +Qst 
+
+**LEXICON æLEXNAME@ leads to #.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/clitics.lexc)</small># Proper noun inflection
 Nenets proper nouns inflect in the same cases as regular
 nouns, but with a XXX as separator.
 
@@ -2124,7 +2393,74 @@ Yaml: **xano**
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/propernouns.lexc)</small># Nenets Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/propernouns.lexc)</small>Adjective inflection
+Nenets  adjectives.
+
+**LEXICON æLEXNAME@ to #
+
+
+* **LEXICON A_ҢЭ** ңэ:ңэ 1  
+
+* **LEXICON A_ПАНЫ** пӑны:пӑны 9 
+
+* **LEXICON A_ХУСУВЭЙ** хусувэй: 10 !!ProsSg -ювна
+
+
+* **LEXICON A_ХАНО** хӑн: 11 !!ProsSg -увна
+[total=27]
+хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
+
+
+* **LEXICON A_ЕД** ед: 13 !!ProsSg -увна /-ювна
+
+* **LEXICON A_ҢУДИ** ңуда: 15 !!ProsSg -вна
+
+
+* **LEXICON A_ҢОДИ** ңодя: 17 !!ProsSg -вна
+
+
+
+* **LEXICON A_ХОБ** хоба: 19 !!ProsSg -вна
+
+
+* **LEXICON A_ТЁН** тёня: 20 !!ProsSg -вна
+
+* **LEXICON A_ПИСЬ** пися: 21 !!ProsSg -вна
+
+* **LEXICON A_ҢАНУ** ңӑно: 23 !!ProsSg -вна
+[total=57]
+ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
+
+* **LEXICON A_ЯКЫ** якэ: 24 ProsSg -вна
+
+* **LEXICON A_ҢУВО** ңумʼ:ңум 25 !!ProsSg -(м)на
+ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
+
+
+* **LEXICON A_НЮБЕ-Pal/Var** нюмʼ:нюм 26
+нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
+
+* **LEXICON A_ВЫҢО** выʼ:вы 29  
+
+
+Check this
+
+
+* **LEXICON A_МЯДО** мяˮ:мя 35   !!ProsSg -мна
+
+LEXICON A_САБЦЬ тир: 12 !!ProsSg -увна
+What makes this different from N_ТИРЕ?
+
+* **LEXICON A_САВНЕ** 
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adjectives.lexc)</small># Nenets Verb inflection
 
 **LEXICON V_** for unassigned verbs
 
@@ -2922,644 +3258,474 @@ no vowel loss in stem
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/verbs.lexc)</small># Clitics inflection
-Nenets clitics...
-
-
-
-**LEXICON æLEXNAME@ optional +Qst 
-
-**LEXICON æLEXNAME@ leads to #.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/clitics.lexc)</small>Adjective inflection
-Nenets  adjectives.
-
-**LEXICON æLEXNAME@ to #
-
-
-* **LEXICON A_ҢЭ** ңэ:ңэ 1  
-
-* **LEXICON A_ПАНЫ** пӑны:пӑны 9 
-
-* **LEXICON A_ХУСУВЭЙ** хусувэй: 10 !!ProsSg -ювна
-
-
-* **LEXICON A_ХАНО** хӑн: 11 !!ProsSg -увна
-[total=27]
-хӑн xən°    хӑнӑн’ xənən°h        хӑнˮ xən°q     хӑно xəno
-
-
-* **LEXICON A_ЕД** ед: 13 !!ProsSg -увна /-ювна
-
-* **LEXICON A_ҢУДИ** ңуда: 15 !!ProsSg -вна
-
-
-* **LEXICON A_ҢОДИ** ңодя: 17 !!ProsSg -вна
-
-
-
-* **LEXICON A_ХОБ** хоба: 19 !!ProsSg -вна
-
-
-* **LEXICON A_ТЁН** тёня: 20 !!ProsSg -вна
-
-* **LEXICON A_ПИСЬ** пися: 21 !!ProsSg -вна
-
-* **LEXICON A_ҢАНУ** ңӑно: 23 !!ProsSg -вна
-[total=57]
-ңӑно ŋəno   ңӑнон’ ŋənon°h ңӑноˮ ŋənoq    ңӑну ŋənu
-
-* **LEXICON A_ЯКЫ** якэ: 24 ProsSg -вна
-
-* **LEXICON A_ҢУВО** ңумʼ:ңум 25 !!ProsSg -(м)на
-ңум’ ŋum     ңумд’ ŋumt°h    ңувˮ ŋuw°q      ңуво ŋuwo
-
-
-* **LEXICON A_НЮБЕ-Pal/Var** нюмʼ:нюм 26
-нюм’ nyum    нюмд’ nyumt°h   нювˮ nyuw°q     нюбе nyubye
-
-* **LEXICON A_ВЫҢО** выʼ:вы 29  
-
-
-Check this
-
-
-* **LEXICON A_МЯДО** мяˮ:мя 35   !!ProsSg -мна
-
-LEXICON A_САБЦЬ тир: 12 !!ProsSg -увна
-What makes this different from N_ТИРЕ?
-
-* **LEXICON A_САВНЕ** 
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adjectives.lexc)</small># Noun inflection
-
-Nenets nouns inflect in cases.
-
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Symbol affixes
 
 **LEXICON æLEXNAME@ 
-* **LEXICON N_ҢЭ** ңэ:ңэ 1  ProsSg -вна
-Yaml: **xo, ngaeTS**
+
 **LEXICON æLEXNAME@ 
 
-* **LEXICON N_ҢЭ-Pal/Var** ңэ:ңэ 1  ProsSg -вна
-Yaml: **nyeTS**
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+
+**LEXICON æLEXNAME@ 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/symbols.lexc)</small>
+# Morphology
+INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
+
+# Definitions for Multichar_Symbols
 
-* **LEXICON N_Ё** я:я 2 ProsSg -вна
-Yaml: **ya, yaTS**
+## Analysis symbols
+The morphological analyses of wordforms of the TUNDRA NENETS language are presented
+in this system in terms of following the symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+* **+WORK** WORK HAS TO BE DONE Do not remove, replaces +TYÄ
+The parts-of-speech are:
+
+* **+N**
+* **+A**
+* **+Adv**
+* **+V**
+
+* **+Pron**
+* **+CS**
+* **+CC**
+* **+Adp**
+* **+Po**
+* **+Pr**
+* **+Interj**
+* **+Pcle**
+* **+Num**
+
+
+
+The parts of speech are further split up into:
+
+* **+Prop**
+* **+Pers**
+* **+Dem**
+* **+Interr**
+* **+Refl** reflexive
+* **+Recipr**
+* **+Rel**
+* **+Indef**
+* **+Refr** referential adverbs
+
+
+
+Adv
+* **+Manner**
+* **+Refr** (referential),
+* **+Temp**
+
+The Usage extents are marked using the following tags:
+* **+Err/Orth**
+* **+Use/-Spell**
+* **+Use/SpellNoSugg** recognized but not suggested in speller
+
+* **+Rus** (100% Russian homograph)
+
+
+Dialects
+
+* **+Dial/W** (Western dialects),
+* **+Dial/T** (Taimyr dialect  ),
+* **+Dial/E** (Eastern dialects),
+
+
+The nominals are inflected in the following Case and Number
+
+* **+Sg**
+* **+Du**
+* **+Pl**
+* **+Acc**
+* **+Gen** (Genitive)
+* **+Abl**
+* **+Dat**
+* **+Loc**
+* **+Nom**
+* **+Pros** (Prosecutive)
+* **+Tra**
+* **+Abe**
+* **+Adc**
+* **+Ins**
+* **+Apr**
+* **+Ine**
+* **+Ill**
+* **+Ela**
+* **+Egr**
+* **+Prl**
+* **+Pred** = predestinative
+
+are these needed?:
+
+* **+Appr**
+* **+Advc**
+* **+Ter**
+* **+Pro**
+* **+Car**
+* **+Equ**
+
+derivative suffixes before case endings
+* **+Lim** limitative
+
+
+The possession is marked as such:
+
+
+* **+PxSg1**
+* **+PxSg2**
+* **+PxSg3**
+* **+PxDu1**
+* **+PxDu2**
+* **+PxDu3**
+* **+PxPl1**
+* **+PxPl2**
+* **+PxPl3**
+
+The comparative forms are:
+* **+Pos**
+* **+Comp**
+* **+Superl**
+
+Numerals are classified under:
+
+* **+Attr**
+* **+Card**
+* **+Ord**
+
+Verb moods are:
+
+* **+Ind**
+* **+Pot**
+* **+Conj**
+* **+Imprt**
+* **+Opt**
+* **+Hort**
+* **+Mod/appr** approximative imperfective
+* **+Mod/des** desiderative
+* **+Mod/futappr** approximative futuritive
+* **+Mod/hyp** hyperprobablitative
+* **+Mod/int** interrogative
+* **+Mod/narr** narrative
+* **+Mod/nec** necessitativee
+* **+Mod/obl** obligative
+* **+Mod/rep** reputative
+* **+Mod/sup** superprobabilitative
+* **+Mod/perfappr** approximative perfective
+* **+Mod/perfprob** perfective probabilitative
+* **+Mod/prob** imperfective probabilitative
 
 
+Verb tenses are:
 
-* **LEXICON N_ПИ** пя:пя 3 ProsSg -вна
-Yaml: **N-pyaTS**
+* **+Aor**
+* **+Prt**
+* **+Prt1**
+* **+Prt2**
 
-* **LEXICON N_ТЫ** ты: 4 ProsSg -вна
-Yaml: **tyTS**
-
-
-
-
-* **LEXICON N_ХАВО** ха: 5 ProsSg -вна
-Yaml: **tyTS**
-
-
-
-* **LEXICON N_СЁЁ** сё: 6 ProsSg -вна
-
-
-* **LEXICON N_ИБЕ** и: 7 ProsSg -вна
-
-* **LEXICON N_ХАБИЕ** хӑби:8ProsSg -вна
-
-* **LEXICON N_ПАНЫ** пӑны:пӑн 9 ы!ProsSg -(э)вна
-
-
-* **LEXICON N_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
-
-
-* **LEXICON N_ХАНО** хӑн: 11P ProsSg -увна
-Yaml: **xano**
-
-
-
-* **LEXICON N_ТИРЕ** тир: 12 ProsSg -увна
-
-* **LEXICON N_ЕД** ед: 13 ProsSg -увна /-ювна
-
-* **LEXICON N_МАРАҢГЫ** мӑраңга: 14PProsSg -вна
-
-
-
-
-* **LEXICON N_ҢУДИ** ңуда: 15 ProsSg -вна
-Yaml: **N-ngudiTS**
-
-* **LEXICON N_ЕСИ** ая̆ха: 16PProsSg -вна
-Yaml: **N-yaxaTS**
-
-
-* **LEXICON N_ҢОДИ** ңодя: 17 ProsSg -вна
-Yaml: **N-ngodiTS**
-
-
-* **LEXICON N_ЯЛЭ** яля: 18 ProsSg -вна
-
-* **LEXICON N_ХОБ** хоба:хоба 19 ProsSg -вна
-Yaml: **xob**
-
-* **LEXICON N_ТЁН** тёня:тёня 20 ProsSg -вна
-Yaml: **tyon**
-
-* **LEXICON N_ПИСЬ** пися: 21 ProsSg -вна
-
-* **LEXICON N_ХАСЕВ** хасава: 22 ProsSg -вна
-
-* **LEXICON N_ҢАНУ** ңӑно: 23 ProsSg -вна
-Yaml: **nano**
-
-* **LEXICON N_ЯКЫ** якэ: 24 ProsSg -вна
-
-
-* **LEXICON N_ҢУВО** ңумʼ:ңум 25 ProsSg -(м)на
-Yaml: **yam, ngumhTS**
-
-* **LEXICON N_НЮБЕ** нюмʼ: 26  ProsSg -(м)на
-
-* **LEXICON N_МУНО** муʼ:му 27  ProsSg -мна
-
-* **LEXICON N_ПОЁ** поʼ:по 28  ProsSg -мна
-Yaml: **poyo**
-
-* **LEXICON N_ВЫҢО** выʼ:вы 29  ProsSg -мна /-мана
-
-
-* **LEXICON N_ИЛЪЕ** илʼ:ил 30   ProsSg -мана
-Yaml: **ilje**
-| --- 
-
-
-
-
-
-* **LEXICON N_НЕНЭЦИЕ** ненэцьʼ:ненэць 30   ProsSg -мана
-Yaml: **nyenecyh**
-| --- 
-
-* **LEXICON N_ПАХАЁ** пӑхӑʼ: 31   ProsSg -мна
-| --- 
-
-* **LEXICON N_СЕРО** серˮ: 32   ProsSg -мана / -мня
-
-* **LEXICON N_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
-| --- 
-
-* **LEXICON N_МАНСО** мӑнˮ: 34   ProsSg -мна
-
-
-* **LEXICON N_МЯДО** мяˮ:мя 35   ProsSg -мна
-Yaml: **myadoTS**
-| --- 
-
-
-* **LEXICON N_ИДЕ** иˮ: 36   ProsSg -мна
-Yaml: **yidye**
-
-
-
-
-
-
-
-
-
-* **LEXICON N_ҢЭ/ХАБИЕ** ңэ:ңэ 1  ProsSg -вна
-хӑби:8 ProsSg -вна
-
-
-та:та 
-
-
-
-
-
-
-* **LEXICON NMN_ҢУДИ** ңуда: 15 ProsSg -вна
-Yaml: **ngudi**
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-* **LEXICON NMN_ҢОДИ**
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-* **LEXICON NMN_ХОБ** хоба:хоба 19 ProsSg -вна
-Yaml: **xob**
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-
-
-
-
-
-* **LEXICON NMN_ПИСЬ** пися: 21 ProsSg -вна
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-* **LEXICON NMN_ҢАНУ** ңӑно: 23 ProsSg -вна
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-* **LEXICON NMN_ҢУВО** ңумʼ:ңум 25 
-* **:ʼ POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-
-* **LEXICON NMN_НЮБЕ** нюмʼ: 26
-
-
-
-* **LEXICON NMN_МУНО** муʼ: 27  ProsSg -мна
-
-
-No n2d
-
-
-
-
-
-
-
-* **:%{йнңъʼØ%} SGNOMSUF ;** 
-* **:%{йнңъʼØ%} SG-NOM-STEM ;** 
-* **:%{йнңъʼØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-Where is the variation?
-
-* **LEXICON NMN_ТАРЕ** тӑрˮ:тар 33   ProsSg -мня
-
-
-
-
-
-* **LEXICON N_ВАР/ТАРЕ** мяˮ:мя 35   ProsSg -мна
-
-* **LEXICON NMN_ВАР** мяˮ:мя 35   ProsSg -мна
-Yaml: **waro**
-* **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-* **LEXICON NMN_МЯДО** мяˮ:мя 35   ProsSg -мна
-Yaml: **myado**
-* **:%{дˮØ%} SGLOCSUF_Хна ;** мякна
-* **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-Where is the variation?
-
-Where is the variation?
-* **:%{дˮØ%} POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-* **LEXICON N_ТЮСЕ** тюˮ:тюсе 
-
-
-
-
-
-
-
-* **LEXICON N_САВНЕ** 
-
-
-
-
-* **LEXICON N_ПЕНЗЕРЕ** пензерˮ:пензер
-
-* **LEXICON N_САБЦЬ** сабць:сабць
-
-* **LEXICON N_МЕРЁ** мерё:мерё
-
-
-NMN
-
-
-* **LEXICON NMN_ҢЭ-OLD** ңэ:ңэ 1  ProsSg -вна
-* **SG-ACC-STEM ;** SGACCSUF, SGGENSUF
-* **SG-NOM-STEM ;** SG/DAT,LOC, ABL,TRA,PRO; DU/NOM,ACC,GEN; PL/DAT,LOC,ABL,TRA; PX-s, NOMINAL-CONJUGATION
-* **PLNOMSUF ;** 
-* **PLACCSUF_Zero ;** => PL-ACC_STEM
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-9
-* **:%^VowLower POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-* **LEXICON NMN_ХУСУВЭЙ** хусувэй: 10 ProsSg -ювна
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-* LEXICON NMN_ХАНО-OLD  11 хан:хан
-
-
-
-* **LEXICON NMN_ТИРЕ** тир: 12 ProsSg -увна
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-* **LEXICON NMN_ЕД** ед: 13 ProsSg -увна /-ювна
-Yaml: **yed**
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-## NOMINALS "NMN"
-### THREE-SYLLABLE VOWEL-FINAL STEMS
-
-* **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-таˮ:та
-
-
-
-
-
-
-
-
-варˮ:вар
-Yaml: **N-tarTS**
-| --- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The singular accusative stem
-
-
-
-
-
-
-
-
-
-* **LEXICON SGLOCSUF_Хна** мякна
-
-* **LEXICON SGLOCSUF_Хана** серкана
-
-
-
-
-
-
-
-Start Plural
-
-
-
-
-
-
-
-
-
-
-What is assumed on the basis of the plural accusative
-* **+Pl+Pros:%>ˮ%{увм%}А2на K ;** When does this take a vowel хоˮомна
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Possessor Indices
-
-
-
-
-* **+Sg+Nom+PxSg1+Der/Cop+Ind+Aor+ScSg3:%>в K ;** 2013-10-22 Should this also have +ScSg3 marking
-
-
-
-* **LEXICON AFTER-OBLIQUE-SG-POSSESSA-COME-POSSESSOR-INDICES ** singular possessa in +Gen, +Dat, +Loc, +Abl share the same possessor indices
-
-* **LEXICON DV-OBLIQUE-SG-POSSESSA-TAKE-POSSESSOR-INDICES_TO-BE-FOLLOWED-BY-SG3-PRED-AOR/PRT1 ** singular possessa oblique possessor indices
-
-
-SINUGLAR CASES
-
-
-
-
-
-
-
-The next line in +Sg+Pros+PxDu2:%>%{увм%}А2нандиʼ must be removed
-
-
-
-Dual possessa
-
-
-
-
-
-
-
-
-Dual possessa
-
-
-
-
-
-
-
-
-
-Plural Possessa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **+PxPl1:наˮ K ; ** The morpheme boundary has been removed to indicate a distinct difference in phonological behavior.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Conjugation of nouns and adjectives
-
-
-
-## NEW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>NEW-SG-LOC_Кна/Кана
-
-
-
-
-
-
-
-
-
-
+Verb personal forms are:
+
+Subject
+
+One of the two following
+
+* **+Sg1**
+* **+Sg2**
+* **+Sg3**
+* **+Pl1**
+* **+Pl2**
+* **+Pl3**
+
+* **+ScSg1**
+* **+ScSg2**
+* **+ScSg3**
+* **+ScDu1**
+* **+ScDu2**
+* **+ScDu3**
+* **+ScPl1**
+* **+ScPl2**
+* **+ScPl3**
+
+Object
+* **+OcSg3**
+* **+OcDu3**
+* **+OcPl3**
+
+Other verb forms are
+
+* **+InfImprf**
+* **+InfPrf**
+* **+PrcImprf**
+* **+PrcPrf**
+* **+PrcNeg**
+* **+PrcFut**
+* **+GerFin**
+* **+Subord**
+* **+Aud**
+* **+Evas**
+* **+Ger**
+* **+ConNeg**
+* **+ConNegII**
+* **+Neg**
+* **+ImprtII**
+* **+PrsPrc**
+* **+Sup**
+* **+VGen**
+* **+VAbess**
+
+
+Abbreviated words are classified with:
+
+* **+ABBR**
+* +Symbol = independent symbols in the text stream, like £, €, ©
+* **+ACR**
+
+
+## Symbols that need to be escaped on the lower side (towards twolc):
+* **»7**:  Literal »
+* **«7**:  Literal «
+```
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
+```
+
+Special symbols are classified with:
+
+* **+CLB**
+* **+PUNCT**
+* **+LEFT**
+* **+RIGHT**
+
+The verbs are syntactically split according to transitivity:
+
+* **+TV**
+* **+IV**
+
+* **+Aux** auxilliary verb
+
+
+
+Special multiword units are analysed with:
+
+* **+Multi**
+
+Non-dictionary words can be recognised with:
+
+* **+Guess**
+
+Question and Focus particles:
+
+* **+Qst**
+* **+Foc**
+
+* **+Sem/Act** Activity
+* **+Sem/Amount** Amount
+* **+Sem/Ani** Animate
+* **+Sem/Aniprod** Animal Product
+* **+Sem/Body** Bodypart
+* **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
+* **+Sem/Build** Building
+* **+Sem/Build-part** Part of Bulding, like the closet
+* **+Sem/Cat** Category
+* **+Sem/Clth** Clothes
+* **+Sem/Clth-jewl** Jewelery
+* **+Sem/Clth-part** part of clothes, boallu, sávdnji...
+* **+Sem/Ctain** Container
+* **+Sem/Ctain-abstr** Abstract container like bank account
+* **+Sem/Ctain-clth**
+* **+Sem/Curr** Currency like dollár, Not Money
+* **+Sem/Dance** Dance
+* **+Sem/Dir** Direction like GPS-kursa
+* **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
+* **+Sem/Drink** Drink
+* **+Sem/Dummytag** Dummytag
+* **+Sem/Edu** Educational event
+* **+Sem/Event** Event
+* **+Sem/Feat** Feature, like Árvu
+* **+Sem/Feat-phys** Physiological feature, ivdni, fárda
+* **+Sem/Feat-psych** Psychological feauture
+* **+Sem/Feat-measr** Psychological feauture
+* **+Sem/Fem** Female name
+* **+Sem/Food** Food
+* **+Sem/Food-med** Medicine
+* **+Sem/Furn** Furniture
+* **+Sem/Game** Game
+* **+Sem/Geom** Geometrical object
+* **+Sem/Group** Animal or Human Group
+* **+Sem/Hum** Human
+* **+Sem/Hum-abstr** Human abstract
+* **+Sem/Ideol** Ideology
+* **+Sem/Lang** Language
+* **+Sem/Mal** Male name
+* **+Sem/Mat** Material for producing things
+* **+Sem/Measr** Measure
+* **+Sem/Money** Has to do with money, like wages, not Curr(ency)
+* **+Sem/Obj** Object
+* **+Sem/Obj-clo** Cloth
+* **+Sem/Obj-cogn** Cloth
+* **+Sem/Obj-el** (Electrical) machine or apparatus
+* **+Sem/Obj-ling** Object with something written on it
+* **+Sem/Obj-rope** flexible ropelike object
+* **+Sem/Obj-surfc** Surface object
+* **+Sem/Org** Organisation
+* **+Sem/Part** Feature, oassi, bealli
+* **+Sem/Perc-cogn** Cognative perception
+* **+Sem/Perc-emo** Emotional perception
+* **+Sem/Perc-phys** Physical perception
+* **+Sem/Perc-psych** Physical perception
+* **+Sem/Plant** Plant
+* **+Sem/Plant-part** Plant part
+* **+Sem/Plc** Place
+* **+Sem/Plc-abstr** Abstract place
+* **+Sem/Plc-elevate** Place
+* **+Sem/Plc-line** Place
+* **+Sem/Plc-water** Place
+* **+Sem/Pos** Position (as in social position job)
+* **+Sem/Process** Process
+* **+Sem/Prod** Product
+* **+Sem/Prod-audio** Audio product
+* **+Sem/Prod-cogn** Cognition product
+* **+Sem/Prod-ling** Linguistic product
+* **+Sem/Prod-vis** Visual product
+* **+Sem/Rel** Relation
+* **+Sem/Route** Name of a Route
+* **+Sem/Rule** Rule or convention
+* **+Sem/Semcon** Semantic concept
+* **+Sem/Sign** Sign (e.g. numbers, punctuation) 
+* **+Sem/Sport** Sport
+* **+Sem/State** 
+* **+Sem/State-sick** Illness
+* **+Sem/Substnc** Substance, like Air and Water
+* **+Sem/Sur** Surname
+* **+Sem/Symbol** Symbol
+* **+Sem/Time** Time
+* **+Sem/Tool** Prototypical tool for repairing things
+* **+Sem/Tool-catch** Tool used for catching (e.g. fish)
+* **+Sem/Tool-clean** Tool used for cleaning
+* **+Sem/Tool-it** Tool used in IT
+* **+Sem/Tool-measr** Tool used for measuring
+* **+Sem/Tool-music** Music instrument
+* **+Sem/Tool-write** Writing tool
+* **+Sem/Txt** Text (girji, lávlla...)
+* **+Sem/Veh** Vehicle
+* **+Sem/Wpn** Weapon
+* **+Sem/Wthr** The Weather or the state of ground
+
+
+
+
+
+Semantics are classified with
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+* **+V→N**
+* **+V→V**
+* **+V→A**
+* **+Der/xxx**
+* **+Der/MWN** modifier without noun head
+* **+Der/Pr** this is used with predication of nominals and deverbal modalities
+* _+Der/Cop_ This will replace the nominal conjugation Der/Pr
+
+
+## Morphophonology
+
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+* **%{ая%}** in Pros
+* **%{оё%}** in +N+Sg+Nom+PxPl3
+* **%{рл%}** +N+Sg+Nom+PxSg2
+* **%{аяуюØ%}** хан+N+Sg+Acc+PxSg1: ханув, ханав
+* **%{увм%}** +N+Sg+Pros
+* **%{вм%}** +N+Sg+Nom+PxSg1
+
+And the following triggers to control variation:
+* **{front}**
+* **{back}**
+* **%^SCSG2** this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
+* **%^PLNOM** disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
+* **%^PalVariation** This allows for тар%{дˮØ%}%>д%{оё%}нзь
+
+Protoletters for xfst:
+* **%{ауоэØ%}**  А1:а А1:у А1:о А1:э schwa
+* **%{ауоэиыØ%}** before pros
+
+This is the schwa or reduced vowel occurring after x in case endings
+
+* **А2** Alternating between zero and а
+
+These are proto-glottals
+* **%{дˮØ%}**
+* **С1**
+* **%{нңʼØ%}**
+* **%{йнңъʼØ%}** = These are proto-glottals
+
+* **Г1**
+* **В1**
+* **Е1**
+* **Е2**
+* **Ы1**
+* **Д1**
+* **Ы2** = These are for developing underlying morphology rules
+
+## Triggers
+
+* **%^A2O** Initially this is used for the noun "я" to enable a:o
+* **%^A2I** for я:и in пя
+* **%^MLenition** м:в м:б
+* **%^VowLower** vowel lowering ы:э у:о
+* **%^VowRaise** э:ы о:у
+* **%^VowLoss** stem-final vowel is lost in plural accusative form
+* **%^StemVowFronting** хасава:хасев
+* **%^VowFronting** хадась:хадэйнинзь
+* **%^PalLoss** in combination with stem-final vowel loss
+* **%^HardFronting** яля:ялэ
+
+We have manually optimised the structure of our lexicon using the following
+flag diacritics to restrict morhpological combinatorics:
+
+* **@P.NeedNoun.ON@**
+* **@D.NeedNoun.ON@**
+* **@C.NeedNoun@**
+
+Object conjugation
+
+* **@P.CONJ.ObjAll@**
+* **@R.CONJ.ObjAll@**
+* **@C.CONJ@**
+
+
+# The Root lexicon
+
+
+The word forms in Nenets start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+
+* **adjectives ;**
+* **adpositions ;**
+* **adverbs ;**
+* **interjections ;**
+* **nouns ;**
+* **particles ;**
+* **pronouns ;**
+* **propernouns ;**
+* **quantifiers ;**
+* **verbs ;**
+
+
+* **V_NEWWORDS ;** This is for feeding new verbs.
+* **Punctuation ;**
+* **Symbols ;**
+
+* **CONJUNCTION ;**
+* **SUBJUNCTION ;**
+* **INTERJECTION ;**
+* **POSTPOSITION ;**
 
 
 
@@ -3576,173 +3742,233 @@ Conjugation of nouns and adjectives
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/nouns.lexc)</small># Pronoun inflection
-Nenets pronouns inflection
-
-**LEXICON æLEXNAME@ for the unclassified ones
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ etc.
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ etc. 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@  etc.
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-+Interr+Sem/Hum:  POSSESSA-PLURAL ;  +Pl+Dat, +Pl+Loc, +Pl+Abl
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/root.lexc)</small>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+retroflex plosive, voiceless			t`  ʈ	    0288, 648 (` = ASCII 096)
+retroflex plosive, voiced			d`	ɖ		0256, 598
+labiodental nasal					F 	ɱ		0271, 625
+retroflex nasal						n` 	ɳ		0273, 627
+palatal nasal						J 	ɲ		0272, 626
+velar nasal							N 	ŋ		014B, 331
+uvular nasal							N\	ɴ		0274, 628
+	
+bilabial trill						B\ 	ʙ		0299, 665
+uvular trill							R\ 	ʀ		0280, 640
+alveolar tap							4	ɾ		027E, 638
+retroflex flap						r` 	ɽ		027D, 637
+bilabial fricative, voiceless		p\ 	ɸ		0278, 632
+bilabial fricative, voiced			B 	β		03B2, 946
+dental fricative, voiceless			T 	θ		03B8, 952
+dental fricative, voiced				D 	ð		00F0, 240
+postalveolar fricative, voiceless	S	ʃ		0283, 643
+postalveolar fricative, voiced		Z 	ʒ		0292, 658
+retroflex fricative, voiceless		s` 	ʂ		0282, 642
+retroflex fricative, voiced			z` 	ʐ		0290, 656
+palatal fricative, voiceless			C 	ç		00E7, 231
+palatal fricative, voiced			j\ 	ʝ		029D, 669
+velar fricative, voiced	        	G 	ɣ		0263, 611
+uvular fricative, voiceless			X	χ		03C7, 967
+uvular fricative, voiced				R 	ʁ		0281, 641
+pharyngeal fricative, voiceless		X\ 	ħ		0127, 295
+pharyngeal fricative, voiced			?\ 	ʕ		0295, 661
+glottal fricative, voiced			h\	ɦ		0266, 614
+
+alveolar lateral fricative, vl.		K 
+alveolar lateral fricative, vd.		K\
+
+labiodental approximant				P (or v\) 
+alveolar approximant					r\ 
+retroflex approximant				r\` 
+velar approximant					M\
+
+retroflex lateral approximant		l` 
+palatal lateral approximant			L 
+velar lateral approximant			L\
+Clicks
+
+bilabial								O\	(O = capital letter) 
+dental								|\
+(post)alveolar						!\ 
+palatoalveolar						=\ 
+alveolar lateral						|\|\
+Ejectives, implosives
+
+ejective								_>	e.g. ejective p		p_>
+implosive							_<	e.g. implosive b	b_<
+Vowels
+
+close back unrounded					M
+close central unrounded 				1 
+close central rounded				} 
+lax i								I 
+lax y								Y 
+lax u								U
+
+close-mid front rounded				2 
+close-mid central unrounded			@\ 
+close-mid central rounded			8 
+close-mid back unrounded				7
+
+schwa	ə							@
+
+open-mid front unrounded				E 
+open-mid front rounded				9
+open-mid central unrounded			3 
+open-mid central rounded				3\ 
+open-mid back unrounded				V 
+open-mid back rounded				O
+
+ash (ae digraph)						{ 
+open schwa (turned a)				6
+
+open front rounded					& 
+open back unrounded	        		A 
+open back rounded					Q
+Other symbols
+
+voiceless labial-velar fricative		W 
+voiced labial-palatal approx.		H 
+voiceless epiglottal fricative		H\ 
+voiced epiglottal fricative			<\ 
+epiglottal plosive					>\
+
+alveolo-palatal fricative, vl. 		s\ 
+alveolo-palatal fricative, voiced	z\ 
+alveolar lateral flap				l\ 
+simultaneous S and x					x\ 
+tie bar								_
+Suprasegmentals
+
+primary stress						" 
+secondary stress						% 
+long									: 
+half-long							:\ 
+extra-short							_X 
+linking mark							-\
+Tones and word accents
+
+level extra high						_T 
+level high							_H
+level mid							_M 
+level low							_L 
+level extra low						_B
+downstep								! 
+upstep								^	(caret, circumflex)
+
+contour, rising						 
+contour, falling						_F 
+contour, high rising					_H_T 
+contour, low rising					_B_L 
+
+contour, rising-falling				_R_F 
+(NB Instead of being written as diacritics with _, all prosodic 
+marks can alternatively be placed in a separate tier, set off 
+by < >, as recommended for the next two symbols.)
+global rise						<R> 
+global fall						<F>
+Diacritics						
+									
+voiceless						_0	(0 = figure), e.g. n_0
+voiced							_v 
+aspirated						_h 
+more rounded						_O	(O = letter) 
+less rounded						_c 
+advanced							_+
+retracted						_-
+centralized						_" 
+syllabic							=	(or _=) e.g. n= (or n_=) 
+non-syllabic						_^ 
+rhoticity						`
+									
+breathy voiced					_t 
+creaky voiced					_k
+linguolabial						_N 
+labialized						_w 
+palatalized						'	(or _j) e.g. t' (or t_j) 
+velarized						_G 
+pharyngealized					_?\
+									
+dental							_d 
+apical							_a 
+laminal							_m
+nasalized						~	(or _~) e.g. A~ (or A_~) 
+nasal release					_n
+lateral release					_l 
+no audible release				_}
+
+velarized or pharyngealized		_e 
+velarized l, alternatively		5 
+raised							_r 
+lowered							_o 
+advanced tongue root				_A 
+retracted tongue root			_q
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/pronouns.lexc)</small># Adverbs
-Nenets adverbs...
-
-
-
-* **LEXICON ADV_** to # without tag
-
-* **LEXICON ADV-LOC_** to # with tag +Loc
-
-* **LEXICON ADV-TEMP_** adds +Temp and goes to #
-
-* **LEXICON ADV-MANNER_**
-
-* **LEXICON ADV-REF_** Some are secodary predicates, conjuctions
-
-* **LEXICON ADV-REF_Д1**
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adverbs.lexc)</small># Quantifier inflection
-Nenets quantifiers ...
-
-* **LEXICON NUM_МЯДО**
-
-* **LEXICON NUM_ВАР**
-
-* **LEXICON NUM_ҢУДИ**
-
-* **LEXICON NUM_ҢОДИ**
-
-* **LEXICON NUM_ТАРЕ**
-
-LEXICON NUM_ЕД  ед: 13 
-
-* **LEXICON NUM_ЕД/ТИРЕ**
-
-* **LEXICON NUM_ЕД/ХАНО**
-
-* **LEXICON NUM_ҢОДИ/ТЁН**
-
-* **LEXICON NUM_ТИРЕ/ХАНО**
-
-* **LEXICON NUM_ХУСУВЭЙ**
-
-* **LEXICON QNT_ХУСУВЭЙ**
-
-we need to get away from these: NUM_VOW and NUM_CONS
-it's done
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/quantifiers.lexc)</small>
-# Adposition inflection
-Nenets adpositions inflect in person (and some in local cases).
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-**LEXICON æLEXNAME@ 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adpositions.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-V_ "FinnishTRANSLATION" ;
-
-CONTINUE BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-yrk/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
 
 
 We describe here how abbreviations are in Nenets are read out, e.g.
@@ -4171,4 +4397,159 @@ expression **WORD - premodifiers**.
 
 
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-yrk/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-yrk/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+Then just:
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+
+Issues:
+- [X] Ambiguous input
+- Seems to work fine
+- [X] Ambiguous multiword expessions with ambiguous tokenisation
+- Seems to work – represented within lexc now; hfst-tokenise also
+supports forms on the analyses now
+- [X] Ambiguous multiword expessions need reorganising after CG
+- The module cg-mwesplit takes wordforms from readings and turns them into
+new cohorts
+- [X] Unknown words
+- The set-difference method only works for words without
+flag diacritics (even though we should be working only on the form-side?)
+and leads to binary blow-up: With only lower unknowns, we get 45M;
+lower+upper gives 67M, while no unknowns gives 27M
+- Fixed instead by treating empty analyses as unknown-tokens in
+hfst-tokenise, and outputting unmatched strings with a prefix
+- [ ] Treat input that's within superblanks as unmatched
+- probably requires a change in hfst-tokenise itself
+- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
+- [ ] Try set-difference-unknowns method with regular hfst commands?
+
+More usage examples:
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+
+Pmatch documentation:
+https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
+
+
+
+
+
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+
+
+
+Apart from what's in our morphology, there are
+1) unknown word-like forms, and
+2) unmatched strings
+We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
+* select extended latin symbols
+* select symbols
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+TODO: Could use something like this, but built-in's don't include šžđčŋ:
+
+
+Simply give an empty reading when something is unknown:
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-yrk/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for yrk
+
+Usage:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
+
+
+
+
+
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+
+
+
+Apart from what's in our morphology, there are
+1. unknown word-like forms, and
+2. unmatched strings
+We want to give 1) a match, but let 2) be treated specially by
+`hfst-tokenise -a`
+Unknowns are made of:
+* lower-case ASCII
+* upper-case ASCII
+* select extended latin symbols
+* yrk cyrillics
+ASCII digits
+* select symbols
+* Combining diacritics as individual symbols,
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+
+
+## Unknown handling
+Unknowns are tagged ?? and treated specially with `hfst-tokenise`
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-yrk/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
