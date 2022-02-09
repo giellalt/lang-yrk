@@ -15,7 +15,6 @@ nouns, but with a XXX as separator.
 ### TWO-SYLLABLE CONSONANT-FINAL STEM
 * **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
 
-
 * **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
 Yaml: **xano**
 
@@ -53,8 +52,9 @@ Yaml: **xano**
 
 **LEXICON æLEXNAME@  Here we need some kind of vowel harmony
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+

@@ -28,6 +28,9 @@ LEXICON NUM_ЕД  ед: 13
 we need to get away from these: NUM_VOW and NUM_CONS
 it's done
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/quantifiers.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+
+---
+

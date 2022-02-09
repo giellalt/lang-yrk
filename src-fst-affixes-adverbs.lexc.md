@@ -1,8 +1,6 @@
 # Adverbs
 Nenets adverbs...
 
-
-
 * **LEXICON ADV_** to # without tag
 
 * **LEXICON ADV-LOC_** to # with tag +Loc
@@ -15,8 +13,9 @@ Nenets adverbs...
 
 * **LEXICON ADV-REF_Д1**
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/affixes/adverbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/adverbs.lexc)</small>
+
+---
+

@@ -2,7 +2,6 @@
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-yrk/blob/main/src/fst/phonology.twolc) 
 
-
 ## Letters of the alphabet
 * **а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я** 
 * **А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я** 
@@ -10,8 +9,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 * **°:0** Directly from Tapani Salminen extra short vowel
 
 * **ә:а** Directly from Tapani Salminen schwa
-
-
 
 ## Archiphonemes for vowels
 
@@ -71,35 +68,12 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 *  %^PalLoss:0      in combination with stem-final vowel loss тёня:тён
 *  %^HardFronting:0      яля:ялэ
 
-
 ## Boundary symbols
 
 *  %>      
 hash
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Rules
-
-
-
 
 **к: -> г after nasal glottal**
 * *му%{нңʼØ%}%>кʼ*
@@ -107,8 +81,6 @@ hash
 
 * *ил°%{йнңъʼØ%}%>к°ʼ*
 * *илаң%>г0ʼ*
-
-
 
 **к: to х after Vowels**
 
@@ -148,7 +120,6 @@ hash
 
 *мун0%>зь examples:*
 
-
 *му%{нңʼØ%}%^SCSG2%>нʼ examples:*
 
 *мун0%>дʼ examples:*
@@ -171,7 +142,6 @@ hash
 
 *илан0%>д examples:*
 
-
 *ила%{йнңъʼØ%}%>сиˮ examples:*
 
 *илан%>зиˮ examples:*
@@ -187,7 +157,6 @@ hash
 *илан%>дув0 examples:*
 
 *ил0н%>дув0 examples:*
-
 
 **%{йнңъʼØ%}:ъ GlottalNasalToSurface**
 
@@ -205,14 +174,11 @@ hash
 
 *му0%>м0на examples:*
 
-
 **%{йнңъʼØ%}:0 GlottalNasalToSurface**
 
 *ил°%{йнңъʼØ%}%^SCSG2%>н examples:*
 
 *илан0%>д examples:*
-
-
 
 *ил°%{йнңъʼØ%}%>°ˮ examples:*
 
@@ -250,8 +216,6 @@ hash
 
 *ңув0%>аць examples:*
 
-
-
 **%{дˮØ%}:0 GlottalNonNasalToZERO LEFT**
 
 *мя%{дˮØ%}%^SCSG2%>нʼ examples:*
@@ -277,7 +241,6 @@ hash
 *тар%^PalVariation%{дˮØ%}%>%{рл%}° examples:*
 
 *та000%>л0 examples:*
-
 
 *мя%{дˮØ%}%>мд° examples:*
 
@@ -341,8 +304,6 @@ RIGHT ARROW ONLY %{дˮØ%}:0
 
 *мана00%>тʼ examples:*
 
-
-
 **С1:ˮ UnderlyingToGlottal**
 
 *ман°С1%>0в examples:*
@@ -359,11 +320,9 @@ RIGHT ARROW ONLY %{дˮØ%}:0
 
 *варˮ%>мна examples:*
 
-
 *тар%{дˮØ%} examples:*
 
 *тарˮ examples:*
-
 
 *тар%{дˮØ%} examples:*
 
@@ -383,16 +342,13 @@ RIGHT ARROW ONLY %{дˮØ%}:ˮ
 
 *тар0%>ни examples:*
 
-
 **%{нңʼØ%}:ʼ UnderlyingToGlottal**
-
 
 **с => ц affrication after Stop**
 
 *мя%{дˮØ%}%>сь examples:*
 
 *мя0%>ць examples:*
-
 
 *ман°С1%>сиˮ examples:*
 
@@ -422,18 +378,15 @@ RIGHT ARROW ONLY %{дˮØ%}:ˮ
 
 *манаˮ%>ам examples:*
 
-
 **%{рл%}:л**
 
 *ман°С1%>0%{рл%} examples:*
 
 *манаˮ%>ал examples:*
 
-
 **%{рл%}:р**
 
 **%{рл%}:р**
-
 
 **0:а in single-syllable**
 * *ман°С1%>0в*
@@ -466,35 +419,22 @@ RIGHT ARROW ONLY %{дˮØ%}:ˮ
 
 *мана00%>тʼ examples:*
 
-
 *ил°%{йнңъʼØ%}%>кʼ examples:*
 
 *илаң%>гʼ examples:*
 
 **ʼ:н**
 
-
-
-
-
 Second Vowel Center
 **°:у in Pros LEFT**
 
 **ә:у in extra short to у**
 
-
-
 **ә:о in extra short to о**
-
-
 
 **ә:и in extra short to и**
 
-
-
 **ә:ы in extra short to ы**
-
-
 
 **ә:э in extra short to э**
 
@@ -504,13 +444,11 @@ Second Vowel Center
 
 *ил0ң0гад examples:*
 
-
 **0:а in Pros**
 
 *ма%>ˮ0н examples:*
 
 *ма0ˮан examples:*
-
 
 *ма%>ˮ0м°н%{ая%} examples:*
 
@@ -570,13 +508,9 @@ Second Vowel Center
 
 *ңу0ˮум0на examples:*
 
-
-
 **0:у between two glottals**
 
-
 **а:я VowelPalatalization left**
-
 
 **%{ая%}:я VowelPalatalization left**
 
@@ -598,7 +532,6 @@ Second Vowel Center
 
 *тар000тя examples:*
 
-
 **%{оё%}:ё VowelPalatalization right**
 
 *ню%>д%{оё%}ʼ examples:*
@@ -612,7 +545,6 @@ Second Vowel Center
 *тар000тоʼ examples:*
 
 *тар000тёʼ examples:*
-
 
 The rule **%{ауоэØ%} <-> у**:
 
@@ -654,13 +586,9 @@ The rule **%{ауоэØ%} -> а**:
 
 *пи00ˮин examples:*
 
-
-
-
 ## VOWEL LOWERING
 
 **i2e StemFinalYToE LEFT**
-
 
 **а:э in stem-internal position**
 
@@ -670,13 +598,11 @@ The rule **%{ауоэØ%} -> а**:
 
 **a:o in я**
 
-
 **a:i in мараңгы**
 
 *яˮавла%^A2I%>дмʼ examples:*
 
 *яˮавлы00дмʼ examples:*
-
 
 **a:i in ңуда**
 
@@ -688,10 +614,7 @@ The rule **%{ауоэØ%} -> а**:
 
 *хадэби000н examples:*
 
-
-
 **о:у word-final position**
-
 
 **я:и word-final position**
 
@@ -709,7 +632,6 @@ The rule **%{ауоэØ%} -> а**:
 
 *еси0 examples:*
 
-
 **а:у яˮавла:яˮавлу LEFT**
 
 **а:у яˮавла:яˮавлу RIGHT**
@@ -717,7 +639,6 @@ The rule **%{ауоэØ%} -> а**:
 *яˮавла%^VowRaise%>ˮ examples:*
 
 *яˮавлу00ˮ examples:*
-
 
 **а:ю яˮавла:яˮавлу**
 
@@ -728,8 +649,6 @@ The rule **%{ауоэØ%} -> а**:
 
 **а:ю яˮавла:яˮавлу**
 
-
-
 **а:ю яˮавла:яˮавлу**
 
 **я:0 Stem vowel loss in plural accusative**
@@ -737,8 +656,6 @@ The rule **%{ауоэØ%} -> а**:
 *тёня%^PalLoss%^VowLoss examples:*
 
 *тён000 examples:*
-
-
 
 ## CONSONANT CHANGES
 
@@ -761,9 +678,6 @@ The rule **%{ауоэØ%} -> а**:
 *ңум%^MLenition%>о examples:*
 
 *ңув00о examples:*
-
-
-
 
 **m loss before Labial followed by nonglottal cons or vows **
 
@@ -803,12 +717,6 @@ The rule **%{ауоэØ%} -> а**:
 
 *илан00да examples:*
 
-
-
-
-
-
-
 **н loss after glottal before д: **
 **r To l after nasal glottal**
 
@@ -826,8 +734,6 @@ The rule **%{ауоэØ%} -> а**:
 
 *сыл00хавы examples:*
 
-
-
 **n to t after non-nasal glottal**
 
 *мя%{дˮØ%}%^SCSG2%>нʼ examples:*
@@ -841,7 +747,6 @@ The rule **%{ауоэØ%} -> а**:
 *сыр%{йнңъʼØ%}%>нарахав examples:*
 
 *сыр00тарахав examples:*
-
 
 *мя%{дˮØ%}%^SCSG2%>нась examples:*
 
@@ -865,7 +770,6 @@ The rule **%{ауоэØ%} -> а**:
 
 *мана000т examples:*
 
-
 *мя%{дˮØ%}%>д%{ая%} examples:*
 
 *мя00та examples:*
@@ -886,7 +790,6 @@ The rule **%{ауоэØ%} -> а**:
 
 *сыр00пˮ examples:*
 
-
 **ң:0 Before в:м +Sg+Acc+PxPl1:%>ваˮ**
 
 *илң%>ваˮ examples:*
@@ -895,13 +798,9 @@ The rule **%{ауоэØ%} -> а**:
 
 The rule **ъ:0 with Conj after vowels**:
 
-
 In the first context ...
 
 In the second context ...
-
-
-
 
 **ˮ:0**
 
@@ -916,14 +815,11 @@ In the second context ...
 
 ### SURFACE CONSONANT
 
-
 **х:с in яха**
 
 *яха%^A2I examples:*
 
 *еси0 examples:*
-
-
 
 **С1:с GlottalNonNasalToSurface**
 
@@ -937,18 +833,13 @@ In the second context ...
 
 *мя00аць0 examples:*
 
-
 **%{дˮØ%}:д GlottalNonNasalToSurface**
-
-
-
-
-
 
 **ь:0 with  GlottalNonNasalToZERO**
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

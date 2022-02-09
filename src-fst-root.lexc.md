@@ -26,8 +26,6 @@ The parts-of-speech are:
 * **+Pcle**
 * **+Num**
 
-
-
 The parts of speech are further split up into:
 
 * **+Prop**
@@ -39,8 +37,6 @@ The parts of speech are further split up into:
 * **+Rel**
 * **+Indef**
 * **+Refr** referential adverbs
-
-
 
 Adv
 * **+Manner**
@@ -54,13 +50,11 @@ The Usage extents are marked using the following tags:
 
 * **+Rus** (100% Russian homograph)
 
-
 Dialects
 
 * **+Dial/W** (Western dialects),
 * **+Dial/T** (Taimyr dialect  ),
 * **+Dial/E** (Eastern dialects),
-
 
 The nominals are inflected in the following Case and Number
 
@@ -98,9 +92,7 @@ are these needed?:
 derivative suffixes before case endings
 * **+Lim** limitative
 
-
 The possession is marked as such:
-
 
 * **+PxSg1**
 * **+PxSg2**
@@ -144,7 +136,6 @@ Verb moods are:
 * **+Mod/perfappr** approximative perfective
 * **+Mod/perfprob** perfective probabilitative
 * **+Mod/prob** imperfective probabilitative
-
 
 Verb tenses are:
 
@@ -203,13 +194,11 @@ Other verb forms are
 * **+VGen**
 * **+VAbess**
 
-
 Abbreviated words are classified with:
 
 * **+ABBR**
 * +Symbol = independent symbols in the text stream, like £, €, ©
 * **+ACR**
-
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
@@ -232,8 +221,6 @@ The verbs are syntactically split according to transitivity:
 * **+IV**
 
 * **+Aux** auxilliary verb
-
-
 
 Special multiword units are analysed with:
 
@@ -341,12 +328,7 @@ Question and Focus particles:
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-
-
-
-
 Semantics are classified with
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -358,7 +340,6 @@ source and target part-of-speech.
 * **+Der/MWN** modifier without noun head
 * **+Der/Pr** this is used with predication of nominals and deverbal modalities
 * _+Der/Cop_ This will replace the nominal conjugation Der/Pr
-
 
 ## Morphophonology
 
@@ -426,9 +407,7 @@ Object conjugation
 * **@R.CONJ.ObjAll@**
 * **@C.CONJ@**
 
-
 # The Root lexicon
-
 
 The word forms in Nenets start from the lexeme roots of basic
 word classes, or optionally from prefixes:
@@ -444,7 +423,6 @@ word classes, or optionally from prefixes:
 * **quantifiers ;**
 * **verbs ;**
 
-
 * **V_NEWWORDS ;** This is for feeding new verbs.
 * **Punctuation ;**
 * **Symbols ;**
@@ -454,19 +432,9 @@ word classes, or optionally from prefixes:
 * **INTERJECTION ;**
 * **POSTPOSITION ;**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-yrk/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/root.lexc)</small>
+
+---
+
