@@ -76,71 +76,71 @@ hash
 # Rules
 
 **к: -> г after nasal glottal**
-* *му%{нңʼØ%}%>кʼ*
-* *муң%>гʼ*
+* *му{нңʼØ}>кʼ*
+* *муң>гʼ*
 
-* *ил°%{йнңъʼØ%}%>к°ʼ*
-* *илаң%>г0ʼ*
+* *ил°{йнңъʼØ}>к°ʼ*
+* *илаң>г0ʼ*
 
 **к: to х after Vowels**
 
-* ты%^VowLower%>да examples:*
+* ты^VowLower>да examples:*
 
-* тэ0%>да examples:*
+* тэ0>да examples:*
 
-* ед°%>к%{ауоэØ%}на examples:*
+* ед°>к{ауоэØ}на examples:*
 
-* ед0%>хана examples:*
+* ед0>хана examples:*
 
-* намда%^VowLoss%>к%{ауоэØ%}в examples:*
+* намда^VowLoss>к{ауоэØ}в examples:*
 
-* намд00%>хав examples:*
+* намд00>хав examples:*
 
 **nTod**
 
-* му%{нңʼØ%}%^SCSG2%>нʼ examples:*
+* му{нңʼØ}^SCSG2>нʼ examples:*
 
-* мун0%>дʼ examples:*
+* мун0>дʼ examples:*
 
-* ңум%{йнңъʼØ%}%^SCSG2%>нʼ examples:*
+* ңум{йнңъʼØ}^SCSG2>нʼ examples:*
 
-* ңум00%>дʼ examples:*
+* ңум00>дʼ examples:*
 
-* ңум%{йнңъʼØ%}%^SCSG2%>н°ʼ examples:*
+* ңум{йнңъʼØ}^SCSG2>н°ʼ examples:*
 
-* ңум00%>д0ʼ examples:*
+* ңум00>д0ʼ examples:*
 
 **%{нңʼØ%}:н GlottalNasalToSurface**
 
-* му%{нңʼØ%}%>нд examples:*
+* му{нңʼØ}>нд examples:*
 
-* мун%>0д examples:*
+* мун>0д examples:*
 
-* му%{нңʼØ%}%>сь examples:*
+* му{нңʼØ}>сь examples:*
 
-* мун0%>зь examples:*
+* мун0>зь examples:*
 
-* му%{нңʼØ%}%^SCSG2%>нʼ examples:*
+* му{нңʼØ}^SCSG2>нʼ examples:*
 
-* мун0%>дʼ examples:*
+* мун0>дʼ examples:*
 
 **%{нңʼØ%}:ң GlottalNasalToSurface**
 
-* му%{нңʼØ%}%>кʼ examples:*
+* му{нңʼØ}>кʼ examples:*
 
-* муң%>гʼ examples:*
+* муң>гʼ examples:*
 
 **%{йнңъʼØ%}:ң GlottalNasalToSurface**
 
-* ил°%{йнңъʼØ%}%>к°ʼ examples:*
+* ил°{йнңъʼØ}>к°ʼ examples:*
 
-* илаң%>г0ʼ examples:*
+* илаң>г0ʼ examples:*
 
 **%{йнңъʼØ%}:н GlottalNasalToSurface**
 
-* ил°%{йнңъʼØ%}%^SCSG2%>н examples:*
+* ил°{йнңъʼØ}^SCSG2>н examples:*
 
-* илан0%>д examples:*
+* илан0>д examples:*
 
 * ила%{йнңъʼØ%}%>сиˮ examples:*
 
