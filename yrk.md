@@ -222,7 +222,7 @@ What makes this different from N_ТИРЕ?
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -248,7 +248,7 @@ Nenets adpositions inflect in person (and some in local cases).
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/adpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adpositions.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/adpositions.lexc)</small>
 
 ---
 
@@ -269,7 +269,7 @@ Nenets adverbs...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -282,7 +282,7 @@ Nenets clitics...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/clitics.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/clitics.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/clitics.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/clitics.lexc)</small>
 
 ---
 
@@ -293,7 +293,7 @@ Nenets descriptives...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/descriptives.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/descriptives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/descriptives.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/descriptives.lexc)</small>
 
 ---
 
@@ -304,7 +304,7 @@ Nenets interjections...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/interjections.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/interjections.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/interjections.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/interjections.lexc)</small>
 
 ---
 
@@ -555,7 +555,7 @@ Conjugation of nouns and adjectives
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -641,7 +641,7 @@ Nenets pronouns inflection
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -701,7 +701,7 @@ Yaml: **xano**
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -737,7 +737,7 @@ it's done
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/quantifiers.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/quantifiers.lexc)</small>
 
 ---
 
@@ -756,7 +756,7 @@ it's done
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -1118,7 +1118,7 @@ no vowel loss in stem
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -1963,7 +1963,7 @@ In the second context ...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -2403,7 +2403,7 @@ word classes, or optionally from prefixes:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -2415,7 +2415,7 @@ CONTINUE BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
 
@@ -2582,7 +2582,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-yrk/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-yrk/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -2602,7 +2602,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -2632,7 +2632,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
