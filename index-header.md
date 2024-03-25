@@ -12,7 +12,7 @@ These pages document the work on the [Tundra Nenets language model](https://gith
 ## Resources
 
 * [Language technology tools for Tundra Nenets](https://giellatekno.uit.no/cgi/index.yrk.eng.html) (based upon this model)
-* the Nenets [morphologically enriched dictionary](http://wada.oahpa.no)
+* the Nenets [morphologically enriched dictionary](http://vada.oahpa.no)
 * Generation of [paradigms](http://giellatekno.uit.no/cgi/p-yrk.eng.html)
 
 ## Project documentation
