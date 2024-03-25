@@ -17,7 +17,9 @@ These pages document the work on the [Tundra Nenets language model](https://gith
 
 ## Project documentation
 
-* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
+### Test results
+
+- [Test diary](testdiary.md)
 
 ## Using the analysers
 
