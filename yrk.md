@@ -1,6 +1,10 @@
-# Nenets description 
+# Nenets language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-functions.cg3.md 
 
 
 
@@ -170,7 +174,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-yrk/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-yrk/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 Nenets  adjectives.
 
 **LEXICON æLEXNAME@ to #
@@ -226,6 +237,8 @@ What makes this different from N_ТИРЕ?
 
 ---
 
+# src-fst-morphology-affixes-adpositions.lexc.md 
+
 
 # Adposition inflection
 Nenets adpositions inflect in person (and some in local cases).
@@ -252,6 +265,8 @@ Nenets adpositions inflect in person (and some in local cases).
 
 ---
 
+# src-fst-morphology-affixes-adverbs.lexc.md 
+
 # Adverbs
 Nenets adverbs...
 
@@ -273,6 +288,8 @@ Nenets adverbs...
 
 ---
 
+# src-fst-morphology-affixes-clitics.lexc.md 
+
 # Clitics inflection
 Nenets clitics...
 
@@ -286,6 +303,8 @@ Nenets clitics...
 
 ---
 
+# src-fst-morphology-affixes-descriptives.lexc.md 
+
 # Descriptives
 Nenets descriptives...
 
@@ -297,6 +316,8 @@ Nenets descriptives...
 
 ---
 
+# src-fst-morphology-affixes-interjections.lexc.md 
+
 # Interjections
 Nenets interjections...
 
@@ -307,6 +328,8 @@ Nenets interjections...
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/interjections.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Noun inflection
 
@@ -559,6 +582,8 @@ Conjugation of nouns and adjectives
 
 ---
 
+# src-fst-morphology-affixes-pronouns.lexc.md 
+
 # Pronoun inflection
 Nenets pronouns inflection
 
@@ -645,6 +670,8 @@ Nenets pronouns inflection
 
 ---
 
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
 # Proper noun inflection
 Nenets proper nouns inflect in the same cases as regular
 nouns, but with a XXX as separator.
@@ -705,6 +732,8 @@ Yaml: **xano**
 
 ---
 
+# src-fst-morphology-affixes-quantifiers.lexc.md 
+
 # Quantifier inflection
 Nenets quantifiers ...
 
@@ -741,6 +770,8 @@ it's done
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -759,6 +790,8 @@ it's done
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Nenets Verb inflection
 
@@ -1121,6 +1154,8 @@ no vowel loss in stem
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # Nenets twol file
 
@@ -1967,6 +2002,8 @@ In the second context ...
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 # Morphology
 INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
@@ -2407,6 +2444,8 @@ word classes, or optionally from prefixes:
 
 ---
 
+# src-fst-morphology-stems-verbs_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are
 added to the xml source files.
 V_ "FinnishTRANSLATION" ;
@@ -2418,6 +2457,8 @@ CONTINUE BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -2586,6 +2627,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Nenets are read out, e.g.
@@ -2605,6 +2648,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
+
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 # File containing Nenets numerals to cyphers 
@@ -2635,6 +2680,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 T U N D R A  N E N E T S  G R A M M A R   C H E C K E R
@@ -2933,7 +2980,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-yrk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for yrk
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-yrk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for yrk
 
 Usage:
 ```
@@ -2996,6 +3050,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-yrk/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for yrk
 
@@ -3060,6 +3116,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -3121,6 +3179,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-yrk/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

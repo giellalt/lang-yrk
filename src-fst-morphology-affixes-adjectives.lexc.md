@@ -51,6 +51,3 @@ What makes this different from N_ТИРЕ?
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-yrk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
-
----
-
