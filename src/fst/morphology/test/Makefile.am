@@ -20,7 +20,10 @@ GENERATION_TESTS_IN=generate-adjective-lemmas.sh.in  \
 
 #TESTS+=generate-verb-lemmas.sh
 
-GENERATION_TESTS=$(basename $(GENERATION_TESTS_IN))
+GENERATION_TESTS=generate-adjective-lemmas.sh \
+				 generate-noun-lemmas.sh \
+				 generate-propernoun-lemmas.sh \
+				 generate-verb-lemmas.sh
 
 if WANT_GENERATION
 TESTS+=$(GENERATION_TESTS)
