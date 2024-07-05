@@ -36,7 +36,7 @@ analyser_file=@abs_builddir@/../../analyser-gt-norm
 tags=+V+Ger
 xtags=
 inclusions=
-exclusions="--exclude (VA_НЁ|LEA)"
+exclusions="(VA_НЁ|LEA)"
 
 # call the generator script in giella core
 for tk in $TOOLKITS ; do

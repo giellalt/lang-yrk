@@ -35,7 +35,7 @@ analyser_file=@abs_builddir@/../../analyser-gt-norm
 tags="+N+Sg+Nom"
 xtags="+N+Pl+Nom"
 inclusions=
-exclusions="--exclude (CmpN/Only|ShCmp|RCmpnd|Rreal|R|Rnoun|\+V\+)"
+exclusions="(CmpN/Only|ShCmp|RCmpnd|Rreal|R|Rnoun|\+V\+)"
 
 for tk in $TOOLKITS ; do
     "$genscript" "$POS" "$source_file" "$generator_file" "$analyser_file"\
