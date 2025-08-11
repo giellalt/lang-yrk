@@ -2219,7 +2219,7 @@ Special symbols are classified with:
 * **+CLB**
 * **+PUNCT**
 * **+LEFT**
-* **+RIGHT**
+* **+RIGHT +MIDDLE**
 
 The verbs are syntactically split according to transitivity:
 
