@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -43,7 +43,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -162,16 +162,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -179,7 +179,7 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 Adjective inflection
 Nenets  adjectives.
@@ -237,10 +237,10 @@ What makes this different from N_ТИРЕ?
 
 ---
 
-# src-fst-morphology-affixes-adpositions.lexc.md 
+## src-fst-morphology-affixes-adpositions.lexc.md 
 
 
-# Adposition inflection
+## Adposition inflection
 Nenets adpositions inflect in person (and some in local cases).
 
 **LEXICON æLEXNAME@ 
@@ -265,9 +265,9 @@ Nenets adpositions inflect in person (and some in local cases).
 
 ---
 
-# src-fst-morphology-affixes-adverbs.lexc.md 
+## src-fst-morphology-affixes-adverbs.lexc.md 
 
-# Adverbs
+## Adverbs
 Nenets adverbs...
 
 * **LEXICON ADV_** to # without tag
@@ -288,9 +288,9 @@ Nenets adverbs...
 
 ---
 
-# src-fst-morphology-affixes-clitics.lexc.md 
+## src-fst-morphology-affixes-clitics.lexc.md 
 
-# Clitics inflection
+## Clitics inflection
 Nenets clitics...
 
 **LEXICON æLEXNAME@ optional +Qst 
@@ -303,9 +303,9 @@ Nenets clitics...
 
 ---
 
-# src-fst-morphology-affixes-descriptives.lexc.md 
+## src-fst-morphology-affixes-descriptives.lexc.md 
 
-# Descriptives
+## Descriptives
 Nenets descriptives...
 
 **LEXICON æLEXNAME@ adds the tag **+Descr**
@@ -316,9 +316,9 @@ Nenets descriptives...
 
 ---
 
-# src-fst-morphology-affixes-interjections.lexc.md 
+## src-fst-morphology-affixes-interjections.lexc.md 
 
-# Interjections
+## Interjections
 Nenets interjections...
 
 **LEXICON æLEXNAME@ just goes to #
@@ -329,9 +329,9 @@ Nenets interjections...
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Noun inflection
+## Noun inflection
 
 Nenets nouns inflect in cases.
 
@@ -528,8 +528,8 @@ NMN
 Yaml: **yed**
 * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
 
-## NOMINALS "NMN"
-### THREE-SYLLABLE VOWEL-FINAL STEMS
+### NOMINALS "NMN"
+#### THREE-SYLLABLE VOWEL-FINAL STEMS
 
 * **POSSESSA-PLURAL ;** +Pl+Dat, +Pl+Loc, +Pl+Abl
 
@@ -572,7 +572,7 @@ Plural Possessa
 
 Conjugation of nouns and adjectives
 
-## NEW
+### NEW
 
 >>NEW-SG-LOC_Кна/Кана
 
@@ -582,9 +582,9 @@ Conjugation of nouns and adjectives
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
-# Pronoun inflection
+## Pronoun inflection
 Nenets pronouns inflection
 
 **LEXICON æLEXNAME@ for the unclassified ones
@@ -670,23 +670,23 @@ Nenets pronouns inflection
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
-# Proper noun inflection
+## Proper noun inflection
 Nenets proper nouns inflect in the same cases as regular
 nouns, but with a XXX as separator.
 
 **LEXICON æLEXNAME@ for bunclassified ones
 
-### ONE-SYLLABLE VOWEL-FINAL STEM
+#### ONE-SYLLABLE VOWEL-FINAL STEM
 **LEXICON æLEXNAME@ 
 
 **LEXICON æLEXNAME@ 
 
-### ONE-SYLLABLE CONSONANT-FINAL STEM
+#### ONE-SYLLABLE CONSONANT-FINAL STEM
 **LEXICON æLEXNAME@ 
 
-### TWO-SYLLABLE CONSONANT-FINAL STEM
+#### TWO-SYLLABLE CONSONANT-FINAL STEM
 * **LEXICON PROP_ПАНЫ** пӑны:пӑны 9
 
 * **LEXICON PROP_ХАНО** хӑн: 11P ProsSg -увна
@@ -721,7 +721,7 @@ Yaml: **xano**
 
 **LEXICON æLEXNAME@ 
 
-### THREE-SYLLABLE VOWEL-FINAL STEM
+#### THREE-SYLLABLE VOWEL-FINAL STEM
 **LEXICON æLEXNAME@ 
 
 **LEXICON æLEXNAME@  Here we need some kind of vowel harmony
@@ -732,9 +732,9 @@ Yaml: **xano**
 
 ---
 
-# src-fst-morphology-affixes-quantifiers.lexc.md 
+## src-fst-morphology-affixes-quantifiers.lexc.md 
 
-# Quantifier inflection
+## Quantifier inflection
 Nenets quantifiers ...
 
 * **LEXICON NUM_МЯДО**
@@ -770,10 +770,10 @@ it's done
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 **LEXICON æLEXNAME@ 
 
@@ -791,13 +791,13 @@ it's done
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Nenets Verb inflection
+## Nenets Verb inflection
 
 **LEXICON V_** for unassigned verbs
 
-## ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+### ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 * **LEXICON IV_Е** есь:е
 
 **LEXICON IV_МЭ** 
@@ -849,7 +849,7 @@ it's done
 
 **LEXICON IV_ХЭ** 
 
-## TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+### TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
 * **LEXICON IV_НАМДА** намдась:намда
 **LEXICON IV_НАМДА** 
@@ -900,7 +900,7 @@ it's done
 
 **LEXICON TV_ЮХУ** 
 
-### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+#### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 **LEXICON IV_ЛАХАНА** 
 
 **LEXICON IV_ЛАХАНА-Pal/Var** 
@@ -925,7 +925,7 @@ it's done
 
 **LEXICON TV_ЯˮАВЛУ** 
 
-### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+#### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 * **LEXICON IV_МАН** манзь:ма%{нңʼØ%} 
 * Yaml: **manzj**
 
@@ -941,17 +941,17 @@ it's done
 
 * LEXICON TV_САС  манэць:манэ
 
-### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+#### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 * **LEXICON IV_НЭКАЛ** 
 
 * **LEXICON IV_ҢАДИМ/ҢАРАМ** 2013-12-16
 
-## AFTER +TV, +IV, +Aux, +Refl
+### AFTER +TV, +IV, +Aux, +Refl
 Not yet written.
 
-## CONJUGATION BY STEM TYPE
+### CONJUGATION BY STEM TYPE
 
-### ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+#### ONE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 
 *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -984,7 +984,7 @@ V_refl 2013-03-04
 
 *  PRC-NEG ; 	+PrcNeg +PrcFut
 
-### TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+#### TWO-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 *  PRC-NEG ; 	+PrcNeg +PrcFut
 * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -1027,7 +1027,7 @@ V_refl
 *  PRC-NEG ; 	+PrcNeg +PrcFut
 * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
-### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
+#### THREE-SYLLABLE STEMS WITH STEM-FINAL VOWEL
 а > э in Pl Oc 
 *  PRC-NEG ; 	+PrcNeg +PrcFut
 
@@ -1041,7 +1041,7 @@ V_refl 2013-03-04  а > ы (ъя before х)
 *  PRC-NEG ; 	+PrcNeg +PrcFut
 * :%^VowRaise PRC-NEG ; 	+PrcNeg +PrcFut
 
-### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+#### ONE-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 * **LEXICON V-01_МАН** манзь:ма%{нңʼØ%} 
 * Yaml: **manzj**
 *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -1060,7 +1060,7 @@ V_refl 2013-03-04
 
 *  PRC-NEG ; 	+PrcNeg +PrcFut
 
-### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
+#### TWO-SYLLABLE STEMS WITH STEM-FINAL CONSONANT
 * **LEXICON V-01_НЭКАЛ** нэкалць:нэкал
 
 *  PRC-NEG ; 	+PrcNeg +PrcFut
@@ -1155,13 +1155,13 @@ no vowel loss in stem
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# Nenets twol file
+## Nenets twol file
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-yrk/blob/main/src/fst/phonology.twolc) 
 
-## Letters of the alphabet
+### Letters of the alphabet
 * **а б в г д е ё ж з и й к л м н ң о п р с т у ф х ц ч ш щ ъ ы ь э ю я** 
 * **А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я** 
 
@@ -1169,7 +1169,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 
 * **ә:а** Directly from Tapani Salminen schwa
 
-## Archiphonemes for vowels
+### Archiphonemes for vowels
 
 * %{ауоэØ%}:а  А1:а А1:у А1:о А1:э SCHWA
 * %{ауоэиыØ%}:0 before pros
@@ -1181,7 +1181,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 
 * Ы2:э  
 
-## Archiphonemes for glottals
+### Archiphonemes for glottals
 
 *  %{нңʼØ%}:ʼ   
 *  %{нңʼØ%}:н   
@@ -1209,7 +1209,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 
 * **%{вм%}:0** +N+Sg+Nom+PxSg1
 
-## triggers
+### triggers
 
 *  %^SCSG2:0     this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
 *  %^PLNOM:0     disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
@@ -1227,12 +1227,12 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-y
 *  %^PalLoss:0      in combination with stem-final vowel loss тёня:тён
 *  %^HardFronting:0      яля:ялэ
 
-## Boundary symbols
+### Boundary symbols
 
 *  %>      
 hash
 
-# Rules
+## Rules
 
 **к: -> г after nasal glottal**
 * *му{нңʼØ}>кʼ*
@@ -1745,7 +1745,7 @@ The rule **%{ауоэØ%} -> а**:
 
 * пи00ˮин examples:*
 
-## VOWEL LOWERING
+### VOWEL LOWERING
 
 **i2e StemFinalYToE LEFT**
 
@@ -1804,7 +1804,7 @@ The rule **%{ауоэØ%} -> а**:
 * пэва%^VowFronting%^VowRaise%>ˮ examples:*
 
 * пэбю000ˮ examples:*
-## VOWEL LOSS
+### VOWEL LOSS
 
 **а:ю яˮавла:яˮавлу**
 
@@ -1816,7 +1816,7 @@ The rule **%{ауоэØ%} -> а**:
 
 * тён000 examples:*
 
-## CONSONANT CHANGES
+### CONSONANT CHANGES
 
 **mToV**
 
@@ -1970,9 +1970,9 @@ In the second context ...
 * сыр%^SCSG2%>накы examples:*
 
 * сыр00такы examples:*
-## Realization of glottal stops
+### Realization of glottal stops
 
-### SURFACE CONSONANT
+#### SURFACE CONSONANT
 
 **х:с in яха**
 
@@ -2002,15 +2002,15 @@ In the second context ...
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Morphology
+## Morphology
 INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF NENETS
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms of the TUNDRA NENETS language are presented
 in this system in terms of following the symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -2206,7 +2206,7 @@ Abbreviated words are classified with:
 * +Symbol = independent symbols in the text stream, like £, €, ©
 * **+ACR**
 
-## Symbols that need to be escaped on the lower side (towards twolc):
+### Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
 ```
@@ -2347,7 +2347,7 @@ source and target part-of-speech.
 * **+Der/Pr** this is used with predication of nominals and deverbal modalities
 * _+Der/Cop_ This will replace the nominal conjugation Der/Pr
 
-## Morphophonology
+### Morphophonology
 
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
@@ -2387,7 +2387,7 @@ These are proto-glottals
 * **Д1**
 * **Ы2** = These are for developing underlying morphology rules
 
-## Triggers
+### Triggers
 
 * **%^A2O** Initially this is used for the noun "я" to enable a:o
 * **%^A2I** for я:и in пя
@@ -2413,7 +2413,7 @@ Object conjugation
 * **@R.CONJ.ObjAll@**
 * **@C.CONJ@**
 
-# The Root lexicon
+## The Root lexicon
 
 The word forms in Nenets start from the lexeme roots of basic
 word classes, or optionally from prefixes:
@@ -2444,7 +2444,7 @@ word classes, or optionally from prefixes:
 
 ---
 
-# src-fst-morphology-stems-verbs_newwords.lexc.md 
+## src-fst-morphology-stems-verbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are
 added to the xml source files.
@@ -2458,7 +2458,7 @@ CONTINUE BELOW
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -2627,7 +2627,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -2649,10 +2649,10 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
-# File containing Nenets numerals to cyphers 
+## File containing Nenets numerals to cyphers 
 
 - HUNDREDSM ; = 200M
 - 1:юрˮ HUNDREDM ; = 100M
@@ -2681,26 +2681,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 T U N D R A  N E N E T S  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -2727,7 +2727,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -2743,7 +2743,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -2806,7 +2806,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -2839,7 +2839,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -2909,22 +2909,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -2935,11 +2935,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -2947,7 +2947,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -2959,25 +2959,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -2985,9 +2985,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for yrk
+## Tokeniser for yrk
 
 Usage:
 ```
@@ -3032,7 +3032,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -3051,9 +3051,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for yrk
+## Grammar checker tokenisation for yrk
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -3116,9 +3116,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
