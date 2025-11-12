@@ -1,6 +1,3 @@
-spellername = "Nenets"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "1357CEA4-CD3F-4872-B9EE-902C9E307E85", kind = "nsis" },
     { value = "EEC0E9D0-876A-45F3-A640-53CB4E8CFDBA", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Nenets"
+version = "0.1.1"
+
+[package.grammar]
+name = "Nenets"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Nenets"
+version = "0.1.0"
