@@ -12,7 +12,6 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 
 These pages document the work on the [Tundra Nenets language model](https://github.com/giellalt/lang-yrk). The model is primarily written by *Sven-Erik Soosaar*, with some contributions from *Jack Rueter* and others. The analyser contains appr. 19000 stems and most of the inflectional morphology.
 
-
 ## Resources
 
 * [Language technology tools for Tundra Nenets](https://giellatekno.uit.no/cgi/index.yrk.eng.html) (based upon this model)
