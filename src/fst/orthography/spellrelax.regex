@@ -2,12 +2,15 @@
 
 # Glottal stop spellrelax
 # These need to be changed 2016-05-26
+# Ң = U+04A2 Cyrillic capital letter en with descender
 [Ң (->) Н г, # 04A2 not two letters
  ң (->) н г, # 04A3 not two letters
- Ң (->) Ҥ, # U+04A2 not 04A4 
+ Ң (->) Ҥ, # U+04A2 not 04A4 Cyrillic capital ligature en ghe
  ң (->) ҥ, # U+04A3 not 04A5
- Ң (->) Ӈ, # U+04A2 not 04C7 
+ Ң (->) Ӈ, # U+04A2 not 04C7 Cyrillic capital letter en with hook
  ң (->) ӈ, # U+04A3 not 04C8
+ Ң (->) Ӊ, # U+04A2 not 04C9 Cyrillic capital letter en with tail 
+ ң (->) ӊ, # U+04A3 not 04CA
 # U+E404 CYRILLIC LETTER E WITH DOT ABOVE
 # U+E405 CYRILLIC SMALL LETTER E WITH DOT ABOVE
 # These are not reliably distinguished by writers, so just everything to everything.
