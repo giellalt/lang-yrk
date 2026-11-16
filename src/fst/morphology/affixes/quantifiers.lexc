@@ -3,52 +3,52 @@
 !! Nenets quantifiers ...
 
 LEXICON NUM_МЯДО !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_МЯДО ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_МЯДО ;
 
 LEXICON NUM_ВАР !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ВАР ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ВАР ;
 
 LEXICON NUM_ҢУДИ !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ҢУДИ ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ҢУДИ ;
 
 LEXICON NUM_ҢОДИ !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ҢОДИ ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ҢОДИ ;
 
 LEXICON NUM_ТАРЕ !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ТАРЕ ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ТАРЕ ;
 
 LEXICON NUM_ЕД !!= @CODE@ ед: 13 
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ЕД ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ЕД ;
 
 LEXICON NUM_ЕД/ТИРЕ !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ЕД/ТИРЕ ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ЕД/ТИРЕ ;
 
 LEXICON NUM_ЕД/ХАНО !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ЕД/ХАНО ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ЕД/ХАНО ;
 
 LEXICON NUM_ҢОДИ/ТЁН !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: N_ҢОДИ/ТЁН ;
++Num+Adn: K ;
++Num+Der/MWN: N_ҢОДИ/ТЁН ;
 
 LEXICON NUM_ТИРЕ/ХАНО !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ТИРЕ/ХАНО ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ТИРЕ/ХАНО ;
 
 LEXICON NUM_ХУСУВЭЙ !!≈ * **@CODE@**
-+Qnt+Num+Adn: K ;
-+Qnt+Num+Der/MWN: NMN_ХУСУВЭЙ ;
++Num+Adn: K ;
++Num+Der/MWN: NMN_ХУСУВЭЙ ;
 
 LEXICON QNT_ХУСУВЭЙ !!≈ * **@CODE@**
-+Qnt+Adn: K ;
-+Qnt+Der/MWN+N: NMN_ХУСУВЭЙ ;
++Adn: K ;
++Der/MWN+N: NMN_ХУСУВЭЙ ;
 
 !! we need to get away from these: NUM_VOW and NUM_CONS
 !! it's done
