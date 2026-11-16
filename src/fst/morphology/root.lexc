@@ -24,6 +24,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! in this system in terms of following the symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 +WORK  !!≈ * **@CODE@** WORK HAS TO BE DONE Do not remove, replaces +TYÄ
+!! letter used to distinguish mid letter from lower 
+э̇
+
 !! The parts-of-speech are:
 
 +N	    !!≈ * **@CODE@**
@@ -522,23 +525,23 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{ая%}    !!≈ * **@CODE@** in Pros
- %{оё%}    !!≈ * **@CODE@** in +N+Sg+Nom+PxPl3
- %{рл%}	   !!≈ * **@CODE@** +N+Sg+Nom+PxSg2
- %{аяуюØ%} !!≈ * **@CODE@** хан+N+Sg+Acc+PxSg1: ханув, ханав
- %{увм%}   !!≈ * **@CODE@** +N+Sg+Pros
- %{вм%}	   !!≈ * **@CODE@** +N+Sg+Nom+PxSg1
+ {ая}    !!≈ * **@CODE@** in Pros
+ {оё}    !!≈ * **@CODE@** in +N+Sg+Nom+PxPl3
+ {рл}	   !!≈ * **@CODE@** +N+Sg+Nom+PxSg2
+ {аяуюØ} !!≈ * **@CODE@** хан+N+Sg+Acc+PxSg1: ханув, ханав
+ {увм}   !!≈ * **@CODE@** +N+Sg+Pros
+ {вм}	   !!≈ * **@CODE@** +N+Sg+Nom+PxSg1
 
 !! And the following triggers to control variation:
  {front}   !!≈ * **@CODE@**
  {back}    !!≈ * **@CODE@**
  %^SCSG2   !!≈ * **@CODE@** this allows n2d +V+Ind+Aor+ScSg2:%>н°%^SCSG2
  %^PLNOM   !!≈ * **@CODE@** disallows i2e +N+Pl+Nom+PxDu1+Der/Cop+Ind+Aor+ScPl3
- %^PalVariation !!≈ * **@CODE@** This allows for тар%{дˮØ%}%>д%{оё%}нзь
+ %^PalVariation !!≈ * **@CODE@** This allows for тар{дˮØ}%>д{оё}нзь
 
 !! Protoletters for xfst:
- %{ауоэØ%}   !!≈ * **@CODE@**  А1:а А1:у А1:о А1:э schwa
- %{ауоэиыØ%} !!≈ * **@CODE@** before pros
+ {ауоэØ}   !!≈ * **@CODE@**  А1:а А1:у А1:о А1:э schwa
+ {ауоэиыØ} !!≈ * **@CODE@** before pros
 
 !! This is the schwa or reduced vowel occurring after x in case endings
 ! -хА1на -хА1д
@@ -546,10 +549,10 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 А2  !!≈ * **@CODE@** Alternating between zero and а
 
 !! These are proto-glottals
-%{дˮØ%}  !!≈ * **@CODE@**
+{дˮØ}  !!≈ * **@CODE@**
 С1  !!≈ * **@CODE@**
- %{нңʼØ%}  !!≈ * **@CODE@**
- %{йнңъʼØ%}  !!≈ * **@CODE@** = These are proto-glottals
+ {нңʼØ}  !!≈ * **@CODE@**
+ {йнңъʼØ}  !!≈ * **@CODE@** = These are proto-glottals
 
 Г1  !!≈ * **@CODE@**
 В1  !!≈ * **@CODE@**
